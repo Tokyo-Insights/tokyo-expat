@@ -708,6 +708,831 @@ Finding the right property at the right price in the right neighbourhood is wher
 *Preparing your move to Tokyo? Book a free consultation to map out a realistic budget and see what is available in your range.*
     `.trim(),
   },
+  {
+    slug: 'visa-travail-japon-francophone-2026',
+    locale: 'fr',
+    title: 'Visa travail au Japon pour les francophones : quel type choisir en 2026 ?',
+    description: 'Visa ingénieur, travailleur hautement qualifié, working holiday : les options de visa pour travailler au Japon expliquées pour les ressortissants français et belges.',
+    date: '2026-06-19',
+    readingTime: '8 min',
+    content: `
+Travailler au Japon en tant que francophone est tout à fait possible, mais le système de visas japonais est complexe et mal documenté en français. Voici les principales catégories de visas pour les ressortissants français, belges et suisses, avec les conditions réelles pour chacune.
+
+## Le visa ingénieur / humanités / services internationaux (le plus courant)
+
+C'est le visa de travail standard pour les professionnels qualifiés au Japon. Il couvre un large éventail de métiers : développeurs, ingénieurs, traducteurs, professeurs de langues, marketing international, ressources humaines.
+
+**Conditions** :
+- Un diplôme universitaire (licence minimum) dans un domaine lié au poste
+- Ou 10 ans d'expérience professionnelle dans le domaine (sans diplôme)
+- Une offre d'emploi ferme d'une entreprise japonaise qui fait la demande de visa en votre nom
+- Le salaire doit être équivalent à celui d'un Japonais au même poste
+
+**Durée** : 1 an, 3 ans ou 5 ans selon le profil et l'entreprise. Renouvelable indéfiniment.
+
+**Délai** : 1 à 3 mois après soumission du dossier. Certaines entreprises sont "reconnues" par l'immigration japonaise et bénéficient de délais réduits (2 semaines).
+
+**Ce que ce visa vous permet** : travailler uniquement pour l'employeur mentionné sur le visa. Changer d'employeur nécessite de modifier le statut de résidence.
+
+## Le visa travailleur hautement qualifié (HSP)
+
+Le système HSP (Highly Skilled Professional) est un système à points. Si vous cumulez 70 points ou plus selon un barème officiel, vous obtenez un statut préférentiel avec de nombreux avantages.
+
+**Les points sont attribués selon** :
+- L'âge (plus on est jeune, plus on a de points : 15 points avant 30 ans, 10 entre 30 et 35 ans)
+- Le niveau de diplôme (doctorat = 30 points, master = 20 points, licence = 10 points)
+- Le salaire annuel (70 points pour 10 millions JPY/an, 40 points pour 4 millions JPY/an)
+- L'expérience professionnelle
+- Les brevets déposés
+- La recherche académique
+- La connaissance du japonais (JLPT N1 ou N2 ajoute des points)
+
+**Avantages du HSP par rapport au visa standard** :
+- Résidence permanente accessible après 1 à 3 ans (au lieu de 10 ans normalement)
+- Autorisation de faire venir les parents au Japon dans certains cas
+- Autorisation de travailler dans plusieurs entreprises simultanément
+- Le conjoint peut travailler sans restriction
+
+**Comment calculer ses points** : le Ministère de la Justice japonais propose un calculateur officiel en ligne (en japonais, mais les chiffres parlent d'eux-mêmes).
+
+## Le working holiday pour les moins de 30 ans
+
+La France, la Belgique et le Canada ont des accords de working holiday avec le Japon. La Suisse n'est pas incluse dans cet accord.
+
+**Conditions** :
+- Avoir entre 18 et 30 ans (jusqu'à 30 ans inclus au moment de la demande)
+- Être ressortissant français ou belge
+- Ne pas avoir de charges familiales (conjoint ou enfants dépendants)
+- Ne jamais avoir obtenu de visa working holiday pour le Japon auparavant
+
+**Ce que ce visa permet** :
+- Séjour d'1 an au Japon
+- Travail sans restriction particulière sur le type d'emploi
+- Possibilité de changer d'employeur librement
+- Études jusqu'à 6 mois
+
+**Ce qu'il ne permet pas** :
+- Être renouvelé (une seule utilisation possible)
+- Travailler dans des établissements de divertissement pour adultes
+
+**Quota annuel** : 1 500 places pour la France, accordées sur demande dans l'ordre de réception. Les demandes ouvrent en janvier. Il est fortement conseillé de postuler dès l'ouverture.
+
+## Le visa étudiant
+
+Si vous venez étudier le japonais dans une école de langue ou dans une université japonaise, le visa étudiant est la voie naturelle.
+
+**Ce qu'il permet** :
+- Rester au Japon pendant la durée des études
+- Travailler jusqu'à 28 heures par semaine (autorisation à demander séparément à l'immigration)
+
+**Ce qu'il ne permet pas** :
+- Signer la plupart des contrats de bail en tant que locataire principal (beaucoup de propriétaires refusent)
+- Changer de statut facilement si vous trouvez un emploi (il faut souvent rentrer et repostuler)
+
+Pour loger, les étudiants sont orientés vers les résidences universitaires ou les share houses, qui acceptent généralement les visas étudiants.
+
+## Le visa conjoint de ressortissant japonais
+
+Si vous êtes marié à un citoyen japonais, vous obtenez un visa conjoint qui vous permet de travailler sans restriction, dans n'importe quelle entreprise et dans n'importe quel secteur.
+
+Ce visa ne dépend pas d'un employeur et n'est pas lié à un poste spécifique. Il est renouvelable tant que le mariage est valide.
+
+## Les erreurs à éviter absolument
+
+**Arriver au Japon en touriste en espérant changer de visa sur place** : c'est légalement possible dans certains cas très précis, mais les délais administratifs (plusieurs semaines) pendant lesquels vous ne pouvez pas travailler légalement rendent cette approche risquée. La voie normale est d'obtenir le visa dans votre pays avant de partir.
+
+**Changer d'employeur sans signaler le changement de statut** : le visa de travail est lié à un employeur. Si vous changez d'emploi, vous devez déclarer le changement au bureau de l'immigration dans les 14 jours.
+
+**Travailler au-delà des heures autorisées avec un visa étudiant** : le quota de 28h/semaine est contrôlé. Le dépassement peut entraîner la non-renouvellement du visa.
+
+## Quel visa choisir selon votre situation ?
+
+**Vous avez une offre d'emploi** : visa ingénieur/humanités (ou HSP si vous cumulez 70+ points).
+
+**Vous avez moins de 30 ans et voulez tester le Japon** : working holiday. C'est la porte d'entrée la plus souple.
+
+**Vous venez pour des études** : visa étudiant avec autorisation de travail partiel.
+
+**Vous êtes marié à un Japonais** : visa conjoint, le plus flexible.
+
+Une fois votre visa obtenu, l'étape suivante est de trouver un logement. Les contraintes varient selon le type de visa : un visa ingénieur facilite l'accès aux appartements standard, tandis que les titulaires de working holiday ou de visa étudiant sont souvent orientés vers les share houses.
+
+---
+
+*Vous avez votre visa et cherchez un logement à Tokyo ? Réservez une consultation gratuite pour voir les options disponibles dès votre arrivée.*
+    `.trim(),
+  },
+  {
+    slug: 'ouvrir-compte-bancaire-japon-etranger',
+    locale: 'fr',
+    title: 'Ouvrir un compte bancaire au Japon en tant qu\'étranger : guide 2026',
+    description: 'Japan Post Bank, Sony Bank, Rakuten : quelle banque choisir et comment ouvrir un compte bancaire au Japon sans parler japonais, avec un visa récent.',
+    date: '2026-06-19',
+    readingTime: '6 min',
+    content: `
+Ouvrir un compte bancaire au Japon est l'une des premières démarches administratives à régler après l'obtention de votre carte de résidence. Sans compte bancaire japonais, vous ne pouvez pas recevoir un salaire japonais, payer votre loyer par virement, ni obtenir un SIM card en contrat.
+
+## Ce dont vous avez besoin avant de commencer
+
+Toutes les banques japonaises exigent au minimum :
+- Votre **carte de résidence** (Zairyu Card) avec votre adresse enregistrée
+- Votre **passeport**
+- Votre adresse au Japon (l'adresse doit être enregistrée à la mairie avant d'ouvrir un compte)
+
+Certaines banques demandent également :
+- Votre numéro My Number (le numéro fiscal japonais, reçu par courrier 2 à 3 semaines après l'enregistrement à la mairie)
+- Un cachet d'enregistrement personnel (hanko) - de moins en moins exigé
+- Une preuve d'emploi ou de revenus
+
+## Japan Post Bank (Yucho) : la plus accessible
+
+**Recommandée pour les expatriés récemment arrivés.**
+
+La Japan Post Bank (ゆうちょ銀行) est la plus accueillante envers les étrangers nouvellement arrivés. Elle est présente dans tous les bureaux de poste du Japon, soit plusieurs milliers d'agences.
+
+**Ce qu'elle accepte** :
+- Carte de résidence même très récente (quelques jours suffisent)
+- Passeport
+- L'interface peut être faite en anglais dans les grandes agences
+
+**Ce qu'elle propose** :
+- Compte courant standard (futsu yokin)
+- Carte de débit (Yucho Visa Debit) utilisable partout
+- Virements vers l'étranger possibles mais coûteux (utiliser Wise pour les transferts internationaux)
+- Pas de frais de tenue de compte
+
+**Délai** : ouverture le jour même en agence. Carte reçue par courrier sous 1 à 2 semaines.
+
+## Sony Bank : la meilleure pour les expatriés actifs
+
+Sony Bank est une banque entièrement en ligne avec une interface disponible en anglais et une application mobile bien conçue. Elle est particulièrement adaptée aux expatriés qui effectuent des transferts internationaux réguliers.
+
+**Avantages** :
+- Interface et support en anglais
+- Taux de change avantageux pour les transferts internationaux (proches du taux de marché)
+- Compte multidevises (JPY, USD, EUR, GBP, AUD, etc.)
+- Carte Visa internationale incluse
+
+**Conditions** :
+- Nécessite votre numéro My Number (reçu par courrier 2-3 semaines après l'enregistrement)
+- Demande en ligne, pas besoin de se déplacer
+
+**Délai** : 1 à 2 semaines après soumission du dossier en ligne.
+
+## Rakuten Bank : pratique si vous utilisez Rakuten
+
+Si vous commandez régulièrement sur Rakuten (l'équivalent japonais d'Amazon), Rakuten Bank est intéressant car chaque achat génère des points Rakuten utilisables partout.
+
+**Conditions** :
+- Nécessite le numéro My Number
+- Demande entièrement en ligne
+
+**Inconvénients** :
+- Interface principalement en japonais
+- Moins adapté aux transferts internationaux que Sony Bank
+
+## Les grandes banques japonaises (SMBC, Mizuho, MUFG)
+
+Sumitomo Mitsui Banking Corporation (SMBC), Mizuho, et Mitsubishi UFJ (MUFG) sont les trois plus grandes banques japonaises. Elles sont nécessaires pour certaines transactions professionnelles ou pour les employeurs qui exigent un virement sur l'une de ces banques.
+
+**Problème pour les expatriés récents** : la plupart de ces banques refusent d'ouvrir un compte si vous êtes au Japon depuis moins de 6 mois. Les exceptions existent si votre employeur est client de la banque et intervient en votre faveur.
+
+**Conseil** : ouvrez d'abord un compte Japan Post Bank ou Sony Bank à l'arrivée, puis une grande banque après 6 mois si votre employeur ou situation le nécessite.
+
+## Wise (ex-TransferWise) : le compte de transition
+
+Wise n'est pas une banque japonaise, mais un service de transfert et de gestion de devises en ligne. Il permet d'avoir un IBAN européen et un compte en JPY, d'effectuer des virements internationaux au taux de marché, et de payer avec une carte dans le monde entier.
+
+Utile comme solution de transition pendant les premières semaines, avant d'obtenir un vrai compte bancaire japonais.
+
+## Les erreurs à éviter
+
+**Essayer d'ouvrir un compte sans carte de résidence** : les banques japonaises n'ouvrent pas de compte aux touristes ou aux détenteurs de visa court séjour. La Zairyu Card est obligatoire.
+
+**Attendre trop longtemps** : sans compte bancaire japonais, vous ne pouvez pas recevoir de salaire, payer votre loyer par prélèvement automatique, ni obtenir de carte SIM en contrat. C'est une priorité dès la première semaine.
+
+**Oublier de mettre à jour votre adresse à la banque** : si vous déménagez, vous devez signaler votre nouvelle adresse à votre banque (comme à la mairie). Les Japonais sont très stricts sur la correspondance entre l'adresse enregistrée et l'adresse bancaire.
+
+## Récapitulatif par profil
+
+**Venez d'arriver (moins d'1 mois)** : Japan Post Bank en premier, Sony Bank dès réception du My Number.
+
+**Vous avez besoin de transferts internationaux fréquents** : Sony Bank pour le compte principal, Wise pour les transferts ponctuels.
+
+**Votre employeur impose SMBC ou Mizuho** : Japan Post Bank en attendant les 6 mois, puis grande banque.
+
+**Vous êtes étudiant ou en working holiday** : Japan Post Bank, la seule qui accepte sans délai de résidence minimum.
+
+---
+
+*Vous préparez votre installation à Tokyo ? Consultez gratuitement pour obtenir une liste de logements disponibles immédiatement.*
+    `.trim(),
+  },
+  {
+    slug: 'appartement-meuble-tokyo-sans-garant',
+    locale: 'fr',
+    title: 'Appartement meublé à Tokyo sans garant : comment trouver en 2026',
+    description: 'Louer un appartement meublé à Tokyo sans garant japonais est possible. Voici les opérateurs, les conditions réelles et les alternatives au reikin.',
+    date: '2026-06-19',
+    readingTime: '7 min',
+    content: `
+L'un des plus grands obstacles pour un étranger qui cherche un appartement à Tokyo est le garant japonais (hoshounin). La bonne nouvelle : il existe un marché entier de logements meublés conçus spécifiquement pour les étrangers, sans garant obligatoire.
+
+## Pourquoi les propriétaires japonais exigent un garant
+
+Historiquement, le système locatif japonais repose sur une confiance implicite communautaire. Un garant personnel est censé garantir non seulement le paiement du loyer, mais aussi le comportement du locataire. Pour un propriétaire japonais traditionnel, louer à un étranger sans garant japonais représente un risque perçu comme élevé.
+
+Ce système évolue, mais lentement. La solution qui s'est développée pour contourner cette barrière est double : les sociétés de garantie (hoshougaisha) et les opérateurs de logements meublés ciblant les expatriés.
+
+## Les appartements meublés "gaijin-friendly"
+
+Des opérateurs spécialisés ont construit leur modèle sur la location aux étrangers. Ils ont négocié en amont avec les propriétaires, pre-sélectionné les biens, et simplifié le processus de candidature.
+
+**Ce que ces opérateurs proposent typiquement** :
+- Baux sans garant japonais (ils se portent garants collectivement ou utilisent une société de garantie partenaire)
+- Contrats disponibles en anglais
+- Durées flexibles (parfois dès 1 mois)
+- Logements déjà équipés (lit, bureau, réfrigérateur, machine à laver, cuisine équipée)
+- Internet inclus dans beaucoup de cas
+
+**Les conditions habituelles pour candidater** :
+- Visa valide (travail, étudiant, working holiday ou autre)
+- Revenus stables ou contrat de travail
+- Paiement d'une caution (généralement 1 mois de loyer)
+- Parfois : paiement de l'équivalent de 1 à 2 mois en avance
+
+## Les frais d'entrée réels pour un meublé sans reikin
+
+L'un des avantages majeurs du logement meublé sans reikin est la réduction drastique des frais d'entrée :
+
+**Appartement meublé sans reikin :**
+- Caution : 1 mois de loyer (remboursable)
+- Frais administratifs : 10 000 à 30 000 JPY
+- Premier mois de loyer
+- **Total : environ 2 à 2,5 mois de loyer**
+
+**Appartement standard avec reikin :**
+- Caution : 1 à 2 mois (remboursable)
+- Reikin : 1 à 2 mois (non remboursable)
+- Frais d'agence : 1 mois
+- Prime de garantie : 0,5 à 1 mois
+- **Total : 4 à 6 mois de loyer**
+
+Pour un appartement à 120 000 JPY/mois, la différence est de 240 000 à 480 000 JPY d'économies à l'entrée.
+
+## Les gammes de prix pour un meublé à Tokyo
+
+Les appartements meublés sans garant à Tokyo couvrent un large spectre :
+
+**Entrée de gamme (60 000 à 90 000 JPY/mois)** :
+- Studio de 18 à 25m2
+- Quartiers : Adachi, Itabashi, Katsushika, banlieue nord
+- Équipements basiques mais fonctionnels
+- Idéal pour une personne seule avec budget serré
+
+**Gamme intermédiaire (90 000 à 150 000 JPY/mois)** :
+- 1K ou 1DK de 25 à 40m2
+- Quartiers : Shinjuku, Nakano, Koenji, Ikebukuro
+- Équipements complets, souvent internet inclus
+- La gamme la plus demandée par les jeunes actifs expatriés
+
+**Gamme supérieure (150 000 à 250 000 JPY/mois)** :
+- 1LDK à 2LDK de 40 à 60m2
+- Quartiers : Shibuya, Minato, Meguro
+- Mobilier design, appliances haut de gamme, parfois concierge
+- Pour les expatriés cadres ou les couples
+
+## Les pièges à connaître avant de signer
+
+**La durée minimale cachée** : certains opérateurs affichent "à partir de 1 mois" mais imposent en réalité des frais de résiliation importants si vous partez avant 3 ou 6 mois. Lisez la clause de résiliation anticipée.
+
+**Les charges non incluses** : vérifiez si l'électricité, le gaz, l'eau et internet sont inclus dans le loyer affiché. Certains opérateurs n'incluent que l'eau, et les autres charges s'ajoutent.
+
+**Le renouvellement automatique** : beaucoup de baux se renouvellent automatiquement avec parfois des frais de renouvellement (environ 0,5 à 1 mois de loyer). Notez la date d'anniversaire du bail.
+
+**La clause "no cooking"** : certains studios très petits interdisent contractuellement la cuisson d'aliments avec odeurs fortes. Vérifié avant de signer si vous cuisinez régulièrement.
+
+## Comment candidater depuis l'étranger
+
+La majorité des opérateurs de logements meublés acceptent les candidatures à distance. Le processus type :
+
+1. Envoyer votre demande par email ou via le formulaire en ligne avec : type de logement souhaité, budget, date d'arrivée prévue, durée estimée, copie de votre passeport et visa
+2. Recevoir une sélection de biens disponibles avec photos et plans
+3. Visite virtuelle par vidéo ou WhatsApp avec le gestionnaire
+4. Signature du bail à distance (par email ou DocuSign)
+5. Virement de la caution depuis votre pays
+6. Clés disponibles à votre arrivée à l'aéroport ou dans un casier sécurisé
+
+Ce processus prend généralement 3 à 10 jours depuis la première demande jusqu'à la confirmation.
+
+## Le rôle d'un chasseur dans ce processus
+
+Un chasseur immobilier à Tokyo a accès à un inventaire de propriétés meublées qui ne sont pas toutes listées sur les portails publics. Les propriétés disponibles immédiatement circulent dans des réseaux professionnels avant d'apparaître en ligne, et disparaissent souvent avant même d'être publiées.
+
+Passer par un chasseur vous permet d'accéder à ce stock invisible, de comparer plusieurs options en une seule consultation, et d'obtenir un accompagnement sur la négociation des frais d'entrée.
+
+---
+
+*Vous cherchez un appartement meublé à Tokyo sans garant ? Réservez une consultation gratuite pour recevoir une sélection de biens disponibles cette semaine.*
+    `.trim(),
+  },
+  {
+    slug: 'pieges-location-tokyo-etranger',
+    locale: 'fr',
+    title: '7 pièges à éviter quand on loue un appartement à Tokyo en tant qu\'étranger',
+    description: 'Reikin non remboursable, clauses de résiliation cachées, frais de nettoyage abusifs : les erreurs les plus coûteuses des expatriés sur le marché locatif tokyoïte.',
+    date: '2026-06-19',
+    readingTime: '6 min',
+    content: `
+Le marché locatif tokyoïte est l'un des plus complexes au monde pour les étrangers. Chaque année, des expatriés perdent des dizaines de milliers de yens à cause d'erreurs évitables. Voici les sept pièges les plus fréquents, avec les solutions concrètes pour les éviter.
+
+## Piège n°1 : signer sans lire les clauses de résiliation
+
+La plupart des baux japonais contiennent une clause de résiliation anticipée (chuto kaiyaku) qui impose des pénalités si vous partez avant la fin de la période minimale. Ces pénalités peuvent représenter 1 à 2 mois de loyer.
+
+**La solution** : avant de signer, posez explicitement la question : "Quels sont les frais si je dois partir dans 4 mois, 6 mois, 12 mois ?" Faites-vous traduire cette clause si le contrat est en japonais.
+
+## Piège n°2 : sous-estimer les frais de remise en état à la sortie
+
+Au Japon, les locataires sont souvent tenus de participer aux frais de remise en état du logement à la sortie, même s'ils ont pris soin de l'appartement. Ce système (genjo kaifuku) peut donner lieu à des factures surprises de 50 000 à 200 000 JPY selon la taille du logement et la durée du séjour.
+
+**Ce que les propriétaires peuvent légalement facturer** : remise en peinture si vous avez fumé, nettoyage de la cuisine si elle est grasse, remplacement du tatami si taché.
+
+**Ce qu'ils ne peuvent PAS légalement facturer** : l'usure normale des murs et des sols, les traces légères d'utilisation normale, le changement des serrures après votre départ.
+
+**La solution** : prenez des photos détaillées de chaque pièce le jour de votre emménagement. Signalez par écrit à l'agence ou au propriétaire tout défaut ou dommage existant dans les 3 premiers jours.
+
+## Piège n°3 : confondre reikin et shikikin
+
+Ces deux termes reviennent dans tous les contrats de bail japonais, et les confondre coûte cher.
+
+**Shikikin** (敷金) : dépôt de garantie. Remboursable à la sortie, déduction faite des éventuels frais de remise en état. Généralement 1 à 2 mois de loyer.
+
+**Reikin** (礼金) : littéralement "argent de remerciement". Payé au propriétaire, non remboursable, sans contrepartie. Vestige d'une tradition japonaise d'après-guerre. Représente 1 à 2 mois de loyer.
+
+**La solution** : privilégier les logements sans reikin, de plus en plus courants notamment dans les résidences meublées pour étrangers. Économie potentielle : 100 000 à 300 000 JPY.
+
+## Piège n°4 : louer dans un immeuble à gestion stricte sans le savoir
+
+Certains immeubles résidentiels japonais ont des règlements intérieurs très stricts : interdiction de recevoir des visites après 22h, interdiction de faire du bruit après 21h, interdiction de sortir les poubelles en dehors des créneaux autorisés. Ces règles ne sont pas toujours mentionnées par l'agence.
+
+**La solution** : demandez le règlement de copropriété (kanri kisoku) avant de signer. Si l'agence ne peut pas vous le fournir, c'est un signal d'alerte.
+
+## Piège n°5 : choisir un logement trop éloigné de son lieu de travail
+
+Tokyo est immense. Un trajet de "seulement 40 minutes" en train peut devenir 1h15 aux heures de pointe avec les correspondances et le temps d'attente sur quai. Sur une année, c'est 500 heures de transport supplémentaires.
+
+**La solution** : testez le trajet porte-à-porte (pas station-à-station) aux heures de pointe avant de vous engager. Les applications japonaises de navigation (Hyperdia, Navitime) sont très précises sur les temps de trajet réels.
+
+## Piège n°6 : ne pas vérifier la couverture téléphonique dans l'appartement
+
+Les immeubles en béton épais (très courants à Tokyo) peuvent bloquer le signal téléphonique à l'intérieur. Certains sous-sols ou rez-de-chaussée sont des angles morts totaux.
+
+**La solution** : testez votre signal dans l'appartement lors de la visite. Vérifiez également la connexion internet disponible dans l'immeuble : fibre directe ou seulement VDSL (plus lent).
+
+## Piège n°7 : payer des frais d'agence injustifiés
+
+Légalement, les frais d'agence japonais sont plafonnés à 1 mois de loyer toutes taxes comprises. Certaines agences peu scrupuleuses ajoutent des frais de "service" ou de "documentation" qui s'accumulent.
+
+De plus, une réforme récente (avril 2024) a modifié les règles : désormais, pour les logements résidentiels, les frais d'agence sont normalement à la charge du propriétaire, pas du locataire, sauf si le locataire a explicitement accepté de les payer.
+
+**La solution** : demandez un devis détaillé par écrit avant toute visite. Questionnez chaque ligne de frais. Comparez avec plusieurs agences ou passez par un chasseur qui travaille à frais fixe et sans commission d'agence cachée.
+
+## Ce que fait un chasseur immobilier pour éviter ces pièges
+
+Le rôle d'un chasseur n'est pas seulement de trouver des biens. C'est aussi de lire les contrats, d'identifier les clauses problématiques avant signature, de négocier les conditions d'entrée, et de documenter l'état du logement à l'entrée pour protéger votre caution à la sortie.
+
+Ces sept pièges sont évitables avec la bonne préparation et le bon accompagnement.
+
+---
+
+*Vous avez trouvé un appartement à Tokyo et souhaitez faire relire le contrat avant de signer ? Contactez-nous pour une consultation.*
+    `.trim(),
+  },
+  {
+    slug: 'share-house-tokyo-guide-2026',
+    locale: 'en',
+    title: 'Share House in Tokyo: Complete Guide for Foreigners (2026)',
+    description: 'How share houses work in Tokyo, what they cost, how to apply from abroad, and which neighbourhoods have the best options for expats.',
+    date: '2026-06-19',
+    readingTime: '7 min',
+    content: `
+Share houses are the fastest, most accessible entry point into the Tokyo rental market for foreigners. No key money, no guarantor, move in within days. Here is everything you need to know before you sign.
+
+## What is a share house in Japan?
+
+A share house (シェアハウス) is a managed residential property where several tenants share common areas: kitchen, bathroom, living room. Each resident has their own private room, typically 8 to 16 sqm.
+
+Unlike informal flat-sharing between friends, Japanese share houses are run by professional operators. There are hundreds of operators in Tokyo, ranging from basic rooms at 40,000 JPY/month to designer share houses at 90,000 JPY with rooftop terraces and gym access.
+
+The key difference from a standard apartment: you move in with a valid visa and a security deposit. No guarantor, no key money, no 4-to-6-month upfront cost.
+
+## How much does it actually cost?
+
+**Monthly rent**: 45,000 to 90,000 JPY depending on room size, neighbourhood, and amenities.
+
+**Move-in costs**: typically 1 month refundable security deposit plus administrative fees of 10,000 to 30,000 JPY. No reikin (key money).
+
+**What is usually included**: water, electricity, gas, and internet are often included in the rent. Always confirm before signing.
+
+**Minimum stay**: some operators accept stays from 1 month, others require 3 months minimum.
+
+Total move-in budget for a Tokyo share house: **100,000 to 180,000 JPY**, versus 400,000 to 600,000 JPY for a standard apartment.
+
+## Best neighbourhoods for share houses
+
+**Ikebukuro**: highly connected (3 metro lines), international atmosphere, solid share houses at 50,000 to 70,000 JPY.
+
+**Shinjuku / Nakano**: direct access to JR Chuo Line, lively neighbourhoods, abundant supply.
+
+**Shimokitazawa**: village-within-the-city atmosphere, popular with young creatives. Note: less well served by transport.
+
+**Koenji / Asagaya**: under the radar for foreigners, very affordable, artistic community, characterful properties.
+
+**Saitama / Northern suburbs**: if your budget is tight (under 50,000 JPY), options exist 30 to 45 minutes from the centre.
+
+## House rules: what to expect
+
+Japanese share houses have codes. Breaking them can mean a warning or eviction.
+
+**Noise**: walls are thin. The unwritten rule is no audible noise from the corridor after 10pm.
+
+**Kitchen**: clean immediately after use. Dishes left on the drying rack for one hour are tolerable. Overnight is not.
+
+**Guests**: most share houses prohibit or strictly limit guests. Some ban all visitors in private rooms. Read the house rules before signing.
+
+**Rubbish**: selective waste sorting is mandatory in Japan. Plastic, glass, paper, food waste: each category has a specific collection day. The operator explains your municipality's rules.
+
+**Shoes**: always removed at the entrance (genkan). This is non-negotiable.
+
+## How to apply from abroad
+
+The majority of share house operators accept online applications. The typical process:
+
+1. Browse available rooms on the operator's website (photos, floor plans, availability dates)
+2. Submit an application form: name, nationality, profession, arrival date, expected duration
+3. Video interview (often basic Japanese or English)
+4. Confirmation and security deposit transfer
+
+Time from application to confirmation: typically 3 to 7 days.
+
+**What operators look at**: financial stability (income or employer letter), expected length of stay, and compatibility with current residents.
+
+## Share house vs apartment: how to choose
+
+A share house is the right choice if:
+- You are arriving for less than 18 months
+- You want to meet people and practise Japanese
+- Your budget is under 80,000 JPY/month
+- You do not yet have a Japanese guarantor or bank account
+
+An apartment is preferable if:
+- You plan to stay more than 2 years
+- You need space (family, intensive remote work)
+- Privacy is an absolute priority
+
+## What to look for when choosing an operator
+
+Not all share house operators are equal. Before committing:
+
+- Check online reviews (Google Maps reviews, Facebook groups like Expats in Tokyo)
+- Ask how long the operator has been running the property
+- Confirm what happens if a housemate is noisy or creates problems (is there an operator to escalate to?)
+- Ask for the full house rules document before signing
+
+The best operators have clear communication channels, English-speaking staff, and documented check-in procedures.
+
+---
+
+*Need help finding the right share house in Tokyo for your arrival date and budget? Book a free 30-minute consultation.*
+    `.trim(),
+  },
+  {
+    slug: 'furnished-apartment-tokyo-no-guarantor',
+    locale: 'en',
+    title: 'Furnished Apartments in Tokyo With No Guarantor Required (2026)',
+    description: 'How to find a furnished apartment in Tokyo without a Japanese guarantor: which operators accept foreigners, what conditions apply, and how to apply remotely.',
+    date: '2026-06-19',
+    readingTime: '7 min',
+    content: `
+The Japanese guarantor requirement is the single biggest barrier for foreigners renting in Tokyo. The good news: an entire segment of the market exists specifically for foreigners who need furnished housing without a Japanese guarantor.
+
+## Why the guarantor barrier exists
+
+Traditional Japanese rental culture relies on a personal guarantor (hoshounin): a Japanese citizen who takes legal responsibility for your rent and behaviour. For a landlord dealing with a foreign tenant who may not speak Japanese and might leave after 1 to 2 years, the perceived risk is high.
+
+The system has evolved. Guarantee companies (hoshougaisha) now substitute for personal guarantors in most modern properties. But even with a guarantee company, many landlords remain hesitant about foreign tenants.
+
+The solution: operators who have pre-negotiated with landlords and built businesses around servicing expat tenants.
+
+## What furnished no-guarantor rentals actually offer
+
+Operators specialising in foreign tenants typically provide:
+
+- Leases without a personal Japanese guarantor
+- Contracts available in English
+- Flexible terms (often from 1 month minimum)
+- Fully furnished units: bed, desk, sofa, fridge, washing machine, kitchen equipment
+- Internet often included
+- Utility setup handled by the operator
+
+The trade-off: monthly rents are 10 to 20% higher than equivalent unfurnished units. The saving on move-in costs (no reikin, no agency fee) more than compensates in most cases.
+
+## Move-in costs: the real numbers
+
+**Furnished apartment with no reikin**:
+- Security deposit: 1 month (refundable)
+- Administrative fee: 10,000 to 30,000 JPY
+- First month rent
+- Total: approximately 2 to 2.5 months of rent upfront
+
+**Standard Japanese apartment with reikin**:
+- Security deposit: 1 to 2 months (refundable)
+- Key money (reikin): 1 to 2 months (non-refundable)
+- Agency fee: 1 month
+- Guarantee premium: 0.5 to 1 month
+- Total: 4 to 6 months of rent upfront
+
+For a 120,000 JPY/month apartment, the saving at move-in is 240,000 to 480,000 JPY.
+
+## Price ranges in Tokyo (2026)
+
+**Budget range (60,000 to 90,000 JPY/month)**:
+- Studio 18 to 25 sqm
+- Neighbourhoods: Adachi, Itabashi, northern suburbs
+- Basic but functional furnishings
+- Best for single professionals on a tight budget
+
+**Mid-range (90,000 to 150,000 JPY/month)**:
+- 1K or 1DK 25 to 40 sqm
+- Neighbourhoods: Shinjuku, Nakano, Koenji, Ikebukuro
+- Full furnishings, internet usually included
+- The most in-demand category for expat professionals
+
+**Upper range (150,000 to 250,000 JPY/month)**:
+- 1LDK to 2LDK 40 to 60 sqm
+- Neighbourhoods: Shibuya, Minato, Meguro
+- Designer furniture, high-end appliances, sometimes concierge service
+- For senior expats or couples
+
+## How to apply remotely
+
+Most furnished apartment operators accept remote applications. The typical process:
+
+1. Send your enquiry with: property type, budget, arrival date, expected duration, copy of passport and visa
+2. Receive a shortlist of available properties with photos and floor plans
+3. Video walkthrough via WhatsApp, Zoom or FaceTime with the property manager
+4. Sign the lease remotely (email or DocuSign)
+5. Transfer the security deposit from your home country
+6. Keys available at airport pickup or in a secure key box
+
+From first enquiry to confirmation: typically 3 to 10 days.
+
+## What to verify before signing
+
+**Early termination clause**: ask exactly what the cost is if you leave after 3, 6, or 12 months. Some operators charge 1 to 2 months as a penalty for early exit.
+
+**What is included in the rent**: electricity, gas, water, and internet are sometimes included, sometimes not. Confirm in writing.
+
+**Automatic renewal**: many leases renew automatically at the anniversary date, sometimes with a renewal fee of 0.5 to 1 month. Note the date.
+
+**Cooking restrictions**: some small studios contractually prohibit cooking strong-smelling food. Check this if you cook regularly.
+
+## The role of a property hunter
+
+A property hunter in Tokyo has direct access to furnished inventory that is not fully listed on public platforms. Available properties in the right price range and location circulate in professional networks before appearing online, and the best ones disappear within 24 to 48 hours.
+
+A hunter can shortlist options matching your criteria, arrange video tours, review the lease before you sign, and negotiate the entry costs.
+
+---
+
+*Looking for a furnished apartment in Tokyo without a guarantor? Book a free consultation to see what is currently available.*
+    `.trim(),
+  },
+  {
+    slug: 'open-bank-account-japan-foreigner',
+    locale: 'en',
+    title: 'How to Open a Bank Account in Japan as a Foreigner (2026 Guide)',
+    description: 'Japan Post Bank, Sony Bank, Rakuten: which Japanese bank is easiest for foreigners to open, step by step, without speaking Japanese.',
+    date: '2026-06-19',
+    readingTime: '6 min',
+    content: `
+Opening a Japanese bank account is one of the first administrative tasks to complete after registering your address at the ward office. Without a Japanese bank account, you cannot receive a local salary, pay rent by bank transfer, or get a contract SIM card.
+
+## What you need before you start
+
+All Japanese banks require at minimum:
+- Your **Residence Card** (Zairyu Card) with your registered address
+- Your **passport**
+- A registered address in Japan (the address must be recorded at the ward office before opening an account)
+
+Some banks additionally require:
+- Your My Number (Japanese tax identification number, received by post 2 to 3 weeks after ward registration)
+- A personal seal (hanko), though this is increasingly not required
+- Proof of employment or income
+
+## Japan Post Bank (Yucho): the most accessible
+
+**Best for newly arrived expats.**
+
+Japan Post Bank (ゆうちょ銀行) is the most foreigner-friendly option for recent arrivals. It operates through post office branches across Japan — thousands of locations nationwide.
+
+**What it accepts**:
+- Residence Card even from very recently (a few days is sufficient)
+- Passport
+- English assistance available at major branches
+
+**What it offers**:
+- Standard current account (futsu yokin)
+- Debit card (Yucho Visa Debit) accepted everywhere
+- International transfers possible but expensive (use Wise for international remittances)
+- No monthly maintenance fees
+
+**Timeline**: account opened the same day at a branch. Card received by post within 1 to 2 weeks.
+
+## Sony Bank: best for active expats
+
+Sony Bank is a fully online bank with an English interface and well-designed mobile app. It is particularly suitable for expats who make regular international transfers.
+
+**Advantages**:
+- Full English interface and support
+- Competitive exchange rates for international transfers (close to the mid-market rate)
+- Multi-currency account (JPY, USD, EUR, GBP, AUD, and more)
+- Visa card included
+
+**Requirements**:
+- Requires your My Number (received 2 to 3 weeks after ward registration)
+- Application entirely online, no branch visit needed
+
+**Timeline**: 1 to 2 weeks after submitting the online application.
+
+## Rakuten Bank: good if you use Rakuten
+
+If you regularly shop on Rakuten (Japan's equivalent of Amazon), Rakuten Bank is practical since every purchase generates Rakuten points usable across the ecosystem.
+
+**Requirements**:
+- Requires My Number
+- Fully online application
+
+**Limitations**:
+- Interface primarily in Japanese
+- Less suited to international transfers than Sony Bank
+
+## Major Japanese banks (SMBC, Mizuho, MUFG)
+
+Japan's three major banks are sometimes required by employers for salary payments. However, most refuse to open accounts for foreigners who have been in Japan less than 6 months.
+
+**Exceptions**: if your employer is a client of the bank and intervenes on your behalf, this waiting period can sometimes be waived.
+
+**Recommendation**: open a Japan Post Bank account first on arrival, then a major bank account after 6 months if your employer requires it.
+
+## Wise: a useful transition tool
+
+Wise (formerly TransferWise) is not a Japanese bank, but it allows you to hold and receive JPY, make international transfers at mid-market rates, and pay by card worldwide.
+
+Useful as a bridge solution during your first weeks while waiting for a Japanese bank account to open.
+
+## Common mistakes to avoid
+
+**Trying to open an account without a Residence Card**: Japanese banks do not open accounts for tourists or short-stay visa holders. The Zairyu Card is mandatory.
+
+**Waiting too long**: without a Japanese bank account, you cannot receive salary, pay rent by automatic transfer, or get a contract SIM. Prioritise this in your first week.
+
+**Not updating your address after moving**: if you change address in Japan, notify your bank (as you would the ward office). Japanese institutions are strict about address consistency.
+
+## Summary by profile
+
+**Just arrived (less than 1 month)**: Japan Post Bank first, then Sony Bank once you receive your My Number.
+
+**Frequent international transfers needed**: Sony Bank for the main account, Wise for occasional transfers.
+
+**Employer requires SMBC or Mizuho**: Japan Post Bank as interim, then major bank after 6 months.
+
+**Student or working holiday**: Japan Post Bank, the only one with no minimum residence period.
+
+---
+
+*Setting up in Tokyo? Book a free consultation to get a shortlist of available housing matching your profile and arrival date.*
+    `.trim(),
+  },
+  {
+    slug: 'tokyo-apartment-hunting-from-abroad',
+    locale: 'en',
+    title: 'How to Find an Apartment in Tokyo from Abroad (Remote Hunting Guide)',
+    description: 'The step-by-step process to secure Tokyo housing before you arrive: video tours, remote signing, what to watch out for, and common mistakes.',
+    date: '2026-06-19',
+    readingTime: '8 min',
+    content: `
+The most expensive mistake foreigners make when relocating to Tokyo is arriving without secured housing. Staying in a hotel or short-term rental while searching typically costs 150,000 to 300,000 JPY for the 4 to 8 weeks the search takes. That money is entirely avoidable.
+
+Here is the complete process for finding and securing Tokyo housing before you land.
+
+## Why searching remotely is harder than it seems
+
+Tokyo's rental market moves fast. Properties listed on public portals (Suumo, Homes, Chintai) are typically already rented or under application within 24 to 72 hours of listing. By the time you see a listing from abroad, shortlist it, contact the agency, and arrange a visit... the property is gone.
+
+The deeper issue: most Japanese real estate agencies operate entirely in Japanese. They do not respond to English enquiries, do not offer video tours, and require in-person visits before processing an application.
+
+This creates a catch-22 for foreigners: the market moves too fast to search from abroad through normal channels.
+
+## The two viable paths for remote housing in Tokyo
+
+**Path 1: Share houses**
+
+Share house operators almost universally accept remote applications. The process is standardised, English-friendly, and fast (3 to 7 days from enquiry to confirmation). The trade-off is that you get a room in a shared property rather than a private apartment.
+
+This is the right path if you need to move immediately, your budget is under 80,000 JPY/month, or you are arriving for less than 18 months.
+
+**Path 2: A local property hunter**
+
+A property hunter operates differently from a traditional agency. They work for you (not the landlord), have access to inventory not listed publicly, and can physically visit properties on your behalf, send video walkthroughs, and manage the full application process remotely.
+
+This is the right path if you need a private apartment, have a budget of 80,000 JPY/month or more, or are planning a longer stay.
+
+## The step-by-step remote process
+
+**Week 1: define your criteria**
+
+Before contacting anyone, be clear on:
+- Budget (monthly rent, excluding or including utilities)
+- Location (based on your workplace, or preferred neighbourhood)
+- Property type (share house, furnished studio, 1K, 1LDK)
+- Arrival date
+- Expected duration of stay
+
+**Week 1-2: initial contact and shortlisting**
+
+For share houses: contact 3 to 5 operators with your criteria. Most respond within 24 hours. Ask for photos, floor plans, and a video walkthrough.
+
+For apartments with a hunter: send your criteria by email. A good hunter responds within 24 to 48 hours with an initial shortlist of available properties.
+
+**Week 2-3: video tours**
+
+For share houses: most operators offer photos and virtual tours directly on their websites.
+
+For apartments: the hunter visits in person and records a video walkthrough of each property you are interested in. A good walkthrough shows: entrance area (genkan), all rooms with dimensions, kitchen, bathroom, view from windows, building entrance, nearest station, and surroundings.
+
+What to look for in a video tour:
+- Natural light (which direction do the windows face?)
+- Ceiling height (Japanese apartments can be low)
+- Noise level (ask for the windows to be opened during the video)
+- Condition of walls, floors, and fittings
+
+**Week 3: application and signing**
+
+Once you confirm a property, the application process begins:
+1. Submit your details: passport copy, visa copy, proof of income or employment letter
+2. The landlord or guarantee company reviews the application (2 to 5 days)
+3. If approved: sign the lease electronically (DocuSign or email-based signature)
+4. Transfer the security deposit (and first month's rent if required) from your home country
+
+**Arrival day: key handover**
+
+Keys are typically handed over in one of three ways:
+- In-person at the agency or hunter's office
+- Key box at the property entrance (code sent by email)
+- Courier to your arrival hotel if you land before moving in
+
+## What you need to prepare in advance
+
+**Documents to have ready** (digital copies):
+- Passport biographical page
+- Visa page
+- Employment contract or offer letter
+- Last 3 months of payslips or bank statements
+- Photo (for some guarantee company applications)
+
+**Financial setup**:
+- A way to make an international wire transfer (bank or Wise)
+- Budget for the security deposit (typically 1 to 2 months of rent)
+
+## Common remote hunting mistakes
+
+**Choosing by photos alone**: Japanese property photos are often taken with wide-angle lenses that make small rooms appear larger. Always ask for floor plans with dimensions.
+
+**Not confirming the exact move-in date**: availability windows in Tokyo are sometimes 2 to 3 weeks wide. Confirm that the property is available on your specific arrival date.
+
+**Sending money before receiving a signed lease**: never transfer a security deposit without a signed contract in hand. Legitimate operators always provide contracts before requesting payment.
+
+**Not asking about the cancellation policy**: if your arrival date changes or you need to cancel, what is the policy? Ask before committing.
+
+## The timeline that works
+
+The optimal timeline for remote apartment hunting in Tokyo:
+
+- **8 weeks before arrival**: define criteria, start initial contact with operators or a hunter
+- **6 weeks before**: shortlist 3 to 5 properties, arrange video tours
+- **4 weeks before**: confirm your first choice, submit application
+- **2 weeks before**: sign lease, transfer deposit
+- **Arrival day**: key handover, move in
+
+This timeline gives you buffer for unexpected delays (application rejection, property withdrawn) without pressure.
+
+---
+
+*Relocating to Tokyo and want housing ready before you arrive? Book a free 30-minute consultation to start the remote search process.*
+    `.trim(),
+  },
 ]
 
 export function getBlogPosts(locale: Locale): BlogPost[] {
