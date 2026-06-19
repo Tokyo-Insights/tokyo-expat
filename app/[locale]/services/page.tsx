@@ -4,9 +4,9 @@ import { getDictionary, type Locale } from '@/lib/i18n'
 export default async function ServicesPage({
   params,
 }: {
-  params: Promise<{ locale: Locale }>
+  params: Promise<{ locale: string }>
 }) {
-  const { locale } = await params
+  const locale = ((await params).locale as Locale)
   const dict = getDictionary(locale)
   const s = dict.services
 
