@@ -1533,6 +1533,934 @@ This timeline gives you buffer for unexpected delays (application rejection, pro
 *Relocating to Tokyo and want housing ready before you arrive? Book a free 30-minute consultation to start the remote search process.*
     `.trim(),
   },
+  {
+    slug: 'assurance-maladie-japon-expatrie',
+    locale: 'fr',
+    title: 'Assurance maladie au Japon pour les expatriés : guide complet 2026',
+    description: 'Kokumin Kenko Hoken ou shakai hoken : comment fonctionne l\'assurance maladie au Japon, combien ça coûte et comment s\'inscrire en tant qu\'étranger.',
+    date: '2026-06-19',
+    readingTime: '6 min',
+    content: `
+Le système de santé japonais est l'un des meilleurs au monde, mais il est basé sur une couverture obligatoire que tout résident doit avoir. Comprendre comment fonctionne l'assurance maladie au Japon est essentiel avant votre arrivée.
+
+## Les deux systèmes d'assurance maladie au Japon
+
+Au Japon, tout résident (y compris les étrangers) doit être couvert par l'un des deux systèmes :
+
+**1. La shakai hoken (assurance maladie salariée)**
+Si vous êtes employé par une entreprise japonaise qui vous emploie à temps plein, votre employeur vous inscrit automatiquement à la shakai hoken. Les cotisations sont prélevées directement sur votre salaire, avec une part payée par vous et une part payée par l'employeur.
+
+**2. La kokumin kenko hoken (assurance maladie nationale)**
+Si vous êtes travailleur indépendant, en working holiday, étudiant, ou si votre employeur n'adhère pas à la shakai hoken, vous devez vous inscrire vous-même à l'assurance maladie nationale auprès de votre mairie (kuyakusho).
+
+## Combien coûte l'assurance maladie nationale ?
+
+Le montant des cotisations à la kokumin kenko hoken est calculé sur la base de vos revenus de l'année précédente. Pour un expatrié qui vient d'arriver au Japon sans revenus japonais antérieurs, la cotisation minimale s'applique.
+
+**Estimations pour une personne seule :**
+- Revenus nuls ou premier arrivée : 2 000 à 5 000 JPY/mois
+- Revenus annuels de 3 millions JPY : environ 15 000 à 20 000 JPY/mois
+- Revenus annuels de 5 millions JPY : environ 25 000 à 35 000 JPY/mois
+
+La cotisation couvre le titulaire et ses ayants droit (conjoint sans revenus, enfants).
+
+## Ce que l'assurance couvre
+
+Avec l'assurance maladie japonaise (shakai hoken ou kokumin kenko hoken), vous payez 30% des frais médicaux. L'assurance couvre les 70% restants.
+
+**Ce qui est couvert :**
+- Consultations chez un médecin généraliste ou spécialiste
+- Hospitalisations
+- Médicaments prescrits
+- Soins dentaires (partiellement)
+- Examens médicaux courants
+
+**Plafond mensuel (haut-yosha seido) :** si vos frais médicaux dans le mois dépassent un certain seuil (environ 80 000 à 90 000 JPY pour un revenu moyen), l'assurance prend en charge le surplus. Ce mécanisme protège contre les dépenses catastrophiques.
+
+**Ce qui n'est pas couvert :**
+- Les soins dentaires esthétiques
+- Les lunettes et lentilles de contact (sauf cas médicaux)
+- Certains vaccins de voyage
+- Les consultations en cliniques privées hors réseau
+
+## Comment s'inscrire à la kokumin kenko hoken
+
+L'inscription se fait à votre mairie (kuyakusho), au guichet de l'assurance maladie nationale.
+
+**Documents nécessaires :**
+- Votre carte de résidence (Zairyu Card)
+- Votre passeport
+- Votre adresse enregistrée au Japon
+- Votre numéro My Number (si vous l'avez déjà reçu)
+
+**Délai :** vous devez vous inscrire dans les 14 jours suivant votre arrivée ou la perte d'une autre couverture (fin de shakai hoken, par exemple). Une inscription tardive entraîne le paiement des cotisations rétroactives depuis la date à laquelle vous auriez dû vous inscrire.
+
+**Ce que vous recevez :** une carte d'assurance maladie (hoken-sho) que vous présentez à chaque consultation. Elle est envoyée par courrier sous 2 à 3 semaines.
+
+## Utiliser votre assurance au quotidien
+
+**Chez le médecin :** présentez votre carte d'assurance à l'accueil. Vous payez 30% du coût de la consultation à la fin de la visite.
+
+**Coût réel d'une consultation :** avec l'assurance, une consultation chez un médecin généraliste coûte généralement entre 1 000 et 3 000 JPY selon le type de consultation et les examens effectués.
+
+**À la pharmacie :** les médicaments prescrits sont également remboursés à 70%. Les médicaments en vente libre ne sont pas remboursés.
+
+**À l'hôpital :** pour une hospitalisation, le système du plafond mensuel s'applique. En pratique, même une hospitalisation d'une semaine reste abordable avec l'assurance.
+
+## L'assurance complémentaire (hoken)
+
+Comme en France avec la mutuelle, beaucoup de résidents au Japon souscrivent une assurance complémentaire privée pour couvrir la partie restante à leur charge (les 30%). Des compagnies comme AIA, AXA ou MetLife Japon proposent des couvertures complémentaires à partir de 2 000 à 5 000 JPY/mois.
+
+Utile si vous avez des problèmes de santé chroniques ou si vous prévoyez de rester plusieurs années.
+
+## Que faire si vous tombez malade avant d'avoir votre carte ?
+
+Si vous avez besoin d'un médecin avant d'avoir reçu votre carte d'assurance, vous payez le montant total (100%) de la consultation. Conservez tous vos reçus. Une fois votre carte reçue, vous pouvez demander le remboursement de la part prise en charge (70%) auprès de votre mairie.
+
+---
+
+*Vous planifiez votre installation à Tokyo ? Réservez une consultation gratuite pour préparer votre logement avant votre arrivée.*
+    `.trim(),
+  },
+  {
+    slug: 'carte-residence-japon-zairyu-card',
+    locale: 'fr',
+    title: 'Carte de résidence au Japon (Zairyu Card) : tout ce qu\'il faut savoir',
+    description: 'Comment obtenir votre carte de résidence japonaise, ce qu\'elle vous permet de faire, et les démarches obligatoires dans les 14 jours suivant votre arrivée.',
+    date: '2026-06-19',
+    readingTime: '5 min',
+    content: `
+La carte de résidence japonaise (在留カード, zairyu card) est le document le plus important pour tout étranger vivant au Japon. Sans elle, vous ne pouvez pas ouvrir un compte bancaire, louer un appartement, obtenir un SIM card en contrat, ni accéder à la plupart des services publics.
+
+## Qu'est-ce que la zairyu card ?
+
+La zairyu card est une carte d'identité officielle délivrée par le gouvernement japonais à tous les résidents étrangers titulaires d'un visa long séjour. Elle atteste de votre statut de résidence, de votre type de visa et de la date d'expiration de votre séjour autorisé.
+
+Elle ressemble à une carte bancaire : plastifiée, avec votre photo, votre nom, votre date de naissance, votre nationalité, votre adresse, votre type de visa et sa date d'expiration.
+
+## Comment l'obtenir
+
+**À l'arrivée à l'aéroport :** si vous arrivez à Tokyo (Narita ou Haneda), Osaka (Kansai) ou dans l'un des aéroports principaux avec un visa long séjour valide, la zairyu card vous est remise directement au contrôle des frontières (immigration). Aucune démarche supplémentaire n'est nécessaire à cet instant.
+
+Si vous arrivez par un aéroport secondaire, la carte sera envoyée par courrier à votre adresse japonaise après votre enregistrement à la mairie.
+
+## L'enregistrement à la mairie : obligatoire dans les 14 jours
+
+Une fois que vous avez votre adresse au Japon (votre logement), vous devez vous rendre à la mairie (kuyakusho) de votre arrondissement dans les **14 jours** pour y enregistrer votre adresse.
+
+**Documents à apporter :**
+- Votre zairyu card
+- Votre passeport
+- Votre adresse (une copie de votre contrat de bail ou une attestation du logement suffit)
+
+La mairie enregistre votre adresse et l'inscrit au dos de votre zairyu card avec un tampon.
+
+**Attention :** cet enregistrement est obligatoire. Ne pas le faire dans les 14 jours est une infraction à la loi sur l'immigration et peut entraîner des complications pour le renouvellement de votre visa.
+
+## Ce que vous pouvez faire avec votre zairyu card
+
+Une fois votre adresse enregistrée au dos de la carte, vous pouvez :
+- Ouvrir un compte bancaire (Japan Post Bank en priorité)
+- Signer un contrat de bail
+- Obtenir un SIM card en contrat
+- Vous inscrire à l'assurance maladie nationale
+- Accéder à la plupart des services administratifs japonais
+
+La carte sert également de pièce d'identité officielle au quotidien. En pratique, vous l'utilisez presque autant que votre passeport.
+
+## Mettre à jour votre adresse en cas de déménagement
+
+Si vous changez d'adresse au Japon, vous devez notifier votre nouvelle adresse à la mairie dans les 14 jours suivant le déménagement. La mairie met à jour l'adresse au dos de la carte.
+
+Ne pas notifier un changement d'adresse est une infraction. De plus, de nombreux services (banque, assurance, employeur) exigent que votre adresse bancaire corresponde à l'adresse sur votre zairyu card.
+
+## La date d'expiration : à surveiller
+
+Votre zairyu card expire à la même date que votre visa. Il faut renouveler votre visa (et donc votre carte) avant cette date.
+
+La demande de renouvellement doit être faite auprès du bureau régional de l'immigration (nyukan) **avant** l'expiration. Il est conseillé de commencer les démarches 3 mois avant la date limite. Un renouvellement tardif peut entraîner des complications administratives significatives.
+
+**Notification de renouvellement :** vous recevrez normalement un courrier de rappel de l'immigration japonaise plusieurs mois avant l'expiration. Ne comptez pas uniquement sur ce courrier : notez vous-même la date dans votre agenda.
+
+## La carte de résidence permanente
+
+Après un certain nombre d'années de résidence légale et continue au Japon (en général 10 ans, réduits à 1 à 3 ans pour les titulaires du statut HSP), vous pouvez demander la résidence permanente. La carte de résidence permanente (eijuusha) n'a pas de date d'expiration liée au visa. Elle doit simplement être renouvelée tous les 7 ans pour mettre à jour la photo.
+
+---
+
+*Votre logement à Tokyo est la première étape pour obtenir votre adresse et enregistrer votre zairyu card. Réservez une consultation gratuite pour voir les disponibilités.*
+    `.trim(),
+  },
+  {
+    slug: 'famille-expatriee-tokyo-ecoles-internationales',
+    locale: 'fr',
+    title: 'Famille expatriée à Tokyo : écoles internationales, quartiers et logement',
+    description: 'Lycée franco-japonais, écoles anglophones, quartiers familiaux : guide complet pour les familles qui s\'installent à Tokyo avec des enfants.',
+    date: '2026-06-19',
+    readingTime: '8 min',
+    content: `
+S'installer à Tokyo en famille est une expérience exceptionnelle, mais qui demande une préparation plus approfondie qu'une installation en solo. Scolarité, logement, quartier, budget : voici ce que les familles expatriées doivent savoir avant d'arriver.
+
+## Les options de scolarité à Tokyo
+
+Le choix de l'école est souvent le premier critère qui détermine le quartier de résidence. À Tokyo, les familles francophones et anglophones ont plusieurs options.
+
+### Le Lycée franco-japonais de Tokyo (LFJT)
+
+Le Lycée franco-japonais de Tokyo (在日フランス学校) est l'école officielle de l'Ambassade de France. Il suit les programmes du Ministère de l'Éducation nationale français, de la maternelle jusqu'au baccalauréat.
+
+**Localisation :** Fujimidai, Nerima-ku (ligne Seibu Ikebukuro, à environ 20 minutes de Shibuya)
+
+**Frais de scolarité :** environ 1 200 000 à 1 800 000 JPY par an selon le niveau. Réductions possibles si l'employeur cotise à la CCIFJ ou si vous êtes inscrit sur les listes consulaires.
+
+**Processus d'inscription :** liste d'attente possible pour certains niveaux, notamment en primaire. Contactez l'école au moins 6 mois avant la rentrée souhaitée.
+
+### Les écoles anglophones
+
+Pour les familles anglophones ou qui souhaitent une scolarité en anglais :
+
+**Tokyo International School** (Minato-ku) : programme IB (International Baccalaureate), réputation excellente, très coûteux (2 000 000 à 3 000 000 JPY/an).
+
+**Nishimachi International School** (Minato-ku) : programme anglophone de la maternelle à la 9e année.
+
+**The British School in Tokyo** : programme national britannique.
+
+**Canadian International School** (Minato-ku) : programme canadien en anglais.
+
+### Les écoles publiques japonaises
+
+Les enfants étrangers peuvent s'inscrire dans les écoles publiques japonaises gratuitement. La scolarité est entièrement en japonais. Certains enfants s'adaptent remarquablement en 6 à 12 mois, d'autres ont du mal avec la barrière de la langue.
+
+Les mairies proposent des classes de soutien en japonais pour les enfants étrangers nouvellement arrivés.
+
+## Les quartiers familiaux à Tokyo
+
+Le quartier de résidence d'une famille suit généralement la localisation de l'école choisie.
+
+### Minato-ku : le quartier des familles expatriées
+
+Minato-ku (Hiroo, Azabu-Juban, Roppongi) concentre la majorité des familles expatriées à Tokyo. Proximité des écoles internationales anglophones, épiceries étrangères (National Azabu, Hiroo Supermarket), clubs sportifs anglophones, nombreuses familles dans la même situation.
+
+**Inconvénient :** les loyers sont les plus élevés de Tokyo. Un appartement familial 3LDK dans Hiroo coûte 300 000 à 600 000 JPY/mois.
+
+### Nerima-ku : le choix des familles francophones
+
+Nerima-ku est le quartier le plus proche du Lycée franco-japonais. Moins cosmopolite que Minato-ku, mais très résidentiel et calme. Loyers 40 à 50% moins chers qu'à Hiroo pour une surface équivalente.
+
+**Atouts :** grands appartements possibles, jardins, écoles publiques japonaises de qualité pour les fratries, communauté francophone soudée autour du LFJT.
+
+### Setagaya-ku : l'alternative résidentielle
+
+Setagaya-ku (Jiyugaoka, Sangenjaya, Futako-Tamagawa) est un arrondissement résidentiel très prisé des familles japonaises aisées et de certaines familles expatriées. Appartements plus spacieux, nombreux parcs, écoles japonaises de qualité.
+
+**Atouts :** rapport qualité-prix meilleur qu'en zone centrale, ambiance résidentielle calme, plusieurs structures sportives et culturelles pour enfants.
+
+## Le logement familial : ce qu'il faut savoir
+
+### La surface : plus difficile à trouver qu'on ne le pense
+
+Tokyo est dense. Les appartements de 3 chambres (3LDK) en zone centrale sont rares et très chers. Les familles avec 2 enfants ou plus doivent souvent choisir entre :
+- Un appartement 3LDK en zone centrale à budget élevé (250 000 à 450 000 JPY/mois)
+- Un appartement 3LDK ou une maison (kodate) en banlieue à budget raisonnable (150 000 à 250 000 JPY/mois) avec un trajet d'école plus long
+
+### Les maisons individuelles (kodate)
+
+Les maisons individuelles sont plus courantes en banlieue (Nerima, Setagaya, Suginami, Adachi). Elles offrent un jardin (souvent petit), plus d'espace, et l'absence de voisins immédiats au-dessus et en dessous.
+
+Budget : 200 000 à 350 000 JPY/mois pour une maison de 3 à 4 chambres en zone accessible.
+
+### Ce que les familles négocient différemment
+
+Par rapport à une installation en solo, les familles peuvent négocier :
+- Un bail de 2 ans minimum (les propriétaires préfèrent la stabilité)
+- L'autorisation pour les enfants (certains contrats de bail japonais précisent le nombre d'occupants)
+- Les aménagements pour enfants (détecteurs de fumée supplémentaires, garde-corps, etc.)
+
+## Le budget familial mensuel à Tokyo
+
+**Loyer (3LDK Nerima-ku)** : 180 000 à 280 000 JPY
+
+**Scolarité (Lycée franco-japonais, 2 enfants)** : 200 000 à 300 000 JPY
+
+**Nourriture (famille de 4)** : 80 000 à 120 000 JPY
+
+**Transports** : 20 000 à 40 000 JPY (selon distance école/travail)
+
+**Activités extrascolaires** : 30 000 à 60 000 JPY
+
+**Budget mensuel total famille de 4** : 600 000 à 900 000 JPY/mois
+
+La couverture d'une partie des frais de scolarité et du logement par l'employeur (package expatriation) est courante dans les grandes entreprises et réduit significativement la charge personnelle.
+
+---
+
+*Vous installez votre famille à Tokyo ? Réservez une consultation gratuite pour identifier les logements familiaux disponibles à proximité des écoles internationales.*
+    `.trim(),
+  },
+  {
+    slug: 'negocier-loyer-tokyo-conseils',
+    locale: 'fr',
+    title: 'Négocier son loyer à Tokyo : est-ce possible et comment s\'y prendre ?',
+    description: 'Le marché locatif tokyoïte est réputé rigide, mais la négociation est possible dans certains cas. Voici quand et comment négocier votre loyer ou vos frais d\'entrée.',
+    date: '2026-06-19',
+    readingTime: '5 min',
+    content: `
+Contrairement aux idées reçues, négocier à Tokyo est possible. Pas dans tous les cas, pas de la même façon qu'en Europe, mais les marges de manœuvre existent. Savoir quand et comment négocier peut vous faire économiser plusieurs mois de loyer.
+
+## Ce qui est négociable (et ce qui ne l'est pas)
+
+**Rarement négociable :**
+- Le loyer mensuel d'un bien récent ou bien situé avec plusieurs candidats en concurrence
+- Le shikikin (dépôt de garantie) : c'est une garantie légale, les propriétaires y tiennent
+- Les frais d'agence : légalement plafonnés à 1 mois, rarement réduits davantage
+
+**Souvent négociable :**
+- Le reikin (clé de courtoisie) : c'est le poste où la marge est la plus grande
+- La durée du préavis de résiliation
+- Certains équipements ou travaux (peinture, climatiseur supplémentaire)
+- Le loyer des biens vacants depuis plus de 2 à 3 mois
+- La franchise de loyer sur les premiers mois (rent-free period) pour les grands appartements
+
+## Quand la négociation a le plus de chances de réussir
+
+**Biens vacants depuis longtemps :** si un appartement est sur le marché depuis plus de 2 mois, le propriétaire est clairement preneur d'un locataire fiable. Le reikin et parfois même le loyer peuvent être négociés.
+
+**Basse saison :** le marché locatif tokyoïte est saisonnier. Les pics sont en mars-avril (rentrée japonaise) et en septembre-octobre. En dehors de ces périodes (juillet-août et novembre-février), les propriétaires sont plus flexibles.
+
+**Profil de locataire solide :** un contrat de travail stable, un salaire élevé et une longue durée de séjour prévue (2 ans ou plus) sont des arguments forts. Les propriétaires préfèrent un bon locataire à un loyer légèrement plus élevé avec un locataire incertain.
+
+**Paiement immédiat :** proposer de signer rapidement et de verser le premier loyer immédiatement peut convaincre un propriétaire hésitant.
+
+## La technique de négociation qui fonctionne au Japon
+
+La négociation directe et agressive n'est pas dans la culture japonaise. La bonne approche est indirecte et respectueuse.
+
+**Étape 1 :** exprimez un intérêt ferme pour le bien avant de poser la question ("Ce logement nous convient parfaitement et nous souhaitons vraiment aller de l'avant...")
+
+**Étape 2 :** posez la question via l'agence, jamais directement au propriétaire ("Serait-il possible de demander au propriétaire si le reikin est négociable dans notre cas ?")
+
+**Étape 3 :** justifiez par votre profil ("Nous prévoyons de rester 2 ans minimum, nous avons un contrat de travail stable...")
+
+**Étape 4 :** acceptez gracieusement le refus si c'est non. Insister est contre-productif dans la culture japonaise.
+
+## Exemple concret de négociation réussie
+
+Appartement à 120 000 JPY/mois, reikin de 2 mois, shikikin de 2 mois, vacant depuis 3 mois.
+
+Demande : reikin réduit de 2 mois à 1 mois.
+Résultat obtenu : reikin réduit à 1 mois.
+Économie : 120 000 JPY immédiatement.
+
+Ce type de négociation réussit dans environ 40 à 50% des cas pour les biens vacants depuis plus de 2 mois.
+
+## Ce qu'un chasseur peut faire que vous ne pouvez pas
+
+Un chasseur immobilier local a plusieurs avantages en négociation :
+
+Il connaît l'historique du bien (depuis combien de temps il est vacant, si le propriétaire a déjà réduit le reikin pour d'autres candidats).
+
+Il a une relation avec les agences locales, ce qui donne du poids à ses demandes.
+
+Il négocie en japonais, ce qui permet de faire passer des demandes qui semblent moins "agressives" quand elles sont formulées dans la langue et les codes culturels appropriés.
+
+---
+
+*Vous avez trouvé un appartement à Tokyo et souhaitez optimiser les conditions d\'entrée ? Contactez-nous pour un accompagnement à la négociation.*
+    `.trim(),
+  },
+  {
+    slug: 'demenager-japon-checklist-complete',
+    locale: 'fr',
+    title: 'Déménager au Japon : checklist complète pour bien s\'installer (2026)',
+    description: 'Visa, logement, mairie, compte bancaire, assurance, SIM card : toutes les étapes dans le bon ordre pour réussir votre installation au Japon.',
+    date: '2026-06-19',
+    readingTime: '9 min',
+    content: `
+Déménager au Japon implique plus de démarches administratives que la plupart des pays. Voici toutes les étapes dans l'ordre chronologique, depuis la préparation avant le départ jusqu'à la vie courante une fois installé.
+
+## Avant le départ (2 à 6 mois avant)
+
+**Obtenir votre visa**
+C'est l'étape la plus critique et souvent la plus longue. Le visa de travail nécessite une offre d'emploi et un sponsor japonais. Le visa working holiday demande de soumettre la demande tôt (les quotas pour la France sont limités). Aucun visa ne peut être obtenu depuis le Japon sur visa touriste, sauf exceptions très rares.
+
+**Sécuriser un logement avant l'arrivée**
+Ne pas arriver sans logement. L'hôtel ou le Airbnb pendant la recherche coûte 150 000 à 300 000 JPY supplémentaires. Les share houses et les appartements meublés pour expatriés acceptent les candidatures à distance. Idéalement, la recherche démarre 6 à 8 semaines avant l'arrivée.
+
+**Préparer les documents administratifs**
+- Passeport valide au moins 6 mois après la date de départ prévue
+- Copies certifiées de votre diplôme (pour le visa travail)
+- Relevés bancaires des 3 derniers mois
+- Contrat de travail ou lettre d'engagement de l'employeur
+- Acte de naissance et livret de famille (pour les conjoints et enfants)
+- Traductions officielles en japonais si demandées
+
+**Informer votre banque française**
+Signalez votre départ à votre banque pour éviter le blocage de votre carte lors des premières transactions au Japon. Vérifiez que votre carte accepte les retraits internationaux.
+
+**Souscrire une assurance voyage internationale**
+Jusqu'à votre inscription à l'assurance maladie japonaise, vous n'avez aucune couverture médicale au Japon. Une assurance voyage couvrant les soins médicaux est indispensable pour les premières semaines.
+
+## À l'arrivée (jours 1 à 3)
+
+**Récupérer la zairyu card à l'aéroport**
+Si vous arrivez à Narita ou Haneda avec un visa long séjour, la zairyu card est remise au contrôle des frontières. Vérifiez que toutes les informations sont correctes avant de quitter l'immigration.
+
+**Rejoindre votre logement**
+Confirmez la procédure de remise des clés avec l'opérateur ou le chasseur avant votre vol. Prévoyez un moyen de paiement pour les frais d'entrée si vous ne les avez pas déjà virés.
+
+**Acheter un SIM card prépayé**
+Avant d'avoir un compte bancaire japonais, vous ne pouvez pas obtenir un SIM card en contrat. Achetez un SIM prépayé à l'aéroport pour les premières semaines. Les boutiques IIJmio, OCN Mobile ou B-Mobile sont présentes dans les aéroports principaux.
+
+## Semaine 1 : les démarches obligatoires
+
+**S'enregistrer à la mairie (dans les 14 jours)**
+Rendez-vous à la mairie (kuyakusho) de votre arrondissement avec votre zairyu card, votre passeport et une preuve d'adresse (contrat de bail). L'enregistrement prend 30 à 60 minutes. La mairie inscrit votre adresse au dos de la zairyu card.
+
+**S'inscrire à l'assurance maladie nationale**
+Dans le même guichet ou un guichet adjacent à la mairie. Amenez votre zairyu card et votre passeport. Si vous n'avez pas encore votre My Number, l'inscription est quand même possible. Vous recevrez votre carte d'assurance par courrier sous 2 à 3 semaines.
+
+**Ouvrir un compte Japan Post Bank**
+Rendez-vous dans n'importe quel bureau de poste avec votre zairyu card et votre passeport. Le compte est ouvert le jour même. La carte de débit arrive par courrier sous 1 à 2 semaines.
+
+## Semaine 2 à 4 : les démarches complémentaires
+
+**Recevoir le courrier My Number**
+Environ 2 à 3 semaines après l'enregistrement à la mairie, vous recevrez une lettre avec votre numéro My Number. Ne la jetez pas. Rendez-vous ensuite à la mairie pour demander votre carte My Number (avec photo, valeur de pièce d'identité). Délai de fabrication : 1 à 2 mois.
+
+**Ouvrir un compte Sony Bank (avec My Number)**
+Une fois votre numéro My Number reçu, faites la demande en ligne pour Sony Bank. Interface en anglais, taux de change avantageux pour les transferts internationaux.
+
+**Obtenir un SIM card en contrat**
+Avec votre zairyu card et votre compte bancaire japonais, vous pouvez signer un contrat SIM chez un opérateur MVNO (IIJmio, OCN, mineo) ou directement chez docomo, SoftBank ou au.
+
+**Installer les applications essentielles**
+- Google Maps (version japonaise, avec transports)
+- Navitime ou Hyperdia (trains)
+- PayPay (paiement mobile, très répandu)
+- Mercari (occasion, très utilisé)
+- LINE (messagerie standard au Japon)
+
+## Mois 2 à 6 : la vie courante
+
+**Permis de conduire japonais**
+Si vous en avez besoin, la conversion d'un permis français se fait sans examen pratique. Documents nécessaires : permis original, traduction officielle (ambassade de France), zairyu card.
+
+**Enregistrement auprès de l'ambassade de France**
+L'inscription consulaire est recommandée. Elle vous permet de recevoir les alertes de l'ambassade, de voter aux élections françaises depuis le Japon, et facilite certaines démarches administratives.
+
+**Déclaration des revenus japonais en France**
+La France et le Japon ont une convention fiscale. Les revenus gagnés au Japon sont imposables au Japon, pas en France (sous certaines conditions). Consultez un expert fiscal pour votre situation spécifique.
+
+**Grande banque japonaise (après 6 mois)**
+Si votre employeur exige SMBC, Mizuho ou MUFG, vous pouvez faire la demande après 6 mois de résidence.
+
+---
+
+*Vous préparez votre déménagement au Japon ? Réservez une consultation gratuite pour sécuriser votre logement avant l'arrivée.*
+    `.trim(),
+  },
+  {
+    slug: 'tokyo-osaka-kyoto-ou-s-installer',
+    locale: 'fr',
+    title: 'Tokyo, Osaka ou Kyoto : quelle ville choisir pour s\'installer au Japon ?',
+    description: 'Loyers, emploi, qualité de vie, communauté francophone : comparatif complet des trois principales villes pour les expatriés qui veulent s\'installer au Japon.',
+    date: '2026-06-19',
+    readingTime: '7 min',
+    content: `
+La question revient dans tous les groupes d'expatriés : quelle ville japonaise choisir pour s'installer ? Tokyo, Osaka et Kyoto ont chacune leurs avantages et leurs contraintes. Voici une comparaison honnête basée sur les critères qui comptent vraiment pour un expatrié.
+
+## Tokyo : la métropole des opportunités
+
+**Population :** 14 millions d'habitants (Grand Tokyo : 37 millions)
+
+**Pour qui :** professionnels actifs, carrières internationales, familles avec enfants en écoles internationales, anglophones et francophones
+
+### Emploi et économie
+Tokyo concentre plus de 60% des sièges sociaux des grandes entreprises japonaises et étrangères. C'est la seule ville au Japon où le marché de l'emploi en anglais est suffisamment développé pour trouver un poste dans des secteurs très variés : finance, tech, consulting, mode, restauration, enseignement.
+
+Pour les francophones cherchant un poste en français ou dans un contexte franco-japonais, Tokyo est de loin la meilleure option.
+
+### Loyers
+Les plus élevés du Japon. Un 1K en zone centrale : 80 000 à 130 000 JPY/mois. Un appartement familial 3LDK : 200 000 à 450 000 JPY/mois selon le quartier.
+
+### Communauté expatriée
+La plus grande et la plus diversifiée. Lycée franco-japonais, consulat, associations franco-japonaises, restaurants français, epiceries étrangères. Jamais isolé.
+
+### Qualité de vie
+Excellente, mais intense. Tokyo est une ville stimulante qui peut être épuisante. Les espaces verts existent mais sont limités. Les transports sont impeccables mais bondés aux heures de pointe.
+
+## Osaka : le meilleur rapport qualité-vie
+
+**Population :** 2,7 millions d'habitants (Grand Osaka : 19 millions)
+
+**Pour qui :** ceux qui veulent vivre au Japon sans la pression de Tokyo, profils culinaires et créatifs, budget plus serré
+
+### Emploi et économie
+Le marché de l'emploi en anglais est nettement moins développé qu'à Tokyo. Les opportunités existent surtout dans le tourisme, l'enseignement des langues, la gastronomie, et quelques secteurs industriels (Panasonic, Sharp ont leurs sièges dans la région). Pour un travail entièrement en anglais ou en français : les options sont limitées.
+
+### Loyers
+30 à 40% moins chers qu'à Tokyo pour une surface équivalente. Un 1K en zone centrale d'Osaka : 55 000 à 90 000 JPY/mois. L'un des meilleurs rapports qualité-prix de toutes les grandes villes asiatiques.
+
+### Communauté expatriée
+Bien plus petite qu'à Tokyo. Pas de lycée français. Le consulat général de France est à Osaka, mais les services sont limités. Communauté anglophone active mais moins structurée.
+
+### Qualité de vie
+Osaka est souvent citée comme la ville japonaise où l'on mange le mieux (takoyaki, okonomiyaki, kushikatsu) et où les habitants sont les plus chaleureux et directs. Le rythme de vie est plus détendu qu'à Tokyo. Idéal pour ceux qui veulent s'immerger dans la culture japonaise réelle.
+
+## Kyoto : le choix atypique
+
+**Population :** 1,5 million d'habitants
+
+**Pour qui :** amoureux de la culture japonaise traditionnelle, enseignants, chercheurs, profils indépendants, séjours courts à moyens
+
+### Emploi et économie
+Marché de l'emploi très limité pour les anglophones et francophones en dehors de l'enseignement des langues et du tourisme. Quelques startups technologiques et universités recrutent des profils internationaux, mais c'est marginal. Kyoto n'est pas une ville pour les carrières corporate classiques.
+
+### Loyers
+Comparables à Osaka, parfois légèrement moins chers dans les quartiers résidentiels. Les logements traditionnels (machiya, maisons en bois) sont une spécificité kyotoïte à prix raisonnables.
+
+### Communauté expatriée
+La plus petite des trois. Peu de services en français. Communauté internationale présente via les universités (Doshisha, Ritsumeikan, Kyoto University), mais peu structurée pour les travailleurs.
+
+### Qualité de vie
+Exceptionnelle pour ceux qui valorisent la culture, les temples, la nature et un rythme de vie lent. Peu adaptée si vous avez besoin de dynamisme professionnel ou de services internationaux.
+
+## Le tableau de comparaison
+
+| Critère | Tokyo | Osaka | Kyoto |
+|---|---|---|---|
+| Emploi en anglais | Excellent | Limité | Très limité |
+| Loyer (1K central) | 80-130k JPY | 55-90k JPY | 50-85k JPY |
+| École française | Oui (LFJT) | Non | Non |
+| Communauté FR | Grande | Petite | Très petite |
+| Transport | Excellent | Bon | Bon |
+| Rythme de vie | Intense | Modéré | Lent |
+
+## La question qui tranche tout
+
+**Votre employeur ou votre activité détermine la ville.** Si vous avez un emploi à Tokyo, habitez à Tokyo. Si votre activité vous permet de travailler depuis n'importe où, Osaka offre le meilleur compromis qualité de vie / coût de la vie. Kyoto est un choix de style de vie, pas un choix professionnel.
+
+Pour les familles avec enfants : Tokyo s'impose si l'école française est une priorité.
+
+---
+
+*Vous hésitez encore sur votre ville et cherchez un logement à Tokyo ? Réservez une consultation gratuite pour explorer les options disponibles.*
+    `.trim(),
+  },
+  {
+    slug: 'residence-card-japan-zairyu-card-guide',
+    locale: 'en',
+    title: 'Japan Residence Card (Zairyu Card): Complete Guide for Foreigners',
+    description: 'How to get your Japan Residence Card, what it lets you do, and the mandatory steps within 14 days of arrival. Everything foreigners need to know.',
+    date: '2026-06-19',
+    readingTime: '5 min',
+    content: `
+The Japan Residence Card (在留カード, zairyu card) is the most important document for any foreigner living in Japan. Without it, you cannot open a bank account, sign a lease, get a contract SIM card, or access most public services.
+
+## What is the zairyu card?
+
+The zairyu card is an official ID card issued by the Japanese government to all foreign residents on a long-stay visa. It confirms your residency status, visa type, and the expiry date of your authorised stay.
+
+It looks like a credit card: laminated, with your photo, name, date of birth, nationality, registered address, visa type, and expiry date.
+
+## How to get it
+
+**At the airport on arrival**: if you arrive at Tokyo (Narita or Haneda), Osaka (Kansai), or another major international airport with a valid long-stay visa, the zairyu card is issued to you directly at the immigration counter. No additional steps are needed at that moment.
+
+If you arrive through a smaller airport, the card is sent by post to your Japanese address after you register at the ward office.
+
+## Register at the ward office: mandatory within 14 days
+
+Once you have a Japanese address (your accommodation), you must go to your local ward office (kuyakusho) within **14 days** to register your address.
+
+**Documents to bring**:
+- Your zairyu card
+- Your passport
+- Proof of address (a copy of your lease agreement is sufficient)
+
+The ward office registers your address and stamps it on the back of your zairyu card.
+
+**Important**: this registration is mandatory. Failing to do it within 14 days is a violation of immigration law and can cause complications when renewing your visa.
+
+## What you can do with your zairyu card
+
+Once your address is registered on the back:
+- Open a bank account (Japan Post Bank first)
+- Sign a lease agreement
+- Get a contract SIM card
+- Enrol in national health insurance
+- Access most Japanese public services
+
+The card also serves as official government-issued photo ID in daily life. In practice, you use it almost as often as your passport.
+
+## Updating your address when you move
+
+If you change your address in Japan, you must notify the ward office within 14 days of the move. The ward office updates the address stamp on the back of the card.
+
+Failing to notify an address change is a violation of immigration law. Additionally, most services (bank, insurance, employer) require that your address on record matches the address on your zairyu card.
+
+## Expiry: watch this date
+
+Your zairyu card expires on the same date as your visa. You must renew your visa (and therefore your card) before this date.
+
+The renewal application must be submitted to the regional immigration bureau (nyukan) **before** expiry. It is advisable to start the process 3 months before the deadline. Late renewal can cause significant administrative complications.
+
+You will normally receive a reminder letter from Japanese immigration several months before expiry. Do not rely solely on that letter: set a calendar reminder when you receive your card.
+
+## Permanent residency card
+
+After a certain number of years of legal, continuous residence in Japan (generally 10 years, reduced to 1 to 3 years for Highly Skilled Professional visa holders), you can apply for permanent residency. The permanent residency card (eijuusha) has no visa expiry date. It must simply be renewed every 7 years to update the photo.
+
+---
+
+*Your Tokyo address starts with securing housing. Book a free consultation to see what is available for your arrival date.*
+    `.trim(),
+  },
+  {
+    slug: 'japan-health-insurance-expat-guide',
+    locale: 'en',
+    title: 'Health Insurance in Japan for Expats: Complete Guide 2026',
+    description: 'Shakai hoken or kokumin kenko hoken: how Japanese health insurance works for foreigners, what it covers, and how to enrol within 14 days of arrival.',
+    date: '2026-06-19',
+    readingTime: '6 min',
+    content: `
+Japan has one of the best healthcare systems in the world, built on a mandatory insurance model that covers every resident, including foreign nationals. Understanding how it works before you arrive saves time and avoids costly gaps in coverage.
+
+## The two systems
+
+Every resident in Japan must be covered by one of two systems:
+
+**1. Shakai hoken (employee health insurance)**
+If you are employed full-time by a Japanese company, your employer automatically enrols you in shakai hoken. Contributions are deducted directly from your salary, split between you and your employer. This is the most common situation for expats on a working visa.
+
+**2. Kokumin kenko hoken (national health insurance)**
+If you are self-employed, on a working holiday visa, a student, or your employer does not offer shakai hoken, you must enrol yourself in the national health insurance scheme at your local ward office.
+
+## How much does national health insurance cost?
+
+Premiums for kokumin kenko hoken are calculated based on your income from the previous year. For a newly arrived expat with no prior Japanese income history, the minimum premium applies.
+
+**Estimates for a single person**:
+- New arrival with no Japanese income history: 2,000 to 5,000 JPY/month
+- Annual income of 3 million JPY: approximately 15,000 to 20,000 JPY/month
+- Annual income of 5 million JPY: approximately 25,000 to 35,000 JPY/month
+
+The premium covers the policyholder and dependants (non-working spouse, children).
+
+## What is covered
+
+With either shakai hoken or kokumin kenko hoken, you pay 30% of medical costs. The insurance covers the remaining 70%.
+
+**What is covered**:
+- GP and specialist consultations
+- Hospitalisations
+- Prescription medications
+- Dental care (partially)
+- Standard medical tests and procedures
+
+**Monthly cost ceiling (kogen ryoyo seido)**: if your out-of-pocket medical costs in a single month exceed a set threshold (approximately 80,000 to 90,000 JPY for an average income), the insurance covers the excess. This protects against catastrophic expenses.
+
+**What is not covered**:
+- Cosmetic dental treatments
+- Glasses and contact lenses (except for medical conditions)
+- Some travel vaccines
+- Private clinic consultations outside the network
+
+## How to enrol in national health insurance
+
+Go to your local ward office (kuyakusho), to the national health insurance counter.
+
+**Documents needed**:
+- Your Residence Card (zairyu card)
+- Your passport
+- Your registered Japanese address
+- Your My Number (if you have received it)
+
+**Timing**: you must enrol within 14 days of arrival or of losing other coverage (such as leaving a shakai hoken-covered job). Late enrolment results in paying backdated premiums from the date you should have enrolled.
+
+**What you receive**: a health insurance card (hoken-sho) sent by post within 2 to 3 weeks. Present this card at every medical appointment.
+
+## Using your insurance in daily life
+
+**At the clinic**: show your insurance card at reception. You pay 30% of the consultation cost at the end of the visit.
+
+**Real cost of a GP visit**: with insurance, a standard consultation typically costs 1,000 to 3,000 JPY depending on the tests performed.
+
+**At the pharmacy**: prescription medications are also reimbursed at 70%. Over-the-counter medications are not reimbursed.
+
+**At the hospital**: for hospitalisations, the monthly cost ceiling applies. In practice, even a week-long hospital stay remains manageable with insurance.
+
+## Supplementary insurance
+
+Like a complementary mutuelle in France, many residents in Japan take out private supplementary insurance to cover their remaining 30% out-of-pocket share. Companies such as AIA, AXA Japan, and MetLife Japan offer supplementary plans from 2,000 to 5,000 JPY/month.
+
+Useful if you have chronic health conditions or plan to stay several years.
+
+## What to do if you fall ill before your insurance card arrives
+
+If you need a doctor before receiving your insurance card, you pay 100% of the consultation cost. Keep all your receipts. Once your card arrives, you can claim reimbursement of the 70% covered portion at your ward office.
+
+---
+
+*Planning your move to Tokyo? Book a free consultation to secure housing before you arrive and start your administrative setup on the right foot.*
+    `.trim(),
+  },
+  {
+    slug: 'family-expat-tokyo-international-schools',
+    locale: 'en',
+    title: 'Family Expat Life in Tokyo: International Schools and Neighbourhoods (2026)',
+    description: 'International schools in Tokyo, family-friendly neighbourhoods, housing costs for families: the complete guide for expats relocating to Tokyo with children.',
+    date: '2026-06-19',
+    readingTime: '8 min',
+    content: `
+Relocating to Tokyo with children requires more planning than moving solo, but it is one of the most rewarding experiences a family can have. Here is what you need to know about schooling, neighbourhoods, and housing before you arrive.
+
+## International schools in Tokyo
+
+The choice of school is often what determines which neighbourhood a family lives in. Tokyo has solid options for English-speaking and French-speaking families.
+
+### For French-speaking families: Lycée franco-japonais de Tokyo (LFJT)
+
+The Lycée franco-japonais de Tokyo is the official French school attached to the Embassy of France. It follows the French national curriculum from nursery through to the baccalauréat.
+
+**Location**: Fujimidai, Nerima-ku (Seibu Ikebukuro line, approximately 20 minutes from Shibuya)
+
+**Annual fees**: approximately 1,200,000 to 1,800,000 JPY per year depending on the grade level. Reductions may apply through the CCIFJ (French Chamber of Commerce in Japan) or French consular registration.
+
+**Admissions**: waiting lists exist for some grade levels, particularly primary school. Contact the school at least 6 months before the desired start date.
+
+### For English-speaking families
+
+**Tokyo International School** (Minato-ku): International Baccalaureate programme, excellent reputation. Annual fees: 2,000,000 to 3,000,000 JPY.
+
+**Nishimachi International School** (Minato-ku): English-medium school from nursery through to grade 9.
+
+**The British School in Tokyo**: British national curriculum.
+
+**Canadian International School** (Minato-ku): Canadian curriculum in English.
+
+### Japanese public schools
+
+Foreign children can attend Japanese public schools free of charge. Schooling is entirely in Japanese. Some children adapt remarkably within 6 to 12 months; others find the language barrier challenging.
+
+Ward offices provide Japanese language support classes for newly arrived foreign children.
+
+## Family-friendly neighbourhoods in Tokyo
+
+The residential neighbourhood a family chooses typically follows the location of the school.
+
+### Minato-ku: the classic expat family zone
+
+Minato-ku (Hiroo, Azabu-Juban, Roppongi) concentrates the majority of expat families in Tokyo. Close to English-medium international schools, foreign grocery stores (National Azabu, Hiroo Supermarket), English-speaking sports clubs, and many families in the same situation.
+
+**Drawback**: the most expensive rents in Tokyo. A family 3LDK apartment in Hiroo costs 300,000 to 600,000 JPY/month.
+
+### Nerima-ku: the French family neighbourhood
+
+Nerima-ku is the closest ward to the Lycée franco-japonais. Less cosmopolitan than Minato-ku, but very residential and quiet. Rents are 40 to 50% lower than Hiroo for equivalent space.
+
+**Strengths**: large apartments available, gardens, high-quality Japanese public schools for siblings, tight-knit francophone community around the LFJT.
+
+### Setagaya-ku: the residential alternative
+
+Setagaya-ku (Jiyugaoka, Sangenjaya, Futako-Tamagawa) is a residential ward popular with affluent Japanese families and some expat families. Larger apartments, parks, quality Japanese schools.
+
+**Strengths**: better value than central zones, quiet residential atmosphere, several children's sports and cultural facilities.
+
+## Family housing in Tokyo: what to know
+
+### Space is harder to find than you expect
+
+Tokyo is dense. Three-bedroom apartments (3LDK) in central areas are rare and expensive. Families with two or more children typically choose between:
+- A 3LDK in a central zone at high cost (250,000 to 450,000 JPY/month)
+- A 3LDK or house (kodate) in the suburbs at a reasonable price (150,000 to 250,000 JPY/month) with a longer school commute
+
+### Houses (kodate)
+
+Individual houses are more common in suburban areas (Nerima, Setagaya, Suginami, Adachi). They offer a small garden, more living space, and no neighbours directly above and below.
+
+Budget: 200,000 to 350,000 JPY/month for a 3 to 4-bedroom house in an accessible area.
+
+### What families negotiate differently
+
+Compared to a single-person relocation, families can negotiate:
+- A minimum 2-year lease term (landlords prefer stable, long-term tenants)
+- Permission for children (some Japanese leases specify the number of occupants)
+- Minor fittings or safety adaptations (additional smoke detectors, window guards)
+
+## Monthly budget for a family of four in Tokyo
+
+**Rent (3LDK Nerima-ku)**: 180,000 to 280,000 JPY
+
+**Schooling (LFJT or international school, 2 children)**: 200,000 to 300,000 JPY
+
+**Food (family of four)**: 80,000 to 120,000 JPY
+
+**Transport**: 20,000 to 40,000 JPY
+
+**Extracurricular activities**: 30,000 to 60,000 JPY
+
+**Total monthly budget, family of four**: 600,000 to 900,000 JPY/month
+
+Employer-provided relocation packages covering part of the school fees and housing are common in large corporations and significantly reduce the personal financial burden.
+
+---
+
+*Relocating to Tokyo with your family? Book a free consultation to find available family housing near international schools.*
+    `.trim(),
+  },
+  {
+    slug: 'negotiating-rent-tokyo-tips',
+    locale: 'en',
+    title: 'Negotiating Rent in Tokyo: Is It Possible and How to Do It?',
+    description: 'Tokyo\'s rental market has a reputation for being rigid, but negotiation is possible in specific situations. Here is when and how to negotiate your rent or move-in costs.',
+    date: '2026-06-19',
+    readingTime: '5 min',
+    content: `
+Contrary to common belief, negotiation in Tokyo is possible. Not in every case, not in the same way as in Europe, but room for manoeuvre exists. Knowing when and how to negotiate can save you several months of rent.
+
+## What is and is not negotiable
+
+**Rarely negotiable**:
+- Monthly rent on a recently built or well-located property with multiple competing applicants
+- Shikikin (security deposit): this is a legal guarantee; landlords are firm on this
+- Agency fee: legally capped at 1 month, rarely reduced further
+
+**Often negotiable**:
+- Reikin (key money): this is where the margin is greatest
+- Notice period for termination
+- Equipment or minor works (air conditioning unit, fresh paint)
+- Rent on properties that have been vacant for more than 2 to 3 months
+- Rent-free period (free months at the start of the lease) for large apartments
+
+## When negotiation has the best chance of success
+
+**Long-vacant properties**: if an apartment has been on the market for more than 2 months, the landlord is clearly open to a reliable tenant. The reikin and sometimes even the monthly rent can be negotiated.
+
+**Off-season**: the Tokyo rental market is seasonal. Peak periods are March to April (Japanese school year start) and September to October. Outside these periods (July to August and November to February), landlords are more flexible.
+
+**Strong tenant profile**: a stable employment contract, good salary, and planned long stay (2 years or more) are strong arguments. Landlords often prefer a good tenant over a slightly higher rent from an uncertain one.
+
+**Immediate commitment**: offering to sign quickly and transfer the first month's rent immediately can persuade a hesitant landlord.
+
+## The negotiation approach that works in Japan
+
+Direct, aggressive negotiation is not part of Japanese culture. The right approach is indirect and respectful.
+
+**Step 1**: express firm interest before raising any request ("We love this apartment and are very keen to move forward...")
+
+**Step 2**: raise the question through the agency, never directly with the landlord ("Would it be possible to ask the landlord if the reikin is negotiable in our case?")
+
+**Step 3**: justify with your profile ("We are planning to stay for at least 2 years and have a stable employment contract...")
+
+**Step 4**: accept a refusal graciously if the answer is no. Pushing further is counterproductive in Japanese business culture.
+
+## A concrete example of successful negotiation
+
+Apartment at 120,000 JPY/month, reikin of 2 months, shikikin of 2 months, vacant for 3 months.
+
+Request: reduce reikin from 2 months to 1 month.
+Result: reikin reduced to 1 month.
+Saving: 120,000 JPY immediately.
+
+This type of negotiation succeeds in approximately 40 to 50% of cases on properties vacant for more than 2 months.
+
+## What a property hunter can do that you cannot
+
+A local property hunter has several negotiation advantages:
+
+They know the property's history: how long it has been vacant, whether the landlord has already reduced the reikin for other applicants.
+
+They have existing relationships with local agencies, which adds weight to their requests.
+
+They negotiate in Japanese, allowing requests to be phrased in culturally appropriate ways that feel less confrontational than the same request made in English through an intermediary.
+
+---
+
+*Found an apartment in Tokyo and want help optimising your entry conditions? Contact us for negotiation support.*
+    `.trim(),
+  },
+  {
+    slug: 'gaijin-house-vs-share-house-tokyo',
+    locale: 'en',
+    title: 'Gaijin House vs Share House in Tokyo: What\'s the Difference?',
+    description: 'Gaijin house and share house are often used interchangeably, but they are not the same thing. Here is the real difference and which one suits your situation.',
+    date: '2026-06-19',
+    readingTime: '5 min',
+    content: `
+If you have been searching for short-term housing in Tokyo as a foreigner, you have probably seen both "gaijin house" and "share house" used, sometimes for the same type of property. They are related but not identical. Understanding the difference helps you find the right option for your situation.
+
+## What is a gaijin house?
+
+"Gaijin" (外人) is a Japanese term for foreigner, though it carries an informal and sometimes slightly pejorative connotation depending on context. A "gaijin house" is a colloquial term, not a formal property category. It refers to any shared accommodation that specifically caters to foreign residents in Japan.
+
+Historically, gaijin houses emerged in the 1980s and 1990s as a response to the extreme difficulty foreigners faced renting standard apartments. They were often older buildings, minimally renovated, with shared facilities and very few move-in requirements. They accepted anyone with a passport, regardless of visa status or length of stay.
+
+**Key characteristics of the traditional gaijin house**:
+- Older building, basic facilities
+- Very flexible entry conditions (sometimes no visa requirements beyond tourist status)
+- Weekly or monthly payment options
+- No long-term commitment required
+- Often international atmosphere, frequent turnover of residents
+
+## What is a share house?
+
+A share house (シェアハウス) is a formal, professionally managed residential property where multiple tenants share communal spaces. The term is a modern, regulated concept in Japan, developed primarily from the mid-2000s onward.
+
+Modern share houses range from budget options at 40,000 JPY/month to premium properties at 90,000 JPY/month with gym access, designer interiors, rooftop terraces, and concierge services.
+
+**Key characteristics of the modern share house**:
+- Managed by a professional operator (often a company with dozens of properties)
+- Minimum stay typically 1 to 3 months
+- Standard screening process (application, visa check, income verification)
+- Lease agreement signed
+- Often a mix of Japanese and foreign residents
+
+## The overlap and the confusion
+
+The confusion arises because many properties marketed online as "gaijin houses" are actually modern share houses targeting foreigners. The word "gaijin house" is often used as a search term or marketing label to signal "foreigner-friendly" rather than as a precise description of the property type.
+
+In practice, when people say "gaijin house" in 2026, they usually mean a share house that:
+- Has a straightforward application process for foreigners
+- Has an English-speaking operator or English documentation
+- Accepts short stays (1 month minimum rather than 3 or 6)
+- Has few requirements beyond a valid visa
+
+## Which one suits your situation?
+
+**Choose a modern share house if**:
+- You want a clean, well-managed property with clear rules
+- You plan to stay 1 month or more
+- You want to live with a mix of Japanese and international residents
+- You have a valid long-stay visa
+
+**A more flexible "gaijin house" setup may work if**:
+- You are arriving on a tourist visa and waiting for your work visa to be processed
+- You need accommodation for less than 1 month
+- You need to move in immediately with no application process
+- Your budget is very tight (some gaijin houses accept payment by the week)
+
+**Avoid if**:
+- You want a stable living environment for more than a few months (turnover is high, management quality is variable in the most informal properties)
+- You care about the condition of the building and facilities
+
+## Practical advice
+
+When evaluating a property marketed as a "gaijin house" or share house, the questions to ask are always the same:
+
+- What is the minimum stay?
+- What documents are required to move in?
+- What is included in the monthly fee (utilities, internet)?
+- What are the house rules?
+- Is there a contact person if there is a problem?
+
+The answers tell you whether you are dealing with a well-managed modern share house or an informal short-stay arrangement. Both can be the right choice depending on your timing and needs.
+
+---
+
+*Looking for the right share house or furnished apartment in Tokyo for your arrival? Book a free consultation to see current availability.*
+    `.trim(),
+  },
 ]
 
 export function getBlogPosts(locale: Locale): BlogPost[] {
