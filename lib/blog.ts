@@ -2461,6 +2461,583 @@ The answers tell you whether you are dealing with a well-managed modern share ho
 *Looking for the right share house or furnished apartment in Tokyo for your arrival? Book a free consultation to see current availability.*
     `.trim(),
   },
+  {
+    slug: 'tokyo-neighbourhoods-expats-guide',
+    locale: 'en',
+    title: 'Best Tokyo Neighbourhoods for Expats: Complete Guide 2026',
+    description: 'Shinjuku, Shibuya, Minato, Koenji, Ikebukuro: which Tokyo neighbourhood to choose based on your budget, lifestyle, and workplace.',
+    date: '2026-06-19',
+    readingTime: '9 min',
+    content: `
+Choosing the right neighbourhood in Tokyo is a decision that shapes your quality of life for the next 12 to 36 months. Too central and rent exceeds your budget. Too far out and commutes eat into your evenings. Here are the neighbourhoods that offer the best balance for French-speaking and English-speaking expats.
+
+## Shinjuku: the practical expat hub
+
+**Best for**: professionals working in west Tokyo, families looking for French-language services
+
+**Average 1K rent**: 90,000 to 140,000 JPY/month
+
+Shinjuku is one of the busiest train stations in the world, with 12 train and metro lines. It is home to the French Consulate General and several French and European restaurants.
+
+The neighbouring district of Shin-Okubo, a 10-minute walk away, is Tokyo's Korean quarter: international food shops, restaurants, and an affordable international atmosphere.
+
+**Strengths**: maximum connectivity, foreign-language services, vibrant nightlife
+
+**Drawbacks**: noisy, the streets around Kabukicho are busy at night
+
+## Shibuya / Daikanyama / Ebisu: the trendy triangle
+
+**Best for**: young professionals, creative profiles, English speakers
+
+**Average 1K rent**: 120,000 to 180,000 JPY/month
+
+These three neighbourhoods form a residential triangle popular with Western expats. Daikanyama and Ebisu offer a village-like feel with quality cafes and boutique shops. Shibuya is the commercial and cultural hub.
+
+Transport connections are excellent: Yamanote Line, Tokyu Toyoko Line, Hibiya Line.
+
+**Strengths**: high quality of life, international bars and restaurants, English-friendly environment
+
+**Drawbacks**: among the most expensive rents in Tokyo
+
+## Minato-ku (Roppongi, Azabu-Juban, Hiroo): the classic expat zone
+
+**Best for**: families with children in international schools, senior expats on long-term assignments
+
+**Average 1LDK rent**: 200,000 to 350,000 JPY/month
+
+Minato-ku is historically the upscale expat residential zone in Tokyo. It hosts the Lycée franco-japonais, several English-medium international schools, foreign supermarkets (National Azabu, Hiroo Supermarket), and a high concentration of embassies.
+
+Hiroo is the most family-friendly sub-district, Roppongi the most lively, Azabu-Juban the most balanced.
+
+**Strengths**: full family infrastructure, English-speaking services everywhere, maximum safety
+
+**Drawbacks**: the most expensive area in Tokyo, risk of expat bubble (limited contact with everyday Japanese life)
+
+## Nakameguro / Meguro: the ideal balance
+
+**Best for**: couples, profiles who want authentic Tokyo without sacrificing comfort
+
+**Average 1K rent**: 100,000 to 150,000 JPY/month
+
+Nakameguro has become one of Tokyo's most popular neighbourhoods. The Meguro River canal is stunning in spring (cherry blossoms) and the area offers a strong selection of independent restaurants and boutiques.
+
+**Strengths**: pleasant atmosphere, good transport links (Tokyu Toyoko, Hibiya Line), less touristy than Shibuya
+
+**Drawbacks**: rents rising, fewer practical everyday shops
+
+## Koenji / Nakano: the smart choice
+
+**Best for**: limited budget, young professionals, artists, those who want to integrate into Japanese life
+
+**Average 1K rent**: 70,000 to 100,000 JPY/month
+
+Koenji is Tokyo's alternative neighbourhood: vintage shops, vinyl bars, small restaurants. Few foreigners, many creative Japanese residents. The atmosphere is relaxed and rents are 30 to 40% cheaper than central areas for comparable quality of life.
+
+The JR Chuo Line connects Koenji to Shinjuku in 7 minutes.
+
+**Strengths**: affordable rents, quick access to the centre, authentic Japanese atmosphere
+
+**Drawbacks**: few English-language services, less practical for families
+
+## Ikebukuro: the self-contained city
+
+**Best for**: students, mid-range budget, fans of popular culture
+
+**Average 1K rent**: 80,000 to 120,000 JPY/month
+
+Ikebukuro is often overlooked by guidebooks but is one of Tokyo's most lively areas. Two major department stores (Seibu, Tobu), an abundant selection of Korean and Chinese restaurants, and excellent transport connections (Yamanote Line, Marunouchi Line, Seibu and Tobu Lines).
+
+**Strengths**: excellent value for money, activity 7 days a week, highly connected
+
+**Drawbacks**: less residential feel than southern neighbourhoods
+
+## How to choose based on your profile
+
+**Arriving solo, budget 100,000 to 150,000 JPY/month**: Koenji, Nakano, or Ikebukuro. High quality of life, reasonable rents.
+
+**Coming as a couple, budget 180,000 to 250,000 JPY/month**: Nakameguro, Meguro, or Ebisu. Ideal balance.
+
+**Children or international school needed**: Minato-ku or Shinjuku. Complete family infrastructure.
+
+**Working in east Tokyo (Marunouchi, Nihonbashi)**: Kiyosumi-Shirakawa, Monzen-Nakacho. Under the radar and affordable.
+
+The general rule: each station further from the central zone means approximately 10,000 JPY less in rent per month. An apartment 20 minutes from Shibuya often costs 30 to 40% less than one 5 minutes away.
+
+---
+
+*Unsure between two neighbourhoods? During a free consultation, I help you identify available properties in each area based on your actual budget.*
+    `.trim(),
+  },
+  {
+    slug: 'japan-work-visa-foreigners-guide',
+    locale: 'en',
+    title: 'Japan Work Visa for Foreigners: Which Type to Choose in 2026?',
+    description: 'Engineer visa, Highly Skilled Professional, working holiday: Japan work visa options explained for English and French speakers, with real conditions and timelines.',
+    date: '2026-06-19',
+    readingTime: '8 min',
+    content: `
+Working in Japan as a foreigner is entirely achievable, but Japan's visa system is complex and poorly documented in English. Here are the main visa categories for foreign nationals, with the real conditions for each.
+
+## Engineer / Humanities / International Services visa (the most common)
+
+This is the standard work visa for skilled professionals in Japan. It covers a wide range of jobs: developers, engineers, translators, language teachers, international marketing, human resources.
+
+**Requirements**:
+- A university degree (bachelor's minimum) in a field related to the position
+- Or 10 years of professional experience in the field (without a degree)
+- A firm job offer from a Japanese company that sponsors your visa application
+- Salary must be equivalent to that of a Japanese employee in the same role
+
+**Duration**: 1, 3, or 5 years depending on profile and company. Renewable indefinitely.
+
+**Processing time**: 1 to 3 months after submission. Some companies are "recognised" by Japanese immigration and benefit from accelerated processing (2 weeks).
+
+**What this visa allows**: working only for the employer named on the visa. Changing employer requires modifying your residence status.
+
+## Highly Skilled Professional (HSP) visa
+
+The HSP system is points-based. If you accumulate 70 points or more according to an official scoring table, you receive preferential status with significant advantages.
+
+**Points are awarded for**:
+- Age (younger scores higher: 15 points under 30, 10 points between 30 and 35)
+- Degree level (PhD = 30 points, master's = 20 points, bachelor's = 10 points)
+- Annual salary (70 points for 10 million JPY/year, 40 points for 4 million JPY/year)
+- Professional experience
+- Patents filed
+- Academic research
+- Japanese language proficiency (JLPT N1 or N2 adds points)
+
+**HSP advantages over the standard visa**:
+- Permanent residency accessible after 1 to 3 years (versus 10 years normally)
+- Permission to bring parents to Japan in certain cases
+- Permission to work for multiple companies simultaneously
+- Spouse can work without restriction
+
+**How to calculate your score**: Japan's Ministry of Justice provides an official online calculator.
+
+## Working holiday for under-30s
+
+France, Australia, Canada, and several other countries have working holiday agreements with Japan. Switzerland is not included in this scheme.
+
+**Requirements**:
+- Aged 18 to 30 (up to 30 inclusive at the time of application)
+- National of a participating country (France, Australia, Canada, UK, Ireland, etc.)
+- No dependent family members (spouse or children)
+- Never previously obtained a working holiday visa for Japan
+
+**What this visa allows**:
+- 1-year stay in Japan
+- Work without restriction on the type of employment
+- Freedom to change employers
+- Study up to 6 months
+
+**What it does not allow**:
+- Renewal (one-time use only)
+- Working in certain adult entertainment establishments
+
+**Annual quota**: 1,500 places for French nationals, allocated on a first-come, first-served basis. Applications open in January. Apply as early as possible.
+
+## Student visa
+
+If you are coming to study Japanese at a language school or enrol in a Japanese university, the student visa is the natural path.
+
+**What it allows**:
+- Stay in Japan for the duration of studies
+- Work up to 28 hours per week (separate work permit application required)
+
+**What it does not allow**:
+- Signing most lease agreements as the primary tenant (many landlords refuse)
+- Easily changing status if you find employment (often requires returning home and reapplying)
+
+For housing, students are typically directed towards university dormitories or share houses, which generally accept student visas.
+
+## Spouse of Japanese national
+
+If you are married to a Japanese citizen, you receive a spouse visa that allows unrestricted work in any company and any sector.
+
+This visa is not tied to an employer and not linked to a specific position. It is renewable as long as the marriage is valid.
+
+## Critical mistakes to avoid
+
+**Arriving on a tourist visa hoping to switch to a work visa from inside Japan**: technically possible in rare specific cases, but the administrative delays (several weeks during which you cannot legally work) make this approach risky. The standard path is obtaining the visa in your home country before departure.
+
+**Changing employer without reporting the change**: the work visa is linked to a specific employer. If you change jobs, you must notify the immigration bureau within 14 days.
+
+**Working beyond authorised hours on a student visa**: the 28h/week limit is enforced. Exceeding it can result in your visa not being renewed.
+
+## Which visa to choose based on your situation
+
+**You have a job offer**: Engineer/Humanities visa (or HSP if you score 70+ points).
+
+**You are under 30 and want to explore Japan**: working holiday. The most flexible entry option.
+
+**You are coming to study**: student visa with work permit.
+
+**You are married to a Japanese national**: spouse visa, the most flexible of all.
+
+Once your visa is obtained, the next step is finding housing. Visa type affects what you can rent: an engineer visa facilitates access to standard apartments, while working holiday or student visa holders are often directed toward share houses.
+
+---
+
+*Visa sorted and looking for housing in Tokyo? Book a free consultation to see what is available before your arrival date.*
+    `.trim(),
+  },
+  {
+    slug: 'tokyo-rental-traps-foreigners',
+    locale: 'en',
+    title: '7 Rental Traps to Avoid When Renting in Tokyo as a Foreigner',
+    description: 'Hidden key money, exit cost surprises, lease clauses you cannot read: the most expensive mistakes expats make in the Tokyo rental market, and how to avoid them.',
+    date: '2026-06-19',
+    readingTime: '6 min',
+    content: `
+Tokyo's rental market is one of the most complex in the world for foreigners. Every year, expats lose tens of thousands of yen through avoidable mistakes. Here are the seven most common traps, with concrete solutions for each.
+
+## Trap 1: Signing without reading the termination clauses
+
+Most Japanese leases contain an early termination clause (chuto kaiyaku) imposing penalties if you leave before the end of the minimum period. These penalties can represent 1 to 2 months of rent.
+
+**The solution**: before signing, ask explicitly: "What are the costs if I need to leave in 4 months, 6 months, 12 months?" Have this clause translated if the contract is in Japanese.
+
+## Trap 2: Underestimating exit restoration costs
+
+In Japan, tenants are often required to contribute to the cost of restoring the property to its original condition when they leave, even if they have taken good care of the apartment. This system (genjo kaifuku) can result in surprise bills of 50,000 to 200,000 JPY depending on the property size and length of stay.
+
+**What landlords can legally charge**: repainting if you smoked, kitchen cleaning if it is greasy, tatami mat replacement if stained.
+
+**What they cannot legally charge**: normal wall and floor wear, light traces of normal use, lock replacement after your departure.
+
+**The solution**: take detailed photos of every room on move-in day. Report any existing damage or defects in writing to the agency or landlord within the first 3 days.
+
+## Trap 3: Confusing reikin and shikikin
+
+These two terms appear in all Japanese lease contracts, and confusing them is costly.
+
+**Shikikin** (敷金): security deposit. Refundable on exit, minus any restoration costs. Typically 1 to 2 months of rent.
+
+**Reikin** (礼金): literally "thank-you money." Paid to the landlord, non-refundable, with no counterpart. A legacy of post-war Japanese tradition. Represents 1 to 2 months of rent.
+
+**The solution**: prioritise properties without reikin, which are increasingly common especially in furnished rentals targeting foreigners. Potential saving: 100,000 to 300,000 JPY.
+
+## Trap 4: Renting in a strictly managed building without knowing it
+
+Some Japanese residential buildings have very strict internal rules: no visitors after 10pm, no noise after 9pm, rubbish bins only accessible during authorised time windows. These rules are not always mentioned by the agency.
+
+**The solution**: ask for the building regulations (kanri kisoku) before signing. If the agency cannot provide them, that is a warning sign.
+
+## Trap 5: Choosing a property too far from your workplace
+
+Tokyo is enormous. A "mere 40-minute" train journey can become 75 minutes during peak hours once connections and platform waiting time are factored in. Over a year, that is 500 extra hours of commuting.
+
+**The solution**: test the full door-to-door journey during rush hour before committing. Japanese navigation apps (Hyperdia, Navitime) are very accurate on real journey times.
+
+## Trap 6: Not checking phone signal inside the apartment
+
+Thick concrete buildings (very common in Tokyo) can block phone signal inside. Some basement or ground-floor units are complete dead zones.
+
+**The solution**: test your signal inside the apartment during the viewing. Also verify the internet connection available in the building: direct fibre or only VDSL (slower).
+
+## Trap 7: Paying unjustified agency fees
+
+Legally, Japanese agency fees are capped at 1 month of rent including tax. Some unscrupulous agencies add "service fees" or "documentation fees" that accumulate.
+
+Additionally, a recent reform (April 2024) changed the rules: for residential properties, agency fees are now normally the landlord's responsibility, not the tenant's, unless the tenant has explicitly agreed to pay them.
+
+**The solution**: request a detailed written quote before any viewing. Question every line item. Compare across multiple agencies, or work with a property hunter who operates on a fixed fee with no hidden agency commission.
+
+## What a property hunter does to avoid these traps
+
+A hunter's role goes beyond finding properties. It includes reading contracts to identify problematic clauses before signing, negotiating entry conditions, and documenting the property's condition on move-in to protect your deposit on exit.
+
+All seven traps are avoidable with the right preparation and the right support.
+
+---
+
+*Found an apartment in Tokyo and want the contract reviewed before signing? Contact us for a consultation.*
+    `.trim(),
+  },
+  {
+    slug: 'tokyo-osaka-kyoto-which-city-to-live',
+    locale: 'en',
+    title: 'Tokyo, Osaka or Kyoto: Which City Should You Live in as an Expat?',
+    description: 'Rent, job market, quality of life, expat community: an honest comparison of Japan\'s three main cities for foreigners deciding where to settle.',
+    date: '2026-06-19',
+    readingTime: '7 min',
+    content: `
+The question comes up in every expat group: which Japanese city should I move to? Tokyo, Osaka, and Kyoto each have their advantages and constraints. Here is an honest comparison based on the criteria that actually matter for expats.
+
+## Tokyo: the city of opportunity
+
+**Population**: 14 million residents (Greater Tokyo: 37 million)
+
+**Best for**: active professionals, international careers, families with children in international schools, English and French speakers
+
+### Employment and economy
+Tokyo concentrates more than 60% of major Japanese and international corporate headquarters. It is the only city in Japan where the English-language job market is developed enough to find roles across a wide range of sectors: finance, tech, consulting, fashion, hospitality, teaching.
+
+For French speakers looking for positions in French or in a Franco-Japanese context, Tokyo is by far the strongest option.
+
+### Rents
+The highest in Japan. A 1K apartment in a central area: 80,000 to 130,000 JPY/month. A family 3LDK: 200,000 to 450,000 JPY/month depending on the neighbourhood.
+
+### Expat community
+The largest and most diverse. Lycée franco-japonais, consulate, Franco-Japanese associations, French restaurants, foreign supermarkets. You will never be isolated.
+
+### Quality of life
+Excellent but intense. Tokyo is a stimulating city that can be exhausting. Green spaces exist but are limited. Transport is impeccable but packed during rush hours.
+
+## Osaka: the best quality-to-cost ratio
+
+**Population**: 2.7 million residents (Greater Osaka: 19 million)
+
+**Best for**: those who want to live in Japan without Tokyo's pressure, food and creative profiles, tighter budgets
+
+### Employment and economy
+The English-language job market is significantly less developed than Tokyo. Opportunities exist mainly in tourism, language teaching, food and beverage, and some industrial sectors (Panasonic, Sharp have their headquarters in the region). For work entirely in English or French: options are limited.
+
+### Rents
+30 to 40% cheaper than Tokyo for equivalent space. A 1K in central Osaka: 55,000 to 90,000 JPY/month. One of the best value-for-money ratios of any major Asian city.
+
+### Expat community
+Much smaller than Tokyo. No French school. The French Consulate General is in Osaka, but services are limited. Active English-speaking community but less structured.
+
+### Quality of life
+Osaka is frequently cited as the Japanese city with the best food (takoyaki, okonomiyaki, kushikatsu) and the friendliest, most direct residents. The pace of life is more relaxed than Tokyo. Ideal for those who want to immerse themselves in authentic Japanese culture.
+
+## Kyoto: the atypical choice
+
+**Population**: 1.5 million residents
+
+**Best for**: lovers of traditional Japanese culture, teachers, researchers, independent workers, short to medium stays
+
+### Employment and economy
+Very limited job market for English and French speakers outside language teaching and tourism. Some tech startups and universities recruit international profiles, but this is marginal. Kyoto is not a city for conventional corporate careers.
+
+### Rents
+Comparable to Osaka, sometimes slightly cheaper in residential neighbourhoods. Traditional properties (machiya wooden townhouses) are a Kyoto speciality available at reasonable prices.
+
+### Expat community
+The smallest of the three. Few French-language services. An international community exists through universities (Doshisha, Ritsumeikan, Kyoto University), but is poorly structured for working professionals.
+
+### Quality of life
+Exceptional for those who value culture, temples, nature, and a slow pace of life. Not suitable if you need professional dynamism or international services.
+
+## Comparison at a glance
+
+| Criterion | Tokyo | Osaka | Kyoto |
+|---|---|---|---|
+| English job market | Excellent | Limited | Very limited |
+| Central 1K rent | 80-130k JPY | 55-90k JPY | 50-85k JPY |
+| French school | Yes (LFJT) | No | No |
+| French community | Large | Small | Very small |
+| Transport | Excellent | Good | Good |
+| Life pace | Intense | Moderate | Slow |
+
+## The question that decides everything
+
+**Your employer or your work determines the city.** If you have a job in Tokyo, live in Tokyo. If your work allows you to be based anywhere, Osaka offers the best quality-of-life-to-cost trade-off. Kyoto is a lifestyle choice, not a professional one.
+
+For families with children: Tokyo is the obvious choice if a French-curriculum school is a priority.
+
+---
+
+*Decided on Tokyo and looking for housing? Book a free consultation to explore available options.*
+    `.trim(),
+  },
+  {
+    slug: 'chercher-appartement-tokyo-depuis-etranger',
+    locale: 'fr',
+    title: 'Chercher un appartement à Tokyo depuis l\'étranger : guide complet',
+    description: 'Comment sécuriser votre logement à Tokyo avant d\'arriver : visites vidéo, signature à distance, délais réalistes et erreurs à éviter.',
+    date: '2026-06-19',
+    readingTime: '8 min',
+    content: `
+L'erreur la plus coûteuse des expatriés qui s'installent à Tokyo est d'arriver sans logement sécurisé. L'hôtel ou le logement temporaire pendant la recherche coûte 150 000 à 300 000 JPY supplémentaires pour les 4 à 8 semaines que prend la recherche en moyenne. C'est entièrement évitable.
+
+## Pourquoi chercher depuis l'étranger est plus difficile qu'on ne le pense
+
+Le marché locatif tokyoïte est rapide. Les biens listés sur les portails publics (Suumo, Homes, Chintai) sont généralement loués ou en cours de candidature dans les 24 à 72 heures après leur publication. Au moment où vous voyez une annonce depuis l'étranger, la contactez, organisez une visite... le bien est parti.
+
+Le problème plus profond : la plupart des agences immobilières japonaises fonctionnent entièrement en japonais. Elles ne répondent pas aux demandes en anglais ou en français, ne proposent pas de visites vidéo, et exigent des visites en personne avant toute candidature.
+
+Cela crée une impasse pour les étrangers : le marché bouge trop vite pour chercher depuis l'étranger via les canaux normaux.
+
+## Les deux voies viables pour se loger à distance
+
+**Voie 1 : les share houses**
+
+Les opérateurs de share houses acceptent quasi-universellement les candidatures à distance. Le processus est standardisé, accessible en anglais ou en français, et rapide (3 à 7 jours entre la demande et la confirmation). La contrepartie : vous obtenez une chambre dans une propriété partagée plutôt qu'un appartement privé.
+
+C'est la bonne voie si vous devez emménager rapidement, votre budget est inférieur à 80 000 JPY/mois, ou vous arrivez pour moins de 18 mois.
+
+**Voie 2 : un chasseur immobilier local**
+
+Un chasseur fonctionne différemment d'une agence traditionnelle. Il travaille pour vous (pas pour le propriétaire), a accès à des biens non listés publiquement, peut visiter physiquement des propriétés à votre place, envoyer des vidéos, et gérer l'intégralité de la candidature à distance.
+
+C'est la bonne voie si vous avez besoin d'un appartement privé, votre budget est supérieur à 80 000 JPY/mois, ou vous prévoyez un séjour plus long.
+
+## Le processus étape par étape
+
+**Semaine 1 : définir vos critères**
+
+Avant de contacter qui que ce soit, soyez précis sur :
+- Budget (loyer mensuel, charges incluses ou non)
+- Localisation (en fonction du lieu de travail ou du quartier souhaité)
+- Type de bien (share house, studio meublé, 1K, 1LDK)
+- Date d'arrivée
+- Durée prévue du séjour
+
+**Semaines 1 à 2 : premier contact et présélection**
+
+Pour les share houses : contactez 3 à 5 opérateurs avec vos critères. La plupart répondent en 24 heures. Demandez des photos, des plans et une visite virtuelle.
+
+Pour les appartements avec un chasseur : envoyez vos critères par email. Un bon chasseur répond sous 24 à 48 heures avec une première sélection de biens disponibles.
+
+**Semaines 2 à 3 : visites vidéo**
+
+Pour les share houses : la plupart des opérateurs proposent photos et visites virtuelles directement sur leur site.
+
+Pour les appartements : le chasseur visite en personne et filme une vidéo de chaque bien qui vous intéresse. Une bonne vidéo montre : l'entrée (genkan), toutes les pièces avec dimensions, cuisine, salle de bains, vue depuis les fenêtres, entrée de l'immeuble, station la plus proche et environnement.
+
+Ce qu'il faut observer dans une visite vidéo :
+- La lumière naturelle (vers quelle direction donnent les fenêtres ?)
+- La hauteur sous plafond (les appartements japonais peuvent être bas)
+- Le niveau sonore (demandez à ouvrir les fenêtres pendant la vidéo)
+- L'état des murs, du sol et des équipements
+
+**Semaine 3 : candidature et signature**
+
+Une fois le bien confirmé, la candidature démarre :
+1. Envoi de vos documents : copie du passeport, copie du visa, justificatif de revenus ou lettre d'employeur
+2. Le propriétaire ou la société de garantie examine la candidature (2 à 5 jours)
+3. Si acceptée : signature du bail par email ou DocuSign
+4. Virement de la caution depuis votre pays d'origine
+
+**Jour de l'arrivée : remise des clés**
+
+Les clés sont généralement remises de trois façons :
+- En personne à l'agence ou au bureau du chasseur
+- Boîte à clés à l'entrée de la propriété (code envoyé par email)
+- Coursier à votre hôtel d'arrivée si vous atterrissez avant l'emménagement
+
+## Ce qu'il faut préparer à l'avance
+
+**Documents à avoir en version numérique :**
+- Page biographique du passeport
+- Page du visa
+- Contrat de travail ou lettre d'engagement
+- 3 derniers bulletins de salaire ou relevés bancaires
+- Photo d'identité (pour certaines sociétés de garantie)
+
+**Finances :**
+- Un moyen de faire un virement international (banque ou Wise)
+- Budget pour la caution (généralement 1 à 2 mois de loyer)
+
+## Les erreurs classiques de la recherche à distance
+
+**Choisir uniquement sur les photos :** les photos japonaises sont souvent prises avec un grand-angle qui agrandit visuellement les petites pièces. Demandez toujours les plans avec les dimensions.
+
+**Ne pas confirmer la date exacte d'emménagement :** les fenêtres de disponibilité à Tokyo sont parfois de 2 à 3 semaines. Confirmez que le bien est disponible exactement à votre date d'arrivée.
+
+**Envoyer de l'argent avant d'avoir un bail signé :** ne virez jamais une caution sans avoir un contrat signé en main. Les opérateurs sérieux fournissent toujours le contrat avant de demander le paiement.
+
+**Ne pas se renseigner sur la politique d'annulation :** si votre date d'arrivée change ou si vous devez annuler, quelle est la politique ? Posez la question avant de vous engager.
+
+## Le calendrier qui fonctionne
+
+- **8 semaines avant l'arrivée :** définir les critères, prendre contact avec les opérateurs ou un chasseur
+- **6 semaines avant :** présélection de 3 à 5 biens, organisation des visites vidéo
+- **4 semaines avant :** confirmation du premier choix, dépôt de candidature
+- **2 semaines avant :** signature du bail, virement de la caution
+- **Jour J :** remise des clés, emménagement
+
+Ce calendrier vous laisse une marge pour les imprévus (refus de candidature, bien retiré) sans pression de dernière minute.
+
+---
+
+*Vous vous installez à Tokyo et voulez un logement prêt avant votre arrivée ? Réservez une consultation gratuite pour démarrer la recherche à distance.*
+    `.trim(),
+  },
+  {
+    slug: 'gaijin-house-vs-share-house-difference',
+    locale: 'fr',
+    title: 'Gaijin house vs share house à Tokyo : quelle est la différence ?',
+    description: 'Gaijin house et share house sont souvent confondus, mais ce n\'est pas la même chose. Voici la vraie différence et lequel convient à votre situation.',
+    date: '2026-06-19',
+    readingTime: '5 min',
+    content: `
+Si vous avez cherché un logement de courte durée à Tokyo en tant qu'étranger, vous avez probablement vu les termes "gaijin house" et "share house" utilisés parfois pour le même type de bien. Ils sont liés mais pas identiques. Comprendre la différence vous aide à trouver la bonne option pour votre situation.
+
+## Qu'est-ce qu'une gaijin house ?
+
+"Gaijin" (外人) est un terme japonais pour désigner un étranger, avec une connotation informelle et parfois légèrement péjorative selon le contexte. Une "gaijin house" est un terme familier, pas une catégorie officielle de logement. Il désigne tout hébergement partagé qui cible spécifiquement les résidents étrangers au Japon.
+
+Historiquement, les gaijin houses sont apparues dans les années 1980 et 1990 comme une réponse à la difficulté extrême rencontrée par les étrangers pour louer des appartements classiques. Ce sont souvent des immeubles anciens, peu rénovés, avec des équipements communs et très peu de conditions d'entrée. Elles acceptaient n'importe qui avec un passeport, quel que soit le statut de visa ou la durée du séjour.
+
+**Caractéristiques typiques d'une gaijin house traditionnelle :**
+- Immeuble ancien, équipements basiques
+- Conditions d'entrée très souples (parfois sans exigence de visa long séjour)
+- Paiement possible à la semaine ou au mois
+- Aucun engagement long terme requis
+- Atmosphère internationale, forte rotation des résidents
+
+## Qu'est-ce qu'un share house ?
+
+Un share house (シェアハウス) est une propriété résidentielle gérée professionnellement où plusieurs locataires partagent des espaces communs. Le terme est un concept moderne et réglementé au Japon, développé principalement à partir du milieu des années 2000.
+
+Les share houses modernes vont de l'option basique à 40 000 JPY/mois aux propriétés premium à 90 000 JPY avec accès à une salle de sport, intérieurs design et terrasse sur le toit.
+
+**Caractéristiques typiques d'un share house moderne :**
+- Géré par un opérateur professionnel (souvent une société avec des dizaines de propriétés)
+- Durée minimale généralement de 1 à 3 mois
+- Processus de candidature standard (dossier, vérification du visa, revenus)
+- Bail signé
+- Souvent un mélange de résidents japonais et étrangers
+
+## Le chevauchement et la confusion
+
+La confusion vient du fait que beaucoup de propriétés commercialisées en ligne comme "gaijin house" sont en réalité des share houses modernes ciblant les étrangers. Le terme "gaijin house" est souvent utilisé comme terme de recherche ou étiquette marketing pour signifier "ouvert aux étrangers", pas comme une description précise du type de propriété.
+
+En pratique, quand les gens disent "gaijin house" en 2026, ils désignent généralement un share house qui :
+- A un processus de candidature simplifié pour les étrangers
+- Dispose d'un opérateur anglophone ou de documents en anglais
+- Accepte des séjours courts (minimum 1 mois plutôt que 3 ou 6)
+- A peu d'exigences au-delà d'un visa valide
+
+## Lequel convient à votre situation ?
+
+**Choisissez un share house moderne si :**
+- Vous voulez un logement propre, bien géré, avec des règles claires
+- Vous prévoyez de rester 1 mois ou plus
+- Vous souhaitez vivre avec un mélange de résidents japonais et internationaux
+- Vous avez un visa long séjour valide
+
+**Une gaijin house plus flexible peut convenir si :**
+- Vous arrivez en visa touriste en attendant que votre visa de travail soit traité
+- Vous avez besoin d'un logement pour moins d'1 mois
+- Vous devez emménager immédiatement sans processus de candidature
+- Votre budget est très serré (certaines gaijin houses acceptent le paiement à la semaine)
+
+**À éviter si :**
+- Vous voulez un environnement de vie stable pour plus de quelques mois (forte rotation, qualité de gestion variable dans les propriétés les plus informelles)
+- Vous tenez à la qualité de l'immeuble et des équipements
+
+## Conseils pratiques
+
+Lorsque vous évaluez une propriété commercialisée comme "gaijin house" ou share house, les questions à poser sont toujours les mêmes :
+
+- Quelle est la durée minimale de séjour ?
+- Quels documents sont nécessaires pour emménager ?
+- Qu'est-ce qui est inclus dans le loyer mensuel (charges, internet) ?
+- Quelles sont les règles de vie ?
+- Y a-t-il un interlocuteur en cas de problème ?
+
+Les réponses vous disent si vous avez affaire à un share house moderne bien géré ou à un hébergement informel de courte durée. Les deux peuvent être le bon choix selon votre timing et vos besoins.
+
+---
+
+*Vous cherchez un share house ou un appartement meublé à Tokyo pour votre arrivée ? Réservez une consultation gratuite pour voir les disponibilités actuelles.*
+    `.trim(),
+  },
 ]
 
 export function getBlogPosts(locale: Locale): BlogPost[] {
