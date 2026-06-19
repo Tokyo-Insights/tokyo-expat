@@ -1,6 +1,7 @@
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import type { Metadata } from 'next'
+import type { ReactNode } from 'react'
 import { getBlogPost, getBlogPosts, type Locale } from '@/lib/blog'
 
 export async function generateStaticParams() {
@@ -31,7 +32,7 @@ export async function generateMetadata({
 
 function renderContent(content: string) {
   const lines = content.split('\n')
-  const elements: React.ReactNode[] = []
+  const elements: ReactNode[] = []
   let i = 0
 
   while (i < lines.length) {
