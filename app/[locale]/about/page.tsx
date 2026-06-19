@@ -25,7 +25,6 @@ export default async function AboutPage({
           <div className="text-center">
             <p className="font-bold text-[#0f2744] text-lg">{a.name}</p>
             <p className="text-gray-500 text-sm">{a.role}</p>
-            <p className="text-gray-400 text-xs mt-1">{a.entity}</p>
           </div>
         </div>
 
