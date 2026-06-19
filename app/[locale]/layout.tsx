@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import type { ReactNode } from 'react'
 import { getDictionary, type Locale } from '@/lib/i18n'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
@@ -12,7 +13,7 @@ export default async function LocaleLayout({
   children,
   params,
 }: {
-  children: React.ReactNode
+  children: ReactNode
   params: Promise<{ locale: Locale }>
 }) {
   const { locale } = await params
