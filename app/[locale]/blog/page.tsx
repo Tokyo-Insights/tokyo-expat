@@ -1,0 +1,49 @@
+import Link from 'next/link'
+import type { Metadata } from 'next'
+import { getBlogPosts, type Locale } from '@/lib/blog'
+
+export const metadata: Metadata = {
+  title: 'Blog - Tokyo Expat',
+  description: 'Guides pratiques pour trouver un logement a Tokyo: share house, appartement meuble, demarches administratives.',
+}
+
+export default async function BlogIndexPage({
+  params,
+}: {
+  params: Promise<{ locale: string }>
+}) {
+  const locale = ((await params).locale as Locale)
+  const posts = getBlogPosts(locale)
+
+  const title = locale === 'fr' ? 'Guides & Conseils' : 'Guides & Advice'
+  const subtitle = locale === 'fr'
+    ? 'Tout ce que vous devez savoir pour trouver un logement a Tokyo.'
+    : 'Everything you need to know to find housing in Tokyo.'
+
+  return (
+    <div className="max-w-4xl mx-auto px-4 py-16">
+      <h1 className="text-4xl font-extrabold text-[#0f2744] mb-4">{title}</h1>
+      <p className="text-gray-500 mb-12">{subtitle}</p>
+
+      <div className="flex flex-col gap-8">
+        {posts.map((post) => (
+          <Link
+            key={post.slug}
+            href={`/${locale}/blog/${post.slug}`}
+            className="group border border-gray-200 rounded-2xl p-6 hover:shadow-lg transition-shadow"
+          >
+            <div className="flex items-center gap-3 text-xs text-gray-400 mb-3">
+              <span>{post.date}</span>
+              <span>·</span>
+              <span>{post.readingTime}</span>
+            </div>
+            <h2 className="text-xl font-bold text-[#0f2744] group-hover:text-[#e84141] transition-colors mb-2">
+              {post.title}
+            </h2>
+            <p className="text-gray-600 text-sm leading-relaxed">{post.description}</p>
+          </Link>
+        ))}
+      </div>
+    </div>
+  )
+}
