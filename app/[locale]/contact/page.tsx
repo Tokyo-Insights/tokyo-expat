@@ -4,6 +4,8 @@ import { useState } from 'react'
 import { useParams } from 'next/navigation'
 import { getDictionary, type Locale } from '@/lib/i18n'
 
+const FORMSPREE_ID = process.env.NEXT_PUBLIC_FORMSPREE_ID ?? ''
+
 export default function ContactPage() {
   const params = useParams()
   const locale = (params?.locale as Locale) ?? 'fr'
@@ -14,15 +16,25 @@ export default function ContactPage() {
   const [email, setEmail] = useState('')
   const [message, setMessage] = useState('')
   const [sent, setSent] = useState(false)
+  const [error, setError] = useState(false)
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault()
-    const res = await fetch('/api/contact', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ name, email, message, locale }),
-    })
-    if (res.ok) setSent(true)
+    setError(false)
+    try {
+      const res = await fetch(`https://formspree.io/f/${FORMSPREE_ID}`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+        body: JSON.stringify({ name, email, message, locale }),
+      })
+      if (res.ok) {
+        setSent(true)
+      } else {
+        setError(true)
+      }
+    } catch {
+      setError(true)
+    }
   }
 
   return (
@@ -30,7 +42,6 @@ export default function ContactPage() {
       <h1 className="text-4xl font-extrabold text-[#0f2744] mb-4">{c.title}</h1>
       <p className="text-gray-500 mb-12 leading-relaxed">{c.subtitle}</p>
 
-      {/* Contact form */}
       <div className="bg-gray-50 border border-gray-200 rounded-2xl p-8">
         <h2 className="font-bold text-[#0f2744] text-xl mb-6">{c.form_title}</h2>
         {sent ? (
@@ -69,6 +80,11 @@ export default function ContactPage() {
                 className="w-full border border-gray-300 rounded-lg px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-[#0f2744] resize-none"
               />
             </div>
+            {error && (
+              <p className="text-red-600 text-sm">
+                {locale === 'fr' ? 'Erreur d\'envoi. Reessayez ou ecrivez directement a contact@tokyo-expat.com' : 'Send error. Please retry or email contact@tokyo-expat.com directly.'}
+              </p>
+            )}
             <button
               type="submit"
               className="bg-[#e84141] hover:bg-[#ff6b6b] text-white px-8 py-3 rounded-xl font-bold transition-colors self-start"
@@ -79,7 +95,6 @@ export default function ContactPage() {
         )}
       </div>
 
-      {/* Direct email */}
       <div className="mt-8 text-center text-sm text-gray-500">
         <a href="mailto:contact@tokyo-expat.com" className="text-[#0f2744] font-medium hover:text-[#e84141] transition-colors">
           contact@tokyo-expat.com
