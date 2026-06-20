@@ -1,293 +1,244 @@
 'use client'
 
-import { useState, useMemo } from 'react'
+import { useState } from 'react'
 import Link from 'next/link'
 import { useParams } from 'next/navigation'
-import { listings, STATS, formatPrice, type ListingType, type Availability } from '@/lib/listings'
-
-const TYPE_LABELS: Record<string, { fr: string; en: string; icon: string }> = {
-  'share-house': { fr: 'Share House', en: 'Share House', icon: '🏘' },
-  'appartement':  { fr: 'Appartement meublé', en: 'Furnished Apartment', icon: '🏢' },
-  'maison':       { fr: 'Maison / Famille', en: 'House / Family', icon: '🏡' },
-}
-
-const AVAIL_LABELS: Record<string, { fr: string; en: string; color: string }> = {
-  'disponible': { fr: 'Disponible',      en: 'Available',    color: 'bg-green-100 text-green-800' },
-  'bientot':    { fr: 'Bientôt dispo',   en: 'Coming soon',  color: 'bg-yellow-100 text-yellow-800' },
-  'reserve':    { fr: 'Réservé',         en: 'Reserved',     color: 'bg-red-100 text-red-800' },
-}
-
-const PRICE_RANGES = [
-  { label: '< 60k',     max: 60000 },
-  { label: '60-100k',   max: 100000, min: 60000 },
-  { label: '100-180k',  max: 180000, min: 100000 },
-  { label: '> 180k',    min: 180000 },
-]
+import { PROPERTY_TYPES, ZONES, STATS, formatPrice, type PropertyType } from '@/lib/listings'
 
 export default function ListingsPage() {
   const params = useParams()
   const locale = (params?.locale as string) ?? 'fr'
   const isFr = locale === 'fr'
 
-  const [typeFilter, setTypeFilter] = useState<ListingType | ''>('')
-  const [priceFilter, setPriceFilter] = useState<number>(0)
-  const [availFilter, setAvailFilter] = useState<Availability | ''>('')
-  const [search, setSearch] = useState('')
+  const [activeType, setActiveType] = useState<PropertyType | ''>('')
 
-  const filtered = useMemo(() => {
-    return listings.filter(l => {
-      if (typeFilter && l.type !== typeFilter) return false
-      if (priceFilter && l.price > priceFilter) return false
-      if (availFilter && l.availability !== availFilter) return false
-      if (search) {
-        const q = search.toLowerCase()
-        const haystack = `${l.ward} ${l.neighborhood} ${l.station} ${l.rooms}`.toLowerCase()
-        if (!haystack.includes(q)) return false
-      }
-      return true
-    })
-  }, [typeFilter, priceFilter, availFilter, search])
-
-  const available = filtered.filter(l => l.availability === 'disponible').length
+  const filteredZones = activeType
+    ? ZONES.filter(z => z.types.includes(activeType))
+    : ZONES
 
   return (
     <div className="min-h-screen bg-gray-50">
-      {/* Header */}
+
+      {/* Hero */}
       <section className="bg-[#0f2744] text-white py-16 px-4">
         <div className="max-w-5xl mx-auto">
           <div className="inline-block bg-[#e84141] text-white text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full mb-4">
-            {isFr ? 'Inventaire exclusif' : 'Exclusive inventory'}
+            {isFr ? 'Mon réseau' : 'My network'}
           </div>
-          <h1 className="text-3xl md:text-4xl font-extrabold mb-3">
-            {isFr ? 'Logements disponibles à Tokyo' : 'Available Housing in Tokyo'}
-          </h1>
-          <p className="text-gray-300 text-lg max-w-2xl">
+          <h1 className="text-3xl md:text-4xl font-extrabold mb-4">
             {isFr
-              ? `${STATS.total} logements dans mon réseau — ${STATS.available} disponibles maintenant. Sans garant, sans agence.`
-              : `${STATS.total} properties in my network — ${STATS.available} available now. No guarantor, no agency fees.`}
+              ? 'Accès direct à 300+ logements à Tokyo'
+              : 'Direct access to 300+ properties in Tokyo'}
+          </h1>
+          <p className="text-gray-300 text-lg max-w-2xl mb-8">
+            {isFr
+              ? "Je travaille avec un réseau d'agences locales et de propriétaires privés qui me donnent accès à des logements non publiés en ligne. Décrivez votre projet, je cherche pour vous."
+              : "I work with a network of local agencies and private landlords giving me access to properties not listed online. Describe your needs, I'll search for you."}
           </p>
 
-          {/* Stats bar */}
-          <div className="flex flex-wrap gap-6 mt-8 text-sm">
-            <div>
-              <span className="text-2xl font-bold text-white">{STATS.shareHouses}</span>
-              <span className="text-gray-400 ml-2">{isFr ? 'Share houses' : 'Share houses'}</span>
-            </div>
-            <div>
-              <span className="text-2xl font-bold text-white">{STATS.apartments}</span>
-              <span className="text-gray-400 ml-2">{isFr ? 'Appartements' : 'Apartments'}</span>
-            </div>
-            <div>
-              <span className="text-2xl font-bold text-white">{STATS.houses}</span>
-              <span className="text-gray-400 ml-2">{isFr ? 'Maisons' : 'Houses'}</span>
-            </div>
-            <div>
-              <span className="text-2xl font-bold text-[#e84141]">+300</span>
-              <span className="text-gray-400 ml-2">{isFr ? 'via réseau direct' : 'via direct network'}</span>
-            </div>
+          {/* Stats */}
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+            {[
+              { value: STATS.totalProperties, label: isFr ? 'Logements accessibles' : 'Properties accessible' },
+              { value: `${STATS.wards}`, label: isFr ? 'Arrondissements' : 'Tokyo wards' },
+              { value: STATS.responseTime, label: isFr ? 'Délai de réponse' : 'Response time' },
+              { value: '0€', label: isFr ? "Frais d'agence cachés" : 'Hidden agency fees' },
+            ].map((s, i) => (
+              <div key={i} className="bg-white/10 rounded-xl p-4 text-center">
+                <div className="text-2xl font-extrabold text-white">{s.value}</div>
+                <div className="text-xs text-gray-400 mt-1">{s.label}</div>
+              </div>
+            ))}
           </div>
         </div>
       </section>
 
-      {/* Filters */}
-      <section className="bg-white border-b border-gray-200 sticky top-[65px] z-40 shadow-sm">
-        <div className="max-w-5xl mx-auto px-4 py-4 flex flex-wrap gap-3 items-center">
-          {/* Search */}
-          <input
-            type="text"
-            placeholder={isFr ? 'Quartier, station...' : 'Neighborhood, station...'}
-            value={search}
-            onChange={e => setSearch(e.target.value)}
-            className="border border-gray-200 rounded-lg px-3 py-2 text-sm w-44 focus:outline-none focus:ring-2 focus:ring-[#0f2744]"
-          />
+      {/* Types */}
+      <section className="max-w-5xl mx-auto px-4 py-12">
+        <h2 className="text-2xl font-bold text-[#0f2744] mb-8 text-center">
+          {isFr ? 'Ce que je peux trouver pour vous' : 'What I can find for you'}
+        </h2>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          {PROPERTY_TYPES.map(type => (
+            <div key={type.id} className="bg-white rounded-2xl border border-gray-100 shadow-sm p-6 flex flex-col gap-4">
+              <div className="text-3xl">{type.icon}</div>
+              <div>
+                <h3 className="text-lg font-bold text-[#0f2744]">
+                  {isFr ? type.nameFr : type.nameEn}
+                </h3>
+                <p className="text-sm text-gray-500 mt-1 leading-relaxed">
+                  {isFr ? type.descFr : type.descEn}
+                </p>
+              </div>
 
-          {/* Type */}
-          <select
-            value={typeFilter}
-            onChange={e => setTypeFilter(e.target.value as ListingType | '')}
-            className="border border-gray-200 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-[#0f2744]"
-          >
-            <option value="">{isFr ? 'Tous types' : 'All types'}</option>
-            <option value="share-house">{isFr ? 'Share House' : 'Share House'}</option>
-            <option value="appartement">{isFr ? 'Appartement meublé' : 'Furnished Apartment'}</option>
-            <option value="maison">{isFr ? 'Maison / Famille' : 'House / Family'}</option>
-          </select>
+              {/* Price range */}
+              <div className="bg-gray-50 rounded-xl px-4 py-3">
+                <p className="text-xs text-gray-400 mb-1">
+                  {isFr ? 'Fourchette de prix' : 'Price range'}
+                </p>
+                <p className="font-bold text-[#0f2744]">
+                  {formatPrice(type.priceRange.min)} – {formatPrice(type.priceRange.max)}
+                  <span className="text-gray-400 font-normal text-xs ml-1">/mois</span>
+                </p>
+                <p className="text-xs text-gray-400 mt-1">
+                  {isFr ? type.minStayFr : type.minStayEn}
+                </p>
+              </div>
 
-          {/* Prix */}
-          <select
-            value={priceFilter}
-            onChange={e => setPriceFilter(Number(e.target.value))}
-            className="border border-gray-200 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-[#0f2744]"
-          >
-            <option value={0}>{isFr ? 'Tous budgets' : 'All budgets'}</option>
-            <option value={60000}>{isFr ? 'Moins de 60,000 ¥' : 'Under ¥60,000'}</option>
-            <option value={100000}>{isFr ? 'Moins de 100,000 ¥' : 'Under ¥100,000'}</option>
-            <option value={180000}>{isFr ? 'Moins de 180,000 ¥' : 'Under ¥180,000'}</option>
-          </select>
+              {/* Features */}
+              <div className="flex flex-wrap gap-1.5">
+                {(isFr ? type.features : type.featuresEn).map(f => (
+                  <span key={f} className="text-xs bg-blue-50 text-[#0f2744] px-2 py-0.5 rounded-full">
+                    {f}
+                  </span>
+                ))}
+              </div>
 
-          {/* Dispo */}
-          <select
-            value={availFilter}
-            onChange={e => setAvailFilter(e.target.value as Availability | '')}
-            className="border border-gray-200 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-[#0f2744]"
-          >
-            <option value="">{isFr ? 'Toutes dispo' : 'All availability'}</option>
-            <option value="disponible">{isFr ? 'Disponible maintenant' : 'Available now'}</option>
-            <option value="bientot">{isFr ? 'Bientôt disponible' : 'Coming soon'}</option>
-          </select>
-
-          {/* Reset */}
-          {(typeFilter || priceFilter || availFilter || search) && (
-            <button
-              onClick={() => { setTypeFilter(''); setPriceFilter(0); setAvailFilter(''); setSearch('') }}
-              className="text-xs text-gray-400 hover:text-[#e84141] transition-colors"
-            >
-              {isFr ? 'Réinitialiser' : 'Reset'} ×
-            </button>
-          )}
-
-          <span className="ml-auto text-sm text-gray-400">
-            {filtered.length} {isFr ? 'logements' : 'properties'}
-            {available < filtered.length && ` · ${available} ${isFr ? 'disponibles' : 'available'}`}
-          </span>
+              <Link
+                href={`/${locale}/contact?type=${type.id}`}
+                className="mt-auto block text-center bg-[#0f2744] hover:bg-[#1a3a6b] text-white px-4 py-2.5 rounded-xl text-sm font-semibold transition-colors"
+              >
+                {isFr ? `Chercher un ${type.nameFr.toLowerCase()}` : `Find a ${type.nameEn.toLowerCase()}`}
+              </Link>
+            </div>
+          ))}
         </div>
       </section>
 
-      {/* Grid */}
-      <section className="max-w-5xl mx-auto px-4 py-10">
-        {filtered.length === 0 ? (
-          <div className="text-center py-20 text-gray-400">
-            <div className="text-4xl mb-4">🔍</div>
-            <p className="text-lg font-medium text-gray-600 mb-2">
-              {isFr ? 'Aucun logement ne correspond' : 'No properties match your search'}
-            </p>
-            <p className="text-sm mb-6">
-              {isFr
-                ? 'Décrivez votre projet et je cherche dans mon réseau élargi de 300+ logements.'
-                : 'Describe your needs and I'll search my extended network of 300+ properties.'}
-            </p>
-            <Link
-              href={`/${locale}/contact`}
-              className="bg-[#e84141] text-white px-6 py-3 rounded-xl font-semibold hover:bg-[#ff6b6b] transition-colors"
-            >
-              {isFr ? 'Me décrire votre projet' : 'Describe your project'}
-            </Link>
+      {/* Zone filter + grid */}
+      <section className="bg-white py-12 px-4">
+        <div className="max-w-5xl mx-auto">
+          <div className="flex flex-wrap items-center justify-between gap-4 mb-8">
+            <h2 className="text-2xl font-bold text-[#0f2744]">
+              {isFr ? 'Zones couvertes' : 'Covered areas'}
+            </h2>
+            {/* Type filter pills */}
+            <div className="flex flex-wrap gap-2">
+              {(['', 'share-house', 'appartement', 'maison'] as const).map(t => {
+                const labels: Record<string, { fr: string; en: string }> = {
+                  '': { fr: 'Tous', en: 'All' },
+                  'share-house': { fr: 'Share House', en: 'Share House' },
+                  'appartement': { fr: 'Appartement', en: 'Apartment' },
+                  'maison': { fr: 'Maison', en: 'House' },
+                }
+                const isActive = activeType === t
+                return (
+                  <button
+                    key={t}
+                    onClick={() => setActiveType(t)}
+                    className={`text-xs px-3 py-1.5 rounded-full font-medium transition-colors ${
+                      isActive
+                        ? 'bg-[#0f2744] text-white'
+                        : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
+                    }`}
+                  >
+                    {isFr ? labels[t].fr : labels[t].en}
+                  </button>
+                )
+              })}
+            </div>
           </div>
-        ) : (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {filtered.map(listing => {
-              const typeInfo = TYPE_LABELS[listing.type]
-              const availInfo = AVAIL_LABELS[listing.availability]
-              const desc = isFr ? listing.descFr : listing.descEn
-              const subject = isFr
-                ? `Demande - ${listing.neighborhood} ${listing.rooms}`
-                : `Inquiry - ${listing.neighborhood} ${listing.rooms}`
 
-              return (
-                <div
-                  key={listing.id}
-                  className="bg-white rounded-2xl border border-gray-100 shadow-sm hover:shadow-lg transition-shadow flex flex-col overflow-hidden"
-                >
-                  {/* Color band by type */}
-                  <div className={`h-1.5 ${listing.type === 'share-house' ? 'bg-blue-400' : listing.type === 'appartement' ? 'bg-[#0f2744]' : 'bg-emerald-500'}`} />
-
-                  <div className="p-5 flex flex-col gap-3 flex-1">
-                    {/* Type + Dispo */}
-                    <div className="flex items-center justify-between">
-                      <span className="text-xs font-semibold text-gray-500 uppercase tracking-wide">
-                        {typeInfo.icon} {isFr ? typeInfo.fr : typeInfo.en}
-                      </span>
-                      <span className={`text-xs font-semibold px-2 py-0.5 rounded-full ${availInfo.color}`}>
-                        {isFr ? availInfo.fr : availInfo.en}
-                      </span>
-                    </div>
-
-                    {/* Location */}
-                    <div>
-                      <h3 className="font-bold text-[#0f2744] text-base">
-                        {listing.neighborhood}
-                        <span className="font-normal text-gray-400 text-sm"> — {listing.ward}</span>
-                      </h3>
-                      <p className="text-xs text-gray-400 mt-0.5">📍 {listing.station}</p>
-                    </div>
-
-                    {/* Price + Rooms */}
-                    <div className="flex items-baseline gap-3">
-                      <span className="text-xl font-extrabold text-[#0f2744]">
-                        {formatPrice(listing.price)}
-                      </span>
-                      <span className="text-xs text-gray-400">/mois</span>
-                      <span className="ml-auto text-sm font-semibold text-gray-600">
-                        {listing.rooms}
-                        {listing.size && <span className="text-gray-400 font-normal"> · {listing.size}m²</span>}
-                      </span>
-                    </div>
-
-                    {/* Description */}
-                    <p className="text-sm text-gray-500 leading-relaxed">{desc}</p>
-
-                    {/* Features */}
-                    <div className="flex flex-wrap gap-1.5">
-                      {listing.features.slice(0, 3).map(f => (
-                        <span key={f} className="text-xs bg-gray-50 text-gray-500 border border-gray-100 px-2 py-0.5 rounded-full">
-                          {f}
-                        </span>
-                      ))}
-                      {listing.features.length > 3 && (
-                        <span className="text-xs text-gray-400">+{listing.features.length - 3}</span>
-                      )}
-                    </div>
-
-                    {/* Available from */}
-                    {listing.availableFrom && (
-                      <p className="text-xs text-yellow-700 bg-yellow-50 px-2 py-1 rounded-lg">
-                        {isFr ? `Disponible dès le ${listing.availableFrom}` : `Available from ${listing.availableFrom}`}
-                      </p>
-                    )}
-
-                    {/* Min stay */}
-                    {listing.minStay && (
-                      <p className="text-xs text-gray-400">
-                        {isFr ? `Durée min. : ${listing.minStay}` : `Min. stay: ${listing.minStay}`}
-                      </p>
-                    )}
-
-                    {/* CTA */}
-                    <div className="mt-auto pt-2">
-                      <Link
-                        href={`/${locale}/contact?subject=${encodeURIComponent(subject)}`}
-                        className={`block w-full text-center py-2.5 rounded-xl text-sm font-semibold transition-colors ${
-                          listing.availability === 'reserve'
-                            ? 'bg-gray-100 text-gray-400 cursor-not-allowed pointer-events-none'
-                            : 'bg-[#0f2744] hover:bg-[#1a3a6b] text-white'
-                        }`}
-                      >
-                        {listing.availability === 'reserve'
-                          ? (isFr ? 'Réservé' : 'Reserved')
-                          : (isFr ? 'Demander ce logement' : 'Request this property')
-                        }
-                      </Link>
-                    </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+            {filteredZones.map(zone => (
+              <div key={zone.ward} className="border border-gray-100 rounded-xl p-4 hover:border-[#0f2744]/30 hover:shadow-sm transition-all">
+                <div className="flex items-start justify-between">
+                  <div>
+                    <h3 className="font-bold text-[#0f2744]">{zone.ward}</h3>
+                    <p className="text-xs text-gray-400">{zone.nameEn}</p>
+                  </div>
+                  <div className="text-right">
+                    <p className="text-xs font-semibold text-[#0f2744]">
+                      {formatPrice(zone.priceRange.min)}+
+                    </p>
+                    <p className="text-xs text-gray-400">/mois</p>
                   </div>
                 </div>
-              )
-            })}
-          </div>
-        )}
 
-        {/* Bottom CTA — réseau élargi */}
-        <div className="mt-16 bg-[#0f2744] text-white rounded-2xl p-8 text-center">
-          <p className="text-xl font-bold mb-2">
-            {isFr ? "Vous ne trouvez pas votre logement idéal ?" : "Can't find your ideal property?"}
-          </p>
-          <p className="text-gray-300 mb-6">
+                {/* Type badges */}
+                <div className="flex gap-1.5 mt-3">
+                  {zone.types.map(t => {
+                    const icons: Record<PropertyType, string> = { 'share-house': '🏘', 'appartement': '🏢', 'maison': '🏡' }
+                    const labels: Record<PropertyType, { fr: string; en: string }> = {
+                      'share-house': { fr: 'Share', en: 'Share' },
+                      'appartement': { fr: 'Apt', en: 'Apt' },
+                      'maison': { fr: 'Maison', en: 'House' },
+                    }
+                    return (
+                      <span key={t} className="text-xs bg-gray-50 border border-gray-100 px-2 py-0.5 rounded-full text-gray-600">
+                        {icons[t]} {isFr ? labels[t].fr : labels[t].en}
+                      </span>
+                    )
+                  })}
+                </div>
+
+                {/* Highlights */}
+                <div className="mt-2 flex flex-wrap gap-1">
+                  {(isFr ? zone.highlights : zone.highlightsEn).map(h => (
+                    <span key={h} className="text-xs text-gray-400">{h}</span>
+                  )).reduce((acc: React.ReactNode[], el, i, arr) => {
+                    acc.push(el)
+                    if (i < arr.length - 1) acc.push(<span key={`dot-${i}`} className="text-gray-300 text-xs"> · </span>)
+                    return acc
+                  }, [])}
+                </div>
+              </div>
+            ))}
+          </div>
+
+          <p className="text-center text-sm text-gray-400 mt-6">
             {isFr
-              ? "Ces logements ne représentent qu'une partie de mon réseau. Décrivez-moi votre projet et j'explore les 300+ options disponibles."
-              : "These listings represent only part of my network. Describe your needs and I'll explore 300+ available options."}
+              ? 'Vous avez une zone précise en tête ? Je peux aussi couvrir Kanagawa, Saitama et Chiba.'
+              : 'Have a specific area in mind? I also cover Kanagawa, Saitama and Chiba.'}
+          </p>
+        </div>
+      </section>
+
+      {/* Comment ça marche */}
+      <section className="max-w-5xl mx-auto px-4 py-12">
+        <h2 className="text-2xl font-bold text-[#0f2744] mb-8 text-center">
+          {isFr ? 'Comment ça marche' : 'How it works'}
+        </h2>
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
+          {(isFr
+            ? [
+                { n: '1', t: 'Consultation', d: 'Appel gratuit 30 min pour définir vos critères : zone, budget, type, durée.' },
+                { n: '2', t: 'Recherche', d: "J'active mon réseau et sélectionne les options qui correspondent exactement à votre profil." },
+                { n: '3', t: 'Visites', d: 'Je vous accompagne (ou je visite pour vous si vous êtes encore à l'étranger).' },
+                { n: '4', t: 'Signature', d: 'Je gère le dossier et le contrat en japonais. Vous emménagez.' },
+              ]
+            : [
+                { n: '1', t: 'Consultation', d: 'Free 30-min call to define your criteria: area, budget, type, duration.' },
+                { n: '2', t: 'Search', d: "I activate my network and select options that exactly match your profile." },
+                { n: '3', t: 'Viewings', d: 'I accompany you (or visit on your behalf if you are still abroad).' },
+                { n: '4', t: 'Signing', d: 'I handle the paperwork and contract in Japanese. You move in.' },
+              ]
+          ).map(step => (
+            <div key={step.n} className="text-center">
+              <div className="w-10 h-10 bg-[#e84141] text-white rounded-full flex items-center justify-center font-bold text-lg mx-auto mb-3">
+                {step.n}
+              </div>
+              <h3 className="font-bold text-[#0f2744] mb-1">{step.t}</h3>
+              <p className="text-sm text-gray-500 leading-relaxed">{step.d}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* CTA bottom */}
+      <section className="bg-[#0f2744] py-16 px-4">
+        <div className="max-w-2xl mx-auto text-center text-white">
+          <h2 className="text-2xl font-bold mb-3">
+            {isFr ? 'Décrivez votre projet' : 'Describe your project'}
+          </h2>
+          <p className="text-gray-300 mb-8">
+            {isFr
+              ? "Budget, zone, nombre de personnes, date d'arrivée : envoyez-moi ces 4 informations et je vous réponds sous 24h avec des options concrètes."
+              : "Budget, area, number of people, arrival date: send me these 4 details and I'll reply within 24h with concrete options."}
           </p>
           <Link
             href={`/${locale}/contact`}
-            className="inline-block bg-[#e84141] hover:bg-[#ff6b6b] text-white px-8 py-3 rounded-xl font-bold transition-colors"
+            className="inline-block bg-[#e84141] hover:bg-[#ff6b6b] text-white px-10 py-4 rounded-xl font-bold text-lg transition-colors"
           >
             {isFr ? 'Consultation gratuite 30 min' : 'Free 30-min consultation'}
           </Link>

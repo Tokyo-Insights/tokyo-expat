@@ -11,19 +11,21 @@ export async function generateMetadata({
   const isFr = locale === 'fr'
   return {
     title: isFr
-      ? `Logements disponibles à Tokyo — ${STATS.available} dispo maintenant | Tokyo Expat`
-      : `Available Housing in Tokyo — ${STATS.available} available now | Tokyo Expat`,
+      ? `${STATS.totalProperties} logements à Tokyo — Mon réseau | Tokyo Expat`
+      : `${STATS.totalProperties} properties in Tokyo — My network | Tokyo Expat`,
     description: isFr
-      ? `${STATS.total} logements dans le réseau Tokyo Expat : ${STATS.shareHouses} share houses, ${STATS.apartments} appartements meublés, ${STATS.houses} maisons. Sans garant. Disponibles maintenant.`
-      : `${STATS.total} properties in Tokyo Expat network: ${STATS.shareHouses} share houses, ${STATS.apartments} furnished apartments, ${STATS.houses} houses. No guarantor required. Available now.`,
+      ? `Accès direct à ${STATS.totalProperties} logements à Tokyo : share houses (dès ${STATS.shareHouseMin.toLocaleString('fr-FR')} ¥), appartements meublés, maisons. ${STATS.wards} arrondissements. Sans garant. Réponse en 24h.`
+      : `Direct access to ${STATS.totalProperties} Tokyo properties: share houses (from ¥${STATS.shareHouseMin.toLocaleString()}), furnished apartments, houses. ${STATS.wards} wards. No guarantor. Reply in 24h.`,
     alternates: {
       canonical: `/${locale}/listings`,
     },
     openGraph: {
-      title: isFr ? `${STATS.available} logements disponibles à Tokyo` : `${STATS.available} properties available in Tokyo`,
+      title: isFr
+        ? `Trouvez votre logement à Tokyo — ${STATS.totalProperties} options`
+        : `Find your Tokyo home — ${STATS.totalProperties} options`,
       description: isFr
-        ? `Share houses, appartements meublés, maisons. Sans garant. Réseau exclusif.`
-        : `Share houses, furnished apartments, houses. No guarantor. Exclusive network.`,
+        ? `Share house, appartement meublé, maison. Réseau direct, sans frais cachés.`
+        : `Share house, furnished apartment, house. Direct network, no hidden fees.`,
       url: `https://www.tokyo-expat.com/${locale}/listings`,
     },
   }
