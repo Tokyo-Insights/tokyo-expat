@@ -4,7 +4,7 @@ import DevisGenerator from './DevisGenerator'
 
 export const metadata = { robots: 'noindex, nofollow' }
 
-const CREDENTIAL_HASH = '471140ac30abca250357ff668e9ef628f9ea21a312a41f385b91ad204b2f8249'
+const CREDENTIAL_HASH = '60ae3e46ed42441602e40724cefb80e30f69473c55fb2a012ecd855bcf2b578c'
 
 async function isAuthenticated(): Promise<boolean> {
   const cookieStore = await cookies()
