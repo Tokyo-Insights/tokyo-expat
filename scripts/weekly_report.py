@@ -22,14 +22,13 @@ if sys.stdout.encoding and sys.stdout.encoding.lower() not in ('utf-8', 'utf8'):
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 VERIFY_SSL = False
 
+from config import TELEGRAM_TOKEN, TELEGRAM_CHAT_ID
+
 # ── CONFIG ────────────────────────────────────────────────────────────────────
 SCRIPT_DIR = Path(__file__).parent
 DATA_DIR = SCRIPT_DIR / "data"
 DB_FILE = DATA_DIR / "keyword_rankings.db"
 CACHE_FILE = DATA_DIR / "competitor_cache.json"
-
-TELEGRAM_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "8717213663:AAGCYEOgylg2c8ew7JLi83NRu1pcTSTWOcs")
-TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "6474251868")
 
 OUR_DOMAIN = "tokyo-expat.com"
 COMPETITOR_DOMAINS = ["remoters.io", "housing.gaijinpot.com", "sakura-house.com", "tokyocheapo.com"]

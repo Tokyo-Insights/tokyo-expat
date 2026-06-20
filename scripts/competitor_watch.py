@@ -18,18 +18,17 @@ from pathlib import Path
 if sys.stdout.encoding and sys.stdout.encoding.lower() not in ('utf-8', 'utf8'):
     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
 
-# SSL cert workaround (Windows corporate/Namecheap cert chain issues)
+# SSL cert workaround (Windows corporate cert chain issues)
 import urllib3
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 VERIFY_SSL = False
+
+from config import TELEGRAM_TOKEN, TELEGRAM_CHAT_ID
 
 # ── CONFIG ────────────────────────────────────────────────────────────────────
 SCRIPT_DIR = Path(__file__).parent
 DATA_DIR = SCRIPT_DIR / "data"
 CACHE_FILE = DATA_DIR / "competitor_cache.json"
-
-TELEGRAM_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "8717213663:AAGCYEOgylg2c8ew7JLi83NRu1pcTSTWOcs")
-TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "6474251868")
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120.0.0.0"

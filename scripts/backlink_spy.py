@@ -25,14 +25,13 @@ if sys.stdout.encoding and sys.stdout.encoding.lower() not in ('utf-8', 'utf8'):
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 VERIFY_SSL = False
 
+from config import TELEGRAM_TOKEN, TELEGRAM_CHAT_ID
+
 # ── CONFIG ────────────────────────────────────────────────────────────────────
 SCRIPT_DIR = Path(__file__).parent
 DATA_DIR = SCRIPT_DIR / "data"
 OUTPUT_CSV = DATA_DIR / f"backlink_opportunities_{datetime.date.today()}.csv"
 CACHE_FILE = DATA_DIR / "backlinks_cache.json"
-
-TELEGRAM_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "8717213663:AAGCYEOgylg2c8ew7JLi83NRu1pcTSTWOcs")
-TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "6474251868")
 
 OUR_DOMAIN = "tokyo-expat.com"
 

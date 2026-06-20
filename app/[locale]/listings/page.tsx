@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import type { ReactNode } from 'react'
 import Link from 'next/link'
 import { useParams } from 'next/navigation'
 import { PROPERTY_TYPES, ZONES, STATS, formatPrice, type PropertyType } from '@/lib/listings'
@@ -13,7 +14,7 @@ export default function ListingsPage() {
   const [activeType, setActiveType] = useState<PropertyType | ''>('')
 
   const filteredZones = activeType
-    ? ZONES.filter(z => z.types.includes(activeType))
+    ? ZONES.filter(z => activeType && z.types.includes(activeType as PropertyType))
     : ZONES
 
   return (
@@ -176,7 +177,7 @@ export default function ListingsPage() {
                 <div className="mt-2 flex flex-wrap gap-1">
                   {(isFr ? zone.highlights : zone.highlightsEn).map(h => (
                     <span key={h} className="text-xs text-gray-400">{h}</span>
-                  )).reduce((acc: React.ReactNode[], el, i, arr) => {
+                  )).reduce((acc: ReactNode[], el, i, arr) => {
                     acc.push(el)
                     if (i < arr.length - 1) acc.push(<span key={`dot-${i}`} className="text-gray-300 text-xs"> · </span>)
                     return acc
