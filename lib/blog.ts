@@ -2958,6 +2958,698 @@ Ce calendrier vous laisse une marge pour les imprévus (refus de candidature, bi
     `.trim(),
   },
   {
+    slug: 'garantie-loyer-etranger-japon',
+    locale: 'fr',
+    title: 'Garantie de loyer au Japon : guide complet pour étrangers',
+    description: 'En tant qu\'étranger au Japon, obtenir une garantie de loyer est souvent le plus grand obstacle à la location. Voici comment le contourner en 2026.',
+    date: '2026-06-20',
+    readingTime: '7 min',
+    content: `
+La garantie de loyer est l'un des obstacles les plus redoutés par les étrangers qui cherchent un appartement au Japon. Dans le système locatif japonais traditionnel, le propriétaire exige un garant personnel, souvent japonais, qui s'engage à payer à votre place en cas de défaut. Sans réseau local, trouver ce garant est quasiment impossible à votre arrivée. Bonne nouvelle : le marché a évolué, et des solutions concrètes existent.
+
+## Le garant personnel (保証人 hoshounin) : l'obstacle historique
+
+Pendant des décennies, tout locataire au Japon devait présenter un hoshounin, littéralement "personne qui garantit". Ce garant devait être japonais, résider au Japon, disposer de revenus suffisants et accepter une responsabilité solidaire sur le loyer.
+
+Pour un expatrié qui vient d'arriver, c'est un cercle vicieux : vous n'avez pas de réseau japonais, donc vous n'avez pas de garant, donc vous ne pouvez pas louer d'appartement classique.
+
+Quelques cas où le garant personnel reste possible :
+- **Votre employeur japonais** joue le rôle de garant (courant pour les contrats d'expatriation en entreprise)
+- **Un ami japonais** accepte de se porter garant (rare et engagement lourd pour lui)
+- **Votre université** facilite l'accès à un garant pour les étudiants étrangers
+
+Dans tous les autres cas, la société de garantie est devenue la norme.
+
+## La société de garantie (保証会社 hoshougaisha) : la solution moderne
+
+Depuis les années 2010, les sociétés de garantie locative ont transformé le marché. Aujourd'hui, plus de 80 % des propriétaires à Tokyo acceptent une hoshougaisha à la place d'un garant personnel. C'est devenu la solution standard, y compris pour les locataires japonais.
+
+**Comment ça fonctionne :**
+La société de garantie vérifie votre dossier (visa, revenus, situation professionnelle) et prend en charge le risque d'impayé pour le propriétaire. En échange, vous payez :
+- Un frais d'entrée : généralement 0,5 à 1 mois de loyer
+- Un frais de renouvellement annuel : 10 000 à 15 000 JPY par an
+
+**Principales sociétés de garantie acceptant les étrangers :**
+- JRFS (Japan Rental Financial Services) : l'une des plus courantes, traitement en anglais possible
+- Cosmos Initia : souvent liée aux agences ERA
+- Nihon Hosho : répandue sur tout le territoire
+- Rent Guarantee : traitement simplifié pour les étrangers
+
+**Le piège à éviter :** certaines hoshougaisha vérifient que votre visa de séjour couvre toute la durée du bail (généralement 2 ans). Si votre carte de résidence expire avant, elles peuvent refuser votre dossier ou exiger un renouvellement en cours de bail. Si c'est votre situation, [renouvelez votre visa avant de signer](/fr/blog/carte-residence-japon-zairyu-card) ou optez pour un bail d'un an.
+
+## Les logements sans garantie
+
+Si vous n'arrivez pas à passer la case "garantie", d'autres types de logements n'en demandent pas :
+
+**Share houses et gaijin houses :** pas de garant, pas de caution élevée, contrat simplifié. Le prix à payer est une chambre privée plutôt qu'un appartement entier. C'est souvent la porte d'entrée idéale pour les primo-arrivants. Notre [guide complet sur les share houses](/fr/blog/share-house-tokyo-guide-complet) vous explique comment choisir.
+
+**Appartements meublés pour étrangers :** des opérateurs comme Sakura House, Tokyo Share House ou Borderless House proposent des appartements meublés avec un processus d'entrée simplifié, sans hoshounin ni hoshougaisha. Ces logements sont plus chers au m² mais accessibles dès le premier jour. Voir notre [guide sur les appartements meublés à Tokyo](/fr/blog/appartement-meuble-tokyo-sans-garant).
+
+**Propriétaires directs expérimentés avec les étrangers :** sur des plateformes comme GaijinPot Housing ou Suumo International, certains propriétaires ou gestionnaires acceptent les étrangers avec un processus simplifié.
+
+## Constituer un dossier solide
+
+Même avec une hoshougaisha, votre dossier doit être bien présenté. Préparez :
+- Passeport valide
+- Carte de résidence (zairyu card) avec date d'expiration visible
+- Attestation de travail ou contrat d'emploi (avec niveau de salaire)
+- 3 derniers bulletins de salaire ou relevés bancaires
+- Coordonnées d'une personne à contacter en urgence (en dehors du Japon est acceptable)
+
+Si vous êtes indépendant ou en phase de démarrage, apporter 3 à 6 mois de relevés bancaires avec des entrées régulières renforce considérablement le dossier.
+
+## Ce que fait un chasseur immobilier
+
+Naviguer le système de garantie en japonais est stressant. Un chasseur immobilier local connaît les hoshougaisha qui traitent le mieux les profils étrangers, sait quelles agences sont souples et peut vous accompagner dans la constitution du dossier. Il peut aussi identifier les propriétaires ouverts aux locataires étrangers dès la recherche.
+
+Pour éviter les [pièges classiques de la location à Tokyo](/fr/blog/pieges-location-tokyo-etranger), avoir un interlocuteur qui parle japonais et connaît les usages locaux fait souvent la différence entre un appartement signé en 2 semaines et une recherche épuisante de 2 mois.
+
+---
+
+*Vous cherchez un appartement à Tokyo et vous bloquez sur la garantie ? Réservez une consultation gratuite : on étudie votre profil et on identifie les meilleurs dossiers pour votre situation.*
+    `.trim(),
+  },
+  {
+    slug: 'guarantor-japan-rental-foreigner',
+    locale: 'en',
+    title: 'Guarantor for Japan Rental: Complete Guide for Foreigners',
+    description: 'Getting a guarantor in Japan as a foreigner is often the biggest obstacle to renting. Here\'s everything you need to know to solve it in 2026.',
+    date: '2026-06-20',
+    readingTime: '7 min',
+    content: `
+The guarantor requirement is one of the most feared obstacles for foreigners looking for an apartment in Japan. In the traditional Japanese rental system, landlords require a personal guarantor — usually Japanese — who commits to paying rent on your behalf if you default. Without a local network, finding such a person is nearly impossible when you first arrive. The good news: the market has evolved, and concrete solutions exist.
+
+## The personal guarantor (保証人 hoshounin): the historical barrier
+
+For decades, every tenant in Japan had to provide a hoshounin — literally "a person who guarantees." This guarantor had to be Japanese, resident in Japan, have sufficient income, and accept joint liability for the rent.
+
+For an expat just arriving, it's a vicious cycle: no Japanese network means no guarantor, which means no standard apartment.
+
+A personal guarantor may still be possible when:
+- **Your Japanese employer** acts as guarantor (common in corporate expat transfers)
+- **A Japanese friend** agrees to act as guarantor (rare, and a heavy commitment for them)
+- **Your university** facilitates access to a guarantor for international students
+
+In all other cases, the guarantee company has become the standard solution.
+
+## The guarantee company (保証会社 hoshougaisha): the modern solution
+
+Since the 2010s, rental guarantee companies have transformed the market. Today, over 80% of landlords in Tokyo accept a hoshougaisha instead of a personal guarantor. It's now the standard even for Japanese tenants.
+
+**How it works:**
+The guarantee company reviews your file (visa, income, employment) and assumes the risk of non-payment for the landlord. In return, you pay:
+- An entry fee: usually 0.5 to 1 month's rent
+- An annual renewal fee: 10,000 to 15,000 JPY per year
+
+**Main guarantee companies accepting foreigners:**
+- JRFS (Japan Rental Financial Services): one of the most common, English processing available
+- Cosmos Initia: often linked to ERA-affiliated agencies
+- Nihon Hosho: nationwide coverage
+- Rent Guarantee: simplified processing for foreign applicants
+
+**A key pitfall:** some hoshougaisha verify that your residence permit covers the full lease term (typically 2 years). If your zairyu card expires before then, they may decline your application. If this applies to you, [renew your residence card before signing](/en/blog/residence-card-japan-zairyu-card-guide) or opt for a one-year lease.
+
+## Accommodation with no guarantor required
+
+If you can't clear the guarantor hurdle, other types of accommodation don't require one:
+
+**Share houses and gaijin houses:** no guarantor, no large deposit, simplified contract. The trade-off is a private room rather than a full apartment. It's often the ideal entry point for newcomers. Our [complete share house guide](/en/blog/share-house-tokyo-guide-2026) walks you through how to choose.
+
+**Foreigner-friendly furnished apartments:** operators like Sakura House, Tokyo Share House, or Borderless House offer furnished apartments with a simplified entry process — no hoshounin, no hoshougaisha. These are more expensive per sqm but accessible from day one. See our [furnished apartment guide](/en/blog/furnished-apartment-tokyo-no-guarantor).
+
+**Direct landlords experienced with foreigners:** on platforms like GaijinPot Housing or Suumo International, some landlords or property managers accept foreigners with a simplified process.
+
+## Building a strong application file
+
+Even with a hoshougaisha, your file needs to be solid. Prepare:
+- Valid passport
+- Zairyu card (residence card) with visible expiry date
+- Employment certificate or work contract (showing salary level)
+- Last 3 pay slips or bank statements
+- Emergency contact details (outside Japan is usually acceptable)
+
+If you're self-employed or recently started working, providing 3 to 6 months of bank statements with regular income significantly strengthens your application.
+
+## What a property hunter does
+
+Navigating the guarantee system in Japanese is stressful. A local property hunter knows which hoshougaisha handle foreign profiles most smoothly, which agencies are flexible with expats, and can guide you through the full application process. They can also identify landlords open to foreign tenants from the start of the search.
+
+To avoid the [classic traps of renting in Tokyo](/en/blog/tokyo-rental-traps-foreigners), having someone who speaks Japanese and knows local customs often makes the difference between a signed lease in 2 weeks and an exhausting 2-month search.
+
+---
+
+*Looking for an apartment in Tokyo and stuck on the guarantor requirement? Book a free consultation: we'll assess your profile and identify the best-fit properties for your situation.*
+    `.trim(),
+  },
+  {
+    slug: 'assurance-habitation-japon-locataire',
+    locale: 'fr',
+    title: 'Assurance habitation Japon : ce que tout locataire doit savoir',
+    description: 'L\'assurance habitation est obligatoire dans presque tous les baux au Japon. Voici comment choisir la bonne assurance en tant qu\'expatrié et combien ça coûte.',
+    date: '2026-06-20',
+    readingTime: '6 min',
+    content: `
+Quand vous signez un bail au Japon, vous remarquerez rapidement qu'une clause exige une assurance habitation. Ce n'est pas une suggestion : dans la quasi-totalité des contrats de location japonais, souscrire une assurance incendie (火災保険, kasai hoken) est une condition de signature. Voici tout ce que vous devez savoir pour choisir la bonne couverture et éviter les pièges.
+
+## Pourquoi l'assurance habitation est obligatoire au Japon
+
+Le Japon est l'un des pays les plus exposés aux risques naturels au monde : tremblements de terre, typhons, inondations, incendies. Dans un pays où les immeubles résidentiels sont souvent mitoyens et denses, un sinistre dans un appartement peut rapidement affecter les voisins.
+
+C'est pour cette raison que les propriétaires et agences immobilières exigent systématiquement une assurance habitation à la signature du bail. L'assurance couvre principalement :
+
+**La responsabilité civile (個人賠償責任 kojin baisho sekinin) :**
+Si vous provoquez un dégât des eaux ou un incendie qui se propage à l'appartement du dessus ou du dessous, vous êtes légalement responsable des dommages causés aux voisins. Sans assurance, ce risque pèse intégralement sur votre patrimoine.
+
+**Les dommages à l'appartement (火災 kasai) :**
+Les dommages causés par un incendie, même accidentel, à l'appartement que vous louez sont couverts. Attention : ce n'est pas la même chose que l'assurance souscrite par le propriétaire sur l'immeuble.
+
+**Le vol et les effets personnels :**
+Les polices standards incluent souvent une couverture basique contre le vol ou la détérioration de vos affaires personnelles.
+
+## Combien coûte l'assurance habitation au Japon
+
+Les prix varient selon la surface du logement, la valeur des biens assurés et les options choisies :
+
+- **Assurance de base (responsabilité civile + incendie) :** 1 000 à 2 000 JPY par mois
+- **Assurance étendue (+ vol, dégâts des eaux) :** 1 500 à 3 000 JPY par mois
+- **Option tremblement de terre (jishin hoken) :** 500 à 1 500 JPY supplémentaires par mois
+
+La durée de souscription est généralement annuelle ou biennale (alignée sur la durée du bail). L'assurance tremblement de terre est distincte de l'assurance incendie au Japon et doit être souscrite séparément.
+
+**Le piège le plus courant :** l'agence immobilière vous proposera systématiquement sa propre assurance. C'est pratique (tout se règle en même temps), mais le tarif est souvent 30 à 50 % plus élevé qu'une assurance souscrite indépendamment. Vous avez le droit de refuser et de choisir votre propre assureur, tant que la police respecte les minima exigés dans le bail.
+
+## Comment souscrire une assurance habitation en tant qu'étranger
+
+La barrière principale est la langue : la majorité des assureurs japonais ne traitent qu'en japonais.
+
+**Assureurs avec service en anglais :**
+- **Chubb Insurance Japan** : couverture internationale, interface en anglais, accepte les expatriés
+- **Tokio Marine & Nichido (English service)** : l'un des plus grands assureurs japonais avec un département anglophone
+- **Sompo Japan** : dispose d'un service expatriés accessible en anglais
+- **AIG Japan** : couverture multinationale avec support en anglais
+
+**Via l'agence immobilière :**
+Si vous ne voulez pas gérer la démarche séparément, accepter l'assurance proposée par l'agence est une solution valide. Elle coûte plus cher, mais tout est en ordre dès la signature. Vérifiez que la police couvre bien la responsabilité civile, car c'est la garantie la plus critique pour un locataire.
+
+**Renouvellement :** l'assurance habitation se renouvelle généralement automatiquement. Gardez une trace de la date d'expiration et vérifiez que la couverture est toujours en place si vous renouvelez votre bail ou si vous déménagez.
+
+## L'assurance tremblement de terre : option ou nécessité ?
+
+Au Japon, l'assurance tremblement de terre est distincte et optionnelle dans le contrat d'assurance habitation standard. Elle peut être ajoutée en option sur votre kasai hoken.
+
+Pour décider :
+- Si vous vivez dans une zone sismique active (Tokyo, Osaka) : fortement recommandée
+- Si vous avez des effets personnels de valeur (bijoux, instruments, matériel professionnel) : utile
+- Pour un logement récent (construit après 2000 selon les nouvelles normes antisismiques) : le risque structurel est plus faible, mais les effets personnels restent exposés
+
+Pour aller plus loin sur la vie quotidienne au Japon, notre guide sur [l'assurance maladie pour expatriés](/fr/blog/assurance-maladie-japon-expatrie) couvre l'autre assurance indispensable à souscrire dès votre arrivée.
+
+## Ce qu'il faut vérifier avant de signer votre police
+
+- La police couvre-t-elle la **responsabilité civile envers les tiers** ? (indispensable)
+- Quel est le **plafond de couverture** pour la responsabilité civile ? (minimum 100 millions JPY recommandé)
+- Les **affaires personnelles** sont-elles incluses ?
+- La police est-elle **valide pendant toute la durée du bail** sans interruption en cas de renouvellement automatique ?
+- Y a-t-il une **franchise** (jikou baisho) avant remboursement ?
+
+---
+
+*Vous vous installez à Tokyo et vous avez des questions sur les démarches à faire à votre arrivée ? Réservez une consultation gratuite : on vous guide de A à Z pour éviter les erreurs coûteuses.*
+    `.trim(),
+  },
+  {
+    slug: 'renters-insurance-japan-guide',
+    locale: 'en',
+    title: 'Renter\'s Insurance Japan: What Every Expat Tenant Must Know',
+    description: 'Renter\'s insurance (kasai hoken) is mandatory in almost every Japanese lease. Here\'s how to choose the right policy as a foreigner and what it costs.',
+    date: '2026-06-20',
+    readingTime: '6 min',
+    content: `
+When you sign a lease in Japan, you'll quickly notice a clause requiring renter's insurance. This is not a suggestion: in the vast majority of Japanese rental contracts, taking out fire insurance (火災保険, kasai hoken) is a condition of signing. Here's everything you need to know to choose the right coverage and avoid the common traps.
+
+## Why renter's insurance is mandatory in Japan
+
+Japan is one of the most exposed countries in the world to natural disasters: earthquakes, typhoons, floods, and fires. In a country where residential buildings are often dense and interconnected, a single incident in one apartment can quickly affect neighbors on other floors.
+
+This is why landlords and real estate agencies systematically require renter's insurance at lease signing. Coverage typically includes:
+
+**Third-party liability (個人賠償責任 kojin baisho sekinin):**
+If you cause water damage or a fire that spreads to the apartment above or below you, you are legally responsible for the damage to your neighbors. Without insurance, this risk falls entirely on you personally.
+
+**Damage to the apartment (火災 kasai):**
+Damage to the rental unit caused by fire — even accidental — is covered. Note: this is separate from the insurance the landlord holds on the building itself.
+
+**Theft and personal belongings:**
+Standard policies usually include basic coverage against theft or damage to your personal possessions.
+
+## How much does renter's insurance cost in Japan
+
+Prices vary depending on the size of the unit, the value of insured items, and chosen options:
+
+- **Basic insurance (liability + fire):** 1,000 to 2,000 JPY per month
+- **Extended coverage (+ theft, water damage):** 1,500 to 3,000 JPY per month
+- **Earthquake insurance option (jishin hoken):** an additional 500 to 1,500 JPY per month
+
+The standard subscription period is annual or biannual (aligned with the lease term). Earthquake insurance is separate from fire insurance in Japan and must be taken out as an add-on.
+
+**The most common trap:** your real estate agency will systematically offer their own insurance. It's convenient (everything handled at signing), but the premium is often 30 to 50% higher than a policy taken out independently. You have the right to decline and choose your own insurer, as long as the policy meets the minimum requirements specified in the lease.
+
+## How to get renter's insurance as a foreigner
+
+The main barrier is language: the majority of Japanese insurers operate exclusively in Japanese.
+
+**Insurers with English service:**
+- **Chubb Insurance Japan:** international coverage, English interface, accepts expats
+- **Tokio Marine & Nichido (English service):** one of Japan's largest insurers with an English-speaking department
+- **Sompo Japan:** has an expat department accessible in English
+- **AIG Japan:** multinational coverage with English support
+
+**Through the real estate agency:**
+If you don't want to handle the process separately, accepting the agency's insurance is a valid option. It costs more, but everything is in order from signing day. Just verify that the policy covers third-party liability — that's the most critical coverage for a tenant.
+
+**Renewal:** renter's insurance typically auto-renews. Keep track of the expiry date and verify coverage remains in place if you renew your lease or move.
+
+## Earthquake insurance: option or necessity?
+
+In Japan, earthquake insurance is separate and optional within a standard kasai hoken policy. It can be added as a rider.
+
+To decide:
+- If you live in an active seismic zone (Tokyo, Osaka): strongly recommended
+- If you have high-value personal items (jewelry, instruments, professional equipment): worthwhile
+- For a newer building (built after 2000 under updated earthquake resistance standards): structural risk is lower, but personal belongings remain exposed
+
+For a broader picture of life in Japan as an expat, our guide on [health insurance for expats in Japan](/en/blog/japan-health-insurance-expat-guide) covers the other essential insurance to sort out on arrival.
+
+## What to verify before signing your policy
+
+- Does the policy cover **third-party liability**? (essential)
+- What is the **liability coverage limit**? (minimum 100 million JPY recommended)
+- Are **personal belongings** included?
+- Is the policy valid for the **full lease term** without gaps if auto-renewed?
+- Is there a **deductible (jikou baisho)** before reimbursement kicks in?
+
+---
+
+*Setting up in Tokyo and need guidance on the paperwork required on arrival? Book a free consultation — we walk you through every step so you don't make costly mistakes.*
+    `.trim(),
+  },
+  {
+    slug: 'logement-etudiant-tokyo-guide',
+    locale: 'fr',
+    title: 'Logement étudiant à Tokyo : guide complet pour francophones',
+    description: 'Trouver un logement étudiant à Tokyo en tant que francophone : dortoirs universitaires, share houses, appartements meublés et aides financières disponibles.',
+    date: '2026-06-20',
+    readingTime: '8 min',
+    content: `
+Tokyo attire chaque année des milliers d'étudiants étrangers, notamment des francophones venus de France, de Belgique, du Canada ou de Suisse pour des échanges universitaires, des masters ou des programmes de langue. Trouver un logement satisfaisant dans une ville aussi dense peut sembler intimidant. Ce guide couvre toutes les options disponibles en 2026, avec les budgets réels et les calendriers à respecter.
+
+## Les résidences universitaires (学生寮 gakusei ryou)
+
+C'est l'option la moins chère, et souvent la plus demandée. Les universités japonaises proposent des résidences internes ou partenaires pour leurs étudiants étrangers.
+
+**Avantages :**
+- Prix compétitifs : 30 000 à 60 000 JPY par mois tout compris (chambre, charges, internet)
+- Emplacement souvent proche du campus
+- Réseau social immédiat avec d'autres étudiants internationaux et japonais
+- Processus géré en grande partie par l'université
+
+**Inconvénients :**
+- Places limitées et fortement compétitives — ce n'est pas garanti même si vous êtes accepté à l'université
+- Règles de vie strictes (couvre-feu, règles sur les visiteurs, horaires de cuisine)
+- Durée maximale souvent limitée à 1 an
+
+**Comment postuler :** la demande passe par le bureau des relations internationales (kokusai kouryuu) de votre université japonaise. Faites-le en même temps que votre candidature d'admission, soit 4 à 6 mois avant votre arrivée. La compétition est forte, notamment dans les grandes universités de Tokyo (Todai, Waseda, Keio, TUJ).
+
+## Les share houses pour étudiants
+
+Si la résidence universitaire n'est pas disponible ou ne correspond pas à ce que vous cherchez, les share houses sont l'option la plus populaire parmi les étudiants étrangers à Tokyo.
+
+**Prix typiques :**
+- Chambre privée dans un share house standard : 40 000 à 65 000 JPY par mois
+- Chambre dans un share house design / premium : 70 000 à 90 000 JPY par mois
+- Charges et internet généralement inclus
+
+**Opérateurs bien établis pour les étudiants :**
+- **Sakura House** : le plus connu pour les étrangers, nombreuses propriétés, processus d'entrée simplifié, pas de garant requis
+- **Oakhouse** : ambiance internationale, nombreux profils étudiants
+- **Tokyo Share House** : interface en anglais, accepte les visas étudiants
+- **Borderless House** : concept "mixed living" Japonais/étrangers, idéal pour progresser en japonais
+
+**Durée minimale :** généralement 1 à 3 mois selon l'opérateur. Pratique pour un semestre d'échange ou une année universitaire complète.
+
+Notre [guide complet sur les share houses à Tokyo](/fr/blog/share-house-tokyo-guide-complet) vous aide à comprendre ce qu'il faut vérifier avant de réserver.
+
+## L'appartement meublé indépendant
+
+Pour les étudiants qui préfèrent vivre seuls ou avec un partenaire, les appartements meublés à Tokyo sont une option plus onéreuse mais qui offre une vraie indépendance.
+
+**Budget à prévoir :**
+- Studio meublé dans un quartier étudiant (Bunkyo, Koenji, Nakano) : 65 000 à 90 000 JPY par mois hors charges
+- Studio meublé dans le centre (Shinjuku, Shibuya) : 90 000 à 130 000 JPY par mois
+- Dépôt initial (sans reikin) : généralement 1 à 2 mois de caution + 0,5 mois de garantie
+
+Sans garant japonais, un [appartement meublé spécialisé étrangers](/fr/blog/appartement-meuble-tokyo-sans-garant) est souvent la meilleure voie : le gestionnaire connaît les spécificités des profils étudiants et peut traiter votre dossier même sans historique de crédit japonais.
+
+## Quartiers étudiants à Tokyo
+
+Le choix du quartier dépend de votre université, mais voici les zones les plus prisées pour les étudiants :
+
+**Bunkyo-ku (文京区)** : quartier universitaire par excellence. Abrite l'Université de Tokyo (Todai), Tokyo University of Science et plusieurs autres. Calme, bien connecté, nombreux logements étudiants.
+
+**Shinjuku-ku (新宿区)** : central, nombreuses lignes de métro, proche de Waseda University et du campus de Yotsuya de Sophia University. Plus animé, légèrement plus cher.
+
+**Koenji / Nakano (高円寺・中野)** : populaires parmi les étudiants pour le bon rapport qualité-prix. Bien desservi par la Chuo Line. Ambiance alternative et artistique.
+
+**Eviter :** Minato, Shibuya et Roppongi pour un budget étudiant. Le loyer est 30 à 50 % plus élevé pour une qualité de vie similaire.
+
+## Aides financières disponibles
+
+Les étudiants étrangers au Japon peuvent accéder à plusieurs sources de financement :
+
+**JASSO (Japan Student Services Organization) :** bourse mensuelle de 48 000 à 117 000 JPY selon les critères. Candidature via votre université japonaise après l'arrivée.
+
+**Bourses MEXT :** programme de bourses du gouvernement japonais, très compétitif, couvre les frais de scolarité, le logement et une allocation mensuelle. À demander avant l'arrivée via l'ambassade du Japon dans votre pays.
+
+**Bourses de l'ambassade du Japon :** programme pour les courts séjours (stage de langue, semestre d'échange). Renseignez-vous auprès de l'ambassade du Japon en France ou en Belgique.
+
+**Aides institutionnelles :** votre université d'origine peut avoir des accords de coopération qui incluent une aide au logement. À vérifier auprès du bureau des relations internationales de votre établissement.
+
+## Calendrier et délais à respecter
+
+La gestion du temps est cruciale pour le logement étudiant à Tokyo :
+
+- **6 mois avant :** demander la résidence universitaire via votre université japonaise
+- **3 mois avant :** si résidence universitaire non confirmée, commencer à chercher un share house ou un appartement meublé
+- **1 à 2 mois avant :** réserver votre logement, préparer les documents requis (lettre d'admission, preuve de visa étudiant)
+- **À l'arrivée :** activation du contrat, remise des clés, enregistrement à la mairie (obligatoire dans les 14 jours)
+
+Commencer tôt est important. Les meilleures chambres dans les share houses prisés partent plusieurs semaines à l'avance, notamment pour les rentrées de septembre et d'avril.
+
+---
+
+*Vous préparez un séjour d'études à Tokyo et vous cherchez un logement accessible dès votre arrivée ? Contactez-nous pour une consultation gratuite et on vous aide à trouver la bonne option selon votre budget et votre visa.*
+    `.trim(),
+  },
+  {
+    slug: 'student-housing-tokyo-guide',
+    locale: 'en',
+    title: 'Student Housing Tokyo 2026: Complete Guide for International Students',
+    description: 'Finding student housing in Tokyo as an international student: university dorms, share houses, furnished apartments, and financial aid options explained for 2026.',
+    date: '2026-06-20',
+    readingTime: '8 min',
+    content: `
+Tokyo attracts thousands of international students each year for university exchanges, master's programs, or language courses. Finding the right housing in one of the world's most densely populated cities can feel overwhelming. This guide covers every realistic option available in 2026, with real budgets and the timelines you need to respect.
+
+## University dormitories (学生寮 gakusei ryou)
+
+This is the least expensive option — and the most competitive. Japanese universities offer internal or partner dormitories for their international students.
+
+**Advantages:**
+- Competitive pricing: 30,000 to 60,000 JPY per month all-inclusive (room, utilities, internet)
+- Often located near campus
+- Immediate social network with other international and Japanese students
+- Process largely managed by the university
+
+**Disadvantages:**
+- Limited spots and highly competitive — not guaranteed even after university acceptance
+- Strict house rules (curfews, visitor policies, kitchen hours)
+- Maximum stay often limited to one year
+
+**How to apply:** applications go through the international office (kokusai kouryuu) of your Japanese university. Submit it at the same time as your admission application — 4 to 6 months before arrival. Competition is intense at top Tokyo universities (Todai, Waseda, Keio, TUJ, Sophia).
+
+## Share houses for students
+
+If university housing is unavailable or doesn't suit your needs, share houses are the most popular option among international students in Tokyo.
+
+**Typical prices:**
+- Private room in a standard share house: 40,000 to 65,000 JPY per month
+- Room in a design/premium share house: 70,000 to 90,000 JPY per month
+- Utilities and internet generally included
+
+**Well-established operators for students:**
+- **Sakura House:** the best-known for foreigners, many properties, simplified entry process, no guarantor required
+- **Oakhouse:** international atmosphere, many student profiles
+- **Tokyo Share House:** English interface, accepts student visas
+- **Borderless House:** "mixed living" concept (Japanese + international), ideal for practicing Japanese
+
+**Minimum stay:** typically 1 to 3 months depending on the operator — practical for a semester abroad or a full academic year.
+
+Our [complete share house guide for Tokyo](/en/blog/share-house-tokyo-guide-2026) helps you understand what to check before booking.
+
+## Independent furnished apartments
+
+For students who prefer living alone or with a partner, furnished apartments in Tokyo offer genuine independence at a higher cost.
+
+**Budget to plan for:**
+- Furnished studio in a student neighborhood (Bunkyo, Koenji, Nakano): 65,000 to 90,000 JPY per month excluding utilities
+- Furnished studio in central Tokyo (Shinjuku, Shibuya): 90,000 to 130,000 JPY per month
+- Move-in costs (no reikin): typically 1 to 2 months security deposit + 0.5 month guarantee fee
+
+Without a Japanese guarantor, a [foreigner-friendly furnished apartment](/en/blog/furnished-apartment-tokyo-no-guarantor) is often the best path: the manager understands international student profiles and can process your file even without a Japanese credit history.
+
+## Best student neighborhoods in Tokyo
+
+The right neighborhood depends on your university, but here are the most popular areas for students:
+
+**Bunkyo-ku (文京区):** the quintessential university district. Home to the University of Tokyo (Todai), Tokyo University of Science, and others. Quiet, well-connected, many student housing options.
+
+**Shinjuku-ku (新宿区):** central, multiple subway lines, close to Waseda University and Sophia University's Yotsuya campus. More lively, slightly pricier.
+
+**Koenji / Nakano (高円寺・中野):** popular among students for good value for money. Well-served by the Chuo Line. Alternative, artistic atmosphere.
+
+**Avoid for a student budget:** Minato, Shibuya, and Roppongi. Rent is 30 to 50% higher for similar living quality.
+
+## Financial aid available for international students
+
+International students in Japan can access several funding sources:
+
+**JASSO (Japan Student Services Organization):** monthly scholarship of 48,000 to 117,000 JPY depending on criteria. Apply through your Japanese university after arrival.
+
+**MEXT Scholarships:** Japanese government scholarship program, very competitive, covers tuition, housing, and a monthly stipend. Apply before arrival through the Japanese embassy in your country.
+
+**Japanese Embassy Scholarships:** program for short stays (language study, semester abroad). Check with the Japanese embassy or consulate in your home country.
+
+**Institutional support:** your home university may have cooperation agreements that include housing assistance. Check with your international office.
+
+## Timeline and deadlines to respect
+
+Time management is critical for student housing in Tokyo:
+
+- **6 months out:** apply for university dormitory through your Japanese university
+- **3 months out:** if dorm not confirmed, start searching for a share house or furnished apartment
+- **1 to 2 months out:** book your housing, prepare required documents (admission letter, proof of student visa)
+- **On arrival:** activate contract, collect keys, register at the local city hall (required within 14 days of arrival)
+
+Starting early matters. The best rooms in popular share houses go weeks in advance, especially for September and April intakes.
+
+---
+
+*Preparing a study stay in Tokyo and need housing sorted before you arrive? Get in touch for a free consultation — we'll help you find the right option for your budget and visa type.*
+    `.trim(),
+  },
+  {
+    slug: 'checklist-bail-tokyo',
+    locale: 'fr',
+    title: 'Checklist bail Tokyo : 12 points à vérifier avant de signer',
+    description: 'Avant de signer votre bail à Tokyo, vérifiez ces 12 points essentiels pour éviter les mauvaises surprises : montant total, clauses cachées et état des lieux.',
+    date: '2026-06-20',
+    readingTime: '7 min',
+    content: `
+Signer un bail à Tokyo en tant qu'étranger comporte des risques concrets si vous ne savez pas lire un contrat en japonais. Les mauvaises surprises les plus fréquentes — frais cachés, clause de remise en état abusive, préavis mal compris — peuvent vous coûter plusieurs centaines de milliers de yens à la sortie. Cette checklist couvre les 12 points à vérifier impérativement avant de signer.
+
+## 1. Le montant total des frais d'entrée
+
+La première chose à calculer est le coût total d'entrée, pas seulement le loyer mensuel. Au Japon, la première mise de fonds comprend généralement :
+
+- **Shikikin (敷金) :** caution remboursable, généralement 1 à 2 mois de loyer
+- **Reikin (礼金) :** "clé de mains" non remboursable, 0 à 2 mois de loyer (parfois négociable)
+- **Frais d'agence :** 1 mois de loyer + taxes (légalement plafonné à 1 mois TTC)
+- **Frais de société de garantie :** 0,5 à 1 mois de loyer à l'entrée
+- **Assurance habitation :** 1ère année payable à l'avance
+- **Premier mois de loyer** (parfois au prorata)
+
+**En pratique :** prévoyez 4 à 6 fois le loyer mensuel pour la mise de fonds initiale. Sur un appartement à 80 000 JPY/mois, cela représente 320 000 à 480 000 JPY à débloquer avant d'entrer.
+
+Lisez également notre guide sur la [recherche d'appartement à Tokyo depuis l'étranger](/fr/blog/chercher-appartement-tokyo-depuis-etranger) pour anticiper les démarches avant même d'arriver au Japon.
+
+## 2. La durée du bail et les conditions de renouvellement
+
+Le bail standard au Japon dure 2 ans (普通借家契約, futsuu shakka keiyaku). À l'échéance, il peut être renouvelé pour 2 ans supplémentaires, parfois avec des frais de renouvellement (koushin ryou) de 0,5 à 1 mois de loyer.
+
+Vérifiez :
+- La date de début et la date de fin du bail
+- Le montant des frais de renouvellement
+- Si c'est un bail à durée fixe (定期借家契約, teiki shakka keiyaku) — dans ce cas, pas de renouvellement automatique, le propriétaire peut refuser de prolonger
+
+## 3. Le préavis en cas de résiliation
+
+En cas de départ avant la fin du bail, le préavis standard est de 1 mois, mais certains contrats exigent 2 mois. Vérifiez également s'il y a une clause de pénalité pour résiliation anticipée (par exemple, obligation de payer 2 mois de loyer si vous partez dans les 6 premiers mois).
+
+## 4. La clause de remise en état (原状回復 genjou kaifuku)
+
+C'est la clause qui cause le plus de litiges entre locataires et propriétaires au Japon. Le principe légal est que le locataire n'est responsable que des dommages qu'il a causés, pas de l'usure normale. En pratique, certains propriétaires tentent de facturer des travaux qui relèvent de l'entretien normal.
+
+Vérifiez explicitement :
+- Qui paye le nettoyage final ? (souvent facturé au locataire même si c'est discutable)
+- Qui paye le remplacement des tatamis ou fusuma abîmés par usure normale ?
+- Y a-t-il une clause de peinture systématique à la charge du locataire ?
+
+Les directives du Ministère du Territoire (国土交通省) sont claires : l'usure normale est à la charge du propriétaire. Un bail qui dévie fortement de ces directives est sujet à négociation.
+
+## 5. Les règles sur les animaux de compagnie
+
+La majorité des appartements à Tokyo est classée "禁止 (kinshi)" pour les animaux. Vérifiez explicitement si les animaux sont autorisés, et si oui, lesquels. En cas de doute, demandez une confirmation écrite — un accord verbal ne protège pas en cas de litige.
+
+## 6. L'état des lieux d'entrée (入居前確認 nyuukyomae kakunin)
+
+Avant de déménager vos affaires, effectuez un état des lieux complet avec l'agence ou le propriétaire. Photographiez systématiquement :
+- Toutes les rayures, marques et trous préexistants sur les murs
+- L'état du sol, de la cuisine, de la salle de bain
+- Tous les équipements fournis (réfrigérateur, AC, etc.) et leur état de fonctionnement
+
+Envoyez les photos par email à l'agence le jour même pour créer une preuve datée. C'est votre protection si le propriétaire tente de vous imputer ces dommages à la sortie.
+
+## 7. La connexion internet
+
+Internet n'est pas inclus par défaut dans la plupart des baux japonais. Vérifiez :
+- L'immeuble est-il câblé en fibre optique (hikari) ?
+- Faut-il contacter un fournisseur séparément, et si oui, quel est le délai d'installation ? (parfois 4 à 6 semaines)
+- Y a-t-il un réseau Wi-Fi partagé dans le bâtiment (courant dans les share houses, rare dans les appartements)
+
+## 8. Le système de chauffage et de climatisation
+
+Vérifiez que chaque pièce dispose d'un climatiseur réversible (reikon). Au Japon, les appareils de climatisation sont généralement fixés et laissés par le locataire précédent ou fournis par le propriétaire. Demandez :
+- Y a-t-il un AC dans toutes les pièces principales ?
+- Quel est l'état des filtres et la date du dernier entretien ?
+- Y a-t-il un chauffe-eau (gas ou électrique) et est-il fonctionnel ?
+
+## 9. La place de stationnement
+
+Le stationnement à Tokyo est presque toujours payant et séparé du loyer. Si vous avez un vélo, vérifiez l'existence d'un local vélo (jitenshashoki) dans l'immeuble. Pour une voiture, le stationnement mensuel est généralement de 15 000 à 30 000 JPY dans Tokyo intramuros.
+
+## 10. Les charges locatives (管理費 kanrihi)
+
+En plus du loyer, la plupart des appartements facturent des charges mensuelles (kanrihi) de 3 000 à 15 000 JPY pour l'entretien des parties communes, les poubelles, l'ascenseur. Ces charges sont généralement indiquées séparément dans l'annonce. Vérifiez qu'elles sont bien incluses dans votre calcul de coût mensuel total.
+
+## 11. L'orientation du logement
+
+Au Japon, l'exposition est cruciale pour le confort thermique et la facture d'énergie. Un appartement exposé sud (南向き minamiuki) est beaucoup plus convoité et coûteux. Un appartement exposé nord sera froid en hiver et humide. Si vous visitez en journée, observez l'entrée de la lumière naturelle à différentes heures.
+
+## 12. La procédure en cas de problème de maintenance
+
+Qui contacter en cas de panne (chauffe-eau, fuite d'eau, panne de serrure) ? Est-ce le propriétaire, l'agence, ou une société de gestion tierce ? Y a-t-il une ligne d'urgence 24h/24 ?
+
+Les problèmes de maintenance non résolus sont l'une des principales sources de friction entre locataires étrangers et propriétaires. Avoir les contacts et la procédure clairement établis dès la signature évite des situations de blocage.
+
+Pour aller plus loin, notre guide sur les [pièges classiques de la location à Tokyo](/fr/blog/pieges-location-tokyo-etranger) couvre les erreurs les plus coûteuses que font les expatriés.
+
+---
+
+*Vous êtes sur le point de signer un bail à Tokyo et vous voulez être sûr que tout est en ordre ? Réservez une consultation : on revoit les documents avec vous et on identifie les clauses à négocier.*
+    `.trim(),
+  },
+  {
+    slug: 'tokyo-rental-contract-checklist',
+    locale: 'en',
+    title: 'Tokyo Rental Contract: 12 Things to Check Before Signing',
+    description: 'Before signing your Tokyo rental contract, verify these 12 essential points to avoid surprises: total move-in cost, hidden clauses, and the move-in inspection.',
+    date: '2026-06-20',
+    readingTime: '7 min',
+    content: `
+Signing a lease in Tokyo as a foreigner carries real risks if you can't read a contract in Japanese. The most common bad surprises — hidden fees, an aggressive restoration clause, a misunderstood notice period — can cost you hundreds of thousands of yen when you move out. This checklist covers the 12 points you must verify before signing.
+
+## 1. Total move-in costs
+
+The first thing to calculate is the total upfront cost, not just the monthly rent. In Japan, the initial outlay typically includes:
+
+- **Shikikin (敷金):** refundable security deposit, usually 1 to 2 months' rent
+- **Reikin (礼金):** non-refundable "key money," 0 to 2 months' rent (sometimes negotiable)
+- **Agency fee:** 1 month's rent + tax (legally capped at 1 month inclusive)
+- **Guarantee company fee:** 0.5 to 1 month's rent upfront
+- **Renter's insurance:** first year payable in advance
+- **First month's rent** (sometimes prorated)
+
+**In practice:** budget 4 to 6 times the monthly rent for the initial outlay. On an 80,000 JPY/month apartment, that's 320,000 to 480,000 JPY before you even get the keys.
+
+Also read our guide on [searching for an apartment in Tokyo from abroad](/en/blog/tokyo-apartment-hunting-from-abroad) to understand how to get ahead of the process before arriving.
+
+## 2. Lease term and renewal conditions
+
+The standard Japanese lease runs 2 years (普通借家契約 futsuu shakka keiyaku). At expiry, it can be renewed for another 2 years — sometimes with a renewal fee (koushin ryou) of 0.5 to 1 month's rent.
+
+Verify:
+- Start and end date of the lease
+- Renewal fee amount
+- Whether it's a fixed-term lease (定期借家契約 teiki shakka keiyaku) — in this case, no automatic renewal, and the landlord may refuse to extend
+
+## 3. Notice period if you leave early
+
+The standard notice period if you leave before the lease ends is 1 month, but some contracts require 2. Also check whether there's an early termination penalty (e.g., required to pay 2 months' rent if you leave within the first 6 months).
+
+## 4. Restoration clause (原状回復 genjou kaifuku)
+
+This is the clause that causes the most disputes between tenants and landlords in Japan. The legal principle is that tenants are only responsible for damage they caused — not for normal wear and tear. In practice, some landlords try to charge for work that falls under normal maintenance.
+
+Explicitly verify:
+- Who pays for the final cleaning? (often billed to the tenant even when debatable)
+- Who pays for tatami or fusuma replacement due to normal wear?
+- Is there a clause requiring tenants to repaint walls at their own expense?
+
+The Ministry of Land, Infrastructure and Transport guidelines are clear: normal wear and tear is the landlord's responsibility. A lease that deviates significantly from these guidelines is open to negotiation.
+
+## 5. Pet policy
+
+The majority of apartments in Tokyo are classified as "禁止 (kinshi)" for pets. Explicitly verify whether pets are allowed, and if so, which types. If in doubt, request written confirmation — a verbal agreement provides no protection in a dispute.
+
+## 6. Move-in inspection (入居前確認 nyuukyomae kakunin)
+
+Before moving in your belongings, conduct a thorough inspection with the agency or landlord. Systematically photograph:
+- All pre-existing scratches, marks, and holes on walls
+- The condition of floors, kitchen, and bathroom
+- All provided appliances (refrigerator, AC, etc.) and their working condition
+
+Email the photos to the agency on the same day to create dated proof. This is your protection if the landlord tries to charge you for these damages on move-out.
+
+## 7. Internet connection
+
+Internet is not included by default in most Japanese leases. Verify:
+- Is the building wired for fiber optic (hikari)?
+- Do you need to contact a provider separately, and if so, what's the installation lead time? (sometimes 4 to 6 weeks)
+- Is there shared Wi-Fi in the building? (common in share houses, rare in standard apartments)
+
+## 8. Heating and air conditioning
+
+Verify that each main room has a reversible air conditioner (reikon). In Japan, AC units are typically fixed to the wall and left by the previous tenant or provided by the landlord. Ask:
+- Is there an AC unit in all main rooms?
+- What's the condition of the filters and when was the last service?
+- Is there a water heater (gas or electric) and is it functioning?
+
+## 9. Parking
+
+Parking in Tokyo is almost always paid and separate from rent. If you have a bicycle, check whether there's a bike storage area (jitenshashoki) in the building. For a car, monthly parking in central Tokyo typically runs 15,000 to 30,000 JPY.
+
+## 10. Management fees (管理費 kanrihi)
+
+In addition to rent, most apartments charge monthly management fees (kanrihi) of 3,000 to 15,000 JPY for common area maintenance, garbage, and elevator upkeep. These fees are usually listed separately in listings. Make sure they're factored into your total monthly cost calculation.
+
+## 11. Apartment orientation
+
+In Japan, exposure is critical for thermal comfort and energy costs. A south-facing apartment (南向き minamiuki) is much more desirable and expensive. A north-facing apartment will be cold in winter and prone to humidity. If you visit during the day, observe natural light at different times of day.
+
+## 12. Maintenance and emergency procedure
+
+Who do you contact in case of a breakdown (water heater, water leak, broken lock)? Is it the landlord, the agency, or a third-party management company? Is there a 24/7 emergency line?
+
+Unresolved maintenance issues are one of the main friction points between foreign tenants and landlords. Having contacts and procedures clearly established from signing day prevents frustrating standoffs.
+
+For more, our guide on [classic traps to avoid when renting in Tokyo](/en/blog/tokyo-rental-traps-foreigners) covers the most costly mistakes expats make.
+
+---
+
+*About to sign a lease in Tokyo and want to make sure everything is in order? Book a consultation: we review the documents with you and identify what to negotiate.*
+    `.trim(),
+  },
+  {
     slug: 'gaijin-house-vs-share-house-difference',
     locale: 'fr',
     title: 'Gaijin house vs share house à Tokyo : quelle est la différence ?',
