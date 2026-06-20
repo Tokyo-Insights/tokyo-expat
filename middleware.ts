@@ -6,7 +6,6 @@ const defaultLocale = 'fr'
 export function middleware(request: NextRequest) {
   const pathname = request.nextUrl.pathname
 
-  // Admin routes: pas de redirect locale
   if (pathname.startsWith('/admin')) {
     return NextResponse.next()
   }
@@ -20,6 +19,16 @@ export function middleware(request: NextRequest) {
       new URL(`/${defaultLocale}${pathname}`, request.url)
     )
   }
+
+  // Pass locale to server components via request header
+  const locale = locales.find(
+    (l) => pathname.startsWith(`/${l}/`) || pathname === `/${l}`
+  ) || defaultLocale
+
+  const requestHeaders = new Headers(request.headers)
+  requestHeaders.set('x-locale', locale)
+
+  return NextResponse.next({ request: { headers: requestHeaders } })
 }
 
 export const config = {

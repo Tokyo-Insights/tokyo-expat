@@ -1,5 +1,18 @@
 import Link from 'next/link'
+import type { Metadata } from 'next'
 import { getDictionary, type Locale } from '@/lib/i18n'
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>
+}): Promise<Metadata> {
+  const { locale } = await params
+  return {
+    title: locale === 'en' ? 'Our Services — Tokyo Expat' : 'Nos Services — Tokyo Expat',
+    alternates: { canonical: `/${locale}/services` },
+  }
+}
 
 export default async function ServicesPage({
   params,

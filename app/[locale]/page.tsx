@@ -1,5 +1,27 @@
 import Link from 'next/link'
+import type { Metadata } from 'next'
 import { getDictionary, type Locale } from '@/lib/i18n'
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>
+}): Promise<Metadata> {
+  const { locale } = await params
+  const titles: Record<string, string> = {
+    fr: 'Tokyo Expat — Chasseur Immobilier à Tokyo',
+    en: 'Tokyo Expat — Property Hunter in Tokyo',
+  }
+  const descriptions: Record<string, string> = {
+    fr: 'Trouvez votre logement à Tokyo avec un chasseur immobilier dédié. Share house, appartement meublé, maison. Consultation gratuite.',
+    en: 'Find your housing in Tokyo with a dedicated property hunter. Share house, furnished apartment, house. Free consultation.',
+  }
+  return {
+    title: titles[locale] ?? titles.fr,
+    description: descriptions[locale] ?? descriptions.fr,
+    alternates: { canonical: `/${locale}` },
+  }
+}
 
 export default async function HomePage({
   params,

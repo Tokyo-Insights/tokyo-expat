@@ -2,9 +2,26 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 import { getBlogPosts, type Locale } from '@/lib/blog'
 
-export const metadata: Metadata = {
-  title: 'Blog - Tokyo Expat',
-  description: 'Guides pratiques pour trouver un logement a Tokyo: share house, appartement meuble, demarches administratives.',
+const titles: Record<string, string> = {
+  fr: 'Guides logement Tokyo — Tokyo Expat',
+  en: 'Tokyo Housing Guides — Tokyo Expat',
+}
+const descriptions: Record<string, string> = {
+  fr: 'Guides pratiques pour trouver un logement à Tokyo : share house, appartement meublé, compte bancaire, visa. Pour francophones et expatriés.',
+  en: 'Practical guides for finding housing in Tokyo: share house, furnished apartment, bank account, visa. For expats and international residents.',
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>
+}): Promise<Metadata> {
+  const { locale } = await params
+  return {
+    title: titles[locale] ?? titles.fr,
+    description: descriptions[locale] ?? descriptions.fr,
+    alternates: { canonical: `/${locale}/blog` },
+  }
 }
 
 export default async function BlogIndexPage({
