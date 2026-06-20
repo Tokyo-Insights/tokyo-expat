@@ -24,11 +24,26 @@ export async function generateMetadata({
   const { locale, slug } = await params
   const post = getBlogPost(slug, locale as Locale)
   if (!post) return {}
+  const ogImage = `/og?title=${encodeURIComponent(post.title)}&locale=${locale}`
   return {
     title: `${post.title} - Tokyo Expat`,
     description: post.description,
     alternates: {
       canonical: `/${locale}/blog/${slug}`,
+    },
+    openGraph: {
+      title: post.title,
+      description: post.description,
+      type: 'article',
+      publishedTime: post.date,
+      url: `https://www.tokyo-expat.com/${locale}/blog/${slug}`,
+      images: [{ url: ogImage, width: 1200, height: 630, alt: post.title }],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: post.title,
+      description: post.description,
+      images: [ogImage],
     },
   }
 }
@@ -97,8 +112,32 @@ export default async function BlogPostPage({
     ? 'Vous avez un projet d\'installation a Tokyo? Parlons-en.'
     : 'Planning to move to Tokyo? Let\'s talk.'
 
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: post.title,
+    description: post.description,
+    datePublished: post.date,
+    inLanguage: locale === 'fr' ? 'fr-FR' : 'en-US',
+    url: `https://www.tokyo-expat.com/${locale}/blog/${post.slug}`,
+    author: {
+      '@type': 'Person',
+      name: 'Alessandro',
+      url: `https://www.tokyo-expat.com/${locale}/about`,
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: 'Tokyo Expat',
+      url: 'https://www.tokyo-expat.com',
+    },
+  }
+
   return (
     <div className="max-w-3xl mx-auto px-4 py-16">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <Link href={`/${locale}/blog`} className="text-sm text-gray-400 hover:text-[#0f2744] transition-colors mb-8 inline-block">
         ← {backLabel}
       </Link>

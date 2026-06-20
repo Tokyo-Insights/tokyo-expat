@@ -34,8 +34,29 @@ export default async function HomePage({
   const s = dict.services
   const featured = s.packages.slice(0, 3)
 
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'ProfessionalService',
+    name: 'Tokyo Expat',
+    url: 'https://www.tokyo-expat.com',
+    description: locale === 'fr'
+      ? 'Chasseur immobilier à Tokyo pour francophones et expatriés. Share house, appartement meublé, maison.'
+      : 'Property hunter in Tokyo for expats. Share house, furnished apartment, house.',
+    areaServed: { '@type': 'City', name: 'Tokyo', sameAs: 'https://www.wikidata.org/wiki/Q1490' },
+    serviceType: locale === 'fr' ? 'Chasseur immobilier' : 'Property Hunter',
+    inLanguage: locale === 'fr' ? ['fr', 'en'] : ['en', 'fr'],
+    offers: {
+      '@type': 'Offer',
+      url: `https://www.tokyo-expat.com/${locale}/services`,
+    },
+  }
+
   return (
     <div>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       {/* Hero */}
       <section className="bg-[#0f2744] text-white py-24 px-4">
         <div className="max-w-4xl mx-auto text-center">
