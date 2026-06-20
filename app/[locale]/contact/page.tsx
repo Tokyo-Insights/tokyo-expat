@@ -42,6 +42,29 @@ export default function ContactPage() {
       <h1 className="text-4xl font-extrabold text-[#0f2744] mb-4">{c.title}</h1>
       <p className="text-gray-500 mb-12 leading-relaxed">{c.subtitle}</p>
 
+      {/* Calendly CTA */}
+      <div className="bg-[#0f2744] rounded-2xl p-8 mb-8 text-center">
+        <p className="text-white/70 text-sm uppercase tracking-widest mb-2">
+          {locale === 'fr' ? 'Consultation gratuite' : 'Free consultation'}
+        </p>
+        <h2 className="text-white text-2xl font-bold mb-3">
+          {locale === 'fr' ? 'Réservez votre appel de 30 min' : 'Book your 30-min call'}
+        </h2>
+        <p className="text-white/70 text-sm mb-6">
+          {locale === 'fr'
+            ? 'Choisissez un créneau qui vous convient. Sans engagement.'
+            : 'Pick a time that works for you. No obligation.'}
+        </p>
+        <a
+          href="https://calendly.com/info-tokyoinsights/free-discovery-call"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block bg-[#e84141] hover:bg-[#ff6b6b] text-white px-8 py-3 rounded-xl font-bold transition-colors"
+        >
+          {locale === 'fr' ? 'Réserver maintenant →' : 'Book now →'}
+        </a>
+      </div>
+
       <div className="bg-gray-50 border border-gray-200 rounded-2xl p-8">
         <h2 className="font-bold text-[#0f2744] text-xl mb-6">{c.form_title}</h2>
         {sent ? (
