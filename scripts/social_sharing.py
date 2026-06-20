@@ -19,7 +19,7 @@ from config import TE_TOKEN, TE_CHAT_ID
 
 BASE_URL = "https://www.tokyo-expat.com"
 BLOG_TS_PATH = Path(__file__).parent.parent / "lib" / "blog.ts"
-DAYS_LOOKBACK = 14  # Articles des 14 derniers jours
+DAYS_LOOKBACK = 3  # Articles des 3 derniers jours (nouveaux uniquement)
 
 
 def send_telegram(text: str, max_len: int = 4000) -> bool:
