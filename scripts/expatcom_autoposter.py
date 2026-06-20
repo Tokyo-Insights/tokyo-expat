@@ -161,6 +161,11 @@ def post_to_expatcom_selenium(articles: list) -> list:
 
         print("Login Expat.com OK")
 
+        # Ferme tout modal résiduel après login (Escape)
+        from selenium.webdriver.common.keys import Keys
+        driver.find_element(By.TAG_NAME, 'body').send_keys(Keys.ESCAPE)
+        time.sleep(2)
+
         for a in articles:
             article_url = f"{BASE_URL}/blog/{a['slug']}"
             locale = a['locale']
@@ -180,10 +185,15 @@ def post_to_expatcom_selenium(articles: list) -> list:
                 )
 
             forums = FORUMS.get(locale, FORUMS['en'])
+            forum_success = 0
             for forum in forums:
                 try:
                     driver.get(forum['url'])
-                    time.sleep(3)
+                    time.sleep(4)
+
+                    # Ferme tout overlay éventuel
+                    driver.find_element(By.TAG_NAME, 'body').send_keys(Keys.ESCAPE)
+                    time.sleep(1)
 
                     # Cherche le bouton New topic
                     all_buttons = driver.find_elements(By.TAG_NAME, 'button')
@@ -195,9 +205,11 @@ def post_to_expatcom_selenium(articles: list) -> list:
                     )
                     if not new_topic:
                         print(f"Bouton 'New topic' non trouvé sur {forum['name']}")
+                        driver.save_screenshot(f"c:/tmp/expatcom_{forum['name'].replace(' ','_')}.png")
                         continue
 
-                    new_topic.click()
+                    # JS click pour contourner tout overlay
+                    driver.execute_script("arguments[0].click();", new_topic)
                     time.sleep(3)
 
                     # Sujet
@@ -210,20 +222,24 @@ def post_to_expatcom_selenium(articles: list) -> list:
                     if msg:
                         msg[0].send_keys(body)
 
-                    # Submit
+                    # Submit — JS click aussi pour éviter overlays
                     submit_btns = [b for b in driver.find_elements(By.TAG_NAME, 'button')
-                                   if b.get_attribute('type') == 'submit' or 'submit' in b.text.lower() or 'post' in b.text.lower() or 'send' in b.text.lower()]
+                                   if b.get_attribute('type') == 'submit'
+                                   or any(kw in b.text.lower() for kw in ['submit', 'post', 'send', 'publier', 'envoyer'])]
                     if submit_btns:
-                        submit_btns[0].click()
+                        driver.execute_script("arguments[0].click();", submit_btns[0])
                         time.sleep(4)
                         print(f"Posté sur {forum['name']}: {title}")
+                        forum_success += 1
                     else:
                         print(f"Submit non trouvé sur {forum['name']}")
 
                 except Exception as e:
                     print(f"Erreur post {forum['name']}: {e}")
 
-            posted_slugs.append(a['slug'])
+            # Ne marque comme posté que si au moins 1 forum a réussi
+            if forum_success > 0:
+                posted_slugs.append(a['slug'])
             time.sleep(5)
 
         driver.quit()
