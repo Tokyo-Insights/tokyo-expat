@@ -1,6 +1,9 @@
 """
 social_sharing.py - Génère des posts sociaux prêts à copier pour les nouveaux articles
 Envoie via Telegram les drafts Facebook, Reddit, Expat.com formatés
+
+Logique : compare l'ensemble des slugs actuels avec les slugs déjà partagés
+(stockés dans data/shared_articles.json). Envoie uniquement les nouveaux.
 """
 import sys
 import io
@@ -9,7 +12,7 @@ import json
 import requests
 import urllib3
 from pathlib import Path
-from datetime import datetime, timedelta
+from datetime import datetime
 
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
 urllib3.disable_warnings()
@@ -19,7 +22,7 @@ from config import TE_TOKEN, TE_CHAT_ID
 
 BASE_URL = "https://www.tokyo-expat.com"
 BLOG_TS_PATH = Path(__file__).parent.parent / "lib" / "blog.ts"
-DAYS_LOOKBACK = 3  # Articles des 3 derniers jours (nouveaux uniquement)
+STATE_FILE = Path(__file__).parent / "data" / "shared_articles.json"
 
 
 def send_telegram(text: str, max_len: int = 4000) -> bool:
@@ -46,16 +49,37 @@ def parse_blog_articles():
     return [{"slug": slugs[i], "locale": locales[i], "title": titles[i], "date": dates[i]} for i in range(n)]
 
 
-def get_recent_articles(days: int = DAYS_LOOKBACK):
-    cutoff = datetime.now() - timedelta(days=days)
-    recent = []
-    for a in parse_blog_articles():
+def load_shared_state() -> dict:
+    """Charge la liste des slugs déjà partagés."""
+    if STATE_FILE.exists():
         try:
-            if datetime.strptime(a['date'], '%Y-%m-%d') >= cutoff:
-                recent.append(a)
+            return json.loads(STATE_FILE.read_text(encoding='utf-8'))
         except Exception:
             pass
-    return recent
+    return {"shared_slugs": []}
+
+
+def save_shared_state(state: dict):
+    STATE_FILE.parent.mkdir(parents=True, exist_ok=True)
+    STATE_FILE.write_text(json.dumps(state, indent=2, ensure_ascii=False), encoding='utf-8')
+
+
+def get_new_articles():
+    """Retourne les articles non encore partagés."""
+    state = load_shared_state()
+    already_shared = set(state.get("shared_slugs", []))
+    all_articles = parse_blog_articles()
+    return [a for a in all_articles if a['slug'] not in already_shared]
+
+
+def mark_as_shared(articles: list):
+    state = load_shared_state()
+    shared = set(state.get("shared_slugs", []))
+    for a in articles:
+        shared.add(a['slug'])
+    state["shared_slugs"] = sorted(shared)
+    state["last_run"] = datetime.now().strftime('%Y-%m-%d %H:%M')
+    save_shared_state(state)
 
 
 def facebook_draft(a: dict) -> str:
@@ -123,7 +147,7 @@ def expatcom_draft(a: dict) -> str:
 
 
 def main():
-    articles = get_recent_articles(days=DAYS_LOOKBACK)
+    articles = get_new_articles()
     today = datetime.now().strftime('%d/%m/%Y')
 
     if not articles:
@@ -168,6 +192,7 @@ def main():
         "Temps total : 10-15 min pour les 3 plateformes."
     )
 
+    mark_as_shared(articles)
     print(f"Drafts envoyés pour {len(articles)} article(s).")
 
 
