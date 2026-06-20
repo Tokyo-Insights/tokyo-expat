@@ -4145,7 +4145,6 @@ For everyone else: it is one of the rare levers that allows you to rent in centr
 *Looking for good-value housing in Tokyo? Let's discuss your situation in a free 30-minute consultation.*
     `.trim(),
   },
-]
 
   // ── ARTICLE : Appartement Tokyo septembre FR ────────────────────────────────
   {
@@ -4346,6 +4345,7 @@ A 30-minute consultation is enough to review what is available in your budget an
 *Arriving in Tokyo in September? Book a free consultation now to see current availability and secure your housing before you land.*
     `.trim(),
   },
+]
 
 export function getBlogPosts(locale: Locale): BlogPost[] {
   return blogPosts.filter((p) => p.locale === locale)
