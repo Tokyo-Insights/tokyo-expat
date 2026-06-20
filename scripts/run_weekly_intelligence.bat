@@ -63,8 +63,12 @@ python scripts\seasonal_calendar.py >> "%LOG_FILE%" 2>&1
 echo [%TIME%] [9/10] Proactive analysis... >> "%LOG_FILE%"
 python scripts\proactive_analysis.py >> "%LOG_FILE%" 2>&1
 
-:: 10. Drafts social sharing (articles des 14 derniers jours)
-echo [%TIME%] [10/10] Social sharing drafts... >> "%LOG_FILE%"
+:: 10. Expat.com auto-post
+echo [%TIME%] [10/11] Expat.com autoposter... >> "%LOG_FILE%"
+python scripts\expatcom_autoposter.py >> "%LOG_FILE%" 2>&1
+
+:: 11. Digest social sharing (1 message Telegram avec liens 1-clic Reddit+Facebook)
+echo [%TIME%] [11/11] Social sharing digest... >> "%LOG_FILE%"
 python scripts\social_sharing.py >> "%LOG_FILE%" 2>&1
 
 echo [%TIME%] Weekly intelligence complete. >> "%LOG_FILE%"

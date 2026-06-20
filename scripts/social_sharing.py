@@ -82,68 +82,54 @@ def mark_as_shared(articles: list):
     save_shared_state(state)
 
 
-def facebook_draft(a: dict) -> str:
+import urllib.parse
+
+
+def make_reddit_url(a: dict) -> str:
+    """URL 1-clic qui pre-remplit le formulaire Reddit."""
     url = f"{BASE_URL}/blog/{a['slug']}"
+    title = urllib.parse.quote(a['title'])
+    article_url = urllib.parse.quote(url)
     if a['locale'] == 'fr':
-        return (
-            "== FACEBOOK (Francophones au Japon / Expatriés à Tokyo) ==\n\n"
-            f"Nouvel article sur tokyo-expat.com : {a['title']}\n\n"
-            f"{url}\n\n"
-            "Si vous préparez votre installation à Tokyo, cet article répond "
-            "à beaucoup de questions pratiques. Dites-moi si ça vous a aidé."
+        sub = "JaponFR"
+    else:
+        sub = "movingtojapan"
+    return f"https://www.reddit.com/r/{sub}/submit?type=link&title={title}&url={article_url}"
+
+
+def make_facebook_share_url(a: dict) -> str:
+    """URL 1-clic partage Facebook (dialog pré-rempli avec l'article)."""
+    url = f"{BASE_URL}/blog/{a['slug']}"
+    return f"https://www.facebook.com/sharer/sharer.php?u={urllib.parse.quote(url)}"
+
+
+def build_digest_message(articles: list) -> str:
+    """1 seul message Telegram condensé avec liens 1-clic pour tous les articles."""
+    today = datetime.now().strftime('%d/%m/%Y')
+    lines = [f"📱 <b>PARTAGE HEBDO</b> — {today}\n{len(articles)} nouvel(s) article(s)\n"]
+
+    for a in articles:
+        flag = "🇫🇷" if a['locale'] == 'fr' else "🇬🇧"
+        url = f"{BASE_URL}/blog/{a['slug']}"
+        reddit_url = make_reddit_url(a)
+        fb_url = make_facebook_share_url(a)
+
+        lines.append(
+            f"{flag} <b>{a['title']}</b>\n"
+            f"  Article: {url}\n"
+            f"  Reddit 1-clic: {reddit_url}\n"
+            f"  Facebook 1-clic: {fb_url}\n"
+            f"  Expat.com: auto-posté\n"
         )
-    return (
-        "== FACEBOOK (Expats in Tokyo / Foreigners in Japan) ==\n\n"
-        f"Just published on tokyo-expat.com: {a['title']}\n\n"
-        f"{url}\n\n"
-        "If you're planning a move to Tokyo, this covers the practical details "
-        "most expat guides skip. Happy to answer questions below."
+
+    lines.append(
+        "\n<b>Actions requises (30 sec chacune):</b>\n"
+        "Reddit: clique le lien 1-clic → Submit\n"
+        "FB Groups: clique 1-clic → Publier\n"
+        "Expat.com: done automatiquement"
     )
 
-
-def reddit_draft(a: dict) -> str:
-    url = f"{BASE_URL}/blog/{a['slug']}"
-    warning = "[REGLE STRICTE : NE JAMAIS mentionner 'tokyo-expat.com' dans le texte. Colle l'URL seule. Utilise 'je'/'I'.]"
-    if a['locale'] == 'fr':
-        return (
-            "== REDDIT (r/JaponFR ou r/movingtojapan) ==\n"
-            f"{warning}\n\n"
-            "Titre du post: (copie le titre de l'article)\n\n"
-            "Type de post: LINK POST (pas text post)\n"
-            f"URL à coller: {url}"
-        )
-    return (
-        "== REDDIT (r/movingtojapan ou r/japanlife) ==\n"
-        f"{warning}\n\n"
-        "Post title: (copy the article title)\n\n"
-        "Post type: LINK POST (not text post)\n"
-        f"URL to paste: {url}"
-    )
-
-
-def expatcom_draft(a: dict) -> str:
-    url = f"{BASE_URL}/blog/{a['slug']}"
-    if a['locale'] == 'fr':
-        return (
-            "== EXPAT.COM (Forum Tokyo + Japan) ==\n"
-            "URL forum: expat.com/forum/en/japan/tokyo\n\n"
-            f"Titre: {a['title']}\n\n"
-            "Texte:\n"
-            "Bonjour à tous,\n\n"
-            "J'ai rédigé un guide pratique sur un sujet qui revient souvent ici. "
-            f"Vous pouvez le lire ici : {url}\n\n"
-            "N'hésitez pas à poser vos questions ci-dessous."
-        )
-    return (
-        "== EXPAT.COM (Forum Tokyo + Japan) ==\n"
-        "URL: expat.com/forum/en/japan/tokyo\n\n"
-        f"Title: {a['title']}\n\n"
-        "Body:\n"
-        "Hi everyone,\n\n"
-        "I put together a practical guide on a topic that comes up regularly here. "
-        f"You can read it here: {url}\n\n"
-        "Happy to answer questions below."
-    )
+    return "\n".join(lines)
 
 
 def main():
@@ -151,49 +137,15 @@ def main():
     today = datetime.now().strftime('%d/%m/%Y')
 
     if not articles:
-        send_telegram(f"📱 Social Sharing {today}: aucun article des {DAYS_LOOKBACK} derniers jours. Rien à partager.")
-        print("Aucun article récent.")
+        print("Aucun nouvel article à partager.")
         return
 
-    send_telegram(
-        f"📱 <b>SOCIAL SHARING DRAFTS</b> — {today}\n"
-        f"{len(articles)} article(s) à partager\n\n"
-        "Copies les textes ci-dessous et colle-les sur chaque plateforme."
-    )
-
-    for a in articles:
-        flag = "🇫🇷" if a['locale'] == 'fr' else "🇬🇧"
-        url = f"{BASE_URL}/blog/{a['slug']}"
-        send_telegram(f"\n{flag} <b>{a['title']}</b>\nPublié le {a['date']}\n{url}")
-
-        for draft_fn in (facebook_draft, reddit_draft, expatcom_draft):
-            send_telegram(f"<pre>{draft_fn(a)}</pre>")
-
-    send_telegram(
-        "📋 <b>MODE D'EMPLOI RAPIDE</b>\n\n"
-        "<b>Facebook</b>\n"
-        "1. Ouvre l'app Facebook\n"
-        "2. Cherche le groupe (ex: 'Expats in Tokyo')\n"
-        "3. Clique 'Ecrire quelque chose'\n"
-        "4. Colle le texte du draft\n"
-        "5. Publie\n\n"
-        "<b>Reddit</b>\n"
-        "1. Va sur reddit.com/r/movingtojapan\n"
-        "2. Clique 'Create Post'\n"
-        "3. Choisis l'onglet 'Link'\n"
-        "4. Colle l'URL de l'article\n"
-        "5. Titre = titre de l'article\n"
-        "6. Submit\n\n"
-        "<b>Expat.com</b>\n"
-        "1. Va sur expat.com/forum/en/japan/tokyo\n"
-        "2. Clique 'New topic'\n"
-        "3. Colle titre + texte du draft\n"
-        "4. Publie\n\n"
-        "Temps total : 10-15 min pour les 3 plateformes."
-    )
+    # 1 seul message condensé
+    msg = build_digest_message(articles)
+    send_telegram(msg)
 
     mark_as_shared(articles)
-    print(f"Drafts envoyés pour {len(articles)} article(s).")
+    print(f"Digest envoyé pour {len(articles)} article(s).")
 
 
 if __name__ == "__main__":
