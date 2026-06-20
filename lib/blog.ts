@@ -4345,6 +4345,206 @@ A 30-minute consultation is enough to review what is available in your budget an
 *Arriving in Tokyo in September? Book a free consultation now to see current availability and secure your housing before you land.*
     `.trim(),
   },
+  {
+    slug: 'appartement-meuble-tokyo-expats',
+    locale: 'fr',
+    title: 'Appartement meublé Tokyo expatriés : 5 options rapides 2026',
+    description: 'Arrivée à Tokyo en octobre ? Comparatif share house, monthly mansion, serviced apartment avec prix 2026 pour expatriés qui ont besoin d\'un logement meublé vite.',
+    date: '2026-06-21',
+    readingTime: '8 min',
+    content: `
+## Trouver un appartement meublé à Tokyo rapidement : le guide pour expatriés
+
+Vous arrivez à Tokyo en octobre — mutation professionnelle, nouveau poste, installation longue durée — et vous avez besoin d'un logement **meublé et disponible sous 48h**. Les procédures japonaises standard (garant, hanko, caution) prennent 3 à 6 semaines. Ces 5 options les contournent.
+
+## 1. Share houses spécialisées expatriés
+
+Les réseaux Oak House, Sakura House et Hana Sakura proposent des chambres et studios meublés disponibles sans garant japonais.
+
+Avantages :
+- Zéro garant japonais : dépôt de 1 à 2 mois
+- Tout inclus : meubles, literie, wifi, eau, électricité
+- Durée flexible : minimum 1 mois, renouvellement mensuel
+- Couverture : toutes les lignes principales (Yamanote, Chuo, Keio, Tokyu)
+
+Prix typiques : 45 000 à 80 000 ¥/mois selon la chambre et le quartier.
+
+Idéal pour : premières semaines au Japon, budget serré, pas de meubles à transporter.
+
+## 2. Monthly mansions (マンスリーマンション)
+
+Les monthly mansions sont des appartements privés loués au mois, déjà équipés : cuisine, machine à laver, TV. Contrairement aux share houses, vous disposez de votre propre espace.
+
+Opérateurs principaux : Weekly Mansion Tokyo, Leopalace21, Sakura House Monthly.
+
+- Disponibilité : parfois sous 24h
+- Surface : studios de 20 à 35 m² typiquement
+- Prix : 100 000 à 200 000 ¥/mois selon le quartier
+- Durée minimum : souvent 7 jours, idéal pour tester un quartier avant de s'engager
+
+Quartiers recommandés pour expatriés : Shinjuku, Minato, Shibuya, Nakameguro, Shin-Koenji.
+
+## 3. Serviced apartments pour missions corporate
+
+Si votre entreprise prend en charge le logement, les serviced apartments combinent confort hôtelier et espace privatif :
+
+- Oakwood Residence (Akasaka, Azabudai)
+- Tokyo Serviced Apartments (Minato, Shinjuku)
+- Citadines (Shinjuku, Asakusa)
+
+Prix : 250 000 à 500 000 ¥/mois. Inclut souvent ménage hebdomadaire et conciergerie bilingue. Adapté aux contrats de 3 à 12 mois.
+
+## 4. Weekly mansions pour votre première semaine
+
+Vous arrivez sans logement confirmé ? Les weekly mansions acceptent une réservation sur passeport seul, dès le jour de votre arrivée, le temps de chercher une solution long terme.
+
+Tarif typique : 25 000 à 50 000 ¥/semaine pour un studio.
+
+Opérateurs : Sakura Hotel & House, Weekly Mansion Tokyo, Arden Hotel Akasaka.
+
+Avantage stratégique : vous pouvez visiter physiquement des appartements standard depuis Tokyo, ce qui améliore nettement vos chances d'obtenir un bail classique.
+
+## 5. Appartements "gaikokujin-muke" (外国人向け)
+
+Depuis 2020, une catégorie d'appartements conçus pour étrangers s'est développée sur Suumo et At Home, avec le filtre 「外国人可」. Ces logements peuvent être meublés ou non, mais l'agence maîtrise les démarches pour non-résidents.
+
+Partenaires : Able, Sumifu, Leopalace21, ESR.
+
+## Comparatif rapide
+
+| Situation | Option recommandée | Budget mensuel |
+|-----------|-------------------|----------------|
+| Arrivée en urgence (moins de 7 jours) | Weekly mansion | 25 à 50k ¥/semaine |
+| Installation 1 à 3 mois | Share house | 45 à 80k ¥ |
+| Budget moyen, seul | Monthly mansion | 100 à 150k ¥ |
+| Couple ou famille | Monthly mansion ou gaikokujin-muke | 150 à 250k ¥ |
+| Mission corporate | Serviced apartment | 250k ¥ et plus |
+
+## Le pic d'octobre : ce que les agences ne disent pas
+
+En septembre-octobre, les mutations d'entreprises japonaises et les entrées en poste du second semestre créent une forte concurrence sur les logements disponibles. Les meilleures chambres Oak House et les studios monthly mansion partent en quelques heures après mise en ligne.
+
+Si vous arrivez en octobre, réservez votre premier logement — même temporaire — **au moins 3 semaines avant votre arrivée**. La plupart des share houses acceptent les paiements par carte bancaire internationale à distance.
+
+## Questions fréquentes
+
+**Peut-on louer un appartement meublé à Tokyo sans résidence au Japon ?**
+
+Oui, pour les share houses et monthly mansions. Le passeport suffit à l'entrée. Pour un bail standard, vous aurez besoin de votre numéro de résidence (obtenu à la mairie après votre installation).
+
+**Faut-il un garant japonais ?**
+
+Non pour les share houses et monthly mansions. Oui pour un bail classique. Nous pouvons vous orienter vers des appartements avec garantie alternative (J-Trust, Global Trust Networks).
+
+**Peut-on visiter à distance avant d'arriver ?**
+
+Oui. La majorité des share houses proposent des visites virtuelles via Zoom. Oak House et Sakura House disposent d'équipes anglophones et francophones.
+
+---
+
+*Vous arrivez à Tokyo prochainement ? [Contactez-nous](/contact) pour une liste des disponibilités actuelles adaptées à votre budget et quartier cible.*
+    `.trim(),
+  },
+  {
+    slug: 'furnished-apartment-tokyo-expats',
+    locale: 'en',
+    title: 'Furnished Apartment in Tokyo for Expats: 5 Quick Options (2026)',
+    description: 'Relocating to Tokyo for Q4? Compare share houses, monthly mansions and serviced apartments with 2026 price ranges and availability tips for expats arriving fast.',
+    date: '2026-06-21',
+    readingTime: '8 min',
+    content: `
+## Furnished Housing in Tokyo: What Expats Actually Need to Know
+
+Relocating to Tokyo — corporate transfer, new job, long-term move — means facing one of the tightest rental markets in the developed world. Standard Japanese leases require a guarantor, hanko, and 3 to 6 weeks of processing. These 5 options bypass all that.
+
+## 1. Expat-friendly share houses
+
+Networks like Oak House, Sakura House and Hana Sakura specialise in furnished rooms and studios for foreigners, with no Japanese guarantor required.
+
+Key advantages:
+- No Japanese guarantor: a deposit of 1 to 2 months is enough
+- All-inclusive: furniture, bedding, wifi, all utilities
+- Flexible terms: minimum 1 month, renewable monthly
+- Coverage: all major lines (Yamanote, Chuo, Keio, Tokyu)
+
+Typical price range: ¥45,000 to ¥80,000 per month depending on room type and location.
+
+Best for: first weeks in Japan, tight budget, no furniture to ship.
+
+## 2. Monthly mansions (マンスリーマンション)
+
+Monthly mansions are private fully-equipped apartments rented by the month — kitchen, washing machine, TV all included. Unlike share houses, you have complete privacy.
+
+Key operators: Weekly Mansion Tokyo, Leopalace21, Sakura House Monthly.
+
+- Availability: sometimes within 24 hours of booking
+- Size: typically 20 to 35 m² studios
+- Price: ¥100,000 to ¥200,000 per month depending on neighbourhood
+- Minimum stay: usually 7 days — useful for testing an area before committing to a long lease
+
+Popular expat neighbourhoods: Shinjuku, Minato, Shibuya, Nakameguro, Shin-Koenji.
+
+## 3. Serviced apartments for corporate relocations
+
+If your company covers accommodation, serviced apartments combine hotel-level comfort with apartment space:
+
+- Oakwood Residence (Akasaka, Azabudai)
+- Tokyo Serviced Apartments (Minato, Shinjuku)
+- Citadines (Shinjuku, Asakusa)
+
+Price: ¥250,000 to ¥500,000 per month depending on size. Usually includes weekly housekeeping and bilingual concierge. Suited to 3 to 12 month corporate contracts.
+
+## 4. Weekly mansions for your first days
+
+Arriving without confirmed housing? Weekly mansions accept passport-only bookings so you can check in on arrival day while searching for a longer-term solution.
+
+Typical rate: ¥25,000 to ¥50,000 per week for a studio.
+
+Operators: Sakura Hotel & House, Weekly Mansion Tokyo, Arden Hotel Akasaka.
+
+Strategic advantage: being in Tokyo lets you physically visit standard apartments, which substantially increases your chances of securing a regular lease.
+
+## 5. Foreigner-friendly apartments (外国人向け)
+
+Since 2020, a growing category of foreigner-ready listings has appeared on Suumo and At Home, searchable with the filter 「外国人可」. These may be furnished or unfurnished but the agency handles paperwork for non-residents.
+
+Key partners: Able, Sumifu, Leopalace21, ESR.
+
+## Quick comparison
+
+| Situation | Best option | Monthly budget |
+|-----------|-------------|----------------|
+| Urgent arrival (under 7 days) | Weekly mansion | ¥25k to 50k per week |
+| Stay of 1 to 3 months | Share house | ¥45k to 80k |
+| Mid-range budget, solo | Monthly mansion | ¥100k to 150k |
+| Couple or family | Monthly mansion or gaikokujin-muke | ¥150k to 250k |
+| Corporate relocation | Serviced apartment | ¥250k and above |
+
+## The October crunch: what agencies don't tell you
+
+October and early Q4 are peak relocation periods. Japanese companies process mid-year staff transfers, and foreign executives arrive ahead of the November-March fiscal cycle. The best Oak House rooms and monthly mansion studios rent within hours of listing.
+
+If you are arriving in October, reserve your first accommodation — even temporary — **at least 3 weeks before landing**. Most share houses accept international card payments and remote booking.
+
+## FAQ
+
+**Can I rent a furnished apartment in Tokyo without Japanese residency?**
+
+Yes, for share houses and monthly mansions — your passport is enough on arrival. For a standard lease, you will need your residence registration number, obtained at your local ward office after arrival.
+
+**Do I need a Japanese guarantor?**
+
+Not for share houses or monthly mansions. Yes for a standard lease. We can connect you with apartments that accept alternative guarantors such as J-Trust or Global Trust Networks.
+
+**Can I view the property before arriving?**
+
+Yes. Most share houses offer virtual tours via Zoom. Oak House and Sakura House have English-speaking staff, and some also have French speakers.
+
+---
+
+*Relocating to Tokyo soon? [Contact us](/contact) for a current availability list matching your budget and target neighbourhood.*
+    `.trim(),
+  },
 ]
 
 export function getBlogPosts(locale: Locale): BlogPost[] {

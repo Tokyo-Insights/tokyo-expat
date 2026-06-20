@@ -1,7 +1,7 @@
 @echo off
 :: ============================================================
 :: Tokyo Expat -- Weekly Intelligence Report
-:: Lance: chaque lundi matin (via Startup folder)
+:: Lance: uniquement les lundis (filtre DOW via PowerShell)
 :: Duree: ~25-35min total
 :: Fix date: PowerShell pour format locale-independant (YYYY/MM/DD sur JP Windows)
 :: ============================================================
@@ -9,14 +9,22 @@
 set SCRIPT_DIR=%~dp0
 set PROJECT_DIR=%SCRIPT_DIR%..
 
-:: Date fiable independante du format locale Windows
+:: Date et jour fiables independants du format locale Windows
 for /f %%i in ('powershell -NoProfile -Command "Get-Date -Format yyyy-MM-dd"') do set LOG_DATE=%%i
+for /f %%d in ('powershell -NoProfile -Command "(Get-Date).DayOfWeek"') do set DOW=%%d
+
 set LOG_FILE=%SCRIPT_DIR%data\log_weekly_%LOG_DATE%.txt
 
 :: Creer le dossier data si inexistant
 if not exist "%SCRIPT_DIR%data\" mkdir "%SCRIPT_DIR%data\"
 
-echo [%LOG_DATE% %TIME%] Starting weekly intelligence... >> "%LOG_FILE%"
+:: Filtre lundi uniquement
+if not "%DOW%"=="Monday" (
+    echo [%LOG_DATE% %TIME%] Jour %DOW% - Weekly intelligence reserve aux lundis. Skip. >> "%LOG_FILE%"
+    exit /b 0
+)
+
+echo [%LOG_DATE% %TIME%] Starting weekly intelligence (lundi)... >> "%LOG_FILE%"
 cd /d "%PROJECT_DIR%"
 
 :: 1. Keyword tracking (~15min)
@@ -52,7 +60,11 @@ echo [%TIME%] [8/9] Seasonal calendar... >> "%LOG_FILE%"
 python scripts\seasonal_calendar.py >> "%LOG_FILE%" 2>&1
 
 :: 9. Analyse proactive + rapport consolide
-echo [%TIME%] [9/9] Proactive analysis... >> "%LOG_FILE%"
+echo [%TIME%] [9/10] Proactive analysis... >> "%LOG_FILE%"
 python scripts\proactive_analysis.py >> "%LOG_FILE%" 2>&1
+
+:: 10. Drafts social sharing (articles des 14 derniers jours)
+echo [%TIME%] [10/10] Social sharing drafts... >> "%LOG_FILE%"
+python scripts\social_sharing.py >> "%LOG_FILE%" 2>&1
 
 echo [%TIME%] Weekly intelligence complete. >> "%LOG_FILE%"
