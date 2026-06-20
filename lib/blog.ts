@@ -3730,6 +3730,421 @@ Les réponses vous disent si vous avez affaire à un share house moderne bien g�
 *Vous cherchez un share house ou un appartement meublé à Tokyo pour votre arrivée ? Réservez une consultation gratuite pour voir les disponibilités actuelles.*
     `.trim(),
   },
+
+  // ── ARTICLE : Logement étudiant Tokyo (FR) ──────────────────────────────────
+  {
+    slug: 'logement-etudiant-tokyo-2026',
+    locale: 'fr',
+    title: 'Logement étudiant à Tokyo : share house, dortoir ou appart ? (2026)',
+    description: 'Share house, résidence universitaire ou appartement meublé : comparatif complet pour étudiants à Tokyo. Budgets réels, quartiers, comment candidater depuis la France.',
+    date: '2026-06-20',
+    readingTime: '9 min',
+    content: `
+Trouver un logement étudiant à Tokyo est une étape qui stresse la majorité des étudiants avant le départ, surtout quand on ne parle pas encore bien japonais. La bonne nouvelle : le marché dispose d'options spécifiquement pensées pour les étudiants internationaux, avec des processus de candidature entièrement en ligne depuis la France.
+
+La mauvaise nouvelle : les délais sont serrés. Les meilleurs logements pour la rentrée d'octobre se réservent à partir de juillet, parfois avant.
+
+## Les 3 options principales pour un étudiant étranger
+
+### Le share house : l'option la plus populaire
+
+Le [share house à Tokyo](/fr/blog/share-house-tokyo-guide-complet) est de loin la solution la plus utilisée par les étudiants étrangers. Chambre privée de 8 à 16 m2, espaces communs partagés, contrat flexible, pas de garant japonais requis.
+
+**Avantages pour un étudiant :**
+- Aucun reikin (clé de courtoisie), pas de garant japonais
+- Internet et souvent les charges inclus
+- Durées flexibles à partir de 1 mois
+- Communauté prête-à-l'emploi pour pratiquer le japonais
+- Budget d'entrée faible : 100 000 à 180 000 JPY
+
+**Inconvénients :**
+- Intimité limitée
+- Règles de vie strictes (bruit, cuisine, invités)
+- Chambre souvent petite pour travailler confortablement
+
+### La résidence universitaire
+
+Si votre université japonaise propose des dortoirs, c'est généralement la solution la moins chère. Les loyers vont de 20 000 à 50 000 JPY/mois, charges incluses.
+
+**Ce qu'il faut savoir :**
+- Les places sont limitées et attribuées par l'université, pas par vous
+- Les dossiers sont souvent à déposer en même temps que la candidature universitaire
+- La vie en dortoir japonais est très encadrée (couvre-feu parfois, règles strictes)
+- Certains dortoirs refusent les animaux de compagnie et les visiteurs après 22h
+- L'option n'est disponible que si vous êtes inscrit dans une université au Japon
+
+### L'appartement meublé sans garant
+
+L'[appartement meublé sans garant](/fr/blog/appartement-meuble-tokyo-sans-garant) est une troisième voie, plus confortable et plus indépendante. Des opérateurs spécialisés proposent des studios à partir de 65 000 JPY/mois sans garant japonais, avec contrat en anglais.
+
+C'est la bonne option si vous recevez une bourse qui couvre 100 000 JPY/mois ou plus, ou si vous arrivez en famille.
+
+## Comparatif des coûts réels
+
+| Type de logement | Loyer mensuel | Frais d'entrée | Garant requis |
+|---|---|---|---|
+| Share house | 45 000 - 90 000 JPY | 1-2 mois (caution seulement) | Non |
+| Dortoir universitaire | 20 000 - 50 000 JPY | Variable | Non |
+| Appartement meublé | 65 000 - 150 000 JPY | 2-2,5 mois | Non |
+| Appartement standard | 80 000 - 130 000 JPY | 4-6 mois + garant | Oui |
+
+Pour un budget étudiant standard entre 60 000 et 90 000 JPY/mois pour le logement, le share house est presque toujours le meilleur compromis.
+
+## Comment candidater depuis la France (timeline)
+
+Le piège classique : attendre d'avoir son visa pour commencer à chercher. C'est 2 mois de perdus.
+
+**J-90 (juillet pour une rentrée octobre) :**
+- Décider du type de logement selon votre budget et votre programme
+- Lister 5 à 8 share houses ou opérateurs de logements meublés dans vos quartiers cibles
+- Préparer votre dossier : passeport, lettre d'admission ou contrat d'études, justificatif de revenus ou de bourse
+
+**J-60 :**
+- Envoyer les premières candidatures (ne pas attendre le visa, la plupart des opérateurs l'acceptent en avance)
+- Passer les entretiens vidéo avec les opérateurs qui répondent positivement
+- Mettre une option sur 2 à 3 logements
+
+**J-30 :**
+- Confirmer votre choix et payer la caution depuis la France (virement international ou Wise)
+- Signer le bail à distance
+
+**Jour J :**
+- Clés disponibles à votre arrivée à Tokyo
+
+Ce planning est possible pour la quasi-totalité des share houses et appartements meublés ciblant les étudiants étrangers. La majorité a un système de candidature entièrement en ligne.
+
+## Les quartiers les mieux adaptés aux étudiants
+
+Le bon quartier dépend surtout de votre campus.
+
+**Waseda / Takadanobaba (Shinjuku-ku)** : idéal si vous êtes à Waseda University. Nombreux share houses étudiants entre 55 000 et 75 000 JPY, ambiance internationale.
+
+**Hongo / Nezu (Bunkyo-ku)** : quartier de l'Université de Tokyo. Calme, résidentiel, loyers raisonnables pour Tokyo.
+
+**Ikebukuro (Toshima-ku)** : bien connecté à plusieurs universités, large offre de share houses entre 50 000 et 80 000 JPY.
+
+**Shinjuku / Nakano** : connexion directe à Keio, Sophia, Tokyo Medical and Dental University. Bonne offre, prix variés.
+
+La règle générale : habitez à moins de 30 minutes de votre campus. Les transports en commun sont fiables mais les allers-retours de plus de 45 minutes épuisent sur la durée.
+
+## Les erreurs les plus fréquentes chez les étudiants
+
+**Chercher trop tard.** Pour les rentrées d'avril et d'octobre, les meilleurs share houses en zone centrale sont pris entre 60 et 90 jours avant la date d'entrée.
+
+**Ignorer la clause de résiliation.** Si vous rentrez en France avant la fin du contrat, vous pouvez devoir payer 1 à 2 mois de pénalités. Négociez une clause de sortie anticipée à 30 jours.
+
+**Sous-estimer le budget des transports.** Un pass mensuel de train entre votre logement et votre campus peut coûter 10 000 à 20 000 JPY. Intégrez-le dans votre calcul avant de choisir un quartier "moins cher".
+
+**Ne pas vérifier si l'opérateur accepte les visas étudiants.** Certains share houses n'acceptent que les visas de travail. Confirmez ce point avant d'envoyer votre candidature.
+
+## Ce que propose notre service pour les étudiants
+
+Nous avons accès à un réseau de logements spécifiquement sélectionnés pour les étudiants internationaux : share houses qui acceptent les visas étudiants, appartements meublés avec contrats souples, et logements proches des campus des grandes universités tokyoïtes.
+
+Une consultation de 30 minutes suffit pour identifier les options disponibles à votre date d'arrivée, dans votre budget, et à bonne distance de votre université.
+
+---
+
+*Vous commencez vos études à Tokyo en octobre ? Réservez maintenant une consultation gratuite pour sécuriser votre logement avant la rentrée.*
+    `.trim(),
+  },
+
+  // ── ARTICLE : Student Housing Tokyo (EN) ────────────────────────────────────
+  {
+    slug: 'student-housing-tokyo-guide-2026',
+    locale: 'en',
+    title: 'Student Housing in Tokyo: Share House vs University Dorm (2026 Guide)',
+    description: 'Real costs, best neighbourhoods, and how to apply from abroad for student housing in Tokyo. Share house vs dorm vs furnished apartment compared.',
+    date: '2026-06-20',
+    readingTime: '9 min',
+    content: `
+Finding student housing in Tokyo is one of the most stressful parts of preparing for a study abroad experience, especially when you are doing it from thousands of kilometres away. The good news: there is an entire segment of the market built specifically for international students, with fully online application processes.
+
+The bad news: the best properties for the October semester fill up from July onwards. Waiting until you have your visa in hand means missing the best options.
+
+## The three main housing options for international students
+
+### Share houses: the most popular choice
+
+A [share house in Tokyo](/en/blog/share-house-tokyo-guide-2026) is the most widely used solution for international students. Private room of 8 to 16 sqm, shared communal areas, flexible contracts, no Japanese guarantor required.
+
+**Advantages for students:**
+- No reikin (key money), no Japanese guarantor
+- Internet and often utilities included in the rent
+- Flexible terms from 1 month
+- Built-in community for practising Japanese
+- Low move-in budget: 100,000 to 180,000 JPY
+
+**Disadvantages:**
+- Limited privacy
+- Strict house rules (noise, kitchen use, guests)
+- Small rooms that can be cramped for studying
+
+### University dormitories
+
+If your Japanese university offers on-campus dormitories, this is usually the cheapest option. Monthly rents range from 20,000 to 50,000 JPY, utilities included.
+
+**What you need to know:**
+- Places are limited and allocated by the university, not chosen by you
+- Applications are often submitted alongside your university enrolment dossier
+- Japanese dormitory life is highly regulated: some have curfews, strict guest policies after 10pm
+- Only available if you are enrolled in a Japanese university
+
+### Furnished apartments with no guarantor
+
+A [furnished apartment without a guarantor](/en/blog/furnished-apartment-tokyo-no-guarantor) is a third option: more comfortable and independent. Operators specialising in foreign tenants offer studios from 65,000 JPY/month with English contracts and no Japanese guarantor.
+
+This is the right option if you receive a scholarship covering 100,000 JPY/month or more, or if you are arriving with a partner.
+
+## Real cost comparison
+
+| Housing type | Monthly rent | Move-in costs | Guarantor needed |
+|---|---|---|---|
+| Share house | 45,000 - 90,000 JPY | 1-2 months (deposit only) | No |
+| University dorm | 20,000 - 50,000 JPY | Variable | No |
+| Furnished apartment | 65,000 - 150,000 JPY | 2-2.5 months | No |
+| Standard apartment | 80,000 - 130,000 JPY | 4-6 months + guarantor | Yes |
+
+For a typical student budget of 60,000 to 90,000 JPY/month for housing, a share house is almost always the best compromise.
+
+## How to apply from abroad: timeline
+
+The classic mistake is waiting until you have your visa before starting your search. That is 2 months wasted.
+
+**90 days before arrival (July for October semester):**
+- Decide on housing type based on your budget and study programme
+- List 5 to 8 share houses or furnished apartment operators in your target neighbourhoods
+- Prepare your dossier: passport, admission letter, proof of income or scholarship
+
+**60 days before:**
+- Send initial applications. Most operators accept applications in advance, before visa issuance
+- Complete video interviews with operators who respond positively
+- Place holds on 2 to 3 properties
+
+**30 days before:**
+- Confirm your choice and pay the security deposit from abroad (bank transfer or Wise)
+- Sign the lease remotely
+
+**Arrival day:**
+- Keys available on arrival in Tokyo
+
+This timeline works for the vast majority of share houses and furnished apartments targeting international students. Most have fully online application systems.
+
+## Best neighbourhoods for students
+
+The right neighbourhood depends primarily on your campus location.
+
+**Waseda / Takadanobaba (Shinjuku-ku)**: ideal if you attend Waseda University. Many student share houses at 55,000 to 75,000 JPY, international atmosphere.
+
+**Hongo / Nezu (Bunkyo-ku)**: University of Tokyo neighbourhood. Quiet, residential, reasonable rents for Tokyo.
+
+**Ikebukuro (Toshima-ku)**: well connected to multiple universities, large share house supply at 50,000 to 80,000 JPY.
+
+**Shinjuku / Nakano**: direct connections to Keio, Sophia, and Tokyo Medical and Dental University. Good supply, varied prices.
+
+The general rule: live within 30 minutes of your campus. Public transport is reliable but 45-minute-plus daily commutes become exhausting over a semester.
+
+## Most common student mistakes
+
+**Searching too late.** For April and October semesters, the best share houses in central areas are taken 60 to 90 days before the start date.
+
+**Ignoring the early termination clause.** If you return home before your contract ends, you may owe 1 to 2 months in penalties. Negotiate a 30-day early exit clause before signing.
+
+**Underestimating transport costs.** A monthly train pass between your housing and campus can cost 10,000 to 20,000 JPY. Include this in your budget before choosing a "cheaper" neighbourhood further out.
+
+**Not confirming the operator accepts student visas.** Some share houses only accept work visas. Confirm this before submitting your application.
+
+## How our service helps students
+
+We have access to a network of housing specifically selected for international students: share houses that accept student visas, furnished apartments with flexible contracts, and properties close to the campuses of major Tokyo universities.
+
+A 30-minute consultation is enough to identify the options available on your arrival date, within your budget, and at the right distance from your university.
+
+---
+
+*Starting your studies in Tokyo in October? Book a free consultation now to secure housing before the semester starts.*
+    `.trim(),
+  },
+
+  // ── ARTICLE : Jiko Bukken (FR) ───────────────────────────────────────────────
+  {
+    slug: 'jiko-bukken-appartements-pas-chers-tokyo',
+    locale: 'fr',
+    title: 'Jiko bukken à Tokyo : appartements pas chers et légaux (2026)',
+    description: "Les jiko bukken sont des logements où un incident grave a eu lieu. Légaux, jusqu'à 30% moins chers, souvent en centre-ville : comment en trouver à Tokyo.",
+    date: '2026-06-20',
+    readingTime: '7 min',
+    content: `
+Il existe une catégorie de logements à Tokyo que la grande majorité des expatriés ne connaît pas, et qui offre certaines des meilleures opportunités de loyer en zone centrale. Ce sont les **jiko bukken** (事故物件), littéralement "propriétés à incident". Légaux, bien situés, et jusqu'à 30% moins chers que le marché : voici ce qu'il faut savoir.
+
+## Qu'est-ce qu'un jiko bukken ?
+
+Un jiko bukken est un bien immobilier dans lequel un "incident particulier" a eu lieu. En japonais, le terme est large : il peut s'agir d'un suicide, d'un homicide, d'un décès isolé découvert après plusieurs jours, ou d'un grave accident domestique.
+
+Ce n'est pas une catégorie illégale ni honteuse dans le droit japonais : c'est simplement une obligation de transparence imposée par la loi.
+
+**Ce que la loi japonaise impose :**
+En vertu des directives du Ministère du Territoire, de l'Infrastructure, du Transport et du Tourisme (MLIT), un propriétaire ou une agence est légalement tenu de déclarer tout incident significatif survenu dans un logement **pendant les 3 premières années suivant l'événement**. Après ces 3 ans, l'obligation de divulgation disparaît.
+
+## Pourquoi c'est une opportunité pour les étrangers
+
+La culture japonaise accorde une importance considérable au concept de "ke" (souillure) et de "en" (karma). Pour de nombreux Japonais, l'idée de vivre dans un appartement où quelqu'un est décédé est psychologiquement difficile, quelle que soit la durée écoulée.
+
+Ce sentiment culturel a un effet concret sur le marché : les propriétaires peinent à louer ces biens au prix du marché, même après plusieurs années. Ils sont donc contraints de proposer des réductions significatives.
+
+**Réductions constatées :**
+- Suicide ou homicide (moins d'1 an) : 30 à 50% sous le prix du marché
+- Décès naturel isolé (1 à 3 ans) : 10 à 25% sous le marché
+- Après 3 ans (sans obligation légale) : 5 à 15% sous le marché selon la sensibilité du propriétaire
+
+Pour un appartement en zone centrale à 120 000 JPY/mois, une réduction de 25% représente 30 000 JPY d'économie mensuelle, soit 360 000 JPY par an.
+
+## Comment trouver un jiko bukken à Tokyo
+
+Contrairement à ce que l'on pourrait penser, il n'est pas difficile de trouver ces biens si on sait où chercher.
+
+**Sites spécialisés :**
+- **Oshimaland** (大島てる) : le site de référence au Japon pour les jiko bukken. Une carte Google Maps collaborative recense les incidents signalés dans toute la ville, avec les adresses et la nature de l'événement.
+- **JikoBukken.net** : annonces de locations et ventes avec l'historique de l'incident.
+
+**Agences immobilières locales :**
+Certaines agences spécialisées s'occupent exclusivement de ce type de bien. En demandant explicitement à une agence généraliste si elle a des "jiko bukken", certaines acceptent d'en proposer.
+
+**Portails classiques :**
+Les biens peuvent parfois apparaître sur Suumo ou Homes avec la mention 心理的瑕疵あり (défaut psychologique), ce qui signifie jiko bukken sans utiliser le terme directement.
+
+## Ce qu'il faut vérifier avant de signer
+
+Un jiko bukken n'est pas un bien à éviter par principe, mais il demande une vérification rigoureuse.
+
+**1. La nature exacte de l'incident.** Un décès naturel de vieillesse est différent d'un homicide. Demandez le document de divulgation officiel (kikakusho) et faites-le traduire si nécessaire.
+
+**2. L'état de l'appartement.** Demandez si un nettoyage spécialisé (特殊清掃) a été effectué. C'est presque toujours le cas pour les propriétés remises en location, mais il faut le confirmer.
+
+**3. L'implication du voisinage.** Dans certains immeubles, les voisins sont au courant. Si vous êtes sensible à ce type de regards, choisissez un grand immeuble anonyme plutôt qu'une petite résidence de 4 appartements.
+
+**4. L'accessibilité de la documentation.** Un propriétaire ou une agence qui refuse de vous fournir la documentation complète sur l'incident est un signal d'alerte.
+
+## Jiko bukken vs logement standard : ce qui change vraiment
+
+La plupart des expatriés occidentaux qui ont vécu dans un jiko bukken le rapportent : après les premières semaines, l'appartement est... un appartement. Les murs, le sol et le plafond sont les mêmes.
+
+Ce qui change concrètement :
+- Le loyer, durablement inférieur au marché
+- Parfois une négociation plus favorable sur les frais d'entrée (le propriétaire est moins en position de force)
+- Dans de rares cas, des voisins au comportement légèrement distancé au départ
+
+Ce qui ne change pas :
+- La qualité de l'immeuble
+- Les transports, le quartier, la vue
+- La légalité du bail et vos droits en tant que locataire
+
+## Notre conseil pratique
+
+Le jiko bukken est une option à considérer sérieusement si :
+- Vous cherchez un appartement en zone centrale avec un budget limité
+- Vous n'êtes pas sensible aux superstitions
+- Vous voulez un logement de qualité sans payer le premium "appartement irréprochable"
+
+Si l'aspect psychologique vous dérange, il vaut mieux ne pas y aller. Un appartement où vous dormiez mal chaque nuit n'en vaut pas la réduction.
+
+Pour les autres : c'est l'un des rares leviers qui permettent de louer en zone centrale à des prix comparables à la banlieue.
+
+---
+
+*Vous cherchez un logement à Tokyo avec un bon rapport qualité-prix ? Discutons de votre situation lors d'une consultation gratuite.*
+    `.trim(),
+  },
+
+  // ── ARTICLE : Jiko Bukken (EN) ───────────────────────────────────────────────
+  {
+    slug: 'jiko-bukken-cheap-apartments-tokyo',
+    locale: 'en',
+    title: 'Jiko Bukken: Tokyo\'s Cheapest Legal Apartments Explained (2026)',
+    description: "Jiko bukken are stigmatised properties in Japan where a serious incident occurred. Legal to rent, up to 30% below market rate: how to find them in Tokyo.",
+    date: '2026-06-20',
+    readingTime: '7 min',
+    content: `
+There is a category of apartments in Tokyo that most expats have never heard of, yet it offers some of the best value rents in central areas. They are called **jiko bukken** (事故物件), literally "incident properties." Legal, often centrally located, and up to 30% cheaper than comparable units: here is what you need to know.
+
+## What is a jiko bukken?
+
+A jiko bukken is a property where a "particular incident" has occurred. In Japanese law, the term is broad: it can refer to a suicide, a homicide, a solitary death discovered after several days, or a serious domestic accident.
+
+This is not an illegal or shameful category in Japanese law. It is simply a transparency obligation imposed by regulation.
+
+**What Japanese law requires:**
+Under guidelines from the Ministry of Land, Infrastructure, Transport and Tourism (MLIT), landlords and agencies are legally required to disclose any significant incident that occurred in a property **for the first 3 years following the event.** After 3 years, the disclosure obligation expires.
+
+## Why this is an opportunity for foreigners
+
+Japanese culture places considerable importance on the concept of "ke" (impurity) and "en" (karmic connection). For many Japanese people, the idea of living in an apartment where someone has died is psychologically difficult, regardless of how much time has passed.
+
+This cultural sensitivity has a direct market effect: landlords struggle to rent these properties at market rate, even years after the event. They are therefore forced to offer significant discounts.
+
+**Observed discounts:**
+- Suicide or homicide (under 1 year): 30 to 50% below market rate
+- Solitary death discovered after delay (1 to 3 years): 10 to 25% below market
+- After 3 years (no legal disclosure required): 5 to 15% below market depending on landlord sensitivity
+
+For a central Tokyo apartment at 120,000 JPY/month, a 25% discount saves 30,000 JPY per month — 360,000 JPY per year.
+
+## How to find a jiko bukken in Tokyo
+
+Contrary to what you might expect, these properties are not hard to find if you know where to look.
+
+**Specialist websites:**
+- **Oshimaland** (大島てる): Japan's reference site for jiko bukken. A collaborative Google Maps listing records reported incidents across the city, with addresses and the nature of each event.
+- **JikoBukken.net**: rental and sale listings with incident history.
+
+**Local estate agencies:**
+Some agencies specialise exclusively in these properties. Asking a general agency directly whether they have "jiko bukken" will sometimes get a positive response.
+
+**Standard portals:**
+Properties occasionally appear on Suumo or Homes with the notation 心理的瑕疵あり (psychological defect), which means jiko bukken without using the term directly.
+
+## What to check before signing
+
+A jiko bukken is not a property to avoid on principle, but it requires careful verification.
+
+**1. The exact nature of the incident.** A natural death from old age is very different from a homicide. Request the official disclosure document (kikakusho) and have it translated if necessary.
+
+**2. The condition of the apartment.** Ask whether a specialist cleaning (特殊清掃) has been carried out. This is almost always done before properties are re-let, but confirm it explicitly.
+
+**3. Building dynamics.** In some buildings, neighbours are aware of the history. If you are sensitive to that kind of social context, choose a large anonymous building rather than a small 4-unit residence.
+
+**4. Availability of documentation.** A landlord or agency that refuses to provide complete documentation about the incident is a red flag.
+
+## Jiko bukken vs standard apartment: what actually changes
+
+Most Western expats who have lived in a jiko bukken report the same thing: after the first few weeks, the apartment is just... an apartment. The walls, floor, and ceiling are the same.
+
+What concretely changes:
+- The rent, durably below market rate
+- Sometimes a more favourable negotiation on move-in costs (the landlord has less leverage)
+- In rare cases, initially slightly distant behaviour from neighbours
+
+What does not change:
+- The building quality
+- Transport, neighbourhood, views
+- The legality of your lease and your tenant rights
+
+## Practical advice
+
+A jiko bukken is worth considering seriously if:
+- You are looking for a centrally located apartment on a limited budget
+- You are not particularly superstitious
+- You want a quality apartment without paying the "flawless history" premium
+
+If the psychological aspect bothers you, it is better not to go there. An apartment where you sleep badly every night is not worth the discount.
+
+For everyone else: it is one of the rare levers that allows you to rent in central Tokyo at prices comparable to the suburbs — with none of the commute penalty.
+
+---
+
+*Looking for good-value housing in Tokyo? Let's discuss your situation in a free 30-minute consultation.*
+    `.trim(),
+  },
 ]
 
 export function getBlogPosts(locale: Locale): BlogPost[] {
