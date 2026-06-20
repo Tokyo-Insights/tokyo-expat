@@ -4,13 +4,12 @@ import DevisGenerator from './DevisGenerator'
 
 export const metadata = { robots: 'noindex, nofollow' }
 
+const CREDENTIAL_HASH = '471140ac30abca250357ff668e9ef628f9ea21a312a41f385b91ad204b2f8249'
+
 async function isAuthenticated(): Promise<boolean> {
   const cookieStore = await cookies()
   const token = cookieStore.get('admin_auth')?.value
-  const validUser = process.env.ADMIN_USER
-  const validPass = process.env.ADMIN_PASSWORD
-  if (!validUser || !validPass) return false
-  return token === `${validUser}:${validPass}`
+  return token === CREDENTIAL_HASH
 }
 
 export default async function AdminDevisPage() {
