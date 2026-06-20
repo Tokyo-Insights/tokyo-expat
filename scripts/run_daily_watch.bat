@@ -3,13 +3,20 @@
 :: Tokyo Expat -- Daily Intelligence Watch
 :: Lance: a chaque demarrage PC (via Startup folder)
 :: Duree: ~3-5min total
+:: Fix date: PowerShell pour format locale-independant (YYYY/MM/DD sur JP Windows)
 :: ============================================================
 
 set SCRIPT_DIR=%~dp0
 set PROJECT_DIR=%SCRIPT_DIR%..
-set LOG_FILE=%SCRIPT_DIR%data\log_daily_%DATE:~-4%-%DATE:~3,2%-%DATE:~0,2%.txt
 
-echo [%DATE% %TIME%] Starting daily watch... >> "%LOG_FILE%"
+:: Date fiable independante du format locale Windows
+for /f %%i in ('powershell -NoProfile -Command "Get-Date -Format yyyy-MM-dd"') do set LOG_DATE=%%i
+set LOG_FILE=%SCRIPT_DIR%data\log_daily_%LOG_DATE%.txt
+
+:: Creer le dossier data si inexistant
+if not exist "%SCRIPT_DIR%data\" mkdir "%SCRIPT_DIR%data\"
+
+echo [%LOG_DATE% %TIME%] Starting daily watch... >> "%LOG_FILE%"
 cd /d "%PROJECT_DIR%"
 
 :: 1. Nouveaux contenus concurrents (sitemaps)

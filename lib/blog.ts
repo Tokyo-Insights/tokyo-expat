@@ -4147,6 +4147,206 @@ For everyone else: it is one of the rare levers that allows you to rent in centr
   },
 ]
 
+  // ── ARTICLE : Appartement Tokyo septembre FR ────────────────────────────────
+  {
+    slug: 'appartement-tokyo-septembre-guide',
+    locale: 'fr',
+    title: 'Trouver un appartement à Tokyo en septembre : ce qui change vs le printemps',
+    description: 'Le marché locatif de Tokyo en septembre est très différent de mars-avril. Moins de concurrence, mais moins de stock : comment en profiter pour bien loger.',
+    date: '2026-06-21',
+    readingTime: '7 min',
+    content: `
+La grande majorité des guides sur la recherche de logement à Tokyo parle implicitement du printemps : la rentrée d'avril, le pic de mars, la pression du marché en février. Ce que ces guides omettent : la rentrée de septembre obéit à des règles complètement différentes.
+
+Si vous arrivez à Tokyo en août ou septembre, vous avez à la fois un avantage et un défi par rapport à vos homologues de printemps.
+
+## Ce qui change en septembre par rapport au printemps
+
+### La demande est structurellement plus faible
+
+Mars est le mois le plus tendu de l'année sur le marché locatif tokyoïte. Les grandes entreprises japonaises emménagent leurs nouvelles recrues, les universités reçoivent leurs étudiants de première année, et des dizaines de milliers de personnes cherchent simultanément. La concurrence sur chaque bien est réelle.
+
+Septembre est un pic secondaire, plus modeste. Les entreprises qui recrutent en cours d'année et les universités qui ont une rentrée d'automne génèrent une demande, mais elle est 40 à 50% plus faible que le printemps en volume.
+
+**Ce que ça signifie pour vous :** moins de pression pour décider en 24h, plus de marge pour négocier, propriétaires plus ouverts aux conditions flexibles.
+
+### Le stock disponible est différent
+
+Au printemps, tout le parc locatif tokyoïte est mis en circulation simultanément. En septembre, c'est un marché de rotation : vous cherchez parmi les biens dont les anciens locataires sont partis pendant l'été.
+
+Ces biens ont souvent été refaits pendant la période creuse de juillet-août (peinture, ménage, parfois rénovation légère). Ils arrivent sur le marché en meilleur état qu'un bien libéré en urgence en février.
+
+**Ce que ça signifie pour vous :** biens en meilleur état visuel, mais stock total plus limité. Il faut être prêt à décider plus rapidement quand une bonne option apparaît.
+
+### Les propriétaires sont plus négociables
+
+Après deux mois d'été sans locataire (juillet-août), beaucoup de propriétaires sont pressés de relouer. Un bien vacant coûte 100 000 JPY/mois en loyer perdu. Un locataire qui arrive en septembre représente 6 à 12 mois de revenus assurés avant le prochain départ éventuel.
+
+**Ce que vous pouvez négocier en septembre :**
+- Réduction ou suppression du reikin (clé de courtoisie) pour les biens vacants depuis plus de 60 jours
+- Prise en charge d'une partie des frais de nettoyage
+- Délai de paiement du premier mois pour vous laisser le temps d'ouvrir un compte bancaire
+- Clause de sortie anticipée à 30 jours au lieu de 60
+
+Aucune de ces négociations n'est garantie, mais la probabilité d'accord est bien plus élevée qu'en mars où le propriétaire a 5 candidatures en attente.
+
+## Les quartiers les plus actifs en septembre
+
+La rentrée de septembre attire surtout deux profils : les étudiants de master qui commencent un programme international en automne, et les cadres expatriés dont le contrat démarre en Q4 fiscal.
+
+**Zones qui s'activent particulièrement en septembre :**
+
+**Bunkyo-ku (Hongo, Nezu, Koishikawa)** : très proche de l'Université de Tokyo, qui a une rentrée d'automne significative pour ses masters et doctorats. La demande monte fortement en août-septembre.
+
+**Shinjuku / Takadanobaba** : Waseda University attire des centaines d'étudiants internationaux en automne. Le quartier voit son taux d'occupation remonter en septembre après un creux estival.
+
+**Minato-ku / Roppongi** : les cadres d'entreprises multinationales dont l'année fiscale est calée sur le calendrier international (pas le calendrier japonais) débarquent en Q3-Q4. La demande en appartements meublés haut de gamme est forte.
+
+**Koenji / Nakano** : quartiers d'artistes et de créatifs qui reçoivent beaucoup de travailleurs en remote ou freelances en début d'automne. Bonne disponibilité, loyers stables.
+
+## Le bon timing pour chercher
+
+**J-60 (fin juillet)** : commencer à surveiller le marché. Les annonces de biens disponibles en septembre commencent à sortir à partir de la mi-juillet.
+
+**J-45 (début août)** : prendre contact avec les opérateurs et chasseurs. C'est la période où les propriétaires et agences ont le plus d'informations sur leurs disponibilités de septembre.
+
+**J-30 (début août)** : positionner une option sur les meilleurs biens. Les bons appartements meublés pour la rentrée septembre sont souvent reservés entre J-30 et J-45.
+
+**J-14 (mi-août)** : signer et payer la caution. Pour une entrée dans les lieux le 1er septembre.
+
+Si vous êtes encore à l'étranger : un chasseur peut visiter à votre place et envoyer des vidéos de présentation, ce qui permet de prendre une décision à distance en toute confiance.
+
+## Ce qu'il ne faut pas faire
+
+**Attendre votre arrivée à Tokyo pour commencer à chercher.** En septembre, avec moins de stock qu'au printemps, les bons biens partent vite quand un locataire est présent pour visiter immédiatement. Arriver sans logement confirmé signifie souvent 2 à 4 semaines d'hôtel à 80 000 à 150 000 JPY.
+
+**Chercher uniquement sur les portails publics.** Suumo et Homes ne montrent qu'une partie du marché. Les biens hors marché, qui circulent via les réseaux professionnels, représentent souvent les meilleures opportunités — surtout en période de plus faible demande où les propriétaires acceptent de travailler avec des intermédiaires pour éviter la vacance.
+
+**Ignorer les logements meublés.** Pour une arrivée en septembre, l'[appartement meublé sans garant](/fr/blog/appartement-meuble-tokyo-sans-garant) est souvent la solution optimale : installation immédiate, pas de frais de mobilier, contrat en anglais, et accès à des biens disponibles sur des délais très courts.
+
+## Le comparatif printemps vs automne en un coup d'oeil
+
+| Critère | Mars-avril (printemps) | Août-septembre (automne) |
+|---|---|---|
+| Niveau de demande | Très fort | Modere |
+| Stock disponible | Maximum | Restreint |
+| Pression concurrentielle | Forte (5+ candidats par bien) | Faible (1-2 candidats) |
+| Negociabilite | Faible | Bonne |
+| Délai de décision exige | 24-48h | 3-5 jours |
+| Biens en bon etat | Variable | Souvent refaits ete |
+
+## Notre service pour les arrivees en septembre
+
+Nous avons une visibilité directe sur les biens disponibles pour la rentrée de septembre à Tokyo, notamment les logements meublés sans garant accessibles aux étrangers et les share houses avec entrée immédiate.
+
+Une consultation de 30 minutes suffit pour faire le point sur ce qui est disponible dans votre budget et votre quartier cible — avant même votre arrivée au Japon.
+
+---
+
+*Vous arrivez à Tokyo en septembre ? Réservez une consultation gratuite maintenant pour voir les disponibilités actuelles et sécuriser votre logement avant d'atterrir.*
+    `.trim(),
+  },
+
+  // ── ARTICLE : Find apartment Tokyo September (EN) ────────────────────────────
+  {
+    slug: 'find-apartment-tokyo-september',
+    locale: 'en',
+    title: 'Finding an Apartment in Tokyo in September: What Changes vs Spring',
+    description: 'The Tokyo rental market in September works very differently from March-April. Less competition but less stock: how to use the autumn season to your advantage.',
+    date: '2026-06-21',
+    readingTime: '7 min',
+    content: `
+Most guides about finding housing in Tokyo implicitly discuss the spring market: the April fiscal start, the March moving peak, the February pressure. What these guides rarely cover: the September rental season follows completely different rules.
+
+If you are arriving in Tokyo in August or September, you have both an advantage and a challenge compared to your spring counterparts.
+
+## What changes in September versus spring
+
+### Demand is structurally lower
+
+March is the most competitive month of the year in the Tokyo rental market. Large Japanese companies place their new recruits, universities receive first-year students, and tens of thousands of people search simultaneously. Competition for each property is real and intense.
+
+September is a secondary peak, significantly more modest. Companies hiring mid-year and universities running autumn programmes generate demand, but the volume is 40 to 50% lower than spring.
+
+**What this means for you:** less pressure to decide in 24 hours, more room to negotiate, landlords more open to flexible conditions.
+
+### The available stock is different
+
+In spring, the entire Tokyo rental market turns over simultaneously. In September, you are searching among properties whose previous tenants left during summer.
+
+These properties have often been refreshed during the slow July-August period: fresh paint, thorough cleaning, sometimes light renovation. They arrive on the market in better condition than a property vacated urgently in February.
+
+**What this means for you:** properties in better visual condition, but total supply more limited. You need to be ready to decide more quickly when a good option appears.
+
+### Landlords are more open to negotiation
+
+After two vacant summer months (July-August), many landlords are eager to re-let. A vacant property costs 100,000 JPY/month in lost rent. A tenant arriving in September represents 6 to 12 months of guaranteed income before the next potential departure.
+
+**What you can negotiate in September:**
+- Reduction or waiver of reikin (key money) for properties vacant more than 60 days
+- Partial coverage of cleaning fees
+- Deferred first-month payment to give you time to open a bank account
+- Early termination clause at 30 days instead of 60
+
+None of these are guaranteed, but the probability of agreement is much higher than in March, when the landlord has 5 other applications waiting.
+
+## Most active neighbourhoods in September
+
+The September intake attracts mainly two profiles: postgraduate students starting international programmes in autumn, and corporate expats whose contracts begin in Q4.
+
+**Areas that see the most activity in September:**
+
+**Bunkyo-ku (Hongo, Nezu, Koishikawa)**: very close to the University of Tokyo, which runs significant master's and doctoral autumn intakes. Demand rises strongly in August-September.
+
+**Shinjuku / Takadanobaba**: Waseda University attracts hundreds of international students in autumn. The area sees occupancy rates climb in September after a summer low.
+
+**Minato-ku / Roppongi**: executives from multinationals whose fiscal year follows the international (not Japanese) calendar arrive in Q3-Q4. Demand for high-end furnished apartments is strong.
+
+**Koenji / Nakano**: attract remote workers and creative freelancers at the start of autumn. Good availability, stable rents.
+
+## The right search timeline
+
+**90 days out (late July)**: start monitoring the market. Listings for September availability begin appearing from mid-July onwards.
+
+**60 days out (early August)**: reach out to operators and hunters. This is when landlords and agencies have the most accurate information on September availability.
+
+**45 days out (mid-August)**: place a hold on the best properties. Good furnished apartments for September are often reserved between 30 and 45 days before the move-in date.
+
+**30 days out (mid-August)**: sign and pay the deposit. For a September 1st move-in.
+
+**If you are still abroad**: a property hunter can visit on your behalf and send video walkthroughs, allowing you to decide with confidence from a distance.
+
+## What not to do
+
+**Arrive in Tokyo before confirming housing.** In September, with less supply than spring, good properties move quickly once a tenant can visit immediately. Arriving without confirmed housing typically means 2 to 4 weeks of hotel at 80,000 to 150,000 JPY.
+
+**Search only on public portals.** Suumo and Homes show only part of the market. Off-market properties, circulating through professional networks, often represent the best opportunities — especially in lower-demand periods when landlords accept working with intermediaries to avoid vacancy.
+
+**Overlook furnished apartments.** For a September arrival, a [furnished apartment with no guarantor](/en/blog/furnished-apartment-tokyo-no-guarantor) is often the optimal solution: immediate setup, no furniture costs, English contract, and access to properties available on very short timelines.
+
+## Spring vs autumn: at a glance
+
+| Factor | March-April (spring) | August-September (autumn) |
+|---|---|---|
+| Demand level | Very high | Moderate |
+| Available supply | Maximum | Restricted |
+| Competition per property | 5+ applicants | 1-2 applicants |
+| Negotiation room | Low | Good |
+| Decision time expected | 24-48 hours | 3-5 days |
+| Property condition | Variable | Often refreshed in summer |
+
+## Our service for September arrivals
+
+We have direct visibility into properties available for the September intake in Tokyo, including no-guarantor furnished apartments accessible to foreigners and share houses with immediate availability.
+
+A 30-minute consultation is enough to review what is available in your budget and target neighbourhood — before you even fly to Japan.
+
+---
+
+*Arriving in Tokyo in September? Book a free consultation now to see current availability and secure your housing before you land.*
+    `.trim(),
+  },
+
 export function getBlogPosts(locale: Locale): BlogPost[] {
   return blogPosts.filter((p) => p.locale === locale)
 }
