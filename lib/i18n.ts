@@ -8,6 +8,7 @@ const dictionaries = {
     nav: {
       home: 'Accueil',
       services: 'Nos offres',
+      listings: 'Logements',
       blog: 'Guides',
       about: 'À propos',
       contact: 'Contact',
@@ -147,6 +148,7 @@ const dictionaries = {
     nav: {
       home: 'Home',
       services: 'Services',
+      listings: 'Listings',
       blog: 'Guides',
       about: 'About',
       contact: 'Contact',

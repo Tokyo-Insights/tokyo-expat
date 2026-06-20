@@ -4,7 +4,7 @@ import { getBlogPosts } from '@/lib/blog'
 const BASE_URL = 'https://www.tokyo-expat.com'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const staticPages = ['', '/services', '/about', '/contact', '/blog']
+  const staticPages = ['', '/services', '/listings', '/about', '/contact', '/blog']
   const locales = ['fr', 'en'] as const
 
   const staticEntries: MetadataRoute.Sitemap = locales.flatMap((locale) =>
