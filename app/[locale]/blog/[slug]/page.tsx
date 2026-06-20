@@ -48,6 +48,79 @@ export async function generateMetadata({
   }
 }
 
+function renderInline(text: string, key?: string): ReactNode {
+  const parts: ReactNode[] = []
+  const regex = /(\*\*[^*]+\*\*|\*[^*]+\*|\[[^\]]+\]\([^)]+\))/g
+  let last = 0
+  let match: RegExpExecArray | null
+
+  while ((match = regex.exec(text)) !== null) {
+    if (match.index > last) parts.push(text.slice(last, match.index))
+    const seg = match[0]
+    const idx = match.index
+
+    if (seg.startsWith('**')) {
+      parts.push(<strong key={`${key}-b${idx}`} className="font-semibold text-[#0f2744]">{seg.slice(2, -2)}</strong>)
+    } else if (seg.startsWith('*')) {
+      parts.push(<em key={`${key}-i${idx}`}>{seg.slice(1, -1)}</em>)
+    } else {
+      const linkMatch = seg.match(/^\[([^\]]+)\]\(([^)]+)\)$/)
+      if (linkMatch) {
+        parts.push(
+          <a key={`${key}-l${idx}`} href={linkMatch[2]} className="text-[#e84141] underline underline-offset-2 hover:text-[#0f2744] transition-colors">
+            {linkMatch[1]}
+          </a>
+        )
+      }
+    }
+    last = match.index + seg.length
+  }
+  if (last < text.length) parts.push(text.slice(last))
+  return parts.length === 1 && typeof parts[0] === 'string' ? parts[0] : <>{parts}</>
+}
+
+function renderTable(lines: string[], baseKey: number): ReactNode {
+  const parseRow = (line: string) =>
+    line.split('|').map(c => c.trim()).filter((_, i, a) => i > 0 && i < a.length - 1)
+
+  const isSeparator = (line: string) => /^\|[-|\s:]+\|$/.test(line.trim())
+
+  const separatorIdx = lines.findIndex(isSeparator)
+  const headerLines = separatorIdx > 0 ? lines.slice(0, separatorIdx) : []
+  const bodyLines = lines.slice(separatorIdx + 1)
+
+  return (
+    <div key={baseKey} className="overflow-x-auto my-8 rounded-xl border border-gray-200">
+      <table className="w-full text-sm border-collapse">
+        {headerLines.length > 0 && (
+          <thead>
+            {headerLines.map((line, ri) => (
+              <tr key={ri} className="bg-[#0f2744] text-white">
+                {parseRow(line).map((cell, ci) => (
+                  <th key={ci} className="px-4 py-3 text-left font-semibold whitespace-nowrap">
+                    {renderInline(cell, `th-${baseKey}-${ri}-${ci}`)}
+                  </th>
+                ))}
+              </tr>
+            ))}
+          </thead>
+        )}
+        <tbody>
+          {bodyLines.map((line, ri) => (
+            <tr key={ri} className={ri % 2 === 0 ? 'bg-white' : 'bg-gray-50'}>
+              {parseRow(line).map((cell, ci) => (
+                <td key={ci} className="px-4 py-3 border-t border-gray-100 text-gray-700">
+                  {renderInline(cell, `td-${baseKey}-${ri}-${ci}`)}
+                </td>
+              ))}
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  )
+}
+
 function renderContent(content: string) {
   const lines = content.split('\n')
   const elements: ReactNode[] = []
@@ -56,41 +129,77 @@ function renderContent(content: string) {
   while (i < lines.length) {
     const line = lines[i]
 
+    // H2
     if (line.startsWith('## ')) {
       elements.push(
         <h2 key={i} className="text-2xl font-bold text-[#0f2744] mt-10 mb-4">
-          {line.replace('## ', '')}
+          {renderInline(line.slice(3), `h2-${i}`)}
         </h2>
       )
-    } else if (line.startsWith('**') && line.endsWith('**')) {
+      i++
+
+    // H3
+    } else if (line.startsWith('### ')) {
       elements.push(
-        <p key={i} className="font-semibold text-[#0f2744] mt-4 mb-1">
-          {line.replace(/\*\*/g, '')}
-        </p>
+        <h3 key={i} className="text-lg font-semibold text-[#0f2744] mt-6 mb-2">
+          {renderInline(line.slice(4), `h3-${i}`)}
+        </h3>
       )
+      i++
+
+    // Table
+    } else if (line.trim().startsWith('|') && line.trim().endsWith('|')) {
+      const tableLines: string[] = []
+      while (i < lines.length && lines[i].trim().startsWith('|') && lines[i].trim().endsWith('|')) {
+        tableLines.push(lines[i])
+        i++
+      }
+      elements.push(renderTable(tableLines, i))
+
+    // List group
     } else if (line.startsWith('- ')) {
+      const listItems: ReactNode[] = []
+      while (i < lines.length && lines[i].startsWith('- ')) {
+        listItems.push(
+          <li key={i} className="text-gray-700 leading-relaxed">
+            {renderInline(lines[i].slice(2), `li-${i}`)}
+          </li>
+        )
+        i++
+      }
       elements.push(
-        <li key={i} className="ml-4 text-gray-700 leading-relaxed list-disc">
-          {line.replace('- ', '')}
-        </li>
+        <ul key={`ul-${i}`} className="list-disc ml-5 my-3 space-y-1">
+          {listItems}
+        </ul>
       )
+
+    // HR
     } else if (line.startsWith('---')) {
       elements.push(<hr key={i} className="my-8 border-gray-200" />)
-    } else if (line.startsWith('*') && line.endsWith('*')) {
+      i++
+
+    // Italic CTA (standalone *text*)
+    } else if (line.startsWith('*') && line.endsWith('*') && !line.startsWith('**')) {
       elements.push(
         <p key={i} className="text-gray-500 italic text-sm mt-2">
-          {line.replace(/\*/g, '')}
+          {line.slice(1, -1)}
         </p>
       )
-    } else if (line.trim() !== '') {
+      i++
+
+    // Empty line
+    } else if (line.trim() === '') {
+      i++
+
+    // Paragraph
+    } else {
       elements.push(
         <p key={i} className="text-gray-700 leading-relaxed mb-4">
-          {line}
+          {renderInline(line, `p-${i}`)}
         </p>
       )
+      i++
     }
-
-    i++
   }
 
   return elements
