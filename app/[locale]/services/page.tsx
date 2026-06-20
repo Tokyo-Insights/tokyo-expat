@@ -50,11 +50,6 @@ export default async function ServicesPage({
         ))}
       </div>
 
-      {/* Refund policy */}
-      <div className="mt-12 bg-yellow-50 border border-yellow-200 rounded-xl p-6">
-        <p className="font-semibold text-yellow-800 mb-1">{s.refund_title}</p>
-        <p className="text-yellow-700 text-sm">{s.refund_desc}</p>
-      </div>
     </div>
   )
 }
