@@ -77,8 +77,8 @@ export default async function HomePage({
               <div key={pkg.id} className="border border-gray-200 rounded-2xl p-6 hover:shadow-lg transition-shadow">
                 <h3 className="font-bold text-[#0f2744] text-lg mb-2">{pkg.name}</h3>
                 <p className="text-gray-500 text-sm mb-4">{pkg.description}</p>
-                <p className="text-2xl font-extrabold text-[#e84141]">
-                  {pkg.currency}{pkg.price}
+                <p className="text-sm font-semibold text-[#0f2744]/60 mt-2">
+                  {locale === 'fr' ? 'Tarif sur devis' : 'Price on request'}
                 </p>
               </div>
             ))}
