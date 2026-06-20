@@ -3,11 +3,12 @@ import { NextRequest, NextResponse } from 'next/server'
 const locales = ['fr', 'en']
 const defaultLocale = 'fr'
 
-function basicAuth(request: NextRequest): NextResponse | null {
-  const user = process.env.ADMIN_USER
-  const pass = process.env.ADMIN_PASSWORD
+// Déclarées au niveau module pour que le bundler Edge les inline correctement
+const ADMIN_USER = process.env.ADMIN_USER
+const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD
 
-  if (!user || !pass) {
+function basicAuth(request: NextRequest): NextResponse | null {
+  if (!ADMIN_USER || !ADMIN_PASSWORD) {
     return new NextResponse('Admin non configuré', { status: 500 })
   }
 
@@ -15,10 +16,12 @@ function basicAuth(request: NextRequest): NextResponse | null {
   if (authHeader) {
     const [scheme, encoded] = authHeader.split(' ')
     if (scheme === 'Basic' && encoded) {
-      const decoded = Buffer.from(encoded, 'base64').toString('utf-8')
-      const [inputUser, inputPass] = decoded.split(':')
-      if (inputUser === user && inputPass === pass) {
-        return null // accès autorisé
+      const decoded = atob(encoded)
+      const colonIndex = decoded.indexOf(':')
+      const inputUser = decoded.slice(0, colonIndex)
+      const inputPass = decoded.slice(colonIndex + 1)
+      if (inputUser === ADMIN_USER && inputPass === ADMIN_PASSWORD) {
+        return null
       }
     }
   }
@@ -34,14 +37,12 @@ function basicAuth(request: NextRequest): NextResponse | null {
 export function middleware(request: NextRequest) {
   const pathname = request.nextUrl.pathname
 
-  // Protection admin
   if (pathname.startsWith('/admin')) {
     const denied = basicAuth(request)
     if (denied) return denied
     return NextResponse.next()
   }
 
-  // Redirect locale
   const pathnameIsMissingLocale = locales.every(
     (locale) => !pathname.startsWith(`/${locale}/`) && pathname !== `/${locale}`
   )
