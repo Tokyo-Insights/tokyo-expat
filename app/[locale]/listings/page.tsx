@@ -205,7 +205,7 @@ export default function ListingsPage() {
             ? [
                 { n: '1', t: 'Consultation', d: 'Appel gratuit 30 min pour définir vos critères : zone, budget, type, durée.' },
                 { n: '2', t: 'Recherche', d: "J'active mon réseau et sélectionne les options qui correspondent exactement à votre profil." },
-                { n: '3', t: 'Visites', d: 'Je vous accompagne (ou je visite pour vous si vous êtes encore à l'étranger).' },
+                { n: '3', t: 'Visites', d: "Je vous accompagne (ou je visite pour vous si vous êtes encore à l'étranger)." },
                 { n: '4', t: 'Signature', d: 'Je gère le dossier et le contrat en japonais. Vous emménagez.' },
               ]
             : [
