@@ -25,8 +25,9 @@ export default async function ServicesPage({
               <p className="text-gray-500 text-sm">{pkg.description}</p>
             </div>
             <div className="mb-6">
-              <span className="text-sm text-gray-400">{s.price_from} </span>
-              <span className="text-3xl font-extrabold text-[#e84141]">{pkg.currency}{pkg.price}</span>
+              <span className="inline-block bg-[#0f2744]/8 text-[#0f2744] text-sm font-semibold px-3 py-1 rounded-full">
+                {locale === 'fr' ? 'Tarif sur devis — consultation gratuite' : 'Price on request — free consultation'}
+              </span>
             </div>
             <div className="mb-6 flex-1">
               <p className="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-3">{s.included}</p>
