@@ -100,6 +100,36 @@ def get_unposted_articles(shared_state: dict) -> list:
     return result
 
 
+def login_expatcom(driver) -> bool:
+    """Login sur expat.com. Retourne True si succès."""
+    from selenium.webdriver.common.by import By
+
+    driver.get("https://www.expat.com/")
+    time.sleep(4)
+
+    # Ouvre le modal login
+    buttons = driver.find_elements(By.TAG_NAME, 'button')
+    login_btn = next((b for b in buttons if b.text.strip() == 'Login'), None)
+    if not login_btn:
+        return False
+    login_btn.click()
+    time.sleep(3)
+
+    # Remplit les champs (name=login_username / name=login_password)
+    driver.find_element(By.NAME, 'login_username').send_keys(EXPATCOM_EMAIL)
+    driver.find_element(By.NAME, 'login_password').send_keys(EXPATCOM_PASSWORD)
+
+    # Clique LOG IN
+    buttons = driver.find_elements(By.TAG_NAME, 'button')
+    log_in_btn = next((b for b in buttons if b.text.strip() == 'LOG IN'), None)
+    if not log_in_btn:
+        return False
+    log_in_btn.click()
+    time.sleep(4)
+
+    return any(x in driver.page_source.lower() for x in ['sign out', 'logout', 'my profile', 'my account'])
+
+
 def post_to_expatcom_selenium(articles: list) -> list:
     """Post automatique via Selenium. Retourne la liste des slugs postés avec succès."""
     if not EXPATCOM_EMAIL or not EXPATCOM_PASSWORD:
@@ -109,8 +139,6 @@ def post_to_expatcom_selenium(articles: list) -> list:
         from selenium import webdriver
         from selenium.webdriver.common.by import By
         from selenium.webdriver.chrome.options import Options
-        from selenium.webdriver.support.ui import WebDriverWait
-        from selenium.webdriver.support import expected_conditions as EC
     except ImportError:
         send_telegram("expatcom_autoposter: selenium non installé. Run: pip install selenium")
         return []
@@ -119,25 +147,19 @@ def post_to_expatcom_selenium(articles: list) -> list:
     opts.add_argument('--headless')
     opts.add_argument('--no-sandbox')
     opts.add_argument('--disable-dev-shm-usage')
+    opts.add_argument('--window-size=1280,900')
 
     posted_slugs = []
 
     try:
         driver = webdriver.Chrome(options=opts)
-        wait = WebDriverWait(driver, 15)
 
-        # Login
-        driver.get("https://www.expat.com/login/")
-        time.sleep(2)
-        driver.find_element(By.NAME, "login").send_keys(EXPATCOM_EMAIL)
-        driver.find_element(By.NAME, "password").send_keys(EXPATCOM_PASSWORD)
-        driver.find_element(By.CSS_SELECTOR, "button[type='submit']").click()
-        time.sleep(3)
-
-        if "logout" not in driver.page_source.lower() and "mon compte" not in driver.page_source.lower():
+        if not login_expatcom(driver):
             send_telegram("Expat.com: echec login. Verifie EXPATCOM_EMAIL/EXPATCOM_PASSWORD dans .env")
             driver.quit()
             return []
+
+        print("Login Expat.com OK")
 
         for a in articles:
             article_url = f"{BASE_URL}/blog/{a['slug']}"
@@ -161,20 +183,43 @@ def post_to_expatcom_selenium(articles: list) -> list:
             for forum in forums:
                 try:
                     driver.get(forum['url'])
-                    time.sleep(2)
-                    new_topic_btn = driver.find_elements(By.XPATH, "//*[contains(text(),'New topic') or contains(text(),'Nouveau sujet')]")
-                    if not new_topic_btn:
-                        continue
-                    new_topic_btn[0].click()
-                    time.sleep(2)
-                    driver.find_element(By.NAME, "subject").send_keys(title)
-                    body_field = driver.find_elements(By.NAME, "message") or driver.find_elements(By.ID, "message")
-                    if body_field:
-                        body_field[0].send_keys(body)
-                    submit = driver.find_element(By.CSS_SELECTOR, "button[type='submit'], input[type='submit']")
-                    submit.click()
                     time.sleep(3)
-                    print(f"Posté sur {forum['name']}: {title}")
+
+                    # Cherche le bouton New topic
+                    all_buttons = driver.find_elements(By.TAG_NAME, 'button')
+                    all_links = driver.find_elements(By.TAG_NAME, 'a')
+                    new_topic = next(
+                        (el for el in all_buttons + all_links
+                         if any(kw in el.text.lower() for kw in ['new topic', 'nouveau sujet', 'new post'])),
+                        None
+                    )
+                    if not new_topic:
+                        print(f"Bouton 'New topic' non trouvé sur {forum['name']}")
+                        continue
+
+                    new_topic.click()
+                    time.sleep(3)
+
+                    # Sujet
+                    subj = driver.find_elements(By.NAME, 'subject') or driver.find_elements(By.ID, 'subject')
+                    if subj:
+                        subj[0].send_keys(title)
+
+                    # Corps
+                    msg = driver.find_elements(By.NAME, 'message') or driver.find_elements(By.ID, 'message')
+                    if msg:
+                        msg[0].send_keys(body)
+
+                    # Submit
+                    submit_btns = [b for b in driver.find_elements(By.TAG_NAME, 'button')
+                                   if b.get_attribute('type') == 'submit' or 'submit' in b.text.lower() or 'post' in b.text.lower() or 'send' in b.text.lower()]
+                    if submit_btns:
+                        submit_btns[0].click()
+                        time.sleep(4)
+                        print(f"Posté sur {forum['name']}: {title}")
+                    else:
+                        print(f"Submit non trouvé sur {forum['name']}")
+
                 except Exception as e:
                     print(f"Erreur post {forum['name']}: {e}")
 
