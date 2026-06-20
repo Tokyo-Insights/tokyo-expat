@@ -359,10 +359,10 @@ export default async function DevisPage({
         </div>
 
         {/* Right: price + payment */}
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-4 sticky top-6 self-start">
 
           {/* Price card */}
-          <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm sticky top-6">
+          <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
             <p className="text-xs text-gray-400 uppercase tracking-widest mb-1">{t.price_label}</p>
             <p className="text-4xl font-extrabold text-[#0f2744] mb-1">{offerData.price}€</p>
             <p className="text-xs text-gray-400 mb-6">{t.starts}</p>
