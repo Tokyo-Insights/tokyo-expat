@@ -40,6 +40,8 @@ COMPETITORS = [
     "housing.gaijinpot.com",
     "sakura-house.com",
     "tokyocheapo.com",
+    "savvytokyo.com",
+    "japanpropertycentral.com",
 ]
 
 # Domaines à exclure (auto-liens, réseaux sociaux sans valeur SEO)

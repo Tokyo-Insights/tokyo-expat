@@ -5423,6 +5423,1284 @@ Japanese contracts typically include a 3 to 6 month probation period. Employee r
 *To find housing near your workplace, our guide to [Tokyo neighbourhoods for expats](/blog/tokyo-neighbourhoods-expats-guide) helps you choose by commute line and budget. For all administrative steps after arrival, see our [complete Tokyo moving checklist](/blog/moving-to-tokyo-checklist-2026).*
     `.trim(),
   },
+  {
+    slug: 'virement-international-japon-wise-revolut',
+    locale: 'fr',
+    title: 'Virement vers le Japon : Wise, Revolut et banques 2026',
+    description: 'Comparatif complet des meilleures solutions pour transférer de l\'argent vers le Japon en 2026. Wise, Revolut et virement SWIFT : frais réels, délais et pièges à éviter.',
+    date: '2026-06-21',
+    readingTime: '7 min',
+    content: `
+## Transférer de l'argent vers le Japon : les vraies options en 2026
+
+Que vous receviez un salaire depuis la France, remboursiez un prêt à domicile ou envoyiez de l'argent à votre famille, les transferts internationaux font partie du quotidien des expatriés. Les banques traditionnelles font payer cette commodité très cher. Voici un comparatif honnête des solutions disponibles.
+
+## Wise : la référence pour les virements vers le Japon
+
+Wise (anciennement TransferWise) applique le taux de change interbancaire réel sans marge cachée. C'est l'option la plus compétitive pour la grande majorité des expatriés.
+
+**Frais typiques EUR vers JPY :**
+- Frais fixes : 0,40 euros + 0,47 % du montant
+- Pour un virement de 1 000 euros : environ 5 à 6 euros de frais
+- Délai : 0 à 24 heures pour les virements bancaires
+
+**Comment recevoir sur un compte japonais :** Wise prend en charge les virements vers la plupart des banques japonaises. Vous aurez besoin du numéro d'agence (店番 en 3 chiffres) et de votre numéro de compte (口座番号 en 7 chiffres). Rakuten Bank, PayPay Bank et Shinsei Bank reçoivent les virements sans frais de réception. Pour ouvrir un compte japonais, consultez notre [guide d'ouverture de compte bancaire au Japon](/blog/ouvrir-compte-bancaire-japon-etranger).
+
+## Revolut : idéal pour les petits montants fréquents
+
+Le plan gratuit Revolut offre jusqu'à 1 000 euros de change mensuel au taux interbancaire (hors weekend). Le plan Premium à 7,99 euros par mois supprime cette limite.
+
+**Avantages :** interface simple, carte virtuelle en JPY disponible, rechargement en temps réel.
+
+**Limite :** le weekend, Revolut ajoute une marge de 0,5 à 1 % sur le taux. Pour les montants importants, Wise reste plus compétitif.
+
+## Virements bancaires SWIFT : à éviter si possible
+
+Un virement depuis une banque française classique (BNP Paribas, Société Générale, Crédit Agricole) vers le Japon coûte en général :
+
+- 25 à 45 euros de frais fixes à l'émission
+- Une marge de change de 2 à 4 %
+- Des frais de réception japonais : 1 000 à 2 000 ¥
+
+Pour un virement de 1 000 euros, vous perdez entre 60 et 90 euros par rapport à Wise. Sur une année avec un virement mensuel, la différence dépasse 700 euros.
+
+## Tableau comparatif
+
+| Service | Frais sur 1 000 euros | Délai | Usage recommandé |
+|---------|----------------------|-------|-----------------|
+| Wise | 5 à 6 euros | 0 à 1 jour | Virements réguliers de tout montant |
+| Revolut (plan gratuit) | 0 euro jusqu'à 1 000 euros/mois | 1 à 2 jours | Petits montants fréquents |
+| Western Union | 15 à 25 euros | 0 à 1 jour | Urgences uniquement |
+| Virement bancaire SWIFT | 60 à 90 euros | 3 à 5 jours | A éviter |
+
+## Recevoir de l'argent au Japon : quels comptes ouvrir ?
+
+**PayPay Bank** : accepte les virements SWIFT et Wise, interface entièrement en anglais, ouverture en ligne avec carte de résidence. La meilleure option pour les nouveaux arrivants.
+
+**Rakuten Bank** : bien intégrée avec Wise, interface bilingue, aucun frais de réception.
+
+**Shinsei Bank** : historiquement la banque des expatriés à Tokyo. Service client en anglais disponible, virements internationaux entrants sans frais.
+
+## Aspects fiscaux
+
+Si vous résidez au Japon et percevez des revenus étrangers, ces revenus sont en principe soumis à l'impôt japonais sur le revenu selon votre statut de résidence. La déclaration fiscale se fait chaque mars pour l'année civile précédente. Notre [guide fiscal pour expatriés au Japon](/blog/impots-revenus-japon-expatrie-2026) détaille vos obligations selon votre durée de résidence.
+
+## FAQ
+
+**Peut-on envoyer de l'argent depuis le Japon vers la France avec Wise ?**
+
+Oui. Wise fonctionne dans les deux sens. Le sens JPY vers EUR est disponible avec des frais similaires.
+
+**Y a-t-il des limites de montant par virement ?**
+
+Wise permet jusqu'à l'équivalent de 1 million de livres par virement. Revolut gratuit est limité à 1 000 euros de change mensuel au taux interbancaire.
+
+**Les virements reçus doivent-ils être déclarés ?**
+
+Les virements eux-mêmes ne sont pas automatiquement déclarés, mais les revenus qu'ils représentent le sont. La NTA (Administration Fiscale Nationale) peut demander une justification pour des virements importants et réguliers.
+
+---
+
+*Pour les démarches bancaires à Tokyo, notre [guide d'ouverture de compte](/blog/ouvrir-compte-bancaire-japon-etranger) couvre toutes les banques adaptées aux expatriés. Pour votre installation complète, consultez notre [checklist déménagement Japon](/blog/demenager-japon-checklist-complete).*
+    `.trim(),
+  },
+  {
+    slug: 'cours-japonais-tokyo-expatries-guide',
+    locale: 'fr',
+    title: 'Cours de japonais à Tokyo pour expatriés : guide 2026',
+    description: 'Coto Academy, ISI, Berlitz ou applications : comparatif des meilleures écoles de japonais à Tokyo pour expatriés résidents. Tarifs, niveaux et conseils pour progresser vite.',
+    date: '2026-06-21',
+    readingTime: '8 min',
+    content: `
+## Apprendre le japonais à Tokyo : par où commencer ?
+
+Même dans un environnement de travail entièrement en anglais, parler japonais change radicalement la qualité de vie à Tokyo. Pour les démarches administratives, la recherche d'appartement, les visites chez le médecin et les conversations de voisinage, quelques centaines de mots suffisent à transformer l'expérience. Ce guide compare les options disponibles pour les expatriés résidents.
+
+## Coto Academy : la référence pour les professionnels expatriés
+
+Coto Academy est probablement l'école de japonais la mieux adaptée aux expatriés qui travaillent. Elle propose des cours intensifs, des cours du soir et des programmes en ligne, tous dispensés en anglais.
+
+**Points forts :**
+- Groupes limités à 4 à 6 personnes
+- Contenu orienté vie quotidienne et japonais professionnel
+- Cours du soir disponibles dès 19h
+- Locaux à Shinjuku et cours en ligne
+
+**Tarifs :** 15 000 à 30 000 ¥ par mois pour les cours en groupe selon l'intensité. Cours particuliers autour de 4 000 à 5 000 ¥ par heure.
+
+## ISI Language School : pour les étudiants à plein temps
+
+ISI est davantage orientée vers les étudiants en visa étudiant souhaitant se préparer au JLPT (Japanese Language Proficiency Test) ou intégrer une université japonaise. Moins flexible pour les professionnels en poste, mais pédagogie solide et structurée.
+
+**Disponible :** du niveau débutant absolu jusqu'au JLPT N1. Programmes de 6 à 24 mois avec aide à l'obtention du visa étudiant.
+
+## Berlitz Japan : la solution corporate
+
+Berlitz propose des cours individuels sur mesure pour les entreprises. Idéal si votre employeur prend en charge les frais de formation linguistique.
+
+**Avantage :** horaires ultra-flexibles, cours possibles à domicile ou sur site. Formateurs disponibles en soirée et le weekend.
+
+**Inconvénient :** tarifs parmi les plus élevés, peu de groupes de conversation.
+
+## Applications et ressources en ligne : le complément indispensable
+
+Pour les expatriés qui manquent de temps ou veulent progresser en dehors des cours :
+
+- **Anki** : logiciel de flashcards pour les kanjis et le vocabulaire. Gratuit, très efficace.
+- **WaniKani** : apprentissage des kanjis par radicaux, système gamifié. 9 USD par mois.
+- **iTalki** : cours particuliers en ligne avec des natifs japonais. 15 à 25 USD par heure.
+- **NHK Web Easy** : articles d'actualité en japonais simplifié, gratuits.
+- **HelloTalk** : échange linguistique avec des Japonais apprenant votre langue.
+
+## Comprendre les niveaux JLPT
+
+Le JLPT (日本語能力試験) est le certificat de référence en japonais. 5 niveaux du N5 (débutant) au N1 (quasi-natif). Pour la vie quotidienne à Tokyo, le N4 est largement suffisant. Pour travailler en japonais, le N2 est généralement requis.
+
+| Niveau | Description | Heures d'étude estimées |
+|--------|-------------|------------------------|
+| N5 | Hiragana, katakana, 100 kanjis, phrases de base | 150 heures |
+| N4 | Conversations quotidiennes simples | 300 heures |
+| N3 | Lecture de panneaux et journaux simplifiés | 450 heures |
+| N2 | Travail en environnement partiellement japonais | 600 heures |
+| N1 | Niveau professionnel natif | 900 heures et plus |
+
+## Priorité absolue : hiragana et katakana en deux semaines
+
+Avant de vous inscrire dans une école, consacrez 2 à 3 semaines à mémoriser hiragana et katakana. Ces deux syllabaires de 46 caractères chacun couvrent la totalité du japonais oral et une grande partie de l'écrit. Des applications comme Kana Mind ou Duolingo les enseignent en 10 à 20 minutes par jour.
+
+Une fois ces deux alphabets maîtrisés, chaque leçon en école sera deux fois plus efficace.
+
+## Quel budget prévoir ?
+
+| Option | Coût mensuel | Progression |
+|--------|-------------|-------------|
+| Cours en groupe (Coto, ISI) | 15 000 à 30 000 ¥ | Rapide avec structure |
+| Cours particuliers | 40 000 à 80 000 ¥ | Très rapide |
+| Applications uniquement | 1 000 à 2 000 ¥ | Lente sans discipline |
+| Cours en ligne (iTalki) | 10 000 à 20 000 ¥ | Flexible |
+
+## FAQ
+
+**Dois-je apprendre le japonais pour vivre à Tokyo ?**
+
+Non, c'est possible sans. Mais les expatriés qui apprennent, même à un niveau basique, rapportent une expérience de vie beaucoup plus riche et moins stressante. La barrière administrative est réelle.
+
+**Quelle option si je travaille 5 jours sur 7 ?**
+
+Coto Academy pour les cours du soir en groupe, et iTalki pour des cours particuliers flexibles le weekend.
+
+**Le japonais est-il utile pour trouver un appartement ?**
+
+Oui, clairement. Même quelques phrases de base facilitent les visites avec les agences locales et la compréhension des contrats. Notre [guide de location d'appartement à Tokyo](/blog/trouver-appartement-tokyo-etranger) décrit tout le processus étape par étape.
+
+---
+
+*Pour votre installation complète à Tokyo, notre [checklist déménagement Japon](/blog/demenager-japon-checklist-complete) couvre toutes les étapes administratives. Pour le logement, voir notre [guide des quartiers pour expatriés](/blog/quartiers-tokyo-expatries-guide).*
+    `.trim(),
+  },
+  {
+    slug: 'permis-conduire-etranger-japon-conversion',
+    locale: 'fr',
+    title: 'Convertir son permis de conduire étranger au Japon 2026',
+    description: 'Convertir un permis français, européen ou canadien au Japon en 2026 : documents requis, centre d\'examen, test de conduite et délais. Guide complet pour expatriés.',
+    date: '2026-06-21',
+    readingTime: '8 min',
+    content: `
+## Conversion du permis de conduire au Japon : ce qu'il faut savoir
+
+Le Japon reconnaît les permis étrangers par le biais de la Convention de Genève, mais cette reconnaissance ne s'applique qu'aux visiteurs temporaires. Dès que vous devenez résident (carte de séjour obtenue), vous devez convertir votre permis étranger pour continuer à conduire légalement.
+
+La bonne nouvelle : les ressortissants français et de nombreux pays européens bénéficient d'une procédure simplifiée, sans test de conduite si votre permis a plus de 3 mois à la date de votre arrivée au Japon.
+
+## Pays éligibles à la conversion sans test de conduite
+
+La liste inclut la France, la Belgique, la Suisse, l'Allemagne, l'Italie, le Canada, l'Australie, la Nouvelle-Zélande, le Royaume-Uni et la majorité des pays de l'Union européenne.
+
+Les ressortissants américains (hors quelques États) et chinois doivent passer un test de conduite pratique.
+
+## Documents requis pour la conversion
+
+1. Votre permis de conduire étranger original
+2. Une traduction officielle du permis par une organisation reconnue (JAF - Japan Automobile Federation - pour les permis français, belges et suisses)
+3. Votre passeport original + photocopie
+4. Votre carte de résidence (zairyu card) originale + photocopie
+5. Votre certificat de résidence (juminhyo) délivré par votre mairie
+6. 2 photos d'identité récentes (3 cm x 2,4 cm, fond blanc)
+7. Attestation prouvant que vous étiez bien dans votre pays d'origine pendant au moins 3 mois après l'obtention de votre permis (entrées/sorties du passeport ou relevé de compte)
+
+La traduction JAF coûte environ 3 000 ¥ et prend 1 à 5 jours ouvrés. Prenez rendez-vous au bureau JAF le plus proche.
+
+## Où effectuer la démarche ?
+
+La conversion se fait uniquement dans les centres d'examen du permis de conduire (運転免許試験場). Il n'existe pas de centre dans chaque arrondissement. Pour Tokyo, les principaux centres sont :
+
+- **Fuchu Driver's License Center** (府中運転免許試験場) : accessible depuis Kokubunji en 10 minutes de bus
+- **Koto Driver's License Center** (江東運転免許試験場) : accès depuis Tatsumi (ligne Rinkai)
+- **Samezu Driver's License Center** (鮫洲運転免許試験場) : accès depuis Samezu (ligne Keikyu)
+
+Aucun rendez-vous en ligne disponible : présentez-vous à l'ouverture (8h30 généralement). Prévoyez une journée complète.
+
+## Déroulement de la procédure simplifiée (pays reconnus)
+
+1. Dépôt du dossier au guichet (vérification des documents)
+2. Test de vue et de couleurs (5 minutes)
+3. Questionnaire de connaissance du code de la route japonais (10 questions, sans notes, en anglais disponible)
+4. Attente et remise du permis japonais (souvent le même jour)
+
+**Coût total :** 2 350 ¥ environ pour le permis japonais, plus les frais JAF.
+
+## Test de conduite pour les pays non reconnus
+
+Si vous êtes ressortissant d'un pays non éligible à la conversion simplifiée, vous devez passer :
+
+1. Un test écrit (code de la route) disponible en anglais, français, chinois et d'autres langues
+2. Un test de conduite pratique sur circuit (pas sur route ouverte)
+
+Le test pratique est notoirement difficile pour les étrangers car il suit un protocole japonais très précis (vérifications visuelles, miroirs, placement mains). Certains centres proposent des cours de préparation en anglais.
+
+## Carte de résidence et preuve de 3 mois à l'étranger
+
+Un point crucial souvent oublié : les autorités japonaises doivent vérifier que vous conduisiez réellement dans votre pays d'origine après l'obtention du permis. Si votre passeport montre que vous êtes arrivé au Japon moins de 3 mois après l'obtention du permis, la conversion peut être refusée.
+
+Dans ce cas, la solution est généralement d'attendre ou de rassembler d'autres preuves (factures bancaires, relevés de compte, contrat d'emploi dans le pays d'origine).
+
+## FAQ
+
+**Mon permis international suffit-il au Japon ?**
+
+Le permis international de l'AAA (Geneva Convention) est valable un an au Japon. Mais dès que vous avez une adresse enregistrée à la mairie (juminhyo), vous êtes considéré comme résident et devez convertir votre permis. Ne pas le faire est une infraction.
+
+**Peut-on conduire avec un permis européen sans conversion ?**
+
+Oui, pendant la période touristique ou lors des 3 premiers mois de résidence, avec le permis international. Au-delà, la conversion est obligatoire.
+
+**La conversion est-elle permanente ?**
+
+Oui. Le permis japonais obtenu par conversion est identique à celui obtenu par examen. Il se renouvelle selon les mêmes règles (tous les 3 à 5 ans selon votre historique de conduite).
+
+---
+
+*Pour votre installation complète au Japon, notre [guide des démarches administratives](/blog/demenager-japon-checklist-complete) liste toutes les étapes à effectuer après l'arrivée. Pour le logement, consultez notre [guide de location à Tokyo](/blog/trouver-appartement-tokyo-etranger).*
+    `.trim(),
+  },
+  {
+    slug: 'demenageur-international-japon-guide',
+    locale: 'fr',
+    title: 'Déménageur international vers le Japon : guide et prix 2026',
+    description: 'Crown Relocations, Asian Tigers ou Nippon Express : comparer les déménageurs internationaux vers le Japon, comprendre les options de fret et préparer son expédition 2026.',
+    date: '2026-06-21',
+    readingTime: '8 min',
+    content: `
+## Organiser son déménagement international vers le Japon
+
+Un déménagement vers le Japon depuis l'Europe dure en général 4 à 8 semaines par voie maritime, ou 5 à 10 jours par voie aérienne. La logistique est complexe, les règles douanières strictes, et les délais souvent sous-estimés. Ce guide vous donne les informations essentielles pour choisir le bon prestataire.
+
+## Les principaux déménageurs internationaux opérant vers le Japon
+
+### Crown Relocations
+
+Crown est l'un des leaders mondiaux de la relocation d'entreprise. Ils proposent des services complets : emballage, expédition, dédouanement au Japon, livraison et montage.
+
+**Points forts :** service all-inclusive, coordinateurs bilingues, couverture assurance complète, expérience spécifique Japon.
+
+**Coût estimé :** 3 000 à 8 000 USD pour un appartement de 50 à 80 m² par voie maritime (20 à 30 m³).
+
+### Asian Tigers Japan
+
+Spécialiste en relocation internationale pour l'Asie, Asian Tigers propose des services similaires à Crown avec une forte présence locale au Japon.
+
+**Points forts :** tarifs généralement 10 à 20 % inférieurs à Crown, bon service client en anglais, gestion complète du dédouanement.
+
+### Nippon Express International
+
+Nippon Express est l'opérateur logistique japonais de référence. Avantage : leur réseau local au Japon est extrêmement dense, la livraison en dernier kilomètre est plus fiable.
+
+**Adapté à :** ceux qui envoient d'abord leurs effets depuis l'étranger, puis se chargent de la livraison locale depuis le Japon.
+
+### Yamato Transport (TA-Q-BIN)
+
+Pour les petits volumes ou les envois en boîtes, Yamato propose un service de fret international (Takkyubin International) depuis la France. Pratique pour les vêtements, livres et petits objets.
+
+## Voie maritime vs voie aérienne
+
+| Critère | Maritime (FCL/LCL) | Aérien |
+|---------|-------------------|--------|
+| Délai | 4 à 8 semaines | 5 à 10 jours |
+| Coût (1 m³) | 100 à 200 USD | 400 à 800 USD |
+| Volume min. recommandé | 5 m³ (LCL) | Illimité |
+| Idéal pour | Meubles, électroménager, grande quantité | Vêtements, documents, objets urgents |
+
+Pour un déménagement complet depuis la France, la voie maritime est la plus économique. Beaucoup d'expatriés envoient leurs affaires essentielles par avion (1 ou 2 valises supplémentaires en soute) et le reste par conteneur partagé (LCL).
+
+## Règles douanières japonaises
+
+**Ce qui entre en franchise :** vos effets personnels usagés, vêtements, livres, matériel informatique personnel. Pas de limite de valeur pour les effets personnels déclarés comme tels.
+
+**Ce qui est taxé :** nouveaux appareils électroniques, alcool au-delà des quotas, certains aliments.
+
+**Ce qui est interdit :** certains médicaments (notamment ceux contenant de la pseudoéphédrine, certains antidouleurs, des médicaments TDAH courants en Europe). Vérifiez votre liste de médicaments avant le départ.
+
+**Certificat de déménagement :** pour bénéficier de l'exonération douanière sur vos effets personnels, vous devez fournir un certificat prouvant votre statut de résident au Japon (visa + carte de résidence ou attestation consulaire).
+
+## Calendrier et conseils pratiques
+
+**3 mois avant :** demandez des devis à au moins 3 prestataires. Réservez votre créneau maritime.
+
+**6 semaines avant :** préparez la liste d'inventaire détaillée (exigée par les douanes japonaises). Triez et vendez ou donnez ce qui ne vaut pas le coût d'expédition.
+
+**4 semaines avant :** emballage professionnel si inclus dans votre contrat. Sinon, commencez par les pièces rarement utilisées.
+
+**Arrivée :** votre déménageur se charge du dédouanement, mais vous devez être présent ou représenté pour la livraison. Assurez-vous d'avoir un appartement avec ascenseur ou prévenez votre propriétaire à l'avance.
+
+## Coût total estimé pour un expatrié célibataire
+
+- Studio ou 1LDK vidé (10 à 15 m³) : 1 500 à 3 500 USD par maritime
+- Appartement familial (30 à 50 m³) : 4 000 à 9 000 USD
+
+Ces tarifs incluent l'emballage, le transport, le dédouanement et la livraison. L'assurance est généralement facturée séparément (0,5 à 1 % de la valeur déclarée).
+
+## FAQ
+
+**Faut-il être présent à Tokyo pour la livraison ?**
+
+Oui, en général. Certains déménageurs acceptent un représentant mandaté, mais la plupart exigent votre présence pour signer les documents de livraison.
+
+**Que faire de ses meubles français ?**
+
+Les appartements japonais sont souvent meublés ou beaucoup plus petits. Beaucoup d'expatriés stockent ou vendent leurs gros meubles en France plutôt que de les expédier. Les canapés européens passent rarement dans les espaces japonais standard. Consultez notre [guide des quartiers de Tokyo](/blog/quartiers-tokyo-expatries-guide) pour comprendre les configurations typiques des appartements.
+
+---
+
+*Pour votre logement à Tokyo après l'arrivée, notre [guide de location pour expatriés](/blog/trouver-appartement-tokyo-etranger) vous aide à trouver rapidement. Pour les démarches administratives à effectuer dès l'arrivée, voir notre [checklist complète](/blog/demenager-japon-checklist-complete).*
+    `.trim(),
+  },
+  {
+    slug: 'importer-animal-compagnie-japon-guide',
+    locale: 'fr',
+    title: 'Emmener son chat ou chien au Japon : guide quarantaine 2026',
+    description: 'Procédure complète pour importer votre chat ou chien au Japon sans quarantaine : microchip, vaccin antirabique, titre vaccinal et calendrier strict à respecter en 2026.',
+    date: '2026-06-21',
+    readingTime: '9 min',
+    content: `
+## Importer son animal de compagnie au Japon : les règles strictes
+
+Le Japon applique l'une des réglementations sanitaires les plus strictes au monde pour l'importation d'animaux domestiques. La procédure est longue et très précise. Si elle est mal suivie, votre animal peut être mis en quarantaine pendant 180 jours à votre charge. Ce guide détaille les étapes pour les chats et chiens en provenance de France.
+
+La France est classée dans la "Zone B" par le Japon, aux côtés de la majorité des pays européens et de certains pays anglophones (Canada, Australie). C'est la catégorie intermédiaire : pas la plus simple (Zone A : Royaume-Uni, Australie, Nouvelle-Zélande), mais évitable en suivant scrupuleusement la procédure.
+
+## La procédure en 8 étapes
+
+**Etape 1 : microchip ISO 11784/11785**
+
+Votre animal doit être identifié par un microchip répondant à la norme ISO 11784 ou 11785. Si votre animal a un microchip plus ancien ou non standard, une nouvelle puce doit être implantée avant toute vaccination.
+
+**Etape 2 : première vaccination antirabique**
+
+Effectuée après l'implantation du microchip. Le vaccin utilisé doit être homologué et son numéro de lot enregistré dans le carnet de santé.
+
+**Etape 3 : rappel antirabique**
+
+Un rappel est nécessaire 30 jours après la première injection si votre animal n'avait jamais été vacciné contre la rage.
+
+**Etape 4 : test de neutralisation du virus rabique (FAVN/RFFIT)**
+
+C'est l'étape la plus critique. Un prélèvement sanguin est effectué par votre vétérinaire et envoyé à un laboratoire agréé par le Japon. Le résultat doit être supérieur ou égal à 0,5 UI/ml.
+
+**Laboratoires agréés pour la France :** le laboratoire de l'ANSES à Nancy est accrédité. D'autres laboratoires européens agréés sont acceptés. Vérifiez la liste actuelle sur le site de l'APHIS japonais.
+
+**Etape 5 : attente de 180 jours**
+
+Après un résultat positif au test FAVN, vous devez attendre **180 jours complets** avant d'importer l'animal au Japon. C'est la contrainte principale. Si vous avez un déménagement dans 8 mois, commencez la procédure maintenant.
+
+**Etape 6 : certificat sanitaire officiel**
+
+Au moins 7 jours avant l'export, votre vétérinaire (ou la DDPP de votre département) établit un certificat sanitaire officiel. Ce document doit être visé par la DDPP et parfois par le Service de Coopération Vétérinaire de l'ambassade du Japon.
+
+**Etape 7 : déclaration préalable à l'AQIS japonais**
+
+Vous devez notifier le bureau d'inspection japonais (Animal Quarantine Service) au moins 40 jours avant l'arrivée de votre animal. La déclaration se fait en ligne sur le site de l'APHIS du Ministère de l'Agriculture japonais.
+
+**Etape 8 : inspection à l'arrivée**
+
+À l'aéroport de Narita ou Haneda, votre animal passe par l'inspection quarantaine (généralement 1 à 2 heures si tous les documents sont en ordre). Si tout est conforme, votre animal vous rejoint directement.
+
+## Calendrier recommandé
+
+| Etape | Délai avant arrivée au Japon |
+|-------|----------------------------|
+| Microchip | 8 mois minimum |
+| Primo-vaccination + rappel | 7 mois |
+| Test FAVN | 6,5 mois |
+| Résultat FAVN + démarrage période 180 jours | 6 mois |
+| Certificat sanitaire | 2 à 4 semaines |
+| Déclaration AQIS | 40 jours minimum |
+
+## Transport en avion avec un animal
+
+**En cabine :** accepté par certaines compagnies (Air France, Lufthansa) pour les petits animaux jusqu'à 8 kg (animal + sac). Le sac doit tenir sous le siège. Réservez impérativement à l'avance car le nombre de places est limité.
+
+**En soute (cargo animal) :** pour les animaux plus grands. Température régulée, mais plus de stress pour l'animal. Certaines compagnies refusent les animaux en soute selon les températures extérieures.
+
+**Compagnies acceptant les animaux :** Air France, Japan Airlines (JAL), ANA. Vérifiez les conditions spécifiques à la réservation.
+
+## Coûts estimés de la procédure complète
+
+| Poste | Coût estimé |
+|-------|------------|
+| Microchip (si absent) | 50 à 80 euros |
+| Vaccinations (primo + rappel) | 80 à 150 euros |
+| Test FAVN laboratoire | 150 à 250 euros |
+| Certificat sanitaire officiel | 80 à 200 euros (variable selon département) |
+| Supplément transport en cabine | 50 à 200 euros selon compagnie |
+| **Total estimé** | **400 à 900 euros** |
+
+## FAQ
+
+**Peut-on accélérer la procédure si on a moins de 6 mois avant le départ ?**
+
+Non. Le délai de 180 jours post-test FAVN est incompressible. Si vous ne pouvez pas le respecter, votre animal sera mis en quarantaine à l'arrivée (180 jours, à vos frais, environ 300 à 400 USD par mois selon les installations).
+
+**Les chats sont-ils soumis aux mêmes règles que les chiens ?**
+
+Oui, exactement les mêmes règles s'appliquent aux chats et aux chiens.
+
+**Les hôtels et appartements japonais acceptent-ils les animaux ?**
+
+Peu d'appartements locatifs standards acceptent les animaux. Certains share houses ont des politiques "animaux bienvenus". Consultez notre [guide des quartiers pour expatriés](/blog/quartiers-tokyo-expatries-guide) pour trouver les zones où les logements "pet-friendly" sont plus fréquents.
+
+---
+
+*Pour votre logement à Tokyo, notre [guide de recherche d'appartement](/blog/trouver-appartement-tokyo-etranger) vous aide à trouver un bien adapté à votre situation. Pour toutes les démarches administratives après l'arrivée, voir notre [checklist déménagement Japon](/blog/demenager-japon-checklist-complete).*
+    `.trim(),
+  },
+  {
+    slug: 'quartiers-tokyo-familles-expatriees-guide',
+    locale: 'fr',
+    title: 'Meilleurs quartiers de Tokyo pour familles expatriées 2026',
+    description: 'Setagaya, Meguro, Minato ou Yokohama : guide des meilleurs quartiers de Tokyo pour les familles expatriées avec enfants, écoles internationales, sécurité et loyers.',
+    date: '2026-06-21',
+    readingTime: '9 min',
+    content: `
+## Choisir son quartier à Tokyo quand on a des enfants
+
+Pour une famille expatriée, le choix du quartier est plus contraignant qu'pour un célibataire. Trois facteurs dominent la décision : la proximité de l'école internationale des enfants, la surface disponible pour le loyer payé, et l'accès aux équipements familiaux (parcs, supermarchés, hôpitaux). Ce guide passe en revue les zones les plus plébiscitées par les familles étrangères résidant à Tokyo.
+
+## Setagaya-ku : le quartier famille par excellence
+
+Setagaya est l'arrondissement préféré des familles expatriées depuis des décennies. Ses avantages :
+
+**Surface et verdure :** grandes maisons (kodate) disponibles, nombreux parcs dont le parc de Shinjuku Gyoen (accessible en 20 min) et les zones vertes de Sangenjaya. Les rues résidentielles sont calmes et piétonnes.
+
+**Transports :** lignes Tokyu Den-en-toshi, Tokyu Setagaya et Odakyu. Trajet vers Shibuya en 10 à 20 minutes selon l'emplacement.
+
+**Ecoles internationales à proximité :** Tokyo International School (réseau IBO), Seisen International School, Nishimachi International School.
+
+**Loyers typiques :** appartements 3LDK (3 chambres + salon) entre 200 000 et 350 000 ¥/mois. Maisons (kodate) entre 300 000 et 500 000 ¥/mois.
+
+**Zones recommandées dans Setagaya :** Yoga, Sangenjaya, Daikanyama (limite Shibuya), Shimokitazawa pour un esprit plus bohème.
+
+## Meguro-ku : central, calme et pratique
+
+Meguro est populaire pour sa position centrale et son ambiance résidentielle tranquille malgré la proximité de Shibuya (10 minutes) et Shinjuku (15 minutes).
+
+**Nakameguro et Aobadai** sont les zones les plus demandées. Nombreux restaurants et cafés, bonne communauté internationale, crèches bilingues.
+
+**Ecoles à proximité :** Tokyo British School (Jiyugaoka), ASIJ (American School in Japan, accès par Jiyugaoka).
+
+**Loyers typiques :** 2LDK entre 180 000 et 280 000 ¥/mois. Moins d'espace qu'à Setagaya pour le même prix.
+
+## Minato-ku et Shirokane : prestige et confort
+
+Minato est l'arrondissement premium de Tokyo, abritant de nombreuses ambassades, le quartier d'Azabu-Juban et Hiroo.
+
+**Avantages :** communauté internationale très dense, supermarchés étrangers (National Azabu, Hiroo Stores), hôpitaux avec médecins anglophones, garde d'enfants premium.
+
+**Transports :** Hibiya Line, Namboku Line, Mita Line. Accès Roppongi et Shibuya en moins de 15 minutes.
+
+**Ecoles à proximité :** Nishimachi (Moto-Azabu), ASIJ, Tokyo International School.
+
+**Loyers typiques :** plus élevés que Setagaya. 3LDK entre 300 000 et 600 000 ¥/mois selon l'immeuble.
+
+## Yokohama : l'alternative plus spacieuse
+
+Yokohama est souvent ignorée par les expatriés qui se concentrent sur les 23 arrondissements de Tokyo, mais c'est une erreur. A 25 à 40 minutes de Shibuya en ligne directe, Yokohama offre des appartements 15 à 25 % moins chers pour une surface supérieure.
+
+**Zones recommandées :** Motomachi-Chinatown, Yamate, Minato Mirai, Tsunashima.
+
+**Ecoles internationales :** Yokohama International School (YIS, IBO), St. Maur International School, Yokohama YMCA Academy.
+
+**Loyers typiques :** 3LDK entre 140 000 et 220 000 ¥/mois, maisons (kodate) entre 200 000 et 350 000 ¥/mois.
+
+## Comparatif résumé
+
+| Zone | Loyer 3LDK | Esprit | Ecoles INT à proximité |
+|------|-----------|--------|----------------------|
+| Setagaya | 200-350k ¥ | Résidentiel, verdure | Seisen, TIS, Nishimachi |
+| Meguro | 180-280k ¥ | Central, branché | BST, ASIJ |
+| Minato (Hiroo/Azabu) | 300-600k ¥ | Prestige, commodités | Nishimachi, ASIJ |
+| Yokohama | 140-220k ¥ | Espace, calme | YIS, St Maur |
+
+## Conseils pratiques pour les familles
+
+**Vérifiez le secteur scolaire avant de signer le bail.** Les écoles internationales n'ont pas de secteur scolaire au sens strict, mais la navette scolaire couvre des zones précises. Confirmez que l'adresse de votre futur appartement est desservie.
+
+**Privilégiez un immeuble avec une salle de jeux ou une cour.** De nombreux immeubles résidentiels modernes à Tokyo n'ont pas d'espaces communs. Pour les familles avec jeunes enfants, la proximité d'un parc est cruciale.
+
+**Testez le trajet école en heures de pointe.** Ce qui semble simple en dehors des heures de pointe peut devenir éprouvant à 7h30 avec des enfants.
+
+## FAQ
+
+**Les Japonais acceptent-ils les familles avec enfants comme locataires ?**
+
+Oui, en général. Les familles sont même souvent préférées aux groupes de jeunes adultes par les propriétaires. Certains immeubles anciens sont moins bien insonorisés pour les enfants en bas âge. Notre [guide de location à Tokyo](/blog/trouver-appartement-tokyo-etranger) décrit comment présenter votre dossier de manière optimale.
+
+**Les crèches et jardins d'enfants publics acceptent-ils les étrangers ?**
+
+Oui, sous réserve de places disponibles. L'inscription se fait via la mairie de l'arrondissement. Prévoyez une liste d'attente dans les zones très demandées (Minato, Setagaya). Les mairies disposent généralement de services de traduction pour les familles étrangères.
+
+---
+
+*Pour votre logement dans ces quartiers, consultez notre [guide de recherche d'appartement à Tokyo](/blog/trouver-appartement-tokyo-etranger) ou [contactez-nous](/contact) pour une sélection ciblée selon votre école et votre budget.*
+    `.trim(),
+  },
+  {
+    slug: 'tokyo-osaka-ou-vivre-expatrie-comparatif',
+    locale: 'fr',
+    title: 'Tokyo ou Osaka pour vivre : comparatif expatrié 2026',
+    description: 'Coût de la vie, emploi, logement et ambiance : comparaison complète entre Tokyo et Osaka pour choisir la meilleure ville japonaise pour votre expatriation en 2026.',
+    date: '2026-06-21',
+    readingTime: '8 min',
+    content: `
+## Tokyo vs Osaka : quelle ville choisir pour s'expatrier au Japon ?
+
+La question revient souvent chez les expatriés qui découvrent que le Japon ne se résume pas à Tokyo. Osaka, deuxième agglomération économique du Japon avec 2,7 millions d'habitants en ville centrale (19 millions dans l'agglomération Keihanshin avec Kobe et Kyoto), offre une alternative sérieuse à la capitale. Ce comparatif vous aide à choisir.
+
+## Emploi et économie : Tokyo sans équivalent
+
+Pour la grande majorité des secteurs professionnels, Tokyo reste sans équivalent.
+
+**Tokyo :** siège de 60 % des multinationales opérant au Japon, du secteur financier (Marunouchi, Otemachi), de la tech (Shibuya, Minato), des médias et de la mode. Le marché de l'emploi anglophone est le plus développé du pays.
+
+**Osaka :** forte en commerce international (le port d'Osaka est le deuxième de la région), en pharmaceutique (Takeda, Shionogi), en agroalimentaire (Nestlé Japan, Ajinomoto) et en technologie industrielle (Panasonic, Sharp). Le marché anglophone existe mais reste plus étroit.
+
+**Verdict emploi :** Tokyo pour la finance, la tech, les multinationales, les postes de direction. Osaka si votre secteur spécifique y est représenté ou si vous créez votre propre activité.
+
+## Coût de la vie : Osaka moins cher, mais pas révolutionnaire
+
+| Poste | Tokyo | Osaka |
+|-------|-------|-------|
+| Loyer 1LDK (central) | 100 000 à 180 000 ¥/mois | 70 000 à 130 000 ¥/mois |
+| Repas restaurant moyen | 1 000 à 2 000 ¥ | 800 à 1 500 ¥ |
+| Courses hebdomadaires pour 1 personne | 5 000 à 8 000 ¥ | 4 000 à 7 000 ¥ |
+| Abonnement transport mensuel (trajet moyen) | 10 000 à 15 000 ¥ | 8 000 à 12 000 ¥ |
+
+Osaka est généralement 15 à 25 % moins chère que Tokyo sur le logement. Pour la nourriture, la différence est réelle mais moins marquée.
+
+**Avantage spécifique d'Osaka :** la gastronomie. Osaka a la réputation (méritée) d'être la capitale culinaire du Japon. Les prix des restaurants y sont souvent inférieurs pour une qualité équivalente ou supérieure.
+
+## Logement : Osaka plus accessible
+
+Pour un appartement 1LDK central (Namba, Shinsaibashi, Umeda), comptez 70 000 à 120 000 ¥/mois. L'équivalent à Shibuya ou Shinjuku à Tokyo serait 100 000 à 160 000 ¥/mois.
+
+Osaka dispose aussi de nombreux quartiers résidentiels de qualité à 30 à 45 minutes du centre (Toyonaka, Suita, Nishinomiya) où les loyers sont encore plus abordables.
+
+En revanche, l'offre d'appartements meublés ou de share houses premium pour expatriés est beaucoup moins développée qu'à Tokyo. Notre [guide sur les appartements meublés à Tokyo](/blog/appartement-meuble-tokyo-expats) n'a pas d'équivalent pour Osaka : le marché y est moins structuré.
+
+## Transports : les deux villes sont excellentes
+
+Les deux métros sont efficaces, ponctuels et bien couverts. Osaka est de taille plus compacte que Tokyo, ce qui rend les trajets globalement plus courts.
+
+**Osaka :** 8 lignes de métro (Municipal Subway), réseau JR, lignes privées Hankyu, Hanshin, Kintetsu, Nankai. Le trajet depuis Namba jusqu'à la gare d'Osaka dure 10 minutes.
+
+**Tokyo :** réseau métro plus étendu (13 lignes), plus de lignes JR et de lignes privées. Les trajets sont plus longs mais la couverture est extrêmement dense.
+
+**Avantage Osaka :** accès rapide à Kyoto (15 minutes en Shinkansen ou 28 minutes par Hankyu), Kobe (30 minutes) et Nara (40 minutes). Ideal pour les weekends.
+
+## Ambiance et qualité de vie
+
+L'ambiance des deux villes est fondamentalement différente.
+
+**Tokyo :** plus formelle, plus internationale, plus verticale dans ses hiérarchies sociales. Les Tokyoïtes ont la réputation d'être moins spontanément chaleureux avec les étrangers, mais la communauté expatriée y est extrêmement développée avec de nombreux événements dédiés.
+
+**Osaka :** les habitants d'Osaka (Osakans) ont la réputation d'être les plus chaleureux et les plus directs du Japon. Le dialecte local (Kansai-ben) est coloré et expressif. La culture de rue (takoyaki, okonomiyaki), les marchés d'Osaka (Kuromon Ichiba), et l'esprit commerçant de la ville créent une atmosphère différente.
+
+## Pour qui choisir quoi ?
+
+| Profil | Tokyo | Osaka |
+|--------|-------|-------|
+| Cadre multinational | Idéal | Possible si secteur représenté |
+| Entrepreneur / freelance | Bonne communauté | Plus calme, coûts inférieurs |
+| Famille avec enfants | Plus d'écoles INT | Moins d'options INT |
+| Budget serré | Challenging | Plus accessible |
+| Aime la gastronomie / ambiance locale | Bien mais formel | Excellent |
+| Envisage des weekends fréquents à Kyoto | 2h30 Shinkansen | 15 min Shinkansen |
+
+## FAQ
+
+**Peut-on travailler à Tokyo depuis Osaka ?**
+
+La distance Tokyo-Osaka est de 515 km, soit 2h30 en Shinkansen (environ 13 000 ¥ aller simple). Certains professionnels font ce trajet hebdomadaire en bullet train (shinkansen teiki), un abonnement annuel existant. C'est inhabituel mais pratiqué dans certains secteurs.
+
+**Les démarches administratives sont-elles identiques à Tokyo ?**
+
+Oui, les procédures (carte de résidence, assurance maladie, compte bancaire, numéro My Number) sont les mêmes partout au Japon. Les formalités se font auprès de votre mairie locale.
+
+---
+
+*Si Tokyo est votre choix, notre [guide complet de logement pour expatriés](/blog/trouver-appartement-tokyo-etranger) vous aide à trouver un appartement rapidement. Pour les démarches d'arrivée, consultez notre [checklist déménagement Japon](/blog/demenager-japon-checklist-complete).*
+    `.trim(),
+  },
+  {
+    slug: 'send-money-to-japan-from-abroad',
+    locale: 'en',
+    title: 'How to Send Money to Japan from Abroad (2026)',
+    description: 'Wise, Revolut or bank transfer: compare the best ways to transfer money to Japan in 2026. Honest fee comparison, transfer limits and tips for expats receiving income abroad.',
+    date: '2026-06-21',
+    readingTime: '7 min',
+    content: `
+## Sending Money to Japan: Your Options in 2026
+
+Whether you receive a salary from abroad, repay a loan at home, or send money to family, international transfers are a regular part of expat life in Japan. Traditional banks make this expensive. Here is an honest comparison of the best alternatives.
+
+## Wise: The Go-To for Most Japan Expats
+
+Wise (formerly TransferWise) uses the real mid-market exchange rate with no hidden markup. This makes it consistently the most competitive option for transfers to Japan.
+
+**Typical fees EUR to JPY:**
+- Fixed fee: approximately 0.40 EUR + 0.47% of the amount
+- For a 1,000 EUR transfer: around 5 to 6 EUR total in fees
+- Transfer time: instant to 24 hours for most currencies
+
+**Receiving on a Japanese bank account:** Wise supports transfers to most Japanese banks. You will need your 3-digit branch code (店番), 7-digit account number (口座番号), and account type (普通 for standard savings). Rakuten Bank, PayPay Bank and Shinsei Bank receive Wise transfers without reception fees. For opening a Japanese bank account, see our [guide to opening a bank account in Japan](/blog/open-bank-account-japan-foreigner).
+
+## Revolut: Best for Frequent Small Amounts
+
+The free Revolut plan offers up to 1,000 EUR of currency exchange per month at the interbank rate (excluding weekends). The Premium plan at 7.99 EUR per month removes this cap.
+
+**Strengths:** simple interface, JPY virtual card available, instant notification.
+
+**Limitation:** on weekends, Revolut adds a 0.5 to 1% markup on the exchange rate. For large transfers, Wise remains more competitive.
+
+## Traditional Bank Wire (SWIFT): Avoid If Possible
+
+A standard SWIFT transfer from a UK, US or French bank to a Japanese bank typically costs:
+
+- 25 to 45 EUR in fixed outgoing fees
+- A 2 to 4% exchange rate margin
+- 1,000 to 2,000 ¥ in reception fees at the Japanese end
+
+For a 1,000 EUR transfer, you lose 60 to 90 EUR more than with Wise. Over a year with monthly transfers, the difference exceeds 700 EUR.
+
+## Comparison Table
+
+| Service | Fees on 1,000 EUR | Speed | Best use |
+|---------|------------------|-------|----------|
+| Wise | 5 to 6 EUR | 0 to 1 day | Regular transfers of any amount |
+| Revolut (free) | 0 EUR up to 1,000 EUR/month | 1 to 2 days | Frequent small amounts |
+| Western Union | 15 to 25 EUR | 0 to 1 day | Emergencies only |
+| Bank wire (SWIFT) | 60 to 90 EUR | 3 to 5 days | Avoid |
+
+## Best Japanese Accounts for Receiving International Transfers
+
+**PayPay Bank:** accepts SWIFT and Wise transfers, fully English interface, can be opened online with a residence card. Best option for new arrivals.
+
+**Rakuten Bank:** well integrated with Wise, bilingual interface, no reception fees.
+
+**Shinsei Bank:** historically the expat bank of choice in Tokyo. English customer support available, free international incoming transfers.
+
+## Tax Considerations
+
+If you live in Japan and receive income from abroad, this income is generally subject to Japanese income tax depending on your residency status. Tax returns are filed each March for the previous calendar year. See our [complete Japan income tax guide for foreigners](/blog/japan-income-tax-foreigners-guide) for details on your obligations.
+
+## FAQ
+
+**Can I use Wise to send money from Japan back to Europe?**
+
+Yes. Wise works in both directions. The JPY to EUR direction is available with similar competitive fees.
+
+**Are there transfer limits?**
+
+Wise allows up to the equivalent of 1 million GBP per transfer. Free Revolut caps currency exchange at 1,000 EUR per month at the interbank rate.
+
+**Do I need to declare international transfers received in Japan?**
+
+The transfers themselves are not automatically reported, but the income they represent is. The NTA (National Tax Agency) may request justification for large or regular incoming transfers.
+
+---
+
+*For banking setup in Japan, our [bank account opening guide](/blog/open-bank-account-japan-foreigner) covers the best banks for expats. For your full relocation to Tokyo, see our [complete moving checklist](/blog/moving-to-tokyo-checklist-2026).*
+    `.trim(),
+  },
+  {
+    slug: 'japanese-language-schools-tokyo-guide',
+    locale: 'en',
+    title: 'Best Japanese Language Schools in Tokyo (2026 Guide)',
+    description: 'Coto Academy, ISI, Berlitz or online lessons: compare Japanese language schools in Tokyo by price, teaching method and schedule to find the right fit for your level and goals.',
+    date: '2026-06-21',
+    readingTime: '8 min',
+    content: `
+## Learning Japanese in Tokyo: Where to Start
+
+Even in a fully English-speaking work environment, knowing Japanese dramatically changes the quality of life in Tokyo. For administrative tasks, apartment hunting, medical appointments and everyday interactions, a few hundred words make the experience completely different. This guide compares the main options for resident expats.
+
+## Coto Academy: Best for Working Professionals
+
+Coto Academy is arguably the Japanese school best adapted to expats who hold a full-time job. All instruction is in English, and the schedule includes evening and weekend options.
+
+**Strengths:**
+- Small groups of 4 to 6 students maximum
+- Content focused on real-life situations and business Japanese
+- Evening classes available from 19:00
+- Locations in Shinjuku, Ichigaya and online
+
+**Typical cost:** 15,000 to 30,000 ¥ per month for group classes depending on intensity. Private lessons at approximately 4,000 to 5,000 ¥ per hour.
+
+## ISI Language School: Best for Full-Time Students
+
+ISI is primarily designed for students on a student visa who want to prepare for the JLPT (Japanese Language Proficiency Test) or apply to a Japanese university. Less flexible for professionals in employment, but with a solid, structured curriculum.
+
+**Available levels:** complete beginner through JLPT N1. Programs of 6 to 24 months with support for obtaining a student visa.
+
+## Berlitz Japan: Best for Corporate Learners
+
+Berlitz offers one-to-one lessons tailored to corporate clients. Ideal if your employer covers language training costs.
+
+**Strength:** highly flexible scheduling, lessons possible at your office or home. Trainers available in the evening and on weekends.
+
+**Weakness:** among the most expensive options, limited group conversation classes.
+
+## Apps and Online Resources: Your Essential Complement
+
+For expats short on time, or to reinforce classroom learning:
+
+- **Anki:** flashcard software for kanji and vocabulary. Free and very effective with 20 minutes daily.
+- **WaniKani:** kanji learning via radicals, gamified progression. 9 USD per month.
+- **iTalki:** online lessons with native Japanese tutors. 15 to 25 USD per hour.
+- **NHK Web Easy:** real news articles written in simplified Japanese. Free.
+- **HelloTalk:** language exchange with native Japanese speakers learning your language.
+
+## Understanding JLPT Levels
+
+The JLPT (日本語能力試験) is the international standard for certifying Japanese proficiency. Five levels from N5 (beginner) to N1 (near-native). For everyday life in Tokyo, N4 is comfortably sufficient. To work in Japanese, N2 is generally expected.
+
+| Level | Description | Approximate study hours |
+|-------|-------------|------------------------|
+| N5 | Hiragana, katakana, 100 kanji, basic phrases | 150 hours |
+| N4 | Simple daily conversations | 300 hours |
+| N3 | Signs, simplified news, basic reading | 450 hours |
+| N2 | Partial Japanese work environment | 600 hours |
+| N1 | Professional native-equivalent level | 900+ hours |
+
+## First Priority: Master Hiragana and Katakana
+
+Before enrolling in any school, invest 2 to 3 weeks in memorising hiragana and katakana. These two 46-character syllabaries cover all spoken Japanese and a large part of written Japanese. Apps like Kana Mind or Duolingo teach them in 10 to 20 minutes per day. Once mastered, every lesson at school becomes twice as efficient.
+
+## Realistic Monthly Budgets
+
+| Option | Monthly cost | Learning pace |
+|--------|-------------|--------------|
+| Group classes (Coto, ISI) | 15,000 to 30,000 ¥ | Fast with structure |
+| Private lessons | 40,000 to 80,000 ¥ | Very fast |
+| Apps only | 1,000 to 2,000 ¥ | Slow without discipline |
+| Online tutors (iTalki) | 10,000 to 20,000 ¥ | Flexible |
+
+## FAQ
+
+**Is Japanese necessary to live in Tokyo?**
+
+Not strictly. But expats who learn, even at a basic level, report a significantly richer and less stressful experience. Administrative barriers are real in Japan.
+
+**Does knowing Japanese help find an apartment?**
+
+Definitely. Even basic phrases help with agency visits and understanding contract terms. Our [guide to finding an apartment in Tokyo](/blog/find-apartment-tokyo-foreigner) explains the full rental process step by step.
+
+**Which option if I work five days a week?**
+
+Coto Academy for group evening classes, and iTalki for flexible weekend private lessons.
+
+---
+
+*For your full Tokyo setup, our [Tokyo expat moving checklist](/blog/moving-to-tokyo-checklist-2026) covers all administrative steps. For housing, see our [guide to finding an apartment in Tokyo](/blog/find-apartment-tokyo-foreigner).*
+    `.trim(),
+  },
+  {
+    slug: 'convert-foreign-driving-licence-japan',
+    locale: 'en',
+    title: 'How to Convert Your Foreign Driving Licence in Japan',
+    description: 'Step-by-step guide to converting a EU, US, UK, Canadian or Australian driving licence to a Japanese licence in 2026: required documents, test centres and costs explained.',
+    date: '2026-06-21',
+    readingTime: '8 min',
+    content: `
+## Converting a Foreign Driving Licence in Japan: What You Need to Know
+
+Japan recognises foreign licences under the Geneva Convention, but only for temporary visitors. Once you become a resident (residence card obtained), you must convert your foreign licence to a Japanese one to drive legally. The good news: nationals of France, most EU countries, Australia, New Zealand, Canada and the UK benefit from a simplified procedure with no practical driving test.
+
+## Countries Eligible for Simplified Conversion (No Driving Test)
+
+The list includes France, Belgium, Switzerland, Germany, Italy, the Netherlands, Australia, New Zealand, Canada, the United Kingdom, and most EU member states.
+
+US nationals are generally NOT eligible for simplified conversion (with some state exceptions) and must pass a practical driving test.
+
+## Required Documents
+
+1. Your original foreign driving licence
+2. An official Japanese translation of your licence (JAF translates most EU licences; see below)
+3. Your original passport plus photocopy (all pages with stamps)
+4. Your residence card (zairyu card) plus photocopy
+5. Your resident certificate (juminhyo) from your ward office
+6. 2 recent passport photos (30 mm x 24 mm, white background)
+7. Proof that you were resident in your home country for at least 3 months after your licence was issued (bank statements, employment contract or multiple passport entry stamps)
+
+**JAF translation:** The Japan Automobile Federation (JAF) provides official translations for most European licences. Cost: approximately 3,000 ¥. Processing time: 1 to 5 business days. Find your nearest JAF branch at jaf.or.jp.
+
+## Where to Go: Licence Examination Centres
+
+Conversion is processed only at official driver's licence examination centres (運転免許試験場). For Tokyo:
+
+- **Fuchu Driver's Licence Centre:** accessible from Kokubunji by bus (10 minutes)
+- **Koto Driver's Licence Centre:** accessible from Tatsumi station (Rinkai Line)
+- **Samezu Driver's Licence Centre:** accessible from Samezu station (Keikyu Line)
+
+No online appointment system exists. Arrive at opening time (typically 8:30) and expect to spend a full day.
+
+## The Simplified Conversion Process (Eligible Countries)
+
+1. Document check at the counter (allow 30 to 60 minutes for review)
+2. Vision and colour test (approximately 5 minutes)
+3. Written highway code questionnaire (10 questions, available in English and several other languages)
+4. Wait and collection of Japanese licence (usually the same day)
+
+**Total cost:** approximately 2,350 ¥ for the Japanese licence, plus JAF translation fees.
+
+## Practical Driving Test (Non-Eligible Countries)
+
+If your country is not eligible for simplified conversion, you must complete:
+
+1. A written road rules test (available in English, Chinese, French and other languages)
+2. A practical driving test on a dedicated circuit (not on public roads)
+
+The practical test follows a very precise Japanese protocol: specific mirror checks, hand placement, verbal confirmations at intersections. Many applicants fail on their first attempt due to unfamiliarity with the procedure rather than actual driving ability. Preparation courses in English are available at some centres.
+
+## The Critical 3-Month Rule
+
+Japanese authorities must verify that you were actually using your licence in your home country for at least 3 months after it was issued. If your passport shows that you arrived in Japan within 3 months of obtaining your licence, the conversion may be refused.
+
+In this case, you typically need to wait or provide additional evidence: bank statements, utility bills, employment records in your home country dated after the licence issue date.
+
+## What About an International Driving Permit?
+
+An International Driving Permit (IDP) under the Geneva Convention is valid in Japan for one year after arrival. However, once you register at a ward office and obtain a juminhyo (resident certificate), you are treated as a resident and must convert your licence. Continuing to drive on an IDP as a registered resident is an infraction.
+
+## FAQ
+
+**How long is the process from start to finish?**
+
+The actual conversion day takes 4 to 8 hours at the centre. But preparation time matters: gathering documents, getting the JAF translation (up to 5 days) and booking a day off work typically means 1 to 2 weeks of preparation.
+
+**Is the Japanese licence permanent?**
+
+Yes. A Japanese licence obtained by conversion is identical to one obtained by examination. It renews on the same schedule: every 3 to 5 years depending on your driving record.
+
+**Can I drive in Japan with just an EU or UK licence?**
+
+For the first year after arrival (or as a tourist), yes, with an IDP. As a registered resident, you must convert. Traffic fines for driving on an expired conversion right are the same as for unlicensed driving.
+
+---
+
+*For housing near convenient transport links, our [Tokyo neighbourhoods guide for expats](/blog/tokyo-neighbourhoods-expats-guide) helps you choose by commute line. For all administrative steps after arrival, see our [complete moving checklist](/blog/moving-to-tokyo-checklist-2026).*
+    `.trim(),
+  },
+  {
+    slug: 'international-moving-company-japan-guide',
+    locale: 'en',
+    title: 'Best International Moving Companies to Japan (2026)',
+    description: 'Crown Relocations, Asian Tigers or Nippon Express: compare international movers to Japan on price, service and container options. Practical guide for expats shipping belongings.',
+    date: '2026-06-21',
+    readingTime: '8 min',
+    content: `
+## Shipping Your Belongings to Japan: How to Choose a Mover
+
+An international move to Japan from Europe or North America takes 4 to 8 weeks by sea, or 5 to 10 days by air. Japanese customs rules are strict, paperwork is significant, and lead times are often underestimated. This guide gives you what you need to select the right provider and avoid the most common mistakes.
+
+## The Main International Movers Operating to Japan
+
+### Crown Relocations
+
+Crown is one of the global leaders in corporate relocation and operates one of the largest Japan-specific networks. Their service is end-to-end: professional packing, ocean or air freight, Japanese customs clearance, delivery and assembly.
+
+**Strengths:** complete all-inclusive service, bilingual coordinators, full insurance options, deep Japan experience.
+
+**Estimated cost:** 3,000 to 8,000 USD for a 50 to 80 sqm apartment by sea (20 to 30 cubic metres).
+
+### Asian Tigers Japan
+
+Asian Tigers specialises in international relocation across Asia. Their pricing is typically 10 to 20% below Crown with comparable service quality.
+
+**Strengths:** competitive pricing, strong English-language customer service, experienced customs clearance team in Japan.
+
+### Nippon Express International
+
+Nippon Express is Japan's dominant logistics operator. Their advantage: unmatched last-mile delivery network across Japan, including rural areas.
+
+**Best for:** expats who want to ship belongings before arrival and receive them reliably anywhere in Japan.
+
+### Yamato Transport (International Takkyubin)
+
+For small volumes, Yamato offers international parcel shipping (TA-Q-BIN International) from many countries. Practical for clothes, books and electronics without heavy furniture.
+
+## Sea Freight vs Air Freight
+
+| Criteria | Sea (FCL/LCL) | Air |
+|----------|---------------|-----|
+| Transit time | 4 to 8 weeks | 5 to 10 days |
+| Cost per cubic metre | 100 to 200 USD | 400 to 800 USD |
+| Minimum recommended volume | 5 cbm (LCL) | Any |
+| Best for | Furniture, appliances, large quantities | Clothes, documents, urgent items |
+
+Most expats use a hybrid approach: essential items by air (checked luggage or air freight) and the bulk by shared sea container (LCL).
+
+## Japanese Customs Rules
+
+**What enters duty-free:** personal used effects, clothing, books, personal computers. No value limit for genuinely used personal belongings.
+
+**What is taxed:** new electronics, alcohol above quotas, some food items.
+
+**What is prohibited:** certain medications that are legal in other countries (including some ADHD medications, certain antihistamines, and products containing pseudoephedrine). Verify your medications against Japan's restricted list before shipping.
+
+**Customs certificate:** to benefit from the duty exemption on personal effects, you need documentation confirming your resident status in Japan (visa, residence card or consular letter).
+
+## Practical Timeline
+
+**3 months before:** request quotes from at least 3 providers. Book your sea freight slot as early as possible, especially for June-September departures (peak corporate relocation season).
+
+**6 weeks before:** prepare a detailed inventory list (required by Japanese customs). Sort and sell or donate anything not worth the shipping cost.
+
+**4 weeks before:** professional packing if included in your contract. Otherwise, begin packing low-priority rooms.
+
+**On arrival:** your mover handles customs clearance, but you or an authorised representative must be present for delivery. Confirm elevator access or notify your landlord in advance for large items.
+
+## Estimated Total Cost for Different Move Sizes
+
+| Move size | Sea freight cost |
+|-----------|-----------------|
+| Studio or 1-bedroom (10 to 15 cbm) | 1,500 to 3,500 USD |
+| 2-bedroom apartment (20 to 30 cbm) | 3,000 to 6,000 USD |
+| Family home (40 to 60 cbm) | 5,000 to 10,000 USD |
+
+Costs above include packing, transport, customs clearance and delivery. Insurance is typically quoted separately at 0.5 to 1% of declared value.
+
+## What to Leave Behind
+
+Japanese apartments are significantly smaller than European or American homes. A 3LDK (three-bedroom) Japanese apartment is approximately 75 to 90 sqm. European sofas, beds, and wardrobes often do not fit through Japanese doorways or elevators. Many expats store or sell large furniture rather than ship it.
+
+See our [Tokyo neighbourhoods guide](/blog/tokyo-neighbourhoods-expats-guide) for typical apartment layouts by area, and our [furnished apartment guide](/blog/furnished-apartment-tokyo-no-guarantor) if you prefer to arrive and find a ready-to-live-in space.
+
+## FAQ
+
+**Do I need to be present in Japan for delivery?**
+
+Generally yes. Most movers require your presence or an authorised representative to sign delivery documents and inspect for damage.
+
+**Can I ship a car to Japan?**
+
+Yes, but it is complex and expensive. Japan drives on the left, so right-hand drive vehicles from Australia and the UK are simpler to register. Left-hand drive vehicles require a safety inspection and often modifications.
+
+---
+
+*For your housing in Japan once your belongings arrive, see our [guide to finding an apartment in Tokyo](/blog/find-apartment-tokyo-foreigner) or [contact us](/contact) for a personalised apartment search.*
+    `.trim(),
+  },
+  {
+    slug: 'bringing-pets-to-japan-guide',
+    locale: 'en',
+    title: 'Bringing Pets to Japan: Import Guide for Cats and Dogs',
+    description: 'How to bring your cat or dog to Japan without a 180-day quarantine: rabies titre test, microchip, health certificate and the exact timeline to follow in 2026.',
+    date: '2026-06-21',
+    readingTime: '9 min',
+    content: `
+## Importing Pets to Japan: Strict Rules, Manageable Process
+
+Japan applies one of the strictest animal import protocols in the world. The procedure is long and must be followed precisely. If any step is missed or timed incorrectly, your pet may face a mandatory 180-day quarantine in a government facility at your expense. This guide covers cats and dogs imported from Europe, Canada and Australia.
+
+Most European countries (including France, Germany, the UK, Italy, Spain, the Netherlands and Belgium) are classified in Japan's "Zone B." This means you can avoid quarantine entirely, but only if you follow a very precise step-by-step protocol over at least 7 months before travel.
+
+## The 8-Step Protocol (Zone B Countries)
+
+**Step 1: ISO Microchip**
+
+Your pet must be identified with a microchip compliant with ISO 11784 or 11785 standard. If your pet has an older non-ISO chip, a new one must be implanted before any vaccination. Microchipping must be done first.
+
+**Step 2: First Rabies Vaccination**
+
+Administered after the microchip is confirmed to be reading correctly. The vaccine batch number and date must be recorded in your vet's records.
+
+**Step 3: Rabies Booster**
+
+If your pet had no previous valid rabies vaccination, a booster is required 30 days after the primary shot.
+
+**Step 4: Rabies Neutralising Antibody Test (FAVN or RFFIT)**
+
+This is the most critical step. A blood sample is collected by your vet and sent to a laboratory accredited by Japan. The result must be 0.5 IU/ml or higher.
+
+Accredited laboratories in Europe include ANSES Nancy (France), the national veterinary institute in the Netherlands (CIDC), and several others. Check the current list on Japan's Animal Quarantine Service website (maff.go.jp/aqs).
+
+**Step 5: Wait 180 Days**
+
+After a passing FAVN result, you must wait exactly 180 days before bringing your pet to Japan. This is the major constraint. If you are moving in 9 months, start the protocol today.
+
+**Step 6: Official Health Certificate**
+
+No earlier than 7 days before export, your vet (working with your national authority) issues an official export health certificate. This must be endorsed by the relevant government authority and submitted to Japan's Animal Quarantine Service.
+
+**Step 7: Pre-Arrival Notification**
+
+At least 40 days before arrival, submit an import notification to Japan's Animal Quarantine Service online. Without this, your pet cannot enter Japan.
+
+**Step 8: Arrival Inspection**
+
+At Narita or Haneda airport, your pet goes through an animal quarantine inspection (typically 1 to 3 hours if all documents are in order). If everything is correct, your pet joins you directly.
+
+## Recommended Timeline
+
+| Step | Time before Japan arrival |
+|------|--------------------------|
+| Microchip implanted | 8+ months |
+| Primary rabies vaccination | 7.5 months |
+| Booster vaccination (if needed) | 7 months |
+| FAVN blood test sent to lab | 6.5 months |
+| FAVN result received (start 180-day count) | 6 months |
+| Pre-arrival notification filed | 40 days |
+| Health certificate issued | 7 to 10 days |
+
+## Flying to Japan with a Pet
+
+**In cabin:** accepted by some airlines (Air France, Japan Airlines, ANA) for small pets under approximately 8 kg including the carrier. The carrier must fit under the seat in front. Book early as spots are strictly limited.
+
+**In hold (cargo animal):** for larger pets. Temperature regulated, but more stressful for the animal. Some airlines refuse hold animals above certain outside temperatures. Avoid summer travel (July to August) if possible.
+
+**Airlines accepting pets on Japan routes:** Air France, JAL, ANA, Lufthansa. Always confirm pet policy at booking as rules change.
+
+## Complete Cost Estimate
+
+| Item | Estimated cost |
+|------|---------------|
+| Microchip (if absent) | 50 to 100 EUR |
+| Vaccinations (primary and booster) | 80 to 150 EUR |
+| FAVN laboratory test | 150 to 300 EUR |
+| Official health certificate | 80 to 250 EUR |
+| In-cabin air supplement | 50 to 200 EUR |
+| **Total** | **450 to 1,000 EUR** |
+
+## Finding Pet-Friendly Housing in Tokyo
+
+Very few standard Tokyo rental apartments accept pets. The market for pet-friendly accommodation is narrow and more expensive. Some share houses with specific "pet welcome" policies exist. The Setagaya and Nerima wards, with more low-rise residential buildings, tend to have slightly better availability.
+
+For housing tips, our [guide to finding an apartment in Tokyo](/blog/find-apartment-tokyo-foreigner) explains how to communicate pet ownership clearly in your application and which agencies have experience placing expats with animals.
+
+## FAQ
+
+**Can I speed up the 180-day wait?**
+
+No. The 180-day post-FAVN wait is non-negotiable under Japanese law. Pets arriving before the 180 days are complete will be held in quarantine for the remainder of the waiting period, at your expense (approximately 150 to 400 USD per month depending on the facility).
+
+**Do cats and dogs follow the same rules?**
+
+Yes. Identical rules apply to both species.
+
+**What happens if a document is wrong at the airport?**
+
+Your pet will be quarantined while corrections are made. This can take days or weeks. Japanese animal quarantine officers are very thorough. Having a bilingual representative who understands the protocol review your documents before travel is strongly recommended.
+
+---
+
+*For your relocation to Tokyo, our [complete moving checklist](/blog/moving-to-tokyo-checklist-2026) covers all administrative steps. For housing options, see our [guide to finding an apartment in Tokyo](/blog/find-apartment-tokyo-foreigner).*
+    `.trim(),
+  },
+  {
+    slug: 'best-neighbourhoods-families-tokyo-guide',
+    locale: 'en',
+    title: 'Best Tokyo Neighbourhoods for Expat Families (2026)',
+    description: 'Setagaya, Meguro, Minato or Yokohama: guide to the best Tokyo areas for families with children, covering international schools, safety, housing costs and commute options.',
+    date: '2026-06-21',
+    readingTime: '9 min',
+    content: `
+## Choosing a Tokyo Neighbourhood as an Expat Family
+
+For a family relocating to Tokyo, neighbourhood choice involves more constraints than for a single professional. Three factors typically drive the decision: proximity to your children's international school, the amount of space you can get for your housing budget, and access to family infrastructure such as parks, supermarkets and English-speaking medical services. This guide covers the most popular areas among expat families.
+
+## Setagaya Ward: The Classic Family Choice
+
+Setagaya is the ward most consistently chosen by expat families. It combines residential calm, green space, larger apartment sizes and strong access to international schools.
+
+**Space and greenery:** 3-bedroom apartments (3LDK) and detached houses (kodate) are available at reasonable prices by Tokyo standards. Large parks including Kinuta and Setagaya Park offer outdoor space rare in central Tokyo.
+
+**Transport:** Tokyu Den-en-toshi Line, Tokyu Setagaya Line and Odakyu Line. Connections to Shibuya in 10 to 20 minutes depending on location.
+
+**Nearby international schools:** Tokyo International School (IB), Seisen International School, Nishimachi International School.
+
+**Typical rents:** 3LDK apartments 200,000 to 350,000 ¥/month. Detached houses 300,000 to 500,000 ¥/month.
+
+**Recommended areas within Setagaya:** Yoga, Sangenjaya, Todoroki (near Nakameguro), Chitose-Karasuyama.
+
+## Meguro Ward: Central, Quiet, Well-Connected
+
+Meguro offers a central position with a residential feel despite its proximity to Shibuya (10 minutes) and Shinjuku (15 minutes).
+
+Nakameguro and Aobadai are the most sought-after pockets within Meguro. Strong international community, bilingual daycare options and good restaurant variety.
+
+**Nearby international schools:** British School in Tokyo (Jiyugaoka), American School in Japan (ASIJ, accessible from Jiyugaoka).
+
+**Typical rents:** 2LDK apartments 180,000 to 280,000 ¥/month. Less space than Setagaya at equivalent prices.
+
+## Minato Ward (Hiroo and Azabu): Premium but Convenient
+
+Minato is Tokyo's premium residential ward, home to many embassies, Azabu-Juban and Hiroo village.
+
+**Strengths:** the densest international community in Tokyo, proximity to foreign supermarkets (National Azabu, Hiroo Stores), English-speaking clinics and hospitals, premium childcare.
+
+**Transport:** Hibiya Line, Namboku Line, Mita Line. Roppongi and Shibuya in under 15 minutes.
+
+**Nearby international schools:** Nishimachi International School (Moto-Azabu), ASIJ, Tokyo International School.
+
+**Typical rents:** significantly higher than Setagaya. 3LDK apartments 300,000 to 600,000 ¥/month depending on building and exact location.
+
+## Yokohama: The Spacious Alternative
+
+Yokohama is frequently overlooked by expats focused on Tokyo's 23 wards, but it deserves serious consideration. Located 25 to 40 minutes from Shibuya by direct rail, Yokohama offers apartments 15 to 25% cheaper than equivalent Tokyo areas, with more space.
+
+**Best areas for families:** Yamate, Motomachi-Chinatown, Minato Mirai, Tsunashima.
+
+**Nearby international schools:** Yokohama International School (YIS, IB), Saint Maur International School, Yokohama YMCA Academy.
+
+**Typical rents:** 3LDK apartments 140,000 to 220,000 ¥/month. Detached houses 200,000 to 350,000 ¥/month.
+
+## Summary Comparison
+
+| Area | 3LDK rent | Character | Nearby international schools |
+|------|----------|-----------|------------------------------|
+| Setagaya | 200-350k ¥ | Residential, green, spacious | Seisen, TIS, Nishimachi |
+| Meguro | 180-280k ¥ | Central, international | BST, ASIJ |
+| Minato (Hiroo/Azabu) | 300-600k ¥ | Premium, expat hub | Nishimachi, ASIJ |
+| Yokohama | 140-220k ¥ | Spacious, calmer | YIS, St Maur |
+
+## Practical Advice for Families
+
+**Confirm school transport coverage before signing your lease.** International schools do not have formal catchment areas, but school bus routes cover specific zones. Verify that your future address falls within the route before committing.
+
+**Prefer buildings with outdoor space.** Many Tokyo apartment buildings have no communal outdoor areas. With young children, proximity to a park is crucial. Setagaya and Yokohama have the best park density.
+
+**Test the school commute during rush hour.** What seems manageable at 10:00 can be very different at 07:30 with children in tow.
+
+## FAQ
+
+**Do Japanese landlords accept families with children?**
+
+Generally yes. Families are often preferred to groups of young adults by landlords. Some older buildings have poor sound insulation which may concern neighbours. Our [guide to finding an apartment in Tokyo](/blog/find-apartment-tokyo-foreigner) explains how to present a family application effectively.
+
+**Do public nurseries and kindergartens accept foreign children?**
+
+Yes, subject to available places. Registration is via your ward office. Expect a waiting list in high-demand wards such as Minato and Setagaya. Ward offices typically have translation services available for non-Japanese-speaking families.
+
+**Are there English-speaking paediatricians?**
+
+Yes. Tokyo's expat hub wards (Minato, Shibuya, Meguro) have several bilingual clinics. International Medical Center at Hiroo is one of the most commonly used by English-speaking expat families.
+
+---
+
+*For housing search in these areas, our [guide to finding an apartment in Tokyo](/blog/find-apartment-tokyo-foreigner) covers the full process. For all administrative steps after arrival in Japan, see our [complete moving checklist](/blog/moving-to-tokyo-checklist-2026).*
+    `.trim(),
+  },
+  {
+    slug: 'tokyo-vs-osaka-expat-living-comparison',
+    locale: 'en',
+    title: 'Tokyo vs Osaka for Expats: Which City to Choose? (2026)',
+    description: 'Cost of living, job market, housing and lifestyle: honest comparison between Tokyo and Osaka to help expats choose the right Japanese city for relocation in 2026.',
+    date: '2026-06-21',
+    readingTime: '8 min',
+    content: `
+## Tokyo vs Osaka: Choosing the Right Japanese City
+
+The question comes up frequently among expats who discover that Japan is not just Tokyo. Osaka, Japan's second economic hub with 2.7 million residents in the city proper (and 19 million in the Keihanshin metropolitan area including Kobe and Kyoto), offers a genuine alternative to the capital. This comparison covers the factors that matter most for expat relocation.
+
+## Jobs and Economy: Tokyo Has No Real Rival
+
+For the vast majority of professional fields, Tokyo remains unmatched.
+
+**Tokyo:** headquarters of 60% of multinationals operating in Japan, the dominant financial centre (Marunouchi, Otemachi), the tech hub (Shibuya, Minato), and the main market for media, fashion and government. The English-speaking job market is the largest in the country.
+
+**Osaka:** strong in international trade (Osaka port is second in the Kansai region), pharmaceuticals (Takeda, Shionogi), food and beverage (Nestlé Japan, Ajinomoto), and industrial technology (Panasonic, Sharp). An English-speaking job market exists but is significantly smaller.
+
+**Verdict:** Tokyo for finance, tech, multinationals and most senior positions. Osaka if your specific sector is well-represented there or if you are starting your own business.
+
+## Cost of Living: Osaka is Cheaper, But Not Dramatically
+
+| Item | Tokyo | Osaka |
+|------|-------|-------|
+| 1LDK apartment rent (central) | 100,000 to 180,000 ¥/month | 70,000 to 130,000 ¥/month |
+| Average restaurant meal | 1,000 to 2,000 ¥ | 800 to 1,500 ¥ |
+| Weekly groceries (1 person) | 5,000 to 8,000 ¥ | 4,000 to 7,000 ¥ |
+| Monthly transport pass | 10,000 to 15,000 ¥ | 8,000 to 12,000 ¥ |
+
+Osaka is generally 15 to 25% cheaper than Tokyo on housing. Food is cheaper but the gap is less dramatic.
+
+**Osaka's specific advantage: food.** Osaka has the well-deserved reputation of being Japan's culinary capital. Street food (takoyaki, okonomiyaki) is omnipresent, restaurant prices are lower for equivalent quality, and the food culture is richer at a casual level.
+
+## Housing: Osaka More Accessible
+
+For a central 1LDK apartment (Namba, Shinsaibashi, Umeda), expect 70,000 to 120,000 ¥/month. The equivalent in Shibuya or Shinjuku in Tokyo runs 100,000 to 160,000 ¥/month.
+
+Osaka also has excellent residential suburbs 30 to 45 minutes from the centre (Toyonaka, Suita, Nishinomiya) where rents drop further.
+
+One important caveat: the supply of furnished apartments and premium share houses for expats is much less developed in Osaka than in Tokyo. The market is less structured. See our [Tokyo furnished apartment guide](/blog/furnished-apartment-tokyo-no-guarantor) for comparison.
+
+## Transport: Both Cities Are Excellent
+
+Both metro systems are efficient, punctual and comprehensive. Osaka is more compact than Tokyo, which makes average journey times shorter.
+
+**Osaka:** 8 metro lines, JR network, plus private Hankyu, Hanshin, Kintetsu and Nankai lines. Getting from Namba to Umeda (Osaka station) takes 10 minutes.
+
+**Tokyo:** more extensive metro network (13 lines), more JR lines and private railways. Longer journeys but extremely dense coverage.
+
+**Osaka's weekend advantage:** fast access to Kyoto (15 minutes by Shinkansen or 28 minutes by Hankyu), Kobe (30 minutes) and Nara (40 minutes). Excellent if you value frequent day trips.
+
+## Culture and Lifestyle: Very Different Atmospheres
+
+The two cities have fundamentally different feels.
+
+**Tokyo:** more formal, more internationally oriented, more hierarchical in social settings. Tokyoites have a reputation for being reserved with strangers, though the expat community is very large with numerous English-speaking events and networking opportunities.
+
+**Osaka:** Osakans are considered the warmest and most straightforwardly friendly people in Japan. The local dialect (Kansai-ben) is expressive and playful. The food market culture (Kuromon Ichiba), the comedy tradition (manzai) and the merchant spirit of the city create a noticeably different atmosphere.
+
+## Who Should Choose Which?
+
+| Profile | Tokyo | Osaka |
+|---------|-------|-------|
+| Corporate executive at a multinational | Ideal | Only if sector is present |
+| Entrepreneur or freelance | Strong community | Lower costs, quieter pace |
+| Family with children | More international schools | Fewer options |
+| Tight budget | Challenging | More accessible |
+| Food and local culture priority | Good but more formal | Excellent |
+| Plans frequent Kyoto weekends | 2.5h by Shinkansen | 15 min by Shinkansen |
+
+## FAQ
+
+**Can I commute between Tokyo and Osaka for work?**
+
+The Tokyo-Osaka Shinkansen runs approximately every 10 minutes during business hours. Journey time: 2h25 on the Nozomi. Cost: approximately 13,000 ¥ each way. Some professionals commute weekly on a commuter Shinkansen pass. Unusual but not unheard of in certain sectors.
+
+**Are administrative procedures the same in Osaka?**
+
+Yes. Residence card registration, health insurance, bank account opening, and tax filing follow identical procedures anywhere in Japan. The ward office (yakusho) is your point of contact in both cities.
+
+**Is English more widely spoken in Tokyo?**
+
+Generally yes, though Osaka increasingly serves international business. Tokyo's Shinjuku, Shibuya and Minato wards have the highest density of English-speaking services, restaurants and medical professionals in Japan.
+
+---
+
+*If Tokyo is your choice, our [guide to finding an apartment in Tokyo](/blog/find-apartment-tokyo-foreigner) helps you get started. For all administrative steps after arrival, see our [complete expat moving checklist](/blog/moving-to-tokyo-checklist-2026).*
+    `.trim(),
+  },
 ]
 
 export function getBlogPosts(locale: Locale): BlogPost[] {

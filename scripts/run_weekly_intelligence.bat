@@ -40,47 +40,55 @@ echo [%TIME%] [3/9] Pricing monitor... >> "%LOG_FILE%"
 python scripts\pricing_monitor.py >> "%LOG_FILE%" 2>&1
 
 :: 4. Backlink spy (~2min)
-echo [%TIME%] [4/9] Backlink spy... >> "%LOG_FILE%"
+echo [%TIME%] [4/16] Backlink spy... >> "%LOG_FILE%"
 python scripts\backlink_spy.py >> "%LOG_FILE%" 2>&1
 
-:: 5. Vulnerability detector (~30s)
-echo [%TIME%] [5/9] Vulnerability detector... >> "%LOG_FILE%"
+:: 5. Broken link finder (~5min) - technique 404 pour voler les backlinks concurrents
+echo [%TIME%] [5/16] Broken link finder... >> "%LOG_FILE%"
+python scripts\broken_link_finder.py >> "%LOG_FILE%" 2>&1
+
+:: 6. Outreach tracker digest (~30s) - CRM backlinks + partenariats + B2B
+echo [%TIME%] [6/16] Outreach tracker digest... >> "%LOG_FILE%"
+python scripts\outreach_tracker.py >> "%LOG_FILE%" 2>&1
+
+:: 7. Vulnerability detector (~30s)
+echo [%TIME%] [7/16] Vulnerability detector... >> "%LOG_FILE%"
 python scripts\vulnerability_detector.py >> "%LOG_FILE%" 2>&1
 
-:: 6. Google Trends early warning (~5min)
-echo [%TIME%] [6/9] Google Trends... >> "%LOG_FILE%"
+:: 8. Google Trends early warning (~5min)
+echo [%TIME%] [8/16] Google Trends... >> "%LOG_FILE%"
 python scripts\google_trends.py >> "%LOG_FILE%" 2>&1
 
-:: 7. Review scraper (~3min)
-echo [%TIME%] [7/9] Review scraper... >> "%LOG_FILE%"
+:: 9. Review scraper (~3min)
+echo [%TIME%] [9/16] Review scraper... >> "%LOG_FILE%"
 python scripts\review_scraper.py >> "%LOG_FILE%" 2>&1
 
-:: 8. Calendrier saisonnier (~5s)
-echo [%TIME%] [8/9] Seasonal calendar... >> "%LOG_FILE%"
+:: 10. Calendrier saisonnier (~5s)
+echo [%TIME%] [10/16] Seasonal calendar... >> "%LOG_FILE%"
 python scripts\seasonal_calendar.py >> "%LOG_FILE%" 2>&1
 
-:: 9. Analyse proactive + rapport consolide
-echo [%TIME%] [9/10] Proactive analysis... >> "%LOG_FILE%"
+:: 11. Analyse proactive + rapport consolide
+echo [%TIME%] [11/16] Proactive analysis... >> "%LOG_FILE%"
 python scripts\proactive_analysis.py >> "%LOG_FILE%" 2>&1
 
-:: 10. Expat.com auto-post (nouveaux articles)
-echo [%TIME%] [10/13] Expat.com autoposter... >> "%LOG_FILE%"
+:: 12. Expat.com auto-post (nouveaux articles)
+echo [%TIME%] [12/16] Expat.com autoposter... >> "%LOG_FILE%"
 python scripts\expatcom_autoposter.py >> "%LOG_FILE%" 2>&1
 
-:: 11. Expat.com reponses automatiques aux sujets existants (max 2/semaine)
-echo [%TIME%] [11/13] Expat.com replier... >> "%LOG_FILE%"
+:: 13. Expat.com reponses automatiques aux sujets existants (max 2/semaine)
+echo [%TIME%] [13/16] Expat.com replier... >> "%LOG_FILE%"
 python scripts\expatcom_replier.py >> "%LOG_FILE%" 2>&1
 
-:: 12. Verifie si les liens Expat.com sont approuves par les moderateurs
-echo [%TIME%] [12/13] Expat.com link checker... >> "%LOG_FILE%"
+:: 14. Verifie si les liens Expat.com sont approuves par les moderateurs
+echo [%TIME%] [14/16] Expat.com link checker... >> "%LOG_FILE%"
 python scripts\expatcom_link_checker.py >> "%LOG_FILE%" 2>&1
 
-:: 13. Internations.org auto-post (1 article/semaine dans Tokyo + Japan groups)
-echo [%TIME%] [13/14] Internations autoposter... >> "%LOG_FILE%"
+:: 15. Internations.org auto-post (1 article/semaine dans Tokyo + Japan groups)
+echo [%TIME%] [15/16] Internations autoposter... >> "%LOG_FILE%"
 python scripts\internations_autoposter.py >> "%LOG_FILE%" 2>&1
 
-:: 14. Digest social sharing (1 message Telegram avec liens 1-clic Reddit+Facebook)
-echo [%TIME%] [14/14] Social sharing digest... >> "%LOG_FILE%"
+:: 16. Digest social sharing (1 message Telegram avec liens 1-clic Reddit+Facebook)
+echo [%TIME%] [16/16] Social sharing digest... >> "%LOG_FILE%"
 python scripts\social_sharing.py >> "%LOG_FILE%" 2>&1
 
 echo [%TIME%] Weekly intelligence complete. >> "%LOG_FILE%"

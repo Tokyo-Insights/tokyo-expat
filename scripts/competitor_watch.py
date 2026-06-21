@@ -76,6 +76,16 @@ COMPETITORS = {
         "domain": "fontaine.co.jp",
         "note": "relocation FR/JP — concurrent niche francophone",
     },
+    "Savvy Tokyo": {
+        "sitemap": "https://savvytokyo.com/sitemap.xml",
+        "domain": "savvytokyo.com",
+        "note": "magazine lifestyle expat Tokyo — backlinks potentiels, guest posts",
+    },
+    "Japan Property Central": {
+        "sitemap": "https://japanpropertycentral.com/sitemap.xml",
+        "domain": "japanpropertycentral.com",
+        "note": "info achat immobilier JP — concurrent partiel, opportunités backlinks",
+    },
 }
 
 # Keywords qui indiquent un contenu intéressant à contre-attaquer
