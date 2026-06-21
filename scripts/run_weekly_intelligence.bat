@@ -75,8 +75,12 @@ python scripts\expatcom_replier.py >> "%LOG_FILE%" 2>&1
 echo [%TIME%] [12/13] Expat.com link checker... >> "%LOG_FILE%"
 python scripts\expatcom_link_checker.py >> "%LOG_FILE%" 2>&1
 
-:: 13. Digest social sharing (1 message Telegram avec liens 1-clic Reddit+Facebook)
-echo [%TIME%] [13/13] Social sharing digest... >> "%LOG_FILE%"
+:: 13. Internations.org auto-post (1 article/semaine dans Tokyo + Japan groups)
+echo [%TIME%] [13/14] Internations autoposter... >> "%LOG_FILE%"
+python scripts\internations_autoposter.py >> "%LOG_FILE%" 2>&1
+
+:: 14. Digest social sharing (1 message Telegram avec liens 1-clic Reddit+Facebook)
+echo [%TIME%] [14/14] Social sharing digest... >> "%LOG_FILE%"
 python scripts\social_sharing.py >> "%LOG_FILE%" 2>&1
 
 echo [%TIME%] Weekly intelligence complete. >> "%LOG_FILE%"
