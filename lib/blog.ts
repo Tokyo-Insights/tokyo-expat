@@ -4545,6 +4545,884 @@ Yes. Most share houses offer virtual tours via Zoom. Oak House and Sakura House 
 *Relocating to Tokyo soon? [Contact us](/contact) for a current availability list matching your budget and target neighbourhood.*
     `.trim(),
   },
+  {
+    slug: 'transport-tokyo-expatrie-guide',
+    locale: 'fr',
+    title: 'Transport à Tokyo : guide complet pour expatriés 2026',
+    description: 'Métro, JR, carte Suica et applications : tout ce que les expatriés doivent savoir pour se déplacer à Tokyo et choisir leur quartier selon leur trajet.',
+    date: '2026-06-21',
+    readingTime: '8 min',
+    content: `
+## Transports à Tokyo : métro, JR et tout ce qu'il faut savoir
+
+Se déplacer à Tokyo ne demande pas de voiture. Le réseau est l'un des plus ponctuels au monde, avec un retard moyen inférieur à 60 secondes. Pour un expatrié qui arrive, la superposition des lignes et des opérateurs peut sembler complexe. Ce guide clarifie l'essentiel.
+
+## Le métro Tokyo : deux réseaux, une seule carte
+
+Tokyo compte deux réseaux de métro distincts.
+
+**Tokyo Metro** opère 9 lignes : Ginza, Marunouchi, Hibiya, Namboku, Fukutoshin, Chiyoda, Yurakucho, Hanzomon et Tozai. C'est le réseau le plus étendu, couvrant l'essentiel des arrondissements centraux.
+
+**Toei Subway** opère 4 lignes : Asakusa, Mita, Shinjuku et Oedo. La ligne Oedo est utile pour Roppongi, Shiodome et Shinjuku.
+
+Les deux réseaux acceptent la même carte Suica ou Pasmo. Un trajet combinant les deux coûte légèrement plus cher qu'un trajet sur un seul réseau. Fréquence aux heures de pointe : 2 à 5 minutes. Amplitude : 5h00 à 0h30 environ.
+
+## Les lignes JR : la colonne vertébrale de Tokyo
+
+**JR Yamanote Line** : boucle circulaire reliant les 30 principales gares (Shinjuku, Shibuya, Harajuku, Ebisu, Osaki, Shinagawa, Tokyo, Akihabara, Ueno, Ikebukuro). Comprendre la Yamanote, c'est comprendre la géographie de Tokyo.
+
+**JR Chuo / Sobu Line** : axe est-ouest depuis Tokyo Station vers Nakano, Koenji, Asagaya, Mitaka. Idéale pour les familles cherchant plus d'espace à prix modéré.
+
+**JR Keihin-Tohoku Line** : axe nord-sud depuis Omiya vers Kawasaki et Yokohama.
+
+**JR Saikyo Line** : relie Shibuya et Shinjuku à Ikebukuro et Omiya.
+
+## La carte Suica : votre seul outil de paiement
+
+La Suica (ou Pasmo, techniquement identique) est une carte rechargeable sans contact qui fonctionne sur l'ensemble du réseau : tous les métros et lignes JR, la majorité des bus, les taxis, les konbini (Seven-Eleven, FamilyMart, Lawson) et les distributeurs en gare.
+
+Pour l'obtenir : guichet automatique dans n'importe quelle gare JR, ou version mobile sur iPhone via l'app Suica. Dépôt initial de 500 ¥ (remboursable). Il n'existe pas d'abonnement mensuel illimité généraliste à Tokyo. Les teiki-ken (passes trajet fixe) sont liés à un itinéraire précis et souvent pris en charge par l'employeur.
+
+## Choisir son quartier selon son lieu de travail
+
+| Bureau dans... | Quartiers recommandés | Ligne directe |
+|---------------|----------------------|---------------|
+| Marunouchi / Tokyo Stn | Yotsuya, Koenji, Ichigaya | JR Chuo Line |
+| Shinjuku | Nakano, Koenji, Asagaya | JR Chuo Line |
+| Shibuya | Nakameguro, Daikanyama, Shimokitazawa | Tokyu Toyoko |
+| Roppongi / Minato | Azabu-Juban, Hiroo | Hibiya / Namboku |
+| Akihabara | Ueno, Asakusa, Okachimachi | JR Yamanote |
+
+Règle générale : évitez les trajets avec plus de deux correspondances. Trois changements quotidiens représentent une fatigue réelle sur le long terme, même si le temps total reste inférieur à 45 minutes.
+
+## Applications indispensables
+
+**Google Maps** : itinéraires multimodaux en temps réel, coût exact du trajet inclus. La référence pour les expatriés.
+
+**Tokyo Subway Navigation** (app officielle Tokyo Metro) : bilingue, minutages précis, mode hors ligne disponible.
+
+**Yahoo! Loco** : favori local pour les itinéraires alternatifs et les alertes de perturbations en temps réel.
+
+**Suica app** : gestion de votre Suica mobile et recharge à distance depuis n'importe où dans le monde.
+
+## Vélo, bus et retours nocturnes
+
+Le **vélo** est pratique pour les courts trajets. Docomo Bike Share (vélos rouges) couvre les 23 arrondissements centraux, location à la journée ou abonnement mensuel (environ 3 000 ¥). Des zones de stationnement gratuites existent près de la plupart des gares.
+
+Les **bus Toei** couvrent les zones peu desservies par le métro. Paiement Suica. Moins ponctuels que le métro mais utiles en complément.
+
+Après le dernier métro (0h30 environ), les **taxis** sont disponibles partout. Tarif de base : 730 ¥, puis 90 ¥ par 268 m. Un trajet Shibuya-Shinjuku de nuit revient à environ 1 500 ¥. Tokyo est très sûre la nuit : marcher 15 minutes depuis une gare est courant.
+
+## Questions fréquentes
+
+**Y a-t-il un pass illimité pour les premières semaines ?**
+
+La Tokyo Subway Ticket (24h/48h/72h) couvre les 13 lignes de métro pour 800, 1 200 ou 1 500 ¥. Disponible à l'aéroport. Utile avant d'obtenir une Suica permanente.
+
+**Le JR Pass couvre-t-il le réseau intra-Tokyo ?**
+
+Le JR Pass national couvre les lignes JR (Yamanote, Chuo, Keihin-Tohoku) mais pas les lignes Tokyo Metro ni Toei. La Suica reste indispensable en complément.
+
+---
+
+*Prêt à choisir votre quartier ? Notre guide des [quartiers Tokyo pour expatriés](/blog/quartiers-tokyo-expatries-guide) compare les principales zones par ligne, budget et ambiance internationale. Pour la recherche d'appartement, lisez notre [guide complet de location à Tokyo](/blog/trouver-appartement-tokyo-etranger).*
+    `.trim(),
+  },
+  {
+    slug: 'carte-sim-japon-etranger-2026',
+    locale: 'fr',
+    title: 'Carte SIM Japon étranger 2026 : quel forfait choisir ?',
+    description: 'IIJmio, ahamo ou povo2.0 : comparatif des meilleures cartes SIM et forfaits mobiles au Japon pour les expatriés et nouveaux arrivants. Tarifs 2026 mis à jour.',
+    date: '2026-06-21',
+    readingTime: '7 min',
+    content: `
+## Quelle carte SIM choisir en arrivant au Japon en 2026 ?
+
+Entre les SIM prépayées disponibles à l'aéroport, les eSIM activables depuis la France et les forfaits long terme des opérateurs virtuels, le choix est large. Voici comment s'y retrouver rapidement.
+
+## Les 3 types de forfaits mobiles au Japon
+
+**SIM prépayée data-only (arrivée et court séjour)**
+
+Disponible à l'aéroport (Narita, Haneda) ou sur Amazon Japan. Pas d'appels voix inclus. Idéale pour les premières semaines avant d'ouvrir un forfait résident.
+
+Opérateurs : IIJmio Tourist, B-Mobile, JAPAN TRAVEL SIM, eConnect Japan.
+
+Tarifs typiques : 2 000 à 4 500 ¥ pour 15 à 30 jours (3 à 20 Go).
+
+**Forfaits MVNO long terme (résidents)**
+
+Pour les résidents avec une carte de séjour et une adresse enregistrée à la mairie. Appels voix inclus en option.
+
+Opérateurs : IIJmio, OCN Mobile One, mineo, NURO Mobile.
+
+Prix : 850 à 3 000 ¥/mois selon le volume de données. Le moins cher du marché.
+
+**Sub-marques des opérateurs principaux**
+
+Les sous-marques discount de Docomo, SoftBank et KDDI offrent des forfaits 20 Go à prix fixe compétitif.
+
+- ahamo (NTT Docomo) : 20 Go pour 2 970 ¥/mois.
+- LINEMO (SoftBank) : 20 Go pour 2 728 ¥/mois ou mini 3 Go à 990 ¥/mois.
+- povo2.0 (KDDI/au) : base à 0 ¥/mois, puis packs de données à la carte.
+
+## Comparatif 2026 : quelle SIM pour quel profil ?
+
+| Profil | Option recommandée | Prix approximatif |
+|--------|-------------------|-------------------|
+| Arrivée récente, moins d'un mois | IIJmio Tourist 30 jours | 4 000 ¥ |
+| Sans adresse fixe encore | povo2.0 base 0 ¥ + packs | 330 ¥ par Go |
+| Résident, budget minimal | IIJmio 2 Go | 850 ¥/mois |
+| Résident, usage data moyen | ahamo 20 Go | 2 970 ¥/mois |
+| Famille avec plusieurs lignes | IIJmio tarif famille | Remise par ligne |
+
+## Comment obtenir une SIM à votre arrivée ?
+
+**Option 1 : eSIM avant le départ**
+
+La solution la plus pratique si votre téléphone est compatible. Vous activez la SIM depuis la France avant d'atterrir. Compatibilité : iPhone XS et versions suivantes, la plupart des Android depuis 2019. Le téléphone doit être débloqué. Opérateurs eSIM Japan : IIJmio Tourist, Airalo, Ubigi.
+
+**Option 2 : SIM physique à l'aéroport**
+
+Des kiosques IIJmio, B-Mobile et Sakura Mobile sont présents dans les terminaux d'arrivée de Narita (T1/T2/T3) et Haneda (T3). Munissez-vous de votre passeport. Horaires : 7h00 à 23h00 environ.
+
+**Option 3 : commande en ligne après installation**
+
+Une fois votre adresse enregistrée à la mairie et votre zairyu card obtenue, commandez directement sur le site de l'opérateur. Délai de livraison : 2 à 5 jours ouvrés. La plupart des MVNO acceptent les cartes bancaires étrangères.
+
+## Appels voix et appels internationaux
+
+La majorité des SIM prépayées n'incluent pas les appels voix. Pour vos communications :
+
+- **Appels vers la France** : LINE (gratuit entre utilisateurs), WhatsApp ou Skype sont la norme chez les expatriés.
+- **Appels voix locaux** (agences, banques, mairie) : optez pour un forfait MVNO avec voix incluse. IIJmio et mineo proposent des options voix à 550 à 880 ¥/mois supplémentaires.
+- **Numéros spéciaux** : les 0120- (numéros gratuits) sont accessibles depuis les mobiles. Les 0570- (Navi-dial) peuvent générer des frais.
+
+## Débloquer votre téléphone avant de partir
+
+Les téléphones achetés chez Orange, SFR, Bouygues ou Free sont déverrouillables gratuitement depuis la loi de 2018. Contactez votre opérateur avant de partir. Un téléphone verrouillé ne reconnaîtra pas une SIM japonaise.
+
+Les iPhone achetés en Apple Store sans abonnement sont généralement déjà déverrouillés.
+
+Bandes de fréquences à vérifier : B1, B3, B19 pour Docomo (IIJmio / ahamo) ; B1, B3, B8 pour SoftBank (LINEMO). Les smartphones européens récents couvrent ces bandes sans problème.
+
+## Questions fréquentes
+
+**Ai-je besoin d'une adresse japonaise pour un forfait long terme ?**
+
+Oui, pour les forfaits résidents. Utilisez une SIM prépayée pour les premières semaines, puis passez à un forfait résident une fois votre carte de séjour obtenue et votre adresse enregistrée à la mairie.
+
+**Mon téléphone français fonctionnera-t-il au Japon ?**
+
+Oui, s'il est débloqué. Vérifiez les bandes LTE mentionnées ci-dessus. Les modèles récents (iPhone 12+, Samsung Galaxy S21+, Pixel 6+) sont compatibles sans problème.
+
+---
+
+*Pour l'internet fixe dans votre appartement, notre guide sur [l'internet et les utilitaires à Tokyo](/blog/internet-utilitaires-tokyo-appartement) détaille les démarches étape par étape. Pour toutes les démarches d'installation, consultez notre [checklist de déménagement au Japon](/blog/demenager-japon-checklist-complete).*
+    `.trim(),
+  },
+  {
+    slug: 'impots-revenus-japon-expatrie-2026',
+    locale: 'fr',
+    title: 'Impôts au Japon pour expatrié : guide complet 2026',
+    description: 'Barème fiscal, déclaration kakutei shinkoku et deadline du 15 mars : guide complet sur les impôts sur le revenu au Japon pour les résidents étrangers en 2026.',
+    date: '2026-06-21',
+    readingTime: '9 min',
+    content: `
+## Impôts sur le revenu au Japon : ce que les expatriés doivent savoir
+
+Le système fiscal japonais est rarement documenté en français. Pourtant, si vous résidez au Japon, vous êtes imposable, et la déclaration annuelle est obligatoire dans la majorité des cas. Ce guide explique les fondamentaux.
+
+## Qui est imposable au Japon ?
+
+Votre statut fiscal dépend de votre durée de résidence au Japon.
+
+**Résident non permanent (moins de 5 ans au Japon sur les 10 dernières années)**
+
+Vous n'êtes imposable que sur vos revenus de source japonaise, et sur les revenus étrangers effectivement transférés au Japon. Les revenus étrangers laissés à l'étranger ne sont pas imposés. C'est le statut de la grande majorité des expatriés durant leurs premières années.
+
+**Résident permanent fiscal (plus de 5 ans au Japon sur les 10 dernières années)**
+
+Vous êtes imposable sur l'ensemble de vos revenus mondiaux, quel que soit leur pays d'origine.
+
+**Non-résident**
+
+Vous ne séjournez pas au Japon de manière continue. Imposable uniquement sur les revenus de source japonaise.
+
+## Le barème de l'impôt sur le revenu 2026
+
+L'impôt sur le revenu au Japon est progressif. À l'impôt national s'ajoute un impôt local (住民税, juminzei) de 10%, prélevé l'année suivante.
+
+| Revenu imposable annuel (¥) | Taux national |
+|---------------------------|---------------|
+| Jusqu'à 1 950 000 | 5% |
+| 1 950 001 à 3 300 000 | 10% |
+| 3 300 001 à 6 950 000 | 20% |
+| 6 950 001 à 9 000 000 | 23% |
+| 9 000 001 à 18 000 000 | 33% |
+| 18 000 001 à 40 000 000 | 40% |
+| Plus de 40 000 000 | 45% |
+
+Pour un salaire de 6 000 000 ¥/an (environ 36 000 EUR), le taux effectif combiné national + local est d'environ 22 à 25%.
+
+## Quand et comment déclarer ?
+
+La déclaration de revenus (確定申告, kakutei shinkoku) se dépose chaque année du 16 février au 15 mars pour les revenus de l'année précédente.
+
+**Si votre employeur japonais retient l'impôt à la source (gensen choshū)**, vous n'avez pas toujours besoin de faire une déclaration complète. Votre employeur vous remet un certificat de retenue à la source (源泉徴収票) en décembre ou janvier. Vérifiez avec votre RH.
+
+**Vous devez déclarer si** vous avez des revenus complémentaires : activité freelance, revenus fonciers étrangers, revenus de placements non japonais, ou si vous avez travaillé pour plusieurs employeurs.
+
+**Via MyPortal** (mynaportal.go.jp) : déclaration en ligne depuis 2021. Nécessite un numéro My Number et une carte My Number avec puce. Certains bureaux des impôts proposent des créneaux bilingues.
+
+**En personne** : le bureau des impôts (税務署, zeimusho) de votre arrondissement accepte les dossiers papier. Plusieurs bureaux à Tokyo ont des guichets dédiés aux étrangers avec assistance en anglais.
+
+## Le juminzei : la taxe résidentielle
+
+Le juminzei (住民税) est la taxe locale prélevée par votre commune et votre préfecture. Taux fixe : 10% du revenu imposable (6% communal + 4% préfectoral).
+
+Elle est calculée sur les revenus de l'année N et facturée en juin de l'année N+1. Cela crée un décalage à anticiper lors de votre première année au Japon : vous payez le juminzei de l'année 1 lors de votre deuxième année.
+
+## Convention fiscale France-Japon
+
+La France et le Japon ont signé une convention bilatérale qui prévient la double imposition. Si vous êtes résident fiscal au Japon et avez payé des impôts japonais sur vos revenus, la France vous accorde un crédit d'impôt équivalent.
+
+Important : même si vous ne devez pas d'impôt en France, vous devez continuer à déclarer votre situation si vous avez des liens fiscaux français (comptes bancaires, biens immobiliers en France). Contactez le Centre des Impôts des Non-Résidents (CINR) pour votre situation personnelle.
+
+## Principales déductions disponibles
+
+- Cotisations sociales (shakai hoken) : entièrement déductibles.
+- Frais médicaux supérieurs à 100 000 ¥/an : déductibles au-delà de ce seuil.
+- Dons à des organisations reconnues (dont furusato nozei).
+- Intérêts d'emprunt immobilier pour un achat au Japon.
+- Déduction forfaitaire de base : 480 000 ¥ pour la majorité des contribuables.
+
+## Questions fréquentes
+
+**Mon employeur japonais gère-t-il tout ?**
+
+En grande partie oui pour les salariés en CDI japonais. Mais vérifiez avec votre RH si une déclaration complémentaire est requise, notamment si vous avez des revenus étrangers.
+
+**Que se passe-t-il si je quitte le Japon en cours d'année ?**
+
+Vous devez déposer une déclaration de revenus avant de partir, ou désigner un mandataire fiscal (zeirishi). Votre employeur peut également réaliser un ajustement de fin d'année selon les cas.
+
+**Le furusato nozei (ふるさと納税) est-il accessible aux étrangers ?**
+
+Oui, à condition de payer le juminzei au Japon. C'est un système de dons aux municipalités qui vous retourne des cadeaux locaux et réduit votre taxe résidentielle. Plafond calculé sur vos revenus de l'année précédente.
+
+---
+
+*Pour les autres démarches administratives de votre installation, consultez notre [checklist de déménagement au Japon](/blog/demenager-japon-checklist-complete) et notre guide sur [l'assurance maladie au Japon pour expatriés](/blog/assurance-maladie-japon-expatrie).*
+    `.trim(),
+  },
+  {
+    slug: 'internet-utilitaires-tokyo-appartement',
+    locale: 'fr',
+    title: 'Internet et utilitaires à Tokyo : guide expat 2026',
+    description: 'Électricité, gaz, eau et internet fixe : démarches étape par étape pour ouvrir vos compteurs et choisir votre opérateur fibre à Tokyo en tant qu\'expatrié.',
+    date: '2026-06-21',
+    readingTime: '7 min',
+    content: `
+## Internet et utilitaires à Tokyo : toutes les démarches pour expatriés
+
+Une fois les clés de votre appartement en main, quatre services sont à ouvrir ou à souscrire : l'électricité, le gaz, l'eau et l'internet. La bonne nouvelle : la plupart s'effectuent en ligne ou par formulaire bilingue, et les délais sont courts. Voici comment procéder.
+
+## Électricité : ouvrir le compteur en ligne
+
+L'électricité à Tokyo est fournie par **TEPCO** (Tokyo Electric Power Company). Vous n'avez pas le choix du fournisseur dans la zone métropolitaine.
+
+Démarche : rendez-vous sur le site de TEPCO (kurashi.tepco.co.jp) et remplissez le formulaire de mise en service. Informations nécessaires : date d'emménagement, numéro de compteur (étiquette dans l'appartement ou sur le tableau électrique), coordonnées et adresse.
+
+Le formulaire est en japonais avec aide en anglais. Vous pouvez aussi appeler le 0120-995-113 (options en anglais disponibles).
+
+Délai : mise en service instantanée si l'ancien locataire a correctement résilié. Sinon, un technicien passe sous 1 à 3 jours.
+
+Facturation : mensuelle par prélèvement ou en konbini. Forfait de base environ 300 à 400 ¥/mois, puis facturation au kWh.
+
+## Gaz : selon votre type d'appartement
+
+Le gaz n'est présent que si votre appartement est équipé d'une cuisinière à gaz ou d'un chauffe-eau à gaz. De nombreux appartements modernes fonctionnent entièrement à l'électricité (plaque IH + chauffe-eau électrique) et ne nécessitent pas d'abonnement gaz.
+
+Si vous avez le gaz, le fournisseur est **Tokyo Gas** (tokyogas.co.jp). La mise en service nécessite la présence d'un technicien. Prenez rendez-vous via le site ou le 03-3433-7111 (options en anglais disponibles). Délai : 3 à 7 jours ouvrés.
+
+Vérifiez avec votre agence si votre appartement est gaz ou IH avant d'acheter une cuisinière.
+
+## Eau : automatique dans la majorité des cas
+
+L'eau (水道, suidō) est gérée par le Bureau métropolitain de l'eau de Tokyo. Dans la plupart des appartements modernes, le compteur est activé automatiquement lors de la mise en service du bail par votre agence ou propriétaire.
+
+Si ce n'est pas le cas, contactez le Bureau de l'eau au 03-5326-1101 (anglais disponible).
+
+Facturation : bimestrielle. Montant moyen pour un studio : 1 000 à 2 500 ¥ par bimestre.
+
+## Internet fixe : quel fournisseur choisir ?
+
+L'internet fixe au Japon (hikari, fibre optique) est parmi les plus rapides et les moins chers au monde. Le processus se fait en deux étapes : choisir l'infrastructure réseau (souvent NTT Flets), puis un fournisseur internet (ISP) qui loue ce réseau.
+
+Principaux opérateurs fibre à Tokyo :
+
+- **NTT Flets Hikari + ISP partenaire** : la combinaison la plus répandue. Flets coûte 5 500 à 6 000 ¥/mois, l'ISP ajoute 500 à 1 500 ¥/mois. Total : 6 000 à 7 500 ¥/mois.
+- **SoftBank Hikari** : contrat unique simplifié, environ 5 500 ¥/mois.
+- **NURO Hikari** : l'un des plus rapides (2 Gbps), 5 200 ¥/mois. Disponible dans les zones desservies.
+- **au Hikari** : bonne couverture Tokyo, souvent proposé en bundle avec un forfait mobile KDDI.
+
+Délai d'installation : 2 à 6 semaines selon la disponibilité du technicien. Prévoyez une solution de repli pour votre premier mois.
+
+**En attendant la fibre** : utilisez votre carte SIM en mode partage de connexion (tethering) ou souscrivez un routeur 4G/5G portable (pocket WiFi) chez IIJmio, Rakuten ou SoftBank. Débit typique : 50 à 150 Mbps pour 2 500 à 4 000 ¥/mois.
+
+## Récapitulatif par ordre de priorité
+
+| Service | Délai habituel | Démarche |
+|---------|---------------|----------|
+| Électricité | Immédiat à 3 jours | Formulaire TEPCO en ligne |
+| Eau | En général automatique | Appel si non ouvert à J+1 |
+| Gaz | 3 à 7 jours ouvrés | Prise de RDV Tokyo Gas |
+| Internet fixe | 2 à 6 semaines | Comparer les ISP puis commander |
+| Mobile / SIM | Immédiat (eSIM) à 5 jours | Voir guide carte SIM Japon |
+
+## Questions fréquentes
+
+**Dois-je avoir une adresse enregistrée pour souscrire à internet ?**
+
+Oui pour les contrats fibre. Une adresse japonaise officielle est requise. Pour les pocket WiFi, votre passeport suffit souvent.
+
+**Les formulaires TEPCO et Tokyo Gas sont-ils disponibles en français ?**
+
+Non, mais les formulaires en ligne sont relativement simples et des aides en anglais sont disponibles. En cas de difficulté, votre agence immobilière peut vous assister pour les premiers contacts.
+
+---
+
+*Votre installation avance. Pour tout ce qui concerne la recherche d'appartement en amont, lisez notre [guide de location à Tokyo pour étrangers](/blog/trouver-appartement-tokyo-etranger). Pour votre forfait mobile, consultez notre [comparatif des cartes SIM au Japon](/blog/carte-sim-japon-etranger-2026).*
+    `.trim(),
+  },
+  {
+    slug: 'travailler-tokyo-expatrie-guide-2026',
+    locale: 'fr',
+    title: 'Travailler à Tokyo en tant qu\'expatrié : guide 2026',
+    description: 'Culture d\'entreprise japonaise, visa de travail, salaires et droits des salariés étrangers à Tokyo. Ce que les expatriés doivent savoir avant de commencer.',
+    date: '2026-06-21',
+    readingTime: '9 min',
+    content: `
+## Travailler à Tokyo en tant qu'expatrié : ce qu'il faut savoir avant de commencer
+
+Que vous arriviez avec un contrat local ou en détachement international, le monde du travail à Tokyo présente des spécificités qui peuvent déstabiliser même les professionnels expérimentés. Ce guide décrit les éléments essentiels pour bien démarrer.
+
+## Les types de visa de travail au Japon
+
+Avant de travailler au Japon, vous avez besoin d'un visa approprié. Les plus courants pour les expatriés qualifiés sont :
+
+**Visa Ingénieurs / Humanités / Services internationaux (技術・人文知識・国際業務)**
+
+C'est le visa de travail le plus fréquent pour les profils techniques, commerciaux, marketing, enseignants de langue étrangère. Durée : 1, 3 ou 5 ans, renouvelable.
+
+**Visa de direction d'entreprise (経営管理)**
+
+Pour les fondateurs ou directeurs généraux. Conditions spécifiques sur le capital social et le nombre d'employés.
+
+**Visa de professionnel hautement qualifié (高度専門職)**
+
+Visa à points pour les profils très qualifiés. Avantage principal : résidence permanente accélérée (possible dès 1 à 3 ans selon le score).
+
+**Visa Working Holiday**
+
+Accord bilatéral France-Japon disponible pour les 18-30 ans. Permet de travailler jusqu'à 1 an sans contrat préalable.
+
+Pour les détails sur les conditions et les démarches, consultez notre [guide des visas de travail pour francophones](/blog/visa-travail-japon-francophone-2026).
+
+## La culture d'entreprise japonaise : les fondamentaux
+
+**La ponctualité est non négociable**
+
+Arriver à l'heure signifie arriver 5 minutes avant. Un retard, même de 3 minutes, est remarqué. Pour une réunion client, prévoyez d'arriver 10 à 15 minutes à l'avance.
+
+**Le nemawashi (根回し)**
+
+Les décisions importantes passent par une consultation informelle en amont. Avant une réunion formelle, il est courant de "vendre" votre idée individuellement à chaque partie prenante. Les réunions formelles servent souvent à valider, pas à débattre.
+
+**Le meishi (名刺)**
+
+L'échange de cartes de visite au début d'une réunion est un rituel. Présentez votre carte avec les deux mains, texte face à votre interlocuteur. Ne pliez jamais une carte reçue et ne la mettez pas directement dans votre poche.
+
+**Les heures supplémentaires**
+
+Les lois révisées de 2019 plafonnent les heures supplémentaires à 45h/mois. Les longues journées restent néanmoins la norme dans certains secteurs (banque, consulting, publicité). Vérifiez les clauses de votre contrat, en particulier la clause de travail discrétionnaire (sairyo rodo) qui peut affecter le calcul des heures sup.
+
+## Salaires à Tokyo pour les expatriés en 2026
+
+| Poste | Salaire brut annuel (¥) | Équivalent EUR approx. |
+|-------|------------------------|----------------------|
+| Ingénieur IT junior | 4 000 000 à 5 500 000 | 24 000 à 33 000 € |
+| Ingénieur IT senior | 6 000 000 à 10 000 000 | 36 000 à 60 000 € |
+| Marketing / Commercial | 4 500 000 à 7 000 000 | 27 000 à 42 000 € |
+| Finance (banque) | 7 000 000 à 15 000 000 | 42 000 à 90 000 € |
+| Enseignant de langue (ALT) | 2 800 000 à 3 600 000 | 17 000 à 22 000 € |
+
+Les contrats de détachement international incluent généralement une prime d'expatriation, la prise en charge du logement et les frais de scolarité, ce qui dépasse largement les équivalents locaux.
+
+## Cotisations sociales et avantages salariaux
+
+Au Japon, les salariés paient des cotisations sociales (shakai hoken) couvrant : l'assurance maladie (kenko hoken), la retraite (nenkin) et l'assurance chômage (koyo hoken). Ces cotisations représentent environ 14 à 16% du salaire brut côté salarié.
+
+L'assurance maladie couvre 70% des frais médicaux (ticket modérateur de 30%). Pour les détails, consultez notre guide sur [l'assurance maladie au Japon pour expatriés](/blog/assurance-maladie-japon-expatrie).
+
+La plupart des entreprises japonaises remboursent les frais de transport (teiki-ken) jusqu'à 150 000 ¥/mois, et versent des bonus biannuels en juin et décembre représentant 1 à 4 mois de salaire selon la performance.
+
+## Documents à préparer avant votre premier jour
+
+1. Votre carte de résident (zairyu card), obtenue à l'aéroport ou à la mairie.
+2. Votre numéro My Number, communiqué dans votre première notification fiscale.
+3. Un compte bancaire japonais pour le versement du salaire. Voir notre guide [ouvrir un compte bancaire au Japon](/blog/ouvrir-compte-bancaire-japon-etranger).
+4. Un certificat de résidence (juminhyo), disponible à la mairie de votre arrondissement.
+5. Un tampon personnel (inkan) ou accord de signature pour les formulaires RH.
+
+## Questions fréquentes
+
+**Peut-on trouver un emploi à Tokyo sans parler japonais ?**
+
+Oui, notamment dans les multinationales, les startups tech, les services financiers et l'enseignement. Le niveau de japonais requis varie fortement selon le secteur. En finance et IT dans des entreprises internationales, l'anglais suffit souvent au niveau opérationnel.
+
+**Comment se passe la période d'essai au Japon ?**
+
+Les contrats japonais incluent typiquement une période d'essai de 3 à 6 mois. Les droits des salariés sont protégés dès le premier jour par la loi japonaise du travail, y compris pendant la période d'essai.
+
+---
+
+*Pour trouver un logement proche de votre lieu de travail, notre [guide des quartiers Tokyo pour expatriés](/blog/quartiers-tokyo-expatries-guide) vous aide à choisir selon votre ligne de métro et votre budget. Pour les démarches administratives complètes, consultez notre [checklist de déménagement au Japon](/blog/demenager-japon-checklist-complete).*
+    `.trim(),
+  },
+  {
+    slug: 'tokyo-public-transport-expat-guide',
+    locale: 'en',
+    title: 'Tokyo Public Transport for Expats: Complete Guide 2026',
+    description: 'Subway, JR lines, IC cards and travel apps: everything expats need to know to get around Tokyo and pick the right neighbourhood for their daily commute.',
+    date: '2026-06-21',
+    readingTime: '8 min',
+    content: `
+## Getting Around Tokyo: What Every Expat Needs to Know
+
+You do not need a car in Tokyo. The public transport network runs on average less than 60 seconds late, covers virtually every corner of the city, and costs a fraction of equivalent trips in other major capitals. The layered system of operators and lines looks complicated at first. This guide cuts through it.
+
+## Two metro systems, one IC card
+
+Tokyo has two separate metro networks run by different operators.
+
+**Tokyo Metro** operates 9 lines: Ginza, Marunouchi, Hibiya, Namboku, Fukutoshin, Chiyoda, Yurakucho, Hanzomon, and Tozai. It covers most of the central wards and connects the major employment hubs.
+
+**Toei Subway** operates 4 lines: Asakusa, Mita, Shinjuku, and Oedo. The Oedo line is particularly useful for reaching Roppongi, Shiodome, and Shinjuku.
+
+Both networks use the same Suica or Pasmo IC cards. Cross-operator transfers cost slightly more than staying on one network. Peak frequency: 2 to 5 minutes. Operating hours: approximately 5:00 AM to 12:30 AM.
+
+## JR Lines: the backbone of the city
+
+**JR Yamanote Line**: the circular loop connecting Tokyo's 30 most important stations — Shinjuku, Shibuya, Harajuku, Ebisu, Osaki, Shinagawa, Tokyo, Akihabara, Ueno, Ikebukuro. If you understand this single line, you understand Tokyo's geography.
+
+**JR Chuo / Sobu Line**: east-west corridor from Tokyo Station through Nakano, Koenji, Asagaya, Mitaka, and out to the suburbs. Popular with families who want more space at lower rents.
+
+**JR Keihin-Tohoku Line**: north-south axis from Omiya through Akihabara and Tokyo down to Kawasaki and Yokohama.
+
+**JR Saikyo Line**: connects Shibuya and Shinjuku to Ikebukuro and Omiya.
+
+## Suica: the only payment tool you need
+
+The Suica (or Pasmo, technically identical) is a prepaid contactless card that works across the entire Tokyo transport network and beyond.
+
+It covers: all metro and JR lines in Greater Tokyo, most buses, taxis, convenience stores (Seven-Eleven, FamilyMart, Lawson), and station vending machines.
+
+How to get one: any JR station ticket machine, or add Mobile Suica to your iPhone (foreign bank cards accepted for top-ups). Initial deposit: ¥500 (refundable). Note: there is no general unlimited monthly pass in Tokyo. Company commuter passes (teiki-ken) are fixed-route passes usually paid by employers.
+
+## Choosing your neighbourhood based on your commute
+
+| Office location | Best residential areas | Direct line |
+|----------------|----------------------|-------------|
+| Marunouchi / Tokyo Stn | Yotsuya, Koenji, Ichigaya | JR Chuo Line |
+| Shinjuku | Nakano, Koenji, Asagaya | JR Chuo Line |
+| Shibuya | Nakameguro, Daikanyama, Shimokitazawa | Tokyu Toyoko |
+| Roppongi / Minato | Azabu-Juban, Hiroo | Hibiya / Namboku |
+| Akihabara | Ueno, Asakusa, Okachimachi | JR Yamanote |
+
+Key rule: avoid itineraries requiring more than two line changes. Three daily transfers adds up to real fatigue over months, even if the total commute time looks acceptable on paper.
+
+## Essential apps for navigating Tokyo
+
+**Google Maps**: the most complete option for real-time multimodal routing in English, including exact fares and transfer times.
+
+**Tokyo Subway Navigation** (official Tokyo Metro app): bilingual, precise connection timings, offline mode available.
+
+**Yahoo! Loco**: the Japanese default for alternative routes and disruption alerts.
+
+**Suica app**: check your balance and top up your mobile Suica remotely.
+
+## Cycling, buses, and getting home late
+
+**Cycling**: legal and practical for short distances. Docomo Bike Share (red bikes) covers all 23 central wards with day passes or monthly subscriptions (~¥3,000/month). Free parking zones are available near most stations.
+
+**Toei buses** cover areas with limited metro access. Suica accepted. Less predictable than the metro but useful as a complement.
+
+After the last train (roughly 12:30 AM to 1:00 AM), taxis are always available. Starting fare: approximately ¥730, then ¥90 per 268 m. A Shibuya-to-Shinjuku night ride costs around ¥1,500. Tokyo is very safe at night and walking 15 minutes from a station is common.
+
+## FAQ
+
+**Is there an unlimited day pass for the first weeks?**
+
+The Tokyo Subway Ticket (24h/48h/72h) covers all 13 metro lines for ¥800, ¥1,200 or ¥1,500. Available at airports. Useful before you get a permanent Suica.
+
+**Does the JR Pass cover inner-city Tokyo?**
+
+The national JR Pass covers JR lines (Yamanote, Chuo, Keihin-Tohoku) but not Tokyo Metro or Toei subway lines. A Suica remains essential in addition.
+
+---
+
+*Once you know which commute line suits you, the next step is choosing your neighbourhood. Our guide to [Tokyo neighbourhoods for expats](/blog/tokyo-neighbourhoods-expats-guide) compares the main areas by line, price, and community. For the rental process itself, see our complete [Tokyo apartment hunting guide for foreigners](/blog/find-apartment-tokyo-foreigner).*
+    `.trim(),
+  },
+  {
+    slug: 'japan-sim-card-foreigners-2026',
+    locale: 'en',
+    title: 'Best Japan SIM Card for Foreigners 2026: Full Guide',
+    description: 'IIJmio, ahamo or povo2.0: compare Japan\'s best SIM cards and phone plans for foreigners arriving in 2026, with setup steps and provider recommendations.',
+    date: '2026-06-21',
+    readingTime: '7 min',
+    content: `
+## Which Japan SIM Card Should You Get as a Foreigner in 2026?
+
+Between airport prepaid SIMs, eSIMs you can activate before landing, and long-term resident plans from virtual operators, the options are wider than most people expect. Here is how to choose the right one quickly.
+
+## 3 types of Japanese mobile plans
+
+**Prepaid data-only SIM (arrival and short stay)**
+
+Available at Narita and Haneda airports or on Amazon Japan. No voice calls included. Best option for your first weeks before setting up a resident plan.
+
+Operators: IIJmio Tourist, B-Mobile, JAPAN TRAVEL SIM, eConnect Japan.
+
+Typical terms: 15 to 30 days, ¥2,000 to ¥4,500 depending on data volume (3 to 20 GB).
+
+**Long-term MVNO plans (residents)**
+
+For foreigners with a residence card (zairyu card) and a registered address at a ward office. Optional voice calls, capped or unlimited data.
+
+Operators: IIJmio, OCN Mobile One, mineo, NURO Mobile.
+
+Price: ¥850 to ¥3,000/month depending on data allowance. The most affordable long-term option.
+
+**Sub-brands of the big three operators**
+
+Discount sub-brands from NTT Docomo, SoftBank, and KDDI offer flat-rate plans at competitive prices.
+
+- ahamo (NTT Docomo): 20 GB for ¥2,970/month.
+- LINEMO (SoftBank): 20 GB for ¥2,728/month or mini 3 GB at ¥990/month.
+- povo2.0 (KDDI/au): base plan at ¥0/month, then data add-ons purchased as needed.
+
+## 2026 comparison: which SIM for which situation?
+
+| Situation | Best option | Approximate cost |
+|-----------|-------------|-----------------|
+| New arrival, under 1 month | IIJmio Tourist 30-day SIM | ¥4,000 |
+| No fixed address yet | povo2.0 base ¥0 + data packs | ¥330 per GB |
+| Resident, minimal budget | IIJmio 2 GB plan | ¥850/month |
+| Resident, moderate data use | ahamo 20 GB | ¥2,970/month |
+| Family with multiple lines | IIJmio family discount | Discount per additional line |
+
+## How to get a SIM card when arriving in Japan
+
+**Option 1: eSIM before departure**
+
+The most convenient option if your phone supports it. You activate the SIM from your home country before landing. Compatibility: iPhone XS and later, most Android phones released after 2019. Your device must be unlocked. eSIM providers for Japan: IIJmio Tourist, Airalo (Japan pack), Ubigi.
+
+**Option 2: Physical SIM at the airport**
+
+IIJmio, B-Mobile, and Sakura Mobile kiosks are in the arrival terminals at Narita (T1/T2/T3) and Haneda (T3). Bring your passport. Opening hours: approximately 7:00 AM to 11:00 PM.
+
+**Option 3: Online order after registration**
+
+Once you have registered your address at your local ward office (yakusho) and received your residence card, order directly on the operator's website. Delivery: 2 to 5 business days. Most MVNOs accept foreign credit cards.
+
+## Voice calls and international calls
+
+Most prepaid SIMs do not include voice calls. For your daily communication needs:
+
+- **International calls**: LINE (free between LINE users), WhatsApp, or Skype are standard among expats.
+- **Local voice calls** (estate agents, banks, ward office): choose an MVNO plan with voice included. IIJmio and mineo offer voice add-ons for ¥550 to ¥880/month extra.
+- **Japanese special numbers**: 0120- freephone numbers are accessible from mobiles; 0570- Navi-dial numbers may generate extra charges.
+
+## Unlock your phone before leaving home
+
+Contact your home-country carrier to unlock your phone before departing. A SIM-locked device will not accept a Japanese SIM.
+
+iPhones purchased outright from an Apple Store are usually already unlocked. Frequency bands to verify: B1, B3, B19 for Docomo-network operators (IIJmio, ahamo); B1, B3, B8 for SoftBank-network operators (LINEMO). Most recent smartphones support these bands.
+
+---
+
+*For home internet in your apartment, see our guide to [setting up utilities in Tokyo](/blog/setting-up-utilities-tokyo-apartment). For a complete move-in checklist, read our [step-by-step guide to moving to Tokyo](/blog/moving-to-tokyo-checklist-2026).*
+    `.trim(),
+  },
+  {
+    slug: 'japan-income-tax-foreigners-guide',
+    locale: 'en',
+    title: 'Japan Income Tax for Foreigners: Complete Guide 2026',
+    description: 'Tax brackets, filing deadlines and deductions for expats in Japan. How the 15 March deadline, MyPortal online filing, and foreign income rules work in 2026.',
+    date: '2026-06-21',
+    readingTime: '9 min',
+    content: `
+## Japan Income Tax for Expats: What You Actually Need to Know
+
+Japan's tax system is rarely covered in expat relocation guides, yet it directly affects your take-home pay from day one. This guide covers who is taxable, what rates apply, and how to file.
+
+## Who pays income tax in Japan?
+
+Your tax status depends on how long you have lived in Japan.
+
+**Non-permanent resident (less than 5 years in Japan during the past 10)**
+
+You are taxed only on income sourced in Japan, plus any foreign income remitted to Japan. Foreign income left abroad is not taxed. This is the status of the large majority of foreign employees in Japan during their first years.
+
+**Permanent resident (more than 5 years in Japan during the past 10)**
+
+You are taxed on your worldwide income, regardless of where it is paid or held.
+
+**Non-resident**
+
+You are not based in Japan continuously. Taxed only on Japan-sourced income.
+
+## Japan's 2026 income tax brackets
+
+Japan's national income tax is progressive. On top of this, local residential tax (juminzei, 住民税) adds a flat 10% billed the following year.
+
+| Taxable income (¥/year) | National rate |
+|------------------------|---------------|
+| Up to 1,950,000 | 5% |
+| 1,950,001 to 3,300,000 | 10% |
+| 3,300,001 to 6,950,000 | 20% |
+| 6,950,001 to 9,000,000 | 23% |
+| 9,000,001 to 18,000,000 | 33% |
+| 18,000,001 to 40,000,000 | 40% |
+| Over 40,000,000 | 45% |
+
+At a salary of ¥6,000,000/year (approximately $40,000 or €36,000), the combined effective rate (national + local) is typically 22 to 25%.
+
+## When and how to file your taxes
+
+The tax return filing period (kakutei shinkoku, 確定申告) runs from 16 February to 15 March each year, covering income from the previous calendar year.
+
+**If your Japanese employer withholds tax at source (gensen choshū)**, you may not need to file a full return. Your employer issues a withholding tax certificate (源泉徴収票) in December or January. Check with your HR team.
+
+**You must file if** you have supplementary income: freelance earnings, overseas rental income, investment returns from non-Japanese accounts, or income from multiple employers.
+
+**Online via MyPortal** (mynaportal.go.jp): electronic filing available since 2021. Requires a My Number card with chip. Some local tax offices offer bilingual appointment slots from mid-February to mid-March.
+
+**In person**: your local tax office (zeimusho, 税務署) accepts paper returns. Several Tokyo wards have foreigner-friendly counters, sometimes with English-speaking staff.
+
+## The juminzei: local residential tax
+
+Juminzei (住民税) is the local tax levied by your municipality and prefecture at a flat 10% of taxable income (6% municipal + 4% prefectural).
+
+It is calculated on your year N income and billed in June of year N+1. This creates a cash-flow gap in your first year: you pay juminzei for year 1 during your second year in Japan.
+
+## Key deductions available to expats
+
+- Social insurance premiums (shakai hoken contributions paid by employees): fully deductible.
+- Medical expenses exceeding ¥100,000 per year: deductible above this threshold.
+- Donations to approved organisations (including furusato nozei).
+- Home loan interest for property purchased in Japan.
+- Basic deduction: ¥480,000 for most taxpayers.
+
+## Bilateral tax treaties
+
+Japan has bilateral tax treaties with France, the US, the UK, and most OECD countries that prevent double taxation. If you have paid income tax in Japan, your home country typically grants a credit against any domestic liability on the same income.
+
+Important: even if you owe no tax at home, you may still be required to report your situation (FBAR for US citizens holding foreign accounts, for example). Check with your home-country tax authority.
+
+## FAQ
+
+**Does my Japanese employer handle everything?**
+
+Mostly yes, for full-time employees on a standard Japanese contract. Verify with HR whether a supplementary return is required for overseas income.
+
+**What happens if I leave Japan mid-year?**
+
+You must file a final return before leaving, or appoint a tax representative (zeirishi). Your employer may complete a year-end adjustment for salary income.
+
+---
+
+*For a complete relocation checklist, see our guide on [moving to Tokyo step by step](/blog/moving-to-tokyo-checklist-2026). For healthcare contributions, read our guide to [Japan's health insurance for expats](/blog/japan-health-insurance-expat-guide).*
+    `.trim(),
+  },
+  {
+    slug: 'setting-up-utilities-tokyo-apartment',
+    locale: 'en',
+    title: 'How to Set Up Utilities in Your Tokyo Apartment (2026)',
+    description: 'Electricity, gas, water and internet: step-by-step guide to setting up all utilities in a Tokyo apartment as an expat, with provider names and lead times.',
+    date: '2026-06-21',
+    readingTime: '7 min',
+    content: `
+## Setting Up Utilities in Your Tokyo Apartment: Step-by-Step
+
+Once you have the keys to your Tokyo apartment, four services need to be activated or subscribed: electricity, gas, water, and internet. Most can be done online in under 30 minutes. Here is exactly what to do.
+
+## Electricity: activate your meter online
+
+Electricity in Tokyo is supplied by **TEPCO** (Tokyo Electric Power Company). You cannot choose your supplier in the greater Tokyo area.
+
+Process: visit TEPCO's website (kurashi.tepco.co.jp) and fill in the move-in registration form. You will need: your move-in date, the meter number (printed on a sticker near your electrical panel), your contact details, and your new address.
+
+The form is primarily in Japanese with English guidance notes. You can also call TEPCO's English helpline at 0120-995-113.
+
+Activation: usually instant if the previous tenant properly cancelled their contract. If not, a technician may visit within 1 to 3 days.
+
+Billing: monthly, by direct debit or at a convenience store. Base subscription: approximately ¥300 to ¥400/month plus consumption per kWh.
+
+## Gas: only if your apartment uses it
+
+Gas is only relevant if your apartment has a gas hob or gas water heater. Many modern Tokyo apartments run entirely on electricity (IH cooking hob and electric water heater), in which case no gas contract is needed.
+
+If your apartment has gas, the supplier is **Tokyo Gas** (tokyogas.co.jp). Activation requires a technician visit. Book online or call 03-3433-7111 (English options available). Lead time: 3 to 7 business days.
+
+Ask your agency whether your apartment is gas or IH before buying a hob or rice cooker.
+
+## Water: usually automatic
+
+Water (suidō, 水道) in Tokyo is managed by the Tokyo Metropolitan Government's Bureau of Waterworks. In most modern apartments, the meter activates automatically when the lease starts. Your agent or landlord handles this.
+
+If your water is not running after move-in, contact the Tokyo Waterworks Bureau at 03-5326-1101 (English available).
+
+Billing: every two months. Average for a studio: ¥1,000 to ¥2,500 per billing cycle.
+
+## Home internet: choosing the right provider
+
+Japan's fibre internet (hikari) is among the fastest and most affordable in the world. Setup involves two steps: choosing the physical network (typically NTT Flets) then an ISP that leases access on that network.
+
+Main options in Tokyo:
+
+- **NTT Flets Hikari + partner ISP**: the most common combination. Flets costs ¥5,500 to ¥6,000/month, plus ISP fees of ¥500 to ¥1,500/month. Total: ¥6,000 to ¥7,500/month.
+- **SoftBank Hikari**: single bundled contract, approximately ¥5,500/month.
+- **NURO Hikari**: one of the fastest options (2 Gbps download), ¥5,200/month. Coverage varies by area.
+- **au Hikari**: strong Tokyo coverage, often bundled with KDDI mobile plans.
+
+Installation lead time: 2 to 6 weeks. Plan a backup solution for your first month.
+
+**Internet while waiting for fibre**: use your SIM card as a mobile hotspot (tethering), or rent a portable pocket WiFi router from IIJmio, Rakuten, or a SoftBank counter at your nearest station. Pocket WiFi typically delivers 50 to 150 Mbps for ¥2,500 to ¥4,000/month.
+
+## Summary: what to do and when
+
+| Service | Typical lead time | How to set up |
+|---------|-----------------|---------------|
+| Electricity | Instant to 3 days | TEPCO online form |
+| Water | Usually automatic | Call if not running at move-in |
+| Gas | 3 to 7 business days | Book technician with Tokyo Gas |
+| Home internet | 2 to 6 weeks | Compare ISPs then order online |
+| Mobile SIM | Instant (eSIM) or 2-5 days | See Japan SIM card guide |
+
+## FAQ
+
+**Do I need a registered Japanese address to subscribe to internet?**
+
+Yes, for fibre contracts. A Japanese address is required. For pocket WiFi devices, your passport often suffices.
+
+**Are TEPCO and Tokyo Gas forms available in English?**
+
+TEPCO has English guidance on its website and an English-language phone line. Tokyo Gas has an English-language phone option. If you are struggling, your letting agency can often assist with first-contact calls.
+
+---
+
+*For a complete move-in checklist, see our [step-by-step guide to moving to Tokyo](/blog/moving-to-tokyo-checklist-2026). For the apartment search before you get to this stage, read our [Tokyo apartment hunting guide for foreigners](/blog/find-apartment-tokyo-foreigner).*
+    `.trim(),
+  },
+  {
+    slug: 'working-in-tokyo-expat-guide-2026',
+    locale: 'en',
+    title: 'Working in Tokyo as an Expat: Practical Guide 2026',
+    description: 'Work visas, Japanese business culture, average salaries and employee rights for expats in Tokyo. What to expect when starting work at a Japanese company in 2026.',
+    date: '2026-06-21',
+    readingTime: '9 min',
+    content: `
+## Working in Tokyo as an Expat: What to Expect in 2026
+
+Whether you are arriving on a local contract or an international assignment, Tokyo's workplace culture has specific codes that can catch even experienced professionals off guard. This guide covers the essentials.
+
+## Work visa types for foreigners in Japan
+
+You need a valid work visa before starting employment in Japan. The most common categories for qualified expats are:
+
+**Engineer / Specialist in Humanities / International Services visa (技術・人文知識・国際業務)**
+
+The most common work visa for technical, business, marketing, and language specialist roles. Duration: 1, 3, or 5 years, renewable.
+
+**Business Manager visa (経営管理)**
+
+For company founders or managing directors. Specific requirements on capital and employee count apply.
+
+**Highly Skilled Professional visa (高度専門職)**
+
+Points-based visa for high earners or highly qualified profiles. Key benefit: accelerated permanent residency, possible from 1 to 3 years depending on your point score.
+
+**Working Holiday visa**
+
+Bilateral agreement available to citizens of France, the UK, Australia, Canada, and others aged 18 to 30. Allows working in Japan for up to 1 year without a prior employment contract.
+
+For detailed conditions and application steps, see our [Japan work visa guide](/blog/japan-work-visa-foreigners-guide).
+
+## Japanese workplace culture: what you need to know
+
+**Punctuality is absolute**
+
+On time means 5 minutes early. A 3-minute delay is noticed. For client meetings, arrive 10 to 15 minutes ahead.
+
+**Nemawashi (根回し): pre-meeting consensus building**
+
+Important decisions go through informal pre-consultation before a formal meeting. You will often need to pitch your idea individually to each stakeholder beforehand. Formal meetings are usually for validation, not debate.
+
+**Meishi (名刺): business card exchange**
+
+Present your card with both hands, text facing your counterpart. Never write on or fold a received card. Do not put it straight into your pocket. This exchange happens at the start of every first meeting.
+
+**Overtime culture**
+
+Japan's 2019 labour reforms capped overtime at 45 hours per month (720 per year) for most employees. Long hours remain common in banking, consulting, and advertising. Check your contract carefully, particularly for discretionary work clauses (sairyo rodo), which can affect overtime pay.
+
+## Salaries in Tokyo for expats in 2026
+
+| Role | Annual gross (¥) | Approximate EUR equivalent |
+|------|-----------------|--------------------------|
+| Junior IT engineer | 4,000,000 to 5,500,000 | €24,000 to €33,000 |
+| Senior IT engineer | 6,000,000 to 10,000,000 | €36,000 to €60,000 |
+| Mid-level marketing / sales | 4,500,000 to 7,000,000 | €27,000 to €42,000 |
+| Finance (banking) | 7,000,000 to 15,000,000 | €42,000 to €90,000 |
+| Language teacher (ALT) | 2,800,000 to 3,600,000 | €17,000 to €22,000 |
+
+International assignment packages (expats sent by multinationals) typically include a relocation premium, housing allowance, and school fees, putting total compensation well above equivalent local salaries.
+
+## Social contributions and employee benefits
+
+Employees in Japan contribute to the social insurance system (shakai hoken), covering health insurance (kenko hoken), pension (nenkin), and employment insurance (koyo hoken). Total employee contributions: approximately 14 to 16% of gross salary.
+
+Your employer health insurance covers 70% of medical costs (you pay the remaining 30%). For details, see our guide on [Japan's health insurance for expats](/blog/japan-health-insurance-expat-guide).
+
+Most Japanese companies reimburse commuting costs (teiki-ken passes) up to ¥150,000/month and pay biannual bonuses in June and December, typically equivalent to 1 to 4 months of base salary depending on performance.
+
+## Documents to prepare before your first day
+
+1. Residence card (zairyu card): obtained at the airport or your local ward office.
+2. My Number: your social security equivalent, issued with your first tax notification.
+3. Japanese bank account for salary payments. See our [bank account guide](/blog/open-bank-account-japan-foreigner).
+4. Resident certificate (juminhyo): available at your ward office (yakusho).
+5. Personal seal (inkan) or signature agreement for HR paperwork.
+
+## FAQ
+
+**Can you find work in Tokyo without speaking Japanese?**
+
+Yes, particularly in multinationals, tech startups, financial services, and education. The Japanese proficiency required varies widely by sector. In finance and IT at international firms, English is often sufficient at an operational level.
+
+**How does the probation period work in Japan?**
+
+Japanese contracts typically include a 3 to 6 month probation period. Employee rights are protected from day one under Japanese labour law, including during probation.
+
+---
+
+*To find housing near your workplace, our guide to [Tokyo neighbourhoods for expats](/blog/tokyo-neighbourhoods-expats-guide) helps you choose by commute line and budget. For all administrative steps after arrival, see our [complete Tokyo moving checklist](/blog/moving-to-tokyo-checklist-2026).*
+    `.trim(),
+  },
 ]
 
 export function getBlogPosts(locale: Locale): BlogPost[] {
