@@ -23,12 +23,12 @@ RED = (232, 65, 65)    # #e84141
 WHITE = (255, 255, 255)
 
 HOUSE_CX = SIZE // 2
-HOUSE_CY = 175
-HOUSE_W = 148
-HOUSE_H = 112
-TEXT_Y1 = 340
-TEXT_Y2 = 415
-FONT_SIZE = 64
+HOUSE_CY = 178
+HOUSE_W = 120
+HOUSE_H = 90
+TEXT_Y1 = 313
+TEXT_Y2 = 383
+FONT_SIZE = 58
 
 
 def draw_house(draw, cx, cy, w, h, color, bg):
