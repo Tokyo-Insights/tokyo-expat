@@ -10,18 +10,33 @@ export default function Icon() {
         width: 32,
         height: 32,
         background: '#0f2744',
-        borderRadius: 6,
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
-        color: 'white',
-        fontWeight: 800,
-        fontSize: 13,
-        letterSpacing: '-0.5px',
       }}
     >
-      <span style={{ color: 'white' }}>T</span>
-      <span style={{ color: '#e84141' }}>E</span>
+      <span
+        style={{
+          color: 'white',
+          fontWeight: 900,
+          fontSize: 16,
+          lineHeight: 1,
+          fontFamily: 'sans-serif',
+        }}
+      >
+        T
+      </span>
+      <span
+        style={{
+          color: '#e84141',
+          fontWeight: 900,
+          fontSize: 16,
+          lineHeight: 1,
+          fontFamily: 'sans-serif',
+        }}
+      >
+        E
+      </span>
     </div>,
     { ...size }
   )

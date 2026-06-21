@@ -213,22 +213,30 @@ def post_to_expatcom_selenium(articles: list) -> list:
                     time.sleep(3)
 
                     # Sujet
-                    subj = driver.find_elements(By.NAME, 'subject') or driver.find_elements(By.ID, 'subject')
-                    if subj:
-                        subj[0].send_keys(title)
+                    subj = driver.find_elements(By.CSS_SELECTOR, "input[name='subject']")
+                    if not subj:
+                        print(f"Champ subject non trouvé sur {forum['name']}")
+                        continue
+                    subj[0].clear()
+                    subj[0].send_keys(title)
 
-                    # Corps
-                    msg = driver.find_elements(By.NAME, 'message') or driver.find_elements(By.ID, 'message')
-                    if msg:
-                        msg[0].send_keys(body)
+                    # Message — éditeur rich text contenteditable
+                    from selenium.webdriver.common.keys import Keys as _Keys
+                    msg_divs = driver.find_elements(By.CSS_SELECTOR, "div[contenteditable='true']")
+                    if not msg_divs:
+                        print(f"Champ message non trouvé sur {forum['name']}")
+                        continue
+                    driver.execute_script("arguments[0].click();", msg_divs[0])
+                    time.sleep(0.5)
+                    msg_divs[0].send_keys(_Keys.CONTROL + 'a')
+                    msg_divs[0].send_keys(body)
 
-                    # Submit — JS click aussi pour éviter overlays
+                    # Submit
                     submit_btns = [b for b in driver.find_elements(By.TAG_NAME, 'button')
-                                   if b.get_attribute('type') == 'submit'
-                                   or any(kw in b.text.lower() for kw in ['submit', 'post', 'send', 'publier', 'envoyer'])]
+                                   if 'submit' in b.text.lower()]
                     if submit_btns:
                         driver.execute_script("arguments[0].click();", submit_btns[0])
-                        time.sleep(4)
+                        time.sleep(5)
                         print(f"Posté sur {forum['name']}: {title}")
                         forum_success += 1
                     else:
