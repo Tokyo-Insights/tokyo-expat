@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+  <!-- Fond blanc -->
+  <rect width="500" height="500" fill="white"/>
+  <!-- Cercle bleu marine -->
+  <circle cx="250" cy="250" r="245" fill="#0f2744"/>
+  <!-- Icone maison -->
+  <polygon points="250,105 130,210 155,210 155,345 220,345 220,280 280,280 280,345 345,345 345,210 370,210" fill="white"/>
+  <!-- Fenetre maison -->
+  <rect x="225" y="215" width="50" height="45" rx="4" fill="#0f2744"/>
+  <!-- Tokyo en blanc -->
+  <text x="250" y="390" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="72" text-anchor="middle" fill="white" letter-spacing="-1">Tokyo</text>
+  <!-- Expat en rouge -->
+  <text x="250" y="460" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="72" text-anchor="middle" fill="#e84141" letter-spacing="-1">Expat</text>
+</svg>
