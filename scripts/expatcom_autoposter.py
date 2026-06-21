@@ -37,11 +37,10 @@ STATE_FILE = Path(__file__).parent / 'data' / 'expatcom_posted.json'
 BLOG_TS_PATH = Path(__file__).parent.parent / 'lib' / 'blog.ts'
 BASE_URL = "https://www.tokyo-expat.com"
 
-# Forums Expat.com
+# Forums Expat.com (ID 204 = Tokyo, validé le 2026-06-21)
 FORUMS = {
     'en': [
         {'name': 'Expat Tokyo (EN)', 'url': 'https://www.expat.com/forum/viewforum.php?id=204'},
-        {'name': 'Japan (EN)', 'url': 'https://www.expat.com/forum/viewforum.php?id=54'},
     ],
     'fr': [
         {'name': 'Tokyo francophone', 'url': 'https://www.expat.com/forum/viewforum.php?id=204'},
