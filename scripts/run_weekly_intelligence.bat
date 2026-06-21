@@ -63,12 +63,20 @@ python scripts\seasonal_calendar.py >> "%LOG_FILE%" 2>&1
 echo [%TIME%] [9/10] Proactive analysis... >> "%LOG_FILE%"
 python scripts\proactive_analysis.py >> "%LOG_FILE%" 2>&1
 
-:: 10. Expat.com auto-post
-echo [%TIME%] [10/11] Expat.com autoposter... >> "%LOG_FILE%"
+:: 10. Expat.com auto-post (nouveaux articles)
+echo [%TIME%] [10/13] Expat.com autoposter... >> "%LOG_FILE%"
 python scripts\expatcom_autoposter.py >> "%LOG_FILE%" 2>&1
 
-:: 11. Digest social sharing (1 message Telegram avec liens 1-clic Reddit+Facebook)
-echo [%TIME%] [11/11] Social sharing digest... >> "%LOG_FILE%"
+:: 11. Expat.com reponses automatiques aux sujets existants (max 2/semaine)
+echo [%TIME%] [11/13] Expat.com replier... >> "%LOG_FILE%"
+python scripts\expatcom_replier.py >> "%LOG_FILE%" 2>&1
+
+:: 12. Verifie si les liens Expat.com sont approuves par les moderateurs
+echo [%TIME%] [12/13] Expat.com link checker... >> "%LOG_FILE%"
+python scripts\expatcom_link_checker.py >> "%LOG_FILE%" 2>&1
+
+:: 13. Digest social sharing (1 message Telegram avec liens 1-clic Reddit+Facebook)
+echo [%TIME%] [13/13] Social sharing digest... >> "%LOG_FILE%"
 python scripts\social_sharing.py >> "%LOG_FILE%" 2>&1
 
 echo [%TIME%] Weekly intelligence complete. >> "%LOG_FILE%"
