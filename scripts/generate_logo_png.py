@@ -17,18 +17,18 @@ except ImportError:
     from PIL import Image, ImageDraw, ImageFont
 
 OUT = Path(__file__).parent.parent / "public" / "logo-square.png"
-SIZE = 500
+SIZE = 800
 BLUE = (15, 39, 68)    # #0f2744
 RED = (232, 65, 65)    # #e84141
 WHITE = (255, 255, 255)
 
 HOUSE_CX = SIZE // 2
-HOUSE_CY = 178
-HOUSE_W = 120
-HOUSE_H = 90
-TEXT_Y1 = 313
-TEXT_Y2 = 383
-FONT_SIZE = 58
+HOUSE_CY = 285
+HOUSE_W = 192
+HOUSE_H = 144
+TEXT_Y1 = 500
+TEXT_Y2 = 614
+FONT_SIZE = 93
 
 
 def draw_house(draw, cx, cy, w, h, color, bg):
@@ -54,7 +54,7 @@ def try_font(size):
     return ImageFont.load_default()
 
 
-def generate_social(out_path, size=500):
+def generate_social(out_path, size=SIZE):
     """Logo carre fond bleu PLEIN - pas de blanc autour.
     Quand Expat.com/Facebook crop en cercle, le fond bleu remplit parfaitement."""
     img = Image.new("RGB", (size, size), BLUE)

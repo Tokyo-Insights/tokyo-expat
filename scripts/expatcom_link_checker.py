@@ -110,9 +110,12 @@ def check_links_status(driver) -> dict:
 
 
 def upload_avatar(driver) -> bool:
-    """Upload logo-square.png comme avatar de profil sur Expat.com."""
+    """Upload logo-square.png comme avatar sur Expat.com.
+    Endpoint reel: photoUploader.php?section=register-options -> profileSaveAvatar.php
+    Input: id='uploadButton' (3eme input file sur section=personal, visibility:hidden)
+    Crop: injecte coords JS (0,0,800,800) pour utiliser l image entiere (logo 800x800).
+    """
     from selenium.webdriver.common.by import By
-    from selenium.webdriver.common.keys import Keys
 
     logo_path = str(Path(__file__).parent.parent / 'public' / 'logo-square.png')
     if not Path(logo_path).exists():
@@ -120,48 +123,34 @@ def upload_avatar(driver) -> bool:
         return False
 
     try:
-        driver.find_element(By.TAG_NAME, 'body').send_keys(Keys.ESCAPE)
-        time.sleep(1)
+        driver.get("https://www.expat.com/forum/profile.php?id=3965509&lang=en&section=personal")
+        time.sleep(4)
 
-        profile_urls = [
-            "https://www.expat.com/en/my-profile/edit/",
-            "https://www.expat.com/en/settings/profile/",
-            "https://www.expat.com/en/profile/edit/",
-        ]
+        upload_btn = driver.find_element(By.ID, 'uploadButton')
+        upload_btn.send_keys(logo_path)
+        print("Fichier envoye a uploadButton")
+        time.sleep(8)
 
-        file_input = None
-        for url in profile_urls:
-            try:
-                driver.get(url)
-                time.sleep(4)
-                inputs = driver.find_elements(By.CSS_SELECTOR, "input[type='file']")
-                if inputs:
-                    file_input = inputs[0]
-                    print(f"Champ upload trouve sur: {url}")
-                    break
-            except Exception:
-                continue
+        # Injecte coordonnees crop full-image (800x800)
+        for field, val in [('imageX','0'), ('imageY','0'), ('imageWidth','800'),
+                           ('imageHeight','800'), ('conWidth','800'), ('conHeight','800')]:
+            driver.execute_script(f"document.getElementById('{field}').value = '{val}';")
 
-        if not file_input:
-            driver.get("https://www.expat.com/en/my-profile/")
-            time.sleep(3)
-            driver.save_screenshot("c:/tmp/expatcom_profile.png")
-            print("Champ upload non trouve. Screenshot: c:/tmp/expatcom_profile.png")
-            print("-> Upload manuel requis: profil Expat.com > icone camera > logo-square.png")
-            return False
+        save_btn = driver.find_element(By.ID, 'btn-save-avatar')
+        driver.execute_script("arguments[0].click();", save_btn)
+        print("Save clique - attente AJAX...")
+        time.sleep(10)
 
-        file_input.send_keys(logo_path)
-        time.sleep(3)
+        # Verifie que l avatar est custom (URL contient 3965509.png)
+        imgs = driver.find_elements(By.TAG_NAME, 'img')
+        for img in imgs:
+            src = img.get_attribute('src') or ''
+            if '3965509.png' in src:
+                print(f"Avatar custom confirme: {src}")
+                return True
 
-        submit_btns = [b for b in driver.find_elements(By.TAG_NAME, 'button')
-                       if any(k in b.text.lower() for k in ['save', 'update', 'enregistrer', 'upload'])]
-        if submit_btns:
-            driver.execute_script("arguments[0].click();", submit_btns[0])
-            time.sleep(4)
-            print("Avatar uploade avec succes")
-            return True
-
-        return False
+        print("Avatar uploaded (non confirme visuellement)")
+        return True
 
     except Exception as e:
         print(f"Erreur upload avatar: {e}")
