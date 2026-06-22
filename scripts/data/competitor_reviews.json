@@ -1,0 +1,50 @@
+{
+  "Remoters": {
+    "name": "Remoters",
+    "total_results": 0,
+    "complaints": 0,
+    "reddit_threads": 0,
+    "top_issues": [],
+    "issue_counts": {},
+    "counter_angle": "On est local, eux sont une plateforme distante sans connaissance terrain",
+    "complaint_snippets": [],
+    "reddit_urls": [],
+    "last_scraped": "2026-06-22"
+  },
+  "Sakura House": {
+    "name": "Sakura House",
+    "total_results": 0,
+    "complaints": 0,
+    "reddit_threads": 0,
+    "top_issues": [],
+    "issue_counts": {},
+    "counter_angle": "Logements personnalises vs share house impersonnel de masse",
+    "complaint_snippets": [],
+    "reddit_urls": [],
+    "last_scraped": "2026-06-22"
+  },
+  "Oak House": {
+    "name": "Oak House",
+    "total_results": 13,
+    "complaints": 0,
+    "reddit_threads": 0,
+    "top_issues": [],
+    "issue_counts": {},
+    "counter_angle": "Transparence totale sur les frais vs frais caches",
+    "complaint_snippets": [],
+    "reddit_urls": [],
+    "last_scraped": "2026-06-22"
+  },
+  "GaijinPot Housing": {
+    "name": "GaijinPot",
+    "total_results": 16,
+    "complaints": 0,
+    "reddit_threads": 0,
+    "top_issues": [],
+    "issue_counts": {},
+    "counter_angle": "Accompagnement humain vs portail automatise sans suivi",
+    "complaint_snippets": [],
+    "reddit_urls": [],
+    "last_scraped": "2026-06-22"
+  }
+}

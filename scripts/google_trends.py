@@ -18,6 +18,18 @@ if sys.stdout.encoding and sys.stdout.encoding.lower() not in ('utf-8', 'utf8'):
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 VERIFY_SSL = False
 
+# Fix urllib3 >= 2.0 compatibility with pytrends (method_whitelist -> allowed_methods)
+try:
+    from urllib3.util.retry import Retry
+    _orig_retry_init = Retry.__init__
+    def _patched_retry_init(self, *args, **kwargs):
+        if "method_whitelist" in kwargs:
+            kwargs["allowed_methods"] = kwargs.pop("method_whitelist")
+        _orig_retry_init(self, *args, **kwargs)
+    Retry.__init__ = _patched_retry_init
+except Exception:
+    pass
+
 try:
     from pytrends.request import TrendReq
 except ImportError:

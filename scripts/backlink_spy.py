@@ -61,36 +61,25 @@ RELEVANT_KEYWORDS = [
 
 # ── API CALLS ─────────────────────────────────────────────────────────────────
 
+def ahrefs_manual_url(domain: str) -> str:
+    return f"https://ahrefs.com/backlink-checker/?input={domain}&mode=subdomains"
+
+
 def fetch_openlinkprofiler(domain: str, limit: int = 200) -> list[dict]:
-    """
-    Appelle l'API gratuite OpenLinkProfiler.
-    Doc: http://api.openlinkprofiler.org/
-    """
-    url = f"http://api.openlinkprofiler.org/lps"
-    params = {
-        "url": domain,
-        "limit": limit,
-        "output": "json",
-    }
+    """Appelle OpenLinkProfiler. Si indisponible, retourne liste vide + lien Ahrefs."""
+    url = "http://api.openlinkprofiler.org/lps"
+    params = {"url": domain, "limit": limit, "output": "json"}
     try:
-        r = requests.get(url, params=params, timeout=30, verify=VERIFY_SSL)
+        r = requests.get(url, params=params, timeout=15, verify=VERIFY_SSL)
         if r.ok:
             data = r.json()
             if isinstance(data, list):
                 return data
             if isinstance(data, dict) and "links" in data:
                 return data["links"]
-    except Exception as e:
-        print(f"  [WARN] OpenLinkProfiler error for {domain}: {e}")
-
-    # Fallback: Moz Free API (mozchecklist)
-    return fetch_fallback_links(domain)
-
-
-def fetch_fallback_links(domain: str) -> list[dict]:
-    """Fallback via Google site: search si OpenLinkProfiler échoue."""
-    # On ne scrape pas Google ici — on retourne une liste vide et on log
-    print(f"  [INFO] Fallback: manuellement, cherche sur ahrefs.com/backlink-checker?input={domain}")
+    except Exception:
+        pass
+    print(f"  [INFO] API indisponible — vérif manuelle: {ahrefs_manual_url(domain)}")
     return []
 
 
@@ -178,21 +167,30 @@ def send_telegram(msg: str) -> None:
         print(f"Telegram error: {e}")
 
 
-def send_report(opportunities: list[dict], our_count: int) -> None:
-    top = opportunities[:10]
-    lines = [
-        f"🔗 <b>BACKLINK SPY</b> — {datetime.date.today()}\n",
-        f"<b>{len(opportunities)}</b> opportunités trouvées | Nous: <b>{our_count}</b> backlinks\n",
-        "<b>Top 10 cibles à contacter :</b>",
-    ]
-    for i, opp in enumerate(top, 1):
-        domain = opp["source_domain"]
-        comp = opp["competitor"]
-        score = opp["score"]
-        follow = "✅ dofollow" if opp["follow"] else "⬜ nofollow"
-        lines.append(f"{i}. <b>{domain}</b> (score:{score}) [{follow}]\n   via {comp}")
+def send_report(opportunities: list[dict], our_count: int, competitors: list[str] | None = None) -> None:
+    lines = [f"🔗 <b>BACKLINK SPY</b> — {datetime.date.today()}\n"]
 
-    lines.append("\n<b>Action:</b> contacter ces sites pour proposer un échange de contenu ou guest post")
+    if opportunities:
+        top = opportunities[:10]
+        lines.append(f"<b>{len(opportunities)}</b> opportunités trouvées | Nous: <b>{our_count}</b> backlinks\n")
+        lines.append("<b>Top 10 cibles à contacter :</b>")
+        for i, opp in enumerate(top, 1):
+            domain = opp["source_domain"]
+            comp = opp["competitor"]
+            score = opp["score"]
+            follow = "✅ dofollow" if opp["follow"] else "⬜ nofollow"
+            lines.append(f"{i}. <b>{domain}</b> (score:{score}) [{follow}]\n   via {comp}")
+        lines.append("\n<b>Action:</b> contacter ces sites pour proposer un échange de contenu ou guest post")
+    else:
+        lines.append("API OpenLinkProfiler indisponible — vérification manuelle requise.\n")
+        lines.append("<b>Vérifie les backlinks concurrents sur Ahrefs (gratuit) :</b>")
+        for comp in (competitors or COMPETITORS):
+            lines.append(f"• <a href='{ahrefs_manual_url(comp)}'>{comp}</a>")
+        lines.append(
+            "\n<b>Action :</b> ouvre chaque lien, note les domaines référents haute DA,"
+            " contacte-les pour un échange de contenu ou guest post."
+        )
+
     send_telegram("\n".join(lines))
 
 
@@ -260,7 +258,7 @@ def main():
     write_csv(new_opportunities)
 
     # Telegram
-    send_report(new_opportunities, len(our_links))
+    send_report(new_opportunities, len(our_links), COMPETITORS)
 
 
 if __name__ == "__main__":

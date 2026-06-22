@@ -108,21 +108,10 @@ def check_url_status(url: str) -> int:
             return 0
 
 
-def find_who_links_to(dead_url: str) -> list[dict]:
-    """Trouve qui lie vers une URL morte via OpenLinkProfiler."""
-    try:
-        from urllib.parse import quote
-        api_url = f"http://api.openlinkprofiler.org/lps?url={quote(dead_url)}&limit=50&output=json"
-        r = requests.get(api_url, timeout=20, verify=VERIFY_SSL)
-        if r.ok:
-            data = r.json()
-            if isinstance(data, list):
-                return data
-            if isinstance(data, dict) and "links" in data:
-                return data["links"]
-    except Exception as e:
-        print(f"    [WARN] API error for {dead_url}: {e}")
-    return []
+def ahrefs_manual_url(dead_url: str) -> str:
+    """Génère l'URL Ahrefs free backlink checker pour vérification manuelle."""
+    from urllib.parse import quote
+    return f"https://ahrefs.com/backlink-checker/?input={quote(dead_url)}&mode=exact"
 
 
 def guess_our_replacement(dead_url: str) -> str:
@@ -185,7 +174,9 @@ def main():
         send_telegram("⚠️ <b>BROKEN LINK FINDER</b>: aucun cache concurrent. Lance competitor_watch.py d'abord.")
         return
 
-    seen_linker_domains: set[str] = set()
+    # "reported" = 404 pages déjà envoyées en Telegram, ne pas ré-alerter
+    already_reported: set[str] = set(broken_cache.get("reported", []))
+    new_dead_pages: list[dict] = []
 
     for name, urls in competitor_urls.items():
         sample = urls[:MAX_URLS_PER_COMPETITOR]
@@ -205,70 +196,56 @@ def main():
 
                 total_checked += 1
 
-                if status == 404:
+                if status == 404 and url not in already_reported:
                     total_404 += 1
-                    print(f"  404: {url}")
-
+                    print(f"  404 NEW: {url}")
                     our_replacement = guess_our_replacement(url)
-                    linkers = find_who_links_to(url)
-                    time.sleep(2)
-
-                    for linker in linkers[:5]:
-                        linker_domain = linker.get("source_domain", linker.get("domain", ""))
-                        linker_url = linker.get("source_url", linker.get("url", ""))
-                        da = int(linker.get("domain_authority", linker.get("da", 0)) or 0)
-
-                        if not linker_domain or linker_domain == OUR_DOMAIN:
-                            continue
-                        if linker_domain in seen_linker_domains:
-                            continue
-
-                        seen_linker_domains.add(linker_domain)
-                        pitch = generate_pitch_email(url, our_replacement, linker_domain)
-
-                        opportunities.append({
-                            "competitor": name,
-                            "dead_url": url,
-                            "linker_domain": linker_domain,
-                            "linker_url": linker_url,
-                            "da": da,
-                            "our_replacement": our_replacement,
-                            "pitch_email": pitch,
-                        })
+                    new_dead_pages.append({
+                        "competitor": name,
+                        "dead_url": url,
+                        "our_replacement": our_replacement,
+                        "ahrefs_check": ahrefs_manual_url(url),
+                    })
 
             time.sleep(SLEEP_BETWEEN_BATCHES)
             save_broken_cache(broken_cache)
 
-    # Trier par DA décroissant
-    opportunities.sort(key=lambda x: x.get("da", 0), reverse=True)
+    # Marquer les nouvelles 404 comme "reported" pour ne plus alerter dessus
+    if new_dead_pages:
+        reported_list = list(already_reported) + [p["dead_url"] for p in new_dead_pages]
+        broken_cache["reported"] = reported_list
+        save_broken_cache(broken_cache)
 
-    # Export CSV
+    # Export CSV des nouvelles pages mortes
     DATA_DIR.mkdir(exist_ok=True)
-    if opportunities:
-        fields = ["competitor", "dead_url", "linker_domain", "da", "our_replacement", "linker_url", "pitch_email"]
-        with open(OUTPUT_CSV, "w", newline="", encoding="utf-8") as f:
-            writer = csv.DictWriter(f, fieldnames=fields, extrasaction="ignore")
+    if new_dead_pages:
+        manual_csv = DATA_DIR / f"dead_pages_manual_check_{datetime.date.today()}.csv"
+        fields = ["competitor", "dead_url", "our_replacement", "ahrefs_check"]
+        with open(manual_csv, "w", newline="", encoding="utf-8") as f:
+            writer = csv.DictWriter(f, fieldnames=fields)
             writer.writeheader()
-            writer.writerows(opportunities)
-        print(f"\nCSV: {OUTPUT_CSV}")
+            writer.writerows(new_dead_pages)
+        print(f"\nCSV manuel: {manual_csv}")
 
     # Telegram
-    msg = (
-        f"🔴 <b>BROKEN LINK FINDER</b> — {datetime.date.today()}\n\n"
-        f"URLs vérifiées: <b>{total_checked}</b>\n"
-        f"Pages 404 trouvées: <b>{total_404}</b>\n"
-        f"Opportunités backlinks: <b>{len(opportunities)}</b>\n"
-    )
-    if opportunities:
-        msg += "\n<b>Top 5 cibles (par DA) :</b>\n"
-        for opp in opportunities[:5]:
-            msg += f"• <b>{opp['linker_domain']}</b> (DA:{opp['da']}) via {opp['competitor']}\n"
-        msg += f"\n<i>CSV: scripts/data/broken_link_opportunities_{datetime.date.today()}.csv</i>"
+    if new_dead_pages:
+        msg = (
+            f"🔴 <b>BROKEN LINK FINDER</b> — {datetime.date.today()}\n\n"
+            f"<b>{len(new_dead_pages)} nouvelles pages mortes</b> chez les concurrents\n\n"
+            f"<b>Action :</b> vérifie qui les linke sur Ahrefs (gratuit)\n"
+            f"puis envoie le pitch email avec notre page de remplacement.\n\n"
+        )
+        for p in new_dead_pages[:8]:
+            msg += f"• <b>{p['competitor']}</b>: {p['dead_url'].split('/')[-1]}\n  Remplacement: {p['our_replacement']}\n"
+        if len(new_dead_pages) > 8:
+            msg += f"... et {len(new_dead_pages) - 8} autres dans le CSV\n"
+        msg += f"\n<i>Vérifier sur Ahrefs : scripts/data/dead_pages_manual_check_{datetime.date.today()}.csv</i>"
+        send_telegram(msg)
+        print(f"\nRESULTATS: {total_checked} vérifiées, {len(new_dead_pages)} nouvelles mortes")
     else:
-        msg += "\nAucune opportunité trouvée cette semaine."
-    send_telegram(msg)
-
-    print(f"\nRESULTATS: {total_checked} vérifiées, {total_404} mortes, {len(opportunities)} opportunités")
+        msg = f"🔴 <b>BROKEN LINK FINDER</b> — {datetime.date.today()}\nAucune nouvelle page morte détectée cette semaine."
+        send_telegram(msg)
+        print(f"\nRESULTATS: {total_checked} vérifiées, 0 nouvelles (déjà reportées ou aucune)")
 
 
 if __name__ == "__main__":

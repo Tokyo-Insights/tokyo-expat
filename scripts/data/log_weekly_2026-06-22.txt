@@ -1,0 +1,507 @@
+[2026-06-22  7:23:45.03] Starting weekly intelligence (lundi)... 
+[ 7:23:45.04] [1/9] Keyword tracking... 
+
+Tracking 30 keywords across 8 domains...
+ETA: ~2min 30s
+
+[ 1/30] trouver appartement tokyo etranger                 C:\Users\alegu\Desktop\tokyo-expat\scripts\keyword_tracker.py:136: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+TE:—
+[ 2/30] chasseur immobilier tokyo                          C:\Users\alegu\Desktop\tokyo-expat\scripts\keyword_tracker.py:136: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+TE:—
+[ 3/30] share house tokyo guide                            C:\Users\alegu\Desktop\tokyo-expat\scripts\keyword_tracker.py:136: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+TE:—
+[ 4/30] appartement meuble tokyo expatrie                  C:\Users\alegu\Desktop\tokyo-expat\scripts\keyword_tracker.py:136: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+TE:—
+[ 5/30] louer tokyo sans garant etranger                   C:\Users\alegu\Desktop\tokyo-expat\scripts\keyword_tracker.py:136: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+TE:—
+[ 6/30] logement tokyo expatrie                            C:\Users\alegu\Desktop\tokyo-expat\scripts\keyword_tracker.py:136: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+TE:—
+[ 7/30] installer tokyo francais                           C:\Users\alegu\Desktop\tokyo-expat\scripts\keyword_tracker.py:136: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+TE:—
+[ 8/30] quartiers tokyo expatries                          C:\Users\alegu\Desktop\tokyo-expat\scripts\keyword_tracker.py:136: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+TE:—
+[ 9/30] cout vie tokyo 2026                                C:\Users\alegu\Desktop\tokyo-expat\scripts\keyword_tracker.py:136: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+TE:—
+[10/30] garantie loyer japon etranger                      C:\Users\alegu\Desktop\tokyo-expat\scripts\keyword_tracker.py:136: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+TE:—
+[11/30] assurance habitation japon locataire               C:\Users\alegu\Desktop\tokyo-expat\scripts\keyword_tracker.py:136: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+TE:—
+[12/30] logement etudiant tokyo                            C:\Users\alegu\Desktop\tokyo-expat\scripts\keyword_tracker.py:136: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+TE:—
+[13/30] visa travail japon francophone                     C:\Users\alegu\Desktop\tokyo-expat\scripts\keyword_tracker.py:136: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+TE:—
+[14/30] ouvrir compte bancaire japon etranger              C:\Users\alegu\Desktop\tokyo-expat\scripts\keyword_tracker.py:136: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+TE:—
+[15/30] bail tokyo checklist                               C:\Users\alegu\Desktop\tokyo-expat\scripts\keyword_tracker.py:136: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+TE:—
+[16/30] find apartment tokyo foreigner                     C:\Users\alegu\Desktop\tokyo-expat\scripts\keyword_tracker.py:136: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+TE:—
+[17/30] property hunter tokyo                              C:\Users\alegu\Desktop\tokyo-expat\scripts\keyword_tracker.py:136: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+TE:—
+[18/30] share house tokyo guide 2026                       C:\Users\alegu\Desktop\tokyo-expat\scripts\keyword_tracker.py:136: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+TE:—
+[19/30] furnished apartment tokyo no guarantor             C:\Users\alegu\Desktop\tokyo-expat\scripts\keyword_tracker.py:136: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+TE:—
+[20/30] moving to tokyo guide 2026                         C:\Users\alegu\Desktop\tokyo-expat\scripts\keyword_tracker.py:136: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+TE:—
+[21/30] tokyo expat housing                                C:\Users\alegu\Desktop\tokyo-expat\scripts\keyword_tracker.py:136: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+TE:—
+[22/30] rent tokyo expat 2026                              C:\Users\alegu\Desktop\tokyo-expat\scripts\keyword_tracker.py:136: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+TE:—
+[23/30] gaijin house tokyo                                 C:\Users\alegu\Desktop\tokyo-expat\scripts\keyword_tracker.py:136: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+TE:—
+[24/30] tokyo neighbourhoods expats guide                  C:\Users\alegu\Desktop\tokyo-expat\scripts\keyword_tracker.py:136: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+TE:— | japan-guide:#6
+[25/30] student housing tokyo guide                        C:\Users\alegu\Desktop\tokyo-expat\scripts\keyword_tracker.py:136: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+TE:—
+[26/30] guarantor japan rental foreigner                   C:\Users\alegu\Desktop\tokyo-expat\scripts\keyword_tracker.py:136: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+TE:—
+[27/30] tokyo rental contract checklist                    C:\Users\alegu\Desktop\tokyo-expat\scripts\keyword_tracker.py:136: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+TE:—
+[28/30] japan health insurance expat                       C:\Users\alegu\Desktop\tokyo-expat\scripts\keyword_tracker.py:136: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+TE:—
+[29/30] open bank account japan foreigner                  C:\Users\alegu\Desktop\tokyo-expat\scripts\keyword_tracker.py:136: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+TE:—
+[30/30] tokyo apartment hunting abroad                     C:\Users\alegu\Desktop\tokyo-expat\scripts\keyword_tracker.py:136: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+C:\Users\alegu\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'api.telegram.org'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+TE:—
+
+✅ Tracking complete for 2026-06-22
+
+✅ Weekly report sent to Telegram
+[ 7:26:39.92] [2/9] Content gap analysis... 
+
+============================================================
+CONTENT GAP DETECTOR - 2026-06-22
+============================================================
+
+Our content: 84 URLs, 79 unique slugs
+
+Remoters: 25 content URLs (from 6400 total)
+GaijinPot Housing: 0 content URLs (from 0 total)
+GaijinPot Blog: 0 content URLs (from 4558 total)
+Sakura House: 0 content URLs (from 970 total)
+Oak House: 0 content URLs (from 5161 total)
+Tokyo Cheapo: 116 content URLs (from 6827 total)
+Japan Guide: 0 content URLs (from 0 total)
+Fontaine Relocation: 0 content URLs (from 0 total)
+Savvy Tokyo: 0 content URLs (from 8697 total)
+Japan Property Central: 0 content URLs (from 0 total)
+
+Total gaps identifies: 92
+Top 100 saved to C:\Users\alegu\Desktop\tokyo-expat\scripts\data\content_gaps.json
+
+============================================================
+TOP 20 CONTENT GAPS (topics a couvrir en priorite):
+============================================================
+
+ 1. [ 35] spring in tokyo guide
+     Via: Tokyo Cheapo
+     Angle: Creer contenu plus specifique, avec donnees proprietaires et angle francophone u
+
+ 2. [ 35] a guide to moving large items around in tokyo
+     Via: Tokyo Cheapo
+     Angle: Creer contenu plus specifique, avec donnees proprietaires et angle francophone u
+
+ 3. [ 35] new video tokyo cherry blossom guide
+     Via: Tokyo Cheapo
+     Angle: Creer contenu plus specifique, avec donnees proprietaires et angle francophone u
+
+ 4. [ 35] summer in tokyo guide
+     Via: Tokyo Cheapo
+     Angle: Creer contenu plus specifique, avec donnees proprietaires et angle francophone u
+
+ 5. [ 35] pet cost cat tokyo
+     Via: Tokyo Cheapo
+     Angle: Creer contenu plus specifique, avec donnees proprietaires et angle francophone u
+
+ 6. [ 35] beginners guide to tokyo
+     Via: Tokyo Cheapo
+     Angle: Creer contenu plus specifique, avec donnees proprietaires et angle francophone u
+
+ 7. [ 35] finding a monthly parking space in tokyo
+     Via: Tokyo Cheapo
+     Angle: Creer contenu plus specifique, avec donnees proprietaires et angle francophone u
+
+ 8. [ 35] tokyo winter guide
+     Via: Tokyo Cheapo
+     Angle: Creer contenu plus specifique, avec donnees proprietaires et angle francophone u
+
+ 9. [ 25] amsterdam housing crisis 2026 understanding market
+     Via: Remoters
+     Angle: Ajouter des donnees prix reels + comparatif quartiers + notre reseau sans-garant
+
+10. [ 25] dublin housing crisis 2026 why so hard 03f00
+     Via: Remoters
+     Angle: Ajouter des donnees prix reels + comparatif quartiers + notre reseau sans-garant
+
+11. [ 25] amsterdam housing crisis 2026 understanding market b03a2
+     Via: Remoters
+     Angle: Ajouter des donnees prix reels + comparatif quartiers + notre reseau sans-garant
+
+12. [ 25] shared apartment in stockholm
+     Via: Remoters
+     Angle: Ajouter des donnees prix reels + comparatif quartiers + notre reseau sans-garant
+
+13. [ 25] dublin housing crisis 2026 why so hard
+     Via: Remoters
+     Angle: Ajouter des donnees prix reels + comparatif quartiers + notre reseau sans-garant
+
+14. [ 25] recycle clothes in tokyo
+     Via: Tokyo Cheapo
+     Angle: Creer contenu plus specifique, avec donnees proprietaires et angle francophone u
+
+15. [ 25] the tokyo partnership oath system explained
+     Via: Tokyo Cheapo
+     Angle: Creer contenu plus specifique, avec donnees proprietaires et angle francophone u
+
+16. [ 25] keeping toasty tokyo tips tricks surviving winter
+     Via: Tokyo Cheapo
+     Angle: Creer contenu plus specifique, avec donnees proprietaires et angle francophone u
+
+17. [ 25] english speaking hairdresser in tokyo
+     Via: Tokyo Cheapo
+     Angle: Creer contenu plus specifique, avec donnees proprietaires et angle francophone u
+
+18. [ 25] luggage storage in tokyo
+     Via: Tokyo Cheapo
+     Angle: Creer contenu plus specifique, avec donnees proprietaires et angle francophone u
+
+19. [ 25] great tokyo kit kat search
+     Via: Tokyo Cheapo
+     Angle: Creer contenu plus specifique, avec donnees proprietaires et angle francophone u
+
+20. [ 25] snoring sleep apnea tokyo
+     Via: Tokyo Cheapo
+     Angle: Creer contenu plus specifique, avec donnees proprietaires et angle francophone u
+
+Telegram alert sent.
+[ 7:26:41.96] [3/9] Pricing monitor... 
+
+============================================================
+PRICING MONITOR - 2026-06-22
+============================================================
+
+Checking Remoters Tokyo...
+  Aucun changement
+Checking Remoters Homepage...
+  Aucun changement
+Checking Sakura House About...
+  Aucun changement
+Checking Sakura House EN...
+  [WARN] https://www.sakura-house.com/en/: 520 Server Error: <none> for url: http://www.sakura-house.com/
+  [SKIP] Could not fetch
+Checking Oak House Rent Prices...
+  Aucun changement
+Checking Oak House About...
+  Aucun changement
+Checking Tokyo Cheapo Housing...
+  [WARN] https://tokyocheapo.com/living/housing/: 404 Client Error: Not Found for url: https://tokyocheapo.com/living/housing/
+  [SKIP] Could not fetch
+
+Aucun changement de prix detecte
+[ 7:26:45.19] [4/16] Backlink spy... 
+
+============================================================
+BACKLINK SPY — 2026-06-22
+============================================================
+
+Fetching our own backlinks...
+  [WARN] OpenLinkProfiler error for tokyo-expat.com: HTTPConnectionPool(host='api.openlinkprofiler.org', port=80): Max retries exceeded with url: /lps?url=tokyo-expat.com&limit=100&output=json (Caused by NameResolutionError("HTTPConnection(host='api.openlinkprofiler.org', port=80): Failed to resolve 'api.openlinkprofiler.org' ([Errno 11001] getaddrinfo failed)"))
+  [INFO] Fallback: manuellement, cherche sur ahrefs.com/backlink-checker?input=tokyo-expat.com
+  Nous avons 0 backlinks depuis 0 domaines
+
+Fetching backlinks for remoters.io...
+  [WARN] OpenLinkProfiler error for remoters.io: HTTPConnectionPool(host='api.openlinkprofiler.org', port=80): Max retries exceeded with url: /lps?url=remoters.io&limit=200&output=json (Caused by NameResolutionError("HTTPConnection(host='api.openlinkprofiler.org', port=80): Failed to resolve 'api.openlinkprofiler.org' ([Errno 11001] getaddrinfo failed)"))
+  [INFO] Fallback: manuellement, cherche sur ahrefs.com/backlink-checker?input=remoters.io
+  0 links found
+Fetching backlinks for housing.gaijinpot.com...
+  [WARN] OpenLinkProfiler error for housing.gaijinpot.com: HTTPConnectionPool(host='api.openlinkprofiler.org', port=80): Max retries exceeded with url: /lps?url=housing.gaijinpot.com&limit=200&output=json (Caused by NameResolutionError("HTTPConnection(host='api.openlinkprofiler.org', port=80): Failed to resolve 'api.openlinkprofiler.org' ([Errno 11001] getaddrinfo failed)"))
+  [INFO] Fallback: manuellement, cherche sur ahrefs.com/backlink-checker?input=housing.gaijinpot.com
+  0 links found
+Fetching backlinks for sakura-house.com...
+  [WARN] OpenLinkProfiler error for sakura-house.com: HTTPConnectionPool(host='api.openlinkprofiler.org', port=80): Max retries exceeded with url: /lps?url=sakura-house.com&limit=200&output=json (Caused by NameResolutionError("HTTPConnection(host='api.openlinkprofiler.org', port=80): Failed to resolve 'api.openlinkprofiler.org' ([Errno 11001] getaddrinfo failed)"))
+  [INFO] Fallback: manuellement, cherche sur ahrefs.com/backlink-checker?input=sakura-house.com
+  0 links found
+Fetching backlinks for tokyocheapo.com...
+  [WARN] OpenLinkProfiler error for tokyocheapo.com: HTTPConnectionPool(host='api.openlinkprofiler.org', port=80): Max retries exceeded with url: /lps?url=tokyocheapo.com&limit=200&output=json (Caused by NameResolutionError("HTTPConnection(host='api.openlinkprofiler.org', port=80): Failed to resolve 'api.openlinkprofiler.org' ([Errno 11001] getaddrinfo failed)"))
+  [INFO] Fallback: manuellement, cherche sur ahrefs.com/backlink-checker?input=tokyocheapo.com
+  0 links found
+Fetching backlinks for savvytokyo.com...
+  [WARN] OpenLinkProfiler error for savvytokyo.com: HTTPConnectionPool(host='api.openlinkprofiler.org', port=80): Max retries exceeded with url: /lps?url=savvytokyo.com&limit=200&output=json (Caused by NameResolutionError("HTTPConnection(host='api.openlinkprofiler.org', port=80): Failed to resolve 'api.openlinkprofiler.org' ([Errno 11001] getaddrinfo failed)"))
+  [INFO] Fallback: manuellement, cherche sur ahrefs.com/backlink-checker?input=savvytokyo.com
+  0 links found
+Fetching backlinks for japanpropertycentral.com...
+  [WARN] OpenLinkProfiler error for japanpropertycentral.com: HTTPConnectionPool(host='api.openlinkprofiler.org', port=80): Max retries exceeded with url: /lps?url=japanpropertycentral.com&limit=200&output=json (Caused by NameResolutionError("HTTPConnection(host='api.openlinkprofiler.org', port=80): Failed to resolve 'api.openlinkprofiler.org' ([Errno 11001] getaddrinfo failed)"))
+  [INFO] Fallback: manuellement, cherche sur ahrefs.com/backlink-checker?input=japanpropertycentral.com
+  0 links found
+
+============================================================
+RÉSULTATS:
+  Total opportunités: 0
+  Nouvelles (pas encore nos backlinks): 0
+============================================================
+
+
+📁 CSV exporté: C:\Users\alegu\Desktop\tokyo-expat\scripts\data\backlink_opportunities_2026-06-22.csv
+[ 7:26:58.55] [5/16] Broken link finder... 
+
+============================================================
+BROKEN LINK FINDER — 2026-06-22
+============================================================
+
+
+Checking Remoters (80 URLs)...
+
+Checking GaijinPot Housing (0 URLs)...
+
+Checking GaijinPot Blog (80 URLs)...
+
+Checking Sakura House (80 URLs)...
+  404: https://www.sakura-house.com/tw/building/building/shinjuku-akebonobashi-3
+    [WARN] API error for https://www.sakura-house.com/tw/building/building/shinjuku-akebonobashi-3: HTTPConnectionPool(host='api.openlinkprofiler.org', port=80): Max retries exceeded with url: /lps?url=https%3A//www.sakura-house.com/tw/building/building/shinjuku-akebonobashi-3&limit=50&output=json (Caused by NameResolutionError("HTTPConnection(host='api.openlinkprofiler.org', port=80): Failed to resolve 'api.openlinkprofiler.org' ([Errno 11001] getaddrinfo failed)"))
+  404: https://www.sakura-house.com/indonesian/building/building/shinjuku-akebonobashi-5
+    [WARN] API error for https://www.sakura-house.com/indonesian/building/building/shinjuku-akebonobashi-5: HTTPConnectionPool(host='api.openlinkprofiler.org', port=80): Max retries exceeded with url: /lps?url=https%3A//www.sakura-house.com/indonesian/building/building/shinjuku-akebonobashi-5&limit=50&output=json (Caused by NameResolutionError("HTTPConnection(host='api.openlinkprofiler.org', port=80): Failed to resolve 'api.openlinkprofiler.org' ([Errno 11001] getaddrinfo failed)"))
+  404: https://www.sakura-house.com/fr/building/building/ojima-tokyo-3
+    [WARN] API error for https://www.sakura-house.com/fr/building/building/ojima-tokyo-3: HTTPConnectionPool(host='api.openlinkprofiler.org', port=80): Max retries exceeded with url: /lps?url=https%3A//www.sakura-house.com/fr/building/building/ojima-tokyo-3&limit=50&output=json (Caused by NameResolutionError("HTTPConnection(host='api.openlinkprofiler.org', port=80): Failed to resolve 'api.openlinkprofiler.org' ([Errno 11001] getaddrinfo failed)"))
+  404: https://www.sakura-house.com/jp/building/building/shinjuku-akebonobashi-4
+    [WARN] API error for https://www.sakura-house.com/jp/building/building/shinjuku-akebonobashi-4: HTTPConnectionPool(host='api.openlinkprofiler.org', port=80): Max retries exceeded with url: /lps?url=https%3A//www.sakura-house.com/jp/building/building/shinjuku-akebonobashi-4&limit=50&output=json (Caused by NameResolutionError("HTTPConnection(host='api.openlinkprofiler.org', port=80): Failed to resolve 'api.openlinkprofiler.org' ([Errno 11001] getaddrinfo failed)"))
+  404: https://www.sakura-house.com/thai/building/building/tabata-3-dorm
+    [WARN] API error for https://www.sakura-house.com/thai/building/building/tabata-3-dorm: HTTPConnectionPool(host='api.openlinkprofiler.org', port=80): Max retries exceeded with url: /lps?url=https%3A//www.sakura-house.com/thai/building/building/tabata-3-dorm&limit=50&output=json (Caused by NameResolutionError("HTTPConnection(host='api.openlinkprofiler.org', port=80): Failed to resolve 'api.openlinkprofiler.org' ([Errno 11001] getaddrinfo failed)"))
+  404: https://www.sakura-house.com/kr/building/building/ojima-tokyo-4
+    [WARN] API error for https://www.sakura-house.com/kr/building/building/ojima-tokyo-4: HTTPConnectionPool(host='api.openlinkprofiler.org', port=80): Max retries exceeded with url: /lps?url=https%3A//www.sakura-house.com/kr/building/building/ojima-tokyo-4&limit=50&output=json (Caused by NameResolutionError("HTTPConnection(host='api.openlinkprofiler.org', port=80): Failed to resolve 'api.openlinkprofiler.org' ([Errno 11001] getaddrinfo failed)"))
+  404: https://www.sakura-house.com/muslim-friendly-houses
+    [WARN] API error for https://www.sakura-house.com/muslim-friendly-houses: HTTPConnectionPool(host='api.openlinkprofiler.org', port=80): Max retries exceeded with url: /lps?url=https%3A//www.sakura-house.com/muslim-friendly-houses&limit=50&output=json (Caused by NameResolutionError("HTTPConnection(host='api.openlinkprofiler.org', port=80): Failed to resolve 'api.openlinkprofiler.org' ([Errno 11001] getaddrinfo failed)"))
+  404: https://www.sakura-house.com/de/building/building/shinjuku-akebonobashi-1
+    [WARN] API error for https://www.sakura-house.com/de/building/building/shinjuku-akebonobashi-1: HTTPConnectionPool(host='api.openlinkprofiler.org', port=80): Max retries exceeded with url: /lps?url=https%3A//www.sakura-house.com/de/building/building/shinjuku-akebonobashi-1&limit=50&output=json (Caused by NameResolutionError("HTTPConnection(host='api.openlinkprofiler.org', port=80): Failed to resolve 'api.openlinkprofiler.org' ([Errno 11001] getaddrinfo failed)"))
+  404: https://www.sakura-house.com/kr/building/building/shibuya-ebisu-apartment-2
+    [WARN] API error for https://www.sakura-house.com/kr/building/building/shibuya-ebisu-apartment-2: HTTPConnectionPool(host='api.openlinkprofiler.org', port=80): Max retries exceeded with url: /lps?url=https%3A//www.sakura-house.com/kr/building/building/shibuya-ebisu-apartment-2&limit=50&output=json (Caused by NameResolutionError("HTTPConnection(host='api.openlinkprofiler.org', port=80): Failed to resolve 'api.openlinkprofiler.org' ([Errno 11001] getaddrinfo failed)"))
+  404: https://www.sakura-house.com/de/building/building/hiroo
+    [WARN] API error for https://www.sakura-house.com/de/building/building/hiroo: HTTPConnectionPool(host='api.openlinkprofiler.org', port=80): Max retries exceeded with url: /lps?url=https%3A//www.sakura-house.com/de/building/building/hiroo&limit=50&output=json (Caused by NameResolutionError("HTTPConnection(host='api.openlinkprofiler.org', port=80): Failed to resolve 'api.openlinkprofiler.org' ([Errno 11001] getaddrinfo failed)"))
+  404: https://www.sakura-house.com/tw/building/building/shinjuku-akebonobashi-5
+    [WARN] API error for https://www.sakura-house.com/tw/building/building/shinjuku-akebonobashi-5: HTTPConnectionPool(host='api.openlinkprofiler.org', port=80): Max retries exceeded with url: /lps?url=https%3A//www.sakura-house.com/tw/building/building/shinjuku-akebonobashi-5&limit=50&output=json (Caused by NameResolutionError("HTTPConnection(host='api.openlinkprofiler.org', port=80): Failed to resolve 'api.openlinkprofiler.org' ([Errno 11001] getaddrinfo failed)"))
+  404: https://www.sakura-house.com/fr/building/building/shinjuku-akebonobashi-4
+    [WARN] API error for https://www.sakura-house.com/fr/building/building/shinjuku-akebonobashi-4: HTTPConnectionPool(host='api.openlinkprofiler.org', port=80): Max retries exceeded with url: /lps?url=https%3A//www.sakura-house.com/fr/building/building/shinjuku-akebonobashi-4&limit=50&output=json (Caused by NameResolutionError("HTTPConnection(host='api.openlinkprofiler.org', port=80): Failed to resolve 'api.openlinkprofiler.org' ([Errno 11001] getaddrinfo failed)"))
+  404: https://www.sakura-house.com/indonesian/muslim-friendly-houses
+    [WARN] API error for https://www.sakura-house.com/indonesian/muslim-friendly-houses: HTTPConnectionPool(host='api.openlinkprofiler.org', port=80): Max retries exceeded with url: /lps?url=https%3A//www.sakura-house.com/indonesian/muslim-friendly-houses&limit=50&output=json (Caused by NameResolutionError("HTTPConnection(host='api.openlinkprofiler.org', port=80): Failed to resolve 'api.openlinkprofiler.org' ([Errno 11001] getaddrinfo failed)"))
+  404: https://www.sakura-house.com/kr/building/building/ojima-tokyo-1
+    [WARN] API error for https://www.sakura-house.com/kr/building/building/ojima-tokyo-1: HTTPConnectionPool(host='api.openlinkprofiler.org', port=80): Max retries exceeded with url: /lps?url=https%3A//www.sakura-house.com/kr/building/building/ojima-tokyo-1&limit=50&output=json (Caused by NameResolutionError("HTTPConnection(host='api.openlinkprofiler.org', port=80): Failed to resolve 'api.openlinkprofiler.org' ([Errno 11001] getaddrinfo failed)"))
+  404: https://www.sakura-house.com/fr/search
+    [WARN] API error for https://www.sakura-house.com/fr/search: HTTPConnectionPool(host='api.openlinkprofiler.org', port=80): Max retries exceeded with url: /lps?url=https%3A//www.sakura-house.com/fr/search&limit=50&output=json (Caused by NameResolutionError("HTTPConnection(host='api.openlinkprofiler.org', port=80): Failed to resolve 'api.openlinkprofiler.org' ([Errno 11001] getaddrinfo failed)"))
+  404: https://www.sakura-house.com/de/search
+    [WARN] API error for https://www.sakura-house.com/de/search: HTTPConnectionPool(host='api.openlinkprofiler.org', port=80): Max retries exceeded with url: /lps?url=https%3A//www.sakura-house.com/de/search&limit=50&output=json (Caused by NameResolutionError("HTTPConnection(host='api.openlinkprofiler.org', port=80): Failed to resolve 'api.openlinkprofiler.org' ([Errno 11001] getaddrinfo failed)"))
+  404: https://www.sakura-house.com/cn/building/building/hiroo
+    [WARN] API error for https://www.sakura-house.com/cn/building/building/hiroo: HTTPConnectionPool(host='api.openlinkprofiler.org', port=80): Max retries exceeded with url: /lps?url=https%3A//www.sakura-house.com/cn/building/building/hiroo&limit=50&output=json (Caused by NameResolutionError("HTTPConnection(host='api.openlinkprofiler.org', port=80): Failed to resolve 'api.openlinkprofiler.org' ([Errno 11001] getaddrinfo failed)"))
+
+Checking Oak House (80 URLs)...
+
+Checking Tokyo Cheapo (80 URLs)...
+
+Checking Japan Guide (0 URLs)...
+
+Checking Fontaine Relocation (0 URLs)...
+
+Checking Savvy Tokyo (80 URLs)...
+
+Checking Japan Property Central (0 URLs)...
+
+RESULTATS: 480 vérifiées, 17 mortes, 0 opportunités
+[ 7:37:29.54] [6/16] Outreach tracker digest... 
+
+============================================================
+OUTREACH TRACKER — 2026-06-22
+============================================================
+Total: 43 | A contacter: 43 | Emails: 0 | Réponses: 0 | Liens: 0
+
+Cibles cette semaine:
+  -> wise.com (fintech, DA:85) — Mention dans article blog Wise Japan + lien guide expatries Tokyo...
+  -> timeoutjapan.net (backlink_t1, DA:80) — Lien ressource dans section 'Living in Tokyo'...
+  -> fr.ambafrance-jp.org (government, DA:75) — Ajout dans section 'S'installer au Japon' / ressources pour expatries...
+  -> japantoday.com (backlink_t1, DA:70) — Article data/opinion sur marche locatif Tokyo pour expatries 2026...
+  -> expatica.com (backlink_t1, DA:70) — Partenariat editorial section Japan (logement + relocation)...
+
+Email template: python scripts/outreach_tracker.py --email DOMAIN
+Mise à jour: python scripts/outreach_tracker.py --update DOMAIN emailed
+[ 7:37:31.00] [7/16] Vulnerability detector... 
+
+============================================================
+VULNERABILITY DETECTOR - 2026-06-22
+============================================================
+
+Comparaison : 2026-06-20 -> 2026-06-22 (7j d'ecart)
+
+VULNERABILITY: japan-guide.com | 'tokyo rental contract checklist' | #3 -> #OUT (chute 20)
+VULNERABILITY: japan-guide.com | 'tokyo apartment hunting abroad' | #3 -> #OUT (chute 20)
+
+2 vulnerabilites sauvegardees -> C:\Users\alegu\Desktop\tokyo-expat\scripts\data\vulnerabilities.json
+Telegram envoye.
+[ 7:37:32.28] [8/16] Google Trends... 
+
+============================================================
+GOOGLE TRENDS EARLY WARNING - 2026-06-22
+============================================================
+
+Groupe 1/4: tokyo apartment rent, move to japan, japan expat housing...
+  [WARN] pytrends error: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+  [WARN] pytrends error: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+Groupe 2/4: share house tokyo, japan visa work, tokyo foreigner rent...
+  [WARN] pytrends error: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+  [WARN] pytrends error: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+Groupe 3/4: tokyo housing cost 2026, tokyo expat cost of living, find apartment tokyo...
+  [WARN] pytrends error: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+  [WARN] pytrends error: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+Groupe 4/4: logement tokyo, appartement tokyo expatrie, s installer au japon...
+  [WARN] pytrends error: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+  [WARN] pytrends error: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+
+Historique sauvegarde (0 entrees)
+Aucun spike detecte cette semaine.
+[ 7:39:39.16] [9/16] Review scraper... 
+C:\Users\alegu\Desktop\tokyo-expat\scripts\review_scraper.py:97: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+C:\Users\alegu\Desktop\tokyo-expat\scripts\review_scraper.py:97: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+C:\Users\alegu\Desktop\tokyo-expat\scripts\review_scraper.py:97: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+C:\Users\alegu\Desktop\tokyo-expat\scripts\review_scraper.py:97: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+C:\Users\alegu\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'api.telegram.org'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+
+============================================================
+REVIEW SCRAPER - 2026-06-22
+============================================================
+
+
+--- Remoters ---
+  Searching: remoters housing japan review problems...
+  Searching: remoters.io housing complaint reddit...
+  Searching: remoters tokyo housing scam review...
+  Searching: site:reddit.com remoters japan housing...
+  0 resultats | 0 plaintes | 0 Reddit threads
+  Top issues: 
+
+--- Sakura House ---
+  Searching: sakura house tokyo review bad reddit...
+  Searching: sakura house japan complaints problems...
+  Searching: sakura house overcrowded noisy review...
+  Searching: site:reddit.com sakura-house review...
+  0 resultats | 0 plaintes | 0 Reddit threads
+  Top issues: 
+
+--- Oak House ---
+  Searching: oak house japan review reddit problems...
+  Searching: oakhouse.jp complaint review 2024 2025...
+  Searching: oak house tokyo hidden fees problems...
+  13 resultats | 0 plaintes | 0 Reddit threads
+  Top issues: 
+
+--- GaijinPot ---
+  Searching: gaijinpot housing review problems reddit...
+  Searching: gaijinpot housing scam complaint japan...
+  Searching: housing.gaijinpot.com review bad experience...
+  16 resultats | 0 plaintes | 0 Reddit threads
+  Top issues: 
+
+Sauvegarde -> C:\Users\alegu\Desktop\tokyo-expat\scripts\data\competitor_reviews.json
+Telegram envoye.
+[ 7:40:50.99] [10/16] Seasonal calendar... 
+
+============================================================
+SEASONAL CALENDAR - 2026-06-22
+============================================================
+
+Regle : publier 7 semaines AVANT le pic
+
+2026-07-15 | Pre-rentree universitaire      | Publier avant: 2026-05-27 [PUBLIER MAINTENANT - 23j restants avant pic]
+   Article : Logement etudiant a Tokyo pour octobre : share house vs dortoir univer
+
+2026-09-01 | Rentree universitaire          | Publier avant: 2026-07-14 [dans 71j]
+   Article : Trouver un appartement a Tokyo en septembre : ce qui change vs le prin
+
+2026-10-01 | Pic Q4 expats                  | Publier avant: 2026-08-13 [dans 101j]
+   Article : Appartement meuble Tokyo : les 5 meilleures options pour expatries arr
+
+2026-12-15 | Planification Noel/Nouvel An   | Publier avant: 2026-10-27 [dans 176j]
+   Article : Mon guide complet pour s'expatrier a Tokyo : tout ce que j'aurais voul
+
+2027-02-01 | Annonces affectations pro      | Publier avant: 2026-12-14 [dans 224j]
+   Article : Guide complet : trouver un logement a Tokyo en 2 semaines (pour une mu
+
+2027-03-15 | Pic demenagement Mars          | Publier avant: 2027-01-25 [dans 266j]
+   Article : Checklist demenagement Tokyo : J-30 a J+7 (tout ce qu'il faut preparer
+
+2027-04-01 | Debut annee fiscale            | Publier avant: 2027-02-11 [dans 283j]
+   Article : S'installer a Tokyo en avril : guide pratique semaine par semaine
+
+Telegram envoye : 4 pics a venir
+
+ARTICLES URGENTS A ECRIRE :
+  - Logement etudiant a Tokyo pour octobre : share house vs dortoir universitaire
+[ 7:40:52.30] [11/16] Proactive analysis... 
+
+============================================================
+ANALYSE PROACTIVE COMPLETE - 2026-06-22
+============================================================
+
+Donnees chargees:
+  Gaps        : OK
+  Keywords    : OK
+  Pricing     : OK
+  Competitors : OK
+  Vulns       : OK
+  Saison      : OK
+
+Envoi rapport Telegram (3 messages)...
+Rapport proactif envoye.
+[ 7:40:55.67] [12/16] Expat.com autoposter... 
+Aucun article à poster sur Expat.com.
+[ 7:40:55.94] [13/16] Expat.com replier... 
+Login OK
+Topics trouves: 149
+Submit non trouve: https://www.expat.com/en/forum/asia/japan/tokyo/1105087-trying-to-find-schooling-option-with-english-language.html
+Echec reponse: Trying to find schooling option with English Language
+Submit non trouve: https://www.expat.com/en/forum/asia/japan/tokyo/1105087-trying-to-find-schooling-option-with-english-language.html#6082061
+Echec reponse: Last post 8 months ago by Cheryl
+Reponses postees: 0
+[ 7:41:42.66] [14/16] Expat.com link checker... 
+Login OK
+Threads trouves: 10
+Liens approuves: 0
+Liens en attente: 0
+[ 7:42:48.58] [15/16] Internations autoposter... 
+Credentials manquants dans scripts/.env (INTERNATIONS_EMAIL / INTERNATIONS_PASSWORD)
+[ 7:42:48.99] [16/16] Social sharing digest... 
+Digest envoyé pour 24 article(s).
+[ 7:42:53.14] Weekly intelligence complete. 

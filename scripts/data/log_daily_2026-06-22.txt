@@ -1,0 +1,85 @@
+[2026-06-22  7:23:35.81] Starting daily watch... 
+[ 7:23:35.81] [1/3] Competitor watch... 
+
+============================================================
+COMPETITOR WATCH - 2026-06-22
+============================================================
+
+Scanning Remoters...
+  6400 URLs found
+Scanning GaijinPot Housing...
+  [WARN] https://housing.gaijinpot.com/sitemap.xml: HTTPSConnectionPool(host='housing.gaijinpot.com', port=443): Max retries exceeded with url: /sitemap.xml (Caused by NameResolutionError("HTTPSConnection(host='housing.gaijinpot.com', port=443): Failed to resolve 'housing.gaijinpot.com' ([Errno 11001] getaddrinfo failed)"))
+  0 URLs found
+Scanning GaijinPot Blog...
+  4559 URLs found
+Scanning Sakura House...
+  970 URLs found
+Scanning Oak House...
+  5161 URLs found
+Scanning Tokyo Cheapo...
+  6863 URLs found
+Scanning Japan Guide...
+  [WARN] https://www.japan-guide.com/sitemap.xml: 404 Client Error: Not Found for url: https://www.japan-guide.com/sitemap.xml
+  0 URLs found
+Scanning Fontaine Relocation...
+  [WARN] https://fontaine.co.jp/sitemap.xml: HTTPSConnectionPool(host='fontaine.co.jp', port=443): Max retries exceeded with url: /sitemap.xml (Caused by NameResolutionError("HTTPSConnection(host='fontaine.co.jp', port=443): Failed to resolve 'fontaine.co.jp' ([Errno 11001] getaddrinfo failed)"))
+  0 URLs found
+Scanning Savvy Tokyo...
+  8699 URLs found
+Scanning Japan Property Central...
+  [WARN] https://japanpropertycentral.com/sitemap.xml: 404 Client Error: Not Found for url: https://japanpropertycentral.com/sitemap.xml
+  0 URLs found
+
+✅ No new content detected — all quiet
+
+Total indexed: 32613 competitor URLs in cache
+[ 7:24:49.36] [2/3] Seasonal calendar... 
+
+============================================================
+SEASONAL CALENDAR - 2026-06-22
+============================================================
+
+Regle : publier 7 semaines AVANT le pic
+
+2026-07-15 | Pre-rentree universitaire      | Publier avant: 2026-05-27 [PUBLIER MAINTENANT - 23j restants avant pic]
+   Article : Logement etudiant a Tokyo pour octobre : share house vs dortoir univer
+
+2026-09-01 | Rentree universitaire          | Publier avant: 2026-07-14 [dans 71j]
+   Article : Trouver un appartement a Tokyo en septembre : ce qui change vs le prin
+
+2026-10-01 | Pic Q4 expats                  | Publier avant: 2026-08-13 [dans 101j]
+   Article : Appartement meuble Tokyo : les 5 meilleures options pour expatries arr
+
+2026-12-15 | Planification Noel/Nouvel An   | Publier avant: 2026-10-27 [dans 176j]
+   Article : Mon guide complet pour s'expatrier a Tokyo : tout ce que j'aurais voul
+
+2027-02-01 | Annonces affectations pro      | Publier avant: 2026-12-14 [dans 224j]
+   Article : Guide complet : trouver un logement a Tokyo en 2 semaines (pour une mu
+
+2027-03-15 | Pic demenagement Mars          | Publier avant: 2027-01-25 [dans 266j]
+   Article : Checklist demenagement Tokyo : J-30 a J+7 (tout ce qu'il faut preparer
+
+2027-04-01 | Debut annee fiscale            | Publier avant: 2027-02-11 [dans 283j]
+   Article : S'installer a Tokyo en avril : guide pratique semaine par semaine
+
+Telegram envoye : 4 pics a venir
+
+ARTICLES URGENTS A ECRIRE :
+  - Logement etudiant a Tokyo pour octobre : share house vs dortoir universitaire
+[ 7:24:50.63] [3/3] Proactive analysis... 
+
+============================================================
+ANALYSE PROACTIVE COMPLETE - 2026-06-22
+============================================================
+
+Donnees chargees:
+  Gaps        : OK
+  Keywords    : OK
+  Pricing     : OK
+  Competitors : OK
+  Vulns       : N/A (Pas encore genere (lance vulnerability_detector.py))
+  Saison      : OK
+
+Envoi rapport Telegram (3 messages)...
+Rapport proactif envoye.
+[ 7:24:53.89] Daily watch complete. 

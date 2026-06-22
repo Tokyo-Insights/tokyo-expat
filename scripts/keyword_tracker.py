@@ -17,7 +17,7 @@ import random
 from pathlib import Path
 
 try:
-    from duckduckgo_search import DDGS
+    from ddgs import DDGS
 except ImportError:
     print("Install: pip install duckduckgo-search")
     sys.exit(1)

@@ -21,10 +21,13 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 VERIFY_SSL = False
 
 try:
-    from duckduckgo_search import DDGS
+    from ddgs import DDGS
 except ImportError:
-    print("Install: pip install duckduckgo-search")
-    sys.exit(1)
+    try:
+        from duckduckgo_search import DDGS
+    except ImportError:
+        print("Install: pip install ddgs")
+        sys.exit(1)
 
 from config import TE_TOKEN, TE_CHAT_ID
 
