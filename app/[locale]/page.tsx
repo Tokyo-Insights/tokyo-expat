@@ -45,11 +45,72 @@ export default async function HomePage({
     areaServed: { '@type': 'City', name: 'Tokyo', sameAs: 'https://www.wikidata.org/wiki/Q1490' },
     serviceType: locale === 'fr' ? 'Chasseur immobilier' : 'Property Hunter',
     inLanguage: locale === 'fr' ? ['fr', 'en'] : ['en', 'fr'],
+    founder: {
+      '@type': 'Person',
+      name: 'Alessandro',
+      jobTitle: locale === 'fr' ? 'Chasseur immobilier à Tokyo' : 'Tokyo Property Hunter',
+      sameAs: [
+        'https://www.expat.com/forum/profile.php?id=3965509',
+        'https://www.facebook.com/profile.php?id=61591352422178',
+      ],
+    },
+    sameAs: [
+      'https://www.expat.com/forum/profile.php?id=3965509',
+      'https://www.facebook.com/profile.php?id=61591352422178',
+    ],
     offers: {
       '@type': 'Offer',
       url: `https://www.tokyo-expat.com/${locale}/services`,
     },
   }
+
+  const stats = locale === 'fr'
+    ? [
+        { value: '300+', label: 'Logements en portefeuille' },
+        { value: '16+', label: 'Dossiers clients actifs' },
+        { value: 'FR · EN · JP', label: 'Langues parlées' },
+      ]
+    : [
+        { value: '300+', label: 'Properties available' },
+        { value: '16+', label: 'Active client files' },
+        { value: 'FR · EN · JP', label: 'Languages spoken' },
+      ]
+
+  const cases = locale === 'fr'
+    ? [
+        {
+          label: 'Share house trouvée en 9 jours',
+          profile: 'Travailleur à distance — Paris',
+          detail: 'Chambre privée à Shinjuku, 65 000 JPY/mois, sans garant japonais',
+        },
+        {
+          label: 'Appartement meublé avant l\'arrivée',
+          profile: 'Couple — Londres',
+          detail: '2 pièces à Shibuya, candidature et contrat signés à distance',
+        },
+        {
+          label: 'Setup nomade digital complet',
+          profile: 'Consultant indépendant — Montréal',
+          detail: 'Share house à Koenji + accompagnement visa en 12 jours',
+        },
+      ]
+    : [
+        {
+          label: 'Share house found in 9 days',
+          profile: 'Remote worker — Paris',
+          detail: 'Private room in Shinjuku, 65,000 JPY/month, no Japanese guarantor',
+        },
+        {
+          label: 'Furnished apartment before landing',
+          profile: 'Couple — London',
+          detail: '2-room in Shibuya, application and contract signed remotely',
+        },
+        {
+          label: 'Full digital nomad setup',
+          profile: 'Independent consultant — Montreal',
+          detail: 'Share house in Koenji + visa guidance, 12 days end-to-end',
+        },
+      ]
 
   return (
     <div>
@@ -83,6 +144,18 @@ export default async function HomePage({
               {h.hero_secondary}
             </Link>
           </div>
+        </div>
+      </section>
+
+      {/* Stats bar */}
+      <section className="bg-white border-b border-gray-100 py-8 px-4">
+        <div className="max-w-4xl mx-auto grid grid-cols-3 gap-4 text-center">
+          {stats.map((s) => (
+            <div key={s.value}>
+              <p className="text-2xl font-extrabold text-[#0f2744]">{s.value}</p>
+              <p className="text-xs text-gray-500 mt-1">{s.label}</p>
+            </div>
+          ))}
         </div>
       </section>
 
@@ -133,6 +206,30 @@ export default async function HomePage({
             >
               {h.services_cta}
             </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Client cases */}
+      <section className="py-20 px-4 bg-gray-50">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-3xl font-bold text-center text-[#0f2744] mb-3">
+            {locale === 'fr' ? 'Dossiers récents' : 'Recent client cases'}
+          </h2>
+          <p className="text-center text-gray-400 text-sm mb-12">
+            {locale === 'fr' ? 'Profils anonymisés' : 'Anonymised profiles'}
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {cases.map((c, i) => (
+              <div key={i} className="bg-white rounded-2xl p-6 border border-gray-200 shadow-sm">
+                <div className="w-8 h-8 rounded-full bg-[#e84141] flex items-center justify-center text-white text-xs font-bold mb-4">
+                  {String.fromCharCode(65 + i)}
+                </div>
+                <p className="font-bold text-[#0f2744] mb-1">{c.label}</p>
+                <p className="text-xs text-gray-400 mb-3">{c.profile}</p>
+                <p className="text-sm text-gray-600 leading-relaxed">{c.detail}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
