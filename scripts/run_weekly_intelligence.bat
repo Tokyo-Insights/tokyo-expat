@@ -91,4 +91,8 @@ python scripts\internations_autoposter.py >> "%LOG_FILE%" 2>&1
 echo [%TIME%] [16/16] Social sharing digest... >> "%LOG_FILE%"
 python scripts\social_sharing.py >> "%LOG_FILE%" 2>&1
 
+:: 17. Monday briefing consolide (toujours en dernier, apres tous les scripts)
+echo [%TIME%] [17/17] Monday briefing consolide... >> "%LOG_FILE%"
+python scripts\monday_briefing.py >> "%LOG_FILE%" 2>&1
+
 echo [%TIME%] Weekly intelligence complete. >> "%LOG_FILE%"
