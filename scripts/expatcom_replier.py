@@ -228,10 +228,13 @@ def reply_to_topic(driver, topic_url: str, reply_text: str) -> bool:
     return True
 
 
-def main():
+def main(dry_run: bool = False):
     if not EXPATCOM_EMAIL or not EXPATCOM_PASSWORD:
         print("Credentials manquants dans scripts/.env")
         return
+
+    if dry_run:
+        print("[DRY-RUN] Mode draft actif -- aucune reponse ne sera soumise.")
 
     state = load_replies_state()
     replied_set = set(state.get('replied_threads', []))
@@ -271,6 +274,23 @@ def main():
 
         replied_count = 0
         replied_titles = []
+
+        if dry_run:
+            # Mode draft : generer les reponses et envoyer sur Telegram sans poster
+            drafts = []
+            for t in targets:
+                reply = pick_reply(t['title'])
+                drafts.append(f"<b>{t['title'][:60]}</b>\n{t['url']}\n\n<i>{reply[:200]}...</i>")
+            driver.quit()
+            msg = (
+                f"<b>EXPAT.COM REPLIER -- DRAFTS A RELIRE</b>\n"
+                f"{len(drafts)} reponse(s) prete(s) -- a poster manuellement :\n\n"
+                + "\n\n---\n\n".join(drafts)
+            )
+            send_telegram(msg)
+            print(f"[DRY-RUN] {len(drafts)} drafts envoyes sur Telegram. Aucune soumission.")
+            return
+
         for t in targets:
             reply = pick_reply(t['title'])
             ok = reply_to_topic(driver, t['url'], reply)
@@ -304,4 +324,5 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    dry = "--dry-run" in sys.argv
+    main(dry_run=dry)
