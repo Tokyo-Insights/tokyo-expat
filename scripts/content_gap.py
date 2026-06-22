@@ -146,7 +146,7 @@ def is_relevant_url(url: str) -> bool:
         return False
 
     # Exclure topics hors niche (tourisme, autres villes, sujets irrelevants)
-    if any(kw in slug_lower for kw in OFFNICHE_KEYWORDS):
+    if any(kw in slug for kw in OFFNICHE_KEYWORDS):
         return False
 
     # Le slug doit contenir au moins un mot de notre niche

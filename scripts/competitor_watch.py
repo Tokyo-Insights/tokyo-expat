@@ -40,51 +40,61 @@ COMPETITORS = {
         "sitemap": "https://www.remoters.io/sitemap.xml",
         "domain": "remoters.io",
         "note": "concurrent principal — 20% commission",
+        "content_publisher": True,
     },
     "GaijinPot Housing": {
         "sitemap": "https://housing.gaijinpot.com/sitemap.xml",
         "domain": "housing.gaijinpot.com",
         "note": "portail listing — backlinks forts",
+        "content_publisher": False,  # listings immobiliers, pas des articles
     },
     "GaijinPot Blog": {
         "sitemap": "https://blog.gaijinpot.com/sitemap.xml",
         "domain": "blog.gaijinpot.com",
         "note": "blog expat en anglais — surveiller topics",
+        "content_publisher": True,
     },
     "Sakura House": {
         "sitemap": "https://www.sakura-house.com/sitemap.xml",
         "domain": "sakura-house.com",
         "note": "share house leader — surveiller promos",
+        "content_publisher": False,  # pages de share houses individuelles, pas des articles
     },
     "Oak House": {
         "sitemap": "https://www.oakhouse.jp/sitemap.xml",
         "domain": "oakhouse.jp",
         "note": "share house — concurrence directe",
+        "content_publisher": False,  # listings /apartment/NNNN, pas des articles editoriaux
     },
     "Tokyo Cheapo": {
         "sitemap": "https://tokyocheapo.com/sitemap.xml",
         "domain": "tokyocheapo.com",
         "note": "guide expat — opportunités backlinks",
+        "content_publisher": True,
     },
     "Japan Guide": {
         "sitemap": "https://www.japan-guide.com/sitemap.xml",
         "domain": "japan-guide.com",
         "note": "grand site — surveiller section logement",
+        "content_publisher": True,
     },
     "Fontaine Relocation": {
         "sitemap": "https://fontaine.co.jp/sitemap.xml",
         "domain": "fontaine.co.jp",
         "note": "relocation FR/JP — concurrent niche francophone",
+        "content_publisher": True,
     },
     "Savvy Tokyo": {
         "sitemap": "https://savvytokyo.com/sitemap.xml",
         "domain": "savvytokyo.com",
         "note": "magazine lifestyle expat Tokyo — backlinks potentiels, guest posts",
+        "content_publisher": True,
     },
     "Japan Property Central": {
         "sitemap": "https://japanpropertycentral.com/sitemap.xml",
         "domain": "japanpropertycentral.com",
         "note": "info achat immobilier JP — concurrent partiel, opportunités backlinks",
+        "content_publisher": True,
     },
 }
 
@@ -174,7 +184,8 @@ def main():
     counter_attack_suggestions = []
 
     for name, info in COMPETITORS.items():
-        print(f"Scanning {name}...")
+        is_content = info.get("content_publisher", True)
+        print(f"Scanning {name} ({'editorial' if is_content else 'listings'})...")
         urls = fetch_sitemap(info["sitemap"])
         print(f"  {len(urls)} URLs found")
 
@@ -185,14 +196,22 @@ def main():
             old_set = set(cache[prev_key])
             new_urls = current_set - old_set
             if new_urls:
-                print(f"  🆕 {len(new_urls)} new URLs!")
-                for url in sorted(new_urls):
-                    topic = slug_to_topic(url)
-                    alerts.append(f"📰 <b>{name}</b>: {topic}\n<code>{url}</code>")
-                    if is_interesting(url):
-                        counter_attack_suggestions.append(
-                            f"⚔️ CONTRE-ATTAQUE: {name} a publié sur <b>{topic}</b> → créer un meilleur article ?"
-                        )
+                print(f"  {len(new_urls)} new URLs!")
+                if is_content:
+                    # Editeur de contenu : alerte URL par URL + contre-attaque
+                    for url in sorted(new_urls):
+                        topic = slug_to_topic(url)
+                        alerts.append(f"📰 <b>{name}</b>: {topic}\n<code>{url}</code>")
+                        if is_interesting(url):
+                            counter_attack_suggestions.append(
+                                f"⚔️ CONTRE-ATTAQUE: {name} a publié sur <b>{topic}</b> → créer un meilleur article ?"
+                            )
+                else:
+                    # Site de listings (Oak House, Sakura, GaijinPot Housing) :
+                    # résumé uniquement, pas de contre-attaque
+                    alerts.append(
+                        f"🏠 <b>{name}</b>: {len(new_urls)} nouvelles annonces ajoutées"
+                    )
         else:
             print(f"  (first scan - baseline saved)")
 

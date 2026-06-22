@@ -7244,6 +7244,218 @@ Non. Le PVT est un visa unique dans une vie. Sortir et rentrer à nouveau ne le 
 *À votre arrivée à Tokyo, commencez par notre [guide des share houses](/blog/share-house-tokyo-guide-complet) pour votre premier logement, et notre [checklist complète pour s'installer à Tokyo](/blog/demenager-japon-checklist-complete) pour toutes les démarches administratives.*
     `.trim(),
   },
+  {
+    slug: 'logement-etudiant-tokyo-octobre',
+    locale: 'fr',
+    title: 'Logement étudiant à Tokyo pour octobre : share house ou dortoir ?',
+    description: 'Rentrée universitaire d\'octobre au Japon ? Comparatif complet share house vs dortoir à Tokyo, coûts réels 2026 et délais à respecter pour trouver avant d\'arriver.',
+    date: '2026-06-23',
+    readingTime: '7 min',
+    content: `
+Les programmes universitaires japonais à rentrée d'octobre se multiplient : masters en anglais, écoles de langue, programmes d'échange au second semestre. Si vous arrivez à Tokyo en octobre, la question du logement se pose dès maintenant. Les meilleures options se réservent 6 à 8 semaines à l'avance.
+
+Deux choix s'offrent à la grande majorité des étudiants : le dortoir universitaire, encadré mais limité, et le share house, plus flexible mais plus cher. Ce guide vous aide à choisir.
+
+## Les dortoirs universitaires à Tokyo
+
+Les universités japonaises proposent des résidences pour étudiants internationaux, mais les places sont rares et la concurrence est forte.
+
+**Ce qu'ils offrent :**
+- Loyer mensuel : 25 000 à 60 000 JPY, toutes charges comprises
+- Chambre individuelle ou partagée selon les établissements
+- Cuisine commune, salle de lavage, parfois salle d'études
+- Localisation souvent sur le campus ou proche
+
+**Les contraintes à connaître :**
+- **Places limitées** : la plupart des universités ne peuvent pas loger tous leurs étudiants internationaux. Les listes d'attente existent. Ne comptez pas dessus sans confirmation écrite.
+- **Règles strictes** : heure de rentrée (couvre-feu dans certaines résidences), interdiction d'invités, règles de bruit, durée maximale de séjour (souvent 1 ou 2 ans).
+- **Localisation parfois excentrée** : les campus hors centre-ville impliquent 45 à 90 minutes de trajet aller-retour chaque jour.
+- **Délai de candidature** : le bureau des logements accepte les demandes 3 à 4 mois avant l'entrée. Pour octobre, c'est maintenant. Certains dossiers se clôturent en juillet.
+
+**Comment s'inscrire :**
+Contactez le bureau des affaires étudiantes (International Student Office) de votre université dès que votre admission est confirmée. Demandez explicitement la liste d'attente pour le dortoir, même si les places affichées sont épuisées. Des désistements arrivent jusqu'à 3 semaines avant la rentrée.
+
+## Les share houses à Tokyo pour étudiants
+
+Le share house est une maison ou un appartement partagé entre plusieurs résidents : chambre privée, cuisine commune, salle de bain commune. C'est la solution la plus utilisée par les étudiants qui n'obtiennent pas de place en dortoir, ou qui préfèrent plus de liberté.
+
+**Ce qu'ils offrent :**
+- Loyer mensuel : 50 000 à 90 000 JPY, toutes charges comprises (eau, électricité, internet)
+- Aucun garant japonais requis
+- Durée minimale souvent 1 à 3 mois, maximum sans limite
+- Disponibilité rapide : 1 à 2 semaines entre candidature et emménagement
+- Environnement social : colocataires japonais et internationaux mélangés
+
+**Les opérateurs reconnus à Tokyo :**
+- **Oak House** : le plus grand réseau de share houses au Japon, plus de 300 maisons à Tokyo
+- **Sakura House** : orienté internationaux, bon rapport qualité-prix
+- **Borderless House** : mix Japonais / étrangers volontaire, idéal pour apprendre la langue
+- **Global Agents** : biens modernes, design, un peu plus chers
+
+**Les points à vérifier avant de signer :**
+- Frais d'adhésion (parfois 10 000 à 20 000 JPY à l'entrée)
+- Politique sur les invités
+- Distance depuis votre université (toujours calculer le temps de trajet réel, pas la distance)
+- Règles de nettoyage des espaces communs
+
+## Comparatif coûts réels 2026
+
+| | Dortoir universitaire | Share house |
+|---|---|---|
+| Loyer mensuel | 25 000 à 60 000 JPY | 50 000 à 90 000 JPY |
+| Charges incluses | Oui | Oui |
+| Frais d'entrée | 0 à 1 mois | 1 mois + frais d'adhésion |
+| Disponibilité | Limitée, sur dossier | Large, réservable en ligne |
+| Durée minimale | Durée du programme | 1 à 3 mois |
+| Garant exigé | Non | Non |
+| Invités autorisés | Rarement | Selon règlement |
+
+**Budget mensuel réaliste à Tokyo pour un étudiant (octobre 2026) :**
+- Logement (share house) : 65 000 JPY
+- Nourriture : 35 000 à 50 000 JPY
+- Transport (commute + sorties) : 8 000 à 15 000 JPY
+- Téléphone (MVNO) : 2 000 à 3 000 JPY
+- Divers : 10 000 à 15 000 JPY
+- **Total : environ 120 000 à 150 000 JPY/mois**
+
+## Quand choisir le dortoir, quand choisir le share house
+
+**Choisissez le dortoir si :**
+- Votre université vous garantit une place (confirmation écrite)
+- Votre budget est très serré (moins de 60 000 JPY/mois tout compris)
+- Vous arrivez sans aucun réseau et souhaitez une structure encadrée les premiers mois
+
+**Choisissez le share house si :**
+- Vous n'avez pas de place en dortoir confirmée
+- Vous voulez de la flexibilité sur la durée (séjour plus long ou plus court que le programme)
+- Vous préférez un environnement social mixte (Japonais + internationaux)
+- Vous n'avez pas de garant japonais (le share house n'en demande pas)
+
+## Comment trouver avant d'arriver au Japon
+
+La recherche depuis l'étranger est possible et recommandée. Voici la démarche qui fonctionne :
+
+**1. Candidatez au dortoir maintenant** (si votre université en propose) : envoyez un email au bureau international avec votre lettre d'admission, votre date d'arrivée et votre demande de logement.
+
+**2. En parallèle, explorez les share houses** : les sites de Oak House, Sakura House et Borderless House permettent de réserver en ligne depuis l'étranger. Payez votre premier mois à distance, les clés vous attendent à l'arrivée.
+
+**3. Réservez dès maintenant pour octobre** : les meilleures chambres partent fin juillet et début août. Attendre septembre est le meilleur moyen de se retrouver avec le fond du catalogue.
+
+Pour plus de détails sur la recherche depuis l'étranger, consultez notre [guide pour chercher un appartement à Tokyo depuis l'étranger](/blog/chercher-appartement-tokyo-depuis-etranger).
+
+Si vous hésitez encore sur le type de logement, notre [guide complet des share houses à Tokyo](/blog/share-house-tokyo-guide-complet) détaille les options quartier par quartier et opérateur par opérateur.
+
+---
+
+*Votre programme commence en octobre et vous n'avez toujours pas trouvé de logement ? Consultez notre [guide logement étudiant Tokyo 2026](/blog/logement-etudiant-tokyo-2026) pour les démarches complètes, et contactez-nous directement si vous souhaitez un accompagnement personnalisé.*
+    `.trim(),
+  },
+  {
+    slug: 'student-housing-tokyo-october',
+    locale: 'en',
+    title: 'Student Housing in Tokyo for October Intake: Share House vs University Dorm',
+    description: 'Starting university in Tokyo in October? Full comparison of share houses vs university dormitories with real 2026 costs and timelines for international students.',
+    date: '2026-06-23',
+    readingTime: '7 min',
+    content: `
+October university intakes in Japan are growing: English-language master's programs, language schools, and second-semester exchange programs. If you're arriving in Tokyo in October, housing needs to be sorted now. The best options fill up 6 to 8 weeks before arrival.
+
+Most students face the same two choices: a university dormitory (structured, affordable, but limited) or a share house (more flexible, widely available, slightly more expensive). This guide walks you through the real comparison.
+
+## University Dormitories in Tokyo
+
+Japanese universities offer on-campus or nearby housing for international students, but spots are limited and competition is real.
+
+**What they offer:**
+- Monthly rent: 25,000 to 60,000 JPY, utilities included
+- Single or shared rooms depending on the facility
+- Common kitchen, laundry, sometimes a study room
+- Often on campus or a short commute from classes
+
+**What to know before counting on one:**
+- **Limited availability:** Most universities cannot house all international students. Waitlists exist. Never assume you have a spot without written confirmation.
+- **Strict rules:** Some dormitories have curfews, no overnight guests policies, and noise restrictions. Tenure is often capped at one or two years.
+- **Location can be inconvenient:** Campuses outside central Tokyo mean 45 to 90 minutes of commuting each way, every day.
+- **Application deadlines:** The international housing office typically accepts applications 3 to 4 months before arrival. For October, that window is now. Some offices close in July.
+
+**How to apply:**
+Email your university's International Student Office as soon as your admission is confirmed. Ask explicitly for the dormitory waitlist even if no spots appear available. Cancellations come in up until three weeks before the semester starts.
+
+## Share Houses in Tokyo for Students
+
+A share house is a managed property where residents have a private room and share common spaces: kitchen, bathroom, sometimes a lounge. It is the most common alternative for students who don't secure a dorm spot, or who prefer fewer restrictions.
+
+**What they offer:**
+- Monthly rent: 50,000 to 90,000 JPY, all utilities included (water, electricity, internet)
+- No Japanese guarantor required
+- Flexible minimum stay: typically 1 to 3 months, no maximum
+- Fast turnaround: 1 to 2 weeks from application to move-in
+- Social environment: Japanese and international residents mixed
+
+**The main operators in Tokyo:**
+- **Oak House:** Japan's largest share house network, 300+ properties in Tokyo alone
+- **Sakura House:** well-known internationally, strong value for money
+- **Borderless House:** intentionally mixed Japanese and foreign residents, good for language practice
+- **Global Agents:** modern, design-oriented properties, slightly more expensive
+
+**Before signing, verify:**
+- Any registration fee (10,000 to 20,000 JPY at move-in is common)
+- Guest policy
+- Commute time to your campus (check peak-hour train times, not distance)
+- Cleaning responsibilities for shared spaces
+
+## Real Cost Comparison for October 2026
+
+| | University Dormitory | Share House |
+|---|---|---|
+| Monthly rent | 25,000 to 60,000 JPY | 50,000 to 90,000 JPY |
+| Utilities included | Yes | Yes |
+| Move-in costs | 0 to 1 month deposit | 1 month + registration fee |
+| Availability | Limited, application required | Wide, bookable online |
+| Minimum stay | Length of program | 1 to 3 months |
+| Guarantor required | No | No |
+| Overnight guests | Rarely allowed | Depends on house rules |
+
+**Realistic monthly budget in Tokyo as a student (October 2026):**
+- Housing (share house): 65,000 JPY
+- Food: 35,000 to 50,000 JPY
+- Transport (commute and outings): 8,000 to 15,000 JPY
+- Phone (MVNO SIM): 2,000 to 3,000 JPY
+- Miscellaneous: 10,000 to 15,000 JPY
+- **Total: approximately 120,000 to 150,000 JPY per month**
+
+## When to Choose the Dorm vs the Share House
+
+**Choose the university dormitory if:**
+- Your university confirms a spot in writing before you leave home
+- Your budget is very tight (under 60,000 JPY per month all-in)
+- You want a structured environment for your first months in Japan
+
+**Choose a share house if:**
+- You don't have a confirmed dorm spot
+- You want flexibility on duration (longer or shorter than the academic program)
+- You prefer a social, mixed-nationality environment
+- You have no Japanese guarantor (share houses don't require one)
+
+## How to Find Housing Before You Leave
+
+Searching from abroad is not only possible, it is the right move. Here is what works:
+
+**Step 1 - Apply to the dorm now:** If your university offers one, email the international housing office today with your admission letter and requested arrival date.
+
+**Step 2 - Search share houses in parallel:** Oak House, Sakura House, and Borderless House all allow international bookings online. Pay your first month remotely and the keys will be ready on arrival.
+
+**Step 3 - Book before August:** The best rooms in the best share houses are gone by late July and early August. Waiting until September means you're choosing from what's left.
+
+For a step-by-step guide on searching from abroad, see our [Tokyo apartment hunting from abroad guide](/blog/tokyo-apartment-hunting-from-abroad).
+
+If you're still deciding on the type of housing, our [complete Tokyo share house guide](/blog/share-house-tokyo-guide-2026) covers options by neighbourhood and operator.
+
+---
+
+*Starting in October and haven't sorted housing yet? See our [student housing Tokyo 2026 guide](/blog/student-housing-tokyo-guide-2026) for the full process, or contact us directly if you want personalised help.*
+    `.trim(),
+  },
 ]
 
 // Mapping FR slug -> EN slug (articles jumeaux pour hreflang)
@@ -7286,6 +7498,7 @@ export const TWIN_SLUGS: Record<string, string> = {
   'tokyo-osaka-ou-vivre-expatrie-comparatif':    'tokyo-vs-osaka-expat-living-comparison',
   'visa-nomade-digital-japon-2026':             'japan-digital-nomad-visa-2026',
   'pvt-japon-visa-vacances-travail-2026':       'japan-working-holiday-visa-guide-2026',
+  'logement-etudiant-tokyo-octobre':            'student-housing-tokyo-october',
 }
 
 export function getTwinSlug(slug: string, locale: Locale): string | undefined {

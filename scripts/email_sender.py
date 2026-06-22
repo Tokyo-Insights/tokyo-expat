@@ -192,6 +192,39 @@ DOMAIN_DATA: dict[str, dict[str, str]] = {
         'our_url': 'https://www.tokyo-expat.com/en/blog/send-money-to-japan-from-abroad',
         'our_topic': 'transferring money to Japan and setting up finances as an expat',
     },
+    # B2B corporate -- context phrase personnalise l'ouverture de l'email
+    'airfrancejapan.com': {
+        'b2b_context': "Air France gere du personnel navigant et administratif base au Japon, avec des rotations regulieres depuis la France",
+        'our_url': 'https://www.tokyo-expat.com/fr/blog/trouver-appartement-tokyo-etranger',
+    },
+    'totalenergies.co.jp': {
+        'b2b_context': "TotalEnergies est present au Japon via ses partenariats energie et relocalise regulierement des experts et ingenieurs depuis la France",
+        'our_url': 'https://www.tokyo-expat.com/fr/blog/trouver-appartement-tokyo-etranger',
+    },
+    'lvmhjapan.com': {
+        'b2b_context': "LVMH est presente au Japon avec plusieurs maisons (Louis Vuitton, Dior, Givenchy, Bulgari) et relocalise des cadres sur Tokyo regulierement",
+        'our_url': 'https://www.tokyo-expat.com/fr/blog/trouver-appartement-tokyo-etranger',
+    },
+    'bnpparibas.co.jp': {
+        'b2b_context': "BNP Paribas maintient une presence bancaire importante a Tokyo et relocalise des banquiers et cadres depuis Paris",
+        'our_url': 'https://www.tokyo-expat.com/fr/blog/trouver-appartement-tokyo-etranger',
+    },
+    'renault-japan.co.jp': {
+        'b2b_context': "L'Alliance Renault-Nissan genere des mobilites regulieres entre la France et le Japon pour ses ingenieurs et cadres dirigeants",
+        'our_url': 'https://www.tokyo-expat.com/fr/blog/trouver-appartement-tokyo-etranger',
+    },
+    'airbus.co.jp': {
+        'b2b_context': "Airbus maintient un bureau a Tokyo pour ses equipes commerciales et techniques, avec des expatries FR sur des missions de 1 a 3 ans",
+        'our_url': 'https://www.tokyo-expat.com/fr/blog/trouver-appartement-tokyo-etranger',
+    },
+    'edf.co.jp': {
+        'b2b_context': "EDF est present au Japon via ses partenariats nucleaires et ses projets ENR, avec des experts techniques envoyes depuis la France",
+        'our_url': 'https://www.tokyo-expat.com/fr/blog/trouver-appartement-tokyo-etranger',
+    },
+    'thales.co.jp': {
+        'b2b_context': "Thales dispose d'un bureau a Tokyo dans les secteurs defense et aeronautique, avec des profils ingenieurs et commerciaux expatries",
+        'our_url': 'https://www.tokyo-expat.com/fr/blog/trouver-appartement-tokyo-etranger',
+    },
 }
 
 
@@ -410,6 +443,25 @@ def build_email(contact: dict) -> tuple[str, str]:
             "Let me know if it fits your relocation resources.\n\n"
             "Alessandro\n"
             "Tokyo Expat | www.tokyo-expat.com"
+        )
+
+    # ---- B2B CORPORATE (multinationales FR -- RH + relocation Tokyo) ----
+    elif approach == "b2b_outreach" or ctype == "b2b_corporate":
+        b2b_context = d.get("b2b_context", "Vous relocalisez des collaborateurs au Japon")
+        fr_greeting = f"Bonjour {contact_name}" if contact_name else "Bonjour"
+        subject = "Logement Tokyo pour vos salaries relocalisés"
+        body = (
+            f"{fr_greeting},\n\n"
+            f"{b2b_context}. Trouver un logement a Tokyo en arrivant de France est la premiere friction : "
+            f"le systeme de cautionnement japonais, les agences en japonais uniquement, les delais imprevisibles.\n\n"
+            f"Je gere Tokyo Expat (tokyo-expat.com), un service de chasseur immobilier dedie aux expatries a Tokyo. "
+            f"J'ai acces a 300+ biens (share houses, appartements meubles, maisons familiales, 40k-300k JPY/mois) "
+            f"et accompagne le processus entier en francais, de la recherche jusqu'a la signature du bail.\n\n"
+            f"Si vous avez des relocalisations prevues sur Tokyo, je serais ravi d'en discuter. "
+            f"15 minutes suffisent pour voir si ca correspond a vos besoins.\n\n"
+            f"Cordialement,\n"
+            f"Alessandro\n"
+            f"Tokyo Expat | www.tokyo-expat.com"
         )
 
     # ---- RESOURCE LINK (content/media sites: default) ----
