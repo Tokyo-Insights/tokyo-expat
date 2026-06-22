@@ -5,12 +5,19 @@ import Script from 'next/script'
 
 const GA_ID = 'G-NL25TL3LDG'
 
+declare global {
+  interface Window {
+    dataLayer: unknown[]
+    gtag: (...args: unknown[]) => void
+  }
+}
+
 export default function GoogleAnalytics() {
   const pathname = usePathname()
 
   useEffect(() => {
-    if (typeof window !== 'undefined' && typeof (window as { gtag?: (...args: unknown[]) => void }).gtag === 'function') {
-      ;(window as { gtag: (...args: unknown[]) => void }).gtag('config', GA_ID, { page_path: pathname })
+    if (typeof window.gtag === 'function') {
+      window.gtag('config', GA_ID, { page_path: pathname })
     }
   }, [pathname])
 
