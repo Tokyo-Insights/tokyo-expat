@@ -91,8 +91,24 @@ python scripts\internations_autoposter.py >> "%LOG_FILE%" 2>&1
 echo [%TIME%] [16/16] Social sharing digest... >> "%LOG_FILE%"
 python scripts\social_sharing.py >> "%LOG_FILE%" 2>&1
 
-:: 17. Monday briefing consolide (toujours en dernier, apres tous les scripts)
-echo [%TIME%] [17/17] Monday briefing consolide... >> "%LOG_FILE%"
+:: 17. Competitor Radar -- Art de la Guerre, detecte les nouveaux concurrents
+echo [%TIME%] [17/21] Competitor radar... >> "%LOG_FILE%"
+python scripts\competitor_radar.py >> "%LOG_FILE%" 2>&1
+
+:: 18. Influencer Finder -- YouTube/Instagram/Blog Tokyo expat
+echo [%TIME%] [18/21] Influencer finder... >> "%LOG_FILE%"
+python scripts\influencer_finder.py >> "%LOG_FILE%" 2>&1
+
+:: 19. Quora Finder -- Questions Tokyo housing + drafts reponses
+echo [%TIME%] [19/21] Quora finder... >> "%LOG_FILE%"
+python scripts\quora_finder.py >> "%LOG_FILE%" 2>&1
+
+:: 20. Facebook Page autoposter (1 post/semaine, browser visible si CAPTCHA)
+echo [%TIME%] [20/21] Facebook page autoposter... >> "%LOG_FILE%"
+python scripts\facebook_page_autoposter.py >> "%LOG_FILE%" 2>&1
+
+:: 21. Monday briefing consolide (toujours en dernier, apres tous les scripts)
+echo [%TIME%] [21/21] Monday briefing consolide... >> "%LOG_FILE%"
 python scripts\monday_briefing.py >> "%LOG_FILE%" 2>&1
 
 echo [%TIME%] Weekly intelligence complete. >> "%LOG_FILE%"
