@@ -613,6 +613,10 @@ If you are self-employed, freelance, or have side income: you must file a Kakute
 
 Important: Japan taxes worldwide income for tax residents (those who have lived in Japan for more than 5 years in the last 10). If you are on a short-term assignment, you are taxed only on Japan-source income.
 
+## Next steps: housing and lease
+
+Before you sign your lease, work through our complete [Tokyo rental contract checklist](/en/blog/tokyo-rental-contract-checklist) — every clause worth reviewing, hidden fees to watch for, and what you can negotiate before committing. If you are still searching from outside Japan, our guide to [finding an apartment in Tokyo from abroad](/en/blog/tokyo-apartment-hunting-from-abroad) covers remote search, virtual tours, and operators who accept international applications.
+
 ---
 
 *Planning your relocation to Tokyo? Book a free consultation to get housing options ready before you land.*
@@ -1953,6 +1957,10 @@ La France et le Japon ont une convention fiscale. Les revenus gagnés au Japon s
 
 **Grande banque japonaise (après 6 mois)**
 Si votre employeur exige SMBC, Mizuho ou MUFG, vous pouvez faire la demande après 6 mois de résidence.
+
+## Prochaines étapes : logement et bail
+
+Avant de signer votre contrat de location, parcourez notre [checklist complète du bail à Tokyo](/fr/blog/checklist-bail-tokyo) — toutes les clauses à vérifier, les frais cachés à débusquer et les points de négociation avant de vous engager. Si vous êtes encore en France et que vous cherchez à distance, notre guide pour [trouver un appartement à Tokyo depuis l'étranger](/fr/blog/chercher-appartement-tokyo-depuis-etranger) couvre la recherche à distance, les visites virtuelles et les opérateurs qui acceptent les candidatures internationales.
 
 ---
 
@@ -6702,6 +6710,51 @@ Generally yes, though Osaka increasingly serves international business. Tokyo's 
     `.trim(),
   },
 ]
+
+// Mapping FR slug -> EN slug (articles jumeaux pour hreflang)
+export const TWIN_SLUGS: Record<string, string> = {
+  'trouver-appartement-tokyo-etranger':          'find-apartment-tokyo-foreigner',
+  'share-house-tokyo-guide-complet':             'share-house-tokyo-guide-2026',
+  'cout-vie-tokyo-expatrie-2026':                'tokyo-expat-cost-of-living-2026',
+  'quartiers-tokyo-expatries-guide':             'tokyo-neighbourhoods-expats-guide',
+  'visa-travail-japon-francophone-2026':         'japan-work-visa-foreigners-guide',
+  'ouvrir-compte-bancaire-japon-etranger':       'open-bank-account-japan-foreigner',
+  'appartement-meuble-tokyo-sans-garant':        'furnished-apartment-tokyo-no-guarantor',
+  'pieges-location-tokyo-etranger':              'tokyo-rental-traps-foreigners',
+  'assurance-maladie-japon-expatrie':            'japan-health-insurance-expat-guide',
+  'carte-residence-japon-zairyu-card':           'residence-card-japan-zairyu-card-guide',
+  'famille-expatriee-tokyo-ecoles-internationales': 'family-expat-tokyo-international-schools',
+  'negocier-loyer-tokyo-conseils':               'negotiating-rent-tokyo-tips',
+  'demenager-japon-checklist-complete':          'moving-to-tokyo-checklist-2026',
+  'tokyo-osaka-kyoto-ou-s-installer':            'tokyo-osaka-kyoto-which-city-to-live',
+  'chercher-appartement-tokyo-depuis-etranger':  'tokyo-apartment-hunting-from-abroad',
+  'garantie-loyer-etranger-japon':               'guarantor-japan-rental-foreigner',
+  'assurance-habitation-japon-locataire':        'renters-insurance-japan-guide',
+  'logement-etudiant-tokyo-guide':               'student-housing-tokyo-guide',
+  'checklist-bail-tokyo':                        'tokyo-rental-contract-checklist',
+  'gaijin-house-vs-share-house-difference':      'gaijin-house-vs-share-house-tokyo',
+  'logement-etudiant-tokyo-2026':                'student-housing-tokyo-guide-2026',
+  'jiko-bukken-appartements-pas-chers-tokyo':    'jiko-bukken-cheap-apartments-tokyo',
+  'appartement-tokyo-septembre-guide':           'find-apartment-tokyo-september',
+  'appartement-meuble-tokyo-expats':             'furnished-apartment-tokyo-expats',
+  'transport-tokyo-expatrie-guide':              'tokyo-public-transport-expat-guide',
+  'carte-sim-japon-etranger-2026':               'japan-sim-card-foreigners-2026',
+  'impots-revenus-japon-expatrie-2026':          'japan-income-tax-foreigners-guide',
+  'internet-utilitaires-tokyo-appartement':      'setting-up-utilities-tokyo-apartment',
+  'travailler-tokyo-expatrie-guide-2026':        'working-in-tokyo-expat-guide-2026',
+  'virement-international-japon-wise-revolut':   'send-money-to-japan-from-abroad',
+  'cours-japonais-tokyo-expatries-guide':        'japanese-language-schools-tokyo-guide',
+  'permis-conduire-etranger-japon-conversion':   'convert-foreign-driving-licence-japan',
+  'demenageur-international-japon-guide':        'international-moving-company-japan-guide',
+  'importer-animal-compagnie-japon-guide':       'bringing-pets-to-japan-guide',
+  'quartiers-tokyo-familles-expatriees-guide':   'best-neighbourhoods-families-tokyo-guide',
+  'tokyo-osaka-ou-vivre-expatrie-comparatif':    'tokyo-vs-osaka-expat-living-comparison',
+}
+
+export function getTwinSlug(slug: string, locale: Locale): string | undefined {
+  if (locale === 'fr') return TWIN_SLUGS[slug]
+  return Object.keys(TWIN_SLUGS).find((k) => TWIN_SLUGS[k] === slug)
+}
 
 export function getBlogPosts(locale: Locale): BlogPost[] {
   return blogPosts.filter((p) => p.locale === locale)

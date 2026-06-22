@@ -2,7 +2,7 @@ import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import type { Metadata } from 'next'
 import type { ReactNode } from 'react'
-import { getBlogPost, getBlogPosts, type Locale } from '@/lib/blog'
+import { getBlogPost, getBlogPosts, getTwinSlug, type Locale } from '@/lib/blog'
 
 export async function generateStaticParams() {
   const locales: Locale[] = ['fr', 'en']
@@ -25,11 +25,23 @@ export async function generateMetadata({
   const post = getBlogPost(slug, locale as Locale)
   if (!post) return {}
   const ogImage = `/og?title=${encodeURIComponent(post.title)}&locale=${locale}`
+  const twinSlug = getTwinSlug(slug, locale as Locale)
+  const altLocale = locale === 'fr' ? 'en' : 'fr'
+  const languages: Record<string, string> = {
+    [locale]: `https://www.tokyo-expat.com/${locale}/blog/${slug}`,
+  }
+  if (twinSlug) {
+    languages[altLocale] = `https://www.tokyo-expat.com/${altLocale}/blog/${twinSlug}`
+    languages['x-default'] = locale === 'en'
+      ? `https://www.tokyo-expat.com/en/blog/${slug}`
+      : `https://www.tokyo-expat.com/en/blog/${twinSlug}`
+  }
   return {
     title: `${post.title} - Tokyo Expat`,
     description: post.description,
     alternates: {
       canonical: `/${locale}/blog/${slug}`,
+      languages,
     },
     openGraph: {
       title: post.title,

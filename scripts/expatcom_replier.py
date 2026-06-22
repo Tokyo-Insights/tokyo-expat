@@ -184,13 +184,46 @@ def reply_to_topic(driver, topic_url: str, reply_text: str) -> bool:
     msg_divs[0].send_keys(Keys.CONTROL + 'a')
     msg_divs[0].send_keys(reply_text)
 
-    submit_btns = [b for b in driver.find_elements(By.TAG_NAME, 'button')
-                   if 'submit' in b.text.lower()]
-    if not submit_btns:
+    # Chercher le bouton submit avec plusieurs strategies
+    submit_btn = None
+
+    # Strategie 1 : texte du bouton contient submit/send/post/reply
+    for b in driver.find_elements(By.TAG_NAME, 'button'):
+        txt = b.text.lower().strip()
+        if any(k in txt for k in ['submit', 'send', 'post', 'reply', 'repondre', 'envoyer', 'publier']):
+            submit_btn = b
+            break
+
+    # Strategie 2 : type="submit"
+    if not submit_btn:
+        btns = driver.find_elements(By.CSS_SELECTOR, 'button[type="submit"], input[type="submit"]')
+        if btns:
+            submit_btn = btns[0]
+
+    # Strategie 3 : classe CSS contenant "submit" ou "send" ou "post"
+    if not submit_btn:
+        for b in driver.find_elements(By.TAG_NAME, 'button'):
+            cls = (b.get_attribute('class') or '').lower()
+            if any(k in cls for k in ['submit', 'send', 'post', 'reply']):
+                submit_btn = b
+                break
+
+    # Strategie 4 : JS form.submit() en dernier recours
+    if not submit_btn:
+        try:
+            driver.execute_script(
+                "var forms = document.querySelectorAll('form'); "
+                "for(var f of forms){ if(f.contains(arguments[0])){ f.submit(); break; } }",
+                msg_divs[0]
+            )
+            time.sleep(5)
+            return True
+        except Exception:
+            pass
         print(f"Submit non trouve: {topic_url}")
         return False
 
-    driver.execute_script("arguments[0].click();", submit_btns[0])
+    driver.execute_script("arguments[0].click();", submit_btn)
     time.sleep(5)
     return True
 

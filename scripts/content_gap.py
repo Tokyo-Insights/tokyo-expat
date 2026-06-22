@@ -97,6 +97,18 @@ def detect_topic_category(slug: str) -> str:
             return category
     return "default"
 
+# Topics hors-niche a ignorer (tourisme generique, autres villes, mauvaise pertinence)
+OFFNICHE_KEYWORDS = [
+    "spring", "summer", "winter", "autumn", "cherry-blossom", "cherry", "sakura",
+    "christmas", "halloween", "festival", "fireworks", "hanami",
+    "amsterdam", "dublin", "stockholm", "berlin", "paris", "london", "singapore",
+    "seoul", "new-york", "sydney", "toronto",
+    "parking", "recycle", "recycle-clothes", "hairdresser", "haircut",
+    "luggage-storage", "luggage", "storage",
+    "beginners-guide-to-tokyo",  # trop generique / tourisme
+    "large-items", "motorbike",
+]
+
 # Slugs qui sont des filtres/amenites, pas des articles
 AMENITY_SLUGS = {
     "privateroom", "privatekitchen", "sharedkitchen", "sharehouse", "parkingcycle",
@@ -131,6 +143,10 @@ def is_relevant_url(url: str) -> bool:
                "/living/", "/housing/", "/apartment/", "/visa/", "/moving/",
                "/expat/", "/logement/", "/appartement/", "/life/", "/tips/"]
     if not any(inc in url_lower for inc in include):
+        return False
+
+    # Exclure topics hors niche (tourisme, autres villes, sujets irrelevants)
+    if any(kw in slug_lower for kw in OFFNICHE_KEYWORDS):
         return False
 
     # Le slug doit contenir au moins un mot de notre niche
