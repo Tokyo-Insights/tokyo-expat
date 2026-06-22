@@ -161,6 +161,49 @@ def get_broken_link_summary(broken_cache: dict) -> int:
     return len(broken_cache.get("reported", []))
 
 
+def get_competitor_radar(state: dict) -> list[dict]:
+    """Nouvelles menaces detectees par competitor_radar.py (score >= 30)."""
+    radar = load_json(DATA_DIR / "competitor_radar_state.json", {})
+    actioned = set(state.get("actioned_threats", []))
+    threats = []
+    for domain, info in radar.get("threats", {}).items():
+        if domain in actioned:
+            continue
+        score = info.get("score", 0)
+        if score >= 30:
+            threats.append({
+                "domain": domain,
+                "score": score,
+                "keywords": info.get("keywords", [])[:3],
+                "key": domain,
+            })
+    return sorted(threats, key=lambda x: -x["score"])[:2]
+
+
+def get_influencer_opps(state: dict) -> list[dict]:
+    """Top influenceurs non encore pitches (score >= 40)."""
+    inf_data = load_json(DATA_DIR / "influencer_targets.json", {"targets": [], "pitched": []})
+    pitched = set(inf_data.get("pitched", []))
+    actioned = set(state.get("actioned_influencers", []))
+    targets = [
+        t for t in inf_data.get("targets", [])
+        if t.get("url", "") not in pitched
+        and t.get("url", "") not in actioned
+        and t.get("score", 0) >= 40
+    ]
+    return sorted(targets, key=lambda x: -x.get("score", 0))[:2]
+
+
+def get_quora_pending(state: dict) -> list[dict]:
+    """Questions Quora avec drafts prets a coller-coller."""
+    quora = load_json(DATA_DIR / "quora_answered.json", {"pending": []})
+    actioned = set(state.get("actioned_quora", []))
+    return [
+        q for q in quora.get("pending", [])
+        if q.get("url", "") not in actioned
+    ][:3]
+
+
 def send_telegram(msg: str) -> None:
     try:
         requests.post(
@@ -192,6 +235,9 @@ def main():
     gaps = get_content_gaps(gaps_data, state, n=2)
     vulns = get_vulnerability_alerts(vuln_data, state)
     broken_count = get_broken_link_summary(broken_cache)
+    radar_threats = get_competitor_radar(state)
+    influencer_opps = get_influencer_opps(state)
+    quora_pending = get_quora_pending(state)
 
     # Construire le message Telegram
     action_num = 1
@@ -247,13 +293,53 @@ def main():
         )
         action_num += 1
 
+    # 6. Competitor radar (nouveaux concurrents)
+    for t in radar_threats:
+        kw_str = ", ".join(t["keywords"]) if t["keywords"] else "SERP generique"
+        lines.append(
+            f"🎯 <b>{action_num}. NOUVEAU CONCURRENT</b> [{t['score']}/100] {t['domain']}\n"
+            f"   Keywords : {kw_str}\n"
+            f"   Action : renforcer nos articles sur ces keywords maintenant.\n"
+            f"   Dismiss : <code>monday_briefing.py --dismiss-threat \"{t['domain']}\"</code>"
+        )
+        action_num += 1
+
+    # 7. Influenceurs a pitcher
+    for inf in influencer_opps:
+        platform = inf.get("platform", "?")
+        score = inf.get("score", 0)
+        title = inf.get("title", "")[:50]
+        url = inf.get("url", "")
+        lines.append(
+            f"🎤 <b>{action_num}. INFLUENCEUR</b> [{platform}, {score}/100]\n"
+            f"   {title}\n"
+            f"   Pitch : <code>python scripts/influencer_finder.py --email {url[:60]}</code>\n"
+            f"   Envoyer le pitch personnellement (email direct, pas automatise).\n"
+            f"   Dismiss : <code>monday_briefing.py --dismiss-influencer \"{url[:60]}\"</code>"
+        )
+        action_num += 1
+
+    # 8. Quora -- copier-coller les drafts
+    if quora_pending:
+        lines.append(
+            f"💬 <b>{action_num}. QUORA</b> -- {len(quora_pending)} reponse(s) a coller\n"
+            f"   Copier depuis scripts/data/quora_answered.json -> coller sur Quora\n"
+            f"   Regle : ZERO lien dans la reponse, lien uniquement dans la bio.\n"
+            + "\n".join(f"   • {q.get('title', '')[:60]}" for q in quora_pending[:3])
+        )
+        action_num += 1
+
     # Footer
     lines.append(
         f"\n<b>Commandes utiles :</b>\n"
         f"• Email envoye : <code>python scripts/outreach_tracker.py --update DOMAIN emailed</code>\n"
+        f"• Email auto : <code>python scripts/email_sender.py --preview</code>\n"
         f"• Dismiss article : <code>python scripts/monday_briefing.py --dismiss-seasonal \"nom\"</code>\n"
         f"• Dismiss gap : <code>python scripts/monday_briefing.py --dismiss \"topic\"</code>\n"
-        f"• Dismiss vuln : <code>python scripts/monday_briefing.py --dismiss-vuln \"comp:keyword\"</code>"
+        f"• Dismiss vuln : <code>python scripts/monday_briefing.py --dismiss-vuln \"comp:keyword\"</code>\n"
+        f"• Dismiss threat : <code>python scripts/monday_briefing.py --dismiss-threat \"domain\"</code>\n"
+        f"• Dismiss influenceur : <code>python scripts/monday_briefing.py --dismiss-influencer \"url\"</code>\n"
+        f"• Quora done : <code>python scripts/monday_briefing.py --dismiss-quora \"url\"</code>"
     )
 
     msg = "\n".join(lines)
@@ -315,5 +401,41 @@ if __name__ == "__main__":
             handle_dismiss_vuln(args[idx + 1])
         else:
             print("Usage: --dismiss-vuln \"competitor:keyword\"")
+    elif "--dismiss-threat" in args:
+        idx = args.index("--dismiss-threat")
+        if idx + 1 < len(args):
+            s = load_json(STATE_FILE, {"actioned_threats": []})
+            key = args[idx + 1]
+            s.setdefault("actioned_threats", [])
+            if key not in s["actioned_threats"]:
+                s["actioned_threats"].append(key)
+                save_state(s)
+            print(f"Threat dismissed: {key}")
+        else:
+            print("Usage: --dismiss-threat \"domain\"")
+    elif "--dismiss-influencer" in args:
+        idx = args.index("--dismiss-influencer")
+        if idx + 1 < len(args):
+            s = load_json(STATE_FILE, {"actioned_influencers": []})
+            key = args[idx + 1]
+            s.setdefault("actioned_influencers", [])
+            if key not in s["actioned_influencers"]:
+                s["actioned_influencers"].append(key)
+                save_state(s)
+            print(f"Influenceur dismissed: {key}")
+        else:
+            print("Usage: --dismiss-influencer \"url\"")
+    elif "--dismiss-quora" in args:
+        idx = args.index("--dismiss-quora")
+        if idx + 1 < len(args):
+            s = load_json(STATE_FILE, {"actioned_quora": []})
+            key = args[idx + 1]
+            s.setdefault("actioned_quora", [])
+            if key not in s["actioned_quora"]:
+                s["actioned_quora"].append(key)
+                save_state(s)
+            print(f"Quora answered dismissed: {key}")
+        else:
+            print("Usage: --dismiss-quora \"url\"")
     else:
         main()

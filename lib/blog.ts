@@ -821,6 +821,12 @@ Ce visa ne dépend pas d'un employeur et n'est pas lié à un poste spécifique.
 
 Une fois votre visa obtenu, l'étape suivante est de trouver un logement. Les contraintes varient selon le type de visa : un visa ingénieur facilite l'accès aux appartements standard, tandis que les titulaires de working holiday ou de visa étudiant sont souvent orientés vers les share houses.
 
+## Deux Options Supplémentaires à Connaître
+
+**Visa Nomade Digital (2024)** : si vous travaillez à distance pour une entreprise basée hors Japon et gagnez plus de 10 millions JPY par an, le visa nomade digital vous permet de rester au Japon jusqu'à 6 mois (prorogeable une fois). Disponible pour les ressortissants de plus de 50 pays. Voir notre [guide complet du Visa Nomade Digital Japon](/blog/visa-nomade-digital-japon-2026).
+
+**Programme Vacances Travail (PVT)** : pour les ressortissants de 18 à 30 ans des pays partenaires (France, Canada, Allemagne, Irlande et autres), le PVT Japon permet de rester 12 mois sans être lié à un employeur. L'option long séjour la plus accessible pour les jeunes. Voir notre [guide complet du PVT Japon](/blog/pvt-japon-visa-vacances-travail-2026).
+
 ---
 
 *Vous avez votre visa et cherchez un logement à Tokyo ? Réservez une consultation gratuite pour voir les options disponibles dès votre arrivée.*
@@ -2684,6 +2690,12 @@ This visa is not tied to an employer and not linked to a specific position. It i
 **You are married to a Japanese national**: spouse visa, the most flexible of all.
 
 Once your visa is obtained, the next step is finding housing. Visa type affects what you can rent: an engineer visa facilitates access to standard apartments, while working holiday or student visa holders are often directed toward share houses.
+
+## Two Additional Options Worth Knowing
+
+**Digital Nomad Visa (2024)**: if you work remotely for a company based outside Japan and earn above approximately 10 million JPY per year, Japan's digital nomad visa allows you to stay for up to 6 months (extendable once). No need to quit your current job. Available to nationals of 50+ countries. See our [complete Japan Digital Nomad Visa guide](/blog/japan-digital-nomad-visa-2026).
+
+**Working Holiday Visa**: for nationals aged 18-30 from eligible countries (France, UK, Australia, Canada, Germany and others), the working holiday visa allows 12 months in Japan with no employer restriction. The most accessible long-stay option for young people. See our [complete Working Holiday Visa guide](/blog/japan-working-holiday-visa-guide-2026).
 
 ---
 
@@ -6709,6 +6721,529 @@ Generally yes, though Osaka increasingly serves international business. Tokyo's 
 *If Tokyo is your choice, our [guide to finding an apartment in Tokyo](/blog/find-apartment-tokyo-foreigner) helps you get started. For all administrative steps after arrival, see our [complete expat moving checklist](/blog/moving-to-tokyo-checklist-2026).*
     `.trim(),
   },
+  {
+    slug: 'japan-digital-nomad-visa-2026',
+    locale: 'en',
+    title: 'Japan Digital Nomad Visa 2026: Complete Guide for Remote Workers',
+    description: 'Japan launched a digital nomad visa in March 2024. Eligibility, income requirements, application steps and housing guide for Tokyo remote workers.',
+    date: '2026-06-22',
+    readingTime: '8 min',
+    content: `
+Japan launched its first dedicated long-stay visa for remote workers in March 2024. Known officially as the Specified Activities Visa (Number 50 Activity), it allows professionals employed by companies outside Japan to live and work remotely in the country for up to six months.
+
+This guide covers everything you need to know: who qualifies, how to apply, what you can and cannot do during your stay, and how to find housing in Tokyo once you arrive.
+
+## What Is the Japan Digital Nomad Visa?
+
+The Japan Digital Nomad Visa is a Specified Activities Visa (在留資格「特定活動」第50号) introduced in March 2024. It targets remote workers who are employees or sole proprietors working exclusively for clients or companies based outside Japan.
+
+It is not a standard work visa. You cannot take a job with a Japanese company on this status. The visa is designed specifically for people whose income comes from abroad and who want to base themselves in Japan while continuing that work.
+
+## Who Is Eligible?
+
+Requirements as of 2026:
+
+**Income**: approximately 10 million JPY per year (roughly 65,000 USD or 60,000 EUR). Japan does not accept part-time or casual income — the threshold applies to your total annual earnings from your foreign employer or clients.
+
+**Employment type**: you must be employed by a company based outside Japan, or be self-employed with foreign clients. You cannot invoice Japanese clients.
+
+**Health insurance**: you need private insurance that covers medical expenses in Japan for the duration of your stay. Japanese national health insurance is not available on this status.
+
+**Eligible countries**: 50+ countries including France, the United Kingdom, the United States, Canada, Australia, Germany, Italy, Spain, the Netherlands, Belgium, Singapore, South Korea, and most EU member states. Check the Japanese embassy website for your specific country.
+
+**Criminal record**: clean record required.
+
+**Dependents**: the visa now allows your spouse and minor children to accompany you under certain conditions (rules vary by nationality).
+
+## How Long Can You Stay?
+
+Initial visa: up to **6 months**, single or multiple entry depending on your nationality agreement with Japan.
+
+Extension: you can extend once for an additional 6 months, bringing the maximum continuous stay to **1 year**.
+
+After 1 year, you must leave Japan. There is currently no pathway from the digital nomad visa to long-term residency directly.
+
+## What You Can and Cannot Do
+
+**Allowed:**
+- Work remotely for your foreign employer or foreign clients
+- Travel freely within Japan
+- Enroll in Japanese language classes
+- Open a bank account (some banks accept this status, others do not — PayPay Bank and Sony Bank are the most flexible)
+- Rent an apartment or share house
+
+**Not allowed:**
+- Work for a Japanese company or Japanese clients
+- Receive income from any Japanese source
+- Enroll children in public schools (international schools are an option)
+
+## Application Process
+
+1. **Prepare your documents**: employment contract or business registration, bank statements covering the past 12 months, proof of income meeting the threshold, health insurance certificate, clean criminal record from your home country, passport valid beyond your intended stay.
+
+2. **Apply at the Japanese embassy or consulate** in your home country before departure. Processing time is typically 5 to 10 business days.
+
+3. **Arrive in Japan** with your visa and receive your residence card at the port of entry. Register at your local ward office within 14 days of finding accommodation.
+
+## Housing in Tokyo as a Digital Nomad
+
+Tokyo's rental market is generally structured around 12-month leases. For a 6-month digital nomad stay, you have three realistic options:
+
+**Furnished monthly apartments**: the most practical choice. Properties designed for medium-term stays, usually 1 to 3 months minimum. Utilities often included. Expect 130,000 to 220,000 JPY per month for a central 1K or 1LDK. Operators such as Sakura House Monthly, Oak House, and specialist furnished apartment services cater to this market.
+
+**Share houses with flexible terms**: many share houses offer monthly contracts with no long-term commitment. Costs run 55,000 to 90,000 JPY per month all-in including utilities. No guarantor required. Good option for the first 1 to 2 months while you explore neighborhoods before committing to a longer stay.
+
+**Standard unfurnished lease**: possible on a digital nomad visa, but landlords typically require 12-month minimum contracts and a guarantor. Starting with furnished or share house accommodation for the first 3 months, then transitioning to a standard lease, is a common approach for those who want to stay the full year.
+
+See our [furnished apartment guide for expats](/blog/furnished-apartment-tokyo-expats) for a full breakdown of the monthly furnished market in Tokyo.
+
+## Cost of Living Estimate for Digital Nomads (Tokyo)
+
+| Expense | Monthly estimate |
+|---------|-----------------|
+| Furnished apartment (1K, central) | 130,000 to 200,000 JPY |
+| Share house alternative | 55,000 to 90,000 JPY |
+| Food | 45,000 to 70,000 JPY |
+| Transport | 8,000 to 15,000 JPY |
+| Phone (MVNO SIM) | 2,000 to 4,000 JPY |
+| Private health insurance | 15,000 to 30,000 JPY |
+
+Total realistic range: **250,000 to 380,000 JPY/month** if you take a furnished apartment, or **175,000 to 270,000 JPY/month** in a share house.
+
+At current exchange rates (approximately 155 JPY/EUR as of mid-2026), the furnished apartment scenario costs roughly 1,600 to 2,400 EUR per month.
+
+## Banks and Money
+
+Opening a bank account in Japan on a digital nomad visa can be challenging. The most reliably accessible options:
+
+- **PayPay Bank**: fully online, accepts various visa statuses including Specified Activities
+- **Sony Bank**: online setup, multi-currency accounts available
+- **Wise Japan account**: not a Japanese bank account but allows JPY transactions and card payments
+
+For international transfers, see our [guide to sending money to Japan](/blog/send-money-to-japan-from-abroad).
+
+## FAQ
+
+**Can I bring my family?**
+
+In most cases yes — your spouse and minor children may accompany you under the dependent category of the same visa. Rules vary by nationality, so confirm with the Japanese embassy in your country.
+
+**Can I freelance for Japanese clients?**
+
+No. The digital nomad visa explicitly prohibits any remunerated activity with Japanese companies or individuals. Violation risks visa cancellation and future entry bans.
+
+**What happens if I overstay?**
+
+Overstay of any Japanese visa results in deportation and a minimum 5-year entry ban. Do not overstay.
+
+**Is Japan a good base for digital nomads?**
+
+Infrastructure-wise, Japan is excellent: fast fiber internet everywhere, coworking spaces in most Tokyo wards, reliable public transport, very low crime. The main challenges are the high income threshold for the visa and the cost of living relative to Southeast Asia.
+
+---
+
+*For housing, start with our [furnished apartment guide](/blog/furnished-apartment-tokyo-expats) or [share house overview](/blog/share-house-tokyo-guide-2026). For visa and administrative steps after arrival, see our [complete Tokyo moving checklist](/blog/moving-to-tokyo-checklist-2026).*
+    `.trim(),
+  },
+  {
+    slug: 'visa-nomade-digital-japon-2026',
+    locale: 'fr',
+    title: 'Visa Nomade Digital Japon 2026 : Guide Complet pour les Télétravailleurs',
+    description: 'Le Japon a lancé un visa nomade digital en mars 2024. Conditions, revenus minimum, pays éligibles, démarches et guide logement pour Tokyo.',
+    date: '2026-06-22',
+    readingTime: '8 min',
+    content: `
+Le Japon a lancé en mars 2024 son premier visa dédié aux télétravailleurs étrangers. Officiellement appelé Visa Activités Spécifiques (numéro 50), il permet aux professionnels employés par des entreprises hors Japon de s'installer dans le pays jusqu'à six mois pour y exercer leur activité à distance.
+
+Ce guide couvre tout ce que vous devez savoir : qui est éligible, comment faire la demande, ce que vous pouvez et ne pouvez pas faire, et comment trouver un logement à Tokyo une fois sur place.
+
+## Qu'est-ce que le Visa Nomade Digital Japon ?
+
+Le visa nomade digital japonais est un Visa Activités Spécifiques (在留資格「特定活動」第50号) introduit en mars 2024. Il cible les télétravailleurs salariés ou indépendants dont les revenus proviennent exclusivement de sources situées hors du Japon.
+
+Ce n'est pas un visa de travail classique. Il vous est impossible de travailler pour une entreprise japonaise avec ce statut. Le visa est conçu spécifiquement pour les personnes dont les revenus viennent de l'étranger et qui souhaitent s'installer au Japon tout en poursuivant cette activité.
+
+## Qui est Éligible ?
+
+Les conditions en vigueur en 2026 :
+
+**Revenus** : environ 10 millions de yens par an (environ 65 000 USD ou 60 000 EUR). Le Japon n'accepte pas les revenus partiels ou occasionnels. Le seuil s'applique à vos revenus annuels totaux provenant de votre employeur ou de vos clients étrangers.
+
+**Type d'emploi** : vous devez être salarié d'une entreprise basée hors Japon, ou indépendant avec des clients étrangers. Il vous est interdit de facturer des clients japonais.
+
+**Assurance maladie** : une assurance privée couvrant les frais médicaux au Japon est obligatoire pour toute la durée du séjour. L'assurance maladie nationale japonaise n'est pas accessible avec ce statut.
+
+**Pays éligibles** : plus de 50 pays, dont la France, la Belgique, la Suisse, le Canada, le Royaume-Uni, les États-Unis, l'Australie, l'Allemagne, l'Italie, l'Espagne et la grande majorité des pays de l'Union européenne. Vérifiez la liste sur le site de l'ambassade du Japon dans votre pays.
+
+**Casier judiciaire** : vierge obligatoire.
+
+**Famille** : le visa permet désormais à votre conjoint et à vos enfants mineurs de vous accompagner sous certaines conditions (règles variables selon la nationalité).
+
+## Durée du Séjour
+
+Visa initial : jusqu'à **6 mois**, simple ou multiple entrée selon l'accord bilatéral entre le Japon et votre pays.
+
+Extension : vous pouvez prolonger une fois pour 6 mois supplémentaires, soit un séjour continu maximum de **12 mois**.
+
+Après 12 mois, vous devez quitter le Japon. Ce visa n'ouvre pas de voie directe vers la résidence permanente.
+
+## Ce que Vous Pouvez et Ne Pouvez Pas Faire
+
+**Autorisé :**
+- Télétravail pour votre employeur ou vos clients étrangers
+- Déplacement libre dans tout le Japon
+- Cours de japonais
+- Ouvrir un compte bancaire (certaines banques sont plus accessibles que d'autres avec ce statut)
+- Louer un appartement ou une share house
+
+**Interdit :**
+- Travailler pour une entreprise ou des clients japonais
+- Percevoir des revenus de source japonaise
+- Inscrire vos enfants dans les écoles publiques (les écoles internationales sont une option)
+
+## Démarches de Demande
+
+1. **Préparez vos documents** : contrat de travail ou extrait Kbis/registre du commerce, relevés bancaires des 12 derniers mois, justificatif de revenus dépassant le seuil, attestation d'assurance maladie internationale, extrait de casier judiciaire, passeport valide au-delà de votre séjour prévu.
+
+2. **Déposez votre demande à l'ambassade ou au consulat du Japon** dans votre pays avant le départ. Délai de traitement : 5 à 10 jours ouvrés en général.
+
+3. **À l'arrivée au Japon**, vous recevez votre carte de résident au point d'entrée. Vous devez vous enregistrer à la mairie de votre quartier dans les 14 jours suivant votre installation dans votre logement.
+
+## Logement à Tokyo pour les Nomades Digitaux
+
+Le marché locatif tokyoïte est structuré autour de baux de 12 mois. Pour un séjour nomade digital de 6 mois, vous avez trois options réalistes :
+
+**Appartements meublés en location mensuelle** : l'option la plus pratique. Propriétés conçues pour les séjours de moyen terme, généralement à partir de 1 à 3 mois. Charges souvent incluses. Comptez 130 000 à 220 000 JPY par mois pour un 1K ou 1LDK central. Des opérateurs comme Sakura House Monthly, Oak House et des services d'appartements meublés spécialisés ciblent ce marché.
+
+**Share houses avec contrats flexibles** : la plupart des share houses proposent des contrats mensuels sans engagement long terme. Coût : 55 000 à 90 000 JPY par mois tout compris (charges incluses). Aucun garant requis. Bonne option pour les 1 à 2 premiers mois le temps d'explorer les quartiers.
+
+**Bail classique non meublé** : possible avec un visa nomade digital, mais les propriétaires exigent généralement un bail de 12 mois minimum et un garant. Une stratégie courante : commencer en logement meublé ou share house pendant 3 mois, puis passer à un bail classique pour les 9 mois restants.
+
+Consultez notre [guide des appartements meublés pour expatriés](/blog/appartement-meuble-tokyo-expats) pour un panorama complet du marché mensuel meublé à Tokyo.
+
+## Estimation du Coût de la Vie (Tokyo, nomades digitaux)
+
+| Dépense | Estimation mensuelle |
+|---------|----------------------|
+| Appartement meublé (1K, quartier central) | 130 000 à 200 000 JPY |
+| Alternative share house | 55 000 à 90 000 JPY |
+| Alimentation | 45 000 à 70 000 JPY |
+| Transport | 8 000 à 15 000 JPY |
+| Téléphone (SIM MVNO) | 2 000 à 4 000 JPY |
+| Assurance maladie privée | 15 000 à 30 000 JPY |
+
+Fourchette totale réaliste : **250 000 à 380 000 JPY/mois** en appartement meublé, ou **175 000 à 270 000 JPY/mois** en share house.
+
+Aux taux de change actuels (environ 155 JPY/EUR en mi-2026), le scénario appartement meublé revient à environ 1 600 à 2 400 EUR par mois.
+
+## Banques et Argent
+
+Ouvrir un compte bancaire japonais avec un visa activités spécifiques peut être difficile. Les options les plus accessibles :
+
+- **PayPay Bank** : entièrement en ligne, accepte divers statuts de visa dont les Activités Spécifiques
+- **Sony Bank** : ouverture en ligne, comptes multi-devises disponibles
+- **Wise Japon** : pas un compte bancaire japonais, mais permet les transactions en JPY et les paiements par carte
+
+Pour les virements internationaux, consultez notre [guide des transferts d'argent vers le Japon](/blog/virement-international-japon-wise-revolut).
+
+## Questions Fréquentes
+
+**Puis-je emmener ma famille ?**
+
+Oui, dans la plupart des cas. Votre conjoint et vos enfants mineurs peuvent vous accompagner en tant que dépendants. Les règles varient selon la nationalité. Confirmez avec l'ambassade du Japon dans votre pays.
+
+**Puis-je travailler pour des clients japonais ?**
+
+Non. Le visa nomade digital interdit explicitement toute activité rémunérée avec des entreprises ou des particuliers japonais. Une violation peut entraîner l'annulation du visa et une interdiction d'entrée future.
+
+**Que se passe-t-il si je dépasse la durée autorisée ?**
+
+Le dépassement de durée d'un visa japonais entraîne l'expulsion et une interdiction d'entrée minimale de 5 ans. Ne dépassez jamais votre date limite.
+
+**Le Japon est-il une bonne base pour les nomades digitaux ?**
+
+Sur le plan de l'infrastructure, oui : fibre ultra-rapide partout, espaces de coworking dans la plupart des arrondissements de Tokyo, transports en commun très fiables, criminalité très faible. Les principaux freins sont le seuil de revenus élevé pour le visa et le coût de la vie élevé par rapport à l'Asie du Sud-Est.
+
+---
+
+*Pour le logement, commencez par notre [guide des appartements meublés](/blog/appartement-meuble-tokyo-expats) ou notre [guide des share houses](/blog/share-house-tokyo-guide-complet). Pour les démarches administratives après l'arrivée, voir notre [checklist complète pour s'installer à Tokyo](/blog/demenager-japon-checklist-complete).*
+    `.trim(),
+  },
+  {
+    slug: 'japan-working-holiday-visa-guide-2026',
+    locale: 'en',
+    title: 'Japan Working Holiday Visa 2026: Complete Guide (Eligibility & Housing)',
+    description: 'Japan Working Holiday Visa requirements, eligible countries, age limits, quotas, application steps and housing guide for Tokyo arrivals.',
+    date: '2026-06-22',
+    readingTime: '9 min',
+    content: `
+The Japan Working Holiday Visa (WHV) is one of the most sought-after programs for young travellers from eligible countries. It allows you to live and work in Japan for up to 12 months, with far fewer restrictions than a standard work visa.
+
+This guide covers who qualifies, how to apply, what you can do during your stay, and how to find housing in Tokyo — whether you arrive for a year of adventure or as a first step toward longer-term residency.
+
+## What Is the Working Holiday Visa?
+
+The Working Holiday Visa (ワーキングホリデービザ) is a bilateral agreement between Japan and a list of partner countries. It allows nationals aged 18 to 30 (or 35 for some countries) to spend up to 12 months in Japan combining travel, work, and limited study.
+
+Unlike a work visa, it is not tied to a specific employer. You can work in any sector, change jobs freely, and work as many hours as the employer allows (with some sector-specific exceptions).
+
+The visa cannot be renewed or extended beyond 12 months. Each person can only receive it once in their lifetime.
+
+## Eligible Countries and Age Limits
+
+Countries with Working Holiday agreements with Japan as of 2026:
+
+| Country | Age limit | Annual quota |
+|---------|-----------|--------------|
+| Australia | 18-30 | 18,000+ |
+| France | 18-30 | 6,500 |
+| United Kingdom | 18-30 | 6,000 |
+| Canada | 18-30 | 6,500 |
+| New Zealand | 18-30 | 2,000 |
+| Germany | 18-35 | 5,000 |
+| Ireland | 18-30 | 1,500 |
+| South Korea | 18-25 | 10,000 |
+| Taiwan | 18-30 | 10,000 |
+| Hong Kong | 18-30 | 2,000 |
+| Denmark | 18-30 | 500 |
+| Norway | 18-30 | 500 |
+| Portugal | 18-30 | 500 |
+| Poland | 18-30 | 400 |
+| Slovakia | 18-30 | 300 |
+| Hungary | 18-30 | 200 |
+| Spain | 18-30 | 500 |
+| Czech Republic | 18-30 | 300 |
+| Argentina | 18-30 | 200 |
+| Chile | 18-30 | 200 |
+| Mexico | 18-30 | 200 |
+
+Some countries have additional agreements or specific conditions. Always verify directly with the Japanese embassy in your country for the current year.
+
+## What You Can Do on a Working Holiday Visa
+
+**Work**: you can work legally in almost any industry. Common sectors for WHV holders include restaurants, cafes, hotels, teaching English (private tutoring and some school positions), retail, agriculture, and hospitality. Hours are generally unrestricted, though agricultural work has specific seasonal rules.
+
+**Study**: you can study for up to **3 months** during your stay. Beyond 3 months, the primary purpose must remain holiday/work, not study.
+
+**Travel**: free movement throughout Japan for the full 12 months.
+
+**Change employers**: freely, without visa modification.
+
+## What You Cannot Do
+
+- Renew or extend the visa beyond 12 months
+- Work in adult entertainment venues (explicitly excluded from WHV)
+- Work primarily at a single employer's request if the role resembles a standard employment visa (in practice, most jobs are fine)
+
+## Application Process
+
+**Step 1 — Check the quota**. Some countries (France, Germany, South Korea) have annual quotas. Applications open at the start of the calendar year. Popular countries fill up fast — apply early.
+
+**Step 2 — Prepare your documents**:
+- Valid passport with at least 12 months validity beyond your intended departure
+- Completed application form (download from Japanese embassy website)
+- Passport-size photos
+- Proof of sufficient funds: typically equivalent to 200,000 to 300,000 JPY ($1,500-$2,000 USD) in your bank account
+- Return or onward travel ticket (or proof of funds to purchase one)
+- For some countries: clean criminal record certificate
+
+**Step 3 — Apply at the Japanese embassy or consulate** in your country. Processing time: 2 to 4 weeks typically.
+
+**Step 4 — Arrive in Japan**. The WHV is a single-entry visa in some cases. Once in Japan, your 12-month stay begins.
+
+**Step 5 — Register at your local ward office** within 14 days of settling into accommodation.
+
+## Housing in Tokyo on a Working Holiday Visa
+
+Finding accommodation in Tokyo as a WHV holder is easier than finding it as a standard rental applicant, because the best options for new arrivals don't require long-term commitments or Japanese guarantors.
+
+**Share houses (recommended first step)**: no guarantor needed, 1-month deposit, utilities typically included, monthly contracts. Cost: 55,000 to 85,000 JPY per month. Major operators like Sakura House, Oak House and Borderless House have dedicated networks for international residents. Read our [complete share house guide](/blog/share-house-tokyo-guide-2026) for a full breakdown.
+
+**Gaijin houses**: the most budget-conscious option. Basic private or dormitory rooms, very short-term commitment (sometimes week-by-week), all utilities included. Cost: 35,000 to 60,000 JPY per month. Lower comfort, but excellent for the first 1 to 2 months before you know which area of Tokyo suits you. See our [comparison of gaijin houses and share houses](/blog/gaijin-house-vs-share-house-tokyo).
+
+**Standard apartments (later in your stay)**: after 3 to 6 months, once you have a Japanese employment record and income, some landlords will accept WHV holders with a rental guarantee company in place of a traditional guarantor. This opens up unfurnished apartments at more competitive rents. See our [guide to finding an apartment in Tokyo](/blog/find-apartment-tokyo-foreigner).
+
+**Furnished short-stay apartments**: operators like Weekly Mansion and Sakura House Monthly offer furnished units on monthly contracts, no guarantor needed. More expensive than share houses (100,000 to 180,000 JPY/month) but more independent.
+
+## Finding Work in Tokyo
+
+The most accessible sectors for WHV holders:
+
+- **English teaching / tutoring**: private lessons, conversation schools (eikaiwa), some ALT positions
+- **Hospitality**: hotels and guesthouses in Tokyo regularly hire English-speaking staff
+- **Cafes and restaurants**: international chains and expat-friendly venues
+- **Agriculture**: seasonal work in Hokkaido and other rural areas (excellent pay for physical work)
+- **Working remotely**: if you're already working remotely for a foreign company, you can continue this on a WHV
+
+For Japanese-speaking WHV holders, the full range of Japanese job-search portals is accessible.
+
+## Building Toward a Longer Stay
+
+Many people use the Working Holiday year as a foundation for longer-term residency:
+
+- **Build work experience**: a year of Japanese employment history significantly improves your chances of employer sponsorship for a standard work visa
+- **Develop Japanese language skills**: one year of immersion is the fastest path
+- **Establish a rental record**: signing a lease, even a short-term one, creates a paper trail that helps future landlord applications
+- **Find a sponsor**: some WHV holders are offered long-term contracts by their Japanese employer, enabling a transition to a Humanities or Engineer visa
+
+The WHV is not a path to permanent residency by itself — but it is an excellent starting point.
+
+## FAQ
+
+**Can I return to Japan after my WHV year?**
+
+Yes, on a different visa category (tourist, student, work). The WHV itself cannot be obtained a second time, but it does not affect your ability to return on another status.
+
+**Can I work full-time?**
+
+Yes. There is no weekly hours restriction in most WHV employment. Some sector-specific rules apply (agricultural work has its own framework).
+
+**What if my country's quota is full?**
+
+You cannot apply until the following year. Quotas typically reset in January. France and Australia applicants in particular should apply in January or February.
+
+**Is it possible to extend the visa by leaving Japan and re-entering?**
+
+No. The WHV is a once-in-a-lifetime visa. Leaving and re-entering does not reset or extend it.
+
+---
+
+*Arriving in Tokyo? Start with our [share house guide](/blog/share-house-tokyo-guide-2026) for your first accommodation, and our [complete moving checklist](/blog/moving-to-tokyo-checklist-2026) for all administrative steps after arrival.*
+    `.trim(),
+  },
+  {
+    slug: 'pvt-japon-visa-vacances-travail-2026',
+    locale: 'fr',
+    title: 'PVT Japon 2026 : Guide Complet du Programme Vacances Travail',
+    description: 'Conditions, quotas, démarches, logement et conseils pratiques pour le PVT Japon. Guide complet pour les Français, Belges et Canadiens francophones.',
+    date: '2026-06-22',
+    readingTime: '9 min',
+    content: `
+Le Programme Vacances Travail (PVT) au Japon est l'un des visas les plus recherchés pour les jeunes ressortissants des pays partenaires. Il vous permet de vivre et travailler au Japon pendant 12 mois, avec beaucoup moins de contraintes qu'un visa de travail classique.
+
+Ce guide couvre tout ce que vous devez savoir : qui est éligible, comment faire la demande, ce que vous pouvez faire pendant votre séjour, et comment trouver un logement à Tokyo une fois sur place.
+
+## Qu'est-ce que le PVT Japon ?
+
+Le Programme Vacances Travail japonais (ワーキングホリデービザ) est un accord bilatéral entre le Japon et une liste de pays partenaires. Il permet aux ressortissants âgés de 18 à 30 ans (ou 35 ans pour certains pays) de passer jusqu'à 12 mois au Japon en combinant voyage, travail et études limitées.
+
+Contrairement à un visa de travail classique, il n'est pas lié à un employeur spécifique. Vous pouvez travailler dans n'importe quel secteur, changer d'employeur librement, et travailler autant d'heures que l'employeur le propose.
+
+Le visa ne peut pas être renouvelé ni prolongé au-delà de 12 mois. Chaque personne ne peut l'obtenir qu'une seule fois dans sa vie.
+
+## Pays Éligibles et Limites d'Âge
+
+Pays disposant d'accords PVT avec le Japon en 2026 (sélection francophone) :
+
+| Pays | Limite d'âge | Quota annuel |
+|------|--------------|--------------|
+| France | 18-30 ans | 6 500 |
+| Canada | 18-30 ans | 6 500 |
+| Allemagne | 18-35 ans | 5 000 |
+| Irlande | 18-30 ans | 1 500 |
+| Danemark | 18-30 ans | 500 |
+| Norvège | 18-30 ans | 500 |
+| Portugal | 18-30 ans | 500 |
+| Pologne | 18-30 ans | 400 |
+| Hongrie | 18-30 ans | 200 |
+| Espagne | 18-30 ans | 500 |
+| République tchèque | 18-30 ans | 300 |
+| Argentine | 18-30 ans | 200 |
+| Chili | 18-30 ans | 200 |
+| Mexique | 18-30 ans | 200 |
+
+La Belgique et la Suisse ne disposent pas d'accord PVT avec le Japon à ce jour. Vérifiez toujours la liste actualisée auprès de l'ambassade du Japon dans votre pays.
+
+## Ce que Vous Pouvez Faire avec un PVT
+
+**Travailler** : vous pouvez travailler légalement dans presque tous les secteurs. Secteurs courants pour les titulaires de PVT francophones : restaurants et cafés, hôtels, cours d'anglais (cours privés ou dans des écoles de conversation), commerce, agriculture saisonnière, et hôtellerie. Il n'y a généralement pas de limite d'heures de travail.
+
+**Étudier** : vous pouvez étudier pendant 3 mois maximum au cours de votre séjour. Au-delà de 3 mois, l'objectif principal doit rester vacances/travail, pas les études.
+
+**Voyager** : déplacement libre dans tout le Japon pendant les 12 mois.
+
+**Changer d'employeur** : librement, sans modification de visa.
+
+## Ce que Vous Ne Pouvez Pas Faire
+
+- Renouveler ou prolonger le visa au-delà de 12 mois
+- Travailler dans des établissements de divertissement pour adultes (explicitement exclu du PVT)
+- Réobtenir un PVT après usage (une seule fois dans votre vie)
+
+## Démarches de Demande
+
+**Étape 1 — Vérifiez le quota.** Les pays comme la France ont un quota annuel de 6 500 places. Les demandes s'ouvrent au début de chaque année calendaire. Pour la France, les places partent vite : postulez dès janvier ou février.
+
+**Étape 2 — Préparez vos documents** :
+- Passeport valide au moins 12 mois au-delà de votre date de retour prévue
+- Formulaire de demande rempli (téléchargeable sur le site de l'ambassade du Japon)
+- Photos d'identité format passeport
+- Preuve de fonds suffisants : généralement l'équivalent de 200 000 à 300 000 JPY (~1 500 EUR) sur votre compte bancaire
+- Billet de retour ou de continuation (ou preuve de fonds pour l'acheter)
+- Pour certains pays : extrait de casier judiciaire vierge
+
+**Étape 3 — Déposez votre demande à l'ambassade ou au consulat du Japon** dans votre pays. Délai de traitement : 2 à 4 semaines.
+
+**Étape 4 — Arrivée au Japon.** Le PVT est parfois un visa à entrée unique. Une fois au Japon, votre séjour de 12 mois commence.
+
+**Étape 5 — Enregistrement à la mairie de votre arrondissement** dans les 14 jours suivant votre installation dans votre logement.
+
+## Logement à Tokyo avec un PVT
+
+Trouver un logement à Tokyo avec un PVT est plus facile que pour un locataire standard, car les meilleures options pour les nouveaux arrivants ne nécessitent ni engagement long terme ni garant japonais.
+
+**Share houses (recommandé en premier)** : aucun garant requis, 1 mois de dépôt, charges généralement incluses, contrats mensuels. Coût : 55 000 à 85 000 JPY par mois. Les grands opérateurs comme Sakura House, Oak House et Borderless House ont des réseaux dédiés aux résidents internationaux. Lisez notre [guide complet des share houses à Tokyo](/blog/share-house-tokyo-guide-complet) pour tous les détails.
+
+**Gaijin houses** : l'option la moins chère. Chambres privées ou dortoirs basiques, engagement très court terme (parfois à la semaine), toutes charges incluses. Coût : 35 000 à 60 000 JPY par mois. Confort moindre, mais idéal pour les 1 à 2 premiers mois avant de savoir quel quartier vous convient. Voir notre [comparaison gaijin house vs share house](/blog/gaijin-house-vs-share-house-difference).
+
+**Appartements classiques (plus tard dans le séjour)** : après 3 à 6 mois, une fois que vous avez un historique d'emploi et de revenus au Japon, certains propriétaires acceptent les titulaires de PVT avec une société de garantie à la place d'un garant traditionnel. Cela ouvre l'accès à des appartements non meublés à des loyers plus compétitifs. Voir notre [guide pour trouver un appartement à Tokyo](/blog/trouver-appartement-tokyo-etranger).
+
+**Appartements meublés courte durée** : des opérateurs proposent des unités meublées avec contrats mensuels, sans garant requis. Plus cher que les share houses (100 000 à 180 000 JPY/mois) mais plus indépendant.
+
+## Trouver du Travail à Tokyo
+
+Les secteurs les plus accessibles pour les titulaires de PVT francophones :
+
+- **Cours d'anglais et français** : cours privés, écoles de conversation, soutien scolaire
+- **Hôtellerie** : les hôtels et auberges de jeunesse de Tokyo recrutent régulièrement du personnel anglophone et parfois francophone
+- **Cafés et restaurants** : chaînes internationales et restaurants axés expatriés
+- **Agriculture** : travail saisonnier à Hokkaido et dans d'autres régions rurales (rémunération intéressante pour du travail physique)
+- **Télétravail pour l'étranger** : si vous travaillez déjà à distance pour une entreprise étrangère, vous pouvez continuer avec un PVT
+
+## Construire Vers un Séjour Plus Long
+
+Beaucoup de personnes utilisent l'année PVT comme base pour une résidence plus longue :
+
+- **Expérience professionnelle japonaise** : une année d'historique d'emploi japonais améliore significativement vos chances d'obtenir un parrainage pour un visa de travail standard
+- **Apprentissage du japonais** : une année d'immersion est la voie la plus rapide vers la maîtrise de la langue
+- **Historique locatif** : signer un bail, même court terme, crée un dossier qui facilite les futures demandes de location
+- **Trouver un employeur parrain** : certains titulaires de PVT se voient proposer des contrats long terme par leur employeur japonais, permettant une transition vers un visa Humanités ou Ingénieur
+
+Le PVT n'est pas une voie directe vers la résidence permanente, mais c'est un excellent point de départ.
+
+## Questions Fréquentes
+
+**Puis-je revenir au Japon après mon année PVT ?**
+
+Oui, sur un autre type de visa (touriste, étudiant, travail). Le PVT lui-même ne peut pas être obtenu une deuxième fois, mais il n'affecte pas votre capacité à revenir sur un autre statut.
+
+**Puis-je travailler à temps plein ?**
+
+Oui. Il n'y a pas de restriction d'heures hebdomadaires dans la plupart des emplois PVT. Des règles sectorielles spécifiques s'appliquent dans certains cas.
+
+**Que faire si le quota de mon pays est épuisé ?**
+
+Vous ne pouvez pas postuler avant l'année suivante. Les quotas se réinitialisent généralement en janvier. Les candidats français doivent postuler en janvier ou février pour maximiser leurs chances.
+
+**Est-il possible de prolonger le visa en sortant du Japon et en ré-entrant ?**
+
+Non. Le PVT est un visa unique dans une vie. Sortir et rentrer à nouveau ne le réinitialise pas et ne le prolonge pas.
+
+---
+
+*À votre arrivée à Tokyo, commencez par notre [guide des share houses](/blog/share-house-tokyo-guide-complet) pour votre premier logement, et notre [checklist complète pour s'installer à Tokyo](/blog/demenager-japon-checklist-complete) pour toutes les démarches administratives.*
+    `.trim(),
+  },
 ]
 
 // Mapping FR slug -> EN slug (articles jumeaux pour hreflang)
@@ -6749,6 +7284,8 @@ export const TWIN_SLUGS: Record<string, string> = {
   'importer-animal-compagnie-japon-guide':       'bringing-pets-to-japan-guide',
   'quartiers-tokyo-familles-expatriees-guide':   'best-neighbourhoods-families-tokyo-guide',
   'tokyo-osaka-ou-vivre-expatrie-comparatif':    'tokyo-vs-osaka-expat-living-comparison',
+  'visa-nomade-digital-japon-2026':             'japan-digital-nomad-visa-2026',
+  'pvt-japon-visa-vacances-travail-2026':       'japan-working-holiday-visa-guide-2026',
 }
 
 export function getTwinSlug(slug: string, locale: Locale): string | undefined {

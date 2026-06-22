@@ -83,32 +83,36 @@ python scripts\expatcom_replier.py >> "%LOG_FILE%" 2>&1
 echo [%TIME%] [14/16] Expat.com link checker... >> "%LOG_FILE%"
 python scripts\expatcom_link_checker.py >> "%LOG_FILE%" 2>&1
 
-:: 15. Internations.org auto-post (1 article/semaine dans Tokyo + Japan groups)
-echo [%TIME%] [15/16] Internations autoposter... >> "%LOG_FILE%"
-python scripts\internations_autoposter.py >> "%LOG_FILE%" 2>&1
+:: 15. LinkedIn autoposter (1 post/semaine, browser visible)
+echo [%TIME%] [15/22] LinkedIn autoposter... >> "%LOG_FILE%"
+python scripts\linkedin_autoposter.py >> "%LOG_FILE%" 2>&1
 
 :: 16. Digest social sharing (1 message Telegram avec liens 1-clic Reddit+Facebook)
-echo [%TIME%] [16/16] Social sharing digest... >> "%LOG_FILE%"
+echo [%TIME%] [16/22] Social sharing digest... >> "%LOG_FILE%"
 python scripts\social_sharing.py >> "%LOG_FILE%" 2>&1
 
 :: 17. Competitor Radar -- Art de la Guerre, detecte les nouveaux concurrents
-echo [%TIME%] [17/21] Competitor radar... >> "%LOG_FILE%"
+echo [%TIME%] [17/22] Competitor radar... >> "%LOG_FILE%"
 python scripts\competitor_radar.py >> "%LOG_FILE%" 2>&1
 
 :: 18. Influencer Finder -- YouTube/Instagram/Blog Tokyo expat
-echo [%TIME%] [18/21] Influencer finder... >> "%LOG_FILE%"
+echo [%TIME%] [18/22] Influencer finder... >> "%LOG_FILE%"
 python scripts\influencer_finder.py >> "%LOG_FILE%" 2>&1
 
 :: 19. Quora Finder -- Questions Tokyo housing + drafts reponses
-echo [%TIME%] [19/21] Quora finder... >> "%LOG_FILE%"
+echo [%TIME%] [19/22] Quora finder... >> "%LOG_FILE%"
 python scripts\quora_finder.py >> "%LOG_FILE%" 2>&1
 
-:: 20. Facebook Page autoposter (1 post/semaine, browser visible si CAPTCHA)
-echo [%TIME%] [20/21] Facebook page autoposter... >> "%LOG_FILE%"
-python scripts\facebook_page_autoposter.py >> "%LOG_FILE%" 2>&1
+:: 20. Facebook via Buffer API (sans credentials Facebook -- voir facebook_buffer_poster.py pour le setup)
+echo [%TIME%] [20/22] Facebook Buffer poster... >> "%LOG_FILE%"
+python scripts\facebook_buffer_poster.py >> "%LOG_FILE%" 2>&1
 
-:: 21. Monday briefing consolide (toujours en dernier, apres tous les scripts)
-echo [%TIME%] [21/21] Monday briefing consolide... >> "%LOG_FILE%"
+:: 21. Emails outreach automatiques (si GMAIL_APP_PASSWORD configure dans .env)
+echo [%TIME%] [21/22] Email outreach sender... >> "%LOG_FILE%"
+python scripts\email_sender.py >> "%LOG_FILE%" 2>&1
+
+:: 22. Monday briefing consolide (toujours en dernier, apres tous les scripts)
+echo [%TIME%] [22/22] Monday briefing consolide... >> "%LOG_FILE%"
 python scripts\monday_briefing.py >> "%LOG_FILE%" 2>&1
 
 echo [%TIME%] Weekly intelligence complete. >> "%LOG_FILE%"
