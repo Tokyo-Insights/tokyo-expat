@@ -254,20 +254,18 @@ def build_email(contact: dict) -> tuple[str, str]:
 
     # ---- GUEST POST (editorial sites: GaijinPot, Savvy Tokyo, Japan Today) ----
     if approach == "guest_post":
-        subject = f"Guest post — {our_topic.capitalize()}"
-        their_ref = f" (saw your {their_section})" if their_section else ""
+        subject = f"Guest post idea for {name}"
         body = (
             f"{greeting},\n\n"
-            f"I noticed your {their_section}{' — great practical content' if their_page else ''}. "
-            f"Your audience and mine overlap: foreigners navigating daily life in Japan.\n\n"
-            f"I run Tokyo Expat (tokyo-expat.com), a housing and relocation guide in English and French. "
-            f"I'd love to contribute a guest article on {our_topic}.\n\n"
-            "Three angles I could develop for your readers:\n"
-            "- The Japanese guarantor system: what foreigners need to know (and the 3 legal workarounds)\n"
-            "- Share house vs furnished apartment: the real cost comparison for 2026\n"
-            "- How to find a Tokyo apartment before you land: a step-by-step remote search guide\n\n"
-            "All original content, 1,000-1,500 words, not published elsewhere.\n\n"
-            "Happy to send a draft outline first if that makes it easier to say yes.\n\n"
+            f"I've been reading {name} for a while. Your {their_section} covers the kind of practical stuff "
+            f"expats actually need, and I thought I'd reach out.\n\n"
+            f"I run Tokyo Expat (tokyo-expat.com), a housing guide for foreigners moving to Tokyo, "
+            f"in English and French. I'd be glad to contribute a guest piece on {our_topic}.\n\n"
+            "A few topics I could write:\n"
+            "- The Japanese guarantor system: what foreigners need to know and the three legal workarounds\n"
+            "- Share house vs furnished apartment: the real cost difference in 2026\n"
+            "- Finding an apartment in Tokyo before you land: a practical remote-search guide\n\n"
+            "All original, not published elsewhere. I can send an outline first if that's easier.\n\n"
             "Alessandro\n"
             "Tokyo Expat | www.tokyo-expat.com"
         )
@@ -276,68 +274,65 @@ def build_email(contact: dict) -> tuple[str, str]:
     elif approach == "broken_link":
         dead_url = contact.get("dead_url", "")
         link_url = contact.get("our_url", our_url)
-        subject = f"Broken link on {name} — replacement available"
+        subject = f"Broken link on {name}"
         body = (
             f"{greeting},\n\n"
-            f"I came across your {their_section or 'website'} and noticed a link that's returning a 404:\n"
+            f"I was reading your {their_section or 'site'} and found a link returning a 404:\n"
             f"{dead_url}\n\n"
-            f"I've published an up-to-date guide that covers the same topic:\n"
+            f"I published a guide that covers the same topic, if it's useful as a replacement:\n"
             f"{link_url}\n\n"
-            "Happy to write a short custom intro paragraph for your page if that helps with the swap.\n\n"
+            "I can write a custom intro paragraph tailored to your page if that helps.\n\n"
             "Alessandro\n"
             "Tokyo Expat | www.tokyo-expat.com"
         )
 
     # ---- LANGUAGE SCHOOLS (student housing partnership) ----
     elif ctype == "language_school":
-        subject = "Housing resource for your students in Tokyo"
+        subject = f"Housing resource for {name} students"
         body = (
             f"{greeting},\n\n"
-            f"Many students arriving at {name} face the same first challenge: finding housing in Tokyo "
-            "before they're even familiar with the city. The guarantor requirement, furnished vs unfurnished, "
-            "short-term vs standard leases — it's a lot to navigate without local support.\n\n"
+            f"Many students arriving at {name} hit the same wall first: finding a place to live before "
+            f"they even know the city. The guarantor requirement, furnished vs unfurnished, short-term vs "
+            f"regular lease. It's genuinely confusing without someone to walk them through it.\n\n"
             "I run Tokyo Expat (tokyo-expat.com), a housing service for foreigners in Tokyo. "
-            "I help students find share houses and furnished apartments — no Japanese guarantor required, "
-            "in English and French.\n\n"
-            "A simple referral arrangement could work well for both of us: "
-            "I mention your school to clients looking for Japanese lessons, you mention us to students asking about housing. "
-            "No formal contract, just a mutual resource mention.\n\n"
-            "Would that be worth a quick conversation?\n\n"
+            "I help students find share houses and furnished apartments, no Japanese guarantor needed. "
+            "Everything is handled in English.\n\n"
+            "A simple referral could work well for both sides: I mention your school to clients looking "
+            "for Japanese lessons, you point students asking about housing our way. No formal agreement needed.\n\n"
+            "Worth a quick chat?\n\n"
             "Alessandro\n"
             "Tokyo Expat | www.tokyo-expat.com"
         )
 
     # ---- MOVING COMPANIES (cross-referral) ----
     elif ctype == "moving_company":
-        subject = "Cross-referral opportunity — Tokyo housing + international moving"
+        subject = f"Referral idea: {name} + Tokyo Expat"
         body = (
             f"{greeting},\n\n"
-            "When someone relocates internationally to Tokyo, two things need to be sorted: the move itself, "
-            "and the apartment they're moving into.\n\n"
-            f"I run Tokyo Expat (tokyo-expat.com) and specialise in finding housing for expats arriving in Tokyo "
-            "— share houses, furnished apartments, family homes. No overlap with international moving services.\n\n"
-            "The fit seems natural: you handle the move, I handle the apartment. "
-            "A mutual referral arrangement would be low-effort and high-value for both sides.\n\n"
-            "Would you be open to a brief call to explore this?\n\n"
+            "When someone relocates to Tokyo, they usually need two things sorted: the international move "
+            "and the apartment to move into. Your company handles the first part well.\n\n"
+            "I run Tokyo Expat (tokyo-expat.com) and focus on the second part: finding housing for expats "
+            "arriving in Tokyo. Share houses, furnished apartments, family homes. No overlap with what you do.\n\n"
+            "A mutual referral could make sense. You get clients who still need housing sorted, I get clients "
+            "who still need moving services. Open to talking if it seems like a fit.\n\n"
             "Alessandro\n"
             "Tokyo Expat | www.tokyo-expat.com"
         )
 
     # ---- GOVERNMENTS & EMBASSIES (resource link, often FR) ----
     elif ctype == "government":
-        is_fr = "ambafrance" in domain or "ccifj" in domain
+        is_fr = "ambafrance" in domain or "jetro" in domain
         subject = ("Ressource logement Tokyo pour vos ressortissants" if is_fr
-                   else "Housing resource for expats — Tokyo Expat")
+                   else "Tokyo housing resource for expats")
         if is_fr:
             body = (
                 f"{greeting},\n\n"
-                f"Je gère Tokyo Expat (tokyo-expat.com), un guide pratique du logement à Tokyo pour les expatriés, "
-                f"publié en français et en anglais.\n\n"
-                f"J'ai remarqué votre {their_section or 'section pour les ressortissants'}. "
-                f"Mes guides couvrent en détail le système de location japonais, la garantie locative, "
-                f"les share houses, les appartements meublés — spécifiquement orientés vers les arrivants francophones.\n\n"
-                f"Seriez-vous ouverts à ajouter un lien vers nos ressources dans votre section dédiée ?\n"
-                f"Notre guide principal : {our_url}\n\n"
+                f"Je gere Tokyo Expat (tokyo-expat.com), un guide pratique du logement a Tokyo, "
+                f"publie en francais et en anglais.\n\n"
+                f"Mes guides couvrent le systeme de location japonais, la caution, les share houses "
+                f"et les appartements meubles, orientes specifiquement vers les arrivants francophones.\n\n"
+                f"Seriez-vous ouverts a ajouter un lien dans votre {their_section} ?\n"
+                f"Guide principal : {our_url}\n\n"
                 f"Cordialement,\n"
                 f"Alessandro\n"
                 f"Tokyo Expat | www.tokyo-expat.com"
@@ -345,12 +340,12 @@ def build_email(contact: dict) -> tuple[str, str]:
         else:
             body = (
                 f"{greeting},\n\n"
-                f"I manage Tokyo Expat (tokyo-expat.com), a practical housing guide for foreigners moving to Tokyo, "
-                f"published in English and French.\n\n"
-                f"I noticed your {their_section or 'resources for expats'} — it covers many of the same topics "
-                f"my guides do, and I think a link could be useful for your visitors.\n\n"
-                f"Our most comprehensive guide for new arrivals: {our_url}\n\n"
-                f"Would you consider adding it as a reference?\n\n"
+                f"I run Tokyo Expat (tokyo-expat.com), a housing guide for foreigners moving to Tokyo, "
+                f"in English and French.\n\n"
+                f"I noticed your {their_section or 'Japan resources page'} and thought a link might be "
+                f"useful for people you're helping relocate.\n\n"
+                f"Main guide: {our_url}\n\n"
+                f"Let me know if it fits.\n\n"
                 "Alessandro\n"
                 "Tokyo Expat | www.tokyo-expat.com"
             )
@@ -358,17 +353,17 @@ def build_email(contact: dict) -> tuple[str, str]:
     # ---- CHAMBERS OF COMMERCE ----
     elif ctype == "chamber_commerce":
         is_fr = "ccifj" in domain
-        subject = ("Ressource logement pour vos membres expatriés à Tokyo" if is_fr
-                   else "Housing resource for your expat members in Tokyo")
+        subject = ("Ressource logement pour vos membres a Tokyo" if is_fr
+                   else "Housing resource for members relocating to Tokyo")
         if is_fr:
             body = (
                 f"{greeting},\n\n"
-                f"Je gère Tokyo Expat (tokyo-expat.com), un service de chasseur immobilier pour expatriés à Tokyo.\n\n"
-                f"Beaucoup de vos membres relocalisent des collaborateurs à Tokyo et ont besoin d'un soutien "
-                f"logement concret : appartement sans garant japonais, accompagnement en français, logements "
-                f"disponibles rapidement.\n\n"
-                f"Je serais heureux d'offrir des conditions préférentielles aux membres de la CCIFJ. "
-                f"Pourriez-vous envisager un lien ressource vers notre site dans vos supports membres ?\n\n"
+                f"Je gere Tokyo Expat (tokyo-expat.com), un service de chasseur immobilier pour expatries a Tokyo.\n\n"
+                f"Certains de vos membres relocalisent des collaborateurs au Japon et cherchent un appui "
+                f"logement concret: appartement sans garant japonais, accompagnement en francais, "
+                f"biens disponibles rapidement.\n\n"
+                f"Je serais ravi d'etre mentionne dans vos ressources membres, et peux proposer des "
+                f"conditions preferentielles pour la CCIFJ si cela a du sens.\n\n"
                 f"Cordialement,\n"
                 f"Alessandro\n"
                 f"Tokyo Expat | www.tokyo-expat.com"
@@ -377,44 +372,42 @@ def build_email(contact: dict) -> tuple[str, str]:
             body = (
                 f"{greeting},\n\n"
                 f"I run Tokyo Expat (tokyo-expat.com), a property hunting service for expats relocating to Tokyo.\n\n"
-                f"Many of your members relocate staff to Tokyo and need practical housing support — finding apartments, "
-                "dealing with the Japanese guarantor system, managing applications in English. "
-                "I offer a dedicated service for exactly this.\n\n"
-                "I'd be happy to offer preferential rates for your members, and could be listed as a recommended "
-                "housing resource in your relocation guide.\n\n"
+                f"Some of your members relocate staff to Japan and need housing support: apartments without "
+                "a Japanese guarantor, applications in English, quick turnaround. That's what I do.\n\n"
+                "I could be listed as a resource for your members, and am open to preferential rates for "
+                f"{name} members if that makes the conversation easier.\n\n"
                 "Alessandro\n"
                 "Tokyo Expat | www.tokyo-expat.com"
             )
 
     # ---- INTERNATIONAL SCHOOLS (families) ----
     elif ctype == "intl_school":
-        subject = f"Housing guide for new families joining {name}"
+        subject = f"Housing guide for families joining {name}"
         body = (
             f"{greeting},\n\n"
-            f"Families relocating to Tokyo to join {name} often arrive without a clear picture of housing: "
-            "which neighbourhoods are close to school, how the Japanese rental system works, "
-            "what 'guarantor required' means for foreign families.\n\n"
-            "I've written detailed guides on this at tokyo-expat.com — in English and French:\n"
-            f"- {our_url}\n"
-            f"- https://www.tokyo-expat.com/en/blog/best-neighbourhoods-families-tokyo-guide\n\n"
-            "Would you consider adding these as resources on your admissions or 'New Families' page? "
-            "No cost, just practical references for incoming families.\n\n"
+            f"Families relocating to Tokyo for {name} often arrive without a clear picture of where to live: "
+            "which neighbourhoods are close to school, how the Japanese rental process works, "
+            "what the guarantor requirement means for foreign families.\n\n"
+            "I've written guides on exactly this at tokyo-expat.com, in English and French:\n"
+            f"{our_url}\n"
+            f"https://www.tokyo-expat.com/en/blog/best-neighbourhoods-families-tokyo-guide\n\n"
+            "Worth adding to your admissions or New Families page if it's useful for incoming families.\n\n"
             "Alessandro\n"
             "Tokyo Expat | www.tokyo-expat.com"
         )
 
     # ---- RECRUITMENT AGENCIES ----
     elif ctype == "recruitment":
-        subject = "Tokyo housing resource for candidates you're placing in Japan"
+        subject = "Tokyo housing resource for Japan placements"
         body = (
             f"{greeting},\n\n"
-            "When candidates accept a Japan posting, housing is usually one of their first questions — "
-            "and one of the main sticking points. The guarantor system, furnished vs unfurnished, "
-            "realistic budgets by ward — it's a lot to navigate without local knowledge.\n\n"
-            "I've built a practical guide at tokyo-expat.com that covers exactly this, in English and French. "
-            f"It could be a useful reference for candidates you're placing:\n"
+            "Candidates accepting a Japan posting usually have the same first question: where do I live. "
+            "The guarantor system, furnished vs unfurnished, realistic budgets by ward. "
+            "It's genuinely confusing if you don't know Tokyo.\n\n"
+            "I've put together a practical guide on this at tokyo-expat.com, in English and French. "
+            "Could be a useful link for candidates you're placing:\n"
             f"{our_url}\n\n"
-            "Would you consider adding it to your Japan relocation resources?\n\n"
+            "Let me know if it fits your relocation resources.\n\n"
             "Alessandro\n"
             "Tokyo Expat | www.tokyo-expat.com"
         )
@@ -422,14 +415,14 @@ def build_email(contact: dict) -> tuple[str, str]:
     # ---- RESOURCE LINK (content/media sites: default) ----
     else:
         page_ref = f"your {their_section}" if their_section else name
-        topic_ref = f"about {our_topic}" if our_topic else "on Tokyo housing for expats"
-        subject = f"Resource link for your {their_section or 'Tokyo guide'}"
+        subject = f"Resource for your {their_section or 'Tokyo guide'}"
         body = (
             f"{greeting},\n\n"
-            f"I came across {page_ref} — solid resource for anyone moving to Tokyo.\n\n"
-            f"I've published a detailed guide {topic_ref} that might be a useful addition for your readers:\n"
+            f"I came across {page_ref} and thought it was worth reaching out.\n\n"
+            f"I run Tokyo Expat (tokyo-expat.com) and published a guide on {our_topic}. "
+            f"It might be a useful addition for your readers:\n"
             f"{our_url}\n\n"
-            "Would you consider adding it as a reference? No reciprocity expected — just flagging it if it fits.\n\n"
+            "No ask in return. Just flagging it in case it fits.\n\n"
             "Alessandro\n"
             "Tokyo Expat | www.tokyo-expat.com"
         )
