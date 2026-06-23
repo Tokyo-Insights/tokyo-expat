@@ -7456,6 +7456,216 @@ If you're still deciding on the type of housing, our [complete Tokyo share house
 *Starting in October and haven't sorted housing yet? See our [student housing Tokyo 2026 guide](/blog/student-housing-tokyo-guide-2026) for the full process, or contact us directly if you want personalised help.*
     `.trim(),
   },
+  {
+    slug: 'appartement-meuble-tokyo-expats-top-5',
+    locale: 'fr',
+    title: 'Appartement meublé à Tokyo : les 5 meilleures options pour expatriés (2026)',
+    description: 'Chercher un appartement meublé à Tokyo en 2026 ? Comparatif des 5 meilleures options pour expatriés : coûts réels, durée minimum, sans garant japonais.',
+    date: '2026-06-23',
+    readingTime: '7 min',
+    content: `
+Trouver un appartement meublé à Tokyo est une des premières urgences de tout expatrié arrivant au Japon. Vous n'avez pas encore vos meubles, vous ne voulez pas signer un bail d'un an en arrivant, et les agences classiques vous demandent un garant japonais que vous n'avez pas.
+
+Voici les 5 options réelles que vous avez, avec leurs coûts 2026, leurs avantages et leurs limites.
+
+## 1. La share house meublée (40 000 à 120 000 JPY/mois)
+
+La share house est la solution la plus accessible pour un expatrié qui arrive sans garant japonais. Les chambres sont entièrement meublées, les parties communes partagées, et le dépôt de garantie est minimal (zéro chez certains opérateurs).
+
+**Les opérateurs principaux à Tokyo :**
+- **Oak House** : plus de 200 résidences, entrée rapide possible sous 1 semaine, à partir de 55 000 JPY/mois
+- **Sakura House** : spécialisé internationaux, 5 villes JP, chambres dès 42 000 JPY/mois
+- **Borderless House** : concept colocation mixte JP/étranger, idéal pour apprendre la langue
+- **Global Agents** : share houses premium dans Shibuya, Shinjuku, Meguro (80 000-120 000 JPY)
+
+**Durée minimum :** 1 mois pour la plupart. Certains opérateurs acceptent 2 semaines.
+
+**Avantage principal :** aucun garant, internet inclus, installation immédiate.
+
+**Limite :** espace privé réduit (15-25 m²), règles de vie commune à respecter.
+
+## 2. Le monthly mansion meublé (80 000 à 200 000 JPY/mois)
+
+Le monthly mansion est un appartement meublé individuel en location courte durée (1 mois minimum). Vous avez votre propre cuisine, votre salle de bain, votre entrée. Aucun voisin de palier.
+
+**Opérateurs connus :**
+- **Monthly.com** (anciennement Leo Palace 21) : réseau national, appartements studios meublés
+- **Sakura House monthly** : variante solo pour les séjours 1-6 mois
+- **Maison Marchais** (Shinjuku) : appartements haut de gamme pour cadres expatriés
+
+**Budget réaliste à Tokyo :** comptez 100 000 à 150 000 JPY/mois pour un studio bien situé (Yamanote line).
+
+**Avantage :** autonomie totale, adresse postale utilisable pour les démarches administratives.
+
+**Limite :** prix plus élevé que la share house, parfois dépôt 1 mois.
+
+## 3. L'appartement meublé via agence spécialisée (100 000 à 300 000 JPY/mois)
+
+Certaines agences immobilières spécialisées dans la clientèle internationale proposent des appartements meublés avec baux flexibles, sans garant japonais requis.
+
+**Agences recommandées :**
+- **Real Estate Japan (GaijinPot)** : listings filtrés "foreigner-friendly", section meublé
+- **Fontaine Relocation** : spécialisé expatriés francophones, accompagnement complet
+- **Tokyo Expat** : accès à 300+ biens meublés, accompagnement en français du dossier à la signature
+
+**Ce qu'on négocie pour vous :** bail 3-12 mois, meubles inclus, clauses de résiliation flexibles, pas de garant humain (société de garantie acceptée).
+
+**Avantage :** appartement classique, quartier de votre choix, surface réelle (30-60 m²).
+
+**Limite :** processus 2-4 semaines, dépôt de garantie 1-2 mois, parfois frais d'agence.
+
+## 4. L'airbnb et location courte durée (15 000 à 40 000 JPY/nuit)
+
+Pour les premiers jours au Japon ou pour des séjours inférieurs à 1 mois, Airbnb reste une option simple. Mais attention : depuis la loi Minpaku de 2018, beaucoup d'appartements ont été retirés de la plateforme à Tokyo. L'offre est moins abondante qu'avant.
+
+**Ce qui reste disponible :** des studios et appartements en zones résidentielles (Shinjuku-ku, Sumida-ku, Koto-ku), à des prix horaires élevés.
+
+**Budget pour 1 mois complet :** 400 000 à 600 000 JPY. Très peu compétitif par rapport aux options ci-dessus.
+
+**Quand c'est pertinent :** pour un séjour de 2-3 semaines le temps de trouver un logement permanent, ou pour des missions d'entreprise courtes.
+
+## 5. Le logement d'entreprise (shataku) via votre employeur
+
+Si vous êtes muté au Japon par une entreprise japonaise ou internationale, demandez à votre employeur s'il dispose d'un parc de logements shataku (appartements d'entreprise). Certaines grandes sociétés (Sony, Toyota, grandes banques) maintiennent un parc de logements pour leurs salariés expatriés.
+
+**Avantage :** loyer souvent subventionné, aucun garant à trouver (c'est l'entreprise), appartement prêt à l'emploi.
+
+**Comment y accéder :** demandez à votre service RH dès que la mutation est confirmée. Les places sont limitées et s'attribuent souvent 2-3 mois à l'avance.
+
+**Limite :** vous n'avez pas le choix du quartier ni de l'appartement, et vous perdez le logement si vous quittez l'entreprise.
+
+## Tableau comparatif
+
+| Option | Budget mensuel | Durée min. | Sans garant | Disponibilité |
+|---|---|---|---|---|
+| Share house | 40-120k JPY | 1 mois | Oui | 1 semaine |
+| Monthly mansion | 80-200k JPY | 1 mois | Oui | 1-2 semaines |
+| Agence spécialisée | 100-300k JPY | 3 mois | Oui (hoshougaisha) | 2-4 semaines |
+| Airbnb | 400-600k JPY/mois | 1 nuit | Oui | Immédiat |
+| Shataku | Subventionné | Durée contrat | N/A | Via employeur |
+
+## Comment choisir ?
+
+**Vous arrivez dans moins de 3 semaines :** share house (Oak House ou Sakura House) ou monthly mansion. Ce sont les seules options avec une entrée rapide garantie.
+
+**Vous avez 1-2 mois pour vous installer :** appartement via agence spécialisée. Vous aurez le choix du quartier, de la surface, et pourrez signer un bail classique 6-12 mois.
+
+**Vous venez pour moins de 3 mois :** monthly mansion ou Airbnb pour la première semaine, puis share house pour le reste du séjour.
+
+**Vous avez un employeur japonais :** commencez par demander le shataku. C'est la solution la moins chère et la plus simple si elle est disponible.
+
+Pour un accompagnement personnalisé dans votre recherche, [contactez-nous](/contact) : nous gérons le processus de bout en bout en français, de la définition du budget jusqu'à la signature du bail.
+
+---
+
+*Voir aussi : [trouver un appartement à Tokyo depuis l'étranger](/blog/chercher-appartement-tokyo-depuis-etranger) et [logement sans garant à Tokyo](/blog/appartement-meuble-tokyo-sans-garant).*
+    `.trim(),
+  },
+  {
+    slug: 'furnished-apartment-tokyo-top-5-expats',
+    locale: 'en',
+    title: 'Furnished Apartment Tokyo: 5 Best Options for Expats in 2026',
+    description: 'Looking for a furnished apartment in Tokyo in 2026? Honest comparison of the 5 best options for expats: real costs, minimum stay, no Japanese guarantor needed.',
+    date: '2026-06-23',
+    readingTime: '7 min',
+    content: `
+Finding a furnished apartment in Tokyo is one of the first urgent tasks for any expat arriving in Japan. You don't have furniture yet, you may not want to commit to a year-long lease immediately, and most traditional agencies require a Japanese guarantor you simply don't have.
+
+Here are the 5 real options available to you, with their 2026 costs, pros, and limits.
+
+## 1. Furnished Share House (40,000 to 120,000 JPY/month)
+
+The share house is the most accessible option for expats arriving without a Japanese guarantor. Rooms are fully furnished, common areas are shared, and the deposit is minimal — zero at some operators.
+
+**Main operators in Tokyo:**
+- **Oak House**: 200+ residences across Tokyo, move-in possible within 1 week, from 55,000 JPY/month
+- **Sakura House**: specialist in international residents, available in 5 Japanese cities, rooms from 42,000 JPY/month
+- **Borderless House**: mixed JP/foreign flatshare concept, ideal for language immersion
+- **Global Agents**: premium share houses in Shibuya, Shinjuku, Meguro (80,000-120,000 JPY)
+
+**Minimum stay:** 1 month for most operators. Some accept 2 weeks.
+
+**Main advantage:** no guarantor required, internet included, immediate availability.
+
+**Limit:** private space is small (15-25 m²), communal living rules apply.
+
+## 2. Monthly Mansion (80,000 to 200,000 JPY/month)
+
+A monthly mansion is a fully furnished individual apartment available for short-term rental (minimum 1 month). You have your own kitchen, bathroom, and entrance. No shared common areas.
+
+**Known operators:**
+- **Monthly.com** (formerly Leo Palace 21): national network, furnished studio apartments
+- **Sakura House monthly**: solo option for 1-6 month stays
+- **Maison Marchais** (Shinjuku): premium apartments for corporate expats
+
+**Realistic budget in Tokyo:** 100,000 to 150,000 JPY/month for a well-located studio (Yamanote line area).
+
+**Advantage:** full autonomy, postal address usable for administrative procedures (bank account, residence registration).
+
+**Limit:** higher price than share house, sometimes requires 1 month deposit.
+
+## 3. Furnished Apartment via Specialist Agency (100,000 to 300,000 JPY/month)
+
+Some real estate agencies specialising in international clients offer furnished apartments with flexible leases and no Japanese guarantor required.
+
+**Recommended agencies:**
+- **Real Estate Japan (GaijinPot)**: filtered "foreigner-friendly" listings including furnished options
+- **Fontaine Relocation**: specialist in French-speaking expats, full relocation support
+- **Tokyo Expat**: access to 300+ furnished and unfurnished properties, full support in English from application to lease signing
+
+**What gets negotiated on your behalf:** 3-12 month lease, furniture included, flexible break clauses, no human guarantor needed (rental guarantee company accepted).
+
+**Advantage:** proper apartment in the neighbourhood of your choice, real floor space (30-60 m²).
+
+**Limit:** 2-4 week process, 1-2 month deposit required, sometimes agency fees.
+
+## 4. Airbnb and Short-Term Rentals (15,000 to 40,000 JPY/night)
+
+For your first days in Japan or stays under 1 month, Airbnb remains a simple option. However, since the 2018 Minpaku law, many Tokyo apartments were pulled from the platform. The supply is thinner than it used to be.
+
+**What's still available:** studios and apartments in residential areas (Shinjuku-ku, Sumida-ku, Koto-ku), at high nightly rates.
+
+**Budget for 1 full month:** 400,000 to 600,000 JPY — not competitive compared to the options above.
+
+**When it makes sense:** for a 2-3 week bridging period while you look for permanent housing, or for short company assignments.
+
+## 5. Company Housing (Shataku) via Your Employer
+
+If you're being seconded to Japan by a Japanese or international company, ask your employer whether they maintain a shataku (company housing) programme. Large corporations (Sony, Toyota, major banks) often have a portfolio of apartments reserved for expatriate employees.
+
+**Advantage:** subsidised rent, no guarantor needed (the company acts as one), ready-to-move-in apartment.
+
+**How to access it:** ask your HR department as soon as your transfer is confirmed. Spots are limited and usually allocated 2-3 months in advance.
+
+**Limit:** no choice of neighbourhood or apartment, and you lose the housing if you leave the company.
+
+## Quick Comparison
+
+| Option | Monthly cost | Min. stay | No guarantor | Availability |
+|---|---|---|---|---|
+| Share house | 40-120k JPY | 1 month | Yes | Within 1 week |
+| Monthly mansion | 80-200k JPY | 1 month | Yes | 1-2 weeks |
+| Specialist agency | 100-300k JPY | 3 months | Yes (guarantee co.) | 2-4 weeks |
+| Airbnb | 400-600k JPY equiv. | 1 night | Yes | Immediate |
+| Shataku | Subsidised | Contract duration | N/A | Via employer |
+
+## How to Choose
+
+**Arriving in less than 3 weeks:** share house (Oak House or Sakura House) or monthly mansion. These are the only options with guaranteed quick move-in.
+
+**You have 1-2 months to settle:** agency-sourced apartment. You'll have a real choice of neighbourhood, floor space, and can sign a 6-12 month lease.
+
+**Coming for less than 3 months:** monthly mansion or Airbnb for the first week, then a share house for the rest of your stay.
+
+**You have a Japanese employer:** start by asking about shataku. It's the cheapest and simplest route if available.
+
+For personalised help with your search, [contact us](/contact): we handle the full process in English, from budget planning to lease signing.
+
+---
+
+*See also: [apartment hunting in Tokyo from abroad](/blog/tokyo-apartment-hunting-from-abroad) and [furnished apartments without a guarantor](/blog/furnished-apartment-tokyo-no-guarantor).*
+    `.trim(),
+  },
 ]
 
 // Mapping FR slug -> EN slug (articles jumeaux pour hreflang)
@@ -7499,6 +7709,7 @@ export const TWIN_SLUGS: Record<string, string> = {
   'visa-nomade-digital-japon-2026':             'japan-digital-nomad-visa-2026',
   'pvt-japon-visa-vacances-travail-2026':       'japan-working-holiday-visa-guide-2026',
   'logement-etudiant-tokyo-octobre':            'student-housing-tokyo-october',
+  'appartement-meuble-tokyo-expats-top-5':      'furnished-apartment-tokyo-top-5-expats',
 }
 
 export function getTwinSlug(slug: string, locale: Locale): string | undefined {

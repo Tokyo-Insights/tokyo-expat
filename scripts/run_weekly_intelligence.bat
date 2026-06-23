@@ -96,11 +96,23 @@ echo [%TIME%] [17/19] Influencer finder... >> "%LOG_FILE%"
 python scripts\influencer_finder.py >> "%LOG_FILE%" 2>&1
 
 :: 18. Facebook via Buffer API (setup : voir facebook_buffer_poster.py --help)
-echo [%TIME%] [18/19] Facebook Buffer poster... >> "%LOG_FILE%"
+echo [%TIME%] [18/22] Facebook Buffer poster... >> "%LOG_FILE%"
 python scripts\facebook_buffer_poster.py >> "%LOG_FILE%" 2>&1
 
-:: 19. Monday briefing consolide (toujours en dernier)
-echo [%TIME%] [19/19] Monday briefing consolide... >> "%LOG_FILE%"
+:: 19. Email reply monitor (scanne Gmail IMAP, detecte bounces/reponses, MAJ contacts)
+echo [%TIME%] [19/22] Email reply monitor... >> "%LOG_FILE%"
+python scripts\email_reply_monitor.py >> "%LOG_FILE%" 2>&1
+
+:: 20. Email sender (envoie les 2 prochains contacts en queue)
+echo [%TIME%] [20/22] Email sender outreach... >> "%LOG_FILE%"
+python scripts\email_sender.py >> "%LOG_FILE%" 2>&1
+
+:: 21. LinkedIn via Buffer API
+echo [%TIME%] [21/22] LinkedIn Buffer poster... >> "%LOG_FILE%"
+python scripts\facebook_buffer_poster.py --li-only >> "%LOG_FILE%" 2>&1
+
+:: 22. Monday briefing consolide (toujours en dernier)
+echo [%TIME%] [22/22] Monday briefing consolide... >> "%LOG_FILE%"
 python scripts\monday_briefing.py >> "%LOG_FILE%" 2>&1
 
 echo [%TIME%] Weekly intelligence complete. >> "%LOG_FILE%"
