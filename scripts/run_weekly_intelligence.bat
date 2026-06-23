@@ -111,16 +111,20 @@ python scripts\email_sender.py >> "%LOG_FILE%" 2>&1
 echo [%TIME%] [21/22] LinkedIn Buffer poster... >> "%LOG_FILE%"
 python scripts\facebook_buffer_poster.py --li-only >> "%LOG_FILE%" 2>&1
 
-:: 22. Monday briefing consolide (toujours en dernier)
-echo [%TIME%] [22/23] Monday briefing consolide... >> "%LOG_FILE%"
+:: 22. GA4 Analytics (doit tourner AVANT monday_briefing pour alimenter ga4_latest.json)
+echo [%TIME%] [22/25] GA4 Analytics reporter... >> "%LOG_FILE%"
+python scripts\ga4_analytics.py >> "%LOG_FILE%" 2>&1
+
+:: 23. Monday briefing consolide (toujours en dernier)
+echo [%TIME%] [23/25] Monday briefing consolide... >> "%LOG_FILE%"
 python scripts\monday_briefing.py >> "%LOG_FILE%" 2>&1
 
-:: 23. Google Alerts digest (mentions marque + concurrents + keywords)
-echo [%TIME%] [23/24] Google Alerts monitor... >> "%LOG_FILE%"
+:: 24. Google Alerts digest (mentions marque + concurrents + keywords)
+echo [%TIME%] [24/25] Google Alerts monitor... >> "%LOG_FILE%"
 python scripts\google_alerts_monitor.py >> "%LOG_FILE%" 2>&1
 
-:: 24. Backup .env chiffre vers OneDrive (1x/semaine suffit)
-echo [%TIME%] [24/24] Backup .env chiffre OneDrive... >> "%LOG_FILE%"
+:: 25. Backup .env chiffre vers OneDrive (1x/semaine suffit)
+echo [%TIME%] [25/25] Backup .env chiffre OneDrive... >> "%LOG_FILE%"
 python scripts\backup_env.py >> "%LOG_FILE%" 2>&1
 
 echo [%TIME%] Weekly intelligence complete. >> "%LOG_FILE%"

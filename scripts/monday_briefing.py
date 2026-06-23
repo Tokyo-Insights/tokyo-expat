@@ -228,6 +228,7 @@ def main():
     gaps_data = load_json(DATA_DIR / "content_gaps.json", {})
     vuln_data = load_json(DATA_DIR / "vulnerabilities.json", {})
     broken_cache = load_json(DATA_DIR / "broken_links_cache.json", {})
+    ga4_data = load_json(DATA_DIR / "ga4_latest.json", {})
 
     # Calculer toutes les sections
     seasonal = get_seasonal_urgencies(today, state.get("dismissed_seasonal", []))
@@ -245,6 +246,27 @@ def main():
         f"<b>LUNDI BRIEFING</b> — {today.strftime('%d %b %Y')}",
         f"Tes priorites de la semaine :\n",
     ]
+
+    # 0. GA4 stats (toujours en tete)
+    if ga4_data:
+        tw = ga4_data.get("this_week", {})
+        ch = ga4_data.get("changes", {})
+        period = ga4_data.get("period", "")
+        sess_arrow = "UP" if "+" in ch.get("sessions", "+0%") else "DOWN"
+        lines.append(
+            f"<b>Analytics ({period}):</b>\n"
+            f"   Sessions: {tw.get('sessions', 0)} ({ch.get('sessions', '?')}) {sess_arrow} | "
+            f"Users: {tw.get('users', 0)} ({ch.get('users', '?')}) | "
+            f"Pages vues: {tw.get('pageviews', 0)}"
+        )
+        top = ga4_data.get("top_pages", [])
+        if top:
+            top_str = " | ".join(f"{p[0].split('/')[-1] or 'home'}({p[1]})" for p in top[:3])
+            lines.append(f"   Top pages: {top_str}")
+        signups = ga4_data.get("form_submits_week", 0)
+        if signups:
+            lines.append(f"   Newsletter signups: {signups}")
+        lines.append("")
 
     # 1. Alertes saisonnieres urgentes (max 2)
     for s in seasonal[:2]:
