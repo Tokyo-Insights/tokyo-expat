@@ -9,3 +9,8 @@ build/
 *.log
 .DS_Store
 Thumbs.db
+
+.vercel
+
+# Google service account credentials (sensitive)
+scripts/ga4-credentials.json
