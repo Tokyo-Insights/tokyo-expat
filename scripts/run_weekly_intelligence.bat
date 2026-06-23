@@ -115,8 +115,12 @@ python scripts\facebook_buffer_poster.py --li-only >> "%LOG_FILE%" 2>&1
 echo [%TIME%] [22/23] Monday briefing consolide... >> "%LOG_FILE%"
 python scripts\monday_briefing.py >> "%LOG_FILE%" 2>&1
 
-:: 23. Backup .env chiffre vers OneDrive (1x/semaine suffit)
-echo [%TIME%] [23/23] Backup .env chiffre OneDrive... >> "%LOG_FILE%"
+:: 23. Google Alerts digest (mentions marque + concurrents + keywords)
+echo [%TIME%] [23/24] Google Alerts monitor... >> "%LOG_FILE%"
+python scripts\google_alerts_monitor.py >> "%LOG_FILE%" 2>&1
+
+:: 24. Backup .env chiffre vers OneDrive (1x/semaine suffit)
+echo [%TIME%] [24/24] Backup .env chiffre OneDrive... >> "%LOG_FILE%"
 python scripts\backup_env.py >> "%LOG_FILE%" 2>&1
 
 echo [%TIME%] Weekly intelligence complete. >> "%LOG_FILE%"

@@ -42,8 +42,9 @@ if _env.exists():
 
 from config import TE_TOKEN, TE_CHAT_ID
 
-GMAIL_ADDRESS = os.environ.get('GMAIL_ADDRESS', '')
+GMAIL_ADDRESS     = os.environ.get('GMAIL_ADDRESS', '')
 GMAIL_APP_PASSWORD = os.environ.get('GMAIL_APP_PASSWORD', '').replace(' ', '')
+HUNTER_API_KEY    = os.environ.get('HUNTER_API_KEY', '')
 
 SCRIPT_DIR = Path(__file__).parent
 DATA_DIR = SCRIPT_DIR / "data"
@@ -226,6 +227,55 @@ DOMAIN_DATA: dict[str, dict[str, str]] = {
         'our_url': 'https://www.tokyo-expat.com/fr/blog/trouver-appartement-tokyo-etranger',
     },
 }
+
+
+def hunter_verify(email_addr: str) -> dict:
+    """Verifie un email via Hunter.io. Retourne {'valid': bool, 'score': int, 'status': str}"""
+    if not HUNTER_API_KEY:
+        return {'valid': True, 'score': -1, 'status': 'skipped'}
+    try:
+        r = requests.get(
+            'https://api.hunter.io/v2/email-verifier',
+            params={'email': email_addr, 'api_key': HUNTER_API_KEY},
+            timeout=15, verify=VERIFY_SSL
+        )
+        if r.ok:
+            data = r.json().get('data', {})
+            status = data.get('status', 'unknown')
+            score  = data.get('score', 0)
+            return {'valid': status == 'valid', 'score': score, 'status': status}
+    except Exception as e:
+        print(f"[HUNTER] Verify error: {e}")
+    return {'valid': False, 'score': 0, 'status': 'error'}
+
+
+def hunter_domain_search(domain: str) -> str | None:
+    """Cherche le meilleur email HR/contact pour un domaine via Hunter.io Domain Search."""
+    if not HUNTER_API_KEY:
+        return None
+    HR_KEYWORDS = ['hr', 'rh', 'human', 'recruit', 'talent', 'people', 'reloc', 'contact', 'info']
+    try:
+        r = requests.get(
+            'https://api.hunter.io/v2/domain-search',
+            params={'domain': domain, 'api_key': HUNTER_API_KEY, 'limit': 10},
+            timeout=15, verify=VERIFY_SSL
+        )
+        if r.ok:
+            emails = r.json().get('data', {}).get('emails', [])
+            for kw in HR_KEYWORDS:
+                for e in emails:
+                    val = e.get('value', '')
+                    dept = e.get('department', '').lower()
+                    if kw in val.lower() or kw in dept:
+                        print(f"[HUNTER] Domain search trouve ({kw}): {val}")
+                        return val
+            if emails:
+                best = max(emails, key=lambda x: x.get('confidence', 0))
+                print(f"[HUNTER] Domain search meilleur score: {best['value']}")
+                return best['value']
+    except Exception as e:
+        print(f"[HUNTER] Domain search error: {e}")
+    return None
 
 
 def send_telegram(msg: str):
@@ -559,7 +609,22 @@ def main():
     sent_ok = []
     for contact in to_send:
         domain = contact.get("domain", "")
-        email = contact.get("email", "")
+        email  = contact.get("email", "")
+
+        # Hunter.io : verification avant envoi
+        if not preview and HUNTER_API_KEY:
+            hv = hunter_verify(email)
+            print(f"[HUNTER] {email} -> status={hv['status']} score={hv['score']}")
+            if not hv['valid'] and hv['status'] not in ('skipped', 'unknown'):
+                alt = hunter_domain_search(domain)
+                if alt and alt.lower() != email.lower():
+                    print(f"[HUNTER] Remplacement: {email} -> {alt}")
+                    email = alt
+                    contact["email"] = alt
+                elif hv['status'] == 'invalid':
+                    print(f"[HUNTER] Email invalide et pas d'alternative. Skip {domain}.")
+                    continue
+
         subject, body = build_email(contact)
 
         print(f"\n{'='*55}")

@@ -26,16 +26,16 @@ export async function POST(request: NextRequest) {
         email,
         listIds: [BREVO_LIST_ID],
         updateEnabled: true,
-        attributes: { LOCALE: locale || 'en' },
       }),
     })
+
+    const resText = await res.text()
+    console.log('Brevo status:', res.status, resText)
 
     if (res.status === 204 || res.status === 201 || res.ok) {
       return NextResponse.json({ ok: true })
     }
 
-    const err = await res.text()
-    console.error('Brevo error:', err)
     return NextResponse.json({ error: 'Subscription failed' }, { status: 500 })
   } catch (err) {
     console.error(err)
