@@ -62,6 +62,13 @@ BOUNCE_SENDERS = [
     'auto-submitted', 'failed delivery'
 ]
 
+# Expéditeurs à ignorer complètement (newsletters, notifications système)
+IGNORED_SENDERS = [
+    'noreply@vercel.com', 'notifications@vercel.com', 'vercel.com',
+    'noreply@github.com', 'notifications@github.com',
+    'noreply@', 'no-reply@', 'donotreply@',
+]
+
 def decode_str(s):
     if not s:
         return ''
@@ -208,6 +215,11 @@ def main():
             subject = decode_str(msg.get('Subject', ''))
             body = get_email_body(msg)
 
+            # Ignorer les expediteurs systeme (Vercel, GitHub, newsletters noreply)
+            if any(ign in from_addr for ign in IGNORED_SENDERS):
+                processed.add(uid.decode())
+                continue
+
             # Detection bounce (NDR)
             is_bounce = any(s in from_addr for s in BOUNCE_SENDERS)
             bounce_subj = any(kw in subject.lower() for kw in [
@@ -258,8 +270,10 @@ def main():
                 if from_domain and any(from_domain in d or d in from_domain for d in emailed_domains):
                     contact = get_contact_domain(from_addr, contacts)
                     is_positive = not any(kw in subject.lower() for kw in [
-                        'out of office', 'auto-reply', 'automatic reply', 'vacation', 'absence'
-                    ])
+                        'out of office', 'auto-reply', 'automatic reply', 'vacation', 'absence',
+                        'newsletter', 'unsubscribe', 'marketing', 'promotion', 'update',
+                        'notification', 'confirm', 'welcome', 'getting started',
+                    ]) and 'noreply' not in from_addr and 'no-reply' not in from_addr
                     if is_positive:
                         if contact:
                             contact['status'] = 'replied'
