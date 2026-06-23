@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import type { ReactNode } from 'react'
 import { headers } from 'next/headers'
 import GoogleAnalytics from '@/components/GoogleAnalytics'
+import MicrosoftClarity from '@/components/MicrosoftClarity'
 import './globals.css'
 
 export const metadata: Metadata = {
@@ -22,6 +23,7 @@ export default async function RootLayout({
     <html lang={locale}>
       <body>
         <GoogleAnalytics />
+        <MicrosoftClarity />
         {children}
       </body>
     </html>
