@@ -1,0 +1,9 @@
+# Tokyo Expat — Python dependencies
+# Install: pip install -r requirements.txt
+
+# HTTP
+requests>=2.31.0
+urllib3>=2.0.0
+
+# Email encryption (backup_env.py)
+cryptography>=42.0.0
