@@ -46,13 +46,13 @@ export default function NewsletterForm({ locale, labels = {} }: Props): ReactNod
   }
 
   return (
-    <div className="newsletter-form">
-      <h3>{t.title}</h3>
-      <p>{t.subtitle}</p>
+    <div>
+      <p className="text-white font-semibold mb-1 text-sm">{t.title}</p>
+      <p className="text-gray-400 text-xs mb-3">{t.subtitle}</p>
       {status === 'success' ? (
-        <p className="newsletter-success">{t.success}</p>
+        <p className="text-green-400 text-sm">{t.success}</p>
       ) : (
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit} className="flex flex-col gap-2">
           <input
             type="email"
             value={email}
@@ -60,11 +60,16 @@ export default function NewsletterForm({ locale, labels = {} }: Props): ReactNod
             placeholder={t.placeholder}
             required
             disabled={status === 'loading'}
+            className="px-3 py-2 rounded text-sm bg-[#0f2744] border border-gray-600 text-white placeholder-gray-500 focus:outline-none focus:border-[#e84141]"
           />
-          <button type="submit" disabled={status === 'loading'}>
+          <button
+            type="submit"
+            disabled={status === 'loading'}
+            className="px-4 py-2 rounded text-sm font-semibold bg-[#e84141] hover:bg-[#c73333] text-white transition-colors disabled:opacity-50"
+          >
             {status === 'loading' ? '...' : t.button}
           </button>
-          {status === 'error' && <p className="newsletter-error">{t.error}</p>}
+          {status === 'error' && <p className="text-red-400 text-xs">{t.error}</p>}
         </form>
       )}
     </div>
