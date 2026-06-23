@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import type { Locale } from '@/lib/i18n'
+import NewsletterForm from '@/components/NewsletterForm'
 
 interface FooterProps {
   locale: Locale
@@ -29,6 +30,9 @@ export default function Footer({ locale, nav, footer }: FooterProps) {
         </div>
         <div>
           <p className="text-sm leading-relaxed">{footer.legal}</p>
+          <div className="mt-6">
+            <NewsletterForm locale={locale} />
+          </div>
         </div>
       </div>
       <div className="border-t border-gray-800 text-center text-xs py-4 text-gray-600">
