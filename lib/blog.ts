@@ -1,4 +1,4 @@
-export type Locale = 'fr' | 'en'
+﻿export type Locale = 'fr' | 'en'
 
 export interface BlogPost {
   slug: string
@@ -66,7 +66,7 @@ Chercher seul, sans réseau ni japonais : **6 à 10 semaines** en moyenne.
 
 Avec un chasseur qui a accès à un inventaire immédiat : **7 à 14 jours** entre le premier contact et la remise des clés.
 
-La différence vient du fait que la plupart des biens sur les portails publics (Suumo, Homes) sont déjà loués au moment où vous les voyez. Les propriétés disponibles circulent dans des réseaux professionnels avant d'être listées en ligne.
+La différence vient du fait que la plupart des biens sur les portails publics classiques sont déjà loués au moment où vous les voyez. Les propriétés disponibles circulent dans des réseaux professionnels avant d'être listées en ligne.
 
 ## Les quartiers pour les expatriés
 
@@ -138,6 +138,17 @@ Contrairement à la colocation française improvisée entre amis, le share house
 **Durée minimale** : certains opérateurs acceptent des séjours à partir de 1 mois, d'autres exigent 3 mois minimum.
 
 Budget total pour une installation en share house à Tokyo : **100 000 à 180 000 JPY** (contre 400 000 à 600 000 JPY pour un appartement standard).
+
+## Principaux opérateurs a Tokyo : comparatif des prix
+
+| Type | Loyer mensuel (JPY) | Durée min. | Garant | Profil |
+|---|---|---|---|---|
+| Budget / périphérie | 40 000-65 000 | 1 mois | Non requis | Arrondissements extérieurs, idéal petits budgets |
+| Standard central | 50 000-85 000 | 1 mois | Non requis | Accès direct Yamanote Line ou Chuo Line |
+| Premium central | 55 000-100 000 | 1 mois | Non requis | Chambres plus spacieuses, espaces communs soignés |
+| Communautaire | 55 000-95 000 | 1 mois | Non requis | Mix résidents japonais et étrangers |
+
+Tous les opérateurs spécialisés expatriés acceptent les locataires étrangers sans garant japonais. Les charges (eau, électricité, internet) sont généralement incluses dans le loyer mensuel.
 
 ## Les meilleurs quartiers pour un share house
 
@@ -615,7 +626,7 @@ Important: Japan taxes worldwide income for tax residents (those who have lived 
 
 ## Next steps: housing and lease
 
-Before you sign your lease, work through our complete [Tokyo rental contract checklist](/en/blog/tokyo-rental-contract-checklist) — every clause worth reviewing, hidden fees to watch for, and what you can negotiate before committing. If you are still searching from outside Japan, our guide to [finding an apartment in Tokyo from abroad](/en/blog/tokyo-apartment-hunting-from-abroad) covers remote search, virtual tours, and operators who accept international applications.
+Before you sign your lease, work through our complete [Tokyo rental contract checklist](/en/blog/tokyo-rental-contract-checklist), every clause worth reviewing, hidden fees to watch for, and what you can negotiate before committing. If you are still searching from outside Japan, our guide to [finding an apartment in Tokyo from abroad](/en/blog/tokyo-apartment-hunting-from-abroad) covers remote search, virtual tours, and operators who accept international applications.
 
 ---
 
@@ -1149,6 +1160,17 @@ The key difference from a standard apartment: you move in with a valid visa and 
 
 Total move-in budget for a Tokyo share house: **100,000 to 180,000 JPY**, versus 400,000 to 600,000 JPY for a standard apartment.
 
+## Main operators in Tokyo: price comparison
+
+| Type | Monthly rent (JPY) | Min. stay | Guarantor | Profile |
+|---|---|---|---|---|
+| Budget / outer wards | 40,000-65,000 | 1 month | Not required | Further from centre, best for tight budgets |
+| Standard central | 50,000-85,000 | 1 month | Not required | Direct access to Yamanote or Chuo Line |
+| Premium central | 55,000-100,000 | 1 month | Not required | Larger rooms, quality shared spaces |
+| Mixed community | 55,000-95,000 | 1 month | Not required | Japanese and international residents together |
+
+All expat-specialist operators accept foreign tenants without a Japanese guarantor. Utilities (water, electricity, internet) are typically included in the monthly rent.
+
 ## Best neighbourhoods for share houses
 
 **Ikebukuro**: highly connected (3 metro lines), international atmosphere, solid share houses at 50,000 to 70,000 JPY.
@@ -1345,7 +1367,7 @@ Some banks additionally require:
 
 **Best for newly arrived expats.**
 
-Japan Post Bank (ゆうちょ銀行) is the most foreigner-friendly option for recent arrivals. It operates through post office branches across Japan — thousands of locations nationwide.
+Japan Post Bank (ゆうちょ銀行) is the most foreigner-friendly option for recent arrivals. It operates through post office branches across Japan, thousands of locations nationwide.
 
 **What it accepts**:
 - Residence Card even from very recently (a few days is sufficient)
@@ -1966,7 +1988,7 @@ Si votre employeur exige SMBC, Mizuho ou MUFG, vous pouvez faire la demande apr�
 
 ## Prochaines étapes : logement et bail
 
-Avant de signer votre contrat de location, parcourez notre [checklist complète du bail à Tokyo](/fr/blog/checklist-bail-tokyo) — toutes les clauses à vérifier, les frais cachés à débusquer et les points de négociation avant de vous engager. Si vous êtes encore en France et que vous cherchez à distance, notre guide pour [trouver un appartement à Tokyo depuis l'étranger](/fr/blog/chercher-appartement-tokyo-depuis-etranger) couvre la recherche à distance, les visites virtuelles et les opérateurs qui acceptent les candidatures internationales.
+Avant de signer votre contrat de location, parcourez notre [checklist complète du bail à Tokyo](/fr/blog/checklist-bail-tokyo), toutes les clauses à vérifier, les frais cachés à débusquer et les points de négociation avant de vous engager. Si vous êtes encore en France et que vous cherchez à distance, notre guide pour [trouver un appartement à Tokyo depuis l'étranger](/fr/blog/chercher-appartement-tokyo-depuis-etranger) couvre la recherche à distance, les visites virtuelles et les opérateurs qui acceptent les candidatures internationales.
 
 ---
 
@@ -3023,9 +3045,9 @@ Si vous n'arrivez pas à passer la case "garantie", d'autres types de logements 
 
 **Share houses et gaijin houses :** pas de garant, pas de caution élevée, contrat simplifié. Le prix à payer est une chambre privée plutôt qu'un appartement entier. C'est souvent la porte d'entrée idéale pour les primo-arrivants. Notre [guide complet sur les share houses](/fr/blog/share-house-tokyo-guide-complet) vous explique comment choisir.
 
-**Appartements meublés pour étrangers :** des opérateurs comme Sakura House, Tokyo Share House ou Borderless House proposent des appartements meublés avec un processus d'entrée simplifié, sans hoshounin ni hoshougaisha. Ces logements sont plus chers au m² mais accessibles dès le premier jour. Voir notre [guide sur les appartements meublés à Tokyo](/fr/blog/appartement-meuble-tokyo-sans-garant).
+**Appartements meublés pour étrangers :** des opérateurs spécialisés proposent des logements meublés avec un processus d'entrée simplifié, sans hoshounin ni hoshougaisha. Ces logements sont plus chers au m² mais accessibles dès le premier jour. Voir notre [guide sur les appartements meublés à Tokyo](/fr/blog/appartement-meuble-tokyo-sans-garant).
 
-**Propriétaires directs expérimentés avec les étrangers :** sur des plateformes comme GaijinPot Housing ou Suumo International, certains propriétaires ou gestionnaires acceptent les étrangers avec un processus simplifié.
+**Propriétaires expérimentés avec les étrangers :** certains propriétaires ont l'habitude de louer à des étrangers et acceptent les dossiers sans garant avec un processus simplifié. Votre chasseur immobilier peut identifier ces propriétaires dans son réseau.
 
 ## Constituer un dossier solide
 
@@ -3057,11 +3079,11 @@ Pour éviter les [pièges classiques de la location à Tokyo](/fr/blog/pieges-lo
     date: '2026-06-20',
     readingTime: '7 min',
     content: `
-The guarantor requirement is one of the most feared obstacles for foreigners looking for an apartment in Japan. In the traditional Japanese rental system, landlords require a personal guarantor — usually Japanese — who commits to paying rent on your behalf if you default. Without a local network, finding such a person is nearly impossible when you first arrive. The good news: the market has evolved, and concrete solutions exist.
+The guarantor requirement is one of the most feared obstacles for foreigners looking for an apartment in Japan. In the traditional Japanese rental system, landlords require a personal guarantor, usually Japanese, who commits to paying rent on your behalf if you default. Without a local network, finding such a person is nearly impossible when you first arrive. The good news: the market has evolved, and concrete solutions exist.
 
 ## The personal guarantor (保証人 hoshounin): the historical barrier
 
-For decades, every tenant in Japan had to provide a hoshounin — literally "a person who guarantees." This guarantor had to be Japanese, resident in Japan, have sufficient income, and accept joint liability for the rent.
+For decades, every tenant in Japan had to provide a hoshounin, literally "a person who guarantees." This guarantor had to be Japanese, resident in Japan, have sufficient income, and accept joint liability for the rent.
 
 For an expat just arriving, it's a vicious cycle: no Japanese network means no guarantor, which means no standard apartment.
 
@@ -3095,9 +3117,9 @@ If you can't clear the guarantor hurdle, other types of accommodation don't requ
 
 **Share houses and gaijin houses:** no guarantor, no large deposit, simplified contract. The trade-off is a private room rather than a full apartment. It's often the ideal entry point for newcomers. Our [complete share house guide](/en/blog/share-house-tokyo-guide-2026) walks you through how to choose.
 
-**Foreigner-friendly furnished apartments:** operators like Sakura House, Tokyo Share House, or Borderless House offer furnished apartments with a simplified entry process — no hoshounin, no hoshougaisha. These are more expensive per sqm but accessible from day one. See our [furnished apartment guide](/en/blog/furnished-apartment-tokyo-no-guarantor).
+**Foreigner-friendly furnished apartments:** specialist operators offer furnished apartments with a simplified entry process, no hoshounin, no hoshougaisha. These are more expensive per sqm but accessible from day one. See our [furnished apartment guide](/en/blog/furnished-apartment-tokyo-no-guarantor).
 
-**Direct landlords experienced with foreigners:** on platforms like GaijinPot Housing or Suumo International, some landlords or property managers accept foreigners with a simplified process.
+**Landlords experienced with foreigners:** some landlords are used to renting to foreign tenants and accept applications without a guarantor through a simplified process. Your property hunter can identify these landlords through their professional network.
 
 ## Building a strong application file
 
@@ -3217,7 +3239,7 @@ This is why landlords and real estate agencies systematically require renter's i
 If you cause water damage or a fire that spreads to the apartment above or below you, you are legally responsible for the damage to your neighbors. Without insurance, this risk falls entirely on you personally.
 
 **Damage to the apartment (火災 kasai):**
-Damage to the rental unit caused by fire — even accidental — is covered. Note: this is separate from the insurance the landlord holds on the building itself.
+Damage to the rental unit caused by fire, even accidental, is covered. Note: this is separate from the insurance the landlord holds on the building itself.
 
 **Theft and personal belongings:**
 Standard policies usually include basic coverage against theft or damage to your personal possessions.
@@ -3245,7 +3267,7 @@ The main barrier is language: the majority of Japanese insurers operate exclusiv
 - **AIG Japan:** multinational coverage with English support
 
 **Through the real estate agency:**
-If you don't want to handle the process separately, accepting the agency's insurance is a valid option. It costs more, but everything is in order from signing day. Just verify that the policy covers third-party liability — that's the most critical coverage for a tenant.
+If you don't want to handle the process separately, accepting the agency's insurance is a valid option. It costs more, but everything is in order from signing day. Just verify that the policy covers third-party liability, that's the most critical coverage for a tenant.
 
 **Renewal:** renter's insurance typically auto-renews. Keep track of the expiry date and verify coverage remains in place if you renew your lease or move.
 
@@ -3270,7 +3292,7 @@ For a broader picture of life in Japan as an expat, our guide on [health insuran
 
 ---
 
-*Setting up in Tokyo and need guidance on the paperwork required on arrival? Book a free consultation — we walk you through every step so you don't make costly mistakes.*
+*Setting up in Tokyo and need guidance on the paperwork required on arrival? Book a free consultation, we walk you through every step so you don't make costly mistakes.*
     `.trim(),
   },
   {
@@ -3294,7 +3316,7 @@ C'est l'option la moins chère, et souvent la plus demandée. Les universités j
 - Processus géré en grande partie par l'université
 
 **Inconvénients :**
-- Places limitées et fortement compétitives — ce n'est pas garanti même si vous êtes accepté à l'université
+- Places limitées et fortement compétitives, ce n'est pas garanti même si vous êtes accepté à l'université
 - Règles de vie strictes (couvre-feu, règles sur les visiteurs, horaires de cuisine)
 - Durée maximale souvent limitée à 1 an
 
@@ -3309,11 +3331,11 @@ Si la résidence universitaire n'est pas disponible ou ne correspond pas à ce q
 - Chambre dans un share house design / premium : 70 000 à 90 000 JPY par mois
 - Charges et internet généralement inclus
 
-**Opérateurs bien établis pour les étudiants :**
-- **Sakura House** : le plus connu pour les étrangers, nombreuses propriétés, processus d'entrée simplifié, pas de garant requis
-- **Oakhouse** : ambiance internationale, nombreux profils étudiants
-- **Tokyo Share House** : interface en anglais, accepte les visas étudiants
-- **Borderless House** : concept "mixed living" Japonais/étrangers, idéal pour progresser en japonais
+**Ce qu'il faut comparer entre opérateurs :**
+- Proximité de votre école (accès direct sans correspondance)
+- Présence d'autres étudiants internationaux dans la maison
+- Durée minimum de séjour (1 mois, 3 mois ou un semestre selon l'opérateur)
+- Interface en anglais pour la réservation et la communication
 
 **Durée minimale :** généralement 1 à 3 mois selon l'opérateur. Pratique pour un semestre d'échange ou une année universitaire complète.
 
@@ -3382,7 +3404,7 @@ Tokyo attracts thousands of international students each year for university exch
 
 ## University dormitories (学生寮 gakusei ryou)
 
-This is the least expensive option — and the most competitive. Japanese universities offer internal or partner dormitories for their international students.
+This is the least expensive option, and the most competitive. Japanese universities offer internal or partner dormitories for their international students.
 
 **Advantages:**
 - Competitive pricing: 30,000 to 60,000 JPY per month all-inclusive (room, utilities, internet)
@@ -3391,11 +3413,11 @@ This is the least expensive option — and the most competitive. Japanese univer
 - Process largely managed by the university
 
 **Disadvantages:**
-- Limited spots and highly competitive — not guaranteed even after university acceptance
+- Limited spots and highly competitive, not guaranteed even after university acceptance
 - Strict house rules (curfews, visitor policies, kitchen hours)
 - Maximum stay often limited to one year
 
-**How to apply:** applications go through the international office (kokusai kouryuu) of your Japanese university. Submit it at the same time as your admission application — 4 to 6 months before arrival. Competition is intense at top Tokyo universities (Todai, Waseda, Keio, TUJ, Sophia).
+**How to apply:** applications go through the international office (kokusai kouryuu) of your Japanese university. Submit it at the same time as your admission application, 4 to 6 months before arrival. Competition is intense at top Tokyo universities (Todai, Waseda, Keio, TUJ, Sophia).
 
 ## Share houses for students
 
@@ -3406,13 +3428,13 @@ If university housing is unavailable or doesn't suit your needs, share houses ar
 - Room in a design/premium share house: 70,000 to 90,000 JPY per month
 - Utilities and internet generally included
 
-**Well-established operators for students:**
-- **Sakura House:** the best-known for foreigners, many properties, simplified entry process, no guarantor required
-- **Oakhouse:** international atmosphere, many student profiles
-- **Tokyo Share House:** English interface, accepts student visas
-- **Borderless House:** "mixed living" concept (Japanese + international), ideal for practicing Japanese
+**What to compare between operators:**
+- Proximity to your school (direct access without transfers)
+- Mix of international and local residents in the house
+- Minimum stay duration (1 month, 3 months, or a semester depending on the operator)
+- English interface for booking and communication
 
-**Minimum stay:** typically 1 to 3 months depending on the operator — practical for a semester abroad or a full academic year.
+**Minimum stay:** typically 1 to 3 months depending on the operator, practical for a semester abroad or a full academic year.
 
 Our [complete share house guide for Tokyo](/en/blog/share-house-tokyo-guide-2026) helps you understand what to check before booking.
 
@@ -3464,7 +3486,7 @@ Starting early matters. The best rooms in popular share houses go weeks in advan
 
 ---
 
-*Preparing a study stay in Tokyo and need housing sorted before you arrive? Get in touch for a free consultation — we'll help you find the right option for your budget and visa type.*
+*Preparing a study stay in Tokyo and need housing sorted before you arrive? Get in touch for a free consultation, we'll help you find the right option for your budget and visa type.*
     `.trim(),
   },
   {
@@ -3475,7 +3497,7 @@ Starting early matters. The best rooms in popular share houses go weeks in advan
     date: '2026-06-20',
     readingTime: '7 min',
     content: `
-Signer un bail à Tokyo en tant qu'étranger comporte des risques concrets si vous ne savez pas lire un contrat en japonais. Les mauvaises surprises les plus fréquentes — frais cachés, clause de remise en état abusive, préavis mal compris — peuvent vous coûter plusieurs centaines de milliers de yens à la sortie. Cette checklist couvre les 12 points à vérifier impérativement avant de signer.
+Signer un bail à Tokyo en tant qu'étranger comporte des risques concrets si vous ne savez pas lire un contrat en japonais. Les mauvaises surprises les plus fréquentes, frais cachés, clause de remise en état abusive, préavis mal compris, peuvent vous coûter plusieurs centaines de milliers de yens à la sortie. Cette checklist couvre les 12 points à vérifier impérativement avant de signer.
 
 ## 1. Le montant total des frais d'entrée
 
@@ -3499,7 +3521,7 @@ Le bail standard au Japon dure 2 ans (普通借家契約, futsuu shakka keiyaku)
 Vérifiez :
 - La date de début et la date de fin du bail
 - Le montant des frais de renouvellement
-- Si c'est un bail à durée fixe (定期借家契約, teiki shakka keiyaku) — dans ce cas, pas de renouvellement automatique, le propriétaire peut refuser de prolonger
+- Si c'est un bail à durée fixe (定期借家契約, teiki shakka keiyaku), dans ce cas, pas de renouvellement automatique, le propriétaire peut refuser de prolonger
 
 ## 3. Le préavis en cas de résiliation
 
@@ -3518,7 +3540,7 @@ Les directives du Ministère du Territoire (国土交通省) sont claires : l'us
 
 ## 5. Les règles sur les animaux de compagnie
 
-La majorité des appartements à Tokyo est classée "禁止 (kinshi)" pour les animaux. Vérifiez explicitement si les animaux sont autorisés, et si oui, lesquels. En cas de doute, demandez une confirmation écrite — un accord verbal ne protège pas en cas de litige.
+La majorité des appartements à Tokyo est classée "禁止 (kinshi)" pour les animaux. Vérifiez explicitement si les animaux sont autorisés, et si oui, lesquels. En cas de doute, demandez une confirmation écrite, un accord verbal ne protège pas en cas de litige.
 
 ## 6. L'état des lieux d'entrée (入居前確認 nyuukyomae kakunin)
 
@@ -3576,7 +3598,7 @@ Pour aller plus loin, notre guide sur les [pièges classiques de la location à 
     date: '2026-06-20',
     readingTime: '7 min',
     content: `
-Signing a lease in Tokyo as a foreigner carries real risks if you can't read a contract in Japanese. The most common bad surprises — hidden fees, an aggressive restoration clause, a misunderstood notice period — can cost you hundreds of thousands of yen when you move out. This checklist covers the 12 points you must verify before signing.
+Signing a lease in Tokyo as a foreigner carries real risks if you can't read a contract in Japanese. The most common bad surprises, hidden fees, an aggressive restoration clause, a misunderstood notice period, can cost you hundreds of thousands of yen when you move out. This checklist covers the 12 points you must verify before signing.
 
 ## 1. Total move-in costs
 
@@ -3595,12 +3617,12 @@ Also read our guide on [searching for an apartment in Tokyo from abroad](/en/blo
 
 ## 2. Lease term and renewal conditions
 
-The standard Japanese lease runs 2 years (普通借家契約 futsuu shakka keiyaku). At expiry, it can be renewed for another 2 years — sometimes with a renewal fee (koushin ryou) of 0.5 to 1 month's rent.
+The standard Japanese lease runs 2 years (普通借家契約 futsuu shakka keiyaku). At expiry, it can be renewed for another 2 years, sometimes with a renewal fee (koushin ryou) of 0.5 to 1 month's rent.
 
 Verify:
 - Start and end date of the lease
 - Renewal fee amount
-- Whether it's a fixed-term lease (定期借家契約 teiki shakka keiyaku) — in this case, no automatic renewal, and the landlord may refuse to extend
+- Whether it's a fixed-term lease (定期借家契約 teiki shakka keiyaku), in this case, no automatic renewal, and the landlord may refuse to extend
 
 ## 3. Notice period if you leave early
 
@@ -3608,7 +3630,7 @@ The standard notice period if you leave before the lease ends is 1 month, but so
 
 ## 4. Restoration clause (原状回復 genjou kaifuku)
 
-This is the clause that causes the most disputes between tenants and landlords in Japan. The legal principle is that tenants are only responsible for damage they caused — not for normal wear and tear. In practice, some landlords try to charge for work that falls under normal maintenance.
+This is the clause that causes the most disputes between tenants and landlords in Japan. The legal principle is that tenants are only responsible for damage they caused, not for normal wear and tear. In practice, some landlords try to charge for work that falls under normal maintenance.
 
 Explicitly verify:
 - Who pays for the final cleaning? (often billed to the tenant even when debatable)
@@ -3619,7 +3641,7 @@ The Ministry of Land, Infrastructure and Transport guidelines are clear: normal 
 
 ## 5. Pet policy
 
-The majority of apartments in Tokyo are classified as "禁止 (kinshi)" for pets. Explicitly verify whether pets are allowed, and if so, which types. If in doubt, request written confirmation — a verbal agreement provides no protection in a dispute.
+The majority of apartments in Tokyo are classified as "禁止 (kinshi)" for pets. Explicitly verify whether pets are allowed, and if so, which types. If in doubt, request written confirmation, a verbal agreement provides no protection in a dispute.
 
 ## 6. Move-in inspection (入居前確認 nyuukyomae kakunin)
 
@@ -4107,7 +4129,7 @@ This cultural sensitivity has a direct market effect: landlords struggle to rent
 - Solitary death discovered after delay (1 to 3 years): 10 to 25% below market
 - After 3 years (no legal disclosure required): 5 to 15% below market depending on landlord sensitivity
 
-For a central Tokyo apartment at 120,000 JPY/month, a 25% discount saves 30,000 JPY per month — 360,000 JPY per year.
+For a central Tokyo apartment at 120,000 JPY/month, a 25% discount saves 30,000 JPY per month, 360,000 JPY per year.
 
 ## How to find a jiko bukken in Tokyo
 
@@ -4158,7 +4180,7 @@ A jiko bukken is worth considering seriously if:
 
 If the psychological aspect bothers you, it is better not to go there. An apartment where you sleep badly every night is not worth the discount.
 
-For everyone else: it is one of the rare levers that allows you to rent in central Tokyo at prices comparable to the suburbs — with none of the commute penalty.
+For everyone else: it is one of the rare levers that allows you to rent in central Tokyo at prices comparable to the suburbs, with none of the commute penalty.
 
 ---
 
@@ -4239,7 +4261,7 @@ Si vous êtes encore à l'étranger : un chasseur peut visiter à votre place et
 
 **Attendre votre arrivée à Tokyo pour commencer à chercher.** En septembre, avec moins de stock qu'au printemps, les bons biens partent vite quand un locataire est présent pour visiter immédiatement. Arriver sans logement confirmé signifie souvent 2 à 4 semaines d'hôtel à 80 000 à 150 000 JPY.
 
-**Chercher uniquement sur les portails publics.** Suumo et Homes ne montrent qu'une partie du marché. Les biens hors marché, qui circulent via les réseaux professionnels, représentent souvent les meilleures opportunités — surtout en période de plus faible demande où les propriétaires acceptent de travailler avec des intermédiaires pour éviter la vacance.
+**Chercher uniquement sur les portails publics.** Suumo et Homes ne montrent qu'une partie du marché. Les biens hors marché, qui circulent via les réseaux professionnels, représentent souvent les meilleures opportunités, surtout en période de plus faible demande où les propriétaires acceptent de travailler avec des intermédiaires pour éviter la vacance.
 
 **Ignorer les logements meublés.** Pour une arrivée en septembre, l'[appartement meublé sans garant](/fr/blog/appartement-meuble-tokyo-sans-garant) est souvent la solution optimale : installation immédiate, pas de frais de mobilier, contrat en anglais, et accès à des biens disponibles sur des délais très courts.
 
@@ -4258,7 +4280,7 @@ Si vous êtes encore à l'étranger : un chasseur peut visiter à votre place et
 
 Nous avons une visibilité directe sur les biens disponibles pour la rentrée de septembre à Tokyo, notamment les logements meublés sans garant accessibles aux étrangers et les share houses avec entrée immédiate.
 
-Une consultation de 30 minutes suffit pour faire le point sur ce qui est disponible dans votre budget et votre quartier cible — avant même votre arrivée au Japon.
+Une consultation de 30 minutes suffit pour faire le point sur ce qui est disponible dans votre budget et votre quartier cible, avant même votre arrivée au Japon.
 
 ---
 
@@ -4339,7 +4361,7 @@ The September intake attracts mainly two profiles: postgraduate students startin
 
 **Arrive in Tokyo before confirming housing.** In September, with less supply than spring, good properties move quickly once a tenant can visit immediately. Arriving without confirmed housing typically means 2 to 4 weeks of hotel at 80,000 to 150,000 JPY.
 
-**Search only on public portals.** Suumo and Homes show only part of the market. Off-market properties, circulating through professional networks, often represent the best opportunities — especially in lower-demand periods when landlords accept working with intermediaries to avoid vacancy.
+**Search only on public portals.** Suumo and Homes show only part of the market. Off-market properties, circulating through professional networks, often represent the best opportunities, especially in lower-demand periods when landlords accept working with intermediaries to avoid vacancy.
 
 **Overlook furnished apartments.** For a September arrival, a [furnished apartment with no guarantor](/en/blog/furnished-apartment-tokyo-no-guarantor) is often the optimal solution: immediate setup, no furniture costs, English contract, and access to properties available on very short timelines.
 
@@ -4358,7 +4380,7 @@ The September intake attracts mainly two profiles: postgraduate students startin
 
 We have direct visibility into properties available for the September intake in Tokyo, including no-guarantor furnished apartments accessible to foreigners and share houses with immediate availability.
 
-A 30-minute consultation is enough to review what is available in your budget and target neighbourhood — before you even fly to Japan.
+A 30-minute consultation is enough to review what is available in your budget and target neighbourhood, before you even fly to Japan.
 
 ---
 
@@ -4375,11 +4397,11 @@ A 30-minute consultation is enough to review what is available in your budget an
     content: `
 ## Trouver un appartement meublé à Tokyo rapidement : le guide pour expatriés
 
-Vous arrivez à Tokyo en octobre — mutation professionnelle, nouveau poste, installation longue durée — et vous avez besoin d'un logement **meublé et disponible sous 48h**. Les procédures japonaises standard (garant, hanko, caution) prennent 3 à 6 semaines. Ces 5 options les contournent.
+Vous arrivez à Tokyo en octobre, mutation professionnelle, nouveau poste, installation longue durée, et vous avez besoin d'un logement **meublé et disponible sous 48h**. Les procédures japonaises standard (garant, hanko, caution) prennent 3 à 6 semaines. Ces 5 options les contournent.
 
 ## 1. Share houses spécialisées expatriés
 
-Les réseaux Oak House, Sakura House et Hana Sakura proposent des chambres et studios meublés disponibles sans garant japonais.
+Les réseaux de share houses spécialisés expatriés proposent des chambres et studios meublés disponibles sans garant japonais.
 
 Avantages :
 - Zéro garant japonais : dépôt de 1 à 2 mois
@@ -4395,7 +4417,7 @@ Idéal pour : premières semaines au Japon, budget serré, pas de meubles à tra
 
 Les monthly mansions sont des appartements privés loués au mois, déjà équipés : cuisine, machine à laver, TV. Contrairement aux share houses, vous disposez de votre propre espace.
 
-Opérateurs principaux : Weekly Mansion Tokyo, Leopalace21, Sakura House Monthly.
+Les monthly mansions sont disponibles dans tous les quartiers centraux de Tokyo, réservation possible en quelques heures.
 
 - Disponibilité : parfois sous 24h
 - Surface : studios de 20 à 35 m² typiquement
@@ -4420,15 +4442,15 @@ Vous arrivez sans logement confirmé ? Les weekly mansions acceptent une réserv
 
 Tarif typique : 25 000 à 50 000 ¥/semaine pour un studio.
 
-Opérateurs : Sakura Hotel & House, Weekly Mansion Tokyo, Arden Hotel Akasaka.
+Les weekly mansions acceptent la réservation par passeport uniquement, sans dossier préalable.
 
 Avantage stratégique : vous pouvez visiter physiquement des appartements standard depuis Tokyo, ce qui améliore nettement vos chances d'obtenir un bail classique.
 
 ## 5. Appartements "gaikokujin-muke" (外国人向け)
 
-Depuis 2020, une catégorie d'appartements conçus pour étrangers s'est développée sur Suumo et At Home, avec le filtre 「外国人可」. Ces logements peuvent être meublés ou non, mais l'agence maîtrise les démarches pour non-résidents.
+Depuis 2020, une catégorie d'appartements conçus pour étrangers s'est développée sur les portails japonais, avec le filtre 「外国人可」. Ces logements peuvent être meublés ou non, mais l'agence maîtrise les démarches pour non-résidents.
 
-Partenaires : Able, Sumifu, Leopalace21, ESR.
+Partenaires : Able, Sumifu et d'autres agences spécialisées en logement pour étrangers.
 
 ## Comparatif rapide
 
@@ -4442,9 +4464,9 @@ Partenaires : Able, Sumifu, Leopalace21, ESR.
 
 ## Le pic d'octobre : ce que les agences ne disent pas
 
-En septembre-octobre, les mutations d'entreprises japonaises et les entrées en poste du second semestre créent une forte concurrence sur les logements disponibles. Les meilleures chambres Oak House et les studios monthly mansion partent en quelques heures après mise en ligne.
+En septembre-octobre, les mutations d'entreprises japonaises et les entrées en poste du second semestre créent une forte concurrence sur les logements disponibles. Les meilleures chambres de share houses et les studios monthly mansion partent en quelques heures après mise en ligne.
 
-Si vous arrivez en octobre, réservez votre premier logement — même temporaire — **au moins 3 semaines avant votre arrivée**. La plupart des share houses acceptent les paiements par carte bancaire internationale à distance.
+Si vous arrivez en octobre, réservez votre premier logement, même temporaire,**au moins 3 semaines avant votre arrivée**. La plupart des share houses acceptent les paiements par carte bancaire internationale à distance.
 
 ## Questions fréquentes
 
@@ -4458,7 +4480,7 @@ Non pour les share houses et monthly mansions. Oui pour un bail classique. Nous 
 
 **Peut-on visiter à distance avant d'arriver ?**
 
-Oui. La majorité des share houses proposent des visites virtuelles via Zoom. Oak House et Sakura House disposent d'équipes anglophones et francophones.
+Oui. La majorité des share houses proposent des visites virtuelles via Zoom. Les principaux opérateurs spécialisés expatriés disposent d'équipes anglophones, et certains ont des interlocuteurs francophones.
 
 ---
 
@@ -4475,11 +4497,11 @@ Oui. La majorité des share houses proposent des visites virtuelles via Zoom. Oa
     content: `
 ## Furnished Housing in Tokyo: What Expats Actually Need to Know
 
-Relocating to Tokyo — corporate transfer, new job, long-term move — means facing one of the tightest rental markets in the developed world. Standard Japanese leases require a guarantor, hanko, and 3 to 6 weeks of processing. These 5 options bypass all that.
+Relocating to Tokyo, corporate transfer, new job, long-term move, means facing one of the tightest rental markets in the developed world. Standard Japanese leases require a guarantor, hanko, and 3 to 6 weeks of processing. These 5 options bypass all that.
 
 ## 1. Expat-friendly share houses
 
-Networks like Oak House, Sakura House and Hana Sakura specialise in furnished rooms and studios for foreigners, with no Japanese guarantor required.
+Expat-specialist share house networks offer furnished rooms and studios for foreigners, with no Japanese guarantor required.
 
 Key advantages:
 - No Japanese guarantor: a deposit of 1 to 2 months is enough
@@ -4493,14 +4515,14 @@ Best for: first weeks in Japan, tight budget, no furniture to ship.
 
 ## 2. Monthly mansions (マンスリーマンション)
 
-Monthly mansions are private fully-equipped apartments rented by the month — kitchen, washing machine, TV all included. Unlike share houses, you have complete privacy.
+Monthly mansions are private fully-equipped apartments rented by the month, kitchen, washing machine, TV all included. Unlike share houses, you have complete privacy.
 
-Key operators: Weekly Mansion Tokyo, Leopalace21, Sakura House Monthly.
+Monthly mansions are available across all central Tokyo neighbourhoods, bookable within hours.
 
 - Availability: sometimes within 24 hours of booking
 - Size: typically 20 to 35 m² studios
 - Price: ¥100,000 to ¥200,000 per month depending on neighbourhood
-- Minimum stay: usually 7 days — useful for testing an area before committing to a long lease
+- Minimum stay: usually 7 days, useful for testing an area before committing to a long lease
 
 Popular expat neighbourhoods: Shinjuku, Minato, Shibuya, Nakameguro, Shin-Koenji.
 
@@ -4520,15 +4542,15 @@ Arriving without confirmed housing? Weekly mansions accept passport-only booking
 
 Typical rate: ¥25,000 to ¥50,000 per week for a studio.
 
-Operators: Sakura Hotel & House, Weekly Mansion Tokyo, Arden Hotel Akasaka.
+Weekly mansions accept passport-only bookings with no prior paperwork required.
 
 Strategic advantage: being in Tokyo lets you physically visit standard apartments, which substantially increases your chances of securing a regular lease.
 
 ## 5. Foreigner-friendly apartments (外国人向け)
 
-Since 2020, a growing category of foreigner-ready listings has appeared on Suumo and At Home, searchable with the filter 「外国人可」. These may be furnished or unfurnished but the agency handles paperwork for non-residents.
+Since 2020, a growing category of foreigner-ready listings has appeared on Japanese property portals, searchable with the filter 「外国人可」. These may be furnished or unfurnished but the agency handles paperwork for non-residents.
 
-Key partners: Able, Sumifu, Leopalace21, ESR.
+Key partners: Able, Sumifu, and other agencies specialising in foreigner-friendly housing.
 
 ## Quick comparison
 
@@ -4542,15 +4564,15 @@ Key partners: Able, Sumifu, Leopalace21, ESR.
 
 ## The October crunch: what agencies don't tell you
 
-October and early Q4 are peak relocation periods. Japanese companies process mid-year staff transfers, and foreign executives arrive ahead of the November-March fiscal cycle. The best Oak House rooms and monthly mansion studios rent within hours of listing.
+October and early Q4 are peak relocation periods. Japanese companies process mid-year staff transfers, and foreign executives arrive ahead of the November-March fiscal cycle. The best share house rooms and monthly mansion studios rent within hours of listing.
 
-If you are arriving in October, reserve your first accommodation — even temporary — **at least 3 weeks before landing**. Most share houses accept international card payments and remote booking.
+If you are arriving in October, reserve your first accommodation, even temporary,**at least 3 weeks before landing**. Most share houses accept international card payments and remote booking.
 
 ## FAQ
 
 **Can I rent a furnished apartment in Tokyo without Japanese residency?**
 
-Yes, for share houses and monthly mansions — your passport is enough on arrival. For a standard lease, you will need your residence registration number, obtained at your local ward office after arrival.
+Yes, for share houses and monthly mansions, your passport is enough on arrival. For a standard lease, you will need your residence registration number, obtained at your local ward office after arrival.
 
 **Do I need a Japanese guarantor?**
 
@@ -4558,7 +4580,7 @@ Not for share houses or monthly mansions. Yes for a standard lease. We can conne
 
 **Can I view the property before arriving?**
 
-Yes. Most share houses offer virtual tours via Zoom. Oak House and Sakura House have English-speaking staff, and some also have French speakers.
+Yes. Most share houses offer virtual tours via Zoom. The main expat-specialist operators have English-speaking staff, and some also have French speakers.
 
 ---
 
@@ -5035,7 +5057,7 @@ Both networks use the same Suica or Pasmo IC cards. Cross-operator transfers cos
 
 ## JR Lines: the backbone of the city
 
-**JR Yamanote Line**: the circular loop connecting Tokyo's 30 most important stations — Shinjuku, Shibuya, Harajuku, Ebisu, Osaki, Shinagawa, Tokyo, Akihabara, Ueno, Ikebukuro. If you understand this single line, you understand Tokyo's geography.
+**JR Yamanote Line**: the circular loop connecting Tokyo's 30 most important stations, Shinjuku, Shibuya, Harajuku, Ebisu, Osaki, Shinagawa, Tokyo, Akihabara, Ueno, Ikebukuro. If you understand this single line, you understand Tokyo's geography.
 
 **JR Chuo / Sobu Line**: east-west corridor from Tokyo Station through Nakano, Koenji, Asagaya, Mitaka, and out to the suburbs. Popular with families who want more space at lower rents.
 
@@ -6743,7 +6765,7 @@ It is not a standard work visa. You cannot take a job with a Japanese company on
 
 Requirements as of 2026:
 
-**Income**: approximately 10 million JPY per year (roughly 65,000 USD or 60,000 EUR). Japan does not accept part-time or casual income — the threshold applies to your total annual earnings from your foreign employer or clients.
+**Income**: approximately 10 million JPY per year (roughly 65,000 USD or 60,000 EUR). Japan does not accept part-time or casual income, the threshold applies to your total annual earnings from your foreign employer or clients.
 
 **Employment type**: you must be employed by a company based outside Japan, or be self-employed with foreign clients. You cannot invoice Japanese clients.
 
@@ -6769,7 +6791,7 @@ After 1 year, you must leave Japan. There is currently no pathway from the digit
 - Work remotely for your foreign employer or foreign clients
 - Travel freely within Japan
 - Enroll in Japanese language classes
-- Open a bank account (some banks accept this status, others do not — PayPay Bank and Sony Bank are the most flexible)
+- Open a bank account (some banks accept this status, others do not, PayPay Bank and Sony Bank are the most flexible)
 - Rent an apartment or share house
 
 **Not allowed:**
@@ -6789,7 +6811,7 @@ After 1 year, you must leave Japan. There is currently no pathway from the digit
 
 Tokyo's rental market is generally structured around 12-month leases. For a 6-month digital nomad stay, you have three realistic options:
 
-**Furnished monthly apartments**: the most practical choice. Properties designed for medium-term stays, usually 1 to 3 months minimum. Utilities often included. Expect 130,000 to 220,000 JPY per month for a central 1K or 1LDK. Operators such as Sakura House Monthly, Oak House, and specialist furnished apartment services cater to this market.
+**Furnished monthly apartments**: the most practical choice. Properties designed for medium-term stays, usually 1 to 3 months minimum. Utilities often included. Expect 130,000 to 220,000 JPY per month for a central 1K or 1LDK. Specialist furnished apartment services and monthly mansion networks cater to this market.
 
 **Share houses with flexible terms**: many share houses offer monthly contracts with no long-term commitment. Costs run 55,000 to 90,000 JPY per month all-in including utilities. No guarantor required. Good option for the first 1 to 2 months while you explore neighborhoods before committing to a longer stay.
 
@@ -6826,7 +6848,7 @@ For international transfers, see our [guide to sending money to Japan](/blog/sen
 
 **Can I bring my family?**
 
-In most cases yes — your spouse and minor children may accompany you under the dependent category of the same visa. Rules vary by nationality, so confirm with the Japanese embassy in your country.
+In most cases yes, your spouse and minor children may accompany you under the dependent category of the same visa. Rules vary by nationality, so confirm with the Japanese embassy in your country.
 
 **Can I freelance for Japanese clients?**
 
@@ -6913,7 +6935,7 @@ Après 12 mois, vous devez quitter le Japon. Ce visa n'ouvre pas de voie directe
 
 Le marché locatif tokyoïte est structuré autour de baux de 12 mois. Pour un séjour nomade digital de 6 mois, vous avez trois options réalistes :
 
-**Appartements meublés en location mensuelle** : l'option la plus pratique. Propriétés conçues pour les séjours de moyen terme, généralement à partir de 1 à 3 mois. Charges souvent incluses. Comptez 130 000 à 220 000 JPY par mois pour un 1K ou 1LDK central. Des opérateurs comme Sakura House Monthly, Oak House et des services d'appartements meublés spécialisés ciblent ce marché.
+**Appartements meublés en location mensuelle** : l'option la plus pratique. Propriétés conçues pour les séjours de moyen terme, généralement à partir de 1 à 3 mois. Charges souvent incluses. Comptez 130 000 à 220 000 JPY par mois pour un 1K ou 1LDK central. Les réseaux de monthly mansions et de logements meublés spécialisés expatriés ciblent ce marché.
 
 **Share houses avec contrats flexibles** : la plupart des share houses proposent des contrats mensuels sans engagement long terme. Coût : 55 000 à 90 000 JPY par mois tout compris (charges incluses). Aucun garant requis. Bonne option pour les 1 à 2 premiers mois le temps d'explorer les quartiers.
 
@@ -6979,7 +7001,7 @@ Sur le plan de l'infrastructure, oui : fibre ultra-rapide partout, espaces de co
     content: `
 The Japan Working Holiday Visa (WHV) is one of the most sought-after programs for young travellers from eligible countries. It allows you to live and work in Japan for up to 12 months, with far fewer restrictions than a standard work visa.
 
-This guide covers who qualifies, how to apply, what you can do during your stay, and how to find housing in Tokyo — whether you arrive for a year of adventure or as a first step toward longer-term residency.
+This guide covers who qualifies, how to apply, what you can do during your stay, and how to find housing in Tokyo, whether you arrive for a year of adventure or as a first step toward longer-term residency.
 
 ## What Is the Working Holiday Visa?
 
@@ -7037,9 +7059,9 @@ Some countries have additional agreements or specific conditions. Always verify 
 
 ## Application Process
 
-**Step 1 — Check the quota**. Some countries (France, Germany, South Korea) have annual quotas. Applications open at the start of the calendar year. Popular countries fill up fast — apply early.
+**Step 1,Check the quota**. Some countries (France, Germany, South Korea) have annual quotas. Applications open at the start of the calendar year. Popular countries fill up fast, apply early.
 
-**Step 2 — Prepare your documents**:
+**Step 2,Prepare your documents**:
 - Valid passport with at least 12 months validity beyond your intended departure
 - Completed application form (download from Japanese embassy website)
 - Passport-size photos
@@ -7047,23 +7069,23 @@ Some countries have additional agreements or specific conditions. Always verify 
 - Return or onward travel ticket (or proof of funds to purchase one)
 - For some countries: clean criminal record certificate
 
-**Step 3 — Apply at the Japanese embassy or consulate** in your country. Processing time: 2 to 4 weeks typically.
+**Step 3,Apply at the Japanese embassy or consulate** in your country. Processing time: 2 to 4 weeks typically.
 
-**Step 4 — Arrive in Japan**. The WHV is a single-entry visa in some cases. Once in Japan, your 12-month stay begins.
+**Step 4,Arrive in Japan**. The WHV is a single-entry visa in some cases. Once in Japan, your 12-month stay begins.
 
-**Step 5 — Register at your local ward office** within 14 days of settling into accommodation.
+**Step 5,Register at your local ward office** within 14 days of settling into accommodation.
 
 ## Housing in Tokyo on a Working Holiday Visa
 
 Finding accommodation in Tokyo as a WHV holder is easier than finding it as a standard rental applicant, because the best options for new arrivals don't require long-term commitments or Japanese guarantors.
 
-**Share houses (recommended first step)**: no guarantor needed, 1-month deposit, utilities typically included, monthly contracts. Cost: 55,000 to 85,000 JPY per month. Major operators like Sakura House, Oak House and Borderless House have dedicated networks for international residents. Read our [complete share house guide](/blog/share-house-tokyo-guide-2026) for a full breakdown.
+**Share houses (recommended first step)**: no guarantor needed, 1-month deposit, utilities typically included, monthly contracts. Cost: 55,000 to 85,000 JPY per month. Expat-specialist share house networks cover all major Tokyo lines and areas. Read our [complete share house guide](/blog/share-house-tokyo-guide-2026) for a full breakdown.
 
 **Gaijin houses**: the most budget-conscious option. Basic private or dormitory rooms, very short-term commitment (sometimes week-by-week), all utilities included. Cost: 35,000 to 60,000 JPY per month. Lower comfort, but excellent for the first 1 to 2 months before you know which area of Tokyo suits you. See our [comparison of gaijin houses and share houses](/blog/gaijin-house-vs-share-house-tokyo).
 
 **Standard apartments (later in your stay)**: after 3 to 6 months, once you have a Japanese employment record and income, some landlords will accept WHV holders with a rental guarantee company in place of a traditional guarantor. This opens up unfurnished apartments at more competitive rents. See our [guide to finding an apartment in Tokyo](/blog/find-apartment-tokyo-foreigner).
 
-**Furnished short-stay apartments**: operators like Weekly Mansion and Sakura House Monthly offer furnished units on monthly contracts, no guarantor needed. More expensive than share houses (100,000 to 180,000 JPY/month) but more independent.
+**Furnished short-stay apartments**: monthly mansion operators offer furnished units on monthly contracts, no guarantor needed. More expensive than share houses (100,000 to 180,000 JPY/month) but more independent.
 
 ## Finding Work in Tokyo
 
@@ -7086,7 +7108,7 @@ Many people use the Working Holiday year as a foundation for longer-term residen
 - **Establish a rental record**: signing a lease, even a short-term one, creates a paper trail that helps future landlord applications
 - **Find a sponsor**: some WHV holders are offered long-term contracts by their Japanese employer, enabling a transition to a Humanities or Engineer visa
 
-The WHV is not a path to permanent residency by itself — but it is an excellent starting point.
+The WHV is not a path to permanent residency by itself, but it is an excellent starting point.
 
 ## FAQ
 
@@ -7172,9 +7194,9 @@ La Belgique et la Suisse ne disposent pas d'accord PVT avec le Japon à ce jour.
 
 ## Démarches de Demande
 
-**Étape 1 — Vérifiez le quota.** Les pays comme la France ont un quota annuel de 6 500 places. Les demandes s'ouvrent au début de chaque année calendaire. Pour la France, les places partent vite : postulez dès janvier ou février.
+**Étape 1,Vérifiez le quota.** Les pays comme la France ont un quota annuel de 6 500 places. Les demandes s'ouvrent au début de chaque année calendaire. Pour la France, les places partent vite : postulez dès janvier ou février.
 
-**Étape 2 — Préparez vos documents** :
+**Étape 2,Préparez vos documents** :
 - Passeport valide au moins 12 mois au-delà de votre date de retour prévue
 - Formulaire de demande rempli (téléchargeable sur le site de l'ambassade du Japon)
 - Photos d'identité format passeport
@@ -7182,17 +7204,17 @@ La Belgique et la Suisse ne disposent pas d'accord PVT avec le Japon à ce jour.
 - Billet de retour ou de continuation (ou preuve de fonds pour l'acheter)
 - Pour certains pays : extrait de casier judiciaire vierge
 
-**Étape 3 — Déposez votre demande à l'ambassade ou au consulat du Japon** dans votre pays. Délai de traitement : 2 à 4 semaines.
+**Étape 3,Déposez votre demande à l'ambassade ou au consulat du Japon** dans votre pays. Délai de traitement : 2 à 4 semaines.
 
-**Étape 4 — Arrivée au Japon.** Le PVT est parfois un visa à entrée unique. Une fois au Japon, votre séjour de 12 mois commence.
+**Étape 4,Arrivée au Japon.** Le PVT est parfois un visa à entrée unique. Une fois au Japon, votre séjour de 12 mois commence.
 
-**Étape 5 — Enregistrement à la mairie de votre arrondissement** dans les 14 jours suivant votre installation dans votre logement.
+**Étape 5,Enregistrement à la mairie de votre arrondissement** dans les 14 jours suivant votre installation dans votre logement.
 
 ## Logement à Tokyo avec un PVT
 
 Trouver un logement à Tokyo avec un PVT est plus facile que pour un locataire standard, car les meilleures options pour les nouveaux arrivants ne nécessitent ni engagement long terme ni garant japonais.
 
-**Share houses (recommandé en premier)** : aucun garant requis, 1 mois de dépôt, charges généralement incluses, contrats mensuels. Coût : 55 000 à 85 000 JPY par mois. Les grands opérateurs comme Sakura House, Oak House et Borderless House ont des réseaux dédiés aux résidents internationaux. Lisez notre [guide complet des share houses à Tokyo](/blog/share-house-tokyo-guide-complet) pour tous les détails.
+**Share houses (recommandé en premier)** : aucun garant requis, 1 mois de dépôt, charges généralement incluses, contrats mensuels. Coût : 55 000 à 85 000 JPY par mois. Les réseaux de share houses spécialisés expatriés couvrent toutes les grandes lignes et quartiers de Tokyo. Lisez notre [guide complet des share houses à Tokyo](/blog/share-house-tokyo-guide-complet) pour tous les détails.
 
 **Gaijin houses** : l'option la moins chère. Chambres privées ou dortoirs basiques, engagement très court terme (parfois à la semaine), toutes charges incluses. Coût : 35 000 à 60 000 JPY par mois. Confort moindre, mais idéal pour les 1 à 2 premiers mois avant de savoir quel quartier vous convient. Voir notre [comparaison gaijin house vs share house](/blog/gaijin-house-vs-share-house-difference).
 
@@ -7286,11 +7308,11 @@ Le share house est une maison ou un appartement partagé entre plusieurs réside
 - Disponibilité rapide : 1 à 2 semaines entre candidature et emménagement
 - Environnement social : colocataires japonais et internationaux mélangés
 
-**Les opérateurs reconnus à Tokyo :**
-- **Oak House** : le plus grand réseau de share houses au Japon, plus de 300 maisons à Tokyo
-- **Sakura House** : orienté internationaux, bon rapport qualité-prix
-- **Borderless House** : mix Japonais / étrangers volontaire, idéal pour apprendre la langue
-- **Global Agents** : biens modernes, design, un peu plus chers
+**Ce qu'il faut comparer entre opérateurs :**
+- Couverture géographique : est-ce que l'opérateur a des biens proches de votre université ?
+- Type de communauté : uniquement internationaux, ou mix Japonais / étrangers ?
+- Contrat : durée minimum, conditions de résiliation anticipée
+- Services inclus : wifi, eau, électricité, parfois ménage des parties communes
 
 **Les points à vérifier avant de signer :**
 - Frais d'adhésion (parfois 10 000 à 20 000 JPY à l'entrée)
@@ -7337,7 +7359,7 @@ La recherche depuis l'étranger est possible et recommandée. Voici la démarche
 
 **1. Candidatez au dortoir maintenant** (si votre université en propose) : envoyez un email au bureau international avec votre lettre d'admission, votre date d'arrivée et votre demande de logement.
 
-**2. En parallèle, explorez les share houses** : les sites de Oak House, Sakura House et Borderless House permettent de réserver en ligne depuis l'étranger. Payez votre premier mois à distance, les clés vous attendent à l'arrivée.
+**2. En parallèle, explorez les share houses** : les opérateurs spécialisés expatriés permettent de réserver en ligne depuis l'étranger. Payez votre premier mois à distance, les clés vous attendent à l'arrivée.
 
 **3. Réservez dès maintenant pour octobre** : les meilleures chambres partent fin juillet et début août. Attendre septembre est le meilleur moyen de se retrouver avec le fond du catalogue.
 
@@ -7392,11 +7414,11 @@ A share house is a managed property where residents have a private room and shar
 - Fast turnaround: 1 to 2 weeks from application to move-in
 - Social environment: Japanese and international residents mixed
 
-**The main operators in Tokyo:**
-- **Oak House:** Japan's largest share house network, 300+ properties in Tokyo alone
-- **Sakura House:** well-known internationally, strong value for money
-- **Borderless House:** intentionally mixed Japanese and foreign residents, good for language practice
-- **Global Agents:** modern, design-oriented properties, slightly more expensive
+**What to compare between operators:**
+- Geographic coverage: does the operator have properties near your campus?
+- Community mix: international-only or intentionally mixed Japanese/foreign residents?
+- Contract terms: minimum stay, early exit conditions
+- Services included: wifi, utilities, sometimes cleaning of common areas
 
 **Before signing, verify:**
 - Any registration fee (10,000 to 20,000 JPY at move-in is common)
@@ -7443,7 +7465,7 @@ Searching from abroad is not only possible, it is the right move. Here is what w
 
 **Step 1 - Apply to the dorm now:** If your university offers one, email the international housing office today with your admission letter and requested arrival date.
 
-**Step 2 - Search share houses in parallel:** Oak House, Sakura House, and Borderless House all allow international bookings online. Pay your first month remotely and the keys will be ready on arrival.
+**Step 2 - Search share houses in parallel:** Expat-specialist share house operators allow international bookings online. Pay your first month remotely and the keys will be ready on arrival.
 
 **Step 3 - Book before August:** The best rooms in the best share houses are gone by late July and early August. Waiting until September means you're choosing from what's left.
 
@@ -7472,11 +7494,11 @@ Voici les 5 options réelles que vous avez, avec leurs coûts 2026, leurs avanta
 
 La share house est la solution la plus accessible pour un expatrié qui arrive sans garant japonais. Les chambres sont entièrement meublées, les parties communes partagées, et le dépôt de garantie est minimal (zéro chez certains opérateurs).
 
-**Les opérateurs principaux à Tokyo :**
-- **Oak House** : plus de 200 résidences, entrée rapide possible sous 1 semaine, à partir de 55 000 JPY/mois
-- **Sakura House** : spécialisé internationaux, 5 villes JP, chambres dès 42 000 JPY/mois
-- **Borderless House** : concept colocation mixte JP/étranger, idéal pour apprendre la langue
-- **Global Agents** : share houses premium dans Shibuya, Shinjuku, Meguro (80 000-120 000 JPY)
+**Ce qu'offrent les réseaux spécialisés expatriés :**
+- Entrée rapide possible sous 1 semaine, réservation en ligne depuis l'étranger
+- Chambres dès 42 000 JPY/mois en périphérie, jusqu'à 120 000 JPY/mois pour du premium central
+- Concept communautaire : mix résidents japonais et étrangers selon l'opérateur
+- Réseaux premium disponibles dans Shibuya, Shinjuku, Meguro
 
 **Durée minimum :** 1 mois pour la plupart. Certains opérateurs acceptent 2 semaines.
 
@@ -7488,10 +7510,10 @@ La share house est la solution la plus accessible pour un expatrié qui arrive s
 
 Le monthly mansion est un appartement meublé individuel en location courte durée (1 mois minimum). Vous avez votre propre cuisine, votre salle de bain, votre entrée. Aucun voisin de palier.
 
-**Opérateurs connus :**
-- **Monthly.com** (anciennement Leo Palace 21) : réseau national, appartements studios meublés
-- **Sakura House monthly** : variante solo pour les séjours 1-6 mois
-- **Maison Marchais** (Shinjuku) : appartements haut de gamme pour cadres expatriés
+**Caractéristiques des monthly mansions :**
+- Studios entièrement équipés (cuisine, machine à laver, TV, internet)
+- Réseau national, disponibles dans tous les quartiers centraux de Tokyo
+- Options premium disponibles pour cadres expatriés (Shinjuku, Minato)
 
 **Budget réaliste à Tokyo :** comptez 100 000 à 150 000 JPY/mois pour un studio bien situé (Yamanote line).
 
@@ -7504,7 +7526,6 @@ Le monthly mansion est un appartement meublé individuel en location courte dur�
 Certaines agences immobilières spécialisées dans la clientèle internationale proposent des appartements meublés avec baux flexibles, sans garant japonais requis.
 
 **Agences recommandées :**
-- **Real Estate Japan (GaijinPot)** : listings filtrés "foreigner-friendly", section meublé
 - **Fontaine Relocation** : spécialisé expatriés francophones, accompagnement complet
 - **Tokyo Expat** : accès à 300+ biens meublés, accompagnement en français du dossier à la signature
 
@@ -7546,7 +7567,7 @@ Si vous êtes muté au Japon par une entreprise japonaise ou internationale, dem
 
 ## Comment choisir ?
 
-**Vous arrivez dans moins de 3 semaines :** share house (Oak House ou Sakura House) ou monthly mansion. Ce sont les seules options avec une entrée rapide garantie.
+**Vous arrivez dans moins de 3 semaines :** share house ou monthly mansion. Ce sont les seules options avec une entrée rapide garantie.
 
 **Vous avez 1-2 mois pour vous installer :** appartement via agence spécialisée. Vous aurez le choix du quartier, de la surface, et pourrez signer un bail classique 6-12 mois.
 
@@ -7575,13 +7596,13 @@ Here are the 5 real options available to you, with their 2026 costs, pros, and l
 
 ## 1. Furnished Share House (40,000 to 120,000 JPY/month)
 
-The share house is the most accessible option for expats arriving without a Japanese guarantor. Rooms are fully furnished, common areas are shared, and the deposit is minimal — zero at some operators.
+The share house is the most accessible option for expats arriving without a Japanese guarantor. Rooms are fully furnished, common areas are shared, and the deposit is minimal, zero at some operators.
 
-**Main operators in Tokyo:**
-- **Oak House**: 200+ residences across Tokyo, move-in possible within 1 week, from 55,000 JPY/month
-- **Sakura House**: specialist in international residents, available in 5 Japanese cities, rooms from 42,000 JPY/month
-- **Borderless House**: mixed JP/foreign flatshare concept, ideal for language immersion
-- **Global Agents**: premium share houses in Shibuya, Shinjuku, Meguro (80,000-120,000 JPY)
+**What expat-specialist networks offer:**
+- Move-in possible within 1 week, online booking from abroad
+- Rooms from 42,000 JPY/month, up to 120,000 JPY for premium central locations
+- Community options: pure international or intentionally mixed Japanese/foreign residents
+- Premium properties available in Shibuya, Shinjuku, Meguro
 
 **Minimum stay:** 1 month for most operators. Some accept 2 weeks.
 
@@ -7593,10 +7614,10 @@ The share house is the most accessible option for expats arriving without a Japa
 
 A monthly mansion is a fully furnished individual apartment available for short-term rental (minimum 1 month). You have your own kitchen, bathroom, and entrance. No shared common areas.
 
-**Known operators:**
-- **Monthly.com** (formerly Leo Palace 21): national network, furnished studio apartments
-- **Sakura House monthly**: solo option for 1-6 month stays
-- **Maison Marchais** (Shinjuku): premium apartments for corporate expats
+**Monthly mansion features:**
+- Fully equipped studios (kitchen, washing machine, TV, internet)
+- National network, available across all central Tokyo neighbourhoods
+- Premium options available for corporate expats (Shinjuku, Minato)
 
 **Realistic budget in Tokyo:** 100,000 to 150,000 JPY/month for a well-located studio (Yamanote line area).
 
@@ -7609,7 +7630,6 @@ A monthly mansion is a fully furnished individual apartment available for short-
 Some real estate agencies specialising in international clients offer furnished apartments with flexible leases and no Japanese guarantor required.
 
 **Recommended agencies:**
-- **Real Estate Japan (GaijinPot)**: filtered "foreigner-friendly" listings including furnished options
 - **Fontaine Relocation**: specialist in French-speaking expats, full relocation support
 - **Tokyo Expat**: access to 300+ furnished and unfurnished properties, full support in English from application to lease signing
 
@@ -7625,7 +7645,7 @@ For your first days in Japan or stays under 1 month, Airbnb remains a simple opt
 
 **What's still available:** studios and apartments in residential areas (Shinjuku-ku, Sumida-ku, Koto-ku), at high nightly rates.
 
-**Budget for 1 full month:** 400,000 to 600,000 JPY — not competitive compared to the options above.
+**Budget for 1 full month:** 400,000 to 600,000 JPY, not competitive compared to the options above.
 
 **When it makes sense:** for a 2-3 week bridging period while you look for permanent housing, or for short company assignments.
 
@@ -7651,7 +7671,7 @@ If you're being seconded to Japan by a Japanese or international company, ask yo
 
 ## How to Choose
 
-**Arriving in less than 3 weeks:** share house (Oak House or Sakura House) or monthly mansion. These are the only options with guaranteed quick move-in.
+**Arriving in less than 3 weeks:** share house or monthly mansion. These are the only options with guaranteed quick move-in.
 
 **You have 1-2 months to settle:** agency-sourced apartment. You'll have a real choice of neighbourhood, floor space, and can sign a 6-12 month lease.
 
@@ -7666,6 +7686,136 @@ For personalised help with your search, [contact us](/contact): we handle the fu
 *See also: [apartment hunting in Tokyo from abroad](/blog/tokyo-apartment-hunting-from-abroad) and [furnished apartments without a guarantor](/blog/furnished-apartment-tokyo-no-guarantor).*
     `.trim(),
   },
+
+  // ── BRAND ATTACK PAGES ────────────────────────────────────────────────────
+
+  {
+    slug: 'remoters-alternative',
+    locale: 'en',
+    title: 'Remoters Alternative: Dedicated Tokyo Apartment Hunting',
+    description: 'Remoters connects you with local agents but adds 20-30% fees and limited control. A dedicated Tokyo apartment hunter delivers more for less.',
+    date: '2026-06-23',
+    readingTime: '5 min',
+    content: `
+Remoters is a relocation marketplace that connects expats with local housing consultants in cities worldwide, including Tokyo. If you've come across it while searching for help finding an apartment in Japan, this guide explains how Remoters works, what it costs, and when a direct specialist is the better choice.
+
+## How Remoters Works
+
+Remoters acts as a middleman: you submit your housing requirements on the platform, and local consultants bid on your case or are matched to you algorithmically. You then work with a local agent who has registered on the Remoters platform.
+
+The fee structure works like this: Remoters charges the consultant a commission of typically 20–30% of their service fee. This commission is either absorbed by the consultant (reducing their margin and motivation) or passed on to you as a higher total cost.
+
+## The Limitations of the Marketplace Model
+
+**You don't choose your consultant.** On Remoters, you're matched to whoever is available and registered, not necessarily the most experienced agent for your specific situation. Quality varies considerably between consultants on the platform.
+
+**The intermediary layer adds friction.** Any question or issue goes through the Remoters platform before reaching your consultant. This slows communication at exactly the moments when speed matters, during a tight Tokyo rental market.
+
+**Fee opacity.** Because Remoters takes a cut from consultants, the true cost of the service isn't always transparent upfront. The consultant quote you receive already factors in the platform margin.
+
+**Tokyo-specific expertise varies.** Remoters operates globally across 100+ cities. Consultants registered for Tokyo range from highly experienced to very new to the market.
+
+## Why a Direct Specialist Works Better for Tokyo
+
+Tokyo's rental market has specific rules that matter enormously: the guarantor system, the jiko bukken disclosure requirement, the difference between agency-managed and owner-managed properties, and the seasonal supply cycles (March and September peak demand).
+
+Working directly with a specialist who focuses exclusively on Tokyo expat housing means:
+
+- No platform margin in the fee structure
+- Direct communication, no middleman
+- Access to relationships with Japanese agencies and property managers that take years to build
+- Deep knowledge of which neighbourhoods suit which expat profiles
+
+### What to Expect from a Direct Tokyo Apartment Hunt
+
+A typical process with a direct specialist:
+
+1. Initial call (30 min) to define budget, neighbourhood, move-in date, and must-haves
+2. Shortlist of 5–10 properties within 48 hours, including off-market options
+3. Viewings arranged within the week (virtual or in-person)
+4. Property selected, documents compiled, guarantor arranged
+5. Keys in hand within 7–14 days of first contact
+
+Total cost is comparable to or lower than using Remoters once you factor out the platform margin.
+
+## When Remoters Still Makes Sense
+
+Remoters can be useful if you're relocating to multiple cities simultaneously and want a single platform to coordinate everything, or if you're researching the market before committing to a specialist. For Tokyo specifically, where the rental process is highly specific and relationship-dependent, direct expertise consistently outperforms marketplace matching.
+
+If you're looking for a Tokyo apartment and want a direct, no-intermediary approach, [contact us here](/contact). We handle the full process in English and French, from first search to lease signing.
+
+---
+
+*Related: [how to find an apartment in Tokyo as a foreigner](/blog/find-apartment-tokyo-foreigner) and [checklist for moving to Tokyo](/blog/moving-to-tokyo-checklist-2026).*
+    `.trim(),
+  },
+
+  // ── FR TWINS ─────────────────────────────────────────────────────────────
+
+
+
+
+  {
+    slug: 'alternative-remoters-chasseur-tokyo',
+    locale: 'fr',
+    title: 'Alternative à Remoters : chasseur immobilier Tokyo dédié',
+    description: 'Remoters ajoute des frais de 20-30% et un intermédiaire entre vous et l\'agent. Un chasseur immobilier dédié à Tokyo offre plus pour le même budget.',
+    date: '2026-06-23',
+    readingTime: '5 min',
+    content: `
+Remoters est une marketplace de relocation qui met en relation des expatriés avec des consultants locaux dans des villes du monde entier, dont Tokyo. Si vous avez rencontré ce service dans votre recherche d'aide pour trouver un appartement à Tokyo, ce guide explique comment fonctionne Remoters, ce que ça coûte réellement, et quand un spécialiste direct est préférable.
+
+## Comment fonctionne Remoters
+
+Remoters joue le rôle d'intermédiaire : vous soumettez vos besoins sur la plateforme, et des consultants locaux vous sont proposés par l'algorithme ou par mise en relation directe. Vous travaillez ensuite avec un agent local inscrit sur la plateforme Remoters.
+
+Le modèle économique : Remoters prélève une commission de 20 à 30 % sur les honoraires du consultant. Cette commission est soit absorbée par le consultant (ce qui réduit sa marge et sa motivation), soit répercutée sur vous sous forme de coût total plus élevé.
+
+## Les limites du modèle marketplace
+
+**Vous ne choisissez pas votre consultant.** Sur Remoters, vous êtes mis en relation avec qui est disponible et inscrit, pas nécessairement avec l'expert le plus qualifié pour votre situation spécifique. La qualité des consultants varie considérablement sur la plateforme.
+
+**La couche intermédiaire ralentit tout.** Chaque question ou problème passe par la plateforme Remoters avant d'atteindre votre consultant. Cela ralentit la communication exactement aux moments où la rapidité compte.
+
+**Manque de transparence sur les frais.** La commission Remoters est intégrée dans les devis des consultants sans être toujours clairement identifiée.
+
+**L'expertise Tokyo varie.** Remoters couvre 100+ villes dans le monde. Les consultants inscrits pour Tokyo vont du très expérimenté au débutant.
+
+## Pourquoi un spécialiste direct est plus efficace pour Tokyo
+
+Le marché locatif de Tokyo a des règles spécifiques qui ont un impact direct sur votre dossier : le système du garant, la règle de divulgation jiko bukken, la différence entre propriété gérée par agence et propriété gérée par propriétaire, et les cycles saisonniers de l'offre (pic en mars et septembre).
+
+Travailler directement avec un spécialiste focalisé exclusivement sur le logement des expatriés à Tokyo, c'est :
+
+- Aucune marge plateforme dans la structure de frais
+- Communication directe, sans intermédiaire
+- Accès à des relations avec des agences et propriétaires japonais construites sur plusieurs années
+- Connaissance approfondie des quartiers adaptés à chaque profil d'expatrié
+
+### Ce à quoi ressemble une recherche directe à Tokyo
+
+Un processus typique avec un spécialiste direct :
+
+1. Appel initial (30 min) pour définir le budget, le quartier cible, la date d'emménagement et les critères
+2. Sélection de 5 à 10 propriétés sous 48 h, incluant des biens hors marché
+3. Visites organisées dans la semaine (en présentiel ou virtuel)
+4. Bien sélectionné, dossier constitué, garant arrangé
+5. Clés remises en 7 à 14 jours à compter du premier contact
+
+Le coût total est comparable ou inférieur à Remoters une fois la commission plateforme exclue.
+
+## Quand Remoters peut encore avoir du sens
+
+Remoters est utile si vous vous relocalisez dans plusieurs villes simultanément et souhaitez une plateforme unique pour coordonner. Pour Tokyo spécifiquement, où le processus locatif est très technique et repose sur des relations, l'expertise directe surpasse systématiquement la mise en relation via marketplace.
+
+Si vous cherchez un appartement à Tokyo et souhaitez une approche directe sans intermédiaire, [contactez-nous ici](/contact). Nous gérons le processus complet en français et en anglais, de la recherche à la signature du bail.
+
+---
+
+*À lire aussi : [trouver un appartement à Tokyo en tant qu'étranger](/blog/trouver-appartement-tokyo-etranger) et [checklist déménagement à Tokyo](/blog/demenager-japon-checklist-complete).*
+    `.trim(),
+  },
+
 ]
 
 // Mapping FR slug -> EN slug (articles jumeaux pour hreflang)
@@ -7710,6 +7860,7 @@ export const TWIN_SLUGS: Record<string, string> = {
   'pvt-japon-visa-vacances-travail-2026':       'japan-working-holiday-visa-guide-2026',
   'logement-etudiant-tokyo-octobre':            'student-housing-tokyo-october',
   'appartement-meuble-tokyo-expats-top-5':      'furnished-apartment-tokyo-top-5-expats',
+  'alternative-remoters-chasseur-tokyo':        'remoters-alternative',
 }
 
 export function getTwinSlug(slug: string, locale: Locale): string | undefined {

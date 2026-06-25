@@ -20,15 +20,30 @@ echo [%LOG_DATE% %TIME%] Starting daily watch... >> "%LOG_FILE%"
 cd /d "%PROJECT_DIR%"
 
 :: 1. Nouveaux contenus concurrents (sitemaps)
-echo [%TIME%] [1/3] Competitor watch... >> "%LOG_FILE%"
+echo [%TIME%] [1/4] Competitor watch... >> "%LOG_FILE%"
 python scripts\competitor_watch.py >> "%LOG_FILE%" 2>&1
 
-:: 2. Calendrier saisonnier (alerte si fenetre de publication ouverte)
-echo [%TIME%] [2/3] Seasonal calendar... >> "%LOG_FILE%"
+:: 2. HARO monitor (quotidien -- requetes Qwoted/Featured expirent en 24-72h)
+echo [%TIME%] [2/4] HARO monitor... >> "%LOG_FILE%"
+python scripts\haro_monitor.py >> "%LOG_FILE%" 2>&1
+
+:: 3. Calendrier saisonnier (alerte si fenetre de publication ouverte)
+echo [%TIME%] [3/4] Seasonal calendar... >> "%LOG_FILE%"
 python scripts\seasonal_calendar.py >> "%LOG_FILE%" 2>&1
 
-:: 3. Analyse proactive (seulement si donnees disponibles)
-echo [%TIME%] [3/3] Proactive analysis... >> "%LOG_FILE%"
+:: 4. Analyse proactive (seulement si donnees disponibles)
+echo [%TIME%] [4/5] Proactive analysis... >> "%LOG_FILE%"
 python scripts\proactive_analysis.py >> "%LOG_FILE%" 2>&1
+
+:: 5. Reddit intercept (posts Tokyo housing des dernieres 24h -- alerte Telegram si match)
+echo [%TIME%] [5/6] Reddit intercept... >> "%LOG_FILE%"
+python scripts\reddit_quora_intercept.py >> "%LOG_FILE%" 2>&1
+
+:: 6. Thursday briefing leger (jeudi uniquement : Buffer status + actions en attente)
+for /f %%d in ('powershell -NoProfile -Command "(Get-Date).DayOfWeek"') do set DOW_DAILY=%%d
+if "%DOW_DAILY%"=="Thursday" (
+    echo [%TIME%] [6/6] Thursday briefing... >> "%LOG_FILE%"
+    python scripts\monday_briefing.py --thursday >> "%LOG_FILE%" 2>&1
+)
 
 echo [%TIME%] Daily watch complete. >> "%LOG_FILE%"

@@ -194,6 +194,27 @@ def get_influencer_opps(state: dict) -> list[dict]:
     return sorted(targets, key=lambda x: -x.get("score", 0))[:2]
 
 
+def get_buffer_queue_status() -> dict:
+    """Statut des queues de posts Facebook + LinkedIn."""
+    result = {}
+    for platform, fname in [("fb", "content_queue_fb.json"), ("li", "content_queue_li.json")]:
+        data = load_json(DATA_DIR / fname, {})
+        if not data.get("queue"):
+            continue
+        total = data.get("total", len(data["queue"]))
+        posted = data.get("posted_count", sum(1 for i in data["queue"] if i.get("posted")))
+        result[platform] = {"remaining": total - posted, "total": total}
+    return result
+
+
+def get_pending_actions(n: int = 5) -> list[dict]:
+    """Opportunites HARO + Reddit non encore actionnees (pour analyse avec Claude)."""
+    data = load_json(DATA_DIR / "pending_actions.json", {"actions": []})
+    pending = [a for a in data.get("actions", []) if not a.get("acted")]
+    pending.sort(key=lambda x: x.get("date", ""), reverse=True)
+    return pending[:n]
+
+
 def get_quora_pending(state: dict) -> list[dict]:
     """Questions Quora avec drafts prets a coller-coller."""
     quora = load_json(DATA_DIR / "quora_answered.json", {"pending": []})
@@ -351,6 +372,41 @@ def main():
         )
         action_num += 1
 
+    # 9. Buffer queue status
+    queue_status = get_buffer_queue_status()
+    if queue_status:
+        fb_r = queue_status.get("fb", {}).get("remaining", 0)
+        fb_t = queue_status.get("fb", {}).get("total", 0)
+        li_r = queue_status.get("li", {}).get("remaining", 0)
+        li_t = queue_status.get("li", {}).get("total", 0)
+        fb_weeks = fb_r
+        status_icon = "🟢" if fb_r > 10 else ("🟡" if fb_r > 3 else "🔴")
+        lines.append(
+            f"{status_icon} <b>BUFFER QUEUE</b>\n"
+            f"   FB: {fb_r}/{fb_t} posts restants (~{fb_weeks} semaines)\n"
+            f"   LI: {li_r}/{li_t} posts restants\n"
+            f"   <i>Regenerer si < 5 restants : python scripts/generate_content_queue.py</i>"
+        )
+
+    # 10. HARO / Reddit en attente d analyse
+    pending = get_pending_actions(n=5)
+    if pending:
+        haro_items = [p for p in pending if p.get("type") == "haro"]
+        reddit_items = [p for p in pending if p.get("type") == "reddit"]
+        lines.append(f"\n<b>ACTIONS EN ATTENTE (non actionnees) :</b>")
+        for p in haro_items[:3]:
+            lines.append(
+                f"📰 <b>HARO</b> [{p.get('date', '?')}] {p.get('source', '?')}\n"
+                f"   {p.get('query', '')[:120]}\n"
+                f"   <i>Dis a Claude 'analyse les HARO' pour rediger la reponse</i>"
+            )
+        for p in reddit_items[:2]:
+            lines.append(
+                f"💬 <b>Reddit</b> r/{p.get('subreddit', '?')} [{p.get('date', '?')}]\n"
+                f"   {p.get('title', '')[:100]}\n"
+                f"   <i>Dis a Claude 'aide-moi a repondre' pour le draft</i>"
+            )
+
     # Footer
     lines.append(
         f"\n<b>Commandes utiles :</b>\n"
@@ -447,6 +503,39 @@ if __name__ == "__main__":
             print(f"Influenceur dismissed: {key}")
         else:
             print("Usage: --dismiss-influencer \"url\"")
+    elif "--thursday" in args:
+        # Briefing jeudi : leger, 2 sections seulement
+        today = datetime.date.today()
+        queue_status = get_buffer_queue_status()
+        pending = get_pending_actions(n=5)
+        lines = [
+            f"<b>JEUDI CHECK</b> -- {today.strftime('%d %b %Y')}",
+            "",
+        ]
+        if queue_status:
+            fb_r = queue_status.get("fb", {}).get("remaining", 0)
+            li_r = queue_status.get("li", {}).get("remaining", 0)
+            icon = "🟢" if fb_r > 10 else ("🟡" if fb_r > 3 else "🔴")
+            lines.append(f"{icon} <b>Buffer queue</b> : {fb_r} posts FB, {li_r} posts LI restants")
+        else:
+            lines.append("Buffer queue : non generee (python scripts/generate_content_queue.py)")
+        if pending:
+            haro_items = [p for p in pending if p.get("type") == "haro"]
+            reddit_items = [p for p in pending if p.get("type") == "reddit"]
+            if haro_items or reddit_items:
+                lines.append(f"\n<b>{len(pending)} action(s) en attente :</b>")
+                for p in haro_items[:3]:
+                    lines.append(f"📰 HARO [{p.get('date')}] {p.get('query', '')[:100]}")
+                for p in reddit_items[:2]:
+                    lines.append(f"💬 Reddit r/{p.get('subreddit')} [{p.get('date')}] {p.get('title', '')[:80]}")
+                lines.append("<i>Dis a Claude 'analyse les pendants' pour travailler dessus</i>")
+            else:
+                lines.append("Aucune action HARO/Reddit en attente.")
+        else:
+            lines.append("Aucune action HARO/Reddit en attente.")
+        msg = "\n".join(lines)
+        send_telegram(msg)
+        print(msg)
     elif "--dismiss-quora" in args:
         idx = args.index("--dismiss-quora")
         if idx + 1 < len(args):

@@ -51,6 +51,8 @@ SCRIPT_DIR = Path(__file__).parent
 DATA_DIR = SCRIPT_DIR / "data"
 FB_STATE = DATA_DIR / "facebook_buffer_posted.json"
 LI_STATE = DATA_DIR / "linkedin_buffer_posted.json"
+QUEUE_FB_FILE = DATA_DIR / "content_queue_fb.json"
+QUEUE_LI_FILE = DATA_DIR / "content_queue_li.json"
 
 # ---------------------------------------------------------------------------
 # TEMPLATES FACEBOOK (conversationnel, hashtags, 150-250 mots)
@@ -264,6 +266,38 @@ def pick(templates: list, state: dict) -> str:
     return templates[idx]
 
 
+def pick_from_queue(queue_path: Path) -> str | None:
+    """
+    Retourne le prochain post non-poste de la queue generee par generate_content_queue.py.
+    Reset auto quand tous les posts ont ete envoyes.
+    Retourne None si le fichier n'existe pas (fallback vers les templates hardcodes).
+    """
+    if not queue_path.exists():
+        return None
+    try:
+        data = json.loads(queue_path.read_text(encoding="utf-8"))
+        queue = data.get("queue", [])
+        if not queue:
+            return None
+        unposted = [i for i, item in enumerate(queue) if not item.get("posted")]
+        if not unposted:
+            for item in queue:
+                item["posted"] = False
+                item["posted_date"] = None
+            unposted = list(range(len(queue)))
+        idx = unposted[0]
+        text = queue[idx]["text"]
+        queue[idx]["posted"] = True
+        queue[idx]["posted_date"] = datetime.date.today().isoformat()
+        data["posted_count"] = sum(1 for item in queue if item.get("posted"))
+        data["remaining"] = len(queue) - data["posted_count"]
+        queue_path.write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
+        return text
+    except Exception as e:
+        print(f"[WARN] Queue read error: {e}")
+        return None
+
+
 def too_recent(state: dict, min_days: int = 6) -> bool:
     last = state.get("last_post_date", "")
     if not last:
@@ -305,7 +339,7 @@ def run_facebook(preview: bool = False):
     if too_recent(state) and not preview:
         print(f"[FB] Post trop recent ({state['last_post_date']}). Skip.")
         return
-    text = pick(FB_TEMPLATES, state)
+    text = pick_from_queue(QUEUE_FB_FILE) or pick(FB_TEMPLATES, state)
     if preview:
         print(f"\n[FB PREVIEW]\n{text}\n")
         return
@@ -331,7 +365,7 @@ def run_linkedin(preview: bool = False):
     if too_recent(state) and not preview:
         print(f"[LI] Post trop recent ({state['last_post_date']}). Skip.")
         return
-    text = pick(LI_TEMPLATES, state)
+    text = pick_from_queue(QUEUE_LI_FILE) or pick(LI_TEMPLATES, state)
     if preview:
         print(f"\n[LI PREVIEW]\n{text}\n")
         return
