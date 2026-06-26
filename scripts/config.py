@@ -37,3 +37,11 @@ if not TELEGRAM_TOKEN or not TELEGRAM_CHAT_ID:
         "TOKYO_EXPAT_BOT_TOKEN=<token nouveau bot>\n"
         "TOKYO_EXPAT_CHAT_ID=<chat id nouveau bot>"
     )
+
+# Gmail IMAP (pour haro_monitor.py + email_reply_monitor.py)
+GMAIL_ADDRESS = os.environ.get("GMAIL_ADDRESS", "")
+GMAIL_APP_PASSWORD = os.environ.get("GMAIL_APP_PASSWORD", "")
+
+# Perplexity AI (pour ai_visibility_monitor.py)
+# Obtenir : perplexity.ai -> Settings -> API -> Generate
+PERPLEXITY_API_KEY = os.environ.get("PERPLEXITY_API_KEY", "")

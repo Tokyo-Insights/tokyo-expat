@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Finding an Apartment in Tokyo as a Foreigner 2026 — TokyoExpat</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --navy: #0f2744; --navy-light: #1a3a5c;
+    --accent: #e84141; --accent-light: #ff6b6b;
+    --white: #ffffff;
+    --gray-50: #f8fafc; --gray-100: #f1f5f9; --gray-200: #e2e8f0;
+    --gray-300: #cbd5e1; --gray-500: #64748b; --gray-700: #334155;
+    --green: #16a34a; --green-light: #dcfce7;
+    --yellow: #ca8a04; --yellow-light: #fef9c3;
+    --red-light: rgba(232,65,65,0.08);
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Inter', sans-serif; background: #e5e7eb; color: var(--gray-700); font-size: 10pt; line-height: 1.5; }
+  @page { size: A4; margin: 0; }
+  @media print {
+    body { background: white; }
+    .page { box-shadow: none; margin: 0; border-radius: 0; }
+    .no-print { display: none; }
+  }
+  .page { width: 210mm; min-height: 296mm; background: white; margin: 0 auto; box-shadow: 0 4px 24px rgba(0,0,0,0.15); border-radius: 4px; overflow: hidden; }
+
+  /* COVER */
+  .cover { background: var(--navy); min-height: 296mm; display: flex; flex-direction: column; justify-content: space-between; }
+  .cover-top { padding: 48px 52px 0; }
+  .cover-logo { display: flex; align-items: center; gap: 10px; margin-bottom: 72px; }
+  .cover-logo-icon { width: 42px; height: 42px; }
+  .cover-logo-text { font-size: 18pt; font-weight: 800; color: white; letter-spacing: -0.5px; }
+  .cover-logo-text span { color: var(--accent); }
+  .cover-tagline { font-size: 9pt; color: rgba(255,255,255,0.45); letter-spacing: 1px; text-transform: uppercase; margin-top: 2px; }
+  .cover-badge { display: inline-block; background: var(--accent); color: white; font-size: 8pt; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; padding: 6px 16px; border-radius: 2px; margin-bottom: 28px; }
+  .cover-title { font-size: 30pt; font-weight: 900; color: white; line-height: 1.05; letter-spacing: -1px; margin-bottom: 20px; max-width: 460px; }
+  .cover-title .highlight { color: var(--accent); }
+  .cover-subtitle { font-size: 11pt; color: rgba(255,255,255,0.6); font-weight: 400; max-width: 400px; line-height: 1.7; }
+
+  .cover-stats { padding: 40px 52px 0; display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px; }
+  .stat-card { background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.1); border-radius: 8px; padding: 16px 18px; }
+  .stat-num { font-size: 24pt; font-weight: 900; color: var(--accent); line-height: 1; margin-bottom: 4px; }
+  .stat-label { font-size: 8pt; color: rgba(255,255,255,0.5); line-height: 1.3; }
+
+  .cover-footer { padding: 28px 52px; border-top: 1px solid rgba(255,255,255,0.1); display: flex; justify-content: space-between; align-items: center; margin-top: 36px; }
+  .cover-footer-text { font-size: 8.5pt; color: rgba(255,255,255,0.35); }
+  .cover-url { font-size: 9pt; color: rgba(255,255,255,0.45); font-weight: 500; }
+
+  /* INNER */
+  .inner { min-height: 296mm; display: flex; flex-direction: column; }
+  .page-header { background: var(--navy); padding: 16px 44px; display: flex; justify-content: space-between; align-items: center; }
+  .page-header-logo { font-size: 11pt; font-weight: 800; color: white; }
+  .page-header-logo span { color: var(--accent); }
+  .page-header-title { font-size: 8pt; color: rgba(255,255,255,0.5); letter-spacing: 0.5px; text-transform: uppercase; }
+  .page-content { padding: 28px 44px; flex: 1; }
+
+  .section-title-bar {
+    background: var(--navy);
+    color: white;
+    padding: 10px 18px;
+    border-radius: 8px;
+    margin-bottom: 14px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .section-title-bar .icon { font-size: 18px; }
+  .section-title-bar .stb-meta { flex: 1; }
+  .section-title-bar .stb-num { font-size: 7pt; font-weight: 700; color: var(--accent); text-transform: uppercase; letter-spacing: 1px; }
+  .section-title-bar .stb-title { font-size: 12pt; font-weight: 800; letter-spacing: -0.2px; }
+
+  .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 16px; }
+  .three-col { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px; margin-bottom: 16px; }
+
+  .info-card { background: var(--gray-50); border: 1px solid var(--gray-100); border-radius: 8px; padding: 12px 14px; }
+  .info-card.red-border { border-left: 3px solid var(--accent); }
+  .info-card.green-border { border-left: 3px solid var(--green); }
+  .info-card.navy-border { border-left: 3px solid var(--navy); }
+  .info-card.yellow-border { border-left: 3px solid var(--yellow); }
+
+  .card-title { font-size: 8.5pt; font-weight: 700; color: var(--navy); margin-bottom: 5px; }
+  .card-text { font-size: 7.5pt; color: var(--gray-500); line-height: 1.5; }
+  .card-label { font-size: 7pt; font-weight: 700; color: var(--accent); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 4px; }
+
+  .cost-table { width: 100%; border-collapse: collapse; font-size: 8pt; margin: 10px 0 16px; }
+  .cost-table th { background: var(--navy); color: white; padding: 7px 12px; text-align: left; font-weight: 600; font-size: 7.5pt; }
+  .cost-table td { padding: 7px 12px; border-bottom: 1px solid var(--gray-100); }
+  .cost-table tr:nth-child(even) td { background: var(--gray-50); }
+  .cost-highlight { color: var(--accent); font-weight: 700; }
+  .cost-green { color: var(--green); font-weight: 600; }
+
+  .badge { display: inline-block; font-size: 6.5pt; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; padding: 2px 7px; border-radius: 3px; margin-bottom: 4px; }
+  .badge-red { background: var(--red-light); color: var(--accent); }
+  .badge-green { background: var(--green-light); color: var(--green); }
+  .badge-yellow { background: var(--yellow-light); color: var(--yellow); }
+  .badge-navy { background: rgba(15,39,68,0.08); color: var(--navy); }
+
+  .warning-bar { background: var(--red-light); border: 1px solid rgba(232,65,65,0.2); border-radius: 8px; padding: 10px 14px; margin: 10px 0; font-size: 7.5pt; color: var(--accent); }
+  .warning-bar strong { font-weight: 700; }
+
+  .tip-bar { background: rgba(15,39,68,0.04); border: 1px solid rgba(15,39,68,0.1); border-radius: 8px; padding: 10px 14px; margin: 10px 0; font-size: 7.5pt; color: var(--navy); }
+  .tip-bar strong { font-weight: 700; }
+
+  .step-list { list-style: none; }
+  .step-list li { display: flex; gap: 12px; align-items: flex-start; padding: 9px 0; border-bottom: 1px solid var(--gray-100); font-size: 8.5pt; }
+  .step-list li:last-child { border-bottom: none; }
+  .step-num { width: 22px; height: 22px; background: var(--navy); color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 8pt; font-weight: 700; flex-shrink: 0; margin-top: 1px; }
+  .step-body strong { font-weight: 600; color: var(--navy); display: block; }
+  .step-body small { color: var(--gray-500); font-size: 7.5pt; }
+
+  .red-flag-list { list-style: none; }
+  .red-flag-list li { display: flex; gap: 10px; align-items: flex-start; padding: 8px 12px; border-radius: 6px; margin-bottom: 6px; background: var(--red-light); font-size: 8pt; }
+  .red-flag-icon { color: var(--accent); font-size: 13px; flex-shrink: 0; margin-top: 1px; }
+  .red-flag-body strong { font-weight: 700; color: var(--accent); display: block; font-size: 8pt; }
+  .red-flag-body small { color: #9b1c1c; font-size: 7.5pt; }
+
+  .neighborhood-table { width: 100%; border-collapse: collapse; font-size: 8pt; margin: 10px 0; }
+  .neighborhood-table th { background: var(--navy); color: white; padding: 7px 10px; font-size: 7.5pt; text-align: left; }
+  .neighborhood-table td { padding: 7px 10px; border-bottom: 1px solid var(--gray-100); vertical-align: top; }
+  .neighborhood-table tr:nth-child(even) td { background: var(--gray-50); }
+  .area-tag { display: inline-block; background: rgba(15,39,68,0.08); color: var(--navy); font-size: 6.5pt; font-weight: 600; padding: 1px 6px; border-radius: 10px; margin-right: 3px; }
+
+  /* BACK COVER */
+  .back-cover { background: var(--navy); min-height: 296mm; display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 60px 52px; text-align: center; }
+  .back-cover-logo { font-size: 28pt; font-weight: 900; color: white; margin-bottom: 8px; letter-spacing: -1px; }
+  .back-cover-logo span { color: var(--accent); }
+  .back-cover-tagline { font-size: 10pt; color: rgba(255,255,255,0.5); margin-bottom: 44px; }
+  .back-cover-divider { width: 60px; height: 3px; background: var(--accent); border-radius: 2px; margin: 0 auto 44px; }
+  .back-cover-title { font-size: 20pt; font-weight: 800; color: white; margin-bottom: 16px; }
+  .back-cover-text { font-size: 10pt; color: rgba(255,255,255,0.6); line-height: 1.7; max-width: 340px; margin-bottom: 36px; }
+  .back-cover-cta { background: var(--accent); color: white; font-weight: 700; font-size: 11pt; padding: 14px 36px; border-radius: 8px; text-decoration: none; display: inline-block; margin-bottom: 16px; }
+  .back-cover-url { font-size: 9pt; color: rgba(255,255,255,0.3); }
+
+  .print-btn { position: fixed; top: 20px; right: 20px; background: var(--accent); color: white; border: none; padding: 10px 20px; border-radius: 8px; font-size: 11pt; font-weight: 600; cursor: pointer; font-family: 'Inter', sans-serif; box-shadow: 0 4px 12px rgba(232,65,65,0.4); z-index: 999; }
+</style>
+</head>
+<body>
+
+<button class="print-btn no-print" onclick="window.print()">Save as PDF</button>
+
+<!-- COVER -->
+<div class="page cover">
+  <div class="cover-top">
+    <div class="cover-logo">
+      <svg class="cover-logo-icon" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="250" cy="250" r="245" fill="#1a3a5c"/>
+        <polygon points="250,105 130,210 155,210 155,345 220,345 220,280 280,280 280,345 345,345 345,210 370,210" fill="white"/>
+        <rect x="225" y="215" width="50" height="45" rx="4" fill="#0f2744"/>
+        <text x="250" y="385" font-family="Arial Black" font-weight="900" font-size="68" text-anchor="middle" fill="white">Tokyo</text>
+        <text x="250" y="455" font-family="Arial Black" font-weight="900" font-size="68" text-anchor="middle" fill="#e84141">Expat</text>
+      </svg>
+      <div>
+        <div class="cover-logo-text">Tokyo<span>Expat</span></div>
+        <div class="cover-tagline">Your Japan Relocation Experts</div>
+      </div>
+    </div>
+
+    <div class="cover-badge">2026 Foreigner's Guide</div>
+    <div class="cover-title">Finding an<br><span class="highlight">Apartment</span><br>in Tokyo as a<br>Foreigner</div>
+    <div class="cover-subtitle">How the Tokyo rental market works, which agencies to use, what documents you need, and the red flags to avoid.</div>
+  </div>
+
+  <div class="cover-stats">
+    <div class="stat-card">
+      <div class="stat-num">2-3x</div>
+      <div class="stat-label">Deposit months typically required upfront</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-num">~30%</div>
+      <div class="stat-label">Of Tokyo landlords reject foreign applicants</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-num">2-4</div>
+      <div class="stat-label">Weeks from search to move-in (typical)</div>
+    </div>
+  </div>
+
+  <div class="cover-footer">
+    <div class="cover-footer-text">© 2026 TokyoExpat.com — All rights reserved</div>
+    <div class="cover-url">tokyo-expat.com</div>
+  </div>
+</div>
+
+<!-- PAGE 2: MARKET + VOCABULARY -->
+<div class="page inner">
+  <div class="page-header">
+    <div class="page-header-logo">Tokyo<span>Expat</span></div>
+    <div class="page-header-title">Apartment Guide for Foreigners — Tokyo 2026</div>
+  </div>
+  <div class="page-content">
+
+    <div class="section-title-bar">
+      <div class="icon">📚</div>
+      <div class="stb-meta">
+        <div class="stb-num">Chapter 1</div>
+        <div class="stb-title">Understanding the Tokyo Rental Market</div>
+      </div>
+    </div>
+
+    <div class="two-col" style="margin-bottom: 10px;">
+      <div class="info-card navy-border">
+        <div class="card-label">What is Key Money (礼金 / Reikin)?</div>
+        <div class="card-title">A non-refundable "thank you" payment</div>
+        <div class="card-text">Paid to the landlord at signing. Usually 1-2 months rent. Increasingly rare in Tokyo (ask your agent for "reikin zero" listings). Not a scam: it is standard in Japan.</div>
+      </div>
+      <div class="info-card navy-border">
+        <div class="card-label">What is Deposit (敷金 / Shikikin)?</div>
+        <div class="card-title">A refundable security deposit</div>
+        <div class="card-text">Usually 1-2 months rent. Refunded at end of tenancy minus cleaning and repair costs. Always document pre-existing damage with photos on move-in day.</div>
+      </div>
+      <div class="info-card navy-border">
+        <div class="card-label">Agency Fee (仲介手数料)</div>
+        <div class="card-title">One month rent (usually)</div>
+        <div class="card-text">Paid to the real estate agency, not the landlord. Legally capped at 1 month rent + tax. Some agencies charge 0 on tenant side (landlord pays). Ask upfront.</div>
+      </div>
+      <div class="info-card navy-border">
+        <div class="card-label">Guarantor (保証人 / Hoshounin)</div>
+        <div class="card-title">Your biggest challenge as a foreigner</div>
+        <div class="card-text">Most landlords require a Japanese guarantor OR a paid guarantee company (hoshougaisha). Budget ~0.5-1 month rent/year for the guarantee company fee.</div>
+      </div>
+    </div>
+
+    <div class="section-title-bar">
+      <div class="icon">🏘️</div>
+      <div class="stb-meta">
+        <div class="stb-num">Chapter 2</div>
+        <div class="stb-title">Neighborhoods by Budget (2026)</div>
+      </div>
+    </div>
+
+    <table class="neighborhood-table">
+      <tr><th>Area</th><th>1K/Studio (monthly)</th><th>1LDK (monthly)</th><th>Best for</th></tr>
+      <tr>
+        <td><strong>Adachi, Katsushika, Edogawa</strong></td>
+        <td class="cost-green">50,000-75,000 JPY</td>
+        <td class="cost-green">80,000-110,000 JPY</td>
+        <td>Budget-conscious, families, students</td>
+      </tr>
+      <tr>
+        <td><strong>Koto, Sumida, Arakawa</strong></td>
+        <td>65,000-90,000 JPY</td>
+        <td>90,000-130,000 JPY</td>
+        <td>Great transit, newer buildings</td>
+      </tr>
+      <tr>
+        <td><strong>Shinjuku, Nakameguro, Meguro</strong></td>
+        <td>90,000-140,000 JPY</td>
+        <td>130,000-200,000 JPY</td>
+        <td>Lifestyle, nightlife, international community</td>
+      </tr>
+      <tr>
+        <td><strong>Shibuya, Minato, Chiyoda</strong></td>
+        <td class="cost-highlight">120,000-200,000 JPY</td>
+        <td class="cost-highlight">180,000-350,000 JPY</td>
+        <td>Corporate expats, prestige address</td>
+      </tr>
+      <tr>
+        <td><strong>Setagaya, Nerima</strong></td>
+        <td>75,000-110,000 JPY</td>
+        <td>110,000-160,000 JPY</td>
+        <td>Families, quiet residential, good schools</td>
+      </tr>
+    </table>
+
+    <div class="tip-bar"><strong>Tip:</strong> The "5-min walk to station" rule matters enormously for resale and rental value in Tokyo. Every extra minute of walking distance reduces rent by ~2-3%. Stay within 8 minutes walk.</div>
+
+  </div>
+</div>
+
+<!-- PAGE 3: AGENCIES + PROCESS -->
+<div class="page inner">
+  <div class="page-header">
+    <div class="page-header-logo">Tokyo<span>Expat</span></div>
+    <div class="page-header-title">Apartment Guide for Foreigners — Tokyo 2026</div>
+  </div>
+  <div class="page-content">
+
+    <div class="section-title-bar">
+      <div class="icon">🔍</div>
+      <div class="stb-meta">
+        <div class="stb-num">Chapter 3</div>
+        <div class="stb-title">Foreigner-Friendly Agencies and Platforms</div>
+      </div>
+    </div>
+
+    <div class="two-col">
+      <div class="info-card green-border">
+        <div class="badge badge-green">Foreigner-friendly</div>
+        <div class="card-title">Sakura House</div>
+        <div class="card-text">Share houses and private rooms. English-only OK. No guarantor, no key money. 50,000-120,000 JPY. Best for new arrivals with no documents yet.</div>
+      </div>
+      <div class="info-card green-border">
+        <div class="badge badge-green">Foreigner-friendly</div>
+        <div class="card-title">Oakhouse</div>
+        <div class="card-text">Share houses across Tokyo. Monthly contracts available. No Japanese required. English staff. Also private apartments in some locations.</div>
+      </div>
+      <div class="info-card green-border">
+        <div class="badge badge-green">Bilingual agency</div>
+        <div class="card-title">Plaza Homes</div>
+        <div class="card-text">Full-service bilingual real estate agency. Specializes in expat clients. Higher-end inventory. Good for 1LDK+ listings. realestate-tokyo.com.</div>
+      </div>
+      <div class="info-card green-border">
+        <div class="badge badge-green">Online platform</div>
+        <div class="card-title">Housing Japan</div>
+        <div class="card-text">English-language listings aggregator. Bilingual agents. Many listings explicitly marked "foreigners welcome" (外国人可). housingjapan.com.</div>
+      </div>
+      <div class="info-card navy-border">
+        <div class="badge badge-navy">Japanese platform</div>
+        <div class="card-title">SUUMO + AtHome</div>
+        <div class="card-text">Japan's largest portals. Look for 外国人可 (foreigners welcome) filter. Requires Japanese or a bilingual agent to contact landlords.</div>
+      </div>
+      <div class="info-card navy-border">
+        <div class="badge badge-navy">Monthly furnished</div>
+        <div class="card-title">WeXpats Housing</div>
+        <div class="card-text">English-language platform for foreigners. Mix of share houses, monthly apartments, long-term. weXpats.com/en/house.</div>
+      </div>
+    </div>
+
+    <div class="section-title-bar">
+      <div class="icon">📋</div>
+      <div class="stb-meta">
+        <div class="stb-num">Chapter 4</div>
+        <div class="stb-title">The Application Process — Step by Step</div>
+      </div>
+    </div>
+
+    <ol class="step-list">
+      <li>
+        <div class="step-num">1</div>
+        <div class="step-body">
+          <strong>Gather your documents before you start looking</strong>
+          <small>Residence Card, passport, bank statement (3 months), employment contract or proof of income, My Number Card (if available). Having these ready speeds up the process by 1-2 weeks.</small>
+        </div>
+      </li>
+      <li>
+        <div class="step-num">2</div>
+        <div class="step-body">
+          <strong>Book a property viewing (naiken)</strong>
+          <small>Same-day viewings are common in Japan. Bring your Residence Card. The agent will show 2-4 properties in a single visit. Take photos and videos.</small>
+        </div>
+      </li>
+      <li>
+        <div class="step-num">3</div>
+        <div class="step-body">
+          <strong>Submit your application (moushikomi)</strong>
+          <small>You submit a form with your name, employer, income, and a reference. Landlord has 2-5 business days to approve or reject. Foreigners: ~30% rejection rate.</small>
+        </div>
+      </li>
+      <li>
+        <div class="step-num">4</div>
+        <div class="step-body">
+          <strong>Sign the lease agreement (chinshaku keiyaku)</strong>
+          <small>In Japanese. Ask for English translation or use DeepL. Key clauses: renewal terms, early termination fee (usually 2 months rent), renovation responsibility.</small>
+        </div>
+      </li>
+      <li>
+        <div class="step-num">5</div>
+        <div class="step-body">
+          <strong>Pay initial costs and receive keys</strong>
+          <small>Total upfront: 3-5 months rent equivalent (deposit + key money + agency fee + first month). Bank transfer required. Keys on move-in day.</small>
+        </div>
+      </li>
+    </ol>
+
+  </div>
+</div>
+
+<!-- PAGE 4: RED FLAGS + COSTS + CHECKLIST -->
+<div class="page inner">
+  <div class="page-header">
+    <div class="page-header-logo">Tokyo<span>Expat</span></div>
+    <div class="page-header-title">Apartment Guide for Foreigners — Tokyo 2026</div>
+  </div>
+  <div class="page-content">
+
+    <div class="section-title-bar">
+      <div class="icon">🚩</div>
+      <div class="stb-meta">
+        <div class="stb-num">Chapter 5</div>
+        <div class="stb-title">Red Flags to Avoid</div>
+      </div>
+    </div>
+
+    <ul class="red-flag-list">
+      <li>
+        <div class="red-flag-icon">⚠</div>
+        <div class="red-flag-body">
+          <strong>Agency pushing you to decide same day</strong>
+          <small>Good apartments move fast, but no legitimate agency forces a 2-hour decision. High-pressure tactics suggest unsellable inventory or a weak application.</small>
+        </div>
+      </li>
+      <li>
+        <div class="red-flag-icon">⚠</div>
+        <div class="red-flag-body">
+          <strong>Reikin over 2 months</strong>
+          <small>Key money above 2 months is unusual in central Tokyo (2026). More than that: walk away or negotiate hard. It is legally uncapped but practically limited by market norms.</small>
+        </div>
+      </li>
+      <li>
+        <div class="red-flag-icon">⚠</div>
+        <div class="red-flag-body">
+          <strong>No viewing allowed before signing</strong>
+          <small>Always do an in-person naiken. Photos can hide mold, noise from traffic/trains, narrow rooms, or missing windows. This is especially common in low-price listings.</small>
+        </div>
+      </li>
+      <li>
+        <div class="red-flag-icon">⚠</div>
+        <div class="red-flag-body">
+          <strong>Monthly rent significantly below market average for the area</strong>
+          <small>Below-average prices often hide: noise from major roads, proximity to industrial zones, a history of incidents (jiko bukken), or serious structural issues.</small>
+        </div>
+      </li>
+      <li>
+        <div class="red-flag-icon">⚠</div>
+        <div class="red-flag-body">
+          <strong>"Gaijin house" with management deposit</strong>
+          <small>Some informal foreigner-targeted rentals ask for a deposit held by an individual (not a company). No paper trail, no legal protection. Avoid.</small>
+        </div>
+      </li>
+    </ul>
+
+    <div class="section-title-bar" style="margin-top: 16px;">
+      <div class="icon">💰</div>
+      <div class="stb-meta">
+        <div class="stb-num">Chapter 6</div>
+        <div class="stb-title">Total Upfront Cost Calculator</div>
+      </div>
+    </div>
+
+    <table class="cost-table">
+      <tr><th>Cost Item</th><th>50,000 JPY/mo rent</th><th>100,000 JPY/mo rent</th><th>150,000 JPY/mo rent</th></tr>
+      <tr><td>Deposit (2 months)</td><td>100,000</td><td>200,000</td><td>300,000</td></tr>
+      <tr><td>Key money (1 month)</td><td>50,000</td><td>100,000</td><td>150,000</td></tr>
+      <tr><td>Agency fee (1 month + tax)</td><td>55,000</td><td>110,000</td><td>165,000</td></tr>
+      <tr><td>Guarantee company fee (~0.7 mo)</td><td>35,000</td><td>70,000</td><td>105,000</td></tr>
+      <tr><td>First month rent</td><td>50,000</td><td>100,000</td><td>150,000</td></tr>
+      <tr><td class="cost-highlight">Total upfront</td><td class="cost-highlight">290,000 JPY</td><td class="cost-highlight">580,000 JPY</td><td class="cost-highlight">870,000 JPY</td></tr>
+    </table>
+
+    <div class="two-col">
+      <div class="info-card green-border">
+        <div class="card-title">Move-in day checklist</div>
+        <div class="card-text">
+          ☐ Photograph every room before unpacking<br>
+          ☐ Document all scratches, marks, stains<br>
+          ☐ Test all appliances, taps, windows<br>
+          ☐ Check electricity breaker box<br>
+          ☐ Confirm gas switch-on appointment<br>
+          ☐ Get WiFi password from landlord
+        </div>
+      </div>
+      <div class="info-card navy-border">
+        <div class="card-title">After move-in: admin</div>
+        <div class="card-text">
+          ☐ Update address at ward office (14 days)<br>
+          ☐ Update Residence Card address<br>
+          ☐ Notify bank, NHI, pension<br>
+          ☐ Set up TEPCO electricity<br>
+          ☐ Book Tokyo Gas installation<br>
+          ☐ Order internet connection
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- BACK COVER -->
+<div class="page back-cover">
+  <div class="back-cover-logo">Tokyo<span>Expat</span></div>
+  <div class="back-cover-tagline">Your guide to life in Japan</div>
+  <div class="back-cover-divider"></div>
+  <div class="back-cover-title">Still have questions?</div>
+  <div class="back-cover-text">Every situation is different. Book a 1-on-1 consultation to get advice tailored to your visa, budget, and timeline — from someone who lives in Tokyo.</div>
+  <a class="back-cover-cta" href="https://tokyo-expat.com">Book a consultation</a>
+  <div class="back-cover-url">tokyo-expat.com · © 2026 All rights reserved</div>
+</div>
+
+</body>
+</html>

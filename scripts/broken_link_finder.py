@@ -137,6 +137,55 @@ def generate_pitch_email(dead_url: str, our_replacement: str, linker_domain: str
     )
 
 
+OUTREACH_FILE = SCRIPT_DIR / "data" / "outreach_contacts.json"
+
+
+def add_to_outreach_queue(dead_pages: list[dict]) -> int:
+    """Ajoute les opportunites broken-link a outreach_contacts.json si pas deja presentes."""
+    if not dead_pages:
+        return 0
+
+    contacts = []
+    if OUTREACH_FILE.exists():
+        with open(OUTREACH_FILE, encoding="utf-8") as f:
+            contacts = json.load(f)
+
+    existing_domains = {c.get("domain", "") for c in contacts}
+    added = 0
+
+    for page in dead_pages:
+        # Extraire le domaine qui heberge la page morte (pas le concurrent)
+        # On ajoute le concurrent lui-meme comme cible du pitch
+        competitor_domain = page["dead_url"].split("/")[2] if "//" in page["dead_url"] else ""
+        if not competitor_domain or competitor_domain in existing_domains:
+            continue
+
+        contact = {
+            "domain": competitor_domain,
+            "name": f"{page['competitor']} (broken link)",
+            "type": "broken_link",
+            "email": "",
+            "approach": "broken_link_pitch",
+            "da_est": 0,
+            "priority": "high",
+            "pitch": f"Remplacer lien mort vers {page['dead_url']} par {page['our_replacement']}",
+            "notes": f"404 detectee par broken_link_finder.py. Verification backlinks: {page['ahrefs_check']}",
+            "status": "to_contact",
+            "dead_url": page["dead_url"],
+            "our_replacement": page["our_replacement"],
+            "added": datetime.date.today().isoformat(),
+        }
+        contacts.append(contact)
+        existing_domains.add(competitor_domain)
+        added += 1
+
+    if added:
+        with open(OUTREACH_FILE, "w", encoding="utf-8") as f:
+            json.dump(contacts, f, indent=2, ensure_ascii=False)
+
+    return added
+
+
 def send_telegram(msg: str) -> None:
     try:
         requests.post(
@@ -229,17 +278,19 @@ def main():
 
     # Telegram
     if new_dead_pages:
+        # Auto-injecter dans la queue outreach
+        added_to_queue = add_to_outreach_queue(new_dead_pages)
+
         msg = (
-            f"🔴 <b>BROKEN LINK FINDER</b> — {datetime.date.today()}\n\n"
-            f"<b>{len(new_dead_pages)} nouvelles pages mortes</b> chez les concurrents\n\n"
-            f"<b>Action :</b> vérifie qui les linke sur Ahrefs (gratuit)\n"
-            f"puis envoie le pitch email avec notre page de remplacement.\n\n"
+            f"<b>BROKEN LINK FINDER</b> — {datetime.date.today()}\n\n"
+            f"<b>{len(new_dead_pages)} nouvelles pages mortes</b> chez les concurrents\n"
+            f"{added_to_queue} ajoutes a la queue outreach automatiquement\n\n"
         )
         for p in new_dead_pages[:8]:
-            msg += f"• <b>{p['competitor']}</b>: {p['dead_url'].split('/')[-1]}\n  Remplacement: {p['our_replacement']}\n"
+            msg += f"  <b>{p['competitor']}</b>: {p['dead_url'].split('/')[-1]}\n  Remplacement: {p['our_replacement']}\n"
         if len(new_dead_pages) > 8:
             msg += f"... et {len(new_dead_pages) - 8} autres dans le CSV\n"
-        msg += f"\n<i>Vérifier sur Ahrefs : scripts/data/dead_pages_manual_check_{datetime.date.today()}.csv</i>"
+        msg += f"\n<i>Verification backlinks sur Ahrefs requise avant envoi.</i>"
         send_telegram(msg)
         print(f"\nRESULTATS: {total_checked} vérifiées, {len(new_dead_pages)} nouvelles mortes")
     else:

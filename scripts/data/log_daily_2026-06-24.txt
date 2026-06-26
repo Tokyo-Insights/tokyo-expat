@@ -1,0 +1,133 @@
+[2026-06-24  7:15:31.75] Starting daily watch... 
+[ 7:15:31.77] [1/4] Competitor watch... 
+
+============================================================
+COMPETITOR WATCH - 2026-06-24
+============================================================
+
+Scanning Remoters (editorial)...
+  6400 URLs found
+Scanning GaijinPot Housing (listings)...
+  [WARN] https://housing.gaijinpot.com/sitemap.xml: HTTPSConnectionPool(host='housing.gaijinpot.com', port=443): Max retries exceeded with url: /sitemap.xml (Caused by NameResolutionError("HTTPSConnection(host='housing.gaijinpot.com', port=443): Failed to resolve 'housing.gaijinpot.com' ([Errno 11001] getaddrinfo failed)"))
+  0 URLs found
+Scanning GaijinPot Blog (editorial)...
+  4559 URLs found
+Scanning Sakura House (listings)...
+  970 URLs found
+Scanning Oak House (listings)...
+  5231 URLs found
+  12 new URLs!
+Scanning Fontaine Relocation (editorial)...
+  [WARN] https://fontaine.co.jp/sitemap.xml: HTTPSConnectionPool(host='fontaine.co.jp', port=443): Max retries exceeded with url: /sitemap.xml (Caused by NameResolutionError("HTTPSConnection(host='fontaine.co.jp', port=443): Failed to resolve 'fontaine.co.jp' ([Errno 11001] getaddrinfo failed)"))
+  0 URLs found
+Scanning Tokyo Cheapo (editorial)...
+  6863 URLs found
+Scanning Savvy Tokyo (editorial)...
+  8699 URLs found
+  7 new URLs!
+Scanning Japan Guide (editorial)...
+  [WARN] https://www.japan-guide.com/sitemap.xml: 404 Client Error: Not Found for url: https://www.japan-guide.com/sitemap.xml
+  0 URLs found
+Scanning Japan Property Central (editorial)...
+  [WARN] https://japanpropertycentral.com/sitemap.xml: 404 Client Error: Not Found for url: https://japanpropertycentral.com/sitemap.xml
+  0 URLs found
+Scanning Japan Today (editorial)...
+  1025 URLs found
+  (first scan - baseline saved)
+Scanning City Cost (editorial)...
+  [WARN] https://www.city-cost.com/sitemap.xml: mismatched tag: line 25, column 267
+  0 URLs found
+  (first scan - baseline saved)
+Scanning Japan Insiders (editorial)...
+  17 URLs found
+  (first scan - baseline saved)
+Scanning Tofugu (editorial)...
+  1911 URLs found
+  (first scan - baseline saved)
+Scanning Time Out Tokyo (editorial)...
+  [WARN] https://www.timeout.com/sitemap.xml: 404 Client Error: Not Found for url: https://www.timeout.com/sitemap.xml
+  0 URLs found
+  (first scan - baseline saved)
+Scanning Gaijin House (listings)...
+  [WARN] https://www.gaijinhouse.com/sitemap.xml: not well-formed (invalid token): line 11, column 65
+  0 URLs found
+  (first scan - baseline saved)
+Scanning Tokyo Share House (listings)...
+  [WARN] https://www.tokyosharehouse.com/sitemap.xml: not well-formed (invalid token): line 8, column 42
+  0 URLs found
+  (first scan - baseline saved)
+Scanning Crown Relocations JP (editorial)...
+  [WARN] https://www.crownrelo.com/sitemap.xml: 403 Client Error: Forbidden for url: https://www.crownrelo.com/sitemap.xml
+  0 URLs found
+  (first scan - baseline saved)
+Scanning Asian Tigers Japan (editorial)...
+  [WARN] https://www.asiantigers-japan.com/sitemap.xml: HTTPSConnectionPool(host='www.asiantigers-japan.com', port=443): Max retries exceeded with url: /sitemap.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.asiantigers-japan.com', port=443) at 0x25746674750>, 'Connection to www.asiantigers-japan.com timed out. (connect timeout=15)'))
+  0 URLs found
+  (first scan - baseline saved)
+Scanning Wise Blog JP (editorial)...
+  [WARN] https://wise.com/sitemap.xml: 404 Client Error: Not Found for url: https://wise.com/sitemap.xml
+  0 URLs found
+  (first scan - baseline saved)
+Scanning Vivre Au Japon (editorial)...
+  79 URLs found
+  (first scan - baseline saved)
+Scanning Japon Online (editorial)...
+  [WARN] https://www.japon-online.fr/sitemap.xml: HTTPSConnectionPool(host='www.japon-online.fr', port=443): Max retries exceeded with url: /sitemap.xml (Caused by NameResolutionError("HTTPSConnection(host='www.japon-online.fr', port=443): Failed to resolve 'www.japon-online.fr' ([Errno 11001] getaddrinfo failed)"))
+  0 URLs found
+  (first scan - baseline saved)
+
+✅ Telegram alert sent (8 items)
+
+Total indexed: 35714 competitor URLs in cache
+[ 7:17:02.91] [2/4] HARO monitor... 
+[ERROR] GMAIL_ADDRESS / GMAIL_APP_PASSWORD manquants dans config.py / scripts/.env
+[ 7:17:03.24] [3/4] Seasonal calendar... 
+
+============================================================
+SEASONAL CALENDAR - 2026-06-24
+============================================================
+
+Regle : publier 7 semaines AVANT le pic
+
+2026-07-15 | Pre-rentree universitaire      | Publier avant: 2026-05-27 [PUBLIER MAINTENANT - 21j restants avant pic]
+   Article : Logement etudiant a Tokyo pour octobre : share house vs dortoir univer
+
+2026-09-01 | Rentree universitaire          | Publier avant: 2026-07-14 [dans 69j - preparer]
+   Article : Trouver un appartement a Tokyo en septembre : ce qui change vs le prin
+
+2026-10-01 | Pic Q4 expats                  | Publier avant: 2026-08-13 [dans 99j]
+   Article : Appartement meuble Tokyo : les 5 meilleures options pour expatries arr
+
+2026-12-15 | Planification Noel/Nouvel An   | Publier avant: 2026-10-27 [dans 174j]
+   Article : Mon guide complet pour s'expatrier a Tokyo : tout ce que j'aurais voul
+
+2027-02-01 | Annonces affectations pro      | Publier avant: 2026-12-14 [dans 222j]
+   Article : Guide complet : trouver un logement a Tokyo en 2 semaines (pour une mu
+
+2027-03-15 | Pic demenagement Mars          | Publier avant: 2027-01-25 [dans 264j]
+   Article : Checklist demenagement Tokyo : J-30 a J+7 (tout ce qu'il faut preparer
+
+2027-04-01 | Debut annee fiscale            | Publier avant: 2027-02-11 [dans 281j]
+   Article : S'installer a Tokyo en avril : guide pratique semaine par semaine
+
+Telegram envoye : 4 pics a venir
+
+ARTICLES URGENTS A ECRIRE :
+  - Logement etudiant a Tokyo pour octobre : share house vs dortoir universitaire
+[ 7:17:04.90] [4/4] Proactive analysis... 
+
+============================================================
+ANALYSE PROACTIVE COMPLETE - 2026-06-24
+============================================================
+
+Donnees chargees:
+  Gaps        : OK
+  Keywords    : OK
+  Pricing     : OK
+  Competitors : OK
+  Vulns       : OK
+  Saison      : OK
+
+Envoi rapport Telegram (3 messages)...
+Rapport proactif envoye.
+[ 7:17:10.19] Daily watch complete. 

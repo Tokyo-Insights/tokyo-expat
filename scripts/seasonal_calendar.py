@@ -5,6 +5,8 @@ Regle : publier 6-8 semaines AVANT le pic.
 Run: python scripts/seasonal_calendar.py
 """
 import datetime
+import json
+import re
 import sys
 import io
 import requests
@@ -83,6 +85,52 @@ RELOCATION_PEAKS = [
 
 PUBLISH_WINDOW_WEEKS = 7  # fenetre optimale de publication (6-8 semaines avant le pic)
 ALERT_THRESHOLD_DAYS = 70  # alerter si pic dans les 70 jours
+DEDUP_TTL_DAYS = 7  # re-alerter au max 1x par semaine pour le meme pic
+
+DEDUP_FILE = SCRIPT_DIR / "data" / "alert_dedup.json"
+BLOG_TS = SCRIPT_DIR.parent / "lib" / "blog.ts"
+
+
+def load_dedup() -> dict:
+    if DEDUP_FILE.exists():
+        try:
+            with open(DEDUP_FILE, encoding="utf-8") as f:
+                return json.load(f)
+        except (json.JSONDecodeError, ValueError):
+            pass
+    return {}
+
+
+def save_dedup(seen: dict) -> None:
+    DEDUP_FILE.parent.mkdir(exist_ok=True)
+    with open(DEDUP_FILE, "w", encoding="utf-8") as f:
+        json.dump(seen, f, indent=2, ensure_ascii=False)
+
+
+def is_fresh_alert(key: str, seen: dict, ttl_days: int = DEDUP_TTL_DAYS) -> bool:
+    """True si l'alerte doit etre envoyee (jamais envoyee ou TTL expire)."""
+    if key not in seen:
+        return True
+    entry = seen[key]
+    if isinstance(entry, dict) and entry.get("dismissed"):
+        return False  # dismissed de facon permanente
+    last_sent = entry if isinstance(entry, str) else entry.get("date", "")
+    if not last_sent:
+        return True
+    return (datetime.date.today() - datetime.date.fromisoformat(last_sent)).days >= ttl_days
+
+
+def article_already_published(keywords: list[str]) -> bool:
+    """Verifie si un article couvrant ces keywords existe deja dans blog.ts (slugs uniquement)."""
+    if not BLOG_TS.exists():
+        return False
+    content = BLOG_TS.read_text(encoding="utf-8")
+    slugs = [s.lower() for s in re.findall(r"slug:\s*['\"]([^'\"]+)['\"]", content)]
+    for kw in keywords:
+        phrase = re.sub(r"[\s']+", "-", kw.lower().strip())
+        if any(phrase in slug for slug in slugs):
+            return True
+    return False
 
 
 def next_occurrence(month: int, day: int, today: datetime.date) -> datetime.date:
@@ -186,10 +234,29 @@ def main():
             f"\n   Article : <i>{s['article'][:65]}</i>"
         )
 
-    if alerts:
-        lines.append(f"\n<b>ACTIONS IMMEDIATES ({len(alerts)} articles a publier) :</b>")
-        for a in alerts:
+    seen = load_dedup()
+    new_alerts = []
+    for a in alerts:
+        key = f"seasonal:{a['article'][:60].lower().replace(' ', '_')}"
+        if article_already_published(a.get("keywords", [])):
+            print(f"[SKIP] Article deja publie : {a['article'][:60]}")
+            # Marquer comme done de facon permanente
+            seen[key] = {"date": datetime.date.today().isoformat(), "dismissed": True}
+        elif is_fresh_alert(key, seen):
+            new_alerts.append((key, a))
+        else:
+            print(f"[DEDUP] Deja alerte recemment : {a['article'][:60]}")
+    save_dedup(seen)
+
+    if new_alerts:
+        lines.append(f"\n<b>ACTIONS IMMEDIATES ({len(new_alerts)} articles a publier) :</b>")
+        for key, a in new_alerts:
             lines.append(f"  ECRIRE : {a['article']}")
+        # Marquer comme envoyees
+        seen = load_dedup()
+        for key, _ in new_alerts:
+            seen[key] = datetime.date.today().isoformat()
+        save_dedup(seen)
 
     send_telegram("\n".join(lines))
     print(f"Telegram envoye : {len(upcoming)} pics a venir")

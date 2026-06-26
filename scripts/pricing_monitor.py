@@ -28,13 +28,24 @@ HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/
 
 # Pages de pricing/services a surveiller
 PRICING_PAGES = {
-    "Remoters Tokyo":        "https://www.remoters.io/destination/tokyo",
-    "Remoters Homepage":     "https://www.remoters.io",
-    "Sakura House About":    "https://www.sakura-house.com/en/about/",
-    "Sakura House EN":       "https://www.sakura-house.com/en/",
-    "Oak House Rent Prices": "https://www.oakhouse.jp/column/column_basic/rent-prices",
-    "Oak House About":       "https://www.oakhouse.jp/about",
-    "Tokyo Cheapo Housing":  "https://tokyocheapo.com/living/housing/",
+    # Concurrents directs logement
+    "Remoters Tokyo":           "https://www.remoters.io/destination/tokyo",
+    "Remoters Homepage":        "https://www.remoters.io",
+    "Sakura House Pricing EN":  "https://www.sakura-house.com/en/about/",
+    "Sakura House Homepage":    "https://www.sakura-house.com/en/",
+    "Oak House Rent Guide":     "https://www.oakhouse.jp/column/column_basic/rent-prices",
+    "Oak House About":          "https://www.oakhouse.jp/about",
+    "Gaijin House Pricing":     "https://www.gaijinhouse.com/pricing/",
+    # Relocation services
+    "Fontaine Services":        "https://fontaine.co.jp/services/",
+    "Crown Relo Tokyo":         "https://www.crownrelo.com/japan/en-jp/services",
+    "Asian Tigers Services":    "https://www.asiantigers-japan.com/services/",
+    # Content competitors (surveiller leurs offres premium/ads)
+    "Tokyo Cheapo Housing":     "https://tokyocheapo.com/living/housing/",
+    "Savvy Tokyo Advertise":    "https://savvytokyo.com/advertise/",
+    "GaijinPot Advertise":      "https://gaijinpot.com/advertise/",
+    # Notre propre page (reference)
+    "Tokyo Expat Services":     "https://www.tokyo-expat.com/services",
 }
 
 def fetch_page_content(url: str) -> str | None:

@@ -38,10 +38,19 @@ OUR_DOMAIN = "tokyo-expat.com"
 COMPETITORS = [
     "remoters.io",
     "housing.gaijinpot.com",
+    "blog.gaijinpot.com",
     "sakura-house.com",
+    "oakhouse.jp",
     "tokyocheapo.com",
     "savvytokyo.com",
     "japanpropertycentral.com",
+    "japan-guide.com",
+    "fontaine.co.jp",
+    "japantoday.com",
+    "city-cost.com",
+    "tofugu.com",
+    "gaijinhouse.com",
+    "vivre-au-japon.com",
 ]
 
 # Domaines à exclure (auto-liens, réseaux sociaux sans valeur SEO)

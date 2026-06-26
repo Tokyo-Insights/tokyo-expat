@@ -1,28 +1,8 @@
 [
   {
-    "slug": "jiko-bukken-cheapest-apartments-in-tokyo",
-    "topic": "jiko bukken cheapest apartments in tokyo",
-    "url": "https://tokyocheapo.com/living/jiko-bukken-cheapest-apartments-in-tokyo/",
-    "competitors": [
-      "Tokyo Cheapo"
-    ],
-    "score": 40,
-    "category": "logement"
-  },
-  {
-    "slug": "pet-cost-cat-tokyo",
-    "topic": "pet cost cat tokyo",
-    "url": "https://tokyocheapo.com/living/pet-cost-cat-tokyo/",
-    "competitors": [
-      "Tokyo Cheapo"
-    ],
-    "score": 35,
-    "category": "tokyo"
-  },
-  {
-    "slug": "finding-a-monthly-parking-space-in-tokyo",
-    "topic": "finding a monthly parking space in tokyo",
-    "url": "https://tokyocheapo.com/living/finding-a-monthly-parking-space-in-tokyo/",
+    "slug": "spring-in-tokyo-guide",
+    "topic": "spring in tokyo guide",
+    "url": "https://tokyocheapo.com/living/spring-in-tokyo-guide/",
     "competitors": [
       "Tokyo Cheapo"
     ],
@@ -40,39 +20,9 @@
     "category": "tokyo"
   },
   {
-    "slug": "spring-in-tokyo-guide",
-    "topic": "spring in tokyo guide",
-    "url": "https://tokyocheapo.com/living/spring-in-tokyo-guide/",
-    "competitors": [
-      "Tokyo Cheapo"
-    ],
-    "score": 35,
-    "category": "tokyo"
-  },
-  {
-    "slug": "tokyo-winter-guide",
-    "topic": "tokyo winter guide",
-    "url": "https://tokyocheapo.com/living/tokyo-winter-guide/",
-    "competitors": [
-      "Tokyo Cheapo"
-    ],
-    "score": 35,
-    "category": "tokyo"
-  },
-  {
     "slug": "new-video-tokyo-cherry-blossom-guide",
     "topic": "new video tokyo cherry blossom guide",
     "url": "https://tokyocheapo.com/living/new-video-tokyo-cherry-blossom-guide/",
-    "competitors": [
-      "Tokyo Cheapo"
-    ],
-    "score": 35,
-    "category": "tokyo"
-  },
-  {
-    "slug": "beginners-guide-to-tokyo",
-    "topic": "beginners guide to tokyo",
-    "url": "https://tokyocheapo.com/living/beginners-guide-to-tokyo/",
     "competitors": [
       "Tokyo Cheapo"
     ],
@@ -90,9 +40,39 @@
     "category": "tokyo"
   },
   {
-    "slug": "the-international-students-survival-guide-to-tokyo",
-    "topic": "the international students survival guide to tokyo",
-    "url": "https://tokyocheapo.com/living/education/the-international-students-survival-guide-to-tokyo/",
+    "slug": "pet-cost-cat-tokyo",
+    "topic": "pet cost cat tokyo",
+    "url": "https://tokyocheapo.com/living/pet-cost-cat-tokyo/",
+    "competitors": [
+      "Tokyo Cheapo"
+    ],
+    "score": 35,
+    "category": "tokyo"
+  },
+  {
+    "slug": "beginners-guide-to-tokyo",
+    "topic": "beginners guide to tokyo",
+    "url": "https://tokyocheapo.com/living/beginners-guide-to-tokyo/",
+    "competitors": [
+      "Tokyo Cheapo"
+    ],
+    "score": 35,
+    "category": "tokyo"
+  },
+  {
+    "slug": "finding-a-monthly-parking-space-in-tokyo",
+    "topic": "finding a monthly parking space in tokyo",
+    "url": "https://tokyocheapo.com/living/finding-a-monthly-parking-space-in-tokyo/",
+    "competitors": [
+      "Tokyo Cheapo"
+    ],
+    "score": 35,
+    "category": "tokyo"
+  },
+  {
+    "slug": "tokyo-winter-guide",
+    "topic": "tokyo winter guide",
+    "url": "https://tokyocheapo.com/living/tokyo-winter-guide/",
     "competitors": [
       "Tokyo Cheapo"
     ],
@@ -110,19 +90,9 @@
     "category": "logement"
   },
   {
-    "slug": "vie-pratique-pour-expatries-et-etudiants-internationaux-abou-dabi",
-    "topic": "vie pratique pour expatries et etudiants internationaux abou dabi",
-    "url": "https://www.remoters.io/logement/vie-pratique-pour-expatries-et-etudiants-internationaux-abou-dabi",
-    "competitors": [
-      "Remoters"
-    ],
-    "score": 25,
-    "category": "etudiant"
-  },
-  {
-    "slug": "amsterdam-housing-crisis-2026-understanding-market-b03a2",
-    "topic": "amsterdam housing crisis 2026 understanding market b03a2",
-    "url": "https://www.remoters.io/en/blog/amsterdam-housing-crisis-2026-understanding-market-b03a2",
+    "slug": "dublin-housing-crisis-2026-why-so-hard-03f00",
+    "topic": "dublin housing crisis 2026 why so hard 03f00",
+    "url": "https://www.remoters.io/en/blog/dublin-housing-crisis-2026-why-so-hard-03f00",
     "competitors": [
       "Remoters"
     ],
@@ -130,9 +100,9 @@
     "category": "logement"
   },
   {
-    "slug": "dublin-housing-crisis-2026-why-so-hard",
-    "topic": "dublin housing crisis 2026 why so hard",
-    "url": "https://www.remoters.io/en/blog/dublin-housing-crisis-2026-why-so-hard",
+    "slug": "amsterdam-housing-crisis-2026-understanding-market-b03a2",
+    "topic": "amsterdam housing crisis 2026 understanding market b03a2",
+    "url": "https://www.remoters.io/en/blog/amsterdam-housing-crisis-2026-understanding-market-b03a2",
     "competitors": [
       "Remoters"
     ],
@@ -150,9 +120,9 @@
     "category": "logement"
   },
   {
-    "slug": "dublin-housing-crisis-2026-why-so-hard-03f00",
-    "topic": "dublin housing crisis 2026 why so hard 03f00",
-    "url": "https://www.remoters.io/en/blog/dublin-housing-crisis-2026-why-so-hard-03f00",
+    "slug": "dublin-housing-crisis-2026-why-so-hard",
+    "topic": "dublin housing crisis 2026 why so hard",
+    "url": "https://www.remoters.io/en/blog/dublin-housing-crisis-2026-why-so-hard",
     "competitors": [
       "Remoters"
     ],
@@ -160,29 +130,9 @@
     "category": "logement"
   },
   {
-    "slug": "where-to-get-free-covid-19-tests-in-tokyo",
-    "topic": "where to get free covid 19 tests in tokyo",
-    "url": "https://tokyocheapo.com/living/where-to-get-free-covid-19-tests-in-tokyo/",
-    "competitors": [
-      "Tokyo Cheapo"
-    ],
-    "score": 25,
-    "category": "tokyo"
-  },
-  {
-    "slug": "keeping-toasty-tokyo-tips-tricks-surviving-winter",
-    "topic": "keeping toasty tokyo tips tricks surviving winter",
-    "url": "https://tokyocheapo.com/living/keeping-toasty-tokyo-tips-tricks-surviving-winter/",
-    "competitors": [
-      "Tokyo Cheapo"
-    ],
-    "score": 25,
-    "category": "tokyo"
-  },
-  {
-    "slug": "10-special-deals-for-your-birthday-in-tokyo",
-    "topic": "10 special deals for your birthday in tokyo",
-    "url": "https://tokyocheapo.com/living/10-special-deals-for-your-birthday-in-tokyo/",
+    "slug": "recycle-clothes-in-tokyo",
+    "topic": "recycle clothes in tokyo",
+    "url": "https://tokyocheapo.com/living/recycle-clothes-in-tokyo/",
     "competitors": [
       "Tokyo Cheapo"
     ],
@@ -200,169 +150,9 @@
     "category": "tokyo"
   },
   {
-    "slug": "great-tokyo-kit-kat-search",
-    "topic": "great tokyo kit kat search",
-    "url": "https://tokyocheapo.com/living/great-tokyo-kit-kat-search/",
-    "competitors": [
-      "Tokyo Cheapo"
-    ],
-    "score": 25,
-    "category": "tokyo"
-  },
-  {
-    "slug": "changing-tokyo-energy-company",
-    "topic": "changing tokyo energy company",
-    "url": "https://tokyocheapo.com/living/changing-tokyo-energy-company/",
-    "competitors": [
-      "Tokyo Cheapo"
-    ],
-    "score": 25,
-    "category": "tokyo"
-  },
-  {
-    "slug": "top-salons-hair-dyed-in-tokyo",
-    "topic": "top salons hair dyed in tokyo",
-    "url": "https://tokyocheapo.com/living/top-salons-hair-dyed-in-tokyo/",
-    "competitors": [
-      "Tokyo Cheapo"
-    ],
-    "score": 25,
-    "category": "tokyo"
-  },
-  {
-    "slug": "luggage-storage-in-tokyo",
-    "topic": "luggage storage in tokyo",
-    "url": "https://tokyocheapo.com/living/luggage-storage-in-tokyo/",
-    "competitors": [
-      "Tokyo Cheapo"
-    ],
-    "score": 25,
-    "category": "tokyo"
-  },
-  {
-    "slug": "mole-removal-tokyo",
-    "topic": "mole removal tokyo",
-    "url": "https://tokyocheapo.com/living/mole-removal-tokyo/",
-    "competitors": [
-      "Tokyo Cheapo"
-    ],
-    "score": 25,
-    "category": "tokyo"
-  },
-  {
-    "slug": "tips-keeping-cool-tokyo-summer",
-    "topic": "tips keeping cool tokyo summer",
-    "url": "https://tokyocheapo.com/living/tips-keeping-cool-tokyo-summer/",
-    "competitors": [
-      "Tokyo Cheapo"
-    ],
-    "score": 25,
-    "category": "tokyo"
-  },
-  {
-    "slug": "snoring-sleep-apnea-tokyo",
-    "topic": "snoring sleep apnea tokyo",
-    "url": "https://tokyocheapo.com/living/snoring-sleep-apnea-tokyo/",
-    "competitors": [
-      "Tokyo Cheapo"
-    ],
-    "score": 25,
-    "category": "tokyo"
-  },
-  {
-    "slug": "tokyo-garden-shops-tips",
-    "topic": "tokyo garden shops tips",
-    "url": "https://tokyocheapo.com/living/tokyo-garden-shops-tips/",
-    "competitors": [
-      "Tokyo Cheapo"
-    ],
-    "score": 25,
-    "category": "tokyo"
-  },
-  {
-    "slug": "english-mental-health-resources-in-tokyo",
-    "topic": "english mental health resources in tokyo",
-    "url": "https://tokyocheapo.com/living/english-mental-health-resources-in-tokyo/",
-    "competitors": [
-      "Tokyo Cheapo"
-    ],
-    "score": 25,
-    "category": "tokyo"
-  },
-  {
-    "slug": "video-tokyo-roar",
-    "topic": "video tokyo roar",
-    "url": "https://tokyocheapo.com/living/video-tokyo-roar/",
-    "competitors": [
-      "Tokyo Cheapo"
-    ],
-    "score": 25,
-    "category": "tokyo"
-  },
-  {
-    "slug": "board-game-stores-tokyo",
-    "topic": "board game stores tokyo",
-    "url": "https://tokyocheapo.com/living/board-game-stores-tokyo/",
-    "competitors": [
-      "Tokyo Cheapo"
-    ],
-    "score": 25,
-    "category": "tokyo"
-  },
-  {
-    "slug": "star-wars-tokyo",
-    "topic": "star wars tokyo",
-    "url": "https://tokyocheapo.com/living/star-wars-tokyo/",
-    "competitors": [
-      "Tokyo Cheapo"
-    ],
-    "score": 25,
-    "category": "tokyo"
-  },
-  {
-    "slug": "womens-health-tokyo-clinics-birth-control",
-    "topic": "womens health tokyo clinics birth control",
-    "url": "https://tokyocheapo.com/living/womens-health-tokyo-clinics-birth-control/",
-    "competitors": [
-      "Tokyo Cheapo"
-    ],
-    "score": 25,
-    "category": "tokyo"
-  },
-  {
-    "slug": "tadaku-english-cooking-classes-tokyo",
-    "topic": "tadaku english cooking classes tokyo",
-    "url": "https://tokyocheapo.com/living/tadaku-english-cooking-classes-tokyo/",
-    "competitors": [
-      "Tokyo Cheapo"
-    ],
-    "score": 25,
-    "category": "tokyo"
-  },
-  {
-    "slug": "best-tokyo-internet-service-providers",
-    "topic": "best tokyo internet service providers",
-    "url": "https://tokyocheapo.com/living/best-tokyo-internet-service-providers/",
-    "competitors": [
-      "Tokyo Cheapo"
-    ],
-    "score": 25,
-    "category": "tokyo"
-  },
-  {
-    "slug": "new-video-where-to-store-luggage-in-tokyo",
-    "topic": "new video where to store luggage in tokyo",
-    "url": "https://tokyocheapo.com/living/new-video-where-to-store-luggage-in-tokyo/",
-    "competitors": [
-      "Tokyo Cheapo"
-    ],
-    "score": 25,
-    "category": "tokyo"
-  },
-  {
-    "slug": "recycle-clothes-in-tokyo",
-    "topic": "recycle clothes in tokyo",
-    "url": "https://tokyocheapo.com/living/recycle-clothes-in-tokyo/",
+    "slug": "keeping-toasty-tokyo-tips-tricks-surviving-winter",
+    "topic": "keeping toasty tokyo tips tricks surviving winter",
+    "url": "https://tokyocheapo.com/living/keeping-toasty-tokyo-tips-tricks-surviving-winter/",
     "competitors": [
       "Tokyo Cheapo"
     ],
@@ -380,9 +170,9 @@
     "category": "tokyo"
   },
   {
-    "slug": "interview-clark-parker-tokyo-files",
-    "topic": "interview clark parker tokyo files",
-    "url": "https://tokyocheapo.com/living/interview-clark-parker-tokyo-files/",
+    "slug": "luggage-storage-in-tokyo",
+    "topic": "luggage storage in tokyo",
+    "url": "https://tokyocheapo.com/living/luggage-storage-in-tokyo/",
     "competitors": [
       "Tokyo Cheapo"
     ],
@@ -390,9 +180,19 @@
     "category": "tokyo"
   },
   {
-    "slug": "getting-married-in-tokyo",
-    "topic": "getting married in tokyo",
-    "url": "https://tokyocheapo.com/living/getting-married-in-tokyo/",
+    "slug": "great-tokyo-kit-kat-search",
+    "topic": "great tokyo kit kat search",
+    "url": "https://tokyocheapo.com/living/great-tokyo-kit-kat-search/",
+    "competitors": [
+      "Tokyo Cheapo"
+    ],
+    "score": 25,
+    "category": "tokyo"
+  },
+  {
+    "slug": "snoring-sleep-apnea-tokyo",
+    "topic": "snoring sleep apnea tokyo",
+    "url": "https://tokyocheapo.com/living/snoring-sleep-apnea-tokyo/",
     "competitors": [
       "Tokyo Cheapo"
     ],
@@ -410,16 +210,6 @@
     "category": "tokyo"
   },
   {
-    "slug": "impressions-tokyo-interview-nomadic-backpacker-shane-reustle",
-    "topic": "impressions tokyo interview nomadic backpacker shane reustle",
-    "url": "https://tokyocheapo.com/living/impressions-tokyo-interview-nomadic-backpacker-shane-reustle/",
-    "competitors": [
-      "Tokyo Cheapo"
-    ],
-    "score": 25,
-    "category": "tokyo"
-  },
-  {
     "slug": "smartphone-computer-repair-tokyo-english",
     "topic": "smartphone computer repair tokyo english",
     "url": "https://tokyocheapo.com/living/smartphone-computer-repair-tokyo-english/",
@@ -430,14 +220,14 @@
     "category": "tokyo"
   },
   {
-    "slug": "decorate-japanese-apartment",
-    "topic": "decorate japanese apartment",
-    "url": "https://tokyocheapo.com/living/decorate-japanese-apartment/",
+    "slug": "english-mental-health-resources-in-tokyo",
+    "topic": "english mental health resources in tokyo",
+    "url": "https://tokyocheapo.com/living/english-mental-health-resources-in-tokyo/",
     "competitors": [
       "Tokyo Cheapo"
     ],
     "score": 25,
-    "category": "logement"
+    "category": "tokyo"
   },
   {
     "slug": "code-chrysalis-coding-courses-tokyo",
@@ -450,9 +240,9 @@
     "category": "tokyo"
   },
   {
-    "slug": "the-top-10-cheapo-neighborhoods-in-tokyo-part-1-10-through-6",
-    "topic": "the top 10 cheapo neighborhoods in tokyo part 1 10 through 6",
-    "url": "https://tokyocheapo.com/living/the-top-10-cheapo-neighborhoods-in-tokyo-part-1-10-through-6/",
+    "slug": "where-to-get-free-covid-19-tests-in-tokyo",
+    "topic": "where to get free covid 19 tests in tokyo",
+    "url": "https://tokyocheapo.com/living/where-to-get-free-covid-19-tests-in-tokyo/",
     "competitors": [
       "Tokyo Cheapo"
     ],
@@ -460,39 +250,9 @@
     "category": "tokyo"
   },
   {
-    "slug": "safe-sex-condoms-sti-testing-in-tokyo",
-    "topic": "safe sex condoms sti testing in tokyo",
-    "url": "https://tokyocheapo.com/living/safe-sex-condoms-sti-testing-in-tokyo/",
-    "competitors": [
-      "Tokyo Cheapo"
-    ],
-    "score": 25,
-    "category": "tokyo"
-  },
-  {
-    "slug": "cheap-supermarkets-in-tokyo",
-    "topic": "cheap supermarkets in tokyo",
-    "url": "https://tokyocheapo.com/living/household/cheap-supermarkets-in-tokyo/",
-    "competitors": [
-      "Tokyo Cheapo"
-    ],
-    "score": 25,
-    "category": "tokyo"
-  },
-  {
-    "slug": "tokyo-self-storage-units",
-    "topic": "tokyo self storage units",
-    "url": "https://tokyocheapo.com/living/tokyo-self-storage-units/",
-    "competitors": [
-      "Tokyo Cheapo"
-    ],
-    "score": 25,
-    "category": "tokyo"
-  },
-  {
-    "slug": "getting-your-broken-phone-repaired-in-tokyo",
-    "topic": "getting your broken phone repaired in tokyo",
-    "url": "https://tokyocheapo.com/living/getting-your-broken-phone-repaired-in-tokyo/",
+    "slug": "board-game-stores-tokyo",
+    "topic": "board game stores tokyo",
+    "url": "https://tokyocheapo.com/living/board-game-stores-tokyo/",
     "competitors": [
       "Tokyo Cheapo"
     ],
@@ -510,9 +270,89 @@
     "category": "tokyo"
   },
   {
-    "slug": "tokyos-top-5-cheapo-trends-in-2012",
-    "topic": "tokyos top 5 cheapo trends in 2012",
-    "url": "https://tokyocheapo.com/living/tokyos-top-5-cheapo-trends-in-2012/",
+    "slug": "cheap-supermarkets-in-tokyo",
+    "topic": "cheap supermarkets in tokyo",
+    "url": "https://tokyocheapo.com/living/household/cheap-supermarkets-in-tokyo/",
+    "competitors": [
+      "Tokyo Cheapo"
+    ],
+    "score": 25,
+    "category": "tokyo"
+  },
+  {
+    "slug": "womens-health-tokyo-clinics-birth-control",
+    "topic": "womens health tokyo clinics birth control",
+    "url": "https://tokyocheapo.com/living/womens-health-tokyo-clinics-birth-control/",
+    "competitors": [
+      "Tokyo Cheapo"
+    ],
+    "score": 25,
+    "category": "tokyo"
+  },
+  {
+    "slug": "10-special-deals-for-your-birthday-in-tokyo",
+    "topic": "10 special deals for your birthday in tokyo",
+    "url": "https://tokyocheapo.com/living/10-special-deals-for-your-birthday-in-tokyo/",
+    "competitors": [
+      "Tokyo Cheapo"
+    ],
+    "score": 25,
+    "category": "tokyo"
+  },
+  {
+    "slug": "top-salons-hair-dyed-in-tokyo",
+    "topic": "top salons hair dyed in tokyo",
+    "url": "https://tokyocheapo.com/living/top-salons-hair-dyed-in-tokyo/",
+    "competitors": [
+      "Tokyo Cheapo"
+    ],
+    "score": 25,
+    "category": "tokyo"
+  },
+  {
+    "slug": "mole-removal-tokyo",
+    "topic": "mole removal tokyo",
+    "url": "https://tokyocheapo.com/living/mole-removal-tokyo/",
+    "competitors": [
+      "Tokyo Cheapo"
+    ],
+    "score": 25,
+    "category": "tokyo"
+  },
+  {
+    "slug": "changing-tokyo-energy-company",
+    "topic": "changing tokyo energy company",
+    "url": "https://tokyocheapo.com/living/changing-tokyo-energy-company/",
+    "competitors": [
+      "Tokyo Cheapo"
+    ],
+    "score": 25,
+    "category": "tokyo"
+  },
+  {
+    "slug": "interview-clark-parker-tokyo-files",
+    "topic": "interview clark parker tokyo files",
+    "url": "https://tokyocheapo.com/living/interview-clark-parker-tokyo-files/",
+    "competitors": [
+      "Tokyo Cheapo"
+    ],
+    "score": 25,
+    "category": "tokyo"
+  },
+  {
+    "slug": "new-video-where-to-store-luggage-in-tokyo",
+    "topic": "new video where to store luggage in tokyo",
+    "url": "https://tokyocheapo.com/living/new-video-where-to-store-luggage-in-tokyo/",
+    "competitors": [
+      "Tokyo Cheapo"
+    ],
+    "score": 25,
+    "category": "tokyo"
+  },
+  {
+    "slug": "getting-married-in-tokyo",
+    "topic": "getting married in tokyo",
+    "url": "https://tokyocheapo.com/living/getting-married-in-tokyo/",
     "competitors": [
       "Tokyo Cheapo"
     ],
@@ -530,19 +370,109 @@
     "category": "tokyo"
   },
   {
+    "slug": "tokyos-top-5-cheapo-trends-in-2012",
+    "topic": "tokyos top 5 cheapo trends in 2012",
+    "url": "https://tokyocheapo.com/living/tokyos-top-5-cheapo-trends-in-2012/",
+    "competitors": [
+      "Tokyo Cheapo"
+    ],
+    "score": 25,
+    "category": "tokyo"
+  },
+  {
+    "slug": "star-wars-tokyo",
+    "topic": "star wars tokyo",
+    "url": "https://tokyocheapo.com/living/star-wars-tokyo/",
+    "competitors": [
+      "Tokyo Cheapo"
+    ],
+    "score": 25,
+    "category": "tokyo"
+  },
+  {
+    "slug": "impressions-tokyo-interview-nomadic-backpacker-shane-reustle",
+    "topic": "impressions tokyo interview nomadic backpacker shane reustle",
+    "url": "https://tokyocheapo.com/living/impressions-tokyo-interview-nomadic-backpacker-shane-reustle/",
+    "competitors": [
+      "Tokyo Cheapo"
+    ],
+    "score": 25,
+    "category": "tokyo"
+  },
+  {
+    "slug": "safe-sex-condoms-sti-testing-in-tokyo",
+    "topic": "safe sex condoms sti testing in tokyo",
+    "url": "https://tokyocheapo.com/living/safe-sex-condoms-sti-testing-in-tokyo/",
+    "competitors": [
+      "Tokyo Cheapo"
+    ],
+    "score": 25,
+    "category": "tokyo"
+  },
+  {
+    "slug": "video-tokyo-roar",
+    "topic": "video tokyo roar",
+    "url": "https://tokyocheapo.com/living/video-tokyo-roar/",
+    "competitors": [
+      "Tokyo Cheapo"
+    ],
+    "score": 25,
+    "category": "tokyo"
+  },
+  {
+    "slug": "the-top-10-cheapo-neighborhoods-in-tokyo-part-1-10-through-6",
+    "topic": "the top 10 cheapo neighborhoods in tokyo part 1 10 through 6",
+    "url": "https://tokyocheapo.com/living/the-top-10-cheapo-neighborhoods-in-tokyo-part-1-10-through-6/",
+    "competitors": [
+      "Tokyo Cheapo"
+    ],
+    "score": 25,
+    "category": "tokyo"
+  },
+  {
+    "slug": "getting-your-broken-phone-repaired-in-tokyo",
+    "topic": "getting your broken phone repaired in tokyo",
+    "url": "https://tokyocheapo.com/living/getting-your-broken-phone-repaired-in-tokyo/",
+    "competitors": [
+      "Tokyo Cheapo"
+    ],
+    "score": 25,
+    "category": "tokyo"
+  },
+  {
+    "slug": "tips-keeping-cool-tokyo-summer",
+    "topic": "tips keeping cool tokyo summer",
+    "url": "https://tokyocheapo.com/living/tips-keeping-cool-tokyo-summer/",
+    "competitors": [
+      "Tokyo Cheapo"
+    ],
+    "score": 25,
+    "category": "tokyo"
+  },
+  {
+    "slug": "tokyo-garden-shops-tips",
+    "topic": "tokyo garden shops tips",
+    "url": "https://tokyocheapo.com/living/tokyo-garden-shops-tips/",
+    "competitors": [
+      "Tokyo Cheapo"
+    ],
+    "score": 25,
+    "category": "tokyo"
+  },
+  {
+    "slug": "tadaku-english-cooking-classes-tokyo",
+    "topic": "tadaku english cooking classes tokyo",
+    "url": "https://tokyocheapo.com/living/tadaku-english-cooking-classes-tokyo/",
+    "competitors": [
+      "Tokyo Cheapo"
+    ],
+    "score": 25,
+    "category": "tokyo"
+  },
+  {
     "slug": "le-guide-pour-tout-savoir-sur-les-arnaques-aeriennes",
     "topic": "le guide pour tout savoir sur les arnaques aeriennes",
     "url": "https://www.remoters.io/blog/le-guide-pour-tout-savoir-sur-les-arnaques-aeriennes",
-    "competitors": [
-      "Remoters"
-    ],
-    "score": 20,
-    "category": "default"
-  },
-  {
-    "slug": "le-guide-2022-des-statuts-pour-devenir-travailleur-nomade-avantages-et-inconvenients",
-    "topic": "le guide 2022 des statuts pour devenir travailleur nomade avantages et inconvenients",
-    "url": "https://www.remoters.io/blog/le-guide-2022-des-statuts-pour-devenir-travailleur-nomade-avantages-et-inconvenients",
     "competitors": [
       "Remoters"
     ],
@@ -560,59 +490,9 @@
     "category": "default"
   },
   {
-    "slug": "le-guide-complet-du-travailleur-nomade-pour-organiser-son-travail-et-ses-loisirs-en-remote",
-    "topic": "le guide complet du travailleur nomade pour organiser son travail et ses loisirs en remote",
-    "url": "https://www.remoters.io/blog/le-guide-complet-du-travailleur-nomade-pour-organiser-son-travail-et-ses-loisirs-en-remote",
-    "competitors": [
-      "Remoters"
-    ],
-    "score": 20,
-    "category": "default"
-  },
-  {
-    "slug": "guide-to-user-shaken",
-    "topic": "guide to user shaken",
-    "url": "https://tokyocheapo.com/living/guide-to-user-shaken/",
-    "competitors": [
-      "Tokyo Cheapo"
-    ],
-    "score": 20,
-    "category": "default"
-  },
-  {
-    "slug": "a-guide-to-the-japanese-post-office",
-    "topic": "a guide to the japanese post office",
-    "url": "https://tokyocheapo.com/living/a-guide-to-the-japanese-post-office/",
-    "competitors": [
-      "Tokyo Cheapo"
-    ],
-    "score": 20,
-    "category": "default"
-  },
-  {
-    "slug": "laundry-on-the-go-a-guide-to-keeping-your-clothes-clean-while-traveling-japan",
-    "topic": "laundry on the go a guide to keeping your clothes clean while traveling japan",
-    "url": "https://tokyocheapo.com/living/laundry-on-the-go-a-guide-to-keeping-your-clothes-clean-while-traveling-japan/",
-    "competitors": [
-      "Tokyo Cheapo"
-    ],
-    "score": 20,
-    "category": "default"
-  },
-  {
     "slug": "finding-a-pet-sitter-in-japan",
     "topic": "finding a pet sitter in japan",
     "url": "https://tokyocheapo.com/living/finding-a-pet-sitter-in-japan/",
-    "competitors": [
-      "Tokyo Cheapo"
-    ],
-    "score": 20,
-    "category": "default"
-  },
-  {
-    "slug": "japanese-language-guide-visiting-the-doctor",
-    "topic": "japanese language guide visiting the doctor",
-    "url": "https://tokyocheapo.com/living/japanese-language-guide-visiting-the-doctor/",
     "competitors": [
       "Tokyo Cheapo"
     ],
@@ -630,6 +510,16 @@
     "category": "cout"
   },
   {
+    "slug": "guide-to-user-shaken",
+    "topic": "guide to user shaken",
+    "url": "https://tokyocheapo.com/living/guide-to-user-shaken/",
+    "competitors": [
+      "Tokyo Cheapo"
+    ],
+    "score": 20,
+    "category": "default"
+  },
+  {
     "slug": "a-guide-to-akiya-banks",
     "topic": "a guide to akiya banks",
     "url": "https://tokyocheapo.com/living/a-guide-to-akiya-banks/",
@@ -640,9 +530,9 @@
     "category": "banque"
   },
   {
-    "slug": "meeting-people-basic-guide-introducing-japanese",
-    "topic": "meeting people basic guide introducing japanese",
-    "url": "https://tokyocheapo.com/living/meeting-people-basic-guide-introducing-japanese/",
+    "slug": "laundry-on-the-go-a-guide-to-keeping-your-clothes-clean-while-traveling-japan",
+    "topic": "laundry on the go a guide to keeping your clothes clean while traveling japan",
+    "url": "https://tokyocheapo.com/living/laundry-on-the-go-a-guide-to-keeping-your-clothes-clean-while-traveling-japan/",
     "competitors": [
       "Tokyo Cheapo"
     ],
@@ -650,29 +540,19 @@
     "category": "default"
   },
   {
-    "slug": "nomamundi-visas-pour-travailleurs-du-monde",
-    "topic": "nomamundi visas pour travailleurs du monde",
-    "url": "https://www.remoters.io/blog/nomamundi-visas-pour-travailleurs-du-monde",
+    "slug": "rental-accommodation-barcelona",
+    "topic": "rental accommodation barcelona",
+    "url": "https://www.remoters.io/en/logement/rental-accommodation-barcelona",
     "competitors": [
       "Remoters"
     ],
     "score": 10,
-    "category": "visa"
+    "category": "default"
   },
   {
-    "slug": "les-formalites-et-le-visa-pour-partir-etudier-ou-teletravailler-a-malte",
-    "topic": "les formalites et le visa pour partir etudier ou teletravailler a malte",
-    "url": "https://www.remoters.io/blog/les-formalites-et-le-visa-pour-partir-etudier-ou-teletravailler-a-malte",
-    "competitors": [
-      "Remoters"
-    ],
-    "score": 10,
-    "category": "visa"
-  },
-  {
-    "slug": "rental-home-frankfurt",
-    "topic": "rental home frankfurt",
-    "url": "https://www.remoters.io/en/logement/rental-home-frankfurt",
+    "slug": "les-entreprises-qui-font-bouger-les-lignes-du-teletravail-et-du-future-of-work",
+    "topic": "les entreprises qui font bouger les lignes du teletravail et du future of work",
+    "url": "https://www.remoters.io/blog/les-entreprises-qui-font-bouger-les-lignes-du-teletravail-et-du-future-of-work",
     "competitors": [
       "Remoters"
     ],
@@ -700,101 +580,11 @@
     "category": "default"
   },
   {
-    "slug": "les-entreprises-qui-font-bouger-les-lignes-du-teletravail-et-du-future-of-work",
-    "topic": "les entreprises qui font bouger les lignes du teletravail et du future of work",
-    "url": "https://www.remoters.io/blog/les-entreprises-qui-font-bouger-les-lignes-du-teletravail-et-du-future-of-work",
+    "slug": "rental-home-frankfurt",
+    "topic": "rental home frankfurt",
+    "url": "https://www.remoters.io/en/logement/rental-home-frankfurt",
     "competitors": [
       "Remoters"
-    ],
-    "score": 10,
-    "category": "default"
-  },
-  {
-    "slug": "rental-accommodation-barcelona",
-    "topic": "rental accommodation barcelona",
-    "url": "https://www.remoters.io/en/logement/rental-accommodation-barcelona",
-    "competitors": [
-      "Remoters"
-    ],
-    "score": 10,
-    "category": "default"
-  },
-  {
-    "slug": "interview-miwa-mori-passive-house-japan",
-    "topic": "interview miwa mori passive house japan",
-    "url": "https://tokyocheapo.com/living/interview-miwa-mori-passive-house-japan/",
-    "competitors": [
-      "Tokyo Cheapo"
-    ],
-    "score": 10,
-    "category": "logement"
-  },
-  {
-    "slug": "instant-room-rental-english",
-    "topic": "instant room rental english",
-    "url": "https://tokyocheapo.com/living/instant-room-rental-english/",
-    "competitors": [
-      "Tokyo Cheapo"
-    ],
-    "score": 10,
-    "category": "logement"
-  },
-  {
-    "slug": "not-just-a-mama-chari-japans-classic-shopping-bicycle",
-    "topic": "not just a mama chari japans classic shopping bicycle",
-    "url": "https://tokyocheapo.com/living/not-just-a-mama-chari-japans-classic-shopping-bicycle/",
-    "competitors": [
-      "Tokyo Cheapo"
-    ],
-    "score": 10,
-    "category": "default"
-  },
-  {
-    "slug": "akiya-vacant-houses-in-the-japanese-countryside-for-a-steal",
-    "topic": "akiya vacant houses in the japanese countryside for a steal",
-    "url": "https://tokyocheapo.com/living/akiya-vacant-houses-in-the-japanese-countryside-for-a-steal/",
-    "competitors": [
-      "Tokyo Cheapo"
-    ],
-    "score": 10,
-    "category": "logement"
-  },
-  {
-    "slug": "is-japan-expensive",
-    "topic": "is japan expensive",
-    "url": "https://tokyocheapo.com/living/is-japan-expensive/",
-    "competitors": [
-      "Tokyo Cheapo"
-    ],
-    "score": 10,
-    "category": "default"
-  },
-  {
-    "slug": "working-holiday-in-japan",
-    "topic": "working holiday in japan",
-    "url": "https://tokyocheapo.com/living/working-holiday-in-japan/",
-    "competitors": [
-      "Tokyo Cheapo"
-    ],
-    "score": 10,
-    "category": "default"
-  },
-  {
-    "slug": "reasons-mobile-number-japan",
-    "topic": "reasons mobile number japan",
-    "url": "https://tokyocheapo.com/living/reasons-mobile-number-japan/",
-    "competitors": [
-      "Tokyo Cheapo"
-    ],
-    "score": 10,
-    "category": "default"
-  },
-  {
-    "slug": "tips-for-buying-a-used-car-in-japan",
-    "topic": "tips for buying a used car in japan",
-    "url": "https://tokyocheapo.com/living/tips-for-buying-a-used-car-in-japan/",
-    "competitors": [
-      "Tokyo Cheapo"
     ],
     "score": 10,
     "category": "default"
@@ -803,26 +593,6 @@
     "slug": "second-harvest-japan",
     "topic": "second harvest japan",
     "url": "https://tokyocheapo.com/living/second-harvest-japan/",
-    "competitors": [
-      "Tokyo Cheapo"
-    ],
-    "score": 10,
-    "category": "default"
-  },
-  {
-    "slug": "leaving-japan",
-    "topic": "leaving japan",
-    "url": "https://tokyocheapo.com/living/leaving-japan/",
-    "competitors": [
-      "Tokyo Cheapo"
-    ],
-    "score": 10,
-    "category": "default"
-  },
-  {
-    "slug": "interview-akiko-kitamura-japanese-teacher",
-    "topic": "interview akiko kitamura japanese teacher",
-    "url": "https://tokyocheapo.com/living/interview-akiko-kitamura-japanese-teacher/",
     "competitors": [
       "Tokyo Cheapo"
     ],
@@ -840,9 +610,9 @@
     "category": "default"
   },
   {
-    "slug": "what-to-do-earthquake-japan",
-    "topic": "what to do earthquake japan",
-    "url": "https://tokyocheapo.com/living/what-to-do-earthquake-japan/",
+    "slug": "japan-netflix-recommendations",
+    "topic": "japan netflix recommendations",
+    "url": "https://tokyocheapo.com/living/japan-netflix-recommendations/",
     "competitors": [
       "Tokyo Cheapo"
     ],
@@ -850,9 +620,9 @@
     "category": "default"
   },
   {
-    "slug": "english-translations-japanese-appliances-electronics",
-    "topic": "english translations japanese appliances electronics",
-    "url": "https://tokyocheapo.com/living/english-translations-japanese-appliances-electronics/",
+    "slug": "is-japan-expensive",
+    "topic": "is japan expensive",
+    "url": "https://tokyocheapo.com/living/is-japan-expensive/",
     "competitors": [
       "Tokyo Cheapo"
     ],
@@ -860,19 +630,9 @@
     "category": "default"
   },
   {
-    "slug": "renew-visa-online-japan",
-    "topic": "renew visa online japan",
-    "url": "https://tokyocheapo.com/living/renew-visa-online-japan/",
-    "competitors": [
-      "Tokyo Cheapo"
-    ],
-    "score": 10,
-    "category": "visa"
-  },
-  {
-    "slug": "how-to-get-a-japanese-phone-number",
-    "topic": "how to get a japanese phone number",
-    "url": "https://tokyocheapo.com/living/how-to-get-a-japanese-phone-number/",
+    "slug": "leaving-japan",
+    "topic": "leaving japan",
+    "url": "https://tokyocheapo.com/living/leaving-japan/",
     "competitors": [
       "Tokyo Cheapo"
     ],
@@ -880,9 +640,9 @@
     "category": "default"
   },
   {
-    "slug": "5-reasons-study-japanese-japan",
-    "topic": "5 reasons study japanese japan",
-    "url": "https://tokyocheapo.com/living/5-reasons-study-japanese-japan/",
+    "slug": "what-to-do-typhoon-japan",
+    "topic": "what to do typhoon japan",
+    "url": "https://tokyocheapo.com/living/what-to-do-typhoon-japan/",
     "competitors": [
       "Tokyo Cheapo"
     ],
@@ -890,9 +650,9 @@
     "category": "default"
   },
   {
-    "slug": "kampo-traditional-japanese-medicine",
-    "topic": "kampo traditional japanese medicine",
-    "url": "https://tokyocheapo.com/living/kampo-traditional-japanese-medicine/",
+    "slug": "not-just-a-mama-chari-japans-classic-shopping-bicycle",
+    "topic": "not just a mama chari japans classic shopping bicycle",
+    "url": "https://tokyocheapo.com/living/not-just-a-mama-chari-japans-classic-shopping-bicycle/",
     "competitors": [
       "Tokyo Cheapo"
     ],
@@ -900,9 +660,39 @@
     "category": "default"
   },
   {
-    "slug": "temple-university-continuing-education-japan",
-    "topic": "temple university continuing education japan",
-    "url": "https://tokyocheapo.com/living/temple-university-continuing-education-japan/",
+    "slug": "recycling-and-disposing-of-stuff-cheaply-in-japan",
+    "topic": "recycling and disposing of stuff cheaply in japan",
+    "url": "https://tokyocheapo.com/living/household/recycling-and-disposing-of-stuff-cheaply-in-japan/",
+    "competitors": [
+      "Tokyo Cheapo"
+    ],
+    "score": 10,
+    "category": "cout"
+  },
+  {
+    "slug": "japan-banks-comparison",
+    "topic": "japan banks comparison",
+    "url": "https://tokyocheapo.com/living/japan-banks-comparison/",
+    "competitors": [
+      "Tokyo Cheapo"
+    ],
+    "score": 10,
+    "category": "banque"
+  },
+  {
+    "slug": "passive-house-energy-efficiency-japan",
+    "topic": "passive house energy efficiency japan",
+    "url": "https://tokyocheapo.com/living/passive-house-energy-efficiency-japan/",
+    "competitors": [
+      "Tokyo Cheapo"
+    ],
+    "score": 10,
+    "category": "logement"
+  },
+  {
+    "slug": "how-to-get-a-part-time-job-for-students-in-japan",
+    "topic": "how to get a part time job for students in japan",
+    "url": "https://tokyocheapo.com/living/how-to-get-a-part-time-job-for-students-in-japan/",
     "competitors": [
       "Tokyo Cheapo"
     ],
@@ -910,9 +700,39 @@
     "category": "etudiant"
   },
   {
-    "slug": "using-a-free-vpn-watch-netflix-hulu-iplayer-in-japan",
-    "topic": "using a free vpn watch netflix hulu iplayer in japan",
-    "url": "https://tokyocheapo.com/living/using-a-free-vpn-watch-netflix-hulu-iplayer-in-japan/",
+    "slug": "japan-part-time-jobs-during-covid-19-crisis",
+    "topic": "japan part time jobs during covid 19 crisis",
+    "url": "https://tokyocheapo.com/living/japan-part-time-jobs-during-covid-19-crisis/",
+    "competitors": [
+      "Tokyo Cheapo"
+    ],
+    "score": 10,
+    "category": "default"
+  },
+  {
+    "slug": "grocery-shopping-japan-terms",
+    "topic": "grocery shopping japan terms",
+    "url": "https://tokyocheapo.com/living/grocery-shopping-japan-terms/",
+    "competitors": [
+      "Tokyo Cheapo"
+    ],
+    "score": 10,
+    "category": "default"
+  },
+  {
+    "slug": "dentist-japan",
+    "topic": "dentist japan",
+    "url": "https://tokyocheapo.com/living/dentist-japan/",
+    "competitors": [
+      "Tokyo Cheapo"
+    ],
+    "score": 10,
+    "category": "default"
+  },
+  {
+    "slug": "mastering-laundry-how-to-use-a-washing-machine-in-japan",
+    "topic": "mastering laundry how to use a washing machine in japan",
+    "url": "https://tokyocheapo.com/living/mastering-laundry-how-to-use-a-washing-machine-in-japan/",
     "competitors": [
       "Tokyo Cheapo"
     ],
@@ -930,9 +750,19 @@
     "category": "default"
   },
   {
-    "slug": "buying-groceries-japan",
-    "topic": "buying groceries japan",
-    "url": "https://tokyocheapo.com/living/buying-groceries-japan/",
+    "slug": "interview-miwa-mori-passive-house-japan",
+    "topic": "interview miwa mori passive house japan",
+    "url": "https://tokyocheapo.com/living/interview-miwa-mori-passive-house-japan/",
+    "competitors": [
+      "Tokyo Cheapo"
+    ],
+    "score": 10,
+    "category": "logement"
+  },
+  {
+    "slug": "pocket-translator-rental-japan",
+    "topic": "pocket translator rental japan",
+    "url": "https://tokyocheapo.com/living/pocket-translator-rental-japan/",
     "competitors": [
       "Tokyo Cheapo"
     ],
@@ -940,49 +770,19 @@
     "category": "default"
   },
   {
-    "slug": "japanese-beauty-treatments",
-    "topic": "japanese beauty treatments",
-    "url": "https://tokyocheapo.com/living/japanese-beauty-treatments/",
+    "slug": "digital-nomad-visa-japan",
+    "topic": "digital nomad visa japan",
+    "url": "https://tokyocheapo.com/living/digital-nomad-visa-japan/",
     "competitors": [
       "Tokyo Cheapo"
     ],
     "score": 10,
-    "category": "default"
+    "category": "visa"
   },
   {
-    "slug": "how-to-get-a-japanese-phone-number-zh_tw",
-    "topic": "how to get a japanese phone number zh tw",
-    "url": "https://tokyocheapo.com/living/how-to-get-a-japanese-phone-number-zh_tw/",
-    "competitors": [
-      "Tokyo Cheapo"
-    ],
-    "score": 10,
-    "category": "default"
-  },
-  {
-    "slug": "setsuyaku-battle-two-japanese-celebrities-battle-it-out-to-live-on-less-than-10000yen-us100-for-a-whole-month",
-    "topic": "setsuyaku battle two japanese celebrities battle it out to live on less than 10000yen us100 for a whole month",
-    "url": "https://tokyocheapo.com/living/setsuyaku-battle-two-japanese-celebrities-battle-it-out-to-live-on-less-than-10000yen-us100-for-a-whole-month/",
-    "competitors": [
-      "Tokyo Cheapo"
-    ],
-    "score": 10,
-    "category": "quartier"
-  },
-  {
-    "slug": "how-to-get-a-part-time-job-for-students-in-japan",
-    "topic": "how to get a part time job for students in japan",
-    "url": "https://tokyocheapo.com/living/how-to-get-a-part-time-job-for-students-in-japan/",
-    "competitors": [
-      "Tokyo Cheapo"
-    ],
-    "score": 10,
-    "category": "etudiant"
-  },
-  {
-    "slug": "new-video-when-is-the-worst-time-to-visit-japan",
-    "topic": "new video when is the worst time to visit japan",
-    "url": "https://tokyocheapo.com/living/new-video-when-is-the-worst-time-to-visit-japan/",
+    "slug": "tips-for-buying-a-used-car-in-japan",
+    "topic": "tips for buying a used car in japan",
+    "url": "https://tokyocheapo.com/living/tips-for-buying-a-used-car-in-japan/",
     "competitors": [
       "Tokyo Cheapo"
     ],
@@ -993,6 +793,126 @@
     "slug": "get-english-teaching-job-japan",
     "topic": "get english teaching job japan",
     "url": "https://tokyocheapo.com/living/get-english-teaching-job-japan/",
+    "competitors": [
+      "Tokyo Cheapo"
+    ],
+    "score": 10,
+    "category": "default"
+  },
+  {
+    "slug": "temple-university-continuing-education-japan",
+    "topic": "temple university continuing education japan",
+    "url": "https://tokyocheapo.com/living/temple-university-continuing-education-japan/",
+    "competitors": [
+      "Tokyo Cheapo"
+    ],
+    "score": 10,
+    "category": "etudiant"
+  },
+  {
+    "slug": "buying-groceries-japan",
+    "topic": "buying groceries japan",
+    "url": "https://tokyocheapo.com/living/buying-groceries-japan/",
+    "competitors": [
+      "Tokyo Cheapo"
+    ],
+    "score": 10,
+    "category": "default"
+  },
+  {
+    "slug": "what-to-do-earthquake-japan",
+    "topic": "what to do earthquake japan",
+    "url": "https://tokyocheapo.com/living/what-to-do-earthquake-japan/",
+    "competitors": [
+      "Tokyo Cheapo"
+    ],
+    "score": 10,
+    "category": "default"
+  },
+  {
+    "slug": "renew-visa-online-japan",
+    "topic": "renew visa online japan",
+    "url": "https://tokyocheapo.com/living/renew-visa-online-japan/",
+    "competitors": [
+      "Tokyo Cheapo"
+    ],
+    "score": 10,
+    "category": "visa"
+  },
+  {
+    "slug": "choosing-a-credit-card-in-japan",
+    "topic": "choosing a credit card in japan",
+    "url": "https://tokyocheapo.com/living/choosing-a-credit-card-in-japan/",
+    "competitors": [
+      "Tokyo Cheapo"
+    ],
+    "score": 10,
+    "category": "default"
+  },
+  {
+    "slug": "instant-room-rental-english",
+    "topic": "instant room rental english",
+    "url": "https://tokyocheapo.com/living/instant-room-rental-english/",
+    "competitors": [
+      "Tokyo Cheapo"
+    ],
+    "score": 10,
+    "category": "logement"
+  },
+  {
+    "slug": "using-a-free-vpn-watch-netflix-hulu-iplayer-in-japan",
+    "topic": "using a free vpn watch netflix hulu iplayer in japan",
+    "url": "https://tokyocheapo.com/living/using-a-free-vpn-watch-netflix-hulu-iplayer-in-japan/",
+    "competitors": [
+      "Tokyo Cheapo"
+    ],
+    "score": 10,
+    "category": "default"
+  },
+  {
+    "slug": "buying-and-selling-a-used-car-privately-in-japan",
+    "topic": "buying and selling a used car privately in japan",
+    "url": "https://tokyocheapo.com/living/buying-and-selling-a-used-car-privately-in-japan/",
+    "competitors": [
+      "Tokyo Cheapo"
+    ],
+    "score": 10,
+    "category": "default"
+  },
+  {
+    "slug": "reasons-mobile-number-japan",
+    "topic": "reasons mobile number japan",
+    "url": "https://tokyocheapo.com/living/reasons-mobile-number-japan/",
+    "competitors": [
+      "Tokyo Cheapo"
+    ],
+    "score": 10,
+    "category": "default"
+  },
+  {
+    "slug": "shipping-your-stuff-home-from-japan",
+    "topic": "shipping your stuff home from japan",
+    "url": "https://tokyocheapo.com/living/shipping-your-stuff-home-from-japan/",
+    "competitors": [
+      "Tokyo Cheapo"
+    ],
+    "score": 10,
+    "category": "default"
+  },
+  {
+    "slug": "be-my-cheapo-valentine-navigating-chocolate-choices-in-japan",
+    "topic": "be my cheapo valentine navigating chocolate choices in japan",
+    "url": "https://tokyocheapo.com/living/be-my-cheapo-valentine-navigating-chocolate-choices-in-japan/",
+    "competitors": [
+      "Tokyo Cheapo"
+    ],
+    "score": 10,
+    "category": "cout"
+  },
+  {
+    "slug": "new-video-when-is-the-worst-time-to-visit-japan",
+    "topic": "new video when is the worst time to visit japan",
+    "url": "https://tokyocheapo.com/living/new-video-when-is-the-worst-time-to-visit-japan/",
     "competitors": [
       "Tokyo Cheapo"
     ],

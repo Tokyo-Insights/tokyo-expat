@@ -57,6 +57,19 @@ KEYWORD_TO_OUR_ARTICLE = {
     "japan health insurance expat":          "/en/blog/japan-health-insurance-expat-guide",
     "open bank account japan foreigner":     "/en/blog/open-bank-account-japan-foreigner",
     "tokyo apartment hunting abroad":        "/en/blog/tokyo-apartment-hunting-from-abroad",
+    # --- batch session 8: Art de la Guerre ---
+    "rental application rejected japan":     "/en/blog/rental-application-rejected-japan-foreigner",
+    "dossier location refuse tokyo":         "/fr/blog/dossier-location-refuse-tokyo-etranger",
+    "real estate hunter tokyo cost":         "/en/blog/real-estate-hunter-tokyo-cost-worth-it",
+    "chasseur immobilier tokyo tarifs":      "/fr/blog/chasseur-immobilier-tokyo-tarifs-vaut-il-le-coup",
+    "real estate hunter vs agency tokyo":    "/en/blog/real-estate-hunter-vs-agency-tokyo",
+    "chasseur immobilier vs agence tokyo":   "/fr/blog/chasseur-immobilier-vs-agence-tokyo-comparatif",
+    "how real estate hunter works tokyo":    "/en/blog/how-real-estate-hunter-works-tokyo",
+    "hiroo expat neighborhood tokyo":        "/en/blog/hiroo-minami-azabu-expat-neighborhood-guide",
+    "hiroo minami azabu expatries":          "/fr/blog/hiroo-minami-azabu-guide-expatries-tokyo",
+    "real estate hunter tokyo":              "/en/blog/real-estate-hunter-vs-agency-tokyo",
+    "chasseur immobilier tokyo":             "/fr/blog/service-chasseur-immobilier-tokyo-comment-ca-marche",
+    "japan apartment rejection foreigner":   "/en/blog/rental-application-rejected-japan-foreigner",
 }
 
 

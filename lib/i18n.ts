@@ -41,6 +41,20 @@ const dictionaries = {
       refund_desc: 'Si vous trouvez un logement par vous-même avant la fin de la mission, aucun remboursement n\'est possible.',
       packages: [
         {
+          id: 'consult',
+          name: 'Consultation Relocation',
+          price: 0,
+          currency: '€',
+          description: 'Un échange personnalisé pour cadrer votre projet d\'installation au Japon, avant de vous lancer.',
+          included: [
+            'Appel individuel de 60 minutes (visio)',
+            'Analyse de votre situation : visa, timing, budget',
+            'Recommandations de quartiers selon votre profil',
+            'Feuille de route des démarches dans le bon ordre',
+            'Réponses à toutes vos questions logement et administratif',
+          ],
+        },
+        {
           id: 'sh1',
           name: 'Share House - 1 personne',
           price: 250,
@@ -180,6 +194,20 @@ const dictionaries = {
       refund_title: 'Refund policy',
       refund_desc: 'If you find a property on your own before the mission is complete, no refund is possible.',
       packages: [
+        {
+          id: 'consult',
+          name: 'Relocation Consultation',
+          price: 0,
+          currency: '€',
+          description: 'A personalised session to map out your move to Japan before you commit to anything.',
+          included: [
+            'One-on-one 60-minute call (video)',
+            'Review of your situation: visa, timing, budget',
+            'Neighbourhood recommendations based on your profile',
+            'A step-by-step roadmap in the right order',
+            'Answers to all your housing and admin questions',
+          ],
+        },
         {
           id: 'sh1',
           name: 'Share House - 1 Person',

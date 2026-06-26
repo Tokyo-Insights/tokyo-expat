@@ -17,10 +17,24 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>
 }): Promise<Metadata> {
   const { locale } = await params
+  const altLocale = locale === 'fr' ? 'en' : 'fr'
   return {
     title: titles[locale] ?? titles.fr,
     description: descriptions[locale] ?? descriptions.fr,
-    alternates: { canonical: `/${locale}/blog` },
+    alternates: {
+      canonical: `/${locale}/blog`,
+      languages: {
+        [locale]: `https://www.tokyo-expat.com/${locale}/blog`,
+        [altLocale]: `https://www.tokyo-expat.com/${altLocale}/blog`,
+        'x-default': 'https://www.tokyo-expat.com/en/blog',
+      },
+    },
+    openGraph: {
+      title: titles[locale] ?? titles.fr,
+      description: descriptions[locale] ?? descriptions.fr,
+      type: 'website',
+      url: `https://www.tokyo-expat.com/${locale}/blog`,
+    },
   }
 }
 
@@ -37,8 +51,31 @@ export default async function BlogIndexPage({
     ? 'Tout ce que vous devez savoir pour trouver un logement a Tokyo.'
     : 'Everything you need to know to find housing in Tokyo.'
 
+  const collectionLd = {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: titles[locale] ?? titles.fr,
+    url: `https://www.tokyo-expat.com/${locale}/blog`,
+    description: descriptions[locale] ?? descriptions.fr,
+    inLanguage: locale === 'fr' ? 'fr-FR' : 'en-US',
+    publisher: {
+      '@type': 'Organization',
+      name: 'Tokyo Expat',
+      url: 'https://www.tokyo-expat.com',
+    },
+    isPartOf: {
+      '@type': 'WebSite',
+      name: 'Tokyo Expat',
+      url: 'https://www.tokyo-expat.com',
+    },
+  }
+
   return (
     <div className="max-w-4xl mx-auto px-4 py-16">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionLd) }}
+      />
       <h1 className="text-4xl font-extrabold text-[#0f2744] mb-4">{title}</h1>
       <p className="text-gray-500 mb-12">{subtitle}</p>
 

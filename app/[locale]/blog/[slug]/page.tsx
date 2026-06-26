@@ -3,6 +3,8 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 import type { ReactNode } from 'react'
 import { getBlogPost, getBlogPosts, getTwinSlug, type Locale } from '@/lib/blog'
+import { faqData } from '@/lib/faq_data'
+import LeadMagnetForm from '@/components/LeadMagnetForm'
 
 export async function generateStaticParams() {
   const locales: Locale[] = ['fr', 'en']
@@ -233,14 +235,25 @@ export default async function BlogPostPage({
     ? 'Vous avez un projet d\'installation a Tokyo? Parlons-en.'
     : 'Planning to move to Tokyo? Let\'s talk.'
 
+  const pageUrl = `https://www.tokyo-expat.com/${locale}/blog/${post.slug}`
+  const ogImage = `/og?title=${encodeURIComponent(post.title)}&locale=${locale}`
+
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Article',
     headline: post.title,
     description: post.description,
     datePublished: post.date,
+    dateModified: post.date,
     inLanguage: locale === 'fr' ? 'fr-FR' : 'en-US',
-    url: `https://www.tokyo-expat.com/${locale}/blog/${post.slug}`,
+    url: pageUrl,
+    mainEntityOfPage: { '@type': 'WebPage', '@id': pageUrl },
+    image: {
+      '@type': 'ImageObject',
+      url: `https://www.tokyo-expat.com${ogImage}`,
+      width: 1200,
+      height: 630,
+    },
     author: {
       '@type': 'Person',
       name: 'Alessandro',
@@ -250,8 +263,51 @@ export default async function BlogPostPage({
       '@type': 'Organization',
       name: 'Tokyo Expat',
       url: 'https://www.tokyo-expat.com',
+      logo: {
+        '@type': 'ImageObject',
+        url: 'https://www.tokyo-expat.com/icon.png',
+        width: 32,
+        height: 32,
+      },
+    },
+    isPartOf: {
+      '@type': 'WebSite',
+      name: 'Tokyo Expat',
+      url: 'https://www.tokyo-expat.com',
+    },
+    speakable: {
+      '@type': 'SpeakableSpecification',
+      cssSelector: ['h1', '.article-description'],
     },
   }
+
+  const breadcrumbLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Tokyo Expat', item: 'https://www.tokyo-expat.com' },
+      { '@type': 'ListItem', position: 2, name: locale === 'fr' ? 'Guides' : 'Guides', item: `https://www.tokyo-expat.com/${locale}/blog` },
+      { '@type': 'ListItem', position: 3, name: post.title, item: pageUrl },
+    ],
+  }
+
+  const faqs = faqData[post.slug] ?? null
+  const faqJsonLd = faqs
+    ? {
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: faqs.map((f) => ({
+          '@type': 'Question',
+          name: f.question,
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: f.answer,
+          },
+        })),
+      }
+    : null
+
+  const faqHeading = locale === 'fr' ? 'Questions fréquentes' : 'Frequently Asked Questions'
 
   return (
     <div className="max-w-3xl mx-auto px-4 py-16">
@@ -259,6 +315,16 @@ export default async function BlogPostPage({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
+      />
+      {faqJsonLd && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+        />
+      )}
       <Link href={`/${locale}/blog`} className="text-sm text-gray-400 hover:text-[#0f2744] transition-colors mb-8 inline-block">
         ← {backLabel}
       </Link>
@@ -273,7 +339,7 @@ export default async function BlogPostPage({
         {post.title}
       </h1>
 
-      <p className="text-lg text-gray-500 mb-10 leading-relaxed border-l-4 border-[#e84141] pl-4">
+      <p className="article-description text-lg text-gray-500 mb-10 leading-relaxed border-l-4 border-[#e84141] pl-4">
         {post.description}
       </p>
 
@@ -281,7 +347,35 @@ export default async function BlogPostPage({
         {renderContent(post.content)}
       </div>
 
-      <div className="mt-16 bg-[#0f2744] text-white rounded-2xl p-8 text-center">
+      {faqs && (
+        <div className="mt-16 border-t border-gray-200 pt-12">
+          <h2 className="text-2xl font-bold text-[#0f2744] mb-8">{faqHeading}</h2>
+          <div className="space-y-3">
+            {faqs.map((faq, i) => (
+              <details
+                key={i}
+                className="group border border-gray-200 rounded-xl overflow-hidden"
+              >
+                <summary className="flex items-center justify-between cursor-pointer px-6 py-4 bg-white hover:bg-gray-50 transition-colors list-none">
+                  <span className="font-semibold text-[#0f2744] pr-4">{faq.question}</span>
+                  <span className="flex-shrink-0 text-[#e84141] font-bold text-xl transition-transform group-open:rotate-45">
+                    +
+                  </span>
+                </summary>
+                <div className="px-6 py-4 bg-gray-50 text-gray-700 leading-relaxed border-t border-gray-100">
+                  {faq.answer}
+                </div>
+              </details>
+            ))}
+          </div>
+        </div>
+      )}
+
+      <div className="mt-12">
+        <LeadMagnetForm locale={locale} />
+      </div>
+
+      <div className="mt-8 bg-[#0f2744] text-white rounded-2xl p-8 text-center">
         <p className="text-gray-300 mb-2">{ctaDesc}</p>
         <Link
           href={`/${locale}/contact`}

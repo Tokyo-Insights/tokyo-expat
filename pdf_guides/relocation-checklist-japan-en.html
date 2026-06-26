@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Japan Relocation Checklist 2026 — TokyoExpat</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --navy: #0f2744;
+    --navy-light: #1a3a5c;
+    --accent: #e84141;
+    --accent-light: #ff6b6b;
+    --white: #ffffff;
+    --gray-50: #f8fafc;
+    --gray-100: #f1f5f9;
+    --gray-300: #cbd5e1;
+    --gray-500: #64748b;
+    --gray-700: #334155;
+    --green: #16a34a;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Inter', sans-serif;
+    background: #e5e7eb;
+    color: var(--gray-700);
+    font-size: 10pt;
+    line-height: 1.5;
+  }
+
+  /* ---- PRINT SETTINGS ---- */
+  @page {
+    size: A4;
+    margin: 0;
+  }
+
+  @media print {
+    body { background: white; }
+    .page { box-shadow: none; margin: 0; border-radius: 0; }
+    .no-print { display: none; }
+  }
+
+  /* ---- PAGE WRAPPER ---- */
+  .page {
+    width: 210mm;
+    min-height: 296mm;
+    background: white;
+    margin: 0 auto;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.15);
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  /* ---- COVER PAGE ---- */
+  .cover {
+    background: var(--navy);
+    min-height: 296mm;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
+  }
+
+  .cover-top {
+    padding: 48px 52px 0;
+  }
+
+  .cover-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 80px;
+  }
+
+  .cover-logo-icon {
+    width: 42px;
+    height: 42px;
+  }
+
+  .cover-logo-text {
+    font-size: 18pt;
+    font-weight: 800;
+    color: white;
+    letter-spacing: -0.5px;
+  }
+
+  .cover-logo-text span {
+    color: var(--accent);
+  }
+
+  .cover-tagline {
+    font-size: 9pt;
+    color: rgba(255,255,255,0.5);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 2px;
+  }
+
+  .cover-badge {
+    display: inline-block;
+    background: var(--accent);
+    color: white;
+    font-size: 8pt;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 6px 16px;
+    border-radius: 2px;
+    margin-bottom: 28px;
+  }
+
+  .cover-title {
+    font-size: 38pt;
+    font-weight: 900;
+    color: white;
+    line-height: 1.05;
+    letter-spacing: -1.5px;
+    margin-bottom: 20px;
+    max-width: 420px;
+  }
+
+  .cover-title .highlight {
+    color: var(--accent);
+  }
+
+  .cover-subtitle {
+    font-size: 12pt;
+    color: rgba(255,255,255,0.65);
+    font-weight: 400;
+    max-width: 380px;
+    line-height: 1.6;
+  }
+
+  .cover-visual {
+    padding: 0 52px;
+    margin-top: 60px;
+  }
+
+  .cover-steps {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+
+  .cover-step {
+    background: rgba(255,255,255,0.07);
+    border: 1px solid rgba(255,255,255,0.12);
+    border-radius: 8px;
+    padding: 14px 18px;
+    flex: 1;
+    min-width: 100px;
+  }
+
+  .cover-step-num {
+    font-size: 22pt;
+    font-weight: 900;
+    color: var(--accent);
+    line-height: 1;
+    margin-bottom: 4px;
+  }
+
+  .cover-step-label {
+    font-size: 7.5pt;
+    color: rgba(255,255,255,0.6);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  .cover-footer {
+    padding: 28px 52px;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+  }
+
+  .cover-footer-text {
+    font-size: 8.5pt;
+    color: rgba(255,255,255,0.4);
+  }
+
+  .cover-url {
+    font-size: 9pt;
+    color: rgba(255,255,255,0.5);
+    font-weight: 500;
+  }
+
+  /* ---- INNER PAGES ---- */
+  .inner {
+    padding: 0;
+    min-height: 296mm;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .page-header {
+    background: var(--navy);
+    padding: 18px 44px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .page-header-logo {
+    font-size: 11pt;
+    font-weight: 800;
+    color: white;
+    letter-spacing: -0.3px;
+  }
+
+  .page-header-logo span { color: var(--accent); }
+
+  .page-header-title {
+    font-size: 8pt;
+    color: rgba(255,255,255,0.5);
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+  }
+
+  .page-content {
+    padding: 32px 44px;
+    flex: 1;
+  }
+
+  .section-header {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 18px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid var(--gray-100);
+  }
+
+  .section-icon {
+    width: 38px;
+    height: 38px;
+    background: var(--navy);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    font-size: 16px;
+  }
+
+  .section-meta {
+    flex: 1;
+  }
+
+  .section-timing {
+    font-size: 7.5pt;
+    font-weight: 700;
+    color: var(--accent);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 2px;
+  }
+
+  .section-title {
+    font-size: 14pt;
+    font-weight: 800;
+    color: var(--navy);
+    letter-spacing: -0.3px;
+  }
+
+  .checklist {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 7px;
+  }
+
+  .checklist.single-col {
+    grid-template-columns: 1fr;
+  }
+
+  .checklist li {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 9px 12px;
+    border-radius: 6px;
+    background: var(--gray-50);
+    border: 1px solid var(--gray-100);
+    font-size: 8.5pt;
+    line-height: 1.4;
+  }
+
+  .checklist li:hover {
+    border-color: var(--accent);
+  }
+
+  .checkbox {
+    width: 16px;
+    height: 16px;
+    border: 2px solid var(--gray-300);
+    border-radius: 4px;
+    flex-shrink: 0;
+    margin-top: 1px;
+    background: white;
+  }
+
+  .item-text { flex: 1; }
+  .item-text strong { font-weight: 600; color: var(--navy); display: block; font-size: 8.5pt; }
+  .item-text small { color: var(--gray-500); font-size: 7.5pt; }
+
+  .priority-high .checkbox {
+    border-color: var(--accent);
+    background: rgba(232,65,65,0.06);
+  }
+
+  .priority-high .item-text strong::after {
+    content: " ★";
+    color: var(--accent);
+    font-size: 7pt;
+  }
+
+  .tip-box {
+    background: rgba(15,39,68,0.05);
+    border-left: 3px solid var(--navy);
+    border-radius: 0 6px 6px 0;
+    padding: 10px 14px;
+    margin: 14px 0;
+    font-size: 8pt;
+    color: var(--navy);
+  }
+
+  .tip-box strong {
+    font-weight: 700;
+    display: block;
+    margin-bottom: 3px;
+  }
+
+  .warning-box {
+    background: rgba(232,65,65,0.06);
+    border-left: 3px solid var(--accent);
+    border-radius: 0 6px 6px 0;
+    padding: 10px 14px;
+    margin: 14px 0;
+    font-size: 8pt;
+    color: var(--accent);
+  }
+
+  .warning-box strong {
+    font-weight: 700;
+    display: block;
+    margin-bottom: 3px;
+  }
+
+  .section-gap {
+    margin-bottom: 26px;
+  }
+
+  /* ---- CTA / BACK PAGE ---- */
+  .back-cover {
+    background: var(--navy);
+    min-height: 296mm;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 52px;
+    text-align: center;
+  }
+
+  .back-cover-logo {
+    font-size: 28pt;
+    font-weight: 900;
+    color: white;
+    margin-bottom: 12px;
+    letter-spacing: -1px;
+  }
+
+  .back-cover-logo span { color: var(--accent); }
+
+  .back-cover-tagline {
+    font-size: 10pt;
+    color: rgba(255,255,255,0.55);
+    margin-bottom: 50px;
+  }
+
+  .back-cover-divider {
+    width: 60px;
+    height: 3px;
+    background: var(--accent);
+    border-radius: 2px;
+    margin: 0 auto 50px;
+  }
+
+  .back-cover-title {
+    font-size: 20pt;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 16px;
+    letter-spacing: -0.5px;
+  }
+
+  .back-cover-text {
+    font-size: 10pt;
+    color: rgba(255,255,255,0.6);
+    line-height: 1.7;
+    max-width: 340px;
+    margin-bottom: 40px;
+  }
+
+  .back-cover-cta {
+    background: var(--accent);
+    color: white;
+    font-weight: 700;
+    font-size: 11pt;
+    padding: 14px 36px;
+    border-radius: 8px;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 20px;
+    letter-spacing: -0.2px;
+  }
+
+  .back-cover-url {
+    font-size: 9pt;
+    color: rgba(255,255,255,0.35);
+  }
+
+  .services-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+    margin: 36px 0 50px;
+    width: 100%;
+    max-width: 480px;
+  }
+
+  .service-card {
+    background: rgba(255,255,255,0.07);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 8px;
+    padding: 16px 14px;
+    text-align: center;
+  }
+
+  .service-card-icon { font-size: 20px; margin-bottom: 8px; }
+  .service-card-title { font-size: 8pt; font-weight: 700; color: white; margin-bottom: 4px; }
+  .service-card-text { font-size: 7pt; color: rgba(255,255,255,0.45); }
+
+  /* PRINT BUTTON */
+  .print-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: var(--accent);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 11pt;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    box-shadow: 0 4px 12px rgba(232,65,65,0.4);
+    z-index: 999;
+  }
+
+  .print-btn:hover { background: var(--accent-light); }
+</style>
+</head>
+<body>
+
+<button class="print-btn no-print" onclick="window.print()">Save as PDF</button>
+
+<!-- ============================== -->
+<!-- PAGE 1: COVER                  -->
+<!-- ============================== -->
+<div class="page cover">
+  <div class="cover-top">
+    <div class="cover-logo">
+      <svg class="cover-logo-icon" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="250" cy="250" r="245" fill="#1a3a5c"/>
+        <polygon points="250,105 130,210 155,210 155,345 220,345 220,280 280,280 280,345 345,345 345,210 370,210" fill="white"/>
+        <rect x="225" y="215" width="50" height="45" rx="4" fill="#0f2744"/>
+        <text x="250" y="385" font-family="Arial Black" font-weight="900" font-size="68" text-anchor="middle" fill="white">Tokyo</text>
+        <text x="250" y="455" font-family="Arial Black" font-weight="900" font-size="68" text-anchor="middle" fill="#e84141">Expat</text>
+      </svg>
+      <div>
+        <div class="cover-logo-text">Tokyo<span>Expat</span></div>
+        <div class="cover-tagline">Your Japan Relocation Experts</div>
+      </div>
+    </div>
+
+    <div class="cover-badge">2026 Edition</div>
+    <div class="cover-title">Japan<br><span class="highlight">Relocation</span><br>Checklist</div>
+    <div class="cover-subtitle">Everything you need to do before, during, and after your move to Japan — from visa to bank account.</div>
+  </div>
+
+  <div class="cover-visual">
+    <div class="cover-steps">
+      <div class="cover-step">
+        <div class="cover-step-num">6</div>
+        <div class="cover-step-label">months before</div>
+      </div>
+      <div class="cover-step">
+        <div class="cover-step-num">90+</div>
+        <div class="cover-step-label">action items</div>
+      </div>
+      <div class="cover-step">
+        <div class="cover-step-num">7</div>
+        <div class="cover-step-label">phases</div>
+      </div>
+      <div class="cover-step">
+        <div class="cover-step-num">0</div>
+        <div class="cover-step-label">admin surprises</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="cover-footer">
+    <div class="cover-footer-text">© 2026 TokyoExpat.com — All rights reserved</div>
+    <div class="cover-url">tokyo-expat.com</div>
+  </div>
+</div>
+
+<!-- ============================== -->
+<!-- PAGE 2: PHASE 1 + 2             -->
+<!-- ============================== -->
+<div class="page inner">
+  <div class="page-header">
+    <div class="page-header-logo">Tokyo<span>Expat</span></div>
+    <div class="page-header-title">Japan Relocation Checklist 2026</div>
+  </div>
+  <div class="page-content">
+
+    <!-- PHASE 1 -->
+    <div class="section-gap">
+      <div class="section-header">
+        <div class="section-icon">📅</div>
+        <div class="section-meta">
+          <div class="section-timing">Phase 1</div>
+          <div class="section-title">6 to 3 Months Before Arrival</div>
+        </div>
+      </div>
+      <ul class="checklist">
+        <li class="priority-high">
+          <div class="checkbox"></div>
+          <div class="item-text"><strong>Determine your visa type</strong><small>Working Holiday, HSP, Spouse, Student, or Business Manager</small></div>
+        </li>
+        <li class="priority-high">
+          <div class="checkbox"></div>
+          <div class="item-text"><strong>Start visa application</strong><small>Gather documents: bank statements, employment letter, CV</small></div>
+        </li>
+        <li>
+          <div class="checkbox"></div>
+          <div class="item-text"><strong>Research neighborhoods</strong><small>Shinjuku, Shibuya, Setagaya, Koto, Adachi by budget/lifestyle</small></div>
+        </li>
+        <li>
+          <div class="checkbox"></div>
+          <div class="item-text"><strong>Set your housing budget</strong><small>Tokyo average: 80,000-130,000 JPY/month for 1K/1LDK</small></div>
+        </li>
+        <li>
+          <div class="checkbox"></div>
+          <div class="item-text"><strong>Book temporary accommodation</strong><small>Monthly apartment or guesthouse for first 1-2 months</small></div>
+        </li>
+        <li>
+          <div class="checkbox"></div>
+          <div class="item-text"><strong>Notify your home country bank</strong><small>International transfers, notify of address change</small></div>
+        </li>
+        <li>
+          <div class="checkbox"></div>
+          <div class="item-text"><strong>Open a Wise account</strong><small>Best rates for JPY transfers, essential for expats</small></div>
+        </li>
+        <li>
+          <div class="checkbox"></div>
+          <div class="item-text"><strong>Sort out health insurance</strong><small>SafetyWing for transit period before National Health Insurance</small></div>
+        </li>
+        <li>
+          <div class="checkbox"></div>
+          <div class="item-text"><strong>Decide what to ship vs. sell</strong><small>Japan has strict customs rules. Electronics/furniture often not worth shipping</small></div>
+        </li>
+        <li>
+          <div class="checkbox"></div>
+          <div class="item-text"><strong>Get International Driving Permit</strong><small>Valid for 1 year in Japan. Required if you plan to drive</small></div>
+        </li>
+      </ul>
+    </div>
+
+    <!-- PHASE 2 -->
+    <div class="section-gap">
+      <div class="section-header">
+        <div class="section-icon">✈️</div>
+        <div class="section-meta">
+          <div class="section-timing">Phase 2</div>
+          <div class="section-title">1 to 2 Months Before Arrival</div>
+        </div>
+      </div>
+      <ul class="checklist">
+        <li class="priority-high">
+          <div class="checkbox"></div>
+          <div class="item-text"><strong>Book your flights</strong><small>One-way or round-trip depending on visa requirements</small></div>
+        </li>
+        <li>
+          <div class="checkbox"></div>
+          <div class="item-text"><strong>Arrange document apostilles</strong><small>Birth certificate, marriage certificate if applicable</small></div>
+        </li>
+        <li>
+          <div class="checkbox"></div>
+          <div class="item-text"><strong>Research Japanese language basics</strong><small>Hiragana, katakana, key phrases for daily life</small></div>
+        </li>
+        <li>
+          <div class="checkbox"></div>
+          <div class="item-text"><strong>Set up mail forwarding</strong><small>Notify all important services of your future absence</small></div>
+        </li>
+        <li>
+          <div class="checkbox"></div>
+          <div class="item-text"><strong>Cancel or transfer subscriptions</strong><small>Gym, streaming services, insurance policies</small></div>
+        </li>
+        <li>
+          <div class="checkbox"></div>
+          <div class="item-text"><strong>Scan all important documents</strong><small>Passport, diploma, birth certificate, store in cloud</small></div>
+        </li>
+        <li>
+          <div class="checkbox"></div>
+          <div class="item-text"><strong>Research SIM card options</strong><small>Sakura Mobile, IIJmio, LINEMO — buy at airport or online</small></div>
+        </li>
+        <li>
+          <div class="checkbox"></div>
+          <div class="item-text"><strong>Download essential apps</strong><small>Google Maps, Google Translate, Hyperdia, Suica, LINE</small></div>
+        </li>
+      </ul>
+
+      <div class="tip-box">
+        <strong>Pro tip — Carry-on essentials</strong>
+        Pack your passport, all visa documents, temporary accommodation address, and 100,000 JPY cash in your carry-on. Japanese customs may ask for your address in Japan.
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- ============================== -->
+<!-- PAGE 3: PHASE 3 + 4            -->
+<!-- ============================== -->
+<div class="page inner">
+  <div class="page-header">
+    <div class="page-header-logo">Tokyo<span>Expat</span></div>
+    <div class="page-header-title">Japan Relocation Checklist 2026</div>
+  </div>
+  <div class="page-content">
+
+    <!-- PHASE 3 -->
+    <div class="section-gap">
+      <div class="section-header">
+        <div class="section-icon">🛬</div>
+        <div class="section-meta">
+          <div class="section-timing">Phase 3</div>
+          <div class="section-title">First 48 Hours in Japan</div>
+        </div>
+      </div>
+      <ul class="checklist single-col">
+        <li class="priority-high">
+          <div class="checkbox"></div>
+          <div class="item-text"><strong>Register your address at the Ward Office (Shiyakusho)</strong><small>Bring passport + visa. You receive your Residence Card (Zairyu Card). Mandatory within 14 days but do it immediately.</small></div>
+        </li>
+        <li class="priority-high">
+          <div class="checkbox"></div>
+          <div class="item-text"><strong>Get a SIM card</strong><small>Sakura Mobile and IIJmio are foreigner-friendly. Airport counters available at Narita and Haneda.</small></div>
+        </li>
+        <li>
+          <div class="checkbox"></div>
+          <div class="item-text"><strong>Get a Suica card (IC card)</strong><small>At any JR station or 7-Eleven ATM. Load 3,000-5,000 JPY. Works on trains, buses, convenience stores.</small></div>
+        </li>
+        <li>
+          <div class="checkbox"></div>
+          <div class="item-text"><strong>Locate nearest convenience store, supermarket, and pharmacy</strong><small>7-Eleven and FamilyMart ATMs accept foreign cards. Matsumoto Kiyoshi for pharmacy.</small></div>
+        </li>
+        <li>
+          <div class="checkbox"></div>
+          <div class="item-text"><strong>Check in to temporary accommodation</strong><small>Confirm check-in time in advance. Japanese guesthouses often have strict rules.</small></div>
+        </li>
+      </ul>
+
+      <div class="warning-box">
+        <strong>Important: Residence Card comes first</strong>
+        Without your Residence Card address, you cannot open a bank account, sign a lease, or register for National Health Insurance. Do this on Day 1.
+      </div>
+    </div>
+
+    <!-- PHASE 4 -->
+    <div class="section-gap">
+      <div class="section-header">
+        <div class="section-icon">🏦</div>
+        <div class="section-meta">
+          <div class="section-timing">Phase 4</div>
+          <div class="section-title">First 2 Weeks</div>
+        </div>
+      </div>
+      <ul class="checklist">
+        <li class="priority-high">
+          <div class="checkbox"></div>
+          <div class="item-text"><strong>Open a Japanese bank account</strong><small>PayPay Bank or Sony Bank: 100% online, English UI, foreigner-friendly</small></div>
+        </li>
+        <li class="priority-high">
+          <div class="checkbox"></div>
+          <div class="item-text"><strong>Start apartment search</strong><small>Use foreigner-friendly agencies: Sakura House, Oakhouse, bilingual agents</small></div>
+        </li>
+        <li>
+          <div class="checkbox"></div>
+          <div class="item-text"><strong>Apply for National Health Insurance</strong><small>At your ward office. Required for all residents. ~5,000-20,000 JPY/month</small></div>
+        </li>
+        <li>
+          <div class="checkbox"></div>
+          <div class="item-text"><strong>Apply for National Pension (Kokumin Nenkin)</strong><small>At ward office. Low income: apply for exemption (menjo)</small></div>
+        </li>
+        <li>
+          <div class="checkbox"></div>
+          <div class="item-text"><strong>Set up PayPay or LINE Pay</strong><small>Cashless payment: essential for taxis, convenience stores, restaurants</small></div>
+        </li>
+        <li>
+          <div class="checkbox"></div>
+          <div class="item-text"><strong>Explore your neighborhood on foot</strong><small>Find the closest station, post office, ward office, hospital</small></div>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</div>
+
+<!-- ============================== -->
+<!-- PAGE 4: PHASE 5 + 6 + 7        -->
+<!-- ============================== -->
+<div class="page inner">
+  <div class="page-header">
+    <div class="page-header-logo">Tokyo<span>Expat</span></div>
+    <div class="page-header-title">Japan Relocation Checklist 2026</div>
+  </div>
+  <div class="page-content">
+
+    <!-- PHASE 5 -->
+    <div class="section-gap">
+      <div class="section-header">
+        <div class="section-icon">🏠</div>
+        <div class="section-meta">
+          <div class="section-timing">Phase 5</div>
+          <div class="section-title">First Month: Settle In</div>
+        </div>
+      </div>
+      <ul class="checklist">
+        <li class="priority-high">
+          <div class="checkbox"></div>
+          <div class="item-text"><strong>Sign your apartment lease</strong><small>Budget: 2-3 months deposit + agency fee. Key money (reikin) in some areas.</small></div>
+        </li>
+        <li>
+          <div class="checkbox"></div>
+          <div class="item-text"><strong>Set up electricity</strong><small>TEPCO in Tokyo: online signup, English available. Done in 1 day.</small></div>
+        </li>
+        <li>
+          <div class="checkbox"></div>
+          <div class="item-text"><strong>Set up gas</strong><small>Technician visit required. Tokyo Gas. Must be present (half-day).</small></div>
+        </li>
+        <li>
+          <div class="checkbox"></div>
+          <div class="item-text"><strong>Set up internet</strong><small>NURO Fiber or SoftBank Air. 2-4 week install delay is common.</small></div>
+        </li>
+        <li>
+          <div class="checkbox"></div>
+          <div class="item-text"><strong>Register new address at ward office</strong><small>Update your Residence Card address within 14 days of moving in.</small></div>
+        </li>
+        <li>
+          <div class="checkbox"></div>
+          <div class="item-text"><strong>Apply for My Number Card</strong><small>At ward office. Takes 3-6 weeks. Required for taxes, some banking.</small></div>
+        </li>
+        <li>
+          <div class="checkbox"></div>
+          <div class="item-text"><strong>Get a personal hanko (seal)</strong><small>Optional but useful. Convenience stores have machines (Shachihata).</small></div>
+        </li>
+        <li>
+          <div class="checkbox"></div>
+          <div class="item-text"><strong>Visit a local clinic for health check</strong><small>Register with a family doctor (Kかかりつけ医) near your home.</small></div>
+        </li>
+      </ul>
+    </div>
+
+    <!-- PHASE 6 -->
+    <div class="section-gap">
+      <div class="section-header">
+        <div class="section-icon">📋</div>
+        <div class="section-meta">
+          <div class="section-timing">Phase 6</div>
+          <div class="section-title">First 3 Months: Administration</div>
+        </div>
+      </div>
+      <ul class="checklist">
+        <li>
+          <div class="checkbox"></div>
+          <div class="item-text"><strong>Collect My Number Card</strong><small>Bring notification letter + ID to ward office.</small></div>
+        </li>
+        <li>
+          <div class="checkbox"></div>
+          <div class="item-text"><strong>Convert driving license (if applicable)</strong><small>At JAF center. Bring JP license translation + original. 3-6 months wait.</small></div>
+        </li>
+        <li>
+          <div class="checkbox"></div>
+          <div class="item-text"><strong>Register for e-Tax (online tax portal)</strong><small>Required for annual tax return in March. maff.go.jp portal.</small></div>
+        </li>
+        <li>
+          <div class="checkbox"></div>
+          <div class="item-text"><strong>Update bank account with My Number</strong><small>Required by law. Do it at your branch or app.</small></div>
+        </li>
+      </ul>
+    </div>
+
+    <!-- PHASE 7 -->
+    <div class="section-gap">
+      <div class="section-header">
+        <div class="section-icon">🔄</div>
+        <div class="section-meta">
+          <div class="section-timing">Phase 7</div>
+          <div class="section-title">Ongoing: Stay Compliant</div>
+        </div>
+      </div>
+      <ul class="checklist">
+        <li>
+          <div class="checkbox"></div>
+          <div class="item-text"><strong>File annual tax return (kakutei shinkoku)</strong><small>Due by March 15. Required if income exceeds 2M JPY/year or multiple sources.</small></div>
+        </li>
+        <li>
+          <div class="checkbox"></div>
+          <div class="item-text"><strong>Renew Residence Card before expiry</strong><small>Check expiry date. Apply 3 months before at Immigration Services Agency.</small></div>
+        </li>
+        <li>
+          <div class="checkbox"></div>
+          <div class="item-text"><strong>Update address after any move</strong><small>Within 14 days at ward office. Also update bank, NHI, pension.</small></div>
+        </li>
+        <li>
+          <div class="checkbox"></div>
+          <div class="item-text"><strong>Review your visa renewal timeline</strong><small>Many visas: 1-3 year terms. Plan renewals 6 months in advance.</small></div>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</div>
+
+<!-- ============================== -->
+<!-- PAGE 5: BACK COVER / CTA       -->
+<!-- ============================== -->
+<div class="page back-cover">
+  <div class="back-cover-logo">Tokyo<span>Expat</span></div>
+  <div class="back-cover-tagline">Your relocation guide for life in Japan</div>
+  <div class="back-cover-divider"></div>
+
+  <div class="back-cover-title">Need personalized advice?</div>
+  <div class="back-cover-text">
+    Every relocation is different. Book a 1-on-1 consultation to get answers tailored to your visa situation, timeline, and budget.
+  </div>
+
+  <div class="services-grid">
+    <div class="service-card">
+      <div class="service-card-icon">📞</div>
+      <div class="service-card-title">1h Consultation</div>
+      <div class="service-card-text">Visa, housing, admin — answered for your situation</div>
+    </div>
+    <div class="service-card">
+      <div class="service-card-icon">📄</div>
+      <div class="service-card-text">Step-by-step PDF guides for every stage of your move</div>
+      <div class="service-card-title">PDF Guides</div>
+    </div>
+    <div class="service-card">
+      <div class="service-card-icon">💬</div>
+      <div class="service-card-title">Community</div>
+      <div class="service-card-text">Join 500+ expats in Tokyo sharing tips and advice</div>
+    </div>
+  </div>
+
+  <a class="back-cover-cta" href="https://tokyo-expat.com">Book a consultation</a>
+  <div class="back-cover-url">tokyo-expat.com</div>
+</div>
+
+</body>
+</html>

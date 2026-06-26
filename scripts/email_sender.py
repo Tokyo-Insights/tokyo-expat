@@ -226,6 +226,54 @@ DOMAIN_DATA: dict[str, dict[str, str]] = {
         'b2b_context': "Thales dispose d'un bureau a Tokyo dans les secteurs defense et aeronautique, avec des profils ingenieurs et commerciaux expatries",
         'our_url': 'https://www.tokyo-expat.com/fr/blog/trouver-appartement-tokyo-etranger',
     },
+    'akamonkai.ac.jp': {
+        'their_page': 'akamonkai.ac.jp/facilities',
+        'their_section': 'student facilities and housing resources',
+        'our_url': 'https://www.tokyo-expat.com/en/blog/share-house-tokyo-guide-2026',
+        'our_topic': 'share houses and furnished apartments for language students in Tokyo',
+    },
+    'nihongocenter.co.jp': {
+        'their_page': 'nihongocenter.co.jp/student-life',
+        'their_section': 'student life resources',
+        'our_url': 'https://www.tokyo-expat.com/en/blog/find-apartment-tokyo-foreigner',
+        'our_topic': 'housing in Tokyo for language students expanding to the city',
+    },
+    'jetro.go.jp': {
+        'their_page': 'jetro.go.jp/en/invest/setting_up/laws/chapter7',
+        'their_section': "Life in Japan / Housing section",
+        'our_url': 'https://www.tokyo-expat.com/en/blog/find-apartment-tokyo-foreigner',
+        'our_topic': 'renting an apartment in Tokyo as a foreign business professional',
+    },
+    'bccj.com': {
+        'their_page': 'bccj.com/resources/relocation',
+        'their_section': 'relocation guide for members',
+        'our_url': 'https://www.tokyo-expat.com/en/blog/find-apartment-tokyo-foreigner',
+        'our_topic': 'finding housing in Tokyo for British professionals relocating to Japan',
+    },
+    'accj.or.jp': {
+        'their_page': 'accj.or.jp/resources',
+        'their_section': 'member resources and relocation guides',
+        'our_url': 'https://www.tokyo-expat.com/en/blog/find-apartment-tokyo-foreigner',
+        'our_topic': 'Tokyo housing for American professionals and executives moving to Japan',
+    },
+    'seisen.com': {
+        'their_page': 'seisen.com/admissions',
+        'their_section': 'admissions and new family resources',
+        'our_url': 'https://www.tokyo-expat.com/en/blog/best-neighbourhoods-families-tokyo-guide',
+        'our_topic': 'best neighbourhoods for international families near Seisen in southern Tokyo',
+    },
+    'robertwalters.co.jp': {
+        'their_page': 'robertwalters.co.jp/en/candidates/living-in-japan',
+        'their_section': 'Living in Japan candidate guide',
+        'our_url': 'https://www.tokyo-expat.com/en/blog/find-apartment-tokyo-foreigner',
+        'our_topic': 'Tokyo housing for senior professionals being placed in Japan',
+    },
+    'rgf-professional.jp': {
+        'their_page': 'rgf-professional.jp/en/about/candidate-support',
+        'their_section': 'candidate support resources',
+        'our_url': 'https://www.tokyo-expat.com/en/blog/find-apartment-tokyo-foreigner',
+        'our_topic': 'practical housing guide for international tech and finance professionals in Tokyo',
+    },
 }
 
 
@@ -331,7 +379,7 @@ def build_email(contact: dict) -> tuple[str, str]:
 
     d = DOMAIN_DATA.get(domain, {})
     their_page = d.get("their_page", "")
-    their_section = d.get("their_section", "your website")
+    their_section = d.get("their_section", "")
     our_url = d.get("our_url", "https://www.tokyo-expat.com/en/blog/find-apartment-tokyo-foreigner")
     our_topic = d.get("our_topic", "finding housing in Tokyo as a foreigner")
 

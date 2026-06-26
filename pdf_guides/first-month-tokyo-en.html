@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your First Month in Tokyo 2026 — TokyoExpat</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --navy: #0f2744;
+    --navy-light: #1a3a5c;
+    --accent: #e84141;
+    --accent-light: #ff6b6b;
+    --white: #ffffff;
+    --gray-50: #f8fafc;
+    --gray-100: #f1f5f9;
+    --gray-300: #cbd5e1;
+    --gray-500: #64748b;
+    --gray-700: #334155;
+    --green: #16a34a;
+    --green-light: #dcfce7;
+    --orange: #ea580c;
+    --orange-light: #fff7ed;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Inter', sans-serif;
+    background: #e5e7eb;
+    color: var(--gray-700);
+    font-size: 10pt;
+    line-height: 1.5;
+  }
+
+  @page { size: A4; margin: 0; }
+
+  @media print {
+    body { background: white; }
+    .page { box-shadow: none; margin: 0; border-radius: 0; }
+    .no-print { display: none; }
+  }
+
+  .page {
+    width: 210mm;
+    min-height: 296mm;
+    background: white;
+    margin: 0 auto;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.15);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+
+  /* ---- COVER ---- */
+  .cover {
+    background: var(--navy);
+    min-height: 296mm;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .cover-top { padding: 48px 52px 0; }
+
+  .cover-logo { display: flex; align-items: center; gap: 10px; margin-bottom: 72px; }
+  .cover-logo-icon { width: 42px; height: 42px; }
+  .cover-logo-text { font-size: 18pt; font-weight: 800; color: white; letter-spacing: -0.5px; }
+  .cover-logo-text span { color: var(--accent); }
+  .cover-tagline { font-size: 9pt; color: rgba(255,255,255,0.45); letter-spacing: 1px; text-transform: uppercase; margin-top: 2px; }
+
+  .cover-badge { display: inline-block; background: var(--accent); color: white; font-size: 8pt; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; padding: 6px 16px; border-radius: 2px; margin-bottom: 28px; }
+  .cover-title { font-size: 34pt; font-weight: 900; color: white; line-height: 1.05; letter-spacing: -1.5px; margin-bottom: 20px; max-width: 440px; }
+  .cover-title .highlight { color: var(--accent); }
+  .cover-subtitle { font-size: 11pt; color: rgba(255,255,255,0.6); font-weight: 400; max-width: 380px; line-height: 1.7; }
+
+  .cover-weeks {
+    padding: 40px 52px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+  }
+
+  .cover-week {
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 8px;
+    padding: 16px 20px;
+    border-left: 3px solid var(--accent);
+  }
+
+  .cover-week-num { font-size: 8pt; font-weight: 700; color: var(--accent); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 4px; }
+  .cover-week-title { font-size: 11pt; font-weight: 700; color: white; margin-bottom: 4px; }
+  .cover-week-desc { font-size: 8pt; color: rgba(255,255,255,0.5); line-height: 1.4; }
+
+  .cover-footer { padding: 28px 52px; border-top: 1px solid rgba(255,255,255,0.1); display: flex; justify-content: space-between; align-items: center; margin-top: 32px; }
+  .cover-footer-text { font-size: 8.5pt; color: rgba(255,255,255,0.35); }
+  .cover-url { font-size: 9pt; color: rgba(255,255,255,0.45); font-weight: 500; }
+
+  /* ---- INNER PAGES ---- */
+  .inner { min-height: 296mm; display: flex; flex-direction: column; }
+
+  .page-header { background: var(--navy); padding: 16px 44px; display: flex; justify-content: space-between; align-items: center; }
+  .page-header-logo { font-size: 11pt; font-weight: 800; color: white; }
+  .page-header-logo span { color: var(--accent); }
+  .page-header-title { font-size: 8pt; color: rgba(255,255,255,0.5); letter-spacing: 0.5px; text-transform: uppercase; }
+
+  .page-content { padding: 28px 44px; flex: 1; }
+
+  .week-header {
+    display: flex;
+    align-items: stretch;
+    gap: 0;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid var(--gray-100);
+  }
+
+  .week-num-badge {
+    background: var(--navy);
+    color: white;
+    padding: 16px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 80px;
+  }
+
+  .week-num-badge .wn { font-size: 8pt; font-weight: 700; color: rgba(255,255,255,0.5); text-transform: uppercase; letter-spacing: 1px; }
+  .week-num-badge .wnum { font-size: 28pt; font-weight: 900; color: var(--accent); line-height: 1; }
+
+  .week-header-info {
+    background: var(--gray-50);
+    padding: 16px 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .week-title { font-size: 14pt; font-weight: 800; color: var(--navy); letter-spacing: -0.3px; margin-bottom: 4px; }
+  .week-desc { font-size: 8.5pt; color: var(--gray-500); line-height: 1.4; }
+
+  .task-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    margin-bottom: 16px;
+  }
+
+  .task-card {
+    background: var(--gray-50);
+    border: 1px solid var(--gray-100);
+    border-radius: 8px;
+    padding: 12px 14px;
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+  }
+
+  .task-card.urgent { border-left: 3px solid var(--accent); }
+  .task-card.info { border-left: 3px solid var(--navy); }
+  .task-card.tip { border-left: 3px solid var(--green); }
+
+  .task-icon { font-size: 16px; flex-shrink: 0; margin-top: 1px; }
+  .task-body { flex: 1; }
+  .task-title { font-size: 8.5pt; font-weight: 700; color: var(--navy); margin-bottom: 3px; }
+  .task-desc { font-size: 7.5pt; color: var(--gray-500); line-height: 1.4; }
+
+  .badge { display: inline-block; font-size: 6.5pt; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; padding: 2px 7px; border-radius: 3px; margin-bottom: 4px; }
+  .badge-urgent { background: rgba(232,65,65,0.12); color: var(--accent); }
+  .badge-tip { background: var(--green-light); color: var(--green); }
+  .badge-info { background: rgba(15,39,68,0.08); color: var(--navy); }
+
+  .info-box {
+    background: rgba(15,39,68,0.04);
+    border: 1px solid rgba(15,39,68,0.1);
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin: 12px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+  }
+
+  .info-item { font-size: 8pt; }
+  .info-label { font-weight: 700; color: var(--navy); margin-bottom: 1px; }
+  .info-value { color: var(--gray-500); }
+
+  .resource-row {
+    display: flex;
+    gap: 8px;
+    margin: 10px 0;
+    flex-wrap: wrap;
+  }
+
+  .resource-chip {
+    background: var(--navy);
+    color: white;
+    font-size: 7.5pt;
+    font-weight: 600;
+    padding: 5px 12px;
+    border-radius: 20px;
+  }
+
+  .resource-chip.accent { background: var(--accent); }
+
+  .cost-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 8pt;
+    margin: 10px 0;
+  }
+
+  .cost-table th {
+    background: var(--navy);
+    color: white;
+    padding: 7px 12px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 7.5pt;
+  }
+
+  .cost-table td {
+    padding: 7px 12px;
+    border-bottom: 1px solid var(--gray-100);
+  }
+
+  .cost-table tr:nth-child(even) td { background: var(--gray-50); }
+
+  .cost-highlight { color: var(--accent); font-weight: 700; }
+
+  .section-label {
+    font-size: 8pt;
+    font-weight: 700;
+    color: var(--accent);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    margin-top: 18px;
+  }
+
+  /* BACK COVER */
+  .back-cover {
+    background: var(--navy);
+    min-height: 296mm;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 52px;
+    text-align: center;
+  }
+
+  .back-cover-logo { font-size: 28pt; font-weight: 900; color: white; margin-bottom: 8px; letter-spacing: -1px; }
+  .back-cover-logo span { color: var(--accent); }
+  .back-cover-tagline { font-size: 10pt; color: rgba(255,255,255,0.5); margin-bottom: 44px; }
+  .back-cover-divider { width: 60px; height: 3px; background: var(--accent); border-radius: 2px; margin: 0 auto 44px; }
+  .back-cover-title { font-size: 20pt; font-weight: 800; color: white; margin-bottom: 16px; }
+  .back-cover-text { font-size: 10pt; color: rgba(255,255,255,0.6); line-height: 1.7; max-width: 340px; margin-bottom: 36px; }
+  .back-cover-cta { background: var(--accent); color: white; font-weight: 700; font-size: 11pt; padding: 14px 36px; border-radius: 8px; text-decoration: none; display: inline-block; margin-bottom: 16px; }
+  .back-cover-url { font-size: 9pt; color: rgba(255,255,255,0.3); }
+
+  .resource-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 12px;
+    margin: 28px 0 40px;
+    width: 100%;
+    max-width: 500px;
+  }
+
+  .resource-item {
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 8px;
+    padding: 14px 12px;
+    text-align: center;
+  }
+
+  .resource-item-icon { font-size: 18px; margin-bottom: 6px; }
+  .resource-item-name { font-size: 8pt; font-weight: 700; color: white; margin-bottom: 3px; }
+  .resource-item-desc { font-size: 7pt; color: rgba(255,255,255,0.4); }
+
+  .print-btn {
+    position: fixed; top: 20px; right: 20px;
+    background: var(--accent); color: white; border: none;
+    padding: 10px 20px; border-radius: 8px; font-size: 11pt;
+    font-weight: 600; cursor: pointer; font-family: 'Inter', sans-serif;
+    box-shadow: 0 4px 12px rgba(232,65,65,0.4); z-index: 999;
+  }
+</style>
+</head>
+<body>
+
+<button class="print-btn no-print" onclick="window.print()">Save as PDF</button>
+
+<!-- ============================== -->
+<!-- PAGE 1: COVER                  -->
+<!-- ============================== -->
+<div class="page cover">
+  <div class="cover-top">
+    <div class="cover-logo">
+      <svg class="cover-logo-icon" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="250" cy="250" r="245" fill="#1a3a5c"/>
+        <polygon points="250,105 130,210 155,210 155,345 220,345 220,280 280,280 280,345 345,345 345,210 370,210" fill="white"/>
+        <rect x="225" y="215" width="50" height="45" rx="4" fill="#0f2744"/>
+        <text x="250" y="385" font-family="Arial Black" font-weight="900" font-size="68" text-anchor="middle" fill="white">Tokyo</text>
+        <text x="250" y="455" font-family="Arial Black" font-weight="900" font-size="68" text-anchor="middle" fill="#e84141">Expat</text>
+      </svg>
+      <div>
+        <div class="cover-logo-text">Tokyo<span>Expat</span></div>
+        <div class="cover-tagline">Your Japan Relocation Experts</div>
+      </div>
+    </div>
+
+    <div class="cover-badge">Complete Setup Guide</div>
+    <div class="cover-title">Your First<br><span class="highlight">Month</span><br>in Tokyo</div>
+    <div class="cover-subtitle">From residence card to bank account, SIM card to health insurance: your week-by-week setup guide for 2026.</div>
+  </div>
+
+  <div class="cover-weeks">
+    <div class="cover-week">
+      <div class="cover-week-num">Week 1</div>
+      <div class="cover-week-title">Legal Foundation</div>
+      <div class="cover-week-desc">Residence Card + SIM card. Everything else depends on these two.</div>
+    </div>
+    <div class="cover-week">
+      <div class="cover-week-num">Week 2</div>
+      <div class="cover-week-title">Banking</div>
+      <div class="cover-week-desc">Open a Japanese bank account. PayPay Bank or Sony Bank for foreigners.</div>
+    </div>
+    <div class="cover-week">
+      <div class="cover-week-num">Week 3</div>
+      <div class="cover-week-title">Social Protection</div>
+      <div class="cover-week-desc">National Health Insurance and National Pension. Required by law.</div>
+    </div>
+    <div class="cover-week">
+      <div class="cover-week-num">Week 4</div>
+      <div class="cover-week-title">Utilities + ID</div>
+      <div class="cover-week-desc">Electricity, gas, internet, and My Number Card application.</div>
+    </div>
+  </div>
+
+  <div class="cover-footer">
+    <div class="cover-footer-text">© 2026 TokyoExpat.com — All rights reserved</div>
+    <div class="cover-url">tokyo-expat.com</div>
+  </div>
+</div>
+
+<!-- ============================== -->
+<!-- PAGE 2: WEEK 1 + 2             -->
+<!-- ============================== -->
+<div class="page inner">
+  <div class="page-header">
+    <div class="page-header-logo">Tokyo<span>Expat</span></div>
+    <div class="page-header-title">Your First Month in Tokyo — 2026</div>
+  </div>
+  <div class="page-content">
+
+    <!-- WEEK 1 -->
+    <div class="week-header">
+      <div class="week-num-badge">
+        <div class="wn">Week</div>
+        <div class="wnum">1</div>
+      </div>
+      <div class="week-header-info">
+        <div class="week-title">Legal Foundation: Residence Card + SIM</div>
+        <div class="week-desc">These two items unlock everything else. Do them on Day 1.</div>
+      </div>
+    </div>
+
+    <div class="task-grid">
+      <div class="task-card urgent">
+        <div class="task-icon">🏛️</div>
+        <div class="task-body">
+          <div class="badge badge-urgent">Day 1 — Priority</div>
+          <div class="task-title">Register at Ward Office (Shiyakusho)</div>
+          <div class="task-desc">Bring: passport, visa, accommodation address. You receive your Residence Card (在留カード). Without it: no bank, no lease, no NHI.</div>
+        </div>
+      </div>
+      <div class="task-card urgent">
+        <div class="task-icon">📱</div>
+        <div class="task-body">
+          <div class="badge badge-urgent">Day 1-2</div>
+          <div class="task-title">Get a Japanese SIM card</div>
+          <div class="task-desc">Sakura Mobile (airport pickup available) or IIJmio. Requires passport + Residence Card. 3GB plan: ~1,200 JPY/month.</div>
+        </div>
+      </div>
+      <div class="task-card info">
+        <div class="task-icon">🚃</div>
+        <div class="task-body">
+          <div class="badge badge-info">Day 1</div>
+          <div class="task-title">Get a Suica / Pasmo IC card</div>
+          <div class="task-desc">At any JR station. Load 3,000-5,000 JPY. Works on all trains, buses, taxis, convenience stores, vending machines.</div>
+        </div>
+      </div>
+      <div class="task-card info">
+        <div class="task-icon">💴</div>
+        <div class="task-body">
+          <div class="badge badge-info">Week 1</div>
+          <div class="task-title">Withdraw cash at 7-Eleven ATM</div>
+          <div class="task-desc">7-Eleven ATMs accept all foreign cards (Visa, Mastercard). Japan is still largely cash-based. Keep 50,000 JPY on hand at all times.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="info-box">
+      <div class="info-item"><div class="info-label">Ward Office Hours</div><div class="info-value">Mon-Fri 8:30-17:00. Some wards open 1st/3rd Saturday.</div></div>
+      <div class="info-item"><div class="info-label">Address format in Japan</div><div class="info-value">Block/lot number system. Get it exact from landlord or booking.</div></div>
+      <div class="info-item"><div class="info-label">Sakura Mobile SIM</div><div class="info-value">Data SIM from 1,100 JPY/mo. Voice plan: 2,200 JPY/mo. No guarantor needed.</div></div>
+      <div class="info-item"><div class="info-label">Airport SIM counter</div><div class="info-value">Terminal 1+2 at Narita, T2+3 at Haneda. Open 7:00-23:00.</div></div>
+    </div>
+
+    <!-- WEEK 2 -->
+    <div class="week-header" style="margin-top: 20px;">
+      <div class="week-num-badge">
+        <div class="wn">Week</div>
+        <div class="wnum">2</div>
+      </div>
+      <div class="week-header-info">
+        <div class="week-title">Banking: Open Your Japanese Account</div>
+        <div class="week-desc">Required for salary, rent payments, and tax. Most banks require 6+ months of residence. These do not.</div>
+      </div>
+    </div>
+
+    <div class="task-grid">
+      <div class="task-card urgent">
+        <div class="task-icon">🏦</div>
+        <div class="task-body">
+          <div class="badge badge-urgent">Best option</div>
+          <div class="task-title">PayPay Bank (online, English)</div>
+          <div class="task-desc">100% online setup. No waiting period. English UI. Free account. Fastest option for new arrivals. Requires My Number within 6 months.</div>
+        </div>
+      </div>
+      <div class="task-card info">
+        <div class="task-icon">🏦</div>
+        <div class="task-body">
+          <div class="badge badge-info">Alternative</div>
+          <div class="task-title">Sony Bank</div>
+          <div class="task-desc">Excellent for international transfers. English app. Low ATM fees. Multi-currency account available. Apply online in 10 minutes.</div>
+        </div>
+      </div>
+      <div class="task-card tip">
+        <div class="task-icon">💱</div>
+        <div class="task-body">
+          <div class="badge badge-tip">Tip</div>
+          <div class="task-title">Keep using Wise for transfers</div>
+          <div class="task-desc">Wise (formerly TransferWise) has the best EUR/USD to JPY rates. Use it alongside your Japanese account for international transfers.</div>
+        </div>
+      </div>
+      <div class="task-card info">
+        <div class="task-icon">💳</div>
+        <div class="task-body">
+          <div class="badge badge-info">Week 2-3</div>
+          <div class="task-title">Set up PayPay digital wallet</div>
+          <div class="task-desc">Japan's most popular cashless payment. Link to Japanese bank account. Accepted at 90%+ of convenience stores, restaurants, taxis.</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- ============================== -->
+<!-- PAGE 3: WEEK 3 + 4             -->
+<!-- ============================== -->
+<div class="page inner">
+  <div class="page-header">
+    <div class="page-header-logo">Tokyo<span>Expat</span></div>
+    <div class="page-header-title">Your First Month in Tokyo — 2026</div>
+  </div>
+  <div class="page-content">
+
+    <!-- WEEK 3 -->
+    <div class="week-header">
+      <div class="week-num-badge">
+        <div class="wn">Week</div>
+        <div class="wnum">3</div>
+      </div>
+      <div class="week-header-info">
+        <div class="week-title">Social Protection: Health Insurance + Pension</div>
+        <div class="week-desc">Both are mandatory by law for all residents in Japan. Do not skip this.</div>
+      </div>
+    </div>
+
+    <div class="task-grid">
+      <div class="task-card urgent">
+        <div class="task-icon">🏥</div>
+        <div class="task-body">
+          <div class="badge badge-urgent">Mandatory</div>
+          <div class="task-title">National Health Insurance (NHI)</div>
+          <div class="task-desc">Apply at ward office. Cost: 5,000-25,000 JPY/month based on income. Covers 70% of medical costs. Bring: Residence Card + passport.</div>
+        </div>
+      </div>
+      <div class="task-card urgent">
+        <div class="task-icon">🪪</div>
+        <div class="task-body">
+          <div class="badge badge-urgent">Mandatory</div>
+          <div class="task-title">National Pension (Kokumin Nenkin)</div>
+          <div class="task-desc">~16,980 JPY/month (2026). If low income, apply for full or partial exemption (menjo). Bring income documents to ward office.</div>
+        </div>
+      </div>
+      <div class="task-card info">
+        <div class="task-icon">🩺</div>
+        <div class="task-body">
+          <div class="badge badge-info">After NHI</div>
+          <div class="task-title">Register with a local clinic</div>
+          <div class="task-desc">Find a "kakariitsuke-i" (family doctor) near your home. Most accept walk-ins. Google "clinic near me + your ward" — many have English staff.</div>
+        </div>
+      </div>
+      <div class="task-card tip">
+        <div class="task-icon">🛡️</div>
+        <div class="task-body">
+          <div class="badge badge-tip">Bridge insurance</div>
+          <div class="task-title">Keep SafetyWing until NHI activates</div>
+          <div class="task-desc">NHI takes 1-2 weeks to activate. Keep your travel/expat insurance active during this gap. SafetyWing Nomad Insurance: ~$56/month.</div>
+        </div>
+      </div>
+    </div>
+
+    <table class="cost-table">
+      <tr><th>Monthly Cost Summary — Social Protection</th><th>Low Income</th><th>Average</th><th>High Income</th></tr>
+      <tr><td>National Health Insurance</td><td>5,000 JPY</td><td>13,000 JPY</td><td>25,000 JPY</td></tr>
+      <tr><td>National Pension</td><td>0 JPY (exempt)</td><td>16,980 JPY</td><td>16,980 JPY</td></tr>
+      <tr><td class="cost-highlight">Total</td><td class="cost-highlight">~5,000</td><td class="cost-highlight">~30,000</td><td class="cost-highlight">~42,000</td></tr>
+    </table>
+
+    <!-- WEEK 4 -->
+    <div class="week-header" style="margin-top: 20px;">
+      <div class="week-num-badge">
+        <div class="wn">Week</div>
+        <div class="wnum">4</div>
+      </div>
+      <div class="week-header-info">
+        <div class="week-title">Utilities + My Number Card Application</div>
+        <div class="week-desc">Set up electricity, gas, internet, and apply for your official Japanese ID card.</div>
+      </div>
+    </div>
+
+    <div class="task-grid">
+      <div class="task-card urgent">
+        <div class="task-icon">⚡</div>
+        <div class="task-body">
+          <div class="badge badge-urgent">Day 1 in apartment</div>
+          <div class="task-title">Electricity (TEPCO)</div>
+          <div class="task-desc">Online signup at tepco.co.jp. English available. Activate same day. Flip the breaker in your apartment fuse box first.</div>
+        </div>
+      </div>
+      <div class="task-card urgent">
+        <div class="task-icon">🔥</div>
+        <div class="task-body">
+          <div class="badge badge-urgent">Book early</div>
+          <div class="task-title">Gas (Tokyo Gas)</div>
+          <div class="task-desc">Technician visit required. Book at gas.or.jp. 1-2 week wait is common. You must be present. Take a half-day off work.</div>
+        </div>
+      </div>
+      <div class="task-card info">
+        <div class="task-icon">🌐</div>
+        <div class="task-body">
+          <div class="badge badge-info">Book immediately</div>
+          <div class="task-title">Internet (NURO Fiber / SoftBank)</div>
+          <div class="task-desc">Installation: 2-4 week wait. Use mobile data in the meantime. NURO: 2Gb fiber, ~4,950 JPY/month. Softbank Air: no construction, ~5,368 JPY.</div>
+        </div>
+      </div>
+      <div class="task-card info">
+        <div class="task-icon">🪪</div>
+        <div class="task-body">
+          <div class="badge badge-info">Apply week 3-4</div>
+          <div class="task-title">My Number Card (Kojin Bango Card)</div>
+          <div class="task-desc">Apply at ward office or online (mynaportal.digital.go.jp). Collection takes 3-6 weeks. Required for taxes, some banking, and government services.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section-label">Essential Apps to Download This Month</div>
+    <div class="resource-row">
+      <div class="resource-chip">Google Maps (EN transit)</div>
+      <div class="resource-chip">Google Translate (camera mode)</div>
+      <div class="resource-chip accent">PayPay</div>
+      <div class="resource-chip">LINE</div>
+      <div class="resource-chip">Suica app</div>
+      <div class="resource-chip">Hyperdia (trains)</div>
+      <div class="resource-chip">Tabelog (restaurants)</div>
+      <div class="resource-chip accent">My Number portal</div>
+    </div>
+
+  </div>
+</div>
+
+<!-- ============================== -->
+<!-- PAGE 4: COSTS + RESOURCES      -->
+<!-- ============================== -->
+<div class="page inner">
+  <div class="page-header">
+    <div class="page-header-logo">Tokyo<span>Expat</span></div>
+    <div class="page-header-title">Your First Month in Tokyo — 2026</div>
+  </div>
+  <div class="page-content">
+
+    <div class="section-label">Budget: What Your First Month Will Cost</div>
+    <table class="cost-table">
+      <tr><th>Category</th><th>One-time Cost</th><th>Monthly Ongoing</th></tr>
+      <tr><td>Apartment deposit (2 months)</td><td>200,000-260,000 JPY</td><td>—</td></tr>
+      <tr><td>Agency fee</td><td>55,000-110,000 JPY</td><td>—</td></tr>
+      <tr><td>Rent (1K/1LDK, central Tokyo)</td><td>—</td><td>85,000-130,000 JPY</td></tr>
+      <tr><td>SIM card (voice + data)</td><td>0-3,000 JPY</td><td>2,200-3,300 JPY</td></tr>
+      <tr><td>National Health Insurance</td><td>—</td><td>~13,000 JPY</td></tr>
+      <tr><td>National Pension</td><td>—</td><td>16,980 JPY</td></tr>
+      <tr><td>Electricity + Gas</td><td>—</td><td>8,000-15,000 JPY</td></tr>
+      <tr><td>Internet (fiber)</td><td>Installation: 0-30,000 JPY</td><td>4,950-5,368 JPY</td></tr>
+      <tr><td>Groceries + Daily Life</td><td>—</td><td>40,000-70,000 JPY</td></tr>
+      <tr><td class="cost-highlight">Estimated First Month Total</td><td class="cost-highlight">400,000-500,000 JPY</td><td class="cost-highlight">~180,000 JPY</td></tr>
+    </table>
+
+    <div class="section-label" style="margin-top: 20px;">Week-by-week Summary</div>
+    <div class="task-grid">
+      <div class="task-card">
+        <div class="task-body">
+          <div class="task-title">Week 1 checklist</div>
+          <div class="task-desc">
+            ☐ Ward office: Residence Card<br>
+            ☐ SIM card (Sakura Mobile)<br>
+            ☐ Suica IC card<br>
+            ☐ Cash at 7-Eleven ATM<br>
+            ☐ Explore neighborhood
+          </div>
+        </div>
+      </div>
+      <div class="task-card">
+        <div class="task-body">
+          <div class="task-title">Week 2 checklist</div>
+          <div class="task-desc">
+            ☐ Open PayPay Bank (online)<br>
+            ☐ Set up PayPay wallet<br>
+            ☐ Continue apartment search<br>
+            ☐ Download essential apps<br>
+            ☐ Sign lease (if found)
+          </div>
+        </div>
+      </div>
+      <div class="task-card">
+        <div class="task-body">
+          <div class="task-title">Week 3 checklist</div>
+          <div class="task-desc">
+            ☐ National Health Insurance<br>
+            ☐ National Pension (or menjo)<br>
+            ☐ Find local clinic<br>
+            ☐ Book gas installation<br>
+            ☐ Order internet connection
+          </div>
+        </div>
+      </div>
+      <div class="task-card">
+        <div class="task-body">
+          <div class="task-title">Week 4 checklist</div>
+          <div class="task-desc">
+            ☐ Gas installation (be home)<br>
+            ☐ Electricity (TEPCO online)<br>
+            ☐ Apply for My Number Card<br>
+            ☐ Update bank with new address<br>
+            ☐ Register driving license (JAF)
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section-label" style="margin-top: 18px;">Useful Contacts and Resources</div>
+    <div class="task-grid">
+      <div class="task-card info">
+        <div class="task-icon">🌐</div>
+        <div class="task-body">
+          <div class="task-title">Immigration Services Agency</div>
+          <div class="task-desc">immi-moj.go.jp — Residence card renewals, status changes, re-entry permits</div>
+        </div>
+      </div>
+      <div class="task-card info">
+        <div class="task-icon">🌐</div>
+        <div class="task-body">
+          <div class="task-title">My Number Portal</div>
+          <div class="task-desc">mynaportal.digital.go.jp — My Number Card application and digital services</div>
+        </div>
+      </div>
+      <div class="task-card info">
+        <div class="task-icon">📞</div>
+        <div class="task-body">
+          <div class="task-title">Foreign Resident Support Center</div>
+          <div class="task-desc">0570-013-904 — Multilingual support. Mon-Fri 9:00-17:00. English, French, Chinese, Korean.</div>
+        </div>
+      </div>
+      <div class="task-card tip">
+        <div class="task-icon">🌐</div>
+        <div class="task-body">
+          <div class="task-title">More guides at tokyo-expat.com</div>
+          <div class="task-desc">100+ articles on visas, banking, neighborhoods, Japanese culture, and more.</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- ============================== -->
+<!-- PAGE 5: BACK COVER             -->
+<!-- ============================== -->
+<div class="page back-cover">
+  <div class="back-cover-logo">Tokyo<span>Expat</span></div>
+  <div class="back-cover-tagline">Your step-by-step guide to life in Japan</div>
+  <div class="back-cover-divider"></div>
+  <div class="back-cover-title">More resources available</div>
+  <div class="back-cover-text">From visa applications to finding your perfect neighborhood, tokyo-expat.com has guides for every stage of your Japan journey.</div>
+
+  <div class="resource-list">
+    <div class="resource-item">
+      <div class="resource-item-icon">📋</div>
+      <div class="resource-item-name">Relocation Checklist</div>
+      <div class="resource-item-desc">90+ items from 6 months before to Day 1</div>
+    </div>
+    <div class="resource-item">
+      <div class="resource-item-icon">🏠</div>
+      <div class="resource-item-name">Apartment Guide</div>
+      <div class="resource-item-desc">Find housing in Tokyo as a foreigner</div>
+    </div>
+    <div class="resource-item">
+      <div class="resource-item-icon">📞</div>
+      <div class="resource-item-name">Consultation</div>
+      <div class="resource-item-desc">1-on-1 session tailored to your situation</div>
+    </div>
+  </div>
+
+  <a class="back-cover-cta" href="https://tokyo-expat.com">Visit tokyo-expat.com</a>
+  <div class="back-cover-url">© 2026 TokyoExpat.com — All rights reserved</div>
+</div>
+
+</body>
+</html>

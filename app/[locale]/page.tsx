@@ -8,6 +8,7 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>
 }): Promise<Metadata> {
   const { locale } = await params
+  const altLocale = locale === 'fr' ? 'en' : 'fr'
   const titles: Record<string, string> = {
     fr: 'Tokyo Expat — Chasseur Immobilier à Tokyo',
     en: 'Tokyo Expat — Property Hunter in Tokyo',
@@ -16,10 +17,30 @@ export async function generateMetadata({
     fr: 'Trouvez votre logement à Tokyo avec un chasseur immobilier dédié. Share house, appartement meublé, maison. Consultation gratuite.',
     en: 'Find your housing in Tokyo with a dedicated property hunter. Share house, furnished apartment, house. Free consultation.',
   }
+  const title = titles[locale] ?? titles.fr
+  const description = descriptions[locale] ?? descriptions.fr
   return {
-    title: titles[locale] ?? titles.fr,
-    description: descriptions[locale] ?? descriptions.fr,
-    alternates: { canonical: `/${locale}` },
+    title,
+    description,
+    alternates: {
+      canonical: `/${locale}`,
+      languages: {
+        [locale]: `https://www.tokyo-expat.com/${locale}`,
+        [altLocale]: `https://www.tokyo-expat.com/${altLocale}`,
+        'x-default': 'https://www.tokyo-expat.com/en',
+      },
+    },
+    openGraph: {
+      title,
+      description,
+      type: 'website',
+      url: `https://www.tokyo-expat.com/${locale}`,
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+    },
   }
 }
 
@@ -39,28 +60,53 @@ export default async function HomePage({
     '@type': 'ProfessionalService',
     name: 'Tokyo Expat',
     url: 'https://www.tokyo-expat.com',
+    logo: {
+      '@type': 'ImageObject',
+      url: 'https://www.tokyo-expat.com/icon.png',
+      width: 32,
+      height: 32,
+    },
     description: locale === 'fr'
       ? 'Chasseur immobilier à Tokyo pour francophones et expatriés. Share house, appartement meublé, maison.'
       : 'Property hunter in Tokyo for expats. Share house, furnished apartment, house.',
     areaServed: { '@type': 'City', name: 'Tokyo', sameAs: 'https://www.wikidata.org/wiki/Q1490' },
     serviceType: locale === 'fr' ? 'Chasseur immobilier' : 'Property Hunter',
     inLanguage: locale === 'fr' ? ['fr', 'en'] : ['en', 'fr'],
+    contactPoint: {
+      '@type': 'ContactPoint',
+      contactType: 'customer service',
+      availableLanguage: ['French', 'English', 'Japanese'],
+      url: `https://www.tokyo-expat.com/${locale}/contact`,
+    },
     founder: {
       '@type': 'Person',
       name: 'Alessandro',
       jobTitle: locale === 'fr' ? 'Chasseur immobilier à Tokyo' : 'Tokyo Property Hunter',
       sameAs: [
-        'https://www.expat.com/forum/profile.php?id=3965509',
-        'https://www.facebook.com/profile.php?id=61591352422178',
+        'https://www.linkedin.com/company/tokyo-expat',
+        'https://www.facebook.com/tokyoexpatguide',
       ],
     },
     sameAs: [
-      'https://www.expat.com/forum/profile.php?id=3965509',
-      'https://www.facebook.com/profile.php?id=61591352422178',
+      'https://www.linkedin.com/company/tokyo-expat',
+      'https://www.facebook.com/tokyoexpatguide',
     ],
     offers: {
       '@type': 'Offer',
       url: `https://www.tokyo-expat.com/${locale}/services`,
+    },
+  }
+
+  const websiteLd = {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: 'Tokyo Expat',
+    url: 'https://www.tokyo-expat.com',
+    inLanguage: ['fr', 'en'],
+    publisher: {
+      '@type': 'Organization',
+      name: 'Tokyo Expat',
+      url: 'https://www.tokyo-expat.com',
     },
   }
 
@@ -117,6 +163,10 @@ export default async function HomePage({
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteLd) }}
       />
       {/* Hero */}
       <section className="bg-[#0f2744] text-white py-24 px-4">

@@ -1,0 +1,67 @@
+{
+  "generated_at": "2026-06-26",
+  "period": "2026-06-19 to 2026-06-26",
+  "this_week": {
+    "sessions": 77,
+    "users": 62,
+    "pageviews": 140,
+    "bounce_rate": 0.7402597402597403
+  },
+  "prev_week": {
+    "sessions": 0,
+    "users": 0,
+    "pageviews": 0,
+    "bounce_rate": 0
+  },
+  "changes": {
+    "sessions": "+100%",
+    "users": "+100%",
+    "pageviews": "+100%"
+  },
+  "top_pages": [
+    [
+      "/fr",
+      "53"
+    ],
+    [
+      "/en",
+      "30"
+    ],
+    [
+      "/admin/devis",
+      "7"
+    ],
+    [
+      "/en/services",
+      "7"
+    ],
+    [
+      "/fr/contact",
+      "7"
+    ]
+  ],
+  "top_sources": [
+    [
+      "Direct",
+      "73"
+    ],
+    [
+      "Organic Search",
+      "2"
+    ],
+    [
+      "Referral",
+      "1"
+    ]
+  ],
+  "form_submits_week": 0,
+  "events": {
+    "page_view": 140,
+    "session_start": 76,
+    "user_engagement": 65,
+    "first_visit": 62,
+    "scroll": 39,
+    "form_start": 8,
+    "click": 1
+  }
+}

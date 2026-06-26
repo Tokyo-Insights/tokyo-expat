@@ -8,9 +8,33 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>
 }): Promise<Metadata> {
   const { locale } = await params
+  const altLocale = locale === 'fr' ? 'en' : 'fr'
+  const title = locale === 'en' ? 'About — Tokyo Expat' : 'À propos — Tokyo Expat'
+  const description = locale === 'en'
+    ? 'Alessandro, Tokyo property hunter. Bilingual English-French-Japanese. Specialist in furnished short-term housing and monthly mansions for expats. Free consultation.'
+    : 'Alessandro, chasseur immobilier à Tokyo. Bilingue français-anglais-japonais. Spécialiste du logement meublé courte durée pour expatriés. Consultation gratuite.'
   return {
-    title: locale === 'en' ? 'About — Tokyo Expat' : 'À propos — Tokyo Expat',
-    alternates: { canonical: `/${locale}/about` },
+    title,
+    description,
+    alternates: {
+      canonical: `/${locale}/about`,
+      languages: {
+        [locale]: `https://www.tokyo-expat.com/${locale}/about`,
+        [altLocale]: `https://www.tokyo-expat.com/${altLocale}/about`,
+        'x-default': 'https://www.tokyo-expat.com/en/about',
+      },
+    },
+    openGraph: {
+      title,
+      description,
+      type: 'profile',
+      url: `https://www.tokyo-expat.com/${locale}/about`,
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+    },
   }
 }
 
@@ -25,8 +49,49 @@ export default async function AboutPage({
 
   const whyPoints = [a.why_1, a.why_2, a.why_3, a.why_4, a.why_5]
 
+  const breadcrumbLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Tokyo Expat', item: 'https://www.tokyo-expat.com' },
+      { '@type': 'ListItem', position: 2, name: locale === 'fr' ? 'À propos' : 'About', item: `https://www.tokyo-expat.com/${locale}/about` },
+    ],
+  }
+
+  const personLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Person',
+    name: 'Alessandro',
+    jobTitle: locale === 'fr' ? 'Chasseur immobilier bilingue à Tokyo' : 'Bilingual property hunter in Tokyo',
+    url: `https://www.tokyo-expat.com/${locale}/about`,
+    worksFor: {
+      '@type': 'Organization',
+      name: 'Tokyo Expat',
+      url: 'https://www.tokyo-expat.com',
+    },
+    knowsAbout: [
+      'Tokyo real estate',
+      'Japan expat housing',
+      'Japanese rental market',
+      'Share houses Tokyo',
+      'Furnished apartments Tokyo',
+    ],
+    sameAs: [
+      'https://www.linkedin.com/company/tokyo-expat',
+      'https://www.facebook.com/tokyoexpatguide',
+    ],
+  }
+
   return (
     <div className="max-w-4xl mx-auto px-4 py-16">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(personLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
+      />
       <h1 className="text-4xl font-extrabold text-[#0f2744] mb-10">{a.title}</h1>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mb-16">

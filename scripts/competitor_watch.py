@@ -36,6 +36,7 @@ HEADERS = {
 
 # ── COMPETITORS à surveiller ───────────────────────────────────────────────────
 COMPETITORS = {
+    # ── Core concurrents directs ──────────────────────────────────────────────
     "Remoters": {
         "sitemap": "https://www.remoters.io/sitemap.xml",
         "domain": "remoters.io",
@@ -46,37 +47,25 @@ COMPETITORS = {
         "sitemap": "https://housing.gaijinpot.com/sitemap.xml",
         "domain": "housing.gaijinpot.com",
         "note": "portail listing — backlinks forts",
-        "content_publisher": False,  # listings immobiliers, pas des articles
+        "content_publisher": False,
     },
     "GaijinPot Blog": {
         "sitemap": "https://blog.gaijinpot.com/sitemap.xml",
         "domain": "blog.gaijinpot.com",
-        "note": "blog expat en anglais — surveiller topics",
+        "note": "blog expat EN — surveiller topics",
         "content_publisher": True,
     },
     "Sakura House": {
         "sitemap": "https://www.sakura-house.com/sitemap.xml",
         "domain": "sakura-house.com",
         "note": "share house leader — surveiller promos",
-        "content_publisher": False,  # pages de share houses individuelles, pas des articles
+        "content_publisher": False,
     },
     "Oak House": {
         "sitemap": "https://www.oakhouse.jp/sitemap.xml",
         "domain": "oakhouse.jp",
         "note": "share house — concurrence directe",
-        "content_publisher": False,  # listings /apartment/NNNN, pas des articles editoriaux
-    },
-    "Tokyo Cheapo": {
-        "sitemap": "https://tokyocheapo.com/sitemap.xml",
-        "domain": "tokyocheapo.com",
-        "note": "guide expat — opportunités backlinks",
-        "content_publisher": True,
-    },
-    "Japan Guide": {
-        "sitemap": "https://www.japan-guide.com/sitemap.xml",
-        "domain": "japan-guide.com",
-        "note": "grand site — surveiller section logement",
-        "content_publisher": True,
+        "content_publisher": False,
     },
     "Fontaine Relocation": {
         "sitemap": "https://fontaine.co.jp/sitemap.xml",
@@ -84,16 +73,118 @@ COMPETITORS = {
         "note": "relocation FR/JP — concurrent niche francophone",
         "content_publisher": True,
     },
+    # ── Editeurs contenu expat EN ─────────────────────────────────────────────
+    "Tokyo Cheapo": {
+        "sitemap": "https://tokyocheapo.com/sitemap.xml",
+        "domain": "tokyocheapo.com",
+        "note": "guide expat — backlinks potentiels",
+        "content_publisher": True,
+    },
     "Savvy Tokyo": {
         "sitemap": "https://savvytokyo.com/sitemap.xml",
         "domain": "savvytokyo.com",
-        "note": "magazine lifestyle expat Tokyo — backlinks potentiels, guest posts",
+        "note": "magazine lifestyle expat Tokyo",
+        "content_publisher": True,
+    },
+    "Japan Guide": {
+        "sitemap": "https://www.japan-guide.com/sitemap.xml",
+        "domain": "japan-guide.com",
+        "note": "grand site JP — section logement",
         "content_publisher": True,
     },
     "Japan Property Central": {
         "sitemap": "https://japanpropertycentral.com/sitemap.xml",
         "domain": "japanpropertycentral.com",
-        "note": "info achat immobilier JP — concurrent partiel, opportunités backlinks",
+        "note": "achat immobilier JP — backlinks",
+        "content_publisher": True,
+    },
+    "Japan Today": {
+        "sitemap": "https://japantoday.com/sitemap.xml",
+        "domain": "japantoday.com",
+        "note": "media JP EN — surveiller section life/housing",
+        "content_publisher": True,
+    },
+    "City Cost": {
+        "sitemap": "https://www.city-cost.com/sitemap.xml",
+        "domain": "city-cost.com",
+        "note": "blog vie pratique JP — concurrent contenu direct",
+        "content_publisher": True,
+    },
+    "Japan Insiders": {
+        "sitemap": "https://japaninsiders.com/sitemap.xml",
+        "domain": "japaninsiders.com",
+        "note": "guide expat mid-size — audience pertinente",
+        "content_publisher": True,
+    },
+    "Tofugu": {
+        "sitemap": "https://www.tofugu.com/sitemap.xml",
+        "domain": "tofugu.com",
+        "note": "blog JP culture DA65 — section Living in Japan",
+        "content_publisher": True,
+    },
+    "Time Out Tokyo": {
+        "sitemap": "https://www.timeout.com/sitemap.xml",
+        "domain": "timeout.com",
+        "note": "magazine lifestyle Tokyo — backlinks DR80",
+        "content_publisher": True,
+    },
+    # ── Share houses supplementaires ─────────────────────────────────────────
+    "Gaijin House": {
+        "sitemap": "https://www.gaijinhouse.com/sitemap.xml",
+        "domain": "gaijinhouse.com",
+        "note": "share house/guesthouse — concurrent direct",
+        "content_publisher": False,
+    },
+    "Tokyo Share House": {
+        "sitemap": "https://www.tokyosharehouse.com/sitemap.xml",
+        "domain": "tokyosharehouse.com",
+        "note": "portail share house JP — concurrent listings",
+        "content_publisher": False,
+    },
+    # ── Relocation / RH ──────────────────────────────────────────────────────
+    "Crown Relocations JP": {
+        "sitemap": "https://www.crownrelo.com/sitemap.xml",
+        "domain": "crownrelo.com",
+        "note": "relocation B2B — surveiller services Tokyo",
+        "content_publisher": True,
+    },
+    "Asian Tigers Japan": {
+        "sitemap": "https://www.asiantigers-japan.com/sitemap.xml",
+        "domain": "asiantigers-japan.com",
+        "note": "demenageur + relocation — concurrent partiel",
+        "content_publisher": True,
+    },
+    # ── Finance expat ─────────────────────────────────────────────────────────
+    "Wise Blog JP": {
+        "sitemap": "https://wise.com/sitemap.xml",
+        "domain": "wise.com",
+        "note": "fintech — blog Japan forte audience expat",
+        "content_publisher": True,
+    },
+    # ── Concurrents directs chasseur immobilier Tokyo ────────────────────────
+    "Modern Living Tokyo": {
+        "sitemap": "https://www.modernlivingtokyo.com/sitemap.xml",
+        "domain": "modernlivingtokyo.com",
+        "note": "CONCURRENT DIRECT #1 — chasseur immobilier Tokyo EN — surveiller chaque article",
+        "content_publisher": True,
+    },
+    "Tokyo Furnished": {
+        "sitemap": "https://www.tokyofurnished.com/sitemap.xml",
+        "domain": "tokyofurnished.com",
+        "note": "CONCURRENT DIRECT #2 — appartements meubles + articles expat Tokyo",
+        "content_publisher": True,
+    },
+    # ── Marche FR ─────────────────────────────────────────────────────────────
+    "Vivre Au Japon": {
+        "sitemap": "https://vivre-au-japon.com/sitemap.xml",
+        "domain": "vivre-au-japon.com",
+        "note": "blog FR expatrie JP — concurrent marche francophone",
+        "content_publisher": True,
+    },
+    "Japon Online": {
+        "sitemap": "https://www.japon-online.fr/sitemap.xml",
+        "domain": "japon-online.fr",
+        "note": "portail FR Japon — section logement/expatrie",
         "content_publisher": True,
     },
 }

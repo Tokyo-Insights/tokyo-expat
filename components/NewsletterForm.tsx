@@ -4,6 +4,7 @@ import type { ReactNode } from 'react'
 
 interface Props {
   locale: string
+  theme?: 'dark' | 'light'
   labels?: {
     title?: string
     subtitle?: string
@@ -14,7 +15,7 @@ interface Props {
   }
 }
 
-export default function NewsletterForm({ locale, labels = {} }: Props): ReactNode {
+export default function NewsletterForm({ locale, theme = 'dark', labels = {} }: Props): ReactNode {
   const [email, setEmail] = useState('')
   const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle')
 
@@ -45,12 +46,14 @@ export default function NewsletterForm({ locale, labels = {} }: Props): ReactNod
     }
   }
 
+  const isLight = theme === 'light'
+
   return (
     <div>
-      <p className="text-white font-semibold mb-1 text-sm">{t.title}</p>
-      <p className="text-gray-400 text-xs mb-3">{t.subtitle}</p>
+      <p className={`font-semibold mb-1 text-sm ${isLight ? 'text-[#0f2744]' : 'text-white'}`}>{t.title}</p>
+      <p className={`text-xs mb-3 ${isLight ? 'text-gray-500' : 'text-gray-400'}`}>{t.subtitle}</p>
       {status === 'success' ? (
-        <p className="text-green-400 text-sm">{t.success}</p>
+        <p className="text-green-600 text-sm">{t.success}</p>
       ) : (
         <form onSubmit={handleSubmit} className="flex flex-col gap-2">
           <input
@@ -60,7 +63,11 @@ export default function NewsletterForm({ locale, labels = {} }: Props): ReactNod
             placeholder={t.placeholder}
             required
             disabled={status === 'loading'}
-            className="px-3 py-2 rounded text-sm bg-[#0f2744] border border-gray-600 text-white placeholder-gray-500 focus:outline-none focus:border-[#e84141]"
+            className={`px-3 py-2 rounded text-sm border focus:outline-none focus:border-[#e84141] ${
+              isLight
+                ? 'bg-white border-gray-300 text-gray-900 placeholder-gray-400'
+                : 'bg-[#0f2744] border-gray-600 text-white placeholder-gray-500'
+            }`}
           />
           <button
             type="submit"
@@ -69,7 +76,7 @@ export default function NewsletterForm({ locale, labels = {} }: Props): ReactNod
           >
             {status === 'loading' ? '...' : t.button}
           </button>
-          {status === 'error' && <p className="text-red-400 text-xs">{t.error}</p>}
+          {status === 'error' && <p className="text-red-500 text-xs">{t.error}</p>}
         </form>
       )}
     </div>

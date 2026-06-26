@@ -1,128 +1,100 @@
-'use client'
+import type { Metadata } from 'next'
+import type { Locale } from '@/lib/i18n'
+import ContactForm from './ContactForm'
 
-import { useState } from 'react'
-import { useParams } from 'next/navigation'
-import { getDictionary, type Locale } from '@/lib/i18n'
-
-const FORMSPREE_ID = process.env.NEXT_PUBLIC_FORMSPREE_ID ?? ''
-
-export default function ContactPage() {
-  const params = useParams()
-  const locale = (params?.locale as Locale) ?? 'fr'
-  const dict = getDictionary(locale)
-  const c = dict.contact
-
-  const [name, setName] = useState('')
-  const [email, setEmail] = useState('')
-  const [message, setMessage] = useState('')
-  const [sent, setSent] = useState(false)
-  const [error, setError] = useState(false)
-
-  async function handleSubmit(e: React.FormEvent) {
-    e.preventDefault()
-    setError(false)
-    try {
-      const res = await fetch(`https://formspree.io/f/${FORMSPREE_ID}`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
-        body: JSON.stringify({ name, email, message, locale }),
-      })
-      if (res.ok) {
-        setSent(true)
-      } else {
-        setError(true)
-      }
-    } catch {
-      setError(true)
-    }
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>
+}): Promise<Metadata> {
+  const { locale } = await params
+  const altLocale = locale === 'fr' ? 'en' : 'fr'
+  const title = locale === 'en' ? 'Contact — Tokyo Expat' : 'Contact — Tokyo Expat'
+  const description = locale === 'en'
+    ? 'Contact Tokyo Expat for a free 30-minute consultation on finding housing in Tokyo. Share house, furnished apartment, family home.'
+    : 'Contactez Tokyo Expat pour une consultation gratuite de 30 minutes sur la recherche de logement a Tokyo.'
+  return {
+    title,
+    description,
+    alternates: {
+      canonical: `/${locale}/contact`,
+      languages: {
+        [locale]: `https://www.tokyo-expat.com/${locale}/contact`,
+        [altLocale]: `https://www.tokyo-expat.com/${altLocale}/contact`,
+        'x-default': 'https://www.tokyo-expat.com/en/contact',
+      },
+    },
+    openGraph: {
+      title,
+      description,
+      type: 'website',
+      url: `https://www.tokyo-expat.com/${locale}/contact`,
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+    },
   }
+}
+
+export default async function ContactPage({
+  params,
+}: {
+  params: Promise<{ locale: string }>
+}) {
+  const { locale } = await params
+
+  const breadcrumbLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Tokyo Expat', item: 'https://www.tokyo-expat.com' },
+      { '@type': 'ListItem', position: 2, name: 'Contact', item: `https://www.tokyo-expat.com/${locale}/contact` },
+    ],
+  }
+
+  const contactLd = {
+    '@context': 'https://schema.org',
+    '@type': 'ContactPage',
+    name: 'Contact - Tokyo Expat',
+    url: `https://www.tokyo-expat.com/${locale}/contact`,
+    description: locale === 'fr'
+      ? 'Contactez Tokyo Expat pour une consultation gratuite sur la recherche de logement a Tokyo.'
+      : 'Contact Tokyo Expat for a free consultation on finding housing in Tokyo.',
+    mainEntity: {
+      '@type': 'Organization',
+      name: 'Tokyo Expat',
+      url: 'https://www.tokyo-expat.com',
+      email: 'contact@tokyo-expat.com',
+      contactPoint: {
+        '@type': 'ContactPoint',
+        contactType: 'customer service',
+        email: 'contact@tokyo-expat.com',
+        availableLanguage: ['French', 'English', 'Japanese'],
+        url: 'https://calendly.com/info-tokyoinsights/free-discovery-call',
+      },
+    },
+  }
+
+  const titleText = locale === 'fr' ? 'Contact' : 'Contact'
+  const subtitleText = locale === 'fr'
+    ? 'Une question sur votre projet a Tokyo ? Ecrivez-nous ou reservez un appel gratuit.'
+    : 'A question about your Tokyo project? Write to us or book a free call.'
 
   return (
     <div className="max-w-2xl mx-auto px-4 py-16">
-      <h1 className="text-4xl font-extrabold text-[#0f2744] mb-4">{c.title}</h1>
-      <p className="text-gray-500 mb-12 leading-relaxed">{c.subtitle}</p>
-
-      {/* Calendly CTA */}
-      <div className="bg-[#0f2744] rounded-2xl p-8 mb-8 text-center">
-        <p className="text-white/70 text-sm uppercase tracking-widest mb-2">
-          {locale === 'fr' ? 'Consultation gratuite' : 'Free consultation'}
-        </p>
-        <h2 className="text-white text-2xl font-bold mb-3">
-          {locale === 'fr' ? 'Réservez votre appel de 30 min' : 'Book your 30-min call'}
-        </h2>
-        <p className="text-white/70 text-sm mb-6">
-          {locale === 'fr'
-            ? 'Choisissez un créneau qui vous convient. Sans engagement.'
-            : 'Pick a time that works for you. No obligation.'}
-        </p>
-        <a
-          href="https://calendly.com/info-tokyoinsights/free-discovery-call"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-block bg-[#e84141] hover:bg-[#ff6b6b] text-white px-8 py-3 rounded-xl font-bold transition-colors"
-        >
-          {locale === 'fr' ? 'Réserver maintenant →' : 'Book now →'}
-        </a>
-      </div>
-
-      <div className="bg-gray-50 border border-gray-200 rounded-2xl p-8">
-        <h2 className="font-bold text-[#0f2744] text-xl mb-6">{c.form_title}</h2>
-        {sent ? (
-          <div className="bg-green-50 border border-green-200 rounded-xl p-6 text-green-800 text-center font-medium">
-            {c.sent}
-          </div>
-        ) : (
-          <form onSubmit={handleSubmit} className="flex flex-col gap-5">
-            <div>
-              <label className="block text-sm font-medium text-gray-700 mb-1">{c.name_label}</label>
-              <input
-                type="text"
-                required
-                value={name}
-                onChange={(e) => setName(e.target.value)}
-                className="w-full border border-gray-300 rounded-lg px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-[#0f2744]"
-              />
-            </div>
-            <div>
-              <label className="block text-sm font-medium text-gray-700 mb-1">{c.email_label}</label>
-              <input
-                type="email"
-                required
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                className="w-full border border-gray-300 rounded-lg px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-[#0f2744]"
-              />
-            </div>
-            <div>
-              <label className="block text-sm font-medium text-gray-700 mb-1">{c.message_label}</label>
-              <textarea
-                required
-                rows={5}
-                value={message}
-                onChange={(e) => setMessage(e.target.value)}
-                className="w-full border border-gray-300 rounded-lg px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-[#0f2744] resize-none"
-              />
-            </div>
-            {error && (
-              <p className="text-red-600 text-sm">
-                {locale === 'fr' ? 'Erreur d\'envoi. Reessayez ou ecrivez directement a contact@tokyo-expat.com' : 'Send error. Please retry or email contact@tokyo-expat.com directly.'}
-              </p>
-            )}
-            <button
-              type="submit"
-              className="bg-[#e84141] hover:bg-[#ff6b6b] text-white px-8 py-3 rounded-xl font-bold transition-colors self-start"
-            >
-              {c.send}
-            </button>
-          </form>
-        )}
-      </div>
-
-      <div className="mt-8 text-center text-sm text-gray-500">
-        <a href="mailto:contact@tokyo-expat.com" className="text-[#0f2744] font-medium hover:text-[#e84141] transition-colors">
-          contact@tokyo-expat.com
-        </a>
-      </div>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(contactLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
+      />
+      <h1 className="text-4xl font-extrabold text-[#0f2744] mb-4">{titleText}</h1>
+      <p className="text-gray-500 mb-12 leading-relaxed">{subtitleText}</p>
+      <ContactForm locale={locale as Locale} />
     </div>
   )
 }

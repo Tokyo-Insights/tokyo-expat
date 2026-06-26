@@ -1,0 +1,66 @@
+{
+  "actions": [
+    {
+      "type": "haro",
+      "date": "2026-06-26",
+      "source": "connectively.us",
+      "query": "Matter Experts",
+      "context": "",
+      "keywords": [],
+      "score": 0,
+      "draft": "En tant que specialiste du marche locatif de Tokyo pour les expatries:\n\n[REPONSE SPECIFIQUE A LA QUESTION]\n\n[AJOUTER 2-3 POINTS SPECIFIQUES A LA QUESTION]\n\nPour plus d'informations: tokyo-expat.com (guides bilingues FR/EN sur le logement a Tokyo)\n\nAlessandro [NOM], fondateur Tokyo Expat",
+      "acted": false,
+      "id": "haro_2026-06-26_62754"
+    },
+    {
+      "type": "reddit",
+      "date": "2026-06-26",
+      "subreddit": "movingtojapan",
+      "title": "Cost of Living & Part-time Job Opportunities in Tokyo as a Student",
+      "url": "https://www.reddit.com/r/movingtojapan/comments/1ubbvoh/cost_of_living_parttime_job_opportunities_in/",
+      "draft": "I've helped a lot of expats find housing in Tokyo. A few things that trip people up:\n\n1. Start early: good properties for your target month get taken 6-8 weeks out.\n2. Share house first if unsure about the area: flexible 1-month minimum, no long-term commitment, no guarantor needed.\n3. Virtual applications work: you can secure a place before landing.\n\nHappy to answer specific questions about your situation.",
+      "acted": false,
+      "id": "reddit_2026-06-26_50756"
+    },
+    {
+      "type": "reddit",
+      "date": "2026-06-26",
+      "subreddit": "japanlife",
+      "title": "Apartment hunting as a student, lease help! : r/japanlife - Reddit",
+      "url": "https://www.reddit.com/r/japanlife/comments/1uf2t0r/apartment_hunting_as_a_student_lease_help/",
+      "draft": "I've helped a lot of expats find housing in Tokyo. A few things that trip people up:\n\n1. Start early: good properties for your target month get taken 6-8 weeks out.\n2. Share house first if unsure about the area: flexible 1-month minimum, no long-term commitment, no guarantor needed.\n3. Virtual applications work: you can secure a place before landing.\n\nHappy to answer specific questions about your situation.",
+      "acted": false,
+      "id": "reddit_2026-06-26_28424"
+    },
+    {
+      "type": "reddit",
+      "date": "2026-06-26",
+      "subreddit": "japanlife",
+      "title": "Landlady holding 宅配ボックス hostage : r/japanlife - Reddit",
+      "url": "https://www.reddit.com/r/japanlife/comments/1uccdd3/landlady_holding_宅配ボックス_hostage/",
+      "draft": "I've helped a lot of expats find housing in Tokyo. A few things that trip people up:\n\n1. Start early: good properties for your target month get taken 6-8 weeks out.\n2. Share house first if unsure about the area: flexible 1-month minimum, no long-term commitment, no guarantor needed.\n3. Virtual applications work: you can secure a place before landing.\n\nHappy to answer specific questions about your situation.",
+      "acted": false,
+      "id": "reddit_2026-06-26_63726"
+    },
+    {
+      "type": "reddit",
+      "date": "2026-06-26",
+      "subreddit": "japanlife",
+      "title": "What's the general opinion on these big apartment projects? : r/japanlife",
+      "url": "https://www.reddit.com/r/japanlife/comments/1uc6f8y/whats_the_general_opinion_on_these_big_apartment/",
+      "draft": "I've helped a lot of expats find housing in Tokyo. A few things that trip people up:\n\n1. Start early: good properties for your target month get taken 6-8 weeks out.\n2. Share house first if unsure about the area: flexible 1-month minimum, no long-term commitment, no guarantor needed.\n3. Virtual applications work: you can secure a place before landing.\n\nHappy to answer specific questions about your situation.",
+      "acted": false,
+      "id": "reddit_2026-06-26_19327"
+    },
+    {
+      "type": "reddit",
+      "date": "2026-06-26",
+      "subreddit": "japan",
+      "title": "Japan's AI goldrush faces backlash as data centers sprout up in urban areas",
+      "url": "https://www.reddit.com/r/japan/comments/1uc6yrw/japans_ai_goldrush_faces_backlash_as_data_centers/",
+      "draft": "I know the Tokyo rental market well. Honest overview:\n\nYamanote loop inner area (Shibuya, Shinjuku, Minato): great location, expect 100,000+ JPY/month even for a small 1K.\n\nJust outside the loop (Sangenjaya, Shimokitazawa, Koenji, Nishi-Ogikubo): still excellent metro access, 30-40% cheaper, more residential feel.\n\nOuter wards (Adachi, Edogawa, Katsushika): cheapest options, commute adds 20-30 min.\n\nHappy to be more specific if you share your commute destination.",
+      "acted": false,
+      "id": "reddit_2026-06-26_69010"
+    }
+  ]
+}

@@ -31,8 +31,37 @@ REVIEWS_FILE = DATA_DIR / "competitor_reviews.json"
 VULN_FILE = DATA_DIR / "vulnerabilities.json"
 TRENDS_FILE = DATA_DIR / "trends_history.json"
 CACHE_FILE = DATA_DIR / "competitor_cache.json"
+DEDUP_FILE = DATA_DIR / "alert_dedup.json"
 
 OUR_DOMAIN = "tokyo-expat.com"
+PROACTIVE_TTL_DAYS = 7  # envoyer le meme rapport au max 1x/semaine
+
+
+def load_dedup() -> dict:
+    if DEDUP_FILE.exists():
+        try:
+            with open(DEDUP_FILE, encoding="utf-8") as f:
+                return json.load(f)
+        except (json.JSONDecodeError, ValueError):
+            pass
+    return {}
+
+
+def save_dedup(seen: dict) -> None:
+    with open(DEDUP_FILE, "w", encoding="utf-8") as f:
+        json.dump(seen, f, indent=2, ensure_ascii=False)
+
+
+def is_fresh_alert(key: str, seen: dict, ttl_days: int = PROACTIVE_TTL_DAYS) -> bool:
+    if key not in seen:
+        return True
+    entry = seen[key]
+    if isinstance(entry, dict) and entry.get("dismissed"):
+        return False
+    last_sent = entry if isinstance(entry, str) else entry.get("date", "")
+    if not last_sent:
+        return True
+    return (datetime.date.today() - datetime.date.fromisoformat(last_sent)).days >= ttl_days
 
 
 def send_telegram(msg: str) -> None:
@@ -336,6 +365,20 @@ def main():
 
     msg3_lines.append("\n<b>Objectif 30j :</b> 3 nouveaux articles + 10 backlinks naturels")
 
+    # Dedup : ne pas re-envoyer le meme rapport si rien de nouveau
+    seen = load_dedup()
+    today_str = datetime.date.today().isoformat()
+
+    # Fingerprint base sur : top keywords + top gap + top vuln
+    kw_sig = ",".join(str(k) for k in (keywords.get("best", [])[:2] if keywords.get("available") else []))
+    gap_sig = gaps["top3"][0].get("slug", gaps["top3"][0].get("topic", "")) if gaps.get("available") and gaps.get("top3") else ""
+    vuln_sig = f"{vulns['top3'][0]['domain']}:{vulns['top3'][0]['keyword']}" if vulns.get("available") and vulns.get("top3") else ""
+    fingerprint = f"proactive:{kw_sig}|{gap_sig}|{vuln_sig}"
+
+    if not is_fresh_alert(fingerprint, seen):
+        print(f"\n[DEDUP] Rapport identique envoye il y a moins de {PROACTIVE_TTL_DAYS}j. Skip Telegram.")
+        return
+
     # Envoyer les 3 messages
     print("\nEnvoi rapport Telegram (3 messages)...")
     split_and_send([
@@ -344,6 +387,9 @@ def main():
         "\n".join(msg3_lines),
     ])
     print("Rapport proactif envoye.")
+
+    seen[fingerprint] = today_str
+    save_dedup(seen)
 
 
 if __name__ == "__main__":

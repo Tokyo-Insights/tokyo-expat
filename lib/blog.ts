@@ -106,7 +106,11 @@ Concrètement :
 
 Pour une installation réussie à Tokyo, c'est le levier le plus efficace que vous puissiez activer.
 
+
+Pour votre couverture sante pendant la recherche de logement, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) propose une assurance mensuelle sans engagement, activable avant l'assurance nationale japonaise. Pour communiquer avec les agences en japonais, [iTalki](https://www.italki.com/affshare?ref=af32660342) propose des cours avec des professeurs natifs a partir de 10$/heure. *(liens affilies)*
 ---
+
+*À lire aussi : [Chercher un appartement à Tokyo depuis l'étranger](/blog/chercher-appartement-tokyo-depuis-etranger), [Chercher un appartement à Tokyo depuis l'étranger](/blog/chercher-appartement-tokyo-depuis-etranger).*
 
 *Vous avez un projet d'installation à Tokyo ? Réservez une consultation gratuite de 30 minutes pour évaluer votre situation.*
     `.trim(),
@@ -200,7 +204,11 @@ L'appartement est préférable si :
 - Vous avez besoin d'espace (famille, télétravail intensif)
 - La vie privée est une priorité absolue
 
+
+Pour votre couverture sante pendant votre sejour en share house, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) propose une assurance mensuelle sans engagement. Pour progresser en japonais avec vos colocataires, [iTalki](https://www.italki.com/affshare?ref=af32660342) propose des cours particuliers avec des professeurs natifs a partir de 10$/heure. *(liens affilies)*
 ---
+
+*À lire aussi : [Gaijin house vs share house à Tokyo : quelle est la différence ?](/blog/gaijin-house-vs-share-house-difference).*
 
 *Besoin d'aide pour trouver un share house à Tokyo ? Je sélectionne les meilleures options disponibles selon vos critères, sans frais d'agence supplémentaires.*
     `.trim(),
@@ -292,6 +300,8 @@ Le loyer est le seul poste sur lequel vous pouvez agir rapidement et significati
 
 Pour identifier les meilleures opportunités dans votre budget, une consultation avec un chasseur local vous évite les visites inutiles et les mauvaises surprises sur les frais d'entrée.
 
+
+Pour les activites et visites a Tokyo, [GetYourGuide](https://www.getyourguide.com/tokyo-l193/?partner_id=4LP5PLT&utm_medium=online_publisher) propose des experiences reservables en ligne a tous les budgets. Pour votre couverture sante, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) propose une assurance mensuelle sans engagement. *(liens affilies)*
 ---
 
 *Vous préparez votre installation à Tokyo ? Réservez une consultation gratuite pour établir un budget précis selon votre profil.*
@@ -399,7 +409,11 @@ Ikebukuro est souvent négligée par les guides touristiques mais elle est l'une
 
 La règle générale : chaque station supplémentaire de la zone centrale représente environ 10 000 JPY de loyer en moins. Un appartement à 20 minutes de Shibuya coûte souvent 30 à 40% moins cher qu'à 5 minutes.
 
+
+Pour explorer Tokyo et ses quartiers avant de vous installer, [GetYourGuide](https://www.getyourguide.com/tokyo-l193/?partner_id=4LP5PLT&utm_medium=online_publisher) propose des visites guidees, experiences culinaires et activites culturelles reservables en ligne. *(lien affilie)*
 ---
+
+*À lire aussi : [Meilleurs quartiers de Tokyo pour familles expatriées 2026](/blog/quartiers-tokyo-familles-expatriees-guide).*
 
 *Vous hésitez entre deux quartiers ? Lors d'une consultation gratuite, je vous aide à identifier les biens disponibles dans chaque zone selon votre budget réel.*
     `.trim(),
@@ -497,7 +511,11 @@ In practice:
 
 For a successful move to Tokyo, it is the most efficient lever you can activate.
 
+
+For health coverage during your apartment search, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) offers monthly insurance with no commitment, activatable before Japanese national insurance. To communicate with agencies in Japanese, [iTalki](https://www.italki.com/affshare?ref=af32660342) offers lessons with native teachers from $10/hour. *(affiliate links)*
 ---
+
+*See also: [How to Find an Apartment in Tokyo from Abroad (Remote Hunting Guide)](/blog/tokyo-apartment-hunting-from-abroad), [Finding an Apartment in Tokyo in September: What Changes vs Spring](/blog/find-apartment-tokyo-september).*
 
 *Planning to move to Tokyo? Book a free 30-minute consultation to assess your situation and see what is available now.*
     `.trim(),
@@ -628,7 +646,11 @@ Important: Japan taxes worldwide income for tax residents (those who have lived 
 
 Before you sign your lease, work through our complete [Tokyo rental contract checklist](/en/blog/tokyo-rental-contract-checklist), every clause worth reviewing, hidden fees to watch for, and what you can negotiate before committing. If you are still searching from outside Japan, our guide to [finding an apartment in Tokyo from abroad](/en/blog/tokyo-apartment-hunting-from-abroad) covers remote search, virtual tours, and operators who accept international applications.
 
+
+For health coverage during your transition, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) offers monthly insurance with no commitment. To build your Japanese before or after arrival, [iTalki](https://www.italki.com/affshare?ref=af32660342) offers lessons with native teachers from $10/hour. *(affiliate links)*
 ---
+
+*See also: [Best International Moving Companies to Japan (2026)](/blog/international-moving-company-japan-guide).*
 
 *Planning your relocation to Tokyo? Book a free consultation to get housing options ready before you land.*
     `.trim(),
@@ -718,6 +740,8 @@ Rent is the only major expense you can reduce significantly and immediately. Sav
 
 Finding the right property at the right price in the right neighbourhood is where a local property hunter adds the most value: access to off-market options and honest advice on where to compromise and where not to.
 
+
+For activities and sightseeing in Tokyo, [GetYourGuide](https://www.getyourguide.com/tokyo-l193/?partner_id=4LP5PLT&utm_medium=online_publisher) offers experiences bookable online at all budgets. For health coverage, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) offers monthly insurance with no commitment. *(affiliate links)*
 ---
 
 *Preparing your move to Tokyo? Book a free consultation to map out a realistic budget and see what is available in your range.*
@@ -838,6 +862,8 @@ Une fois votre visa obtenu, l'étape suivante est de trouver un logement. Les co
 
 **Programme Vacances Travail (PVT)** : pour les ressortissants de 18 à 30 ans des pays partenaires (France, Canada, Allemagne, Irlande et autres), le PVT Japon permet de rester 12 mois sans être lié à un employeur. L'option long séjour la plus accessible pour les jeunes. Voir notre [guide complet du PVT Japon](/blog/pvt-japon-visa-vacances-travail-2026).
 
+
+Pour votre couverture sante et celle de votre famille pendant la transition, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) propose une assurance mensuelle sans engagement, activable avant votre inscription a l'assurance nationale japonaise. Pour apprendre le japonais avant votre arrivee, [iTalki](https://www.italki.com/affshare?ref=af32660342) propose des cours particuliers avec des professeurs natifs a partir de 10$/heure. *(liens affilies)*
 ---
 
 *Vous avez votre visa et cherchez un logement à Tokyo ? Réservez une consultation gratuite pour voir les options disponibles dès votre arrivée.*
@@ -944,6 +970,8 @@ Utile comme solution de transition pendant les premières semaines, avant d'obte
 
 **Vous êtes étudiant ou en working holiday** : Japan Post Bank, la seule qui accepte sans délai de résidence minimum.
 
+
+Pour votre couverture sante pendant les demarches administratives, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) propose une assurance mensuelle sans engagement, activable avant votre inscription a l'assurance nationale japonaise. *(lien affilie)*
 ---
 
 *Vous préparez votre installation à Tokyo ? Consultez gratuitement pour obtenir une liste de logements disponibles immédiatement.*
@@ -1052,7 +1080,11 @@ Un chasseur immobilier à Tokyo a accès à un inventaire de propriétés meubl�
 
 Passer par un chasseur vous permet d'accéder à ce stock invisible, de comparer plusieurs options en une seule consultation, et d'obtenir un accompagnement sur la négociation des frais d'entrée.
 
+
+Pour votre couverture sante pendant la transition, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) propose une assurance mensuelle sans engagement, adaptee aux expatries avant l'assurance nationale japonaise. *(lien affilie)*
 ---
+
+*À lire aussi : [Appartement meublé Tokyo expatriés : 5 options rapides 2026](/blog/appartement-meuble-tokyo-expats), [Appartement meublé à Tokyo : les 5 meilleures options pour expatriés (2026)](/blog/appartement-meuble-tokyo-expats-top-5), [Garantie de loyer au Japon : guide complet pour étrangers](/blog/garantie-loyer-etranger-japon).*
 
 *Vous cherchez un appartement meublé à Tokyo sans garant ? Réservez une consultation gratuite pour recevoir une sélection de biens disponibles cette semaine.*
     `.trim(),
@@ -1125,7 +1157,11 @@ Le rôle d'un chasseur n'est pas seulement de trouver des biens. C'est aussi de 
 
 Ces sept pièges sont évitables avec la bonne préparation et le bon accompagnement.
 
+
+Pour votre couverture sante pendant la recherche d'appartement, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) propose une assurance mensuelle sans engagement. Pour negocier en japonais avec les agences, [iTalki](https://www.italki.com/affshare?ref=af32660342) propose des cours avec des professeurs natifs a partir de 10$/heure. *(liens affilies)*
 ---
+
+*À lire aussi : [Dossier refusé à Tokyo : solutions concrètes pour les étrangers](/blog/dossier-location-refuse-tokyo-etranger).*
 
 *Vous avez trouvé un appartement à Tokyo et souhaitez faire relire le contrat avant de signer ? Contactez-nous pour une consultation.*
     `.trim(),
@@ -1234,7 +1270,11 @@ Not all share house operators are equal. Before committing:
 
 The best operators have clear communication channels, English-speaking staff, and documented check-in procedures.
 
+
+For health coverage during your share house stay, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) offers monthly insurance with no commitment. To improve your Japanese with housemates, [iTalki](https://www.italki.com/affshare?ref=af32660342) offers private lessons with native teachers from $10/hour. *(affiliate links)*
 ---
+
+*See also: [Gaijin House vs Share House in Tokyo: What Is the Difference?](/blog/gaijin-house-vs-share-house-tokyo).*
 
 *Need help finding the right share house in Tokyo for your arrival date and budget? Book a free 30-minute consultation.*
     `.trim(),
@@ -1336,7 +1376,11 @@ A property hunter in Tokyo has direct access to furnished inventory that is not 
 
 A hunter can shortlist options matching your criteria, arrange video tours, review the lease before you sign, and negotiate the entry costs.
 
+
+For health coverage during your transition, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) offers monthly insurance with no commitment, suited for expats before Japanese national insurance enrolment. *(affiliate link)*
 ---
+
+*See also: [Furnished Apartment in Tokyo for Expats: 5 Quick Options (2026)](/blog/furnished-apartment-tokyo-expats), [Furnished Apartment Tokyo: 5 Best Options for Expats in 2026](/blog/furnished-apartment-tokyo-top-5-expats), [Guarantor for Japan Rental: Complete Guide for Foreigners](/blog/guarantor-japan-rental-foreigner).*
 
 *Looking for a furnished apartment in Tokyo without a guarantor? Book a free consultation to see what is currently available.*
     `.trim(),
@@ -1442,6 +1486,8 @@ Useful as a bridge solution during your first weeks while waiting for a Japanese
 
 **Student or working holiday**: Japan Post Bank, the only one with no minimum residence period.
 
+
+For health coverage while you complete your admin setup, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) offers monthly insurance with no commitment, activatable before Japanese national insurance enrolment. *(affiliate link)*
 ---
 
 *Setting up in Tokyo? Book a free consultation to get a shortlist of available housing matching your profile and arrival date.*
@@ -1560,7 +1606,11 @@ The optimal timeline for remote apartment hunting in Tokyo:
 
 This timeline gives you buffer for unexpected delays (application rejection, property withdrawn) without pressure.
 
+
+For health coverage from day one in Japan, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) offers monthly insurance with no commitment, activatable before you arrive. To prepare your Japanese before landing, [iTalki](https://www.italki.com/affshare?ref=af32660342) offers online lessons with native teachers from $10/hour. *(affiliate links)*
 ---
+
+*See also: [How to Find an Apartment in Tokyo as a Foreigner (2026 Guide)](/blog/find-apartment-tokyo-foreigner), [Finding an Apartment in Tokyo in September: What Changes vs Spring](/blog/find-apartment-tokyo-september).*
 
 *Relocating to Tokyo and want housing ready before you arrive? Book a free 30-minute consultation to start the remote search process.*
     `.trim(),
@@ -1645,11 +1695,15 @@ Comme en France avec la mutuelle, beaucoup de résidents au Japon souscrivent un
 
 Utile si vous avez des problèmes de santé chroniques ou si vous prévoyez de rester plusieurs années.
 
+Pour les expatriés en phase d'installation ou en mobilité internationale, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) propose une couverture sante mensuelle sans engagement, activable avant votre inscription a la kokumin kenko hoken. *(lien affilie)*
+
 ## Que faire si vous tombez malade avant d'avoir votre carte ?
 
 Si vous avez besoin d'un médecin avant d'avoir reçu votre carte d'assurance, vous payez le montant total (100%) de la consultation. Conservez tous vos reçus. Une fois votre carte reçue, vous pouvez demander le remboursement de la part prise en charge (70%) auprès de votre mairie.
 
 ---
+
+*À lire aussi : [Assurance habitation Japon : ce que tout locataire doit savoir](/blog/assurance-habitation-japon-locataire).*
 
 *Vous planifiez votre installation à Tokyo ? Réservez une consultation gratuite pour préparer votre logement avant votre arrivée.*
     `.trim(),
@@ -1718,6 +1772,8 @@ La demande de renouvellement doit être faite auprès du bureau régional de l'i
 
 Après un certain nombre d'années de résidence légale et continue au Japon (en général 10 ans, réduits à 1 à 3 ans pour les titulaires du statut HSP), vous pouvez demander la résidence permanente. La carte de résidence permanente (eijuusha) n'a pas de date d'expiration liée au visa. Elle doit simplement être renouvelée tous les 7 ans pour mettre à jour la photo.
 
+
+Pour votre couverture sante pendant les demarches d'installation, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) propose une assurance mensuelle sans engagement, activable des votre arrivee au Japon. *(lien affilie)*
 ---
 
 *Votre logement à Tokyo est la première étape pour obtenir votre adresse et enregistrer votre zairyu card. Réservez une consultation gratuite pour voir les disponibilités.*
@@ -1824,6 +1880,8 @@ Par rapport à une installation en solo, les familles peuvent négocier :
 
 La couverture d'une partie des frais de scolarité et du logement par l'employeur (package expatriation) est courante dans les grandes entreprises et réduit significativement la charge personnelle.
 
+
+Pour faire decouvrir Tokyo a vos enfants de facon ludique, [GetYourGuide](https://www.getyourguide.com/tokyo-l193/?partner_id=4LP5PLT&utm_medium=online_publisher) propose des visites guidees et activites familiales adaptees aux expatries. *(lien affilie)*
 ---
 
 *Vous installez votre famille à Tokyo ? Réservez une consultation gratuite pour identifier les logements familiaux disponibles à proximité des écoles internationales.*
@@ -1895,7 +1953,11 @@ Il a une relation avec les agences locales, ce qui donne du poids à ses demande
 
 Il négocie en japonais, ce qui permet de faire passer des demandes qui semblent moins "agressives" quand elles sont formulées dans la langue et les codes culturels appropriés.
 
+
+Pour mieux negocier en japonais avec votre agence, [iTalki](https://www.italki.com/affshare?ref=af32660342) propose des cours particuliers avec des professeurs natifs japonais a partir de 10$/heure. Pour votre couverture sante pendant la transition, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) propose une assurance mensuelle sans engagement. *(liens affilies)*
 ---
+
+*À lire aussi : [Loyers à Tokyo par quartier 2026 : guide pour expatriés](/blog/loyers-tokyo-par-quartier-2026).*
 
 *Vous avez trouvé un appartement à Tokyo et souhaitez optimiser les conditions d\'entrée ? Contactez-nous pour un accompagnement à la négociation.*
     `.trim(),
@@ -1990,7 +2052,11 @@ Si votre employeur exige SMBC, Mizuho ou MUFG, vous pouvez faire la demande apr�
 
 Avant de signer votre contrat de location, parcourez notre [checklist complète du bail à Tokyo](/fr/blog/checklist-bail-tokyo), toutes les clauses à vérifier, les frais cachés à débusquer et les points de négociation avant de vous engager. Si vous êtes encore en France et que vous cherchez à distance, notre guide pour [trouver un appartement à Tokyo depuis l'étranger](/fr/blog/chercher-appartement-tokyo-depuis-etranger) couvre la recherche à distance, les visites virtuelles et les opérateurs qui acceptent les candidatures internationales.
 
+
+Pour votre couverture sante pendant la transition, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) propose une assurance mensuelle sans engagement. Pour apprendre le japonais avant ou apres l'arrivee, [iTalki](https://www.italki.com/affshare?ref=af32660342) propose des cours avec des professeurs natifs a partir de 10$/heure. *(liens affilies)*
 ---
+
+*À lire aussi : [Déménageur international vers le Japon : guide et prix 2026](/blog/demenageur-international-japon-guide).*
 
 *Vous préparez votre déménagement au Japon ? Réservez une consultation gratuite pour sécuriser votre logement avant l'arrivée.*
     `.trim(),
@@ -2078,7 +2144,11 @@ Exceptionnelle pour ceux qui valorisent la culture, les temples, la nature et un
 
 Pour les familles avec enfants : Tokyo s'impose si l'école française est une priorité.
 
+
+Pour comparer les atmospheres de Tokyo, Osaka et Kyoto par vous-meme, [GetYourGuide](https://www.getyourguide.com/tokyo-l193/?partner_id=4LP5PLT&utm_medium=online_publisher) propose des visites guidees dans chacune de ces villes, reservables en ligne. *(lien affilie)*
 ---
+
+*À lire aussi : [Tokyo ou Osaka pour vivre : comparatif expatrié 2026](/blog/tokyo-osaka-ou-vivre-expatrie-comparatif).*
 
 *Vous hésitez encore sur votre ville et cherchez un logement à Tokyo ? Réservez une consultation gratuite pour explorer les options disponibles.*
     `.trim(),
@@ -2147,6 +2217,8 @@ You will normally receive a reminder letter from Japanese immigration several mo
 
 After a certain number of years of legal, continuous residence in Japan (generally 10 years, reduced to 1 to 3 years for Highly Skilled Professional visa holders), you can apply for permanent residency. The permanent residency card (eijuusha) has no visa expiry date. It must simply be renewed every 7 years to update the photo.
 
+
+For health coverage while completing your registration process, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) offers monthly insurance with no commitment, activatable from your first day in Japan. *(affiliate link)*
 ---
 
 *Your Tokyo address starts with securing housing. Book a free consultation to see what is available for your arrival date.*
@@ -2232,11 +2304,15 @@ Like a complementary mutuelle in France, many residents in Japan take out privat
 
 Useful if you have chronic health conditions or plan to stay several years.
 
+For expats in the installation phase or on international mobility, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) offers a flexible alternative: monthly health coverage with no commitment, activatable before enrolling in kokumin kenko hoken. *(affiliate link)*
+
 ## What to do if you fall ill before your insurance card arrives
 
 If you need a doctor before receiving your insurance card, you pay 100% of the consultation cost. Keep all your receipts. Once your card arrives, you can claim reimbursement of the 70% covered portion at your ward office.
 
 ---
+
+*See also: [Renter's Insurance in Japan: What Every Tenant Should Know](/blog/renters-insurance-japan-guide).*
 
 *Planning your move to Tokyo? Book a free consultation to secure housing before you arrive and start your administrative setup on the right foot.*
     `.trim(),
@@ -2340,6 +2416,8 @@ Compared to a single-person relocation, families can negotiate:
 
 Employer-provided relocation packages covering part of the school fees and housing are common in large corporations and significantly reduce the personal financial burden.
 
+
+To introduce Tokyo to your children in an engaging way, [GetYourGuide](https://www.getyourguide.com/tokyo-l193/?partner_id=4LP5PLT&utm_medium=online_publisher) offers family-friendly guided tours and activities suited for expat families. *(affiliate link)*
 ---
 
 *Relocating to Tokyo with your family? Book a free consultation to find available family housing near international schools.*
@@ -2411,7 +2489,11 @@ They have existing relationships with local agencies, which adds weight to their
 
 They negotiate in Japanese, allowing requests to be phrased in culturally appropriate ways that feel less confrontational than the same request made in English through an intermediary.
 
+
+To negotiate in Japanese with your agency, [iTalki](https://www.italki.com/affshare?ref=af32660342) offers private lessons with native Japanese teachers from $10/hour. For health coverage during your transition, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) offers monthly insurance with no commitment. *(affiliate links)*
 ---
+
+*See also: [7 Rental Traps to Avoid When Renting in Tokyo as a Foreigner](/blog/tokyo-rental-traps-foreigners), [Tokyo Rental Contract: 12 Things to Check Before Signing](/blog/tokyo-rental-contract-checklist), [Tokyo Rent by Neighborhood 2026: Expat Price Guide](/blog/tokyo-rent-by-neighborhood-2026).*
 
 *Found an apartment in Tokyo and want help optimising your entry conditions? Contact us for negotiation support.*
     `.trim(),
@@ -2492,7 +2574,11 @@ When evaluating a property marketed as a "gaijin house" or share house, the ques
 
 The answers tell you whether you are dealing with a well-managed modern share house or an informal short-stay arrangement. Both can be the right choice depending on your timing and needs.
 
+
+Pour votre couverture sante quelle que soit votre option de logement, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) propose une assurance mensuelle sans engagement. Pour progresser en japonais pendant votre sejour, [iTalki](https://www.italki.com/affshare?ref=af32660342) propose des cours particuliers avec des professeurs natifs a partir de 10$/heure. *(liens affilies)*
 ---
+
+*See also: [Share House in Tokyo: Complete Guide for Foreigners (2026)](/blog/share-house-tokyo-guide-2026).*
 
 *Looking for the right share house or furnished apartment in Tokyo for your arrival? Book a free consultation to see current availability.*
     `.trim(),
@@ -2599,7 +2685,11 @@ Ikebukuro is often overlooked by guidebooks but is one of Tokyo's most lively ar
 
 The general rule: each station further from the central zone means approximately 10,000 JPY less in rent per month. An apartment 20 minutes from Shibuya often costs 30 to 40% less than one 5 minutes away.
 
+
+To explore Tokyo and its neighbourhoods before settling in, [GetYourGuide](https://www.getyourguide.com/tokyo-l193/?partner_id=4LP5PLT&utm_medium=online_publisher) offers guided tours, food experiences and cultural activities bookable online. *(affiliate link)*
 ---
+
+*See also: [Best Tokyo Neighbourhoods for Expat Families (2026)](/blog/best-neighbourhoods-families-tokyo-guide).*
 
 *Unsure between two neighbourhoods? During a free consultation, I help you identify available properties in each area based on your actual budget.*
     `.trim(),
@@ -2719,6 +2809,8 @@ Once your visa is obtained, the next step is finding housing. Visa type affects 
 
 **Working Holiday Visa**: for nationals aged 18-30 from eligible countries (France, UK, Australia, Canada, Germany and others), the working holiday visa allows 12 months in Japan with no employer restriction. The most accessible long-stay option for young people. See our [complete Working Holiday Visa guide](/blog/japan-working-holiday-visa-guide-2026).
 
+
+For health coverage during your transition, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) offers monthly insurance with no commitment, activatable before your Japanese national insurance enrolment. To build your Japanese before arriving, [iTalki](https://www.italki.com/affshare?ref=af32660342) offers private lessons with native teachers from $10/hour. *(affiliate links)*
 ---
 
 *Visa sorted and looking for housing in Tokyo? Book a free consultation to see what is available before your arrival date.*
@@ -2792,7 +2884,11 @@ A hunter's role goes beyond finding properties. It includes reading contracts to
 
 All seven traps are avoidable with the right preparation and the right support.
 
+
+For health coverage during your apartment search, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) offers monthly insurance with no commitment. To negotiate in Japanese with agencies, [iTalki](https://www.italki.com/affshare?ref=af32660342) offers lessons with native teachers from $10/hour. *(affiliate links)*
 ---
+
+*See also: [Negotiating Rent in Tokyo: Is It Possible and How to Do It?](/blog/negotiating-rent-tokyo-tips), [Tokyo Rental Contract: 12 Things to Check Before Signing](/blog/tokyo-rental-contract-checklist), [Tokyo Rent by Neighborhood 2026: Expat Price Guide](/blog/tokyo-rent-by-neighborhood-2026), [Rental Application Rejected in Japan: What to Do Next](/blog/rental-application-rejected-japan-foreigner).*
 
 *Found an apartment in Tokyo and want the contract reviewed before signing? Contact us for a consultation.*
     `.trim(),
@@ -2880,6 +2976,8 @@ Exceptional for those who value culture, temples, nature, and a slow pace of lif
 
 For families with children: Tokyo is the obvious choice if a French-curriculum school is a priority.
 
+
+To compare the atmosphere of Tokyo, Osaka and Kyoto for yourself, [GetYourGuide](https://www.getyourguide.com/tokyo-l193/?partner_id=4LP5PLT&utm_medium=online_publisher) offers guided tours in each city, bookable online. *(affiliate link)*
 ---
 
 *Decided on Tokyo and looking for housing? Book a free consultation to explore available options.*
@@ -2994,7 +3092,11 @@ Les clés sont généralement remises de trois façons :
 
 Ce calendrier vous laisse une marge pour les imprévus (refus de candidature, bien retiré) sans pression de dernière minute.
 
+
+Pour preparer votre couverture sante avant l'arrivee, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) propose une assurance mensuelle activable depuis l'etranger. Pour commencer le japonais avant votre installation, [iTalki](https://www.italki.com/affshare?ref=af32660342) propose des cours en ligne avec des professeurs natifs a partir de 10$/heure. *(liens affilies)*
 ---
+
+*À lire aussi : [Comment trouver un appartement à Tokyo quand on est étranger](/blog/trouver-appartement-tokyo-etranger).*
 
 *Vous vous installez à Tokyo et voulez un logement prêt avant votre arrivée ? Réservez une consultation gratuite pour démarrer la recherche à distance.*
     `.trim(),
@@ -3066,6 +3168,8 @@ Naviguer le système de garantie en japonais est stressant. Un chasseur immobili
 
 Pour éviter les [pièges classiques de la location à Tokyo](/fr/blog/pieges-location-tokyo-etranger), avoir un interlocuteur qui parle japonais et connaît les usages locaux fait souvent la différence entre un appartement signé en 2 semaines et une recherche épuisante de 2 mois.
 
+
+Pour votre couverture sante pendant les demarches de garant, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) propose une assurance mensuelle sans engagement. Pour communiquer avec votre garant en japonais, [iTalki](https://www.italki.com/affshare?ref=af32660342) propose des cours avec des professeurs natifs a partir de 10$/heure. *(liens affilies)*
 ---
 
 *Vous cherchez un appartement à Tokyo et vous bloquez sur la garantie ? Réservez une consultation gratuite : on étudie votre profil et on identifie les meilleurs dossiers pour votre situation.*
@@ -3138,6 +3242,8 @@ Navigating the guarantee system in Japanese is stressful. A local property hunte
 
 To avoid the [classic traps of renting in Tokyo](/en/blog/tokyo-rental-traps-foreigners), having someone who speaks Japanese and knows local customs often makes the difference between a signed lease in 2 weeks and an exhausting 2-month search.
 
+
+For health coverage while navigating the guarantor process, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) offers monthly insurance with no commitment. To communicate with your guarantor in Japanese, [iTalki](https://www.italki.com/affshare?ref=af32660342) offers lessons with native teachers from $10/hour. *(affiliate links)*
 ---
 
 *Looking for an apartment in Tokyo and stuck on the guarantor requirement? Book a free consultation: we'll assess your profile and identify the best-fit properties for your situation.*
@@ -3214,6 +3320,8 @@ Pour aller plus loin sur la vie quotidienne au Japon, notre guide sur [l'assuran
 - La police est-elle **valide pendant toute la durée du bail** sans interruption en cas de renouvellement automatique ?
 - Y a-t-il une **franchise** (jikou baisho) avant remboursement ?
 
+
+Pour les expatries sans couverture interim, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) propose une assurance sante mensuelle sans engagement, activable des l'arrivee au Japon et avant la signature d'un contrat d'assurance habitation local. *(lien affilie)*
 ---
 
 *Vous vous installez à Tokyo et vous avez des questions sur les démarches à faire à votre arrivée ? Réservez une consultation gratuite : on vous guide de A à Z pour éviter les erreurs coûteuses.*
@@ -3290,6 +3398,8 @@ For a broader picture of life in Japan as an expat, our guide on [health insuran
 - Is the policy valid for the **full lease term** without gaps if auto-renewed?
 - Is there a **deductible (jikou baisho)** before reimbursement kicks in?
 
+
+For expats without interim health coverage, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) offers monthly insurance with no commitment, activatable from day one in Japan and before signing a local renters insurance contract. *(affiliate link)*
 ---
 
 *Setting up in Tokyo and need guidance on the paperwork required on arrival? Book a free consultation, we walk you through every step so you don't make costly mistakes.*
@@ -3387,7 +3497,11 @@ La gestion du temps est cruciale pour le logement étudiant à Tokyo :
 
 Commencer tôt est important. Les meilleures chambres dans les share houses prisés partent plusieurs semaines à l'avance, notamment pour les rentrées de septembre et d'avril.
 
+
+Pour votre couverture sante pendant vos etudes au Japon, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) propose une assurance mensuelle sans engagement, populaire aupres des etudiants en attente de l'assurance nationale. Pour progresser en japonais, [iTalki](https://www.italki.com/affshare?ref=af32660342) propose des cours avec des professeurs natifs a partir de 10$/heure. *(liens affilies)*
 ---
+
+*À lire aussi : [Logement étudiant à Tokyo : share house, dortoir ou appart ? (2026)](/blog/logement-etudiant-tokyo-2026), [Logement étudiant à Tokyo pour octobre : share house ou dortoir ?](/blog/logement-etudiant-tokyo-octobre).*
 
 *Vous préparez un séjour d'études à Tokyo et vous cherchez un logement accessible dès votre arrivée ? Contactez-nous pour une consultation gratuite et on vous aide à trouver la bonne option selon votre budget et votre visa.*
     `.trim(),
@@ -3484,7 +3598,11 @@ Time management is critical for student housing in Tokyo:
 
 Starting early matters. The best rooms in popular share houses go weeks in advance, especially for September and April intakes.
 
+
+For health coverage during your studies in Japan, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) offers monthly insurance with no commitment, popular among students before enrolling in national insurance. To improve your Japanese, [iTalki](https://www.italki.com/affshare?ref=af32660342) offers lessons with native teachers from $10/hour. *(affiliate links)*
 ---
+
+*See also: [Student Housing in Tokyo: Share House vs University Dorm (2026 Guide)](/blog/student-housing-tokyo-guide-2026), [Student Housing in Tokyo for October Intake: Share House vs University Dorm](/blog/student-housing-tokyo-october).*
 
 *Preparing a study stay in Tokyo and need housing sorted before you arrive? Get in touch for a free consultation, we'll help you find the right option for your budget and visa type.*
     `.trim(),
@@ -3585,6 +3703,8 @@ Les problèmes de maintenance non résolus sont l'une des principales sources de
 
 Pour aller plus loin, notre guide sur les [pièges classiques de la location à Tokyo](/fr/blog/pieges-location-tokyo-etranger) couvre les erreurs les plus coûteuses que font les expatriés.
 
+
+Pour votre couverture sante pendant la signature du bail, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) propose une assurance mensuelle sans engagement. Pour comprendre votre contrat en japonais, [iTalki](https://www.italki.com/affshare?ref=af32660342) propose des cours avec des professeurs natifs a partir de 10$/heure. *(liens affilies)*
 ---
 
 *Vous êtes sur le point de signer un bail à Tokyo et vous voulez être sûr que tout est en ordre ? Réservez une consultation : on revoit les documents avec vous et on identifie les clauses à négocier.*
@@ -3686,7 +3806,11 @@ Unresolved maintenance issues are one of the main friction points between foreig
 
 For more, our guide on [classic traps to avoid when renting in Tokyo](/en/blog/tokyo-rental-traps-foreigners) covers the most costly mistakes expats make.
 
+
+For health coverage when signing your lease, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) offers monthly insurance with no commitment. To understand your contract in Japanese, [iTalki](https://www.italki.com/affshare?ref=af32660342) offers lessons with native teachers from $10/hour. *(affiliate links)*
 ---
+
+*See also: [Negotiating Rent in Tokyo: Is It Possible and How to Do It?](/blog/negotiating-rent-tokyo-tips), [Tokyo Rent by Neighborhood 2026: Expat Price Guide](/blog/tokyo-rent-by-neighborhood-2026).*
 
 *About to sign a lease in Tokyo and want to make sure everything is in order? Book a consultation: we review the documents with you and identify what to negotiate.*
     `.trim(),
@@ -3767,7 +3891,11 @@ Lorsque vous évaluez une propriété commercialisée comme "gaijin house" ou sh
 
 Les réponses vous disent si vous avez affaire à un share house moderne bien géré ou à un hébergement informel de courte durée. Les deux peuvent être le bon choix selon votre timing et vos besoins.
 
+
+For health coverage whatever your housing option, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) offers monthly insurance with no commitment. To improve your Japanese during your stay, [iTalki](https://www.italki.com/affshare?ref=af32660342) offers private lessons with native teachers from $10/hour. *(affiliate links)*
 ---
+
+*À lire aussi : [Share house à Tokyo : guide complet pour expatriés (2026)](/blog/share-house-tokyo-guide-complet).*
 
 *Vous cherchez un share house ou un appartement meublé à Tokyo pour votre arrivée ? Réservez une consultation gratuite pour voir les disponibilités actuelles.*
     `.trim(),
@@ -3885,7 +4013,11 @@ Nous avons accès à un réseau de logements spécifiquement sélectionnés pour
 
 Une consultation de 30 minutes suffit pour identifier les options disponibles à votre date d'arrivée, dans votre budget, et à bonne distance de votre université.
 
+
+Pour votre couverture sante pendant vos etudes au Japon, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) propose une assurance mensuelle sans engagement. Pour preparer votre japonais, [iTalki](https://www.italki.com/affshare?ref=af32660342) propose des cours particuliers avec des professeurs natifs. *(liens affilies)*
 ---
+
+*À lire aussi : [Logement étudiant à Tokyo : guide complet pour francophones](/blog/logement-etudiant-tokyo-guide), [Logement étudiant à Tokyo pour octobre : share house ou dortoir ?](/blog/logement-etudiant-tokyo-octobre).*
 
 *Vous commencez vos études à Tokyo en octobre ? Réservez maintenant une consultation gratuite pour sécuriser votre logement avant la rentrée.*
     `.trim(),
@@ -4002,7 +4134,11 @@ We have access to a network of housing specifically selected for international s
 
 A 30-minute consultation is enough to identify the options available on your arrival date, within your budget, and at the right distance from your university.
 
+
+For health coverage during your studies in Japan, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) offers monthly insurance with no commitment. To prepare your Japanese, [iTalki](https://www.italki.com/affshare?ref=af32660342) offers private lessons with native teachers. *(affiliate links)*
 ---
+
+*See also: [Student Housing Tokyo 2026: Complete Guide for International Students](/blog/student-housing-tokyo-guide), [Student Housing in Tokyo for October Intake: Share House vs University Dorm](/blog/student-housing-tokyo-october).*
 
 *Starting your studies in Tokyo in October? Book a free consultation now to secure housing before the semester starts.*
     `.trim(),
@@ -4092,6 +4228,8 @@ Si l'aspect psychologique vous dérange, il vaut mieux ne pas y aller. Un appart
 
 Pour les autres : c'est l'un des rares leviers qui permettent de louer en zone centrale à des prix comparables à la banlieue.
 
+
+Pour votre couverture sante pendant la recherche et les demarches, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) propose une assurance mensuelle sans engagement. Pour communiquer avec les agences en japonais, [iTalki](https://www.italki.com/affshare?ref=af32660342) propose des cours avec des professeurs natifs a partir de 10$/heure. *(liens affilies)*
 ---
 
 *Vous cherchez un logement à Tokyo avec un bon rapport qualité-prix ? Discutons de votre situation lors d'une consultation gratuite.*
@@ -4182,6 +4320,8 @@ If the psychological aspect bothers you, it is better not to go there. An apartm
 
 For everyone else: it is one of the rare levers that allows you to rent in central Tokyo at prices comparable to the suburbs, with none of the commute penalty.
 
+
+For health coverage during your search and admin process, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) offers monthly insurance with no commitment. To navigate the process in Japanese, [iTalki](https://www.italki.com/affshare?ref=af32660342) offers lessons with native teachers from $10/hour. *(affiliate links)*
 ---
 
 *Looking for good-value housing in Tokyo? Let's discuss your situation in a free 30-minute consultation.*
@@ -4282,7 +4422,11 @@ Nous avons une visibilité directe sur les biens disponibles pour la rentrée de
 
 Une consultation de 30 minutes suffit pour faire le point sur ce qui est disponible dans votre budget et votre quartier cible, avant même votre arrivée au Japon.
 
+
+Pour votre couverture sante en arrivant en septembre, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) propose une assurance mensuelle sans engagement, activable avant votre inscription a l'assurance nationale japonaise. *(lien affilie)*
 ---
+
+*À lire aussi : [Logement étudiant à Tokyo pour octobre : share house ou dortoir ?](/blog/logement-etudiant-tokyo-octobre).*
 
 *Vous arrivez à Tokyo en septembre ? Réservez une consultation gratuite maintenant pour voir les disponibilités actuelles et sécuriser votre logement avant d'atterrir.*
     `.trim(),
@@ -4382,7 +4526,11 @@ We have direct visibility into properties available for the September intake in 
 
 A 30-minute consultation is enough to review what is available in your budget and target neighbourhood, before you even fly to Japan.
 
+
+For health coverage upon your September arrival, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) offers monthly insurance with no commitment, activatable before Japanese national insurance enrolment. *(affiliate link)*
 ---
+
+*See also: [How to Find an Apartment in Tokyo as a Foreigner (2026 Guide)](/blog/find-apartment-tokyo-foreigner), [How to Find an Apartment in Tokyo from Abroad (Remote Hunting Guide)](/blog/tokyo-apartment-hunting-from-abroad), [Student Housing in Tokyo for October Intake: Share House vs University Dorm](/blog/student-housing-tokyo-october).*
 
 *Arriving in Tokyo in September? Book a free consultation now to see current availability and secure your housing before you land.*
     `.trim(),
@@ -4482,7 +4630,11 @@ Non pour les share houses et monthly mansions. Oui pour un bail classique. Nous 
 
 Oui. La majorité des share houses proposent des visites virtuelles via Zoom. Les principaux opérateurs spécialisés expatriés disposent d'équipes anglophones, et certains ont des interlocuteurs francophones.
 
+
+Pour votre couverture sante pendant la transition, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) propose une assurance mensuelle sans engagement, ideale pour la periode entre l'arrivee et l'inscription a l'assurance nationale. *(lien affilie)*
 ---
+
+*À lire aussi : [Appartement meublé à Tokyo sans garant : comment trouver en 2026](/blog/appartement-meuble-tokyo-sans-garant), [Appartement meublé à Tokyo : les 5 meilleures options pour expatriés (2026)](/blog/appartement-meuble-tokyo-expats-top-5).*
 
 *Vous arrivez à Tokyo prochainement ? [Contactez-nous](/contact) pour une liste des disponibilités actuelles adaptées à votre budget et quartier cible.*
     `.trim(),
@@ -4582,7 +4734,11 @@ Not for share houses or monthly mansions. Yes for a standard lease. We can conne
 
 Yes. Most share houses offer virtual tours via Zoom. The main expat-specialist operators have English-speaking staff, and some also have French speakers.
 
+
+For health coverage during your transition, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) offers monthly insurance with no commitment, ideal for the period between arrival and national insurance enrolment. *(affiliate link)*
 ---
+
+*See also: [Furnished Apartments in Tokyo With No Guarantor Required (2026)](/blog/furnished-apartment-tokyo-no-guarantor), [Furnished Apartment Tokyo: 5 Best Options for Expats in 2026](/blog/furnished-apartment-tokyo-top-5-expats).*
 
 *Relocating to Tokyo soon? [Contact us](/contact) for a current availability list matching your budget and target neighbourhood.*
     `.trim(),
@@ -4665,6 +4821,8 @@ La Tokyo Subway Ticket (24h/48h/72h) couvre les 13 lignes de métro pour 800, 1 
 
 Le JR Pass national couvre les lignes JR (Yamanote, Chuo, Keihin-Tohoku) mais pas les lignes Tokyo Metro ni Toei. La Suica reste indispensable en complément.
 
+
+Pour decouvrir Tokyo lors de vos premiers trajets, [GetYourGuide](https://www.getyourguide.com/tokyo-l193/?partner_id=4LP5PLT&utm_medium=online_publisher) propose des visites guidees et experiences culturelles reservables en ligne. Pour lire les panneaux et annonces en japonais, [iTalki](https://www.italki.com/affshare?ref=af32660342) propose des cours avec des professeurs natifs a partir de 10$/heure. *(liens affilies)*
 ---
 
 *Prêt à choisir votre quartier ? Notre guide des [quartiers Tokyo pour expatriés](/blog/quartiers-tokyo-expatries-guide) compare les principales zones par ligne, budget et ambiance internationale. Pour la recherche d'appartement, lisez notre [guide complet de location à Tokyo](/blog/trouver-appartement-tokyo-etranger).*
@@ -4758,6 +4916,8 @@ Oui, pour les forfaits résidents. Utilisez une SIM prépayée pour les premièr
 
 Oui, s'il est débloqué. Vérifiez les bandes LTE mentionnées ci-dessus. Les modèles récents (iPhone 12+, Samsung Galaxy S21+, Pixel 6+) sont compatibles sans problème.
 
+
+Pour votre carte SIM au Japon, [Sakura Mobile](https://www.sakuramobile.jp/tokyoexpat-top) propose des forfaits prepaye et postpaye sans justificatif de domicile, disponibles des l'arrivee a l'aeroport et utilisables par les etrangers sans numero My Number. *(lien affilie)*
 ---
 
 *Pour l'internet fixe dans votre appartement, notre guide sur [l'internet et les utilitaires à Tokyo](/blog/internet-utilitaires-tokyo-appartement) détaille les démarches étape par étape. Pour toutes les démarches d'installation, consultez notre [checklist de déménagement au Japon](/blog/demenager-japon-checklist-complete).*
@@ -4853,6 +5013,8 @@ Vous devez déposer une déclaration de revenus avant de partir, ou désigner un
 
 Oui, à condition de payer le juminzei au Japon. C'est un système de dons aux municipalités qui vous retourne des cadeaux locaux et réduit votre taxe résidentielle. Plafond calculé sur vos revenus de l'année précédente.
 
+
+Pour votre couverture sante en tant qu'expatrie au Japon, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) propose une assurance mensuelle sans engagement, activable avant l'assurance nationale japonaise. *(lien affilie)*
 ---
 
 *Pour les autres démarches administratives de votre installation, consultez notre [checklist de déménagement au Japon](/blog/demenager-japon-checklist-complete) et notre guide sur [l'assurance maladie au Japon pour expatriés](/blog/assurance-maladie-japon-expatrie).*
@@ -4933,6 +5095,8 @@ Oui pour les contrats fibre. Une adresse japonaise officielle est requise. Pour 
 
 Non, mais les formulaires en ligne sont relativement simples et des aides en anglais sont disponibles. En cas de difficulté, votre agence immobilière peut vous assister pour les premiers contacts.
 
+
+Pour votre connexion mobile en attendant l'installation internet, [Sakura Mobile](https://www.sakuramobile.jp/tokyoexpat-top) propose des forfaits data sans justificatif de domicile, utilisables des l'arrivee au Japon. *(lien affilie)*
 ---
 
 *Votre installation avance. Pour tout ce qui concerne la recherche d'appartement en amont, lisez notre [guide de location à Tokyo pour étrangers](/blog/trouver-appartement-tokyo-etranger). Pour votre forfait mobile, consultez notre [comparatif des cartes SIM au Japon](/blog/carte-sim-japon-etranger-2026).*
@@ -5028,6 +5192,8 @@ Oui, notamment dans les multinationales, les startups tech, les services financi
 
 Les contrats japonais incluent typiquement une période d'essai de 3 à 6 mois. Les droits des salariés sont protégés dès le premier jour par la loi japonaise du travail, y compris pendant la période d'essai.
 
+
+Pour developper votre japonais professionnel, [iTalki](https://www.italki.com/affshare?ref=af32660342) propose des cours particuliers en ligne avec des professeurs natifs japonais, specialises dans le japonais des affaires, a partir de 10$/heure. *(lien affilie)*
 ---
 
 *Pour trouver un logement proche de votre lieu de travail, notre [guide des quartiers Tokyo pour expatriés](/blog/quartiers-tokyo-expatries-guide) vous aide à choisir selon votre ligne de métro et votre budget. Pour les démarches administratives complètes, consultez notre [checklist de déménagement au Japon](/blog/demenager-japon-checklist-complete).*
@@ -5113,6 +5279,8 @@ The Tokyo Subway Ticket (24h/48h/72h) covers all 13 metro lines for ¥800, ¥1,2
 
 The national JR Pass covers JR lines (Yamanote, Chuo, Keihin-Tohoku) but not Tokyo Metro or Toei subway lines. A Suica remains essential in addition.
 
+
+To discover Tokyo on your first commutes, [GetYourGuide](https://www.getyourguide.com/tokyo-l193/?partner_id=4LP5PLT&utm_medium=online_publisher) offers guided tours and cultural experiences bookable online. To read signs and announcements in Japanese, [iTalki](https://www.italki.com/affshare?ref=af32660342) offers lessons with native teachers from $10/hour. *(affiliate links)*
 ---
 
 *Once you know which commute line suits you, the next step is choosing your neighbourhood. Our guide to [Tokyo neighbourhoods for expats](/blog/tokyo-neighbourhoods-expats-guide) compares the main areas by line, price, and community. For the rental process itself, see our complete [Tokyo apartment hunting guide for foreigners](/blog/find-apartment-tokyo-foreigner).*
@@ -5194,6 +5362,8 @@ Contact your home-country carrier to unlock your phone before departing. A SIM-l
 
 iPhones purchased outright from an Apple Store are usually already unlocked. Frequency bands to verify: B1, B3, B19 for Docomo-network operators (IIJmio, ahamo); B1, B3, B8 for SoftBank-network operators (LINEMO). Most recent smartphones support these bands.
 
+
+For your SIM card in Japan, [Sakura Mobile](https://www.sakuramobile.jp/tokyoexpat-top) offers prepaid and postpaid plans with no address proof required, available from arrival at the airport and usable by foreigners without a My Number. *(affiliate link)*
 ---
 
 *For home internet in your apartment, see our guide to [setting up utilities in Tokyo](/blog/setting-up-utilities-tokyo-apartment). For a complete move-in checklist, read our [step-by-step guide to moving to Tokyo](/blog/moving-to-tokyo-checklist-2026).*
@@ -5285,6 +5455,8 @@ Mostly yes, for full-time employees on a standard Japanese contract. Verify with
 
 You must file a final return before leaving, or appoint a tax representative (zeirishi). Your employer may complete a year-end adjustment for salary income.
 
+
+For health coverage as an expat in Japan, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) offers monthly insurance with no commitment, activatable before Japanese national insurance enrolment. *(affiliate link)*
 ---
 
 *For a complete relocation checklist, see our guide on [moving to Tokyo step by step](/blog/moving-to-tokyo-checklist-2026). For healthcare contributions, read our guide to [Japan's health insurance for expats](/blog/japan-health-insurance-expat-guide).*
@@ -5365,6 +5537,8 @@ Yes, for fibre contracts. A Japanese address is required. For pocket WiFi device
 
 TEPCO has English guidance on its website and an English-language phone line. Tokyo Gas has an English-language phone option. If you are struggling, your letting agency can often assist with first-contact calls.
 
+
+For mobile connectivity while waiting for home internet setup, [Sakura Mobile](https://www.sakuramobile.jp/tokyoexpat-top) offers data plans with no address proof required, usable from day one in Japan. *(affiliate link)*
 ---
 
 *For a complete move-in checklist, see our [step-by-step guide to moving to Tokyo](/blog/moving-to-tokyo-checklist-2026). For the apartment search before you get to this stage, read our [Tokyo apartment hunting guide for foreigners](/blog/find-apartment-tokyo-foreigner).*
@@ -5460,6 +5634,8 @@ Yes, particularly in multinationals, tech startups, financial services, and educ
 
 Japanese contracts typically include a 3 to 6 month probation period. Employee rights are protected from day one under Japanese labour law, including during probation.
 
+
+To develop your professional Japanese, [iTalki](https://www.italki.com/affshare?ref=af32660342) offers online private lessons with native Japanese teachers specialised in business Japanese, from $10/hour. *(affiliate link)*
 ---
 
 *To find housing near your workplace, our guide to [Tokyo neighbourhoods for expats](/blog/tokyo-neighbourhoods-expats-guide) helps you choose by commute line and budget. For all administrative steps after arrival, see our [complete Tokyo moving checklist](/blog/moving-to-tokyo-checklist-2026).*
@@ -5541,6 +5717,8 @@ Wise permet jusqu'à l'équivalent de 1 million de livres par virement. Revolut 
 
 Les virements eux-mêmes ne sont pas automatiquement déclarés, mais les revenus qu'ils représentent le sont. La NTA (Administration Fiscale Nationale) peut demander une justification pour des virements importants et réguliers.
 
+
+Pour votre couverture sante en expatrie, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) propose une assurance mensuelle sans engagement adaptee aux residents etrangers au Japon. *(lien affilie)*
 ---
 
 *Pour les démarches bancaires à Tokyo, notre [guide d'ouverture de compte](/blog/ouvrir-compte-bancaire-japon-etranger) couvre toutes les banques adaptées aux expatriés. Pour votre installation complète, consultez notre [checklist déménagement Japon](/blog/demenager-japon-checklist-complete).*
@@ -5619,7 +5797,7 @@ Une fois ces deux alphabets maîtrisés, chaque leçon en école sera deux fois 
 | Cours en groupe (Coto, ISI) | 15 000 à 30 000 ¥ | Rapide avec structure |
 | Cours particuliers | 40 000 à 80 000 ¥ | Très rapide |
 | Applications uniquement | 1 000 à 2 000 ¥ | Lente sans discipline |
-| Cours en ligne (iTalki) | 10 000 à 20 000 ¥ | Flexible |
+| Cours en ligne ([iTalki](https://www.italki.com/affshare?ref=af32660342)) | 10 000 à 20 000 ¥ | Flexible |
 
 ## FAQ
 
@@ -5629,7 +5807,7 @@ Non, c'est possible sans. Mais les expatriés qui apprennent, même à un niveau
 
 **Quelle option si je travaille 5 jours sur 7 ?**
 
-Coto Academy pour les cours du soir en groupe, et iTalki pour des cours particuliers flexibles le weekend.
+Coto Academy pour les cours du soir en groupe, et [iTalki](https://www.italki.com/affshare?ref=af32660342) pour des cours particuliers flexibles le weekend.
 
 **Le japonais est-il utile pour trouver un appartement ?**
 
@@ -5720,6 +5898,8 @@ Oui, pendant la période touristique ou lors des 3 premiers mois de résidence, 
 
 Oui. Le permis japonais obtenu par conversion est identique à celui obtenu par examen. Il se renouvelle selon les mêmes règles (tous les 3 à 5 ans selon votre historique de conduite).
 
+
+Pour votre couverture sante pendant les demarches administratives, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) propose une assurance mensuelle sans engagement. Pour faciliter les demarches en japonais, [iTalki](https://www.italki.com/affshare?ref=af32660342) propose des cours avec des professeurs natifs a partir de 10$/heure. *(liens affilies)*
 ---
 
 *Pour votre installation complète au Japon, notre [guide des démarches administratives](/blog/demenager-japon-checklist-complete) liste toutes les étapes à effectuer après l'arrivée. Pour le logement, consultez notre [guide de location à Tokyo](/blog/trouver-appartement-tokyo-etranger).*
@@ -5811,6 +5991,8 @@ Oui, en général. Certains déménageurs acceptent un représentant mandaté, m
 
 Les appartements japonais sont souvent meublés ou beaucoup plus petits. Beaucoup d'expatriés stockent ou vendent leurs gros meubles en France plutôt que de les expédier. Les canapés européens passent rarement dans les espaces japonais standard. Consultez notre [guide des quartiers de Tokyo](/blog/quartiers-tokyo-expatries-guide) pour comprendre les configurations typiques des appartements.
 
+
+Pour votre couverture sante pendant le demenagement, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) propose une assurance mensuelle sans engagement, activable avant votre arrivee au Japon. *(lien affilie)*
 ---
 
 *Pour votre logement à Tokyo après l'arrivée, notre [guide de location pour expatriés](/blog/trouver-appartement-tokyo-etranger) vous aide à trouver rapidement. Pour les démarches administratives à effectuer dès l'arrivée, voir notre [checklist complète](/blog/demenager-japon-checklist-complete).*
@@ -5910,6 +6092,8 @@ Oui, exactement les mêmes règles s'appliquent aux chats et aux chiens.
 
 Peu d'appartements locatifs standards acceptent les animaux. Certains share houses ont des politiques "animaux bienvenus". Consultez notre [guide des quartiers pour expatriés](/blog/quartiers-tokyo-expatries-guide) pour trouver les zones où les logements "pet-friendly" sont plus fréquents.
 
+
+Pour votre couverture sante pendant la periode d'installation au Japon, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) propose une assurance mensuelle sans engagement. *(lien affilie)*
 ---
 
 *Pour votre logement à Tokyo, notre [guide de recherche d'appartement](/blog/trouver-appartement-tokyo-etranger) vous aide à trouver un bien adapté à votre situation. Pour toutes les démarches administratives après l'arrivée, voir notre [checklist déménagement Japon](/blog/demenager-japon-checklist-complete).*
@@ -6000,7 +6184,11 @@ Oui, en général. Les familles sont même souvent préférées aux groupes de j
 
 Oui, sous réserve de places disponibles. L'inscription se fait via la mairie de l'arrondissement. Prévoyez une liste d'attente dans les zones très demandées (Minato, Setagaya). Les mairies disposent généralement de services de traduction pour les familles étrangères.
 
+
+Pour explorer les quartiers familiaux de Tokyo avant votre installation, [GetYourGuide](https://www.getyourguide.com/tokyo-l193/?partner_id=4LP5PLT&utm_medium=online_publisher) propose des visites guidees et activites en famille reservables en ligne. *(lien affilie)*
 ---
+
+*À lire aussi : [Meilleurs quartiers de Tokyo pour les expatriés : guide complet 2026](/blog/quartiers-tokyo-expatries-guide).*
 
 *Pour votre logement dans ces quartiers, consultez notre [guide de recherche d'appartement à Tokyo](/blog/trouver-appartement-tokyo-etranger) ou [contactez-nous](/contact) pour une sélection ciblée selon votre école et votre budget.*
     `.trim(),
@@ -6087,7 +6275,11 @@ La distance Tokyo-Osaka est de 515 km, soit 2h30 en Shinkansen (environ 13 000 �
 
 Oui, les procédures (carte de résidence, assurance maladie, compte bancaire, numéro My Number) sont les mêmes partout au Japon. Les formalités se font auprès de votre mairie locale.
 
+
+Pour vivre l'experience gastronomique de Tokyo avant de choisir votre ville, [Arigato Travel](https://tours.arigatojapan.co.jp/?rfsn=91948) propose des food tours dans les quartiers de Tokyo guides par des locaux. *(lien affilie)*
 ---
+
+*À lire aussi : [Tokyo, Osaka ou Kyoto : quelle ville choisir pour s'installer ?](/blog/tokyo-osaka-kyoto-ou-s-installer).*
 
 *Si Tokyo est votre choix, notre [guide complet de logement pour expatriés](/blog/trouver-appartement-tokyo-etranger) vous aide à trouver un appartement rapidement. Pour les démarches d'arrivée, consultez notre [checklist déménagement Japon](/blog/demenager-japon-checklist-complete).*
     `.trim(),
@@ -6168,6 +6360,8 @@ Wise allows up to the equivalent of 1 million GBP per transfer. Free Revolut cap
 
 The transfers themselves are not automatically reported, but the income they represent is. The NTA (National Tax Agency) may request justification for large or regular incoming transfers.
 
+
+For health coverage as an expat in Japan, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) offers monthly insurance with no commitment, designed for foreign residents in Japan. *(affiliate link)*
 ---
 
 *For banking setup in Japan, our [bank account opening guide](/blog/open-bank-account-japan-foreigner) covers the best banks for expats. For your full relocation to Tokyo, see our [complete moving checklist](/blog/moving-to-tokyo-checklist-2026).*
@@ -6244,7 +6438,7 @@ Before enrolling in any school, invest 2 to 3 weeks in memorising hiragana and k
 | Group classes (Coto, ISI) | 15,000 to 30,000 ¥ | Fast with structure |
 | Private lessons | 40,000 to 80,000 ¥ | Very fast |
 | Apps only | 1,000 to 2,000 ¥ | Slow without discipline |
-| Online tutors (iTalki) | 10,000 to 20,000 ¥ | Flexible |
+| Online tutors ([iTalki](https://www.italki.com/affshare?ref=af32660342)) | 10,000 to 20,000 ¥ | Flexible |
 
 ## FAQ
 
@@ -6258,7 +6452,7 @@ Definitely. Even basic phrases help with agency visits and understanding contrac
 
 **Which option if I work five days a week?**
 
-Coto Academy for group evening classes, and iTalki for flexible weekend private lessons.
+Coto Academy for group evening classes, and [iTalki](https://www.italki.com/affshare?ref=af32660342) for flexible weekend private lessons.
 
 ---
 
@@ -6347,6 +6541,8 @@ Yes. A Japanese licence obtained by conversion is identical to one obtained by e
 
 For the first year after arrival (or as a tourist), yes, with an IDP. As a registered resident, you must convert. Traffic fines for driving on an expired conversion right are the same as for unlicensed driving.
 
+
+For health coverage during your admin process, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) offers monthly insurance with no commitment. To navigate the process in Japanese, [iTalki](https://www.italki.com/affshare?ref=af32660342) offers lessons with native teachers from $10/hour. *(affiliate links)*
 ---
 
 *For housing near convenient transport links, our [Tokyo neighbourhoods guide for expats](/blog/tokyo-neighbourhoods-expats-guide) helps you choose by commute line. For all administrative steps after arrival, see our [complete moving checklist](/blog/moving-to-tokyo-checklist-2026).*
@@ -6447,7 +6643,11 @@ Generally yes. Most movers require your presence or an authorised representative
 
 Yes, but it is complex and expensive. Japan drives on the left, so right-hand drive vehicles from Australia and the UK are simpler to register. Left-hand drive vehicles require a safety inspection and often modifications.
 
+
+For health coverage during your move, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) offers monthly insurance with no commitment, activatable before your arrival in Japan. *(affiliate link)*
 ---
+
+*See also: [Moving to Tokyo in 2026: Complete Expat Checklist](/blog/moving-to-tokyo-checklist-2026).*
 
 *For your housing in Japan once your belongings arrive, see our [guide to finding an apartment in Tokyo](/blog/find-apartment-tokyo-foreigner) or [contact us](/contact) for a personalised apartment search.*
     `.trim(),
@@ -6553,6 +6753,8 @@ Yes. Identical rules apply to both species.
 
 Your pet will be quarantined while corrections are made. This can take days or weeks. Japanese animal quarantine officers are very thorough. Having a bilingual representative who understands the protocol review your documents before travel is strongly recommended.
 
+
+For health coverage during your relocation to Japan, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) offers monthly insurance with no commitment. *(affiliate link)*
 ---
 
 *For your relocation to Tokyo, our [complete moving checklist](/blog/moving-to-tokyo-checklist-2026) covers all administrative steps. For housing options, see our [guide to finding an apartment in Tokyo](/blog/find-apartment-tokyo-foreigner).*
@@ -6647,7 +6849,11 @@ Yes, subject to available places. Registration is via your ward office. Expect a
 
 Yes. Tokyo's expat hub wards (Minato, Shibuya, Meguro) have several bilingual clinics. International Medical Center at Hiroo is one of the most commonly used by English-speaking expat families.
 
+
+To explore Tokyo's family-friendly neighbourhoods before your move, [GetYourGuide](https://www.getyourguide.com/tokyo-l193/?partner_id=4LP5PLT&utm_medium=online_publisher) offers guided tours and family activities bookable online. *(affiliate link)*
 ---
+
+*See also: [Best Tokyo Neighbourhoods for Expats: Complete Guide 2026](/blog/tokyo-neighbourhoods-expats-guide).*
 
 *For housing search in these areas, our [guide to finding an apartment in Tokyo](/blog/find-apartment-tokyo-foreigner) covers the full process. For all administrative steps after arrival in Japan, see our [complete moving checklist](/blog/moving-to-tokyo-checklist-2026).*
     `.trim(),
@@ -6738,6 +6944,8 @@ Yes. Residence card registration, health insurance, bank account opening, and ta
 
 Generally yes, though Osaka increasingly serves international business. Tokyo's Shinjuku, Shibuya and Minato wards have the highest density of English-speaking services, restaurants and medical professionals in Japan.
 
+
+To experience Tokyo's food culture before making your city choice, [Arigato Travel](https://tours.arigatojapan.co.jp/?rfsn=91948) offers food tours across Tokyo's neighbourhoods led by local guides. *(affiliate link)*
 ---
 
 *If Tokyo is your choice, our [guide to finding an apartment in Tokyo](/blog/find-apartment-tokyo-foreigner) helps you get started. For all administrative steps after arrival, see our [complete expat moving checklist](/blog/moving-to-tokyo-checklist-2026).*
@@ -6862,7 +7070,11 @@ Overstay of any Japanese visa results in deportation and a minimum 5-year entry 
 
 Infrastructure-wise, Japan is excellent: fast fiber internet everywhere, coworking spaces in most Tokyo wards, reliable public transport, very low crime. The main challenges are the high income threshold for the visa and the cost of living relative to Southeast Asia.
 
+
+For health coverage as a digital nomad, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) offers monthly travel and health insurance with no commitment, designed specifically for remote workers and expats. *(affiliate link)*
 ---
+
+*See also: [Japan Work Visa for Foreigners: Which Type to Choose in 2026?](/blog/japan-work-visa-foreigners-guide), [Japan Working Holiday Visa 2026: Complete Guide (Eligibility & Housing)](/blog/japan-working-holiday-visa-guide-2026).*
 
 *For housing, start with our [furnished apartment guide](/blog/furnished-apartment-tokyo-expats) or [share house overview](/blog/share-house-tokyo-guide-2026). For visa and administrative steps after arrival, see our [complete Tokyo moving checklist](/blog/moving-to-tokyo-checklist-2026).*
     `.trim(),
@@ -6986,7 +7198,11 @@ Le dépassement de durée d'un visa japonais entraîne l'expulsion et une interd
 
 Sur le plan de l'infrastructure, oui : fibre ultra-rapide partout, espaces de coworking dans la plupart des arrondissements de Tokyo, transports en commun très fiables, criminalité très faible. Les principaux freins sont le seuil de revenus élevé pour le visa et le coût de la vie élevé par rapport à l'Asie du Sud-Est.
 
+
+Pour votre couverture sante en nomade digital, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) propose une assurance voyage et sante mensuelle sans engagement, conçue pour les travailleurs a distance et expatries. *(lien affilie)*
 ---
+
+*À lire aussi : [Visa travail au Japon pour les francophones : quel type choisir en 2026 ?](/blog/visa-travail-japon-francophone-2026), [PVT Japon 2026 : Guide Complet du Programme Vacances Travail](/blog/pvt-japon-visa-vacances-travail-2026).*
 
 *Pour le logement, commencez par notre [guide des appartements meublés](/blog/appartement-meuble-tokyo-expats) ou notre [guide des share houses](/blog/share-house-tokyo-guide-complet). Pour les démarches administratives après l'arrivée, voir notre [checklist complète pour s'installer à Tokyo](/blog/demenager-japon-checklist-complete).*
     `.trim(),
@@ -7128,7 +7344,11 @@ You cannot apply until the following year. Quotas typically reset in January. Fr
 
 No. The WHV is a once-in-a-lifetime visa. Leaving and re-entering does not reset or extend it.
 
+
+For health coverage during your working holiday, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) offers monthly insurance with no commitment, widely used by WHV holders for the period before enrolling in Japanese national insurance. *(affiliate link)*
 ---
+
+*See also: [Japan Work Visa for Foreigners: Which Type to Choose in 2026?](/blog/japan-work-visa-foreigners-guide), [Japan Digital Nomad Visa 2026: Complete Guide for Remote Workers](/blog/japan-digital-nomad-visa-2026).*
 
 *Arriving in Tokyo? Start with our [share house guide](/blog/share-house-tokyo-guide-2026) for your first accommodation, and our [complete moving checklist](/blog/moving-to-tokyo-checklist-2026) for all administrative steps after arrival.*
     `.trim(),
@@ -7261,7 +7481,11 @@ Vous ne pouvez pas postuler avant l'année suivante. Les quotas se réinitialise
 
 Non. Le PVT est un visa unique dans une vie. Sortir et rentrer à nouveau ne le réinitialise pas et ne le prolonge pas.
 
+
+Pour votre couverture sante pendant votre PVT, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) propose une assurance mensuelle sans engagement, populaire aupres des titulaires de PVT pour la periode avant l'assurance nationale japonaise. *(lien affilie)*
 ---
+
+*À lire aussi : [Visa travail au Japon pour les francophones : quel type choisir en 2026 ?](/blog/visa-travail-japon-francophone-2026), [Visa Nomade Digital Japon 2026 : Guide Complet pour les Télétravailleurs](/blog/visa-nomade-digital-japon-2026).*
 
 *À votre arrivée à Tokyo, commencez par notre [guide des share houses](/blog/share-house-tokyo-guide-complet) pour votre premier logement, et notre [checklist complète pour s'installer à Tokyo](/blog/demenager-japon-checklist-complete) pour toutes les démarches administratives.*
     `.trim(),
@@ -7367,7 +7591,11 @@ Pour plus de détails sur la recherche depuis l'étranger, consultez notre [guid
 
 Si vous hésitez encore sur le type de logement, notre [guide complet des share houses à Tokyo](/blog/share-house-tokyo-guide-complet) détaille les options quartier par quartier et opérateur par opérateur.
 
+
+Pour votre couverture sante en arrivant en octobre, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) propose une assurance mensuelle sans engagement, activable des votre arrivee au Japon. *(lien affilie)*
 ---
+
+*À lire aussi : [Logement étudiant à Tokyo : guide complet pour francophones](/blog/logement-etudiant-tokyo-guide), [Trouver un appartement à Tokyo en septembre : ce qui change vs le printemps](/blog/appartement-tokyo-septembre-guide).*
 
 *Votre programme commence en octobre et vous n'avez toujours pas trouvé de logement ? Consultez notre [guide logement étudiant Tokyo 2026](/blog/logement-etudiant-tokyo-2026) pour les démarches complètes, et contactez-nous directement si vous souhaitez un accompagnement personnalisé.*
     `.trim(),
@@ -7473,7 +7701,11 @@ For a step-by-step guide on searching from abroad, see our [Tokyo apartment hunt
 
 If you're still deciding on the type of housing, our [complete Tokyo share house guide](/blog/share-house-tokyo-guide-2026) covers options by neighbourhood and operator.
 
+
+For health coverage upon arrival in October, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) offers monthly insurance with no commitment, activatable from day one in Japan. *(affiliate link)*
 ---
+
+*See also: [Student Housing Tokyo 2026: Complete Guide for International Students](/blog/student-housing-tokyo-guide), [Finding an Apartment in Tokyo in September: What Changes vs Spring](/blog/find-apartment-tokyo-september).*
 
 *Starting in October and haven't sorted housing yet? See our [student housing Tokyo 2026 guide](/blog/student-housing-tokyo-guide-2026) for the full process, or contact us directly if you want personalised help.*
     `.trim(),
@@ -7577,7 +7809,11 @@ Si vous êtes muté au Japon par une entreprise japonaise ou internationale, dem
 
 Pour un accompagnement personnalisé dans votre recherche, [contactez-nous](/contact) : nous gérons le processus de bout en bout en français, de la définition du budget jusqu'à la signature du bail.
 
+
+Pour votre couverture sante pendant votre installation, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) propose une assurance mensuelle sans engagement. Pour vos activites culturelles a Tokyo, [GetYourGuide](https://www.getyourguide.com/tokyo-l193/?partner_id=4LP5PLT&utm_medium=online_publisher) propose des visites guidees reservables en ligne. *(liens affilies)*
 ---
+
+*À lire aussi : [Appartement meublé Tokyo expatriés : 5 options rapides 2026](/blog/appartement-meuble-tokyo-expats).*
 
 *Voir aussi : [trouver un appartement à Tokyo depuis l'étranger](/blog/chercher-appartement-tokyo-depuis-etranger) et [logement sans garant à Tokyo](/blog/appartement-meuble-tokyo-sans-garant).*
     `.trim(),
@@ -7681,9 +7917,11 @@ If you're being seconded to Japan by a Japanese or international company, ask yo
 
 For personalised help with your search, [contact us](/contact): we handle the full process in English, from budget planning to lease signing.
 
+
+For health coverage during your relocation, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) offers monthly insurance with no commitment. For cultural activities in Tokyo, [GetYourGuide](https://www.getyourguide.com/tokyo-l193/?partner_id=4LP5PLT&utm_medium=online_publisher) offers guided tours bookable online. *(affiliate links)*
 ---
 
-*See also: [apartment hunting in Tokyo from abroad](/blog/tokyo-apartment-hunting-from-abroad) and [furnished apartments without a guarantor](/blog/furnished-apartment-tokyo-no-guarantor).*
+*See also: [apartment hunting in Tokyo from abroad](/blog/tokyo-apartment-hunting-from-abroad) and [furnished apartments without a guarantor](/blog/furnished-apartment-tokyo-no-guarantor), [Furnished Apartment in Tokyo for Expats: 5 Quick Options (2026)](/blog/furnished-apartment-tokyo-expats).*
     `.trim(),
   },
 
@@ -7744,6 +7982,8 @@ Remoters can be useful if you're relocating to multiple cities simultaneously an
 
 If you're looking for a Tokyo apartment and want a direct, no-intermediary approach, [contact us here](/contact). We handle the full process in English and French, from first search to lease signing.
 
+
+For health coverage during your property search in Japan, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) offers monthly insurance with no commitment. *(affiliate link)*
 ---
 
 *Related: [how to find an apartment in Tokyo as a foreigner](/blog/find-apartment-tokyo-foreigner) and [checklist for moving to Tokyo](/blog/moving-to-tokyo-checklist-2026).*
@@ -7810,9 +8050,1559 @@ Remoters est utile si vous vous relocalisez dans plusieurs villes simultanément
 
 Si vous cherchez un appartement à Tokyo et souhaitez une approche directe sans intermédiaire, [contactez-nous ici](/contact). Nous gérons le processus complet en français et en anglais, de la recherche à la signature du bail.
 
+
+Pour votre couverture sante pendant la recherche de logement, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) propose une assurance mensuelle sans engagement. *(lien affilie)*
 ---
 
 *À lire aussi : [trouver un appartement à Tokyo en tant qu'étranger](/blog/trouver-appartement-tokyo-etranger) et [checklist déménagement à Tokyo](/blog/demenager-japon-checklist-complete).*
+    `.trim(),
+  },
+  {
+    slug: 'tokyo-rent-by-neighborhood-2026',
+    locale: 'en',
+    title: 'Tokyo Rent by Neighborhood 2026: Expat Price Guide',
+    description: 'Complete breakdown of Tokyo apartment rents by neighborhood in 2026. Average costs for 1K, 1LDK and 2LDK across 15 key districts for expats budgeting their move.',
+    date: '2026-06-25',
+    readingTime: '8 min',
+    content: `
+Understanding Tokyo apartment prices before you start your search is the difference between a realistic brief and weeks of wasted visits. Rents in Tokyo vary enormously by neighborhood, apartment type, and proximity to a metro station. This guide gives you benchmarks for 15 key expat districts in 2026, based on current market data for furnished and unfurnished rentals.
+
+All prices below are monthly rent in JPY, excluding service charges and utilities unless specified. Add 15-25% for fully furnished serviced apartments.
+
+## Tokyo Rent Comparison by Neighborhood: 2026
+
+| Neighborhood | 1K / Studio | 1LDK | 2LDK |
+|---|---|---|---|
+| Hiroo / Minami-Azabu | 150,000-200,000 | 200,000-300,000 | 300,000-450,000 |
+| Roppongi / Azabu | 130,000-180,000 | 180,000-280,000 | 280,000-400,000 |
+| Akasaka / Nagatacho | 120,000-170,000 | 170,000-260,000 | 260,000-380,000 |
+| Shibuya / Ebisu | 110,000-160,000 | 160,000-240,000 | 240,000-350,000 |
+| Shinjuku (central) | 100,000-150,000 | 140,000-220,000 | 200,000-300,000 |
+| Nakameguro / Daikanyama | 100,000-150,000 | 150,000-220,000 | 220,000-320,000 |
+| Meguro / Gotanda | 95,000-140,000 | 140,000-210,000 | 210,000-300,000 |
+| Shinagawa / Osaki | 85,000-130,000 | 130,000-200,000 | 200,000-280,000 |
+| Shimokitazawa / Sangenjaya | 75,000-110,000 | 110,000-160,000 | 160,000-230,000 |
+| Koenji / Nakano | 70,000-100,000 | 100,000-150,000 | 150,000-210,000 |
+| Kagurazaka / Iidabashi | 100,000-145,000 | 145,000-220,000 | 220,000-310,000 |
+| Akihabara / Kanda | 80,000-120,000 | 120,000-180,000 | 180,000-260,000 |
+| Sumida / Ryogoku | 70,000-105,000 | 105,000-160,000 | 160,000-230,000 |
+| Asakusa / Ueno | 72,000-108,000 | 108,000-165,000 | 165,000-235,000 |
+| Monzen-Nakacho | 75,000-110,000 | 110,000-165,000 | 165,000-235,000 |
+
+*Prices in JPY/month, unfurnished, standard 2-year lease. Add 15-25% for furnished. Data: 2026 market averages.*
+
+## What Drives the Price Differences
+
+**Proximity to the diplomatic and business corridor**
+
+The cluster of Hiroo, Minami-Azabu, Roppongi and Akasaka commands the highest rents in Tokyo for expats. This area concentrates the largest share of foreign residents, international schools, and English-friendly services. Properties here often include amenities aimed at foreign tenants: 24-hour concierge, bilingual management, and direct access to Roppongi station.
+
+**Line and station quality**
+
+Properties within 5 minutes of a major hub (Shinjuku, Shibuya, Roppongi) carry a 15-25% premium over equivalent properties 10-15 minutes away. The same apartment moves from 160,000 JPY to 130,000 JPY if you are willing to walk an extra 8 minutes to the station.
+
+**Building age and type**
+
+Post-2010 buildings with seismic reinforcement (shin-taishin), elevator, auto-lock, and built-in appliances command a premium of 10-20% over older buildings. For expats planning a 2-3 year stay, newer buildings also reduce maintenance friction.
+
+**Floor level**
+
+High floors (8th and above) add 5-15% to the listed price in Tokyo. The premium is larger in buildings with panoramic views.
+
+## Which Neighborhood Suits Which Budget
+
+**Under 120,000 JPY/month**: Shimokitazawa, Koenji, Nakano, Sumida, Monzen-Nakacho. These neighborhoods offer good quality of life, strong metro access, and an authentic Tokyo feel. Less international-facing infrastructure (fewer English-speaking services, fewer Western restaurants), but excellent value.
+
+**120,000-180,000 JPY/month**: Shinjuku, Meguro, Shinagawa, Nakameguro, Ebisu. The sweet spot for most expat budgets. Good infrastructure, English-friendly environments, reasonable commute times to major business districts.
+
+**Over 180,000 JPY/month**: Hiroo, Minami-Azabu, Roppongi, Akasaka, Shibuya. Full-service expat experience: international supermarkets, school proximity, English-speaking property managers. Suitable for families or professionals with housing allowances.
+
+## Why Budget-Only Searches Miss the Point
+
+The cheapest apartment is rarely the best value. A 70,000 JPY studio 25 minutes from your workplace with no English-speaking property manager costs more in time and friction than a 110,000 JPY apartment that is 10 minutes away and managed in English.
+
+For expats, the hidden cost of a mismatched apartment is measured in commute hours, isolation, and administrative difficulty. The most experienced expats start with neighborhood first, then filter by budget, not the other way around.
+
+See: [Tokyo neighborhoods guide for expats](/blog/tokyo-neighbourhoods-expats-guide) and [how to find an apartment in Tokyo as a foreigner](/blog/find-apartment-tokyo-foreigner)
+
+## What to Budget Beyond the Rent
+
+When calculating your Tokyo housing budget, add:
+
+- **Agency fee (shoukoukin)**: 1 month of rent, non-refundable
+- **Security deposit (shikikin)**: 1-2 months of rent, partially refundable
+- **Key money (reikin)**: 0-2 months, non-refundable (increasingly negotiable, especially for foreign-friendly landlords)
+- **Guarantor fee**: 0.5-1 month of rent per year if using a guarantor company
+- **Moving costs**: 50,000-150,000 JPY depending on volume and distance
+
+Total move-in cost for a 150,000 JPY/month apartment: approximately 500,000-800,000 JPY upfront.
+
+For furnished apartments or monthly mansions, entry costs are typically lower (1-2 months), but monthly rent is 15-30% higher.
+
+[Contact us](/contact) to discuss your budget and identify the neighborhoods where your price range gets you the best match.
+
+
+For health coverage during your apartment search, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) offers monthly insurance with no commitment. To explore neighbourhoods before choosing, [GetYourGuide](https://www.getyourguide.com/tokyo-l193/?partner_id=4LP5PLT&utm_medium=online_publisher) offers guided tours across Tokyo. *(affiliate links)*
+---
+
+*Read next: [furnished apartments in Tokyo with no guarantor](/blog/furnished-apartment-tokyo-no-guarantor) and [Hiroo and Minami-Azabu expat neighborhood guide](/blog/hiroo-minami-azabu-expat-neighborhood-guide), [Negotiating Rent in Tokyo: Is It Possible and How to Do It?](/blog/negotiating-rent-tokyo-tips), [7 Rental Traps to Avoid When Renting in Tokyo as a Foreigner](/blog/tokyo-rental-traps-foreigners), [Tokyo Rental Contract: 12 Things to Check Before Signing](/blog/tokyo-rental-contract-checklist).*
+    `.trim(),
+  },
+  {
+    slug: 'loyers-tokyo-par-quartier-2026',
+    locale: 'fr',
+    title: 'Loyers à Tokyo par quartier 2026: guide pour expatriés',
+    description: 'Comparatif complet des loyers à Tokyo en 2026. Prix moyens des appartements 1K, 1LDK et 2LDK dans 15 quartiers clés pour budgétiser votre installation en tant qu\'expatrié.',
+    date: '2026-06-25',
+    readingTime: '8 min',
+    content: `
+Comprendre les loyers de Tokyo avant de commencer votre recherche, c'est la différence entre un brief réaliste et des semaines de visites inutiles. Les loyers à Tokyo varient considérablement selon le quartier, le type d'appartement et la proximité des transports. Ce guide vous donne les fourchettes de prix pour 15 quartiers clés en 2026.
+
+Tous les prix ci-dessous sont des loyers mensuels en JPY, hors charges et utilities sauf mention contraire. Ajoutez 15 à 25% pour les appartements entièrement meublés et équipés.
+
+## Comparatif loyers Tokyo par quartier: 2026
+
+| Quartier | 1K / Studio | 1LDK | 2LDK |
+|---|---|---|---|
+| Hiroo / Minami-Azabu | 150 000-200 000 | 200 000-300 000 | 300 000-450 000 |
+| Roppongi / Azabu | 130 000-180 000 | 180 000-280 000 | 280 000-400 000 |
+| Akasaka / Nagatacho | 120 000-170 000 | 170 000-260 000 | 260 000-380 000 |
+| Shibuya / Ebisu | 110 000-160 000 | 160 000-240 000 | 240 000-350 000 |
+| Shinjuku (central) | 100 000-150 000 | 140 000-220 000 | 200 000-300 000 |
+| Nakameguro / Daikanyama | 100 000-150 000 | 150 000-220 000 | 220 000-320 000 |
+| Meguro / Gotanda | 95 000-140 000 | 140 000-210 000 | 210 000-300 000 |
+| Shinagawa / Osaki | 85 000-130 000 | 130 000-200 000 | 200 000-280 000 |
+| Shimokitazawa / Sangenjaya | 75 000-110 000 | 110 000-160 000 | 160 000-230 000 |
+| Koenji / Nakano | 70 000-100 000 | 100 000-150 000 | 150 000-210 000 |
+| Kagurazaka / Iidabashi | 100 000-145 000 | 145 000-220 000 | 220 000-310 000 |
+| Akihabara / Kanda | 80 000-120 000 | 120 000-180 000 | 180 000-260 000 |
+| Sumida / Ryogoku | 70 000-105 000 | 105 000-160 000 | 160 000-230 000 |
+| Asakusa / Ueno | 72 000-108 000 | 108 000-165 000 | 165 000-235 000 |
+| Monzen-Nakacho | 75 000-110 000 | 110 000-165 000 | 165 000-235 000 |
+
+*Prix en JPY/mois, non meublé, bail standard 2 ans. Ajouter 15-25% pour les meublés. Données: moyennes marché 2026.*
+
+## Ce qui explique les différences de prix
+
+**La proximité du couloir diplomatique et d'affaires**
+
+Le cluster Hiroo, Minami-Azabu, Roppongi et Akasaka concentre les loyers les plus élevés de Tokyo pour les expatriés. Cette zone rassemble la plus grande densité de résidents étrangers, d'écoles internationales et de services anglophones. Les immeubles y incluent souvent des prestations orientées vers les locataires étrangers: conciergerie 24h, gestion bilingue, accès direct aux transports.
+
+**La qualité de la ligne et de la station**
+
+Un appartement à moins de 5 minutes d'un hub majeur (Shinjuku, Shibuya, Roppongi) est 15 à 25% plus cher qu'un appartement équivalent à 10-15 minutes. Le même appartement passe de 160 000 JPY à 130 000 JPY si vous acceptez 8 minutes de marche supplémentaires.
+
+**L'âge et le type de l'immeuble**
+
+Les immeubles post-2010 avec renforcement sismique (shin-taishin), ascenseur, serrure automatique et équipements intégrés sont 10 à 20% plus chers que les immeubles anciens. Pour un séjour de 2 à 3 ans, les immeubles neufs réduisent aussi les complications de maintenance.
+
+## Quel quartier pour quel budget
+
+**Moins de 120 000 JPY/mois**: Shimokitazawa, Koenji, Nakano, Sumida. Excellente qualité de vie, bon réseau de transports, ambiance authentiquement tokyoïte. Moins d'infrastructure internationale (moins de services anglophones), mais excellent rapport qualité-prix.
+
+**120 000 à 180 000 JPY/mois**: Shinjuku, Meguro, Shinagawa, Nakameguro, Ebisu. Le sweet spot pour la plupart des budgets expatriés. Bonne infrastructure, environnements anglophones disponibles, temps de trajet raisonnables vers les principaux pôles d'affaires.
+
+**Plus de 180 000 JPY/mois**: Hiroo, Minami-Azabu, Roppongi, Akasaka, Shibuya. Expérience expatriée complète: supermarchés internationaux, proximité des écoles, gestionnaires anglophones. Adapté aux familles ou aux professionnels avec enveloppe logement.
+
+## Pourquoi chercher uniquement par prix est une erreur
+
+L'appartement le moins cher n'est presque jamais le meilleur rapport valeur. Un studio à 70 000 JPY à 25 minutes de votre lieu de travail, sans gestionnaire anglophone, coûte plus cher en temps et en friction qu'un appartement à 110 000 JPY à 10 minutes et géré en anglais.
+
+Pour un expatrié, le coût caché d'un mauvais appartement se mesure en heures de trajet, en isolement et en difficultés administratives. Les expatriés expérimentés choisissent le quartier en premier, le budget ensuite.
+
+Voir: [guide des quartiers de Tokyo pour expatriés](/blog/quartiers-tokyo-expatries-guide) et [comment trouver un appartement à Tokyo en tant qu'étranger](/blog/trouver-appartement-tokyo-etranger)
+
+## Ce qu'il faut budgétiser au-delà du loyer
+
+En calculant votre budget logement à Tokyo, ajoutez:
+
+- **Frais d'agence (shoukoukin)**: 1 mois de loyer, non remboursable
+- **Dépôt de garantie (shikikin)**: 1 à 2 mois de loyer, partiellement remboursable
+- **Reikin (clé de courtoisie)**: 0 à 2 mois, non remboursable (de plus en plus négociable)
+- **Société de garantie**: 0,5 à 1 mois de loyer par an si vous n'avez pas de garant japonais
+- **Déménagement**: 50 000 à 150 000 JPY selon le volume et la distance
+
+Coût total d'entrée pour un appartement à 150 000 JPY/mois: environ 500 000 à 800 000 JPY.
+
+[Contactez-nous](/contact) pour discuter de votre budget et identifier les quartiers où votre fourchette de prix correspond le mieux à votre profil.
+
+
+Pour votre couverture sante pendant la recherche de logement, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) propose une assurance mensuelle sans engagement. Pour explorer les quartiers avant de choisir, [GetYourGuide](https://www.getyourguide.com/tokyo-l193/?partner_id=4LP5PLT&utm_medium=online_publisher) propose des visites guidees a Tokyo. *(liens affilies)*
+---
+
+*À lire aussi: [appartements meublés à Tokyo sans garant](/blog/appartement-meuble-tokyo-sans-garant) et [Hiroo et Minami-Azabu: guide des quartiers expats](/blog/hiroo-minami-azabu-guide-expatries-tokyo), [Négocier son loyer à Tokyo : est-ce possible et comment s'y prendre ?](/blog/negocier-loyer-tokyo-conseils).*
+    `.trim(),
+  },
+  {
+    slug: 'renting-tokyo-entrepreneur-startup-guide',
+    locale: 'en',
+    title: 'Renting in Tokyo as an Entrepreneur: What You Need to Know',
+    description: 'Freelancers and startup founders face specific barriers renting in Tokyo. Here is how to overcome them: guarantors, income proof alternatives and the right channels.',
+    date: '2026-06-25',
+    readingTime: '7 min',
+    content: `
+Renting an apartment in Tokyo as a freelancer, entrepreneur, or startup founder is harder than it is for a salaried employee. The Japanese rental market is built around one tenant profile: a full-time employee at a large Japanese company with regular pay slips and a stable employment contract. Everyone else is filtered out before the landlord even sees the application.
+
+This guide explains exactly why, and what you can do about it.
+
+## Why Entrepreneurs Are Rejected on the Traditional Market
+
+The Japanese rental screening process is conservative by design. Landlords assess risk based on income stability, not absolute income. A freelancer earning 800,000 JPY per month may be rejected in favor of a salaried employee earning 300,000 JPY per month, simply because the employee's income is guaranteed by a company.
+
+**What landlords look for:**
+- Employment certificate from a recognized company (zaishoku shomeisho)
+- Pay slips for the past 3-6 months showing consistent income
+- A guarantor (hoshounin) who is a full-time Japanese employee
+
+**What entrepreneurs cannot provide:**
+- A traditional employment certificate
+- Pay slips from an employer
+- A Japanese guarantor with corporate employment
+
+The result: your application is either rejected outright or never forwarded to the landlord by the agency.
+
+## What Documents Work Instead
+
+If you cannot provide the standard documents, substitute with the strongest alternatives available:
+
+**For income proof:**
+- 2-3 years of tax returns (kakutei shinkoku) showing stable or growing income
+- Bank statements covering the last 3-6 months showing consistent cash flow
+- A letter from your accountant or CPA confirming your annual income
+- Client contracts or invoices demonstrating ongoing revenue
+
+**For business proof:**
+- Business registration certificate (touki jiko shomeisho) if you have an incorporated entity in Japan
+- LinkedIn profile or website showing your business activity
+- A client list (even partial) demonstrating continuity
+
+**For guarantor:**
+- A guarantee company (hoshougaisha) - this is the most reliable substitute. The annual fee is 0.5-1 month of rent and it eliminates the need for a personal Japanese guarantor.
+
+## Which Market to Target
+
+The traditional Japanese rental market will be difficult regardless of document quality. There are two segments where entrepreneurs have significantly better outcomes:
+
+**Furnished monthly mansions and serviced apartments**: These operators are accustomed to self-employed tenants, freelancers, and international professionals. They use simplified screening and their minimum period is 1-3 months. The monthly rent is higher (15-30% above equivalent unfurnished), but the total cost is often lower when you factor in the absence of key money, lower security deposit, and no furniture purchase.
+
+See: [Furnished apartments in Tokyo with no guarantor](/blog/furnished-apartment-tokyo-no-guarantor)
+
+**Expat-specialist agencies**: Some agencies have built networks of landlords who have explicitly accepted non-standard employment profiles. These are not advertised but are accessible through intermediaries who work regularly with this audience.
+
+## The Real Estate Hunter Advantage for Entrepreneurs
+
+A real estate hunter who specializes in foreign profiles, including self-employed profiles, knows exactly which landlords and agencies accept entrepreneurs. They pre-filter based on your profile before submitting any application, dramatically reducing the rejection rate.
+
+More importantly, they can position your profile correctly. "Freelancer" and "entrepreneur" are risky labels in Japanese real estate. A hunter who has worked with dozens of similar profiles knows how to frame income stability, present documentation in the right order, and address the landlord's concerns before they arise.
+
+See: [Real estate hunter vs agency in Tokyo](/blog/real-estate-hunter-vs-agency-tokyo)
+
+## Japan Startup Visa Holders: Additional Considerations
+
+If you hold a Japan Business Manager Visa (startup visa), your application profile includes one additional complication: the visa is often tied to a specific business address, not a residential address. Some landlords and agencies are unfamiliar with this visa type and apply additional scrutiny.
+
+The solution is the same: target furnished operators and expat-specialist channels where your visa type is understood, and use a real estate hunter who has handled startup visa profiles previously.
+
+## Timeline and Budget Expectations
+
+For an entrepreneur relocating to Tokyo without a standard employment setup:
+
+- **Timeline via traditional market**: unpredictable, potentially 6-10 weeks with multiple rejections
+- **Timeline via furnished operators**: 1-2 weeks
+- **Timeline via hunter with specialist network**: 7-14 days for a permanent unfurnished solution
+
+Budget: add 20-30% contingency over your listed rent target to account for entry costs (security deposit, agency fees, guarantor company).
+
+[Contact us](/contact) for a first call. We work regularly with entrepreneurs, freelancers, and startup founders relocating to Tokyo.
+
+
+For health coverage as a freelancer or entrepreneur in Japan, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) offers monthly insurance with no commitment, suited for self-employed expats before national insurance enrolment. *(affiliate link)*
+---
+
+*Read next: [rental application rejected in Japan: what to do](/blog/rental-application-rejected-japan-foreigner) and [real estate hunter vs agency in Tokyo](/blog/real-estate-hunter-vs-agency-tokyo).*
+    `.trim(),
+  },
+  {
+    slug: 'appartement-tokyo-entrepreneur-freelance',
+    locale: 'fr',
+    title: 'Appartement à Tokyo pour entrepreneurs et freelances',
+    description: 'Les entrepreneurs et freelances font face à des obstacles spécifiques pour louer à Tokyo. Causes, solutions concrètes et meilleurs canaux pour trouver rapidement.',
+    date: '2026-06-25',
+    readingTime: '7 min',
+    content: `
+Louer un appartement à Tokyo quand on est entrepreneur, freelance ou travailleur indépendant est structurellement plus difficile que pour un salarié. Le marché locatif japonais est construit autour d'un profil type: salarié d'une grande entreprise japonaise, CDI, fiche de paie stable. Tout le monde en dehors de ce profil est filtré avant même que le propriétaire voie votre dossier.
+
+Ce guide explique exactement pourquoi, et ce que vous pouvez faire.
+
+## Pourquoi les entrepreneurs sont refusés sur le marché traditionnel
+
+Le processus de sélection locative japonais est conçu pour minimiser le risque. Les propriétaires évaluent la stabilité des revenus, pas leur niveau absolu. Un freelance qui gagne 800 000 JPY par mois peut être refusé en faveur d'un salarié qui gagne 300 000 JPY, uniquement parce que les revenus du salarié sont garantis par une entreprise.
+
+**Ce que les propriétaires demandent:**
+- Attestation d'emploi d'une entreprise reconnue (zaishoku shomeisho)
+- Bulletins de salaire des 3 à 6 derniers mois montrant des revenus réguliers
+- Un garant (hoshounin): citoyen japonais salarié à temps plein
+
+**Ce que les entrepreneurs ne peuvent pas fournir:**
+- Une attestation d'emploi classique
+- Des bulletins de salaire
+- Un garant japonais avec emploi stable en entreprise
+
+Le résultat: votre dossier est soit refusé directement, soit jamais transmis au propriétaire par l'agence.
+
+## Les documents qui fonctionnent à la place
+
+Si vous ne pouvez pas fournir les documents standard, voici les meilleures alternatives:
+
+**Pour justifier vos revenus:**
+- 2 à 3 ans de déclarations fiscales (kakutei shinkoku) montrant des revenus stables ou en croissance
+- Relevés bancaires des 3 à 6 derniers mois montrant un cash-flow régulier
+- Lettre de votre expert-comptable certifiant votre revenu annuel
+- Contrats clients ou factures démontrant une activité continue
+
+**Pour prouver votre activité:**
+- Extrait K-bis ou équivalent japonais (touki jiko shomeisho) si vous avez une structure incorporée au Japon
+- Site professionnel ou profil LinkedIn montrant votre activité
+- Références clients
+
+**Pour le garant:**
+- Une société de garantie (hoshougaisha): c'est le substitut le plus fiable. La prime annuelle est de 0,5 à 1 mois de loyer et élimine le besoin d'un garant personnel japonais.
+
+## Quel marché cibler
+
+Le marché traditionnel japonais restera difficile quel que soit votre dossier. Deux segments offrent de bien meilleures chances:
+
+**Appartements meublés et monthly mansions**: Ces opérateurs sont habitués aux profils indépendants, freelances et professionnels internationaux. Ils utilisent une sélection simplifiée et leur durée minimale est de 1 à 3 mois. Le loyer mensuel est plus élevé (15 à 30% au-dessus de l'équivalent non meublé), mais le coût total est souvent inférieur quand on intègre l'absence de reikin, le dépôt réduit et l'absence d'achat de mobilier.
+
+Voir: [Appartements meublés à Tokyo sans garant](/blog/appartement-meuble-tokyo-sans-garant)
+
+**Agences spécialisées expatriés**: Certaines agences ont constitué des réseaux de propriétaires ayant explicitement accepté les profils non-standard. Ces réseaux ne sont pas visibles publiquement mais sont accessibles via des intermédiaires qui travaillent régulièrement avec ce type de profil.
+
+## L'avantage du chasseur immobilier pour les entrepreneurs
+
+Un chasseur spécialisé dans les profils étrangers, y compris les profils indépendants, sait exactement quelles agences et quels propriétaires acceptent les entrepreneurs. Il présélectionne sur la base de votre profil avant de soumettre quoi que ce soit, ce qui réduit radicalement le taux de refus.
+
+Plus important: il peut positionner votre profil correctement. "Freelance" et "entrepreneur" sont des labels perçus comme risqués dans l'immobilier japonais. Un chasseur habitué à ces profils sait comment présenter la stabilité de vos revenus, dans quel ordre présenter les documents, et comment répondre aux objections du propriétaire avant qu'elles ne surgissent.
+
+Voir: [Chasseur immobilier ou agence à Tokyo: comparatif](/blog/chasseur-immobilier-vs-agence-tokyo-comparatif)
+
+## Délais et budget à prévoir
+
+Pour un entrepreneur qui se relocalise à Tokyo sans dossier salarial classique:
+
+- **Délai via marché traditionnel**: imprévisible, potentiellement 6 à 10 semaines avec plusieurs refus
+- **Délai via opérateurs meublés**: 1 à 2 semaines
+- **Délai via chasseur avec réseau spécialisé**: 7 à 14 jours pour une solution non meublée permanente
+
+Budget: prévoyez 20 à 30% de marge au-dessus de votre loyer cible pour couvrir les frais d'entrée (dépôt, frais d'agence, société de garantie).
+
+[Contactez-nous](/contact) pour un premier échange. Nous travaillons régulièrement avec des entrepreneurs, freelances et fondateurs de startups qui se relocalisent à Tokyo.
+
+
+Pour votre couverture sante en tant qu'independant au Japon, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) propose une assurance mensuelle sans engagement, adaptee aux freelances avant l'assurance nationale japonaise. *(lien affilie)*
+---
+
+*À lire aussi: [dossier refusé à Tokyo: que faire](/blog/dossier-location-refuse-tokyo-etranger) et [chasseur immobilier ou agence à Tokyo](/blog/chasseur-immobilier-vs-agence-tokyo-comparatif).*
+    `.trim(),
+  },
+  {
+    slug: 'corporate-relocation-tokyo-hr-housing-guide',
+    locale: 'en',
+    title: 'Corporate Relocation to Tokyo: Housing Guide for HR Teams',
+    description: 'Managing a Tokyo relocation for an employee? Complete guide for HR and mobility managers: timelines, housing types, costs and what to plan to ensure a smooth arrival.',
+    date: '2026-06-25',
+    readingTime: '8 min',
+    content: `
+Relocating an employee to Tokyo involves more complexity than most HR managers anticipate. The Japanese rental market does not operate like Western markets: there is no automated matching system, leases require specific documentation, and the timeline from "we need housing" to "keys in hand" is typically 4-8 weeks under ideal conditions.
+
+This guide is written for HR managers, mobility coordinators, and office managers responsible for getting a team member settled in Tokyo as efficiently as possible.
+
+## The Standard Tokyo Relocation Timeline
+
+Understanding the timeline is the most important thing you can do before triggering a relocation.
+
+**Week 1-2: Pre-arrival preparation**
+- Confirm employee's visa status and expected arrival date
+- Establish the housing budget (rent + entry costs)
+- Define the neighborhood priorities (proximity to office, family needs, school requirements)
+- Brief a real estate hunter or relocation specialist
+
+**Week 2-4: Property search and application**
+- Property selection based on the brief
+- Application submission and landlord review (3-7 business days)
+- Guarantor company arranged (required for foreign employees)
+
+**Week 4-6: Signing and setup**
+- Lease signing
+- Utility setup (gas, electricity, internet)
+- Key handover
+
+If your employee arrives before the lease is signed, budget for temporary accommodation: serviced apartments or hotels in Tokyo run 8,000-15,000 JPY per night for business-appropriate properties.
+
+## Housing Types and Their Trade-offs
+
+**Standard 2-year lease unfurnished apartment**
+
+The lowest monthly rent for a given size, but the highest entry cost (3-5 months upfront) and the least flexibility. Suitable when the employee is staying at least 2 years and the company can absorb entry costs and furnishing.
+
+**Furnished monthly mansion (manshu)**
+
+20-30% higher monthly rent than unfurnished, but minimal entry cost (1-2 months), no furniture expense, and flexible lease terms from 1 month. Best for probationary periods, short assignments, or when the final assignment duration is uncertain.
+
+**Serviced apartment / corporate apartment**
+
+Full hotel-style services, utilities included, housekeeping available. The most expensive option per month (150,000-400,000 JPY for a 1LDK) but zero administrative friction. Best for the first 1-3 months while the employee finds a permanent solution.
+
+## What the Company Pays vs. What the Employee Pays
+
+The clearest way to avoid relocation friction is to be explicit about this before the employee arrives.
+
+**Typically company-covered:**
+- Entry costs (security deposit, agency fee, key money): 3-6 months of rent upfront
+- Guarantor company fee (0.5-1 month of rent per year)
+- Furniture and appliance budget for unfurnished apartments
+- Temporary accommodation until lease signing
+
+**Typically employee-covered:**
+- Monthly rent from the agreed housing allowance
+- Utilities (electricity, gas, internet): 20,000-35,000 JPY per month
+- Local insurance (renters insurance: 15,000-20,000 JPY per year)
+
+## The Guarantor Question
+
+This is the aspect that surprises HR managers most. In Japan, most standard rental contracts require a guarantor: a Japanese citizen employed full-time who agrees to cover unpaid rent. Foreign employees almost never have this.
+
+The solution is a guarantee company (hoshougaisha). The fee is typically 0.5-1 month of rent per year. This cost should be explicitly included in your relocation budget.
+
+Some landlords still prefer a personal guarantor. For corporate relocations, some companies provide a corporate guarantee letter instead, which landlords in the expat-friendly segment often accept.
+
+## Why Local Expert Knowledge Matters
+
+The Japanese real estate market is highly local. The same apartment can be listed by 3 different agencies at 3 different prices. The best properties are often not on public portals. Negotiating entry costs requires knowing which landlords are open to it.
+
+For a corporate relocation, partnering with a real estate hunter or relocation specialist who knows the Tokyo market shortens the timeline from 6-10 weeks to 2-3 weeks, and reduces the risk of placing the employee in an unsuitable property.
+
+See: [How a real estate hunter works in Tokyo](/blog/how-real-estate-hunter-works-tokyo) and [real estate hunter cost and ROI](/blog/real-estate-hunter-tokyo-cost-worth-it)
+
+## Checklist Before the Employee Arrives
+
+- Housing budget confirmed (rent + entry costs + temporary accommodation)
+- Neighborhood brief established based on office location and family needs
+- Real estate hunter or relocation specialist briefed
+- Company guarantee letter prepared (if not using a guarantee company)
+- Temporary accommodation booked for the first 2-4 weeks
+- Furniture budget confirmed if targeting unfurnished apartment
+
+[Contact us](/contact) for a corporate relocation consultation. We work with mobility teams and HR managers handling Tokyo relocations for French and international employees.
+
+
+For employee health coverage during relocation, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) offers monthly insurance with no commitment, activatable before Japanese national insurance enrolment. *(affiliate link)*
+---
+
+*Read next: [Tokyo rent by neighborhood 2026](/blog/tokyo-rent-by-neighborhood-2026) and [how a real estate hunter works in Tokyo](/blog/how-real-estate-hunter-works-tokyo).*
+    `.trim(),
+  },
+  {
+    slug: 'relocation-entreprise-tokyo-guide-rh',
+    locale: 'fr',
+    title: 'Relocation d\'entreprise à Tokyo: guide logement pour RH',
+    description: 'Vous gérez une relocalisation d\'employé à Tokyo? Guide complet pour DRH et responsables mobilité: délais, types de logements, budgets et points de vigilance.',
+    date: '2026-06-25',
+    readingTime: '8 min',
+    content: `
+Relocaliser un employé à Tokyo implique plus de complexité que la plupart des responsables RH n'anticipent. Le marché locatif japonais ne fonctionne pas comme les marchés occidentaux: pas de système de matching automatisé, des baux avec des exigences documentaires spécifiques, et un délai de 4 à 8 semaines entre "il nous faut un logement" et "remise des clés", dans les meilleures conditions.
+
+Ce guide est écrit pour les DRH, coordinateurs de mobilité et office managers qui doivent installer un collaborateur à Tokyo aussi efficacement que possible.
+
+## Le calendrier type d'une relocalisation à Tokyo
+
+Comprendre le calendrier est la chose la plus importante à faire avant de déclencher une relocalisation.
+
+**Semaines 1-2: Préparation avant l'arrivée**
+- Confirmer le statut visa de l'employé et la date d'arrivée prévue
+- Établir le budget logement (loyer + frais d'entrée)
+- Définir les priorités de quartier (proximité du bureau, besoins familiaux, écoles)
+- Briefer un chasseur immobilier ou un spécialiste de la relocalisation
+
+**Semaines 2-4: Recherche de bien et dossier**
+- Sélection de biens sur la base du brief
+- Dépôt du dossier et étude par le propriétaire (3 à 7 jours ouvrés)
+- Mise en place de la société de garantie (obligatoire pour les employés étrangers)
+
+**Semaines 4-6: Signature et installation**
+- Signature du bail
+- Mise en service des utilités (gaz, électricité, internet)
+- Remise des clés
+
+Si l'employé arrive avant la signature du bail, prévoyez un hébergement temporaire: les serviced apartments ou hôtels professionnels à Tokyo coûtent 8 000 à 15 000 JPY par nuit.
+
+## Types de logements et leurs compromis
+
+**Bail standard non meublé 2 ans**
+
+Le loyer mensuel le plus bas pour une surface donnée, mais le coût d'entrée le plus élevé (3 à 5 mois d'avance) et le moins de flexibilité. Adapté quand l'employé reste au moins 2 ans et que l'entreprise peut absorber les frais d'entrée et d'ameublement.
+
+**Monthly mansion meublé**
+
+Loyer mensuel 20 à 30% plus élevé qu'un non meublé, mais coût d'entrée minimal (1 à 2 mois), pas de mobilier à acheter, et conditions de bail flexibles à partir de 1 mois. Idéal pour les périodes probatoires, les missions courtes, ou quand la durée finale est incertaine.
+
+**Appartement en résidence de services**
+
+Services complets inclus, utilités payées, ménage possible. L'option la plus chère au mois (150 000 à 400 000 JPY pour un 1LDK) mais zéro friction administrative. Optimal pour les 1 à 3 premiers mois pendant que l'employé cherche une solution permanente.
+
+## Ce que l'entreprise prend en charge vs l'employé
+
+La façon la plus claire d'éviter les frictions à la relocalisation est d'être explicite sur ce point avant l'arrivée de l'employé.
+
+**Généralement à la charge de l'entreprise:**
+- Frais d'entrée (dépôt, frais d'agence, reikin): 3 à 6 mois de loyer en avance
+- Frais de société de garantie (0,5 à 1 mois de loyer par an)
+- Budget mobilier et électroménager pour les appartements non meublés
+- Hébergement temporaire jusqu'à la signature du bail
+
+**Généralement à la charge de l'employé:**
+- Loyer mensuel à partir de l'enveloppe logement convenue
+- Utilités (électricité, gaz, internet): 20 000 à 35 000 JPY par mois
+- Assurance locataire: 15 000 à 20 000 JPY par an
+
+## La question du garant
+
+C'est l'aspect qui surprend le plus les responsables RH. Au Japon, la plupart des baux standard exigent un garant (hoshounin): un citoyen japonais salarié à temps plein qui accepte de couvrir les impayés. Les employés étrangers n'en ont presque jamais.
+
+La solution: la société de garantie (hoshougaisha). La prime est généralement de 0,5 à 1 mois de loyer par an. Ce coût doit être explicitement intégré à votre budget de relocalisation.
+
+Certains propriétaires préfèrent encore un garant personnel. Pour les relocalisations corporate, certaines entreprises fournissent une lettre de garantie d'entreprise à la place, que les propriétaires du segment expatrié acceptent souvent.
+
+## Pourquoi la connaissance locale compte
+
+Le marché immobilier japonais est fortement local. Le même appartement peut être listé par 3 agences à 3 prix différents. Les meilleures propriétés ne sont pas sur les portails publics. Négocier les frais d'entrée exige de savoir quels propriétaires y sont ouverts.
+
+Pour une relocalisation corporate, travailler avec un chasseur immobilier ou un spécialiste de la relocalisation qui connaît le marché de Tokyo réduit le délai de 6 à 10 semaines à 2 à 3 semaines, et réduit le risque de placer l'employé dans un logement inadapté.
+
+Voir: [Comment fonctionne un chasseur immobilier à Tokyo](/blog/service-chasseur-immobilier-tokyo-comment-ca-marche) et [coûts et ROI du chasseur immobilier](/blog/chasseur-immobilier-tokyo-tarifs-vaut-il-le-coup)
+
+## Checklist avant l'arrivée de l'employé
+
+- Budget logement confirmé (loyer + frais d'entrée + hébergement temporaire)
+- Brief de quartier établi selon l'emplacement du bureau et les besoins familiaux
+- Chasseur immobilier ou spécialiste de la relocalisation briefé
+- Lettre de garantie d'entreprise préparée si besoin
+- Hébergement temporaire réservé pour les 2 à 4 premières semaines
+- Budget mobilier confirmé si appartement non meublé ciblé
+
+[Contactez-nous](/contact) pour une consultation relocalisation corporate. Nous travaillons avec des équipes RH et des responsables mobilité gérant des relocalisations à Tokyo pour des collaborateurs français et internationaux.
+
+
+Pour la couverture sante des employes en transit, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) propose une assurance mensuelle sans engagement, activable avant l'assurance nationale japonaise. *(lien affilie)*
+---
+
+*À lire aussi: [loyers à Tokyo par quartier 2026](/blog/loyers-tokyo-par-quartier-2026) et [comment fonctionne un chasseur immobilier à Tokyo](/blog/service-chasseur-immobilier-tokyo-comment-ca-marche).*
+    `.trim(),
+  },
+  {
+    slug: 'ebisu-daikanyama-nakameguro-expat-guide',
+    locale: 'en',
+    title: 'Ebisu, Daikanyama and Nakameguro: Expat Living Guide',
+    description: 'Ebisu, Daikanyama and Nakameguro offer Tokyo expat life without the embassy-district price tag. Full guide to rents, atmosphere, commute links and daily life.',
+    date: '2026-06-25',
+    readingTime: '7 min',
+    content: `
+Ebisu, Daikanyama and Nakameguro form one of the most attractive residential clusters in Tokyo for expats who want an international, walkable, high-quality urban environment without paying Hiroo or Roppongi prices. These three neighborhoods sit on the same Hibiya Line corridor as Hiroo, are connected by the Tokyu Toyoko Line, and share a distinctive atmosphere: independently-owned cafes, tree-lined streets, boutique retail, and a visible international community.
+
+This guide covers rents, atmosphere, commute, and practical life across all three.
+
+## Ebisu: The Accessible Starting Point
+
+Ebisu is the most connected of the three neighborhoods. It sits on both the JR Yamanote Line and the Tokyo Metro Hibiya Line, giving it direct access to Shinjuku (8 minutes), Shibuya (3 minutes), Roppongi (5 minutes), and Ginza (15 minutes). For professionals with business requirements spread across multiple districts, Ebisu is often the most efficient base.
+
+**Atmosphere**: Upscale residential mixed with commercial. Yebisu Garden Place, the redeveloped Sapporo brewery site, anchors the eastern side with restaurants, a museum, a cinema, and open plaza space. The west side is quieter, with narrow streets, independent restaurants, and a relaxed pace.
+
+**Typical rents**:
+- 1K: 110,000-160,000 JPY/month
+- 1LDK: 160,000-240,000 JPY/month
+- 2LDK: 240,000-350,000 JPY/month
+
+**Expat profile**: Professionals, couples, and single expats in their 30s-40s. Strong French and European presence, partly due to the proximity to the French cultural center (Institut Franco-Japonais) nearby.
+
+## Daikanyama: The Boutique Village
+
+Daikanyama is 10 minutes on foot from Ebisu and has a distinct character: it is quiet, curated, and architecturally interesting. The neighborhood is known for independent design shops, concept stores, the Hillside Terrace complex, and the iconic T-Site bookstore. It has no large-scale commercial development and deliberately limits chain retail.
+
+**Atmosphere**: Residential village feel inside a major city. Streets are narrow and low-rise, with a high density of renovated buildings and well-maintained sidewalks. Very low noise level by Tokyo standards. Popular with creative professionals, architects, and art directors.
+
+**Typical rents**:
+- 1K: 105,000-155,000 JPY/month
+- 1LDK: 155,000-230,000 JPY/month
+- 2LDK: 230,000-340,000 JPY/month
+
+**Transport**: Daikanyama station on the Tokyu Toyoko Line gives direct access to Shibuya (2 minutes) and Yokohama. For Roppongi and Ginza commuters, a short walk to Ebisu is more efficient.
+
+**Expat profile**: Creative professionals, designers, writers, long-term Japan residents who value aesthetics and neighborhood character over transit efficiency.
+
+## Nakameguro: The Most Dynamic of the Three
+
+Nakameguro has undergone significant transformation over the past decade. The canal (Meguro River) lined with cherry trees has made it one of the most photographed urban spaces in Tokyo. The neighborhood attracts a younger demographic than Ebisu or Daikanyama, with a dense concentration of restaurants, bars, concept stores, and a strong creative economy.
+
+**Atmosphere**: Energetic, trendy, and increasingly expensive. The canal area is crowded on weekends and during cherry blossom season (late March to early April). Away from the canal, the residential streets are quiet and residential.
+
+**Typical rents**:
+- 1K: 100,000-150,000 JPY/month
+- 1LDK: 150,000-220,000 JPY/month
+- 2LDK: 220,000-320,000 JPY/month
+
+**Transport**: Nakameguro station on both the Tokyo Metro Hibiya Line and the Tokyu Toyoko Line gives direct access to Roppongi (10 minutes), Ginza (15 minutes), and Shibuya (4 minutes).
+
+**Expat profile**: Younger expats, freelancers, remote workers, couples without children. Strong English-speaking community. Less diplomatic, more creative.
+
+## How These Three Compare to Hiroo
+
+| Factor | Ebisu/Daikanyama/Nakameguro | Hiroo/Minami-Azabu |
+|---|---|---|
+| Rent 1LDK | 150,000-240,000 | 200,000-300,000 |
+| International schools nearby | Moderate | High |
+| English-speaking services | Good | Excellent |
+| Transport connectivity | Excellent | Good |
+| Atmosphere | Urban village | Diplomatic residential |
+| International supermarket | Limited | National Azabu |
+
+For families with children in international schools, Hiroo and Minami-Azabu remain the reference. For professionals without children, the Ebisu-Daikanyama-Nakameguro corridor typically offers better value per yen.
+
+See: [Hiroo and Minami-Azabu expat neighborhood guide](/blog/hiroo-minami-azabu-expat-neighborhood-guide) and [Tokyo rent by neighborhood 2026](/blog/tokyo-rent-by-neighborhood-2026)
+
+## Finding an Apartment in This Corridor
+
+Properties in this area are popular and move quickly. The best apartments in Nakameguro and Daikanyama in particular are often rented through networks and property managers before appearing on public portals.
+
+[Contact us](/contact) for a brief focused on the Ebisu-Daikanyama-Nakameguro corridor.
+
+
+To discover the best spots in this corridor before settling in, [GetYourGuide](https://www.getyourguide.com/tokyo-l193/?partner_id=4LP5PLT&utm_medium=online_publisher) offers guided tours of Tokyo and food experiences in these neighbourhoods. *(affiliate link)*
+---
+
+*Read next: [Tokyo neighborhoods guide for expats](/blog/tokyo-neighbourhoods-expats-guide) and [Tokyo rent by neighborhood 2026](/blog/tokyo-rent-by-neighborhood-2026).*
+    `.trim(),
+  },
+  {
+    slug: 'ebisu-daikanyama-nakameguro-guide-expatries',
+    locale: 'fr',
+    title: 'Ebisu, Daikanyama et Nakameguro: guide pour expatriés',
+    description: 'Ebisu, Daikanyama et Nakameguro offrent la vie expatriée à Tokyo sans les loyers de la zone diplomatique. Guide complet: loyers, ambiance, transports et vie quotidienne.',
+    date: '2026-06-25',
+    readingTime: '7 min',
+    content: `
+Ebisu, Daikanyama et Nakameguro forment l'un des clusters résidentiels les plus attractifs de Tokyo pour les expatriés qui veulent un environnement international, walkable et de qualité, sans payer les loyers de Hiroo ou de Roppongi. Ces trois quartiers partagent la même ligne Hibiya que Hiroo, sont reliés par la ligne Tokyu Toyoko, et ont une atmosphère distinctive: cafés indépendants, rues arborées, boutiques de créateurs, et une communauté internationale visible.
+
+Ce guide couvre les loyers, l'ambiance, les transports et la vie pratique dans les trois quartiers.
+
+## Ebisu: le point d'entrée le mieux connecté
+
+Ebisu est le quartier le plus connecté des trois. Il est desservi à la fois par la ligne JR Yamanote et la ligne Tokyo Metro Hibiya, avec accès direct à Shinjuku (8 minutes), Shibuya (3 minutes), Roppongi (5 minutes) et Ginza (15 minutes). Pour les professionnels qui ont des rendez-vous répartis sur plusieurs pôles d'affaires, Ebisu est souvent la base la plus efficace.
+
+**Ambiance**: Résidentiel haut de gamme avec une composante commerciale animée. Yebisu Garden Place, l'ancien site de la brasserie Sapporo, occupe la partie est avec des restaurants, un musée, un cinéma et une place ouverte. La partie ouest est plus calme, avec des rues étroites, des restaurants indépendants et une atmosphère posée.
+
+**Loyers types:**
+- 1K: 110 000 à 160 000 JPY/mois
+- 1LDK: 160 000 à 240 000 JPY/mois
+- 2LDK: 240 000 à 350 000 JPY/mois
+
+**Profil expatrié**: Professionnels, couples et célibataires expatriés entre 30 et 45 ans. Forte présence française et européenne, en partie liée à la proximité de l'Institut Franco-Japonais.
+
+## Daikanyama: le village-boutique
+
+Daikanyama est à 10 minutes à pied d'Ebisu et a un caractère bien distinct: calme, curated, et architecturalement intéressant. Le quartier est connu pour ses boutiques de design indépendantes, son complexe Hillside Terrace, et la T-Site, une librairie iconique. Il n'y a pas de grand développement commercial et les chaînes nationales y sont volontairement limitées.
+
+**Ambiance**: Village résidentiel dans une grande ville. Les rues sont étroites et peu denses, avec de nombreux bâtiments rénovés et des trottoirs bien entretenus. Niveau de bruit très bas pour Tokyo. Apprécié des professionnels créatifs, architectes, et directeurs artistiques.
+
+**Loyers types:**
+- 1K: 105 000 à 155 000 JPY/mois
+- 1LDK: 155 000 à 230 000 JPY/mois
+- 2LDK: 230 000 à 340 000 JPY/mois
+
+**Transports**: La station Daikanyama sur la ligne Tokyu Toyoko donne accès direct à Shibuya (2 minutes) et Yokohama. Pour les navetteurs vers Roppongi et Ginza, une courte marche jusqu'à Ebisu est plus efficace.
+
+**Profil expatrié**: Professionnels créatifs, designers, écrivains, résidents long terme au Japon qui valorisent l'esthétique et le caractère du quartier.
+
+## Nakameguro: le plus dynamique des trois
+
+Nakameguro a connu une transformation significative depuis 10 ans. Le canal (rivière Meguro) bordé de cerisiers est devenu l'un des espaces urbains les plus photographiés de Tokyo. Le quartier attire une démographie plus jeune que Ebisu ou Daikanyama, avec une forte concentration de restaurants, bars, boutiques concept et une économie créative active.
+
+**Ambiance**: Énergique, tendance et de plus en plus cher. La zone du canal est bondée les week-ends et pendant la saison des cerisiers (fin mars à début avril). Loin du canal, les rues résidentielles sont calmes et tranquilles.
+
+**Loyers types:**
+- 1K: 100 000 à 150 000 JPY/mois
+- 1LDK: 150 000 à 220 000 JPY/mois
+- 2LDK: 220 000 à 320 000 JPY/mois
+
+**Transports**: La station Nakameguro sur les lignes Hibiya et Tokyu Toyoko donne accès direct à Roppongi (10 minutes), Ginza (15 minutes) et Shibuya (4 minutes).
+
+**Profil expatrié**: Jeunes expatriés, freelances, télétravailleurs, couples sans enfants. Forte communauté anglophone. Moins diplomatique, plus créatif.
+
+## Comparaison avec Hiroo
+
+| Facteur | Ebisu/Daikanyama/Nakameguro | Hiroo/Minami-Azabu |
+|---|---|---|
+| Loyer 1LDK | 150 000 à 240 000 | 200 000 à 300 000 |
+| Écoles internationales | Modéré | Élevé |
+| Services anglophones | Bon | Excellent |
+| Connectivité transports | Excellent | Bon |
+| Ambiance | Village urbain | Diplomatique résidentiel |
+| Supermarché international | Limité | National Azabu |
+
+Pour les familles avec enfants dans des écoles internationales, Hiroo et Minami-Azabu restent la référence. Pour les professionnels sans enfants, le couloir Ebisu-Daikanyama-Nakameguro offre généralement un meilleur rapport qualité-prix.
+
+Voir: [Hiroo et Minami-Azabu: guide des quartiers expats](/blog/hiroo-minami-azabu-guide-expatries-tokyo) et [loyers à Tokyo par quartier 2026](/blog/loyers-tokyo-par-quartier-2026)
+
+## Trouver un appartement dans ce couloir
+
+Les propriétés dans ce couloir sont recherchées et partent vite. Les meilleurs appartements à Nakameguro et Daikanyama en particulier sont souvent loués via des réseaux avant d'apparaitre sur les portails publics.
+
+[Contactez-nous](/contact) pour un brief ciblé sur le couloir Ebisu-Daikanyama-Nakameguro.
+
+
+Pour decouvrir les adresses de ce couloir avant votre installation, [GetYourGuide](https://www.getyourguide.com/tokyo-l193/?partner_id=4LP5PLT&utm_medium=online_publisher) propose des visites guidees de Tokyo et des experiences gastronomiques dans ces quartiers. *(lien affilie)*
+---
+
+*À lire aussi: [guide des quartiers de Tokyo pour expatriés](/blog/quartiers-tokyo-expatries-guide) et [loyers à Tokyo par quartier 2026](/blog/loyers-tokyo-par-quartier-2026).*
+    `.trim(),
+  },
+  {
+    slug: 'dossier-location-refuse-tokyo-etranger',
+    locale: 'fr',
+    title: 'Dossier refusé à Tokyo: solutions concrètes pour les étrangers',
+    description: 'Votre dossier de location a été refusé à Tokyo. Causes les plus courantes, solutions concrètes et comment relancer votre recherche rapidement en tant qu\'étranger.',
+    date: '2026-06-25',
+    readingTime: '7 min',
+    content: `
+Le refus de dossier est l'une des expériences les plus frustrantes du parcours locatif à Tokyo. Vous avez trouvé l'appartement idéal, constitué votre dossier avec soin, et vous recevez un simple "お断りします" sans la moindre explication. Ce n'est pas une anomalie: c'est le quotidien de milliers d'étrangers qui tentent de louer en dehors des circuits spécialisés.
+
+Comprendre pourquoi votre dossier a été refusé, et surtout comment rebondir, peut changer radicalement la suite de votre recherche.
+
+## Les vraies raisons d'un refus de dossier à Tokyo
+
+Les refus viennent rarement d'une intention discriminatoire explicite. Ils reflètent une gestion du risque dans un marché locatif structurellement peu protecteur pour les propriétaires japonais.
+
+**L'absence de garant japonais (hoshounin)** reste la première cause. La quasi-totalité des baux traditionnels exigent un citoyen japonais employé à temps plein, prêt à couvrir vos impayés éventuels. Pour un étranger sans famille ni réseau japonais solide, ce critère est impossible à remplir par les voies classiques.
+
+**La durée du visa** pose un problème concret. Un visa expirant dans moins de 12 mois dissuade les propriétaires qui signent des baux de 2 ans. Ils ne veulent pas prendre le risque qu'un locataire doive quitter le Japon avant la fin du contrat.
+
+**Le statut professionnel atypique** est un autre obstacle courant. Les freelances, entrepreneurs et télétravailleurs étrangers ne correspondent pas au profil attendu par la majorité des propriétaires: un salarié stable d'une grande entreprise japonaise, avec fiche de paie mensuelle régulière.
+
+**La barrière de la langue** joue enfin un rôle indirect. Certaines agences refusent de traiter des dossiers d'étrangers non-japonophones, non par mauvaise volonté, mais parce qu'elles anticipent les difficultés de communication avec le propriétaire pendant toute la durée du bail.
+
+**L'agence elle-même** peut être en cause. Toutes les agences immobilières japonaises n'ont pas constitué de réseau de propriétaires ouverts aux étrangers. Certaines transmettent votre dossier sans mentionner votre profil, ce qui aboutit à un refus du propriétaire que l'agence présente comme une décision "du marché".
+
+## Les solutions concrètes après un refus
+
+**Cibler le marché adapté aux expatriés**
+
+Il existe un segment de marché parallèle au circuit traditionnel japonais: des gestionnaires de biens meublés, des property managers anglophones, des opérateurs spécialisés dans les profils étrangers. Sur ce segment, les critères sont différents et les délais plus courts.
+
+Voir: [Appartements meublés à Tokyo sans garant](/blog/appartement-meuble-tokyo-sans-garant)
+
+**Intégrer une société de garantie dans votre dossier**
+
+La hoshougaisha (société de garantie) se substitue au garant humain contre une prime annuelle d'environ 0,5 à 1 mois de loyer. Si vous ciblez un bien sur le marché traditionnel, inclure spontanément une société de garantie dans votre dossier lève le principal obstacle du propriétaire.
+
+Voir: [Garantie de loyer pour étrangers au Japon](/blog/garantie-loyer-etranger-japon)
+
+**Renforcer votre dossier en japonais**
+
+Un dossier traduit en japonais, avec lettre de motivation expliquant votre situation professionnelle et vos liens avec le Japon, change la perception du risque. Cela signale au propriétaire que vous prenez la démarche au sérieux et que vous vous adaptez à ses exigences.
+
+**Changer d'agence**
+
+Un refus avec une agence ne ferme pas le marché. Il indique souvent que cette agence n'est pas la bonne porte d'entrée pour votre profil. D'autres agences ont constitué des réseaux de propriétaires explicitement ouverts aux étrangers.
+
+## Pourquoi l'intervention d'un chasseur change le résultat
+
+Un chasseur immobilier spécialisé dans les profils étrangers opère différemment d'une agence classique. Il ne soumet pas votre dossier en aveugle: il l'envoie uniquement aux agences et propriétaires avec lesquels il travaille régulièrement, sur la base d'une relation de confiance préexistante.
+
+Cette réputation se transfère à votre dossier. Vous n'êtes plus "un étranger inconnu": vous devenez le client d'un intermédiaire connu et respecté, ce qui change fondamentalement l'évaluation du risque perçu.
+
+Le taux de refus après intervention d'un chasseur est structurellement plus bas, non parce que les règles changent, mais parce que le dossier arrive par un canal où le profil étranger est accepté en amont.
+
+## Le coût réel d'un refus non géré
+
+Chaque semaine perdue a un coût concret: nuits d'hôtel ou logement temporaire sur-tarifiés, stress de l'incertitude, retards dans votre installation professionnelle. Le processus locatif japonais prend entre 2 et 6 semaines dans des conditions normales. Un refus non géré peut allonger ce délai de 3 à 4 semaines supplémentaires.
+
+Les [pièges classiques de la location à Tokyo pour étrangers](/blog/pieges-location-tokyo-etranger) incluent précisément cette erreur: sous-estimer le temps nécessaire et entamer les démarches sans stratégie adaptée à son profil.
+
+Si votre dossier vient d'être refusé et que votre délai est serré, l'option la plus efficace est de confier la recherche à un intermédiaire qui connaît le marché de l'intérieur. [Contactez-nous](/contact) pour une première consultation en français ou en anglais.
+
+
+Pour votre couverture sante pendant les demarches, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) propose une assurance mensuelle sans engagement. Pour ameliorer votre japonais et mieux communiquer avec les agences, [iTalki](https://www.italki.com/affshare?ref=af32660342) propose des cours avec des professeurs natifs a partir de 10$/heure. *(liens affilies)*
+---
+
+*À lire aussi: [comment trouver un appartement à Tokyo en tant qu'étranger](/blog/trouver-appartement-tokyo-etranger) et [les pièges de la location à Tokyo](/blog/pieges-location-tokyo-etranger).*
+    `.trim(),
+  },
+  {
+    slug: 'rental-application-rejected-japan-foreigner',
+    locale: 'en',
+    title: 'Rental Application Rejected in Japan: What to Do Next',
+    description: 'Your apartment application was rejected by a Japanese landlord. Here are the real reasons why and concrete steps to find housing fast as a foreigner in Tokyo.',
+    date: '2026-06-25',
+    readingTime: '7 min',
+    content: `
+Getting your rental application rejected in Japan is one of the most frustrating experiences in your Tokyo relocation. You found the right apartment, prepared your paperwork carefully, and then received a quiet decline with no explanation. This is not an exception: it is the standard experience for many foreigners attempting to rent through traditional Japanese channels.
+
+Understanding why applications get rejected, and what to do next, can completely change the outcome of your search.
+
+## Why Japanese Landlords Reject Foreign Applicants
+
+Rejections are rarely the result of explicit discrimination. They reflect a risk management logic in a rental market that offers landlords very limited legal protection in case of disputes or non-payment.
+
+**No Japanese guarantor (hoshounin)** is the most common reason. The vast majority of traditional rental contracts require a Japanese citizen employed full-time who agrees to cover your unpaid rent if you default. For a foreigner without Japanese family or a strong local network, this requirement is impossible to meet through standard channels.
+
+**Visa duration** creates a concrete problem. A visa expiring within 12 months discourages landlords who sign 2-year leases. They do not want to risk a tenant leaving Japan before the contract ends.
+
+**Non-standard employment** is another common barrier. Freelancers, entrepreneurs, and remote workers do not match the expected tenant profile: a stable employee at a large Japanese company with regular monthly pay slips. Without classic income documentation, your application is systematically deprioritized.
+
+**Language barriers** play an indirect role. Some agencies simply refuse to handle applications from non-Japanese-speaking foreigners, not out of bad intention, but because they anticipate communication difficulties with the landlord throughout the tenancy.
+
+**The agency itself** may be the issue. Not all Japanese real estate agencies have built networks of landlords open to foreigners. Some forward your application without flagging your profile, leading to a landlord rejection the agency presents as a market-wide decision.
+
+## Concrete Steps After a Rejection
+
+**Target the expat-friendly rental market**
+
+There is a parallel market to the traditional Japanese circuit: furnished apartment operators, English-speaking property managers, and specialists focused on foreign profiles. On this segment, the criteria are different and the timelines are shorter.
+
+See: [Furnished apartments in Tokyo with no guarantor](/blog/furnished-apartment-tokyo-no-guarantor)
+
+**Add a guarantor company to your application**
+
+A hoshougaisha (guarantor company) substitutes for a personal guarantor at a cost of roughly 0.5 to 1 month of rent per year. If you are targeting a property on the traditional market, proactively including a guarantor company in your application removes the main obstacle.
+
+See: [Guarantor system in Japan for foreigners](/blog/guarantor-japan-rental-foreigner)
+
+**Strengthen your application file**
+
+A fully translated Japanese application, with a motivation letter explaining your professional situation and your ties to Japan, changes the perceived risk profile. It signals to the landlord that you have invested time in understanding the local process.
+
+**Switch agencies**
+
+One rejection does not close the market. It often means this specific agency was not the right entry point for your profile. Other agencies have built networks of landlords who have explicitly accepted foreign tenants.
+
+## Why a Real Estate Hunter Changes the Outcome
+
+A real estate hunter specializing in foreign profiles operates differently from a standard agency. They do not submit your application blindly: they send it only to agencies and landlords they work with regularly, based on an existing relationship of trust.
+
+That reputation transfers directly to your application. You stop being an unknown foreign applicant and become the client of a known and trusted intermediary. This fundamentally shifts the perceived risk for the landlord.
+
+The rejection rate after a real estate hunter's involvement is structurally lower, not because the rules change, but because the application arrives through a channel where foreign profiles are already pre-accepted.
+
+## The Real Cost of an Unmanaged Rejection
+
+Every week lost has a real cost: overpriced temporary accommodation, uncertainty and stress, delays in your professional setup. The Japanese rental process takes between 2 and 6 weeks under normal conditions. An unmanaged rejection can add 3 to 4 weeks on top.
+
+The [common traps in Tokyo rentals for foreigners](/blog/tokyo-rental-traps-foreigners) include exactly this mistake: underestimating the timeline and starting the process without a strategy adapted to your profile.
+
+If your application was just rejected and your timeline is tight, the most efficient option is to hand the search to someone who knows the market from the inside. [Contact us](/contact) for an initial consultation in English or French.
+
+
+For health coverage while you continue your search, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) offers monthly insurance with no commitment. To improve your Japanese and communicate better with agencies, [iTalki](https://www.italki.com/affshare?ref=af32660342) offers lessons with native teachers from $10/hour. *(affiliate links)*
+---
+
+*Read next: [How to find an apartment in Tokyo as a foreigner](/blog/find-apartment-tokyo-foreigner) and [common rental traps in Tokyo](/blog/tokyo-rental-traps-foreigners).*
+    `.trim(),
+  },
+  {
+    slug: 'chasseur-immobilier-tokyo-tarifs-vaut-il-le-coup',
+    locale: 'fr',
+    title: 'Chasseur immobilier Tokyo: tarifs et retour sur investissement',
+    description: 'Combien coûte un chasseur immobilier à Tokyo? Décryptage des tarifs, de ce qui est inclus dans la prestation et du retour sur investissement réel pour un expatrié.',
+    date: '2026-06-25',
+    readingTime: '7 min',
+    content: `
+Lorsqu'un expatrié envisage de faire appel à un chasseur immobilier à Tokyo, la première question est systématiquement la même: combien ça coûte? La seconde, tout aussi légitime: est-ce que ça vaut vraiment le coup par rapport à chercher seul?
+
+Voici une réponse honnête, chiffrée, basée sur la réalité du marché locatif tokyoïte.
+
+## Comment sont structurés les honoraires d'un chasseur immobilier à Tokyo
+
+Les chasseurs immobiliers à Tokyo travaillent sur deux modèles principaux.
+
+**Le forfait fixe** est le modèle le plus transparent. Un montant fixe, convenu en amont, couvre l'intégralité de la mission: brief initial, recherche, sélection, organisation des visites, négociation, constitution du dossier, accompagnement à la signature. Ce forfait se situe généralement entre 80 000 et 150 000 JPY selon la complexité du profil et la gamme de logement recherchée.
+
+**Le pourcentage du loyer** est moins fréquent mais existe. Il représente généralement 1 mois de loyer, parfois 1,5 mois. Pour un appartement à 150 000 JPY/mois, cela représente 150 000 à 225 000 JPY.
+
+Dans les deux cas, les honoraires du chasseur s'ajoutent aux frais d'agence japonais classiques (qui sont à la charge du chasseur dans certains cas, ou partagés).
+
+## Ce qui est inclus dans la prestation
+
+Comprendre ce qui est réellement inclus est plus important que le chiffre brut des honoraires.
+
+Un chasseur immobilier couvrant l'intégralité de la mission gère:
+
+**La définition du brief**: appel initial pour cerner votre budget réel, le quartier adapté à votre vie quotidienne, vos contraintes de déplacement professionnel, vos préférences sur la taille et le style du logement.
+
+**La recherche active**: accès à des biens hors marché, en dehors des portails publics. Les bonnes propriétés à Tokyo se louent souvent avant d'apparaître sur les sites grand public.
+
+**La présélection**: vous recevez 5 à 10 biens pertinents, pas une liste de 80 annonces à trier vous-même.
+
+**L'organisation des visites**: coordonnées avec les agences japonaises, souvent en japonais, avec traduction et accompagnement en présentiel ou à distance.
+
+**La négociation et le dossier**: constitution du dossier adapté au profil étranger, présentation valorisante au propriétaire, négociation des conditions si possible.
+
+**L'accompagnement à la signature**: lecture du contrat en japonais, explication des clauses importantes, coordination du versement du dépôt.
+
+## Le retour sur investissement réel
+
+La question n'est pas "combien coûte le chasseur" mais "combien coûte une recherche mal menée".
+
+Chercher seul à Tokyo, sans réseau local, sans japonais et sans connaissance des codes du marché revient en moyenne à:
+
+- 3 à 8 semaines de recherche active
+- 2 à 4 semaines de logement temporaire (hôtel ou serviced apartment): entre 80 000 et 200 000 JPY selon les nuits
+- Un ou plusieurs refus de dossier, avec les démarches à recommencer
+- Des erreurs de contrat coûteuses: clauses de résiliation pénalisantes, frais cachés non identifiés
+
+Un chasseur efficace réduit ce processus à 7 à 14 jours. L'économie sur le logement temporaire seul couvre souvent l'intégralité des honoraires. Sans compter le temps personnel économisé, la réduction du stress, et les erreurs évitées.
+
+## Quand le recours à un chasseur est particulièrement rentable
+
+Le chasseur immobilier est particulièrement pertinent dans ces situations:
+
+**Relocalisation depuis l'étranger**: vous n'êtes pas encore à Tokyo et devez trouver un logement avant votre arrivée. Faire des visites virtuelles, gérer les agences japonaises à distance, constituer un dossier sans être sur place: tout cela est structurellement difficile sans intermédiaire local.
+
+**Profil atypique**: freelance, entrepreneur, travailleur indépendant, non-japonophone. Ces profils sont systématiquement déprioritisés sur le marché traditionnel. Un chasseur qui connaît les agences et propriétaires ouverts à ces profils multiplie vos chances d'aboutir.
+
+**Délai serré**: une prise de poste dans 3 semaines ne laisse pas le temps de tâtonner. Confier la recherche à quelqu'un qui connaît le marché de l'intérieur, c'est se donner les meilleures chances de respecter la date cible.
+
+**Budget moyen-supérieur**: au-dessus de 150 000 JPY/mois, les propriétés de qualité sont rarement visibles sur les portails grand public. Un chasseur avec un réseau d'agences et de propriétaires directs donne accès à une offre plus pertinente.
+
+## Ce que le chasseur ne fait pas
+
+Il est utile de savoir ce qui n'est pas inclus pour calibrer ses attentes.
+
+Le chasseur n'est pas un agent d'assurance habitation, ni un service de déménagement, ni un interprète juridique pour les litiges après signature. Il gère la phase de recherche et d'installation, pas la relation locative quotidienne ensuite.
+
+Pour tout ce qui concerne les [pièges de la location à Tokyo](/blog/pieges-location-tokyo-etranger) et les [clauses du contrat de bail](/blog/checklist-bail-tokyo), la lecture attentive des documents reste de votre responsabilité, même si le chasseur vous y accompagne.
+
+## Comment choisir son chasseur immobilier à Tokyo
+
+Posez trois questions avant de signer:
+
+1. Quel est votre réseau d'agences et de propriétaires? (un chasseur sans réseau est une agence classique)
+2. Quelle est votre expérience avec les profils étrangers non-japonophones?
+3. Quelles sont les étapes exactes de votre process, de l'appel initial à la remise des clés?
+
+Les réponses vagues ou évasives sont un signal. Un bon chasseur décrit son process avec précision parce qu'il l'a déjà fait des dizaines de fois.
+
+[Contactez-nous](/contact) pour un premier échange et une estimation adaptée à votre situation.
+
+
+Pour votre couverture sante pendant la recherche, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) propose une assurance mensuelle sans engagement. *(lien affilie)*
+---
+
+*À lire aussi: [comment trouver un appartement à Tokyo en tant qu'étranger](/blog/trouver-appartement-tokyo-etranger) et [négocier son loyer à Tokyo](/blog/negocier-loyer-tokyo-conseils), [Chasseur immobilier ou agence à Tokyo : comparatif complet](/blog/chasseur-immobilier-vs-agence-tokyo-comparatif), [Comment fonctionne un chasseur immobilier à Tokyo](/blog/service-chasseur-immobilier-tokyo-comment-ca-marche).*
+    `.trim(),
+  },
+  {
+    slug: 'real-estate-hunter-tokyo-cost-worth-it',
+    locale: 'en',
+    title: 'Real Estate Hunter Tokyo: Cost and Is It Worth It',
+    description: 'How much does a real estate hunter cost in Tokyo? Full breakdown of fees, what is included in the service and honest return on investment analysis for expats.',
+    date: '2026-06-25',
+    readingTime: '7 min',
+    content: `
+When considering hiring a real estate hunter in Tokyo, most expats ask two questions immediately: how much does it cost, and is it actually worth it compared to searching alone? Here is an honest, numbers-based answer grounded in how the Tokyo rental market actually works.
+
+## How Real Estate Hunter Fees Are Structured in Tokyo
+
+Real estate hunters in Tokyo work under two main pricing models.
+
+**Fixed fee** is the most transparent model. A fixed amount agreed upfront covers the entire mission: initial brief, search, selection, visit coordination, negotiation, application preparation, and signature support. This typically ranges from 80,000 to 150,000 JPY depending on the complexity of the profile and the target property range.
+
+**Percentage of rent** is less common but exists. It usually represents 1 to 1.5 months of rent. For an apartment at 150,000 JPY per month, this means 150,000 to 225,000 JPY.
+
+In both cases, the hunter's fees are in addition to standard Japanese agency fees, though some hunters absorb part of these fees or negotiate them into the package.
+
+## What Is Actually Included in the Service
+
+Understanding what is genuinely included matters more than the headline fee number.
+
+A full-service real estate hunter covers:
+
+**Initial brief**: a call to define your real budget, the right neighborhood for your daily life, commute constraints, and property preferences. This step alone prevents weeks of searching in the wrong direction.
+
+**Active search**: access to off-market properties not visible on public portals. The best properties in Tokyo frequently rent before they appear on major listing sites.
+
+**Pre-selection**: you receive 5 to 10 relevant properties, not a list of 80 listings to sort through yourself.
+
+**Visit coordination**: managed with Japanese agencies, often in Japanese, with translation and on-site or remote accompaniment.
+
+**Negotiation and application**: application built for a foreign profile, presented favorably to the landlord, with negotiation of terms where possible.
+
+**Signature support**: lease read in Japanese, explanation of key clauses, coordination of deposit payment.
+
+## The Real Return on Investment
+
+The right question is not how much the hunter costs but how much a poorly managed search costs.
+
+Searching alone in Tokyo, without a local network, without Japanese, and without knowledge of market codes typically means:
+
+- 3 to 8 weeks of active searching
+- 2 to 4 weeks of temporary accommodation (hotel or serviced apartment): between 80,000 and 200,000 JPY depending on your setup
+- One or more application rejections, requiring the process to restart
+- Costly contract errors: penalizing termination clauses, hidden fees not caught before signing
+
+An efficient hunter reduces this process to 7 to 14 days from brief to keys. The savings on temporary accommodation alone often cover the entire fee. That calculation does not include the personal time saved, the stress avoided, and the contract mistakes prevented.
+
+## When a Real Estate Hunter Is Particularly Worth It
+
+The value is clearest in these situations:
+
+**Relocating from abroad**: you are not yet in Tokyo and need housing before arrival. Managing virtual visits, coordinating with Japanese agencies remotely, and building an application file without being on the ground is structurally difficult without a local intermediary.
+
+**Non-standard profile**: freelancer, entrepreneur, remote worker, non-Japanese speaker. These profiles are systematically deprioritized on the traditional market. A hunter who knows which agencies and landlords are open to these profiles dramatically increases your success rate.
+
+**Tight timeline**: a job start in 3 weeks leaves no room for trial and error. Delegating the search to someone with inside knowledge of the market is the most reliable way to meet a fixed arrival date.
+
+**Mid to upper budget**: above 150,000 JPY per month, quality properties are rarely visible on public portals. A hunter with agency and direct landlord networks gives access to a more relevant supply.
+
+## What a Real Estate Hunter Does Not Cover
+
+Setting realistic expectations is important. A hunter manages the search and installation phase: they are not a moving company, a renters insurance broker, or a legal interpreter for disputes after signing.
+
+For everything related to [rental traps in Tokyo for foreigners](/blog/tokyo-rental-traps-foreigners) and [lease contract red flags](/blog/tokyo-rental-contract-checklist), careful reading of documents remains your responsibility, even with the hunter's guidance.
+
+## How to Choose the Right Real Estate Hunter in Tokyo
+
+Ask three questions before committing:
+
+1. What is your network of agencies and landlords? (a hunter without a real network is just another agency)
+2. What is your specific experience with foreign, non-Japanese-speaking profiles?
+3. What are the exact steps of your process from initial call to key handover?
+
+Vague or evasive answers are a signal. A good hunter describes the process precisely because they have done it dozens of times.
+
+[Contact us](/contact) for an initial call and a fee estimate tailored to your situation.
+
+
+For health coverage during your property search, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) offers monthly insurance with no commitment. *(affiliate link)*
+---
+
+*Read next: [how to find an apartment in Tokyo as a foreigner](/blog/find-apartment-tokyo-foreigner) and [negotiating rent in Tokyo](/blog/negotiating-rent-tokyo-tips), [Real Estate Hunter vs Agency in Tokyo: Which Is Faster](/blog/real-estate-hunter-vs-agency-tokyo), [How a Real Estate Hunter Works in Tokyo: Step by Step](/blog/how-real-estate-hunter-works-tokyo).*
+    `.trim(),
+  },
+  {
+    slug: 'chasseur-immobilier-vs-agence-tokyo-comparatif',
+    locale: 'fr',
+    title: 'Chasseur immobilier ou agence à Tokyo: comparatif complet',
+    description: 'Chasseur immobilier ou agence immobilière pour trouver un appartement à Tokyo? Comparatif des délais, coûts, taux de succès et différences clés pour les expatriés.',
+    date: '2026-06-25',
+    readingTime: '8 min',
+    content: `
+Quand un expatrié commence sa recherche de logement à Tokyo, il fait face à deux options principales: passer par une agence immobilière classique ou faire appel à un chasseur immobilier. Les deux approches donnent des résultats radicalement différents pour les profils étrangers. Voici un comparatif honnête, structuré autour des critères qui comptent vraiment.
+
+## Comment fonctionne une agence immobilière classique à Tokyo
+
+Une agence immobilière japonaise (fudousan) est un intermédiaire entre propriétaires et locataires. Son rôle est de présenter les biens disponibles dans son portefeuille à des candidats qui viennent la consulter.
+
+Ce modèle présente plusieurs limites pour les étrangers:
+
+**L'agence travaille pour le propriétaire.** Sa priorité est de louer les biens de son portefeuille. Si votre profil présente un risque perçu, elle présentera d'abord les candidats plus "standards" aux propriétaires. Votre dossier peut rester en attente sans jamais être activement défendu.
+
+**Le portefeuille de l'agence est limité.** Chaque agence n'a accès qu'aux biens dont elle est mandatée. Pour voir une sélection large et pertinente, il faut contacter de nombreuses agences, en japonais, en comprenant les codes locaux.
+
+**La barrière de la langue est réelle.** La plupart des agences japonaises fonctionnent exclusivement en japonais. Certaines ont des équipes anglophones mais leur portefeuille est souvent réduit aux biens explicitement étiquetés "gaijin-friendly".
+
+**Les honoraires sont standardisés.** L'agence facture généralement 1 mois de loyer en frais d'agence (shoukoukin), que la location aboutisse en 1 semaine ou 6 mois. Ce montant n'est pas remboursable.
+
+## Comment fonctionne un chasseur immobilier à Tokyo
+
+Un chasseur immobilier travaille à l'inverse: il est mandaté par le locataire, pas par le propriétaire. Sa mission est de trouver le meilleur logement pour son client, en accédant au maximum de l'offre disponible.
+
+**Il travaille avec de multiples agences.** Un chasseur avec un réseau solide contacte 10 à 20 agences pour un même mandat, accède à des biens hors marché, et présente votre dossier là où il a le plus de chances d'aboutir.
+
+**Il défend activement votre dossier.** Là où l'agence se contente de transmettre, le chasseur argumente. Il connaît les objections classiques des propriétaires japonais face aux profils étrangers et prépare les réponses en amont.
+
+**Il gère la barrière de la langue.** Toutes les communications avec les agences japonaises, la négociation des conditions, la lecture du contrat: tout se fait en votre nom, en japonais, avec traduction simultanée pour vous.
+
+**Il est rémunéré sur résultat.** Un bon chasseur ne vous fait payer ses honoraires que si vous signez un bail. S'il ne trouve pas, il ne facture pas.
+
+## Comparaison par critères clés
+
+**Délai moyen jusqu'à la signature du bail**
+
+Agence classique pour un profil étranger: 4 à 10 semaines. Ce délai inclut les refus successifs, le temps de changer d'agence, les démarches à recommencer.
+
+Chasseur immobilier: 7 à 21 jours. La recherche est parallélisée depuis le premier jour, le dossier est présenté uniquement là où il a une chance d'aboutir.
+
+**Taux de refus**
+
+Agence classique: élevé pour les profils atypiques. Le dossier est présenté sans contexte au propriétaire, qui décide sur la base de critères formels stricts.
+
+Chasseur: structurellement plus bas. Le dossier est présenté par un intermédiaire connu du propriétaire, ce qui transfère une partie de la confiance.
+
+**Accès à l'offre**
+
+Agence classique: limité au portefeuille de l'agence.
+
+Chasseur: multi-agences, y compris biens hors marché et propriétaires directs.
+
+**Accompagnement linguistique**
+
+Agence classique: variable selon l'agence. Souvent insuffisant pour des expatriés non-japonophones.
+
+Chasseur: intégral. C'est une composante centrale du service, pas un bonus.
+
+**Coût total**
+
+Agence classique: 1 mois de loyer en frais d'agence (shoukoukin), dans tous les cas, qu'il y ait résultat ou non.
+
+Chasseur: forfait fixe ou équivalent de 1 mois de loyer, mais sur résultat uniquement, et avec une valeur ajoutée mesurable sur le délai et l'accès à l'offre.
+
+## Quand l'agence classique peut suffire
+
+L'agence classique fonctionne bien dans des situations précises: vous parlez japonais, vous avez un garant japonais disponible, votre statut professionnel est standard (salarié d'une entreprise japonaise), et vous avez 6 à 8 semaines devant vous pour chercher sans contrainte de date.
+
+Si ces conditions ne sont pas réunies, les [pièges de la location à Tokyo pour étrangers](/blog/pieges-location-tokyo-etranger) se multiplient rapidement.
+
+## Notre position dans ce comparatif
+
+Nous intervenons exclusivement comme chasseur: mandat locataire, multi-agences, résultat garanti ou pas de facturation. Notre réseau est constitué spécifiquement pour les profils étrangers, francophones et anglophones, avec ou sans japonais.
+
+Pour comprendre les étapes exactes de notre process, consultez le guide [comment fonctionne un chasseur immobilier à Tokyo](/blog/service-chasseur-immobilier-tokyo-comment-ca-marche).
+
+[Contactez-nous](/contact) pour un premier échange sans engagement.
+
+
+Pour votre couverture sante pendant la recherche de logement, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) propose une assurance mensuelle sans engagement. *(lien affilie)*
+---
+
+*À lire aussi: [dossier refusé à Tokyo: que faire](/blog/dossier-location-refuse-tokyo-etranger) et [comment trouver un appartement à Tokyo en tant qu'étranger](/blog/trouver-appartement-tokyo-etranger), [Chasseur immobilier Tokyo : tarifs et retour sur investissement](/blog/chasseur-immobilier-tokyo-tarifs-vaut-il-le-coup).*
+    `.trim(),
+  },
+  {
+    slug: 'real-estate-hunter-vs-agency-tokyo',
+    locale: 'en',
+    title: 'Real Estate Hunter vs Agency in Tokyo: Which Is Faster',
+    description: 'Real estate hunter or traditional agency to find an apartment in Tokyo? Full comparison of timelines, costs, rejection rates and key differences for expats.',
+    date: '2026-06-25',
+    readingTime: '8 min',
+    content: `
+When starting an apartment search in Tokyo, most expats face the same choice: work with a traditional Japanese real estate agency, or hire a real estate hunter. These two approaches produce radically different results for foreign profiles. Here is an honest comparison built around the criteria that actually matter.
+
+## How a Traditional Real Estate Agency Works in Tokyo
+
+A Japanese real estate agency (fudousan) acts as an intermediary between landlords and tenants. Its role is to present available properties from its portfolio to candidates who come in to consult.
+
+This model has several structural limitations for foreign applicants:
+
+**The agency works for the landlord.** Its priority is to lease the properties in its portfolio. If your profile carries a perceived risk, it will present standard candidates to landlords first. Your application may sit without ever being actively advocated for.
+
+**The portfolio is limited.** Each agency only has access to properties it is mandated for. Seeing a broad and relevant selection requires contacting multiple agencies, in Japanese, with an understanding of local conventions.
+
+**The language barrier is real.** Most Japanese agencies operate exclusively in Japanese. Some have English-speaking teams, but their portfolios are often limited to properties explicitly labeled foreigner-friendly.
+
+**Fees are standardized regardless of outcome.** Agencies typically charge 1 month of rent as an agency fee (shoukoukin), whether the process takes one week or three months. This fee is non-refundable.
+
+## How a Real Estate Hunter Works in Tokyo
+
+A real estate hunter operates in reverse: they are mandated by the tenant, not the landlord. Their mission is to find the best housing for their client by accessing as much of the available supply as possible.
+
+**They work across multiple agencies.** A hunter with a solid network contacts 10 to 20 agencies for a single mandate, accesses off-market properties, and submits your application where it has the best chance of succeeding.
+
+**They actively advocate for your application.** Where an agency simply forwards a file, a hunter argues for it. They know the standard objections Japanese landlords have about foreign profiles and prepare responses in advance.
+
+**They handle the language barrier.** All communication with Japanese agencies, negotiation of terms, reading of the lease: everything is managed in your name, in Japanese, with simultaneous translation for you.
+
+**They are paid on results.** A good hunter charges their fee only when you sign a lease. If they do not find a suitable property, they do not charge.
+
+## Side-by-Side Comparison
+
+**Average time to lease signing**
+
+Traditional agency for a foreign profile: 4 to 10 weeks. This timeline includes successive rejections, time to switch agencies, and restarting the process from scratch.
+
+Real estate hunter: 7 to 21 days. The search is parallelized from day one, and the application is submitted only where it has a realistic chance of acceptance.
+
+**Rejection rate**
+
+Traditional agency: high for atypical profiles. The application is presented without context to the landlord, who decides based on strict formal criteria.
+
+Hunter: structurally lower. The application is presented by an intermediary the landlord already trusts, which transfers part of that trust to the client.
+
+**Access to supply**
+
+Traditional agency: limited to the agency portfolio.
+
+Hunter: multi-agency access, including off-market properties and direct landlords.
+
+**Language support**
+
+Traditional agency: variable. Often insufficient for non-Japanese-speaking expats.
+
+Hunter: comprehensive. Language management is a core component of the service, not an add-on.
+
+**Total cost**
+
+Traditional agency: 1 month of rent as agency fee, regardless of how long the process takes.
+
+Hunter: fixed fee or equivalent of 1 month of rent, on results only, with measurable added value in timeline and supply access.
+
+## When a Traditional Agency Can Work
+
+A traditional agency is effective in specific circumstances: you speak Japanese, you have a Japanese guarantor available, your employment is standard (full-time employee at a Japanese company), and you have 6 to 8 weeks to search without a fixed arrival deadline.
+
+If these conditions are not met, the [common rental traps in Tokyo for foreigners](/blog/tokyo-rental-traps-foreigners) compound quickly.
+
+## Where We Stand in This Comparison
+
+We operate exclusively as a real estate hunter: tenant mandate, multi-agency approach, no fee if we do not deliver. Our network is built specifically for foreign profiles, English and French speakers, with or without Japanese.
+
+For a full walkthrough of our process, see [how a real estate hunter works in Tokyo](/blog/how-real-estate-hunter-works-tokyo).
+
+[Contact us](/contact) for an initial conversation with no commitment.
+
+
+For health coverage during your housing search, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) offers monthly insurance with no commitment. *(affiliate link)*
+---
+
+*Read next: [rental application rejected in Japan: what to do](/blog/rental-application-rejected-japan-foreigner) and [how to find an apartment in Tokyo as a foreigner](/blog/find-apartment-tokyo-foreigner), [Real Estate Hunter Tokyo: Cost and Is It Worth It](/blog/real-estate-hunter-tokyo-cost-worth-it).*
+    `.trim(),
+  },
+  {
+    slug: 'service-chasseur-immobilier-tokyo-comment-ca-marche',
+    locale: 'fr',
+    title: 'Comment fonctionne un chasseur immobilier à Tokyo',
+    description: 'Le chasseur immobilier à Tokyo gère votre recherche d\'appartement de A à Z. Découvrez exactement comment se déroule le processus, de l\'appel initial à la remise des clés.',
+    date: '2026-06-25',
+    readingTime: '6 min',
+    content: `
+Faire appel à un chasseur immobilier à Tokyo, c'est confier l'intégralité de votre recherche de logement à un professionnel qui connaît le marché de l'intérieur. Mais concrètement, comment se déroule le processus? Qui fait quoi, à quel moment, et combien de temps cela prend-il?
+
+Voici le déroulement exact d'une mission de chasse immobilière à Tokyo.
+
+## Étape 1: l'appel de brief (30 minutes)
+
+Tout commence par un appel initial, en français ou en anglais, sans engagement. Son objectif est de comprendre précisément votre situation et vos besoins.
+
+Les questions posées lors de ce brief vont au-delà de la surface: quel est votre budget réel (incluant les charges et non pas seulement le loyer affiché)? Quelle est votre date d'emménagement cible? Avez-vous des contraintes de déplacement professionnel? Vivez-vous seul, en couple, avec des enfants? Avez-vous des préférences fortes sur le style du logement?
+
+Ce brief permet aussi d'évaluer votre dossier: statut professionnel, durée du visa, présence ou non d'un garant. Ces éléments déterminent quels propriétaires et quelles agences seront approchés en priorité.
+
+## Étape 2: la recherche active (48 à 72 heures)
+
+Une fois le brief réalisé et le mandat signé, la recherche commence immédiatement.
+
+Contrairement à une agence classique qui présente uniquement son portefeuille propre, un chasseur contacte simultanément 10 à 20 agences japonaises, en japonais, avec votre profil et vos critères. Il accède également à des biens hors marché: propriétaires directs, gestionnaires de biens qui ne publient pas leurs disponibilités sur les portails grand public.
+
+Cette phase de recherche parallèle est ce qui différencie structurellement le chasseur de l'agence. Vous bénéficiez de l'intégralité de l'offre pertinente, pas d'un sous-ensemble limité.
+
+## Étape 3: la sélection (présentation sous 72 heures)
+
+Vous recevez une sélection de 5 à 10 biens, présentés avec les informations qui comptent: photos, plan, loyer total (charges incluses), distance aux transports, commentaires sur le propriétaire et l'agence, points d'attention spécifiques.
+
+Cette présélection vous évite de passer des heures à trier des annonces inadaptées. Chaque bien proposé a été vérifié: disponible à la date cible, compatible avec votre profil, dans votre budget réel.
+
+Vous choisissez les biens qui vous intéressent pour les visites. Vous avez aussi la possibilité d'en éliminer certains ou d'en demander d'autres sur des critères spécifiques.
+
+## Étape 4: les visites
+
+Les visites sont organisées en présentiel ou en virtuel selon votre situation. Si vous êtes encore à l'étranger, une visite virtuelle avec retransmission en direct est possible pour la plupart des biens.
+
+Le chasseur vous accompagne à chaque visite: il pose les questions importantes en japonais, vérifie les points que vous n'auriez pas pensé à vérifier (état des équipements, règlement de copropriété, règles sur les animaux ou les colocataires), et note les informations pertinentes pour la suite.
+
+Voir aussi: [checklist du contrat de bail à Tokyo](/blog/checklist-bail-tokyo) pour les points à vérifier avant de vous engager.
+
+## Étape 5: la négociation et la constitution du dossier
+
+Une fois que vous avez identifié le bien souhaité, le chasseur prend en charge la négociation et la constitution du dossier.
+
+La négociation peut porter sur le montant du loyer, les conditions de l'entrée (réduction ou suppression du reikin, clé de courtoisie non remboursable), la durée du bail, ou des aménagements spécifiques. Certains propriétaires sont ouverts à la négociation, d'autres non: le chasseur connaît les marges de manoeuvre habituelles.
+
+La constitution du dossier pour un profil étranger demande un soin particulier. Documents traduits, lettre de motivation adaptée, société de garantie arrangée si nécessaire: tout est préparé pour maximiser les chances d'acceptation.
+
+## Étape 6: la signature et la remise des clés
+
+La signature du bail en japonais est un moment délicat pour les non-japonophones. Le chasseur vous accompagne ou coordonne la traduction des clauses essentielles: conditions de résiliation, règles sur les rénovations, obligations de remise en état à la sortie.
+
+La remise des clés intervient généralement 1 à 2 semaines après la validation du dossier par le propriétaire. Le délai total, de l'appel de brief à la remise des clés, est généralement de 7 à 21 jours.
+
+Pour comparer cette approche avec le recours à une agence classique, voir: [chasseur immobilier ou agence à Tokyo: comparatif](/blog/chasseur-immobilier-vs-agence-tokyo-comparatif).
+
+## Ce que vous n'avez pas à faire
+
+Récapitulatif de ce que le chasseur prend en charge à votre place:
+
+- Contacter les agences japonaises (en japonais)
+- Trier les annonces et vérifier les disponibilités
+- Organiser et accompagner les visites
+- Négocier les conditions du bail
+- Constituer et présenter le dossier locatif
+- Lire et expliquer le contrat en japonais
+- Coordonner le versement du dépôt et des frais d'entrée
+
+Vous intervenez aux moments de décision: choix des biens à visiter, sélection du bien final, validation du dossier et signature.
+
+[Contactez-nous](/contact) pour démarrer avec un appel de brief sans engagement.
+
+
+Pour votre couverture sante pendant les demarches d'installation, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) propose une assurance mensuelle sans engagement. *(lien affilie)*
+---
+
+*À lire aussi: [chasseur immobilier ou agence à Tokyo: comparatif](/blog/chasseur-immobilier-vs-agence-tokyo-comparatif) et [comment trouver un appartement à Tokyo en tant qu'étranger](/blog/trouver-appartement-tokyo-etranger), [Chasseur immobilier Tokyo : tarifs et retour sur investissement](/blog/chasseur-immobilier-tokyo-tarifs-vaut-il-le-coup).*
+    `.trim(),
+  },
+  {
+    slug: 'how-real-estate-hunter-works-tokyo',
+    locale: 'en',
+    title: 'How a Real Estate Hunter Works in Tokyo: Step by Step',
+    description: 'A real estate hunter in Tokyo handles your apartment search from brief to keys. Full walkthrough of the process, timeline and what you need to do at each stage.',
+    date: '2026-06-25',
+    readingTime: '6 min',
+    content: `
+Hiring a real estate hunter in Tokyo means delegating your entire apartment search to a professional who knows the market from the inside. But what exactly happens during the process? Who does what, at what point, and how long does it take?
+
+Here is the exact walkthrough of a real estate hunting mission in Tokyo.
+
+## Step 1: The Initial Brief Call (30 minutes)
+
+Everything starts with an initial call in English or French, with no commitment required. Its purpose is to understand your situation and needs precisely.
+
+The questions go beyond the surface: what is your real budget, including service charges and not just the listed rent? What is your target move-in date? Do you have commute constraints? Are you moving alone, as a couple, or with children? Do you have strong preferences about the style or layout of the apartment?
+
+This brief also assesses your application profile: employment status, visa duration, guarantor availability. These elements determine which landlords and agencies will be approached first on your behalf.
+
+## Step 2: Active Search (48 to 72 Hours)
+
+Once the brief is complete and the mandate is signed, the search starts immediately.
+
+Unlike a standard agency that only presents its own portfolio, a hunter contacts 10 to 20 Japanese agencies simultaneously, in Japanese, with your profile and criteria. They also access off-market properties: direct landlords, property managers who do not publish their availability on public portals.
+
+This parallel search phase is what structurally separates a hunter from an agency. You get access to the full relevant supply, not a limited subset of one agency portfolio.
+
+## Step 3: Pre-Selection (Delivered Within 72 Hours)
+
+You receive a selection of 5 to 10 properties, presented with the information that matters: photos, floor plan, total rent including charges, distance to transport, notes on the landlord and agency, and specific points of attention.
+
+This pre-selection saves you hours of sorting through irrelevant listings. Every property presented has been verified: available on your target date, compatible with your profile, within your actual budget.
+
+You select the properties you want to visit. You can also remove some or request alternatives based on specific preferences.
+
+## Step 4: Property Visits
+
+Visits are organized in person or virtually depending on your location. If you are still abroad, a live remote visit with real-time walkthrough is possible for most properties.
+
+The hunter accompanies you at each visit: they ask the important questions in Japanese, verify points you might not think to check (appliance condition, building rules, pet or subletting policies), and note relevant information for the next stage.
+
+See also: [Tokyo rental contract checklist](/blog/tokyo-rental-contract-checklist) for the points to verify before committing.
+
+## Step 5: Negotiation and Application
+
+Once you have identified the property you want, the hunter manages negotiation and application preparation.
+
+Negotiation can cover the rent amount, entry terms (reduction or removal of the reikin key money), lease duration, or specific arrangements. Some landlords are open to negotiation, others are not: the hunter knows the usual margins.
+
+Building the application for a foreign profile requires specific care. Translated documents, tailored motivation letter, guarantor company arranged if needed: everything is prepared to maximize acceptance.
+
+## Step 6: Lease Signing and Key Handover
+
+Signing a Japanese lease is a delicate moment for non-Japanese speakers. The hunter accompanies you or coordinates the translation of key clauses: termination conditions, renovation rules, restoration obligations on exit.
+
+Key handover typically occurs 1 to 2 weeks after the landlord validates the application. The total timeline, from brief call to key handover, is generally 7 to 21 days.
+
+To compare this approach with using a traditional agency, see: [real estate hunter vs agency in Tokyo](/blog/real-estate-hunter-vs-agency-tokyo).
+
+## What You Do Not Have to Handle
+
+Summary of what the hunter manages on your behalf:
+
+- Contacting Japanese agencies (in Japanese)
+- Sorting listings and verifying availability
+- Organizing and attending visits
+- Negotiating lease terms
+- Building and presenting the rental application
+- Reading and explaining the lease in Japanese
+- Coordinating deposit and entry fee payments
+
+You participate at decision points: choosing which properties to visit, selecting the final property, validating the application, and signing.
+
+[Contact us](/contact) to start with an initial brief call at no commitment.
+
+
+For health coverage during your relocation process, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) offers monthly insurance with no commitment. *(affiliate link)*
+---
+
+*Read next: [real estate hunter vs agency in Tokyo](/blog/real-estate-hunter-vs-agency-tokyo) and [how to find an apartment in Tokyo as a foreigner](/blog/find-apartment-tokyo-foreigner), [Real Estate Hunter Tokyo: Cost and Is It Worth It](/blog/real-estate-hunter-tokyo-cost-worth-it).*
+    `.trim(),
+  },
+  {
+    slug: 'hiroo-minami-azabu-guide-expatries-tokyo',
+    locale: 'fr',
+    title: 'Hiroo et Minami-Azabu: guide des quartiers expats à Tokyo',
+    description: 'Hiroo et Minami-Azabu concentrent la plus forte densité d\'expatriés de Tokyo. Guide complet: loyers, ambiance, transports, écoles internationales et vie quotidienne.',
+    date: '2026-06-25',
+    readingTime: '7 min',
+    content: `
+Hiroo et Minami-Azabu forment le coeur historique de la communauté expatriée de Tokyo. Ambassades, écoles internationales, supermarchés anglophones, restaurants occidentaux: tout ce qui facilite la vie d'un étranger est concentré dans ce rayon de 2 kilomètres au sud de Roppongi.
+
+Ce guide vous donne une vision complète et honnête de ces deux quartiers: ce qui en fait une valeur sûre, ce que l'on ne vous dit pas toujours, et ce à quoi s'attendre en termes de loyers et de disponibilité.
+
+## Hiroo: le quartier expatrié par excellence
+
+Hiroo est probablement le quartier le plus international de Tokyo. On y trouve une densité d'ambassades étrangères (Danemark, Nouvelle-Zélande, Italie, entre autres), plusieurs grandes résidences diplomatiques, et une offre commerciale clairement orientée vers les résidents étrangers.
+
+**Ce qui rend Hiroo attractif pour les expatriés**
+
+Le National Azabu Supermarket, situé en face de la station Hiroo, est le repère de tous les étrangers: produits importés, épicerie européenne, rayon fromages, vins et produits frais. Le marché de la Niche de Tokyo (Tokyo French Market) s'y tient régulièrement.
+
+Les rues autour de Hiroo sont calmes, arborées et sécurisées. Le quartier a une ambiance résidentielle rare pour Tokyo: peu de pachinko, peu d'enseignes criardes, peu de commerces de transit. On y croise beaucoup de joggers, de poussettes et de familles d'expatriés le week-end.
+
+**Transports depuis Hiroo**
+
+La station Hiroo est sur la ligne Hibiya, directe vers Roppongi, Ginza et Tsukiji. Comptez 10 minutes pour Roppongi, 15 pour Ginza, 20 pour Shinjuku avec une correspondance.
+
+**Loyers à Hiroo**
+
+Hiroo est l'un des quartiers les plus chers de Tokyo pour les étrangers. Un appartement 1LDK (chambre séparée + salon) se loue entre 180 000 et 280 000 JPY par mois selon la taille, l'étage et l'état. Un 2LDK familial dépasse souvent 300 000 JPY.
+
+Les biens de qualité partent vite et sont souvent loués avant d'apparaître sur les portails grand public.
+
+## Minami-Azabu: le Hiroo résidentiel version premium
+
+Minami-Azabu est adjacent à Hiroo, situé entre Azabu-Juban et Hiroo. C'est l'un des quartiers les plus chers de tout Tokyo, avec des propriétés haut de gamme, des résidences sécurisées et une présence diplomatique encore plus forte.
+
+**Ce qui caractérise Minami-Azabu**
+
+C'est dans ce quartier que se trouve l'ambassade de France et plusieurs résidences diplomatiques européennes. La communauté francophone de Tokyo est particulièrement bien représentée dans ce secteur.
+
+Les rues sont tranquilles, peu passantes, avec de grands arbres et des propriétés souvent disposant d'un garage. L'environnement est nettement plus résidentiel que central.
+
+**Transports depuis Minami-Azabu**
+
+Minami-Azabu ne dispose pas de station de métro propre. On accède au réseau depuis Hiroo (ligne Hibiya) ou Azabu-Juban (ligne Namboku et Oedo), à 10 à 15 minutes à pied. Pour les familles avec voiture de fonction, cela ne pose pas de problème. Pour les navetteurs quotidiens en transports en commun, c'est un point à évaluer soigneusement.
+
+**Loyers à Minami-Azabu**
+
+Minami-Azabu est encore plus cher que Hiroo. Un 2LDK se loue couramment entre 300 000 et 450 000 JPY par mois. Les grandes propriétés avec jardin ou les immeubles sécurisés avec accueil dépassent 600 000 JPY.
+
+## Les écoles internationales à proximité
+
+La présence d'écoles internationales de qualité est l'une des raisons principales pour lesquelles les familles expatriées choisissent ce secteur.
+
+La Deutsche Schule Tokyo (école allemande), la Seoul International School (pour les Coréens notamment), et plusieurs structures bilingues se trouvent à moins de 20 minutes. Le lycée franco-japonais de Tokyo (LFJTK), sur la ligne Oedo, est accessible depuis Azabu-Juban en 15 minutes.
+
+Pour les familles avec enfants, ce secteur reste difficile à égaler à Tokyo.
+
+Voir aussi: [guide des quartiers de Tokyo pour familles expatriées](/blog/quartiers-tokyo-familles-expatriees-guide)
+
+## Ce qu'on vous dit moins souvent
+
+**La compétition est forte.** Les biens dans ces quartiers sont pris d'assaut, souvent par des entreprises qui logent leurs expatriés à prix fixe. Les bons appartements à 200 000 JPY partent en 48 à 72 heures.
+
+**Le réseau informel fonctionne.** Beaucoup de biens dans ce secteur ne sont jamais publiés sur les portails. Ils circulent entre gestionnaires et agences qui travaillent régulièrement avec des locataires expatriés. Un intermédiaire ayant accès à ce réseau multiplie les options disponibles.
+
+**Les alternatives proches méritent d'être considérées.** Ebisu (ligne Hibiya), Daikanyama et même certaines parties de Nishi-Azabu offrent un profil similaire à des loyers 15 à 20% inférieurs.
+
+## Comment trouver un appartement dans ce secteur
+
+Les agences classiques ont une présence dans ces quartiers mais leur portefeuille est limité. Les meilleurs biens passent souvent par des gestionnaires spécialisés dans les profils expatriés ou par des réseaux informels.
+
+Un chasseur immobilier familier de ce secteur peut accéder à une offre plus large et vous éviter de passer à côté d'un bien qui correspond exactement à votre profil.
+
+[Contactez-nous](/contact) pour un brief ciblé sur Hiroo, Minami-Azabu ou les quartiers adjacents.
+
+Avant de vous installer, [GetYourGuide](https://www.getyourguide.com/tokyo-l193/?partner_id=4LP5PLT&utm_medium=online_publisher) propose des visites guidees de Tokyo et des experiences culturelles pour decouvrir ces quartiers de l'interieur. *(lien affilie)*
+
+
+Pour decouvrir la gastronomie de ces quartiers residentiels, [Arigato Travel](https://tours.arigatojapan.co.jp/?rfsn=91948) propose des food tours au coeur de Tokyo guides par des locaux, ideaux pour explorer la culture culinaire japonaise des votre arrivee. *(lien affilie)*
+---
+
+*À lire aussi : [Ebisu, Daikanyama et Nakameguro : guide pour expatriés](/blog/ebisu-daikanyama-nakameguro-guide-expatries).*
+
+*À lire aussi: [guide des quartiers de Tokyo pour expatriés](/blog/quartiers-tokyo-expatries-guide) et [comment trouver un appartement à Tokyo en tant qu'étranger](/blog/trouver-appartement-tokyo-etranger).*
+    `.trim(),
+  },
+  {
+    slug: 'hiroo-minami-azabu-expat-neighborhood-guide',
+    locale: 'en',
+    title: 'Hiroo and Minami-Azabu: Tokyo Top Expat Neighborhoods',
+    description: 'Hiroo and Minami-Azabu have the highest expat density in Tokyo. Full guide to rents, atmosphere, transport links, international schools and daily life for foreigners.',
+    date: '2026-06-25',
+    readingTime: '7 min',
+    content: `
+Hiroo and Minami-Azabu form the historic heart of Tokyo's expat community. Embassies, international schools, English-friendly supermarkets, Western restaurants: everything that makes daily life easier for foreigners is concentrated in this two-kilometer radius south of Roppongi.
+
+This guide gives you a complete and honest picture of both neighborhoods: what makes them a reliable choice, what is often left unsaid, and what to expect in terms of rents and availability.
+
+## Hiroo: Tokyo's Most International Neighborhood
+
+Hiroo is probably the most international neighborhood in Tokyo. It hosts a high density of foreign embassies (Denmark, New Zealand, Italy, among others), several large diplomatic residences, and a commercial offering clearly oriented toward foreign residents.
+
+**What makes Hiroo attractive for expats**
+
+The National Azabu Supermarket, located directly in front of Hiroo station, is the reference point for every foreign resident: imported products, European grocery, cheese section, wines and fresh produce. Several international restaurants, cafes with Western menus, and specialty import shops are within a few minutes' walk.
+
+The streets around Hiroo are quiet, tree-lined and safe. The neighborhood has a residential feel rare for Tokyo: few pachinko parlors, few loud commercial signs, few transit-oriented retail. On weekends, you see joggers, strollers, and expat families, not commuter crowds.
+
+**Transport from Hiroo**
+
+Hiroo station is on the Hibiya Line, running directly to Roppongi, Ginza and Tsukiji. Allow 10 minutes to Roppongi, 15 to Ginza, 20 to Shinjuku with one transfer.
+
+**Rents in Hiroo**
+
+Hiroo is one of Tokyo's most expensive neighborhoods for foreigners. A 1LDK (separate bedroom plus living room) rents for between 180,000 and 280,000 JPY per month depending on size, floor and condition. A family 2LDK frequently exceeds 300,000 JPY.
+
+Quality properties move quickly and are often rented before appearing on public portals.
+
+## Minami-Azabu: The Premium Residential Side of the Hiroo Area
+
+Minami-Azabu is adjacent to Hiroo, situated between Azabu-Juban and Hiroo. It is one of the most expensive neighborhoods in all of Tokyo, with high-end properties, secured residences and an even stronger diplomatic presence.
+
+**What defines Minami-Azabu**
+
+Several major European embassies and diplomatic residences are located in this neighborhood. The French community in Tokyo is particularly well represented in this area.
+
+Streets are quiet, low-traffic, with large trees and properties that often include parking. The environment is markedly more residential than central.
+
+**Transport from Minami-Azabu**
+
+Minami-Azabu does not have its own metro station. You access the network from Hiroo (Hibiya Line) or Azabu-Juban (Namboku and Oedo Lines), each 10 to 15 minutes on foot. For families with a company car, this is not an issue. For daily commuters relying on public transport, it is worth evaluating carefully.
+
+**Rents in Minami-Azabu**
+
+Minami-Azabu is even more expensive than Hiroo. A 2LDK commonly rents between 300,000 and 450,000 JPY per month. Large properties with gardens or secured buildings with concierge services exceed 600,000 JPY.
+
+## International Schools Nearby
+
+The proximity of quality international schools is one of the main reasons expat families choose this area.
+
+Several international structures are within 20 minutes. The French high school in Tokyo (LFJTK) is accessible from Azabu-Juban on the Oedo Line in about 15 minutes.
+
+For families with children, this area remains difficult to match in Tokyo.
+
+See also: [Tokyo neighborhoods guide for expat families](/blog/best-neighbourhoods-families-tokyo-guide)
+
+## What Is Often Left Unsaid
+
+**Competition is intense.** Properties in these neighborhoods are in high demand, often taken by companies housing their expats at fixed rates. Good apartments at 200,000 JPY move in 48 to 72 hours.
+
+**The informal network matters.** Many properties in this area are never published on portals. They circulate between managers and agencies that work regularly with expat tenants. An intermediary with access to this network significantly expands your available options.
+
+**Nearby alternatives are worth considering.** Ebisu (Hibiya Line), Daikanyama, and parts of Nishi-Azabu offer a similar profile at 15 to 20% lower rents.
+
+## How to Find an Apartment in This Area
+
+Standard agencies have a presence in these neighborhoods but their portfolios are limited. The best properties often go through property managers specializing in expat profiles or through informal networks.
+
+A real estate hunter familiar with this area can access a broader supply and prevent you from missing a property that matches your profile exactly.
+
+[Contact us](/contact) for a brief focused on Hiroo, Minami-Azabu or adjacent neighborhoods.
+
+Before settling in, [GetYourGuide](https://www.getyourguide.com/tokyo-l193/?partner_id=4LP5PLT&utm_medium=online_publisher) offers guided tours of Tokyo and cultural experiences to discover these neighborhoods from the inside. *(affiliate link)*
+
+
+To discover the food scene of these upscale residential neighbourhoods, [Arigato Travel](https://tours.arigatojapan.co.jp/?rfsn=91948) offers food tours in the heart of Tokyo led by local guides, ideal for exploring Japanese culinary culture from day one. *(affiliate link)*
+---
+
+*See also: [Ebisu, Daikanyama and Nakameguro: Expat Living Guide](/blog/ebisu-daikanyama-nakameguro-expat-guide).*
+
+*Read next: [Tokyo neighborhoods guide for expats](/blog/tokyo-neighbourhoods-expats-guide) and [how to find an apartment in Tokyo as a foreigner](/blog/find-apartment-tokyo-foreigner).*
     `.trim(),
   },
 
@@ -7861,6 +9651,15 @@ export const TWIN_SLUGS: Record<string, string> = {
   'logement-etudiant-tokyo-octobre':            'student-housing-tokyo-october',
   'appartement-meuble-tokyo-expats-top-5':      'furnished-apartment-tokyo-top-5-expats',
   'alternative-remoters-chasseur-tokyo':        'remoters-alternative',
+  'dossier-location-refuse-tokyo-etranger':     'rental-application-rejected-japan-foreigner',
+  'chasseur-immobilier-tokyo-tarifs-vaut-il-le-coup': 'real-estate-hunter-tokyo-cost-worth-it',
+  'chasseur-immobilier-vs-agence-tokyo-comparatif': 'real-estate-hunter-vs-agency-tokyo',
+  'service-chasseur-immobilier-tokyo-comment-ca-marche': 'how-real-estate-hunter-works-tokyo',
+  'hiroo-minami-azabu-guide-expatries-tokyo':   'hiroo-minami-azabu-expat-neighborhood-guide',
+  'loyers-tokyo-par-quartier-2026':             'tokyo-rent-by-neighborhood-2026',
+  'appartement-tokyo-entrepreneur-freelance':   'renting-tokyo-entrepreneur-startup-guide',
+  'relocation-entreprise-tokyo-guide-rh':       'corporate-relocation-tokyo-hr-housing-guide',
+  'ebisu-daikanyama-nakameguro-guide-expatries': 'ebisu-daikanyama-nakameguro-expat-guide',
 }
 
 export function getTwinSlug(slug: string, locale: Locale): string | undefined {

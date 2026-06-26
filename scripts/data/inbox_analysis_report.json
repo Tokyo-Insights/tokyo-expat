@@ -1,0 +1,1257 @@
+{
+  "timestamp": "2026-06-26T10:59:39.376025",
+  "total_in_inbox": 175,
+  "useful": [
+    {
+      "uid": "3",
+      "from": "Google Community Team <googlecommunityteam-noreply@google.com>",
+      "subject": "Your Google Account is live – don't miss out on potential customers",
+      "date": "Thu, 25 Sep 2025 06:07:27 -0700",
+      "body_preview": "Tokyo, welcome to Google  Now you can start growing your business.  Complete your profile   <https://business.google.com/create?hl=en-US&gmbsrc=JP-en-US-et-em-z-gmb-z-l~wlcemnewv%7Ccreate&mcsubid=ww-ww-xs-mc-simedm-1-simometest!o3&trk=https%3A%2F%2Fc.gle%2FAF5yWjCXwR1DSBejI3k6SBcYHzyd4SfJrUkVKBz3bEthqmj-lZbBJqnZTFrPBzlBShnzz2i1iRaxFNvSyewdK4Q_qZ0C1PrN0k7Ydnrek2zHTK1yIqELMk8YmMj9N2DV2lboe6tKzTqNy_I>  Congratulations – your account is live and ready for action. You now have   access to a r",
+      "reply_needed": false
+    },
+    {
+      "uid": "15",
+      "from": "WordPress <wordpress@tokyo-insights.com>",
+      "subject": "[tokyo-insights.com] Demande de modération pour « Hello world! »",
+      "date": "Fri, 26 Sep 2025 14:30:22 +0000",
+      "body_preview": "Un nouveau commentaire sur l’article « Hello world! » attend votre approbation https://tokyo-insights.com/hello-world/  Auteur/autrice : tokyo-insights (adresse IP : 217.178.53.80, 80.53.178.217.static.user.transix.jp) E-mail : info.tokyoinsights@gmail.com URL :  Commentaire :  Hi,  Let's get started.  L’approuver : https://tokyo-insights.com/wp-admin/comment.php?action=approve&c=2#wpbody-content Le mettre dans la corbeille : https://tokyo-insights.com/wp-admin/comment.php?action=tra",
+      "reply_needed": true
+    },
+    {
+      "uid": "19",
+      "from": "Vercel <notifications@vercel.com>",
+      "subject": "Failed production deployment on team 'Tokyo-Insights' projects'",
+      "date": "Sat, 27 Sep 2025 00:12:09 +0000",
+      "body_preview": "Hey infotokyoinsights-7772,  completed an activity. Something happened that you should be aware of. Thanks, The team @    --   If you've got questions, ask us in https://vercel.community/  Copyright © 2025 Vercel Inc. All rights reserved. 440 N Barranca Ave #4133 Covina, CA 91723",
+      "reply_needed": true
+    },
+    {
+      "uid": "22",
+      "from": "Stripe <notifications@stripe.com>",
+      "subject": "Confirmez votre adresse e-mail",
+      "date": "Sat, 27 Sep 2025 10:16:56 +0000",
+      "body_preview": "Merci d'avoir créé votre compte Stripe. Veuillez confirmer votre adresse e-mail pour pouvoir vous lancer.  Confirmez votre adresse e-mail : https://dashboard.stripe.com/confirm_email?t=qcLh6MqdUr87MpPvj4ggtl4cEz3JB9LQ  Une fois votre adresse e-mail confirmée, vous pourrez procéder à la configuration de votre compte. Consultez notre site de support (https://support.stripe.com) en cas de questions ou si vous avez besoin d'aide.  ===  Stripe, 354 Oyster Point Blvd, South San Francisco, CA 9",
+      "reply_needed": true
+    },
+    {
+      "uid": "53",
+      "from": "Google Community Team <googlecommunityteam-noreply@google.com>",
+      "subject": "\r\nConseil : Affichez votre établissement dans la recherche Google et sur Maps\r\n",
+      "date": "Fri, 03 Oct 2025 23:19:11 -0700",
+      "body_preview": "CONSEIL POUR LES PROS  Démarquez-vous sur Google grâce à une fiche d'établissement gratuite  Attirez des clients dans la recherche Google et sur Maps en créant une   fiche d'établissement gratuite pour votre magasin ou la zone que vous   desservez. Lorsque les utilisateurs rechercheront des établissements comme   le vôtre, votre fiche apparaîtra. N'hésitez pas à la rendre encore plus   visible en la personnalisant avec des photos, des posts, des offres et plus.  Gérer<https://business.",
+      "reply_needed": false
+    },
+    {
+      "uid": "55",
+      "from": "Vercel <notifications@vercel.com>",
+      "subject": "Failed production deployment on team 'Tokyo-Insights' projects'",
+      "date": "Sun, 5 Oct 2025 14:09:53 +0000",
+      "body_preview": "Hey infotokyoinsights-7772,  completed an activity. Something happened that you should be aware of. Thanks, The team @    --   If you've got questions, ask us in https://vercel.community/  Copyright © 2025 Vercel Inc. All rights reserved. 440 N Barranca Ave #4133 Covina, CA 91723",
+      "reply_needed": true
+    },
+    {
+      "uid": "59",
+      "from": "Vercel <notifications@vercel.com>",
+      "subject": "Failed production deployment on team 'Tokyo-Insights' projects'",
+      "date": "Wed, 8 Oct 2025 10:32:25 +0000",
+      "body_preview": "Hey infotokyoinsights-7772,  completed an activity. Something happened that you should be aware of. Thanks, The team @    --   If you've got questions, ask us in https://vercel.community/  Copyright © 2025 Vercel Inc. All rights reserved. 440 N Barranca Ave #4133 Covina, CA 91723",
+      "reply_needed": true
+    },
+    {
+      "uid": "60",
+      "from": "Google Search Console Team <sc-noreply@google.com>",
+      "subject": "Premiers pas avec la Search Console sur\r\n https://www.tokyo-insights.com/",
+      "date": "Wed, 08 Oct 2025 05:35:03 -0700",
+      "body_preview": "Premiers pas avec la Search Console surhttps://www.tokyo-insights.com/   Maintenant que vous avez validé votre site dans la Search Console (ou créé   un site dans Blogger ou Google Sites, qui a validé votre site pour vous),   voici quelques conseils pour utiliser la Search Console plus efficacement.   Premiers pas avec la Search Console :    1  Assurez-vous que toutes vos URL sont couvertes  Assurez-vous que toutes les pages de votre site sont couvertes par la   Search Console,",
+      "reply_needed": false
+    },
+    {
+      "uid": "64",
+      "from": "Google Analytics <analytics-noreply@google.com>",
+      "subject": "Commencez à utiliser votre nouveau compte Analytics",
+      "date": "Thu, 09 Oct 2025 08:01:21 -0700",
+      "body_preview": "Partez du bon pied avec Google Analytics  Google Analytics vous permet de mieux comprendre votre audience et de   prendre des décisions marketing plus judicieuses, basées sur les données.   Pour profiter pleinement de votre nouveau compte Analytics, inscrivez-vous   à nos e-mails. Vous recevrez ainsi des conseils de configuration, des   insights personnalisés et des recommandations pour atteindre vos objectifs   plus rapidement.  Recevoir des   conseils<https://c.gle/AF5yWjBEA3B-talR",
+      "reply_needed": false
+    },
+    {
+      "uid": "65",
+      "from": "HeiGIT User Management <noreply@heigit.org>",
+      "subject": "Account Verification",
+      "date": "Sun, 12 Oct 2025 11:34:29 +0000",
+      "body_preview": "Hello Tokyo Insights, Follow this link to verify your email address to your HeiGIT account. https://account.heigit.org/verify?userId=68eb9241001261bce62d&secret=211b8a66f1d0dee987e760427b6e320e9684596a4767d9b8524a245b675f53dde288f662de98f89763b50284898fdee32c3063eecb61e9046986cc9749e1359455fbab7654edbd2cbe65b5f9dc3ac20bc86c696cebebb5a39ec26e81dc5322a153497298a116af2d757f3d79b2d5ceb26c0c6f863189b3f7c97f93bdf3056d8b&expire=2025-10-12+12%3A34%3A29.173 If you didn’t ask to verify this address, yo",
+      "reply_needed": true
+    },
+    {
+      "uid": "102",
+      "from": "Vercel <notifications@vercel.com>",
+      "subject": "Failed production deployment on team 'Tokyo-Insights' projects'",
+      "date": "Wed, 19 Nov 2025 11:45:49 +0000",
+      "body_preview": "Hey infotokyoinsights-7772,  completed an activity. Something happened that you should be aware of. Thanks, The team @    --   If you've got questions, ask us in https://vercel.community/  Copyright © 2025 Vercel Inc. All rights reserved. 440 N Barranca Ave #4133 Covina, CA 91723",
+      "reply_needed": true
+    },
+    {
+      "uid": "103",
+      "from": "Vercel <notifications@vercel.com>",
+      "subject": "Failed production deployment on team 'Tokyo-Insights' projects'",
+      "date": "Wed, 19 Nov 2025 11:47:54 +0000",
+      "body_preview": "Hey infotokyoinsights-7772,  completed an activity. Something happened that you should be aware of. Thanks, The team @    --   If you've got questions, ask us in https://vercel.community/  Copyright © 2025 Vercel Inc. All rights reserved. 440 N Barranca Ave #4133 Covina, CA 91723",
+      "reply_needed": true
+    },
+    {
+      "uid": "104",
+      "from": "Vercel <notifications@vercel.com>",
+      "subject": "Failed production deployment on team 'Tokyo-Insights' projects'",
+      "date": "Wed, 19 Nov 2025 11:55:22 +0000",
+      "body_preview": "Hey infotokyoinsights-7772,  completed an activity. Something happened that you should be aware of. Thanks, The team @    --   If you've got questions, ask us in https://vercel.community/  Copyright © 2025 Vercel Inc. All rights reserved. 440 N Barranca Ave #4133 Covina, CA 91723",
+      "reply_needed": true
+    },
+    {
+      "uid": "116",
+      "from": "Vercel Security <security@vercel.com>",
+      "subject": "Important Security Update for Next.js 15 & 16",
+      "date": "Wed, 03 Dec 2025 18:20:12 +0000 (UTC)",
+      "body_preview": "<!DOCTYPE html> <html xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:v=\"urn:schemas-microsoft-com:vml\"> <head><title>Important Security Update for Next.js 15 &amp; 16</title><!--[if !mso]><!-- --><meta content=\"IE=edge\" http-equiv=\"X-UA-Compatible\"/><!--<![endif]--><meta content=\"text/html; charset=utf-8\" http-equiv=\"Content-Type\"/><meta content=\"width=device-width,initial-scale=1\" name=\"viewport\"/><style type=\"text/css\">#outlook a { padding:0; }",
+      "reply_needed": false
+    },
+    {
+      "uid": "127",
+      "from": "Figma <announcements@figma.com>",
+      "subject": "Welcome to Figma!",
+      "date": "Wed, 10 Dec 2025 06:59:00 +0000",
+      "body_preview": "Welcome to Figma!  We're so glad you're here. Over the next few weeks, we'll share tips to help you make the most of Figma. To get started, create a new file [https://figma.com/new], begin with a template [https://www.figma.com/community/design-templates?resource_type=files&editor_type=figma&price=free], or check out the resources and features below.  Create a file [https://figma.com/new]  Learn key features in Figma with our official guides [https://static.figma.com/uploads/ed644d88d",
+      "reply_needed": false
+    },
+    {
+      "uid": "292",
+      "from": "Calendly <teamcalendly@send.calendly.com>",
+      "subject": "Welcome to Calendly",
+      "date": "Sun, 01 Mar 2026 06:56:01 +0000 (UTC)",
+      "body_preview": "Tokyo, let’s get started!  Calendly ( https://ablink.send.calendly.com/ls/click?upn=u001.-2FpFZHOmNsCfytAyhc9roxELUchgdjO-2FWEsaxNnUdipVGTBtkqJNZdojYuyhTJIkG4cee_JM5WDRiBOlOupvEGalGpsaUQxyEL3Hhw6yxAfbr8GjKkCZREqVu9h0If8j9rJs6e82uVJW5a1S-2BspLQ5oDyJerR1V-2FkPa3Y2YpD1xn-2FQTmkpKGXLgUoipcrkk5bIki7lcxDMfzl010D6dtTSGCtJ0X-2FMG-2BFGUgdPEFjlJke-2Bo2PYa3ZC292bwVrFZ-2FcDStA0WOlcqgQ2tSx5vp584jrqomCEASeeURiI-2Fx5VaMVQp2N4Yq1tOr90vhIuMEX-2F4L8O7yc8XvLUBUwyVeAFt-2FJmnAi9Us1Tak3NvlDW2-2BgvYhonW4LyOau-2FutH6",
+      "reply_needed": false
+    },
+    {
+      "uid": "380",
+      "from": "Google Antigravity <antigravity-noreply@google.com>",
+      "subject": "Get started with Google Antigravity",
+      "date": "Wed, 18 Mar 2026 21:00:18 -0700",
+      "body_preview": "Hello from Antigravity  If you no longer wish to receive our emails, please use the link below to   unsubscribe: https://myaccount.google.com/communication-preferences/unsubscribe/gt/AEJ26qtSnhoi-EtiIi8sz4RCw5Qqassn1MdEuDXLT-AaOpw2koe7KB2lIK5uoNtfbI03x5NcBxeu6EHkmz_EoXKc-W3OaERL9wnhFFaGcY_uYhK0lgA3CByuFLZRpVMXfzaM_UZGolvuJh1XPUo1wfA6v03nerORcL8B4JuG8NuZ-Pny9Eh5dapzDWtBaBuqHrMD5-hdkBBT7IX5D4WiNnCJBlcH_hw8ei-lN59Xd-YvQrYhCLVbd0o47pJQojFcDL6oQlDXaMqPsFCBq9ByH4ELvfPI?utm_source=gm&utm_medium=ema",
+      "reply_needed": true
+    },
+    {
+      "uid": "405",
+      "from": "Google Search Console Team <sc-noreply@google.com>",
+      "subject": "Félicitations ! Votre site a enregistré 15 clics en 28 jours",
+      "date": "Wed, 25 Mar 2026 03:51:41 -0700",
+      "body_preview": "Objet&nbsp;: Félicitations&nbsp;! Votre site a enregistré 15&nbsp;clics en   28&nbsp;jours  Félicitations&nbsp;! Le mars 23, 2026, nous avons constaté que votre site   https://www.tokyo-insights.com/ avait atteint 15&nbsp;clics depuis la   recherche Google au cours des 28&nbsp;derniers jours. Belle performance&nbsp;! N'hésitez pas à partager la bonne nouvelle.  Pour consulter les données liées à votre site, rendez-vous sur   https://c.gle/AEJ26quX1wNZhaOrsWeSXskZPlLr7u7yuKihUmfC",
+      "reply_needed": false
+    },
+    {
+      "uid": "415",
+      "from": "Wise <noreply@wise.com>",
+      "subject": "We’ve confirmed your information",
+      "date": "Fri, 27 Mar 2026 13:33:02 +0000",
+      "body_preview": "<!doctype html> <html lang=\"und\" dir=\"auto\" xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" style=\"font-family: Inter, Averta, Helvetica, Arial; font-weight: 400; color: #454745; font-size: 16px;\">  <head>   <title></title>   <!--[if !mso]><!-->   <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">   <!--<![endif]-->   <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">   <meta name=\"viewpor",
+      "reply_needed": false
+    },
+    {
+      "uid": "416",
+      "from": "Wise <noreply@wise.com>",
+      "subject": "Your account details are ready to use",
+      "date": "Fri, 27 Mar 2026 14:07:03 +0000",
+      "body_preview": "<!doctype html> <html lang=\"und\" dir=\"auto\" xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" style=\"font-family: Inter, Averta, Helvetica, Arial; font-weight: 400; color: #454745; font-size: 16px;\">  <head>   <title></title>   <!--[if !mso]><!-->   <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">   <!--<![endif]-->   <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">   <meta name=\"viewpor",
+      "reply_needed": false
+    },
+    {
+      "uid": "417",
+      "from": "Wise <noreply@wise.com>",
+      "subject": "Your HKD account details are ready to use",
+      "date": "Fri, 27 Mar 2026 14:14:34 +0000",
+      "body_preview": "<!doctype html> <html lang=\"und\" dir=\"auto\" xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" style=\"font-family: Inter, Averta, Helvetica, Arial; font-weight: 400; color: #454745; font-size: 16px;\">  <head>   <title></title>   <!--[if !mso]><!-->   <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">   <!--<![endif]-->   <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">   <meta name=\"viewpor",
+      "reply_needed": false
+    },
+    {
+      "uid": "479",
+      "from": "Google Search Console Team <sc-noreply@google.com>",
+      "subject": "Surveiller le trafic de la recherche Google vers\r\n https://www.tokyo-insights.com/",
+      "date": "Tue, 14 Apr 2026 03:48:41 -0700",
+      "body_preview": "De : Google Search Console  Objet : Surveiller le trafic de la recherche Google vers   https://www.tokyo-insights.com/   À : Webmaster de https://www.tokyo-insights.com/,  Les systèmes Google indiquent que, le avr. 12, 2026, nous avons commencé à   recueillir dans la Search Console les impressions de votre site Web dans la   recherche Google. Cela signifie que, pour certaines requêtes, des pages de   votre site Web s'affichent désormais dans nos résultats de recherche.   Décou",
+      "reply_needed": false
+    },
+    {
+      "uid": "508",
+      "from": "Vercel Security <security@vercel.com>",
+      "subject": "Vercel Security Update",
+      "date": "Tue, 21 Apr 2026 04:32:20 +0000",
+      "body_preview": "Vercel We have discovered a security incident that involved unauthorized access to certain internal Vercel systems. We are actively investigating and have engaged incident response experts to help with investigation and remediation.  Initially, we identified a limited subset of customers whose Vercel credentials were compromised. We reached out to that subset and recommended that they rotate their credentials immediately.  At this time, we do not have reason to believe that your Verce",
+      "reply_needed": false
+    },
+    {
+      "uid": "539",
+      "from": "Google Search Console Team <sc-noreply@google.com>",
+      "subject": "De nouvelles raisons empêchent l'indexation des pages sur le site https://www.tokyo-insights.com/\r\n",
+      "date": "Wed, 29 Apr 2026 22:46:18 -0700",
+      "body_preview": "De : Google Search Console  Objet : Nouveau motif empêchant l'indexation de vos pages    La Search Console a constaté que certaines pages de votre site n'étaient   pas indexées au nouveau motif suivant : * Introuvable (404)  S'il ne s'agit pas d'un choix de votre part, nous vous recommandons de   corriger ce problème afin que les pages affectées puissent être indexées et   apparaître sur Google.  **Ouvrir le rapport d'indexation**:   https://c.gle/AOExmq2PD3tQ04TKzEZd",
+      "reply_needed": false
+    },
+    {
+      "uid": "542",
+      "from": "Google Cloud <CloudPlatform-noreply@google.com>",
+      "subject": "[Product Update] Automatic enablement of new OpenTelemetry ingestion\r\n API",
+      "date": "Thu, 30 Apr 2026 05:26:54 -0700",
+      "body_preview": "Hello Tokyo,  We’re writing to let you know that Cloud Observability has launched a new   OpenTelemetry (OTel) ingestion API[1] that supports native OpenTelemetry   Protocol (OTLP) logs, trace spans, and metrics. Starting March 4, 2026,   this API will be added as a dependency for the current Cloud Logging, Cloud   Trace, and Cloud Monitoring ingestion APIs. This change ensures a seamless   transition as collection tools migrate to this new unified endpoint.  What you need to know  Ke",
+      "reply_needed": true
+    },
+    {
+      "uid": "564",
+      "from": "Wise <noreply@wise.com>",
+      "subject": "Your ID document expires soon",
+      "date": "Tue, 5 May 2026 00:30:20 +0000",
+      "body_preview": "<!doctype html> <html lang=\"und\" dir=\"auto\" xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" style=\"font-family: Inter, Averta, Helvetica, Arial; font-weight: 400; color: #454745; font-size: 16px;\">  <head>   <title></title>   <!--[if !mso]><!-->   <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">   <!--<![endif]-->   <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">   <meta name=\"viewpor",
+      "reply_needed": false
+    },
+    {
+      "uid": "621",
+      "from": "Featured <community@featured.com>",
+      "subject": "Welcome to Featured! 🎉",
+      "date": "Mon, 18 May 2026 06:43:45 +0000",
+      "body_preview": "WELCOME TO FEATURED! 🎉  I'm Haley, the Community Manager here at Featured. Welcome aboard! We're thrilled to have you as part of our community.  With your Free Plan, you can submit up to 3 answers per month to questions from 1,000+ publications. Plus, you can track your answers from submission to placement and create an Expert Page to showcase your credibility, past features, and be discoverable for stories.   QUICK TIPS TO GET STARTED  • Create your profile https://featured.com/api/aut",
+      "reply_needed": true
+    },
+    {
+      "uid": "697",
+      "from": "\"Wise (formerly TransferWise)\" <noreply@info.wise.com>",
+      "subject": "Wise just keeps getting smarter",
+      "date": "Sun, 07 Jun 2026 04:03:52 +0000 (UTC)",
+      "body_preview": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\"> <!--        --><html dir=\"ltr\" xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" lang=\"en\">  <head> <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">   <meta charset=\"UTF-8\">   <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">   <meta name=\"x-apple-disable-message-reformatting\">   <meta h",
+      "reply_needed": false
+    },
+    {
+      "uid": "745",
+      "from": "Vercel <notifications@vercel.com>",
+      "subject": "New sign-in detected on your Vercel account",
+      "date": "Fri, 19 Jun 2026 04:51:29 +0000",
+      "body_preview": "Vercel  *******************************************  New sign-in detected on your Vercel account *******************************************  Hello, infotokyoinsights-7772.  Your Vercel account info.tokyoinsights@gmail.com was recently signed-in from a new location, device or browser:  Location: Edogawa City, Tokyo, Japan  Time: Friday, June 19, 2026 at 4:51 AM UTC  Browser: Chrome 149.0.0.0 on Windows 10  Device:  IP: 138.64.114.9  Don't recognize this activity?  Review",
+      "reply_needed": true
+    },
+    {
+      "uid": "747",
+      "from": "Vercel <notifications@vercel.com>",
+      "subject": "Failed production deployment on team 'Tokyo-Insights' projects'",
+      "date": "Fri, 19 Jun 2026 05:06:24 +0000",
+      "body_preview": "Hey infotokyoinsights-7772,  completed an activity. Something happened that you should be aware of. Thanks, The team @    --   If you have questions, reach out to https://vercel.com/help   Manage your notification settings: https://vercel.com/tokyo-insights-projects/~/settings/notifications  Copyright 2026 Vercel Inc. All rights reserved. 440 N Barranca Ave #4133 Covina, CA 91723",
+      "reply_needed": true
+    },
+    {
+      "uid": "748",
+      "from": "Vercel <notifications@vercel.com>",
+      "subject": "Failed production deployments on team 'Tokyo-Insights' projects'",
+      "date": "Fri, 19 Jun 2026 05:15:36 +0000",
+      "body_preview": "Hey infotokyoinsights-7772,  completed an activity. Something happened that you should be aware of. Thanks, The team @    --   If you have questions, reach out to https://vercel.com/help   Manage your notification settings: https://vercel.com/tokyo-insights-projects/~/settings/notifications  Copyright 2026 Vercel Inc. All rights reserved. 440 N Barranca Ave #4133 Covina, CA 91723",
+      "reply_needed": true
+    },
+    {
+      "uid": "749",
+      "from": "Vercel <notifications@vercel.com>",
+      "subject": "Failed production deployments on team 'Tokyo-Insights' projects'",
+      "date": "Fri, 19 Jun 2026 05:21:40 +0000",
+      "body_preview": "Hey infotokyoinsights-7772,  completed an activity. Something happened that you should be aware of. Thanks, The team @    --   If you have questions, reach out to https://vercel.com/help   Manage your notification settings: https://vercel.com/tokyo-insights-projects/~/settings/notifications  Copyright 2026 Vercel Inc. All rights reserved. 440 N Barranca Ave #4133 Covina, CA 91723",
+      "reply_needed": true
+    },
+    {
+      "uid": "750",
+      "from": "Vercel <notifications@vercel.com>",
+      "subject": "Failed production deployments on team 'Tokyo-Insights' projects'",
+      "date": "Fri, 19 Jun 2026 05:56:11 +0000",
+      "body_preview": "Hey infotokyoinsights-7772,  completed an activity. Something happened that you should be aware of. Thanks, The team @    --   If you have questions, reach out to https://vercel.com/help   Manage your notification settings: https://vercel.com/tokyo-insights-projects/~/settings/notifications  Copyright 2026 Vercel Inc. All rights reserved. 440 N Barranca Ave #4133 Covina, CA 91723",
+      "reply_needed": true
+    },
+    {
+      "uid": "751",
+      "from": "Vercel <notifications@vercel.com>",
+      "subject": "Failed production deployments on team 'Tokyo-Insights' projects'",
+      "date": "Fri, 19 Jun 2026 06:00:10 +0000",
+      "body_preview": "Hey infotokyoinsights-7772,  completed an activity. Something happened that you should be aware of. Thanks, The team @    --   If you have questions, reach out to https://vercel.com/help   Manage your notification settings: https://vercel.com/tokyo-insights-projects/~/settings/notifications  Copyright 2026 Vercel Inc. All rights reserved. 440 N Barranca Ave #4133 Covina, CA 91723",
+      "reply_needed": true
+    },
+    {
+      "uid": "752",
+      "from": "Vercel <notifications@vercel.com>",
+      "subject": "Failed production deployments on team 'Tokyo-Insights' projects'",
+      "date": "Fri, 19 Jun 2026 06:03:16 +0000",
+      "body_preview": "Hey infotokyoinsights-7772,  completed an activity. Something happened that you should be aware of. Thanks, The team @    --   If you have questions, reach out to https://vercel.com/help   Manage your notification settings: https://vercel.com/tokyo-insights-projects/~/settings/notifications  Copyright 2026 Vercel Inc. All rights reserved. 440 N Barranca Ave #4133 Covina, CA 91723",
+      "reply_needed": true
+    },
+    {
+      "uid": "753",
+      "from": "Formspree <accounts@formspree.io>",
+      "subject": "Email verification for your Formspree account",
+      "date": "Fri, 19 Jun 2026 06:06:39 +0000 (UTC)",
+      "body_preview": "You have successfully added info.tokyoinsights@gmail.com as a valid recipient to your Formspree account. Each email address added to Formspree must be verified before it can receive submissions.  Please click the following link to add info.tokyoinsights@gmail.com: Link: https://formspree.io/account/verify?nonce=89201fe3-5e9b-4857-9f1b-8be0b5b76c78  We hope you enjoy using Formspree with your new verified recipient email address. If you have any questions, feel free to shoot an email to team",
+      "reply_needed": true
+    },
+    {
+      "uid": "754",
+      "from": "Formspree <noreply@formspree.io>",
+      "subject": "New submission from tokyo-expat-contact",
+      "date": "Fri, 19 Jun 2026 06:14:34 +0000 (UTC)",
+      "body_preview": "Hey there,  Someone just submitted your form on www.tokyo-expat.com/. Here's what they had to say:   name: Test   email: ale.pbkk@gmail.com   message: TEST   locale: fr    Submitted 06:14 AM - 19 June 2026 ---  You are receiving this because you confirmed this email address on <a href=\"https://formspree.io\">Formspree</a>. If you don't remember doing that, or no longer wish to receive these emails, please remove the form on www.tokyo-expat.com/ or visit //formspree.io/uns",
+      "reply_needed": false
+    },
+    {
+      "uid": "755",
+      "from": "Google Search Console Team <sc-noreply@google.com>",
+      "subject": "Améliorer la présence sur Google de tokyo-expat.com",
+      "date": "Thu, 18 Jun 2026 23:28:28 -0700",
+      "body_preview": "Améliorer la présence sur Google de tokyo-expat.com   À l'attention du Webmaster de tokyo-expat.com :   Les systèmes Google indiquent que vous avez récemment validé cette   Propriété de domaine dans la Search Console. Nous avons quelques conseils   pour vous aider à tirer le maximum de ce service gratuit et optimiser les   performances de votre site dans la recherche Google.   Premiers pas    1  Premiers pas avec la Search Console  Apprenez à utiliser la Search Console, selon",
+      "reply_needed": false
+    },
+    {
+      "uid": "756",
+      "from": "\"Contact CM Team\" <contact.cmteam@expat.com>",
+      "subject": "Welcome to Expat.com",
+      "date": "Fri, 19 Jun 2026 07:55:30 +0000",
+      "body_preview": "Welcome to Expat.com Tokyo Expat - Discover the Japan expat community   Dear Tokyo Expat,   Welcome to expat.com! We're excited to have you as a part of our community. Living abroad can be challenging, but we're here to make your experience as smooth as possible.  As an expat, you have chosen to embark on an exciting adventure, and our platform is designed to provide you with all the resources you need to make your move successful. Our website offers a wealth of information on visa requi",
+      "reply_needed": true
+    },
+    {
+      "uid": "763",
+      "from": "Google Search Console Team <sc-noreply@google.com>",
+      "subject": "tokyo-expat.com est désormais associé à la propriété Google Analytics tokyo-expat.com",
+      "date": "Sat, 20 Jun 2026 00:12:58 -0700",
+      "body_preview": "tokyo-expat.com est désormais associé à la propriété Google Analytics   tokyo-expat.com   Une association a été créée entre votre propriété Search Console et une   propriété Google Analytics :   Propriété Search Console : tokyo-expat.com    Propriété Google Analytics : tokyo-expat.com   Cette association vous permet d'afficher les données de la Search Console   dans Google Analytics.   Actions suggérées :    Vérifiez que votre association est correcte  Vous pouvez examin",
+      "reply_needed": false
+    },
+    {
+      "uid": "767",
+      "from": "GitHub <support@github.com>",
+      "subject": "[Tokyo-Insights/tokyo-expat] Possible valid secrets detected",
+      "date": "Sat, 20 Jun 2026 04:05:14 -0700",
+      "body_preview": "Action needed: Secrets detected in Tokyo-Insights/tokyo-expat:  Please resolve these alerts Anyone with read access can view exposed secrets. Consider rotating and revoking each valid secret to avoid any irreversible damage.    Telegram Bot Token   Secret detected in scripts/weekly_report.py#L31 • commit 9d5c3dea   Review at https://github.com/Tokyo-Insights/tokyo-expat/security/secret-scanning/1    You are receiving this email because GitHub scanned for exposed tokens or private key",
+      "reply_needed": false
+    },
+    {
+      "uid": "769",
+      "from": "GitGuardian <security@getgitguardian.com>",
+      "subject": "[Tokyo-Insights/tokyo-expat] Telegram Bot Token exposed on GitHub",
+      "date": "Sat, 20 Jun 2026 11:10:55 +0000",
+      "body_preview": "<!DOCTYPE html     PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\"> <html xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; box-sizing: border-box; margin: 0\">  <head>     <meta name=\"viewport\" content=\"width=device-width\">     <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">     <title>[Tokyo-Insights/tokyo-expat] Telegram Bot Token exposed on GitHub</title>",
+      "reply_needed": false
+    },
+    {
+      "uid": "781",
+      "from": "L'équipe Google Workspace <workspace-noreply@google.com>",
+      "subject": "Vous avez désormais accès à des fonctionnalités d'IA exclusives",
+      "date": "Sun, 21 Jun 2026 16:24:08 -0700",
+      "body_preview": "Google   Workspace<https://c.gle/AOPyDKRHikU6YkoaSGvCWNTBHUP_4MLfTODfhLx2hVms6trmN3h7ILf1sj3kun1cAxh0qn0mNh0Ettz3NX4c07H_COHyFwXdxZ_ygICwAwMZ_b3dn_uS0UpIJkRMxKbUzgdzztlhu2NtwyBZZwMYsD3LbLV68SmykEaf_rjLOagzn-j7LgXE-NPYP6E5hSApc3D2_oDEvuQ59GZ6IIRLyRg0xn2JfKUQRtwkDdlxxt2_N0H-BVYBrZODt-OQ3y2-YQFqxNYFptA7eY-1VbJLZTDFyuTaqVySnlB7Nw7pDEfp0jyV24nE7mcg-t0M-0CN-DXs-rt7oF28wQ>  Vous avez été sélectionné pour essayer de nouvelles fonctionnalités d'IA  Un essai des fonctionnalités d'IA dans Google Sheet",
+      "reply_needed": false
+    },
+    {
+      "uid": "783",
+      "from": "Vercel <notifications@vercel.com>",
+      "subject": "Failed production deployments on team 'Tokyo-Insights' projects'",
+      "date": "Mon, 22 Jun 2026 04:00:15 +0000",
+      "body_preview": "Hey infotokyoinsights-7772,  completed an activity. Something happened that you should be aware of. Thanks, The team @    --   If you have questions, reach out to https://vercel.com/help   Manage your notification settings: https://vercel.com/tokyo-insights-projects/~/settings/notifications  Copyright 2026 Vercel Inc. All rights reserved. 440 N Barranca Ave #4133 Covina, CA 91723",
+      "reply_needed": true
+    },
+    {
+      "uid": "784",
+      "from": "\"Expat.com\" <noreply@expat.com>",
+      "subject": "Your Expat.com registration is confirmed",
+      "date": "Mon, 22 Jun 2026 05:23:12 +0000",
+      "body_preview": "Your business has been listed on Expat.com                                         Tokyo Expat                  Dedicated property hunter for expats in Tokyo. Share houses, furnished apartments, family homes. No Japanese guarantor required. Remote applications...                  https://et2.expat.com/f/a/x8iei3Wnht0fmlurr6a7ZA~~/AAGzbhA~/yr-wf8PDkZhB0rKmMxAJSUPAUwq35tSJlaIUnmL5hpM-S7vdl-Cc-4KUNUYqNHRexN_F_1mEYmNbOProdJXvuvSva8Mcgx3HbBObcTNz7UeKBfb2NIpesVZeWMbs3VtDJsPBiCOGB6SLu1mQq0_9xRUjTF",
+      "reply_needed": false
+    },
+    {
+      "uid": "786",
+      "from": "The Buffer Team <hello@youraccount.buffer.com>",
+      "subject": "Confirm your email address",
+      "date": "Mon, 22 Jun 2026 10:59:34 +0000",
+      "body_preview": "Add extra security to your account and gain access to all the features available on your plan.    Buffer ( https://account.buffer.com/channels?utm_campaign=Free_Onboarding_Q4-24_Experiment&utm_content=Day1_Channel_connection&utm_medium=email_action&utm_source=customer.io&utm_campaign=Verification_Email&utm_content=Email+Verification+%28SH+-+06%2F23%29&utm_medium=email_action&utm_source=customer.io )     Welcome!     You’re receiving this message because you recently signed up for a Buf",
+      "reply_needed": false
+    },
+    {
+      "uid": "787",
+      "from": "Joel from Buffer <onboarding@buffermail.com>",
+      "subject": "Welcome to Buffer 👋",
+      "date": "Mon, 22 Jun 2026 11:02:33 +0000",
+      "body_preview": "Connect a channel to get started.    Buffer ( https://account.buffer.com/channels?utm_campaign=Free_Onboarding_Q4-24_Experiment&utm_content=Day1_Channel_connection&utm_medium=email_action&utm_source=customer.io&utm_campaign=Onboarding_Free_Account_Created&utm_content=Onboarding_Account_Creation_D1_Connect&utm_medium=email_action&utm_source=customer.io )  We’re so glad you’re here!  Over 200,000 people use Buffer every month to build their brand and business. Welcome to the community!   C",
+      "reply_needed": false
+    },
+    {
+      "uid": "791",
+      "from": "Google <google-noreply@google.com>",
+      "subject": "Nouveaux paramètres de confidentialité pour les services de recherche et Google Play",
+      "date": "Mon, 22 Jun 2026 13:51:33 -0700",
+      "body_preview": "Logo Google    info.tokyoinsights@gmail.com    Bonjour Tokyo,  Nous mettons à jour nos paramètres pour vous offrir encore plus de contrôle   sur l'historique enregistré et les recommandations personnalisées dans les   services de recherche Google et Google Play. Les services de recherche   incluent la Recherche, Maps, Shopping, Hôtels, Vols, Traduction et   Google Actualités Ce changement sera visible sur votre compte Google dans   les prochains jours.  Ce qui change  Auparavant",
+      "reply_needed": false
+    },
+    {
+      "uid": "794",
+      "from": "<postmaster-bounced@crownww.com>",
+      "subject": "Undeliverable: Referral idea: Crown Relocations Japan + Tokyo Expat",
+      "date": "Tue, 23 Jun 2026 01:38:05 +0000",
+      "body_preview": "[https://products.office.com/en-us/CMSImages/Office365Logo_Orange.png?version=b8d100a9-0a8b-8e6a-88e1-ef488fee0470] Your message to contact-tokyo@crownrelo.com couldn't be delivered. contact-tokyo wasn't found at crownrelo.com. info.tokyoinsights      Office 365      contact-tokyo Action Required                 Recipient Unknown To address  How to Fix It The address may be misspelled or may not exist. Try one or more of the following:    *   Send the message again following these step",
+      "reply_needed": false
+    },
+    {
+      "uid": "798",
+      "from": "\"Brevo\" <contact@t.brevo.com>",
+      "subject": "Votre compte a été validé",
+      "date": "Tue, 23 Jun 2026 05:20:31 +0000",
+      "body_preview": "[Logo](https://fr.sendinblue.com/) Votre compte est validé  Bonjour Tokyo,  Votre compte est désormais validé, vous pouvez commencer à utiliser Brevo. Ces prochains jours, nous vous enverrons des conseils, webinaires et outils pour vous aider à débuter.  [Créer ma première campagne](https://my.sendinblue.com/camp/listing#draft_c)  Les imports volumineux peuvent être examinés par notre équipe avant votre premier envoi. Des questions ? Répondez à cet email — nous sommes là pour vous aide",
+      "reply_needed": true
+    },
+    {
+      "uid": "799",
+      "from": "\"Brevo\" <account-alerts@t.brevo.com>",
+      "subject": "[Brevo] A new API key has been created in your account",
+      "date": "Tue, 23 Jun 2026 05:23:36 +0000",
+      "body_preview": "[View in browser](https://beeag.r.tsp1-brevo.net/tr/mr/TFPvyqMgkm4PkckOKHHQ6jKmjuOvJaXcFLjjGRztCssNISguFG7yCnCwhKx9LE3Sx3orDOl1muRwG2nKFygIOB8NCIL7gZuG22peESeiMC00RYIMIKAbf5DvHuvU9AOpHrpHv3PtqTDU5Fc5ckTp2nYLTSxU68TZaBExwDH2zchp_xGKPijXF-VKMpTbFeVD9itmbB3qHOlDAxHF6qzzKugX9XX3EgE2_InwmAmTcZxIxHM1Lsmeiw)  **New API key has been created in your account** ================================================   Hi Tokyo Expat,  We have noticed that a new API key **Tokyo-Expat **has been created in",
+      "reply_needed": false
+    },
+    {
+      "uid": "801",
+      "from": "\"Brevo\" <welcome@t.brevo.com>",
+      "subject": "Étape 1 : atteindre la boîte de réception de vos contacts 📩",
+      "date": "Tue, 23 Jun 2026 06:15:01 +0000",
+      "body_preview": "**Tokyo, faisons en sorte que vos emails arrivent bien en boîte de réception — pas dans les spams.** ---------------------------------------------------------------------------------------------------------------------------------------------   La première étape, c’est de configurer vos informations d’expéditeur en authentifiant votre domaine. C’est une configuration simple et rapide qui améliore la délivrabilité de vos campagnes et limite le risque qu’elles finissent en spam.    **Pas pl",
+      "reply_needed": false
+    },
+    {
+      "uid": "802",
+      "from": "\"Contact CM Team\" <contact.cmteam@expat.com>",
+      "subject": "Meet the expats in Japan",
+      "date": "Tue, 23 Jun 2026 07:06:03 +0000",
+      "body_preview": "Dear Tokyo Expat,  Meet the expats in Japan  Meet the other French expats through the network: contact them, share your experience of living in Japan and make new acquaintances.  Meet the other expats: https://et2.expat.com/f/a/-znOY8WoXRqQH4zXmlWDDA~~/AAGzbhA~/wi0ADR0MlggGr-GRUYsriIx9FH4Zwm2QfeBCgsio6X1uOo3nhFFlIYtmU8QElED4s50fn9u4bwX_qN-lAcK44ab2UeUN2t51mu7rIvHXfQzT34bySO31VKMWFxFes_IndD_FGu-lrfXEkmY0mGi-SA~~  Have a nice day!  The Expat.com team    Unsubscribe here (https://et2.",
+      "reply_needed": true
+    },
+    {
+      "uid": "813",
+      "from": "Microsoft Clarity <maccount@microsoft.com>",
+      "subject": "Welcome to Clarity! You have new recordings.",
+      "date": "Wed, 24 Jun 2026 13:03:44 +0000",
+      "body_preview": "<!DOCTYPE html> <html lang=\"en\"> <head> <meta name=\"color-scheme\" content=\"light dark\"> <meta name=\"supported-color-schemes\" content=\"light dark\"> <style> v\\: * { behavior: url(#default#VML); display: inline-block; } </style> <style type=\"text/css\"> html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol,",
+      "reply_needed": false
+    },
+    {
+      "uid": "822",
+      "from": "Wise <noreply@wise.com>",
+      "subject": "Your email address is already in use",
+      "date": "Thu, 25 Jun 2026 04:21:55 +0000",
+      "body_preview": "<!doctype html> <html lang=\"und\" dir=\"auto\" xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" style=\"font-family: Inter, Averta, Helvetica, Arial; font-weight: 400; color: #454745; font-size: 16px;\">  <head>   <title></title>   <!--[if !mso]><!-->   <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">   <!--<![endif]-->   <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">   <meta name=\"viewpor",
+      "reply_needed": false
+    },
+    {
+      "uid": "823",
+      "from": "SafetyWing <info@safetywing.com>",
+      "subject": "Welcome to the SafetyWing Ambassador program!",
+      "date": "Thu, 25 Jun 2026 04:47:26 +0000 (UTC)",
+      "body_preview": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"https://url7029.safetywing.com/ls/click?upn=u001.9iWzY5AXApc2qIJ9PeP-2FGEztSrWXOx5p8rQbG-2BQNpo6FCuFYl29iBQUztD8ducNzdlmjBvEmR2SUuryXO-2BKr6khMrsHONT46xftGfccrbWM-3DQAdK_JM5WDRiBOlOupvEGalGpsaUQxyEL3Hhw6yxAfbr8GjKkCZREqVu9h0If8j9rJs6epKMN29tSK0iZhop2uV49iSIqhmC4evc-2BacGe0CO-2Ft1Xo-2FoXYVc8B2FYDorKYRGxRgEV2y0rup5n1QHbzN8D-2B0hdnXaTptra2C1MVDf6KUDFlnm4llkakleTilTedTjYwxyEi3N0vuQQ5wIH5Sva7CS009brAHSUxfFrLgGv-2Bs66moIdMd06szEU3s2lo1ofU",
+      "reply_needed": false
+    },
+    {
+      "uid": "824",
+      "from": "Nomad Insurance <hello@safetywing.com>",
+      "subject": "Ambassador flight report: prepare for takeoff!",
+      "date": "Thu, 25 Jun 2026 00:52:48 -0400",
+      "body_preview": "Ambassador-_Flight-report-desktop (https://d2MBn804.eu1.hubspotlinks.com/Ctc/2O+113/d2MBn804/VVsnjJ23DdvgW12t5Sm75cwDJW2K0rfL5QJHpsN1MKFZ-5n4LbW69t95C6lZ3mHW7FWx993jyCz8W7V6zzX6cTbhPW7kkDgg5smsz1W7XHktx2W_bgrVyfW7S1Kl92-W7BPKZd6k6V-pW5yp2C33xNDShMLNnDNf3VztW6Rm6wr1TpkSXN7-8_73XSDySW6W4CG62CmTX3W23rlWJ5Cv837W6BMdgK6V2BNvW7jwnbT95DmgSW8hG0Qs6Rl_cGW5cJpBs5x7MpzW3lFRx_2X1NyyW2X1k9N2-nypnW5gVjfH6m4HTHW4SJSVS7MnBCsW5-kD8954X-WXW6zn7Wv22Y0D0W3nVD9C9cT4WnW2-zZcv59LfDgW6H10Qv1rCKnwN4G0Hqt8kvcHW2d1d_52B-m",
+      "reply_needed": false
+    },
+    {
+      "uid": "827",
+      "from": "italki <hello@e.italki.com>",
+      "subject": "Your first lesson is not a commitment to continue",
+      "date": "Thu, 25 Jun 2026 05:31:31 +0000 (UTC)",
+      "body_preview": "Check the teacher and price before choosing a 30-minute trial lesson.  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏ ­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­‌  [italki](https://e.italki.com/z/ra22d9680uhi04?uid=6b9e8e6a-a351-434a-b3b3-39a8a5d9f6",
+      "reply_needed": false
+    },
+    {
+      "uid": "828",
+      "from": "Sakura Mobile Affiliate program <partnerships@sakuramobile.jp>",
+      "subject": "Thank You for Applying for the Sakura Mobile Affiliate Program!",
+      "date": "Thu, 25 Jun 2026 05:36:29 +0000 (UTC)",
+      "body_preview": "Dear tokyoexpat,<br /> <br /> Thank you for your interest in the Sakura Mobile affiliate program.  <br /> Once we have approved your application, you can login the dashboard, and check your sales and traffic stats, and much more. <br /> Also, we will send your special affiliate links to you.<br /> Usually, it takes 4 - 5 days to complete the screening process, so please wait for our follow-up e-mail.<br /><br />Thank you for your support. <br /> <br /> Sakura Mobile team",
+      "reply_needed": true
+    },
+    {
+      "uid": "829",
+      "from": "GetYourGuide <do-not-reply@notification.getyourguide.com>",
+      "subject": "Activez votre compte du programme de partenariat GetYourGuide",
+      "date": "Thu, 25 Jun 2026 05:58:41 +0000 (UTC)",
+      "body_preview": "<!DOCTYPE html><html dir=\"ltr\" lang=\"fr\" xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:o=\"urn:schemas-microsoft-com:office:office\"><head>   <title>    </title>   <!--[if !mso]>     <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">     <![endif]-->   <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">   <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">   <style type=\"text/css\" data-embed=\"\">    #outlook a {",
+      "reply_needed": false
+    },
+    {
+      "uid": "830",
+      "from": "\"Brevo\" <welcome@t.brevo.com>",
+      "subject": "Créez votre premier email en quelques clics avec votre assistant IA",
+      "date": "Thu, 25 Jun 2026 06:15:08 +0000",
+      "body_preview": "Bonjour Tokyo,   Il est temps de créer votre premier email, et nous sommes là pour vous aider.   Rédigez des lignes d'objet captivantes, du contenu d'email et plus encore — en quelques clics. Il vous suffit de rédiger un court brief, et **laissez Aura, votre agent IA, s’occuper du reste.**   [ Créer un email](https://app.brevo.com/marketing-campaign/campaign-setup?source=outbound-modal \"Créer un email\") -----------------------------------------------------------------------------------",
+      "reply_needed": false
+    },
+    {
+      "uid": "831",
+      "from": "GetYourGuide <do-not-reply@notification.getyourguide.com>",
+      "subject": "Payment details changed",
+      "date": "Thu, 25 Jun 2026 06:18:58 +0000 (UTC)",
+      "body_preview": "<!DOCTYPE html><html dir=\"ltr\" lang=\"fr\" xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:o=\"urn:schemas-microsoft-com:office:office\"><head>   <title>    </title>   <!--[if !mso]>     <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">     <![endif]-->   <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">   <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">   <style type=\"text/css\" data-embed=\"\">    #outlook a {",
+      "reply_needed": false
+    },
+    {
+      "uid": "839",
+      "from": "Google Business Profile <businessprofile-noreply@google.com>",
+      "subject": "Votre fiche n'indique pas vos horaires d'ouverture",
+      "date": "Thu, 25 Jun 2026 10:37:19 -0700",
+      "body_preview": "Ajoutez vos horaires d'ouverture à votre fiche  Entrez en contact avec plus de clients en affichant vos horaires   d'ouverture dans la recherche Google et sur Maps. Ajoutez-les à votre   profil dès aujourd'hui.  Ajouter vos horaires   <<https://c.gle/AOPyDKSrrpyW0w9SnvHRqcoPwMz5Mb3DRH4MesiCiFGW3ZxEQPJbhGljI6jyKnZEK7EVGbPWgfPgxHwW72P_QCWabj9lADatzMiHl5Sw0qKrXqNWj5oMoAR0gs63rET9ZcWIFDuKJeKRy-oOjLDw-jVqZVgUdww3_gUpPTrzeZtiEJmszlYSGjDooCX2QG48sP203XLVxzzbmqNwu68>>    Besoin d'aide ? Po",
+      "reply_needed": false
+    },
+    {
+      "uid": "847",
+      "from": "Sakura Mobile Affiliate program <partnerships@sakuramobile.jp>",
+      "subject": "Affiliate Account Approval - Sakura Mobile Affiliate Program",
+      "date": "Fri, 26 Jun 2026 01:17:57 +0000 (UTC)",
+      "body_preview": "Dear tokyoexpat,<br /> <br /> We have approved your application!  You can now login the dashboard and check stats, etc.<br /> <br /> Dashboard Login: https://p.sakuramobile.jp/login.php<br /> - Username: tokyoexpat<br /> - Password: the one you have set<br /> <br /> You can download the banners to put on your website from the dashboard.<br /> (Where?): Dashboard Login => Marketing Materials (top left of the page) => Banners<br /> <br /> We will send another e-mail about your affiliate",
+      "reply_needed": true
+    },
+    {
+      "uid": "848",
+      "from": "Partnerships <partnerships@sakuramobile.jp>",
+      "subject": "Your Affiliate Link! (Sakura Mobile)",
+      "date": "Fri, 26 Jun 2026 10:20:06 +0900",
+      "body_preview": "Dear tokyoexpat,  Greetings from Sakura Mobile. Thank you for applying for our Affiliate Program. Your application has been approved!  Here is your affiliate link. Please attach this URL to your website. https://www.sakuramobile.jp/tokyoexpat-top  Dashboard Login: https://p.sakuramobile.jp/login.php - Username: tokyoexpat - Password: -the one you have set-  We have also attached our *Affiliate Kit* below. We hope you can use it as a reference for sharing information about our produ",
+      "reply_needed": true
+    },
+    {
+      "uid": "849",
+      "from": "Revolut <notifications@app.impact.com>",
+      "subject": "Contract Application",
+      "date": "Fri, 26 Jun 2026 01:36:25 +0000 (UTC)",
+      "body_preview": "You are receiving this Revolut Alert in reference to your account, Tokyo Expat (7438031). Contract Application  Your request to promote the Revolut Business program has been sent to Revolut.       View Pending Contracts - http://em.impact.com/ls/click?upn=u001.iUNywRU2PIdBuqR2OhDBvN7WVr0n6W19swz6fURphLRaIbfwS7bu83kJxQimgGTpDmGshEQJUKVdEvy6yKwhefhd-2B8HeSjrGGKK7ENJgCN1uRlRLk7Kvxpw9PqVgCtySGsUT31tzC2-2Fk9goTJkHVgiz36ezOEE9dz-2BjhVGn6fCmV1kG-2BerKQOFjmcEHXiejfhwNZOYAaB7PYug3Sihe79gMKrmzCA1Rgl",
+      "reply_needed": false
+    }
+  ],
+  "review": [
+    {
+      "uid": "27",
+      "from": "Stripe <notifications@stripe.com>",
+      "subject": "Configurez votre compte Stripe",
+      "date": "Sun, 28 Sep 2025 15:11:04 +0000"
+    },
+    {
+      "uid": "35",
+      "from": "＜PayPay銀行＞ <customer1@cc.paypay-bank.co.jp>",
+      "subject": "口座開設申込お手続きのご案内",
+      "date": "Tue, 30 Sep 2025 14:08:49 +0900 (JST)"
+    },
+    {
+      "uid": "56",
+      "from": "SMBC Trust Bank <accountopen-en@smbctb.co.jp>",
+      "subject": "Registeration Complete",
+      "date": "Tue, 7 Oct 2025 04:59:57 +0000 (GMT)"
+    },
+    {
+      "uid": "57",
+      "from": "SMBC Trust Bank <accountopen-en@smbctb.co.jp>",
+      "subject": "Your Application Has Been Submitted",
+      "date": "Tue, 7 Oct 2025 05:16:44 +0000 (GMT)"
+    },
+    {
+      "uid": "82",
+      "from": "TikTok <noreply@account.tiktok.com>",
+      "subject": "703987 est ton code de  vérification",
+      "date": "Tue, 04 Nov 2025 23:40:34 +0000 (UTC)"
+    },
+    {
+      "uid": "252",
+      "from": "Manus Team <info@admin.manus.im>",
+      "subject": "You've completed your first task with Manus!",
+      "date": "Fri, 06 Feb 2026 17:00:05 +0000"
+    },
+    {
+      "uid": "293",
+      "from": "\"Anthropic, PBC\" <invoice+statements@mail.anthropic.com>",
+      "subject": "Your receipt from Anthropic, PBC #2942-8597-3620",
+      "date": "Sun, 1 Mar 2026 12:45:37 +0000"
+    },
+    {
+      "uid": "294",
+      "from": "\"Anthropic, PBC\" <invoice+statements@mail.anthropic.com>",
+      "subject": "Your receipt from Anthropic, PBC #2035-3284-4651",
+      "date": "Sun, 1 Mar 2026 12:49:06 +0000"
+    },
+    {
+      "uid": "296",
+      "from": "Resend <team@notifications.resend.com>",
+      "subject": "Your export is ready",
+      "date": "Sun, 1 Mar 2026 13:34:08 +0000"
+    },
+    {
+      "uid": "414",
+      "from": "Stripe <notifications@stripe.com>",
+      "subject": "La connexion via Google est désormais disponible pour votre compte Stripe",
+      "date": "Fri, 27 Mar 2026 12:28:14 +0000"
+    },
+    {
+      "uid": "526",
+      "from": "Calendly <notifications@calendly.com>",
+      "subject": "New Event: Berthold Trenkel - 09:00 Fri, 1 May 2026 - Free Discovery\r\n Call",
+      "date": "Sat, 25 Apr 2026 08:30:22 +0000 (UTC)"
+    },
+    {
+      "uid": "541",
+      "from": "Berthold Trenkel <berthold@trenkel.com>",
+      "subject": "Re: Friday Meeting: a few thoughts before our call",
+      "date": "Thu, 30 Apr 2026 15:19:37 +0300"
+    },
+    {
+      "uid": "543",
+      "from": "Berthold Trenkel <berthold@trenkel.com>",
+      "subject": "Re: Friday Meeting: a few thoughts before our call",
+      "date": "Thu, 30 Apr 2026 15:42:55 +0300"
+    },
+    {
+      "uid": "548",
+      "from": "\"Grammarly\" <hello@mail.grammarly.com>",
+      "subject": "Action required: Finish setting up your account",
+      "date": "Fri, 01 May 2026 07:14:56 +0000"
+    },
+    {
+      "uid": "587",
+      "from": "Berthold Trenkel <berthold@trenkel.com>",
+      "subject": "Re: Friday Meeting: a few thoughts before our call",
+      "date": "Sat, 9 May 2026 12:15:44 +0300"
+    },
+    {
+      "uid": "619",
+      "from": "Featured <support@featured.com>",
+      "subject": "Verify Your Email on Featured",
+      "date": "Mon, 18 May 2026 06:13:17 +0000"
+    },
+    {
+      "uid": "651",
+      "from": "\"Featured.com\" <community@featured.com>",
+      "subject": "Introducing Connectively — the new home for your account",
+      "date": "Tue, 26 May 2026 17:28:26 +0000"
+    },
+    {
+      "uid": "659",
+      "from": "Connectively <noreply@connectively.us>",
+      "subject": "Connectively Alerts for May 27th, 2026",
+      "date": "Wed, 27 May 2026 17:28:44 +0000"
+    },
+    {
+      "uid": "706",
+      "from": "Tokyo Insights <noreply@tokyo-insights.com>",
+      "subject": "Discovery Call Request: Usman khan — I am still researching and exploring",
+      "date": "Tue, 9 Jun 2026 12:31:50 +0000"
+    },
+    {
+      "uid": "707",
+      "from": "Connectively <noreply@connectively.us>",
+      "subject": "Connectively Alerts for Jun 9th, 2026",
+      "date": "Tue, 9 Jun 2026 17:31:40 +0000"
+    },
+    {
+      "uid": "712",
+      "from": "Usman Khan <khanu5992@gmail.com>",
+      "subject": "Re: Discovery Call Request: Usman khan — I am still researching and exploring",
+      "date": "Wed, 10 Jun 2026 16:14:05 +0400"
+    },
+    {
+      "uid": "717",
+      "from": "Calendly <notifications@calendly.com>",
+      "subject": "New Event: Usman Khan - 07:00 Thu, 11 Jun 2026 - Free Discovery Call",
+      "date": "Thu, 11 Jun 2026 04:59:19 +0000 (UTC)"
+    },
+    {
+      "uid": "735",
+      "from": "Connectively <community@connectively.us>",
+      "subject": "Your insights are now live on Assets Property Hub",
+      "date": "Tue, 16 Jun 2026 13:34:23 +0000"
+    },
+    {
+      "uid": "757",
+      "from": "\"Expat.com\" <notification@expat.com>",
+      "subject": "Email Validation",
+      "date": "Fri, 19 Jun 2026 08:09:02 +0000"
+    },
+    {
+      "uid": "774",
+      "from": "\"Expat.com\" <notification@expat.com>",
+      "subject": "New password requested",
+      "date": "Sat, 20 Jun 2026 23:39:00 +0000"
+    },
+    {
+      "uid": "789",
+      "from": "The Buffer Team <hello@youraccount.buffer.com>",
+      "subject": "New API key created on Buffer",
+      "date": "Mon, 22 Jun 2026 12:38:40 +0000"
+    },
+    {
+      "uid": "805",
+      "from": "Giovanni from Hunter <contact@mail.hunter.io>",
+      "subject": "How to turn your email addresses into leads in Hunter",
+      "date": "Tue, 23 Jun 2026 17:30:42 +0000"
+    },
+    {
+      "uid": "818",
+      "from": "The Buffer Team <hello@buffermail.com>",
+      "subject": "📊 Your daily recap: See how today's posts performed",
+      "date": "Thu, 25 Jun 2026 02:06:52 +0000"
+    },
+    {
+      "uid": "820",
+      "from": "Qwoted Support <support@qwoted.com>",
+      "subject": "Help us quickly verify your Qwoted account",
+      "date": "Wed, 24 Jun 2026 21:53:56 -0500"
+    },
+    {
+      "uid": "825",
+      "from": "Qwoted <notifications@qwoted.com>",
+      "subject": "History.com, Reuters, The Wall Street Journal  —  new requests",
+      "date": "Thu, 25 Jun 2026 05:00:19 +0000 (UTC)"
+    },
+    {
+      "uid": "826",
+      "from": "Giovanni from Hunter <contact@mail.hunter.io>",
+      "subject": "You've made it to 48 hours",
+      "date": "Thu, 25 Jun 2026 05:30:46 +0000"
+    },
+    {
+      "uid": "835",
+      "from": "Qwoted <notifications@qwoted.com>",
+      "subject": "Forbes Advisor: Real Estate Economics Researcher",
+      "date": "Thu, 25 Jun 2026 14:39:18 +0000 (UTC)"
+    },
+    {
+      "uid": "836",
+      "from": "Connectively <community@connectively.us>",
+      "subject": "Reaching Out About Connectively Profile Concern",
+      "date": "Thu, 25 Jun 2026 15:42:46 +0000"
+    },
+    {
+      "uid": "837",
+      "from": "Connectively <community@connectively.us>",
+      "subject": "❗Account Hold Notice",
+      "date": "Thu, 25 Jun 2026 15:42:47 +0000"
+    },
+    {
+      "uid": "838",
+      "from": "Connectively <community@connectively.us>",
+      "subject": "Reaching Out About Connectively Profile Concern",
+      "date": "Thu, 25 Jun 2026 15:42:47 +0000"
+    },
+    {
+      "uid": "845",
+      "from": "Qwoted <notifications@qwoted.com>",
+      "subject": "Yahoo Finance: FINANCE/LENDERS: Best Investment Property Loans To\r\n Make You Money When Buying Real Estate",
+      "date": "Thu, 25 Jun 2026 23:41:41 +0000 (UTC)"
+    }
+  ],
+  "deleted_count": 73,
+  "deleted_list": [
+    {
+      "from": "GoDaddy <donotreply@godaddy.com>",
+      "subject": "Verify your email.",
+      "date": "Thu, 25 Sep 2025 13:11:47 +0000"
+    },
+    {
+      "from": "Google <no-reply@google.com>",
+      "subject": "Tokyo, finissez de configurer votre nouveau compte Google sur votre\r\n iPhone",
+      "date": "Thu, 25 Sep 2025 06:11:50 -0700"
+    },
+    {
+      "from": "GoDaddy <donotreply@godaddy.com>",
+      "subject": "Account Alert: Your settings were updated.",
+      "date": "Thu, 25 Sep 2025 13:17:10 +0000"
+    },
+    {
+      "from": "GoDaddy <donotreply@godaddy.com>",
+      "subject": "Alessandro Guarneri, your order confirmation is inside.",
+      "date": "Thu, 25 Sep 2025 13:16:59 +0000"
+    },
+    {
+      "from": "Substack <no-reply@substack.com>",
+      "subject": "446376 is your Substack verification code",
+      "date": "Fri, 26 Sep 2025 12:50:34 +0000"
+    },
+    {
+      "from": "Substack <no-reply@substack.com>",
+      "subject": "273586 is your Substack verification code",
+      "date": "Fri, 26 Sep 2025 12:51:57 +0000"
+    },
+    {
+      "from": "Substack <no-reply@substack.com>",
+      "subject": "Download the Substack app",
+      "date": "Fri, 26 Sep 2025 12:55:04 +0000"
+    },
+    {
+      "from": "Substack <no-reply@substack.com>",
+      "subject": "868587 is your Substack verification code",
+      "date": "Fri, 26 Sep 2025 12:58:06 +0000"
+    },
+    {
+      "from": "GoDaddy <donotreply@godaddy.com>",
+      "subject": "Here's your one-time sign-in code.",
+      "date": "Fri, 26 Sep 2025 14:07:21 +0000"
+    },
+    {
+      "from": "Substack <no-reply@substack.com>",
+      "subject": "Your first import for Tokyo-Insights was successful!",
+      "date": "Fri, 26 Sep 2025 14:20:01 +0000"
+    },
+    {
+      "from": "\"GoDaddy\" <donotreply@e.godaddy.com>",
+      "subject": "Your recent purchase is waiting for you.",
+      "date": "Fri, 26 Sep 2025 11:18:23 -0600"
+    },
+    {
+      "from": "\"GoDaddy\" <donotreply@e.godaddy.com>",
+      "subject": "Let's put your new domain to work, Alessandro.",
+      "date": "Fri, 26 Sep 2025 12:50:22 -0600"
+    },
+    {
+      "from": "GoDaddy <donotreply@godaddy.com>",
+      "subject": "Here's your one-time sign-in code.",
+      "date": "Sat, 27 Sep 2025 00:17:43 +0000"
+    },
+    {
+      "from": "GoDaddy <donotreply@godaddy.com>",
+      "subject": "Here's your one-time sign-in code.",
+      "date": "Sat, 27 Sep 2025 05:38:08 +0000"
+    },
+    {
+      "from": "Substack <no-reply@substack.com>",
+      "subject": "People you know are on Substack",
+      "date": "Sat, 27 Sep 2025 13:09:19 +0000"
+    },
+    {
+      "from": "The Substack Post <post+the-weekender@substack.com>",
+      "subject": "“What we pay attention to is all we really have”",
+      "date": "Sat, 27 Sep 2025 13:01:05 +0000"
+    },
+    {
+      "from": "\"GoDaddy\" <donotreply@e.godaddy.com>",
+      "subject": "Make your website go like Goggins.",
+      "date": "Sun, 28 Sep 2025 13:12:22 -0600"
+    },
+    {
+      "from": "\"Mailchimp Client Services\" <clientservices@mailchimp.com>",
+      "subject": "Activez votre compte Mailchimp",
+      "date": "Mon, 29 Sep 2025 05:18:24 +0000"
+    },
+    {
+      "from": "\"Mailchimp Account Services\" <accountservices@mailchimp.com>",
+      "subject": "Code de validation Mailchimp",
+      "date": "Mon, 29 Sep 2025 05:30:04 +0000"
+    },
+    {
+      "from": "\"Mailchimp Account Services\" <accountservices@mailchimp.com>",
+      "subject": "Code de validation Mailchimp",
+      "date": "Mon, 29 Sep 2025 05:32:05 +0000"
+    },
+    {
+      "from": "\"Mailchimp Account Services\" <accountservices@mailchimp.com>",
+      "subject": "Code de validation Mailchimp",
+      "date": "Mon, 29 Sep 2025 09:20:36 +0000"
+    },
+    {
+      "from": "GoDaddy <donotreply@godaddy.com>",
+      "subject": "Here's your one-time sign-in code.",
+      "date": "Tue, 30 Sep 2025 03:52:07 +0000"
+    },
+    {
+      "from": "ImprovMX <support@improvmx.com>",
+      "subject": "tokyo-insights.com was successfully added!",
+      "date": "Tue, 30 Sep 2025 05:15:33 +0000"
+    },
+    {
+      "from": "ImprovMX <support@improvmx.com>",
+      "subject": "Getting Started with ImprovMX",
+      "date": "Tue, 30 Sep 2025 05:17:02 +0000"
+    },
+    {
+      "from": "\"Mailchimp Account Services\" <accountservices@mailchimp.com>",
+      "subject": "Vérifiez votre domaine avant de procéder à l'envoi",
+      "date": "Tue, 30 Sep 2025 05:22:56 +0000"
+    },
+    {
+      "from": "\"Mailchimp Account Services\" <accountservices@mailchimp.com>",
+      "subject": "Bravo ! Votre domaine est authentifié.",
+      "date": "Tue, 30 Sep 2025 05:29:55 +0000"
+    },
+    {
+      "from": "ImprovMX <support@improvmx.com>",
+      "subject": "Get emails faster",
+      "date": "Thu, 02 Oct 2025 05:17:10 +0000"
+    },
+    {
+      "from": "Substack <on+resources@substack.com>",
+      "subject": "Culture, captured in real time",
+      "date": "Thu, 2 Oct 2025 19:34:37 +0000"
+    },
+    {
+      "from": "\"GoDaddy\" <donotreply@e.godaddy.com>",
+      "subject": "Your site is waiting for you, Alessandro!",
+      "date": "Sat, 04 Oct 2025 12:50:01 -0600"
+    },
+    {
+      "from": "Docker <no-reply@notify.docker.com>",
+      "subject": "[Docker] You + Docker = Ready for Action",
+      "date": "Tue, 14 Oct 2025 12:55:28 +0000"
+    },
+    {
+      "from": "Google <no-reply@accounts.google.com>",
+      "subject": "Alerte de sécurité",
+      "date": "Tue, 14 Oct 2025 13:04:22 GMT"
+    },
+    {
+      "from": "GitHub <noreply@github.com>",
+      "subject": "[GitHub] A third-party OAuth application has been added to your\r\n account",
+      "date": "Sat, 15 Nov 2025 23:00:32 -0800"
+    },
+    {
+      "from": "Streamlit Community Cloud <no-reply@streamlit.io>",
+      "subject": "Vérifiez  votre adresse e-mail",
+      "date": "Sun, 16 Nov 2025 07:00:34 +0000 (UTC)"
+    },
+    {
+      "from": "GitHub <noreply@github.com>",
+      "subject": "[GitHub] A third-party OAuth application has been added to your\r\n account",
+      "date": "Sat, 15 Nov 2025 23:01:12 -0800"
+    },
+    {
+      "from": "GitHub <noreply@github.com>",
+      "subject": "[GitHub] A previously authorized third-party OAuth application has\r\n been granted additional scopes",
+      "date": "Sat, 15 Nov 2025 23:13:57 -0800"
+    },
+    {
+      "from": "GitHub <noreply@github.com>",
+      "subject": "[GitHub] A new public key was added to Tokyo-Insights/Deal-Finder",
+      "date": "Sat, 15 Nov 2025 23:16:32 -0800"
+    },
+    {
+      "from": "GitHub <noreply@github.com>",
+      "subject": "GitHub Copilot: What’s in your free plan 🤖",
+      "date": "Sat, 15 Nov 2025 23:55:21 -0800"
+    },
+    {
+      "from": "\"GoDaddy\" <email@e.godaddy.com>",
+      "subject": "Take a moment to review your November account summary.",
+      "date": "Mon, 24 Nov 2025 18:39:14 -0600"
+    },
+    {
+      "from": "Substack <on+product@substack.com>",
+      "subject": "New: Livestreaming from desktop",
+      "date": "Thu, 4 Dec 2025 17:00:34 +0000"
+    },
+    {
+      "from": "\"Instagram\" <posts-recaps@mail.instagram.com>",
+      "subject": "tokyoiinsightsrealestatedata, catch up on moments you've missed",
+      "date": "Fri, 5 Dec 2025 00:12:11 -0800"
+    },
+    {
+      "from": "GitHub <noreply@github.com>",
+      "subject": "You have codespaces that are about to be deleted",
+      "date": "Wed, 10 Dec 2025 02:13:03 -0800"
+    },
+    {
+      "from": "\"Instagram\" <posts-recaps@mail.instagram.com>",
+      "subject": "tokyoiinsightsrealestatedata, catch up on moments you've missed",
+      "date": "Fri, 12 Dec 2025 06:29:24 -0800"
+    },
+    {
+      "from": "\"GoDaddy\" <donotreply@e.godaddy.com>",
+      "subject": "Take a moment to review your December account summary.",
+      "date": "Wed, 24 Dec 2025 18:37:14 -0600"
+    },
+    {
+      "from": "Substack <on+product@substack.com>",
+      "subject": "Substack is your corner of the internet",
+      "date": "Mon, 2 Feb 2026 17:30:05 +0000"
+    },
+    {
+      "from": "Substack <on+product@substack.com>",
+      "subject": "New on Substack: Publication design settings, recipe embeds, and live\r\n video scheduling on Android and desktop",
+      "date": "Thu, 12 Feb 2026 16:57:41 +0000"
+    },
+    {
+      "from": "Substack <on+product@substack.com>",
+      "subject": "What the markets are saying",
+      "date": "Wed, 18 Feb 2026 18:33:17 +0000"
+    },
+    {
+      "from": "\"Instagram\" <follow-suggestions@mail.instagram.com>",
+      "subject": "tokyoiinsightsrealestatedata, see leopard.6023099, thesuleymanovam\r\n and more in your feed",
+      "date": "Sun, 22 Feb 2026 03:30:51 -0800"
+    },
+    {
+      "from": "Google <no-reply@accounts.google.com>",
+      "subject": "Alerte de sécurité",
+      "date": "Sun, 01 Mar 2026 06:45:17 GMT"
+    },
+    {
+      "from": "GoDaddy <donotreply@godaddy.com>",
+      "subject": "Here's your one-time sign-in code.",
+      "date": "Mon, 02 Mar 2026 04:54:34 +0000"
+    },
+    {
+      "from": "\"Mailchimp Account Services\" <accountservices@mailchimp.com>",
+      "subject": "Code de validation Mailchimp",
+      "date": "Mon, 02 Mar 2026 09:20:37 +0000"
+    },
+    {
+      "from": "GoDaddy <donotreply@godaddy.com>",
+      "subject": "Verify your phone number to secure your GoDaddy account.",
+      "date": "Wed, 10 Dec 2025 19:38:24 +0000"
+    },
+    {
+      "from": "GitHub <noreply@github.com>",
+      "subject": "[GitHub] Please set your password",
+      "date": "Thu, 07 May 2026 17:32:10 -0700"
+    },
+    {
+      "from": "GitHub <noreply@github.com>",
+      "subject": "[GitHub] Your password was reset",
+      "date": "Thu, 07 May 2026 17:32:43 -0700"
+    },
+    {
+      "from": "GitHub <noreply@github.com>",
+      "subject": "[GitHub] Please download your two-factor recovery codes",
+      "date": "Thu, 07 May 2026 18:21:11 -0700"
+    },
+    {
+      "from": "Google <no-reply@accounts.google.com>",
+      "subject": "Validation en deux étapes activée",
+      "date": "Fri, 08 May 2026 01:29:01 GMT"
+    },
+    {
+      "from": "Google <no-reply@accounts.google.com>",
+      "subject": "Alerte de sécurité",
+      "date": "Mon, 18 May 2026 06:39:58 GMT"
+    },
+    {
+      "from": "GitHub <noreply@github.com>",
+      "subject": "[GitHub] A third-party GitHub Application has been added to your\r\n account",
+      "date": "Thu, 18 Jun 2026 21:54:29 -0700"
+    },
+    {
+      "from": "Google <no-reply@accounts.google.com>",
+      "subject": "Alerte de sécurité",
+      "date": "Mon, 22 Jun 2026 10:55:37 GMT"
+    },
+    {
+      "from": "Mail Delivery Subsystem <mailer-daemon@googlemail.com>",
+      "subject": "Delivery Status Notification (Failure)",
+      "date": "Mon, 22 Jun 2026 06:01:41 -0700 (PDT)"
+    },
+    {
+      "from": "Mail Delivery Subsystem <mailer-daemon@googlemail.com>",
+      "subject": "Delivery Status Notification (Failure)",
+      "date": "Mon, 22 Jun 2026 18:15:29 -0700 (PDT)"
+    },
+    {
+      "from": "Mail Delivery Subsystem <mailer-daemon@googlemail.com>",
+      "subject": "Delivery Status Notification (Failure)",
+      "date": "Mon, 22 Jun 2026 18:16:35 -0700 (PDT)"
+    },
+    {
+      "from": "Mail Delivery Subsystem <mailer-daemon@googlemail.com>",
+      "subject": "Delivery Status Notification (Failure)",
+      "date": "Mon, 22 Jun 2026 19:02:37 -0700 (PDT)"
+    },
+    {
+      "from": "Giovanni from Hunter <contact@mail.hunter.io>",
+      "subject": "How clean data saved 30 hours a week for this recruiter",
+      "date": "Wed, 24 Jun 2026 17:30:44 +0000"
+    },
+    {
+      "from": "Qwoted <no-reply@qwoted.com>",
+      "subject": "Confirm your email address to activate your Qwoted account",
+      "date": "Thu, 25 Jun 2026 00:40:39 +0000 (UTC)"
+    },
+    {
+      "from": "Qwoted <no-reply@qwoted.com>",
+      "subject": "Welcome to Qwoted!",
+      "date": "Thu, 25 Jun 2026 00:43:03 +0000 (UTC)"
+    },
+    {
+      "from": "Qwoted <no-reply@qwoted.com>",
+      "subject": "Confirm your email address to activate your Qwoted account",
+      "date": "Thu, 25 Jun 2026 02:13:36 +0000 (UTC)"
+    },
+    {
+      "from": "GetYourGuide Partner <news@part.getyourguide.com>",
+      "subject": "3 steps to start your GetYourGuide journey",
+      "date": "Thu, 25 Jun 2026 07:42:00 +0000 (UTC)"
+    },
+    {
+      "from": "SafetyWing Webinars <hello@safetywing.com>",
+      "subject": "[Live Webinar] How SafetyWing hired globally across 45+ countries -\r\n June 30",
+      "date": "Thu, 25 Jun 2026 14:54:02 -0400"
+    },
+    {
+      "from": "\"Julia @ Calendly\" <productupdates@send.calendly.com>",
+      "subject": "Tokyo's Calendly Updates: June 2026",
+      "date": "Thu, 25 Jun 2026 19:20:13 +0000 (UTC)"
+    },
+    {
+      "from": "Cushman & Wakefield via LinkedIn <newsletters-noreply@linkedin.com>",
+      "subject": "The Porridge Problem: What “Just Right” Costs a Data Center Project",
+      "date": "Thu, 25 Jun 2026 20:18:32 +0000 (UTC)"
+    },
+    {
+      "from": "Shinnosuke Mori via LinkedIn <newsletters-noreply@linkedin.com>",
+      "subject": "🔧 Почему я сознательно создал две группы LinkedIn, которых ещё не существовало",
+      "date": "Thu, 25 Jun 2026 21:59:49 +0000 (UTC)"
+    },
+    {
+      "from": "\"GoDaddy\" <donotreply@e.godaddy.com>",
+      "subject": "Take a moment to review your June account summary.",
+      "date": "Thu, 25 Jun 2026 17:36:34 -0600"
+    },
+    {
+      "from": "Shinnosuke Mori via LinkedIn <newsletters-noreply@linkedin.com>",
+      "subject": "🔧 Tại sao tôi cố tình tạo hai nhóm LinkedIn chưa từng tồn tại",
+      "date": "Fri, 26 Jun 2026 01:12:01 +0000 (UTC)"
+    }
+  ],
+  "drafts_created": [
+    {
+      "to": "wordpress@tokyo-insights.com",
+      "subject": "Re: [tokyo-insights.com] Demande de modération pour « Hello world! »",
+      "preview": "Un nouveau commentaire sur l’article « Hello world! » attend votre approbation https://tokyo-insights.com/hello-world/  Auteur/autrice : tokyo-insights (adresse IP : 217.178.53.80, 80.53.178.217.stati"
+    },
+    {
+      "to": "notifications@vercel.com",
+      "subject": "Re: Failed production deployment on team 'Tokyo-Insights' projects'",
+      "preview": "Hey infotokyoinsights-7772,  completed an activity. Something happened that you should be aware of. Thanks, The team @    --   If you've got questions, ask us in https://vercel.community/  Copyright ©"
+    },
+    {
+      "to": "notifications@stripe.com",
+      "subject": "Re: Confirmez votre adresse e-mail",
+      "preview": "Merci d'avoir créé votre compte Stripe. Veuillez confirmer votre adresse e-mail pour pouvoir vous lancer.  Confirmez votre adresse e-mail : https://dashboard.stripe.com/confirm_email?t=qcLh6MqdUr87MpP"
+    },
+    {
+      "to": "notifications@vercel.com",
+      "subject": "Re: Failed production deployment on team 'Tokyo-Insights' projects'",
+      "preview": "Hey infotokyoinsights-7772,  completed an activity. Something happened that you should be aware of. Thanks, The team @    --   If you've got questions, ask us in https://vercel.community/  Copyright ©"
+    },
+    {
+      "to": "notifications@vercel.com",
+      "subject": "Re: Failed production deployment on team 'Tokyo-Insights' projects'",
+      "preview": "Hey infotokyoinsights-7772,  completed an activity. Something happened that you should be aware of. Thanks, The team @    --   If you've got questions, ask us in https://vercel.community/  Copyright ©"
+    },
+    {
+      "to": "noreply@heigit.org",
+      "subject": "Re: Account Verification",
+      "preview": "Hello Tokyo Insights, Follow this link to verify your email address to your HeiGIT account. https://account.heigit.org/verify?userId=68eb9241001261bce62d&secret=211b8a66f1d0dee987e760427b6e320e9684596"
+    },
+    {
+      "to": "notifications@vercel.com",
+      "subject": "Re: Failed production deployment on team 'Tokyo-Insights' projects'",
+      "preview": "Hey infotokyoinsights-7772,  completed an activity. Something happened that you should be aware of. Thanks, The team @    --   If you've got questions, ask us in https://vercel.community/  Copyright ©"
+    },
+    {
+      "to": "notifications@vercel.com",
+      "subject": "Re: Failed production deployment on team 'Tokyo-Insights' projects'",
+      "preview": "Hey infotokyoinsights-7772,  completed an activity. Something happened that you should be aware of. Thanks, The team @    --   If you've got questions, ask us in https://vercel.community/  Copyright ©"
+    },
+    {
+      "to": "notifications@vercel.com",
+      "subject": "Re: Failed production deployment on team 'Tokyo-Insights' projects'",
+      "preview": "Hey infotokyoinsights-7772,  completed an activity. Something happened that you should be aware of. Thanks, The team @    --   If you've got questions, ask us in https://vercel.community/  Copyright ©"
+    },
+    {
+      "to": "antigravity-noreply@google.com",
+      "subject": "Re: Get started with Google Antigravity",
+      "preview": "Hello from Antigravity  If you no longer wish to receive our emails, please use the link below to   unsubscribe: https://myaccount.google.com/communication-preferences/unsubscribe/gt/AEJ26qtSnhoi-EtiI"
+    },
+    {
+      "to": "CloudPlatform-noreply@google.com",
+      "subject": "Re: [Product Update] Automatic enablement of new OpenTelemetry ingestion\r\n API",
+      "preview": "Hello Tokyo,  We’re writing to let you know that Cloud Observability has launched a new   OpenTelemetry (OTel) ingestion API[1] that supports native OpenTelemetry   Protocol (OTLP) logs, trace spans, "
+    },
+    {
+      "to": "community@featured.com",
+      "subject": "Re: Welcome to Featured! 🎉",
+      "preview": "WELCOME TO FEATURED! 🎉  I'm Haley, the Community Manager here at Featured. Welcome aboard! We're thrilled to have you as part of our community.  With your Free Plan, you can submit up to 3 answers per"
+    },
+    {
+      "to": "notifications@vercel.com",
+      "subject": "Re: New sign-in detected on your Vercel account",
+      "preview": "Vercel  *******************************************  New sign-in detected on your Vercel account *******************************************  Hello, infotokyoinsights-7772.  Your Vercel account info.t"
+    },
+    {
+      "to": "notifications@vercel.com",
+      "subject": "Re: Failed production deployment on team 'Tokyo-Insights' projects'",
+      "preview": "Hey infotokyoinsights-7772,  completed an activity. Something happened that you should be aware of. Thanks, The team @    --   If you have questions, reach out to https://vercel.com/help   Manage your"
+    },
+    {
+      "to": "notifications@vercel.com",
+      "subject": "Re: Failed production deployments on team 'Tokyo-Insights' projects'",
+      "preview": "Hey infotokyoinsights-7772,  completed an activity. Something happened that you should be aware of. Thanks, The team @    --   If you have questions, reach out to https://vercel.com/help   Manage your"
+    },
+    {
+      "to": "notifications@vercel.com",
+      "subject": "Re: Failed production deployments on team 'Tokyo-Insights' projects'",
+      "preview": "Hey infotokyoinsights-7772,  completed an activity. Something happened that you should be aware of. Thanks, The team @    --   If you have questions, reach out to https://vercel.com/help   Manage your"
+    },
+    {
+      "to": "notifications@vercel.com",
+      "subject": "Re: Failed production deployments on team 'Tokyo-Insights' projects'",
+      "preview": "Hey infotokyoinsights-7772,  completed an activity. Something happened that you should be aware of. Thanks, The team @    --   If you have questions, reach out to https://vercel.com/help   Manage your"
+    },
+    {
+      "to": "notifications@vercel.com",
+      "subject": "Re: Failed production deployments on team 'Tokyo-Insights' projects'",
+      "preview": "Hey infotokyoinsights-7772,  completed an activity. Something happened that you should be aware of. Thanks, The team @    --   If you have questions, reach out to https://vercel.com/help   Manage your"
+    },
+    {
+      "to": "notifications@vercel.com",
+      "subject": "Re: Failed production deployments on team 'Tokyo-Insights' projects'",
+      "preview": "Hey infotokyoinsights-7772,  completed an activity. Something happened that you should be aware of. Thanks, The team @    --   If you have questions, reach out to https://vercel.com/help   Manage your"
+    },
+    {
+      "to": "accounts@formspree.io",
+      "subject": "Re: Email verification for your Formspree account",
+      "preview": "You have successfully added info.tokyoinsights@gmail.com as a valid recipient to your Formspree account. Each email address added to Formspree must be verified before it can receive submissions.  Plea"
+    },
+    {
+      "to": "contact.cmteam@expat.com",
+      "subject": "Re: Welcome to Expat.com",
+      "preview": "Welcome to Expat.com Tokyo Expat - Discover the Japan expat community   Dear Tokyo Expat,   Welcome to expat.com! We're excited to have you as a part of our community. Living abroad can be challenging"
+    },
+    {
+      "to": "notifications@vercel.com",
+      "subject": "Re: Failed production deployments on team 'Tokyo-Insights' projects'",
+      "preview": "Hey infotokyoinsights-7772,  completed an activity. Something happened that you should be aware of. Thanks, The team @    --   If you have questions, reach out to https://vercel.com/help   Manage your"
+    },
+    {
+      "to": "contact@t.brevo.com",
+      "subject": "Re: Votre compte a été validé",
+      "preview": "[Logo](https://fr.sendinblue.com/) Votre compte est validé  Bonjour Tokyo,  Votre compte est désormais validé, vous pouvez commencer à utiliser Brevo. Ces prochains jours, nous vous enverrons des cons"
+    },
+    {
+      "to": "contact.cmteam@expat.com",
+      "subject": "Re: Meet the expats in Japan",
+      "preview": "Dear Tokyo Expat,  Meet the expats in Japan  Meet the other French expats through the network: contact them, share your experience of living in Japan and make new acquaintances.  Meet the other expats"
+    },
+    {
+      "to": "partnerships@sakuramobile.jp",
+      "subject": "Re: Thank You for Applying for the Sakura Mobile Affiliate Program!",
+      "preview": "Dear tokyoexpat,<br /> <br /> Thank you for your interest in the Sakura Mobile affiliate program.  <br /> Once we have approved your application, you can login the dashboard, and check your sales and "
+    },
+    {
+      "to": "partnerships@sakuramobile.jp",
+      "subject": "Re: Affiliate Account Approval - Sakura Mobile Affiliate Program",
+      "preview": "Dear tokyoexpat,<br /> <br /> We have approved your application!  You can now login the dashboard and check stats, etc.<br /> <br /> Dashboard Login: https://p.sakuramobile.jp/login.php<br /> - Userna"
+    },
+    {
+      "to": "partnerships@sakuramobile.jp",
+      "subject": "Re: Your Affiliate Link! (Sakura Mobile)",
+      "preview": "Dear tokyoexpat,  Greetings from Sakura Mobile. Thank you for applying for our Affiliate Program. Your application has been approved!  Here is your affiliate link. Please attach this URL to your websi"
+    }
+  ]
+}

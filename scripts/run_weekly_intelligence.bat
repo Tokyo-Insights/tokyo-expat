@@ -111,20 +111,40 @@ python scripts\email_sender.py >> "%LOG_FILE%" 2>&1
 echo [%TIME%] [21/22] LinkedIn Buffer poster... >> "%LOG_FILE%"
 python scripts\facebook_buffer_poster.py --li-only >> "%LOG_FILE%" 2>&1
 
-:: 22. GA4 Analytics (doit tourner AVANT monday_briefing pour alimenter ga4_latest.json)
-echo [%TIME%] [22/25] GA4 Analytics reporter... >> "%LOG_FILE%"
+:: 22. Content velocity tracker (lit competitor_cache, detecte accelerations)
+echo [%TIME%] [22/30] Content velocity tracker... >> "%LOG_FILE%"
+python scripts\content_velocity_tracker.py >> "%LOG_FILE%" 2>&1
+
+:: 23. Competitor jobs monitor (signaux recrutement concurrents)
+echo [%TIME%] [23/30] Competitor jobs monitor... >> "%LOG_FILE%"
+python scripts\competitor_jobs_monitor.py >> "%LOG_FILE%" 2>&1
+
+:: 24. Review monitor (mauvaises reviews concurrents = opportunites)
+echo [%TIME%] [24/30] Review monitor... >> "%LOG_FILE%"
+python scripts\review_monitor.py >> "%LOG_FILE%" 2>&1
+
+:: 25. AI Visibility Monitor (Perplexity -- cite dans les reponses IA ?)
+echo [%TIME%] [25/29] AI Visibility monitor... >> "%LOG_FILE%"
+python scripts\ai_visibility_monitor.py >> "%LOG_FILE%" 2>&1
+
+:: 26. GA4 Analytics (doit tourner AVANT monday_briefing pour alimenter ga4_latest.json)
+echo [%TIME%] [26/29] GA4 Analytics reporter... >> "%LOG_FILE%"
 python scripts\ga4_analytics.py >> "%LOG_FILE%" 2>&1
 
-:: 23. Monday briefing consolide (toujours en dernier)
-echo [%TIME%] [23/25] Monday briefing consolide... >> "%LOG_FILE%"
+:: 27. Monday briefing consolide (toujours en dernier)
+echo [%TIME%] [27/29] Monday briefing consolide... >> "%LOG_FILE%"
 python scripts\monday_briefing.py >> "%LOG_FILE%" 2>&1
 
-:: 24. Google Alerts digest (mentions marque + concurrents + keywords)
-echo [%TIME%] [24/25] Google Alerts monitor... >> "%LOG_FILE%"
+:: 28. Google Alerts digest (mentions marque + concurrents + keywords)
+echo [%TIME%] [28/29] Google Alerts monitor... >> "%LOG_FILE%"
 python scripts\google_alerts_monitor.py >> "%LOG_FILE%" 2>&1
 
-:: 25. Backup .env chiffre vers OneDrive (1x/semaine suffit)
-echo [%TIME%] [25/25] Backup .env chiffre OneDrive... >> "%LOG_FILE%"
+:: 29. Featured snippets attack (positions 0 des concurrents sur nos keywords cibles)
+echo [%TIME%] [29/30] Featured snippets attack... >> "%LOG_FILE%"
+python scripts\featured_snippets_attack.py >> "%LOG_FILE%" 2>&1
+
+:: 30. Backup .env chiffre vers OneDrive (1x/semaine suffit)
+echo [%TIME%] [30/30] Backup .env chiffre OneDrive... >> "%LOG_FILE%"
 python scripts\backup_env.py >> "%LOG_FILE%" 2>&1
 
 echo [%TIME%] Weekly intelligence complete. >> "%LOG_FILE%"
