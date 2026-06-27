@@ -36,13 +36,17 @@ echo [%TIME%] [4/5] Proactive analysis... >> "%LOG_FILE%"
 python scripts\proactive_analysis.py >> "%LOG_FILE%" 2>&1
 
 :: 5. Reddit intercept (posts Tokyo housing des dernieres 24h -- alerte Telegram si match)
-echo [%TIME%] [5/6] Reddit intercept... >> "%LOG_FILE%"
+echo [%TIME%] [5/7] Reddit intercept... >> "%LOG_FILE%"
 python scripts\reddit_quora_intercept.py >> "%LOG_FILE%" 2>&1
 
-:: 6. Thursday briefing leger (jeudi uniquement : Buffer status + actions en attente)
+:: 6. Welcome drip (sequence email bienvenue lead magnet checklist)
+echo [%TIME%] [6/7] Brevo welcome drip... >> "%LOG_FILE%"
+python scripts\brevo_welcome_drip.py >> "%LOG_FILE%" 2>&1
+
+:: 7. Thursday briefing leger (jeudi uniquement : Buffer status + actions en attente)
 for /f %%d in ('powershell -NoProfile -Command "(Get-Date).DayOfWeek"') do set DOW_DAILY=%%d
 if "%DOW_DAILY%"=="Thursday" (
-    echo [%TIME%] [6/6] Thursday briefing... >> "%LOG_FILE%"
+    echo [%TIME%] [7/7] Thursday briefing... >> "%LOG_FILE%"
     python scripts\monday_briefing.py --thursday >> "%LOG_FILE%" 2>&1
 )
 

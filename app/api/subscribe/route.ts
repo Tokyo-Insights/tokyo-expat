@@ -26,6 +26,7 @@ export async function POST(request: NextRequest) {
         email,
         listIds: [BREVO_LIST_ID],
         updateEnabled: true,
+        attributes: { LANGUE: locale === 'en' ? 'en' : 'fr' },
       }),
     })
 
