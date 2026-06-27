@@ -515,7 +515,7 @@ For a successful move to Tokyo, it is the most efficient lever you can activate.
 For health coverage during your apartment search, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) offers monthly insurance with no commitment, activatable before Japanese national insurance. To communicate with agencies in Japanese, [iTalki](https://www.italki.com/affshare?ref=af32660342) offers lessons with native teachers from $10/hour. *(affiliate links)*
 ---
 
-*See also: [How to Find an Apartment in Tokyo from Abroad (Remote Hunting Guide)](/blog/tokyo-apartment-hunting-from-abroad), [Finding an Apartment in Tokyo in September: What Changes vs Spring](/blog/find-apartment-tokyo-september).*
+*See also: [How to Find an Apartment in Tokyo from Abroad (Remote Hunting Guide)](/blog/tokyo-apartment-hunting-from-abroad), [Finding an Apartment in Tokyo in September: What Changes vs Spring](/blog/find-apartment-tokyo-september), [Furnished Apartment Tokyo: 5 Best Options for Expats in 2026](/blog/furnished-apartment-tokyo-top-5-expats).*
 
 *Planning to move to Tokyo? Book a free 30-minute consultation to assess your situation and see what is available now.*
     `.trim(),
@@ -1610,7 +1610,7 @@ This timeline gives you buffer for unexpected delays (application rejection, pro
 For health coverage from day one in Japan, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) offers monthly insurance with no commitment, activatable before you arrive. To prepare your Japanese before landing, [iTalki](https://www.italki.com/affshare?ref=af32660342) offers online lessons with native teachers from $10/hour. *(affiliate links)*
 ---
 
-*See also: [How to Find an Apartment in Tokyo as a Foreigner (2026 Guide)](/blog/find-apartment-tokyo-foreigner), [Finding an Apartment in Tokyo in September: What Changes vs Spring](/blog/find-apartment-tokyo-september).*
+*See also: [How to Find an Apartment in Tokyo as a Foreigner (2026 Guide)](/blog/find-apartment-tokyo-foreigner), [Finding an Apartment in Tokyo in September: What Changes vs Spring](/blog/find-apartment-tokyo-september), [Furnished Apartment Tokyo: 5 Best Options for Expats in 2026](/blog/furnished-apartment-tokyo-top-5-expats).*
 
 *Relocating to Tokyo and want housing ready before you arrive? Book a free 30-minute consultation to start the remote search process.*
     `.trim(),
@@ -4323,6 +4323,8 @@ For everyone else: it is one of the rare levers that allows you to rent in centr
 
 For health coverage during your search and admin process, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) offers monthly insurance with no commitment. To navigate the process in Japanese, [iTalki](https://www.italki.com/affshare?ref=af32660342) offers lessons with native teachers from $10/hour. *(affiliate links)*
 ---
+
+*See also: [Furnished Apartment Tokyo: 5 Best Options for Expats in 2026](/blog/furnished-apartment-tokyo-top-5-expats).*
 
 *Looking for good-value housing in Tokyo? Let's discuss your situation in a free 30-minute consultation.*
     `.trim(),
