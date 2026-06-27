@@ -64,6 +64,7 @@ export default async function AboutPage({
     name: 'Alessandro',
     jobTitle: locale === 'fr' ? 'Chasseur immobilier bilingue à Tokyo' : 'Bilingual property hunter in Tokyo',
     url: `https://www.tokyo-expat.com/${locale}/about`,
+    image: 'https://www.tokyo-expat.com/alessandro.jpg',
     worksFor: {
       '@type': 'Organization',
       name: 'Tokyo Expat',
@@ -95,11 +96,15 @@ export default async function AboutPage({
       <h1 className="text-4xl font-extrabold text-[#0f2744] mb-10">{a.title}</h1>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mb-16">
-        {/* Photo placeholder */}
+        {/* Photo */}
         <div className="flex flex-col items-center gap-4">
-          <div className="w-40 h-40 rounded-full bg-[#0f2744] flex items-center justify-center text-white text-5xl font-bold">
-            A
-          </div>
+          <img
+            src="/alessandro.jpg"
+            alt={a.name}
+            width={160}
+            height={160}
+            className="w-40 h-40 rounded-full object-cover shadow-md"
+          />
           <div className="text-center">
             <p className="font-bold text-[#0f2744] text-lg">{a.name}</p>
             <p className="text-gray-500 text-sm">{a.role}</p>
