@@ -127,6 +127,10 @@ python scripts\review_monitor.py >> "%LOG_FILE%" 2>&1
 echo [%TIME%] [25/29] AI Visibility monitor... >> "%LOG_FILE%"
 python scripts\ai_visibility_monitor.py >> "%LOG_FILE%" 2>&1
 
+:: 25b. GSC Analytics (Search Console -- requetes/pages emergentes, alimente gsc_latest.json)
+echo [%TIME%] [25b] GSC Analytics reporter... >> "%LOG_FILE%"
+python scripts\gsc_analytics.py >> "%LOG_FILE%" 2>&1
+
 :: 26. GA4 Analytics (doit tourner AVANT monday_briefing pour alimenter ga4_latest.json)
 echo [%TIME%] [26/29] GA4 Analytics reporter... >> "%LOG_FILE%"
 python scripts\ga4_analytics.py >> "%LOG_FILE%" 2>&1
