@@ -49,7 +49,7 @@ export default function ContactForm({ locale }: { locale: Locale }) {
             : 'Pick a time that works for you. No obligation.'}
         </p>
         <a
-          href="https://calendly.com/info-tokyoinsights/free-discovery-call"
+          href="https://calendly.com/contact-tokyo-expat/30min"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-block bg-[#e84141] hover:bg-[#ff6b6b] text-white px-8 py-3 rounded-xl font-bold transition-colors"

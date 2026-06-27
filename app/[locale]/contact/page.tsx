@@ -72,7 +72,7 @@ export default async function ContactPage({
         contactType: 'customer service',
         email: 'contact@tokyo-expat.com',
         availableLanguage: ['French', 'English', 'Japanese'],
-        url: 'https://calendly.com/info-tokyoinsights/free-discovery-call',
+        url: 'https://calendly.com/contact-tokyo-expat/30min',
       },
     },
   }
