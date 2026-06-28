@@ -10335,6 +10335,314 @@ Koenji is the soul of Tokyo on a budget: character, community, and rent that lea
 *See also: [living in Nakano](/blog/living-nakano-housing-guide) and [furnished apartments in Tokyo](/blog/furnished-apartment-tokyo-top-5-expats).*
     `.trim(),
   },
+  {
+    slug: 'living-asagaya-housing-guide',
+    locale: 'en',
+    title: 'Living in Asagaya: Quiet Residential Calm on the Chuo Line (2026)',
+    description: 'Rent, neighbourhood profile and tips for living in Asagaya in 2026: residential calm with Chuo line access.',
+    date: '2026-06-28',
+    readingTime: '5 min',
+    content: `
+One station from Koenji on the Chuo line, Asagaya offers residential calm that is rare at this level of price and access. Here is the 2026 housing guide.
+
+**Quick answer:** Living in Asagaya costs 68,000 to 88,000 JPY/month for a 1K studio, 12 minutes from Shinjuku. A peaceful residential district known for its jazz scene, its covered shopping street (Pearl Center) and its Awa Odori festival. Ideal for calm without leaving the centre behind.
+
+## Why choose Asagaya?
+
+- 12 minutes from Shinjuku (Chuo/Sobu line).
+- Pearl Center: a long covered shopping arcade with a genuine local feel.
+- A calm, literary atmosphere, a jazz scene and lively festivals (Awa Odori in August).
+
+## How much does housing cost in Asagaya?
+
+| Type | Monthly rent | Profile |
+|---|---|---|
+| Share house room | 43,000-72,000 JPY | budget, no guarantor |
+| 1K studio (20-25 m²) | 68,000-88,000 JPY | single |
+| 1LDK (30-45 m²) | 105,000-150,000 JPY | couple, family |
+
+## The neighbourhood profile
+
+Asagaya appeals to those who want a quiet neighbourhood life: cafes, family restaurants and peaceful lanes, while staying on the Chuo line. Popular with families and anyone escaping the bustle without sacrificing central access.
+
+## Living in Asagaya smartly
+
+- Share house: no guarantor, quick move-in (see our [gaijin house guide](/blog/gaijin-house-tokyo-guide)).
+- Nearby Chuo stations: Koenji, Ogikubo, Nishi-Ogikubo.
+
+Asagaya is the calm of a residential district with Chuo line access: a rare balance for living Tokyo at ease.
+
+---
+
+*See also: [living in Koenji](/blog/living-koenji-housing-guide) and [furnished apartments in Tokyo](/blog/furnished-apartment-tokyo-top-5-expats).*
+    `.trim(),
+  },
+  {
+    slug: 'living-kichijoji-housing-guide',
+    locale: 'en',
+    title: 'Living in Kichijoji: Tokyoites\' Favourite Neighbourhood (2026)',
+    description: 'Rent, neighbourhood profile and tips for living in Kichijoji in 2026: park, shopping and quality of life fifteen minutes from the centre.',
+    date: '2026-06-28',
+    readingTime: '5 min',
+    content: `
+Regularly voted the most pleasant place to live in Tokyo, Kichijoji combines a park, shopping and a relaxed vibe. Here is the 2026 housing guide.
+
+**Quick answer:** Living in Kichijoji costs 75,000 to 100,000 JPY/month for a 1K studio, 15 minutes from Shinjuku. Backing onto Inokashira Park, it offers greenery, shops, restaurants and an atmosphere prized by families and young professionals alike. A little pricier than Koenji, but an exceptional setting.
+
+## Why choose Kichijoji?
+
+- 15 minutes from Shinjuku (Chuo/Sobu) plus the Keio Inokashira line to Shibuya.
+- Inokashira Park: a lake, greenery and walks, one of Tokyo's finest.
+- Shopping (Sun Road, Harmonica Yokocho), restaurants and a rich cultural life.
+
+## How much does housing cost in Kichijoji?
+
+| Type | Monthly rent | Profile |
+|---|---|---|
+| Share house room | 48,000-78,000 JPY | budget, no guarantor |
+| 1K studio (20-25 m²) | 75,000-100,000 JPY | single |
+| 1LDK (30-45 m²) | 120,000-170,000 JPY | couple, family |
+
+## The neighbourhood profile
+
+Kichijoji draws those who want a perfect balance of nature, shops and central access. Very popular with families thanks to the park and schools, but also with young people for its bars and boutiques. High demand explains slightly higher rents than neighbouring areas.
+
+## Living in Kichijoji smartly
+
+- Share house: no guarantor, quick (see our [gaijin house guide](/blog/gaijin-house-tokyo-guide)).
+- More affordable nearby stations: Mitaka, Nishi-Ogikubo, Inokashira-koen.
+
+Kichijoji is about quality of life first: a park, shops and a gentle atmosphere, fifteen minutes from the heart of Tokyo.
+
+---
+
+*See also: [living in Nakano](/blog/living-nakano-housing-guide) and [furnished apartments in Tokyo](/blog/furnished-apartment-tokyo-top-5-expats).*
+    `.trim(),
+  },
+  {
+    slug: 'living-sangenjaya-housing-guide',
+    locale: 'en',
+    title: 'Living in Sangenjaya: Shibuya Within Reach, For Less (2026)',
+    description: 'Rent, neighbourhood profile and tips for living in Sangenjaya in 2026: four minutes from Shibuya, full of character and more affordable.',
+    date: '2026-06-28',
+    readingTime: '5 min',
+    content: `
+One station from Shibuya yet far more affordable and full of character, Sangenjaya is a favourite of young professionals. Here is the 2026 housing guide.
+
+**Quick answer:** Living in Sangenjaya costs 80,000 to 105,000 JPY/month for a 1K studio, just 4 minutes from Shibuya (Den-en-toshi line). The area is lively, full of izakayas and lanes (Sankaku Chitai), yet keeps a real neighbourhood feel. Excellent value for being so close to Shibuya without paying its price.
+
+## Why choose Sangenjaya?
+
+- 4 minutes from Shibuya (Den-en-toshi line).
+- Sankaku Chitai: a maze of tiny bars and restaurants, an authentic vibe.
+- A dynamic neighbourhood life, markets and cafes, popular with young professionals.
+
+## How much does housing cost in Sangenjaya?
+
+| Type | Monthly rent | Profile |
+|---|---|---|
+| Share house room | 50,000-82,000 JPY | budget, no guarantor |
+| 1K studio (20-25 m²) | 80,000-105,000 JPY | single |
+| 1LDK (30-45 m²) | 130,000-180,000 JPY | couple |
+
+## The neighbourhood profile
+
+Sangenjaya offers Shibuya's energy four minutes away, but with a neighbourhood soul the big hub has lost. You will find a lively food scene, tiny bars and a community of young professionals. The ideal compromise between centrality and quality of life.
+
+## Living in Sangenjaya smartly
+
+- Share house: no guarantor, quick move-in (see our [gaijin house guide](/blog/gaijin-house-tokyo-guide)).
+- Nearby stations: Ikejiri-Ohashi, Komazawa-Daigaku, Shimokitazawa on foot.
+
+Sangenjaya is Shibuya within walking distance, with the charm of a lively district and gentler rents.
+
+---
+
+*See also: [living in Shibuya](/blog/living-shibuya-housing-guide) and [furnished apartments in Tokyo](/blog/furnished-apartment-tokyo-top-5-expats).*
+    `.trim(),
+  },
+  {
+    slug: 'social-apartments-tokyo-guide',
+    locale: 'en',
+    title: 'Social Apartments in Tokyo: Next-Generation Shared Living (2026)',
+    description: 'The social apartment, a premium take on the share house: designed common spaces, an active community, no guarantor. Costs and profile in 2026.',
+    date: '2026-06-28',
+    readingTime: '5 min',
+    content: `
+The "social apartment" is a higher-end category of shared housing that more and more expats in Tokyo are choosing. Here is what it is, what it costs, and who it suits.
+
+**Quick answer:** A social apartment is a premium version of the share house: a private furnished room, but with large, well-designed common spaces (lounge, designer kitchen, sometimes coworking, a gym, a rooftop). Expect 70,000 to 130,000 JPY/month, with no guarantor and no key money. It is ideal for those who want the social life of a share house in a more polished setting.
+
+## What is a social apartment?
+
+Born in Japan in the 2010s, the social apartment bets on the quality of its common spaces to encourage residents to meet. Unlike a basic share house, the focus is on design, amenities (cinema, gym, workshop, garden) and an active community. Your room stays private; the rest is shared.
+
+## How much does a social apartment cost?
+
+| Type | Monthly rent | Deposit |
+|---|---|---|
+| Standard room | 70,000-100,000 JPY | ~1 month |
+| Premium / central room | 100,000-130,000 JPY | ~1 month |
+
+No key money, no agency fees. Utilities and internet are usually included.
+
+## Social apartment vs standard share house
+
+- **Share house:** cheaper (45,000-90,000 JPY), functional common spaces.
+- **Social apartment:** pricier, but a superior setting and amenities, and a more active community.
+
+To compare all options, see our [furnished apartment guide](/blog/furnished-apartment-tokyo-top-5-expats) and our [gaijin house guide](/blog/gaijin-house-tokyo-guide).
+
+## Who is it for?
+
+A social apartment suits those who want to meet people while enjoying a beautiful setting: often young professionals, creatives or expats on the move. It is less suited if you want the full privacy of a studio (see [how to find an apartment](/blog/find-apartment-tokyo-foreigner)).
+
+The social apartment is the best of both worlds: the easy entry of a share house, with the comfort and community of a premium residence.
+
+---
+
+*See also: [furnished apartments in Tokyo](/blog/furnished-apartment-tokyo-top-5-expats) and [gaijin house in Tokyo](/blog/gaijin-house-tokyo-guide).*
+    `.trim(),
+  },
+  {
+    slug: 'bank-transfer-japan-furikomi-guide',
+    locale: 'en',
+    title: 'How to Make a Bank Transfer in Japan (Furikomi): Step by Step',
+    description: 'Furikomi explained: transfer money at an ATM or online, the details you need, fees and timing. Paying rent and bills in Japan.',
+    date: '2026-06-28',
+    readingTime: '5 min',
+    content: `
+Paying rent, repaying a friend, settling a bill: in Japan almost everything goes through the bank transfer, the furikomi. Here is how to do it, step by step, in 2026.
+
+**Quick answer:** Furikomi (振込) is the Japanese bank transfer. You can do it at an ATM, through your bank's app, or in branch. You need the bank name, the branch, the account type and number, and the recipient's name in katakana. Fees range from 0 to 880 JPY depending on the bank and method. A transfer to another bank takes from a few hours to one business day.
+
+## What you need
+
+- The bank and branch name (支店 shiten)
+- The account type (普通 futsuu = ordinary)
+- The account number (口座番号)
+- The recipient's name in katakana
+
+## Making a furikomi at an ATM
+
+1. Insert your card and choose 振込 (furikomi).
+2. Select the destination bank, then the branch.
+3. Enter the account number and the amount.
+4. Check the recipient name that appears.
+5. Confirm and keep the receipt.
+
+## Making a furikomi online
+
+Online banks (Sony Bank, Rakuten) and the Japan Post app let you transfer from your phone, often with reduced or zero fees to internal accounts. To open a suitable account, see our [bank account guide](/blog/open-bank-account-japan-foreigner).
+
+## Fees and timing to know
+
+- **Internal transfer** (same bank): often free.
+- **External transfer:** 110 to 880 JPY depending on the bank and channel (the ATM costs more than mobile).
+- **Timing:** instant to one business day; beware of transfers late at night or at the weekend.
+
+Mastering furikomi means handling rent, bills and repayments smoothly in Japan: a basic skill of daily life.
+
+---
+
+*See also: [opening a bank account in Japan](/blog/open-bank-account-japan-foreigner) and [furnished apartments in Tokyo](/blog/furnished-apartment-tokyo-top-5-expats).*
+    `.trim(),
+  },
+  {
+    slug: 'health-insurance-visa-japan-2027',
+    locale: 'en',
+    title: 'Unpaid Health Insurance Could Threaten Your Visa in Japan (2027 Rule)',
+    description: 'From 2027, unpaid national health insurance or pension could complicate visa renewals in Japan. How to stay compliant.',
+    date: '2026-06-28',
+    readingTime: '5 min',
+    content: `
+From 2027, failing to keep up with your health insurance or pension could complicate your visa renewal in Japan. Here is what you need to know to stay compliant.
+
+**Quick answer:** Japan plans, from 2027, to check payment of national health insurance (kokumin kenko hoken) and pension during visa renewal or status-change applications. In practice, a foreigner who has not paid their contributions risks a refusal or stricter review. Staying up to date becomes essential to secure your visa.
+
+## What changes in 2027
+
+Until now, payment of health insurance and pension was not systematically checked at visa renewal. From 2027, immigration plans to cross-reference this data. A history of non-payment could weigh on the decision.
+
+## Who is affected?
+
+Any foreign resident enrolled in the national system (kokumin kenko hoken + kokumin nenkin), mainly the self-employed, students and people without company insurance. Employees covered by shakai hoken (deducted from salary) are compliant by default.
+
+## How to stay compliant
+
+- Enrol in insurance as soon as you arrive at city hall (see our [health insurance guide](/blog/japan-health-insurance-expat-guide)).
+- Pay your contributions on time and keep the receipts.
+- On low income, apply for an exemption (減免 genmen) rather than not paying.
+- Keep your proof of payment for your renewal file.
+
+## What to do if you are behind
+
+Catch up as soon as possible and ask for an instalment plan if needed. An official exemption is always better than simple non-payment, which leaves a negative mark on your record.
+
+Anticipating this rule protects both your health and your right to stay. Get compliant on arrival: it is the best insurance for your visa.
+
+---
+
+*See also: [health insurance in Japan](/blog/japan-health-insurance-expat-guide) and [income tax for foreigners in Japan](/blog/japan-income-tax-foreigners-guide).*
+    `.trim(),
+  },
+  {
+    slug: 'gaijin-house-tokyo-guide-complet',
+    locale: 'fr',
+    title: 'Gaijin house à Tokyo : guide complet pour étrangers (2026)',
+    description: 'Ce qu\'est une gaijin house, les coûts réels en 2026, avantages et limites, et comment obtenir une chambre à Tokyo sans garant ni argent-clé.',
+    date: '2026-06-28',
+    readingTime: '6 min',
+    content: `
+La gaijin house est souvent le premier logement d'un étranger à Tokyo. Économique, flexible, elle contourne les obstacles qui ferment le marché locatif classique aux nouveaux arrivants. Voici comment ça marche en 2026.
+
+**Réponse rapide :** Une gaijin house est un logement partagé pensé pour les étrangers : chambre privée meublée, cuisine et salle de bains communes, sans garant japonais, sans argent-clé, installation en quelques jours. Comptez 40 000 à 80 000 JPY/mois, charges souvent incluses. C'est le moyen le plus rapide et le moins cher d'obtenir une adresse à Tokyo.
+
+## Qu'est-ce qu'une gaijin house ?
+
+"Gaijin house" (外人ハウス) signifie littéralement "maison d'étrangers". Le terme remonte aux années 1990, quand quelques opérateurs ont commencé à louer des chambres partagées aux étrangers exclus du marché classique. Aujourd'hui, la frontière avec la share house moderne s'est estompée : les deux offrent des chambres privées meublées avec espaces communs, gérées par un opérateur professionnel.
+
+Ce qui définit encore la gaijin house, c'est sa vocation : loger des résidents étrangers sans garant japonais, sans compte bancaire local ni japonais courant. On signe en anglais, on paie une petite caution au lieu de l'argent-clé, et on emménage en quelques jours.
+
+## Combien coûte une gaijin house ?
+
+| Type | Loyer mensuel | Caution | Charges |
+|---|---|---|---|
+| Lit en dortoir | 30 000-45 000 JPY | minime | souvent incluses |
+| Chambre privée (standard) | 45 000-70 000 JPY | ~1 mois | souvent incluses |
+| Chambre privée (centrale) | 70 000-100 000 JPY | ~1 mois | souvent incluses |
+
+En plus du loyer, prévoyez des frais uniques d'administration et de ménage de 10 000 à 30 000 JPY. Pas de reikin (argent-clé), pas de commission d'agence : c'est ce qui rend l'entrée en gaijin house bien moins chère qu'un appartement classique, où l'on peut payer 4 à 6 mois d'avance.
+
+## Gaijin house, share house ou appartement ?
+
+- **Gaijin house / share house** : sans garant, meublée, emménagement en une semaine, ambiance sociale, espace privé réduit. Idéal pour les nouveaux arrivants et les petits budgets.
+- **Monthly mansion** : studio privé avec cuisine et salle de bains, sans garant, 80 000 à 200 000 JPY/mois. Idéal pour l'intimité et une adresse pour les démarches.
+- **Appartement classique** : vraie surface et bail long, mais garant (ou société de garantie), argent-clé et processus de 2 à 4 semaines.
+
+Pour le détail, voir [le guide appartement meublé](/blog/appartement-meuble-tokyo-expats-top-5) et [le guide share house](/blog/share-house-tokyo-guide-complet).
+
+## Pour qui ?
+
+La gaijin house a le plus de sens si vous arrivez sous quelques semaines et avez besoin d'une adresse rapidement, si vous n'avez pas encore de garant ni de compte bancaire, ou si vous voulez garder vos premiers mois flexibles. Elle est moins adaptée aux familles ou à qui veut une intimité totale, pour qui un [appartement classique](/blog/trouver-appartement-tokyo-etranger) devient plus économique.
+
+## Comment obtenir une chambre
+
+1. Définissez votre budget et le type (dortoir ou chambre privée).
+2. Sélectionnez par ligne de train et temps de trajet.
+3. Candidatez en ligne : la plupart des opérateurs acceptent depuis l'étranger avec passeport et visa.
+4. Vérifiez ce qui est inclus (charges, internet, literie) avant de signer.
+5. Organisez l'emménagement, souvent possible en une semaine.
+
+Pour une arrivée fluide, réservez votre logement avant d'atterrir, puis réglez votre [carte de résidence et votre compte bancaire](/blog/ouvrir-compte-bancaire-japon-etranger) les premiers jours.
+
+La gaijin house n'est presque jamais un logement définitif, mais c'est la porte d'entrée la plus simple vers Tokyo : une vraie adresse, du temps pour apprendre la ville, et zéro stress de garant.
+
+---
+
+*À lire aussi : [appartement meublé à Tokyo](/blog/appartement-meuble-tokyo-expats-top-5) et [share house à Tokyo](/blog/share-house-tokyo-guide-complet).*
+    `.trim(),
+  },
 
 ]
 
@@ -10394,6 +10702,13 @@ export const TWIN_SLUGS: Record<string, string> = {
   'se-loger-nakano-quartier-guide': 'living-nakano-housing-guide',
   'se-loger-ikebukuro-quartier-guide': 'living-ikebukuro-housing-guide',
   'se-loger-koenji-quartier-guide': 'living-koenji-housing-guide',
+  'se-loger-asagaya-quartier-guide': 'living-asagaya-housing-guide',
+  'se-loger-kichijoji-quartier-guide': 'living-kichijoji-housing-guide',
+  'se-loger-sangenjaya-quartier-guide': 'living-sangenjaya-housing-guide',
+  'social-apartment-tokyo-guide': 'social-apartments-tokyo-guide',
+  'virement-bancaire-japon-furikomi-guide': 'bank-transfer-japan-furikomi-guide',
+  'assurance-sante-visa-japon-2027': 'health-insurance-visa-japan-2027',
+  'gaijin-house-tokyo-guide-complet': 'gaijin-house-tokyo-guide',
 }
 
 export function getTwinSlug(slug: string, locale: Locale): string | undefined {
