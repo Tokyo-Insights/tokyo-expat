@@ -23,6 +23,8 @@ Le marché locatif japonais est l'un des plus fermés au monde pour les étrange
 
 Pourtant, des milliers d'expatriés trouvent un logement à Tokyo chaque année. La différence entre ceux qui y arrivent en 2 semaines et ceux qui galèrent 3 mois : la méthode.
 
+**Réponse rapide :** Pour trouver un appartement à Tokyo en tant qu'étranger, ciblez les agences spécialisées internationales et utilisez une société de garantie (garantee company) à la place d'un garant japonais. Les options sans garant les plus rapides sont la share house, le monthly mansion et l'appartement meublé. Préparez votre passeport, votre visa, un justificatif de revenus et une adresse au Japon. Avec la bonne méthode, comptez 2 semaines plutôt que 3 mois.
+
 ## Le problème du garant (hoshounin)
 
 La quasi-totalité des propriétés traditionnelles japonaises exigent un **hoshounin** (garant personnel) : un citoyen japonais qui accepte de payer votre loyer si vous devenez défaillant. Pour un étranger sans famille japonaise, c'est un mur.
@@ -881,6 +883,8 @@ Pour votre couverture sante et celle de votre famille pendant la transition, [Sa
     content: `
 Ouvrir un compte bancaire au Japon est l'une des premières démarches administratives à régler après l'obtention de votre carte de résidence. Sans compte bancaire japonais, vous ne pouvez pas recevoir un salaire japonais, payer votre loyer par virement, ni obtenir un SIM card en contrat.
 
+**Réponse rapide :** Pour ouvrir un compte bancaire au Japon en tant qu'étranger nouvellement arrivé, les options les plus accessibles sont Japan Post Bank (Yucho) et les banques en ligne (Sony Bank, Rakuten). Il vous faut votre carte de résidence, idéalement votre My Number, et parfois un hanko (sceau personnel). La plupart des banques classiques exigent 6 mois de résidence, mais Yucho accepte souvent dès l'arrivée.
+
 ## Ce dont vous avez besoin avant de commencer
 
 Toutes les banques japonaises exigent au minimum :
@@ -1626,6 +1630,8 @@ For health coverage from day one in Japan, [SafetyWing Nomad Insurance](https://
     readingTime: '6 min',
     content: `
 Le système de santé japonais est l'un des meilleurs au monde, mais il est basé sur une couverture obligatoire que tout résident doit avoir. Comprendre comment fonctionne l'assurance maladie au Japon est essentiel avant votre arrivée.
+
+**Réponse rapide :** Au Japon, tout résident (étrangers inclus) doit avoir une assurance maladie : soit le shakai hoken (assurance d'entreprise, environ 50% payé par l'employeur), soit le kokumin kenko hoken (assurance nationale, pour les indépendants et sans emploi). Elle couvre 70% des frais médicaux. Le coût dépend de vos revenus, souvent 1 500 à 3 000 JPY/mois pour un nouvel arrivant à faible revenu. L'inscription se fait à la mairie de votre quartier.
 
 ## Les deux systèmes d'assurance maladie au Japon
 
@@ -4250,6 +4256,8 @@ Pour votre couverture sante pendant la recherche et les demarches, [SafetyWing N
     readingTime: '7 min',
     content: `
 There is a category of apartments in Tokyo that most expats have never heard of, yet it offers some of the best value rents in central areas. They are called **jiko bukken** (事故物件), literally "incident properties." Legal, often centrally located, and up to 30% cheaper than comparable units: here is what you need to know.
+
+**Quick answer:** Jiko bukken (事故物件) are "incident properties" where a death or serious event occurred. They are fully legal to rent and priced up to 30% below market, often in central Tokyo. Landlords must disclose the incident to the first tenant who moves in afterwards. If you are not superstitious, they are one of the cheapest legal ways to live centrally, and sites like Oshimaland map them across the city.
 
 ## What is a jiko bukken?
 
@@ -7725,6 +7733,8 @@ For health coverage upon arrival in October, [SafetyWing Nomad Insurance](https:
     readingTime: '7 min',
     content: `
 Trouver un appartement meublé à Tokyo est une des premières urgences de tout expatrié arrivant au Japon. Vous n'avez pas encore vos meubles, vous ne voulez pas signer un bail d'un an en arrivant, et les agences classiques vous demandent un garant japonais que vous n'avez pas.
+
+**Réponse rapide :** Pour la plupart des expatriés, la meilleure option d'appartement meublé à Tokyo est la share house (40 000-120 000 JPY/mois, sans garant, installation en une semaine). Pour plus d'intimité, le monthly mansion (80 000-200 000 JPY/mois) offre un studio privé avec une adresse utilisable pour les démarches. Pour un séjour plus long, une agence spécialisée arrange un appartement meublé complet (100 000-300 000 JPY/mois). Aucune de ces options n'exige de garant japonais.
 
 Voici les 5 options réelles que vous avez, avec leurs coûts 2026, leurs avantages et leurs limites.
 
