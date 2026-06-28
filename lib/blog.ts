@@ -9690,6 +9690,98 @@ A gaijin house is rarely where expats stay forever, but it is the single easiest
 *See also: [furnished apartments in Tokyo](/blog/furnished-apartment-tokyo-top-5-expats) and [how to find an apartment in Tokyo as a foreigner](/blog/find-apartment-tokyo-foreigner).*
     `.trim(),
   },
+  {
+    slug: 'se-loger-shibuya-quartier-guide',
+    locale: 'fr',
+    title: 'Se loger à Shibuya : loyers, profil du quartier et bons plans (2026)',
+    description: 'Combien coûte un logement à Shibuya, à quoi ressemble le quartier et comment s\'y installer sans exploser son budget en 2026.',
+    date: '2026-06-28',
+    readingTime: '6 min',
+    content: `
+Shibuya est l'un des quartiers les plus convoités de Tokyo, et l'un des plus chers. Voici à quoi s'attendre côté logement en 2026, et comment s'y installer sans exploser son budget.
+
+**Réponse rapide :** Se loger à Shibuya coûte cher : comptez 100 000 à 150 000 JPY/mois pour un petit 1K, davantage pour un 1LDK. Le quartier offre un accès inégalé (de nombreuses lignes), une vie nocturne et culturelle intense, mais peu d'espace pour le prix. Pour y vivre sans se ruiner, visez une share house (50 000 à 90 000 JPY) ou un quartier limitrophe mieux valorisé.
+
+## Pourquoi choisir Shibuya ?
+
+- Hub de transport majeur : JR Yamanote, Ginza, Hanzomon, Fukutoshin, Den-en-toshi. Vous allez partout, vite.
+- Épicentre de la mode, de la culture jeune, des cafés et de la vie nocturne.
+- Des poches résidentielles calmes à deux pas : Tomigaya, Shoto, Kamiyama.
+
+## Combien coûte un logement à Shibuya ?
+
+| Type | Loyer mensuel | Profil |
+|---|---|---|
+| Chambre en share house | 50 000-90 000 JPY | budget, sans garant |
+| Studio 1K (20-25 m²) | 100 000-150 000 JPY | célibataire, central |
+| 1LDK (30-45 m²) | 160 000-250 000 JPY | couple, confort |
+
+Sur un bail classique, ajoutez le reikin (1 à 2 mois), le shikikin (1 à 2 mois) et les frais d'agence. Au total, l'entrée peut représenter 4 à 6 mois de loyer (voir [les frais cachés d'une location à Tokyo](/blog/frais-caches-location-tokyo)).
+
+## Le profil du quartier
+
+Shibuya est jeune, dense et animé. Idéal si vous aimez l'effervescence, les sorties et être au centre de tout. Moins adapté si vous cherchez le calme ou de grands espaces. Les rues derrière la gare (Tomigaya, Kamiyama) offrent un bon compromis : proximité immédiate et atmosphère résidentielle.
+
+## Se loger à Shibuya sans se ruiner
+
+- Visez une share house : sans garant, sans reikin, installation en quelques jours (voir [le guide gaijin house](/blog/gaijin-house-tokyo-guide)).
+- Élargissez d'une station : Yoyogi-Uehara, Sasazuka ou Ikejiri-Ohashi offrent un accès comparable pour 20 à 30 % de moins.
+- Pour un bail classique, préparez votre dossier et passez par une société de garantie (voir [comment trouver un appartement à Tokyo](/blog/trouver-appartement-tokyo-etranger)).
+
+Shibuya se mérite côté budget, mais c'est l'un des meilleurs points de chute pour qui veut vivre Tokyo à 100 %. Avec une share house ou une station d'écart, on y accède sans se ruiner.
+
+---
+
+*À lire aussi : [appartement meublé à Tokyo](/blog/appartement-meuble-tokyo-expats-top-5) et [share house à Tokyo](/blog/share-house-tokyo-guide-complet).*
+    `.trim(),
+  },
+  {
+    slug: 'frais-caches-location-tokyo',
+    locale: 'fr',
+    title: 'Les frais cachés d\'une location à Tokyo (et comment les éviter)',
+    description: 'Reikin, shikikin, frais d\'agence, garantie, renouvellement : tous les frais cachés d\'une location à Tokyo en 2026 et comment réduire la facture.',
+    date: '2026-06-28',
+    readingTime: '6 min',
+    content: `
+Le loyer affiché n'est que la partie visible. À Tokyo, signer un bail classique peut coûter 4 à 6 mois de loyer d'un seul coup. Voici tous les frais cachés, et comment les éviter.
+
+**Réponse rapide :** Sur un bail classique à Tokyo, prévoyez en plus du premier loyer : le reikin (argent-clé, 0 à 2 mois, non remboursable), le shikikin (caution, 1 à 2 mois, remboursable), les frais d'agence (1 mois), la société de garantie (0,5 à 1 mois/an) et l'assurance habitation (environ 20 000 JPY pour 2 ans). Soit 4 à 6 mois de loyer au départ. Les share houses et les meublés évitent la quasi-totalité de ces frais.
+
+## Les frais à l'entrée
+
+| Frais | Montant typique | Remboursable ? |
+|---|---|---|
+| Reikin (argent-clé) | 0-2 mois | Non |
+| Shikikin (caution) | 1-2 mois | Oui (moins réparations) |
+| Frais d'agence | 1 mois (+ taxe) | Non |
+| Société de garantie | 0,5-1 mois | Non |
+| Assurance habitation | ~20 000 JPY | Non |
+| Changement de serrure | 15 000-25 000 JPY | Non |
+
+## Les frais récurrents qu'on oublie
+
+- **Frais de renouvellement (更新料 koushinryou)** : souvent 1 mois de loyer tous les 2 ans.
+- **Frais de garantie annuels** : la société de garantie reprend environ 10 000 JPY ou 0,5 mois chaque année.
+- **Charges communes (共益費)** : parfois facturées en plus du loyer affiché.
+
+## Les pièges à vérifier avant de signer
+
+- Le reikin est-il négociable ? (souvent oui sur les biens qui peinent à se louer)
+- La caution couvre-t-elle un nettoyage forfaitaire imposé à la sortie ?
+- Y a-t-il des frais de résiliation anticipée ?
+- Demandez l'explication des points importants (重要事項説明) en anglais si nécessaire.
+
+## Comment éviter (presque) tous ces frais
+
+La quasi-totalité de ces frais disparaît avec une share house, un monthly mansion ou un meublé : pas de reikin, pas de frais d'agence, caution minime. C'est pourquoi ces options sont si populaires à l'arrivée (voir [le guide appartement meublé](/blog/appartement-meuble-tokyo-expats-top-5) et [le guide gaijin house](/blog/gaijin-house-tokyo-guide)).
+
+Connaître ces frais à l'avance, c'est éviter le choc de la première facture et savoir où négocier. Pour le détail du processus, voir [comment trouver un appartement à Tokyo](/blog/trouver-appartement-tokyo-etranger).
+
+---
+
+*À lire aussi : [appartement meublé à Tokyo](/blog/appartement-meuble-tokyo-expats-top-5) et [gaijin house à Tokyo](/blog/gaijin-house-tokyo-guide).*
+    `.trim(),
+  },
 
 ]
 

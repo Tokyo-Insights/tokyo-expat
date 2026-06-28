@@ -30,6 +30,42 @@ export const faqData: Record<string, FaqItem[]> = {
     },
   ],
 
+  'se-loger-shibuya-quartier-guide': [
+    {
+      question: 'Combien coûte un loyer à Shibuya ?',
+      answer:
+        'Comptez 100 000 à 150 000 JPY/mois pour un studio 1K, et 160 000 à 250 000 JPY pour un 1LDK. Une chambre en share house revient à 50 000-90 000 JPY/mois, sans garant ni argent-clé.',
+    },
+    {
+      question: 'Shibuya est-il un bon quartier pour les expatriés ?',
+      answer:
+        'Oui, pour qui aime l\'animation, les sorties et un accès de transport exceptionnel. C\'est moins adapté si vous cherchez le calme ou de grands espaces. Les rues derrière la gare (Tomigaya, Kamiyama) offrent un compromis résidentiel.',
+    },
+    {
+      question: 'Comment se loger à Shibuya sans garant ?',
+      answer:
+        'Optez pour une share house ou un logement meublé : ces options n\'exigent pas de garant japonais et permettent une installation en quelques jours. Vous pouvez aussi viser une station limitrophe pour réduire le loyer de 20 à 30 %.',
+    },
+  ],
+
+  'frais-caches-location-tokyo': [
+    {
+      question: 'Quels sont les frais cachés d\'une location à Tokyo ?',
+      answer:
+        'Sur un bail classique : reikin (argent-clé, 0-2 mois, non remboursable), shikikin (caution, 1-2 mois), frais d\'agence (1 mois), société de garantie (0,5-1 mois/an), assurance habitation (~20 000 JPY) et frais de renouvellement (souvent 1 mois tous les 2 ans).',
+    },
+    {
+      question: 'Combien faut-il prévoir pour entrer dans un appartement à Tokyo ?',
+      answer:
+        'Sur un bail classique, l\'entrée représente souvent 4 à 6 mois de loyer une fois tous les frais additionnés. Une share house ou un logement meublé réduit cela au premier mois plus une petite caution.',
+    },
+    {
+      question: 'Comment éviter le reikin et les frais d\'agence à Tokyo ?',
+      answer:
+        'En choisissant une share house, un monthly mansion ou un appartement meublé : ces formules suppriment le reikin et les frais d\'agence et ne demandent qu\'une caution minime. Sur un bail classique, le reikin est parfois négociable.',
+    },
+  ],
+
   // ============================================================
   // EN: Finding an apartment as a foreigner
   // ============================================================
