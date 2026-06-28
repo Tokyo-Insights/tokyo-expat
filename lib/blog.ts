@@ -7830,6 +7830,8 @@ Pour votre couverture sante pendant votre installation, [SafetyWing Nomad Insura
     content: `
 Finding a furnished apartment in Tokyo is one of the first urgent tasks for any expat arriving in Japan. You don't have furniture yet, you may not want to commit to a year-long lease immediately, and most traditional agencies require a Japanese guarantor you simply don't have.
 
+**Quick answer:** For most expats, the best furnished apartment option in Tokyo is a **share house** (40,000-120,000 JPY/month, no Japanese guarantor, move in within a week). For more privacy, a **monthly mansion** (80,000-200,000 JPY/month) gives you a private studio with an address usable for admin. For longer stays, a specialist agency arranges a **full furnished apartment** (100,000-300,000 JPY/month). None of these require a Japanese guarantor.
+
 Here are the 5 real options available to you, with their 2026 costs, pros, and limits.
 
 ## 1. Furnished Share House (40,000 to 120,000 JPY/month)
