@@ -30,11 +30,11 @@ except Exception:
 
 
 def tg(msg):
-    if not HAVE_TG: return
     try:
-        requests.post(f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage",
-                      json={"chat_id":TELEGRAM_CHAT_ID,"text":msg,"parse_mode":"HTML"},
-                      verify=False, timeout=15)
+        from notify import notify
+        notify(msg, source="bing_analytics",
+               token=TELEGRAM_TOKEN if HAVE_TG else None,
+               chat_id=TELEGRAM_CHAT_ID if HAVE_TG else None)
     except Exception as e:
         print("TG fail:", e)
 
