@@ -9782,6 +9782,135 @@ Connaître ces frais à l'avance, c'est éviter le choc de la première facture 
 *À lire aussi : [appartement meublé à Tokyo](/blog/appartement-meuble-tokyo-expats-top-5) et [gaijin house à Tokyo](/blog/gaijin-house-tokyo-guide).*
     `.trim(),
   },
+  {
+    slug: 'se-loger-nakano-quartier-guide',
+    locale: 'fr',
+    title: 'Se loger à Nakano : le bon plan à deux pas de Shinjuku (2026)',
+    description: 'Loyers, profil du quartier et bons plans pour se loger à Nakano en 2026 : la centralité de Shinjuku sans le prix du centre.',
+    date: '2026-06-28',
+    readingTime: '5 min',
+    content: `
+À une station de Shinjuku mais bien plus abordable, Nakano est l'un des meilleurs rapports qualité-prix de Tokyo pour un expatrié. Voici le profil du quartier et les loyers en 2026.
+
+**Réponse rapide :** Se loger à Nakano coûte 70 000 à 95 000 JPY/mois pour un studio 1K, soit 20 à 30 % de moins qu'à Shinjuku, à seulement 5 minutes en train. Le quartier est résidentiel mais vivant, célèbre pour Nakano Broadway et sa culture pop. Idéal pour qui veut la centralité sans le prix du centre.
+
+## Pourquoi choisir Nakano ?
+
+- 5 minutes de Shinjuku (ligne Chuo/Sobu), accès direct à tout Tokyo.
+- Nakano Broadway : temple de la sous-culture (manga, figurines, vintage).
+- Ambiance résidentielle, rues commerçantes (Sun Mall), restaurants abordables.
+
+## Combien coûte un logement à Nakano ?
+
+| Type | Loyer mensuel | Profil |
+|---|---|---|
+| Chambre en share house | 45 000-75 000 JPY | budget, sans garant |
+| Studio 1K (20-25 m²) | 70 000-95 000 JPY | célibataire |
+| 1LDK (30-45 m²) | 110 000-160 000 JPY | couple |
+
+## Le profil du quartier
+
+Nakano séduit ceux qui veulent vivre comme un local : marchés couverts, izakayas, vie de quartier authentique, tout en étant à 5 minutes du plus grand hub de Tokyo. Familles, étudiants et jeunes actifs s'y retrouvent. Plus on s'éloigne de la gare, plus c'est calme et abordable.
+
+## Se loger à Nakano malin
+
+- Share house : sans garant, installation rapide (voir [le guide gaijin house](/blog/gaijin-house-tokyo-guide)).
+- Stations voisines encore moins chères : Higashi-Nakano, Numabukuro, Araiyakushi-mae.
+- Pour un bail classique, anticipez les [frais cachés d'une location](/blog/frais-caches-location-tokyo).
+
+Nakano, c'est le compromis gagnant : l'accès de Shinjuku, le calme d'un quartier résidentiel, et un loyer qui laisse respirer le budget.
+
+---
+
+*À lire aussi : [se loger à Shibuya](/blog/se-loger-shibuya-quartier-guide) et [share house à Tokyo](/blog/share-house-tokyo-guide-complet).*
+    `.trim(),
+  },
+  {
+    slug: 'se-loger-ikebukuro-quartier-guide',
+    locale: 'fr',
+    title: 'Se loger à Ikebukuro : grand hub, loyers abordables (2026)',
+    description: 'Loyers, profil du quartier et bons plans pour se loger à Ikebukuro en 2026 : la puissance d\'un grand hub à un prix plus doux.',
+    date: '2026-06-28',
+    readingTime: '5 min',
+    content: `
+Ikebukuro est l'un des plus grands hubs de Tokyo, et l'un des plus abordables parmi les grands centres. Voici à quoi s'attendre côté logement en 2026.
+
+**Réponse rapide :** Se loger à Ikebukuro coûte 75 000 à 105 000 JPY/mois pour un studio 1K, plus abordable que Shibuya ou Shinjuku pour une centralité comparable. Énorme gare, shopping, Sunshine City : tout est sur place. Bon choix pour qui veut un grand hub sans le budget du sud-ouest de Tokyo.
+
+## Pourquoi choisir Ikebukuro ?
+
+- Hub majeur : Yamanote, Marunouchi, Fukutoshin, lignes privées vers Saitama.
+- Sunshine City, grands magasins, restaurants, vie nocturne.
+- Réputé plus abordable que les hubs du sud (Shibuya, Shinjuku).
+
+## Combien coûte un logement à Ikebukuro ?
+
+| Type | Loyer mensuel | Profil |
+|---|---|---|
+| Chambre en share house | 48 000-80 000 JPY | budget, sans garant |
+| Studio 1K (20-25 m²) | 75 000-105 000 JPY | célibataire |
+| 1LDK (30-45 m²) | 120 000-180 000 JPY | couple |
+
+## Le profil du quartier
+
+Ikebukuro est dense, animé et pratique. Le côté ouest est commerçant et nocturne ; le côté est, autour de Sunshine City, plus familial. À mesure qu'on s'éloigne de la gare (vers Mejiro, Kanamecho, Senkawa), on gagne en calme et on baisse le loyer.
+
+## Se loger à Ikebukuro malin
+
+- Share house : sans garant, rapide (voir [le guide gaijin house](/blog/gaijin-house-tokyo-guide)).
+- Stations voisines : Mejiro, Kanamecho, Shiinamachi, plus calmes et moins chères.
+- Anticipez les [frais cachés d'une location](/blog/frais-caches-location-tokyo) sur un bail classique.
+
+Ikebukuro offre la puissance d'un grand hub à un prix plus doux : idéal pour vivre au cœur de l'action sans le budget de Shibuya.
+
+---
+
+*À lire aussi : [se loger à Nakano](/blog/se-loger-nakano-quartier-guide) et [appartement meublé à Tokyo](/blog/appartement-meuble-tokyo-expats-top-5).*
+    `.trim(),
+  },
+  {
+    slug: 'se-loger-koenji-quartier-guide',
+    locale: 'fr',
+    title: 'Se loger à Koenji : le quartier bohème et abordable de Tokyo (2026)',
+    description: 'Loyers, profil du quartier et bons plans pour se loger à Koenji en 2026 : le repaire créatif de Tokyo à petit prix.',
+    date: '2026-06-28',
+    readingTime: '5 min',
+    content: `
+Koenji est le repaire bohème de Tokyo : musique live, friperies, izakayas, et des loyers parmi les plus doux de la ligne Chuo. Voici le guide logement 2026.
+
+**Réponse rapide :** Se loger à Koenji coûte 65 000 à 88 000 JPY/mois pour un studio 1K, un excellent rapport qualité-prix à 10 minutes de Shinjuku. Quartier jeune, créatif et convivial, célèbre pour ses friperies, sa scène musicale et ses petits restaurants. Idéal pour un budget serré sans sacrifier l'ambiance.
+
+## Pourquoi choisir Koenji ?
+
+- 10 minutes de Shinjuku (ligne Chuo/Sobu).
+- Capitale de la friperie, scène indie et rock, festivals de quartier (Awaodori).
+- Loyers doux, vie de quartier chaleureuse, restaurants bon marché.
+
+## Combien coûte un logement à Koenji ?
+
+| Type | Loyer mensuel | Profil |
+|---|---|---|
+| Chambre en share house | 42 000-70 000 JPY | budget, sans garant |
+| Studio 1K (18-23 m²) | 65 000-88 000 JPY | célibataire |
+| 1LDK (28-40 m²) | 100 000-145 000 JPY | couple |
+
+## Le profil du quartier
+
+Koenji attire artistes, étudiants et jeunes actifs en quête d'authenticité. L'atmosphère est décontractée et créative, loin du clinquant de Shibuya. Les ruelles fourmillent de bars minuscules et de boutiques vintage. C'est l'un des quartiers les plus attachants de Tokyo.
+
+## Se loger à Koenji malin
+
+- Share house : sans garant, installation rapide (voir [le guide gaijin house](/blog/gaijin-house-tokyo-guide)).
+- Stations voisines de la Chuo : Asagaya, Higashi-Koenji, Shin-Koenji.
+- Pensez aux [frais cachés d'une location](/blog/frais-caches-location-tokyo) sur un bail classique.
+
+Koenji, c'est l'âme de Tokyo à petit prix : du caractère, une communauté, et un loyer qui laisse de quoi en profiter.
+
+---
+
+*À lire aussi : [se loger à Nakano](/blog/se-loger-nakano-quartier-guide) et [share house à Tokyo](/blog/share-house-tokyo-guide-complet).*
+    `.trim(),
+  },
 
 ]
 
