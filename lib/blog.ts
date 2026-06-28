@@ -10165,6 +10165,176 @@ Sangenjaya, c'est Shibuya à portée de marche, avec le charme d'un quartier viv
 *À lire aussi : [se loger à Shibuya](/blog/se-loger-shibuya-quartier-guide) et [share house à Tokyo](/blog/share-house-tokyo-guide-complet).*
     `.trim(),
   },
+  {
+    slug: 'living-shibuya-housing-guide',
+    locale: 'en',
+    title: 'Living in Shibuya: Rent, Neighbourhood Profile and Tips (2026)',
+    description: 'How much housing costs in Shibuya, what the neighbourhood is like, and how to move in without blowing your budget in 2026.',
+    date: '2026-06-28',
+    readingTime: '5 min',
+    content: `
+Shibuya is one of Tokyo's most sought-after neighbourhoods, and one of the most expensive. Here is what to expect on housing in 2026, and how to live there without blowing your budget.
+
+**Quick answer:** Living in Shibuya costs around 100,000 to 150,000 JPY/month for a small 1K, more for a 1LDK. The area offers unmatched transport access, intense nightlife and culture, but little space for the price. To live there affordably, target a share house (50,000-90,000 JPY) or a neighbouring district with better value.
+
+## Why choose Shibuya?
+
+- A major transport hub: JR Yamanote, Ginza, Hanzomon, Fukutoshin, Den-en-toshi.
+- The epicentre of fashion, youth culture, cafes and nightlife.
+- Quiet residential pockets a short walk away: Tomigaya, Shoto, Kamiyama.
+
+## How much does housing cost in Shibuya?
+
+| Type | Monthly rent | Profile |
+|---|---|---|
+| Share house room | 50,000-90,000 JPY | budget, no guarantor |
+| 1K studio (20-25 m²) | 100,000-150,000 JPY | single, central |
+| 1LDK (30-45 m²) | 160,000-250,000 JPY | couple, comfort |
+
+On a standard lease, add key money (1-2 months), deposit (1-2 months) and agency fees, so move-in can reach 4-6 months of rent.
+
+## The neighbourhood profile
+
+Shibuya is young, dense and lively. Ideal if you love the buzz and being at the centre of everything, less so if you want quiet or space. The streets behind the station (Tomigaya, Kamiyama) offer a good compromise.
+
+## Living in Shibuya affordably
+
+- Target a share house: no guarantor, no key money, move in within days (see our [gaijin house guide](/blog/gaijin-house-tokyo-guide)).
+- Widen by one station: Yoyogi-Uehara, Sasazuka or Ikejiri-Ohashi give comparable access for 20-30% less.
+
+Shibuya costs more, but it is one of the best bases for living Tokyo to the full. With a share house or one station out, you can reach it without overspending.
+
+---
+
+*See also: [furnished apartments in Tokyo](/blog/furnished-apartment-tokyo-top-5-expats) and [how to find an apartment in Tokyo as a foreigner](/blog/find-apartment-tokyo-foreigner).*
+    `.trim(),
+  },
+  {
+    slug: 'living-nakano-housing-guide',
+    locale: 'en',
+    title: 'Living in Nakano: Great Value One Stop from Shinjuku (2026)',
+    description: 'Rent, neighbourhood profile and tips for living in Nakano in 2026: Shinjuku-level access without the central price tag.',
+    date: '2026-06-28',
+    readingTime: '5 min',
+    content: `
+One station from Shinjuku but far more affordable, Nakano is one of Tokyo's best value picks for an expat. Here is the neighbourhood profile and rents in 2026.
+
+**Quick answer:** Living in Nakano costs 70,000 to 95,000 JPY/month for a 1K studio, around 20-30% less than Shinjuku, just 5 minutes away by train. It is residential yet lively, famous for Nakano Broadway and its pop culture. Ideal for central access without central prices.
+
+## Why choose Nakano?
+
+- 5 minutes from Shinjuku (Chuo/Sobu line), direct access across Tokyo.
+- Nakano Broadway: a temple of subculture (manga, figures, vintage).
+- Residential feel, shopping streets (Sun Mall), affordable restaurants.
+
+## How much does housing cost in Nakano?
+
+| Type | Monthly rent | Profile |
+|---|---|---|
+| Share house room | 45,000-75,000 JPY | budget, no guarantor |
+| 1K studio (20-25 m²) | 70,000-95,000 JPY | single |
+| 1LDK (30-45 m²) | 110,000-160,000 JPY | couple |
+
+## The neighbourhood profile
+
+Nakano appeals to those who want to live like a local: covered markets, izakayas and a real neighbourhood feel, while being 5 minutes from Tokyo's biggest hub. The further from the station, the quieter and cheaper.
+
+## Living in Nakano smartly
+
+- Share house: no guarantor, quick move-in (see our [gaijin house guide](/blog/gaijin-house-tokyo-guide)).
+- Cheaper nearby stations: Higashi-Nakano, Numabukuro, Araiyakushi-mae.
+
+Nakano is the winning compromise: Shinjuku access, a calm residential feel, and rent that lets your budget breathe.
+
+---
+
+*See also: [furnished apartments in Tokyo](/blog/furnished-apartment-tokyo-top-5-expats) and [gaijin house in Tokyo](/blog/gaijin-house-tokyo-guide).*
+    `.trim(),
+  },
+  {
+    slug: 'living-ikebukuro-housing-guide',
+    locale: 'en',
+    title: 'Living in Ikebukuro: Big Hub, Affordable Rent (2026)',
+    description: 'Rent, neighbourhood profile and tips for living in Ikebukuro in 2026: the power of a major hub at a gentler price than Shibuya.',
+    date: '2026-06-28',
+    readingTime: '5 min',
+    content: `
+Ikebukuro is one of Tokyo's largest hubs, and one of the most affordable among the major centres. Here is what to expect on housing in 2026.
+
+**Quick answer:** Living in Ikebukuro costs 75,000 to 105,000 JPY/month for a 1K studio, more affordable than Shibuya or Shinjuku for comparable centrality. A huge station, shopping and Sunshine City put everything on your doorstep. A solid pick for a major hub without the south-west Tokyo budget.
+
+## Why choose Ikebukuro?
+
+- A major hub: Yamanote, Marunouchi, Fukutoshin, private lines to Saitama.
+- Sunshine City, department stores, restaurants, nightlife.
+- Known to be more affordable than the southern hubs (Shibuya, Shinjuku).
+
+## How much does housing cost in Ikebukuro?
+
+| Type | Monthly rent | Profile |
+|---|---|---|
+| Share house room | 48,000-80,000 JPY | budget, no guarantor |
+| 1K studio (20-25 m²) | 75,000-105,000 JPY | single |
+| 1LDK (30-45 m²) | 120,000-180,000 JPY | couple |
+
+## The neighbourhood profile
+
+Ikebukuro is dense, lively and practical. The west side is shopping and nightlife; the east, around Sunshine City, is more family-oriented. As you move away from the station (towards Mejiro, Kanamecho, Senkawa), it gets quieter and cheaper.
+
+## Living in Ikebukuro smartly
+
+- Share house: no guarantor, quick (see our [gaijin house guide](/blog/gaijin-house-tokyo-guide)).
+- Nearby stations: Mejiro, Kanamecho, Shiinamachi, calmer and cheaper.
+
+Ikebukuro offers the power of a major hub at a gentler price: ideal for living at the heart of the action without the Shibuya budget.
+
+---
+
+*See also: [living in Nakano](/blog/living-nakano-housing-guide) and [furnished apartments in Tokyo](/blog/furnished-apartment-tokyo-top-5-expats).*
+    `.trim(),
+  },
+  {
+    slug: 'living-koenji-housing-guide',
+    locale: 'en',
+    title: 'Living in Koenji: Tokyo\'s Bohemian, Affordable District (2026)',
+    description: 'Rent, neighbourhood profile and tips for living in Koenji in 2026: Tokyo\'s creative hideout at a small price.',
+    date: '2026-06-28',
+    readingTime: '5 min',
+    content: `
+Koenji is Tokyo's bohemian hideout: live music, vintage shops, izakayas, and some of the gentlest rents on the Chuo line. Here is the 2026 housing guide.
+
+**Quick answer:** Living in Koenji costs 65,000 to 88,000 JPY/month for a 1K studio, excellent value 10 minutes from Shinjuku. A young, creative and friendly district famous for its vintage shops, music scene and small restaurants. Ideal for a tight budget without giving up atmosphere.
+
+## Why choose Koenji?
+
+- 10 minutes from Shinjuku (Chuo/Sobu line).
+- The capital of vintage clothing, an indie and rock scene, neighbourhood festivals (Awa Odori).
+- Gentle rents, a warm neighbourhood feel, cheap restaurants.
+
+## How much does housing cost in Koenji?
+
+| Type | Monthly rent | Profile |
+|---|---|---|
+| Share house room | 42,000-70,000 JPY | budget, no guarantor |
+| 1K studio (18-23 m²) | 65,000-88,000 JPY | single |
+| 1LDK (28-40 m²) | 100,000-145,000 JPY | couple |
+
+## The neighbourhood profile
+
+Koenji draws artists, students and young professionals after authenticity. The vibe is relaxed and creative, far from Shibuya's gloss. The lanes are full of tiny bars and vintage shops. One of Tokyo's most endearing districts.
+
+## Living in Koenji smartly
+
+- Share house: no guarantor, quick move-in (see our [gaijin house guide](/blog/gaijin-house-tokyo-guide)).
+- Nearby Chuo stations: Asagaya, Higashi-Koenji, Shin-Koenji.
+
+Koenji is the soul of Tokyo on a budget: character, community, and rent that leaves you something to enjoy it with.
+
+---
+
+*See also: [living in Nakano](/blog/living-nakano-housing-guide) and [furnished apartments in Tokyo](/blog/furnished-apartment-tokyo-top-5-expats).*
+    `.trim(),
+  },
 
 ]
 
@@ -10220,6 +10390,10 @@ export const TWIN_SLUGS: Record<string, string> = {
   'appartement-tokyo-entrepreneur-freelance':   'renting-tokyo-entrepreneur-startup-guide',
   'relocation-entreprise-tokyo-guide-rh':       'corporate-relocation-tokyo-hr-housing-guide',
   'ebisu-daikanyama-nakameguro-guide-expatries': 'ebisu-daikanyama-nakameguro-expat-guide',
+  'se-loger-shibuya-quartier-guide': 'living-shibuya-housing-guide',
+  'se-loger-nakano-quartier-guide': 'living-nakano-housing-guide',
+  'se-loger-ikebukuro-quartier-guide': 'living-ikebukuro-housing-guide',
+  'se-loger-koenji-quartier-guide': 'living-koenji-housing-guide',
 }
 
 export function getTwinSlug(slug: string, locale: Locale): string | undefined {
