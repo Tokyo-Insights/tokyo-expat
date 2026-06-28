@@ -125,6 +125,8 @@ Pour votre couverture sante pendant la recherche de logement, [SafetyWing Nomad 
     content: `
 Le share house est la porte d'entrée la plus accessible au marché locatif tokyoïte pour un étranger. Pas de reikin, pas de garant, installation en quelques jours. Mais le modèle a ses règles et ses pièges.
 
+**Réponse rapide :** Un share house à Tokyo coûte 45 000 à 90 000 JPY/mois, sans reikin ni garant japonais, avec une installation possible en quelques jours. Chaque résident a une chambre privée (8 à 16 m²) et partage cuisine, salle de bains et salon. Les charges (eau, électricité, internet) sont souvent incluses. C'est l'option la plus accessible pour un étranger qui arrive à Tokyo.
+
 ## Qu'est-ce qu'un share house au Japon ?
 
 Un share house (シェアハウス) est une maison ou un appartement où plusieurs résidents partagent les espaces communs : cuisine, salle de bains, salon. Chaque résident dispose d'une chambre privée, généralement de 8 à 16m2.
@@ -3414,6 +3416,8 @@ For expats without interim health coverage, [SafetyWing Nomad Insurance](https:/
     readingTime: '8 min',
     content: `
 Tokyo attire chaque année des milliers d'étudiants étrangers, notamment des francophones venus de France, de Belgique, du Canada ou de Suisse pour des échanges universitaires, des masters ou des programmes de langue. Trouver un logement satisfaisant dans une ville aussi dense peut sembler intimidant. Ce guide couvre toutes les options disponibles en 2026, avec les budgets réels et les calendriers à respecter.
+
+**Réponse rapide :** Pour un étudiant francophone à Tokyo, l'option la moins chère est la résidence universitaire (学生寮) à 30 000-60 000 JPY/mois tout compris, mais les places sont limitées et à demander tôt. Un share house (45 000-90 000 JPY/mois, sans garant) offre flexibilité et vie sociale immédiate. Les appartements meublés conviennent pour plus d'intimité. Réservez idéalement 2 à 3 mois avant la rentrée.
 
 ## Les résidences universitaires (学生寮 gakusei ryou)
 
