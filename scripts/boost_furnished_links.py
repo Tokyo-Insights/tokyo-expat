@@ -28,6 +28,11 @@ SOURCES = {
     'find-apartment-tokyo-foreigner':    'en',
     'tokyo-apartment-hunting-from-abroad': 'en',
     'jiko-bukken-cheap-apartments-tokyo': 'en',
+    'tokyo-rental-traps-foreigners': 'en',
+    'tokyo-rent-by-neighborhood-2026': 'en',
+    'guarantor-japan-rental-foreigner': 'en',
+    'rental-application-rejected-japan-foreigner': 'en',
+    'share-house-tokyo-guide-2026': 'en',
 }
 
 

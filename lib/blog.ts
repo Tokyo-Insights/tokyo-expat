@@ -1280,7 +1280,7 @@ The best operators have clear communication channels, English-speaking staff, an
 For health coverage during your share house stay, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) offers monthly insurance with no commitment. To improve your Japanese with housemates, [iTalki](https://www.italki.com/affshare?ref=af32660342) offers private lessons with native teachers from $10/hour. *(affiliate links)*
 ---
 
-*See also: [Gaijin House vs Share House in Tokyo: What Is the Difference?](/blog/gaijin-house-vs-share-house-tokyo).*
+*See also: [Gaijin House vs Share House in Tokyo: What Is the Difference?](/blog/gaijin-house-vs-share-house-tokyo), [Furnished Apartment Tokyo: 5 Best Options for Expats in 2026](/blog/furnished-apartment-tokyo-top-5-expats).*
 
 *Need help finding the right share house in Tokyo for your arrival date and budget? Book a free 30-minute consultation.*
     `.trim(),
@@ -2896,7 +2896,7 @@ All seven traps are avoidable with the right preparation and the right support.
 For health coverage during your apartment search, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) offers monthly insurance with no commitment. To negotiate in Japanese with agencies, [iTalki](https://www.italki.com/affshare?ref=af32660342) offers lessons with native teachers from $10/hour. *(affiliate links)*
 ---
 
-*See also: [Negotiating Rent in Tokyo: Is It Possible and How to Do It?](/blog/negotiating-rent-tokyo-tips), [Tokyo Rental Contract: 12 Things to Check Before Signing](/blog/tokyo-rental-contract-checklist), [Tokyo Rent by Neighborhood 2026: Expat Price Guide](/blog/tokyo-rent-by-neighborhood-2026), [Rental Application Rejected in Japan: What to Do Next](/blog/rental-application-rejected-japan-foreigner).*
+*See also: [Negotiating Rent in Tokyo: Is It Possible and How to Do It?](/blog/negotiating-rent-tokyo-tips), [Tokyo Rental Contract: 12 Things to Check Before Signing](/blog/tokyo-rental-contract-checklist), [Tokyo Rent by Neighborhood 2026: Expat Price Guide](/blog/tokyo-rent-by-neighborhood-2026), [Rental Application Rejected in Japan: What to Do Next](/blog/rental-application-rejected-japan-foreigner), [Furnished Apartment Tokyo: 5 Best Options for Expats in 2026](/blog/furnished-apartment-tokyo-top-5-expats).*
 
 *Found an apartment in Tokyo and want the contract reviewed before signing? Contact us for a consultation.*
     `.trim(),
@@ -3253,6 +3253,8 @@ To avoid the [classic traps of renting in Tokyo](/en/blog/tokyo-rental-traps-for
 
 For health coverage while navigating the guarantor process, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) offers monthly insurance with no commitment. To communicate with your guarantor in Japanese, [iTalki](https://www.italki.com/affshare?ref=af32660342) offers lessons with native teachers from $10/hour. *(affiliate links)*
 ---
+
+*See also: [Furnished Apartment Tokyo: 5 Best Options for Expats in 2026](/blog/furnished-apartment-tokyo-top-5-expats).*
 
 *Looking for an apartment in Tokyo and stuck on the guarantor requirement? Book a free consultation: we'll assess your profile and identify the best-fit properties for your situation.*
     `.trim(),
@@ -8163,7 +8165,7 @@ For furnished apartments or monthly mansions, entry costs are typically lower (1
 For health coverage during your apartment search, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) offers monthly insurance with no commitment. To explore neighbourhoods before choosing, [GetYourGuide](https://www.getyourguide.com/tokyo-l193/?partner_id=4LP5PLT&utm_medium=online_publisher) offers guided tours across Tokyo. *(affiliate links)*
 ---
 
-*Read next: [furnished apartments in Tokyo with no guarantor](/blog/furnished-apartment-tokyo-no-guarantor) and [Hiroo and Minami-Azabu expat neighborhood guide](/blog/hiroo-minami-azabu-expat-neighborhood-guide), [Negotiating Rent in Tokyo: Is It Possible and How to Do It?](/blog/negotiating-rent-tokyo-tips), [7 Rental Traps to Avoid When Renting in Tokyo as a Foreigner](/blog/tokyo-rental-traps-foreigners), [Tokyo Rental Contract: 12 Things to Check Before Signing](/blog/tokyo-rental-contract-checklist).*
+*Read next: [furnished apartments in Tokyo with no guarantor](/blog/furnished-apartment-tokyo-no-guarantor) and [Hiroo and Minami-Azabu expat neighborhood guide](/blog/hiroo-minami-azabu-expat-neighborhood-guide), [Negotiating Rent in Tokyo: Is It Possible and How to Do It?](/blog/negotiating-rent-tokyo-tips), [7 Rental Traps to Avoid When Renting in Tokyo as a Foreigner](/blog/tokyo-rental-traps-foreigners), [Tokyo Rental Contract: 12 Things to Check Before Signing](/blog/tokyo-rental-contract-checklist), [Furnished Apartment Tokyo: 5 Best Options for Expats in 2026](/blog/furnished-apartment-tokyo-top-5-expats).*
     `.trim(),
   },
   {
@@ -8922,7 +8924,7 @@ If your application was just rejected and your timeline is tight, the most effic
 For health coverage while you continue your search, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) offers monthly insurance with no commitment. To improve your Japanese and communicate better with agencies, [iTalki](https://www.italki.com/affshare?ref=af32660342) offers lessons with native teachers from $10/hour. *(affiliate links)*
 ---
 
-*Read next: [How to find an apartment in Tokyo as a foreigner](/blog/find-apartment-tokyo-foreigner) and [common rental traps in Tokyo](/blog/tokyo-rental-traps-foreigners).*
+*Read next: [How to find an apartment in Tokyo as a foreigner](/blog/find-apartment-tokyo-foreigner) and [common rental traps in Tokyo](/blog/tokyo-rental-traps-foreigners), [Furnished Apartment Tokyo: 5 Best Options for Expats in 2026](/blog/furnished-apartment-tokyo-top-5-expats).*
     `.trim(),
   },
   {
