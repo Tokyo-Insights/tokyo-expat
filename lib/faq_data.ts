@@ -7,6 +7,29 @@ export interface FaqItem {
 // Used by blog/[slug]/page.tsx to inject FAQPage JSON-LD + render visual accordion
 export const faqData: Record<string, FaqItem[]> = {
 
+  'gaijin-house-tokyo-guide': [
+    {
+      question: 'What is a gaijin house in Tokyo?',
+      answer:
+        'A gaijin house is a shared residence aimed at foreigners, offering a private furnished room with shared kitchen and bathroom. It requires no Japanese guarantor and no key money, and you can usually move in within days.',
+    },
+    {
+      question: 'How much does a gaijin house cost per month?',
+      answer:
+        'Rooms typically run 40,000 to 80,000 JPY per month, with dorm beds from around 30,000 JPY and central private rooms up to 100,000 JPY. Utilities are often included, and there is a one-time admin fee of 10,000 to 30,000 JPY instead of key money.',
+    },
+    {
+      question: 'Do you need a guarantor for a gaijin house?',
+      answer:
+        'No. Gaijin houses are designed for foreigners without a Japanese guarantor. You generally only need a passport, a valid visa, and proof of funds, and many operators accept bookings from abroad.',
+    },
+    {
+      question: 'What is the difference between a gaijin house and a share house?',
+      answer:
+        'The two have largely merged. Both offer furnished private rooms with shared common areas and no guarantor. "Gaijin house" historically referred to foreigner-focused shared housing, while "share house" is the broader modern term used across Japan.',
+    },
+  ],
+
   // ============================================================
   // EN: Finding an apartment as a foreigner
   // ============================================================

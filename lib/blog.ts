@@ -9623,6 +9623,73 @@ To discover the food scene of these upscale residential neighbourhoods, [Arigato
 *Read next: [Tokyo neighborhoods guide for expats](/blog/tokyo-neighbourhoods-expats-guide) and [how to find an apartment in Tokyo as a foreigner](/blog/find-apartment-tokyo-foreigner).*
     `.trim(),
   },
+  {
+    slug: 'gaijin-house-tokyo-guide',
+    locale: 'en',
+    title: 'Gaijin House Tokyo: Complete Guide for Foreigners (2026)',
+    description: 'What a gaijin house is, real 2026 costs, pros and cons, and how to secure a room in Tokyo with no Japanese guarantor and no key money.',
+    date: '2026-06-28',
+    readingTime: '6 min',
+    content: `
+A gaijin house is often the first home a foreigner has in Tokyo. It is cheap, flexible, and skips the obstacles that lock newcomers out of the traditional rental market. Here is exactly how it works in 2026.
+
+**Quick answer:** A gaijin house is a shared residence in Tokyo aimed at foreigners, offering a private furnished room with shared kitchen and bathroom, no Japanese guarantor, no key money, and move-in within days. Rooms run 40,000 to 80,000 JPY/month with utilities often included. It is the fastest and cheapest legal way for a newcomer to get a Tokyo address.
+
+## What is a gaijin house?
+
+"Gaijin house" (外人ハウス) literally means "foreigner house." The term dates back to the 1990s, when a few operators began renting shared rooms to foreigners locked out of the standard rental market. Today the line between a gaijin house and a modern share house has blurred: both offer furnished private rooms with shared common areas, managed by a professional operator.
+
+What still defines a gaijin house is its purpose: housing built around foreign residents who do not have a Japanese guarantor, a local bank account, or fluent Japanese. You sign in English, pay a small deposit instead of key money, and move in within days.
+
+## How much does a gaijin house cost?
+
+| Room type | Monthly rent | Deposit | Utilities |
+|---|---|---|---|
+| Dorm bed (shared room) | 30,000-45,000 JPY | minimal | usually included |
+| Private room (standard) | 45,000-70,000 JPY | ~1 month | often included |
+| Private room (central) | 70,000-100,000 JPY | ~1 month | often included |
+
+Beyond rent, expect a one-time admin and cleaning fee of 10,000 to 30,000 JPY. There is no reikin (key money) and no agency commission, which is what makes a gaijin house dramatically cheaper to move into than a standard apartment, where you can pay 4 to 6 months upfront.
+
+## Gaijin house vs share house vs apartment
+
+- **Gaijin house / share house:** no guarantor, furnished, move in within a week, social environment, small private space. Best for newcomers and tight budgets.
+- **Monthly mansion:** a private studio with your own kitchen and bathroom, no guarantor, 80,000 to 200,000 JPY/month. Best when you want privacy and a usable address for admin.
+- **Standard apartment:** real floor space and a long lease, but requires a guarantor (or guarantee company), key money, and a 2 to 4 week process.
+
+For the full comparison, see our [furnished apartment guide](/blog/furnished-apartment-tokyo-top-5-expats) and our [complete share house guide](/blog/share-house-tokyo-guide-2026).
+
+## Who is a gaijin house for?
+
+A gaijin house makes the most sense if you:
+- are arriving in Japan within a few weeks and need a confirmed address fast,
+- do not yet have a Japanese guarantor or bank account,
+- want to keep your first months flexible while you learn the city,
+- value meeting other residents over having a large private space.
+
+It is less suited to families, couples wanting full privacy, or anyone planning to stay several years in one place, where a [standard apartment](/blog/trouver-appartement-tokyo-etranger) becomes more economical.
+
+## Which Tokyo areas to look at
+
+Gaijin houses cluster around lines with good access and younger residential districts. The wards just outside the Yamanote loop, Nakano, Koenji, Kita and Itabashi, give you the same central access for noticeably less than Shibuya or Shinjuku. Premium rooms do exist in central wards if your budget allows.
+
+## How to secure a room
+
+1. Decide your budget and whether you want a dorm or a private room.
+2. Shortlist properties by train line and commute, not just by ward.
+3. Apply online: most operators accept bookings from abroad with a passport and visa.
+4. Confirm what is included (utilities, internet, bedding) before you sign.
+5. Arrange move-in, many rooms are available within a week.
+
+For a smooth arrival, line up your housing before you land, then handle your [residence card and bank account](/blog/ouvrir-compte-bancaire-japon-etranger) in your first days.
+
+A gaijin house is rarely where expats stay forever, but it is the single easiest door into Tokyo. It buys you a real address, time to learn the city, and zero guarantor stress, exactly what you need in your first months.
+
+---
+
+*See also: [furnished apartments in Tokyo](/blog/furnished-apartment-tokyo-top-5-expats) and [how to find an apartment in Tokyo as a foreigner](/blog/find-apartment-tokyo-foreigner).*
+    `.trim(),
+  },
 
 ]
 
