@@ -50,11 +50,14 @@ except Exception:
 
 
 def send_telegram(msg: str):
+    if not HAVE_TELEGRAM:
+        return
     try:
-        from notify import notify
-        notify(msg, source="gsc_analytics",
-               token=TELEGRAM_TOKEN if HAVE_TELEGRAM else None,
-               chat_id=TELEGRAM_CHAT_ID if HAVE_TELEGRAM else None)
+        requests.post(
+            f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage",
+            json={"chat_id": TELEGRAM_CHAT_ID, "text": msg, "parse_mode": "HTML"},
+            verify=VERIFY_SSL, timeout=20,
+        )
     except Exception as e:
         print(f"Telegram failed: {e}")
 

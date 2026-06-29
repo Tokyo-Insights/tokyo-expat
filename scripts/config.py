@@ -45,3 +45,37 @@ GMAIL_APP_PASSWORD = os.environ.get("GMAIL_APP_PASSWORD", "")
 # Perplexity AI (pour ai_visibility_monitor.py)
 # Obtenir : perplexity.ai -> Settings -> API -> Generate
 PERPLEXITY_API_KEY = os.environ.get("PERPLEXITY_API_KEY", "")
+
+# Bing Webmaster API (pour bing_analytics.py)
+BING_API_KEY = os.environ.get("BING_API_KEY", "")
+
+# ============================================================
+# JOURNAL TELEGRAM AUTOMATIQUE (patch global)
+# Tout script qui importe config + envoie un message Telegram via requests.post
+# est journalise dans data/telegram_log.jsonl. => Claude lit ce journal chaque
+# matin pour voir 100% des alertes (l'API bot ne permet pas de relire ses envois).
+# Transparent: passe tout a la fonction d'origine, ne logge que les sendMessage.
+# ============================================================
+import json as _json, datetime as _dt
+import requests as _rq
+_TG_LOG = Path(__file__).parent / "data" / "telegram_log.jsonl"
+if not getattr(_rq.post, "_tg_logged", False):
+    _orig_post = _rq.post
+    def _logged_post(url, *args, **kwargs):
+        try:
+            if "api.telegram.org" in str(url) and "sendMessage" in str(url):
+                payload = kwargs.get("json") or {}
+                msg = payload.get("text", "")
+                if msg:
+                    _TG_LOG.parent.mkdir(exist_ok=True)
+                    with open(_TG_LOG, "a", encoding="utf-8") as _f:
+                        _f.write(_json.dumps({
+                            "at": _dt.datetime.now().isoformat(timespec="seconds"),
+                            "source": "auto",
+                            "msg": msg,
+                        }, ensure_ascii=False) + "\n")
+        except Exception:
+            pass
+        return _orig_post(url, *args, **kwargs)
+    _logged_post._tg_logged = True
+    _rq.post = _logged_post
