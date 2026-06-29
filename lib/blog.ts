@@ -10805,6 +10805,268 @@ Two weeks is not enough for a standard lease, but it is plenty for a stable, fur
 *See also: [apartment hunting from abroad](/blog/tokyo-apartment-hunting-from-abroad) and [furnished apartment without a guarantor](/blog/furnished-apartment-tokyo-no-guarantor).*
     `.trim(),
   },
+  {
+    slug: 'demenager-tokyo-ete-juillet-aout',
+    locale: 'fr',
+    title: 'Déménager à Tokyo en été : timing, chaleur et coûts',
+    description: 'Déménager à Tokyo en juillet-août ? Le marché locatif est plus calme et souvent moins cher qu\'au printemps. Timing, chaleur, Obon et budget : le guide complet.',
+    date: '2026-06-29',
+    readingTime: '7 min',
+    content: `
+L'été est la saison oubliée du marché locatif tokyoïte. Tout le monde parle du printemps (mars-avril, déménagements de masse) et de la rentrée d'octobre, mais juillet et août forment un creux que peu d'étrangers exploitent. Pourtant, déménager à Tokyo en plein été a de vrais avantages, à condition d'anticiper la chaleur et quelques pièges de calendrier.
+
+**Réponse rapide :** Déménager à Tokyo en juillet-août se fait sur un marché plus calme qu'au printemps : moins de concurrence, propriétaires plus ouverts à la négociation, biens disponibles plus longtemps. Les contraintes : chaleur et humidité extrêmes (vérifiez la climatisation), la semaine d'Obon mi-août qui ralentit agences et déménageurs, et la saison des typhons qui démarre. Bien géré, l'été est un bon moment pour trouver, souvent moins cher.
+
+## Pourquoi l'été est un marché creux (et pourquoi c'est une bonne nouvelle)
+
+Au Japon, l'essentiel des déménagements se concentre en février-avril, autour du début de l'année fiscale et scolaire. En juillet-août, la demande retombe : moins de candidats sur chaque bien, des annonces qui restent en ligne plusieurs semaines, et des propriétaires plus enclins à discuter le loyer ou les frais d'entrée pour ne pas laisser un logement vide.
+
+Pour un étranger, c'est une fenêtre favorable. Vous avez le temps de comparer, de visiter sans pression, et une vraie marge pour [négocier le loyer](/blog/negocier-loyer-tokyo-conseils). À l'inverse, en mars, les meilleurs biens partent en 48 heures et toute négociation est illusoire.
+
+## La chaleur : votre première priorité
+
+L'été tokyoïte est brutal : 33 à 36 °C en journée, nuits tropicales, humidité proche de la saturation. Le logement n'est pas un détail de confort, c'est une question de vivabilité.
+
+Points à vérifier avant de signer :
+- **Climatisation** dans chaque pièce principale (l'unité doit être présente et fonctionnelle, pas seulement "possible à installer").
+- **Orientation** : un appartement plein sud sans protection chauffe énormément l'après-midi.
+- **Étage et ventilation** : les derniers étages sous une toiture mal isolée deviennent des fours.
+
+Pensez aussi aux frais de mise en service de l'électricité et de l'internet dès l'emménagement, détaillés dans [le guide des utilités](/blog/internet-utilitaires-tokyo-appartement).
+
+## Le piège du calendrier : Obon
+
+La semaine d'Obon, autour du 13-16 août, est l'une des principales périodes de congés au Japon. Beaucoup d'agences immobilières, de sociétés de garantie et de déménageurs tournent au ralenti ou ferment. Un dossier déposé juste avant Obon peut rester bloqué une semaine.
+
+Règle simple : si vous visez un emménagement en août, bouclez la signature et la logistique avant le 10 août, ou prévoyez un emménagement après le 20. Réservez votre déménageur tôt, les créneaux d'été partent vite malgré le creux locatif.
+
+## Typhons : choisir un logement qui tient
+
+La saison des typhons démarre en été et culmine de la fin août à octobre. Sans tomber dans la peur, deux réflexes utiles : évitez les rez-de-chaussée et sous-sols dans les zones basses proches des rivières, et renseignez-vous sur la carte des risques (hazard map) de l'arrondissement avant de signer. Ce n'est pas un motif pour renoncer à un quartier, juste un critère de plus, surtout au rez-de-chaussée.
+
+## Budget : où l'été fait gagner de l'argent
+
+| Poste | Printemps (haute saison) | Été (creux) |
+|---|---|---|
+| Marge de négociation | quasi nulle | réelle (frais d'entrée, 1er mois) |
+| Disponibilité des biens | tendue | confortable |
+| Tarif déménageur | élevé | variable, réserver tôt |
+
+Le loyer affiché ne change pas radicalement selon la saison, mais ce que vous pouvez obtenir en plus (un mois offert, des frais réduits, du mobilier laissé) penche en votre faveur l'été. Pour situer les niveaux de loyer par zone, voyez [les loyers par quartier](/blog/loyers-tokyo-par-quartier-2026).
+
+## Et si vous visez plutôt septembre-octobre ?
+
+Si votre arrivée tombe à la rentrée, la dynamique change : la demande remonte avec les étudiants et les mutations d'octobre. Le détail des spécificités de la rentrée est dans [le guide de septembre](/blog/appartement-tokyo-septembre-guide). En résumé : cherchez en été pour emménager avant que la concurrence d'octobre ne reprenne.
+
+## Checklist express pour un déménagement d'été
+
+- Confirmez la présence et le bon fonctionnement de la climatisation dans chaque pièce.
+- Vérifiez l'orientation et l'étage pour limiter la surchauffe de l'après-midi.
+- Bouclez la signature et le déménageur autour d'Obon : avant le 10 ou après le 20 août.
+- Consultez la carte des risques de l'arrondissement, surtout pour un rez-de-chaussée.
+- Négociez : en creux estival, demandez un mois offert ou des frais d'entrée réduits.
+
+Un dernier conseil : prévoyez de quoi rafraîchir le logement dès le premier soir. Un appartement resté fermé en plein été peut dépasser 35 °C à l'intérieur, et attendre l'installation de la climatisation n'est pas une option agréable après une journée de déménagement.
+
+Déménager à Tokyo en été demande de gérer la chaleur et le calendrier d'Obon, mais le marché plus calme joue pour vous. C'est l'une des rares périodes où un étranger peut prendre son temps, comparer, et [trouver un appartement](/blog/trouver-appartement-tokyo-etranger) sans la frénésie du printemps.
+
+---
+
+*À lire aussi : [trouver un appartement à Tokyo](/blog/trouver-appartement-tokyo-etranger) et [appartement à Tokyo en septembre](/blog/appartement-tokyo-septembre-guide).*
+    `.trim(),
+  },
+  {
+    slug: 'moving-to-tokyo-summer-july-august',
+    locale: 'en',
+    title: 'Moving to Tokyo in Summer: Timing, Heat and Costs',
+    description: 'Moving to Tokyo in July or August? The rental market is quieter and often cheaper than spring. Timing, heat, Obon logistics and budget, all explained.',
+    date: '2026-06-29',
+    readingTime: '7 min',
+    content: `
+Summer is the forgotten season of the Tokyo rental market. Everyone talks about spring (March-April, mass moving) and the October intake, but July and August form a lull few foreigners exploit. Yet moving to Tokyo in midsummer has real upsides, as long as you plan for the heat and a few calendar traps.
+
+**Quick answer:** Moving to Tokyo in July-August means a quieter market than spring: less competition, landlords more open to negotiation, units that stay available longer. The constraints: extreme heat and humidity (check the air conditioning), the Obon week in mid-August that slows agencies and movers, and the start of typhoon season. Handled well, summer is a good time to find a place, often cheaper.
+
+## Why summer is a market lull (and why that is good news)
+
+In Japan, most moves cluster in February to April, around the start of the fiscal and school year. In July-August demand drops: fewer applicants per unit, listings that stay online for weeks, and landlords more willing to discuss rent or move-in fees rather than leave a place empty.
+
+For a foreigner, that is a favourable window. You have time to compare, to view without pressure, and real room to [negotiate the rent](/blog/negotiating-rent-tokyo-tips). In March, by contrast, the best units go in 48 hours and negotiation is wishful thinking.
+
+## Heat: your first priority
+
+Tokyo summers are brutal: 33 to 36°C by day, tropical nights, humidity near saturation. Housing is not a comfort detail here, it is a livability question.
+
+Check before signing:
+- **Air conditioning** in every main room (the unit must be present and working, not just "possible to install").
+- **Orientation:** a south-facing apartment with no shade overheats badly in the afternoon.
+- **Floor and ventilation:** top floors under a poorly insulated roof turn into ovens.
+
+Budget for electricity and internet setup fees from move-in day, detailed in the [utilities guide](/blog/setting-up-utilities-tokyo-apartment).
+
+## The calendar trap: Obon
+
+Obon week, around 13-16 August, is one of Japan's main holiday periods. Many real estate agencies, guarantor companies and moving firms slow down or close. An application filed just before Obon can sit untouched for a week.
+
+Simple rule: if you target an August move-in, close the signing and logistics before 10 August, or plan to move in after the 20th. Book your mover early, summer slots fill fast despite the rental lull.
+
+## Typhoons: choosing housing that holds up
+
+Typhoon season starts in summer and peaks from late August to October. Without overreacting, two useful reflexes: avoid ground floors and basements in low areas near rivers, and check the ward's hazard map before signing. This is not a reason to drop a neighbourhood, just one more criterion, especially on the ground floor.
+
+## Budget: where summer saves you money
+
+| Item | Spring (peak) | Summer (lull) |
+|---|---|---|
+| Rent negotiation room | near zero | real (move-in fees, first month) |
+| Unit availability | tight | comfortable |
+| Mover pricing | high | varies, book early |
+
+The advertised rent does not swing much by season, but what you can get on top (a free month, reduced fees, furniture left behind) tilts your way in summer. For rent levels by area, see [rent by neighbourhood](/blog/tokyo-rent-by-neighborhood-2026).
+
+## What if you are aiming for September-October instead?
+
+If your arrival lands at the autumn intake, the dynamic shifts: demand climbs with students and the October transfers. The specifics of the autumn intake are in the [September guide](/blog/find-apartment-tokyo-september). In short: search in summer to move in before the October competition returns.
+
+## A quick checklist for a summer move
+
+- Confirm the air conditioning is present and working in every room.
+- Check orientation and floor to limit afternoon overheating.
+- Time the signing and the mover around Obon: before the 10th or after the 20th of August.
+- Check the ward's hazard map, especially for a ground floor.
+- Negotiate: in the summer lull, ask for a free month or reduced move-in fees.
+
+One last tip: plan to cool the place down from the first evening. An apartment left shut in midsummer can climb past 35°C inside, and waiting on the air conditioning install is no fun after a day of moving boxes.
+
+Moving to Tokyo in summer means managing the heat and the Obon calendar, but the quieter market works for you. It is one of the rare windows where a foreigner can take their time, compare, and [find an apartment](/blog/find-apartment-tokyo-foreigner) without the spring frenzy.
+
+---
+
+*See also: [finding an apartment in Tokyo](/blog/find-apartment-tokyo-foreigner) and [renting in Tokyo in September](/blog/find-apartment-tokyo-september).*
+    `.trim(),
+  },
+  {
+    slug: 'saison-typhons-tokyo-choisir-logement',
+    locale: 'fr',
+    title: 'Saison des typhons à Tokyo : choisir un logement sûr',
+    description: 'Saison des typhons à Tokyo (août-octobre) : étage, zone inondable, cartes de risques. Comment choisir un logement sûr et ce qu\'il faut vérifier avant de signer.',
+    date: '2026-06-29',
+    readingTime: '6 min',
+    content: `
+Chaque année, de fin août à octobre, Tokyo reçoit la queue de plusieurs typhons. La plupart se traduisent par une journée de pluie battante et de vent, sans drame. Mais le choix du logement fait une vraie différence entre une saison des typhons inconfortable et une saison sans souci. Voici ce qu'un étranger devrait vérifier avant de signer.
+
+**Réponse rapide :** Pour traverser la saison des typhons à Tokyo sereinement, évitez les rez-de-chaussée et sous-sols dans les zones basses près des rivières, consultez la carte des risques (hazard map) de l'arrondissement avant de signer, et privilégiez un immeuble en béton récent. Souscrivez une assurance habitation : elle est peu chère et couvre les dégâts des eaux. Le risque réel est l'inondation locale, pas le bâtiment lui-même.
+
+## Comprendre le risque réel
+
+Les immeubles japonais sont conçus pour résister au vent et aux séismes. Lors d'un typhon, le danger principal pour un résident n'est pas l'effondrement, mais l'eau : rivière qui déborde, remontée d'égouts, ou ruissellement dans les zones basses. Le risque dépend donc surtout de l'emplacement et de l'étage, pas de la solidité apparente du logement.
+
+C'est une bonne nouvelle : il suffit de bien choisir où et à quelle hauteur on habite.
+
+## Étage et type de bien
+
+- **Évitez le rez-de-chaussée et le sous-sol** dans les zones à risque d'inondation. Un studio en demi-sous-sol bon marché peut se révéler un mauvais calcul.
+- **Privilégiez le 2e étage et au-dessus** si vous habitez près d'une rivière ou en zone basse.
+- **Béton (RC/SRC) plutôt que bois léger** pour le bruit, l'isolation et la tenue au vent.
+
+Ces critères s'ajoutent à votre [checklist de bail](/blog/checklist-bail-tokyo) habituelle, ils ne la remplacent pas.
+
+## La carte des risques (hazard map)
+
+Chaque arrondissement de Tokyo publie une carte des risques d'inondation et de glissement de terrain. Avant de signer, cherchez la hazard map de l'arrondissement et repérez l'adresse du bien. Les zones colorées indiquent la hauteur d'eau potentielle en cas de crue majeure.
+
+Si un logement se trouve en zone fortement colorée et au rez-de-chaussée, c'est un signal pour viser un étage plus haut ou un autre bien. Si vous hésitez entre quartiers, [le guide des quartiers](/blog/quartiers-tokyo-expatries-guide) aide à situer les zones résidentielles plus sûres.
+
+## Au-delà de l'inondation : vent et coupures
+
+Un typhon, ce n'est pas que de la pluie. Les rafales peuvent projeter des objets mal fixés et, plus rarement, provoquer de brèves coupures de courant. Quelques points utiles côté logement :
+
+- **Balcon dégagé** : rentrez pots, vélos et objets légers avant le passage du typhon.
+- **Fenêtres** : la plupart des appartements n'ont pas de volets ; un film anti-éclats sur une grande baie est un plus.
+- **Exposition** : une chambre dont les ouvertures donnent côté abrité du vent dominant reste plus calme.
+
+Ces détails ne se voient pas sur une annonce, mais une visite en personne ou une question à l'agence permet de les vérifier. Ils comptent surtout en hauteur, où le vent se fait davantage sentir.
+
+## Assurance habitation : indispensable
+
+L'assurance habitation locataire est peu coûteuse au Japon (souvent 15 000 à 20 000 JPY pour deux ans) et couvre généralement les dégâts des eaux et la responsabilité civile. Pendant la saison des typhons, c'est une protection que vous voulez avoir. Le détail des garanties est dans [le guide de l'assurance habitation](/blog/assurance-habitation-japon-locataire).
+
+## Préparer un kit minimal
+
+Au-delà du logement, gardez chez vous de quoi tenir 24 à 48 heures : eau, lampe, batterie externe, quelques provisions. Quand un gros typhon approche, les trains s'arrêtent par précaution et certains commerces ferment. Gardez aussi vos papiers importants et un peu de liquide accessibles : en cas de coupure, distributeurs et terminaux de paiement peuvent être indisponibles quelques heures. Ce n'est généralement qu'une journée, mais autant ne pas être pris au dépourvu.
+
+## Faut-il fuir certains quartiers ?
+
+Non. Tokyo entière n'est pas une zone à risque, et la plupart des quartiers résidentiels sont parfaitement sûrs à un étage correct. Le risque se concentre sur des poches précises, basses et proches de l'eau. Avec la hazard map et le bon étage, vous pouvez vivre presque partout sans souci. Pour le rapport loyer/zone, [les loyers par quartier](/blog/loyers-tokyo-par-quartier-2026) donnent les ordres de grandeur.
+
+La saison des typhons fait partie de la vie à Tokyo, et elle se gère facilement avec quelques bons réflexes au moment de [trouver un appartement](/blog/trouver-appartement-tokyo-etranger) : un étage suffisant, une adresse hors zone basse, et une assurance habitation. Le reste, c'est surtout une journée de pluie à passer au chaud.
+
+---
+
+*À lire aussi : [trouver un appartement à Tokyo](/blog/trouver-appartement-tokyo-etranger) et [assurance habitation au Japon](/blog/assurance-habitation-japon-locataire).*
+    `.trim(),
+  },
+  {
+    slug: 'typhoon-season-tokyo-choosing-housing',
+    locale: 'en',
+    title: 'Typhoon Season in Tokyo: Choosing Safe Housing',
+    description: 'Tokyo typhoon season runs August to October. Floor choice, flood zones, hazard maps: how to pick safe housing and what to check before you sign a lease.',
+    date: '2026-06-29',
+    readingTime: '6 min',
+    content: `
+Every year, from late August to October, Tokyo catches the tail of several typhoons. Most amount to a day of driving rain and wind, with no drama. But your choice of housing makes a real difference between an uncomfortable typhoon season and a worry-free one. Here is what a foreigner should check before signing.
+
+**Quick answer:** To get through Tokyo's typhoon season calmly, avoid ground floors and basements in low areas near rivers, check the ward's hazard map before signing, and favour a recent concrete building. Take out renters insurance: it is cheap and covers water damage. The real risk is local flooding, not the building itself.
+
+## Understanding the real risk
+
+Japanese buildings are designed to withstand wind and earthquakes. During a typhoon, the main danger to a resident is not collapse but water: a river overflowing, sewers backing up, or runoff in low areas. The risk therefore depends mostly on location and floor, not on the apparent sturdiness of the unit.
+
+That is good news: you just need to choose where and how high you live.
+
+## Floor and building type
+
+- **Avoid the ground floor and basement** in flood-prone areas. A cheap semi-basement studio can turn out to be a bad bet.
+- **Favour the 2nd floor and above** if you live near a river or in a low area.
+- **Concrete (RC/SRC) over light wood** for noise, insulation and wind resistance.
+
+These criteria add to your usual [lease checklist](/blog/tokyo-rental-contract-checklist), they do not replace it.
+
+## The hazard map
+
+Every Tokyo ward publishes a flood and landslide hazard map. Before signing, find the ward's hazard map and locate the unit's address. Coloured zones show the potential water depth in a major flood.
+
+If a unit sits in a heavily coloured zone and on the ground floor, that is a signal to aim for a higher floor or another place. If you are weighing neighbourhoods, the [neighbourhoods guide](/blog/tokyo-neighbourhoods-expats-guide) helps locate safer residential areas.
+
+## Beyond flooding: wind and outages
+
+A typhoon is not just rain. Gusts can throw around loose objects and, more rarely, cause brief power outages. A few useful housing points:
+
+- **Clear balcony:** bring in pots, bikes and light objects before the typhoon arrives.
+- **Windows:** most apartments have no shutters; a shatter film on a large pane is a plus.
+- **Exposure:** a room whose openings face away from the prevailing wind stays calmer.
+
+These details do not show on a listing, but an in-person viewing or a question to the agency lets you check them. They matter most on higher floors, where the wind is felt more.
+
+## Renters insurance: essential
+
+Renters insurance is cheap in Japan (often 15,000 to 20,000 JPY for two years) and usually covers water damage and personal liability. During typhoon season, it is protection you want in place. The cover details are in the [renters insurance guide](/blog/renters-insurance-japan-guide).
+
+## Prepare a basic kit
+
+Beyond housing, keep enough at home to last 24 to 48 hours: water, a light, a power bank, some food. When a large typhoon approaches, trains stop as a precaution and some shops close. Keep your important documents and some cash within reach too: during an outage, ATMs and card terminals can be unavailable for a few hours. It is usually just a day, but it pays not to be caught out.
+
+## Should you avoid certain neighbourhoods?
+
+No. Not all of Tokyo is a risk zone, and most residential areas are perfectly safe on a decent floor. The risk concentrates in specific low pockets near water. Even central, popular wards have both safe blocks and lower pockets, so judge the specific address rather than the district name. With the hazard map and the right floor, you can live almost anywhere without worry. For the rent-to-area trade-off, [rent by neighbourhood](/blog/tokyo-rent-by-neighborhood-2026) gives the ballpark.
+
+Typhoon season is part of life in Tokyo, and it is easy to manage with a few good reflexes when you [find an apartment](/blog/find-apartment-tokyo-foreigner): a high enough floor, an address outside the low zones, and renters insurance. The rest is mostly a rainy day spent warm and dry indoors.
+
+---
+
+*See also: [finding an apartment in Tokyo](/blog/find-apartment-tokyo-foreigner) and [renters insurance in Japan](/blog/renters-insurance-japan-guide).*
+    `.trim(),
+  },
 
 ]
 
@@ -10872,6 +11134,8 @@ export const TWIN_SLUGS: Record<string, string> = {
   'assurance-sante-visa-japon-2027': 'health-insurance-visa-japan-2027',
   'gaijin-house-tokyo-guide-complet': 'gaijin-house-tokyo-guide',
   'trouver-logement-tokyo-deux-semaines-mutation': 'find-housing-tokyo-two-weeks-relocation',
+  'demenager-tokyo-ete-juillet-aout': 'moving-to-tokyo-summer-july-august',
+  'saison-typhons-tokyo-choisir-logement': 'typhoon-season-tokyo-choosing-housing',
 }
 
 export function getTwinSlug(slug: string, locale: Locale): string | undefined {
