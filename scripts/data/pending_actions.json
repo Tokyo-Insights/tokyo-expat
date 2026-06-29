@@ -9,8 +9,9 @@
       "keywords": [],
       "score": 0,
       "draft": "En tant que specialiste du marche locatif de Tokyo pour les expatries:\n\n[REPONSE SPECIFIQUE A LA QUESTION]\n\n[AJOUTER 2-3 POINTS SPECIFIQUES A LA QUESTION]\n\nPour plus d'informations: tokyo-expat.com (guides bilingues FR/EN sur le logement a Tokyo)\n\nAlessandro [NOM], fondateur Tokyo Expat",
-      "acted": false,
-      "id": "haro_2026-06-26_62754"
+      "acted": true,
+      "id": "haro_2026-06-26_62754",
+      "acted_reason": "source suspendue (compte inactif)"
     },
     {
       "type": "reddit",
@@ -74,8 +75,9 @@
       ],
       "score": 2,
       "draft": "En tant que specialiste du marche locatif de Tokyo pour les expatries:\n\n[REPONSE SPECIFIQUE A LA QUESTION]\n\n[AJOUTER 2-3 POINTS SPECIFIQUES A LA QUESTION]\n\nPour plus d'informations: tokyo-expat.com (guides bilingues FR/EN sur le logement a Tokyo)\n\nAlessandro [NOM], fondateur Tokyo Expat",
-      "acted": false,
-      "id": "haro_2026-06-27_45026"
+      "acted": true,
+      "id": "haro_2026-06-27_45026",
+      "acted_reason": "source suspendue (compte inactif)"
     },
     {
       "type": "haro",
@@ -89,8 +91,9 @@
       ],
       "score": 2,
       "draft": "En tant que specialiste du marche locatif de Tokyo pour les expatries:\n\n[REPONSE SPECIFIQUE A LA QUESTION]\n\n[AJOUTER 2-3 POINTS SPECIFIQUES A LA QUESTION]\n\nPour plus d'informations: tokyo-expat.com (guides bilingues FR/EN sur le logement a Tokyo)\n\nAlessandro [NOM], fondateur Tokyo Expat",
-      "acted": false,
-      "id": "haro_2026-06-27_13914"
+      "acted": true,
+      "id": "haro_2026-06-27_13914",
+      "acted_reason": "source suspendue (compte inactif)"
     },
     {
       "type": "haro",
@@ -101,8 +104,9 @@
       "keywords": [],
       "score": 0,
       "draft": "En tant que specialiste du marche locatif de Tokyo pour les expatries:\n\n[REPONSE SPECIFIQUE A LA QUESTION]\n\n[AJOUTER 2-3 POINTS SPECIFIQUES A LA QUESTION]\n\nPour plus d'informations: tokyo-expat.com (guides bilingues FR/EN sur le logement a Tokyo)\n\nAlessandro [NOM], fondateur Tokyo Expat",
-      "acted": false,
-      "id": "haro_2026-06-27_57957"
+      "acted": true,
+      "id": "haro_2026-06-27_57957",
+      "acted_reason": "source suspendue (compte inactif)"
     },
     {
       "type": "reddit",
@@ -126,8 +130,9 @@
       ],
       "score": 2,
       "draft": "En tant que specialiste du marche locatif de Tokyo pour les expatries:\n\n[REPONSE SPECIFIQUE A LA QUESTION]\n\n[AJOUTER 2-3 POINTS SPECIFIQUES A LA QUESTION]\n\nPour plus d'informations: tokyo-expat.com (guides bilingues FR/EN sur le logement a Tokyo)\n\nAlessandro [NOM], fondateur Tokyo Expat",
-      "acted": false,
-      "id": "haro_2026-06-28_93290"
+      "acted": true,
+      "id": "haro_2026-06-28_93290",
+      "acted_reason": "source suspendue (compte inactif)"
     },
     {
       "type": "reddit",
@@ -159,6 +164,26 @@
       "draft": "I've helped a lot of expats find housing in Tokyo. A few things that trip people up:\n\n1. Start early: good properties for your target month get taken 6-8 weeks out.\n2. Share house first if unsure about the area: flexible 1-month minimum, no long-term commitment, no guarantor needed.\n3. Virtual applications work: you can secure a place before landing.\n\nHappy to answer specific questions about your situation.",
       "acted": false,
       "id": "reddit_2026-06-28_88862"
+    },
+    {
+      "type": "reddit",
+      "date": "2026-06-29",
+      "subreddit": "movingtojapan",
+      "title": "Moving to Tokyo with a 10M JPY Gross Salary.Is It Enough ... - Reddit",
+      "url": "https://www.reddit.com/r/movingtojapan/comments/1uelk1k/moving_to_tokyo_with_a_10m_jpy_gross_salaryis_it/",
+      "draft": "I know the Tokyo rental market well. Honest overview:\n\nYamanote loop inner area (Shibuya, Shinjuku, Minato): great location, expect 100,000+ JPY/month even for a small 1K.\n\nJust outside the loop (Sangenjaya, Shimokitazawa, Koenji, Nishi-Ogikubo): still excellent metro access, 30-40% cheaper, more residential feel.\n\nOuter wards (Adachi, Edogawa, Katsushika): cheapest options, commute adds 20-30 min.\n\nHappy to be more specific if you share your commute destination.",
+      "acted": true,
+      "id": "reddit_2026-06-29_67790"
+    },
+    {
+      "type": "reddit",
+      "date": "2026-06-29",
+      "subreddit": "japanlife",
+      "title": "New apartment, neighbor is extremely loud : r/japanlife - Reddit",
+      "url": "https://www.reddit.com/r/japanlife/comments/1ufpps2/new_apartment_neighbor_is_extremely_loud/",
+      "draft": "I know the Tokyo rental market well. Honest overview:\n\nYamanote loop inner area (Shibuya, Shinjuku, Minato): great location, expect 100,000+ JPY/month even for a small 1K.\n\nJust outside the loop (Sangenjaya, Shimokitazawa, Koenji, Nishi-Ogikubo): still excellent metro access, 30-40% cheaper, more residential feel.\n\nOuter wards (Adachi, Edogawa, Katsushika): cheapest options, commute adds 20-30 min.\n\nHappy to be more specific if you share your commute destination.",
+      "acted": false,
+      "id": "reddit_2026-06-29_67291"
     }
   ]
 }

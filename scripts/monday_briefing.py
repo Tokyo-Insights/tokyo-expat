@@ -207,10 +207,18 @@ def get_buffer_queue_status() -> dict:
     return result
 
 
+# Plateformes HARO dont le compte est SUSPENDU: ne plus surfacer leurs pitchs
+# (Alessandro ne peut pas y repondre -> ce serait du bruit re-propose chaque matin).
+SUSPENDED_SOURCES = {"qwoted.com", "connectively.us"}
+
+
 def get_pending_actions(n: int = 5) -> list[dict]:
     """Opportunites HARO + Reddit non encore actionnees (pour analyse avec Claude)."""
     data = load_json(DATA_DIR / "pending_actions.json", {"actions": []})
-    pending = [a for a in data.get("actions", []) if not a.get("acted")]
+    pending = [
+        a for a in data.get("actions", [])
+        if not a.get("acted") and a.get("source") not in SUSPENDED_SOURCES
+    ]
     pending.sort(key=lambda x: x.get("date", ""), reverse=True)
     return pending[:n]
 
