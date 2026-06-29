@@ -10645,6 +10645,166 @@ La gaijin house n'est presque jamais un logement définitif, mais c'est la porte
 *À lire aussi : [appartement meublé à Tokyo](/blog/appartement-meuble-tokyo-expats-top-5) et [share house à Tokyo](/blog/share-house-tokyo-guide-complet).*
     `.trim(),
   },
+  {
+    slug: 'trouver-logement-tokyo-deux-semaines-mutation',
+    locale: 'fr',
+    title: 'Trouver un logement à Tokyo en 2 semaines (mutation pro)',
+    description: 'Muté à Tokyo avec deux semaines devant vous ? Plan jour par jour pour décrocher un logement vite : options sans garant, budget réel et erreurs à éviter.',
+    date: '2026-06-29',
+    readingTime: '7 min',
+    content: `
+Une mutation tombe rarement avec six mois de préavis. Plus souvent, vous apprenez votre départ pour Tokyo quelques semaines avant, et le compte à rebours commence. Deux semaines pour trouver un logement dans une ville où le marché locatif ferme la porte aux nouveaux arrivants, c'est tendu, mais c'est faisable si vous attaquez par les bonnes options.
+
+**Réponse rapide :** En deux semaines, oubliez le bail classique non meublé (4 à 6 semaines de délai). Visez un logement meublé sans garant : monthly mansion, share house ou appartement meublé court terme. Réservez avant d'atterrir, gardez 250 000 à 400 000 JPY de trésorerie pour l'entrée, et réglez carte de résidence et compte bancaire dès les premiers jours. Le bail long, vous le signerez plus tard, depuis Tokyo, sans stress.
+
+## Pourquoi deux semaines, c'est court (mais jouable)
+
+Le bail japonais classique demande un garant (ou une société de garantie), un dossier validé par le propriétaire (3 à 7 jours ouvrés), et souvent 3 à 5 mois d'avance. Entre la sélection du bien et la remise des clés, comptez 4 à 8 semaines. Ce calendrier est incompatible avec une arrivée sous quinze jours.
+
+La solution n'est pas d'accélérer le bail classique, c'est de le contourner pour vos premiers mois. Les logements meublés sans garant existent précisément pour ça : ils acceptent une candidature à distance, en anglais, sans compte bancaire local, avec emménagement en quelques jours.
+
+## Le plan jour par jour
+
+**Jours -14 à -10 (avant le départ)**
+- Fixez votre budget logement réel (loyer + frais d'entrée).
+- Choisissez 2 ou 3 quartiers selon le temps de trajet vers le bureau.
+- Présélectionnez 5 à 8 logements meublés sans garant et envoyez vos candidatures.
+
+**Jours -9 à -5**
+- Confirmez une réservation ferme avec date d'emménagement.
+- Demandez par écrit ce qui est inclus (charges, internet, literie).
+- Réservez si besoin 3 ou 4 nuits d'hôtel tampon à l'arrivée.
+
+**Jours -4 à 0 (arrivée)**
+- Emménagez dans le logement meublé.
+- Déclarez votre adresse à la mairie et récupérez votre carte de résidence.
+- Lancez l'ouverture du compte bancaire et la carte SIM.
+
+**Jours +1 à +14**
+- Installez-vous, testez les trajets, repérez les quartiers en vrai.
+- Si vous restez plus d'un an, démarrez en parallèle la recherche d'un bail long, sans pression.
+
+## Les options qui tiennent en deux semaines
+
+| Option | Délai d'entrée | Garant | Budget mensuel |
+|---|---|---|---|
+| Monthly mansion (studio meublé) | 2 à 5 jours | non | 90 000-200 000 JPY |
+| Appartement meublé court terme | 3 à 7 jours | non | 120 000-250 000 JPY |
+| Share house / chambre privée | 2 à 7 jours | non | 50 000-100 000 JPY |
+
+Pour une mutation en solo, la share house ou le monthly mansion suffisent largement les premiers mois. Pour un couple ou une famille, visez l'appartement meublé. Le détail des options sans garant est dans le guide [appartement meublé sans garant](/blog/appartement-meuble-tokyo-sans-garant) et le guide [gaijin house](/blog/gaijin-house-tokyo-guide-complet).
+
+## Le budget à prévoir
+
+| Poste | Montant indicatif |
+|---|---|
+| Premier loyer + caution (meublé) | 150 000-350 000 JPY |
+| Frais d'administration / ménage | 10 000-30 000 JPY |
+| Hôtel tampon (3-4 nuits) | 30 000-60 000 JPY |
+| Trésorerie de sécurité | garder ~100 000 JPY |
+
+Le meublé sans garant coûte plus cher au mois que le bail classique, mais il vous évite les 4 à 6 mois d'avance et le blocage du garant. Sur deux ou trois mois, c'est le prix de la rapidité, et il est largement justifié quand votre date d'arrivée est fixe.
+
+## Les erreurs qui font perdre des jours
+
+- **Viser le bail classique d'emblée.** Vous perdrez votre fenêtre de deux semaines dans l'étude de dossier.
+- **Arriver sans logement réservé.** Chercher sur place sans adresse, sans compte et sans japonais, c'est la pire position.
+- **Sous-estimer la trésorerie d'entrée.** Beaucoup de paiements se font en liquide ou par virement local avant que votre compte japonais soit actif.
+- **Négliger le temps de trajet.** Un loyer plus bas à 50 minutes du bureau coûte cher en fatigue. Arbitrez avec [le guide des loyers par quartier](/blog/loyers-tokyo-par-quartier-2026).
+
+Si votre employeur pilote la relocalisation, partagez-lui [le guide logement pour RH](/blog/relocation-entreprise-tokyo-guide-rh) : il cadre les délais et les budgets côté entreprise.
+
+## Et après l'emménagement
+
+Une fois installé, réglez vite l'administratif : [ouvrir un compte bancaire](/blog/ouvrir-compte-bancaire-japon-etranger), une carte SIM, et l'assurance habitation. Si vous basculez ensuite vers un bail long, relisez [la checklist du bail](/blog/checklist-bail-tokyo) avant de signer.
+
+Deux semaines ne suffisent pas pour un bail classique, mais elles suffisent largement pour une adresse stable, meublée et sans garant. Vous transformez l'urgence en une installation propre, et vous gardez le bail long pour quand vous connaîtrez vraiment la ville.
+
+---
+
+*À lire aussi : [chercher un appartement depuis l'étranger](/blog/chercher-appartement-tokyo-depuis-etranger) et [appartement meublé sans garant](/blog/appartement-meuble-tokyo-sans-garant).*
+    `.trim(),
+  },
+  {
+    slug: 'find-housing-tokyo-two-weeks-relocation',
+    locale: 'en',
+    title: 'Find Housing in Tokyo in 2 Weeks: a Relocation Plan',
+    description: 'Relocating to Tokyo with only two weeks? A day-by-day plan to secure housing fast: no-guarantor options, real budgets, and the mistakes that cost you days.',
+    date: '2026-06-29',
+    readingTime: '7 min',
+    content: `
+A corporate transfer rarely comes with six months' notice. More often you learn you are moving to Tokyo a few weeks out, and the clock starts. Two weeks to find housing in a city whose rental market shuts the door on newcomers is tight, but it is doable if you start with the right options.
+
+**Quick answer:** In two weeks, forget the standard unfurnished lease (4 to 6 weeks to complete). Go for furnished, no-guarantor housing: a monthly mansion, a share house, or a short-term furnished apartment. Book before you land, keep 250,000 to 400,000 JPY of cash for move-in, and sort your residence card and bank account in the first days. You sign the long lease later, from Tokyo, with no pressure.
+
+## Why two weeks is tight (but workable)
+
+The standard Japanese lease needs a guarantor (or a guarantor company), landlord screening (3 to 7 business days), and often 3 to 5 months upfront. Between picking a unit and getting the keys, expect 4 to 8 weeks. That timeline does not fit an arrival inside a fortnight.
+
+The fix is not to rush the standard lease, it is to bypass it for your first months. Furnished, no-guarantor housing exists for exactly this: it accepts a remote application, in English, with no local bank account, and move-in within days.
+
+## The day-by-day plan
+
+**Days -14 to -10 (before you leave)**
+- Set your real housing budget (rent + move-in fees).
+- Pick 2 or 3 neighbourhoods by commute time to the office.
+- Shortlist 5 to 8 furnished no-guarantor units and send applications.
+
+**Days -9 to -5**
+- Lock a firm booking with a move-in date.
+- Get in writing what is included (utilities, internet, bedding).
+- Book 3 or 4 buffer hotel nights for arrival if needed.
+
+**Days -4 to 0 (arrival)**
+- Move into the furnished unit.
+- Register your address at the ward office and collect your residence card.
+- Start the bank account and SIM card.
+
+**Days +1 to +14**
+- Settle in, test commutes, scout neighbourhoods for real.
+- If you are staying over a year, start the long-lease search in parallel, calmly.
+
+## Options that work in two weeks
+
+| Option | Move-in time | Guarantor | Monthly budget |
+|---|---|---|---|
+| Monthly mansion (furnished studio) | 2 to 5 days | no | 90,000-200,000 JPY |
+| Short-term furnished apartment | 3 to 7 days | no | 120,000-250,000 JPY |
+| Share house / private room | 2 to 7 days | no | 50,000-100,000 JPY |
+
+For a solo transfer, a share house or monthly mansion is plenty for the first months. For a couple or family, aim for the furnished apartment. The no-guarantor options are detailed in the [furnished apartment without a guarantor guide](/blog/furnished-apartment-tokyo-no-guarantor) and the [gaijin house guide](/blog/gaijin-house-tokyo-guide).
+
+## The budget to plan for
+
+| Item | Indicative amount |
+|---|---|
+| First rent + deposit (furnished) | 150,000-350,000 JPY |
+| Admin / cleaning fee | 10,000-30,000 JPY |
+| Buffer hotel (3-4 nights) | 30,000-60,000 JPY |
+| Safety cash | keep ~100,000 JPY |
+
+Furnished no-guarantor housing costs more per month than a standard lease, but it spares you the 4 to 6 months upfront and the guarantor hurdle. Over two or three months, that is the price of speed, and it is well worth it when your arrival date is fixed.
+
+## Mistakes that cost you days
+
+- **Targeting the standard lease first.** You will burn your two-week window in screening.
+- **Arriving with nothing booked.** Searching on the ground with no address, no account and no Japanese is the worst position.
+- **Underestimating move-in cash.** Many payments are cash or local transfer before your Japanese account is active.
+- **Ignoring commute time.** Cheaper rent 50 minutes out is expensive in fatigue. Weigh it with the [rent by neighbourhood guide](/blog/tokyo-rent-by-neighborhood-2026).
+
+If your employer is running the relocation, share the [HR housing guide](/blog/corporate-relocation-tokyo-hr-housing-guide): it frames the timeline and budget on the company side.
+
+## After move-in
+
+Once you are settled, clear the admin fast: [open a bank account](/blog/open-bank-account-japan-foreigner), a SIM card, and renters insurance. If you later switch to a long lease, reread the [lease checklist](/blog/tokyo-rental-contract-checklist) before signing.
+
+Two weeks is not enough for a standard lease, but it is plenty for a stable, furnished, no-guarantor address. You turn the rush into a clean landing, and you keep the long lease for when you actually know the city.
+
+---
+
+*See also: [apartment hunting from abroad](/blog/tokyo-apartment-hunting-from-abroad) and [furnished apartment without a guarantor](/blog/furnished-apartment-tokyo-no-guarantor).*
+    `.trim(),
+  },
 
 ]
 
@@ -10711,6 +10871,7 @@ export const TWIN_SLUGS: Record<string, string> = {
   'virement-bancaire-japon-furikomi-guide': 'bank-transfer-japan-furikomi-guide',
   'assurance-sante-visa-japon-2027': 'health-insurance-visa-japan-2027',
   'gaijin-house-tokyo-guide-complet': 'gaijin-house-tokyo-guide',
+  'trouver-logement-tokyo-deux-semaines-mutation': 'find-housing-tokyo-two-weeks-relocation',
 }
 
 export function getTwinSlug(slug: string, locale: Locale): string | undefined {

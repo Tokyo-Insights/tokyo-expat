@@ -2530,4 +2530,50 @@ export const faqData: Record<string, FaqItem[]> = {
         'Ebisu est le plus adapté aux familles des trois, avec un meilleur accès aux écoles internationales et plus d\'espace résidentiel. Nakameguro convient mieux aux célibataires et couples. Daikanyama est calme mais l\'accès aux écoles internationales demande plus de planification. Pour les familles qui priorisent la proximité des écoles, Hiroo ou Minami-Azabu restent le meilleur choix.',
     },
   ],
+
+  'trouver-logement-tokyo-deux-semaines-mutation': [
+    {
+      question: 'Peut-on trouver un logement à Tokyo en deux semaines?',
+      answer:
+        'Oui, mais pas un bail classique non meublé, qui demande 4 à 8 semaines. En deux semaines, visez un logement meublé sans garant (monthly mansion, share house ou appartement meublé court terme), avec candidature à distance et emménagement en quelques jours.',
+    },
+    {
+      question: 'Quel budget prévoir pour une installation rapide à Tokyo?',
+      answer:
+        'Comptez 150 000 à 350 000 JPY pour le premier loyer et la caution d\'un meublé, 10 000 à 30 000 JPY de frais d\'administration, et gardez environ 100 000 JPY de trésorerie de sécurité. Le meublé sans garant évite les 4 à 6 mois d\'avance d\'un bail classique.',
+    },
+    {
+      question: 'Faut-il un garant pour un logement temporaire à Tokyo?',
+      answer:
+        'Non. Les monthly mansions, share houses et appartements meublés court terme acceptent les étrangers sans garant japonais, souvent avec une candidature en ligne depuis l\'étranger, un passeport et un visa valide.',
+    },
+    {
+      question: 'Faut-il réserver le logement avant d\'arriver à Tokyo?',
+      answer:
+        'Oui. Réserver avant d\'atterrir est la clé d\'une mutation rapide. Chercher sur place sans adresse, sans compte bancaire et sans japonais est la pire position. Réservez un meublé sans garant à distance, puis réglez carte de résidence et compte bancaire les premiers jours.',
+    },
+  ],
+
+  'find-housing-tokyo-two-weeks-relocation': [
+    {
+      question: 'Can you find housing in Tokyo in two weeks?',
+      answer:
+        'Yes, but not a standard unfurnished lease, which takes 4 to 8 weeks. In two weeks, go for furnished no-guarantor housing (a monthly mansion, share house, or short-term furnished apartment), which accepts remote applications and move-in within days.',
+    },
+    {
+      question: 'What budget do you need for a fast move to Tokyo?',
+      answer:
+        'Plan 150,000 to 350,000 JPY for first rent and deposit on a furnished unit, 10,000 to 30,000 JPY in admin fees, and keep around 100,000 JPY of safety cash. Furnished no-guarantor housing avoids the 4 to 6 months upfront of a standard lease.',
+    },
+    {
+      question: 'Do you need a guarantor for temporary housing in Tokyo?',
+      answer:
+        'No. Monthly mansions, share houses, and short-term furnished apartments accept foreigners without a Japanese guarantor, usually with an online application from abroad, a passport, and a valid visa.',
+    },
+    {
+      question: 'Should you book housing before arriving in Tokyo?',
+      answer:
+        'Yes. Booking before you land is the key to a fast relocation. Searching on the ground with no address, no bank account, and no Japanese is the worst position. Book a furnished no-guarantor unit remotely, then sort your residence card and bank account in the first days.',
+    },
+  ],
 }
