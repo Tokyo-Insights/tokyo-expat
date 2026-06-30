@@ -34,6 +34,27 @@ export async function POST(request: NextRequest) {
     console.log('Brevo status:', res.status, resText)
 
     if (res.status === 204 || res.status === 201 || res.ok) {
+      // Envoi de l'email de bienvenue #1 (avec le PDF) via template transactionnel Brevo.
+      // Template 1 = FR "Votre checklist relocation Japon est ici", 4 = EN equivalent.
+      // Non bloquant : si l'envoi echoue, l'inscription reste un succes (PDF aussi dispo en download direct).
+      const welcomeTemplateId = locale === 'en' ? 4 : 1
+      try {
+        const mailRes = await fetch('https://api.brevo.com/v3/smtp/email', {
+          method: 'POST',
+          headers: {
+            'api-key': apiKey,
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            to: [{ email }],
+            templateId: welcomeTemplateId,
+          }),
+        })
+        console.log('Brevo welcome email status:', mailRes.status, await mailRes.text())
+      } catch (mailErr) {
+        console.error('Welcome email send failed:', mailErr)
+      }
+
       return NextResponse.json({ ok: true })
     }
 
