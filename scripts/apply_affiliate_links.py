@@ -64,6 +64,29 @@ INSERTS: dict[str, str] = {
         f"usable from day one in Japan. *(affiliate link)*"
     ),
 
+    # ── Articles timely 2026-06 (mutation / ete) ──────────────────────────
+    'trouver-logement-tokyo-deux-semaines-mutation': (
+        f"Pendant la transition, [SafetyWing Nomad Insurance]({SW}) propose une assurance "
+        f"sante mensuelle sans engagement, activable des l'arrivee et avant votre inscription "
+        f"a l'assurance japonaise. Pour une ligne mobile des l'aeroport, [Sakura Mobile]({SKM}) "
+        f"propose des forfaits sans justificatif de domicile. *(liens affilies)*"
+    ),
+    'find-housing-tokyo-two-weeks-relocation': (
+        f"During the transition, [SafetyWing Nomad Insurance]({SW}) offers monthly health "
+        f"insurance with no commitment, activatable from arrival and before your Japanese "
+        f"insurance enrolment. For a mobile line from the airport, [Sakura Mobile]({SKM}) "
+        f"offers plans with no address proof required. *(affiliate links)*"
+    ),
+    'demenager-tokyo-ete-juillet-aout': (
+        f"En attendant l'installation de l'internet a domicile, [Sakura Mobile]({SKM}) "
+        f"propose des forfaits data sans justificatif de domicile, utilisables des l'arrivee "
+        f"au Japon. *(lien affilie)*"
+    ),
+    'moving-to-tokyo-summer-july-august': (
+        f"While waiting for home internet setup, [Sakura Mobile]({SKM}) offers data plans "
+        f"with no address proof required, usable from day one in Japan. *(affiliate link)*"
+    ),
+
     # ── SafetyWing — articles assurance ───────────────────────────────────
     'assurance-habitation-japon-locataire': (
         f"Pour les expatries sans couverture interim, [SafetyWing Nomad Insurance]({SW}) "

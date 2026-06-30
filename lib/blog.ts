@@ -10720,6 +10720,8 @@ Une fois installé, réglez vite l'administratif : [ouvrir un compte bancaire](/
 
 Deux semaines ne suffisent pas pour un bail classique, mais elles suffisent largement pour une adresse stable, meublée et sans garant. Vous transformez l'urgence en une installation propre, et vous gardez le bail long pour quand vous connaîtrez vraiment la ville.
 
+
+Pendant la transition, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) propose une assurance sante mensuelle sans engagement, activable des l'arrivee et avant votre inscription a l'assurance japonaise. Pour une ligne mobile des l'aeroport, [Sakura Mobile](https://www.sakuramobile.jp/tokyoexpat-top) propose des forfaits sans justificatif de domicile. *(liens affilies)*
 ---
 
 *À lire aussi : [chercher un appartement depuis l'étranger](/blog/chercher-appartement-tokyo-depuis-etranger) et [appartement meublé sans garant](/blog/appartement-meuble-tokyo-sans-garant).*
@@ -10800,6 +10802,8 @@ Once you are settled, clear the admin fast: [open a bank account](/blog/open-ban
 
 Two weeks is not enough for a standard lease, but it is plenty for a stable, furnished, no-guarantor address. You turn the rush into a clean landing, and you keep the long lease for when you actually know the city.
 
+
+During the transition, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) offers monthly health insurance with no commitment, activatable from arrival and before your Japanese insurance enrolment. For a mobile line from the airport, [Sakura Mobile](https://www.sakuramobile.jp/tokyoexpat-top) offers plans with no address proof required. *(affiliate links)*
 ---
 
 *See also: [apartment hunting from abroad](/blog/tokyo-apartment-hunting-from-abroad) and [furnished apartment without a guarantor](/blog/furnished-apartment-tokyo-no-guarantor).*
@@ -10870,6 +10874,8 @@ Un dernier conseil : prévoyez de quoi rafraîchir le logement dès le premier s
 
 Déménager à Tokyo en été demande de gérer la chaleur et le calendrier d'Obon, mais le marché plus calme joue pour vous. C'est l'une des rares périodes où un étranger peut prendre son temps, comparer, et [trouver un appartement](/blog/trouver-appartement-tokyo-etranger) sans la frénésie du printemps.
 
+
+En attendant l'installation de l'internet a domicile, [Sakura Mobile](https://www.sakuramobile.jp/tokyoexpat-top) propose des forfaits data sans justificatif de domicile, utilisables des l'arrivee au Japon. *(lien affilie)*
 ---
 
 *À lire aussi : [trouver un appartement à Tokyo](/blog/trouver-appartement-tokyo-etranger) et [appartement à Tokyo en septembre](/blog/appartement-tokyo-septembre-guide).*
@@ -10940,6 +10946,8 @@ One last tip: plan to cool the place down from the first evening. An apartment l
 
 Moving to Tokyo in summer means managing the heat and the Obon calendar, but the quieter market works for you. It is one of the rare windows where a foreigner can take their time, compare, and [find an apartment](/blog/find-apartment-tokyo-foreigner) without the spring frenzy.
 
+
+While waiting for home internet setup, [Sakura Mobile](https://www.sakuramobile.jp/tokyoexpat-top) offers data plans with no address proof required, usable from day one in Japan. *(affiliate link)*
 ---
 
 *See also: [finding an apartment in Tokyo](/blog/find-apartment-tokyo-foreigner) and [renting in Tokyo in September](/blog/find-apartment-tokyo-september).*
