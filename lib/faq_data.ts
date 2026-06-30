@@ -2668,4 +2668,50 @@ export const faqData: Record<string, FaqItem[]> = {
         'Yes. Renters insurance is cheap in Japan (often 15,000 to 20,000 JPY for two years) and usually covers water damage and personal liability. It is protection worth having in place during typhoon season.',
     },
   ],
+
+  'rapport-loyers-tokyo-2026': [
+    {
+      question: 'Combien coûte un loyer à Tokyo en 2026?',
+      answer:
+        'En 2026, le loyer médian d\'un studio 1K va de 74 000 JPY (Edogawa) à 140 000 JPY (Minato). Un 1LDK pour un couple va de 118 000 JPY à 260 000 JPY. Ces médianes sont calculées sur 528 660 annonces actives réelles (LIFULL et AtHome), 23 arrondissements de Tokyo.',
+    },
+    {
+      question: 'Quel est l\'arrondissement le moins cher de Tokyo?',
+      answer:
+        'Pour un studio 1K, les arrondissements les moins chers sont Edogawa (74 000 JPY médian), Adachi (76 000 JPY), Katsushika (81 000 JPY), Nerima (82 000 JPY) et Suginami (84 000 JPY). Ce sont des arrondissements de l\'est et de la périphérie, avec un trajet plus long.',
+    },
+    {
+      question: 'Quel est l\'arrondissement le plus cher de Tokyo?',
+      answer:
+        'Minato est le plus cher (140 000 JPY médian pour un 1K, 260 000 JPY pour un 1LDK), suivi de Chiyoda, Chuo, Shibuya et Shinjuku. Ce sont les arrondissements d\'affaires et de vie centrale.',
+    },
+    {
+      question: 'Pourquoi utiliser le loyer médian plutôt que la moyenne?',
+      answer:
+        'La médiane résiste aux valeurs extrêmes : quelques biens de luxe ne la faussent pas, contrairement à la moyenne. Elle reflète donc mieux ce qu\'un locataire normal paie réellement. C\'est le chiffre sur lequel bâtir un budget.',
+    },
+  ],
+
+  'tokyo-rent-report-2026': [
+    {
+      question: 'How much does rent cost in Tokyo in 2026?',
+      answer:
+        'In 2026, the median rent for a 1K studio ranges from ¥74,000 (Edogawa) to ¥140,000 (Minato). A 1LDK for a couple ranges from ¥118,000 to ¥260,000. These medians are computed from 528,660 real active listings (LIFULL and AtHome) across Tokyo\'s 23 wards.',
+    },
+    {
+      question: 'What is the cheapest ward in Tokyo?',
+      answer:
+        'For a 1K studio, the cheapest wards are Edogawa (¥74,000 median), Adachi (¥76,000), Katsushika (¥81,000), Nerima (¥82,000) and Suginami (¥84,000). These are eastern and outer wards, with a longer commute to the centre.',
+    },
+    {
+      question: 'What is the most expensive ward in Tokyo?',
+      answer:
+        'Minato is the most expensive (¥140,000 median for a 1K, ¥260,000 for a 1LDK), followed by Chiyoda, Chuo, Shibuya and Shinjuku. These are the central business and lifestyle wards.',
+    },
+    {
+      question: 'Why use median rent instead of the average?',
+      answer:
+        'The median resists outliers: a few luxury listings do not distort it, unlike the average. It therefore better reflects what a normal tenant actually pays. It is the figure to budget against.',
+    },
+  ],
 }

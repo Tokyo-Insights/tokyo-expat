@@ -11075,6 +11075,162 @@ Typhoon season is part of life in Tokyo, and it is easy to manage with a few goo
 *See also: [finding an apartment in Tokyo](/blog/find-apartment-tokyo-foreigner) and [renters insurance in Japan](/blog/renters-insurance-japan-guide).*
     `.trim(),
   },
+  {
+    slug: 'rapport-loyers-tokyo-2026',
+    locale: 'fr',
+    title: 'Rapport des loyers de Tokyo 2026 : par arrondissement',
+    description: 'Combien coûte vraiment un loyer à Tokyo en 2026 ? Loyer médian par arrondissement et layout, sur 528 660 annonces réelles : le moins et le plus cher.',
+    date: '2026-06-30',
+    readingTime: '6 min',
+    content: `
+Combien coûte vraiment un loyer à Tokyo ? La plupart des guides donnent des fourchettes vagues. Ce rapport répond avec des données : le loyer mensuel médian dans chacun des 23 arrondissements de Tokyo, par layout, calculé sur 528 660 annonces actives réelles en 2026.
+
+**Réponse rapide :** En 2026, un studio 1K à Tokyo va d'un médian de 74 000 JPY à Edogawa (le moins cher) à 140 000 JPY à Minato (le plus cher), soit 89% d'écart. Un 1LDK (pour un couple) va de 118 000 JPY à Katsushika à 260 000 JPY à Minato. Le détail complet par arrondissement et layout est dans notre [Indice des loyers de Tokyo](/data).
+
+## Comment ce rapport est construit
+
+Nous avons agrégé 528 660 annonces locatives actives dédupliquées dans les 23 arrondissements de Tokyo (sources : LIFULL et AtHome), puis calculé le loyer mensuel médian pour chaque arrondissement et layout (1R à 3LDK). Nous utilisons la médiane, pas la moyenne, car elle résiste aux valeurs extrêmes : quelques biens de luxe ne faussent pas le chiffre. Chaque montant ci-dessous reflète ce que des locataires paient réellement.
+
+## Lire les layouts japonais
+
+Les annonces tokyoïtes utilisent un code de surface : le chiffre indique les chambres, les lettres l'espace de vie. 1R est une pièce unique avec cuisine incluse. 1K ajoute une cuisine séparée. 1DK a un coin repas-cuisine. 1LDK ajoute un salon, le confort pour un célibataire ou un couple. 2LDK et 3LDK ajoutent des chambres pour les familles. Le loyer grimpe nettement à chaque étape.
+
+## Les arrondissements les moins chers (studio 1K)
+
+| Arrondissement | Loyer médian 1K |
+|---|---|
+| Edogawa | 74 000 JPY |
+| Adachi | 76 000 JPY |
+| Katsushika | 81 000 JPY |
+| Nerima | 82 000 JPY |
+| Suginami | 84 000 JPY |
+
+Ces arrondissements de l'est et de la périphérie échangent un trajet plus long contre un loyer souvent 30 à 45% sous les arrondissements centraux. Pour un nouvel arrivant au budget serré, c'est la porte d'entrée intelligente. Voyez comment arbitrer trajet et loyer dans notre [guide des loyers par quartier](/blog/loyers-tokyo-par-quartier-2026).
+
+## Les arrondissements les plus chers (studio 1K)
+
+| Arrondissement | Loyer médian 1K |
+|---|---|
+| Minato | 140 000 JPY |
+| Chiyoda | 137 000 JPY |
+| Chuo | 130 000 JPY |
+| Shibuya | 127 000 JPY |
+| Shinjuku | 120 000 JPY |
+
+Ce sont les arrondissements d'affaires et de vie centrale. Vous payez une prime pour l'adresse et le trajet court. Pour beaucoup d'expatriés, un arrondissement à une station de là offre l'essentiel des avantages à un loyer nettement plus bas.
+
+## L'écart se creuse avec la taille
+
+L'écart entre l'arrondissement le moins cher et le plus cher grandit avec la surface :
+- Studio 1K : 74 000 à 140 000 JPY (+89%)
+- 1LDK (couple) : 118 000 à 260 000 JPY (+120%)
+- 2LDK (famille) : 161 000 à 390 000 JPY (+142%)
+
+Autrement dit, plus le logement est grand, plus l'emplacement coûte cher. Une famille qui a besoin d'un 2LDK économise le plus en choisissant un arrondissement périphérique, où un 2LDK coûte à peu près le prix d'un 1LDK central.
+
+## Ce que ça signifie pour votre installation
+
+- **Célibataire ou étudiant :** commencez dans un arrondissement de l'est ou de la périphérie (Edogawa, Adachi, Katsushika, Nerima). Vous avez un vrai appartement pour le prix d'une chambre centrale.
+- **Couple :** un 1LDK hors du centre économise 50 000 à 100 000 JPY par mois face à Minato ou Shibuya.
+- **Famille :** la prime d'un 2LDK central est forte. Les arrondissements périphériques avec écoles et parcs offrent bien plus d'espace par yen.
+
+Avant de signer, intégrez aussi les coûts d'entrée (caution, argent-clé, agence, garant). Nos guides sur [le logement sans garant](/blog/appartement-meuble-tokyo-sans-garant) et [trouver un appartement quand on est étranger](/blog/trouver-appartement-tokyo-etranger) couvrent le tableau complet.
+
+## La médiane, pas une supposition
+
+La plupart des articles sur le coût de la vie à Tokyo citent une moyenne unique, tirée de mémoire ou d'un petit échantillon. Deux problèmes en découlent. D'abord, une moyenne est tirée vers le haut par quelques tours de luxe : elle surestime ce qu'un locataire normal paie. Ensuite, un chiffre à l'échelle de la ville masque l'énorme écart entre arrondissements que vous venez de voir. Une médiane calculée arrondissement par arrondissement, sur des centaines de milliers d'annonces, corrige les deux. C'est le chiffre sur lequel vous pouvez réellement bâtir un budget.
+
+## Les loyers bougent avec les saisons
+
+Ces médianes sont un instantané du T2 2026. Les loyers montent légèrement aux pics de déménagement du printemps et de l'automne, quand la demande culmine, et se détendent l'été plus calme. Le classement des arrondissements reste stable, mais les montants absolus varient de quelques pour cent sur l'année. Nous rafraîchissons l'indice chaque trimestre pour qu'il suive le marché réel plutôt qu'une estimation figée.
+
+## Explorez toutes les données
+
+Ce rapport est un instantané. Le détail complet, arrondissement par arrondissement et layout par layout, vit dans notre [Indice des loyers de Tokyo](/data), mis à jour chaque trimestre. Et si vous voulez transformer ces chiffres en un vrai appartement, c'est exactement notre métier.
+
+---
+
+*Données : 528 660 annonces actives, 23 arrondissements de Tokyo, T2 2026. Loyer mensuel médian en JPY. Voir l'[indice complet](/data).*
+    `.trim(),
+  },
+  {
+    slug: 'tokyo-rent-report-2026',
+    locale: 'en',
+    title: 'Tokyo Rent Report 2026: Median Rent by Ward',
+    description: 'What does rent really cost in Tokyo in 2026? Median rent by ward and layout, from 528,660 real listings: the cheapest and priciest wards, with the data.',
+    date: '2026-06-30',
+    readingTime: '6 min',
+    content: `
+How much does it really cost to rent in Tokyo? Most guides give vague ranges. This report answers with data: the median monthly rent in each of Tokyo's 23 wards, by apartment layout, computed from 528,660 real active listings in 2026.
+
+**Quick answer:** In 2026, a 1K studio in Tokyo runs from a median of ¥74,000 in Edogawa (the cheapest ward) to ¥140,000 in Minato (the priciest), an 89% gap. A 1LDK (for a couple) ranges from ¥118,000 in Katsushika to ¥260,000 in Minato. The full breakdown by ward and layout is in our [Tokyo Rent Index](/data).
+
+## How we built this
+
+We aggregated 528,660 deduplicated active rental listings across Tokyo's 23 special wards (sources: LIFULL and AtHome), then computed the median monthly rent for each ward and layout (1R to 3LDK). We use the median, not the average, because it resists outliers: a few luxury listings do not distort the figure. Every number below reflects what real tenants actually pay.
+
+## Reading Tokyo apartment layouts
+
+Tokyo listings use a code for size: the number is bedrooms, the letters describe the living space. 1R is a single room with the kitchen inside it. 1K adds a separated kitchen. 1DK has a dining-kitchen. 1LDK adds a living room, the comfortable single or couple unit. 2LDK and 3LDK add bedrooms for families. Rent climbs steeply at each step.
+
+## The cheapest wards (1K studio)
+
+| Ward | Median 1K rent |
+|---|---|
+| Edogawa | ¥74,000 |
+| Adachi | ¥76,000 |
+| Katsushika | ¥81,000 |
+| Nerima | ¥82,000 |
+| Suginami | ¥84,000 |
+
+These eastern and outer wards trade a longer commute for rent that is often 30 to 45% below the central wards. For newcomers on a budget, they are the smart entry point. See how to weigh commute versus rent in our [rent by neighbourhood guide](/blog/tokyo-rent-by-neighborhood-2026).
+
+## The priciest wards (1K studio)
+
+| Ward | Median 1K rent |
+|---|---|
+| Minato | ¥140,000 |
+| Chiyoda | ¥137,000 |
+| Chuo | ¥130,000 |
+| Shibuya | ¥127,000 |
+| Shinjuku | ¥120,000 |
+
+These are the central business and lifestyle wards. You pay a premium for the address and the short commute. For many expats, a ward one stop out delivers most of the benefit at a meaningfully lower rent.
+
+## The gap widens with size
+
+The spread between the cheapest and priciest ward grows with apartment size:
+- 1K studio: ¥74,000 to ¥140,000 (+89%)
+- 1LDK (couple): ¥118,000 to ¥260,000 (+120%)
+- 2LDK (family): ¥161,000 to ¥390,000 (+142%)
+
+In other words, the bigger the home, the more location costs you. A family needing a 2LDK saves the most by choosing an outer ward, where a 2LDK costs roughly the price of a central 1LDK.
+
+## What this means for your move
+
+- **Single or student:** start in an eastern or outer ward (Edogawa, Adachi, Katsushika, Nerima). You get a real apartment for the price of a central room.
+- **Couple:** a 1LDK outside the centre saves ¥50,000 to ¥100,000 a month versus Minato or Shibuya.
+- **Family:** the 2LDK premium in central wards is steep. Outer wards with good schools and parks give far more space per yen.
+
+Before you sign, factor in the move-in costs too (deposit, key money, agency fee, guarantor). Our guides on [renting without a guarantor](/blog/furnished-apartment-tokyo-no-guarantor) and [finding an apartment as a foreigner](/blog/find-apartment-tokyo-foreigner) cover the full picture.
+
+## Why a median beats a guess
+
+Most "cost of living in Tokyo" articles cite a single average pulled from memory or a small sample. Two problems follow. First, an average is dragged upward by a handful of luxury towers, so it overstates what a normal tenant pays. Second, a city-wide figure hides the huge ward-to-ward gap you have just seen. A median computed ward by ward, from hundreds of thousands of listings, fixes both. It is the number you can actually budget against.
+
+## Rents move with the seasons
+
+These medians are a Q2 2026 snapshot. Tokyo rents drift up slightly in the busy spring and autumn moving seasons, when demand peaks, and ease in the quieter summer. The ward ranking stays stable, but the absolute figures move a few percent across the year. We refresh the index each quarter so it tracks the real market rather than a frozen estimate.
+
+## Explore the full data
+
+This report is a snapshot. The complete, ward-by-ward, layout-by-layout breakdown lives in our [Tokyo Rent Index](/data), updated quarterly. And if you want help turning these numbers into an actual apartment, that is exactly what we do.
+
+---
+
+*Data: 528,660 active listings, Tokyo 23 wards, Q2 2026. Median monthly rent in JPY. See the [full index](/data).*
+    `.trim(),
+  },
 
 ]
 
@@ -11144,6 +11300,7 @@ export const TWIN_SLUGS: Record<string, string> = {
   'trouver-logement-tokyo-deux-semaines-mutation': 'find-housing-tokyo-two-weeks-relocation',
   'demenager-tokyo-ete-juillet-aout': 'moving-to-tokyo-summer-july-august',
   'saison-typhons-tokyo-choisir-logement': 'typhoon-season-tokyo-choosing-housing',
+  'rapport-loyers-tokyo-2026': 'tokyo-rent-report-2026',
 }
 
 export function getTwinSlug(slug: string, locale: Locale): string | undefined {

@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import type { Metadata } from 'next'
 import type { Locale } from '@/lib/i18n'
+import rentIndex from '@/lib/tokyoRentIndex.json'
 
 export async function generateMetadata({
   params,
@@ -10,8 +11,8 @@ export async function generateMetadata({
   const { locale } = await params
   const altLocale = locale === 'fr' ? 'en' : 'fr'
   const title = locale === 'en'
-    ? 'Tokyo Rental Market Data 2026 — Tokyo Expat'
-    : 'Donnees marche locatif Tokyo 2026 — Tokyo Expat'
+    ? 'Tokyo Rental Market Data 2026 | Tokyo Expat'
+    : 'Donnees marche locatif Tokyo 2026 | Tokyo Expat'
   const description = locale === 'en'
     ? 'Exclusive Tokyo rental market data: average rent by ward, share house pricing, time to find, seasonality. Updated Q2 2026 from 300+ active listings.'
     : 'Donnees exclusives marche locatif Tokyo : loyer moyen par arrondissement, share house, delais de recherche, saisonnalite. Mis a jour T2 2026.'
@@ -42,11 +43,11 @@ export async function generateMetadata({
 
 const t = {
   en: {
-    hero_title: 'Tokyo Rental Market Data',
-    hero_subtitle: 'Exclusive data compiled from 300+ active listings across Tokyo. Updated Q2 2026.',
+    hero_title: 'Tokyo Rent Index',
+    hero_subtitle: 'Median rent by ward and layout, computed from 528,660 real active listings across Tokyo\'s 23 wards. Updated Q2 2026.',
     last_updated: 'Last updated: June 2026',
-    source_note: 'Source: Tokyo Expat active listing network. Prices in JPY/month.',
-    section_rent: 'Average Rent by Ward (1K / 1DK, 20-35m²)',
+    source_note: 'Methodology: median monthly rent (JPY) from 528,660 deduplicated active listings (LIFULL + AtHome), Tokyo 23 special wards, by layout. Median is more robust than average against outliers.',
+    section_rent: 'Median Rent by Ward and Layout (JPY/month)',
     section_types: 'Housing Types: Cost Comparison',
     section_time: 'Average Time to Find Housing',
     section_docs: 'Required Documents by Housing Type',
@@ -67,11 +68,11 @@ const t = {
     cta_btn: 'Free Consultation',
   },
   fr: {
-    hero_title: 'Donnees marche locatif Tokyo',
-    hero_subtitle: 'Donnees exclusives compilees depuis 300+ annonces actives a Tokyo. Mis a jour T2 2026.',
+    hero_title: 'Indice des loyers de Tokyo',
+    hero_subtitle: 'Loyer median par arrondissement et par layout, calcule sur 528 660 annonces actives reelles dans les 23 arrondissements de Tokyo. Mis a jour T2 2026.',
     last_updated: 'Derniere mise a jour : juin 2026',
-    source_note: 'Source : reseau annonces actives Tokyo Expat. Prix en JPY/mois.',
-    section_rent: 'Loyer moyen par arrondissement (1K / 1DK, 20-35m²)',
+    source_note: 'Methodologie : loyer mensuel median (JPY) sur 528 660 annonces actives dedupliquees (LIFULL + AtHome), 23 arrondissements de Tokyo, par layout. La mediane resiste mieux aux valeurs extremes que la moyenne.',
+    section_rent: 'Loyer median par arrondissement et layout (JPY/mois)',
     section_types: 'Types de logement : comparatif des couts',
     section_time: 'Delai moyen pour trouver un logement',
     section_docs: 'Documents requis par type de logement',
@@ -93,20 +94,37 @@ const t = {
   },
 }
 
-const wardData = [
-  { ward: 'Minato-ku', ward_fr: 'Minato', range: '130,000 - 220,000', tier: 'premium' },
-  { ward: 'Shibuya-ku', ward_fr: 'Shibuya', range: '120,000 - 200,000', tier: 'premium' },
-  { ward: 'Chiyoda-ku', ward_fr: 'Chiyoda', range: '125,000 - 195,000', tier: 'premium' },
-  { ward: 'Shinjuku-ku', ward_fr: 'Shinjuku', range: '100,000 - 165,000', tier: 'mid-high' },
-  { ward: 'Meguro-ku', ward_fr: 'Meguro', range: '100,000 - 155,000', tier: 'mid-high' },
-  { ward: 'Setagaya-ku', ward_fr: 'Setagaya', range: '85,000 - 135,000', tier: 'mid' },
-  { ward: 'Nakano-ku', ward_fr: 'Nakano', range: '78,000 - 115,000', tier: 'mid' },
-  { ward: 'Sumida-ku', ward_fr: 'Sumida', range: '75,000 - 110,000', tier: 'mid' },
-  { ward: 'Nerima-ku', ward_fr: 'Nerima', range: '65,000 - 95,000', tier: 'affordable' },
-  { ward: 'Adachi-ku', ward_fr: 'Adachi', range: '58,000 - 88,000', tier: 'affordable' },
-  { ward: 'Edogawa-ku', ward_fr: 'Edogawa', range: '58,000 - 85,000', tier: 'affordable' },
-  { ward: 'Katsushika-ku', ward_fr: 'Katsushika', range: '55,000 - 82,000', tier: 'affordable' },
-]
+type WardRent = {
+  ward_en: string
+  ward_jp: string
+  sample: number
+  rents: Record<string, { median: number; count: number }>
+}
+
+const fmtYen = (n?: number) => (n ? '¥' + n.toLocaleString('en-US') : 'n/a')
+
+function tierFor1K(median?: number): string {
+  if (!median) return 'mid'
+  if (median >= 125000) return 'premium'
+  if (median >= 105000) return 'mid-high'
+  if (median >= 88000) return 'mid'
+  return 'affordable'
+}
+
+// Lignes reelles construites depuis l'indice (528k+ annonces), triees par loyer 1K croissant.
+const wardData = (rentIndex.wards as unknown as WardRent[])
+  .filter((w) => w.rents['1K'])
+  .sort((a, b) => (a.rents['1K']?.median ?? 0) - (b.rents['1K']?.median ?? 0))
+  .map((w) => ({
+    ward: `${w.ward_en}-ku`,
+    ward_fr: w.ward_en,
+    r1k: w.rents['1K']?.median,
+    r1ldk: w.rents['1LDK']?.median,
+    r2ldk: w.rents['2LDK']?.median,
+    tier: tierFor1K(w.rents['1K']?.median),
+  }))
+
+const totalListings = (rentIndex.total_listings as number).toLocaleString('en-US')
 
 const tierColors: Record<string, string> = {
   premium: 'bg-red-50 text-red-700 border-red-200',
@@ -141,16 +159,22 @@ export default async function DataPage({
   const datasetLd = {
     '@context': 'https://schema.org',
     '@type': 'Dataset',
-    name: l === 'en' ? 'Tokyo Rental Market Data 2026' : 'Donnees marche locatif Tokyo 2026',
+    name: l === 'en' ? 'Tokyo Rent Index 2026 (median rent by ward and layout)' : 'Indice des loyers de Tokyo 2026 (loyer median par arrondissement et layout)',
     description: l === 'en'
-      ? 'Average rent by ward, housing types, time to find, and seasonality data for Tokyo rental market 2026.'
-      : 'Loyer moyen par arrondissement, types de logement, delais de recherche et saisonnalite du marche locatif tokyoite 2026.',
+      ? 'Median monthly rent (JPY) by Tokyo ward and apartment layout (1R to 3LDK), computed from 528,660 deduplicated active rental listings (LIFULL and AtHome), Tokyo 23 special wards, Q2 2026.'
+      : 'Loyer mensuel median (JPY) par arrondissement de Tokyo et par layout (1R a 3LDK), calcule sur 528 660 annonces locatives actives dedupliquees (LIFULL et AtHome), 23 arrondissements de Tokyo, T2 2026.',
     url: `https://www.tokyo-expat.com/${l}/data`,
     creator: { '@type': 'Organization', name: 'Tokyo Expat', url: 'https://www.tokyo-expat.com' },
-    dateModified: '2026-06-01',
+    dateModified: '2026-06-30',
     inLanguage: l === 'fr' ? 'fr-FR' : 'en-US',
     spatialCoverage: { '@type': 'Place', name: 'Tokyo, Japan' },
     temporalCoverage: '2026',
+    measurementTechnique: 'Median of deduplicated active listing rents',
+    variableMeasured: [
+      { '@type': 'PropertyValue', name: 'Median monthly rent (JPY)', unitText: 'JPY' },
+      { '@type': 'PropertyValue', name: 'Ward' },
+      { '@type': 'PropertyValue', name: 'Apartment layout (1R-3LDK)' },
+    ],
     isPartOf: { '@type': 'WebSite', name: 'Tokyo Expat', url: 'https://www.tokyo-expat.com' },
   }
 
@@ -178,10 +202,10 @@ export default async function DataPage({
       {/* Key stats row */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-14">
         {[
-          { value: '300+', label: l === 'en' ? 'Active listings' : 'Annonces actives' },
+          { value: totalListings, label: l === 'en' ? 'Listings analysed' : 'Annonces analysees' },
           { value: '23', label: l === 'en' ? 'Wards covered' : 'Arrondissements' },
-          { value: '3', label: l === 'en' ? 'Languages' : 'Langues' },
-          { value: '1-4w', label: l === 'en' ? 'Avg. search time' : 'Delai moyen' },
+          { value: '8', label: l === 'en' ? 'Layouts (1R-3LDK)' : 'Layouts (1R-3LDK)' },
+          { value: '2', label: l === 'en' ? 'Sources (LIFULL, AtHome)' : 'Sources (LIFULL, AtHome)' },
         ].map((stat) => (
           <div key={stat.label} className="bg-gray-50 border border-gray-200 rounded-xl p-4 text-center">
             <div className="text-2xl font-extrabold text-[#0f2744]">{stat.value}</div>
@@ -198,8 +222,10 @@ export default async function DataPage({
             <thead>
               <tr className="bg-[#0f2744] text-white">
                 <th className="px-4 py-3 text-left font-semibold">{copy.ward}</th>
-                <th className="px-4 py-3 text-left font-semibold">{copy.avg_rent}</th>
-                <th className="px-4 py-3 text-left font-semibold hidden sm:table-cell">Tier</th>
+                <th className="px-4 py-3 text-right font-semibold">1K</th>
+                <th className="px-4 py-3 text-right font-semibold">1LDK</th>
+                <th className="px-4 py-3 text-right font-semibold hidden sm:table-cell">2LDK</th>
+                <th className="px-4 py-3 text-left font-semibold hidden md:table-cell">Tier</th>
               </tr>
             </thead>
             <tbody>
@@ -208,10 +234,16 @@ export default async function DataPage({
                   <td className="px-4 py-3 border-t border-gray-100 font-medium text-[#0f2744]">
                     {l === 'fr' ? row.ward_fr : row.ward}
                   </td>
-                  <td className="px-4 py-3 border-t border-gray-100 text-gray-700 font-mono text-xs">
-                    {row.range}
+                  <td className="px-4 py-3 border-t border-gray-100 text-gray-700 font-mono text-xs text-right">
+                    {fmtYen(row.r1k)}
                   </td>
-                  <td className="px-4 py-3 border-t border-gray-100 hidden sm:table-cell">
+                  <td className="px-4 py-3 border-t border-gray-100 text-gray-700 font-mono text-xs text-right">
+                    {fmtYen(row.r1ldk)}
+                  </td>
+                  <td className="px-4 py-3 border-t border-gray-100 text-gray-700 font-mono text-xs text-right hidden sm:table-cell">
+                    {fmtYen(row.r2ldk)}
+                  </td>
+                  <td className="px-4 py-3 border-t border-gray-100 hidden md:table-cell">
                     <span className={`text-xs font-semibold px-2 py-0.5 rounded-full border ${tierColors[row.tier]}`}>
                       {tierLabels[l][row.tier]}
                     </span>
@@ -300,7 +332,7 @@ export default async function DataPage({
                 {
                   type: l === 'en' ? 'Standard 2-year rental' : 'Location classique 2 ans',
                   weeks: '4 - 8',
-                  comp: l === 'en' ? 'High — guarantor + bank account needed' : 'Eleve : garant + compte bancaire requis',
+                  comp: l === 'en' ? 'High: guarantor + bank account needed' : 'Eleve : garant + compte bancaire requis',
                 },
               ].map((row, i) => (
                 <tr key={row.type} className={i % 2 === 0 ? 'bg-white' : 'bg-gray-50'}>

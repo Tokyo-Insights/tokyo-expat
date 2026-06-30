@@ -1,0 +1,822 @@
+{
+  "generated": "2026-06-30",
+  "source": "LIFULL + AtHome active listings, Tokyo 23 wards",
+  "total_listings": 528660,
+  "layouts": [
+    "1R",
+    "1K",
+    "1DK",
+    "1LDK",
+    "2K",
+    "2DK",
+    "2LDK",
+    "3LDK"
+  ],
+  "wards": [
+    {
+      "ward_en": "Adachi",
+      "ward_jp": "足立区",
+      "sample": 24735,
+      "rents": {
+        "1K": {
+          "median": 76000,
+          "count": 7739
+        },
+        "1DK": {
+          "median": 89000,
+          "count": 1380
+        },
+        "1LDK": {
+          "median": 125000,
+          "count": 6508
+        },
+        "2K": {
+          "median": 65000,
+          "count": 839
+        },
+        "2DK": {
+          "median": 89000,
+          "count": 1910
+        },
+        "2LDK": {
+          "median": 161000,
+          "count": 4882
+        },
+        "3LDK": {
+          "median": 195000,
+          "count": 1477
+        }
+      }
+    },
+    {
+      "ward_en": "Arakawa",
+      "ward_jp": "荒川区",
+      "sample": 16443,
+      "rents": {
+        "1K": {
+          "median": 91000,
+          "count": 4420
+        },
+        "1DK": {
+          "median": 110000,
+          "count": 1314
+        },
+        "1LDK": {
+          "median": 150000,
+          "count": 3913
+        },
+        "2K": {
+          "median": 85000,
+          "count": 355
+        },
+        "2DK": {
+          "median": 125000,
+          "count": 592
+        },
+        "2LDK": {
+          "median": 219000,
+          "count": 4952
+        },
+        "3LDK": {
+          "median": 235000,
+          "count": 897
+        }
+      }
+    },
+    {
+      "ward_en": "Bunkyo",
+      "ward_jp": "文京区",
+      "sample": 18910,
+      "rents": {
+        "1K": {
+          "median": 108000,
+          "count": 6175
+        },
+        "1DK": {
+          "median": 154000,
+          "count": 2292
+        },
+        "1LDK": {
+          "median": 195000,
+          "count": 5620
+        },
+        "2K": {
+          "median": 127000,
+          "count": 284
+        },
+        "2DK": {
+          "median": 160000,
+          "count": 567
+        },
+        "2LDK": {
+          "median": 270000,
+          "count": 3247
+        },
+        "3LDK": {
+          "median": 335000,
+          "count": 725
+        }
+      }
+    },
+    {
+      "ward_en": "Chiyoda",
+      "ward_jp": "千代田区",
+      "sample": 17013,
+      "rents": {
+        "1K": {
+          "median": 137000,
+          "count": 5862
+        },
+        "1DK": {
+          "median": 175000,
+          "count": 2017
+        },
+        "1LDK": {
+          "median": 230000,
+          "count": 5977
+        },
+        "2K": {
+          "median": 163000,
+          "count": 179
+        },
+        "2DK": {
+          "median": 242000,
+          "count": 176
+        },
+        "2LDK": {
+          "median": 363000,
+          "count": 2079
+        },
+        "3LDK": {
+          "median": 550000,
+          "count": 723
+        }
+      }
+    },
+    {
+      "ward_en": "Chuo",
+      "ward_jp": "中央区",
+      "sample": 15982,
+      "rents": {
+        "1K": {
+          "median": 130000,
+          "count": 4218
+        },
+        "1DK": {
+          "median": 165000,
+          "count": 1465
+        },
+        "1LDK": {
+          "median": 223000,
+          "count": 5740
+        },
+        "2K": {
+          "median": 140000,
+          "count": 26
+        },
+        "2DK": {
+          "median": 225000,
+          "count": 320
+        },
+        "2LDK": {
+          "median": 306500,
+          "count": 3114
+        },
+        "3LDK": {
+          "median": 390000,
+          "count": 1099
+        }
+      }
+    },
+    {
+      "ward_en": "Edogawa",
+      "ward_jp": "江戸川区",
+      "sample": 20320,
+      "rents": {
+        "1K": {
+          "median": 74000,
+          "count": 6125
+        },
+        "1DK": {
+          "median": 88000,
+          "count": 1050
+        },
+        "1LDK": {
+          "median": 125000,
+          "count": 3236
+        },
+        "2K": {
+          "median": 70000,
+          "count": 824
+        },
+        "2DK": {
+          "median": 90000,
+          "count": 2061
+        },
+        "2LDK": {
+          "median": 162000,
+          "count": 5209
+        },
+        "3LDK": {
+          "median": 200000,
+          "count": 1815
+        }
+      }
+    },
+    {
+      "ward_en": "Itabashi",
+      "ward_jp": "板橋区",
+      "sample": 23683,
+      "rents": {
+        "1K": {
+          "median": 88000,
+          "count": 9616
+        },
+        "1DK": {
+          "median": 104000,
+          "count": 1806
+        },
+        "1LDK": {
+          "median": 143000,
+          "count": 5496
+        },
+        "2K": {
+          "median": 113000,
+          "count": 992
+        },
+        "2DK": {
+          "median": 110000,
+          "count": 1057
+        },
+        "2LDK": {
+          "median": 195000,
+          "count": 3662
+        },
+        "3LDK": {
+          "median": 220000,
+          "count": 1054
+        }
+      }
+    },
+    {
+      "ward_en": "Katsushika",
+      "ward_jp": "葛飾区",
+      "sample": 19407,
+      "rents": {
+        "1K": {
+          "median": 81000,
+          "count": 8812
+        },
+        "1DK": {
+          "median": 83500,
+          "count": 1115
+        },
+        "1LDK": {
+          "median": 118000,
+          "count": 2860
+        },
+        "2K": {
+          "median": 68500,
+          "count": 720
+        },
+        "2DK": {
+          "median": 85000,
+          "count": 1488
+        },
+        "2LDK": {
+          "median": 162000,
+          "count": 3479
+        },
+        "3LDK": {
+          "median": 185000,
+          "count": 933
+        }
+      }
+    },
+    {
+      "ward_en": "Kita",
+      "ward_jp": "北区",
+      "sample": 22202,
+      "rents": {
+        "1K": {
+          "median": 90000,
+          "count": 8066
+        },
+        "1DK": {
+          "median": 122000,
+          "count": 2719
+        },
+        "1LDK": {
+          "median": 152000,
+          "count": 4494
+        },
+        "2K": {
+          "median": 93000,
+          "count": 852
+        },
+        "2DK": {
+          "median": 135000,
+          "count": 1279
+        },
+        "2LDK": {
+          "median": 218000,
+          "count": 3682
+        },
+        "3LDK": {
+          "median": 260000,
+          "count": 1110
+        }
+      }
+    },
+    {
+      "ward_en": "Koto",
+      "ward_jp": "江東区",
+      "sample": 37483,
+      "rents": {
+        "1K": {
+          "median": 112000,
+          "count": 13501
+        },
+        "1DK": {
+          "median": 139000,
+          "count": 5868
+        },
+        "1LDK": {
+          "median": 175000,
+          "count": 8945
+        },
+        "2K": {
+          "median": 129000,
+          "count": 1494
+        },
+        "2DK": {
+          "median": 138000,
+          "count": 1017
+        },
+        "2LDK": {
+          "median": 241000,
+          "count": 4568
+        },
+        "3LDK": {
+          "median": 270000,
+          "count": 2090
+        }
+      }
+    },
+    {
+      "ward_en": "Meguro",
+      "ward_jp": "目黒区",
+      "sample": 15930,
+      "rents": {
+        "1K": {
+          "median": 107000,
+          "count": 4815
+        },
+        "1DK": {
+          "median": 150000,
+          "count": 1516
+        },
+        "1LDK": {
+          "median": 201000,
+          "count": 4612
+        },
+        "2K": {
+          "median": 125000,
+          "count": 266
+        },
+        "2DK": {
+          "median": 179000,
+          "count": 610
+        },
+        "2LDK": {
+          "median": 290000,
+          "count": 2871
+        },
+        "3LDK": {
+          "median": 368000,
+          "count": 1240
+        }
+      }
+    },
+    {
+      "ward_en": "Minato",
+      "ward_jp": "港区",
+      "sample": 20069,
+      "rents": {
+        "1K": {
+          "median": 140000,
+          "count": 6220
+        },
+        "1DK": {
+          "median": 165000,
+          "count": 1365
+        },
+        "1LDK": {
+          "median": 260000,
+          "count": 6578
+        },
+        "2K": {
+          "median": 144000,
+          "count": 70
+        },
+        "2DK": {
+          "median": 209000,
+          "count": 264
+        },
+        "2LDK": {
+          "median": 390000,
+          "count": 4378
+        },
+        "3LDK": {
+          "median": 620000,
+          "count": 1194
+        }
+      }
+    },
+    {
+      "ward_en": "Nakano",
+      "ward_jp": "中野区",
+      "sample": 20300,
+      "rents": {
+        "1K": {
+          "median": 88000,
+          "count": 6765
+        },
+        "1DK": {
+          "median": 130000,
+          "count": 2172
+        },
+        "1LDK": {
+          "median": 174000,
+          "count": 5866
+        },
+        "2K": {
+          "median": 124000,
+          "count": 439
+        },
+        "2DK": {
+          "median": 140000,
+          "count": 843
+        },
+        "2LDK": {
+          "median": 225000,
+          "count": 3300
+        },
+        "3LDK": {
+          "median": 255000,
+          "count": 915
+        }
+      }
+    },
+    {
+      "ward_en": "Nerima",
+      "ward_jp": "練馬区",
+      "sample": 22016,
+      "rents": {
+        "1K": {
+          "median": 82000,
+          "count": 8979
+        },
+        "1DK": {
+          "median": 96000,
+          "count": 1044
+        },
+        "1LDK": {
+          "median": 135000,
+          "count": 4812
+        },
+        "2K": {
+          "median": 83000,
+          "count": 580
+        },
+        "2DK": {
+          "median": 98000,
+          "count": 1120
+        },
+        "2LDK": {
+          "median": 176000,
+          "count": 3676
+        },
+        "3LDK": {
+          "median": 206000,
+          "count": 1805
+        }
+      }
+    },
+    {
+      "ward_en": "Ota",
+      "ward_jp": "大田区",
+      "sample": 30300,
+      "rents": {
+        "1K": {
+          "median": 93000,
+          "count": 11943
+        },
+        "1DK": {
+          "median": 120000,
+          "count": 3189
+        },
+        "1LDK": {
+          "median": 155000,
+          "count": 7261
+        },
+        "2K": {
+          "median": 107000,
+          "count": 923
+        },
+        "2DK": {
+          "median": 122000,
+          "count": 1544
+        },
+        "2LDK": {
+          "median": 205000,
+          "count": 4059
+        },
+        "3LDK": {
+          "median": 245000,
+          "count": 1381
+        }
+      }
+    },
+    {
+      "ward_en": "Setagaya",
+      "ward_jp": "世田谷区",
+      "sample": 37317,
+      "rents": {
+        "1K": {
+          "median": 87000,
+          "count": 13233
+        },
+        "1DK": {
+          "median": 126000,
+          "count": 2779
+        },
+        "1LDK": {
+          "median": 169000,
+          "count": 8696
+        },
+        "2K": {
+          "median": 116000,
+          "count": 958
+        },
+        "2DK": {
+          "median": 130000,
+          "count": 1753
+        },
+        "2LDK": {
+          "median": 235000,
+          "count": 6540
+        },
+        "3LDK": {
+          "median": 285000,
+          "count": 3358
+        }
+      }
+    },
+    {
+      "ward_en": "Shibuya",
+      "ward_jp": "渋谷区",
+      "sample": 18683,
+      "rents": {
+        "1K": {
+          "median": 127000,
+          "count": 5592
+        },
+        "1DK": {
+          "median": 163200,
+          "count": 1598
+        },
+        "1LDK": {
+          "median": 230000,
+          "count": 6908
+        },
+        "2K": {
+          "median": 213000,
+          "count": 305
+        },
+        "2DK": {
+          "median": 167500,
+          "count": 292
+        },
+        "2LDK": {
+          "median": 341000,
+          "count": 3188
+        },
+        "3LDK": {
+          "median": 437500,
+          "count": 800
+        }
+      }
+    },
+    {
+      "ward_en": "Shinagawa",
+      "ward_jp": "品川区",
+      "sample": 19533,
+      "rents": {
+        "1K": {
+          "median": 112000,
+          "count": 7429
+        },
+        "1DK": {
+          "median": 147000,
+          "count": 2145
+        },
+        "1LDK": {
+          "median": 190000,
+          "count": 5076
+        },
+        "2K": {
+          "median": 133000,
+          "count": 255
+        },
+        "2DK": {
+          "median": 175000,
+          "count": 686
+        },
+        "2LDK": {
+          "median": 265000,
+          "count": 3112
+        },
+        "3LDK": {
+          "median": 370000,
+          "count": 830
+        }
+      }
+    },
+    {
+      "ward_en": "Shinjuku",
+      "ward_jp": "新宿区",
+      "sample": 28364,
+      "rents": {
+        "1K": {
+          "median": 120000,
+          "count": 11083
+        },
+        "1DK": {
+          "median": 157000,
+          "count": 3485
+        },
+        "1LDK": {
+          "median": 195000,
+          "count": 8063
+        },
+        "2K": {
+          "median": 135000,
+          "count": 495
+        },
+        "2DK": {
+          "median": 153000,
+          "count": 679
+        },
+        "2LDK": {
+          "median": 289500,
+          "count": 3471
+        },
+        "3LDK": {
+          "median": 344000,
+          "count": 1088
+        }
+      }
+    },
+    {
+      "ward_en": "Suginami",
+      "ward_jp": "杉並区",
+      "sample": 21006,
+      "rents": {
+        "1K": {
+          "median": 84000,
+          "count": 8266
+        },
+        "1DK": {
+          "median": 115000,
+          "count": 1790
+        },
+        "1LDK": {
+          "median": 159000,
+          "count": 4596
+        },
+        "2K": {
+          "median": 110000,
+          "count": 599
+        },
+        "2DK": {
+          "median": 120000,
+          "count": 1071
+        },
+        "2LDK": {
+          "median": 210000,
+          "count": 3163
+        },
+        "3LDK": {
+          "median": 264000,
+          "count": 1521
+        }
+      }
+    },
+    {
+      "ward_en": "Sumida",
+      "ward_jp": "墨田区",
+      "sample": 29711,
+      "rents": {
+        "1K": {
+          "median": 105000,
+          "count": 8485
+        },
+        "1DK": {
+          "median": 136000,
+          "count": 4146
+        },
+        "1LDK": {
+          "median": 174000,
+          "count": 9027
+        },
+        "2K": {
+          "median": 121000,
+          "count": 918
+        },
+        "2DK": {
+          "median": 168000,
+          "count": 1644
+        },
+        "2LDK": {
+          "median": 227000,
+          "count": 4549
+        },
+        "3LDK": {
+          "median": 284000,
+          "count": 942
+        }
+      }
+    },
+    {
+      "ward_en": "Taito",
+      "ward_jp": "台東区",
+      "sample": 29723,
+      "rents": {
+        "1K": {
+          "median": 115000,
+          "count": 7985
+        },
+        "1DK": {
+          "median": 142000,
+          "count": 3953
+        },
+        "1LDK": {
+          "median": 180000,
+          "count": 10155
+        },
+        "2K": {
+          "median": 128000,
+          "count": 362
+        },
+        "2DK": {
+          "median": 172000,
+          "count": 837
+        },
+        "2LDK": {
+          "median": 244000,
+          "count": 5678
+        },
+        "3LDK": {
+          "median": 328000,
+          "count": 753
+        }
+      }
+    },
+    {
+      "ward_en": "Toshima",
+      "ward_jp": "豊島区",
+      "sample": 19530,
+      "rents": {
+        "1K": {
+          "median": 96000,
+          "count": 7267
+        },
+        "1DK": {
+          "median": 134500,
+          "count": 2383
+        },
+        "1LDK": {
+          "median": 173000,
+          "count": 5342
+        },
+        "2K": {
+          "median": 129000,
+          "count": 637
+        },
+        "2DK": {
+          "median": 140000,
+          "count": 674
+        },
+        "2LDK": {
+          "median": 245000,
+          "count": 2501
+        },
+        "3LDK": {
+          "median": 284000,
+          "count": 726
+        }
+      }
+    }
+  ]
+}
