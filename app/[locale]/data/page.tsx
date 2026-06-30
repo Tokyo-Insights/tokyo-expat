@@ -126,6 +126,23 @@ const wardData = (rentIndex.wards as unknown as WardRent[])
 
 const totalListings = (rentIndex.total_listings as number).toLocaleString('en-US')
 
+type LineRent = {
+  line_en: string
+  sample: number
+  rents: Record<string, { median: number; count: number }>
+}
+
+// Lignes de train majeures, triees par loyer 1K croissant.
+const lineData = (rentIndex.lines as unknown as LineRent[])
+  .filter((l) => l.rents['1K'])
+  .sort((a, b) => (a.rents['1K']?.median ?? 0) - (b.rents['1K']?.median ?? 0))
+  .map((l) => ({
+    line: l.line_en,
+    r1k: l.rents['1K']?.median,
+    r1ldk: l.rents['1LDK']?.median,
+    r2ldk: l.rents['2LDK']?.median,
+  }))
+
 const tierColors: Record<string, string> = {
   premium: 'bg-red-50 text-red-700 border-red-200',
   'mid-high': 'bg-orange-50 text-orange-700 border-orange-200',
@@ -174,6 +191,7 @@ export default async function DataPage({
       { '@type': 'PropertyValue', name: 'Median monthly rent (JPY)', unitText: 'JPY' },
       { '@type': 'PropertyValue', name: 'Ward' },
       { '@type': 'PropertyValue', name: 'Apartment layout (1R-3LDK)' },
+      { '@type': 'PropertyValue', name: 'Train line (27 major Tokyo lines)' },
     ],
     isPartOf: { '@type': 'WebSite', name: 'Tokyo Expat', url: 'https://www.tokyo-expat.com' },
   }
@@ -276,6 +294,40 @@ export default async function DataPage({
                       {tierLabels[l][row.tier]}
                     </span>
                   </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      {/* Rent by train line */}
+      <section className="mb-14">
+        <h2 className="text-2xl font-bold text-[#0f2744] mb-2">
+          {l === 'en' ? 'Median Rent by Major Tokyo Train Line (JPY/month)' : 'Loyer médian par grande ligne de Tokyo (JPY/mois)'}
+        </h2>
+        <p className="text-xs text-gray-400 mb-6">
+          {l === 'en'
+            ? 'Median across all stations served by each of the 27 major Tokyo lines.'
+            : 'Médiane sur toutes les stations desservies par chacune des 27 grandes lignes de Tokyo.'}
+        </p>
+        <div className="overflow-x-auto rounded-xl border border-gray-200">
+          <table className="w-full text-sm border-collapse">
+            <thead>
+              <tr className="bg-[#0f2744] text-white">
+                <th className="px-4 py-3 text-left font-semibold">{l === 'en' ? 'Train line' : 'Ligne'}</th>
+                <th className="px-4 py-3 text-right font-semibold">1K</th>
+                <th className="px-4 py-3 text-right font-semibold">1LDK</th>
+                <th className="px-4 py-3 text-right font-semibold hidden sm:table-cell">2LDK</th>
+              </tr>
+            </thead>
+            <tbody>
+              {lineData.map((row, i) => (
+                <tr key={row.line} className={i % 2 === 0 ? 'bg-white' : 'bg-gray-50'}>
+                  <td className="px-4 py-3 border-t border-gray-100 font-medium text-[#0f2744]">{row.line}</td>
+                  <td className="px-4 py-3 border-t border-gray-100 text-gray-700 font-mono text-xs text-right">{fmtYen(row.r1k)}</td>
+                  <td className="px-4 py-3 border-t border-gray-100 text-gray-700 font-mono text-xs text-right">{fmtYen(row.r1ldk)}</td>
+                  <td className="px-4 py-3 border-t border-gray-100 text-gray-700 font-mono text-xs text-right hidden sm:table-cell">{fmtYen(row.r2ldk)}</td>
                 </tr>
               ))}
             </tbody>
