@@ -4,9 +4,11 @@ Remplace le workflow dashboard Brevo par un drip 100% automatise.
 
 A lancer 1x/jour (cron / startup / batch quotidien TE).
 Pour chaque contact de la liste 3 (lead magnet checklist) :
-  - J+0  -> email bienvenue 1
-  - J+2  -> email bienvenue 2
-  - J+5  -> email bienvenue 3
+  - J+0  -> email bienvenue 1  ENVOYE PAR /api/subscribe (route serverless, instantane)
+  - J+2  -> email bienvenue 2  (ce script)
+  - J+5  -> email bienvenue 3  (ce script)
+IMPORTANT: J+0 est gere par la route /api/subscribe (envoi immediat + fiable, serverless).
+Ce script ne gere QUE J+2 et J+5 pour eviter un double envoi de Welcome 1.
 Langue lue dans l'attribut LANGUE (fr/en), defaut fr.
 Etat anti-doublon dans data/welcome_drip_state.json.
 
@@ -47,8 +49,8 @@ TEMPLATES = {
     "fr": {0: 1, 2: 2, 5: 3},
     "en": {0: 4, 2: 5, 5: 6},
 }
-# Etapes par jour-seuil
-STEPS = [(0, "step0"), (2, "step2"), (5, "step5")]
+# Etapes par jour-seuil. J+0 (step0) RETIRE: gere par /api/subscribe (evite double Welcome 1).
+STEPS = [(2, "step2"), (5, "step5")]
 
 API_KEY = None
 for line in ENV.read_text(encoding="utf-8").splitlines():

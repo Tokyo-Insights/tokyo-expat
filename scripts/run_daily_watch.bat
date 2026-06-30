@@ -39,9 +39,13 @@ python scripts\proactive_analysis.py >> "%LOG_FILE%" 2>&1
 echo [%TIME%] [5/7] Reddit intercept... >> "%LOG_FILE%"
 python scripts\reddit_quora_intercept.py >> "%LOG_FILE%" 2>&1
 
-:: 6. Welcome drip (sequence email bienvenue lead magnet checklist)
-echo [%TIME%] [6/7] Brevo welcome drip... >> "%LOG_FILE%"
+:: 6. Welcome drip (J+2 / J+5 ; J+0 gere par /api/subscribe)
+echo [%TIME%] [6/8] Brevo welcome drip... >> "%LOG_FILE%"
 python scripts\brevo_welcome_drip.py >> "%LOG_FILE%" 2>&1
+
+:: 7. Relances backlinks (J+6 sans reponse -> draft Gmail + alerte Telegram)
+echo [%TIME%] [7/8] Backlink follow-up watcher... >> "%LOG_FILE%"
+python scripts\backlink_followup_watcher.py >> "%LOG_FILE%" 2>&1
 
 :: 7. Thursday briefing leger (jeudi uniquement : Buffer status + actions en attente)
 for /f %%d in ('powershell -NoProfile -Command "(Get-Date).DayOfWeek"') do set DOW_DAILY=%%d
