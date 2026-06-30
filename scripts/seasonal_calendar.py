@@ -255,6 +255,8 @@ def main():
             print(f"[DEDUP] Deja alerte recemment : {a['article'][:60]}")
     save_dedup(seen)
 
+    # N'ENVOYER l'alerte QUE s'il y a vraiment un article a ecrire (pic dans la
+    # fenetre ET non couvert). Sinon = rien d'actionnable = PAS d'alerte (sinon bruit).
     if new_alerts:
         lines.append(f"\n<b>ACTIONS IMMEDIATES ({len(new_alerts)} articles a publier) :</b>")
         for key, a in new_alerts:
@@ -264,9 +266,10 @@ def main():
         for key, _ in new_alerts:
             seen[key] = datetime.date.today().isoformat()
         save_dedup(seen)
-
-    send_telegram("\n".join(lines))
-    print(f"Telegram envoye : {len(upcoming)} pics a venir")
+        send_telegram("\n".join(lines))
+        print(f"Telegram envoye : {len(new_alerts)} article(s) a ecrire.")
+    else:
+        print("Aucun article saisonnier a ecrire (tout couvert ou hors fenetre). PAS d'alerte Telegram.")
 
     if urgent_articles:
         print(f"\nARTICLES URGENTS A ECRIRE :")
