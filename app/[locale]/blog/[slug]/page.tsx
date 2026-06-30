@@ -5,6 +5,7 @@ import type { ReactNode } from 'react'
 import { getBlogPost, getBlogPosts, getTwinSlug, type Locale } from '@/lib/blog'
 import { faqData } from '@/lib/faq_data'
 import LeadMagnetForm from '@/components/LeadMagnetForm'
+import CtaConsultation from '@/components/CtaConsultation'
 
 export async function generateStaticParams() {
   const locales: Locale[] = ['fr', 'en']
@@ -135,16 +136,28 @@ function renderTable(lines: string[], baseKey: number): ReactNode {
   )
 }
 
-function renderContent(content: string) {
+function renderContent(content: string, locale?: string) {
   const lines = content.split('\n')
   const elements: ReactNode[] = []
   let i = 0
+  let h2Count = 0
+  let midCtaInserted = false
 
   while (i < lines.length) {
     const line = lines[i]
 
     // H2
     if (line.startsWith('## ')) {
+      h2Count++
+      // Capture email en milieu d'article : juste avant le 3e H2 (= apres 2 sections lues).
+      if (locale && !midCtaInserted && h2Count === 3) {
+        elements.push(
+          <div key={`midcta-${i}`} className="my-10">
+            <LeadMagnetForm locale={locale} compact />
+          </div>
+        )
+        midCtaInserted = true
+      }
       elements.push(
         <h2 key={i} className="text-2xl font-bold text-[#0f2744] mt-10 mb-4">
           {renderInline(line.slice(3), `h2-${i}`)}
@@ -230,10 +243,6 @@ export default async function BlogPostPage({
   if (!post) notFound()
 
   const backLabel = locale === 'fr' ? 'Retour aux guides' : 'Back to guides'
-  const ctaLabel = locale === 'fr' ? 'Consultation gratuite' : 'Free Consultation'
-  const ctaDesc = locale === 'fr'
-    ? 'Vous avez un projet d\'installation a Tokyo? Parlons-en.'
-    : 'Planning to move to Tokyo? Let\'s talk.'
 
   const pageUrl = `https://www.tokyo-expat.com/${locale}/blog/${post.slug}`
   const ogImage = `/og?title=${encodeURIComponent(post.title)}&locale=${locale}`
@@ -344,7 +353,7 @@ export default async function BlogPostPage({
       </p>
 
       <div className="prose-custom">
-        {renderContent(post.content)}
+        {renderContent(post.content, locale)}
       </div>
 
       {faqs && (
@@ -375,15 +384,7 @@ export default async function BlogPostPage({
         <LeadMagnetForm locale={locale} />
       </div>
 
-      <div className="mt-8 bg-[#0f2744] text-white rounded-2xl p-8 text-center">
-        <p className="text-gray-300 mb-2">{ctaDesc}</p>
-        <Link
-          href={`/${locale}/contact`}
-          className="inline-block bg-[#e84141] hover:bg-[#ff6b6b] text-white px-8 py-3 rounded-xl font-bold transition-colors mt-4"
-        >
-          {ctaLabel}
-        </Link>
-      </div>
+      <CtaConsultation locale={locale} />
     </div>
   )
 }

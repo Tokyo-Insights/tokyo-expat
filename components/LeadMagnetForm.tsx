@@ -41,6 +41,12 @@ export default function LeadMagnetForm({ locale, compact = false }: Props): Reac
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email, locale, source: 'lead-magnet-checklist' }),
       })
+      if (res.ok && typeof window !== 'undefined' && typeof window.gtag === 'function') {
+        window.gtag('event', 'generate_lead', {
+          source: compact ? 'lead-magnet-mid-article' : 'lead-magnet-end',
+          locale,
+        })
+      }
       setStatus(res.ok ? 'success' : 'error')
     } catch {
       setStatus('error')

@@ -52,6 +52,11 @@ export default function ContactForm({ locale }: { locale: Locale }) {
           href="https://calendly.com/contact-tokyo-expat/30min"
           target="_blank"
           rel="noopener noreferrer"
+          onClick={() => {
+            if (typeof window !== 'undefined' && typeof window.gtag === 'function') {
+              window.gtag('event', 'book_call_click', { source: 'contact_page', locale })
+            }
+          }}
           className="inline-block bg-[#e84141] hover:bg-[#ff6b6b] text-white px-8 py-3 rounded-xl font-bold transition-colors"
         >
           {locale === 'fr' ? 'Réserver maintenant' : 'Book now'} &rarr;
