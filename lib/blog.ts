@@ -229,7 +229,7 @@ Combien faut-il gagner pour vivre confortablement à Tokyo en tant qu'expatrié 
 
 ## Le logement : le poste dominant
 
-Le loyer représente 40 à 50% du budget total d'un expatrié à Tokyo. C'est le levier principal sur lequel vous pouvez agir.
+Le loyer représente 40 à 50% du budget total d'un expatrié à Tokyo. C'est le levier principal sur lequel vous pouvez agir. Pour le loyer médian par arrondissement et layout, voyez notre [Indice des loyers de Tokyo](/data).
 
 **Share house** : 50 000 à 90 000 JPY/mois (charges généralement incluses)
 
@@ -671,7 +671,7 @@ How much do you need to live comfortably in Tokyo as a foreigner? The answer dep
 
 ## Housing: the dominant cost
 
-Rent represents 40 to 50% of a Tokyo expat's total budget. It is also the main lever you can act on.
+Rent represents 40 to 50% of a Tokyo expat's total budget. It is also the main lever you can act on. For median rent by ward and layout, see our [Tokyo Rent Index](/data).
 
 **Share house**: 50,000 to 90,000 JPY/month (utilities usually included)
 
@@ -8087,7 +8087,7 @@ Pour votre couverture sante pendant la recherche de logement, [SafetyWing Nomad 
     content: `
 Understanding Tokyo apartment prices before you start your search is the difference between a realistic brief and weeks of wasted visits. Rents in Tokyo vary enormously by neighborhood, apartment type, and proximity to a metro station. This guide gives you benchmarks for 15 key expat districts in 2026, based on current market data for furnished and unfurnished rentals.
 
-All prices below are monthly rent in JPY, excluding service charges and utilities unless specified. Add 15-25% for fully furnished serviced apartments.
+All prices below are monthly rent in JPY, excluding service charges and utilities unless specified. Add 15-25% for fully furnished serviced apartments. For median rent across all 23 wards by layout, see our [Tokyo Rent Index](/data), computed from 528,660 real listings.
 
 ## Tokyo Rent Comparison by Neighborhood: 2026
 
@@ -8178,7 +8178,7 @@ For health coverage during your apartment search, [SafetyWing Nomad Insurance](h
     content: `
 Comprendre les loyers de Tokyo avant de commencer votre recherche, c'est la différence entre un brief réaliste et des semaines de visites inutiles. Les loyers à Tokyo varient considérablement selon le quartier, le type d'appartement et la proximité des transports. Ce guide vous donne les fourchettes de prix pour 15 quartiers clés en 2026.
 
-Tous les prix ci-dessous sont des loyers mensuels en JPY, hors charges et utilities sauf mention contraire. Ajoutez 15 à 25% pour les appartements entièrement meublés et équipés.
+Tous les prix ci-dessous sont des loyers mensuels en JPY, hors charges et utilities sauf mention contraire. Ajoutez 15 à 25% pour les appartements entièrement meublés et équipés. Pour le loyer médian dans les 23 arrondissements par layout, voyez notre [Indice des loyers de Tokyo](/data), calculé sur 528 660 annonces réelles.
 
 ## Comparatif loyers Tokyo par quartier: 2026
 
