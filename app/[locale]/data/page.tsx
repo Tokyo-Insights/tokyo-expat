@@ -178,6 +178,30 @@ export default async function DataPage({
     isPartOf: { '@type': 'WebSite', name: 'Tokyo Expat', url: 'https://www.tokyo-expat.com' },
   }
 
+  const faqs = l === 'en' ? [
+    { q: 'What is the average rent in Tokyo in 2026?', a: 'Median rent for a 1K studio ranges from ¥74,000 (Edogawa) to ¥140,000 (Minato). A 1LDK for a couple ranges from ¥118,000 to ¥260,000. These medians come from 528,660 active listings across Tokyo\'s 23 wards.' },
+    { q: 'What is the cheapest ward in Tokyo to rent?', a: 'For a 1K studio, the cheapest wards are Edogawa (¥74,000 median), Adachi (¥76,000), Katsushika (¥81,000), Nerima (¥82,000) and Suginami (¥84,000), all eastern or outer wards.' },
+    { q: 'What is the most expensive ward in Tokyo?', a: 'Minato is the most expensive (¥140,000 median for a 1K, ¥260,000 for a 1LDK), followed by Chiyoda, Chuo, Shibuya and Shinjuku.' },
+    { q: 'Why does this index use median rent instead of the average?', a: 'The median resists outliers: a few luxury listings do not distort it, unlike the average. It better reflects what a normal tenant actually pays.' },
+    { q: 'How often is the Tokyo Rent Index updated?', a: 'Quarterly, from fresh active listings. This edition reflects Q2 2026 data.' },
+  ] : [
+    { q: 'Quel est le loyer moyen à Tokyo en 2026 ?', a: 'Le loyer médian d\'un studio 1K va de 74 000 JPY (Edogawa) à 140 000 JPY (Minato). Un 1LDK pour un couple va de 118 000 à 260 000 JPY. Ces médianes proviennent de 528 660 annonces actives dans les 23 arrondissements de Tokyo.' },
+    { q: 'Quel est l\'arrondissement le moins cher de Tokyo ?', a: 'Pour un studio 1K, les moins chers sont Edogawa (74 000 JPY médian), Adachi (76 000 JPY), Katsushika (81 000 JPY), Nerima (82 000 JPY) et Suginami (84 000 JPY), tous à l\'est ou en périphérie.' },
+    { q: 'Quel est l\'arrondissement le plus cher de Tokyo ?', a: 'Minato est le plus cher (140 000 JPY médian pour un 1K, 260 000 JPY pour un 1LDK), suivi de Chiyoda, Chuo, Shibuya et Shinjuku.' },
+    { q: 'Pourquoi cet indice utilise-t-il le loyer médian plutôt que la moyenne ?', a: 'La médiane résiste aux valeurs extrêmes : quelques biens de luxe ne la faussent pas, contrairement à la moyenne. Elle reflète mieux ce qu\'un locataire normal paie.' },
+    { q: 'À quelle fréquence l\'indice est-il mis à jour ?', a: 'Chaque trimestre, à partir d\'annonces actives fraîches. Cette édition reflète les données du T2 2026.' },
+  ]
+
+  const faqLd = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqs.map((f) => ({
+      '@type': 'Question',
+      name: f.q,
+      acceptedAnswer: { '@type': 'Answer', text: f.a },
+    })),
+  }
+
   return (
     <div className="max-w-4xl mx-auto px-4 py-16">
       <script
@@ -187,6 +211,10 @@ export default async function DataPage({
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }}
       />
 
       {/* Hero */}
@@ -443,6 +471,24 @@ export default async function DataPage({
               <div className="font-medium text-[#0f2744] text-sm mb-2">{row.path}</div>
               <div className="text-xs text-gray-500">{row.note}</div>
             </div>
+          ))}
+        </div>
+      </section>
+
+      {/* FAQ */}
+      <section className="mb-16">
+        <h2 className="text-2xl font-bold text-[#0f2744] mb-6">
+          {l === 'en' ? 'Frequently asked questions' : 'Questions fréquentes'}
+        </h2>
+        <div className="space-y-3">
+          {faqs.map((f) => (
+            <details key={f.q} className="group border border-gray-200 rounded-xl p-5">
+              <summary className="font-semibold text-[#0f2744] cursor-pointer list-none flex justify-between items-center gap-4">
+                {f.q}
+                <span className="text-gray-400 group-open:rotate-180 transition-transform flex-shrink-0">▾</span>
+              </summary>
+              <p className="text-gray-600 text-sm mt-3 leading-relaxed">{f.a}</p>
+            </details>
           ))}
         </div>
       </section>
