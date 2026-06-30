@@ -63,8 +63,8 @@ export default async function HomePage({
     logo: {
       '@type': 'ImageObject',
       url: 'https://www.tokyo-expat.com/icon.png',
-      width: 32,
-      height: 32,
+      width: 192,
+      height: 192,
     },
     description: locale === 'fr'
       ? 'Chasseur immobilier à Tokyo pour francophones et expatriés. Share house, appartement meublé, maison.'

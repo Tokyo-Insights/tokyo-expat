@@ -275,8 +275,8 @@ export default async function BlogPostPage({
       logo: {
         '@type': 'ImageObject',
         url: 'https://www.tokyo-expat.com/icon.png',
-        width: 32,
-        height: 32,
+        width: 192,
+        height: 192,
       },
     },
     isPartOf: {
