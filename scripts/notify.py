@@ -55,7 +55,84 @@ def read_today(limit: int = 50):
     return out[-limit:]
 
 
+def _classify(msg: str):
+    """Categorie + tag de triage a partir du contenu du message."""
+    m = msg.upper()
+    if "REDDIT" in m:
+        return ("reddit", "🟢 ACTIONNABLE")
+    if "BACKLINK RELANCES" in m or "RELANCE DUE" in m:
+        return ("relance", "🔄 AUTO (watcher, draft pret)")
+    if "HARO" in m:
+        return ("haro", "🔴 SKIP (plateforme suspendue)")
+    if "COMPETITOR" in m:
+        return ("competitor", "⚪ INFO (veille)")
+    if "CALENDRIER" in m or "SAISONNIER" in m:
+        return ("seasonal", "⚪ INFO (calendrier)")
+    if "ARTICLES A ECRIRE" in m or "INTELLIGENCE" in m or "PROACTIVE" in m:
+        return ("proactive", "🟡 A LIRE (suggestions)")
+    if "GSC" in m or "SEARCH CONSOLE" in m or "BING" in m or "GA4" in m or "RANKING" in m or "KEYWORD" in m:
+        return ("metrics", "⚪ INFO (metriques)")
+    if "OUTREACH" in m or "BACKLINK" in m:
+        return ("outreach", "🟡 A LIRE (outreach)")
+    return ("autre", "⚪ INFO")
+
+
+def _first_line(msg: str) -> str:
+    import re
+    txt = re.sub(r"<[^>]+>", " ", msg)
+    txt = re.sub(r"\s+", " ", txt).strip()
+    return txt[:90]
+
+
+def digest(days: int = 1):
+    """Digest auto-trie des alertes des N derniers jours (1=aujourd'hui)."""
+    if not LOG.exists():
+        print("(journal vide)")
+        return
+    import datetime as _dt
+    cutoff = (_dt.date.today() - _dt.timedelta(days=days - 1)).isoformat()
+    entries = []
+    for line in LOG.read_text(encoding="utf-8").splitlines()[-800:]:
+        try:
+            e = json.loads(line)
+            if e.get("at", "")[:10] >= cutoff:
+                entries.append(e)
+        except Exception:
+            pass
+    if not entries:
+        print(f"Aucune alerte depuis {cutoff}.")
+        return
+    buckets = {}
+    for e in entries:
+        cat, tag = _classify(e.get("msg", ""))
+        buckets.setdefault(tag, []).append(e)
+    order = ["🟢 ACTIONNABLE", "🟡 A LIRE (suggestions)", "🟡 A LIRE (outreach)",
+             "🔄 AUTO (watcher, draft pret)", "⚪ INFO (veille)", "⚪ INFO (calendrier)",
+             "⚪ INFO (metriques)", "⚪ INFO", "🔴 SKIP (plateforme suspendue)"]
+    print(f"=== DIGEST TELEGRAM (depuis {cutoff}) -- {len(entries)} alertes ===")
+    for tag in order:
+        if tag in buckets:
+            print(f"\n{tag} ({len(buckets[tag])}):")
+            for e in buckets[tag]:
+                print(f"  [{e.get('at','')[11:16]}] {_first_line(e.get('msg',''))}")
+    # autres tags non listes
+    for tag, items in buckets.items():
+        if tag not in order:
+            print(f"\n{tag} ({len(items)}):")
+            for e in items:
+                print(f"  [{e.get('at','')[11:16]}] {_first_line(e.get('msg',''))}")
+
+
 if __name__ == "__main__":
-    # mode lecture: affiche les alertes du jour
-    for e in read_today():
-        print(f"[{e['at']}] ({e.get('source','')}) {e['msg'][:120]}")
+    import sys, io
+    if sys.stdout.encoding and sys.stdout.encoding.lower() not in ("utf-8", "utf8"):
+        sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
+    if "--digest" in sys.argv:
+        days = 1
+        for a in sys.argv:
+            if a.isdigit():
+                days = int(a)
+        digest(days=days)
+    else:
+        for e in read_today():
+            print(f"[{e['at']}] ({e.get('source','')}) {e['msg'][:120]}")
