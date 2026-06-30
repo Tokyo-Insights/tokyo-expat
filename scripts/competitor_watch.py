@@ -305,16 +305,16 @@ def main():
             if new_urls:
                 print(f"  {len(new_urls)} new URLs!")
                 if is_content:
-                    # Editeur de contenu : alerte URL par URL + contre-attaque
-                    # On ignore les URLs de bruit (images produit, attachments, taxonomies).
-                    real_urls = [u for u in sorted(new_urls) if not is_noise(u)]
+                    # Editeur de contenu : n'alerter QUE sur les articles pertinents
+                    # pour notre niche (logement/expat). is_interesting filtre le bruit
+                    # (jobs, apprentissage du japonais, etc.) ET les images/attachments.
+                    real_urls = [u for u in sorted(new_urls) if is_interesting(u)]
                     for url in real_urls:
                         topic = slug_to_topic(url)
                         alerts.append(f"📰 <b>{name}</b>: {topic}\n<code>{url}</code>")
-                        if is_interesting(url):
-                            counter_attack_suggestions.append(
-                                f"⚔️ CONTRE-ATTAQUE: {name} a publié sur <b>{topic}</b> → créer un meilleur article ?"
-                            )
+                        counter_attack_suggestions.append(
+                            f"⚔️ CONTRE-ATTAQUE: {name} a publié sur <b>{topic}</b> → créer un meilleur article ?"
+                        )
                 else:
                     # Site de listings (Oak House, Sakura, GaijinPot Housing) :
                     # résumé uniquement, pas de contre-attaque
