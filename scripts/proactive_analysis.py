@@ -378,6 +378,13 @@ def main():
 
     msg3_lines.append("\n<b>Objectif 30j :</b> 3 nouveaux articles + 10 backlinks naturels")
 
+    # Ne RIEN envoyer s'il n'y a aucune action concrete (aucun nouvel article a
+    # ecrire NI vulnerabilite a exploiter). Sinon = rapport "intelligence" vide = bruit.
+    has_vulns = bool(vulns.get("available") and vulns.get("total", 0) > 0)
+    if not article_queue and not has_vulns:
+        print("Proactive: rien d'actionnable (file d'articles vide, aucune vuln). PAS d'alerte Telegram.")
+        return
+
     # Dedup : ne pas re-envoyer le meme rapport si rien de nouveau
     seen = load_dedup()
     today_str = datetime.date.today().isoformat()
