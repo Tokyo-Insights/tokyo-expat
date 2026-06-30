@@ -34,6 +34,7 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 VERIFY_SSL = False
 
 from config import TELEGRAM_TOKEN, TELEGRAM_CHAT_ID
+from blog_helpers import SUSPENDED_SOURCES
 
 try:
     from config import GMAIL_ADDRESS, GMAIL_APP_PASSWORD
@@ -316,6 +317,10 @@ def main():
     since_date = (datetime.date.today() - datetime.timedelta(days=7)).strftime("%d-%b-%Y")
 
     for sender_domain in PR_SENDERS:
+        # Sauter les plateformes au compte suspendu (pitchs impossibles = bruit).
+        if sender_domain in SUSPENDED_SOURCES:
+            print(f"  {sender_domain}: SKIP (compte suspendu)")
+            continue
         try:
             _, data = mail.search(None, f'(FROM "{sender_domain}" SINCE "{since_date}")')
             uids = data[0].split() if data[0] else []
@@ -350,6 +355,10 @@ def main():
 
     state["seen_uids"] = list(seen_uids)
     save_state(state)
+
+    # Ne garder que les opportunites reellement pertinentes (le parsing "Pattern 2"
+    # peut produire des blocs sans score -> on les ecarte ici).
+    new_opportunities = [o for o in new_opportunities if o.get("score", 0) >= MIN_RELEVANCE_SCORE]
 
     if new_opportunities:
         # Trier par score de pertinence

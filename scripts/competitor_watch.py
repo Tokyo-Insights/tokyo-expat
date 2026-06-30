@@ -197,6 +197,14 @@ INTERESTING_KEYWORDS = [
     "francais", "french", "move", "demenager", "checklist", "guide",
 ]
 
+# Slugs/URLs de bruit: images produit, attachments, taxonomies, pages non-editoriales.
+# Empeche de prendre "socks1-cropped" ou "/product/..." pour un article a contre-attaquer.
+NOISE_TOKENS = [
+    "cropped", "scaled", "-thumb", "thumbnail", "/wp-content/", "/product",
+    "/attachment", ".jpg", ".png", ".jpeg", ".webp", ".gif", "slider",
+    "/tag/", "/author/", "/page/", "/category/", "/feed", "/cart", "/checkout",
+]
+
 # ── FUNCTIONS ─────────────────────────────────────────────────────────────────
 
 def fetch_sitemap(url: str, depth: int = 0) -> list[str]:
@@ -237,10 +245,18 @@ def save_cache(cache: dict) -> None:
         json.dump(cache, f, indent=2, ensure_ascii=False)
 
 
+def is_noise(url: str) -> bool:
+    """True si l'URL est une image produit, un attachment ou une page non-editoriale."""
+    return any(tok in url.lower() for tok in NOISE_TOKENS)
+
+
 def is_interesting(url: str) -> bool:
-    """Filtre les URLs qui couvrent des sujets qu'on devrait contre-attaquer."""
-    url_lower = url.lower()
-    return any(kw in url_lower for kw in INTERESTING_KEYWORDS)
+    """True seulement si le CHEMIN (hors domaine) couvre un sujet a contre-attaquer.
+    On exclut le domaine sinon 'tokyo' dans 'savvytokyo.com' matche toutes leurs URLs."""
+    if is_noise(url):
+        return False
+    path = re.sub(r"^https?://[^/]+", "", url.lower())
+    return any(kw in path for kw in INTERESTING_KEYWORDS)
 
 
 def slug_to_topic(url: str) -> str:
@@ -290,7 +306,9 @@ def main():
                 print(f"  {len(new_urls)} new URLs!")
                 if is_content:
                     # Editeur de contenu : alerte URL par URL + contre-attaque
-                    for url in sorted(new_urls):
+                    # On ignore les URLs de bruit (images produit, attachments, taxonomies).
+                    real_urls = [u for u in sorted(new_urls) if not is_noise(u)]
+                    for url in real_urls:
                         topic = slug_to_topic(url)
                         alerts.append(f"📰 <b>{name}</b>: {topic}\n<code>{url}</code>")
                         if is_interesting(url):

@@ -20,6 +20,7 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 VERIFY_SSL = False
 
 from config import TE_TOKEN, TE_CHAT_ID
+from blog_helpers import article_already_published
 
 SCRIPT_DIR = Path(__file__).parent
 DATA_DIR = SCRIPT_DIR / "data"
@@ -328,6 +329,18 @@ def main():
             "why": f"On est #{pos} sur ce keyword - un bon article interne peut le faire passer en page 1",
             "keywords": [kw],
         })
+
+    # Retirer les articles deja publies (sinon on re-propose du deja-fait).
+    article_queue = [
+        a for a in article_queue
+        if not article_already_published(a.get("keywords", []), a.get("title", ""))
+    ]
+    # Re-numeroter proprement apres filtrage.
+    for idx, a in enumerate(article_queue, 1):
+        a["priority"] = idx
+
+    if not article_queue:
+        msg2_lines.append("<i>Aucun nouvel article a ecrire : les sujets prioritaires sont deja couverts.</i>")
 
     for i, art in enumerate(article_queue[:3], 1):
         msg2_lines.append(

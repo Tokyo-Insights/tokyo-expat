@@ -19,6 +19,7 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 VERIFY_SSL = False
 
 from config import TE_TOKEN, TE_CHAT_ID
+from blog_helpers import article_already_published as bh_published
 
 SCRIPT_DIR = Path(__file__).parent
 
@@ -228,10 +229,15 @@ def main():
             days_info += f" | publier dans {s['days_to_deadline']}j max"
         elif s["is_window_open"]:
             days_info += " | PUBLIER MAINTENANT"
+        # Ne pas suggerer d'ecrire un article qui existe deja (sinon = bruit deja-fait).
+        if bh_published(s.get("keywords", []), s.get("article", "")):
+            article_line = "\n   ✅ Sujet deja couvert (ne pas reecrire)"
+        else:
+            article_line = f"\n   Article : <i>{s['article'][:65]}</i>"
         lines.append(
             f"\n{emoji} <b>{s['name']}</b> ({s['peak_date'].strftime('%d %b')})"
             f"\n   {days_info}"
-            f"\n   Article : <i>{s['article'][:65]}</i>"
+            f"{article_line}"
         )
 
     seen = load_dedup()
