@@ -10,6 +10,7 @@ interface HeaderProps {
     home: string
     services: string
     listings: string
+    data: string
     blog: string
     about: string
     contact: string
@@ -36,6 +37,7 @@ export default function Header({ locale, nav }: HeaderProps) {
           <Link href={`/${locale}`} className="hover:text-[#e84141] transition-colors">{nav.home}</Link>
           <Link href={`/${locale}/services`} className="hover:text-[#e84141] transition-colors">{nav.services}</Link>
           <Link href={`/${locale}/listings`} className="hover:text-[#e84141] transition-colors font-semibold text-[#e84141]">{nav.listings}</Link>
+          <Link href={`/${locale}/data`} className="hover:text-[#e84141] transition-colors">{nav.data}</Link>
           <Link href={`/${locale}/blog`} className="hover:text-[#e84141] transition-colors">{nav.blog}</Link>
           <Link href={`/${locale}/about`} className="hover:text-[#e84141] transition-colors">{nav.about}</Link>
           <Link href={`/${locale}/contact`} className="hover:text-[#e84141] transition-colors">{nav.contact}</Link>
@@ -64,6 +66,7 @@ export default function Header({ locale, nav }: HeaderProps) {
           <Link href={`/${locale}`} onClick={() => setOpen(false)}>{nav.home}</Link>
           <Link href={`/${locale}/services`} onClick={() => setOpen(false)}>{nav.services}</Link>
           <Link href={`/${locale}/listings`} onClick={() => setOpen(false)} className="text-[#e84141] font-semibold">{nav.listings}</Link>
+          <Link href={`/${locale}/data`} onClick={() => setOpen(false)}>{nav.data}</Link>
           <Link href={`/${locale}/blog`} onClick={() => setOpen(false)}>{nav.blog}</Link>
           <Link href={`/${locale}/about`} onClick={() => setOpen(false)}>{nav.about}</Link>
           <Link href={`/${locale}/contact`} onClick={() => setOpen(false)}>{nav.contact}</Link>
