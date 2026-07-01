@@ -227,6 +227,8 @@ Pour votre couverture sante pendant votre sejour en share house, [SafetyWing Nom
     content: `
 Combien faut-il gagner pour vivre confortablement à Tokyo en tant qu'expatrié ? La réponse dépend de votre style de vie, mais les chiffres ci-dessous sont des moyennes réelles, pas des estimations touristiques.
 
+**Réponse rapide :** Un expatrié vit confortablement à Tokyo avec environ 200 000 à 350 000 JPY par mois selon le style de vie. Le loyer pèse 40 à 50% du budget : share house 50 000 à 90 000 JPY, studio central 80 000 à 130 000 JPY, 1LDK 130 000 à 200 000 JPY. Ajoutez l'alimentation (~40 000 JPY), le transport, l'assurance santé et les charges. Le loyer est votre principal levier d'économie.
+
 ## Le logement : le poste dominant
 
 Le loyer représente 40 à 50% du budget total d'un expatrié à Tokyo. C'est le levier principal sur lequel vous pouvez agir. Pour le loyer médian par arrondissement et layout, voyez notre [Indice des loyers de Tokyo](/data).
@@ -320,6 +322,8 @@ Pour les activites et visites a Tokyo, [GetYourGuide](https://www.getyourguide.c
     readingTime: '9 min',
     content: `
 Choisir le bon quartier à Tokyo est une décision qui engage votre qualité de vie pour les 12 à 36 prochains mois. Trop central : le loyer dépasse le budget. Trop excentré : les transports grignotent vos soirées. Voici les quartiers qui offrent le meilleur équilibre pour les expatriés francophones et anglophones.
+
+**Réponse rapide :** Les meilleurs quartiers de Tokyo pour expatriés équilibrent loyer, trajet et commodité. Les zones centrales premium (Minato, Shibuya, Meguro) démarrent vers 130 000 JPY pour un studio ; les zones intermédiaires (Setagaya, Nakano, Koto) offrent plus d'espace par yen ; les arrondissements de l'est (Edogawa, Adachi) sont les plus abordables. Choisissez d'abord selon le temps de trajet vers votre bureau, puis selon l'ambiance.
 
 ## Shinjuku : le quartier de l'expatrié pratique
 
@@ -670,6 +674,8 @@ For health coverage during your transition, [SafetyWing Nomad Insurance](https:/
     readingTime: '7 min',
     content: `
 How much do you need to live comfortably in Tokyo as a foreigner? The answer depends on your lifestyle, but the numbers below are real averages, not tourist estimates.
+
+**Quick answer:** A foreigner lives comfortably in Tokyo on roughly 200,000 to 350,000 JPY per month depending on lifestyle. Rent is 40 to 50% of the budget: share house 50,000 to 90,000 JPY, central studio 80,000 to 130,000 JPY, 1LDK 130,000 to 200,000 JPY. Add food (~40,000 JPY), transport, health insurance and utilities. Rent is your main lever to save.
 
 ## Housing: the dominant cost
 
@@ -3124,6 +3130,8 @@ Pour preparer votre couverture sante avant l'arrivee, [SafetyWing Nomad Insuranc
     readingTime: '7 min',
     content: `
 La garantie de loyer est l'un des obstacles les plus redoutés par les étrangers qui cherchent un appartement au Japon. Dans le système locatif japonais traditionnel, le propriétaire exige un garant personnel, souvent japonais, qui s'engage à payer à votre place en cas de défaut. Sans réseau local, trouver ce garant est quasiment impossible à votre arrivée. Bonne nouvelle : le marché a évolué, et des solutions concrètes existent.
+
+**Réponse rapide :** Vous n'avez pas besoin d'un garant personnel japonais pour louer au Japon. La plupart des étrangers passent par une société de garantie (hoshou-gaisha), qui coûte 50 à 100% d'un mois de loyer et couvre le propriétaire en cas de défaut. Les options sans garant (share houses, appartements meublés et monthly mansions) évitent totalement cette exigence et acceptent un passeport et un visa.
 
 ## Le garant personnel (保証人 hoshounin) : l'obstacle historique
 
