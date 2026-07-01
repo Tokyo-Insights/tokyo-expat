@@ -140,6 +140,7 @@ const dictionaries = {
       why_3: 'Entité légale japonaise',
       why_4: 'Trilingue FR / EN / JP',
       why_5: 'Paiement sécurisé, mission traçable',
+      why_6: 'Data propriétaire : Indice des loyers Tokyo (500 000+ annonces)',
     },
     contact: {
       title: 'Consultation gratuite',
@@ -295,6 +296,7 @@ const dictionaries = {
       why_3: 'Japanese legal entity',
       why_4: 'Trilingual FR / EN / JP',
       why_5: 'Secure payment, traceable mission',
+      why_6: 'Proprietary data: Tokyo Rent Index (500,000+ listings)',
     },
     contact: {
       title: 'Free Consultation',

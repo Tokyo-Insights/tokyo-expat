@@ -9,7 +9,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params
   const altLocale = locale === 'fr' ? 'en' : 'fr'
-  const title = locale === 'en' ? 'About — Tokyo Expat' : 'À propos — Tokyo Expat'
+  const title = locale === 'en' ? 'About | Tokyo Expat' : 'À propos | Tokyo Expat'
   const description = locale === 'en'
     ? 'Alessandro, Tokyo property hunter. Bilingual English-French-Japanese. Specialist in furnished short-term housing and monthly mansions for expats. Free consultation.'
     : 'Alessandro, chasseur immobilier à Tokyo. Bilingue français-anglais-japonais. Spécialiste du logement meublé courte durée pour expatriés. Consultation gratuite.'
@@ -47,7 +47,7 @@ export default async function AboutPage({
   const dict = getDictionary(locale)
   const a = dict.about
 
-  const whyPoints = [a.why_1, a.why_2, a.why_3, a.why_4, a.why_5]
+  const whyPoints = [a.why_1, a.why_2, a.why_3, a.why_4, a.why_5, a.why_6]
 
   const breadcrumbLd = {
     '@context': 'https://schema.org',
