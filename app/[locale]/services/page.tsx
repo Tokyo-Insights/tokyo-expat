@@ -9,7 +9,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params
   const altLocale = locale === 'fr' ? 'en' : 'fr'
-  const title = locale === 'en' ? 'Our Services — Tokyo Expat' : 'Nos Services — Tokyo Expat'
+  const title = locale === 'en' ? 'Our Services | Tokyo Expat' : 'Nos Services | Tokyo Expat'
   const description = locale === 'en'
     ? 'Tokyo Expat property hunting services for foreigners in Tokyo: share house, furnished apartment, family home. Free consultation, bilingual English-French support.'
     : 'Services de chasseur immobilier pour expatriés a Tokyo : share house, appartement meuble, maison familiale. Consultation gratuite, accompagnement en francais et anglais.'
