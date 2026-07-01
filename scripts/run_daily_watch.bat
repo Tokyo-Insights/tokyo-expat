@@ -53,7 +53,12 @@ python scripts\backlink_followup_watcher.py >> "%LOG_FILE%" 2>&1
 echo [%TIME%] [8/9] Backlink draft stocker... >> "%LOG_FILE%"
 python scripts\backlink_draft_stocker.py >> "%LOG_FILE%" 2>&1
 
-:: 9. Thursday briefing leger (jeudi uniquement : Buffer status + actions en attente)
+:: 9. Social poster Buffer (AUTO-REPARANT) : poste 1 FB + 1 LI si >=6j depuis le dernier,
+::    sinon skip (garde-fou too_recent interne). Ne depend plus du PC allume un lundi precis.
+echo [%TIME%] [9/10] Social Buffer poster (if due)... >> "%LOG_FILE%"
+python scripts\facebook_buffer_poster.py >> "%LOG_FILE%" 2>&1
+
+:: 10. Thursday briefing leger (jeudi uniquement : Buffer status + actions en attente)
 for /f %%d in ('powershell -NoProfile -Command "(Get-Date).DayOfWeek"') do set DOW_DAILY=%%d
 if "%DOW_DAILY%"=="Thursday" (
     echo [%TIME%] [7/7] Thursday briefing... >> "%LOG_FILE%"
