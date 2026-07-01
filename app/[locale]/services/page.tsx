@@ -154,6 +154,21 @@ export default async function ServicesPage({
         <p className="text-gray-500 text-lg">{s.subtitle}</p>
       </div>
 
+      {/* Credibility band (elements 100% verifiables, pas de faux temoignages) */}
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-14">
+        {[
+          { v: '300+', l: locale === 'fr' ? 'logements dans notre réseau' : 'properties in our network' },
+          { v: 'FR / EN / 日本語', l: locale === 'fr' ? 'accompagnement multilingue' : 'multilingual support' },
+          { v: '500 000+', l: locale === 'fr' ? 'annonces analysées' : 'listings analysed' },
+          { v: locale === 'fr' ? 'Gratuite' : 'Free', l: locale === 'fr' ? 'consultation initiale' : 'initial consultation' },
+        ].map((st) => (
+          <div key={st.l} className="bg-gray-50 border border-gray-200 rounded-xl p-4 text-center">
+            <div className="text-base font-extrabold text-[#0f2744]">{st.v}</div>
+            <div className="text-xs text-gray-500 mt-1">{st.l}</div>
+          </div>
+        ))}
+      </div>
+
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {s.packages.map((pkg) => (
           <div key={pkg.id} className="border border-gray-200 rounded-2xl p-8 hover:shadow-lg transition-shadow flex flex-col">
@@ -185,6 +200,65 @@ export default async function ServicesPage({
             </Link>
           </div>
         ))}
+      </div>
+
+      {/* Comment ca marche */}
+      <div className="mt-16 border-t border-gray-200 pt-12">
+        <h2 className="text-2xl font-bold text-[#0f2744] mb-8">
+          {locale === 'fr' ? 'Comment ça marche' : 'How it works'}
+        </h2>
+        <div className="grid grid-cols-1 md:grid-cols-5 gap-4">
+          {(locale === 'fr'
+            ? [
+                ['1', 'Consultation gratuite', 'On cadre votre projet : visa, budget, quartiers, timing.'],
+                ['2', 'Brief et recherche', 'On sélectionne les biens qui correspondent à vos critères.'],
+                ['3', 'Visites', 'En personne ou en visio, on vous accompagne.'],
+                ['4', 'Candidature et contrat', 'On gère le dossier, la traduction et la négociation.'],
+                ['5', 'Remise des clés', 'Vous emménagez, sans mauvaise surprise.'],
+              ]
+            : [
+                ['1', 'Free consultation', 'We frame your project: visa, budget, wards, timing.'],
+                ['2', 'Brief and search', 'We shortlist properties matching your criteria.'],
+                ['3', 'Viewings', 'In person or by video, we guide you.'],
+                ['4', 'Application and contract', 'We handle the file, translation and negotiation.'],
+                ['5', 'Keys', 'You move in, with no bad surprises.'],
+              ]
+          ).map((step) => (
+            <div key={step[0]} className="bg-gray-50 border border-gray-200 rounded-xl p-4">
+              <div className="w-7 h-7 rounded-full bg-[#e84141] text-white text-sm font-bold flex items-center justify-center mb-2">{step[0]}</div>
+              <div className="font-semibold text-[#0f2744] text-sm mb-1">{step[1]}</div>
+              <div className="text-xs text-gray-500 leading-relaxed">{step[2]}</div>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      {/* Pourquoi Tokyo Expat */}
+      <div className="mt-16">
+        <h2 className="text-2xl font-bold text-[#0f2744] mb-8">
+          {locale === 'fr' ? 'Pourquoi Tokyo Expat' : 'Why Tokyo Expat'}
+        </h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          {(locale === 'fr'
+            ? [
+                ['Bilingue FR / EN / 日本語', 'On parle votre langue ET celle des propriétaires japonais.'],
+                ['Appuyé sur la data', 'Nos recommandations reposent sur 500 000+ annonces réelles (notre Indice des loyers).'],
+                ['Tarif fixe et transparent', 'Pas de commission opaque : vous savez ce que vous payez.'],
+                ['Sans garant, à distance', 'On contourne les obstacles classiques : garant japonais, barrière de langue.'],
+              ]
+            : [
+                ['Bilingual EN / FR / 日本語', 'We speak your language AND the Japanese landlords\'.'],
+                ['Data-backed', 'Our advice is grounded in 500,000+ real listings (our Rent Index).'],
+                ['Fixed, transparent pricing', 'No opaque commission: you know what you pay.'],
+                ['No guarantor, remote-friendly', 'We bypass the classic hurdles: Japanese guarantor, language barrier.'],
+              ]
+          ).map((why) => (
+            <div key={why[0]} className="border border-gray-200 rounded-xl p-5">
+              <div className="font-bold text-[#0f2744] mb-1">{why[0]}</div>
+              <div className="text-sm text-gray-600 leading-relaxed">{why[1]}</div>
+            </div>
+          ))}
+        </div>
       </div>
 
       <div className="mt-16 border-t border-gray-200 pt-12">
