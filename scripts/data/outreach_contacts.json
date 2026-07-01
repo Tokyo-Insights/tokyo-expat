@@ -743,7 +743,8 @@
     "last_contact": null,
     "response": null,
     "link_obtained": false,
-    "added": "2026-06-25"
+    "added": "2026-06-25",
+    "followup_prepared": "2026-07-02"
   },
   {
     "domain": "expat.com",
@@ -858,7 +859,8 @@
     "last_contact": null,
     "response": null,
     "link_obtained": false,
-    "added": "2026-06-25"
+    "added": "2026-06-25",
+    "followup_prepared": "2026-07-02"
   },
   {
     "domain": "nhk.or.jp",
@@ -1060,5 +1062,24 @@
     "response": "",
     "link_obtained": false,
     "added": "2026-07-01"
+  },
+  {
+    "domain": "expatinfodesk.com",
+    "name": "ExpatInfoDesk",
+    "type": "expat_blog_guest",
+    "email": "writers@expatinfodesk.com",
+    "approach": "guest_post",
+    "da_est": 45,
+    "priority": "medium",
+    "pitch": "Guest article: Japanese rental contract explained",
+    "notes": "VERIFIE LIVE 2026-07-02. Email writers@. Pas de photo. Lien bio only, corps non-commercial. ARTICLE REDIGE + BROUILLON GMAIL cree -> outreach/GuestPost-4-ExpatInfoDesk-*.md. Alessandro relit+Envoie.",
+    "manual_required": false,
+    "form_url": "",
+    "status": "draft_ready",
+    "emailed_date": "",
+    "last_contact": "",
+    "response": "",
+    "link_obtained": false,
+    "added": "2026-07-02"
   }
 ]
