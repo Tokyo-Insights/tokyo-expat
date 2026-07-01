@@ -44,10 +44,16 @@ echo [%TIME%] [6/8] Brevo welcome drip... >> "%LOG_FILE%"
 python scripts\brevo_welcome_drip.py >> "%LOG_FILE%" 2>&1
 
 :: 7. Relances backlinks (J+6 sans reponse -> draft Gmail + alerte Telegram)
-echo [%TIME%] [7/8] Backlink follow-up watcher... >> "%LOG_FILE%"
+::    + boucle fermee: detecte les brouillons envoyes -> arme la relance
+echo [%TIME%] [7/9] Backlink follow-up watcher... >> "%LOG_FILE%"
 python scripts\backlink_followup_watcher.py >> "%LOG_FILE%" 2>&1
 
-:: 7. Thursday briefing leger (jeudi uniquement : Buffer status + actions en attente)
+:: 8. Stockeur de brouillons backlinks ("Je stocke, tu cliques")
+::    Remplit Gmail Drafts avec les cibles email_verified. N'ENVOIE JAMAIS.
+echo [%TIME%] [8/9] Backlink draft stocker... >> "%LOG_FILE%"
+python scripts\backlink_draft_stocker.py >> "%LOG_FILE%" 2>&1
+
+:: 9. Thursday briefing leger (jeudi uniquement : Buffer status + actions en attente)
 for /f %%d in ('powershell -NoProfile -Command "(Get-Date).DayOfWeek"') do set DOW_DAILY=%%d
 if "%DOW_DAILY%"=="Thursday" (
     echo [%TIME%] [7/7] Thursday briefing... >> "%LOG_FILE%"

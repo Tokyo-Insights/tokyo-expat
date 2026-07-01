@@ -128,6 +128,19 @@ def find_original(m: imaplib.IMAP4_SSL, to_email: str):
     return '', ''
 
 
+def has_sent(m: imaplib.IMAP4_SSL, to_email: str) -> bool:
+    """True si un email a REELLEMENT ete envoye a ce contact (dossier Sent, pas un simple brouillon)."""
+    for box in ['"[Gmail]/Sent Mail"', 'INBOX']:
+        try:
+            m.select(box, readonly=True)
+            typ, d = m.search(None, f'(TO "{to_email}")')
+            if box.startswith('"[Gmail]/Sent') and d and d[0] and d[0].split():
+                return True
+        except Exception:
+            pass
+    return False
+
+
 def send_telegram(msg: str) -> None:
     try:
         requests.post(
@@ -154,6 +167,19 @@ def main():
 
     for c in contacts:
         email_addr = (c.get('email') or '').strip()
+
+        # BOUCLE FERMEE ("Je stocke, tu cliques"): un brouillon stocke qu'Alessandro a ENVOYE
+        # (detecte dans le dossier Sent) passe en 'emailed' -> la relance J+6 s'arme toute seule.
+        if c.get('status') == 'drafted' and '@' in email_addr:
+            if has_sent(m, email_addr):
+                alerts.append(f"📤 <b>{c['name']}</b> : brouillon envoyé détecté, relance armée (J+{FOLLOWUP_DELAY_DAYS}).")
+                if not dry:
+                    c['status'] = 'emailed'
+                    c['emailed_date'] = today.isoformat()
+                    c['last_contact'] = today.isoformat()
+                    changed = True
+            continue
+
         if c.get('status') != 'emailed' or '@' not in email_addr:
             continue
         # Ignorer la prospection B2B vente (DA=0, emails devines/bounces, pas des cibles backlink).

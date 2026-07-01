@@ -52,7 +52,8 @@
     "response": null,
     "link_obtained": false,
     "added": "2026-06-21",
-    "emailed_date": "2026-06-22"
+    "emailed_date": "2026-06-22",
+    "followup_prepared": "2026-06-30"
   },
   {
     "domain": "japantoday.com",
@@ -69,7 +70,8 @@
     "response": null,
     "link_obtained": false,
     "added": "2026-06-21",
-    "emailed_date": "2026-06-22"
+    "emailed_date": "2026-06-22",
+    "followup_prepared": "2026-06-30"
   },
   {
     "domain": "tofugu.com",
@@ -86,7 +88,8 @@
     "response": null,
     "link_obtained": false,
     "added": "2026-06-21",
-    "emailed_date": "2026-06-23"
+    "emailed_date": "2026-06-23",
+    "followup_prepared": "2026-06-30"
   },
   {
     "domain": "japanpropertycentral.com",
@@ -103,7 +106,8 @@
     "response": null,
     "link_obtained": false,
     "added": "2026-06-21",
-    "emailed_date": "2026-06-23"
+    "emailed_date": "2026-06-23",
+    "followup_prepared": "2026-06-30"
   },
   {
     "domain": "timeoutjapan.net",
@@ -120,7 +124,8 @@
     "response": null,
     "link_obtained": false,
     "added": "2026-06-21",
-    "emailed_date": "2026-06-22"
+    "emailed_date": "2026-06-22",
+    "followup_prepared": "2026-06-30"
   },
   {
     "domain": "expatica.com",
@@ -137,7 +142,8 @@
     "response": null,
     "link_obtained": false,
     "added": "2026-06-21",
-    "emailed_date": "2026-06-22"
+    "emailed_date": "2026-06-22",
+    "followup_prepared": "2026-06-30"
   },
   {
     "domain": "japaninsiders.com",
@@ -182,11 +188,12 @@
     "pitch": "Partenariat logement: leurs etudiants cherchent appartement, on peut les aider",
     "notes": "Ecole japonais connue Tokyo, etudiants etrangers nombreux",
     "status": "emailed",
-    "last_contact": null,
-    "response": null,
+    "last_contact": "2026-07-01",
+    "response": " | formulaire soumis 2026-07-01 (angle Indice loyers)",
     "link_obtained": false,
     "added": "2026-06-21",
-    "emailed_date": "2026-06-23"
+    "emailed_date": "2026-07-01",
+    "followup_prepared": "2026-06-30"
   },
   {
     "domain": "isij.com",
@@ -300,7 +307,8 @@
     "response": null,
     "link_obtained": false,
     "added": "2026-06-21",
-    "emailed_date": "2026-06-24"
+    "emailed_date": "2026-06-24",
+    "followup_prepared": "2026-06-30"
   },
   {
     "domain": "nipponexpress.com",
@@ -368,21 +376,22 @@
     "response": null,
     "link_obtained": false,
     "added": "2026-06-21",
-    "emailed_date": "2026-06-24"
+    "emailed_date": "2026-06-24",
+    "followup_prepared": "2026-06-30"
   },
   {
-    "domain": "bccj.com",
+    "domain": "bccjapan.com",
     "name": "BCCJ",
     "type": "chamber_commerce",
-    "email": "info@bccj.com",
+    "email": "info@bccjapan.com",
     "approach": "resource_link",
     "da_est": 40,
     "priority": "medium",
     "pitch": "Lien dans section 'Relocation Guide' pour membres",
     "notes": "British Chamber of Commerce Japan, guide relocation",
-    "status": "to_contact",
+    "status": "skip",
     "last_contact": null,
-    "response": null,
+    "response": "Domaine reel = bccjapan.com (pas bccj.com, aurait bounce). Annuaire reserve aux membres payants, aucune page liens utiles publique = cible faible pour un lien gratuit.",
     "link_obtained": false,
     "added": "2026-06-21"
   },
@@ -666,7 +675,8 @@
     "response": null,
     "link_obtained": false,
     "added": "2026-06-21",
-    "emailed_date": "2026-06-25"
+    "emailed_date": "2026-06-25",
+    "followup_prepared": "2026-07-01"
   },
   {
     "domain": "axa.co.jp",
@@ -941,5 +951,94 @@
     "response": null,
     "link_obtained": false,
     "added": "2026-06-26"
+  },
+  {
+    "domain": "www.sakura-house.com",
+    "name": "Sakura House (broken link)",
+    "type": "broken_link",
+    "email": "",
+    "approach": "broken_link_pitch",
+    "da_est": 0,
+    "priority": "high",
+    "pitch": "Remplacer lien mort vers https://www.sakura-house.com/thai/search/ par https://www.tokyo-expat.com/en/blog/find-apartment-tokyo-foreigner",
+    "notes": "404 detectee par broken_link_finder.py. Verification backlinks: https://ahrefs.com/backlink-checker/?input=https%3A//www.sakura-house.com/thai/search/&mode=exact",
+    "status": "to_contact",
+    "dead_url": "https://www.sakura-house.com/thai/search/",
+    "our_replacement": "https://www.tokyo-expat.com/en/blog/find-apartment-tokyo-foreigner",
+    "added": "2026-06-29"
+  },
+  {
+    "domain": "kanpai.fr",
+    "name": "Kanpai",
+    "type": "media_fr",
+    "email": "",
+    "approach": "resource_link",
+    "da_est": 55,
+    "priority": "high",
+    "pitch": "Indice des loyers Tokyo (data PR)",
+    "notes": "gros media FR Japon, formulaire",
+    "status": "emailed",
+    "emailed_date": "2026-07-01",
+    "last_contact": "2026-07-01",
+    "response": "formulaire soumis 2026-07-01",
+    "link_obtained": false,
+    "added": "2026-07-01"
+  },
+  {
+    "domain": "transitionsabroad.com",
+    "name": "Transitions Abroad",
+    "type": "media_guest",
+    "email": "webeditorial@transitionsabroad.com",
+    "approach": "guest_post",
+    "da_est": 58,
+    "priority": "high",
+    "pitch": "Living Abroad article: Renting a first home in Tokyo as a foreigner (paid market, byline+link)",
+    "notes": "VERIFIED live 2026-07-01. Pays 50-150 USD. Email pitch first. Draft ready in Desktop HTML. | ENVOYE par Alessandro 2026-07-01. Watcher relance J+6 si pas de reponse.",
+    "manual_required": false,
+    "form_url": "",
+    "status": "emailed",
+    "emailed_date": "2026-07-01",
+    "last_contact": "2026-07-01",
+    "response": "",
+    "link_obtained": false,
+    "added": "2026-07-01"
+  },
+  {
+    "domain": "findawayabroad.com",
+    "name": "A Way Abroad",
+    "type": "expat_blog_guest",
+    "email": "",
+    "approach": "guest_post",
+    "da_est": 40,
+    "priority": "high",
+    "pitch": "Living in Tokyo as an expat: honest guide to housing/neighbourhoods/costs",
+    "notes": "VERIFIED live 2026-07-01. FORM at /join-us. Personal tone, 5 photos, bio links. Manual submission. | ARTICLE REDIGE 2026-07-01: tokyo-expat/outreach/GuestPost-1-AWayAbroad-Living-in-Tokyo.md. A relire+5 photos+soumettre formulaire. | PARKED 2026-07-01: exige 5 photos de TOI sur place -> incompatible identity-light Alessandro. Ne pas relancer.",
+    "manual_required": true,
+    "form_url": "https://www.findawayabroad.com/join-us",
+    "status": "parked",
+    "emailed_date": "",
+    "last_contact": "",
+    "response": "",
+    "link_obtained": false,
+    "added": "2026-07-01"
+  },
+  {
+    "domain": "eslexpat.com",
+    "name": "ESL Expat",
+    "type": "expat_blog_guest",
+    "email": "",
+    "approach": "guest_post",
+    "da_est": 38,
+    "priority": "medium",
+    "pitch": "How English teachers can rent in Japan without a guarantor",
+    "notes": "VERIFIED live 2026-07-01. FORM at /contact/. Author bio+links allowed. ICP2 (teachers). Manual submission. | ARTICLE REDIGE 2026-07-01: tokyo-expat/outreach/GuestPost-2-ESLExpat-Rent-Without-Guarantor.md (angle profs, PHOTO-FREE). A relire + soumettre formulaire. | MOT D INTRO ENVOYE via formulaire 2026-07-01. En attente reponse pour envoyer le texte complet (deja redige).",
+    "manual_required": true,
+    "form_url": "https://eslexpat.com/contact/",
+    "status": "pitched",
+    "emailed_date": "",
+    "last_contact": "2026-07-01",
+    "response": "",
+    "link_obtained": false,
+    "added": "2026-07-01"
   }
 ]
