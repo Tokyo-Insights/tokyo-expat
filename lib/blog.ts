@@ -540,6 +540,8 @@ For health coverage during your apartment search, [SafetyWing Nomad Insurance](h
     content: `
 Relocating to Tokyo involves more paperwork and bureaucratic steps than most expats anticipate. This checklist covers everything from visa selection to setting up utilities, in the order you should tackle each step.
 
+**Quick answer:** Moving to Tokyo runs in a clear order: confirm your visa, secure housing before you arrive, then within 14 days register your address at the ward office and collect your residence card. Next, open a bank account, enrol in national health insurance, get a SIM card, and set up utilities. Sorting the visa and housing first makes every later step easier.
+
 ## Step 1: Secure the right visa (before you leave)
 
 Your visa determines almost everything: what you can rent, where you can open a bank account, and how long you can stay.
@@ -768,6 +770,8 @@ For activities and sightseeing in Tokyo, [GetYourGuide](https://www.getyourguide
     readingTime: '8 min',
     content: `
 Travailler au Japon en tant que francophone est tout à fait possible, mais le système de visas japonais est complexe et mal documenté en français. Voici les principales catégories de visas pour les ressortissants français, belges et suisses, avec les conditions réelles pour chacune.
+
+**Réponse rapide :** Pour travailler au Japon, il faut un visa de travail parrainé par un employeur, dans une catégorie adaptée à votre poste (ingénieur/spécialiste en sciences humaines, transfert intra-entreprise, professeur, etc.). Il exige en général un diplôme ou une expérience équivalente et un contrat. Le PVT et le visa nomade digital sont des alternatives pour certains profils.
 
 ## Le visa ingénieur / humanités / services internationaux (le plus courant)
 
@@ -1001,6 +1005,8 @@ Pour votre couverture sante pendant les demarches administratives, [SafetyWing N
     content: `
 L'un des plus grands obstacles pour un étranger qui cherche un appartement à Tokyo est le garant japonais (hoshounin). La bonne nouvelle : il existe un marché entier de logements meublés conçus spécifiquement pour les étrangers, sans garant obligatoire.
 
+**Réponse rapide :** Oui, on peut louer un appartement meublé à Tokyo sans garant japonais. Les monthly mansions et appartements meublés court terme acceptent les étrangers avec un passeport et un visa, sans garant ni argent-clé, avec emménagement en quelques jours. Comptez 90 000 à 250 000 JPY par mois selon la taille et l'emplacement.
+
 ## Pourquoi les propriétaires japonais exigent un garant
 
 Historiquement, le système locatif japonais repose sur une confiance implicite communautaire. Un garant personnel est censé garantir non seulement le paiement du loyer, mais aussi le comportement du locataire. Pour un propriétaire japonais traditionnel, louer à un étranger sans garant japonais représente un risque perçu comme élevé.
@@ -1112,6 +1118,8 @@ Pour votre couverture sante pendant la transition, [SafetyWing Nomad Insurance](
     readingTime: '6 min',
     content: `
 Le marché locatif tokyoïte est l'un des plus complexes au monde pour les étrangers. Chaque année, des expatriés perdent des dizaines de milliers de yens à cause d'erreurs évitables. Voici les sept pièges les plus fréquents, avec les solutions concrètes pour les éviter.
+
+**Réponse rapide :** Les principaux pièges de la location à Tokyo pour un étranger : sous-estimer les frais d'entrée (argent-clé, caution, agence, garant, jusqu'à 4 à 6 mois), signer un contrat en japonais sans traduction, ignorer la clause de remise en état, mal comprendre le préavis, et négliger les frais de renouvellement. La parade : faire traduire le bail et budgétiser tous les coûts avant de signer.
 
 ## Piège n°1 : signer sans lire les clauses de résiliation
 
@@ -1305,6 +1313,8 @@ For health coverage during your share house stay, [SafetyWing Nomad Insurance](h
     content: `
 The Japanese guarantor requirement is the single biggest barrier for foreigners renting in Tokyo. The good news: an entire segment of the market exists specifically for foreigners who need furnished housing without a Japanese guarantor.
 
+**Quick answer:** Yes, you can rent a furnished apartment in Tokyo without a Japanese guarantor. Monthly mansions and short-term furnished apartments accept foreigners with a passport and visa, no guarantor and no key money, with move-in within days. Expect 90,000 to 250,000 JPY per month depending on size and location.
+
 ## Why the guarantor barrier exists
 
 Traditional Japanese rental culture relies on a personal guarantor (hoshounin): a Japanese citizen who takes legal responsibility for your rent and behaviour. For a landlord dealing with a foreign tenant who may not speak Japanese and might leave after 1 to 2 years, the perceived risk is high.
@@ -1410,6 +1420,8 @@ For health coverage during your transition, [SafetyWing Nomad Insurance](https:/
     readingTime: '6 min',
     content: `
 Opening a Japanese bank account is one of the first administrative tasks to complete after registering your address at the ward office. Without a Japanese bank account, you cannot receive a local salary, pay rent by bank transfer, or get a contract SIM card.
+
+**Quick answer:** To open a Japanese bank account, first register your address at the ward office, then apply with your residence card, address, and a phone number. Japan Post Bank (Yucho) is the most accessible to newcomers and can often be opened soon after arrival; some other banks ask for six months of residence. You need an account to receive a salary, pay rent, and get a contract SIM.
 
 ## What you need before you start
 
@@ -1518,6 +1530,8 @@ For health coverage while you complete your admin setup, [SafetyWing Nomad Insur
     readingTime: '8 min',
     content: `
 The most expensive mistake foreigners make when relocating to Tokyo is arriving without secured housing. Staying in a hotel or short-term rental while searching typically costs 150,000 to 300,000 JPY for the 4 to 8 weeks the search takes. That money is entirely avoidable.
+
+**Quick answer:** You can secure Tokyo housing from abroad and avoid weeks in a hotel. Shortlist no-guarantor options (share houses, furnished or monthly mansions), apply online with your passport and visa, and use virtual viewings to confirm. Book before you land, then handle your residence card and bank account in the first days. This avoids 150,000 to 300,000 JPY of temporary-stay costs.
 
 Here is the complete process for finding and securing Tokyo housing before you land.
 
@@ -1736,6 +1750,8 @@ Si vous avez besoin d'un médecin avant d'avoir reçu votre carte d'assurance, v
     content: `
 La carte de résidence japonaise (在留カード, zairyu card) est le document le plus important pour tout étranger vivant au Japon. Sans elle, vous ne pouvez pas ouvrir un compte bancaire, louer un appartement, obtenir un SIM card en contrat, ni accéder à la plupart des services publics.
 
+**Réponse rapide :** La carte de résidence (zairyu card) est délivrée à l'aéroport à l'arrivée pour les séjours de plus de 3 mois, puis activée en déclarant votre adresse à la mairie sous 14 jours. Elle est indispensable pour ouvrir un compte, louer, obtenir un forfait mobile et accéder aux services publics. Gardez-la toujours sur vous : la loi l'exige.
+
 ## Qu'est-ce que la zairyu card ?
 
 La zairyu card est une carte d'identité officielle délivrée par le gouvernement japonais à tous les résidents étrangers titulaires d'un visa long séjour. Elle atteste de votre statut de résidence, de votre type de visa et de la date d'expiration de votre séjour autorisé.
@@ -1806,6 +1822,8 @@ Pour votre couverture sante pendant les demarches d'installation, [SafetyWing No
     readingTime: '8 min',
     content: `
 S'installer à Tokyo en famille est une expérience exceptionnelle, mais qui demande une préparation plus approfondie qu'une installation en solo. Scolarité, logement, quartier, budget : voici ce que les familles expatriées doivent savoir avant d'arriver.
+
+**Réponse rapide :** Pour une famille expatriée à Tokyo, anticipez trois choses : l'école (les internationales ont de longues listes d'attente et coûtent 2 à 3 millions JPY par an, à réserver tôt), le quartier (proximité de l'école et espaces verts, comme Minato ou Setagaya) et le logement familial (2LDK/3LDK, plus rare et cher). Commencez par choisir l'école, le reste en découle.
 
 ## Les options de scolarité à Tokyo
 
@@ -1915,6 +1933,8 @@ Pour faire decouvrir Tokyo a vos enfants de facon ludique, [GetYourGuide](https:
     content: `
 Contrairement aux idées reçues, négocier à Tokyo est possible. Pas dans tous les cas, pas de la même façon qu'en Europe, mais les marges de manœuvre existent. Savoir quand et comment négocier peut vous faire économiser plusieurs mois de loyer.
 
+**Réponse rapide :** À Tokyo, on négocie surtout les frais d'entrée plutôt que le loyer affiché : demander un mois offert, réduire l'argent-clé (reikin) ou les frais, surtout en basse saison (mai à août) ou sur un bien vacant depuis longtemps. En haute saison (mars), la marge est quasi nulle. Un agent bilingue négocie plus efficacement en japonais.
+
 ## Ce qui est négociable (et ce qui ne l'est pas)
 
 **Rarement négociable :**
@@ -1989,6 +2009,8 @@ Pour mieux negocier en japonais avec votre agence, [iTalki](https://www.italki.c
     readingTime: '9 min',
     content: `
 Déménager au Japon implique plus de démarches administratives que la plupart des pays. Voici toutes les étapes dans l'ordre chronologique, depuis la préparation avant le départ jusqu'à la vie courante une fois installé.
+
+**Réponse rapide :** Déménager au Japon suit un ordre précis : confirmer le visa, sécuriser le logement avant l'arrivée, puis sous 14 jours déclarer son adresse à la mairie et récupérer la carte de résidence. Ensuite : compte bancaire, assurance maladie nationale, carte SIM et mise en service des utilités. Régler le visa et le logement en premier simplifie tout le reste.
 
 ## Avant le départ (2 à 6 mois avant)
 
@@ -2089,6 +2111,8 @@ Pour votre couverture sante pendant la transition, [SafetyWing Nomad Insurance](
     content: `
 La question revient dans tous les groupes d'expatriés : quelle ville japonaise choisir pour s'installer ? Tokyo, Osaka et Kyoto ont chacune leurs avantages et leurs contraintes. Voici une comparaison honnête basée sur les critères qui comptent vraiment pour un expatrié.
 
+**Réponse rapide :** Tokyo offre le plus d'emplois, de services internationaux et de dynamisme, mais les loyers les plus élevés. Osaka est plus abordable, chaleureuse et bien reliée, idéale pour un meilleur rapport qualité-prix. Kyoto est la plus calme et culturelle, mais avec moins d'emplois internationaux. Choisissez selon votre emploi d'abord, puis le style de vie.
+
 ## Tokyo : la métropole des opportunités
 
 **Population :** 14 millions d'habitants (Grand Tokyo : 37 millions)
@@ -2181,6 +2205,8 @@ Pour comparer les atmospheres de Tokyo, Osaka et Kyoto par vous-meme, [GetYourGu
     content: `
 The Japan Residence Card (在留カード, zairyu card) is the most important document for any foreigner living in Japan. Without it, you cannot open a bank account, sign a lease, get a contract SIM card, or access most public services.
 
+**Quick answer:** The residence card (zairyu card) is issued at the airport on arrival for stays over three months, then activated by registering your address at the ward office within 14 days. You need it to open a bank account, sign a lease, get a contract SIM, and use public services. Carry it at all times: it is legally required.
+
 ## What is the zairyu card?
 
 The zairyu card is an official ID card issued by the Japanese government to all foreign residents on a long-stay visa. It confirms your residency status, visa type, and the expiry date of your authorised stay.
@@ -2251,6 +2277,8 @@ For health coverage while completing your registration process, [SafetyWing Noma
     readingTime: '6 min',
     content: `
 Japan has one of the best healthcare systems in the world, built on a mandatory insurance model that covers every resident, including foreign nationals. Understanding how it works before you arrive saves time and avoids costly gaps in coverage.
+
+**Quick answer:** Japan requires every resident, including foreigners, to enrol in health insurance. If you are employed, you join your company's Social Insurance (Shakai Hoken); otherwise you enrol in National Health Insurance (NHI) at the ward office. Both cover about 70% of medical costs, so you pay 30% out of pocket. Enrol as soon as you register your address to avoid back-payments.
 
 ## The two systems
 
@@ -2344,6 +2372,8 @@ If you need a doctor before receiving your insurance card, you pay 100% of the c
     readingTime: '8 min',
     content: `
 Relocating to Tokyo with children requires more planning than moving solo, but it is one of the most rewarding experiences a family can have. Here is what you need to know about schooling, neighbourhoods, and housing before you arrive.
+
+**Quick answer:** For a family relocating to Tokyo, plan three things early: school (international schools have long waitlists and cost 2 to 3 million JPY per year, so apply first), neighbourhood (near the school with green space, such as Minato or Setagaya), and family-sized housing (2LDK/3LDK, rarer and pricier). Choose the school first and the rest follows.
 
 ## International schools in Tokyo
 
@@ -2451,6 +2481,8 @@ To introduce Tokyo to your children in an engaging way, [GetYourGuide](https://w
     content: `
 Contrary to common belief, negotiation in Tokyo is possible. Not in every case, not in the same way as in Europe, but room for manoeuvre exists. Knowing when and how to negotiate can save you several months of rent.
 
+**Quick answer:** In Tokyo you mostly negotiate the move-in costs, not the advertised rent: ask for a free month, reduced key money (reikin) or fees, especially in the quiet season (May to August) or on a long-vacant unit. In peak season (March) there is almost no room. A bilingual agent negotiates far more effectively in Japanese.
+
 ## What is and is not negotiable
 
 **Rarely negotiable**:
@@ -2525,6 +2557,8 @@ To negotiate in Japanese with your agency, [iTalki](https://www.italki.com/affsh
     readingTime: '5 min',
     content: `
 If you have been searching for short-term housing in Tokyo as a foreigner, you have probably seen both "gaijin house" and "share house" used, sometimes for the same type of property. They are related but not identical. Understanding the difference helps you find the right option for your situation.
+
+**Quick answer:** Gaijin houses and share houses have largely merged: both offer furnished private rooms with shared common areas, no guarantor and no key money. Historically 'gaijin house' meant foreigner-focused shared housing, while 'share house' is the broader modern term used across Japan. For a newcomer, either is the fastest, cheapest way into Tokyo.
 
 ## What is a gaijin house?
 
@@ -2724,6 +2758,8 @@ To explore Tokyo and its neighbourhoods before settling in, [GetYourGuide](https
     content: `
 Working in Japan as a foreigner is entirely achievable, but Japan's visa system is complex and poorly documented in English. Here are the main visa categories for foreign nationals, with the real conditions for each.
 
+**Quick answer:** To work in Japan you need an employer-sponsored work visa in a category that matches your role (Engineer/Specialist in Humanities, Intra-company Transfer, Instructor, and others). It usually requires a degree or equivalent experience plus a job contract. The Working Holiday visa and the digital nomad visa are alternatives for some profiles.
+
 ## Engineer / Humanities / International Services visa (the most common)
 
 This is the standard work visa for skilled professionals in Japan. It covers a wide range of jobs: developers, engineers, translators, language teachers, international marketing, human resources.
@@ -2846,6 +2882,8 @@ For health coverage during your transition, [SafetyWing Nomad Insurance](https:/
     content: `
 Tokyo's rental market is one of the most complex in the world for foreigners. Every year, expats lose tens of thousands of yen through avoidable mistakes. Here are the seven most common traps, with concrete solutions for each.
 
+**Quick answer:** The main rental traps in Tokyo for foreigners: underestimating move-in costs (key money, deposit, agency, guarantor, up to 4 to 6 months), signing a Japanese-language contract without translation, missing the restoration clause, misunderstanding the notice period, and overlooking renewal fees. The fix: get the lease translated and budget every cost before signing.
+
 ## Trap 1: Signing without reading the termination clauses
 
 Most Japanese leases contain an early termination clause (chuto kaiyaku) imposing penalties if you leave before the end of the minimum period. These penalties can represent 1 to 2 months of rent.
@@ -2922,6 +2960,8 @@ For health coverage during your apartment search, [SafetyWing Nomad Insurance](h
     readingTime: '7 min',
     content: `
 The question comes up in every expat group: which Japanese city should I move to? Tokyo, Osaka, and Kyoto each have their advantages and constraints. Here is an honest comparison based on the criteria that actually matter for expats.
+
+**Quick answer:** Tokyo offers the most jobs, international services and energy, but the highest rents. Osaka is more affordable, friendly and well-connected, the best value for money. Kyoto is the calmest and most cultural, but with fewer international jobs. Choose by your job first, then lifestyle.
 
 ## Tokyo: the city of opportunity
 
@@ -3012,6 +3052,8 @@ To compare the atmosphere of Tokyo, Osaka and Kyoto for yourself, [GetYourGuide]
     readingTime: '8 min',
     content: `
 L'erreur la plus coûteuse des expatriés qui s'installent à Tokyo est d'arriver sans logement sécurisé. L'hôtel ou le logement temporaire pendant la recherche coûte 150 000 à 300 000 JPY supplémentaires pour les 4 à 8 semaines que prend la recherche en moyenne. C'est entièrement évitable.
+
+**Réponse rapide :** On peut sécuriser un logement à Tokyo depuis l'étranger et éviter des semaines d'hôtel. Présélectionnez des options sans garant (share houses, meublés ou monthly mansions), candidatez en ligne avec passeport et visa, et confirmez par visite virtuelle. Réservez avant d'atterrir, puis réglez carte de résidence et compte bancaire les premiers jours. Vous évitez 150 000 à 300 000 JPY de logement temporaire.
 
 ## Pourquoi chercher depuis l'étranger est plus difficile qu'on ne le pense
 
@@ -3285,6 +3327,8 @@ For health coverage while navigating the guarantor process, [SafetyWing Nomad In
     content: `
 Quand vous signez un bail au Japon, vous remarquerez rapidement qu'une clause exige une assurance habitation. Ce n'est pas une suggestion : dans la quasi-totalité des contrats de location japonais, souscrire une assurance incendie (火災保険, kasai hoken) est une condition de signature. Voici tout ce que vous devez savoir pour choisir la bonne couverture et éviter les pièges.
 
+**Réponse rapide :** L'assurance habitation (assurance incendie, kasai hoken) est quasi toujours obligatoire pour signer un bail au Japon. Elle est peu chère, souvent 15 000 à 20 000 JPY pour deux ans, et couvre incendie, dégâts des eaux et responsabilité civile. Vous pouvez généralement choisir votre propre assureur plutôt que celui imposé par l'agence, souvent moins cher.
+
 ## Pourquoi l'assurance habitation est obligatoire au Japon
 
 Le Japon est l'un des pays les plus exposés aux risques naturels au monde : tremblements de terre, typhons, inondations, incendies. Dans un pays où les immeubles résidentiels sont souvent mitoyens et denses, un sinistre dans un appartement peut rapidement affecter les voisins.
@@ -3362,6 +3406,8 @@ Pour les expatries sans couverture interim, [SafetyWing Nomad Insurance](https:/
     readingTime: '6 min',
     content: `
 When you sign a lease in Japan, you'll quickly notice a clause requiring renter's insurance. This is not a suggestion: in the vast majority of Japanese rental contracts, taking out fire insurance (火災保険, kasai hoken) is a condition of signing. Here's everything you need to know to choose the right coverage and avoid the common traps.
+
+**Quick answer:** Renter's (fire) insurance, kasai hoken, is almost always mandatory to sign a lease in Japan. It is cheap, often 15,000 to 20,000 JPY for two years, and covers fire, water damage and personal liability. You can usually pick your own insurer instead of the agency's default, which is often cheaper.
 
 ## Why renter's insurance is mandatory in Japan
 
@@ -3543,6 +3589,8 @@ Pour votre couverture sante pendant vos etudes au Japon, [SafetyWing Nomad Insur
     readingTime: '8 min',
     content: `
 Tokyo attracts thousands of international students each year for university exchanges, master's programs, or language courses. Finding the right housing in one of the world's most densely populated cities can feel overwhelming. This guide covers every realistic option available in 2026, with real budgets and the timelines you need to respect.
+
+**Quick answer:** International students in Tokyo have three main housing options: university dormitories (cheapest, limited spots, apply early), share houses (40,000 to 80,000 JPY, no guarantor, social), and student residences. Most accept online applications from abroad with a passport and student visa. Apply 2 to 3 months before your term starts.
 
 ## University dormitories (学生寮 gakusei ryou)
 
@@ -3750,6 +3798,8 @@ Pour votre couverture sante pendant la signature du bail, [SafetyWing Nomad Insu
     content: `
 Signing a lease in Tokyo as a foreigner carries real risks if you can't read a contract in Japanese. The most common bad surprises, hidden fees, an aggressive restoration clause, a misunderstood notice period, can cost you hundreds of thousands of yen when you move out. This checklist covers the 12 points you must verify before signing.
 
+**Quick answer:** Before signing a lease in Tokyo, verify 12 key points: real rent and fees, key money (reikin) and deposit (shikikin), agency and guarantor fees, the restoration clause, the notice period, renewal fees, and the building rules. Get any clause you do not understand translated: a bad surprise can cost hundreds of thousands of yen.
+
 ## 1. Total move-in costs
 
 The first thing to calculate is the total upfront cost, not just the monthly rent. In Japan, the initial outlay typically includes:
@@ -3855,6 +3905,8 @@ For health coverage when signing your lease, [SafetyWing Nomad Insurance](https:
     content: `
 Si vous avez cherché un logement de courte durée à Tokyo en tant qu'étranger, vous avez probablement vu les termes "gaijin house" et "share house" utilisés parfois pour le même type de bien. Ils sont liés mais pas identiques. Comprendre la différence vous aide à trouver la bonne option pour votre situation.
 
+**Réponse rapide :** Gaijin houses et share houses ont largement fusionné : les deux offrent des chambres privées meublées avec espaces communs, sans garant ni argent-clé. Historiquement, une gaijin house désignait un logement partagé pour étrangers, tandis que share house est le terme moderne plus large utilisé dans tout le Japon. Pour un nouvel arrivant, les deux sont la voie la plus rapide et économique vers Tokyo.
+
 ## Qu'est-ce qu'une gaijin house ?
 
 "Gaijin" (外人) est un terme japonais pour désigner un étranger, avec une connotation informelle et parfois légèrement péjorative selon le contexte. Une "gaijin house" est un terme familier, pas une catégorie officielle de logement. Il désigne tout hébergement partagé qui cible spécifiquement les résidents étrangers au Japon.
@@ -3941,6 +3993,8 @@ For health coverage whatever your housing option, [SafetyWing Nomad Insurance](h
     readingTime: '9 min',
     content: `
 Trouver un logement étudiant à Tokyo est une étape qui stresse la majorité des étudiants avant le départ, surtout quand on ne parle pas encore bien japonais. La bonne nouvelle : le marché dispose d'options spécifiquement pensées pour les étudiants internationaux, avec des processus de candidature entièrement en ligne depuis la France.
+
+**Réponse rapide :** Les étudiants internationaux à Tokyo ont trois options principales : dortoirs universitaires (les moins chers, places limitées, candidater tôt), share houses (40 000 à 80 000 JPY, sans garant, ambiance sociale) et résidences étudiantes. La plupart acceptent une candidature en ligne depuis l'étranger avec passeport et visa étudiant. Candidatez 2 à 3 mois avant la rentrée.
 
 La mauvaise nouvelle : les délais sont serrés. Les meilleurs logements pour la rentrée d'octobre se réservent à partir de juillet, parfois avant.
 
@@ -4064,6 +4118,8 @@ Pour votre couverture sante pendant vos etudes au Japon, [SafetyWing Nomad Insur
     content: `
 Finding student housing in Tokyo is one of the most stressful parts of preparing for a study abroad experience, especially when you are doing it from thousands of kilometres away. The good news: there is an entire segment of the market built specifically for international students, with fully online application processes.
 
+**Quick answer:** International students in Tokyo choose mainly between university dormitories (cheapest, limited, apply early), share houses (40,000 to 80,000 JPY, no guarantor, social) and student residences. Most accept online applications from abroad with a passport and student visa. Apply 2 to 3 months before your term starts to secure a spot.
+
 The bad news: the best properties for the October semester fill up from July onwards. Waiting until you have your visa in hand means missing the best options.
 
 ## The three main housing options for international students
@@ -4184,6 +4240,8 @@ For health coverage during your studies in Japan, [SafetyWing Nomad Insurance](h
     readingTime: '7 min',
     content: `
 Il existe une catégorie de logements à Tokyo que la grande majorité des expatriés ne connaît pas, et qui offre certaines des meilleures opportunités de loyer en zone centrale. Ce sont les **jiko bukken** (事故物件), littéralement "propriétés à incident". Légaux, bien situés, et jusqu'à 30% moins chers que le marché : voici ce qu'il faut savoir.
+
+**Réponse rapide :** Les jiko bukken (事故物件) sont des logements où un incident est survenu (souvent un décès), légaux à louer et jusqu'à 30% moins chers en zone centrale. Le propriétaire doit déclarer l'incident au premier locataire. Si le tabou ne vous dérange pas, c'est une vraie opportunité de loyer ; des sites spécialisés et agences peuvent vous en trouver.
 
 ## Qu'est-ce qu'un jiko bukken ?
 
@@ -4373,6 +4431,8 @@ For health coverage during your search and admin process, [SafetyWing Nomad Insu
     content: `
 La grande majorité des guides sur la recherche de logement à Tokyo parle implicitement du printemps : la rentrée d'avril, le pic de mars, la pression du marché en février. Ce que ces guides omettent : la rentrée de septembre obéit à des règles complètement différentes.
 
+**Réponse rapide :** La rentrée de septembre à Tokyo est un marché plus calme que le pic de mars-avril : moins de concurrence, plus de marge de négociation, mais moins de nouveaux biens. C'est une bonne fenêtre pour les étudiants et les mutations d'automne. Cherchez dès juillet-août pour emménager avant que la demande d'octobre ne remonte.
+
 Si vous arrivez à Tokyo en août ou septembre, vous avez à la fois un avantage et un défi par rapport à vos homologues de printemps.
 
 ## Ce qui change en septembre par rapport au printemps
@@ -4477,6 +4537,8 @@ Pour votre couverture sante en arrivant en septembre, [SafetyWing Nomad Insuranc
     content: `
 Most guides about finding housing in Tokyo implicitly discuss the spring market: the April fiscal start, the March moving peak, the February pressure. What these guides rarely cover: the September rental season follows completely different rules.
 
+**Quick answer:** The September rental season in Tokyo is quieter than the March-April peak: less competition and more negotiation room, but fewer new listings. It suits autumn students and transfers. Start searching in July or August to move in before October demand picks up.
+
 If you are arriving in Tokyo in August or September, you have both an advantage and a challenge compared to your spring counterparts.
 
 ## What changes in September versus spring
@@ -4578,6 +4640,8 @@ For health coverage upon your September arrival, [SafetyWing Nomad Insurance](ht
     readingTime: '8 min',
     content: `
 ## Trouver un appartement meublé à Tokyo rapidement : le guide pour expatriés
+
+**Réponse rapide :** Un appartement meublé à Tokyo (monthly mansion) permet d'emménager vite, sans garant ni argent-clé, avec mobilier, électroménager et souvent internet inclus. Idéal pour les premiers mois d'un expatrié : comptez 90 000 à 250 000 JPY par mois selon la taille et le quartier. On candidate en ligne avec passeport et visa.
 
 Vous arrivez à Tokyo en octobre, mutation professionnelle, nouveau poste, installation longue durée, et vous avez besoin d'un logement **meublé et disponible sous 48h**. Les procédures japonaises standard (garant, hanko, caution) prennent 3 à 6 semaines. Ces 5 options les contournent.
 
@@ -4683,6 +4747,8 @@ Pour votre couverture sante pendant la transition, [SafetyWing Nomad Insurance](
     content: `
 ## Furnished Housing in Tokyo: What Expats Actually Need to Know
 
+**Quick answer:** A furnished apartment in Tokyo (monthly mansion) lets you move in fast, with no guarantor and no key money, and furniture, appliances and often internet included. It is ideal for an expat's first months: expect 90,000 to 250,000 JPY per month depending on size and ward. You apply online with a passport and visa.
+
 Relocating to Tokyo, corporate transfer, new job, long-term move, means facing one of the tightest rental markets in the developed world. Standard Japanese leases require a guarantor, hanko, and 3 to 6 weeks of processing. These 5 options bypass all that.
 
 ## 1. Expat-friendly share houses
@@ -4787,6 +4853,8 @@ For health coverage during your transition, [SafetyWing Nomad Insurance](https:/
     content: `
 ## Transports à Tokyo : métro, JR et tout ce qu'il faut savoir
 
+**Réponse rapide :** Tokyo se déplace surtout en train et métro (JR, Tokyo Metro, Toei). Prenez une carte rechargeable Suica ou PASMO pour tout payer d'un tap. Si vous faites le même trajet domicile-travail, un abonnement (teiki) est très rentable et souvent remboursé par l'employeur. Le vélo est pratique en quartier résidentiel ; le taxi reste cher.
+
 Se déplacer à Tokyo ne demande pas de voiture. Le réseau est l'un des plus ponctuels au monde, avec un retard moyen inférieur à 60 secondes. Pour un expatrié qui arrive, la superposition des lignes et des opérateurs peut sembler complexe. Ce guide clarifie l'essentiel.
 
 ## Le métro Tokyo : deux réseaux, une seule carte
@@ -4871,6 +4939,8 @@ Pour decouvrir Tokyo lors de vos premiers trajets, [GetYourGuide](https://www.ge
     readingTime: '7 min',
     content: `
 ## Quelle carte SIM choisir en arrivant au Japon en 2026 ?
+
+**Réponse rapide :** À l'arrivée au Japon, une SIM ou eSIM prépayée data (activable sans justificatif de domicile) vous connecte immédiatement. Pour un forfait complet avec appels et numéro japonais, il faut généralement une carte de résidence et parfois un compte bancaire. Des opérateurs pensés pour les étrangers proposent des forfaits sans My Number, disponibles dès l'aéroport.
 
 Entre les SIM prépayées disponibles à l'aéroport, les eSIM activables depuis la France et les forfaits long terme des opérateurs virtuels, le choix est large. Voici comment s'y retrouver rapidement.
 
@@ -4966,6 +5036,8 @@ Pour votre carte SIM au Japon, [Sakura Mobile](https://www.sakuramobile.jp/tokyo
     readingTime: '9 min',
     content: `
 ## Impôts sur le revenu au Japon : ce que les expatriés doivent savoir
+
+**Réponse rapide :** Au Japon, l'impôt sur le revenu est prélevé à la source pour les salariés, avec une régularisation annuelle (nenmatsu chosei) faite par l'employeur. Votre statut de résidence fiscale détermine ce qui est imposable. Ajoutez la taxe de résidence locale (~10%), prélevée l'année suivante. Une déclaration (kakutei shinkoku) peut être requise selon votre situation.
 
 Le système fiscal japonais est rarement documenté en français. Pourtant, si vous résidez au Japon, vous êtes imposable, et la déclaration annuelle est obligatoire dans la majorité des cas. Ce guide explique les fondamentaux.
 
@@ -5064,6 +5136,8 @@ Pour votre couverture sante en tant qu'expatrie au Japon, [SafetyWing Nomad Insu
     content: `
 ## Internet et utilitaires à Tokyo : toutes les démarches pour expatriés
 
+**Réponse rapide :** À l'emménagement, mettez en service l'électricité, le gaz et l'eau (souvent un simple appel ou formulaire en ligne, parfois un rendez-vous pour le gaz). L'internet fibre prend 2 à 4 semaines à installer : prévoyez une SIM data en attendant. Gardez votre carte de résidence et un compte bancaire pour les prélèvements automatiques.
+
 Une fois les clés de votre appartement en main, quatre services sont à ouvrir ou à souscrire : l'électricité, le gaz, l'eau et l'internet. La bonne nouvelle : la plupart s'effectuent en ligne ou par formulaire bilingue, et les délais sont courts. Voici comment procéder.
 
 ## Électricité : ouvrir le compteur en ligne
@@ -5145,6 +5219,8 @@ Pour votre connexion mobile en attendant l'installation internet, [Sakura Mobile
     readingTime: '9 min',
     content: `
 ## Travailler à Tokyo en tant qu'expatrié : ce qu'il faut savoir avant de commencer
+
+**Réponse rapide :** Travailler à Tokyo demande un visa de travail parrainé par un employeur, adapté à votre poste. Le marché recrute surtout dans la tech, la finance, l'enseignement des langues et les postes bilingues. Un bon niveau de japonais aide beaucoup, mais des postes existent en anglais. Préparez un CV au format japonais et visez les agences de recrutement spécialisées expatriés.
 
 Que vous arriviez avec un contrat local ou en détachement international, le monde du travail à Tokyo présente des spécificités qui peuvent déstabiliser même les professionnels expérimentés. Ce guide décrit les éléments essentiels pour bien démarrer.
 
@@ -5243,6 +5319,8 @@ Pour developper votre japonais professionnel, [iTalki](https://www.italki.com/af
     content: `
 ## Getting Around Tokyo: What Every Expat Needs to Know
 
+**Quick answer:** Tokyo runs on trains and metro (JR, Tokyo Metro, Toei). Get a rechargeable Suica or PASMO card to tap through everything. If you commute the same route daily, a season pass (teiki) is very cost-effective and often reimbursed by your employer. Cycling is handy in residential areas; taxis stay expensive.
+
 You do not need a car in Tokyo. The public transport network runs on average less than 60 seconds late, covers virtually every corner of the city, and costs a fraction of equivalent trips in other major capitals. The layered system of operators and lines looks complicated at first. This guide cuts through it.
 
 ## Two metro systems, one IC card
@@ -5330,6 +5408,8 @@ To discover Tokyo on your first commutes, [GetYourGuide](https://www.getyourguid
     content: `
 ## Which Japan SIM Card Should You Get as a Foreigner in 2026?
 
+**Quick answer:** On arrival in Japan, a prepaid data SIM or eSIM (activatable with no proof of address) gets you online immediately. For a full plan with calls and a Japanese number, you usually need a residence card and sometimes a bank account. Foreigner-friendly carriers offer plans with no My Number, available right at the airport.
+
 Between airport prepaid SIMs, eSIMs you can activate before landing, and long-term resident plans from virtual operators, the options are wider than most people expect. Here is how to choose the right one quickly.
 
 ## 3 types of Japanese mobile plans
@@ -5412,6 +5492,8 @@ For your SIM card in Japan, [Sakura Mobile](https://www.sakuramobile.jp/tokyoexp
     readingTime: '9 min',
     content: `
 ## Japan Income Tax for Expats: What You Actually Need to Know
+
+**Quick answer:** In Japan, income tax is withheld at source for employees, with an annual year-end adjustment (nenmatsu chosei) done by your employer. Your tax-residency status determines what is taxable. Add local resident tax (~10%), billed the following year. A tax return (kakutei shinkoku) may be required depending on your situation.
 
 Japan's tax system is rarely covered in expat relocation guides, yet it directly affects your take-home pay from day one. This guide covers who is taxable, what rates apply, and how to file.
 
@@ -5506,6 +5588,8 @@ For health coverage as an expat in Japan, [SafetyWing Nomad Insurance](https://s
     content: `
 ## Setting Up Utilities in Your Tokyo Apartment: Step-by-Step
 
+**Quick answer:** When you move in, set up electricity, gas and water (often a quick call or online form, sometimes an appointment for gas). Home fibre internet takes 2 to 4 weeks to install, so use a data SIM in the meantime. Keep your residence card and a bank account handy for automatic payments.
+
 Once you have the keys to your Tokyo apartment, four services need to be activated or subscribed: electricity, gas, water, and internet. Most can be done online in under 30 minutes. Here is exactly what to do.
 
 ## Electricity: activate your meter online
@@ -5587,6 +5671,8 @@ For mobile connectivity while waiting for home internet setup, [Sakura Mobile](h
     readingTime: '9 min',
     content: `
 ## Working in Tokyo as an Expat: What to Expect in 2026
+
+**Quick answer:** Working in Tokyo requires an employer-sponsored work visa matched to your role. Hiring is strongest in tech, finance, language teaching and bilingual positions. Good Japanese helps a lot, but English-only roles exist. Prepare a Japanese-style CV and target recruitment agencies that specialise in foreign talent.
 
 Whether you are arriving on a local contract or an international assignment, Tokyo's workplace culture has specific codes that can catch even experienced professionals off guard. This guide covers the essentials.
 
@@ -5685,6 +5771,8 @@ To develop your professional Japanese, [iTalki](https://www.italki.com/affshare?
     content: `
 ## Transférer de l'argent vers le Japon : les vraies options en 2026
 
+**Réponse rapide :** Pour transférer de l'argent vers le Japon, les services en ligne (Wise, Revolut) offrent presque toujours un meilleur taux et des frais plus bas que les banques traditionnelles. Comparez le taux de change réel, pas seulement les frais affichés. Pour recevoir un salaire local, il vous faut un compte bancaire japonais.
+
 Que vous receviez un salaire depuis la France, remboursiez un prêt à domicile ou envoyiez de l'argent à votre famille, les transferts internationaux font partie du quotidien des expatriés. Les banques traditionnelles font payer cette commodité très cher. Voici un comparatif honnête des solutions disponibles.
 
 ## Wise : la référence pour les virements vers le Japon
@@ -5767,6 +5855,8 @@ Pour votre couverture sante en expatrie, [SafetyWing Nomad Insurance](https://sa
     readingTime: '8 min',
     content: `
 ## Apprendre le japonais à Tokyo : par où commencer ?
+
+**Réponse rapide :** Pour apprendre le japonais à Tokyo, plusieurs voies : écoles de langue à temps plein (visa étudiant possible), cours du soir pour salariés, cours en ligne avec professeurs natifs, et échanges linguistiques gratuits. Commencez par les kana (hiragana et katakana), puis visez le JLPT comme objectif. Choisissez selon votre budget et votre temps disponible.
 
 Même dans un environnement de travail entièrement en anglais, parler japonais change radicalement la qualité de vie à Tokyo. Pour les démarches administratives, la recherche d'appartement, les visites chez le médecin et les conversations de voisinage, quelques centaines de mots suffisent à transformer l'expérience. Ce guide compare les options disponibles pour les expatriés résidents.
 
@@ -5862,6 +5952,8 @@ Oui, clairement. Même quelques phrases de base facilitent les visites avec les 
     content: `
 ## Conversion du permis de conduire au Japon : ce qu'il faut savoir
 
+**Réponse rapide :** Pour conduire au Japon durablement, il faut convertir votre permis étranger (procédure gaimen kirikae) au centre de permis, avec traduction officielle (souvent via la JAF), documents de résidence et parfois un examen théorique et pratique. Certains pays, dont la France, la Suisse et la Belgique, bénéficient d'une conversion simplifiée. Un permis international ne vaut qu'un an.
+
 Le Japon reconnaît les permis étrangers par le biais de la Convention de Genève, mais cette reconnaissance ne s'applique qu'aux visiteurs temporaires. Dès que vous devenez résident (carte de séjour obtenue), vous devez convertir votre permis étranger pour continuer à conduire légalement.
 
 La bonne nouvelle : les ressortissants français et de nombreux pays européens bénéficient d'une procédure simplifiée, sans test de conduite si votre permis a plus de 3 mois à la date de votre arrivée au Japon.
@@ -5948,6 +6040,8 @@ Pour votre couverture sante pendant les demarches administratives, [SafetyWing N
     readingTime: '8 min',
     content: `
 ## Organiser son déménagement international vers le Japon
+
+**Réponse rapide :** Pour un déménagement international vers le Japon, comparez plusieurs devis (fret maritime, moins cher mais lent ; aérien, rapide mais coûteux). Vérifiez l'assurance, le dédouanement et la livraison jusqu'au domicile. Déménagez léger : beaucoup de logements japonais sont petits, et racheter sur place est souvent plus simple que d'expédier.
 
 Un déménagement vers le Japon depuis l'Europe dure en général 4 à 8 semaines par voie maritime, ou 5 à 10 jours par voie aérienne. La logistique est complexe, les règles douanières strictes, et les délais souvent sous-estimés. Ce guide vous donne les informations essentielles pour choisir le bon prestataire.
 
@@ -6041,6 +6135,8 @@ Pour votre couverture sante pendant le demenagement, [SafetyWing Nomad Insurance
     readingTime: '9 min',
     content: `
 ## Importer son animal de compagnie au Japon : les règles strictes
+
+**Réponse rapide :** Importer un chien ou un chat au Japon demande une préparation longue (jusqu'à 7 mois avant) : puçage, vaccins antirabiques, test sérologique, puis période d'attente. Sans ces étapes, l'animal peut être mis en quarantaine jusqu'à 180 jours. Prévenez l'aéroport d'arrivée à l'avance et suivez à la lettre les règles du ministère (MAFF).
 
 Le Japon applique l'une des réglementations sanitaires les plus strictes au monde pour l'importation d'animaux domestiques. La procédure est longue et très précise. Si elle est mal suivie, votre animal peut être mis en quarantaine pendant 180 jours à votre charge. Ce guide détaille les étapes pour les chats et chiens en provenance de France.
 
@@ -6143,6 +6239,8 @@ Pour votre couverture sante pendant la periode d'installation au Japon, [SafetyW
     content: `
 ## Choisir son quartier à Tokyo quand on a des enfants
 
+**Réponse rapide :** Les meilleurs quartiers de Tokyo pour familles expatriées combinent proximité des écoles internationales, espaces verts et logements plus grands : Minato (Hiroo, Azabu), Setagaya, Meguro et Shibuya en tête. Ils sont plus chers mais offrent l'infrastructure familiale. Choisissez d'abord selon l'école de vos enfants, puis le trajet.
+
 Pour une famille expatriée, le choix du quartier est plus contraignant qu'pour un célibataire. Trois facteurs dominent la décision : la proximité de l'école internationale des enfants, la surface disponible pour le loyer payé, et l'accès aux équipements familiaux (parcs, supermarchés, hôpitaux). Ce guide passe en revue les zones les plus plébiscitées par les familles étrangères résidant à Tokyo.
 
 ## Setagaya-ku : le quartier famille par excellence
@@ -6237,6 +6335,8 @@ Pour explorer les quartiers familiaux de Tokyo avant votre installation, [GetYou
     content: `
 ## Tokyo vs Osaka : quelle ville choisir pour s'expatrier au Japon ?
 
+**Réponse rapide :** Tokyo offre plus d'emplois internationaux, de services et de dynamisme, mais des loyers plus élevés et un rythme intense. Osaka est plus abordable, plus chaleureuse et plus décontractée, avec une excellente gastronomie. Pour un maximum d'opportunités professionnelles, choisissez Tokyo ; pour le rapport qualité-prix et la convivialité, Osaka.
+
 La question revient souvent chez les expatriés qui découvrent que le Japon ne se résume pas à Tokyo. Osaka, deuxième agglomération économique du Japon avec 2,7 millions d'habitants en ville centrale (19 millions dans l'agglomération Keihanshin avec Kobe et Kyoto), offre une alternative sérieuse à la capitale. Ce comparatif vous aide à choisir.
 
 ## Emploi et économie : Tokyo sans équivalent
@@ -6328,6 +6428,8 @@ Pour vivre l'experience gastronomique de Tokyo avant de choisir votre ville, [Ar
     content: `
 ## Sending Money to Japan: Your Options in 2026
 
+**Quick answer:** To send money to Japan, online services (Wise, Revolut) almost always beat traditional banks on rate and fees. Compare the real exchange rate, not just the advertised fee. To receive a local salary, you will need a Japanese bank account.
+
 Whether you receive a salary from abroad, repay a loan at home, or send money to family, international transfers are a regular part of expat life in Japan. Traditional banks make this expensive. Here is an honest comparison of the best alternatives.
 
 ## Wise: The Go-To for Most Japan Expats
@@ -6410,6 +6512,8 @@ For health coverage as an expat in Japan, [SafetyWing Nomad Insurance](https://s
     readingTime: '8 min',
     content: `
 ## Learning Japanese in Tokyo: Where to Start
+
+**Quick answer:** To learn Japanese in Tokyo, options include full-time language schools (which can sponsor a student visa), evening classes for working people, online lessons with native teachers, and free language exchanges. Start with the kana (hiragana and katakana), then aim for the JLPT as a goal. Choose by your budget and available time.
 
 Even in a fully English-speaking work environment, knowing Japanese dramatically changes the quality of life in Tokyo. For administrative tasks, apartment hunting, medical appointments and everyday interactions, a few hundred words make the experience completely different. This guide compares the main options for resident expats.
 
@@ -6503,6 +6607,8 @@ Coto Academy for group evening classes, and [iTalki](https://www.italki.com/affs
     content: `
 ## Converting a Foreign Driving Licence in Japan: What You Need to Know
 
+**Quick answer:** To drive long-term in Japan, convert your foreign licence (gaimen kirikae) at a licence centre, with an official translation (often via JAF), residence documents, and sometimes a written and practical test. Some countries, including France, Switzerland and Belgium, get a simplified conversion. An international permit is valid for only one year.
+
 Japan recognises foreign licences under the Geneva Convention, but only for temporary visitors. Once you become a resident (residence card obtained), you must convert your foreign licence to a Japanese one to drive legally. The good news: nationals of France, most EU countries, Australia, New Zealand, Canada and the UK benefit from a simplified procedure with no practical driving test.
 
 ## Countries Eligible for Simplified Conversion (No Driving Test)
@@ -6591,6 +6697,8 @@ For health coverage during your admin process, [SafetyWing Nomad Insurance](http
     readingTime: '8 min',
     content: `
 ## Shipping Your Belongings to Japan: How to Choose a Mover
+
+**Quick answer:** For an international move to Japan, compare several quotes (sea freight is cheaper but slow; air is fast but costly). Check insurance, customs clearance, and door-to-door delivery. Move light: many Japanese homes are small, and buying locally is often simpler than shipping.
 
 An international move to Japan from Europe or North America takes 4 to 8 weeks by sea, or 5 to 10 days by air. Japanese customs rules are strict, paperwork is significant, and lead times are often underestimated. This guide gives you what you need to select the right provider and avoid the most common mistakes.
 
@@ -6695,6 +6803,8 @@ For health coverage during your move, [SafetyWing Nomad Insurance](https://safet
     readingTime: '9 min',
     content: `
 ## Importing Pets to Japan: Strict Rules, Manageable Process
+
+**Quick answer:** Bringing a dog or cat to Japan takes long preparation (up to seven months ahead): microchip, rabies vaccinations, a blood titer test, then a waiting period. Skip these steps and your pet can be quarantined for up to 180 days. Notify the arrival airport in advance and follow the ministry (MAFF) rules exactly.
 
 Japan applies one of the strictest animal import protocols in the world. The procedure is long and must be followed precisely. If any step is missed or timed incorrectly, your pet may face a mandatory 180-day quarantine in a government facility at your expense. This guide covers cats and dogs imported from Europe, Canada and Australia.
 
@@ -6804,6 +6914,8 @@ For health coverage during your relocation to Japan, [SafetyWing Nomad Insurance
     content: `
 ## Choosing a Tokyo Neighbourhood as an Expat Family
 
+**Quick answer:** The best Tokyo neighbourhoods for expat families combine proximity to international schools, green space and larger homes: Minato (Hiroo, Azabu), Setagaya, Meguro and Shibuya lead the list. They cost more but offer the family infrastructure. Choose by your children's school first, then the commute.
+
 For a family relocating to Tokyo, neighbourhood choice involves more constraints than for a single professional. Three factors typically drive the decision: proximity to your children's international school, the amount of space you can get for your housing budget, and access to family infrastructure such as parks, supermarkets and English-speaking medical services. This guide covers the most popular areas among expat families.
 
 ## Setagaya Ward: The Classic Family Choice
@@ -6902,6 +7014,8 @@ To explore Tokyo's family-friendly neighbourhoods before your move, [GetYourGuid
     content: `
 ## Tokyo vs Osaka: Choosing the Right Japanese City
 
+**Quick answer:** Tokyo offers more international jobs, services and energy, but higher rents and an intense pace. Osaka is more affordable, warmer and more relaxed, with excellent food. For maximum career opportunities, choose Tokyo; for value and friendliness, choose Osaka.
+
 The question comes up frequently among expats who discover that Japan is not just Tokyo. Osaka, Japan's second economic hub with 2.7 million residents in the city proper (and 19 million in the Keihanshin metropolitan area including Kobe and Kyoto), offers a genuine alternative to the capital. This comparison covers the factors that matter most for expat relocation.
 
 ## Jobs and Economy: Tokyo Has No Real Rival
@@ -6994,6 +7108,8 @@ To experience Tokyo's food culture before making your city choice, [Arigato Trav
     readingTime: '8 min',
     content: `
 Japan launched its first dedicated long-stay visa for remote workers in March 2024. Known officially as the Specified Activities Visa (Number 50 Activity), it allows professionals employed by companies outside Japan to live and work remotely in the country for up to six months.
+
+**Quick answer:** Japan's digital nomad visa (Specified Activities No. 50) lets eligible remote workers stay up to six months. You must earn at least 10 million JPY per year, hold private health insurance, and be a national of an eligible country with a tax treaty or visa waiver. It is not renewable on the spot and does not grant residency.
 
 This guide covers everything you need to know: who qualifies, how to apply, what you can and cannot do during your stay, and how to find housing in Tokyo once you arrive.
 
@@ -7123,6 +7239,8 @@ For health coverage as a digital nomad, [SafetyWing Nomad Insurance](https://saf
     content: `
 Le Japon a lancé en mars 2024 son premier visa dédié aux télétravailleurs étrangers. Officiellement appelé Visa Activités Spécifiques (numéro 50), il permet aux professionnels employés par des entreprises hors Japon de s'installer dans le pays jusqu'à six mois pour y exercer leur activité à distance.
 
+**Réponse rapide :** Le visa nomade digital du Japon (Activités Spécifiques n°50) permet aux télétravailleurs éligibles de rester jusqu'à six mois. Il faut justifier d'un revenu d'au moins 10 millions JPY par an, d'une assurance santé privée, et être ressortissant d'un pays éligible (convention fiscale ou exemption de visa). Il n'est pas renouvelable sur place et ne donne pas de résidence.
+
 Ce guide couvre tout ce que vous devez savoir : qui est éligible, comment faire la demande, ce que vous pouvez et ne pouvez pas faire, et comment trouver un logement à Tokyo une fois sur place.
 
 ## Qu'est-ce que le Visa Nomade Digital Japon ?
@@ -7250,6 +7368,8 @@ Pour votre couverture sante en nomade digital, [SafetyWing Nomad Insurance](http
     readingTime: '9 min',
     content: `
 The Japan Working Holiday Visa (WHV) is one of the most sought-after programs for young travellers from eligible countries. It allows you to live and work in Japan for up to 12 months, with far fewer restrictions than a standard work visa.
+
+**Quick answer:** The Japan Working Holiday Visa lets young people (usually 18 to 30) from eligible countries live and work in Japan for up to one year. You apply from your home country with proof of funds and a return plan, and you can take part-time or full-time work to support your stay. It is a flexible way to try living in Japan without an employer sponsor.
 
 This guide covers who qualifies, how to apply, what you can do during your stay, and how to find housing in Tokyo, whether you arrive for a year of adventure or as a first step toward longer-term residency.
 
@@ -7397,6 +7517,8 @@ For health coverage during your working holiday, [SafetyWing Nomad Insurance](ht
     content: `
 Le Programme Vacances Travail (PVT) au Japon est l'un des visas les plus recherchés pour les jeunes ressortissants des pays partenaires. Il vous permet de vivre et travailler au Japon pendant 12 mois, avec beaucoup moins de contraintes qu'un visa de travail classique.
 
+**Réponse rapide :** Le PVT (Programme Vacances Travail) permet aux jeunes de 18 à 30 ans des pays partenaires (dont la France et la Belgique) de vivre et travailler au Japon jusqu'à un an. On candidate depuis son pays avec un justificatif de fonds et un projet ; il autorise le travail à temps partiel ou plein pour financer le séjour. C'est un moyen souple de tester la vie au Japon sans employeur parrain.
+
 Ce guide couvre tout ce que vous devez savoir : qui est éligible, comment faire la demande, ce que vous pouvez faire pendant votre séjour, et comment trouver un logement à Tokyo une fois sur place.
 
 ## Qu'est-ce que le PVT Japon ?
@@ -7534,6 +7656,8 @@ Pour votre couverture sante pendant votre PVT, [SafetyWing Nomad Insurance](http
     content: `
 Les programmes universitaires japonais à rentrée d'octobre se multiplient : masters en anglais, écoles de langue, programmes d'échange au second semestre. Si vous arrivez à Tokyo en octobre, la question du logement se pose dès maintenant. Les meilleures options se réservent 6 à 8 semaines à l'avance.
 
+**Réponse rapide :** Pour une rentrée d'octobre à Tokyo, visez une share house ou un dortoir universitaire : sans garant, meublés, candidature en ligne depuis l'étranger. Cherchez dès juillet-août, car les places partent vite avant octobre. Comptez 40 000 à 80 000 JPY par mois en share house, souvent charges incluses.
+
 Deux choix s'offrent à la grande majorité des étudiants : le dortoir universitaire, encadré mais limité, et le share house, plus flexible mais plus cher. Ce guide vous aide à choisir.
 
 ## Les dortoirs universitaires à Tokyo
@@ -7643,6 +7767,8 @@ Pour votre couverture sante en arrivant en octobre, [SafetyWing Nomad Insurance]
     readingTime: '7 min',
     content: `
 October university intakes in Japan are growing: English-language master's programs, language schools, and second-semester exchange programs. If you're arriving in Tokyo in October, housing needs to be sorted now. The best options fill up 6 to 8 weeks before arrival.
+
+**Quick answer:** For an October intake in Tokyo, aim for a share house or university dormitory: no guarantor, furnished, with online applications from abroad. Search in July or August, as spots fill fast before October. Budget 40,000 to 80,000 JPY per month in a share house, utilities often included.
 
 Most students face the same two choices: a university dormitory (structured, affordable, but limited) or a share house (more flexible, widely available, slightly more expensive). This guide walks you through the real comparison.
 
@@ -7975,6 +8101,8 @@ For health coverage during your relocation, [SafetyWing Nomad Insurance](https:/
     content: `
 Remoters is a relocation marketplace that connects expats with local housing consultants in cities worldwide, including Tokyo. If you've come across it while searching for help finding an apartment in Japan, this guide explains how Remoters works, what it costs, and when a direct specialist is the better choice.
 
+**Quick answer:** Remoters connects expats with local housing consultants worldwide, on a commission model. If you want a Tokyo-focused, bilingual (English and French) property hunter with transparent flat fees and a 300+ property network, Tokyo Expat is a direct alternative: one specialist handles the full search, viewings, negotiation and contract.
+
 ## How Remoters Works
 
 Remoters acts as a middleman: you submit your housing requirements on the platform, and local consultants bid on your case or are matched to you algorithmically. You then work with a local agent who has registered on the Remoters platform.
@@ -8043,6 +8171,8 @@ For health coverage during your property search in Japan, [SafetyWing Nomad Insu
     content: `
 Remoters est une marketplace de relocation qui met en relation des expatriés avec des consultants locaux dans des villes du monde entier, dont Tokyo. Si vous avez rencontré ce service dans votre recherche d'aide pour trouver un appartement à Tokyo, ce guide explique comment fonctionne Remoters, ce que ça coûte réellement, et quand un spécialiste direct est préférable.
 
+**Réponse rapide :** Remoters met en relation des expatriés avec des consultants locaux, sur un modèle à commission. Si vous cherchez un chasseur immobilier centré sur Tokyo, bilingue (français et anglais), à tarif fixe transparent et avec un réseau de 300+ logements, Tokyo Expat est une alternative directe : un seul spécialiste gère toute la recherche, les visites, la négociation et le contrat.
+
 ## Comment fonctionne Remoters
 
 Remoters joue le rôle d'intermédiaire : vous soumettez vos besoins sur la plateforme, et des consultants locaux vous sont proposés par l'algorithme ou par mise en relation directe. Vous travaillez ensuite avec un agent local inscrit sur la plateforme Remoters.
@@ -8104,6 +8234,8 @@ Pour votre couverture sante pendant la recherche de logement, [SafetyWing Nomad 
     readingTime: '8 min',
     content: `
 Understanding Tokyo apartment prices before you start your search is the difference between a realistic brief and weeks of wasted visits. Rents in Tokyo vary enormously by neighborhood, apartment type, and proximity to a metro station. This guide gives you benchmarks for 15 key expat districts in 2026, based on current market data for furnished and unfurnished rentals.
+
+**Quick answer:** Tokyo rents vary widely by neighbourhood and layout. Central premium areas (Hiroo, Roppongi, Minato) run 150,000 to 300,000 JPY for a 1LDK; mid-range areas offer more space per yen; outer wards are the most affordable. Always weigh rent against commute time. See our data-backed Tokyo Rent Index for medians by ward and train line.
 
 All prices below are monthly rent in JPY, excluding service charges and utilities unless specified. Add 15-25% for fully furnished serviced apartments. For median rent across all 23 wards by layout, see our [Tokyo Rent Index](/data), computed from 528,660 real listings.
 
@@ -8196,6 +8328,8 @@ For health coverage during your apartment search, [SafetyWing Nomad Insurance](h
     content: `
 Comprendre les loyers de Tokyo avant de commencer votre recherche, c'est la différence entre un brief réaliste et des semaines de visites inutiles. Les loyers à Tokyo varient considérablement selon le quartier, le type d'appartement et la proximité des transports. Ce guide vous donne les fourchettes de prix pour 15 quartiers clés en 2026.
 
+**Réponse rapide :** Les loyers de Tokyo varient fortement selon le quartier et le layout. Les zones centrales premium (Hiroo, Roppongi, Minato) vont de 150 000 à 300 000 JPY pour un 1LDK ; les zones intermédiaires offrent plus d'espace par yen ; les arrondissements périphériques sont les plus abordables. Arbitrez toujours loyer contre temps de trajet. Voyez notre Indice des loyers pour les médianes par arrondissement et par ligne.
+
 Tous les prix ci-dessous sont des loyers mensuels en JPY, hors charges et utilities sauf mention contraire. Ajoutez 15 à 25% pour les appartements entièrement meublés et équipés. Pour le loyer médian dans les 23 arrondissements par layout, voyez notre [Indice des loyers de Tokyo](/data), calculé sur 528 660 annonces réelles.
 
 ## Comparatif loyers Tokyo par quartier: 2026
@@ -8280,6 +8414,8 @@ Pour votre couverture sante pendant la recherche de logement, [SafetyWing Nomad 
     readingTime: '7 min',
     content: `
 Renting an apartment in Tokyo as a freelancer, entrepreneur, or startup founder is harder than it is for a salaried employee. The Japanese rental market is built around one tenant profile: a full-time employee at a large Japanese company with regular pay slips and a stable employment contract. Everyone else is filtered out before the landlord even sees the application.
+
+**Quick answer:** Renting in Tokyo as a freelancer or entrepreneur is harder because the market favours salaried employees with stable payslips. To succeed, use a guarantor company (which accepts self-employed applicants), show tax returns and bank statements as proof of income, or start with no-guarantor housing (share houses, furnished apartments). A bilingual agent smooths the application.
 
 This guide explains exactly why, and what you can do about it.
 
@@ -8370,6 +8506,8 @@ For health coverage as a freelancer or entrepreneur in Japan, [SafetyWing Nomad 
     content: `
 Louer un appartement à Tokyo quand on est entrepreneur, freelance ou travailleur indépendant est structurellement plus difficile que pour un salarié. Le marché locatif japonais est construit autour d'un profil type: salarié d'une grande entreprise japonaise, CDI, fiche de paie stable. Tout le monde en dehors de ce profil est filtré avant même que le propriétaire voie votre dossier.
 
+**Réponse rapide :** Louer à Tokyo en tant qu'entrepreneur ou freelance est plus difficile car le marché privilégie les salariés avec des fiches de paie stables. Pour réussir : passer par une société de garantie (qui accepte les indépendants), présenter avis d'imposition et relevés bancaires comme preuve de revenus, ou commencer par un logement sans garant (share house, meublé). Un agent bilingue facilite le dossier.
+
 Ce guide explique exactement pourquoi, et ce que vous pouvez faire.
 
 ## Pourquoi les entrepreneurs sont refusés sur le marché traditionnel
@@ -8452,6 +8590,8 @@ Pour votre couverture sante en tant qu'independant au Japon, [SafetyWing Nomad I
     readingTime: '8 min',
     content: `
 Relocating an employee to Tokyo involves more complexity than most HR managers anticipate. The Japanese rental market does not operate like Western markets: there is no automated matching system, leases require specific documentation, and the timeline from "we need housing" to "keys in hand" is typically 4-8 weeks under ideal conditions.
+
+**Quick answer:** Relocating an employee to Tokyo takes 4 to 8 weeks from brief to keys, longer than most HR teams expect. Budget move-in costs of 3 to 5 months' rent for a standard lease, or use furnished and serviced apartments for speed and flexibility. Brief a bilingual property hunter early, and plan temporary housing if the employee arrives before the lease is signed.
 
 This guide is written for HR managers, mobility coordinators, and office managers responsible for getting a team member settled in Tokyo as efficiently as possible.
 
@@ -8550,6 +8690,8 @@ For employee health coverage during relocation, [SafetyWing Nomad Insurance](htt
     content: `
 Relocaliser un employé à Tokyo implique plus de complexité que la plupart des responsables RH n'anticipent. Le marché locatif japonais ne fonctionne pas comme les marchés occidentaux: pas de système de matching automatisé, des baux avec des exigences documentaires spécifiques, et un délai de 4 à 8 semaines entre "il nous faut un logement" et "remise des clés", dans les meilleures conditions.
 
+**Réponse rapide :** Relocaliser un employé à Tokyo prend 4 à 8 semaines du brief à la remise des clés, plus long que la plupart des équipes RH ne l'anticipent. Prévoyez des frais d'entrée de 3 à 5 mois de loyer pour un bail classique, ou des appartements meublés et services pour la rapidité. Briefez tôt un chasseur bilingue, et prévoyez un logement temporaire si l'employé arrive avant la signature.
+
 Ce guide est écrit pour les DRH, coordinateurs de mobilité et office managers qui doivent installer un collaborateur à Tokyo aussi efficacement que possible.
 
 ## Le calendrier type d'une relocalisation à Tokyo
@@ -8647,6 +8789,8 @@ Pour la couverture sante des employes en transit, [SafetyWing Nomad Insurance](h
     content: `
 Ebisu, Daikanyama and Nakameguro form one of the most attractive residential clusters in Tokyo for expats who want an international, walkable, high-quality urban environment without paying Hiroo or Roppongi prices. These three neighborhoods sit on the same Hibiya Line corridor as Hiroo, are connected by the Tokyu Toyoko Line, and share a distinctive atmosphere: independently-owned cafes, tree-lined streets, boutique retail, and a visible international community.
 
+**Quick answer:** Ebisu, Daikanyama and Nakameguro are among Tokyo's most desirable expat neighbourhoods: walkable, stylish, international, with great cafes and easy access to central offices. Rents are high (a 1LDK often runs 200,000 to 300,000 JPY), but slightly below Hiroo and Minato. Ebisu suits families and connectivity, Daikanyama the design-minded, Nakameguro the young and trendy.
+
 This guide covers rents, atmosphere, commute, and practical life across all three.
 
 ## Ebisu: The Accessible Starting Point
@@ -8729,6 +8873,8 @@ To discover the best spots in this corridor before settling in, [GetYourGuide](h
     readingTime: '7 min',
     content: `
 Ebisu, Daikanyama et Nakameguro forment l'un des clusters résidentiels les plus attractifs de Tokyo pour les expatriés qui veulent un environnement international, walkable et de qualité, sans payer les loyers de Hiroo ou de Roppongi. Ces trois quartiers partagent la même ligne Hibiya que Hiroo, sont reliés par la ligne Tokyu Toyoko, et ont une atmosphère distinctive: cafés indépendants, rues arborées, boutiques de créateurs, et une communauté internationale visible.
+
+**Réponse rapide :** Ebisu, Daikanyama et Nakameguro comptent parmi les quartiers expatriés les plus prisés de Tokyo : piétons, élégants, internationaux, avec de bons cafés et un accès facile au centre. Les loyers sont élevés (un 1LDK va souvent de 200 000 à 300 000 JPY), mais un peu sous Hiroo et Minato. Ebisu convient aux familles et à la connectivité, Daikanyama aux profils créatifs, Nakameguro aux jeunes tendance.
 
 Ce guide couvre les loyers, l'ambiance, les transports et la vie pratique dans les trois quartiers.
 
@@ -8813,6 +8959,8 @@ Pour decouvrir les adresses de ce couloir avant votre installation, [GetYourGuid
     content: `
 Le refus de dossier est l'une des expériences les plus frustrantes du parcours locatif à Tokyo. Vous avez trouvé l'appartement idéal, constitué votre dossier avec soin, et vous recevez un simple "お断りします" sans la moindre explication. Ce n'est pas une anomalie: c'est le quotidien de milliers d'étrangers qui tentent de louer en dehors des circuits spécialisés.
 
+**Réponse rapide :** Un dossier de location refusé à Tokyo tient rarement à vous personnellement : souvent au manque de garant, à des revenus jugés instables, à la barrière de langue ou à un propriétaire réticent aux étrangers. Les solutions : passer par une société de garantie, fournir des preuves de revenus solides, viser des biens foreigner-friendly, ou passer par un agent bilingue qui rassure le propriétaire.
+
 Comprendre pourquoi votre dossier a été refusé, et surtout comment rebondir, peut changer radicalement la suite de votre recherche.
 
 ## Les vraies raisons d'un refus de dossier à Tokyo
@@ -8884,6 +9032,8 @@ Pour votre couverture sante pendant les demarches, [SafetyWing Nomad Insurance](
     content: `
 Getting your rental application rejected in Japan is one of the most frustrating experiences in your Tokyo relocation. You found the right apartment, prepared your paperwork carefully, and then received a quiet decline with no explanation. This is not an exception: it is the standard experience for many foreigners attempting to rent through traditional Japanese channels.
 
+**Quick answer:** A rejected rental application in Japan is rarely personal: it usually comes down to the lack of a guarantor, income seen as unstable, the language barrier, or a landlord wary of foreigners. Fixes: use a guarantor company, provide solid proof of income, target foreigner-friendly properties, or work through a bilingual agent who reassures the landlord.
+
 Understanding why applications get rejected, and what to do next, can completely change the outcome of your search.
 
 ## Why Japanese Landlords Reject Foreign Applicants
@@ -8954,6 +9104,8 @@ For health coverage while you continue your search, [SafetyWing Nomad Insurance]
     readingTime: '7 min',
     content: `
 Lorsqu'un expatrié envisage de faire appel à un chasseur immobilier à Tokyo, la première question est systématiquement la même: combien ça coûte? La seconde, tout aussi légitime: est-ce que ça vaut vraiment le coup par rapport à chercher seul?
+
+**Réponse rapide :** Un chasseur immobilier à Tokyo coûte généralement un forfait fixe (à partir de ~250 EUR pour une share house, plus pour un appartement ou une maison). Ça vaut le coup si vous manquez de temps, ne parlez pas japonais, ou risquez des refus de dossier : il gère la recherche, les visites, la négociation et le contrat, et vous évite des erreurs coûteuses. Avec un budget serré et du temps, chercher seul reste possible.
 
 Voici une réponse honnête, chiffrée, basée sur la réalité du marché locatif tokyoïte.
 
@@ -9047,6 +9199,8 @@ Pour votre couverture sante pendant la recherche, [SafetyWing Nomad Insurance](h
     content: `
 When considering hiring a real estate hunter in Tokyo, most expats ask two questions immediately: how much does it cost, and is it actually worth it compared to searching alone? Here is an honest, numbers-based answer grounded in how the Tokyo rental market actually works.
 
+**Quick answer:** A Tokyo property hunter typically charges a flat fee (from ~250 EUR for a share house, more for an apartment or house). It is worth it if you are short on time, do not speak Japanese, or risk application rejections: the hunter handles the search, viewings, negotiation and contract, and prevents costly mistakes. On a tight budget with time to spare, searching alone is still possible.
+
 ## How Real Estate Hunter Fees Are Structured in Tokyo
 
 Real estate hunters in Tokyo work under two main pricing models.
@@ -9134,6 +9288,8 @@ For health coverage during your property search, [SafetyWing Nomad Insurance](ht
     readingTime: '8 min',
     content: `
 Quand un expatrié commence sa recherche de logement à Tokyo, il fait face à deux options principales: passer par une agence immobilière classique ou faire appel à un chasseur immobilier. Les deux approches donnent des résultats radicalement différents pour les profils étrangers. Voici un comparatif honnête, structuré autour des critères qui comptent vraiment.
+
+**Réponse rapide :** Une agence immobilière classique travaille pour le propriétaire, en japonais, et vous montre surtout ses propres biens. Un chasseur immobilier travaille pour VOUS : il cherche sur tout le marché, en français et anglais, gère les visites, la négociation et le contrat, contre un forfait transparent. Pour un étranger, le chasseur réduit le risque de refus et la barrière de langue.
 
 ## Comment fonctionne une agence immobilière classique à Tokyo
 
@@ -9224,6 +9380,8 @@ Pour votre couverture sante pendant la recherche de logement, [SafetyWing Nomad 
     content: `
 When starting an apartment search in Tokyo, most expats face the same choice: work with a traditional Japanese real estate agency, or hire a real estate hunter. These two approaches produce radically different results for foreign profiles. Here is an honest comparison built around the criteria that actually matter.
 
+**Quick answer:** A traditional Japanese agency works for the landlord, in Japanese, and mostly shows its own listings. A property hunter works for YOU: searching the whole market, in English and French, handling viewings, negotiation and the contract, for a transparent flat fee. For a foreigner, a hunter cuts the risk of rejection and the language barrier.
+
 ## How a Traditional Real Estate Agency Works in Tokyo
 
 A Japanese real estate agency (fudousan) acts as an intermediary between landlords and tenants. Its role is to present available properties from its portfolio to candidates who come in to consult.
@@ -9313,6 +9471,8 @@ For health coverage during your housing search, [SafetyWing Nomad Insurance](htt
     content: `
 Faire appel à un chasseur immobilier à Tokyo, c'est confier l'intégralité de votre recherche de logement à un professionnel qui connaît le marché de l'intérieur. Mais concrètement, comment se déroule le processus? Qui fait quoi, à quel moment, et combien de temps cela prend-il?
 
+**Réponse rapide :** Un chasseur immobilier à Tokyo suit un processus clair : consultation pour cerner vos besoins, sélection de biens sur tout le marché, organisation des visites (en personne ou visio), négociation du loyer et des conditions, puis constitution du dossier et signature, traduction incluse. Vous déléguez toute la recherche à un spécialiste bilingue, contre un forfait fixe.
+
 Voici le déroulement exact d'une mission de chasse immobilière à Tokyo.
 
 ## Étape 1: l'appel de brief (30 minutes)
@@ -9396,6 +9556,8 @@ Pour votre couverture sante pendant les demarches d'installation, [SafetyWing No
     content: `
 Hiring a real estate hunter in Tokyo means delegating your entire apartment search to a professional who knows the market from the inside. But what exactly happens during the process? Who does what, at what point, and how long does it take?
 
+**Quick answer:** A Tokyo property hunter follows a clear process: a consultation to define your needs, a shortlist from across the whole market, organised viewings (in person or by video), rent and terms negotiation, then application and signing, translation included. You delegate the entire search to a bilingual specialist for a flat fee.
+
 Here is the exact walkthrough of a real estate hunting mission in Tokyo.
 
 ## Step 1: The Initial Brief Call (30 minutes)
@@ -9478,6 +9640,8 @@ For health coverage during your relocation process, [SafetyWing Nomad Insurance]
     readingTime: '7 min',
     content: `
 Hiroo et Minami-Azabu forment le coeur historique de la communauté expatriée de Tokyo. Ambassades, écoles internationales, supermarchés anglophones, restaurants occidentaux: tout ce qui facilite la vie d'un étranger est concentré dans ce rayon de 2 kilomètres au sud de Roppongi.
+
+**Réponse rapide :** Hiroo et Minami-Azabu forment le coeur historique de la communauté expatriée de Tokyo : ambassades, écoles internationales, supermarchés anglophones et restaurants occidentaux. C'est le quartier le plus haut de gamme (un 1LDK va souvent de 200 000 à 300 000 JPY et plus), idéal pour les familles et cadres qui veulent une infrastructure internationale complète.
 
 Ce guide vous donne une vision complète et honnête de ces deux quartiers: ce qui en fait une valeur sûre, ce que l'on ne vous dit pas toujours, et ce à quoi s'attendre en termes de loyers et de disponibilité.
 
@@ -9565,6 +9729,8 @@ Pour decouvrir la gastronomie de ces quartiers residentiels, [Arigato Travel](ht
     readingTime: '7 min',
     content: `
 Hiroo and Minami-Azabu form the historic heart of Tokyo's expat community. Embassies, international schools, English-friendly supermarkets, Western restaurants: everything that makes daily life easier for foreigners is concentrated in this two-kilometer radius south of Roppongi.
+
+**Quick answer:** Hiroo and Minami-Azabu are the historic heart of Tokyo's expat community: embassies, international schools, English-friendly supermarkets and Western restaurants. It is the most upscale area (a 1LDK often runs 200,000 to 300,000 JPY and up), ideal for families and executives who want complete international infrastructure.
 
 This guide gives you a complete and honest picture of both neighborhoods: what makes them a reliable choice, what is often left unsaid, and what to expect in terms of rents and availability.
 
