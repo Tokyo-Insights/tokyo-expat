@@ -432,6 +432,8 @@ Pour explorer Tokyo et ses quartiers avant de vous installer, [GetYourGuide](htt
     content: `
 Tokyo has one of the most closed rental markets in the world for foreigners. No permanent residency, no Japanese guarantor, no local bank account: most agencies will decline your application before you even visit a property.
 
+**Quick answer:** To rent in Tokyo as a foreigner, start with no-guarantor options (share houses, furnished or monthly mansions) that accept just a passport and visa, or use a bilingual agent plus a guarantor company for a standard lease. Apply remotely before you land, budget 4 to 6 months of upfront costs for a standard lease, and allow 2 to 8 weeks depending on the housing type.
+
 Yet thousands of expats find housing in Tokyo every year. The difference between those who settle in two weeks and those who struggle for three months comes down to method.
 
 ## The guarantor problem
@@ -1181,6 +1183,8 @@ Pour votre couverture sante pendant la recherche d'appartement, [SafetyWing Noma
     readingTime: '7 min',
     content: `
 Share houses are the fastest, most accessible entry point into the Tokyo rental market for foreigners. No key money, no guarantor, move in within days. Here is everything you need to know before you sign.
+
+**Quick answer:** A Tokyo share house is a furnished private room with shared kitchen and bathroom, no guarantor and no key money, with move-in within days. Rent runs 40,000 to 90,000 JPY per month, utilities often included, and you can apply online from abroad with just a passport and visa. It is the easiest first home for newcomers.
 
 ## What is a share house in Japan?
 
@@ -2601,6 +2605,8 @@ Pour votre couverture sante quelle que soit votre option de logement, [SafetyWin
     content: `
 Choosing the right neighbourhood in Tokyo is a decision that shapes your quality of life for the next 12 to 36 months. Too central and rent exceeds your budget. Too far out and commutes eat into your evenings. Here are the neighbourhoods that offer the best balance for French-speaking and English-speaking expats.
 
+**Quick answer:** The best Tokyo neighbourhoods for expats balance rent, commute and convenience. Central premium areas (Minato, Shibuya, Meguro) start around 130,000 JPY for a studio; mid-range areas (Setagaya, Nakano, Koto) give more space per yen; eastern and outer wards (Edogawa, Adachi) are the most affordable. Pick by commute time to your office first, then by vibe.
+
 ## Shinjuku: the practical expat hub
 
 **Best for**: professionals working in west Tokyo, families looking for French-language services
@@ -3193,6 +3199,8 @@ Pour votre couverture sante pendant les demarches de garant, [SafetyWing Nomad I
     content: `
 The guarantor requirement is one of the most feared obstacles for foreigners looking for an apartment in Japan. In the traditional Japanese rental system, landlords require a personal guarantor, usually Japanese, who commits to paying rent on your behalf if you default. Without a local network, finding such a person is nearly impossible when you first arrive. The good news: the market has evolved, and concrete solutions exist.
 
+**Quick answer:** You do not need a Japanese personal guarantor to rent in Japan. Most foreigners use a guarantor company (hoshou-gaisha), which charges 50 to 100% of one month's rent and covers the landlord if you default. No-guarantor options (share houses, furnished or monthly mansions) skip the requirement entirely and accept a passport and visa.
+
 ## The personal guarantor (保証人 hoshounin): the historical barrier
 
 For decades, every tenant in Japan had to provide a hoshounin, literally "a person who guarantees." This guarantor had to be Japanese, resident in Japan, have sufficient income, and accept joint liability for the rent.
@@ -3628,6 +3636,8 @@ For health coverage during your studies in Japan, [SafetyWing Nomad Insurance](h
     readingTime: '7 min',
     content: `
 Signer un bail à Tokyo en tant qu'étranger comporte des risques concrets si vous ne savez pas lire un contrat en japonais. Les mauvaises surprises les plus fréquentes, frais cachés, clause de remise en état abusive, préavis mal compris, peuvent vous coûter plusieurs centaines de milliers de yens à la sortie. Cette checklist couvre les 12 points à vérifier impérativement avant de signer.
+
+**Réponse rapide :** Avant de signer un bail à Tokyo, vérifiez les 12 points clés : loyer et charges réels, argent-clé (reikin) et caution (shikikin), frais d'agence et de garant, clause de remise en état, préavis de départ, frais de renouvellement et règlement de l'immeuble. Faites traduire toute clause que vous ne comprenez pas : une mauvaise surprise peut coûter des centaines de milliers de yens.
 
 ## 1. Le montant total des frais d'entrée
 
