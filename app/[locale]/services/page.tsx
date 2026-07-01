@@ -178,7 +178,7 @@ export default async function ServicesPage({
             </div>
             <div className="mb-6">
               <span className="inline-block bg-[#0f2744]/8 text-[#0f2744] text-sm font-semibold px-3 py-1 rounded-full">
-                {locale === 'fr' ? 'Tarif sur devis — consultation gratuite' : 'Price on request — free consultation'}
+                {locale === 'fr' ? 'Tarif sur devis, consultation gratuite' : 'Price on request, free consultation'}
               </span>
             </div>
             <div className="mb-6 flex-1">
