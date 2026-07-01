@@ -45,8 +45,8 @@ export default function ContactForm({ locale }: { locale: Locale }) {
         </h2>
         <p className="text-white/70 text-sm mb-6">
           {locale === 'fr'
-            ? 'Choisissez un créneau qui vous convient. Sans engagement.'
-            : 'Pick a time that works for you. No obligation.'}
+            ? 'On cadre votre projet ensemble : quartiers, budget, démarches. Gratuit, sans engagement.'
+            : 'We map out your project together: wards, budget, next steps. Free, no obligation.'}
         </p>
         <a
           href="https://calendly.com/contact-tokyo-expat/30min"
@@ -61,6 +61,11 @@ export default function ContactForm({ locale }: { locale: Locale }) {
         >
           {locale === 'fr' ? 'Réserver maintenant' : 'Book now'} &rarr;
         </a>
+        <p className="text-white/50 text-xs mt-4">
+          {locale === 'fr'
+            ? 'En français, anglais ou japonais · réponse personnelle sous 24h'
+            : 'In English, French or Japanese · personal reply within 24h'}
+        </p>
       </div>
 
       <div className="bg-gray-50 border border-gray-200 rounded-2xl p-8">
