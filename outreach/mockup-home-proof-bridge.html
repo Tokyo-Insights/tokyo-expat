@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tokyo Expat — Bloc-preuve accueil (maquette)</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+  :root{ --navy:#0f2744; --navy2:#0b1c33; --card:#12233d; --red:#e8384f; --tan:#c9a678; --mut:#5b6b80; --lmut:#9fb2c9; --line:#eef1f5; }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:'Inter',-apple-system,Segoe UI,Roboto,sans-serif;color:var(--navy);background:#fff}
+  .wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+  .topbar{background:var(--navy2)}
+  header{display:flex;align-items:center;justify-content:space-between;padding:16px 24px;max-width:1120px;margin:0 auto}
+  .logo{font-size:21px;font-weight:800;color:#fff}.logo .r{color:var(--red)}
+  nav a{color:#cbd8ea;text-decoration:none;margin:0 10px;font-size:14px}nav a.active{color:var(--red);font-weight:600}
+  .cta-btn{background:var(--red);color:#fff;border:none;padding:10px 18px;border-radius:8px;font-weight:700}
+
+  h2.sec{font-size:30px;font-weight:800;text-align:center;color:var(--navy);margin-bottom:36px}
+
+  /* WHY (gris) */
+  .why{background:#f6f8fb;padding:56px 0}
+  .cards3{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+  .wcard{background:#fff;border:1px solid #eceff4;border-radius:16px;padding:28px;box-shadow:0 1px 2px rgba(15,39,68,.04)}
+  .wcard .ic{font-size:28px;margin-bottom:12px}
+  .wcard h3{font-size:17px;margin-bottom:8px}.wcard p{color:#647089;font-size:14px;line-height:1.55}
+
+  /* PROOF BRIDGE (navy) === le nouveau bloc === */
+  .proof{background:var(--navy2);color:#fff;padding:52px 0;position:relative;overflow:hidden}
+  .proof::before{content:"";position:absolute;top:-120px;right:-90px;width:380px;height:380px;border-radius:50%;background:radial-gradient(circle,rgba(232,56,79,.16),transparent 70%)}
+  .proof .eyebrow{color:var(--red);font-weight:700;letter-spacing:2px;font-size:12px;text-transform:uppercase;text-align:center}
+  .proof h3{font-size:26px;font-weight:800;text-align:center;max-width:760px;margin:12px auto 8px;line-height:1.25}
+  .proof h3 .r{color:var(--tan)}
+  .proof .lead{color:var(--lmut);text-align:center;max-width:600px;margin:0 auto 34px;font-size:16px;line-height:1.6}
+  .pcols{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;max-width:840px;margin:0 auto}
+  .pcol{background:var(--card);border:1px solid #1e3352;border-radius:14px;padding:22px;text-align:center}
+  .pcol .big{font-size:26px;font-weight:900}.pcol .big .r{color:var(--red)}
+  .pcol .lbl{color:var(--lmut);font-size:13.5px;margin-top:6px;line-height:1.4}
+  .proof .lk{display:block;text-align:center;margin-top:26px;color:#cbd8ea;text-decoration:none;font-weight:600;font-size:14px}
+
+  /* OFFERS (blanc) */
+  .offers{background:#fff;padding:56px 0}
+  .offers .subt{text-align:center;color:#8090a6;margin-top:-24px;margin-bottom:34px;font-size:15px}
+  .ocard{border:1px solid #e3e8ef;border-radius:16px;padding:24px;transition:.2s}
+  .ocard:hover{box-shadow:0 14px 30px rgba(15,39,68,.10);transform:translateY(-3px)}
+  .ocard h3{font-size:17px;margin-bottom:6px}.ocard p{color:#8090a6;font-size:14px;margin-bottom:14px;line-height:1.5}
+  .ocard .price{color:#6b7890;font-size:13px;font-weight:600}
+  .offers .ctaw{text-align:center;margin-top:30px}
+  .btn-navy{background:var(--navy);color:#fff;border:none;padding:13px 26px;border-radius:10px;font-weight:700;text-decoration:none}
+  .note{color:#8494a8;font-size:13px;text-align:center;padding:26px 24px 40px}
+  .flag{background:#fff6da;border:1px dashed #d9b74a;color:#7a5c00;font-size:12.5px;text-align:center;padding:6px}
+</style>
+</head>
+<body>
+  <div class="topbar"><header>
+    <div class="logo">Tokyo<span class="r">Expat</span></div>
+    <nav><a class="active">Accueil</a><a>Services</a><a>Listings</a><a>Indice loyers</a><a>Guides</a><a>À propos</a><a>Contact</a></nav>
+    <button class="cta-btn">Consultation gratuite</button>
+  </header></div>
+
+  <div class="flag">MAQUETTE — le bloc NAVY du milieu est le NOUVEAU (le "pont" preuve). Le reste = tes sections actuelles. Rien en live.</div>
+
+  <!-- WHY (existant) -->
+  <section class="why"><div class="wrap">
+    <h2 class="sec">Pourquoi choisir Tokyo Expat</h2>
+    <div class="cards3">
+      <div class="wcard"><div class="ic">🏠</div><h3>Inventaire exclusif</h3><p>Accès direct à 300+ logements meublés et non meublés, sans garant et sans frais d'agence cachés.</p></div>
+      <div class="wcard"><div class="ic">⚡</div><h3>Rapidité</h3><p>Un logement trouvé en quelques jours, pas en plusieurs mois. On gère recherche, visites et dossier.</p></div>
+      <div class="wcard"><div class="ic">🌐</div><h3>Bilingue</h3><p>Tout est géré en français, anglais et japonais, de la recherche à la signature du bail.</p></div>
+    </div>
+  </div></section>
+
+  <!-- PROOF BRIDGE (NOUVEAU) -->
+  <section class="proof"><div class="wrap">
+    <div class="eyebrow">La différence</div>
+    <h3>Vous ne parlez pas à un call center. Vous parlez à un <span class="r">opérateur du marché de Tokyo</span>, données réelles à l'appui.</h3>
+    <p class="lead">Je travaille dans le marché locatif tokyoïte au quotidien, et je m'appuie sur des données réelles pour vous orienter, pas sur des brochures.</p>
+    <div class="pcols">
+      <div class="pcol"><div class="big">528&nbsp;660</div><div class="lbl">annonces réelles analysées pour notre Indice des loyers</div></div>
+      <div class="pcol"><div class="big">100<span class="r">%</span></div><div class="lbl">indépendant : je travaille pour VOUS, pas pour les propriétaires</div></div>
+      <div class="pcol"><div class="big">FR · EN · JP</div><div class="lbl">tout le processus dans votre langue, jusqu'à la signature</div></div>
+    </div>
+    <a class="lk" href="#">Voir notre Indice des loyers de Tokyo &rarr;</a>
+  </div></section>
+
+  <!-- OFFERS (existant) -->
+  <section class="offers"><div class="wrap">
+    <h2 class="sec">Nos offres</h2>
+    <p class="subt">Des formules adaptées à chaque profil. Consultation initiale gratuite.</p>
+    <div class="cards3">
+      <div class="ocard"><h3>Share house</h3><p>La solution la plus accessible, sans garant, disponible rapidement.</p><div class="price">Tarif sur devis</div></div>
+      <div class="ocard"><h3>Appartement meublé</h3><p>Le meilleur équilibre : meublé, contrat souple, sans garant.</p><div class="price">Tarif sur devis</div></div>
+      <div class="ocard"><h3>Location standard</h3><p>Pleine autonomie, bail long terme, accompagnement complet.</p><div class="price">Tarif sur devis</div></div>
+    </div>
+    <div class="ctaw"><a class="btn-navy" href="#">Voir toutes les offres</a></div>
+  </div></section>
+
+  <p class="note">SIMULATION — bloc-pont "preuve" (navy) entre "Pourquoi choisir" et "Nos offres". Chiffres HONNETES (528 660 = ton Indice reel, 100% independant, FR/EN/JP). Aucune source/agence exposee. Rien en live.</p>
+</body>
+</html>
