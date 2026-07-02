@@ -58,7 +58,11 @@ python scripts\backlink_draft_stocker.py >> "%LOG_FILE%" 2>&1
 echo [%TIME%] [9/10] Social Buffer poster (if due)... >> "%LOG_FILE%"
 python scripts\facebook_buffer_poster.py >> "%LOG_FILE%" 2>&1
 
-:: 10. Thursday briefing leger (jeudi uniquement : Buffer status + actions en attente)
+:: 10. Site health canary : detecte les pannes silencieuses (pages 200, tag GA, CSP). Alerte si casse.
+echo [%TIME%] [10/11] Site health canary... >> "%LOG_FILE%"
+python scripts\site_health_canary.py >> "%LOG_FILE%" 2>&1
+
+:: 11. Thursday briefing leger (jeudi uniquement : Buffer status + actions en attente)
 for /f %%d in ('powershell -NoProfile -Command "(Get-Date).DayOfWeek"') do set DOW_DAILY=%%d
 if "%DOW_DAILY%"=="Thursday" (
     echo [%TIME%] [7/7] Thursday briefing... >> "%LOG_FILE%"
