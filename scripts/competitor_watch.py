@@ -191,10 +191,10 @@ COMPETITORS = {
 
 # Keywords qui indiquent un contenu intéressant à contre-attaquer
 INTERESTING_KEYWORDS = [
-    "tokyo", "appartement", "apartment", "share house", "meuble", "furnished",
-    "garant", "guarantor", "louer", "rent", "expatrie", "expat", "foreigner",
-    "etranger", "logement", "housing", "visa", "quartier", "neighborhood",
-    "francais", "french", "move", "demenager", "checklist", "guide",
+    "appartement", "apartment", "share house", "sharehouse", "meuble", "furnished",
+    "garant", "guarantor", "louer", "rent", "lease", "logement", "housing",
+    "quartier", "neighborhood", "relocation", "move to", "demenag", "mansion",
+    "apato", "deposit", "reikin", "shikikin",
 ]
 
 # Slugs/URLs de bruit: images produit, attachments, taxonomies, pages non-editoriales.
@@ -246,8 +246,21 @@ def save_cache(cache: dict) -> None:
 
 
 def is_noise(url: str) -> bool:
-    """True si l'URL est une image produit, un attachment ou une page non-editoriale."""
-    return any(tok in url.lower() for tok in NOISE_TOKENS)
+    """True si l'URL est une image/attachment ou une page non-editoriale."""
+    u = url.lower()
+    if any(tok in u for tok in NOISE_TOKENS):
+        return True
+    # (a) Pages-attachments d'images WordPress (slug = nom de fichier media, sans extension .jpg):
+    slug = u.rstrip("/").split("/")[-1]
+    if re.search(r"\d{7,}", slug):         # ids type facebook: 18121019_10158621...
+        return True
+    if re.search(r"(^|[-_])o$", slug):     # ..._o / ...-o (image "original")
+        return True
+    if re.search(r"\d+x\d+", slug):        # dimensions: 1024x768, 150x150
+        return True
+    if "logo" in slug or "banner" in slug or "header" in slug:
+        return True
+    return False
 
 
 def is_interesting(url: str) -> bool:
@@ -256,6 +269,7 @@ def is_interesting(url: str) -> bool:
     if is_noise(url):
         return False
     path = re.sub(r"^https?://[^/]+", "", url.lower())
+    path = re.sub(r"[-_]", " ", path)  # 'share-house' -> 'share house' (matche les mots-cles multi-mots)
     return any(kw in path for kw in INTERESTING_KEYWORDS)
 
 

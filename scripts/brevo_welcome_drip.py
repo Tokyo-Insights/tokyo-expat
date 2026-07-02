@@ -44,13 +44,13 @@ ENROLL_AFTER = datetime.datetime(2026, 6, 27, 0, 0, tzinfo=datetime.timezone.utc
 # Emails a ne jamais contacter (tests internes)
 EXCLUDE = {"test@example.com", "test-debug@tokyo-insights.com"}
 
-# Template ids cree par brevo_welcome_sequence.py
+# Template ids cree par brevo_welcome_sequence.py (1-6 = seq initiale, 7-12 = rallonge J+9/14/21)
 TEMPLATES = {
-    "fr": {0: 1, 2: 2, 5: 3},
-    "en": {0: 4, 2: 5, 5: 6},
+    "fr": {0: 1, 2: 2, 5: 3, 9: 7, 14: 8, 21: 9},
+    "en": {0: 4, 2: 5, 5: 6, 9: 10, 14: 11, 21: 12},
 }
 # Etapes par jour-seuil. J+0 (step0) RETIRE: gere par /api/subscribe (evite double Welcome 1).
-STEPS = [(2, "step2"), (5, "step5")]
+STEPS = [(2, "step2"), (5, "step5"), (9, "step9"), (14, "step14"), (21, "step21")]
 
 API_KEY = None
 for line in ENV.read_text(encoding="utf-8").splitlines():
