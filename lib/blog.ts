@@ -11415,6 +11415,100 @@ This report is a snapshot. The complete, ward-by-ward, layout-by-layout breakdow
 *Data: 528,660 active listings, Tokyo 23 wards, Q2 2026. Median monthly rent in JPY. See the [full index](/data).*
     `.trim(),
   },
+  {
+    slug: 'why-japanese-landlords-reject-foreigners',
+    locale: 'en',
+    title: 'Why Japanese Landlords Reject Foreign Tenants (Insider View)',
+    description: 'A Tokyo rental insider explains the real reasons Japanese landlords reject foreign tenants, and the concrete steps that get your application approved.',
+    date: '2026-07-02',
+    readingTime: '6 min',
+    content: `
+If you are a foreigner hunting for an apartment in Tokyo, you will probably hear "no" before you hear "yes", and often you will not be told why. I work inside this market, dealing with landlords, guarantor companies and tenant screening, and the reasons behind those rejections are rarely what newcomers assume. Here is the honest picture from the inside, and what actually turns a "no" into a "yes".
+
+**Quick answer:** Japanese landlords reject foreign tenants mostly out of perceived risk, not prejudice: no guarantor, communication worries, income that looks unstable, or unfamiliar paperwork. The fixes are concrete: use a guarantor company, present clean proof of income, target foreigner-friendly listings, and have your application presented properly in Japanese. Do that and most rejections disappear.
+
+## It is about risk, not dislike
+
+Most rejections are not personal. A landlord renting to a tenant they cannot easily communicate with, who has no local track record and no Japanese guarantor, sees risk. Their worst case is unpaid rent and a complicated eviction. Almost every "no" flows from that single fear.
+
+## The number one reason I actually see
+
+The single most common reason is not your income or your visa: it is the combination of no guarantor and communication risk. A landlord who cannot picture how they would resolve a problem with a foreign tenant, and who has no guarantor backing the rent, will default to "no". Fix those two and most of the resistance disappears.
+
+Beyond that, a few factors come up again and again:
+- **No guarantor.** Most landlords require one, and a newly arrived foreigner rarely has a Japanese person to fill the role.
+- **Income that looks unstable.** Freelancers, new hires and students raise more questions than a salaried employee with payslips.
+- **Communication risk.** If the agency fears they cannot resolve an issue with the tenant, they hesitate.
+- **A visa or contract that looks short or uncertain.**
+
+If your application keeps getting turned down, our guide on [what to do when your rental application is rejected](/en/blog/rental-application-rejected-japan-foreigner) walks through each fix.
+
+## What surprises most foreigners
+
+It is often not the landlord alone deciding. The management company and the guarantor company screen you too, and any one of them can decline, usually without giving a reason. And some buildings simply have a blanket no-foreigner policy that has nothing to do with how strong your application is. A "no" is often about which door you knocked on, not about you. This is why working from the right listings matters as much as your profile, something we cover in our [guide to finding an apartment in Tokyo as a foreigner](/en/blog/find-apartment-tokyo-foreigner).
+
+## The pattern that gets people approved
+
+Here is something I see constantly: the same applicant, same income, same job, gets rejected on one property and approved on another within the same week. The tenant did not change. What changed was whether a guarantor company was attached, whether the paperwork was complete, and whether the application was presented properly in Japanese to a landlord open to foreign tenants in the first place. The profile did not improve; the framing did.
+
+If you want to skip the guarantor problem entirely at first, [furnished apartments without a Japanese guarantor](/en/blog/furnished-apartment-tokyo-no-guarantor) and share houses are the fastest way in.
+
+## How to get approved
+
+- **Use a guarantor company.** This removes the single biggest objection. It is normal and expected today.
+- **Present income cleanly.** Tax documents, an employment letter, or bank statements reassure far more than words.
+- **Target foreigner-friendly listings.** Do not waste energy on landlords who opt out.
+- **Have your application presented in Japanese.** This is where many quiet "no" answers become "yes".
+
+The Japanese rental market is not hostile, but it is opaque, and the decisions happen on a side of the table most foreigners never see. Knowing how landlords actually think is half the battle. If you would rather have someone who works inside the market handle it and get your application approved, you can [book a free 30-minute call](/en/contact).
+    `.trim(),
+  },
+  {
+    slug: 'pourquoi-proprietaires-japonais-refusent-etrangers',
+    locale: 'fr',
+    title: 'Pourquoi les propriétaires japonais refusent les étrangers',
+    description: 'Un professionnel du marché locatif de Tokyo explique les vraies raisons des refus, et les étapes concrètes pour faire accepter votre dossier.',
+    date: '2026-07-02',
+    readingTime: '6 min',
+    content: `
+Si vous cherchez un appartement à Tokyo en tant qu'étranger, vous entendrez probablement "non" avant "oui", et souvent sans qu'on vous dise pourquoi. Je travaille au coeur de ce marché, avec les propriétaires, les sociétés de garantie et la sélection des locataires, et les raisons de ces refus sont rarement celles que les nouveaux arrivants imaginent. Voici le tableau honnête, vu de l'intérieur, et ce qui transforme vraiment un "non" en "oui".
+
+**Réponse rapide :** Les propriétaires japonais refusent les étrangers surtout par risque perçu, pas par préjugé : absence de garant, crainte de communication, revenus jugés instables, documents inconnus. Les solutions sont concrètes : passer par une société de garantie, présenter des preuves de revenus propres, cibler les biens ouverts aux étrangers, et faire présenter votre dossier correctement en japonais. Faites cela et la plupart des refus disparaissent.
+
+## C'est une question de risque, pas d'antipathie
+
+La plupart des refus ne sont pas personnels. Un propriétaire qui loue à un locataire avec qui il ne peut pas communiquer facilement, sans historique local et sans garant japonais, voit un risque. Son pire scénario : loyer impayé et expulsion compliquée. Presque chaque "non" découle de cette seule peur.
+
+## La raison numéro un que je constate vraiment
+
+La raison la plus fréquente n'est ni vos revenus ni votre visa : c'est la combinaison de l'absence de garant et du risque de communication. Un propriétaire qui n'imagine pas comment il résoudrait un problème avec un locataire étranger, et qui n'a pas de garant pour couvrir le loyer, choisira "non" par défaut. Réglez ces deux points et l'essentiel de la résistance tombe.
+
+Au-delà, quelques facteurs reviennent sans cesse :
+- **Pas de garant.** La plupart des propriétaires en exigent un, et un étranger fraîchement arrivé a rarement un Japonais pour ce rôle.
+- **Des revenus jugés instables.** Freelances, nouveaux embauchés et étudiants soulèvent plus de questions qu'un salarié avec fiches de paie.
+- **Le risque de communication.** Si l'agence craint de ne pas pouvoir régler un souci avec le locataire, elle hésite.
+- **Un visa ou un contrat jugé court ou incertain.**
+
+Si votre dossier est refusé en boucle, notre guide sur [que faire quand votre dossier de location est refusé](/fr/blog/dossier-location-refuse-tokyo-etranger) détaille chaque solution.
+
+## Ce qui surprend le plus les étrangers
+
+Souvent, ce n'est pas le propriétaire seul qui décide. La société de gestion et la société de garantie vous évaluent aussi, et n'importe laquelle peut refuser, généralement sans donner de raison. Et certains immeubles ont simplement une politique "pas d'étrangers" qui n'a rien à voir avec la solidité de votre dossier. Un "non" tient souvent à la porte à laquelle vous avez frappé, pas à vous.
+
+## Le schéma qui fait accepter les dossiers
+
+Voici ce que je vois constamment : le même candidat, mêmes revenus, même emploi, est refusé sur un bien et accepté sur un autre dans la même semaine. Le locataire n'a pas changé. Ce qui a changé : la présence d'une société de garantie, un dossier complet, et une candidature présentée correctement en japonais à un propriétaire ouvert aux étrangers au départ. Le profil ne s'est pas amélioré ; la présentation, oui. Pour la méthode complète, voyez notre guide pour [trouver un appartement à Tokyo quand on est étranger](/fr/blog/trouver-appartement-tokyo-etranger).
+
+## Comment faire accepter votre dossier
+
+- **Passez par une société de garantie.** Cela lève l'objection la plus grande. C'est normal et attendu aujourd'hui.
+- **Présentez vos revenus proprement.** Avis d'imposition, lettre d'employeur ou relevés bancaires rassurent bien plus que des mots.
+- **Ciblez les biens ouverts aux étrangers.** Ne perdez pas d'énergie sur les propriétaires qui refusent par principe.
+- **Faites présenter votre dossier en japonais.** C'est souvent là que des "non" silencieux deviennent des "oui".
+
+Le marché locatif japonais n'est pas hostile, mais il est opaque, et les décisions se prennent d'un côté de la table que la plupart des étrangers ne voient jamais. Savoir comment les propriétaires raisonnent, c'est déjà la moitié du chemin. Si vous préférez confier cela à quelqu'un qui travaille dans le marché, découvrez [comment fonctionne le service de chasseur immobilier](/fr/blog/service-chasseur-immobilier-tokyo-comment-ca-marche) ou [réservez un appel gratuit de 30 minutes](/fr/contact).
+    `.trim(),
+  },
 
 ]
 

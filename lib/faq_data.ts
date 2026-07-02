@@ -7,6 +7,52 @@ export interface FaqItem {
 // Used by blog/[slug]/page.tsx to inject FAQPage JSON-LD + render visual accordion
 export const faqData: Record<string, FaqItem[]> = {
 
+  'why-japanese-landlords-reject-foreigners': [
+    {
+      question: 'Why do Japanese landlords reject foreign tenants?',
+      answer:
+        'Mostly out of perceived risk, not prejudice: no Japanese guarantor, worries about communication, income that looks unstable, or unfamiliar paperwork. A landlord who cannot picture resolving a problem with the tenant defaults to no.',
+    },
+    {
+      question: 'Is it legal for landlords in Japan to refuse foreigners?',
+      answer:
+        'Yes. Japan has no blanket law forcing landlords to accept foreign tenants, so some simply opt out. This is why targeting foreigner-friendly listings matters more than trying to change a landlord who has already decided.',
+    },
+    {
+      question: 'How can a foreigner get a rental application approved in Tokyo?',
+      answer:
+        'Use a guarantor company, present clean proof of income (tax documents, employment letter or bank statements), target foreigner-friendly listings, and have the application presented properly in Japanese. These four steps clear most objections.',
+    },
+    {
+      question: 'Do you need a guarantor to rent an apartment in Tokyo?',
+      answer:
+        'Almost always. Most landlords require one, and since a newcomer rarely has a Japanese guarantor, a guarantor company stands in for a fee. Using one is completely normal and expected today.',
+    },
+  ],
+
+  'pourquoi-proprietaires-japonais-refusent-etrangers': [
+    {
+      question: 'Pourquoi les propriétaires japonais refusent-ils les étrangers ?',
+      answer:
+        'Surtout par risque perçu, pas par préjugé : absence de garant japonais, crainte de communication, revenus jugés instables ou documents inconnus. Un propriétaire qui n\'imagine pas résoudre un problème avec le locataire choisit non par défaut.',
+    },
+    {
+      question: 'Est-il légal pour un propriétaire japonais de refuser un étranger ?',
+      answer:
+        'Oui. Le Japon n\'a pas de loi obligeant les propriétaires à accepter les étrangers, donc certains refusent par principe. D\'où l\'importance de cibler les biens ouverts aux étrangers plutôt que d\'insister auprès d\'un propriétaire déjà décidé.',
+    },
+    {
+      question: 'Comment un étranger peut-il faire accepter son dossier de location à Tokyo ?',
+      answer:
+        'Passer par une société de garantie, présenter des preuves de revenus propres (avis d\'imposition, lettre d\'employeur ou relevés bancaires), cibler les biens ouverts aux étrangers, et faire présenter le dossier en japonais. Ces quatre étapes lèvent la plupart des objections.',
+    },
+    {
+      question: 'Faut-il un garant pour louer un appartement à Tokyo ?',
+      answer:
+        'Presque toujours. La plupart des propriétaires en exigent un, et comme un nouvel arrivant a rarement un garant japonais, une société de garantie joue ce rôle contre des frais. C\'est tout à fait normal aujourd\'hui.',
+    },
+  ],
+
   'gaijin-house-tokyo-guide': [
     {
       question: 'What is a gaijin house in Tokyo?',
