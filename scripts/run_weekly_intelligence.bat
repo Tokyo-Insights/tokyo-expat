@@ -123,9 +123,10 @@ python scripts\competitor_jobs_monitor.py >> "%LOG_FILE%" 2>&1
 echo [%TIME%] [24/30] Review monitor... >> "%LOG_FILE%"
 python scripts\review_monitor.py >> "%LOG_FILE%" 2>&1
 
-:: 25. AI Visibility Monitor (Perplexity -- cite dans les reponses IA ?)
-echo [%TIME%] [25/29] AI Visibility monitor... >> "%LOG_FILE%"
-python scripts\ai_visibility_monitor.py >> "%LOG_FILE%" 2>&1
+:: 25. AI Visibility Monitor (Perplexity) -- DESACTIVE 2026-07-02: API payante, Alessandro ne paie pas.
+::      Mesure GEO = check MANUEL gratuit a la place (voir memoire). Ne pas reactiver sans option gratuite.
+:: echo [%TIME%] [25/29] AI Visibility monitor... >> "%LOG_FILE%"
+:: python scripts\ai_visibility_monitor.py >> "%LOG_FILE%" 2>&1
 
 :: 25a. IndexNow -- soumet le sitemap a Bing pour indexation instantanee (visibilite IA + SEO)
 echo [%TIME%] [25a] IndexNow submit... >> "%LOG_FILE%"
