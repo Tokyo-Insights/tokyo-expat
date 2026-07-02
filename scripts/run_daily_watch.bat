@@ -19,6 +19,10 @@ if not exist "%SCRIPT_DIR%data\" mkdir "%SCRIPT_DIR%data\"
 echo [%LOG_DATE% %TIME%] Starting daily watch... >> "%LOG_FILE%"
 cd /d "%PROJECT_DIR%"
 
+:: 0. Nettoyage matinal Gmail (bruit non-ambigu -> corbeille, rapport Telegram). Conservateur.
+echo [%TIME%] [0] Gmail morning cleaner... >> "%LOG_FILE%"
+python scripts\gmail_morning_cleaner.py >> "%LOG_FILE%" 2>&1
+
 :: 1. Nouveaux contenus concurrents (sitemaps)
 echo [%TIME%] [1/4] Competitor watch... >> "%LOG_FILE%"
 python scripts\competitor_watch.py >> "%LOG_FILE%" 2>&1
