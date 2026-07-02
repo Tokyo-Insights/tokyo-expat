@@ -143,6 +143,24 @@ const lineData = (rentIndex.lines as unknown as LineRent[])
     r2ldk: l.rents['2LDK']?.median,
   }))
 
+type StationRent = {
+  station_en: string
+  sample: number
+  rents: Record<string, { median: number; count: number }>
+}
+
+// Stations majeures (50), triees par loyer 1K croissant (moins cher -> plus cher).
+const stationData = (rentIndex.stations as unknown as StationRent[])
+  .filter((s) => s.rents['1K'])
+  .sort((a, b) => (a.rents['1K']?.median ?? 0) - (b.rents['1K']?.median ?? 0))
+  .map((s) => ({
+    station: s.station_en,
+    r1k: s.rents['1K']?.median,
+    r1ldk: s.rents['1LDK']?.median,
+    r2ldk: s.rents['2LDK']?.median,
+    tier: tierFor1K(s.rents['1K']?.median),
+  }))
+
 const tierColors: Record<string, string> = {
   premium: 'bg-red-50 text-red-700 border-red-200',
   'mid-high': 'bg-orange-50 text-orange-700 border-orange-200',
@@ -192,6 +210,7 @@ export default async function DataPage({
       { '@type': 'PropertyValue', name: 'Ward' },
       { '@type': 'PropertyValue', name: 'Apartment layout (1R-3LDK)' },
       { '@type': 'PropertyValue', name: 'Train line (27 major Tokyo lines)' },
+      { '@type': 'PropertyValue', name: 'Station (50 major Tokyo stations)' },
     ],
     isPartOf: { '@type': 'WebSite', name: 'Tokyo Expat', url: 'https://www.tokyo-expat.com' },
   }
@@ -200,12 +219,14 @@ export default async function DataPage({
     { q: 'What is the average rent in Tokyo in 2026?', a: 'Median rent for a 1K studio ranges from ¥74,000 (Edogawa) to ¥140,000 (Minato). A 1LDK for a couple ranges from ¥118,000 to ¥260,000. These medians come from 528,660 active listings across Tokyo\'s 23 wards.' },
     { q: 'What is the cheapest ward in Tokyo to rent?', a: 'For a 1K studio, the cheapest wards are Edogawa (¥74,000 median), Adachi (¥76,000), Katsushika (¥81,000), Nerima (¥82,000) and Suginami (¥84,000), all eastern or outer wards.' },
     { q: 'What is the most expensive ward in Tokyo?', a: 'Minato is the most expensive (¥140,000 median for a 1K, ¥260,000 for a 1LDK), followed by Chiyoda, Chuo, Shibuya and Shinjuku.' },
+    { q: 'Which Tokyo stations have the cheapest and most expensive rent?', a: 'Across 50 major Tokyo stations, a 1K studio is cheapest near Kasai (¥76,000 median), Shin-Koiwa (¥78,000) and Ayase (¥85,000), and most expensive near Jimbocho (¥150,000), Ebisu (¥149,000) and Azabu-Juban (¥148,000). That is nearly double from one station to another.' },
     { q: 'Why does this index use median rent instead of the average?', a: 'The median resists outliers: a few luxury listings do not distort it, unlike the average. It better reflects what a normal tenant actually pays.' },
     { q: 'How often is the Tokyo Rent Index updated?', a: 'Quarterly, from fresh active listings. This edition reflects Q2 2026 data.' },
   ] : [
     { q: 'Quel est le loyer moyen à Tokyo en 2026 ?', a: 'Le loyer médian d\'un studio 1K va de 74 000 JPY (Edogawa) à 140 000 JPY (Minato). Un 1LDK pour un couple va de 118 000 à 260 000 JPY. Ces médianes proviennent de 528 660 annonces actives dans les 23 arrondissements de Tokyo.' },
     { q: 'Quel est l\'arrondissement le moins cher de Tokyo ?', a: 'Pour un studio 1K, les moins chers sont Edogawa (74 000 JPY médian), Adachi (76 000 JPY), Katsushika (81 000 JPY), Nerima (82 000 JPY) et Suginami (84 000 JPY), tous à l\'est ou en périphérie.' },
     { q: 'Quel est l\'arrondissement le plus cher de Tokyo ?', a: 'Minato est le plus cher (140 000 JPY médian pour un 1K, 260 000 JPY pour un 1LDK), suivi de Chiyoda, Chuo, Shibuya et Shinjuku.' },
+    { q: 'Quelles stations de Tokyo ont les loyers les moins chers et les plus chers ?', a: 'Sur 50 stations majeures de Tokyo, un studio 1K est le moins cher près de Kasai (76 000 JPY médian), Shin-Koiwa (78 000 JPY) et Ayase (85 000 JPY), et le plus cher près de Jimbocho (150 000 JPY), Ebisu (149 000 JPY) et Azabu-Juban (148 000 JPY). Soit près du double d\'une station à l\'autre.' },
     { q: 'Pourquoi cet indice utilise-t-il le loyer médian plutôt que la moyenne ?', a: 'La médiane résiste aux valeurs extrêmes : quelques biens de luxe ne la faussent pas, contrairement à la moyenne. Elle reflète mieux ce qu\'un locataire normal paie.' },
     { q: 'À quelle fréquence l\'indice est-il mis à jour ?', a: 'Chaque trimestre, à partir d\'annonces actives fraîches. Cette édition reflète les données du T2 2026.' },
   ]
@@ -325,6 +346,40 @@ export default async function DataPage({
               {lineData.map((row, i) => (
                 <tr key={row.line} className={i % 2 === 0 ? 'bg-white' : 'bg-gray-50'}>
                   <td className="px-4 py-3 border-t border-gray-100 font-medium text-[#0f2744]">{row.line}</td>
+                  <td className="px-4 py-3 border-t border-gray-100 text-gray-700 font-mono text-xs text-right">{fmtYen(row.r1k)}</td>
+                  <td className="px-4 py-3 border-t border-gray-100 text-gray-700 font-mono text-xs text-right">{fmtYen(row.r1ldk)}</td>
+                  <td className="px-4 py-3 border-t border-gray-100 text-gray-700 font-mono text-xs text-right hidden sm:table-cell">{fmtYen(row.r2ldk)}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      {/* Rent by station */}
+      <section className="mb-14">
+        <h2 className="text-2xl font-bold text-[#0f2744] mb-2">
+          {l === 'en' ? 'Median Rent by Tokyo Station (JPY/month)' : 'Loyer médian par station de Tokyo (JPY/mois)'}
+        </h2>
+        <p className="text-xs text-gray-400 mb-6">
+          {l === 'en'
+            ? '50 major Tokyo stations, sorted from most affordable to most expensive (1K), from real listings near each station.'
+            : '50 stations majeures de Tokyo, triées de la plus accessible à la plus chère (1K), à partir des annonces réelles près de chaque station.'}
+        </p>
+        <div className="overflow-x-auto rounded-xl border border-gray-200">
+          <table className="w-full text-sm border-collapse">
+            <thead>
+              <tr className="bg-[#0f2744] text-white">
+                <th className="px-4 py-3 text-left font-semibold">{l === 'en' ? 'Station' : 'Station'}</th>
+                <th className="px-4 py-3 text-right font-semibold">1K</th>
+                <th className="px-4 py-3 text-right font-semibold">1LDK</th>
+                <th className="px-4 py-3 text-right font-semibold hidden sm:table-cell">2LDK</th>
+              </tr>
+            </thead>
+            <tbody>
+              {stationData.map((row, i) => (
+                <tr key={row.station} className={i % 2 === 0 ? 'bg-white' : 'bg-gray-50'}>
+                  <td className="px-4 py-3 border-t border-gray-100 font-medium text-[#0f2744]">{row.station}</td>
                   <td className="px-4 py-3 border-t border-gray-100 text-gray-700 font-mono text-xs text-right">{fmtYen(row.r1k)}</td>
                   <td className="px-4 py-3 border-t border-gray-100 text-gray-700 font-mono text-xs text-right">{fmtYen(row.r1ldk)}</td>
                   <td className="px-4 py-3 border-t border-gray-100 text-gray-700 font-mono text-xs text-right hidden sm:table-cell">{fmtYen(row.r2ldk)}</td>

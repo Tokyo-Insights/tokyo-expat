@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-30",
+  "generated": "2026-07-02",
   "source": "LIFULL + AtHome active listings, Tokyo 23 wards",
   "total_listings": 528660,
   "layouts": [
@@ -1303,6 +1303,908 @@
         "2LDK": {
           "median": 250000,
           "count": 2146
+        }
+      }
+    }
+  ],
+  "stations": [
+    {
+      "station_en": "Kasai",
+      "sample": 3787,
+      "rents": {
+        "1K": {
+          "median": 76000,
+          "count": 1224
+        },
+        "1LDK": {
+          "median": 128000,
+          "count": 563
+        },
+        "2LDK": {
+          "median": 170000,
+          "count": 1026
+        }
+      }
+    },
+    {
+      "station_en": "Shin-Koiwa",
+      "sample": 3918,
+      "rents": {
+        "1K": {
+          "median": 78000,
+          "count": 1307
+        },
+        "1LDK": {
+          "median": 123000,
+          "count": 778
+        },
+        "2LDK": {
+          "median": 170000,
+          "count": 764
+        }
+      }
+    },
+    {
+      "station_en": "Ayase",
+      "sample": 2925,
+      "rents": {
+        "1K": {
+          "median": 85000,
+          "count": 1155
+        },
+        "1LDK": {
+          "median": 149000,
+          "count": 553
+        },
+        "2LDK": {
+          "median": 185000,
+          "count": 474
+        }
+      }
+    },
+    {
+      "station_en": "Ogikubo",
+      "sample": 2284,
+      "rents": {
+        "1K": {
+          "median": 85000,
+          "count": 902
+        },
+        "1LDK": {
+          "median": 158000,
+          "count": 452
+        },
+        "2LDK": {
+          "median": 200000,
+          "count": 359
+        }
+      }
+    },
+    {
+      "station_en": "Nerima",
+      "sample": 3384,
+      "rents": {
+        "1K": {
+          "median": 86000,
+          "count": 1569
+        },
+        "1LDK": {
+          "median": 142000,
+          "count": 665
+        },
+        "2LDK": {
+          "median": 196000,
+          "count": 471
+        }
+      }
+    },
+    {
+      "station_en": "Kita-Senju",
+      "sample": 2666,
+      "rents": {
+        "1K": {
+          "median": 86000,
+          "count": 965
+        },
+        "1LDK": {
+          "median": 147000,
+          "count": 727
+        },
+        "2LDK": {
+          "median": 206000,
+          "count": 421
+        }
+      }
+    },
+    {
+      "station_en": "Akabane",
+      "sample": 2156,
+      "rents": {
+        "1K": {
+          "median": 86000,
+          "count": 1091
+        },
+        "1LDK": {
+          "median": 149000,
+          "count": 370
+        },
+        "2LDK": {
+          "median": 209000,
+          "count": 205
+        }
+      }
+    },
+    {
+      "station_en": "Setagaya",
+      "sample": 3491,
+      "rents": {
+        "1K": {
+          "median": 88000,
+          "count": 1501
+        },
+        "1LDK": {
+          "median": 172000,
+          "count": 736
+        },
+        "2LDK": {
+          "median": 230000,
+          "count": 437
+        }
+      }
+    },
+    {
+      "station_en": "Kameari",
+      "sample": 3040,
+      "rents": {
+        "1K": {
+          "median": 89000,
+          "count": 1565
+        },
+        "1LDK": {
+          "median": 125000,
+          "count": 428
+        },
+        "2LDK": {
+          "median": 185000,
+          "count": 413
+        }
+      }
+    },
+    {
+      "station_en": "Nakano",
+      "sample": 7127,
+      "rents": {
+        "1K": {
+          "median": 90000,
+          "count": 2553
+        },
+        "1LDK": {
+          "median": 184500,
+          "count": 1912
+        },
+        "2LDK": {
+          "median": 250000,
+          "count": 990
+        }
+      }
+    },
+    {
+      "station_en": "Oji",
+      "sample": 3053,
+      "rents": {
+        "1K": {
+          "median": 91000,
+          "count": 1036
+        },
+        "1LDK": {
+          "median": 147000,
+          "count": 609
+        },
+        "2LDK": {
+          "median": 210000,
+          "count": 632
+        }
+      }
+    },
+    {
+      "station_en": "Tabata",
+      "sample": 2507,
+      "rents": {
+        "1K": {
+          "median": 95000,
+          "count": 977
+        },
+        "1LDK": {
+          "median": 150000,
+          "count": 514
+        },
+        "2LDK": {
+          "median": 221000,
+          "count": 423
+        }
+      }
+    },
+    {
+      "station_en": "Komagome",
+      "sample": 3048,
+      "rents": {
+        "1K": {
+          "median": 98000,
+          "count": 761
+        },
+        "1LDK": {
+          "median": 174000,
+          "count": 772
+        },
+        "2LDK": {
+          "median": 235000,
+          "count": 552
+        }
+      }
+    },
+    {
+      "station_en": "Minami-Senju",
+      "sample": 2888,
+      "rents": {
+        "1K": {
+          "median": 99000,
+          "count": 812
+        },
+        "1LDK": {
+          "median": 152000,
+          "count": 803
+        },
+        "2LDK": {
+          "median": 203000,
+          "count": 734
+        }
+      }
+    },
+    {
+      "station_en": "Minowa",
+      "sample": 4367,
+      "rents": {
+        "1K": {
+          "median": 100000,
+          "count": 1270
+        },
+        "1LDK": {
+          "median": 162000,
+          "count": 1546
+        },
+        "2LDK": {
+          "median": 208000,
+          "count": 866
+        }
+      }
+    },
+    {
+      "station_en": "Kamata",
+      "sample": 3047,
+      "rents": {
+        "1K": {
+          "median": 100000,
+          "count": 989
+        },
+        "1LDK": {
+          "median": 175000,
+          "count": 776
+        },
+        "2LDK": {
+          "median": 225000,
+          "count": 352
+        }
+      }
+    },
+    {
+      "station_en": "Sasazuka",
+      "sample": 2642,
+      "rents": {
+        "1K": {
+          "median": 100000,
+          "count": 1032
+        },
+        "1LDK": {
+          "median": 182000,
+          "count": 927
+        },
+        "2LDK": {
+          "median": 250000,
+          "count": 229
+        }
+      }
+    },
+    {
+      "station_en": "Sangenjaya",
+      "sample": 2559,
+      "rents": {
+        "1K": {
+          "median": 104000,
+          "count": 967
+        },
+        "1LDK": {
+          "median": 188000,
+          "count": 679
+        },
+        "2LDK": {
+          "median": 240000,
+          "count": 443
+        }
+      }
+    },
+    {
+      "station_en": "Kameido",
+      "sample": 4801,
+      "rents": {
+        "1K": {
+          "median": 105000,
+          "count": 2094
+        },
+        "1LDK": {
+          "median": 163000,
+          "count": 1266
+        },
+        "2LDK": {
+          "median": 211000,
+          "count": 418
+        }
+      }
+    },
+    {
+      "station_en": "Sumiyoshi",
+      "sample": 3878,
+      "rents": {
+        "1K": {
+          "median": 105000,
+          "count": 902
+        },
+        "1LDK": {
+          "median": 178000,
+          "count": 984
+        },
+        "2LDK": {
+          "median": 265000,
+          "count": 481
+        }
+      }
+    },
+    {
+      "station_en": "Oshiage",
+      "sample": 3834,
+      "rents": {
+        "1K": {
+          "median": 105000,
+          "count": 1296
+        },
+        "1LDK": {
+          "median": 178000,
+          "count": 1102
+        },
+        "2LDK": {
+          "median": 253000,
+          "count": 602
+        }
+      }
+    },
+    {
+      "station_en": "Omori",
+      "sample": 3924,
+      "rents": {
+        "1K": {
+          "median": 107000,
+          "count": 1484
+        },
+        "1LDK": {
+          "median": 167000,
+          "count": 1048
+        },
+        "2LDK": {
+          "median": 230000,
+          "count": 529
+        }
+      }
+    },
+    {
+      "station_en": "Gakugei-Daigaku",
+      "sample": 2784,
+      "rents": {
+        "1K": {
+          "median": 108000,
+          "count": 828
+        },
+        "1LDK": {
+          "median": 191000,
+          "count": 689
+        },
+        "2LDK": {
+          "median": 284000,
+          "count": 602
+        }
+      }
+    },
+    {
+      "station_en": "Otsuka",
+      "sample": 2793,
+      "rents": {
+        "1K": {
+          "median": 109000,
+          "count": 1017
+        },
+        "1LDK": {
+          "median": 178000,
+          "count": 699
+        },
+        "2LDK": {
+          "median": 270000,
+          "count": 289
+        }
+      }
+    },
+    {
+      "station_en": "Kinshicho",
+      "sample": 6192,
+      "rents": {
+        "1K": {
+          "median": 110000,
+          "count": 1328
+        },
+        "1LDK": {
+          "median": 193000,
+          "count": 1821
+        },
+        "2LDK": {
+          "median": 233000,
+          "count": 1041
+        }
+      }
+    },
+    {
+      "station_en": "Ikebukuro",
+      "sample": 3659,
+      "rents": {
+        "1K": {
+          "median": 110000,
+          "count": 1409
+        },
+        "1LDK": {
+          "median": 185000,
+          "count": 1065
+        },
+        "2LDK": {
+          "median": 280000,
+          "count": 628
+        }
+      }
+    },
+    {
+      "station_en": "Waseda",
+      "sample": 3085,
+      "rents": {
+        "1K": {
+          "median": 110000,
+          "count": 1132
+        },
+        "1LDK": {
+          "median": 185000,
+          "count": 936
+        },
+        "2LDK": {
+          "median": 250000,
+          "count": 309
+        }
+      }
+    },
+    {
+      "station_en": "Asakusa",
+      "sample": 5751,
+      "rents": {
+        "1K": {
+          "median": 111000,
+          "count": 1560
+        },
+        "1LDK": {
+          "median": 172000,
+          "count": 2103
+        },
+        "2LDK": {
+          "median": 251000,
+          "count": 923
+        }
+      }
+    },
+    {
+      "station_en": "Kikukawa",
+      "sample": 3121,
+      "rents": {
+        "1K": {
+          "median": 112000,
+          "count": 1120
+        },
+        "1LDK": {
+          "median": 185000,
+          "count": 932
+        },
+        "2LDK": {
+          "median": 254000,
+          "count": 356
+        }
+      }
+    },
+    {
+      "station_en": "Iriya",
+      "sample": 4829,
+      "rents": {
+        "1K": {
+          "median": 113000,
+          "count": 1323
+        },
+        "1LDK": {
+          "median": 176000,
+          "count": 1699
+        },
+        "2LDK": {
+          "median": 241000,
+          "count": 813
+        }
+      }
+    },
+    {
+      "station_en": "Ryogoku",
+      "sample": 5194,
+      "rents": {
+        "1K": {
+          "median": 116000,
+          "count": 1723
+        },
+        "1LDK": {
+          "median": 184000,
+          "count": 1493
+        },
+        "2LDK": {
+          "median": 250000,
+          "count": 785
+        }
+      }
+    },
+    {
+      "station_en": "Shinagawa",
+      "sample": 3448,
+      "rents": {
+        "1K": {
+          "median": 116000,
+          "count": 1241
+        },
+        "1LDK": {
+          "median": 226000,
+          "count": 885
+        },
+        "2LDK": {
+          "median": 350000,
+          "count": 745
+        }
+      }
+    },
+    {
+      "station_en": "Kiba",
+      "sample": 4558,
+      "rents": {
+        "1K": {
+          "median": 119000,
+          "count": 1356
+        },
+        "1LDK": {
+          "median": 192000,
+          "count": 828
+        },
+        "2LDK": {
+          "median": 241000,
+          "count": 635
+        }
+      }
+    },
+    {
+      "station_en": "Morishita",
+      "sample": 3486,
+      "rents": {
+        "1K": {
+          "median": 121000,
+          "count": 1493
+        },
+        "1LDK": {
+          "median": 181000,
+          "count": 831
+        },
+        "2LDK": {
+          "median": 230000,
+          "count": 203
+        }
+      }
+    },
+    {
+      "station_en": "Monzen-Nakacho",
+      "sample": 3736,
+      "rents": {
+        "1K": {
+          "median": 122000,
+          "count": 1684
+        },
+        "1LDK": {
+          "median": 181000,
+          "count": 643
+        },
+        "2LDK": {
+          "median": 250000,
+          "count": 403
+        }
+      }
+    },
+    {
+      "station_en": "Kiyosumi-Shirakawa",
+      "sample": 2194,
+      "rents": {
+        "1K": {
+          "median": 122000,
+          "count": 1167
+        },
+        "1LDK": {
+          "median": 180000,
+          "count": 407
+        },
+        "2LDK": {
+          "median": 240000,
+          "count": 158
+        }
+      }
+    },
+    {
+      "station_en": "Kuramae",
+      "sample": 3184,
+      "rents": {
+        "1K": {
+          "median": 123000,
+          "count": 840
+        },
+        "1LDK": {
+          "median": 193000,
+          "count": 1058
+        },
+        "2LDK": {
+          "median": 259000,
+          "count": 567
+        }
+      }
+    },
+    {
+      "station_en": "Shirokane-Takanawa",
+      "sample": 2559,
+      "rents": {
+        "1K": {
+          "median": 125000,
+          "count": 811
+        },
+        "1LDK": {
+          "median": 238000,
+          "count": 895
+        },
+        "2LDK": {
+          "median": 366500,
+          "count": 486
+        }
+      }
+    },
+    {
+      "station_en": "Kachidoki",
+      "sample": 2357,
+      "rents": {
+        "1K": {
+          "median": 125000,
+          "count": 264
+        },
+        "1LDK": {
+          "median": 230000,
+          "count": 734
+        },
+        "2LDK": {
+          "median": 310000,
+          "count": 620
+        }
+      }
+    },
+    {
+      "station_en": "Shinjuku",
+      "sample": 3577,
+      "rents": {
+        "1K": {
+          "median": 126000,
+          "count": 1457
+        },
+        "1LDK": {
+          "median": 209000,
+          "count": 896
+        },
+        "2LDK": {
+          "median": 318000,
+          "count": 514
+        }
+      }
+    },
+    {
+      "station_en": "Asakusabashi",
+      "sample": 3459,
+      "rents": {
+        "1K": {
+          "median": 126000,
+          "count": 1056
+        },
+        "1LDK": {
+          "median": 205000,
+          "count": 1123
+        },
+        "2LDK": {
+          "median": 256000,
+          "count": 519
+        }
+      }
+    },
+    {
+      "station_en": "Meguro",
+      "sample": 4128,
+      "rents": {
+        "1K": {
+          "median": 128000,
+          "count": 1053
+        },
+        "1LDK": {
+          "median": 228000,
+          "count": 1488
+        },
+        "2LDK": {
+          "median": 346000,
+          "count": 900
+        }
+      }
+    },
+    {
+      "station_en": "Toyosu",
+      "sample": 2139,
+      "rents": {
+        "1K": {
+          "median": 134000,
+          "count": 407
+        },
+        "1LDK": {
+          "median": 223000,
+          "count": 558
+        },
+        "2LDK": {
+          "median": 299000,
+          "count": 646
+        }
+      }
+    },
+    {
+      "station_en": "Tsukishima",
+      "sample": 2225,
+      "rents": {
+        "1K": {
+          "median": 135000,
+          "count": 648
+        },
+        "1LDK": {
+          "median": 228000,
+          "count": 860
+        },
+        "2LDK": {
+          "median": 292000,
+          "count": 458
+        }
+      }
+    },
+    {
+      "station_en": "Akihabara",
+      "sample": 2163,
+      "rents": {
+        "1K": {
+          "median": 135000,
+          "count": 952
+        },
+        "1LDK": {
+          "median": 211000,
+          "count": 760
+        },
+        "2LDK": {
+          "median": 280000,
+          "count": 149
+        }
+      }
+    },
+    {
+      "station_en": "Kanda",
+      "sample": 2201,
+      "rents": {
+        "1K": {
+          "median": 137000,
+          "count": 786
+        },
+        "1LDK": {
+          "median": 215000,
+          "count": 861
+        },
+        "2LDK": {
+          "median": 303000,
+          "count": 162
+        }
+      }
+    },
+    {
+      "station_en": "Shibuya",
+      "sample": 3814,
+      "rents": {
+        "1K": {
+          "median": 140000,
+          "count": 996
+        },
+        "1LDK": {
+          "median": 260000,
+          "count": 1448
+        },
+        "2LDK": {
+          "median": 398000,
+          "count": 749
+        }
+      }
+    },
+    {
+      "station_en": "Azabu-Juban",
+      "sample": 2192,
+      "rents": {
+        "1K": {
+          "median": 148000,
+          "count": 743
+        },
+        "1LDK": {
+          "median": 274000,
+          "count": 885
+        },
+        "2LDK": {
+          "median": 583000,
+          "count": 337
+        }
+      }
+    },
+    {
+      "station_en": "Ebisu",
+      "sample": 2500,
+      "rents": {
+        "1K": {
+          "median": 149000,
+          "count": 825
+        },
+        "1LDK": {
+          "median": 253000,
+          "count": 854
+        },
+        "2LDK": {
+          "median": 353000,
+          "count": 479
+        }
+      }
+    },
+    {
+      "station_en": "Jimbocho",
+      "sample": 2274,
+      "rents": {
+        "1K": {
+          "median": 150000,
+          "count": 610
+        },
+        "1LDK": {
+          "median": 245000,
+          "count": 741
+        },
+        "2LDK": {
+          "median": 350000,
+          "count": 201
         }
       }
     }
