@@ -10,9 +10,10 @@
   *{box-sizing:border-box;margin:0;padding:0}
   body{font-family:'Inter',-apple-system,Segoe UI,Roboto,sans-serif;background:#fff;color:var(--ink)}
   .wrap{max-width:1180px;margin:0 auto;padding:0 28px}
-  header{display:flex;align-items:center;justify-content:space-between;padding:18px 28px;max-width:1180px;margin:0 auto;border-bottom:1px solid var(--line)}
-  .logo{font-size:22px;font-weight:800;color:var(--navy)}.logo .r{color:var(--red)}.logo .sub{color:#8494a8;font-weight:500;font-size:13px;margin-left:8px}
-  nav a{color:#41506a;text-decoration:none;margin:0 11px;font-size:14px}
+  .topbar{background:var(--navy)}
+  header{display:flex;align-items:center;justify-content:space-between;padding:18px 28px;max-width:1180px;margin:0 auto}
+  .logo{font-size:22px;font-weight:800;color:#fff}.logo .r{color:var(--red)}.logo .sub{color:#8aa0bd;font-weight:500;font-size:13px;margin-left:8px}
+  nav a{color:#cbd8ea;text-decoration:none;margin:0 11px;font-size:14px}
   nav a.active{color:var(--red);font-weight:600}
   .cta-btn{background:var(--red);color:#fff;border:none;padding:11px 19px;border-radius:8px;font-weight:700;cursor:pointer}
 
@@ -48,11 +49,13 @@
 </style>
 </head>
 <body>
-  <header>
-    <div class="logo">Tokyo<span class="r">Expat</span><span class="sub">— Housing Hunter</span></div>
-    <nav><a>Home</a><a>Services</a><a class="active">Listings</a><a>Rent Index</a><a>Guides</a><a>About</a><a>Contact</a></nav>
-    <button class="cta-btn">Free Consultation</button>
-  </header>
+  <div class="topbar">
+    <header>
+      <div class="logo">Tokyo<span class="r">Expat</span><span class="sub">— Housing Hunter</span></div>
+      <nav><a>Home</a><a>Services</a><a class="active">Listings</a><a>Rent Index</a><a>Guides</a><a>About</a><a>Contact</a></nav>
+      <button class="cta-btn">Free Consultation</button>
+    </header>
+  </div>
 
   <section class="cov">
     <div class="wrap">
