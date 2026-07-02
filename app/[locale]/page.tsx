@@ -233,6 +233,54 @@ export default async function HomePage({
         </div>
       </section>
 
+      {/* Proof bridge -- operator + real data (credibilite entre "why" et "offers") */}
+      <section className="bg-[#0b1c33] text-white py-14 px-4 relative overflow-hidden">
+        <div
+          className="absolute -top-28 -right-24 w-96 h-96 rounded-full pointer-events-none"
+          style={{ background: 'radial-gradient(circle, rgba(232,56,79,0.16), transparent 70%)' }}
+        />
+        <div className="max-w-6xl mx-auto relative">
+          <p className="text-center text-[#e8384f] font-bold tracking-[2px] text-xs uppercase">
+            {locale === 'fr' ? 'La différence' : 'The difference'}
+          </p>
+          <h2 className="text-2xl md:text-3xl font-extrabold text-center max-w-3xl mx-auto mt-3 mb-2 leading-snug">
+            {locale === 'fr' ? (
+              <>Vous ne parlez pas à un call center. Vous parlez à un <span className="text-[#c9a678]">opérateur du marché de Tokyo</span>, données réelles à l&apos;appui.</>
+            ) : (
+              <>You are not dealing with a call center. You deal with an <span className="text-[#c9a678]">operator inside Tokyo&apos;s rental market</span>, backed by real data.</>
+            )}
+          </h2>
+          <p className="text-center text-[#9fb2c9] max-w-xl mx-auto mb-8 leading-relaxed">
+            {locale === 'fr'
+              ? "Je travaille dans le marché locatif tokyoïte au quotidien, et je m'appuie sur des données réelles pour vous orienter, pas sur des brochures."
+              : 'I work inside the Tokyo rental market every day, and I guide you with real data, not brochures.'}
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-4xl mx-auto">
+            <div className="bg-[#12233d] border border-[#1e3352] rounded-2xl p-6 text-center">
+              <div className="text-2xl font-black">528&nbsp;660</div>
+              <div className="text-[#9fb2c9] text-sm mt-1.5">
+                {locale === 'fr' ? 'annonces réelles analysées pour notre Indice des loyers' : 'real listings analysed for our Rent Index'}
+              </div>
+            </div>
+            <div className="bg-[#12233d] border border-[#1e3352] rounded-2xl p-6 text-center">
+              <div className="text-2xl font-black">100<span className="text-[#e8384f]">%</span></div>
+              <div className="text-[#9fb2c9] text-sm mt-1.5">
+                {locale === 'fr' ? 'indépendant : je travaille pour VOUS, pas pour les propriétaires' : 'independent: I work for YOU, not the landlords'}
+              </div>
+            </div>
+            <div className="bg-[#12233d] border border-[#1e3352] rounded-2xl p-6 text-center">
+              <div className="text-2xl font-black">FR · EN · JP</div>
+              <div className="text-[#9fb2c9] text-sm mt-1.5">
+                {locale === 'fr' ? 'tout le processus dans votre langue, jusqu\'à la signature' : 'the whole process in your language, through to signing'}
+              </div>
+            </div>
+          </div>
+          <Link href={`/${locale}/data`} className="block text-center mt-6 text-[#cbd8ea] hover:text-white font-semibold text-sm transition-colors">
+            {locale === 'fr' ? 'Voir notre Indice des loyers de Tokyo →' : 'See our Tokyo Rent Index →'}
+          </Link>
+        </div>
+      </section>
+
       {/* Featured services */}
       <section className="py-20 px-4">
         <div className="max-w-6xl mx-auto">
