@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tokyo Expat — Map hero mockup</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<style>
+  :root{ --navy:#0f2744; --red:#e8384f; --blue:#2563eb; --tan:#c9a678; }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:'Inter',-apple-system,Segoe UI,Roboto,sans-serif;background:#0b1c33;color:#fff}
+  .wrap{max-width:1280px;margin:0 auto}
+  header{display:flex;align-items:center;justify-content:space-between;padding:18px 28px;background:#0b1c33}
+  .logo{font-size:22px;font-weight:800}.logo .r{color:var(--red)}.logo .sub{color:#8aa0bd;font-weight:500;font-size:14px;margin-left:8px}
+  nav a{color:#cbd8ea;text-decoration:none;margin:0 12px;font-size:14px}
+  nav a.active{color:var(--red);font-weight:600}
+  .cta-btn{background:var(--red);color:#fff;border:none;padding:12px 20px;border-radius:8px;font-weight:700;cursor:pointer}
+  .hero{display:grid;grid-template-columns:0.9fr 1.1fr;gap:0;min-height:560px}
+  .hero-left{padding:56px 28px 40px}
+  .hero-left h1{font-size:52px;line-height:1.05;font-weight:800;margin-bottom:20px}
+  .hero-left h1 .r{color:var(--red)}
+  .hero-left p{color:#aebfd4;font-size:17px;max-width:420px;margin-bottom:28px}
+  .view-btn{background:var(--red);color:#fff;border:none;padding:16px 26px;border-radius:10px;font-weight:700;font-size:16px;cursor:pointer;margin-bottom:28px}
+  .legend{background:#12233d;border:1px solid #1e3352;border-radius:12px;padding:14px 18px;max-width:340px}
+  .legend .row{display:flex;align-items:center;justify-content:space-between;padding:7px 0}
+  .legend .lbl{display:flex;align-items:center;gap:10px;color:#dbe6f5;font-size:14px}
+  .dot{width:11px;height:11px;border-radius:50%}
+  .badge{background:#0b1c33;border:1px solid #24405f;border-radius:6px;padding:2px 10px;font-size:13px;color:#cbd8ea}
+  .hero-right{position:relative}
+  #map{position:absolute;inset:0;width:100%;height:100%}
+  .map-card{position:absolute;top:20px;right:20px;z-index:1000;background:#fff;color:var(--navy);border-radius:12px;padding:16px 18px;width:250px;box-shadow:0 8px 30px rgba(0,0,0,.25)}
+  .map-card .row{display:flex;align-items:center;justify-content:space-between;padding:6px 0;font-size:14px}
+  .map-card .lbl{display:flex;align-items:center;gap:9px}
+  .map-card .num{font-weight:700}
+  .map-card .rec{font-size:13px;color:#556;margin:10px 0 8px}
+  .map-card .free{background:var(--red);color:#fff;border:none;width:100%;padding:11px;border-radius:8px;font-weight:700;cursor:pointer}
+  .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:0;background:#0e2036;border-radius:14px;margin:22px 28px;padding:22px}
+  .stat{display:flex;align-items:center;gap:14px;justify-content:center;border-right:1px solid #1b3252}
+  .stat:last-child{border-right:none}
+  .stat .ic{width:46px;height:46px;border-radius:50%;display:flex;align-items:center;justify-content:center;background:#12233d;font-size:20px}
+  .stat .big{font-size:24px;font-weight:800}.stat .cap{color:#8aa0bd;font-size:13px}
+  .stat.red .ic{background:var(--red)}
+  .note{max-width:1280px;margin:8px auto 40px;padding:0 28px;color:#6f83a0;font-size:13px}
+  .leaflet-container{background:#e9edf2}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="logo">Tokyo<span class="r">Expat</span><span class="sub">— Housing Hunter</span></div>
+    <nav>
+      <a>Home</a><a>Services</a><a class="active">Listings</a><a>Rent Index</a><a>Guides</a><a>About</a><a>Contact</a>
+    </nav>
+    <button class="cta-btn">Free Consultation</button>
+  </header>
+
+  <section class="hero">
+    <div class="hero-left">
+      <h1>Access 300+ Properties Across <span class="r">Tokyo</span></h1>
+      <p>Handpicked apartments, houses and share homes in Tokyo's most desirable neighbourhoods.</p>
+      <button class="view-btn">View Available Listings</button>
+      <div class="legend">
+        <div class="row"><span class="lbl"><span class="dot" style="background:var(--navy)"></span>All Properties</span><span class="badge">300+</span></div>
+        <div class="row"><span class="lbl"><span class="dot" style="background:var(--red)"></span>Apartments</span><span class="badge">180+</span></div>
+        <div class="row"><span class="lbl"><span class="dot" style="background:var(--blue)"></span>Houses</span><span class="badge">70+</span></div>
+        <div class="row"><span class="lbl"><span class="dot" style="background:var(--tan)"></span>Share Houses</span><span class="badge">50+</span></div>
+      </div>
+    </div>
+    <div class="hero-right">
+      <div id="map"></div>
+      <div class="map-card">
+        <div class="row"><span class="lbl"><span class="dot" style="background:var(--navy)"></span>All Properties</span><span class="num">300+</span></div>
+        <div class="row"><span class="lbl"><span class="dot" style="background:var(--red)"></span>Apartments</span><span class="num">180+</span></div>
+        <div class="row"><span class="lbl"><span class="dot" style="background:var(--blue)"></span>Houses</span><span class="num">70+</span></div>
+        <div class="row"><span class="lbl"><span class="dot" style="background:var(--tan)"></span>Share Houses</span><span class="num">50+</span></div>
+        <div class="rec">Get personalized recommendations</div>
+        <button class="free">Free Consultation</button>
+      </div>
+    </div>
+  </section>
+
+  <div class="stats">
+    <div class="stat red"><div class="ic">🏠</div><div><div class="big">300+</div><div class="cap">Properties</div></div></div>
+    <div class="stat"><div class="ic">♥</div><div><div class="big">12+</div><div class="cap">Areas</div></div></div>
+    <div class="stat"><div class="ic">🛡</div><div><div class="big">100%</div><div class="cap">Independent</div></div></div>
+    <div class="stat"><div class="ic">👤</div><div><div class="big">Expert</div><div class="cap">Support</div></div></div>
+  </div>
+  <p class="note">SIMULATION — carte gratuite (Leaflet + CARTO), pins ILLUSTRATIFS (couverture, pas de vrais biens cliquables, aucune adresse/source exposee). CTA = consultation. Rien n'est en live.</p>
+</div>
+
+<script>
+  var map = L.map('map',{zoomControl:true,scrollWheelZoom:false,attributionControl:true}).setView([35.686,139.735],11.4);
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',{
+    attribution:'&copy; OpenStreetMap &copy; CARTO', subdomains:'abcd', maxZoom:19
+  }).addTo(map);
+
+  // Pins ILLUSTRATIFS (quartiers reels, categorie couleur). Aucune adresse/bien reel.
+  var C={apt:'#e8384f',house:'#2563eb',share:'#c9a678'};
+  function pin(color){return L.divIcon({className:'',iconSize:[18,26],iconAnchor:[9,26],
+    html:'<svg width="18" height="26" viewBox="0 0 18 26"><path d="M9 0C4 0 0 4 0 9c0 6.5 9 17 9 17s9-10.5 9-17c0-5-4-9-9-9z" fill="'+color+'"/><circle cx="9" cy="9" r="3.2" fill="#fff"/></svg>'});}
+  var pts=[
+    [35.690,139.700,'apt'],[35.658,139.701,'apt'],[35.729,139.710,'apt'],[35.714,139.777,'house'],
+    [35.663,139.731,'share'],[35.628,139.738,'apt'],[35.706,139.665,'apt'],[35.703,139.579,'house'],
+    [35.644,139.699,'apt'],[35.646,139.710,'apt'],[35.714,139.796,'share'],[35.696,139.814,'apt'],
+    [35.654,139.796,'house'],[35.633,139.715,'apt'],[35.646,139.653,'house'],[35.705,139.649,'apt'],
+    [35.710,139.813,'apt'],[35.700,139.740,'share'],[35.671,139.796,'apt'],[35.626,139.723,'apt'],
+    [35.778,139.721,'house'],[35.663,139.872,'apt'],[35.735,139.653,'apt'],[35.641,139.668,'share'],
+    [35.676,139.763,'apt'],[35.720,139.741,'apt']
+  ];
+  pts.forEach(function(p){ L.marker([p[0],p[1]],{icon:pin(C[p[2]])}).addTo(map); });
+</script>
+</body>
+</html>
