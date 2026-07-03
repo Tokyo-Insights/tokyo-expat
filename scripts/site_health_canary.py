@@ -13,7 +13,7 @@ Run:
   python scripts/site_health_canary.py            # execute + alerte si panne
   python scripts/site_health_canary.py --verbose  # affiche tous les checks (vert compris)
 """
-import sys, io
+import sys, io, json, datetime
 import requests, urllib3
 from pathlib import Path
 
@@ -36,6 +36,33 @@ CSP_MUST_CONTAIN = ["googletagmanager.com", "fonts.googleapis.com"]
 HEADER_URL = "/en"  # page sur laquelle on inspecte GA + CSP
 
 TIMEOUT = 25
+
+# Fraicheur des donnees: l'Indice/Prix se rafraichit ~trimestriellement. Au-dela, ALERTE
+# (sinon le contenu "auto-frais" se fige en silence car les scrapers sont desactives).
+LIB = Path(__file__).parent.parent / "lib"
+STALE_DAYS = 100
+DATA_FILES = [
+    ("tokyoRentIndex.json", "Indice loyers",
+     "relancer les scrapers loyers puis python refresh_rent_index.py (tokyo_insights)"),
+    ("tokyoPriceTrends.json", "Prix historiques",
+     "python refresh_price_trends.py (tokyo_insights) apres nouveaux CSV"),
+]
+
+
+def check_data_freshness(failures, oks):
+    """Alerte si un jeu de donnees local depasse STALE_DAYS (data 'auto-fraiche' figee)."""
+    today = datetime.date.today()
+    for fname, label, how in DATA_FILES:
+        p = LIB / fname
+        try:
+            gen = json.loads(p.read_text(encoding="utf-8")).get("generated", "")
+            age = (today - datetime.date.fromisoformat(gen)).days
+            if age > STALE_DAYS:
+                failures.append(f"❌ Data '{label}' PERIMEE: {age}j (genere {gen}). Rafraichir: {how}")
+            else:
+                oks.append(f"Data {label} fraiche ({age}j)")
+        except Exception as e:
+            failures.append(f"❌ Data '{label}' illisible ({fname}): {str(e)[:60]}")
 
 
 def send_telegram(msg: str):
@@ -93,6 +120,9 @@ def main():
                     failures.append(f"❌ CSP ne whiteliste plus {dom} (GA/Fonts risque d'etre bloque)")
     except Exception as e:
         failures.append(f"❌ Inspection home ({HEADER_URL}) -> {type(e).__name__}: {str(e)[:80]}")
+
+    # 3) Fraicheur des donnees locales (Indice loyers + Prix)
+    check_data_freshness(failures, oks)
 
     # Rapport
     if verbose:

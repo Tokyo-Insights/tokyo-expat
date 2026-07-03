@@ -76,13 +76,36 @@ def body_text(msg):
                 pass
     return " ".join(out)
 
+def select_all_mail(m):
+    """Selectionne le dossier All Mail via le flag \\All (robuste a la langue Gmail).
+    INDISPENSABLE: les emails AutoMod OC sont souvent ARCHIVES (retires de l'INBOX lors
+    du triage) -> chercher dans INBOX seul raterait la detection. All Mail inclut tout."""
+    try:
+        typ, folders = m.list()
+        for f in folders or []:
+            line = f.decode("utf-8", "replace")
+            if "\\All" in line:
+                name = line.split(' "/" ')[-1].strip().strip('"')
+                if m.select(f'"{name}"')[0] == "OK":
+                    return True
+    except Exception:
+        pass
+    for name in ('"[Gmail]/All Mail"', "INBOX"):
+        try:
+            if m.select(name)[0] == "OK":
+                return True
+        except Exception:
+            continue
+    return False
+
+
 def detect_oc_since(since_dt):
-    """Retourne le datetime du + recent email AutoMod 'Original Content' apres since_dt, sinon None."""
+    """Retourne le datetime du + recent email AutoMod 'Original Content' apres since_dt, sinon None.
+    Cherche dans All Mail (inclut les archives) = robuste a mon archivage lors du triage Gmail."""
     try:
         m = imaplib.IMAP4_SSL("imap.gmail.com")
         m.login(GMAIL_ADDRESS, GMAIL_APP_PASSWORD)
-        m.select('"[Gmail]/All Mail"' if False else "INBOX")
-        # Reddit met les notifs dans INBOX + parfois archivees; on cherche large
+        select_all_mail(m)
         typ, d = m.uid("SEARCH", None, "FROM", "redditmail.com")
         uids = d[0].split() if d and d[0] else []
         found = None
@@ -118,16 +141,24 @@ def main():
     def by_id(mid):
         return next((x for x in munitions if x["id"] == mid), None)
 
-    # -------- 1. DETECTION: est-ce que la munition en attente a ete postee ? --------
+    # -------- 1. DETECTION / CONFIRMATION que la munition en attente a ete postee --------
     if st.get("awaiting_id"):
         awaiting = by_id(st["awaiting_id"])
         reminded = parse(st.get("awaiting_reminded_utc")) or (n - INTERVAL)
-        posted_at = detect_oc_since(reminded - dt.timedelta(minutes=5))
-        if posted_at is None and (n - reminded) >= ASSUME_POSTED_AFTER:
-            posted_at = n  # pas de preuve apres 2j -> on suppose poste pour ne pas harceler
-            note = " (suppose, pas d'email de confirmation)"
+        is_oc_sub = awaiting.get("sub") == "dataisbeautiful"
+        if "--posted" in sys.argv:
+            posted_at, note = n, " (confirme manuellement)"
         else:
-            note = ""
+            # Auto-detection FIABLE uniquement pour r/dataisbeautiful (email AutoMod OC = signal
+            # d'un NOUVEAU post). Les autres subs n'ont pas de signal fiable -> confirmation
+            # manuelle (--posted) ou hypothese apres ASSUME_POSTED_AFTER. On NE se base PAS sur
+            # les emails 'a repondu a ta publication' (faux positifs: vieux posts encore actifs).
+            posted_at = detect_oc_since(reminded - dt.timedelta(minutes=5)) if is_oc_sub else None
+            if posted_at is None and (n - reminded) >= ASSUME_POSTED_AFTER:
+                posted_at = n  # pas de preuve apres 2j -> on suppose poste pour ne pas harceler
+                note = " (suppose, pas de confirmation)"
+            else:
+                note = ""
         if posted_at:
             awaiting["status"] = "posted"
             awaiting["posted_utc"] = iso(posted_at)
@@ -179,12 +210,20 @@ def main():
         st["awaiting_reminded_utc"] = iso(n)
         st["last_reminded_date"] = today
         save(q)
+        oc = str(nxt.get("oc_comment") or "(demande le commentaire a Claude)")
+        if nxt.get("sub") == "dataisbeautiful":
+            oc_line = f"\U0001F4CC <b>Commentaire OC</b> (a coller en 1er commentaire, sinon retrait auto):\n{oc}"
+            detect_line = f"Je detecte auto quand c'est poste et je me tais {INTERVAL.days}j."
+        else:
+            oc_line = f"\U0001F4CC Premier commentaire (source, sans lien):\n{oc}"
+            detect_line = (f"⚠️ Auto-detection indisponible sur r/{nxt['sub']}. Reponds a Claude 'poste' "
+                           f"quand c'est fait (sinon j'assume dans {ASSUME_POSTED_AFTER.days}j).")
         send_telegram(
             f"\U0001F3AF <b>JOUR REDDIT</b> — munition prete\nPoste ceci quand tu as 2 min:\n\n"
             f"\U0001F4CA <b>{nxt['title']}</b>\n\U0001F5BC️ Image: <code>{nxt['png']}</code>\n\U0001F3AF Sub: r/{nxt['sub']}\n\n"
-            f"\U0001F4CC <b>Commentaire OC</b> (a coller en 1er commentaire, sinon retrait auto):\n{nxt['oc_comment']}\n\n"
+            f"{oc_line}\n\n"
             f"\U0001F551 {TIMING_TIP}\n\n"
-            f"Je detecte auto quand c'est poste et je me tais {INTERVAL.days}j.")
+            f"{detect_line}")
         print(f"Rappel envoye: {nxt['id']}")
         return
 

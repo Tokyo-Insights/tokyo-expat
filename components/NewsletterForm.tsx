@@ -40,7 +40,15 @@ export default function NewsletterForm({ locale, theme = 'dark', labels = {} }: 
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email, locale }),
       })
-      setStatus(res.ok ? 'success' : 'error')
+      if (res.ok) {
+        setStatus('success')
+        // Evenement GA4 -> mesure des inscriptions dans ga4_daily_report (form_submit/generate_lead)
+        if (typeof window !== 'undefined' && typeof window.gtag === 'function') {
+          window.gtag('event', 'generate_lead', { method: 'newsletter', locale })
+        }
+      } else {
+        setStatus('error')
+      }
     } catch {
       setStatus('error')
     }
