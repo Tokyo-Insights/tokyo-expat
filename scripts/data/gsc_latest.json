@@ -1,23 +1,35 @@
 {
-  "generated_at": "2026-06-27",
-  "period": "2026-05-30 to 2026-06-26",
+  "generated_at": "2026-07-02",
+  "period": "2026-06-04 to 2026-07-01",
   "property": "sc-domain:tokyo-expat.com",
   "totals": {
-    "clicks": 2,
-    "impressions": 382
+    "clicks": 4,
+    "impressions": 957
   },
   "top_queries": [
     {
+      "query": "furnished apartment tokyo",
+      "clicks": 1,
+      "impressions": 156,
+      "position": 19.3
+    },
+    {
       "query": "tokyo furnished apartments",
       "clicks": 1,
-      "impressions": 24,
-      "position": 24.0
+      "impressions": 117,
+      "position": 23.9
+    },
+    {
+      "query": "tokyo gaijin house",
+      "clicks": 1,
+      "impressions": 187,
+      "position": 11.1
     },
     {
       "query": "tokyo share house loyer",
       "clicks": 1,
-      "impressions": 9,
-      "position": 11.4
+      "impressions": 19,
+      "position": 11.8
     },
     {
       "query": "\"asian tigers group\" -site:reddit.com -site:twitter.com -site:x.com -site:wykop.pl -site:tripadvisor.com -site:youtube.com -site:yelp.com -site:booking.com -site:facebook.com -site:instagram.com -site:tiktok.com",
@@ -28,14 +40,20 @@
     {
       "query": "\"asian tigers\" -\"asian tiger economies\" -\"east asian tigers\" -\"four asian tigers\" -\"agriculture\" -\"economies\" -\"economy\" -\"mining\" -site:reddit.com -site:twitter.com -site:x.com -site:wykop.pl -site:tripadvisor.com -site:youtube.com -site:yelp.com -site:booking.com -site:facebook.com -site:instagram.com -site:tiktok.com",
       "clicks": 0,
-      "impressions": 9,
-      "position": 2.6
+      "impressions": 10,
+      "position": 3.3
     },
     {
       "query": "\"asian tigers\" -site:reddit.com -site:twitter.com -site:x.com -site:wykop.pl -site:tripadvisor.com -site:youtube.com -site:yelp.com -site:booking.com -site:facebook.com -site:instagram.com -site:tiktok.com",
       "clicks": 0,
       "impressions": 2,
       "position": 5
+    },
+    {
+      "query": "\"how to find an apartment in tokyo as a foreigner\"",
+      "clicks": 0,
+      "impressions": 3,
+      "position": 3.3
     },
     {
       "query": "\"international movers\" -site:reddit.com -site:twitter.com -site:x.com -site:wykop.pl -site:tripadvisor.com -site:youtube.com -site:yelp.com -site:booking.com -site:facebook.com -site:instagram.com -site:tiktok.com",
@@ -50,6 +68,12 @@
       "position": 6
     },
     {
+      "query": "\"tokyo apartment rental\" -site:reddit.com -site:twitter.com -site:x.com -site:wykop.pl -site:tripadvisor.com -site:youtube.com -site:yelp.com -site:booking.com -site:facebook.com -site:instagram.com -site:tiktok.com",
+      "clicks": 0,
+      "impressions": 1,
+      "position": 10
+    },
+    {
       "query": "age limite pvt japon",
       "clicks": 0,
       "impressions": 2,
@@ -58,8 +82,8 @@
     {
       "query": "agence de garant japonaise",
       "clicks": 0,
-      "impressions": 14,
-      "position": 23
+      "impressions": 28,
+      "position": 21.6
     },
     {
       "query": "alien card japan",
@@ -76,14 +100,20 @@
     {
       "query": "apartment for foreigner in tokyo",
       "clicks": 0,
-      "impressions": 7,
-      "position": 32.6
+      "impressions": 10,
+      "position": 33
     },
     {
       "query": "apartment for foreigners in tokyo",
       "clicks": 0,
-      "impressions": 58,
-      "position": 31.8
+      "impressions": 81,
+      "position": 32.2
+    },
+    {
+      "query": "apartment gaijinpot",
+      "clicks": 0,
+      "impressions": 17,
+      "position": 12.6
     },
     {
       "query": "apartment hunting in tokyo",
@@ -94,145 +124,115 @@
     {
       "query": "apartment in tokyo for foreigner",
       "clicks": 0,
-      "impressions": 66,
-      "position": 36.3
+      "impressions": 101,
+      "position": 36.8
     },
     {
       "query": "apartment in tokyo for foreigners",
       "clicks": 0,
-      "impressions": 23,
-      "position": 37.0
+      "impressions": 25,
+      "position": 37.7
     },
     {
       "query": "apartment tokyo for foreigners",
       "clicks": 0,
-      "impressions": 26,
-      "position": 37.1
+      "impressions": 36,
+      "position": 38.1
     },
     {
       "query": "apartments for foreigners in tokyo",
       "clicks": 0,
-      "impressions": 51,
-      "position": 39.4
+      "impressions": 99,
+      "position": 40.0
     },
     {
       "query": "apartments for foreigners tokyo",
       "clicks": 0,
-      "impressions": 7,
+      "impressions": 8,
       "position": 38
     },
     {
       "query": "apartments for rent in tokyo furnished",
       "clicks": 0,
-      "impressions": 11,
-      "position": 28.3
-    },
-    {
-      "query": "apartments for rent in tokyo japan furnished",
-      "clicks": 0,
-      "impressions": 3,
-      "position": 30.3
-    },
-    {
-      "query": "apartments in tokyo for foreigners",
-      "clicks": 0,
-      "impressions": 6,
-      "position": 44
-    },
-    {
-      "query": "apartments in tokyo japan for foreigners",
-      "clicks": 0,
-      "impressions": 5,
-      "position": 37.2
-    },
-    {
-      "query": "apartments tokyo foreigners",
-      "clicks": 0,
-      "impressions": 40,
-      "position": 35.3
-    },
-    {
-      "query": "appartement étudiant tokyo",
-      "clicks": 0,
-      "impressions": 9,
-      "position": 16.4
+      "impressions": 45,
+      "position": 34.3
     }
   ],
   "top_pages": [
     {
+      "page": "https://www.tokyo-expat.com/en/blog/furnished-apartment-tokyo-top-5-expats",
+      "clicks": 4,
+      "impressions": 2841
+    },
+    {
       "page": "https://www.tokyo-expat.com/en/blog/jiko-bukken-cheap-apartments-tokyo",
+      "clicks": 3,
+      "impressions": 168
+    },
+    {
+      "page": "https://www.tokyo-expat.com/en/blog/sakura-house-review",
       "clicks": 2,
-      "impressions": 58
+      "impressions": 427
     },
     {
       "page": "https://www.tokyo-expat.com/blog/assurance-maladie-japon-expatrie",
       "clicks": 1,
-      "impressions": 22
+      "impressions": 49
     },
     {
-      "page": "https://www.tokyo-expat.com/en/blog/furnished-apartment-tokyo-top-5-expats",
+      "page": "https://www.tokyo-expat.com/en/blog/gaijin-house-vs-share-house-tokyo",
       "clicks": 1,
-      "impressions": 461
+      "impressions": 746
+    },
+    {
+      "page": "https://www.tokyo-expat.com/en/blog/gaijinpot-housing-alternative",
+      "clicks": 1,
+      "impressions": 300
+    },
+    {
+      "page": "https://www.tokyo-expat.com/en/blog/share-house-tokyo-comparison-2026",
+      "clicks": 1,
+      "impressions": 102
     },
     {
       "page": "https://www.tokyo-expat.com/fr/blog/appartement-meuble-tokyo-expats-top-5",
       "clicks": 1,
-      "impressions": 8
+      "impressions": 13
+    },
+    {
+      "page": "https://www.tokyo-expat.com/fr/blog/avis-sakura-house-tokyo",
+      "clicks": 1,
+      "impressions": 68
     },
     {
       "page": "https://www.tokyo-expat.com/fr/blog/famille-expatriee-tokyo-ecoles-internationales",
       "clicks": 1,
-      "impressions": 3
+      "impressions": 4
     },
     {
       "page": "https://www.tokyo-expat.com/fr/blog/logement-etudiant-tokyo-guide",
       "clicks": 1,
-      "impressions": 114
+      "impressions": 204
     },
     {
       "page": "https://www.tokyo-expat.com/fr/blog/share-house-tokyo-guide-complet",
       "clicks": 1,
-      "impressions": 211
+      "impressions": 380
     },
     {
       "page": "https://www.tokyo-expat.com/",
       "clicks": 0,
-      "impressions": 2
+      "impressions": 4
     },
     {
-      "page": "https://www.tokyo-expat.com/blog/chercher-appartement-tokyo-depuis-etranger",
-      "clicks": 0,
-      "impressions": 1
-    },
-    {
-      "page": "https://www.tokyo-expat.com/blog/impots-revenus-japon-expatrie-2026",
-      "clicks": 0,
-      "impressions": 7
-    },
-    {
-      "page": "https://www.tokyo-expat.com/blog/ouvrir-compte-bancaire-japon-etranger",
-      "clicks": 0,
-      "impressions": 8
-    },
-    {
-      "page": "https://www.tokyo-expat.com/blog/trouver-appartement-tokyo-etranger",
-      "clicks": 0,
-      "impressions": 8
-    },
-    {
-      "page": "https://www.tokyo-expat.com/en",
+      "page": "https://www.tokyo-expat.com/blog/appartement-meuble-tokyo-expats",
       "clicks": 0,
       "impressions": 2
     },
     {
-      "page": "https://www.tokyo-expat.com/en/blog",
+      "page": "https://www.tokyo-expat.com/blog/appartement-meuble-tokyo-expats-top-5",
       "clicks": 0,
-      "impressions": 21
-    },
-    {
-      "page": "https://www.tokyo-expat.com/en/blog/best-neighbourhoods-families-tokyo-guide",
-      "clicks": 0,
-      "impressions": 5
+      "impressions": 4
     }
   ]
 }

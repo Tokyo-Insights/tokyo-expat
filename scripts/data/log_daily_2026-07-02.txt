@@ -1,0 +1,190 @@
+[2026-07-02  7:05:29.09] Starting daily watch... 
+[ 7:05:29.11] [1/4] Competitor watch... 
+
+============================================================
+COMPETITOR WATCH - 2026-07-02
+============================================================
+
+Scanning Remoters (editorial)...
+  6406 URLs found
+Scanning GaijinPot Housing (listings)...
+  [WARN] https://housing.gaijinpot.com/sitemap.xml: HTTPSConnectionPool(host='housing.gaijinpot.com', port=443): Max retries exceeded with url: /sitemap.xml (Caused by NameResolutionError("HTTPSConnection(host='housing.gaijinpot.com', port=443): Failed to resolve 'housing.gaijinpot.com' ([Errno 11001] getaddrinfo failed)"))
+  0 URLs found
+Scanning GaijinPot Blog (editorial)...
+  4564 URLs found
+  1 new URLs!
+Scanning Sakura House (listings)...
+  970 URLs found
+Scanning Oak House (listings)...
+  5218 URLs found
+  9 new URLs!
+Scanning Fontaine Relocation (editorial)...
+  [WARN] https://fontaine.co.jp/sitemap.xml: HTTPSConnectionPool(host='fontaine.co.jp', port=443): Max retries exceeded with url: /sitemap.xml (Caused by NameResolutionError("HTTPSConnection(host='fontaine.co.jp', port=443): Failed to resolve 'fontaine.co.jp' ([Errno 11001] getaddrinfo failed)"))
+  0 URLs found
+Scanning Tokyo Cheapo (editorial)...
+  6863 URLs found
+  275 new URLs!
+Scanning Savvy Tokyo (editorial)...
+  8701 URLs found
+  1 new URLs!
+Scanning Japan Guide (editorial)...
+  [WARN] https://www.japan-guide.com/sitemap.xml: 404 Client Error: Not Found for url: https://www.japan-guide.com/sitemap.xml
+  0 URLs found
+Scanning Japan Property Central (editorial)...
+  [WARN] https://japanpropertycentral.com/sitemap.xml: 404 Client Error: Not Found for url: https://japanpropertycentral.com/sitemap.xml
+  0 URLs found
+Scanning Japan Today (editorial)...
+  [WARN] https://japantoday.com/sitemap.xml: 403 Client Error: Forbidden for url: https://japantoday.com/sitemap.xml
+  0 URLs found
+Scanning City Cost (editorial)...
+  [WARN] https://www.city-cost.com/sitemap.xml: mismatched tag: line 25, column 267
+  0 URLs found
+Scanning Japan Insiders (editorial)...
+  17 URLs found
+Scanning Tofugu (editorial)...
+  1911 URLs found
+Scanning Time Out Tokyo (editorial)...
+  [WARN] https://www.timeout.com/sitemap.xml: 404 Client Error: Not Found for url: https://www.timeout.com/sitemap.xml
+  0 URLs found
+Scanning Gaijin House (listings)...
+  [WARN] https://www.gaijinhouse.com/sitemap.xml: not well-formed (invalid token): line 11, column 65
+  0 URLs found
+Scanning Tokyo Share House (listings)...
+  [WARN] https://www.tokyosharehouse.com/sitemap.xml: not well-formed (invalid token): line 8, column 42
+  0 URLs found
+Scanning Crown Relocations JP (editorial)...
+  [WARN] https://www.crownrelo.com/sitemap.xml: 403 Client Error: Forbidden for url: https://www.crownrelo.com/sitemap.xml
+  0 URLs found
+Scanning Asian Tigers Japan (editorial)...
+  [WARN] https://www.asiantigers-japan.com/sitemap.xml: HTTPSConnectionPool(host='www.asiantigers-japan.com', port=443): Max retries exceeded with url: /sitemap.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.asiantigers-japan.com', port=443) at 0x18bc169a710>, 'Connection to www.asiantigers-japan.com timed out. (connect timeout=15)'))
+  0 URLs found
+Scanning Wise Blog JP (editorial)...
+  [WARN] https://wise.com/sitemap.xml: 404 Client Error: Not Found for url: https://wise.com/sitemap.xml
+  0 URLs found
+Scanning Modern Living Tokyo (editorial)...
+  [WARN] https://www.modernlivingtokyo.com/sitemap.xml: HTTPSConnectionPool(host='www.modernlivingtokyo.com', port=443): Max retries exceeded with url: /sitemap.xml (Caused by NameResolutionError("HTTPSConnection(host='www.modernlivingtokyo.com', port=443): Failed to resolve 'www.modernlivingtokyo.com' ([Errno 11001] getaddrinfo failed)"))
+  0 URLs found
+Scanning Tokyo Furnished (editorial)...
+  [WARN] https://www.tokyofurnished.com/sitemap.xml: HTTPSConnectionPool(host='www.tokyofurnished.com', port=443): Max retries exceeded with url: /sitemap.xml (Caused by NameResolutionError("HTTPSConnection(host='www.tokyofurnished.com', port=443): Failed to resolve 'www.tokyofurnished.com' ([Errno 11001] getaddrinfo failed)"))
+  0 URLs found
+Scanning Vivre Au Japon (editorial)...
+  80 URLs found
+Scanning Japon Online (editorial)...
+  [WARN] https://www.japon-online.fr/sitemap.xml: HTTPSConnectionPool(host='www.japon-online.fr', port=443): Max retries exceeded with url: /sitemap.xml (Caused by NameResolutionError("HTTPSConnection(host='www.japon-online.fr', port=443): Failed to resolve 'www.japon-online.fr' ([Errno 11001] getaddrinfo failed)"))
+  0 URLs found
+
+✅ Telegram alert sent (15 items)
+
+Total indexed: 34687 competitor URLs in cache
+[ 7:07:00.55] [2/4] HARO monitor... 
+
+============================================================
+HARO MONITOR - 2026-07-02
+============================================================
+
+  qwoted.com: SKIP (compte suspendu)
+  connectively.us: SKIP (compte suspendu)
+  featured.com: 0 emails trouves
+  helpablogger.com: 0 emails trouves
+  sourcebottle.com: 0 emails trouves
+  shankman.com: 0 emails trouves
+  profnet.com: 0 emails trouves
+  journorequest: 0 emails trouves
+
+Aucune opportunite PR pertinente trouvee
+[ 7:07:05.06] [3/4] Seasonal calendar... 
+
+============================================================
+SEASONAL CALENDAR - 2026-07-02
+============================================================
+
+Regle : publier 7 semaines AVANT le pic
+
+2026-07-15 | Pre-rentree universitaire      | Publier avant: 2026-05-27 [PUBLIER MAINTENANT - 13j restants avant pic]
+   Article : Logement etudiant a Tokyo pour octobre : share house vs dortoir univer
+
+2026-09-01 | Rentree universitaire          | Publier avant: 2026-07-14 [URGENT - deadline dans 12j]
+   Article : Trouver un appartement a Tokyo en septembre : ce qui change vs le prin
+
+2026-10-01 | Pic Q4 expats                  | Publier avant: 2026-08-13 [dans 91j]
+   Article : Appartement meuble Tokyo : les 5 meilleures options pour expatries arr
+
+2026-12-15 | Planification Noel/Nouvel An   | Publier avant: 2026-10-27 [dans 166j]
+   Article : Mon guide complet pour s'expatrier a Tokyo : tout ce que j'aurais voul
+
+2027-02-01 | Annonces affectations pro      | Publier avant: 2026-12-14 [dans 214j]
+   Article : Guide complet : trouver un logement a Tokyo en 2 semaines (pour une mu
+
+2027-03-15 | Pic demenagement Mars          | Publier avant: 2027-01-25 [dans 256j]
+   Article : Checklist demenagement Tokyo : J-30 a J+7 (tout ce qu'il faut preparer
+
+2027-04-01 | Debut annee fiscale            | Publier avant: 2027-02-11 [dans 273j]
+   Article : S'installer a Tokyo en avril : guide pratique semaine par semaine
+
+[SKIP] Article deja publie : Logement etudiant a Tokyo pour octobre : share house vs dort
+[SKIP] Article deja publie : Trouver un appartement a Tokyo en septembre : ce qui change 
+Aucun article saisonnier a ecrire (tout couvert ou hors fenetre). PAS d'alerte Telegram.
+
+ARTICLES URGENTS A ECRIRE :
+  - Logement etudiant a Tokyo pour octobre : share house vs dortoir universitaire
+  - Trouver un appartement a Tokyo en septembre : ce qui change vs le printemps
+[ 7:07:05.30] [4/5] Proactive analysis... 
+
+============================================================
+ANALYSE PROACTIVE COMPLETE - 2026-07-02
+============================================================
+
+Donnees chargees:
+  Gaps        : OK
+  Keywords    : OK
+  Pricing     : OK
+  Competitors : OK
+  Vulns       : OK
+  Saison      : OK
+
+[DEDUP] Rapport identique envoye il y a moins de 7j. Skip Telegram.
+[ 7:07:05.59] [5/7] Reddit intercept... 
+
+============================================================
+REDDIT INTERCEPT -- 2026-07-02
+============================================================
+
+  Searching: site:reddit.com/r/movingtojapan apartment housing rent tokyo...
+  Searching: site:reddit.com/r/JapanLife housing apartment rent foreigner toky...
+    MATCH r/japanlife: r/japanlife on Reddit: [ Removed by moderator ]
+  Searching: site:reddit.com/r/japanfinance apartment rent tokyo foreigner...
+  [WARN] No results found.
+  Searching: site:reddit.com/r/Tokyo find apartment housing rent expat...
+  [WARN] No results found.
+  Searching: site:reddit.com/r/japan housing apartment foreigner share house...
+  Searching: site:reddit.com/r/teachinginjapan apartment housing tokyo rent...
+  [WARN] No results found.
+  Searching: site:reddit.com/r/expats housing apartment tokyo japan...
+  Searching: site:reddit.com/r/digitalnomad apartment housing tokyo japan...
+  [WARN] No results found.
+
+1 posts pertinents trouves
+
+1 alertes envoyees.
+[ 7:08:24.53] [6/8] Brevo welcome drip... 
+Liste 3: 4 contacts
+  (1 ancien(s) contact(s) ignore(s), inscrits avant 2026-06-27)
+
+0 email(s) envoyes.
+[ 7:08:25.63] [7/9] Backlink follow-up watcher... 
+🔗 BACKLINK RELANCES — 2026-07-02
+
+🔁 InterNations Tokyo : relance due (emailé il y a 6j, sans réponse). Draft prêt dans Gmail.
+🔁 The Japan Times : relance due (emailé il y a 6j, sans réponse). Draft prêt dans Gmail.
+[ 7:08:47.94] [8/9] Backlink draft stocker... 
+Aucune cible eligible a stocker (aucune cible email_verified=True en attente).
+[ 7:08:48.50] [7/7] Thursday briefing... 
+<b>JEUDI CHECK</b> -- 02 Jul 2026
+
+🟢 <b>Buffer queue</b> : 80 posts FB, 80 posts LI restants
+
+<b>5 action(s) en attente :</b>
+💬 Reddit r/japanlife [2026-07-02] r/japanlife on Reddit: [ Removed by moderator ]
+💬 Reddit r/japanlife [2026-07-01] Can I report a serviced apartment company(Metro Residence ... - Reddit
+<i>Dis a Claude 'analyse les pendants' pour travailler dessus</i>
+[ 7:08:49.75] Daily watch complete. 
