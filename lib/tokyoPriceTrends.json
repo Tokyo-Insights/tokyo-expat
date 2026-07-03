@@ -1,6 +1,6 @@
 {
   "generated": "2026-07-03",
-  "source": "MLIT (Japan Ministry of Land, Infrastructure, Transport and Tourism) actual transaction prices - Tokyo used condominiums",
+  "source": "Actual recorded used-condominium sale transactions, Tokyo 23 wards (settled prices, not asking prices)",
   "metric": "median transaction price per m2 (JPY)",
   "period_from": "2021Q1",
   "period_to": "2025Q3",

@@ -11,7 +11,7 @@ export const faqData: Record<string, FaqItem[]> = {
     {
       question: 'How much have Tokyo condo prices risen?',
       answer:
-        'The median used-condo price in Tokyo rose +29.6% per square metre, from 720 000 to 933 333 JPY/m2, between 2021 and 2025, based on 103,933 real MLIT transactions.',
+        'The median used-condo price in Tokyo rose +29.6% per square metre, from 720 000 to 933 333 JPY/m2, between 2021 and 2025, based on 103,933 real recorded sale transactions.',
     },
     {
       question: 'Which Tokyo ward\'s prices rose the most?',
@@ -26,7 +26,7 @@ export const faqData: Record<string, FaqItem[]> = {
     {
       question: 'Is this price data reliable?',
       answer:
-        'It uses 103,933 actual transactions reported to Japan\'s MLIT (the official government source), not asking prices. We track the quarterly median, which reflects the mix of what sold, so read it as market direction.',
+        'It uses 103,933 actual recorded sale transactions, not asking prices, which makes it far more reliable than listing-site figures. We track the quarterly median, which reflects the mix of what sold, so read it as market direction rather than a valuation of a specific unit.',
     },
   ],
 
@@ -34,7 +34,7 @@ export const faqData: Record<string, FaqItem[]> = {
     {
       question: 'De combien les prix des coproprietes a Tokyo ont-ils augmente ?',
       answer:
-        'Le prix median d\'une copropriete d\'occasion a Tokyo a augmente de +29.6% au m2, de 720 000 a 933 333 JPY/m2, entre 2021 et 2025, sur 103,933 transactions MLIT reelles.',
+        'Le prix median d\'une copropriete d\'occasion a Tokyo a augmente de +29.6% au m2, de 720 000 a 933 333 JPY/m2, entre 2021 et 2025, sur 103,933 transactions reelles enregistrees.',
     },
     {
       question: 'Quel arrondissement de Tokyo a le plus augmente ?',
@@ -49,7 +49,7 @@ export const faqData: Record<string, FaqItem[]> = {
     {
       question: 'Ces donnees de prix sont-elles fiables ?',
       answer:
-        'Elles utilisent 103,933 transactions reelles declarees au MLIT japonais (source officielle), pas des prix affiches. Nous suivons la mediane trimestrielle, qui reflete le melange de ce qui s\'est vendu : a lire comme une direction de marche.',
+        'Elles utilisent 103,933 transactions reelles enregistrees, pas des prix affiches, ce qui est bien plus fiable que les chiffres des sites d\'annonces. Nous suivons la mediane trimestrielle, qui reflete le melange de ce qui s\'est vendu : a lire comme une direction de marche, pas la valeur d\'un bien precis.',
     },
   ],
 

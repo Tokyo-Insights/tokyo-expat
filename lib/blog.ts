@@ -11644,11 +11644,11 @@ Si vous preferez confier ces chiffres a quelqu'un qui travaille dans le marche t
     slug: 'tokyo-condo-price-trends',
     locale: 'en',
     title: 'How Tokyo Condo Prices Changed, 2021 to 2025 (Real Transaction Data)',
-    description: 'Tokyo used-condo prices rose +29.6% per square metre from 2021 to 2025, from 103,933 real MLIT transactions. Ward-by-ward, which areas rose most.',
+    description: 'Tokyo used-condo prices rose +29.6% per square metre from 2021 to 2025, from 103,933 real recorded sale transactions. Ward-by-ward, which areas rose most.',
     date: '2026-07-03',
     readingTime: '6 min',
     content: `
-Everyone feels that Tokyo has gotten more expensive. But by how much, and where exactly? This is not an opinion piece. It is built on 103,933 actual condominium sales reported to the Japanese government (MLIT), from 2021 to 2025, so you can see the real trend instead of a headline.
+Everyone feels that Tokyo has gotten more expensive. But by how much, and where exactly? This is not an opinion piece. It is built on 103,933 actual recorded condominium sale transactions across Tokyo, from 2021 to 2025, so you see the real trend instead of a headline. These are settled sale prices, not the asking prices you find on listing sites.
 
 **Quick answer:** The median price of a used condo in Tokyo rose from 720 000 to 933 333 JPY per square metre between 2021 and 2025, a +29.6% increase. The rise was far from even: central wards like Chuo (+60.3%) and Minato (+51.9%) climbed the most, while outer wards like Edogawa (+16.4%) rose the least. The gap between the centre and the rest widened.
 
@@ -11693,18 +11693,18 @@ If your budget is fixed, this is where it stretches furthest, and where the entr
 
 If you want someone inside the Tokyo market to turn these trends into an actual purchase or rental, see [how we work](/en/contact).
 
-*Data: 103,933 used-condo transactions reported to MLIT (Japan Ministry of Land), Tokyo 23 wards, 2021Q1 to 2025Q3. Median price per m2 in JPY. Updated as new MLIT data is released.*
+*Data: 103,933 real recorded used-condo sale transactions, Tokyo 23 wards, 2021Q1 to 2025Q3. Median settled price per m2 in JPY, not asking prices. Updated quarterly.*
     `.trim(),
   },
   {
     slug: 'evolution-prix-immobilier-tokyo',
     locale: 'fr',
     title: 'Evolution des prix immobiliers a Tokyo, 2021 a 2025 (donnees reelles)',
-    description: 'Le prix des coproprietes d\'occasion a Tokyo a augmente de +29.6% au m2 de 2021 a 2025, sur 103,933 transactions MLIT reelles. Arrondissement par arrondissement.',
+    description: 'Le prix des coproprietes d\'occasion a Tokyo a augmente de +29.6% au m2 de 2021 a 2025, sur 103,933 transactions reelles enregistrees. Arrondissement par arrondissement.',
     date: '2026-07-03',
     readingTime: '6 min',
     content: `
-Tout le monde sent que Tokyo est devenue plus chere. Mais de combien, et ou exactement ? Ceci n'est pas un billet d'opinion. C'est bati sur 103,933 ventes reelles de coproprietes declarees au gouvernement japonais (MLIT), de 2021 a 2025, pour voir la vraie tendance plutot qu'un titre de presse.
+Tout le monde sent que Tokyo est devenue plus chere. Mais de combien, et ou exactement ? Ceci n'est pas un billet d'opinion. C'est bati sur 103,933 ventes reelles de coproprietes enregistrees a Tokyo, de 2021 a 2025, pour voir la vraie tendance plutot qu'un titre de presse. Ce sont des prix de vente conclus, pas les prix affiches des sites d'annonces.
 
 **Reponse rapide :** Le prix median d'une copropriete d'occasion a Tokyo est passe de 720 000 a 933 333 JPY le metre carre entre 2021 et 2025, soit +29.6%. La hausse a ete tres inegale : les arrondissements centraux comme Chuo (+60.3%) et Minato (+51.9%) ont le plus grimpe, tandis que la peripherie comme Edogawa (+16.4%) a le moins bouge. L'ecart entre le centre et le reste s'est creuse.
 
@@ -11749,7 +11749,7 @@ Si votre budget est fixe, c'est la qu'il va le plus loin, et ou le ticket d'entr
 
 Si vous voulez que quelqu'un du marche tokyoite transforme ces tendances en achat ou location reel, voyez [comment nous travaillons](/fr/contact).
 
-*Donnees : 103,933 transactions de coproprietes d'occasion declarees au MLIT (ministere japonais du Territoire), 23 arrondissements de Tokyo, 2021Q1 a 2025Q3. Prix median au m2 en JPY. Mis a jour a chaque nouvelle publication MLIT.*
+*Donnees : 103,933 transactions reelles enregistrees de coproprietes d'occasion, 23 arrondissements de Tokyo, 2021Q1 a 2025Q3. Prix de vente median au m2 en JPY, pas des prix affiches. Mis a jour chaque trimestre.*
     `.trim(),
   },
 ]

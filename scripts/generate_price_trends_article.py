@@ -51,9 +51,9 @@ def rise_list(lst, en=True):
 # ---------- EN ----------
 EN_TITLE = f"How Tokyo Condo Prices Changed, {yf} to {yt} (Real Transaction Data)"
 EN_DESC = (f"Tokyo used-condo prices rose {sign(pct)}% per square metre from {yf} to {yt}, "
-           f"from {total:,} real MLIT transactions. Ward-by-ward, which areas rose most.")
+           f"from {total:,} real recorded sale transactions. Ward-by-ward, which areas rose most.")
 EN = f"""
-Everyone feels that Tokyo has gotten more expensive. But by how much, and where exactly? This is not an opinion piece. It is built on {total:,} actual condominium sales reported to the Japanese government (MLIT), from {yf} to {yt}, so you can see the real trend instead of a headline.
+Everyone feels that Tokyo has gotten more expensive. But by how much, and where exactly? This is not an opinion piece. It is built on {total:,} actual recorded condominium sale transactions across Tokyo, from {yf} to {yt}, so you see the real trend instead of a headline. These are settled sale prices, not the asking prices you find on listing sites.
 
 **Quick answer:** The median price of a used condo in Tokyo rose from {yen(m_first)} to {yen(m_last)} JPY per square metre between {yf} and {yt}, a {sign(pct)}% increase. The rise was far from even: central wards like {risers[0]['ward_en']} ({sign(risers[0]['pct'])}%) and {risers[1]['ward_en']} ({sign(risers[1]['pct'])}%) climbed the most, while outer wards like {laggards[0]['ward_en']} ({sign(laggards[0]['pct'])}%) rose the least. The gap between the centre and the rest widened.
 
@@ -88,15 +88,15 @@ If your budget is fixed, this is where it stretches furthest, and where the entr
 
 If you want someone inside the Tokyo market to turn these trends into an actual purchase or rental, see [how we work](/en/contact).
 
-*Data: {total:,} used-condo transactions reported to MLIT (Japan Ministry of Land), Tokyo 23 wards, {pf} to {pt}. Median price per m2 in JPY. Updated as new MLIT data is released.*
+*Data: {total:,} real recorded used-condo sale transactions, Tokyo 23 wards, {pf} to {pt}. Median settled price per m2 in JPY, not asking prices. Updated quarterly.*
 """.strip()
 
 # ---------- FR ----------
 FR_TITLE = f"Evolution des prix immobiliers a Tokyo, {yf} a {yt} (donnees reelles)"
 FR_DESC = (f"Le prix des coproprietes d'occasion a Tokyo a augmente de {sign(pct)}% au m2 de {yf} a {yt}, "
-           f"sur {total:,} transactions MLIT reelles. Arrondissement par arrondissement.")
+           f"sur {total:,} transactions reelles enregistrees. Arrondissement par arrondissement.")
 FR = f"""
-Tout le monde sent que Tokyo est devenue plus chere. Mais de combien, et ou exactement ? Ceci n'est pas un billet d'opinion. C'est bati sur {total:,} ventes reelles de coproprietes declarees au gouvernement japonais (MLIT), de {yf} a {yt}, pour voir la vraie tendance plutot qu'un titre de presse.
+Tout le monde sent que Tokyo est devenue plus chere. Mais de combien, et ou exactement ? Ceci n'est pas un billet d'opinion. C'est bati sur {total:,} ventes reelles de coproprietes enregistrees a Tokyo, de {yf} a {yt}, pour voir la vraie tendance plutot qu'un titre de presse. Ce sont des prix de vente conclus, pas les prix affiches des sites d'annonces.
 
 **Reponse rapide :** Le prix median d'une copropriete d'occasion a Tokyo est passe de {yen(m_first)} a {yen(m_last)} JPY le metre carre entre {yf} et {yt}, soit {sign(pct)}%. La hausse a ete tres inegale : les arrondissements centraux comme {risers[0]['ward_en']} ({sign(risers[0]['pct'])}%) et {risers[1]['ward_en']} ({sign(risers[1]['pct'])}%) ont le plus grimpe, tandis que la peripherie comme {laggards[0]['ward_en']} ({sign(laggards[0]['pct'])}%) a le moins bouge. L'ecart entre le centre et le reste s'est creuse.
 
@@ -131,7 +131,7 @@ Si votre budget est fixe, c'est la qu'il va le plus loin, et ou le ticket d'entr
 
 Si vous voulez que quelqu'un du marche tokyoite transforme ces tendances en achat ou location reel, voyez [comment nous travaillons](/fr/contact).
 
-*Donnees : {total:,} transactions de coproprietes d'occasion declarees au MLIT (ministere japonais du Territoire), 23 arrondissements de Tokyo, {pf} a {pt}. Prix median au m2 en JPY. Mis a jour a chaque nouvelle publication MLIT.*
+*Donnees : {total:,} transactions reelles enregistrees de coproprietes d'occasion, 23 arrondissements de Tokyo, {pf} a {pt}. Prix de vente median au m2 en JPY, pas des prix affiches. Mis a jour chaque trimestre.*
 """.strip()
 
 # ---------- write helpers ----------
@@ -181,23 +181,23 @@ def faq_block(slug, qas):
 
 faq_en = [
     ("How much have Tokyo condo prices risen?",
-     f"The median used-condo price in Tokyo rose {sign(pct)}% per square metre, from {yen(m_first)} to {yen(m_last)} JPY/m2, between {yf} and {yt}, based on {total:,} real MLIT transactions."),
+     f"The median used-condo price in Tokyo rose {sign(pct)}% per square metre, from {yen(m_first)} to {yen(m_last)} JPY/m2, between {yf} and {yt}, based on {total:,} real recorded sale transactions."),
     ("Which Tokyo ward's prices rose the most?",
      f"{risers[0]['ward_en']} led with {sign(risers[0]['pct'])}%, followed by {risers[1]['ward_en']} ({sign(risers[1]['pct'])}%) and {risers[2]['ward_en']} ({sign(risers[2]['pct'])}%). Central and bayfront wards rose fastest."),
     ("Where are Tokyo condos still most affordable?",
      f"The outer wards rose least and stay most accessible, led by {laggards[0]['ward_en']} ({sign(laggards[0]['pct'])}%) and {laggards[1]['ward_en']} ({sign(laggards[1]['pct'])}%), with real rental demand and full train access."),
     ("Is this price data reliable?",
-     f"It uses {total:,} actual transactions reported to Japan's MLIT (the official government source), not asking prices. We track the quarterly median, which reflects the mix of what sold, so read it as market direction."),
+     f"It uses {total:,} actual recorded sale transactions, not asking prices, which makes it far more reliable than listing-site figures. We track the quarterly median, which reflects the mix of what sold, so read it as market direction rather than a valuation of a specific unit."),
 ]
 faq_fr = [
     ("De combien les prix des coproprietes a Tokyo ont-ils augmente ?",
-     f"Le prix median d'une copropriete d'occasion a Tokyo a augmente de {sign(pct)}% au m2, de {yen(m_first)} a {yen(m_last)} JPY/m2, entre {yf} et {yt}, sur {total:,} transactions MLIT reelles."),
+     f"Le prix median d'une copropriete d'occasion a Tokyo a augmente de {sign(pct)}% au m2, de {yen(m_first)} a {yen(m_last)} JPY/m2, entre {yf} et {yt}, sur {total:,} transactions reelles enregistrees."),
     ("Quel arrondissement de Tokyo a le plus augmente ?",
      f"{risers[0]['ward_en']} en tete avec {sign(risers[0]['pct'])}%, suivi de {risers[1]['ward_en']} ({sign(risers[1]['pct'])}%) et {risers[2]['ward_en']} ({sign(risers[2]['pct'])}%). Les arrondissements centraux et de la baie ont le plus grimpe."),
     ("Ou les coproprietes de Tokyo restent-elles les plus abordables ?",
      f"La peripherie a le moins augmente et reste la plus accessible, menee par {laggards[0]['ward_en']} ({sign(laggards[0]['pct'])}%) et {laggards[1]['ward_en']} ({sign(laggards[1]['pct'])}%), avec une vraie demande locative et un acces ferroviaire complet."),
     ("Ces donnees de prix sont-elles fiables ?",
-     f"Elles utilisent {total:,} transactions reelles declarees au MLIT japonais (source officielle), pas des prix affiches. Nous suivons la mediane trimestrielle, qui reflete le melange de ce qui s'est vendu : a lire comme une direction de marche."),
+     f"Elles utilisent {total:,} transactions reelles enregistrees, pas des prix affiches, ce qui est bien plus fiable que les chiffres des sites d'annonces. Nous suivons la mediane trimestrielle, qui reflete le melange de ce qui s'est vendu : a lire comme une direction de marche, pas la valeur d'un bien precis."),
 ]
 
 faq = FAQ.read_text(encoding="utf-8")
