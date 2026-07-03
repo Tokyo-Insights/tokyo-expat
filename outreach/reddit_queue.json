@@ -76,6 +76,18 @@
       "upvotes": null
     },
     {
+      "id": "tokyo-prime-areas",
+      "status": "todo",
+      "png": null,
+      "title": "[OC] Tokyo's most exclusive addresses by rent (prime areas)",
+      "note": "Idee de u/tokyoedo: l'echantillon par volume sous-represente les quartiers prime (Azabu, Hiroo, Daikanyama, Omotesando). Faire une coupe 'haut de gamme uniquement' = histoire tres differente. Necessite baisser le seuil MIN_STATION_SAMPLE ou cibler ces stations.",
+      "oc_comment": null,
+      "sub": "dataisbeautiful",
+      "posted_utc": null,
+      "views": null,
+      "upvotes": null
+    },
+    {
       "id": "tokyo-price-choropleth",
       "status": "ready",
       "png": "outreach/tokyo-price-map.png",
