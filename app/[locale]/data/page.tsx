@@ -4,6 +4,7 @@ import type { Locale } from '@/lib/i18n'
 import rentIndex from '@/lib/tokyoRentIndex.json'
 import priceTrends from '@/lib/tokyoPriceTrends.json'
 import AffordabilityTool from '@/components/AffordabilityTool'
+import NewsletterForm from '@/components/NewsletterForm'
 
 export async function generateMetadata({
   params,
@@ -199,6 +200,17 @@ export default async function DataPage({
   const l = locale as Locale
   const copy = l === 'en' ? t.en : t.fr
 
+  // Capture email taillee pour le public data (trafic Reddit) -> Brevo liste 3 -> drip 6 emails
+  const captureLabels = {
+    title: l === 'en' ? 'Get the next Tokyo data drop' : 'Recevez la prochaine mise a jour data',
+    subtitle: l === 'en'
+      ? 'New rent and price charts, refreshed every quarter from real Tokyo data. Free, no spam.'
+      : 'Nouveaux graphiques loyers et prix, actualises chaque trimestre a partir de vraies donnees. Gratuit, sans spam.',
+    placeholder: l === 'en' ? 'Your email' : 'Votre email',
+    button: l === 'en' ? 'Send it to me' : 'Je la veux',
+    success: l === 'en' ? 'Done. Check your inbox for your first data drop.' : 'C\'est fait. Regardez votre boite pour la premiere data.',
+  }
+
   const breadcrumbLd = {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
@@ -302,6 +314,19 @@ export default async function DataPage({
       {/* Interactive affordability tool */}
       <section className="mb-14">
         <AffordabilityTool locale={l} wards={affordWards} stations={affordStations} />
+      </section>
+
+      {/* Email capture (data audience) */}
+      <section className="mb-14">
+        <div className="bg-[#0f2744] rounded-2xl p-6 md:p-8 grid md:grid-cols-5 gap-6 md:items-center">
+          <div className="md:col-span-3 md:max-w-sm">
+            <NewsletterForm locale={l} theme="dark" labels={captureLabels} />
+          </div>
+          <div className="md:col-span-2 text-gray-300 text-sm space-y-2">
+            <p className="flex items-start gap-2"><span className="text-green-400">✓</span>{l === 'en' ? 'The same real data behind every chart on this page.' : 'Les memes vraies donnees derriere chaque graphique de cette page.'}</p>
+            <p className="flex items-start gap-2"><span className="text-green-400">✓</span>{l === 'en' ? 'One email per quarter, unsubscribe anytime.' : 'Un email par trimestre, desabonnement a tout moment.'}</p>
+          </div>
+        </div>
       </section>
 
       {/* Ward rent table */}
@@ -678,6 +703,13 @@ export default async function DataPage({
               <p className="text-gray-600 text-sm mt-3 leading-relaxed">{f.a}</p>
             </details>
           ))}
+        </div>
+      </section>
+
+      {/* Email capture (bottom, light) */}
+      <section className="mb-10">
+        <div className="border border-gray-200 rounded-2xl p-6 max-w-lg mx-auto">
+          <NewsletterForm locale={l} theme="light" labels={captureLabels} />
         </div>
       </section>
 
