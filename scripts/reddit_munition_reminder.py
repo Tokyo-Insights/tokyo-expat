@@ -34,6 +34,9 @@ POSTS_PER_WEEK = 1
 
 INTERVAL = dt.timedelta(days=7.0 / POSTS_PER_WEEK)
 ASSUME_POSTED_AFTER = dt.timedelta(days=2)   # si pas de preuve email apres 2j, on suppose poste
+# Alerte PROACTIVE "stock bas": prevenir de creer des munitions AVANT que la file se vide.
+LOW_STOCK = 2                                # alerte si <= 2 munitions pretes
+LOW_STOCK_COOLDOWN = dt.timedelta(days=3)    # re-nudge tous les 3j tant que bas (pas de spam quotidien)
 QUEUE = Path(__file__).parent.parent / "outreach" / "reddit_queue.json"
 UTC = dt.timezone.utc
 
@@ -140,6 +143,20 @@ def main():
 
     def by_id(mid):
         return next((x for x in munitions if x["id"] == mid), None)
+
+    # -------- 0. ALERTE STOCK BAS (proactif) : rappeler de CREER des munitions avant la penurie --------
+    ready_ids = [m["id"] for m in munitions if m["status"] == "ready"]
+    if len(ready_ids) <= LOW_STOCK:
+        last_low = parse(st.get("low_stock_alerted_utc"))
+        if force or last_low is None or (n - last_low) >= LOW_STOCK_COOLDOWN:
+            todo_ids = [m["id"] for m in munitions if m["status"] == "todo"]
+            st["low_stock_alerted_utc"] = iso(n)
+            save(q)
+            send_telegram(
+                f"\U0001F4E6 <b>Reserve de munitions Reddit BASSE</b> : {len(ready_ids)} prete(s).\n"
+                f"➡️ Demande a Claude de CREER de nouvelles munitions (pour ne pas se retrouver a sec).\n"
+                f"Backlog dispo : {', '.join(todo_ids) if todo_ids else 'aucun (a inventer)'}.")
+            print(f"Alerte STOCK BAS envoyee ({len(ready_ids)} pretes).")
 
     # -------- 1. DETECTION / CONFIRMATION que la munition en attente a ete postee --------
     if st.get("awaiting_id"):
