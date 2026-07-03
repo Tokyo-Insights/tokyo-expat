@@ -242,7 +242,12 @@ export default async function DataPage({
       { '@type': 'PropertyValue', name: 'Station (50 major Tokyo stations)' },
       { '@type': 'PropertyValue', name: `Median condo sale price per m2 (JPY), ${ptFromYr}-${ptToYr}`, unitText: 'JPY' },
     ],
-    isPartOf: { '@type': 'WebSite', name: 'Tokyo Expat', url: 'https://www.tokyo-expat.com' },
+    includedInDataCatalog: { '@type': 'DataCatalog', name: 'Tokyo Expat Data', url: `https://www.tokyo-expat.com/${l}/data` },
+    license: `https://www.tokyo-expat.com/${l}/data#data-license`,
+    copyrightHolder: { '@type': 'Organization', name: 'Tokyo Expat', url: 'https://www.tokyo-expat.com' },
+    copyrightYear: 2026,
+    creditText: 'Tokyo Expat (tokyo-expat.com)',
+    isAccessibleForFree: true,
   }
 
   const faqs = l === 'en' ? [
@@ -724,6 +729,13 @@ export default async function DataPage({
           {copy.cta_btn} &rarr;
         </Link>
       </div>
+
+      {/* Copyright / data licence (proprietaire, tous droits reserves) */}
+      <p id="data-license" className="text-[11px] text-gray-400 mt-8 text-center leading-relaxed">
+        {l === 'en'
+          ? '© 2026 Tokyo Expat. All data, charts and analysis on this page are proprietary. Reproduction, redistribution, scraping or commercial reuse without prior written permission is prohibited. You may reference individual figures with a clear credit and link to this page.'
+          : '© 2026 Tokyo Expat. Toutes les donnees, graphiques et analyses de cette page sont proprietaires. Toute reproduction, redistribution, extraction automatisee ou reutilisation commerciale sans autorisation ecrite prealable est interdite. Vous pouvez citer un chiffre isole avec un credit clair et un lien vers cette page.'}
+      </p>
     </div>
   )
 }
