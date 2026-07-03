@@ -37,9 +37,9 @@ ASSUME_POSTED_AFTER = dt.timedelta(days=2)   # si pas de preuve email apres 2j, 
 QUEUE = Path(__file__).parent.parent / "outreach" / "reddit_queue.json"
 UTC = dt.timezone.utc
 
-# Meilleur creneau appris de la data (post #1 = mer 20h ET -> 34k vues, audience 60% US)
-TIMING_TIP = ("Meilleur creneau (audience ~60% US): mar-jeu, vise ~8-10h ET ou ~19-21h ET. "
-              "Ton 1er post a 20h ET = 34k vues.")
+# Meilleur creneau appris de la data (post #1 = ven 9h JST = jeu 20h ET -> 34k vues, audience 60% US)
+TIMING_TIP = ("Meilleur creneau (audience ~60% US): poste ~9h JST en semaine "
+              "(= ~20h ET, soiree US). Ton 1er post (ven 9h JST) = 34k vues.")
 
 
 def now():

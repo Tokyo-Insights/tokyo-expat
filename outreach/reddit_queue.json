@@ -1,7 +1,7 @@
 {
   "_comment": "File de munitions Reddit. status: todo (pas d'asset) / ready (pret a poster) / posted. Le reminder pioche la prochaine 'ready', rappelle via Telegram, detecte auto le post (email AutoMod OC) et avance. Cadence = POSTS_PER_WEEK dans reddit_munition_reminder.py.",
   "state": {
-    "last_posted_utc": "2026-07-03T00:20:00Z",
+    "last_posted_utc": "2026-07-03T00:00:00Z",
     "awaiting_id": null,
     "awaiting_reminded_utc": null,
     "last_reminded_date": null
@@ -14,7 +14,8 @@
       "title": "[OC] Median rent for a 1K studio near 50 Tokyo stations (2026)",
       "oc_comment": "Source: Aggregated from ~500,000 active rental listings scraped from major Japanese rental portals (deduplicated), filtered to Tokyo's 23 wards. I took the median monthly rent for a 1K layout near each of 50 major stations.\n\nTool: Python (pandas) for the cleaning and medians, matplotlib for the chart.",
       "sub": "dataisbeautiful",
-      "posted_utc": "2026-07-03T00:20:00Z",
+      "posted_utc": "2026-07-03T00:00:00Z",
+      "posted_local": "Fri 09:00 JST = Thu 20:00 ET",
       "views": 34000,
       "upvotes": 21
     },
