@@ -14,3 +14,5 @@ Thumbs.db
 
 # Google service account credentials (sensitive)
 scripts/ga4-credentials.json
+scripts/ga4_service_account.json
+scripts/*service_account*.json
