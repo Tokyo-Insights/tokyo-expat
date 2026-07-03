@@ -16,3 +16,6 @@ Thumbs.db
 scripts/ga4-credentials.json
 scripts/ga4_service_account.json
 scripts/*service_account*.json
+
+# Secrets (Telegram, Gmail app password, API keys) -- NE JAMAIS committer
+scripts/config.py
