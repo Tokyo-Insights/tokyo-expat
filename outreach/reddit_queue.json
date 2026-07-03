@@ -73,6 +73,18 @@
       "posted_utc": null,
       "views": null,
       "upvotes": null
+    },
+    {
+      "id": "tokyo-price-choropleth",
+      "status": "todo",
+      "png": null,
+      "title": "[OC] Tokyo condo price per m2 by ward, mapped (2025)",
+      "note": "Carte choroplethe des 23 wards coloree par prix/m2. Demande explicite du public r/dataisbeautiful (ils aiment les cartes). Satisfait la critique 'bar chart of geographic data'.",
+      "oc_comment": null,
+      "sub": "dataisbeautiful",
+      "posted_utc": null,
+      "views": null,
+      "upvotes": null
     }
   ]
 }
