@@ -7,6 +7,52 @@ export interface FaqItem {
 // Used by blog/[slug]/page.tsx to inject FAQPage JSON-LD + render visual accordion
 export const faqData: Record<string, FaqItem[]> = {
 
+  'tokyo-condo-price-trends': [
+    {
+      question: 'How much have Tokyo condo prices risen?',
+      answer:
+        'The median used-condo price in Tokyo rose +29.6% per square metre, from 720 000 to 933 333 JPY/m2, between 2021 and 2025, based on 103,933 real MLIT transactions.',
+    },
+    {
+      question: 'Which Tokyo ward\'s prices rose the most?',
+      answer:
+        'Chuo led with +60.3%, followed by Minato (+51.9%) and Shibuya (+41.8%). Central and bayfront wards rose fastest.',
+    },
+    {
+      question: 'Where are Tokyo condos still most affordable?',
+      answer:
+        'The outer wards rose least and stay most accessible, led by Edogawa (+16.4%) and Arakawa (+19.3%), with real rental demand and full train access.',
+    },
+    {
+      question: 'Is this price data reliable?',
+      answer:
+        'It uses 103,933 actual transactions reported to Japan\'s MLIT (the official government source), not asking prices. We track the quarterly median, which reflects the mix of what sold, so read it as market direction.',
+    },
+  ],
+
+  'evolution-prix-immobilier-tokyo': [
+    {
+      question: 'De combien les prix des coproprietes a Tokyo ont-ils augmente ?',
+      answer:
+        'Le prix median d\'une copropriete d\'occasion a Tokyo a augmente de +29.6% au m2, de 720 000 a 933 333 JPY/m2, entre 2021 et 2025, sur 103,933 transactions MLIT reelles.',
+    },
+    {
+      question: 'Quel arrondissement de Tokyo a le plus augmente ?',
+      answer:
+        'Chuo en tete avec +60.3%, suivi de Minato (+51.9%) et Shibuya (+41.8%). Les arrondissements centraux et de la baie ont le plus grimpe.',
+    },
+    {
+      question: 'Ou les coproprietes de Tokyo restent-elles les plus abordables ?',
+      answer:
+        'La peripherie a le moins augmente et reste la plus accessible, menee par Edogawa (+16.4%) et Arakawa (+19.3%), avec une vraie demande locative et un acces ferroviaire complet.',
+    },
+    {
+      question: 'Ces donnees de prix sont-elles fiables ?',
+      answer:
+        'Elles utilisent 103,933 transactions reelles declarees au MLIT japonais (source officielle), pas des prix affiches. Nous suivons la mediane trimestrielle, qui reflete le melange de ce qui s\'est vendu : a lire comme une direction de marche.',
+    },
+  ],
+
   'cheapest-neighbourhoods-tokyo-ranked-by-rent': [
     {
       question: 'What is the cheapest ward to live in Tokyo?',

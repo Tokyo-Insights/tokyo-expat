@@ -11640,6 +11640,118 @@ Si vous preferez confier ces chiffres a quelqu'un qui travaille dans le marche t
 *Donnees : 528,660 annonces actives, 23 arrondissements de Tokyo, 2026. Loyer median 1K en JPY. Mis a jour chaque trimestre.*
     `.trim(),
   },
+  {
+    slug: 'tokyo-condo-price-trends',
+    locale: 'en',
+    title: 'How Tokyo Condo Prices Changed, 2021 to 2025 (Real Transaction Data)',
+    description: 'Tokyo used-condo prices rose +29.6% per square metre from 2021 to 2025, from 103,933 real MLIT transactions. Ward-by-ward, which areas rose most.',
+    date: '2026-07-03',
+    readingTime: '6 min',
+    content: `
+Everyone feels that Tokyo has gotten more expensive. But by how much, and where exactly? This is not an opinion piece. It is built on 103,933 actual condominium sales reported to the Japanese government (MLIT), from 2021 to 2025, so you can see the real trend instead of a headline.
+
+**Quick answer:** The median price of a used condo in Tokyo rose from 720 000 to 933 333 JPY per square metre between 2021 and 2025, a +29.6% increase. The rise was far from even: central wards like Chuo (+60.3%) and Minato (+51.9%) climbed the most, while outer wards like Edogawa (+16.4%) rose the least. The gap between the centre and the rest widened.
+
+## Tokyo condo prices, 2021 to 2025
+Median transaction price per square metre, used condominiums, across all 23 wards:
+
+- 2021: 720 000 JPY/m2
+- 2025: 933 333 JPY/m2
+- Change: +29.6% over 4 years
+
+The curve is remarkably steady quarter after quarter. This is not a speculative spike, it is a sustained repricing of Tokyo real estate, driven by a weak yen, foreign demand, low interest rates and limited central supply.
+
+## The wards that rose the most
+Where the increase concentrated (median JPY per m2, 2021 vs 2025):
+
+- **Chuo** +60.3% (1 081 176 -> 1 733 333 JPY/m2)
+- **Minato** +51.9% (1 228 571 -> 1 866 666 JPY/m2)
+- **Shibuya** +41.8% (1 108 391 -> 1 571 428 JPY/m2)
+- **Chiyoda** +34.8% (1 236 363 -> 1 666 666 JPY/m2)
+- **Koto** +33.3% (800 000 -> 1 066 666 JPY/m2)
+- **Sumida** +29.8% (714 285 -> 927 272 JPY/m2)
+
+Central and bayfront wards led. A 60 m2 apartment in Chuo went from roughly 64 870 560 to 103 999 980 JPY on these medians, a gap of tens of millions of yen in four years.
+
+## The wards that rose the least
+Prices went up almost everywhere, but the outer wards stayed far more accessible:
+
+- **Edogawa** +16.4% (528 571 -> 615 384 JPY/m2)
+- **Arakawa** +19.3% (670 588 -> 800 000 JPY/m2)
+- **Bunkyo** +19.4% (1 038 181 -> 1 240 000 JPY/m2)
+- **Adachi** +20.0% (461 538 -> 553 846 JPY/m2)
+- **Ota** +21.6% (672 727 -> 818 181 JPY/m2)
+- **Nerima** +21.6% (600 000 -> 729 411 JPY/m2)
+
+If your budget is fixed, this is where it stretches furthest, and where the entry point into Tokyo ownership is still realistic.
+
+## What this means if you are buying
+- **The centre is pricing many buyers out.** If you want central Tokyo, the window to buy cheaply has largely closed; you are buying into a proven, liquid market at a premium.
+- **The outer wards are the value play.** Lower price per m2, milder appreciation, but real rental demand and full train access.
+- **Rent, then buy, is a valid strategy.** See where you can afford to rent first in our [cheapest Tokyo neighbourhoods ranking](/en/blog/cheapest-neighbourhoods-tokyo-ranked-by-rent), and explore live rents in the [Tokyo Rent Index](/en/data).
+- **Median hides the mix.** These figures track the median transaction each quarter, so a shift in what sells can move the number; treat them as a market direction, not a valuation of your specific unit.
+
+If you want someone inside the Tokyo market to turn these trends into an actual purchase or rental, see [how we work](/en/contact).
+
+*Data: 103,933 used-condo transactions reported to MLIT (Japan Ministry of Land), Tokyo 23 wards, 2021Q1 to 2025Q3. Median price per m2 in JPY. Updated as new MLIT data is released.*
+    `.trim(),
+  },
+  {
+    slug: 'evolution-prix-immobilier-tokyo',
+    locale: 'fr',
+    title: 'Evolution des prix immobiliers a Tokyo, 2021 a 2025 (donnees reelles)',
+    description: 'Le prix des coproprietes d\'occasion a Tokyo a augmente de +29.6% au m2 de 2021 a 2025, sur 103,933 transactions MLIT reelles. Arrondissement par arrondissement.',
+    date: '2026-07-03',
+    readingTime: '6 min',
+    content: `
+Tout le monde sent que Tokyo est devenue plus chere. Mais de combien, et ou exactement ? Ceci n'est pas un billet d'opinion. C'est bati sur 103,933 ventes reelles de coproprietes declarees au gouvernement japonais (MLIT), de 2021 a 2025, pour voir la vraie tendance plutot qu'un titre de presse.
+
+**Reponse rapide :** Le prix median d'une copropriete d'occasion a Tokyo est passe de 720 000 a 933 333 JPY le metre carre entre 2021 et 2025, soit +29.6%. La hausse a ete tres inegale : les arrondissements centraux comme Chuo (+60.3%) et Minato (+51.9%) ont le plus grimpe, tandis que la peripherie comme Edogawa (+16.4%) a le moins bouge. L'ecart entre le centre et le reste s'est creuse.
+
+## Les prix des coproprietes a Tokyo, 2021 a 2025
+Prix median de transaction au metre carre, coproprietes d'occasion, sur les 23 arrondissements :
+
+- 2021 : 720 000 JPY/m2
+- 2025 : 933 333 JPY/m2
+- Variation : +29.6% sur 4 ans
+
+La courbe est remarquablement reguliere, trimestre apres trimestre. Ce n'est pas un pic speculatif, c'est une revalorisation durable de l'immobilier tokyoite, portee par un yen faible, la demande etrangere, des taux bas et une offre centrale limitee.
+
+## Les arrondissements qui ont le plus augmente
+La ou la hausse s'est concentree (JPY median par m2, 2021 vs 2025) :
+
+- **Chuo** +60.3% (1 081 176 -> 1 733 333 JPY/m2)
+- **Minato** +51.9% (1 228 571 -> 1 866 666 JPY/m2)
+- **Shibuya** +41.8% (1 108 391 -> 1 571 428 JPY/m2)
+- **Chiyoda** +34.8% (1 236 363 -> 1 666 666 JPY/m2)
+- **Koto** +33.3% (800 000 -> 1 066 666 JPY/m2)
+- **Sumida** +29.8% (714 285 -> 927 272 JPY/m2)
+
+Les arrondissements centraux et de la baie sont en tete. Un appartement de 60 m2 a Chuo est passe d'environ 64 870 560 a 103 999 980 JPY sur ces medianes, un ecart de dizaines de millions de yens en quatre ans.
+
+## Les arrondissements qui ont le moins augmente
+Les prix ont monte presque partout, mais la peripherie reste bien plus accessible :
+
+- **Edogawa** +16.4% (528 571 -> 615 384 JPY/m2)
+- **Arakawa** +19.3% (670 588 -> 800 000 JPY/m2)
+- **Bunkyo** +19.4% (1 038 181 -> 1 240 000 JPY/m2)
+- **Adachi** +20.0% (461 538 -> 553 846 JPY/m2)
+- **Ota** +21.6% (672 727 -> 818 181 JPY/m2)
+- **Nerima** +21.6% (600 000 -> 729 411 JPY/m2)
+
+Si votre budget est fixe, c'est la qu'il va le plus loin, et ou le ticket d'entree dans la propriete tokyoite reste realiste.
+
+## Ce que cela veut dire si vous achetez
+- **Le centre exclut beaucoup d'acheteurs.** Si vous visez le centre de Tokyo, la fenetre pour acheter bon marche est largement fermee ; vous entrez dans un marche liquide et eprouve, mais au prix fort.
+- **La peripherie est le bon calcul.** Prix au m2 plus bas, appreciation plus douce, mais vraie demande locative et acces complet au reseau ferroviaire.
+- **Louer d'abord, acheter ensuite reste une strategie valable.** Voyez ou vous pouvez vous permettre de louer dans notre [classement des quartiers les moins chers](/fr/blog/quartiers-tokyo-moins-chers-classement-loyers), et explorez les loyers en direct dans l'[Indice des loyers de Tokyo](/fr/data).
+- **La mediane cache le melange.** Ces chiffres suivent la transaction mediane de chaque trimestre : un changement dans ce qui se vend peut deplacer le chiffre ; voyez-y une direction de marche, pas la valeur de votre bien precis.
+
+Si vous voulez que quelqu'un du marche tokyoite transforme ces tendances en achat ou location reel, voyez [comment nous travaillons](/fr/contact).
+
+*Donnees : 103,933 transactions de coproprietes d'occasion declarees au MLIT (ministere japonais du Territoire), 23 arrondissements de Tokyo, 2021Q1 a 2025Q3. Prix median au m2 en JPY. Mis a jour a chaque nouvelle publication MLIT.*
+    `.trim(),
+  },
 ]
 
 // Mapping FR slug -> EN slug (articles jumeaux pour hreflang)
