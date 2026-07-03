@@ -1,0 +1,77 @@
+{
+  "_comment": "File de munitions Reddit. status: todo (pas d'asset) / ready (pret a poster) / posted. Le reminder pioche la prochaine 'ready', rappelle via Telegram, detecte auto le post (email AutoMod OC) et avance. Cadence = POSTS_PER_WEEK dans reddit_munition_reminder.py.",
+  "state": {
+    "last_posted_utc": "2026-07-03T00:20:00Z",
+    "awaiting_id": null,
+    "awaiting_reminded_utc": null,
+    "last_reminded_date": null
+  },
+  "munitions": [
+    {
+      "id": "rent-by-station",
+      "status": "posted",
+      "png": "outreach/tokyo-rent-by-station.png",
+      "title": "[OC] Median rent for a 1K studio near 50 Tokyo stations (2026)",
+      "oc_comment": "Source: Aggregated from ~500,000 active rental listings scraped from major Japanese rental portals (deduplicated), filtered to Tokyo's 23 wards. I took the median monthly rent for a 1K layout near each of 50 major stations.\n\nTool: Python (pandas) for the cleaning and medians, matplotlib for the chart.",
+      "sub": "dataisbeautiful",
+      "posted_utc": "2026-07-03T00:20:00Z",
+      "views": 34000,
+      "upvotes": 21
+    },
+    {
+      "id": "price-trends-ward",
+      "status": "ready",
+      "png": "outreach/tokyo-price-trends.png",
+      "title": "[OC] Tokyo condo prices per m2, 2021 vs 2025, by ward",
+      "oc_comment": "Source: ~100,000 recorded second-hand condominium sale transactions across Tokyo's 23 wards, 2021-2025 (settled sale prices, not asking prices), aggregated to the median price per m2 per ward.\n\nTool: Python (pandas) for the aggregation, matplotlib for the chart.",
+      "sub": "dataisbeautiful",
+      "posted_utc": null,
+      "views": null,
+      "upvotes": null
+    },
+    {
+      "id": "rent-by-line",
+      "status": "todo",
+      "png": null,
+      "title": "[OC] Median rent for a 1K studio by Tokyo train line (2026)",
+      "oc_comment": null,
+      "sub": "dataisbeautiful",
+      "posted_utc": null,
+      "views": null,
+      "upvotes": null
+    },
+    {
+      "id": "price-by-station",
+      "status": "todo",
+      "png": null,
+      "title": "[OC] Tokyo condo price per m2 by station, 2025",
+      "oc_comment": null,
+      "sub": "dataisbeautiful",
+      "posted_utc": null,
+      "views": null,
+      "upvotes": null
+    },
+    {
+      "id": "layout-gap",
+      "status": "todo",
+      "png": null,
+      "title": "[OC] The cost jump from a Tokyo studio to a family flat, by ward (2026)",
+      "oc_comment": null,
+      "sub": "dataisbeautiful",
+      "posted_utc": null,
+      "views": null,
+      "upvotes": null
+    },
+    {
+      "id": "center-premium-over-time",
+      "status": "todo",
+      "png": null,
+      "title": "[OC] Tokyo's centre vs suburbs condo price gap widened, 2021-2025",
+      "oc_comment": null,
+      "sub": "dataisbeautiful",
+      "posted_utc": null,
+      "views": null,
+      "upvotes": null
+    }
+  ]
+}

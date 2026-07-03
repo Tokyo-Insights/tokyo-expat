@@ -66,7 +66,12 @@ python scripts\facebook_buffer_poster.py >> "%LOG_FILE%" 2>&1
 echo [%TIME%] [10/11] Site health canary... >> "%LOG_FILE%"
 python scripts\site_health_canary.py >> "%LOG_FILE%" 2>&1
 
-:: 11. Thursday briefing leger (jeudi uniquement : Buffer status + actions en attente)
+:: 11. Reddit munition reminder (AUTO-REPARANT) : rappelle la prochaine munition data a poster
+::      si >=7j depuis le dernier post (1/sem), detecte auto le post via email AutoMod OC, puis se tait.
+echo [%TIME%] [11/12] Reddit munition reminder (if due)... >> "%LOG_FILE%"
+python scripts\reddit_munition_reminder.py >> "%LOG_FILE%" 2>&1
+
+:: 12. Thursday briefing leger (jeudi uniquement : Buffer status + actions en attente)
 for /f %%d in ('powershell -NoProfile -Command "(Get-Date).DayOfWeek"') do set DOW_DAILY=%%d
 if "%DOW_DAILY%"=="Thursday" (
     echo [%TIME%] [7/7] Thursday briefing... >> "%LOG_FILE%"
