@@ -7,6 +7,52 @@ export interface FaqItem {
 // Used by blog/[slug]/page.tsx to inject FAQPage JSON-LD + render visual accordion
 export const faqData: Record<string, FaqItem[]> = {
 
+  'cheapest-neighbourhoods-tokyo-ranked-by-rent': [
+    {
+      question: 'What is the cheapest ward to live in Tokyo?',
+      answer:
+        'For a 1K studio, the cheapest wards are Edogawa (74 000 JPY median), Adachi and Katsushika, all eastern or outer wards but fully on the train network.',
+    },
+    {
+      question: 'What is the most expensive ward in Tokyo?',
+      answer:
+        'Minato is the most expensive for a 1K studio (140 000 JPY median), followed by Chiyoda and Chuo.',
+    },
+    {
+      question: 'Which Tokyo stations have the cheapest rent?',
+      answer:
+        'Among 50 major stations, the cheapest for a 1K are Kasai (76 000 JPY), Shin-Koiwa and Ayase.',
+    },
+    {
+      question: 'Is this ranking based on real data?',
+      answer:
+        'Yes. It uses the median 1K rent from 528,660 active rental listings across Tokyo, updated quarterly. Median, not average, so a few luxury units do not skew it.',
+    },
+  ],
+
+  'quartiers-tokyo-moins-chers-classement-loyers': [
+    {
+      question: 'Quel est l\'arrondissement le moins cher de Tokyo ?',
+      answer:
+        'Pour un studio 1K, les moins chers sont Edogawa (74 000 JPY median), Adachi et Katsushika, a l\'est ou en peripherie mais bien desservis.',
+    },
+    {
+      question: 'Quel est l\'arrondissement le plus cher de Tokyo ?',
+      answer:
+        'Minato est le plus cher pour un studio 1K (140 000 JPY median), suivi de Chiyoda et Chuo.',
+    },
+    {
+      question: 'Quelles stations de Tokyo ont les loyers les moins chers ?',
+      answer:
+        'Parmi 50 grandes stations, les moins cheres pour un 1K sont Kasai (76 000 JPY), Shin-Koiwa et Ayase.',
+    },
+    {
+      question: 'Ce classement est-il base sur des donnees reelles ?',
+      answer:
+        'Oui. Il utilise le loyer median 1K de 528,660 annonces actives a Tokyo, mis a jour chaque trimestre. Mediane et non moyenne, pour ne pas etre fausse par quelques biens de luxe.',
+    },
+  ],
+
   'why-japanese-landlords-reject-foreigners': [
     {
       question: 'Why do Japanese landlords reject foreign tenants?',
