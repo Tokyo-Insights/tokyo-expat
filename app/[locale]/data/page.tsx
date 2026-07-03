@@ -2,6 +2,8 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 import type { Locale } from '@/lib/i18n'
 import rentIndex from '@/lib/tokyoRentIndex.json'
+import priceTrends from '@/lib/tokyoPriceTrends.json'
+import AffordabilityTool from '@/components/AffordabilityTool'
 
 export async function generateMetadata({
   params,
@@ -161,6 +163,21 @@ const stationData = (rentIndex.stations as unknown as StationRent[])
     tier: tierFor1K(s.rents['1K']?.median),
   }))
 
+// Props pour l'outil d'accessibilite (nom + loyers par layout)
+const affordWards = wardData.map((w) => ({ name: w.ward_fr, r1k: w.r1k, r1ldk: w.r1ldk, r2ldk: w.r2ldk }))
+const affordStations = stationData.map((s) => ({ name: s.station, r1k: s.r1k, r1ldk: s.r1ldk, r2ldk: s.r2ldk }))
+
+// Evolution des prix (transactions reelles enregistrees, 2021 -> present)
+type PtWard = { ward_en: string; median_first: number; median_last: number; pct: number }
+const ptWards = priceTrends.wards as unknown as PtWard[]
+const ptRisers = ptWards.slice(0, 6)
+const ptPct = priceTrends.change_pct_citywide as number
+const ptFirst = priceTrends.median_first as number
+const ptLast = priceTrends.median_last as number
+const ptFromYr = (priceTrends.period_from as string).slice(0, 4)
+const ptToYr = (priceTrends.period_to as string).slice(0, 4)
+const ptTotal = (priceTrends.total_transactions as number).toLocaleString('en-US')
+
 const tierColors: Record<string, string> = {
   premium: 'bg-red-50 text-red-700 border-red-200',
   'mid-high': 'bg-orange-50 text-orange-700 border-orange-200',
@@ -203,14 +220,15 @@ export default async function DataPage({
     dateModified: '2026-06-30',
     inLanguage: l === 'fr' ? 'fr-FR' : 'en-US',
     spatialCoverage: { '@type': 'Place', name: 'Tokyo, Japan' },
-    temporalCoverage: '2026',
-    measurementTechnique: 'Median of deduplicated active listing rents',
+    temporalCoverage: `${ptFromYr}/2026`,
+    measurementTechnique: 'Median of deduplicated active listing rents and of recorded condominium sale transactions',
     variableMeasured: [
       { '@type': 'PropertyValue', name: 'Median monthly rent (JPY)', unitText: 'JPY' },
       { '@type': 'PropertyValue', name: 'Ward' },
       { '@type': 'PropertyValue', name: 'Apartment layout (1R-3LDK)' },
       { '@type': 'PropertyValue', name: 'Train line (27 major Tokyo lines)' },
       { '@type': 'PropertyValue', name: 'Station (50 major Tokyo stations)' },
+      { '@type': 'PropertyValue', name: `Median condo sale price per m2 (JPY), ${ptFromYr}-${ptToYr}`, unitText: 'JPY' },
     ],
     isPartOf: { '@type': 'WebSite', name: 'Tokyo Expat', url: 'https://www.tokyo-expat.com' },
   }
@@ -280,6 +298,11 @@ export default async function DataPage({
           </div>
         ))}
       </div>
+
+      {/* Interactive affordability tool */}
+      <section className="mb-14">
+        <AffordabilityTool locale={l} wards={affordWards} stations={affordStations} />
+      </section>
 
       {/* Ward rent table */}
       <section className="mb-14">
@@ -388,6 +411,64 @@ export default async function DataPage({
             </tbody>
           </table>
         </div>
+      </section>
+
+      {/* Price trends (historical) */}
+      <section className="mb-14">
+        <h2 className="text-2xl font-bold text-[#0f2744] mb-2">
+          {l === 'en' ? 'Tokyo Condo Price Trend (per m2)' : 'Evolution des prix des coproprietes a Tokyo (au m2)'}
+        </h2>
+        <p className="text-xs text-gray-400 mb-6">
+          {l === 'en'
+            ? `Median settled sale price per square metre, used condominiums, from ${ptTotal} real recorded transactions across ${ptFromYr} to ${ptToYr}. Settled prices, not asking prices.`
+            : `Prix de vente median au metre carre, coproprietes d'occasion, sur ${ptTotal} transactions reelles enregistrees de ${ptFromYr} a ${ptToYr}. Prix conclus, pas des prix affiches.`}
+        </p>
+
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
+          {[
+            { value: '+' + ptPct + '%', label: l === 'en' ? `Citywide, ${ptFromYr}-${ptToYr}` : `Tokyo, ${ptFromYr}-${ptToYr}`, hl: true },
+            { value: fmtYen(ptFirst), label: l === 'en' ? `Median ${ptFromYr}` : `Median ${ptFromYr}`, hl: false },
+            { value: fmtYen(ptLast), label: l === 'en' ? `Median ${ptToYr}` : `Median ${ptToYr}`, hl: false },
+            { value: ptRisers[0].ward_en, label: l === 'en' ? `Rose most (+${ptRisers[0].pct}%)` : `Plus forte hausse (+${ptRisers[0].pct}%)`, hl: false },
+          ].map((s) => (
+            <div key={s.label} className={`rounded-xl p-4 text-center border ${s.hl ? 'bg-[#0f2744] border-[#0f2744]' : 'bg-gray-50 border-gray-200'}`}>
+              <div className={`text-xl font-extrabold ${s.hl ? 'text-white' : 'text-[#0f2744]'}`}>{s.value}</div>
+              <div className={`text-xs mt-1 ${s.hl ? 'text-gray-300' : 'text-gray-500'}`}>{s.label}</div>
+            </div>
+          ))}
+        </div>
+
+        <div className="overflow-x-auto rounded-xl border border-gray-200">
+          <table className="w-full text-sm border-collapse">
+            <thead>
+              <tr className="bg-[#0f2744] text-white">
+                <th className="px-4 py-3 text-left font-semibold">{l === 'en' ? 'Ward' : 'Arrondissement'}</th>
+                <th className="px-4 py-3 text-right font-semibold">{ptFromYr} (JPY/m2)</th>
+                <th className="px-4 py-3 text-right font-semibold">{ptToYr} (JPY/m2)</th>
+                <th className="px-4 py-3 text-right font-semibold">{l === 'en' ? 'Change' : 'Variation'}</th>
+              </tr>
+            </thead>
+            <tbody>
+              {ptWards.map((row, i) => (
+                <tr key={row.ward_en} className={i % 2 === 0 ? 'bg-white' : 'bg-gray-50'}>
+                  <td className="px-4 py-3 border-t border-gray-100 font-medium text-[#0f2744]">{row.ward_en}</td>
+                  <td className="px-4 py-3 border-t border-gray-100 text-gray-700 font-mono text-xs text-right">{fmtYen(row.median_first)}</td>
+                  <td className="px-4 py-3 border-t border-gray-100 text-gray-700 font-mono text-xs text-right">{fmtYen(row.median_last)}</td>
+                  <td className="px-4 py-3 border-t border-gray-100 text-right">
+                    <span className={`text-xs font-semibold px-2 py-0.5 rounded-full ${row.pct >= 40 ? 'bg-red-50 text-red-700' : row.pct >= 25 ? 'bg-orange-50 text-orange-700' : 'bg-green-50 text-green-700'}`}>
+                      +{row.pct}%
+                    </span>
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <p className="text-[11px] text-gray-400 mt-3">
+          {l === 'en'
+            ? 'Median reflects the mix of what sold each quarter; read as market direction, not a valuation of a specific unit.'
+            : 'La mediane reflete le melange de ce qui s\'est vendu chaque trimestre ; a lire comme une direction de marche, pas la valeur d\'un bien precis.'}
+        </p>
       </section>
 
       {/* Housing types comparison */}
