@@ -29,6 +29,7 @@ PAGES = [
     "/en", "/fr",
     "/en/data", "/en/services", "/en/contact",
     "/en/blog/furnished-apartment-tokyo-top-5-expats",
+    "/og?title=canary&locale=en",  # image OG: detecte si le middleware la re-casse (redirect->404)
     "/sitemap.xml", "/robots.txt",
 ]
 GA_ID = "G-NL25TL3LDG"
