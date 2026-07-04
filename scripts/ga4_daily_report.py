@@ -99,6 +99,12 @@ def main():
     pages = report(token, [yest], ["screenPageViews"], ["pagePath"], "screenPageViews", 5)
     countries = report(token, [yest], ["activeUsers"], ["country"], "activeUsers", 6)
     sources = report(token, [yest], ["sessions"], ["sessionDefaultChannelGroup"], "sessions", 4)
+    # Loop 2 (GEO): detecter les visites venues des IA = mesure de la citation par les IA
+    ai_r = report(token, [yest], ["sessions"], ["sessionSource"], "sessions", 30)
+    AI_PAT = ("chatgpt", "openai", "perplexity", "gemini", "bard", "copilot", "claude",
+              "ai assistant", "you.com", "phind", "poe.com", "bing chat")
+    ai_rows = [(s, v) for s, v in rows(ai_r, 30) if any(p in (s or "").lower() for p in AI_PAT)]
+    ai_total = sum(int(v) for _, v in ai_rows)
     ev = report(token, [yest], ["eventCount"], ["eventName"], "eventCount", 25)
     events = {r["dimensionValues"][0]["value"]: int(r["metricValues"][0]["value"]) for r in ev.get("rows", [])}
     signups = events.get("form_submit", 0) + events.get("generate_lead", 0)
@@ -111,9 +117,10 @@ def main():
         "",
         "<b>Top pays</b>: " + ", ".join(f"{c} ({v})" for c, v in rows(countries)),
         "<b>Top sources</b>: " + ", ".join(f"{s} ({v})" for s, v in rows(sources, 4)),
-        "",
-        "<b>Top pages</b>:",
     ]
+    if ai_total:
+        L.append(f"\U0001F916 <b>IA (GEO)</b>: {ai_total} session(s) via " + ", ".join(f"{s}" for s, _ in ai_rows[:4]))
+    L += ["", "<b>Top pages</b>:"]
     for p, v in rows(pages, 5):
         L.append(f"  {p[:38]} ({v})")
     if signups:
