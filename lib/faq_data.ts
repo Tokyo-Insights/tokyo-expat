@@ -7,6 +7,150 @@ export interface FaqItem {
 // Used by blog/[slug]/page.tsx to inject FAQPage JSON-LD + render visual accordion
 export const faqData: Record<string, FaqItem[]> = {
 
+  'tokyo-rent-vs-world-cities': [
+    {
+      question: 'Is Tokyo really cheaper than New York or London?',
+      answer:
+        'Yes, by a wide margin for renting. A central Tokyo studio runs about US$580 to US$900, versus US$3,000+ in New York and around US$2,000 in London. The weak yen and abundant supply are the main reasons.',
+    },
+    {
+      question: 'How much is rent in Tokyo in US dollars?',
+      answer:
+        'A 1K studio ranges from about US$480 (outer wards like Edogawa) to US$900 (central Minato) at roughly 160 JPY per dollar, based on 528,660 active listings.',
+    },
+    {
+      question: 'Why is Tokyo rent so cheap right now?',
+      answer:
+        'Three reasons: a very weak yen (about 160 to the dollar), Tokyo\'s steady new construction keeping supply high, and compact but efficient apartment layouts.',
+    },
+  ],
+
+  'loyers-tokyo-vs-grandes-villes': [
+    {
+      question: 'Tokyo est-elle vraiment moins chere que New York ou Londres ?',
+      answer:
+        'Oui, de loin, pour louer. Un studio central a Tokyo coute environ 580 a 900 US$, contre plus de 3 000 US$ a New York et environ 2 000 US$ a Londres. Le yen faible et l\'offre abondante en sont les causes.',
+    },
+    {
+      question: 'Combien coute un loyer a Tokyo en dollars ?',
+      answer:
+        'Un studio 1K va d\'environ 480 US$ (peripherie comme Edogawa) a 900 US$ (Minato central) au taux d\'environ 160 JPY par dollar, sur 528,660 annonces actives.',
+    },
+    {
+      question: 'Pourquoi les loyers de Tokyo sont-ils si bas en ce moment ?',
+      answer:
+        'Trois raisons : un yen tres faible (environ 160 pour un dollar), la construction neuve continue qui maintient l\'offre haute, et des logements compacts mais efficaces.',
+    },
+  ],
+
+  'japanese-apartment-layouts-explained': [
+    {
+      question: 'What does 1K mean in a Japanese apartment?',
+      answer:
+        '1K means one room plus a separate small kitchen (the K). It is essentially a studio, usually around 20 to 25 square metres, designed for one person.',
+    },
+    {
+      question: 'What is the difference between 1K and 1LDK?',
+      answer:
+        'A 1K is one room with a small separate kitchen (single person). A 1LDK adds a proper combined living, dining and kitchen area alongside the bedroom, which suits a couple and costs roughly double.',
+    },
+    {
+      question: 'What layout is best for a couple in Tokyo?',
+      answer:
+        'A 1LDK is the sweet spot for a couple: one bedroom plus a real living-dining-kitchen, usually 30 to 45 square metres.',
+    },
+  ],
+
+  'types-appartements-japonais-expliques': [
+    {
+      question: 'Que signifie 1K dans un appartement japonais ?',
+      answer:
+        '1K signifie une piece plus une petite cuisine separee (le K). C\'est essentiellement un studio, en general 20 a 25 m2, concu pour une personne.',
+    },
+    {
+      question: 'Quelle est la difference entre 1K et 1LDK ?',
+      answer:
+        'Un 1K, c\'est une piece avec une petite cuisine separee (une personne). Un 1LDK ajoute un vrai espace salon-repas-cuisine a cote de la chambre, ideal pour un couple, et coute environ le double.',
+    },
+    {
+      question: 'Quelle configuration pour un couple a Tokyo ?',
+      answer:
+        'Un 1LDK est ideal pour un couple : une chambre plus un vrai salon-repas-cuisine, en general 30 a 45 m2.',
+    },
+  ],
+
+  'tokyo-rent-building-age': [
+    {
+      question: 'Does newer construction cost more in Tokyo?',
+      answer:
+        'Yes. A newly built (post-2015) apartment typically rents 20 to 40 percent above an older unit at the same station for the same layout.',
+    },
+    {
+      question: 'What is the 1981 rule for Japanese apartments?',
+      answer:
+        '1981 is when Japan strengthened its earthquake building code. Buildings from before 1981 (kyu-taishin) predate modern seismic standards and rent for less, so check the standard carefully.',
+    },
+    {
+      question: 'Why is the median rent lower than new-build prices?',
+      answer:
+        'A median pools all building ages together. New construction sits above the median, older stock below it, so treat the median as a typical rent, not the price of a new unit.',
+    },
+  ],
+
+  'loyer-tokyo-age-batiment': [
+    {
+      question: 'Le neuf coute-t-il plus cher a Tokyo ?',
+      answer:
+        'Oui. Un appartement neuf (apres 2015) se loue en general 20 a 40 pour cent au-dessus d\'un logement ancien a la meme station pour la meme configuration.',
+    },
+    {
+      question: 'C\'est quoi la regle de 1981 pour les appartements japonais ?',
+      answer:
+        '1981, c\'est l\'annee ou le Japon a renforce son code parasismique. Les batiments d\'avant 1981 (kyu-taishin) sont anterieurs aux normes modernes et se louent moins cher : verifiez bien la norme.',
+    },
+    {
+      question: 'Pourquoi le loyer median est-il plus bas que le neuf ?',
+      answer:
+        'Un median melange tous les ages de batiments. Le neuf est au-dessus du median, l\'ancien en dessous : voyez le median comme un loyer typique, pas le prix du neuf.',
+    },
+  ],
+
+  'tokyo-most-exclusive-neighbourhoods': [
+    {
+      question: 'What are the most exclusive neighbourhoods in Tokyo?',
+      answer:
+        'Azabu (Nishi-Azabu, Azabu-Juban), Hiroo, Daikanyama, Nakameguro, Omotesando and Shoto, mostly in Minato and Shibuya wards, are Tokyo\'s most prestigious rental areas.',
+    },
+    {
+      question: 'How much does luxury rent cost in Tokyo?',
+      answer:
+        'In prime pockets a 1K can exceed 150,000 JPY and a family 1LDK or 2LDK reaches 300,000 to 600,000 JPY a month. Minato is the priciest ward overall.',
+    },
+    {
+      question: 'Why are wealthy areas missing from rent rankings?',
+      answer:
+        'Prime areas are low-volume and turn over slowly, so they often lack enough active listings for a reliable median. Rankings show typical rents near major stations, not the top.',
+    },
+  ],
+
+  'quartiers-huppes-tokyo': [
+    {
+      question: 'Quels sont les quartiers les plus huppes de Tokyo ?',
+      answer:
+        'Azabu (Nishi-Azabu, Azabu-Juban), Hiroo, Daikanyama, Nakameguro, Omotesando et Shoto, surtout dans Minato et Shibuya, sont les quartiers de location les plus prestigieux de Tokyo.',
+    },
+    {
+      question: 'Combien coute une location de luxe a Tokyo ?',
+      answer:
+        'Dans les poches prime, un 1K peut depasser 150 000 JPY et un 1LDK ou 2LDK familial atteint 300 000 a 600 000 JPY par mois. Minato est l\'arrondissement le plus cher.',
+    },
+    {
+      question: 'Pourquoi les quartiers riches manquent dans les classements ?',
+      answer:
+        'Les zones prime sont a faible volume et tournent lentement : elles manquent souvent d\'assez d\'annonces pour un median fiable. Les classements montrent des loyers typiques pres des grandes stations, pas le sommet.',
+    },
+  ],
+
   'tokyo-condo-price-trends': [
     {
       question: 'How much have Tokyo condo prices risen?',
