@@ -30,6 +30,7 @@ if sys.stdout.encoding and sys.stdout.encoding.lower() not in ("utf-8", "utf8"):
 from config import GMAIL_ADDRESS, GMAIL_APP_PASSWORD
 
 LIST_ID = 3
+EXCLUDE = {"test@example.com", "test-debug@tokyo-insights.com", "info.tokyoinsights+drip@gmail.com"}
 LOG = Path(__file__).parent / "data" / "subscriber_feedback_log.jsonl"
 ENV = Path(__file__).parent / ".env"
 # marqueur unique dans le sujet -> permet de recolter les reponses ("Re: ...")
@@ -115,6 +116,8 @@ def cmd_send(live):
     print(f"{'[LIVE]' if live else '[DRY-RUN]'} Liste {LIST_ID}: {len(contacts)} abonnes")
     for c in contacts:
         email_addr = c.get("email")
+        if email_addr in EXCLUDE:
+            continue
         lang = str((c.get("attributes") or {}).get("LANGUE", "en")).lower()
         lang = "fr" if lang == "fr" else "en"
         if live:

@@ -75,6 +75,10 @@ python scripts\reddit_munition_reminder.py >> "%LOG_FILE%" 2>&1
 echo [%TIME%] [11b] Reddit comment harvester... >> "%LOG_FILE%"
 python scripts\reddit_comment_harvester.py >> "%LOG_FILE%" 2>&1
 
+:: 11c. Feedback abonnes harvester (Loop 4) : recolte les reponses des abonnes (si envoi lance)
+echo [%TIME%] [11c] Subscriber feedback harvester... >> "%LOG_FILE%"
+python scripts\subscriber_feedback.py --harvest >> "%LOG_FILE%" 2>&1
+
 :: 12. Rapport GA4 (INACTIF tant que la cle compte de service n'est pas posee -> aucune erreur)
 echo [%TIME%] [12/13] GA4 daily report... >> "%LOG_FILE%"
 python scripts\ga4_daily_report.py >> "%LOG_FILE%" 2>&1
