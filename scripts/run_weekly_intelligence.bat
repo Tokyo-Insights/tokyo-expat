@@ -31,6 +31,10 @@ cd /d "%PROJECT_DIR%"
 echo [%TIME%] [1/19] Keyword tracking... >> "%LOG_FILE%"
 python scripts\keyword_tracker.py --with-report >> "%LOG_FILE%" 2>&1
 
+:: 1b. BOUCLE recherche->article : opportunites SEO (requetes haute intention ou on ranke mal)
+echo [%TIME%] [1b] GSC opportunity miner... >> "%LOG_FILE%"
+python scripts\gsc_opportunity_miner.py >> "%LOG_FILE%" 2>&1
+
 :: 2. Content gap detector (~30s)
 echo [%TIME%] [2/19] Content gap analysis... >> "%LOG_FILE%"
 python scripts\content_gap.py >> "%LOG_FILE%" 2>&1
