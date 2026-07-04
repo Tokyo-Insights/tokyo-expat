@@ -1,48 +1,65 @@
 {
-  "generated_at": "2026-07-02",
-  "period": "2026-06-25 to 2026-07-02",
+  "generated_at": "2026-07-04",
+  "period": "2026-06-27 to 2026-07-04",
   "this_week": {
-    "sessions": 2,
-    "users": 2,
-    "pageviews": 2,
-    "bounce_rate": 1.0
+    "sessions": 82,
+    "users": 76,
+    "pageviews": 131,
+    "bounce_rate": 0.7317073170731707
   },
   "prev_week": {
-    "sessions": 77,
-    "users": 62,
-    "pageviews": 140,
-    "bounce_rate": 0.7402597402597403
+    "sessions": 62,
+    "users": 52,
+    "pageviews": 112,
+    "bounce_rate": 0.7419354838709677
   },
   "changes": {
-    "sessions": "-97%",
-    "users": "-97%",
-    "pageviews": "-99%"
+    "sessions": "+32%",
+    "users": "+46%",
+    "pageviews": "+17%"
   },
   "top_pages": [
     [
-      "/en/blog/japanese-language-schools-tokyo-guide",
-      "1"
+      "/en/data",
+      "38"
     ],
     [
-      "/en/blog/residence-card-japan-zairyu-card-guide",
-      "1"
+      "/fr/data",
+      "16"
+    ],
+    [
+      "/en",
+      "11"
+    ],
+    [
+      "/fr",
+      "8"
+    ],
+    [
+      "/en/services",
+      "7"
     ]
   ],
   "top_sources": [
     [
       "Direct",
-      "2"
+      "56"
+    ],
+    [
+      "Organic Search",
+      "15"
     ],
     [
       "Unassigned",
-      "1"
+      "5"
     ]
   ],
   "form_submits_week": 0,
   "events": {
-    "first_visit": 2,
-    "page_view": 2,
-    "session_start": 2,
-    "user_engagement": 2
+    "page_view": 131,
+    "session_start": 80,
+    "first_visit": 74,
+    "user_engagement": 37,
+    "scroll": 17
   }
 }
