@@ -26,6 +26,7 @@ export async function GET(request: NextRequest) {
         {/* Top bar */}
         <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
           <div style={{
+            display: 'flex',
             backgroundColor: '#e84141',
             borderRadius: '6px',
             padding: '6px 14px',
