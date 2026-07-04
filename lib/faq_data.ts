@@ -7,6 +7,52 @@ export interface FaqItem {
 // Used by blog/[slug]/page.tsx to inject FAQPage JSON-LD + render visual accordion
 export const faqData: Record<string, FaqItem[]> = {
 
+  'furnished-apartments-tokyo-guide': [
+    {
+      question: 'How much is a furnished apartment in Tokyo?',
+      answer:
+        'A furnished apartment in Tokyo typically costs 80,000 to 200,000 JPY a month (about US$500 to US$1,300), often with bills included. Share house rooms start around 35,000 JPY.',
+    },
+    {
+      question: 'Can I rent a furnished apartment in Tokyo without a guarantor?',
+      answer:
+        'Yes. Most furnished apartments, monthly mansions and share houses do not require a Japanese guarantor or a Japanese bank account, which is why they are the easiest option for foreigners.',
+    },
+    {
+      question: 'Are there long-term furnished apartments in Tokyo?',
+      answer:
+        'Yes. Many monthly mansions and share houses offer long-term rates that fall the longer you commit, and plenty of foreigners live in them for years.',
+    },
+    {
+      question: 'Is a furnished apartment cheaper than unfurnished in Tokyo?',
+      answer:
+        'The monthly rent is higher, but a furnished apartment avoids the 4 to 6 months of upfront costs and the furniture bill of a standard lease, so for stays under two years it is usually cheaper overall.',
+    },
+  ],
+
+  'guide-appartements-meubles-tokyo': [
+    {
+      question: 'Combien coute un appartement meuble a Tokyo ?',
+      answer:
+        'Un appartement meuble a Tokyo coute en general 80 000 a 200 000 JPY par mois (environ 500 a 1 300 US$), souvent charges incluses. Les chambres en share house demarrent vers 35 000 JPY.',
+    },
+    {
+      question: 'Peut-on louer un meuble a Tokyo sans garant ?',
+      answer:
+        'Oui. La plupart des meubles, monthly mansions et share houses n\'exigent ni garant japonais ni compte bancaire japonais, ce qui en fait l\'option la plus simple pour les etrangers.',
+    },
+    {
+      question: 'Existe-t-il des meubles longue duree a Tokyo ?',
+      answer:
+        'Oui. Beaucoup de monthly mansions et de share houses proposent des tarifs longue duree qui baissent avec l\'engagement, et de nombreux etrangers y vivent des annees.',
+    },
+    {
+      question: 'Un meuble est-il moins cher qu\'un vide a Tokyo ?',
+      answer:
+        'Le loyer mensuel est plus eleve, mais le meuble evite les 4 a 6 mois de frais d\'entree et l\'achat de meubles d\'un bail classique : pour un sejour de moins de deux ans, c\'est en general moins cher au total.',
+    },
+  ],
+
   'tokyo-rent-vs-world-cities': [
     {
       question: 'Is Tokyo really cheaper than New York or London?',
