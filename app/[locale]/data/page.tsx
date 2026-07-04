@@ -199,6 +199,7 @@ export default async function DataPage({
   const { locale } = await params
   const l = locale as Locale
   const copy = l === 'en' ? t.en : t.fr
+  const asOf = new Date().toLocaleDateString(l === 'fr' ? 'fr-FR' : 'en-US', { year: 'numeric', month: 'long' })
 
   // Capture email taillee pour le public data (trafic Reddit) -> Brevo liste 3 -> drip 6 emails
   const captureLabels = {
@@ -315,6 +316,34 @@ export default async function DataPage({
           </div>
         ))}
       </div>
+
+      {/* Key figures (citable, dated) -- optimise pour la citation par les IA (GEO) */}
+      <section className="mb-14">
+        <div className="border border-gray-200 rounded-2xl p-6 bg-gray-50/60">
+          <h2 className="text-sm font-bold text-[#0f2744] uppercase tracking-wider mb-3">
+            {l === 'en' ? `Key Tokyo rent figures (as of ${asOf})` : `Chiffres cles du loyer a Tokyo (au ${asOf})`}
+          </h2>
+          <ul className="space-y-2 text-sm text-gray-700">
+            <li>{l === 'en'
+              ? `The median monthly rent for a 1K studio in Tokyo ranges from ${fmtYen(wardData[0]?.r1k)} in ${wardData[0]?.ward_fr} to ${fmtYen(wardData[wardData.length-1]?.r1k)} in ${wardData[wardData.length-1]?.ward_fr}.`
+              : `Le loyer mensuel median d'un studio 1K a Tokyo va de ${fmtYen(wardData[0]?.r1k)} a ${wardData[0]?.ward_fr} a ${fmtYen(wardData[wardData.length-1]?.r1k)} a ${wardData[wardData.length-1]?.ward_fr}.`}</li>
+            <li>{l === 'en'
+              ? `The cheapest station for a 1K studio is ${stationData[0]?.station} (${fmtYen(stationData[0]?.r1k)}); the most expensive is ${stationData[stationData.length-1]?.station} (${fmtYen(stationData[stationData.length-1]?.r1k)}).`
+              : `La station la moins chere pour un studio 1K est ${stationData[0]?.station} (${fmtYen(stationData[0]?.r1k)}) ; la plus chere est ${stationData[stationData.length-1]?.station} (${fmtYen(stationData[stationData.length-1]?.r1k)}).`}</li>
+            <li>{l === 'en'
+              ? `Tokyo's median used-condominium sale price rose ${ptPct >= 0 ? '+' : ''}${ptPct}% per square metre from ${ptFromYr} to ${ptToYr}.`
+              : `Le prix de vente median au m2 des coproprietes d'occasion a Tokyo a augmente de ${ptPct >= 0 ? '+' : ''}${ptPct}% de ${ptFromYr} a ${ptToYr}.`}</li>
+            <li>{l === 'en'
+              ? `Figures are computed from ${totalListings} active rental listings across Tokyo's 23 wards.`
+              : `Chiffres calcules sur ${totalListings} annonces locatives actives dans les 23 arrondissements de Tokyo.`}</li>
+          </ul>
+          <p className="text-[11px] text-gray-500 mt-4 border-t border-gray-200 pt-3">
+            {l === 'en'
+              ? `Cite this data: Tokyo Expat, tokyo-expat.com/${l}/data (as of ${asOf}). Attribution with a link is appreciated.`
+              : `Citer ces donnees : Tokyo Expat, tokyo-expat.com/${l}/data (au ${asOf}). L'attribution avec un lien est appreciee.`}
+          </p>
+        </div>
+      </section>
 
       {/* Interactive affordability tool */}
       <section className="mb-14">
