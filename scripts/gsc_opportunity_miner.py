@@ -73,34 +73,79 @@ def opportunity_score(impr, pos):
     return impr * 0.45              # page 4+ = plus dur mais du volume
 
 
+STOPWORDS = {"tokyo", "japan", "in", "the", "a", "an", "of", "for", "to", "near", "my",
+             "is", "are", "best", "and", "with", "how", "what", "you", "your", "on"}
+BLOG_PATH = Path(__file__).parent.parent / "lib" / "blog.ts"
+
+
+def sig(q):
+    """Signature d'une requete = ses mots-cles distinctifs (singularises)."""
+    words = [w[:-1] if w.endswith("s") and len(w) > 4 else w
+             for w in re.findall(r"[a-z]+", q.lower()) if w not in STOPWORDS and len(w) > 2]
+    return frozenset(words)
+
+
+def article_word_sets():
+    """Mots-cles des titres d'articles existants -> savoir si un cluster est deja couvert."""
+    try:
+        txt = BLOG_PATH.read_text(encoding="utf-8")
+    except Exception:
+        return []
+    titles = re.findall(r"title:\s*'([^']+)'", txt)
+    return [set(re.findall(r"[a-z]+", t.lower())) for t in titles]
+
+
+def covered(core, art_sets):
+    """Un article couvre-t-il deja ce cluster ? (>=2 mots-cles en commun)"""
+    return any(len(core & a) >= 2 for a in art_sets)
+
+
 def main():
     do_print = "--print" in sys.argv
     rows = get_queries()
-    opps = []
+    art_sets = article_word_sets()
+
+    # regrouper les requetes par signature (cluster) -> une opportunite = un cluster, pas 10 lignes
+    clusters = {}
     for row in rows:
         q = row["keys"][0]
         impr = int(row["impressions"])
         if impr < MIN_IMPRESSIONS or is_junk(q):
             continue
-        pos = row["position"]
-        clicks = int(row["clicks"])
-        opps.append((opportunity_score(impr, pos), q, impr, clicks, pos))
-    opps.sort(reverse=True)
+        s = sig(q)
+        if not s:
+            continue
+        c = clusters.setdefault(s, {"impr": 0, "clicks": 0, "queries": [], "wpos": 0.0})
+        c["impr"] += impr
+        c["clicks"] += int(row["clicks"])
+        c["wpos"] += row["position"] * impr           # position ponderee par impressions
+        c["queries"].append((q, impr, row["position"]))
 
-    print(f"BOUCLE RECHERCHE->ARTICLE | {len(opps)} opportunites ({DAYS}j)")
-    print(f"{'IMPR':>5} {'CLICS':>5} {'POS':>5}  REQUETE (zone de frappe = pos {STRIKE_LOW}-{STRIKE_HIGH})")
+    ranked = []
+    for s, c in clusters.items():
+        avg_pos = c["wpos"] / c["impr"] if c["impr"] else 99
+        score = opportunity_score(c["impr"], avg_pos)
+        ranked.append((score, s, c["impr"], c["clicks"], avg_pos, c["queries"]))
+    ranked.sort(reverse=True)
+
+    print(f"BOUCLE RECHERCHE->ARTICLE | {len(ranked)} CLUSTERS d'opportunites ({DAYS}j)")
     lines = []
-    for score, q, impr, clicks, pos in opps[:15]:
+    for score, s, impr, clicks, pos, queries in ranked[:12]:
         zone = "🎯" if STRIKE_LOW <= pos <= STRIKE_HIGH else "  "
-        print(f"{impr:>5} {clicks:>5} {pos:>5.1f} {zone} {q}")
-        lines.append(f"{zone} {impr} impr, pos {pos:.0f} : {q}")
+        action = "OPTIMISER (article existe)" if covered(s, art_sets) else "ECRIRE (nouveau)"
+        top_q = max(queries, key=lambda x: x[1])[0]
+        variants = len(queries)
+        label = " ".join(sorted(s))
+        print(f"{zone} {impr:>4} impr | pos {pos:>4.1f} | {variants:>2} variantes | {action}")
+        print(f"       theme: {label[:60]}  (ex: \"{top_q}\")")
+        lines.append(f"{zone} {impr} impr, pos {pos:.0f}, {variants} variantes -> {action}\n   \"{top_q}\"")
 
-    if not do_print and opps:
-        top = "\n".join(lines[:10])
+    if not do_print and ranked:
+        top = "\n".join(lines[:8])
         send_telegram(
-            f"\U0001F50D <b>SEO - opportunites d'articles</b> ({DAYS}j)\n"
-            f"Requetes a haute intention ou tu rankes mal (🎯 = zone de frappe, gagnable):\n\n{top}\n\n"
-            f"-> Demande a Claude d'ecrire/optimiser un article pour les 🎯.")
+            f"\U0001F50D <b>SEO - clusters d'opportunites</b> ({DAYS}j)\n"
+            f"Themes haute intention ou tu rankes mal (🎯 = gagnable, page 2-3):\n\n{top}\n\n"
+            f"-> Demande a Claude d'ECRIRE/OPTIMISER pour les 🎯.")
         print("\n[Telegram envoye]")
 
 
