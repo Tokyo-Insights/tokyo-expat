@@ -23,7 +23,7 @@ Le marché locatif japonais est l'un des plus fermés au monde pour les étrange
 
 Pourtant, des milliers d'expatriés trouvent un logement à Tokyo chaque année. La différence entre ceux qui y arrivent en 2 semaines et ceux qui galèrent 3 mois : la méthode.
 
-**Réponse rapide :** Pour trouver un appartement à Tokyo en tant qu'étranger, ciblez les agences spécialisées internationales et utilisez une société de garantie (garantee company) à la place d'un garant japonais. Les options sans garant les plus rapides sont la share house, le monthly mansion et l'appartement meublé. Préparez votre passeport, votre visa, un justificatif de revenus et une adresse au Japon. Avec la bonne méthode, comptez 2 semaines plutôt que 3 mois.
+**Réponse rapide :** Pour trouver un appartement à Tokyo en tant qu'étranger, ciblez les agences spécialisées internationales et utilisez une société de garantie (garantee company) à la place d'un garant japonais. Les options sans garant les plus rapides sont la share house, le monthly mansion et l'appartement meublé. Notre [guide complet des appartements meublés à Tokyo](/fr/blog/guide-appartements-meubles-tokyo) détaille ces solutions. Préparez votre passeport, votre visa, un justificatif de revenus et une adresse au Japon. Avec la bonne méthode, comptez 2 semaines plutôt que 3 mois.
 
 ## Le problème du garant (hoshounin)
 
@@ -436,7 +436,7 @@ Pour explorer Tokyo et ses quartiers avant de vous installer, [GetYourGuide](htt
     content: `
 Tokyo has one of the most closed rental markets in the world for foreigners. No permanent residency, no Japanese guarantor, no local bank account: most agencies will decline your application before you even visit a property.
 
-**Quick answer:** To rent in Tokyo as a foreigner, start with no-guarantor options (share houses, furnished or monthly mansions) that accept just a passport and visa, or use a bilingual agent plus a guarantor company for a standard lease. Apply remotely before you land, budget 4 to 6 months of upfront costs for a standard lease, and allow 2 to 8 weeks depending on the housing type.
+**Quick answer:** To rent in Tokyo as a foreigner, start with no-guarantor options (share houses, furnished or monthly mansions) that accept just a passport and visa, or use a bilingual agent plus a guarantor company for a standard lease. Apply remotely before you land, budget 4 to 6 months of upfront costs for a standard lease, and allow 2 to 8 weeks depending on the housing type. If you want to skip the guarantor entirely, our [complete guide to furnished apartments in Tokyo](/en/blog/furnished-apartments-tokyo-guide) breaks down every fast move-in option.
 
 Yet thousands of expats find housing in Tokyo every year. The difference between those who settle in two weeks and those who struggle for three months comes down to method.
 
@@ -1003,7 +1003,7 @@ Pour votre couverture sante pendant les demarches administratives, [SafetyWing N
     date: '2026-06-19',
     readingTime: '7 min',
     content: `
-L'un des plus grands obstacles pour un étranger qui cherche un appartement à Tokyo est le garant japonais (hoshounin). La bonne nouvelle : il existe un marché entier de logements meublés conçus spécifiquement pour les étrangers, sans garant obligatoire.
+L'un des plus grands obstacles pour un étranger qui cherche un appartement à Tokyo est le garant japonais (hoshounin). La bonne nouvelle : il existe un marché entier de logements meublés conçus spécifiquement pour les étrangers, sans garant obligatoire. Notre [guide complet des appartements meublés à Tokyo](/fr/blog/guide-appartements-meubles-tokyo) détaille chaque option.
 
 **Réponse rapide :** Oui, on peut louer un appartement meublé à Tokyo sans garant japonais. Les monthly mansions et appartements meublés court terme acceptent les étrangers avec un passeport et un visa, sans garant ni argent-clé, avec emménagement en quelques jours. Comptez 90 000 à 250 000 JPY par mois selon la taille et l'emplacement.
 
@@ -1311,7 +1311,7 @@ For health coverage during your share house stay, [SafetyWing Nomad Insurance](h
     date: '2026-06-19',
     readingTime: '7 min',
     content: `
-The Japanese guarantor requirement is the single biggest barrier for foreigners renting in Tokyo. The good news: an entire segment of the market exists specifically for foreigners who need furnished housing without a Japanese guarantor.
+The Japanese guarantor requirement is the single biggest barrier for foreigners renting in Tokyo. The good news: an entire segment of the market exists specifically for foreigners who need furnished housing without a Japanese guarantor. Our [complete guide to furnished apartments in Tokyo](/en/blog/furnished-apartments-tokyo-guide) walks through every option in detail.
 
 **Quick answer:** Yes, you can rent a furnished apartment in Tokyo without a Japanese guarantor. Monthly mansions and short-term furnished apartments accept foreigners with a passport and visa, no guarantor and no key money, with move-in within days. Expect 90,000 to 250,000 JPY per month depending on size and location.
 
@@ -3053,7 +3053,7 @@ To compare the atmosphere of Tokyo, Osaka and Kyoto for yourself, [GetYourGuide]
     content: `
 L'erreur la plus coûteuse des expatriés qui s'installent à Tokyo est d'arriver sans logement sécurisé. L'hôtel ou le logement temporaire pendant la recherche coûte 150 000 à 300 000 JPY supplémentaires pour les 4 à 8 semaines que prend la recherche en moyenne. C'est entièrement évitable.
 
-**Réponse rapide :** On peut sécuriser un logement à Tokyo depuis l'étranger et éviter des semaines d'hôtel. Présélectionnez des options sans garant (share houses, meublés ou monthly mansions), candidatez en ligne avec passeport et visa, et confirmez par visite virtuelle. Réservez avant d'atterrir, puis réglez carte de résidence et compte bancaire les premiers jours. Vous évitez 150 000 à 300 000 JPY de logement temporaire.
+**Réponse rapide :** On peut sécuriser un logement à Tokyo depuis l'étranger et éviter des semaines d'hôtel. Présélectionnez des options sans garant (share houses, meublés ou monthly mansions), candidatez en ligne avec passeport et visa, et confirmez par visite virtuelle. Notre [guide complet des appartements meublés à Tokyo](/fr/blog/guide-appartements-meubles-tokyo) compare chaque option. Réservez avant d'atterrir, puis réglez carte de résidence et compte bancaire les premiers jours. Vous évitez 150 000 à 300 000 JPY de logement temporaire.
 
 ## Pourquoi chercher depuis l'étranger est plus difficile qu'on ne le pense
 
@@ -3249,7 +3249,7 @@ Pour votre couverture sante pendant les demarches de garant, [SafetyWing Nomad I
     content: `
 The guarantor requirement is one of the most feared obstacles for foreigners looking for an apartment in Japan. In the traditional Japanese rental system, landlords require a personal guarantor, usually Japanese, who commits to paying rent on your behalf if you default. Without a local network, finding such a person is nearly impossible when you first arrive. The good news: the market has evolved, and concrete solutions exist.
 
-**Quick answer:** You do not need a Japanese personal guarantor to rent in Japan. Most foreigners use a guarantor company (hoshou-gaisha), which charges 50 to 100% of one month's rent and covers the landlord if you default. No-guarantor options (share houses, furnished or monthly mansions) skip the requirement entirely and accept a passport and visa.
+**Quick answer:** You do not need a Japanese personal guarantor to rent in Japan. Most foreigners use a guarantor company (hoshou-gaisha), which charges 50 to 100% of one month's rent and covers the landlord if you default. No-guarantor options (share houses, furnished or monthly mansions) skip the requirement entirely and accept a passport and visa. See our [complete guide to furnished apartments in Tokyo](/en/blog/furnished-apartments-tokyo-guide) for how these work.
 
 ## The personal guarantor (保証人 hoshounin): the historical barrier
 
@@ -4643,7 +4643,7 @@ For health coverage upon your September arrival, [SafetyWing Nomad Insurance](ht
 
 **Réponse rapide :** Un appartement meublé à Tokyo (monthly mansion) permet d'emménager vite, sans garant ni argent-clé, avec mobilier, électroménager et souvent internet inclus. Idéal pour les premiers mois d'un expatrié : comptez 90 000 à 250 000 JPY par mois selon la taille et le quartier. On candidate en ligne avec passeport et visa.
 
-Vous arrivez à Tokyo en octobre, mutation professionnelle, nouveau poste, installation longue durée, et vous avez besoin d'un logement **meublé et disponible sous 48h**. Les procédures japonaises standard (garant, hanko, caution) prennent 3 à 6 semaines. Ces 5 options les contournent.
+Vous arrivez à Tokyo en octobre, mutation professionnelle, nouveau poste, installation longue durée, et vous avez besoin d'un logement **meublé et disponible sous 48h**. Les procédures japonaises standard (garant, hanko, caution) prennent 3 à 6 semaines. Ces 5 options les contournent. Pour comprendre comment fonctionne la location meublée à Tokyo, commencez par notre [guide complet des appartements meublés à Tokyo](/fr/blog/guide-appartements-meubles-tokyo).
 
 ## 1. Share houses spécialisées expatriés
 
@@ -4749,7 +4749,7 @@ Pour votre couverture sante pendant la transition, [SafetyWing Nomad Insurance](
 
 **Quick answer:** A furnished apartment in Tokyo (monthly mansion) lets you move in fast, with no guarantor and no key money, and furniture, appliances and often internet included. It is ideal for an expat's first months: expect 90,000 to 250,000 JPY per month depending on size and ward. You apply online with a passport and visa.
 
-Relocating to Tokyo, corporate transfer, new job, long-term move, means facing one of the tightest rental markets in the developed world. Standard Japanese leases require a guarantor, hanko, and 3 to 6 weeks of processing. These 5 options bypass all that.
+Relocating to Tokyo, corporate transfer, new job, long-term move, means facing one of the tightest rental markets in the developed world. Standard Japanese leases require a guarantor, hanko, and 3 to 6 weeks of processing. These 5 options bypass all that. For how furnished rentals actually work in Tokyo, start with our [complete guide to furnished apartments in Tokyo](/en/blog/furnished-apartments-tokyo-guide).
 
 ## 1. Expat-friendly share houses
 
@@ -7882,7 +7882,7 @@ Trouver un appartement meublé à Tokyo est une des premières urgences de tout 
 
 **Réponse rapide :** Pour la plupart des expatriés, la meilleure option d'appartement meublé à Tokyo est la share house (40 000-120 000 JPY/mois, sans garant, installation en une semaine). Pour plus d'intimité, le monthly mansion (80 000-200 000 JPY/mois) offre un studio privé avec une adresse utilisable pour les démarches. Pour un séjour plus long, une agence spécialisée arrange un appartement meublé complet (100 000-300 000 JPY/mois). Aucune de ces options n'exige de garant japonais.
 
-Voici les 5 options réelles que vous avez, avec leurs coûts 2026, leurs avantages et leurs limites.
+Voici les 5 options réelles que vous avez, avec leurs coûts 2026, leurs avantages et leurs limites. Pour le panorama complet au-delà de ces cinq, voyez notre [guide complet des appartements meublés à Tokyo](/fr/blog/guide-appartements-meubles-tokyo).
 
 ## 1. La share house meublée (40 000 à 120 000 JPY/mois)
 
@@ -7992,7 +7992,7 @@ Finding a furnished apartment in Tokyo is one of the first urgent tasks for any 
 
 **Quick answer:** For most expats, the best furnished apartment option in Tokyo is a **share house** (40,000-120,000 JPY/month, no Japanese guarantor, move in within a week). For more privacy, a **monthly mansion** (80,000-200,000 JPY/month) gives you a private studio with an address usable for admin. For longer stays, a specialist agency arranges a **full furnished apartment** (100,000-300,000 JPY/month). None of these require a Japanese guarantor.
 
-Here are the 5 real options available to you, with their 2026 costs, pros, and limits.
+Here are the 5 real options available to you, with their 2026 costs, pros, and limits. For the full picture beyond these five, see our [complete guide to furnished apartments in Tokyo](/en/blog/furnished-apartments-tokyo-guide).
 
 ## 1. Furnished Share House (40,000 to 120,000 JPY/month)
 
@@ -9819,7 +9819,7 @@ To discover the food scene of these upscale residential neighbourhoods, [Arigato
     content: `
 A gaijin house is often the first home a foreigner has in Tokyo. It is cheap, flexible, and skips the obstacles that lock newcomers out of the traditional rental market. Here is exactly how it works in 2026.
 
-**Quick answer:** A gaijin house is a shared residence in Tokyo aimed at foreigners, offering a private furnished room with shared kitchen and bathroom, no Japanese guarantor, no key money, and move-in within days. Rooms run 40,000 to 80,000 JPY/month with utilities often included. It is the fastest and cheapest legal way for a newcomer to get a Tokyo address.
+**Quick answer:** A gaijin house is a shared residence in Tokyo aimed at foreigners, offering a private furnished room with shared kitchen and bathroom, no Japanese guarantor, no key money, and move-in within days. Rooms run 40,000 to 80,000 JPY/month with utilities often included. It is the fastest and cheapest legal way for a newcomer to get a Tokyo address. For more privacy than a shared house, compare it with the options in our [complete guide to furnished apartments in Tokyo](/en/blog/furnished-apartments-tokyo-guide).
 
 ## What is a gaijin house?
 
