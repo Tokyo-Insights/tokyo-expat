@@ -10101,43 +10101,89 @@ Koenji, c'est l'âme de Tokyo à petit prix : du caractère, une communauté, et
     slug: 'social-apartment-tokyo-guide',
     locale: 'fr',
     title: 'Social apartment à Tokyo : le logement partagé nouvelle génération (2026)',
-    description: 'Le social apartment, version premium de la share house : espaces communs design, communauté active, sans garant. Coûts et profil en 2026.',
+    description: 'Le social apartment, version premium de la share house : espaces communs design, communauté active, sans garant. Coûts, comment postuler et pour qui en 2026.',
     date: '2026-06-28',
-    readingTime: '5 min',
+    readingTime: '8 min',
     content: `
-Le "social apartment" est une catégorie de logement partagé haut de gamme qui séduit de plus en plus d'expatriés à Tokyo. Voici ce que c'est, combien ça coûte, et pour qui.
+Le "social apartment" est une catégorie de logement partagé haut de gamme qui séduit de plus en plus d'expatriés à Tokyo. Voici ce que c'est, combien ça coûte, comment postuler, et pour qui en 2026.
 
-**Réponse rapide :** Un social apartment est une version premium de la share house : chambre privée meublée, mais avec de grands espaces communs soignés (lounge, cuisine design, parfois coworking, salle de sport, toit-terrasse). Comptez 70 000 à 130 000 JPY/mois, sans garant ni argent-clé. C'est l'option idéale pour qui veut la vie sociale d'une share house avec un cadre plus qualitatif.
+**Réponse rapide :** Un social apartment est une version premium de la share house : vous louez une chambre privée meublée, mais l'immeuble est construit autour de grands espaces communs soignés (lounge, cuisine design, souvent une salle de coworking, une salle de sport, une salle de cinéma ou un toit-terrasse). Comptez 70 000 à 130 000 JPY par mois, sans garant, sans argent-clé et sans frais d'agence. C'est l'option idéale pour qui veut la vie sociale d'une share house dans un cadre plus qualitatif, proche de l'hôtel.
 
 ## Qu'est-ce qu'un social apartment ?
 
-Né au Japon dans les années 2010, le social apartment mise sur la qualité des espaces communs pour favoriser les rencontres entre résidents. Contrairement à une share house basique, l'accent est mis sur le design, les équipements (cinéma, salle de sport, atelier, jardin) et une communauté active. La chambre reste privée ; le reste se vit ensemble.
+Né au Japon dans les années 2010, le concept de social apartment mise sur la qualité de ses espaces partagés pour que les résidents se rencontrent vraiment. Contrairement à une share house basique, l'accent est mis sur le design, les équipements et une communauté active. Votre chambre reste totalement privée et fermant à clé ; tout le reste, la cuisine, le lounge, les espaces de travail et les événements, se vit ensemble. Les immeubles sont plus grands qu'une share house, de 30 à plus de 150 chambres, ce qui rend les équipements communs viables.
+
+## Ce qui est inclus
+
+La plupart des social apartments proposent bien plus qu'une chambre :
+
+- Une chambre privée meublée (lit, bureau, rangements, parfois une salle d'eau privative).
+- Les charges, l'eau et internet haut débit, généralement tout compris.
+- Des cuisines et des salons partagés entièrement équipés.
+- Des extras qu'un appartement classique n'a jamais : salle de sport, salle de cinéma, studio musique ou atelier, espace de coworking, toit-terrasse, parfois un café ou un bar.
+- Le ménage des parties communes, et les fournitures de base.
+- Des événements communautaires organisés par l'opérateur.
+
+Comme tout est groupé, votre montant mensuel est proche de votre vrai coût tout compris, ce qui simplifie le budget. À comparer avec un studio privé, où vous ajoutez les frais d'entrée, les meubles, les charges et internet par-dessus (voir notre [guide du coût de la vie](/blog/cout-vie-tokyo-expatrie-2026)).
 
 ## Combien coûte un social apartment ?
 
-| Type | Loyer mensuel | Caution |
+| Type de chambre | Loyer mensuel | Caution |
 |---|---|---|
 | Chambre standard | 70 000-100 000 JPY | ~1 mois |
 | Chambre premium / centrale | 100 000-130 000 JPY | ~1 mois |
+| Avec salle d'eau / grande | 120 000-160 000 JPY | ~1 mois |
 
-Pas de reikin, pas de frais d'agence. Charges et internet sont généralement inclus.
+Pas de reikin (argent-clé), pas de frais d'agence, et généralement une caution d'environ un mois, en partie remboursable. C'est le gros avantage financier face à un bail classique, où les frais d'entrée atteignent souvent quatre à six mois de loyer. Pour le détail des frais d'entrée cachés, voir notre [guide des pièges de la location](/blog/pieges-location-tokyo-etranger).
 
-## Social apartment vs share house classique
+## Social apartment vs share house vs studio privé
 
-- **Share house** : moins chère (45 000-90 000 JPY), espaces communs fonctionnels.
-- **Social apartment** : plus chère, mais cadre et équipements supérieurs, communauté plus active.
+| | Share house | Social apartment | Studio privé |
+|---|---|---|---|
+| Loyer mensuel | 45 000-90 000 | 70 000-130 000 | 90 000-160 000 |
+| Frais d'entrée | Très bas | Très bas | Élevés (4-6 mois) |
+| Garant | Souvent aucun | Aucun | Souvent exigé |
+| Communauté | Fonctionnelle | Forte, animée | Aucune |
+| Intimité | Moyenne | Moyenne | Totale |
 
-Pour comparer toutes les options, voir [le guide appartement meublé](/blog/appartement-meuble-tokyo-expats-top-5) et [le guide gaijin house](/blog/gaijin-house-tokyo-guide).
+En résumé : une [share house](/blog/share-house-tokyo-guide-complet) est la porte d'entrée la moins chère, un studio privé offre une intimité totale mais le coût initial le plus lourd, et le social apartment se place entre les deux, échangeant un peu d'intimité contre du design, des équipements et un cercle social tout prêt. Si vous hésitez, notre comparatif [gaijin house vs share house](/blog/gaijin-house-vs-share-house-difference) va plus loin.
+
+## Comment postuler (et pourquoi il n'y a pas de garant)
+
+La candidature est bien plus légère qu'un bail japonais classique :
+
+1. Choisissez un immeuble et une chambre disponible en ligne.
+2. Envoyez votre pièce d'identité (passeport ou carte de résident) et une preuve de solvabilité.
+3. Signez un contrat d'occupation simple, souvent disponible en anglais.
+4. Payez le premier mois plus la petite caution, et emménagez à la date convenue.
+
+Comme vous signez avec l'opérateur plutôt qu'avec un propriétaire individuel, il n'y a normalement pas de garant ni de passage par une société de garantie, l'obstacle qui bloque justement beaucoup de nouveaux arrivants (voir [pourquoi les propriétaires japonais refusent les étrangers](/blog/pourquoi-proprietaires-japonais-refusent-etrangers)). Les durées minimales sont en général de un à trois mois, bien plus courtes que le bail standard de deux ans : un social apartment est donc une excellente première base le temps de vous installer.
+
+## Meilleurs quartiers pour un social apartment à Tokyo
+
+Les opérateurs regroupent leurs immeubles autour de quartiers "lifestyle" bien desservis : Setagaya, Meguro, Shibuya, Shinjuku et le long des lignes Chuo et Yamanote. Les chambres centrales près de Shibuya ou Nakameguro sont en haut de la fourchette ; quelques stations plus loin, vers Sangenjaya, Koenji ou Nakano, vous obtenez les mêmes équipements pour nettement moins cher. Pour le contexte des quartiers, voir notre [guide des quartiers de Tokyo](/blog/quartiers-tokyo-expatries-guide).
 
 ## Pour qui ?
 
-Le social apartment convient à ceux qui veulent rencontrer du monde tout en bénéficiant d'un beau cadre : souvent de jeunes actifs, créatifs ou expatriés en mobilité. Il est moins adapté si vous cherchez l'intimité totale d'un studio (voir [comment trouver un appartement](/blog/trouver-appartement-tokyo-etranger)).
+Le social apartment convient à ceux qui veulent rencontrer du monde tout en profitant d'un beau cadre : jeunes actifs, créatifs, travailleurs à distance et expatriés en mobilité. Il est moins adapté si vous cherchez l'intimité totale, une configuration familiale, ou un logement non meublé longue durée (dans ce cas, voir [comment trouver un appartement](/blog/trouver-appartement-tokyo-etranger)).
 
-Le social apartment, c'est le meilleur des deux mondes : la simplicité d'entrée d'une share house, avec un confort et une vie communautaire dignes d'une résidence premium.
+*Après avoir géré des locations meublées à Tokyo, les résidents les plus heureux en social apartment sont ceux qui voient les espaces communs comme l'essentiel, pas comme un bonus. Si vous savez que vous garderez votre porte fermée à rester dans votre chambre, vous payez un premium pour des équipements que vous n'utiliserez pas, et un simple studio offre un meilleur rapport qualité-prix.*
+
+## Questions fréquentes
+
+**Les social apartments conviennent-ils aux étrangers ?** Oui. Sans garant, avec des contrats en anglais et une communauté immédiate, c'est l'une des façons les plus simples d'atterrir à Tokyo.
+
+**Quelle est la durée minimale ?** En général un à trois mois, contre deux ans pour un bail classique.
+
+**Un couple peut-il vivre en social apartment ?** Certains opérateurs proposent des chambres plus grandes ou doubles pour les couples, mais beaucoup de chambres sont individuelles : à vérifier immeuble par immeuble.
+
+**Est-ce la même chose qu'une share house ?** Non. Une share house est plus simple et moins chère ; un social apartment est un immeuble plus grand, pensé design, avec des équipements dignes d'un hôtel et une communauté animée.
+
+Le social apartment, c'est le meilleur des deux mondes : la simplicité d'entrée et le petit budget d'une share house, avec le confort et la vie communautaire d'une résidence premium.
 
 ---
 
-*À lire aussi : [share house à Tokyo](/blog/share-house-tokyo-guide-complet) et [gaijin house à Tokyo](/blog/gaijin-house-tokyo-guide).*
+*À lire aussi : [appartements meublés à Tokyo](/blog/appartement-meuble-tokyo-expats-top-5), [guide de la share house](/blog/share-house-tokyo-guide-complet) et [gaijin house à Tokyo](/blog/gaijin-house-tokyo-guide-complet).*
     `.trim(),
   },
   {
@@ -10651,43 +10697,89 @@ Sangenjaya is Shibuya within walking distance, with the charm of a lively distri
     slug: 'social-apartments-tokyo-guide',
     locale: 'en',
     title: 'Social Apartments in Tokyo: Next-Generation Shared Living (2026)',
-    description: 'The social apartment, a premium take on the share house: designed common spaces, an active community, no guarantor. Costs and profile in 2026.',
+    description: 'The social apartment, a premium take on the share house: designed common spaces, an active community, no guarantor. Costs, how to apply and who it suits in 2026.',
     date: '2026-06-28',
-    readingTime: '5 min',
+    readingTime: '8 min',
     content: `
-The "social apartment" is a higher-end category of shared housing that more and more expats in Tokyo are choosing. Here is what it is, what it costs, and who it suits.
+The "social apartment" is a higher-end category of shared housing that more and more expats in Tokyo are choosing. Here is what it is, what it costs, how to apply, and who it suits in 2026.
 
-**Quick answer:** A social apartment is a premium version of the share house: a private furnished room, but with large, well-designed common spaces (lounge, designer kitchen, sometimes coworking, a gym, a rooftop). Expect 70,000 to 130,000 JPY/month, with no guarantor and no key money. It is ideal for those who want the social life of a share house in a more polished setting.
+**Quick answer:** A social apartment is a premium version of the share house: you rent a private furnished room, but the building is built around large, well-designed common spaces (a lounge, a designer kitchen, often a co-working room, a gym, a theatre room or a rooftop). Expect 70,000 to 130,000 JPY per month, with no guarantor, no key money and no agency fee. It suits anyone who wants the social life of a share house in a more polished, hotel-like setting.
 
 ## What is a social apartment?
 
-Born in Japan in the 2010s, the social apartment bets on the quality of its common spaces to encourage residents to meet. Unlike a basic share house, the focus is on design, amenities (cinema, gym, workshop, garden) and an active community. Your room stays private; the rest is shared.
+Born in Japan in the 2010s, the social apartment concept bets on the quality of its shared spaces to get residents to actually meet. Unlike a basic share house, the focus is on design, amenities and an active community. Your room stays fully private and lockable; everything else, the kitchen, lounge, work areas and events, is shared. Buildings are typically larger than a share house, from 30 to more than 150 rooms, which is what makes the communal facilities viable.
+
+## What is included
+
+Most social apartments bundle far more than a room:
+
+- A private furnished room (bed, desk, storage, sometimes an ensuite).
+- Utilities, water and high-speed internet, usually all-in.
+- Fully equipped shared kitchens and dining lounges.
+- Extras a normal apartment never has: gym, cinema room, music or craft studio, co-working space, rooftop terrace, sometimes a cafe or bar.
+- Cleaning of the common areas, and basic supplies.
+- Community events organised by the operator.
+
+Because everything is bundled, your monthly figure is close to your true all-in cost, which makes budgeting simple. Compare that with a private studio, where you add move-in fees, furniture, utilities and internet on top (see our [cost of living guide](/blog/tokyo-expat-cost-of-living-2026)).
 
 ## How much does a social apartment cost?
 
-| Type | Monthly rent | Deposit |
+| Room type | Monthly rent | Deposit |
 |---|---|---|
 | Standard room | 70,000-100,000 JPY | ~1 month |
 | Premium / central room | 100,000-130,000 JPY | ~1 month |
+| En-suite / large room | 120,000-160,000 JPY | ~1 month |
 
-No key money, no agency fees. Utilities and internet are usually included.
+No key money (reikin), no agency fee, and usually a deposit of around one month that is partly refundable. This is the big financial advantage over a normal lease, where move-in costs often reach four to six months of rent. For the full breakdown of hidden move-in fees, see our [rental traps guide](/blog/tokyo-rental-traps-foreigners).
 
-## Social apartment vs standard share house
+## Social apartment vs share house vs private studio
 
-- **Share house:** cheaper (45,000-90,000 JPY), functional common spaces.
-- **Social apartment:** pricier, but a superior setting and amenities, and a more active community.
+| | Share house | Social apartment | Private studio |
+|---|---|---|---|
+| Monthly rent | 45,000-90,000 | 70,000-130,000 | 90,000-160,000 |
+| Move-in cost | Very low | Very low | High (4-6 months) |
+| Guarantor | Usually none | None | Often required |
+| Community | Functional | Strong, curated | None |
+| Privacy | Medium | Medium | Full |
 
-To compare all options, see our [furnished apartment guide](/blog/furnished-apartment-tokyo-top-5-expats) and our [gaijin house guide](/blog/gaijin-house-tokyo-guide).
+In short: a [share house](/blog/share-house-tokyo-guide-2026) is the cheapest way in, a private studio gives you full privacy but the heaviest upfront cost, and the social apartment sits in between, trading a little privacy for design, facilities and a ready-made social circle. If you are weighing these, our [gaijin house vs share house](/blog/gaijin-house-vs-share-house-tokyo) comparison goes deeper.
+
+## How to apply (and why there is no guarantor)
+
+The application is far lighter than a standard Japanese lease:
+
+1. Pick a building and an available room online.
+2. Send your ID (passport or residence card) and proof you can pay.
+3. Sign a simple occupancy agreement, often available in English.
+4. Pay the first month plus the small deposit, and move in on the agreed date.
+
+Because you sign with the operator rather than an individual landlord, there is normally no guarantor and no guarantor-company screening, which is exactly the hurdle that trips up many newcomers (see [why Japanese landlords reject foreigners](/blog/why-japanese-landlords-reject-foreigners)). Minimum stays are usually one to three months, much shorter than the standard two-year lease, so a social apartment is a strong first base while you find your feet.
+
+## Best areas for social apartments in Tokyo
+
+Operators cluster their buildings around lifestyle wards with good transport: Setagaya, Meguro, Shibuya, Shinjuku and along the Chuo and Yamanote lines. Central rooms near Shibuya or Nakameguro sit at the top of the range; a few stops out toward Sangenjaya, Koenji or Nakano you get the same facilities for noticeably less. For neighbourhood context, see our [Tokyo neighbourhoods guide](/blog/tokyo-neighbourhoods-expats-guide).
 
 ## Who is it for?
 
-A social apartment suits those who want to meet people while enjoying a beautiful setting: often young professionals, creatives or expats on the move. It is less suited if you want the full privacy of a studio (see [how to find an apartment](/blog/find-apartment-tokyo-foreigner)).
+A social apartment suits people who want to meet others while enjoying a good setting: young professionals, creatives, remote workers and expats on the move. It is less suited if you need total privacy, a family setup, or a long-term unfurnished home (in that case see [how to find an apartment](/blog/find-apartment-tokyo-foreigner)).
 
-The social apartment is the best of both worlds: the easy entry of a share house, with the comfort and community of a premium residence.
+*From running furnished rentals in Tokyo, the residents happiest in a social apartment are the ones who treat the common spaces as the point, not a bonus. If you know you will keep your door shut and stay in your room, you are paying a premium for facilities you will not use, and a plain studio is better value.*
+
+## Frequently asked questions
+
+**Are social apartments good for foreigners?** Yes. No guarantor, English-friendly contracts and an instant community make them one of the easiest ways to land in Tokyo.
+
+**What is the minimum stay?** Usually one to three months, versus two years for a standard lease.
+
+**Can couples live in a social apartment?** Some operators offer larger or twin rooms for couples, but many rooms are single-occupancy, so check per building.
+
+**Is it the same as a share house?** No. A share house is simpler and cheaper; a social apartment is a larger, design-led building with hotel-style facilities and a curated community.
+
+The social apartment is the best of both worlds: the easy, low-cost entry of a share house, with the comfort and community of a premium residence.
 
 ---
 
-*See also: [furnished apartments in Tokyo](/blog/furnished-apartment-tokyo-top-5-expats) and [gaijin house in Tokyo](/blog/gaijin-house-tokyo-guide).*
+*See also: [furnished apartments in Tokyo](/blog/furnished-apartment-tokyo-top-5-expats), [share house guide](/blog/share-house-tokyo-guide-2026) and [gaijin house in Tokyo](/blog/gaijin-house-tokyo-guide).*
     `.trim(),
   },
   {
