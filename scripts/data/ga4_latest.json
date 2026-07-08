@@ -1,65 +1,65 @@
 {
-  "generated_at": "2026-07-04",
-  "period": "2026-06-27 to 2026-07-04",
+  "generated_at": "2026-07-08",
+  "period": "2026-07-01 to 2026-07-08",
   "this_week": {
-    "sessions": 82,
-    "users": 76,
-    "pageviews": 131,
-    "bounce_rate": 0.7317073170731707
+    "sessions": 167,
+    "users": 156,
+    "pageviews": 229,
+    "bounce_rate": 0.7005988023952096
   },
   "prev_week": {
-    "sessions": 62,
-    "users": 52,
-    "pageviews": 112,
-    "bounce_rate": 0.7419354838709677
+    "sessions": 1,
+    "users": 1,
+    "pageviews": 1,
+    "bounce_rate": 1.0
   },
   "changes": {
-    "sessions": "+32%",
-    "users": "+46%",
-    "pageviews": "+17%"
+    "sessions": "+16600%",
+    "users": "+15500%",
+    "pageviews": "+22800%"
   },
   "top_pages": [
     [
       "/en/data",
-      "38"
-    ],
-    [
-      "/fr/data",
-      "16"
+      "52"
     ],
     [
       "/en",
-      "11"
+      "18"
+    ],
+    [
+      "/fr/data",
+      "17"
     ],
     [
       "/fr",
-      "8"
+      "11"
     ],
     [
       "/en/services",
-      "7"
+      "10"
     ]
   ],
   "top_sources": [
     [
       "Direct",
-      "56"
+      "104"
     ],
     [
       "Organic Search",
-      "15"
+      "39"
     ],
     [
-      "Unassigned",
-      "5"
+      "AI Assistant",
+      "15"
     ]
   ],
   "form_submits_week": 0,
   "events": {
-    "page_view": 131,
-    "session_start": 80,
-    "first_visit": 74,
-    "user_engagement": 37,
-    "scroll": 17
+    "page_view": 229,
+    "session_start": 165,
+    "first_visit": 154,
+    "user_engagement": 75,
+    "scroll": 24
   }
 }
