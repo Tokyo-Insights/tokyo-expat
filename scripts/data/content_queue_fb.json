@@ -1,8 +1,8 @@
 {
   "generated_at": "2026-06-25",
   "total": 80,
-  "posted_count": 2,
-  "remaining": 78,
+  "posted_count": 3,
+  "remaining": 77,
   "queue": [
     {
       "slug": "trouver-appartement-tokyo-etranger",
@@ -25,8 +25,8 @@
       "locale": "fr",
       "title": "Coût de la vie à Tokyo pour les expatriés en 2026 : chiffres réels",
       "text": "Coût de la vie à Tokyo pour les expatriés en 2026 : chiffres réels\n\nLoyer, nourriture, transport, santé : le vrai budget mensuel d'un expatrié à Tokyo, avec des chiffres concrets par profil.\n\nFull guide: https://www.tokyo-expat.com/fr/blog/cout-vie-tokyo-expatrie-2026\n\n#TokyoExpat #JaponExpatrie #VivreAuJapon #CostOfLiving",
-      "posted": false,
-      "posted_date": null
+      "posted": true,
+      "posted_date": "2026-07-08"
     },
     {
       "slug": "quartiers-tokyo-expatries-guide",

@@ -898,7 +898,8 @@
     "last_contact": null,
     "response": null,
     "link_obtained": false,
-    "added": "2026-06-25"
+    "added": "2026-06-25",
+    "followup_prepared": "2026-07-08"
   },
   {
     "domain": "frjournal.com",
@@ -1004,7 +1005,8 @@
     "last_contact": "2026-07-01",
     "response": "",
     "link_obtained": false,
-    "added": "2026-07-01"
+    "added": "2026-07-01",
+    "followup_prepared": "2026-07-08"
   },
   {
     "domain": "findawayabroad.com",
@@ -1061,7 +1063,8 @@
     "last_contact": "2026-06-30",
     "response": "",
     "link_obtained": false,
-    "added": "2026-07-01"
+    "added": "2026-07-01",
+    "followup_prepared": "2026-07-08"
   },
   {
     "domain": "expatinfodesk.com",
@@ -1080,7 +1083,8 @@
     "last_contact": "2026-07-02",
     "response": "",
     "link_obtained": false,
-    "added": "2026-07-02"
+    "added": "2026-07-02",
+    "followup_prepared": "2026-07-08"
   },
   {
     "domain": "expatfocus.com",
@@ -1118,7 +1122,8 @@
     "last_contact": "2026-07-02",
     "response": "",
     "link_obtained": false,
-    "added": "2026-07-02"
+    "added": "2026-07-02",
+    "followup_prepared": "2026-07-08"
   },
   {
     "domain": "alljapantravel.com",
@@ -1137,6 +1142,7 @@
     "last_contact": "2026-07-02",
     "response": "",
     "link_obtained": false,
-    "added": "2026-07-02"
+    "added": "2026-07-02",
+    "followup_prepared": "2026-07-08"
   }
 ]
