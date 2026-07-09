@@ -213,6 +213,9 @@ export default async function DataPage({
     success: l === 'en' ? 'Done. Check your inbox for your first data drop.' : 'C\'est fait. Regardez votre boite pour la premiere data.',
   }
 
+  // Bloc embed (linkable asset): les sites qui collent ce code republient la carte AVEC un lien retour.
+  const embedCode = `<a href="https://www.tokyo-expat.com/${l}/data"><img src="https://www.tokyo-expat.com/tokyo-rent-map.png" alt="Median 1K studio rent by Tokyo ward, 2026 (Tokyo Expat)" width="600" /></a>\nSource: <a href="https://www.tokyo-expat.com/${l}/data">Tokyo Expat Rent Index</a>`
+
   const breadcrumbLd = {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
@@ -399,6 +402,34 @@ export default async function DataPage({
               ))}
             </tbody>
           </table>
+        </div>
+      </section>
+
+      {/* Choropleth map + embed block (linkable asset, gagne des backlinks) */}
+      <section className="mb-14">
+        <h2 className="text-2xl font-bold text-[#0f2744] mb-2">
+          {l === 'en' ? 'Tokyo rent map (free to embed)' : 'Carte des loyers de Tokyo (libre a integrer)'}
+        </h2>
+        <p className="text-xs text-gray-400 mb-4">
+          {l === 'en'
+            ? 'Median monthly rent for a 1K studio by ward. Free to republish on your site with a link back to this page.'
+            : 'Loyer mensuel median d\'un studio 1K par arrondissement. Libre de republication sur votre site avec un lien vers cette page.'}
+        </p>
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src="/tokyo-rent-map.png"
+          alt={l === 'en'
+            ? 'Median 1K studio rent by Tokyo ward, 2026 (Tokyo Expat)'
+            : 'Loyer median d\'un studio 1K par arrondissement de Tokyo, 2026 (Tokyo Expat)'}
+          width={1650}
+          height={1650}
+          className="w-full max-w-2xl mx-auto rounded-xl border border-gray-200"
+        />
+        <div className="mt-4 border border-gray-200 rounded-xl p-4 bg-gray-50/60">
+          <p className="text-xs font-semibold text-[#0f2744] mb-2">
+            {l === 'en' ? 'Embed this map (copy the code):' : 'Integrer cette carte (copiez le code) :'}
+          </p>
+          <pre className="text-[11px] text-gray-600 whitespace-pre-wrap break-all bg-white border border-gray-200 rounded p-3 overflow-x-auto">{embedCode}</pre>
         </div>
       </section>
 

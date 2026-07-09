@@ -25,6 +25,7 @@ ROOT = Path("C:/Users/alegu/Desktop/tokyo-expat")
 DATA = ROOT / "lib" / "tokyoRentIndex.json"
 GEO = Path("C:/Users/alegu/Desktop/tokyo_insights/data/boundaries/n03/N03-20_200101.geojson")
 OUT = ROOT / "outreach" / "tokyo-rent-map.png"
+OUT_PUBLIC = ROOT / "public" / "tokyo-rent-map.png"   # servie sur /data (linkable asset)
 
 WARDS = {
     '千代田区': 'Chiyoda', '中央区': 'Chuo', '港区': 'Minato', '新宿区': 'Shinjuku',
@@ -75,4 +76,6 @@ fig.text(0.98, 0.02, "Source: tokyo-expat.com/data  ·  ~500,000 active listings
          ha="right", fontsize=9, color="#9ca3af")
 
 fig.savefig(OUT, dpi=150, facecolor="white")
+fig.savefig(OUT_PUBLIC, dpi=150, facecolor="white")
 print(f"Ecrit: {OUT}")
+print(f"Ecrit: {OUT_PUBLIC}")
