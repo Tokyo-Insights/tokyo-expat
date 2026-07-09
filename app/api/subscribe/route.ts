@@ -5,7 +5,7 @@ const BREVO_LIST_ID = 3
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json()
-    const { email, locale } = body
+    const { email, locale, source } = body
 
     if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
       return NextResponse.json({ error: 'Invalid email' }, { status: 400 })
@@ -26,7 +26,7 @@ export async function POST(request: NextRequest) {
         email,
         listIds: [BREVO_LIST_ID],
         updateEnabled: true,
-        attributes: { LANGUE: locale === 'en' ? 'en' : 'fr' },
+        attributes: { LANGUE: locale === 'en' ? 'en' : 'fr', SOURCE: source || 'unknown' },
       }),
     })
 
@@ -37,22 +37,27 @@ export async function POST(request: NextRequest) {
       // Envoi de l'email de bienvenue #1 (avec le PDF) via template transactionnel Brevo.
       // Template 1 = FR "Votre checklist relocation Japon est ici", 4 = EN equivalent.
       // Non bloquant : si l'envoi echoue, l'inscription reste un succes (PDF aussi dispo en download direct).
-      const welcomeTemplateId = locale === 'en' ? 4 : 1
-      try {
-        const mailRes = await fetch('https://api.brevo.com/v3/smtp/email', {
-          method: 'POST',
-          headers: {
-            'api-key': apiKey,
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify({
-            to: [{ email }],
-            templateId: welcomeTemplateId,
-          }),
-        })
-        console.log('Brevo welcome email status:', mailRes.status, await mailRes.text())
-      } catch (mailErr) {
-        console.error('Welcome email send failed:', mailErr)
+      // Le magnet 'rent-index' delivre deja le PDF en telechargement instantane sur /data,
+      // donc on n'envoie PAS le mail checklist (evite promesse != contenu). Les autres
+      // sources (checklist, newsletter) recoivent le welcome checklist comme avant.
+      if (source !== 'lead-magnet-rent-index') {
+        const welcomeTemplateId = locale === 'en' ? 4 : 1
+        try {
+          const mailRes = await fetch('https://api.brevo.com/v3/smtp/email', {
+            method: 'POST',
+            headers: {
+              'api-key': apiKey,
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+              to: [{ email }],
+              templateId: welcomeTemplateId,
+            }),
+          })
+          console.log('Brevo welcome email status:', mailRes.status, await mailRes.text())
+        } catch (mailErr) {
+          console.error('Welcome email send failed:', mailErr)
+        }
       }
 
       return NextResponse.json({ ok: true })
