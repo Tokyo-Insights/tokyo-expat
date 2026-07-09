@@ -9885,6 +9885,22 @@ Gaijin houses cluster around lines with good access and younger residential dist
 
 For a smooth arrival, line up your housing before you land, then handle your [residence card and bank account](/blog/ouvrir-compte-bancaire-japon-etranger) in your first days.
 
+## Finding a cheap gaijin house in Tokyo
+
+The cheapest gaijin houses in Tokyo are dorm beds in shared rooms, from around 30,000 to 45,000 JPY per month with utilities included. For a private room on a budget, look one or two stops outside the Yamanote loop (Nakano, Koenji, Kita, Itabashi, Adachi), where a private room runs 45,000 to 60,000 JPY against 70,000 JPY and up in Shibuya or Shinjuku. A longer minimum stay of three months or more often unlocks a lower monthly rate, and moving in outside the February to April peak season gives you more availability and room to negotiate.
+
+## Frequently asked questions
+
+**What is a gaijin house in Tokyo?** A shared residence aimed at foreign residents: a private furnished room with a shared kitchen and bathroom, no Japanese guarantor and no key money, with move-in within days.
+
+**How much does a gaijin house in Tokyo cost?** From 30,000 to 45,000 JPY per month for a dorm bed, and 45,000 to 100,000 JPY for a private room, with utilities often included and only a small deposit.
+
+**What is the difference between a gaijin house and a share house?** Very little today. A gaijin house is simply a share house built around foreign residents who sign in English without a Japanese guarantor. The two terms are now used almost interchangeably.
+
+**Can you rent a gaijin house without a guarantor?** Yes. No Japanese guarantor is required. You book online with a passport and visa, pay a small deposit instead of key money, and move in within days.
+
+**Where are the cheapest gaijin houses in Tokyo?** Just outside the Yamanote loop, in Nakano, Koenji, Kita, Itabashi and Adachi, where you get the same central access for noticeably less than in Shibuya or Shinjuku.
+
 A gaijin house is rarely where expats stay forever, but it is the single easiest door into Tokyo. It buys you a real address, time to learn the city, and zero guarantor stress, exactly what you need in your first months.
 
 ---
