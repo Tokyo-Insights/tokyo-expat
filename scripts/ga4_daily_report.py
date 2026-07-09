@@ -87,12 +87,16 @@ def main():
     yest = {"startDate": "yesterday", "endDate": "yesterday"}
     prior = {"startDate": "8daysAgo", "endDate": "2daysAgo"}
 
-    tot = report(token, [yest, prior], ["sessions", "activeUsers", "screenPageViews"])
-    trows = tot.get("rows", [])
-    y_sess = int(trows[0]["metricValues"][0]["value"]) if trows else 0
-    y_users = int(trows[0]["metricValues"][1]["value"]) if trows else 0
-    y_views = int(trows[0]["metricValues"][2]["value"]) if trows else 0
-    p_sess = int(trows[1]["metricValues"][0]["value"]) if len(trows) > 1 else 0
+    # FIX 2026-07-09: un seul runReport avec 2 dateRanges NE garantit PAS l'ordre
+    # des lignes (GA4 les renvoyait triees par sessions desc), donc trows[0]/trows[1]
+    # inversaient "hier" et "base 7j" -> faux "151 sessions hier (+4705%)".
+    # Solution: 2 rapports SEPARES, sans ambiguite d'ordre.
+    y = report(token, [yest], ["sessions", "activeUsers", "screenPageViews"])
+    p = report(token, [prior], ["sessions"])
+    y_sess = total(y, 0)
+    y_users = total(y, 1)
+    y_views = total(y, 2)
+    p_sess = total(p, 0)
     base = p_sess / 7 if p_sess else 0
     delta = ((y_sess - base) / base * 100) if base else 0
 
