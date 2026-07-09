@@ -11918,24 +11918,56 @@ Le piege, c'est la facture d'entree, pas le loyer mensuel. Un bail classique peu
     title: '1K, 1LDK, 2LDK: Japanese Apartment Layouts Explained (2026)',
     description: 'What 1R, 1K, 1DK, 1LDK and 2LDK actually mean in Japan, with typical sizes and rents. The simple guide to reading Tokyo apartment listings.',
     date: '2026-07-04',
-    readingTime: '6 min',
+    readingTime: '8 min',
     content: `
 If you have ever looked at a Tokyo listing and wondered what "1K" or "1LDK" means, you are not alone. It is the single most common question we get. These are not sizes in square feet, they are Japanese layout codes, and once you know the system it is very easy to read.
 
-**Quick answer:** The number is the count of rooms, and the letters describe the other spaces: R = room, K = kitchen, D = dining, L = living. So a 1K is one room plus a separate small kitchen (a studio), a 1LDK is one bedroom plus a combined living, dining and kitchen area (good for a couple), and a 2LDK adds a second bedroom (good for a family).
+**Quick answer:** The number is the count of rooms, and the letters describe the other spaces: R = room, K = kitchen, D = dining, L = living. So a 1K is one room plus a separate small kitchen (a studio), a 1LDK is one bedroom plus a combined living, dining and kitchen area (good for a couple), and a 2LDK adds a second bedroom (good for a family). The bathroom and toilet are always there but never appear in the code.
 
 ## The layout codes, decoded
-- **1R** (one room): a single room where the kitchen is inside the main space. The most compact option, often 13 to 20 square metres.
-- **1K:** one room plus a separate small kitchen, divided by a door or partition. The classic single-person studio, usually 20 to 25 square metres.
+- **1R** (one room): a single room where the kitchen sits inside the main space, with no partition. The most compact option, often 13 to 20 square metres.
+- **1K:** one room plus a separate small kitchen, divided by a door or partition. The classic single-person studio, usually 20 to 25 square metres. The "K" is often just a sink and one burner in the hallway, not a full kitchen.
 - **1DK:** one room plus a dining-kitchen big enough for a small table. Around 25 to 30 square metres.
 - **1LDK:** one bedroom plus a proper living-dining-kitchen. The sweet spot for couples, usually 30 to 45 square metres.
 - **2LDK / 3LDK:** two or three bedrooms plus a living-dining-kitchen. Family territory.
 
-## What each one costs in Tokyo
-Layout drives price as much as location. Across Tokyo, a 1K studio runs from 74 000 to 140 000 JPY, while a family 1LDK in central Minato reaches around 260 000 JPY. As a rule, moving up one layout (say 1K to 1LDK) roughly doubles the rent. You can compare exact medians by ward in our [Tokyo Rent Index](/en/data).
+The letters are conventionally written in the order L-D-K, so you will see "1LDK", not "1DLK". The number only counts proper rooms; it never counts the kitchen, bathroom or toilet.
+
+## What is the "S" in 2SLDK?
+An "S" stands for service room (nando): an extra enclosed space that legally cannot be called a bedroom because it fails the building code for window size and natural light. In practice it works fine as a study, walk-in closet, nursery or storage. So a 2SLDK is a two-bedroom with a bonus room that the listing is not allowed to count as a third bedroom. It is often cheaper per square metre than a true 3LDK for that reason.
+
+## Does a Japanese apartment have a bathroom?
+Yes, always. Every one of these layouts includes a bathroom and toilet; they simply are not written into the code because they are assumed. What varies is whether the bath and toilet share one room (a "unit bath", common in 1R and 1K) or are separated (more common from 1DK up), which many tenants prefer. If a listing says "BT separate" (bath and toilet betsu), they are in different rooms.
+
+## How to read the floor plan symbols
+Japanese floor plans (madori) use a few recurring marks:
+- The washing-machine kanji marks the spot for your washing machine.
+- **UB:** unit bath, a moulded bath-and-toilet in one.
+- **CL / WCL:** closet / walk-in closet.
+- **PS:** pipe space, a plumbing shaft that is not usable.
+- **Genkan:** the entrance where you take off your shoes.
+- **Balcony:** shown as a strip along the outside wall.
+Knowing these lets you judge a place from the plan alone, before you ever visit.
+
+## Sizes: what these codes feel like
+Because the codes are not sizes, it helps to convert. A 1K at 20 to 25 square metres is roughly 215 to 270 square feet, which is studio-sized by US standards and genuinely small. Around 30 square metres (320 square feet) counts as a comfortable single apartment in Tokyo, and Japanese visitors will call it big. If you are coming from North America or Australia, set expectations early: you trade floor space for location and a low move-in cost. For how age changes this, see [does newer construction cost more](/en/blog/tokyo-rent-building-age).
+
+## What each layout costs in Tokyo
+Layout drives price as much as location. Across Tokyo, a 1K studio runs from 74,000 to 140,000 JPY, while a family 1LDK in central Minato reaches around 260,000 JPY. As a rule, moving up one layout (say 1K to 1LDK) roughly doubles the rent. You can compare exact medians by ward in our [Tokyo Rent Index](/en/data), or see the full picture in our [Tokyo rent report](/en/blog/tokyo-rent-report-2026).
 
 ## How to use this when apartment hunting
-Decide your layout first, then your area, because layout sets your baseline budget. A single person almost always wants a 1K. A couple should look at 1LDK, not two 1Ks. Watch the size in square metres too: two 1LDKs at the same rent can differ by 10 square metres. For where these layouts are cheapest, see our [cheapest Tokyo neighbourhoods ranking](/en/blog/cheapest-neighbourhoods-tokyo-ranked-by-rent), or let us [handle the search](/en/contact).
+Decide your layout first, then your area, because layout sets your baseline budget. A single person almost always wants a 1K (or a share house or [social apartment](/en/blog/social-apartments-tokyo-guide) if community matters more than space). A couple should look at a 1LDK, not two 1Ks. Watch the size in square metres too: two 1LDKs at the same rent can differ by 10 square metres. For where these layouts are cheapest, see our [cheapest Tokyo neighbourhoods ranking](/en/blog/cheapest-neighbourhoods-tokyo-ranked-by-rent), or let us [handle the search](/en/contact).
+
+## Frequently asked questions
+**What does 1K mean?** One room plus a separate small kitchen: a studio, usually 20 to 25 square metres. The "1" is the room count; the "K" is the kitchen.
+
+**Is 1K a size in square feet?** No. It is a layout code, not an area. A 1K is a floor plan, and its size is listed separately in square metres.
+
+**What is the S in 2SLDK?** A service room (nando): an extra room that cannot legally be called a bedroom, useful as storage, an office or a nursery.
+
+**Do Japanese apartments have bathrooms?** Yes, every layout includes a bath and toilet; they are just not written into the code.
+
+**What is the difference between 1K and 1LDK?** A 1K is a single-person studio; a 1LDK adds a separate bedroom and a real living-dining-kitchen, suited to a couple, and costs roughly double.
 
 *Data: layout medians from 528,660 active Tokyo listings, 2026.*
     `.trim(),
@@ -11946,26 +11978,58 @@ Decide your layout first, then your area, because layout sets your baseline budg
     title: '1K, 1LDK, 2LDK : les types d\'appartements japonais expliques',
     description: 'Ce que signifient vraiment 1R, 1K, 1DK, 1LDK et 2LDK au Japon, avec surfaces et loyers typiques. Le guide simple pour lire les annonces a Tokyo.',
     date: '2026-07-04',
-    readingTime: '6 min',
+    readingTime: '8 min',
     content: `
-Si vous avez deja regarde une annonce a Tokyo en vous demandant ce que veut dire "1K" ou "1LDK", vous n'etes pas seul. C'est la question la plus frequente qu'on nous pose. Ce ne sont pas des surfaces en metres carres, ce sont des codes de configuration japonais, et une fois le systeme compris, c'est tres simple a lire.
+Si vous avez déjà regardé une annonce à Tokyo en vous demandant ce que veut dire "1K" ou "1LDK", vous n'êtes pas seul. C'est la question la plus fréquente qu'on nous pose. Ce ne sont pas des surfaces en mètres carrés, ce sont des codes de configuration japonais, et une fois le système compris, c'est très simple à lire.
 
-**Reponse rapide :** Le chiffre est le nombre de pieces, et les lettres decrivent les autres espaces : R = piece, K = cuisine, D = coin repas, L = salon. Donc un 1K, c'est une piece plus une petite cuisine separee (un studio), un 1LDK, c'est une chambre plus un espace salon-repas-cuisine (ideal pour un couple), et un 2LDK ajoute une deuxieme chambre (ideal pour une famille).
+**Réponse rapide :** Le chiffre est le nombre de pièces, et les lettres décrivent les autres espaces : R = pièce, K = cuisine, D = coin repas, L = salon. Donc un 1K, c'est une pièce plus une petite cuisine séparée (un studio), un 1LDK, c'est une chambre plus un espace salon-repas-cuisine (idéal pour un couple), et un 2LDK ajoute une deuxième chambre (idéal pour une famille). La salle de bain et les toilettes sont toujours là mais n'apparaissent jamais dans le code.
 
-## Les codes de configuration, decodes
-- **1R** (one room) : une piece unique ou la cuisine est dans l'espace principal. L'option la plus compacte, souvent 13 a 20 m2.
-- **1K :** une piece plus une petite cuisine separee par une porte ou une cloison. Le studio classique pour une personne, en general 20 a 25 m2.
-- **1DK :** une piece plus une cuisine-repas assez grande pour une petite table. Environ 25 a 30 m2.
-- **1LDK :** une chambre plus un vrai salon-repas-cuisine. Le point ideal pour un couple, en general 30 a 45 m2.
+## Les codes de configuration, décodés
+- **1R** (one room) : une pièce unique où la cuisine est dans l'espace principal, sans cloison. L'option la plus compacte, souvent 13 à 20 m2.
+- **1K :** une pièce plus une petite cuisine séparée par une porte ou une cloison. Le studio classique pour une personne, en général 20 à 25 m2. Le "K" est souvent juste un évier et une plaque dans le couloir, pas une vraie cuisine.
+- **1DK :** une pièce plus une cuisine-repas assez grande pour une petite table. Environ 25 à 30 m2.
+- **1LDK :** une chambre plus un vrai salon-repas-cuisine. Le point idéal pour un couple, en général 30 à 45 m2.
 - **2LDK / 3LDK :** deux ou trois chambres plus un salon-repas-cuisine. Territoire familial.
 
-## Ce que chacun coute a Tokyo
-La configuration determine le prix autant que l'emplacement. A Tokyo, un studio 1K va de 74 000 a 140 000 JPY, tandis qu'un 1LDK familial dans Minato central atteint environ 260 000 JPY. En regle generale, monter d'une configuration (par ex. 1K a 1LDK) double a peu pres le loyer. Comparez les medianes exactes par arrondissement dans notre [Indice des loyers de Tokyo](/fr/data).
+Les lettres s'écrivent par convention dans l'ordre L-D-K, donc vous verrez "1LDK", pas "1DLK". Le chiffre ne compte que les vraies pièces ; il ne compte jamais la cuisine, la salle de bain ni les toilettes.
+
+## Que signifie le "S" dans 2SLDK ?
+Un "S" désigne une pièce de service (nando) : un espace fermé supplémentaire qui, légalement, ne peut pas être appelé "chambre" car il ne respecte pas les normes de construction sur la taille de fenêtre et la lumière naturelle. En pratique, il sert très bien de bureau, de dressing, de chambre d'enfant ou de rangement. Un 2SLDK est donc un deux-chambres avec une pièce bonus que l'annonce n'a pas le droit de compter comme troisième chambre. Il est souvent moins cher au mètre carré qu'un vrai 3LDK pour cette raison.
+
+## Un appartement japonais a-t-il une salle de bain ?
+Oui, toujours. Chacune de ces configurations inclut une salle de bain et des toilettes ; elles ne sont simplement pas écrites dans le code car elles sont sous-entendues. Ce qui varie, c'est si le bain et les toilettes partagent une même pièce (un "unit bath", fréquent en 1R et 1K) ou sont séparés (plus courant à partir du 1DK), ce que beaucoup de locataires préfèrent. Si une annonce indique バス・トイレ別 (bain et toilettes betsu), ils sont dans des pièces différentes.
+
+## Comment lire les symboles du plan
+Les plans japonais (madori) utilisent quelques marques récurrentes :
+- Le kanji de la machine à laver marque l'emplacement de votre lave-linge.
+- **UB :** unit bath, un bloc bain et toilettes moulé en un seul.
+- **CL / WCL :** placard / dressing.
+- **PS :** gaine technique, une colonne de plomberie inutilisable.
+- **Genkan :** l'entrée où l'on retire ses chaussures.
+- **Balcon :** représenté par une bande le long du mur extérieur.
+Connaître ces symboles permet de juger un logement sur plan, avant même de le visiter.
+
+## Les tailles : à quoi ressemblent ces codes
+Comme les codes ne sont pas des surfaces, mieux vaut convertir. Un 1K de 20 à 25 m2 fait environ 215 à 270 square feet : la taille d'un studio aux normes américaines, et vraiment petit. Autour de 30 m2 (320 square feet), on parle d'un appartement confortable pour une personne à Tokyo, et des visiteurs japonais le trouveront grand. Si vous venez d'Amérique du Nord ou d'Australie, ajustez vos attentes tôt : vous échangez de la surface contre l'emplacement et des frais d'entrée faibles. Pour l'effet de l'âge du bâtiment, voir [le neuf coûte-t-il plus cher](/fr/blog/loyer-tokyo-age-batiment).
+
+## Ce que chaque configuration coûte à Tokyo
+La configuration détermine le prix autant que l'emplacement. À Tokyo, un studio 1K va de 74 000 à 140 000 JPY, tandis qu'un 1LDK familial dans Minato central atteint environ 260 000 JPY. En règle générale, monter d'une configuration (par ex. 1K à 1LDK) double à peu près le loyer. Comparez les médianes exactes par arrondissement dans notre [Indice des loyers de Tokyo](/fr/data), ou voyez le tableau complet dans notre [rapport sur les loyers de Tokyo](/fr/blog/rapport-loyers-tokyo-2026).
 
 ## Comment s'en servir pour chercher
-Choisissez d'abord votre configuration, puis votre quartier, car la configuration fixe votre budget de base. Une personne seule veut presque toujours un 1K. Un couple devrait viser un 1LDK, pas deux 1K. Surveillez aussi la surface en m2 : deux 1LDK au meme loyer peuvent differer de 10 m2. Pour savoir ou ces configurations sont les moins cheres, voyez notre [classement des quartiers les moins chers](/fr/blog/quartiers-tokyo-moins-chers-classement-loyers), ou laissez-nous [gerer la recherche](/fr/contact).
+Choisissez d'abord votre configuration, puis votre quartier, car la configuration fixe votre budget de base. Une personne seule veut presque toujours un 1K (ou une share house ou un [social apartment](/fr/blog/social-apartment-tokyo-guide) si la communauté compte plus que l'espace). Un couple devrait viser un 1LDK, pas deux 1K. Surveillez aussi la surface en m2 : deux 1LDK au même loyer peuvent différer de 10 m2. Pour savoir où ces configurations sont les moins chères, voyez notre [classement des quartiers les moins chers](/fr/blog/quartiers-tokyo-moins-chers-classement-loyers), ou laissez-nous [gérer la recherche](/fr/contact).
 
-*Donnees : medianes par configuration sur 528,660 annonces actives a Tokyo, 2026.*
+## Questions fréquentes
+**Que veut dire 1K ?** Une pièce plus une petite cuisine séparée : un studio, en général 20 à 25 m2. Le "1" est le nombre de pièces ; le "K" est la cuisine.
+
+**1K est-il une taille en square feet ?** Non. C'est un code de configuration, pas une surface. Un 1K est un plan, et sa taille est indiquée séparément en mètres carrés.
+
+**Que signifie le S dans 2SLDK ?** Une pièce de service (nando) : une pièce supplémentaire qui ne peut pas légalement être appelée chambre, utile comme rangement, bureau ou chambre d'enfant.
+
+**Les appartements japonais ont-ils une salle de bain ?** Oui, chaque configuration inclut un bain et des toilettes ; ils ne sont simplement pas écrits dans le code.
+
+**Quelle est la différence entre 1K et 1LDK ?** Un 1K est un studio pour une personne ; un 1LDK ajoute une chambre séparée et un vrai salon-repas-cuisine, adapté à un couple, et coûte environ le double.
+
+*Données : médianes par configuration sur 528,660 annonces actives à Tokyo, 2026.*
     `.trim(),
   },
   {
