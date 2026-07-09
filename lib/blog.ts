@@ -8079,6 +8079,22 @@ If you're being seconded to Japan by a Japanese or international company, ask yo
 
 **You have a Japanese employer:** start by asking about shataku. It's the cheapest and simplest route if available.
 
+## Furnished apartment in Tokyo for a long stay
+
+If you plan to stay a year or more, a furnished apartment in Tokyo still works, but the maths change. Beyond about 12 months, a monthly mansion or serviced apartment costs more than an unfurnished standard lease plus one-off furniture. The break-even is usually around 9 to 12 months. For a long-term furnished apartment, a specialist agency (option 3) is the best route: you get a 12-month furnished lease, a real apartment of 30 to 60 m2, and no Japanese guarantor, while keeping the flexibility that furniture-included brings. If you are certain you will stay two years or more, ask us about an unfurnished lease instead, as the total cost is usually lower.
+
+## Frequently asked questions
+
+**How much does a furnished apartment in Tokyo cost?** From around 40,000 JPY per month for a furnished share house room to 100,000 to 300,000 JPY for a private furnished apartment through an agency. A monthly mansion sits in between at 80,000 to 200,000 JPY.
+
+**Can a foreigner rent a furnished apartment in Tokyo without a guarantor?** Yes. Share houses, monthly mansions and specialist agencies all rent to foreigners without a Japanese guarantor. A rental guarantee company is accepted where a guarantor would normally be required.
+
+**What is the minimum stay for a furnished apartment in Tokyo?** Usually one month for a share house or a monthly mansion, and three months for an agency-sourced furnished apartment. Airbnb covers shorter bridging stays.
+
+**Are furnished apartments in Tokyo worth it long term?** For stays under about a year, yes. Beyond 12 months, an unfurnished standard lease plus furniture is usually cheaper, so weigh the break-even before committing.
+
+**Furnished or unfurnished in Tokyo?** Furnished wins for speed, flexibility and no guarantor, ideal on arrival. Unfurnished is cheaper monthly for long stays but needs a guarantor, a bank account and a two-year commitment.
+
 For personalised help with your search, [contact us](/contact): we handle the full process in English, from budget planning to lease signing.
 
 
