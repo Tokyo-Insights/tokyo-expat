@@ -60,6 +60,25 @@ export async function POST(request: NextRequest) {
         }
       }
 
+      // Alerte TEMPS REEL (non bloquante): prevenir sur Telegram a chaque nouvel inscrit.
+      // Silencieux tant que TELEGRAM_BOT_TOKEN + TELEGRAM_CHAT_ID ne sont pas poses sur Vercel.
+      const tgToken = process.env.TELEGRAM_BOT_TOKEN
+      const tgChat = process.env.TELEGRAM_CHAT_ID
+      if (tgToken && tgChat) {
+        try {
+          await fetch(`https://api.telegram.org/bot${tgToken}/sendMessage`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+              chat_id: tgChat,
+              text: `\u{1F389} Nouvel inscrit email\n${email}\nSource: ${source || 'unknown'} | Langue: ${locale || '?'}`,
+            }),
+          })
+        } catch (tgErr) {
+          console.error('Telegram alert failed:', tgErr)
+        }
+      }
+
       return NextResponse.json({ ok: true })
     }
 
