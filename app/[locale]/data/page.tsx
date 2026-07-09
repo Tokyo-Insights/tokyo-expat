@@ -470,6 +470,63 @@ export default async function DataPage({
         </div>
       </section>
 
+      {/* Station insights (narratif, citable par les IA / GEO) */}
+      <section className="mb-14">
+        <h2 className="text-2xl font-bold text-[#0f2744] mb-2">
+          {l === 'en' ? 'What the station rankings reveal' : 'Ce que revele le classement des stations'}
+        </h2>
+        <p className="text-xs text-gray-400 mb-6">
+          {l === 'en'
+            ? 'Reading the 50-station data: the surprises, the traps and the best value, with 2026 medians.'
+            : 'Lecture des 50 stations : les surprises, les pieges et les meilleurs rapports, avec les medianes 2026.'}
+        </p>
+        <div className="space-y-3">
+          {[
+            {
+              t: l === 'en' ? 'Jimbocho tops the list, not the glamour districts' : 'Jimbocho arrive en tete, pas les quartiers chics',
+              b: l === 'en'
+                ? 'The most expensive 1K studio is not in Shibuya or Ebisu but near Jimbocho (¥150,000), a book-town and university district. It sits on three subway lines next to Otemachi, so you pay for central access, not prestige. Ebisu (¥149,000) and Azabu-Juban (¥148,000) follow.'
+                : 'Le studio 1K le plus cher n\'est pas a Shibuya ou Ebisu mais pres de Jimbocho (150 000 JPY), un quartier de librairies et d\'universites. Il est sur trois lignes de metro a cote d\'Otemachi : vous payez l\'acces central, pas le prestige. Ebisu (149 000 JPY) et Azabu-Juban (148 000 JPY) suivent.',
+            },
+            {
+              t: l === 'en' ? 'Akihabara costs more than its neighbourhood' : 'Akihabara coute plus que son quartier',
+              b: l === 'en'
+                ? 'At ¥135,000 for a 1K, Akihabara is priced for its transport links and location, not its apartments. A few stops out on the same lines, the same layout drops sharply.'
+                : 'A 135 000 JPY pour un 1K, Akihabara se paie pour ses correspondances et sa position, pas pour ses logements. Quelques stations plus loin sur les memes lignes, le meme layout chute nettement.',
+            },
+            {
+              t: l === 'en' ? 'The Yamanote loop carries a premium' : 'La boucle Yamanote se paie',
+              b: l === 'en'
+                ? 'Otsuka (¥109,000) is a quiet, local neighbourhood, yet it still costs more than many outer areas purely for sitting on the Yamanote loop. Loop-line access adds up fast.'
+                : 'Otsuka (109 000 JPY) est un quartier calme et local, mais il coute plus cher que bien des zones peripheriques juste parce qu\'il est sur la boucle Yamanote. L\'acces a la boucle se paie vite.',
+            },
+            {
+              t: l === 'en' ? 'Best value sits just off-centre' : 'Le meilleur rapport est juste hors du centre',
+              b: l === 'en'
+                ? 'Kita-Senju (¥86,000) and Ayase (¥85,000) are proper neighbourhoods with strong connections at roughly 40% less than the top stations. Strong picks if you do not need to be dead-central.'
+                : 'Kita-Senju (86 000 JPY) et Ayase (85 000 JPY) sont de vrais quartiers bien connectes, environ 40% moins chers que les stations du haut du classement. Ideal si vous n\'avez pas besoin d\'etre en plein centre.',
+            },
+            {
+              t: l === 'en' ? 'A low median can hide older buildings' : 'Une mediane basse peut cacher un parc ancien',
+              b: l === 'en'
+                ? 'Komagome (¥98,000) and Tabata (¥95,000) look cheap, but the median pools every building age. Newer units near these stations typically run a ¥20,000 to ¥40,000 premium.'
+                : 'Komagome (98 000 JPY) et Tabata (95 000 JPY) paraissent bon marche, mais la mediane melange tous les ages de batiment. Les logements recents pres de ces stations coutent en general 20 000 a 40 000 JPY de plus.',
+            },
+            {
+              t: l === 'en' ? 'The gradient is steep over short distances' : 'Le gradient est raide sur de courtes distances',
+              b: l === 'en'
+                ? 'From Kasai (¥76,000) to Jimbocho (¥150,000) is nearly double, and a few stops on the same line can swing rent 30 to 40%. It is about how central and connected a station is, not raw distance.'
+                : 'De Kasai (76 000 JPY) a Jimbocho (150 000 JPY), c\'est presque le double, et quelques stations sur la meme ligne peuvent faire varier le loyer de 30 a 40%. Tout depend de la centralite et des correspondances, pas de la distance brute.',
+            },
+          ].map((it) => (
+            <div key={it.t} className="border border-gray-200 rounded-xl p-5">
+              <p className="font-semibold text-[#0f2744] mb-1">{it.t}</p>
+              <p className="text-sm text-gray-600 leading-relaxed">{it.b}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
       {/* Price trends (historical) */}
       <section className="mb-14">
         <h2 className="text-2xl font-bold text-[#0f2744] mb-2">
