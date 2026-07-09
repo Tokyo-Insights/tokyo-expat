@@ -5,16 +5,37 @@ import type { ReactNode } from 'react'
 interface Props {
   locale: string
   compact?: boolean
+  variant?: 'checklist' | 'rent-index'
 }
 
-export default function LeadMagnetForm({ locale, compact = false }: Props): ReactNode {
+export default function LeadMagnetForm({ locale, compact = false, variant = 'checklist' }: Props): ReactNode {
   const [email, setEmail] = useState('')
   const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle')
 
   const isFr = locale === 'fr'
-  const pdfUrl = isFr ? '/checklist-relocation-japon.pdf' : '/japan-relocation-checklist.pdf'
+  const isRentIndex = variant === 'rent-index'
+  const source = isRentIndex ? 'lead-magnet-rent-index' : 'lead-magnet-checklist'
+  const pdfUrl = isRentIndex
+    ? (isFr ? '/tokyo-rent-index-fr.pdf' : '/tokyo-rent-index-en.pdf')
+    : (isFr ? '/checklist-relocation-japon.pdf' : '/japan-relocation-checklist.pdf')
 
-  const t = {
+  const t = isRentIndex ? {
+    title: isFr
+      ? 'Recevez l\'Indice des loyers de Tokyo (PDF gratuit)'
+      : 'Get the full Tokyo Rent Index (free PDF)',
+    subtitle: isFr
+      ? 'Les loyers medians 1K, 1LDK et 2LDK pour 23 arrondissements, 27 lignes et 50 stations, dans un PDF. Telechargement immediat.'
+      : 'Median 1K, 1LDK and 2LDK rents for 23 wards, 27 train lines and 50 stations, in one PDF. Instant download.',
+    placeholder: isFr ? 'Votre email' : 'Your email',
+    button: isFr ? 'Recevoir l\'indice (PDF)' : 'Get the index (PDF)',
+    loading: isFr ? 'Envoi...' : 'Sending...',
+    successTitle: isFr ? 'C\'est pret !' : 'It is ready!',
+    successBody: isFr
+      ? 'Votre indice complet est disponible ci-dessous. Une copie arrive aussi dans votre boite email.'
+      : 'Your full index is available below. A copy is also on its way to your inbox.',
+    download: isFr ? 'Telecharger l\'indice (PDF)' : 'Download the index (PDF)',
+    error: isFr ? 'Une erreur est survenue. Reessayez.' : 'Something went wrong. Please retry.',
+  } : {
     title: isFr
       ? 'Recevez la Checklist Relocation Japon (PDF gratuit)'
       : 'Get the Japan Relocation Checklist (free PDF)',
@@ -39,7 +60,7 @@ export default function LeadMagnetForm({ locale, compact = false }: Props): Reac
       const res = await fetch('/api/subscribe', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ email, locale, source: 'lead-magnet-checklist' }),
+        body: JSON.stringify({ email, locale, source }),
       })
       if (res.ok && typeof window !== 'undefined' && typeof window.gtag === 'function') {
         window.gtag('event', 'generate_lead', {

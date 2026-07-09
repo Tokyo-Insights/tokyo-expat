@@ -5,6 +5,7 @@ import rentIndex from '@/lib/tokyoRentIndex.json'
 import priceTrends from '@/lib/tokyoPriceTrends.json'
 import AffordabilityTool from '@/components/AffordabilityTool'
 import NewsletterForm from '@/components/NewsletterForm'
+import LeadMagnetForm from '@/components/LeadMagnetForm'
 
 export async function generateMetadata({
   params,
@@ -350,17 +351,14 @@ export default async function DataPage({
         <AffordabilityTool locale={l} wards={affordWards} stations={affordStations} />
       </section>
 
-      {/* Email capture (data audience) */}
+      {/* Lead magnet: full rent index PDF (capture principale, intention data) */}
       <section className="mb-14">
-        <div className="bg-[#0f2744] rounded-2xl p-6 md:p-8 grid md:grid-cols-5 gap-6 md:items-center">
-          <div className="md:col-span-3 md:max-w-sm">
-            <NewsletterForm locale={l} theme="dark" labels={captureLabels} />
-          </div>
-          <div className="md:col-span-2 text-gray-300 text-sm space-y-2">
-            <p className="flex items-start gap-2"><span className="text-green-400">✓</span>{l === 'en' ? 'The same real data behind every chart on this page.' : 'Les memes vraies donnees derriere chaque graphique de cette page.'}</p>
-            <p className="flex items-start gap-2"><span className="text-green-400">✓</span>{l === 'en' ? 'One email per quarter, unsubscribe anytime.' : 'Un email par trimestre, desabonnement a tout moment.'}</p>
-          </div>
-        </div>
+        <LeadMagnetForm locale={l} variant="rent-index" />
+        <p className="text-xs text-gray-400 mt-2 text-center">
+          {l === 'en'
+            ? 'The full index (23 wards, 27 lines, 50 stations) as a PDF. No spam, unsubscribe anytime.'
+            : 'L\'indice complet (23 arrondissements, 27 lignes, 50 stations) en PDF. Pas de spam, desabonnement a tout moment.'}
+        </p>
       </section>
 
       {/* Ward rent table */}
