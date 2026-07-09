@@ -408,26 +408,26 @@ export default async function DataPage({
       {/* Choropleth map + embed block (linkable asset, gagne des backlinks) */}
       <section className="mb-14">
         <h2 className="text-2xl font-bold text-[#0f2744] mb-2">
-          {l === 'en' ? 'Tokyo rent map (free to embed)' : 'Carte des loyers de Tokyo (libre a integrer)'}
+          {l === 'en' ? 'Tokyo rent map (free to embed)' : 'Carte des loyers de Tokyo (libre à intégrer)'}
         </h2>
         <p className="text-xs text-gray-400 mb-4">
           {l === 'en'
             ? 'Median monthly rent for a 1K studio by ward. Free to republish on your site with a link back to this page.'
-            : 'Loyer mensuel median d\'un studio 1K par arrondissement. Libre de republication sur votre site avec un lien vers cette page.'}
+            : 'Loyer mensuel médian d\'un studio 1K par arrondissement. Libre de republication sur votre site avec un lien vers cette page.'}
         </p>
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src="/tokyo-rent-map.png"
           alt={l === 'en'
             ? 'Median 1K studio rent by Tokyo ward, 2026 (Tokyo Expat)'
-            : 'Loyer median d\'un studio 1K par arrondissement de Tokyo, 2026 (Tokyo Expat)'}
+            : 'Loyer médian d\'un studio 1K par arrondissement de Tokyo, 2026 (Tokyo Expat)'}
           width={1650}
           height={1650}
           className="w-full max-w-2xl mx-auto rounded-xl border border-gray-200"
         />
         <div className="mt-4 border border-gray-200 rounded-xl p-4 bg-gray-50/60">
           <p className="text-xs font-semibold text-[#0f2744] mb-2">
-            {l === 'en' ? 'Embed this map (copy the code):' : 'Integrer cette carte (copiez le code) :'}
+            {l === 'en' ? 'Embed this map (copy the code):' : 'Intégrer cette carte (copiez le code) :'}
           </p>
           <pre className="text-[11px] text-gray-600 whitespace-pre-wrap break-all bg-white border border-gray-200 rounded p-3 overflow-x-auto">{embedCode}</pre>
         </div>
