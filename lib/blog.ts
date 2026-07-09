@@ -11850,14 +11850,14 @@ Si vous voulez que quelqu'un du marche tokyoite transforme ces tendances en acha
     title: 'Tokyo Rent vs Other World Cities (2026): Why It\'s So Cheap',
     description: 'How Tokyo rent compares to New York, London, Sydney and Hong Kong in 2026. A central Tokyo studio is often under $800, from 528,660 real listings.',
     date: '2026-07-04',
-    readingTime: '6 min',
+    readingTime: '8 min',
     content: `
 Every time we publish Tokyo rent data, the same reaction floods in from around the world: "that is so cheap." People in Sydney, New York, London and Hong Kong look at the numbers and cannot believe a central studio can cost so little. So how does Tokyo really compare? Here is the honest picture, from 528,660 real active listings.
 
 **Quick answer:** In 2026, a central Tokyo studio (1K) rents for roughly 90,000 to 140,000 JPY a month, which is about US$580 to US$900 at current rates. That is a fraction of what you pay for a small studio in New York (US$3,000+), London (GBP 1,600+), Sydney (A$2,600+) or Hong Kong (HK$15,000+). A weak yen makes Tokyo one of the best value major cities in the world to rent in right now.
 
 ## What a studio actually costs in Tokyo
-Across Tokyo's 23 wards, the median rent for a 1K studio runs from 74 000 JPY in Edogawa to 140 000 JPY in Minato. Even the most expensive ward, right in the centre, lands near US$900 a month. You can explore every ward, line and station in our [Tokyo Rent Index](/en/data).
+Across Tokyo's 23 wards, the median rent for a 1K studio (one room plus a small separate kitchen, see our [layout guide](/en/blog/japanese-apartment-layouts-explained)) runs from 74,000 JPY in Edogawa to 140,000 JPY in Minato. Even the most expensive ward, right in the centre, lands near US$900 a month. You can explore every ward, line and station in our [Tokyo Rent Index](/en/data), or see the wider trend in our [Tokyo rent report](/en/blog/tokyo-rent-report-2026).
 
 ## How that stacks up against other cities
 For a comparable small studio in the city core, typical monthly rents look roughly like this:
@@ -11869,6 +11869,16 @@ For a comparable small studio in the city core, typical monthly rents look rough
 - **Paris:** EUR 1,000 and up
 
 These other figures are approximate market ranges, not our data, but the gap is not subtle: Tokyo is often three to four times cheaper for a private, central home.
+
+## What renters in other cities say
+When we share these numbers, the comparisons that come back are the most telling part. A renter in Milan pointed out that a similar local salary there buys, at most, a room in a shared flat for around 850 euros, not a private studio. Someone in London described paying half their salary for an old, damp one-bed an hour from the centre. A reader in Hong Kong said the same money there gets a cramped, subdivided room in a building full of pests. Even in Seoul, where one renter noted you can still find a place for about US$500, the point stood. People in Sydney, Paris and Seoul all had versions of the same reaction: for a clean, private, central home, Tokyo is in a different league on space per dollar. These are anecdotes, not data, but they are remarkably consistent.
+
+## But are salaries lower? The honest caveat
+Yes, and this is the fair counterpoint. Tokyo's median salary is roughly US$30,000 to US$33,000, lower than New York or Sydney, so the "Tokyo is cheap" story depends on who you are:
+- **If you earn abroad or remotely** (in dollars, euros or pounds), the weak yen is a straight discount and Tokyo is genuinely cheap.
+- **If you earn a local yen salary**, rent is still very manageable, usually around the 30 percent of income rule of thumb, whereas many renters in New York or London now spend closer to half. Affordable relative to local pay, even if the dollar headline overstates it.
+
+Either way, the ratio of rent to what you actually get, a private, well-connected, safe home, is hard to beat. For the full income and cost picture, see our [Tokyo cost of living guide](/en/blog/tokyo-expat-cost-of-living-2026).
 
 ## Why Tokyo is so affordable right now
 Three forces stack up. First, the **weak yen**: at roughly 160 JPY to the dollar, every rent looks like a discount to foreign eyes. Second, **abundant supply**: Tokyo keeps building, which caps rents in a way supply-starved cities like London and Sydney never manage. Third, **compact, efficient units**: a Japanese studio is small but genuinely livable, so you are not overpaying for wasted space.
@@ -11884,32 +11894,42 @@ The catch is the upfront bill, not the monthly rent. A standard lease can ask fo
     title: 'Loyers a Tokyo vs grandes villes mondiales (2026)',
     description: 'Comparatif des loyers de Tokyo avec New York, Londres, Sydney et Hong Kong en 2026. Un studio central a Tokyo est souvent sous les 800$, sur 528,660 annonces reelles.',
     date: '2026-07-04',
-    readingTime: '6 min',
+    readingTime: '8 min',
     content: `
-A chaque fois que nous publions nos donnees de loyers a Tokyo, la meme reaction arrive du monde entier : "c'est tellement pas cher". Les gens a Sydney, New York, Londres ou Hong Kong regardent les chiffres et n'en reviennent pas qu'un studio central puisse couter si peu. Alors, comment Tokyo se compare-t-elle vraiment ? Voici le portrait honnete, sur 528,660 annonces reelles.
+À chaque fois que nous publions nos données de loyers à Tokyo, la même réaction arrive du monde entier : "c'est tellement pas cher". Les gens à Sydney, New York, Londres ou Hong Kong regardent les chiffres et n'en reviennent pas qu'un studio central puisse coûter si peu. Alors, comment Tokyo se compare-t-elle vraiment ? Voici le portrait honnête, sur 528,660 annonces réelles.
 
-**Reponse rapide :** En 2026, un studio central a Tokyo (1K) se loue entre 90 000 et 140 000 JPY par mois, soit environ 580 a 900 US$ au taux actuel. C'est une fraction de ce que vous payez pour un petit studio a New York (3 000 US$ et plus), Londres (1 600 GBP et plus), Sydney (2 600 A$ et plus) ou Hong Kong (15 000 HK$ et plus). Le yen faible fait de Tokyo l'une des grandes villes au meilleur rapport qualite-prix au monde en ce moment.
+**Réponse rapide :** En 2026, un studio central à Tokyo (1K) se loue entre 90 000 et 140 000 JPY par mois, soit environ 580 à 900 US$ au taux actuel. C'est une fraction de ce que vous payez pour un petit studio à New York (3 000 US$ et plus), Londres (1 600 GBP et plus), Sydney (2 600 A$ et plus) ou Hong Kong (15 000 HK$ et plus). Le yen faible fait de Tokyo l'une des grandes villes au meilleur rapport qualité-prix au monde en ce moment.
 
-## Ce que coute vraiment un studio a Tokyo
-Sur les 23 arrondissements de Tokyo, le loyer median d'un studio 1K va de 74 000 JPY a Edogawa a 140 000 JPY a Minato. Meme l'arrondissement le plus cher, en plein centre, tourne autour de 900 US$ par mois. Explorez chaque arrondissement, ligne et station dans notre [Indice des loyers de Tokyo](/fr/data).
+## Ce que coûte vraiment un studio à Tokyo
+Sur les 23 arrondissements de Tokyo, le loyer médian d'un studio 1K (une pièce plus une petite cuisine séparée, voir notre [guide des configurations](/fr/blog/types-appartements-japonais-expliques)) va de 74 000 JPY à Edogawa à 140 000 JPY à Minato. Même l'arrondissement le plus cher, en plein centre, tourne autour de 900 US$ par mois. Explorez chaque arrondissement, ligne et station dans notre [Indice des loyers de Tokyo](/fr/data), ou voyez la tendance d'ensemble dans notre [rapport sur les loyers de Tokyo](/fr/blog/rapport-loyers-tokyo-2026).
 
 ## Le comparatif avec les autres villes
-Pour un petit studio comparable en centre-ville, les loyers mensuels typiques ressemblent a ceci :
-- **Tokyo :** 580 a 900 US$
+Pour un petit studio comparable en centre-ville, les loyers mensuels typiques ressemblent à ceci :
+- **Tokyo :** 580 à 900 US$
 - **New York :** 3 000 US$ et plus
 - **Londres :** 1 600 GBP et plus (environ 2 000 US$)
 - **Sydney :** 2 600 A$ et plus (environ 1 700 US$)
 - **Hong Kong :** 15 000 HK$ et plus (environ 1 900 US$), souvent pour bien plus petit
 - **Paris :** 1 000 EUR et plus
 
-Ces autres chiffres sont des fourchettes de marche approximatives, pas notre data, mais l'ecart n'est pas subtil : Tokyo est souvent trois a quatre fois moins chere pour un logement prive et central.
+Ces autres chiffres sont des fourchettes de marché approximatives, pas notre data, mais l'écart n'est pas subtil : Tokyo est souvent trois à quatre fois moins chère pour un logement privé et central.
+
+## Ce que disent les locataires des autres villes
+Quand nous partageons ces chiffres, ce sont les comparaisons qui reviennent qui parlent le plus. Un locataire à Milan soulignait qu'un salaire local comparable n'y paie, au mieux, qu'une chambre en colocation autour de 850 euros, pas un studio privé. Quelqu'un à Londres décrivait payer la moitié de son salaire pour un vieux une-pièce humide à une heure du centre. Un lecteur à Hong Kong racontait que la même somme y donne une chambre exiguë et subdivisée dans un immeuble infesté. À Sydney, Paris ou Séoul, la réaction était toujours la même : pour un logement propre, privé et central, Tokyo joue dans une autre catégorie de surface au dollar. Ce sont des anecdotes, pas des données, mais elles sont remarquablement constantes.
+
+## Mais les salaires sont-ils plus bas ? La nuance honnête
+Oui, et c'est le contre-argument légitime. Le salaire médian à Tokyo tourne autour de 30 000 à 33 000 US$, plus bas qu'à New York ou Sydney. Donc l'histoire du "Tokyo pas cher" dépend de qui vous êtes :
+- **Si vous gagnez à l'étranger ou à distance** (en dollars, euros ou livres), le yen faible est une remise directe et Tokyo est vraiment bon marché.
+- **Si vous gagnez un salaire local en yens**, le loyer reste très gérable, en général autour de la règle des 30 % du revenu, alors que beaucoup de locataires à New York ou Londres en sont aujourd'hui plus proches de la moitié. Abordable par rapport au revenu local, même si le chiffre en dollars exagère l'affaire.
+
+Dans les deux cas, le rapport entre le loyer et ce que vous obtenez vraiment, un logement privé, bien connecté et sûr, est difficile à battre. Pour le tableau complet des revenus et du coût de la vie, voyez notre [guide du coût de la vie à Tokyo](/fr/blog/cout-vie-tokyo-expatrie-2026).
 
 ## Pourquoi Tokyo est si abordable en ce moment
-Trois forces s'additionnent. D'abord le **yen faible** : a environ 160 JPY pour un dollar, chaque loyer ressemble a une remise pour un oeil etranger. Ensuite, une **offre abondante** : Tokyo continue de construire, ce qui plafonne les loyers, contrairement a Londres ou Sydney en penurie. Enfin, des **logements compacts et efficaces** : un studio japonais est petit mais vraiment vivable, donc vous ne payez pas pour de l'espace gaspille.
+Trois forces s'additionnent. D'abord le **yen faible** : à environ 160 JPY pour un dollar, chaque loyer ressemble à une remise pour un oeil étranger. Ensuite, une **offre abondante** : Tokyo continue de construire, ce qui plafonne les loyers, contrairement à Londres ou Sydney en pénurie. Enfin, des **logements compacts et efficaces** : un studio japonais est petit mais vraiment vivable, donc vous ne payez pas pour de l'espace gaspillé.
 
-Le piege, c'est la facture d'entree, pas le loyer mensuel. Un bail classique peut demander 4 a 6 mois de loyer d'un coup. Voyez notre [classement des quartiers les moins chers](/fr/blog/quartiers-tokyo-moins-chers-classement-loyers) pour etirer votre budget, et si vous voulez confier la recherche a quelqu'un du marche, voyez [comment nous travaillons](/fr/contact).
+Le piège, c'est la facture d'entrée, pas le loyer mensuel. Un bail classique peut demander 4 à 6 mois de loyer d'un coup. Voyez notre [classement des quartiers les moins chers](/fr/blog/quartiers-tokyo-moins-chers-classement-loyers) pour étirer votre budget, et si vous voulez confier la recherche à quelqu'un du marché, voyez [comment nous travaillons](/fr/contact).
 
-*Donnees : chiffres Tokyo sur 528,660 annonces actives, 2026, loyer median 1K en JPY. Les chiffres des autres villes sont des fourchettes de marche approximatives.*
+*Données : chiffres Tokyo sur 528,660 annonces actives, 2026, loyer médian 1K en JPY. Les chiffres des autres villes sont des fourchettes de marché approximatives.*
     `.trim(),
   },
   {
