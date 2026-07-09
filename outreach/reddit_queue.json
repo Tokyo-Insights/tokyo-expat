@@ -21,6 +21,17 @@
       "comments": 23
     },
     {
+      "id": "rent-map-ward",
+      "status": "ready",
+      "png": "outreach/tokyo-rent-map.png",
+      "title": "[OC] Median rent for a 1K studio across Tokyo's 23 wards, mapped (2026)",
+      "oc_comment": "Source: Compiled from ~500,000 active rental listings across Tokyo's 23 wards (deduplicated); median monthly rent for a 1K studio (one room + separate kitchen) per ward.\n\nTool: Python (pandas) for the medians, GeoPandas + matplotlib for the choropleth. This is the map follow-up to my earlier ranked-bar post on 50 stations, a few people asked for a choropleth.",
+      "sub": "dataisbeautiful",
+      "posted_utc": null,
+      "views": null,
+      "upvotes": null
+    },
+    {
       "id": "price-trends-ward",
       "status": "ready",
       "png": "outreach/tokyo-price-trends.png",
