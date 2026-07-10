@@ -1165,5 +1165,26 @@
     "added": "2026-07-09",
     "email_verified": true,
     "is_competitor": false
+  },
+  {
+    "domain": "japanization.org",
+    "name": "Mr Japanization",
+    "type": "media-fr-digital-pr",
+    "email": "mr.japanization@gmail.com",
+    "approach": "digital-pr-data-fr",
+    "da_est": null,
+    "priority": "medium",
+    "pitch": "Indice loyers Tokyo + hook 720k vues Reddit, angle 'Japon en chiffres'",
+    "notes": "Data PR FR. Email verifie LIVE 10/07 (page /contact, reponse 48h). Draft Gmail cree 10/07 (id r7706373871260903947, htmlBody liens propres). Non concurrent (media societe/culture FR, gros). Fit un peu large. NB reseau Mr Mondialisation.",
+    "manual_required": false,
+    "form_url": "",
+    "status": "drafted",
+    "emailed_date": "",
+    "last_contact": "2026-07-10",
+    "response": "",
+    "link_obtained": false,
+    "added": "2026-07-10",
+    "email_verified": true,
+    "is_competitor": false
   }
 ]
