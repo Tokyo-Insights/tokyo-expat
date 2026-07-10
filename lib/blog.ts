@@ -12340,7 +12340,7 @@ Finding an expat apartment in Tokyo is mostly about knowing which door to use. P
 ---
 
 *See also: [furnished apartments in Tokyo](/en/blog/furnished-apartment-tokyo-top-5-expats) and [gaijin house vs share house](/en/blog/gaijin-house-vs-share-house-tokyo).*
-    \`.trim(),
+    `.trim(),
   },
   {
     slug: 'appartements-expatries-tokyo',
@@ -12349,7 +12349,7 @@ Finding an expat apartment in Tokyo is mostly about knowing which door to use. P
     description: 'Comment trouver un appartement pour expatrié à Tokyo en 2026 : ce que sont les "appartements gaijin", les coûts réels, sans garant, et où chercher.',
     date: '2026-07-10',
     readingTime: '7 min',
-    content: \`
+    content: `
 Les "appartements pour expatriés" ou "appartements gaijin" ne sont pas un type de bien à part : ce sont simplement les logements de Tokyo qui acceptent vraiment les étrangers, sans les barrières habituelles. Voici ce que ça veut dire en 2026 et comment en trouver un.
 
 **Réponse rapide :** Un appartement pour expatrié (ou gaijin) à Tokyo est une location qui accueille les locataires étrangers, souvent meublée, sans garant japonais, sans argent-clé et avec des démarches en anglais. En pratique, c'est une share house, un social apartment, un appartement meublé au mois, ou un bail classique arrangé par un agent bilingue. Comptez 45 000 à 200 000 JPY par mois selon le type et le niveau de centralité.
@@ -12404,7 +12404,7 @@ Trouver un appartement pour expatrié à Tokyo, c'est surtout savoir quelle port
 ---
 
 *À lire aussi : [appartements meublés à Tokyo](/fr/blog/appartement-meuble-tokyo-expats-top-5) et [gaijin house vs share house](/fr/blog/gaijin-house-vs-share-house-difference).*
-    \`.trim(),
+    `.trim(),
   },
 ]
 
