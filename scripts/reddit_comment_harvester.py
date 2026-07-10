@@ -108,6 +108,7 @@ def main():
     if "--digest" in sys.argv:
         digest(rows)
         return
+    keep_emails = "--keep-emails" in sys.argv  # desactive le trash auto des notifs
 
     m = imaplib.IMAP4_SSL("imap.gmail.com")
     m.login(GMAIL_ADDRESS, GMAIL_APP_PASSWORD)
@@ -116,6 +117,7 @@ def main():
     typ, d = m.uid("SEARCH", None, "FROM", "redditmail.com")
     uids = d[0].split() if d and d[0] else []
     new = 0
+    to_trash = []  # UIDs des notifs capturees CE run -> corbeille (jamais les archives deja vues)
     for uid in uids[-400:]:
         _, md = m.uid("FETCH", uid, "(BODY.PEEK[])")
         if not md or not md[0]:
@@ -142,13 +144,29 @@ def main():
         rows.append(rec)
         seen.add(mid)
         new += 1
-    m.logout()
+        to_trash.append(uid)
 
+    # 1) PERSISTER le log AVANT tout trash -> on ne perd jamais l'asset, meme si le trash echoue.
     LOG.parent.mkdir(exist_ok=True)
     with open(LOG, "w", encoding="utf-8") as f:
         for r in sorted(rows, key=lambda x: x.get("date", "")):
             f.write(json.dumps(r, ensure_ascii=False) + "\n")
+
+    # 2) PUIS corbeiller les notifs qu'on vient de capturer (redondantes: tout est dans le log).
+    #    Uniquement les nouvelles de ce run (pas de balayage retroactif des archives).
+    trashed = 0
+    if not keep_emails and to_trash:
+        for uid in to_trash:
+            try:
+                m.uid("STORE", uid, "+X-GM-LABELS", "\\Trash")
+                trashed += 1
+            except Exception as e:
+                print(f"[WARN] trash uid {uid}: {e}")
+    m.logout()
+
     print(f"{new} nouveau(x) commentaire(s) capture(s). Total log: {len(rows)}.")
+    if not keep_emails and new:
+        print(f"{trashed} notification(s) redditmail corbeillee(s) (deja sauvees dans le log).")
     if new:
         print("-> Demande a Claude d'analyser les lecons (python scripts/reddit_comment_harvester.py --digest).")
 
