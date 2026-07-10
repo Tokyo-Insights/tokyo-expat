@@ -12276,6 +12276,136 @@ Le piege, c'est que les meilleurs meubles sont detenus par un petit cercle d'ope
 *Les couts sont des fourchettes de marche 2026 typiques pour le meuble a Tokyo. Les chiffres du vide viennent de notre Indice des loyers.*
     `.trim(),
   },
+  {
+    slug: 'expat-apartments-tokyo',
+    locale: 'en',
+    title: 'Expat Apartments in Tokyo: How to Find One in 2026',
+    description: 'How to find an expat-friendly apartment in Tokyo in 2026: what "gaijin apartments" really are, real costs, no guarantor, and where to look.',
+    date: '2026-07-10',
+    readingTime: '7 min',
+    content: `
+"Expat apartments" and "gaijin apartments" are not a separate type of property; they are simply the rentals in Tokyo that actually accept foreigners, without the usual barriers. Here is what that means in 2026 and how to find one.
+
+**Quick answer:** An expat (or gaijin) apartment in Tokyo is a rental that welcomes foreign tenants, usually furnished, with no Japanese guarantor, no key money and English-friendly paperwork. In practice that means a share house, a social apartment, a furnished monthly mansion, or a standard lease arranged through a bilingual agent. Expect 45,000 to 200,000 JPY per month depending on the type and how central you want to be.
+
+## What is an "expat" or "gaijin" apartment?
+
+There is no legal category called a gaijin apartment. The term is shorthand for rentals set up to take foreign tenants, because the standard Japanese market puts up real barriers: a Japanese guarantor, key money, agency fees, and paperwork in Japanese. An expat apartment removes those. You sign in English (or with a bilingual agent), skip the guarantor via a guarantee company, and often move in within days.
+
+## The four main options
+
+**1. Share house (45,000 to 90,000 JPY).** A private furnished room with shared kitchen and bathroom, no guarantor, move in within a week. The cheapest and fastest way in. See our [gaijin house guide](/en/blog/gaijin-house-tokyo-guide).
+
+**2. Social apartment (70,000 to 130,000 JPY).** A design-led share house with large common spaces and an active community. More privacy and comfort than a basic share house. See our [social apartment guide](/en/blog/social-apartments-tokyo-guide).
+
+**3. Monthly mansion (80,000 to 200,000 JPY).** A fully furnished private studio with your own kitchen and bathroom, rented by the month, no guarantor. Best when you want privacy and a usable address for admin.
+
+**4. Standard lease via a bilingual agent (from ~90,000 JPY plus move-in fees).** A normal unfurnished apartment, but arranged by an agent who handles the guarantee company and the Japanese paperwork for you. Best for long stays. See how to [find an apartment as a foreigner](/en/blog/find-apartment-tokyo-foreigner).
+
+## What they cost in 2026
+
+| Type | Monthly rent | Guarantor | Move-in |
+|---|---|---|---|
+| Share house | 45,000-90,000 | None | Within a week |
+| Social apartment | 70,000-130,000 | None | 1-2 weeks |
+| Monthly mansion | 80,000-200,000 | None | 1-2 weeks |
+| Standard lease (agent) | 90,000+ (4-6 months upfront) | Guarantee company | 2-4 weeks |
+
+For real median rents by ward, line and station, see our [Tokyo Rent Index](/en/data).
+
+## Where to look
+
+Foreigner-friendly stock clusters just outside the Yamanote loop, in wards like Nakano, Koenji, Kita and Itabashi, where you get central access for less than Shibuya or Shinjuku. For where each layout is cheapest, see our [cheapest Tokyo neighbourhoods ranking](/en/blog/cheapest-neighbourhoods-tokyo-ranked-by-rent).
+
+Timing matters too. The February to April peak, when company transfers and students flood the market, is when availability tightens and there is almost no room to negotiate. Moving in the quieter May to August window gives you more choice and better terms, which is worth planning around if your dates are flexible.
+
+## How to avoid the common traps
+
+- Confirm what is included (utilities, internet, bedding) before you sign.
+- Understand the layout codes so you know what you are getting: read our [Japanese apartment layouts guide](/en/blog/japanese-apartment-layouts-explained).
+- Watch the upfront bill on standard leases: four to six months of rent is normal. See our [rental traps guide](/en/blog/tokyo-rental-traps-foreigners).
+
+## Frequently asked questions
+
+**Can a foreigner rent an apartment in Tokyo without a guarantor?** Yes. Share houses, social apartments and monthly mansions require no guarantor, and standard leases use a guarantee company instead.
+
+**What is a gaijin apartment?** It is informal shorthand for a rental that accepts foreign tenants easily: furnished, English-friendly, no guarantor and no key money.
+
+**How much is an apartment for an expat in Tokyo?** From around 45,000 JPY per month for a share house room to 200,000 JPY for a central furnished studio. A standard unfurnished lease is cheaper monthly but adds four to six months of upfront fees.
+
+**What is the fastest way for an expat to get an apartment in Tokyo?** A share house or monthly mansion, both bookable from abroad with a passport and visa, with move-in within days.
+
+Finding an expat apartment in Tokyo is mostly about knowing which door to use. Pick the type that fits your stay and budget, and if you want someone inside the market to handle it, [tell us what you need](/en/contact).
+
+---
+
+*See also: [furnished apartments in Tokyo](/en/blog/furnished-apartment-tokyo-top-5-expats) and [gaijin house vs share house](/en/blog/gaijin-house-vs-share-house-tokyo).*
+    \`.trim(),
+  },
+  {
+    slug: 'appartements-expatries-tokyo',
+    locale: 'fr',
+    title: 'Appartements pour expatriés à Tokyo : comment en trouver (2026)',
+    description: 'Comment trouver un appartement pour expatrié à Tokyo en 2026 : ce que sont les "appartements gaijin", les coûts réels, sans garant, et où chercher.',
+    date: '2026-07-10',
+    readingTime: '7 min',
+    content: \`
+Les "appartements pour expatriés" ou "appartements gaijin" ne sont pas un type de bien à part : ce sont simplement les logements de Tokyo qui acceptent vraiment les étrangers, sans les barrières habituelles. Voici ce que ça veut dire en 2026 et comment en trouver un.
+
+**Réponse rapide :** Un appartement pour expatrié (ou gaijin) à Tokyo est une location qui accueille les locataires étrangers, souvent meublée, sans garant japonais, sans argent-clé et avec des démarches en anglais. En pratique, c'est une share house, un social apartment, un appartement meublé au mois, ou un bail classique arrangé par un agent bilingue. Comptez 45 000 à 200 000 JPY par mois selon le type et le niveau de centralité.
+
+## Qu'est-ce qu'un appartement "expatrié" ou "gaijin" ?
+
+Il n'existe aucune catégorie légale d'appartement gaijin. Le terme désigne les locations pensées pour accueillir des étrangers, parce que le marché japonais classique dresse de vraies barrières : garant japonais, argent-clé, frais d'agence et dossier en japonais. Un appartement pour expatrié supprime tout ça. Vous signez en anglais (ou via un agent bilingue), vous évitez le garant grâce à une société de garantie, et vous emménagez souvent en quelques jours.
+
+## Les quatre options principales
+
+**1. Share house (45 000 à 90 000 JPY).** Une chambre privée meublée avec cuisine et salle de bain partagées, sans garant, emménagement en une semaine. Le plus rapide et le moins cher. Voir notre [guide de la gaijin house](/fr/blog/gaijin-house-tokyo-guide-complet).
+
+**2. Social apartment (70 000 à 130 000 JPY).** Une share house au design soigné, avec de grands espaces communs et une communauté active. Plus d'intimité et de confort qu'une share house basique. Voir notre [guide du social apartment](/fr/blog/social-apartment-tokyo-guide).
+
+**3. Appartement meublé au mois (80 000 à 200 000 JPY).** Un studio privé entièrement meublé, avec votre propre cuisine et salle de bain, loué au mois, sans garant. Idéal si vous voulez de l'intimité et une adresse utilisable pour les démarches.
+
+**4. Bail classique via un agent bilingue (à partir de ~90 000 JPY + frais d'entrée).** Un appartement non meublé normal, mais arrangé par un agent qui gère la société de garantie et le dossier japonais pour vous. Idéal pour les longs séjours. Voir comment [trouver un appartement en tant qu'étranger](/fr/blog/trouver-appartement-tokyo-etranger).
+
+## Ce que ça coûte en 2026
+
+| Type | Loyer mensuel | Garant | Emménagement |
+|---|---|---|---|
+| Share house | 45 000-90 000 | Aucun | En une semaine |
+| Social apartment | 70 000-130 000 | Aucun | 1-2 semaines |
+| Meublé au mois | 80 000-200 000 | Aucun | 1-2 semaines |
+| Bail classique (agent) | 90 000+ (4-6 mois d'avance) | Société de garantie | 2-4 semaines |
+
+Pour les loyers médians réels par arrondissement, ligne et station, voir notre [Indice des loyers de Tokyo](/fr/data).
+
+## Où chercher
+
+Le parc adapté aux étrangers se concentre juste hors de la boucle Yamanote, dans des arrondissements comme Nakano, Koenji, Kita et Itabashi, où l'accès central coûte moins cher qu'à Shibuya ou Shinjuku. Pour savoir où chaque configuration est la moins chère, voir notre [classement des quartiers les moins chers](/fr/blog/quartiers-tokyo-moins-chers-classement-loyers).
+
+## Comment éviter les pièges courants
+
+- Vérifiez ce qui est inclus (charges, internet, literie) avant de signer.
+- Comprenez les codes de configuration pour savoir ce que vous prenez : lisez notre [guide des configurations japonaises](/fr/blog/types-appartements-japonais-expliques).
+- Surveillez la facture d'entrée des baux classiques : quatre à six mois de loyer, c'est normal. Voir notre [guide des pièges de la location](/fr/blog/pieges-location-tokyo-etranger).
+
+## Questions fréquentes
+
+**Un étranger peut-il louer un appartement à Tokyo sans garant ?** Oui. Les share houses, social apartments et meublés au mois ne demandent aucun garant, et les baux classiques utilisent une société de garantie à la place.
+
+**Qu'est-ce qu'un appartement gaijin ?** C'est un terme informel pour une location qui accepte facilement les étrangers : meublée, en anglais, sans garant ni argent-clé.
+
+**Combien coûte un appartement pour un expatrié à Tokyo ?** De 45 000 JPY par mois pour une chambre en share house à 200 000 JPY pour un studio meublé central. Un bail classique non meublé est moins cher au mois mais ajoute quatre à six mois de frais d'entrée.
+
+**Quel est le moyen le plus rapide pour un expatrié d'avoir un appartement à Tokyo ?** Une share house ou un meublé au mois, réservables depuis l'étranger avec un passeport et un visa, avec emménagement en quelques jours.
+
+Trouver un appartement pour expatrié à Tokyo, c'est surtout savoir quelle porte utiliser. Choisissez le type qui correspond à votre séjour et votre budget, et si vous voulez confier ça à quelqu'un du marché, [dites-nous ce qu'il vous faut](/fr/contact).
+
+---
+
+*À lire aussi : [appartements meublés à Tokyo](/fr/blog/appartement-meuble-tokyo-expats-top-5) et [gaijin house vs share house](/fr/blog/gaijin-house-vs-share-house-difference).*
+    \`.trim(),
+  },
 ]
 
 // Mapping FR slug -> EN slug (articles jumeaux pour hreflang)
