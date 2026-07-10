@@ -51,6 +51,7 @@ const t = {
     hero_subtitle: 'Median rent by ward and layout, computed from 528,660 real active listings across Tokyo\'s 23 wards. Updated Q2 2026.',
     last_updated: 'Last updated: June 2026',
     source_note: 'Methodology: median monthly rent (JPY) from 528,660 deduplicated active listings (LIFULL + AtHome), Tokyo 23 special wards, by layout. Median is more robust than average against outliers.',
+    context_note: '1K = a Japanese studio: one room plus a small separate kitchen, usually 20-25 m2 (215-270 sq ft). All amounts are monthly rent in JPY. At roughly ¥160 to US$1 (2026), ¥100,000 is about US$625, so a 1K studio here typically runs US$460 to US$875.',
     section_rent: 'Median Rent by Ward and Layout (JPY/month)',
     section_types: 'Housing Types: Cost Comparison',
     section_time: 'Average Time to Find Housing',
@@ -76,6 +77,7 @@ const t = {
     hero_subtitle: 'Loyer median par arrondissement et par layout, calcule sur 528 660 annonces actives reelles dans les 23 arrondissements de Tokyo. Mis a jour T2 2026.',
     last_updated: 'Derniere mise a jour : juin 2026',
     source_note: 'Methodologie : loyer mensuel median (JPY) sur 528 660 annonces actives dedupliquees (LIFULL + AtHome), 23 arrondissements de Tokyo, par layout. La mediane resiste mieux aux valeurs extremes que la moyenne.',
+    context_note: '1K = un studio japonais : une piece plus une petite cuisine separee, en general 20-25 m2 (215-270 sq ft). Tous les montants sont des loyers mensuels en JPY. A environ 160 JPY pour 1 US$ (2026), 100 000 JPY font environ 625 US$, donc un studio 1K se loue ici entre 460 et 875 US$.',
     section_rent: 'Loyer median par arrondissement et layout (JPY/mois)',
     section_types: 'Types de logement : comparatif des couts',
     section_time: 'Delai moyen pour trouver un logement',
@@ -105,7 +107,10 @@ type WardRent = {
   rents: Record<string, { median: number; count: number }>
 }
 
+const JPY_PER_USD = 160  // taux approx 2026, pour des conversions USD honnetes (le public international reclame des dollars)
 const fmtYen = (n?: number) => (n ? '¥' + n.toLocaleString('en-US') : 'n/a')
+const usd = (n?: number) => (n ? '$' + Math.round(n / JPY_PER_USD).toLocaleString('en-US') : '')
+const fmtYenUsd = (n?: number) => (n ? `${fmtYen(n)} (~${usd(n)})` : 'n/a')
 
 function tierFor1K(median?: number): string {
   if (!median) return 'mid'
@@ -304,6 +309,7 @@ export default async function DataPage({
         <h1 className="text-4xl font-extrabold text-[#0f2744] mb-4">{copy.hero_title}</h1>
         <p className="text-gray-500 text-lg leading-relaxed">{copy.hero_subtitle}</p>
         <p className="text-xs text-gray-400 mt-3">{copy.source_note}</p>
+        <p className="text-xs text-gray-500 mt-2 bg-gray-50 border border-gray-200 rounded-lg px-3 py-2">{copy.context_note}</p>
       </div>
 
       {/* Key stats row */}
@@ -329,11 +335,11 @@ export default async function DataPage({
           </h2>
           <ul className="space-y-2 text-sm text-gray-700">
             <li>{l === 'en'
-              ? `The median monthly rent for a 1K studio in Tokyo ranges from ${fmtYen(wardData[0]?.r1k)} in ${wardData[0]?.ward_fr} to ${fmtYen(wardData[wardData.length-1]?.r1k)} in ${wardData[wardData.length-1]?.ward_fr}.`
-              : `Le loyer mensuel median d'un studio 1K a Tokyo va de ${fmtYen(wardData[0]?.r1k)} a ${wardData[0]?.ward_fr} a ${fmtYen(wardData[wardData.length-1]?.r1k)} a ${wardData[wardData.length-1]?.ward_fr}.`}</li>
+              ? `The median monthly rent for a 1K studio in Tokyo ranges from ${fmtYenUsd(wardData[0]?.r1k)} in ${wardData[0]?.ward_fr} to ${fmtYenUsd(wardData[wardData.length-1]?.r1k)} in ${wardData[wardData.length-1]?.ward_fr}.`
+              : `Le loyer mensuel median d'un studio 1K a Tokyo va de ${fmtYenUsd(wardData[0]?.r1k)} a ${wardData[0]?.ward_fr} a ${fmtYenUsd(wardData[wardData.length-1]?.r1k)} a ${wardData[wardData.length-1]?.ward_fr}.`}</li>
             <li>{l === 'en'
-              ? `The cheapest station for a 1K studio is ${stationData[0]?.station} (${fmtYen(stationData[0]?.r1k)}); the most expensive is ${stationData[stationData.length-1]?.station} (${fmtYen(stationData[stationData.length-1]?.r1k)}).`
-              : `La station la moins chere pour un studio 1K est ${stationData[0]?.station} (${fmtYen(stationData[0]?.r1k)}) ; la plus chere est ${stationData[stationData.length-1]?.station} (${fmtYen(stationData[stationData.length-1]?.r1k)}).`}</li>
+              ? `The cheapest station for a 1K studio is ${stationData[0]?.station} (${fmtYenUsd(stationData[0]?.r1k)}); the most expensive is ${stationData[stationData.length-1]?.station} (${fmtYenUsd(stationData[stationData.length-1]?.r1k)}).`
+              : `La station la moins chere pour un studio 1K est ${stationData[0]?.station} (${fmtYenUsd(stationData[0]?.r1k)}) ; la plus chere est ${stationData[stationData.length-1]?.station} (${fmtYenUsd(stationData[stationData.length-1]?.r1k)}).`}</li>
             <li>{l === 'en'
               ? `Tokyo's median used-condominium sale price rose ${ptPct >= 0 ? '+' : ''}${ptPct}% per square metre from ${ptFromYr} to ${ptToYr}.`
               : `Le prix de vente median au m2 des coproprietes d'occasion a Tokyo a augmente de ${ptPct >= 0 ? '+' : ''}${ptPct}% de ${ptFromYr} a ${ptToYr}.`}</li>
