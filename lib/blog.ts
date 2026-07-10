@@ -521,6 +521,18 @@ In practice:
 
 For a successful move to Tokyo, it is the most efficient lever you can activate.
 
+## Frequently asked questions
+
+**Can foreigners rent apartments in Tokyo?** Yes. Foreigners rent apartments in Tokyo every day, either through no-guarantor options (share houses, furnished and monthly mansions) or a standard lease arranged with a bilingual agent and a guarantee company.
+
+**What kind of apartments in Tokyo accept foreigners?** Share houses, social apartments and monthly mansions are built for foreign tenants and need no Japanese guarantor. For the full breakdown of foreigner-friendly options, see our guide to [expat and gaijin apartments in Tokyo](/en/blog/expat-apartments-tokyo).
+
+**Do I need a guarantor to rent an apartment in Tokyo as a foreigner?** Not always. No-guarantor rentals exist, and standard leases accept a guarantee company (hoshougaisha) in place of a personal Japanese guarantor.
+
+**How much does an apartment for foreigners in Tokyo cost?** From around 50,000 JPY per month for a share house room to 200,000 JPY for a central furnished studio, plus four to six months of upfront fees on a standard lease.
+
+**Can I rent an apartment in Tokyo before I arrive?** Yes. Share houses, furnished flats and monthly mansions can be booked from abroad with a passport and visa, so you can secure housing before you land.
+
 
 For health coverage during your apartment search, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) offers monthly insurance with no commitment, activatable before Japanese national insurance. To communicate with agencies in Japanese, [iTalki](https://www.italki.com/affshare?ref=af32660342) offers lessons with native teachers from $10/hour. *(affiliate links)*
 ---
