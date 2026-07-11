@@ -6,6 +6,7 @@ import priceTrends from '@/lib/tokyoPriceTrends.json'
 import AffordabilityTool from '@/components/AffordabilityTool'
 import NewsletterForm from '@/components/NewsletterForm'
 import LeadMagnetForm from '@/components/LeadMagnetForm'
+import EmbedMap from '@/components/EmbedMap'
 
 export async function generateMetadata({
   params,
@@ -431,12 +432,7 @@ export default async function DataPage({
           height={1650}
           className="w-full max-w-2xl mx-auto rounded-xl border border-gray-200"
         />
-        <div className="mt-4 border border-gray-200 rounded-xl p-4 bg-gray-50/60">
-          <p className="text-xs font-semibold text-[#0f2744] mb-2">
-            {l === 'en' ? 'Embed this map (copy the code):' : 'Intégrer cette carte (copiez le code) :'}
-          </p>
-          <pre className="text-[11px] text-gray-600 whitespace-pre-wrap break-all bg-white border border-gray-200 rounded p-3 overflow-x-auto">{embedCode}</pre>
-        </div>
+        <EmbedMap code={embedCode} locale={l as 'en' | 'fr'} />
       </section>
 
       {/* Rent by train line */}
