@@ -200,6 +200,23 @@ function renderContent(content: string, locale?: string) {
         </ul>
       )
 
+    // Ordered list group (1. 2. 3.)
+    } else if (/^\d+\.\s/.test(line)) {
+      const olItems: ReactNode[] = []
+      while (i < lines.length && /^\d+\.\s/.test(lines[i])) {
+        olItems.push(
+          <li key={i} className="text-gray-700 leading-relaxed">
+            {renderInline(lines[i].replace(/^\d+\.\s/, ''), `oli-${i}`)}
+          </li>
+        )
+        i++
+      }
+      elements.push(
+        <ol key={`ol-${i}`} className="list-decimal ml-5 my-3 space-y-1">
+          {olItems}
+        </ol>
+      )
+
     // HR
     } else if (line.startsWith('---')) {
       elements.push(<hr key={i} className="my-8 border-gray-200" />)
