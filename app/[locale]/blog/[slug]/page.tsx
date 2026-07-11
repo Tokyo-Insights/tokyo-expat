@@ -226,7 +226,7 @@ function renderContent(content: string, locale?: string) {
     } else if (line.startsWith('*') && line.endsWith('*') && !line.startsWith('**')) {
       elements.push(
         <p key={i} className="text-gray-500 italic text-sm mt-2">
-          {line.slice(1, -1)}
+          {renderInline(line.slice(1, -1), `it-${i}`)}
         </p>
       )
       i++
