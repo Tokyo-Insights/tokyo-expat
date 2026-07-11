@@ -1135,6 +1135,7 @@ Le marché locatif tokyoïte est l'un des plus complexes au monde pour les étra
 
 **Réponse rapide :** Les principaux pièges de la location à Tokyo pour un étranger : sous-estimer les frais d'entrée (argent-clé, caution, agence, garant, jusqu'à 4 à 6 mois), signer un contrat en japonais sans traduction, ignorer la clause de remise en état, mal comprendre le préavis, et négliger les frais de renouvellement. La parade : faire traduire le bail et budgétiser tous les coûts avant de signer.
 
+> **Vu du terrain.** Le piège qui coince le plus les gens n'est pas une arnaque, c'est la facture d'entrée. Ils budgètent le loyer mensuel, signent, puis se prennent quatre à six mois d'avance. Demandez le total d'entrée par écrit avant de tomber amoureux d'un logement.
 ## Piège n°1 : signer sans lire les clauses de résiliation
 
 La plupart des baux japonais contiennent une clause de résiliation anticipée (chuto kaiyaku) qui impose des pénalités si vous partez avant la fin de la période minimale. Ces pénalités peuvent représenter 1 à 2 mois de loyer.
@@ -1949,6 +1950,7 @@ Contrairement aux idées reçues, négocier à Tokyo est possible. Pas dans tous
 
 **Réponse rapide :** À Tokyo, on négocie surtout les frais d'entrée plutôt que le loyer affiché : demander un mois offert, réduire l'argent-clé (reikin) ou les frais, surtout en basse saison (mai à août) ou sur un bien vacant depuis longtemps. En haute saison (mars), la marge est quasi nulle. Un agent bilingue négocie plus efficacement en japonais.
 
+> **Vu du terrain.** On bouge rarement le loyer lui-même à Tokyo, les propriétaires tiennent le chiffre. Ce qui se négocie, ce sont les frais d'entrée : un mois d'argent-clé offert, quelques semaines gratuites, une caution réduite, surtout dans la période creuse de mai à août. Négociez la facture d'entrée, pas le montant mensuel.
 ## Ce qui est négociable (et ce qui ne l'est pas)
 
 **Rarement négociable :**
@@ -2497,6 +2499,7 @@ Contrary to common belief, negotiation in Tokyo is possible. Not in every case, 
 
 **Quick answer:** In Tokyo you mostly negotiate the move-in costs, not the advertised rent: ask for a free month, reduced key money (reikin) or fees, especially in the quiet season (May to August) or on a long-vacant unit. In peak season (March) there is almost no room. A bilingual agent negotiates far more effectively in Japanese.
 
+> **From the field.** You rarely move the rent itself in Tokyo, owners hold the number. The give is on the move-in fees: a waived month of key money, a few free weeks, a smaller deposit, especially in the quiet May to August window. Negotiate the upfront bill, not the monthly figure.
 ## What is and is not negotiable
 
 **Rarely negotiable**:
@@ -2898,6 +2901,7 @@ Tokyo's rental market is one of the most complex in the world for foreigners. Ev
 
 **Quick answer:** The main rental traps in Tokyo for foreigners: underestimating move-in costs (key money, deposit, agency, guarantor, up to 4 to 6 months), signing a Japanese-language contract without translation, missing the restoration clause, misunderstanding the notice period, and overlooking renewal fees. The fix: get the lease translated and budget every cost before signing.
 
+> **From the field.** The trap I see catch people most is not a scam, it is the move-in bill. They budget the monthly rent, sign, then get hit with four to six months upfront. Ask for the full move-in total in writing before you fall for a place.
 ## Trap 1: Signing without reading the termination clauses
 
 Most Japanese leases contain an early termination clause (chuto kaiyaku) imposing penalties if you leave before the end of the minimum period. These penalties can represent 1 to 2 months of rent.
@@ -3189,6 +3193,7 @@ La garantie de loyer est l'un des obstacles les plus redoutés par les étranger
 
 **Réponse rapide :** Vous n'avez pas besoin d'un garant personnel japonais pour louer au Japon. La plupart des étrangers passent par une société de garantie (hoshou-gaisha), qui coûte 50 à 100% d'un mois de loyer et couvre le propriétaire en cas de défaut. Les options sans garant (share houses, appartements meublés et monthly mansions) évitent totalement cette exigence et acceptent un passeport et un visa.
 
+> **Vu du terrain.** Les propriétaires ne vous rejettent pas vraiment en tant que personne : ils tarifent un risque qu'ils ne savent pas lire (pas d'historique de crédit local, durée de séjour incertaine). Les opérateurs et sociétés de garantie qui acceptent les étrangers ont simplement appris à le lire. Donnez-leur un dossier propre et complet, et l'essentiel du mur tombe.
 ## Le garant personnel (保証人 hoshounin) : l'obstacle historique
 
 Pendant des décennies, tout locataire au Japon devait présenter un hoshounin, littéralement "personne qui garantit". Ce garant devait être japonais, résider au Japon, disposer de revenus suffisants et accepter une responsabilité solidaire sur le loyer.
@@ -3265,6 +3270,7 @@ The guarantor requirement is one of the most feared obstacles for foreigners loo
 
 **Quick answer:** You do not need a Japanese personal guarantor to rent in Japan. Most foreigners use a guarantor company (hoshou-gaisha), which charges 50 to 100% of one month's rent and covers the landlord if you default. No-guarantor options (share houses, furnished or monthly mansions) skip the requirement entirely and accept a passport and visa. See our [complete guide to furnished apartments in Tokyo](/en/blog/furnished-apartments-tokyo-guide) for how these work.
 
+> **From the field.** Landlords are not really rejecting you as a person, they are pricing a risk they cannot read: no local credit history, unclear how long you will stay. The operators and guarantee companies that take foreigners have simply learned to read it. Give them a clean, complete file and most of the wall disappears.
 ## The personal guarantor (保証人 hoshounin): the historical barrier
 
 For decades, every tenant in Japan had to provide a hoshounin, literally "a person who guarantees." This guarantor had to be Japanese, resident in Japan, have sufficient income, and accept joint liability for the rent.
@@ -7898,6 +7904,7 @@ Trouver un appartement meublé à Tokyo est une des premières urgences de tout 
 
 Voici les 5 options réelles que vous avez, avec leurs coûts 2026, leurs avantages et leurs limites. Pour le panorama complet au-delà de ces cinq, voyez notre [guide complet des appartements meublés à Tokyo](/fr/blog/guide-appartements-meubles-tokyo).
 
+> **Vu du terrain.** En gérant des meublés, je peux vous dire que les photos de l'annonce sont souvent l'appartement témoin, pas celui que vous aurez. Ce qui varie vraiment, c'est ce qui est inclus : literie, débit wifi, ménage, une cuisine utilisable. Faites lister les inclusions par écrit avant de payer une caution.
 ## 1. La share house meublée (40 000 à 120 000 JPY/mois)
 
 La share house est la solution la plus accessible pour un expatrié qui arrive sans garant japonais. Les chambres sont entièrement meublées, les parties communes partagées, et le dépôt de garantie est minimal (zéro chez certains opérateurs).
@@ -8008,6 +8015,7 @@ Finding a furnished apartment in Tokyo is one of the first urgent tasks for any 
 
 Here are the 5 real options available to you, with their 2026 costs, pros, and limits. For the full picture beyond these five, see our [complete guide to furnished apartments in Tokyo](/en/blog/furnished-apartments-tokyo-guide).
 
+> **From the field.** Running furnished units, I can tell you the listing photos are usually the show apartment, not the one you get. What really varies is what is included: bedding, wifi speed, cleaning, a usable kitchen. Get the inclusions in writing before you pay a deposit.
 ## 1. Furnished Share House (40,000 to 120,000 JPY/month)
 
 The share house is the most accessible option for expats arriving without a Japanese guarantor. Rooms are fully furnished, common areas are shared, and the deposit is minimal, zero at some operators.
@@ -8993,6 +9001,7 @@ Le refus de dossier est l'une des expériences les plus frustrantes du parcours 
 
 Comprendre pourquoi votre dossier a été refusé, et surtout comment rebondir, peut changer radicalement la suite de votre recherche.
 
+> **Vu du terrain.** Quand un dossier est refusé, ce n'est presque jamais le locataire, c'est un trou dans le dossier que la société de garantie n'a pas pu vérifier : justificatif de revenus, durée du visa, une adresse qui ne correspond pas. Corrigez le dossier, pas vous-même. Un dossier propre et complet évite la plupart des refus avant qu'ils arrivent.
 ## Les vraies raisons d'un refus de dossier à Tokyo
 
 Les refus viennent rarement d'une intention discriminatoire explicite. Ils reflètent une gestion du risque dans un marché locatif structurellement peu protecteur pour les propriétaires japonais.
@@ -9066,6 +9075,7 @@ Getting your rental application rejected in Japan is one of the most frustrating
 
 Understanding why applications get rejected, and what to do next, can completely change the outcome of your search.
 
+> **From the field.** When an application bounces, it is almost never the tenant, it is a gap in the file the guarantee company could not verify: income proof, visa length, a mismatched address. Fix the file, not yourself. A clean, complete application clears most rejections before they happen.
 ## Why Japanese Landlords Reject Foreign Applicants
 
 Rejections are rarely the result of explicit discrimination. They reflect a risk management logic in a rental market that offers landlords very limited legal protection in case of disputes or non-payment.
@@ -9851,6 +9861,7 @@ A gaijin house is often the first home a foreigner has in Tokyo. It is cheap, fl
 
 **Quick answer:** A gaijin house is a shared residence in Tokyo aimed at foreigners, offering a private furnished room with shared kitchen and bathroom, no Japanese guarantor, no key money, and move-in within days. Rooms run 40,000 to 80,000 JPY/month with utilities often included. It is the fastest and cheapest legal way for a newcomer to get a Tokyo address. For more privacy than a shared house, compare it with the options in our [complete guide to furnished apartments in Tokyo](/en/blog/furnished-apartments-tokyo-guide).
 
+> **From the field.** A gaijin house lives or dies on who runs it, not the price. The cheap ones with an absent operator empty out as fast as they fill. Before you book, notice how fast the operator answers your first email, that tells you more than the photos.
 ## What is a gaijin house?
 
 "Gaijin house" (外人ハウス) literally means "foreigner house." The term dates back to the 1990s, when a few operators began renting shared rooms to foreigners locked out of the standard rental market. Today the line between a gaijin house and a modern share house has blurred: both offer furnished private rooms with shared common areas, managed by a professional operator.
@@ -10155,6 +10166,7 @@ Le "social apartment" est une catégorie de logement partagé haut de gamme qui 
 
 **Réponse rapide :** Un social apartment est une version premium de la share house : vous louez une chambre privée meublée, mais l'immeuble est construit autour de grands espaces communs soignés (lounge, cuisine design, souvent une salle de coworking, une salle de sport, une salle de cinéma ou un toit-terrasse). Comptez 70 000 à 130 000 JPY par mois, sans garant, sans argent-clé et sans frais d'agence. C'est l'option idéale pour qui veut la vie sociale d'une share house dans un cadre plus qualitatif, proche de l'hôtel.
 
+> **Vu du terrain.** La communauté d'un social apartment est réelle, mais elle dépend de deux choses : l'opérateur qui organise vraiment des événements, et le mélange de résidents à un moment donné. Deux immeubles de la même marque peuvent être complètement différents. Si vous pouvez, visitez à une heure creuse et voyez si les espaces communs servent vraiment.
 ## Qu'est-ce qu'un social apartment ?
 
 Né au Japon dans les années 2010, le concept de social apartment mise sur la qualité de ses espaces partagés pour que les résidents se rencontrent vraiment. Contrairement à une share house basique, l'accent est mis sur le design, les équipements et une communauté active. Votre chambre reste totalement privée et fermant à clé ; tout le reste, la cuisine, le lounge, les espaces de travail et les événements, se vit ensemble. Les immeubles sont plus grands qu'une share house, de 30 à plus de 150 chambres, ce qui rend les équipements communs viables.
@@ -10751,6 +10763,7 @@ The "social apartment" is a higher-end category of shared housing that more and 
 
 **Quick answer:** A social apartment is a premium version of the share house: you rent a private furnished room, but the building is built around large, well-designed common spaces (a lounge, a designer kitchen, often a co-working room, a gym, a theatre room or a rooftop). Expect 70,000 to 130,000 JPY per month, with no guarantor, no key money and no agency fee. It suits anyone who wants the social life of a share house in a more polished, hotel-like setting.
 
+> **From the field.** The community in a social apartment is real, but it depends on two things: the operator actually running events, and the mix of residents at that moment. Two buildings from the same brand can feel completely different. If you can, visit at an odd hour and see whether the common spaces are actually used.
 ## What is a social apartment?
 
 Born in Japan in the 2010s, the social apartment concept bets on the quality of its shared spaces to get residents to actually meet. Unlike a basic share house, the focus is on design, amenities and an active community. Your room stays fully private and lockable; everything else, the kitchen, lounge, work areas and events, is shared. Buildings are typically larger than a share house, from 30 to more than 150 rooms, which is what makes the communal facilities viable.
@@ -10922,6 +10935,7 @@ La gaijin house est souvent le premier logement d'un étranger à Tokyo. Économ
 
 **Réponse rapide :** Une gaijin house est un logement partagé pensé pour les étrangers : chambre privée meublée, cuisine et salle de bains communes, sans garant japonais, sans argent-clé, installation en quelques jours. Comptez 40 000 à 80 000 JPY/mois, charges souvent incluses. C'est le moyen le plus rapide et le moins cher d'obtenir une adresse à Tokyo.
 
+> **Vu du terrain.** Une gaijin house vaut ce que vaut son opérateur, pas son prix. Les moins chères, mal gérées, se vident aussi vite qu'elles se remplissent. Avant de réserver, regardez la vitesse à laquelle l'opérateur répond à votre premier email : ça en dit plus que les photos.
 ## Qu'est-ce qu'une gaijin house ?
 
 "Gaijin house" (外人ハウス) signifie littéralement "maison d'étrangers". Le terme remonte aux années 1990, quand quelques opérateurs ont commencé à louer des chambres partagées aux étrangers exclus du marché classique. Aujourd'hui, la frontière avec la share house moderne s'est estompée : les deux offrent des chambres privées meublées avec espaces communs, gérées par un opérateur professionnel.
