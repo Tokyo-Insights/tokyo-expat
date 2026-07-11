@@ -205,6 +205,23 @@ function renderContent(content: string, locale?: string) {
       elements.push(<hr key={i} className="my-8 border-gray-200" />)
       i++
 
+    // Encadre "vu du terrain" (blockquote "> ...") = voix operateur, E-E-A-T (moat #2)
+    } else if (line.startsWith('> ')) {
+      const quoteLines: string[] = []
+      while (i < lines.length && lines[i].startsWith('> ')) {
+        quoteLines.push(lines[i].slice(2))
+        i++
+      }
+      elements.push(
+        <div key={`op-${i}`} className="my-6 border-l-4 border-[#e84141] bg-[#0f2744]/[0.04] rounded-r-xl px-5 py-4">
+          {quoteLines.map((ql, k) => (
+            <p key={k} className="text-gray-700 leading-relaxed text-[15px] mb-1 last:mb-0">
+              {renderInline(ql, `op-${i}-${k}`)}
+            </p>
+          ))}
+        </div>
+      )
+
     // Italic CTA (standalone *text*)
     } else if (line.startsWith('*') && line.endsWith('*') && !line.startsWith('**')) {
       elements.push(

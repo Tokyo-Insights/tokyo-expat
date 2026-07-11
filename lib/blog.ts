@@ -485,6 +485,8 @@ With a hunter who has access to immediate inventory: **7 to 14 days** from first
 
 The difference comes from the fact that most listings on public portals (Suumo, Homes) are already rented by the time you see them. Available properties circulate through professional networks before appearing online.
 
+> **From the field.** I run furnished rentals in Tokyo, and the pattern is consistent: the best foreigner-friendly units barely touch the public portals. They move through operator and agent networks first, so by the time a good no-guarantor place appears on Suumo, it is usually already gone. Arriving with a network, or someone who has one, beats refreshing listing sites.
+
 ## Best neighbourhoods for expats
 
 Tokyo is a metropolis of 14 million people. Choosing the wrong neighbourhood costs you in commute time and quality of life.
