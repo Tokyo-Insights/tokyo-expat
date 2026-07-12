@@ -1,65 +1,65 @@
 {
-  "generated_at": "2026-07-08",
-  "period": "2026-07-01 to 2026-07-08",
+  "generated_at": "2026-07-13",
+  "period": "2026-07-06 to 2026-07-13",
   "this_week": {
-    "sessions": 167,
-    "users": 156,
-    "pageviews": 229,
-    "bounce_rate": 0.7005988023952096
+    "sessions": 156,
+    "users": 143,
+    "pageviews": 241,
+    "bounce_rate": 0.6410256410256411
   },
   "prev_week": {
-    "sessions": 1,
-    "users": 1,
-    "pageviews": 1,
-    "bounce_rate": 1.0
+    "sessions": 109,
+    "users": 102,
+    "pageviews": 160,
+    "bounce_rate": 0.6513761467889908
   },
   "changes": {
-    "sessions": "+16600%",
-    "users": "+15500%",
-    "pageviews": "+22800%"
+    "sessions": "+43%",
+    "users": "+40%",
+    "pageviews": "+51%"
   },
   "top_pages": [
     [
       "/en/data",
-      "52"
+      "28"
     ],
     [
       "/en",
-      "18"
+      "23"
     ],
     [
-      "/fr/data",
-      "17"
+      "/en/blog/jiko-bukken-cheap-apartments-tokyo",
+      "12"
     ],
     [
-      "/fr",
-      "11"
+      "/en/blog/japan-working-holiday-visa-guide-2026",
+      "9"
     ],
     [
-      "/en/services",
-      "10"
+      "/en/blog",
+      "8"
     ]
   ],
   "top_sources": [
     [
       "Direct",
-      "104"
+      "93"
     ],
     [
       "Organic Search",
-      "39"
+      "43"
     ],
     [
       "AI Assistant",
-      "15"
+      "16"
     ]
   ],
   "form_submits_week": 0,
   "events": {
-    "page_view": 229,
-    "session_start": 165,
-    "first_visit": 154,
-    "user_engagement": 75,
-    "scroll": 24
+    "page_view": 241,
+    "session_start": 156,
+    "first_visit": 142,
+    "user_engagement": 82,
+    "scroll": 37
   }
 }
