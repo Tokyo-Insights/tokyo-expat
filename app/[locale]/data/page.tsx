@@ -4,7 +4,6 @@ import type { Locale } from '@/lib/i18n'
 import rentIndex from '@/lib/tokyoRentIndex.json'
 import priceTrends from '@/lib/tokyoPriceTrends.json'
 import AffordabilityTool from '@/components/AffordabilityTool'
-import NewsletterForm from '@/components/NewsletterForm'
 import LeadMagnetForm from '@/components/LeadMagnetForm'
 import EmbedMap from '@/components/EmbedMap'
 
@@ -209,16 +208,6 @@ export default async function DataPage({
   const asOf = new Date().toLocaleDateString(l === 'fr' ? 'fr-FR' : 'en-US', { year: 'numeric', month: 'long' })
 
   // Capture email taillee pour le public data (trafic Reddit) -> Brevo liste 3 -> drip 6 emails
-  const captureLabels = {
-    title: l === 'en' ? 'Get the next Tokyo data drop' : 'Recevez la prochaine mise a jour data',
-    subtitle: l === 'en'
-      ? 'New rent and price charts, refreshed every quarter from real Tokyo data. Free, no spam.'
-      : 'Nouveaux graphiques loyers et prix, actualises chaque trimestre a partir de vraies donnees. Gratuit, sans spam.',
-    placeholder: l === 'en' ? 'Your email' : 'Votre email',
-    button: l === 'en' ? 'Send it to me' : 'Je la veux',
-    success: l === 'en' ? 'Done. Check your inbox for your first data drop.' : 'C\'est fait. Regardez votre boite pour la premiere data.',
-  }
-
   // Bloc embed (linkable asset): les sites qui collent ce code republient la carte AVEC un lien retour.
   const embedCode = `<a href="https://www.tokyo-expat.com/${l}/data"><img src="https://www.tokyo-expat.com/tokyo-rent-map.png" alt="Median 1K studio rent by Tokyo ward, 2026 (Tokyo Expat)" width="600" /></a>\nSource: <a href="https://www.tokyo-expat.com/${l}/data">Tokyo Expat Rent Index</a>`
 
@@ -828,11 +817,10 @@ export default async function DataPage({
         </div>
       </section>
 
-      {/* Email capture (bottom, light) */}
-      <section className="mb-10">
-        <div className="border border-gray-200 rounded-2xl p-6 max-w-lg mx-auto">
-          <NewsletterForm locale={l} theme="light" labels={captureLabels} />
-        </div>
+      {/* Email capture (bottom): aimant CHECKLIST -- outil concret non-duplique par cette page,
+          cible l'intention "je m'installe a Tokyo" du gros trafic /data (vs newsletter generique). */}
+      <section className="mb-10 max-w-lg mx-auto">
+        <LeadMagnetForm locale={l} variant="checklist" />
       </section>
 
       {/* CTA */}

@@ -21,13 +21,13 @@ export default function LeadMagnetForm({ locale, compact = false, variant = 'che
 
   const t = isRentIndex ? {
     title: isFr
-      ? 'Recevez l\'Indice des loyers de Tokyo (PDF gratuit)'
-      : 'Get the full Tokyo Rent Index (free PDF)',
+      ? 'Gardez l\'Indice des loyers (PDF portable + mises a jour)'
+      : 'Keep the Rent Index (portable PDF + updates)',
     subtitle: isFr
-      ? 'Les loyers medians 1K, 1LDK et 2LDK pour 23 arrondissements, 27 lignes et 50 stations, dans un PDF. Telechargement immediat.'
-      : 'Median 1K, 1LDK and 2LDK rents for 23 wards, 27 train lines and 50 stations, in one PDF. Instant download.',
+      ? 'Cette page est un instantane. Recevez l\'indice complet (23 arrondissements, 27 lignes, 50 stations) en un PDF portable, et les chiffres actualises par email a chaque mise a jour trimestrielle.'
+      : 'This page is a snapshot. Get the full index (23 wards, 27 lines, 50 stations) as one portable PDF, plus the refreshed figures by email at every quarterly update.',
     placeholder: isFr ? 'Votre email' : 'Your email',
-    button: isFr ? 'Recevoir l\'indice (PDF)' : 'Get the index (PDF)',
+    button: isFr ? 'Recevoir le PDF + les MAJ' : 'Email me the PDF + updates',
     loading: isFr ? 'Envoi...' : 'Sending...',
     successTitle: isFr ? 'C\'est pret !' : 'It is ready!',
     successBody: isFr
