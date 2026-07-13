@@ -47,6 +47,12 @@ python scripts\reddit_quora_intercept.py >> "%LOG_FILE%" 2>&1
 echo [%TIME%] [6/8] Brevo welcome drip... >> "%LOG_FILE%"
 python scripts\brevo_welcome_drip.py >> "%LOG_FILE%" 2>&1
 
+:: 6b. MAJ trimestrielle Indice loyers : envoie au segment rent-index UNIQUEMENT quand une
+::     NOUVELLE version de l'indice parait (idempotent, dedup par version + par email).
+::     Tient la promesse du formulaire /data ("chiffres actualises par email a chaque MAJ").
+echo [%TIME%] [6b] Rent index quarterly update (if new version)... >> "%LOG_FILE%"
+python scripts\send_rent_index_update.py --send >> "%LOG_FILE%" 2>&1
+
 :: 7. Relances backlinks (J+6 sans reponse -> draft Gmail + alerte Telegram)
 ::    + boucle fermee: detecte les brouillons envoyes -> arme la relance
 echo [%TIME%] [7/9] Backlink follow-up watcher... >> "%LOG_FILE%"
