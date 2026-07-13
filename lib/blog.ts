@@ -11704,6 +11704,24 @@ The other end of the scale, same 1K studio:
 
 You pay for location, convenience and a certain lifestyle. For many relocating executives and families it is worth it, but go in knowing the premium is real.
 
+## Rent by ward and layout (1K, 1LDK, 2LDK)
+The ranking shifts with the layout you need. For a couple on a 1LDK, Katsushika (118 000 JPY) is the single cheapest ward, ahead of Adachi and Edogawa. Median monthly rent by ward, according to the Tokyo Expat rent index:
+
+| Ward | 1K | 1LDK | 2LDK |
+|---|---|---|---|
+| Edogawa | 74 000 | 125 000 | 162 000 |
+| Adachi | 76 000 | 125 000 | 161 000 |
+| Katsushika | 81 000 | 118 000 | 162 000 |
+| Nerima | 82 000 | 135 000 | 176 000 |
+| Suginami | 84 000 | 159 000 | 210 000 |
+| Setagaya | 87 000 | 169 000 | 235 000 |
+| Itabashi | 88 000 | 143 000 | 195 000 |
+| Nakano | 88 000 | 174 000 | 225 000 |
+| Kita | 90 000 | 152 000 | 218 000 |
+| Arakawa | 91 000 | 150 000 | 219 000 |
+
+All figures are median monthly rent in JPY, from real recorded transactions. For the full 23 wards plus 27 train lines and 50 stations, see the [Tokyo Rent Index](/en/data).
+
 ## Cheapest stations, if you want to go granular
 Ward averages hide a lot. Here are the most affordable of 50 major stations for a 1K, so you can trade a few minutes of commute for real savings:
 
@@ -11768,6 +11786,24 @@ L'autre extreme, pour le meme studio 1K :
 8. **Koto** - 112 000 JPY
 
 Vous payez l'emplacement, la commodite et un certain art de vivre. Pour beaucoup de cadres et de familles relocalises, ca vaut le coup, mais sachez que la prime est reelle.
+
+## Loyer par arrondissement et type (1K, 1LDK, 2LDK)
+Le classement change selon le type recherche. Pour un couple en 1LDK, Katsushika (118 000 JPY) est l'arrondissement le moins cher, devant Adachi et Edogawa. Loyer mensuel median par arrondissement, selon l'indice des loyers Tokyo Expat :
+
+| Arrondissement | 1K | 1LDK | 2LDK |
+|---|---|---|---|
+| Edogawa | 74 000 | 125 000 | 162 000 |
+| Adachi | 76 000 | 125 000 | 161 000 |
+| Katsushika | 81 000 | 118 000 | 162 000 |
+| Nerima | 82 000 | 135 000 | 176 000 |
+| Suginami | 84 000 | 159 000 | 210 000 |
+| Setagaya | 87 000 | 169 000 | 235 000 |
+| Itabashi | 88 000 | 143 000 | 195 000 |
+| Nakano | 88 000 | 174 000 | 225 000 |
+| Kita | 90 000 | 152 000 | 218 000 |
+| Arakawa | 91 000 | 150 000 | 219 000 |
+
+Tous les chiffres sont des loyers mensuels medians en JPY, a partir de transactions reelles enregistrees. Pour les 23 arrondissements complets plus 27 lignes et 50 stations, voyez l'[Indice des loyers de Tokyo](/fr/data).
 
 ## Les stations les moins cheres, pour affiner
 La moyenne par arrondissement cache beaucoup. Voici les stations les plus abordables parmi 50 grandes stations, pour un 1K :
