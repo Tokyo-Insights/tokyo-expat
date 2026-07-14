@@ -51,7 +51,7 @@ export default async function ServicesPage({
   const faqItems = locale === 'en' ? [
     {
       q: 'How much does a property hunter service cost in Tokyo?',
-      a: 'Tokyo Expat packages start from €250 for a one-person share house search. All packages include a free initial consultation with no commitment. Price depends on housing type and number of people.',
+      a: 'Every Tokyo Expat package includes a free initial consultation with no commitment. Your price is quoted after that call, based on your housing type, the number of people and the scope of the search, so you only pay for what fits your situation.',
     },
     {
       q: 'How long does it take to find housing in Tokyo through Tokyo Expat?',
@@ -72,7 +72,7 @@ export default async function ServicesPage({
   ] : [
     {
       q: 'Combien coûte un service de chasseur immobilier à Tokyo ?',
-      a: 'Les forfaits Tokyo Expat commencent à 250€ pour une recherche de share house pour une personne. Tous les forfaits incluent une consultation initiale gratuite sans engagement. Le tarif dépend du type de logement et du nombre de personnes.',
+      a: 'Chaque forfait Tokyo Expat inclut une consultation initiale gratuite et sans engagement. Votre tarif est communiqué après cet appel, selon votre type de logement, le nombre de personnes et le périmètre de la recherche, pour ne payer que ce qui correspond à votre situation.',
     },
     {
       q: 'Combien de temps faut-il pour trouver un logement à Tokyo ?',
