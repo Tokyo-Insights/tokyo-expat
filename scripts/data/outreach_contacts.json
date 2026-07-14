@@ -670,9 +670,9 @@
     "priority": "medium",
     "pitch": "Guest post 'moving to Japan financial checklist' avec lien",
     "notes": "Revolut JP en croissance, blog actif sur vie pratique JP",
-    "status": "emailed",
+    "status": "declined",
     "last_contact": null,
-    "response": null,
+    "response": "pas de reponse apres relance",
     "link_obtained": false,
     "added": "2026-06-21",
     "emailed_date": "2026-06-25",
@@ -1164,7 +1164,8 @@
     "link_obtained": false,
     "added": "2026-07-09",
     "email_verified": true,
-    "is_competitor": false
+    "is_competitor": false,
+    "followup_prepared": "2026-07-15"
   },
   {
     "domain": "japanization.org",

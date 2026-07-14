@@ -320,6 +320,16 @@
       "acted": true,
       "id": "reddit_2026-07-02_12778",
       "acted_reason": "triage 09/07: hors-niche / sub skip / source suspendue"
+    },
+    {
+      "type": "reddit",
+      "date": "2026-07-15",
+      "subreddit": "japanlife",
+      "title": "r/japanlife on Reddit: My share house company scammed me and I don't know what to do next",
+      "url": "https://www.reddit.com/r/japanlife/comments/1usmb73/my_share_house_company_scammed_me_and_i_dont_know/",
+      "draft": "I've helped a lot of people find share houses in Tokyo. A few things that matter:\n\nMain operators: Sakura House (largest, English-friendly), OakHouse (slightly more premium), Borderless House (international community).\n\nBudget: 50,000-90,000 JPY/month all-in, utilities usually included, no guarantor needed, just 1 month deposit.\n\nKey thing: good rooms go in 24-48 hours. Apply as soon as you find something you like, don't wait a week to think about it.",
+      "acted": false,
+      "id": "reddit_2026-07-15_85976"
     }
   ]
 }
