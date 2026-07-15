@@ -206,13 +206,13 @@ export default function ListingsPage() {
                 { n: '1', t: 'Consultation', d: 'Appel gratuit 30 min pour définir vos critères : zone, budget, type, durée.' },
                 { n: '2', t: 'Recherche', d: "J'active mon réseau et sélectionne les options qui correspondent exactement à votre profil." },
                 { n: '3', t: 'Visites', d: "Je vous accompagne (ou je visite pour vous si vous êtes encore à l'étranger)." },
-                { n: '4', t: 'Signature', d: 'Je gère le dossier et le contrat en japonais. Vous emménagez.' },
+                { n: '4', t: 'Mise en relation', d: 'Je vous connecte au partenaire licencié et vous accompagne (traduction, questions) jusqu\'à la signature.' },
               ]
             : [
                 { n: '1', t: 'Consultation', d: 'Free 30-min call to define your criteria: area, budget, type, duration.' },
                 { n: '2', t: 'Search', d: "I activate my network and select options that exactly match your profile." },
                 { n: '3', t: 'Viewings', d: 'I accompany you (or visit on your behalf if you are still abroad).' },
-                { n: '4', t: 'Signing', d: 'I handle the paperwork and contract in Japanese. You move in.' },
+                { n: '4', t: 'Introduction', d: 'I connect you to the licensed partner and support you (translation, questions) through to signing.' },
               ]
           ).map(step => (
             <div key={step.n} className="text-center">

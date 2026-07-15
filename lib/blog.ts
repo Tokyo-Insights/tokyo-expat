@@ -8055,7 +8055,7 @@ Some real estate agencies specialising in international clients offer furnished 
 - **Fontaine Relocation**: specialist in French-speaking expats, full relocation support
 - **Tokyo Expat**: access to 300+ furnished and unfurnished properties, full support in English from application to lease signing
 
-**What gets negotiated on your behalf:** 3-12 month lease, furniture included, flexible break clauses, no human guarantor needed (rental guarantee company accepted).
+**What these arrangements typically include:** 3-12 month lease, furniture included, flexible break clauses, no human guarantor needed (rental guarantee company accepted).
 
 **Advantage:** proper apartment in the neighbourhood of your choice, real floor space (30-60 m²).
 
@@ -8139,7 +8139,7 @@ For health coverage during your relocation, [SafetyWing Nomad Insurance](https:/
     content: `
 Remoters is a relocation marketplace that connects expats with local housing consultants in cities worldwide, including Tokyo. If you've come across it while searching for help finding an apartment in Japan, this guide explains how Remoters works, what it costs, and when a direct specialist is the better choice.
 
-**Quick answer:** Remoters connects expats with local housing consultants worldwide, on a commission model. If you want a Tokyo-focused, bilingual (English and French) property hunter with transparent flat fees and a 300+ property network, Tokyo Expat is a direct alternative: one specialist handles the full search, viewings, negotiation and contract.
+**Quick answer:** Remoters connects expats with local housing consultants worldwide, on a commission model. If you want a Tokyo-focused, bilingual (English and French) property hunter on a flat fee, Tokyo Expat is a direct alternative: one specialist handles the search and viewings, connects you to the right licensed partner, and supports you through to signing.
 
 ## How Remoters Works
 
@@ -8209,7 +8209,7 @@ For health coverage during your property search in Japan, [SafetyWing Nomad Insu
     content: `
 Remoters est une marketplace de relocation qui met en relation des expatriés avec des consultants locaux dans des villes du monde entier, dont Tokyo. Si vous avez rencontré ce service dans votre recherche d'aide pour trouver un appartement à Tokyo, ce guide explique comment fonctionne Remoters, ce que ça coûte réellement, et quand un spécialiste direct est préférable.
 
-**Réponse rapide :** Remoters met en relation des expatriés avec des consultants locaux, sur un modèle à commission. Si vous cherchez un chasseur immobilier centré sur Tokyo, bilingue (français et anglais), à tarif fixe transparent et avec un réseau de 300+ logements, Tokyo Expat est une alternative directe : un seul spécialiste gère toute la recherche, les visites, la négociation et le contrat.
+**Réponse rapide :** Remoters met en relation des expatriés avec des consultants locaux, sur un modèle à commission. Si vous cherchez un chasseur immobilier centré sur Tokyo, bilingue (français et anglais), à forfait fixe, Tokyo Expat est une alternative directe : un seul spécialiste gère la recherche et les visites, vous connecte au bon partenaire licencié et vous accompagne jusqu'à la signature.
 
 ## Comment fonctionne Remoters
 
@@ -9145,7 +9145,7 @@ For health coverage while you continue your search, [SafetyWing Nomad Insurance]
     content: `
 Lorsqu'un expatrié envisage de faire appel à un chasseur immobilier à Tokyo, la première question est systématiquement la même: combien ça coûte? La seconde, tout aussi légitime: est-ce que ça vaut vraiment le coup par rapport à chercher seul?
 
-**Réponse rapide :** Un chasseur immobilier à Tokyo coûte généralement un forfait fixe (à partir de ~250 EUR pour une share house, plus pour un appartement ou une maison). Ça vaut le coup si vous manquez de temps, ne parlez pas japonais, ou risquez des refus de dossier : il gère la recherche, les visites, la négociation et le contrat, et vous évite des erreurs coûteuses. Avec un budget serré et du temps, chercher seul reste possible.
+**Réponse rapide :** Un chasseur immobilier à Tokyo coûte généralement un forfait fixe (à partir de ~250 EUR pour une share house, plus pour un appartement ou une maison). Ça vaut le coup si vous manquez de temps, ne parlez pas japonais, ou risquez des refus de dossier : il gère la recherche et les visites, vous connecte au bon partenaire licencié, vous accompagne jusqu'à la signature, et vous évite des erreurs coûteuses. Avec un budget serré et du temps, chercher seul reste possible.
 
 Voici une réponse honnête, chiffrée, basée sur la réalité du marché locatif tokyoïte.
 
@@ -9153,7 +9153,7 @@ Voici une réponse honnête, chiffrée, basée sur la réalité du marché locat
 
 Les chasseurs immobiliers à Tokyo travaillent sur deux modèles principaux.
 
-**Le forfait fixe** est le modèle le plus transparent. Un montant fixe, convenu en amont, couvre l'intégralité de la mission: brief initial, recherche, sélection, organisation des visites, négociation, constitution du dossier, accompagnement à la signature. Ce forfait se situe généralement entre 80 000 et 150 000 JPY selon la complexité du profil et la gamme de logement recherchée.
+**Le forfait fixe** est le modèle le plus transparent. Un montant fixe, convenu en amont, couvre l'intégralité de la mission: brief initial, recherche, sélection, organisation des visites, coordination avec le partenaire licencié, préparation du dossier, accompagnement à la signature. Ce forfait se situe généralement entre 80 000 et 150 000 JPY selon la complexité du profil et la gamme de logement recherchée.
 
 **Le pourcentage du loyer** est moins fréquent mais existe. Il représente généralement 1 mois de loyer, parfois 1,5 mois. Pour un appartement à 150 000 JPY/mois, cela représente 150 000 à 225 000 JPY.
 
@@ -9173,7 +9173,7 @@ Un chasseur immobilier couvrant l'intégralité de la mission gère:
 
 **L'organisation des visites**: coordonnées avec les agences japonaises, souvent en japonais, avec traduction et accompagnement en présentiel ou à distance.
 
-**La négociation et le dossier**: constitution du dossier adapté au profil étranger, présentation valorisante au propriétaire, négociation des conditions si possible.
+**Le dossier**: constitution d'un dossier adapté au profil étranger, présenté de façon valorisante au bon partenaire licencié.
 
 **L'accompagnement à la signature**: lecture du contrat en japonais, explication des clauses importantes, coordination du versement du dépôt.
 
@@ -9239,13 +9239,13 @@ Pour votre couverture sante pendant la recherche, [SafetyWing Nomad Insurance](h
     content: `
 When considering hiring a real estate hunter in Tokyo, most expats ask two questions immediately: how much does it cost, and is it actually worth it compared to searching alone? Here is an honest, numbers-based answer grounded in how the Tokyo rental market actually works.
 
-**Quick answer:** A Tokyo property hunter typically charges a flat fee (from ~250 EUR for a share house, more for an apartment or house). It is worth it if you are short on time, do not speak Japanese, or risk application rejections: the hunter handles the search, viewings, negotiation and contract, and prevents costly mistakes. On a tight budget with time to spare, searching alone is still possible.
+**Quick answer:** A Tokyo property hunter typically charges a flat fee (from ~250 EUR for a share house, more for an apartment or house). It is worth it if you are short on time, do not speak Japanese, or risk application rejections: the hunter handles the search and viewings, connects you to the right licensed partner, supports you through to signing, and prevents costly mistakes. On a tight budget with time to spare, searching alone is still possible.
 
 ## How Real Estate Hunter Fees Are Structured in Tokyo
 
 Real estate hunters in Tokyo work under two main pricing models.
 
-**Fixed fee** is the most transparent model. A fixed amount agreed upfront covers the entire mission: initial brief, search, selection, visit coordination, negotiation, application preparation, and signature support. This typically ranges from 80,000 to 150,000 JPY depending on the complexity of the profile and the target property range.
+**Fixed fee** is the most transparent model. A fixed amount agreed upfront covers the entire mission: initial brief, search, selection, visit coordination, coordination with the licensed agency, application preparation, and signature support. This typically ranges from 80,000 to 150,000 JPY depending on the complexity of the profile and the target property range.
 
 **Percentage of rent** is less common but exists. It usually represents 1 to 1.5 months of rent. For an apartment at 150,000 JPY per month, this means 150,000 to 225,000 JPY.
 
@@ -9329,7 +9329,7 @@ For health coverage during your property search, [SafetyWing Nomad Insurance](ht
     content: `
 Quand un expatrié commence sa recherche de logement à Tokyo, il fait face à deux options principales: passer par une agence immobilière classique ou faire appel à un chasseur immobilier. Les deux approches donnent des résultats radicalement différents pour les profils étrangers. Voici un comparatif honnête, structuré autour des critères qui comptent vraiment.
 
-**Réponse rapide :** Une agence immobilière classique travaille pour le propriétaire, en japonais, et vous montre surtout ses propres biens. Un chasseur immobilier travaille pour VOUS : il cherche sur tout le marché, en français et anglais, gère les visites, la négociation et le contrat, contre un forfait transparent. Pour un étranger, le chasseur réduit le risque de refus et la barrière de langue.
+**Réponse rapide :** Une agence immobilière classique travaille pour le propriétaire, en japonais, et vous montre surtout ses propres biens. Un chasseur immobilier travaille pour vous, côté locataire : il cherche sur tout le marché, en français et anglais, gère les visites, vous connecte au bon partenaire licencié et vous accompagne jusqu'à la signature, contre un forfait. Pour un étranger, le chasseur réduit le risque de refus et la barrière de langue.
 
 ## Comment fonctionne une agence immobilière classique à Tokyo
 
@@ -9353,7 +9353,7 @@ Un chasseur immobilier travaille à l'inverse: il est mandaté par le locataire,
 
 **Il défend activement votre dossier.** Là où l'agence se contente de transmettre, le chasseur argumente. Il connaît les objections classiques des propriétaires japonais face aux profils étrangers et prépare les réponses en amont.
 
-**Il gère la barrière de la langue.** Toutes les communications avec les agences japonaises, la négociation des conditions, la lecture du contrat: tout se fait en votre nom, en japonais, avec traduction simultanée pour vous.
+**Il gère la barrière de la langue.** Toutes les communications avec les agences japonaises et la lecture du contrat se font avec vous, en japonais, traduction incluse.
 
 **Il est rémunéré sur résultat.** Un bon chasseur ne vous fait payer ses honoraires que si vous signez un bail. S'il ne trouve pas, il ne facture pas.
 
@@ -9420,7 +9420,7 @@ Pour votre couverture sante pendant la recherche de logement, [SafetyWing Nomad 
     content: `
 When starting an apartment search in Tokyo, most expats face the same choice: work with a traditional Japanese real estate agency, or hire a real estate hunter. These two approaches produce radically different results for foreign profiles. Here is an honest comparison built around the criteria that actually matter.
 
-**Quick answer:** A traditional Japanese agency works for the landlord, in Japanese, and mostly shows its own listings. A property hunter works for YOU: searching the whole market, in English and French, handling viewings, negotiation and the contract, for a transparent flat fee. For a foreigner, a hunter cuts the risk of rejection and the language barrier.
+**Quick answer:** A traditional Japanese agency works for the landlord, in Japanese, and mostly shows its own listings. A property hunter works for you, on the tenant side: searching the whole market, in English and French, handling viewings, connecting you to the right licensed partner and supporting you through to signing, for a flat fee. For a foreigner, a hunter cuts the risk of rejection and the language barrier.
 
 ## How a Traditional Real Estate Agency Works in Tokyo
 
@@ -9511,7 +9511,7 @@ For health coverage during your housing search, [SafetyWing Nomad Insurance](htt
     content: `
 Faire appel à un chasseur immobilier à Tokyo, c'est confier l'intégralité de votre recherche de logement à un professionnel qui connaît le marché de l'intérieur. Mais concrètement, comment se déroule le processus? Qui fait quoi, à quel moment, et combien de temps cela prend-il?
 
-**Réponse rapide :** Un chasseur immobilier à Tokyo suit un processus clair : consultation pour cerner vos besoins, sélection de biens sur tout le marché, organisation des visites (en personne ou visio), négociation du loyer et des conditions, puis constitution du dossier et signature, traduction incluse. Vous déléguez toute la recherche à un spécialiste bilingue, contre un forfait fixe.
+**Réponse rapide :** Un chasseur immobilier à Tokyo suit un processus clair : consultation pour cerner vos besoins, sélection de biens sur tout le marché, organisation des visites (en personne ou visio), mise en relation avec le partenaire licencié, puis préparation du dossier et accompagnement à la signature, traduction incluse. Vous déléguez toute la recherche à un spécialiste bilingue, contre un forfait fixe.
 
 Voici le déroulement exact d'une mission de chasse immobilière à Tokyo.
 
@@ -11575,7 +11575,7 @@ This report is a snapshot. The complete, ward-by-ward, layout-by-layout breakdow
     date: '2026-07-02',
     readingTime: '6 min',
     content: `
-If you are a foreigner hunting for an apartment in Tokyo, you will probably hear "no" before you hear "yes", and often you will not be told why. I work inside this market, dealing with landlords, guarantor companies and tenant screening, and the reasons behind those rejections are rarely what newcomers assume. Here is the honest picture from the inside, and what actually turns a "no" into a "yes".
+If you are a foreigner hunting for an apartment in Tokyo, you will probably hear "no" before you hear "yes", and often you will not be told why. I operate rentals here myself, so I deal with guarantor companies and see tenant screening from the landlord's side, and the reasons behind those rejections are rarely what newcomers assume. Here is the honest picture from the inside, and what actually turns a "no" into a "yes".
 
 **Quick answer:** Japanese landlords reject foreign tenants mostly out of perceived risk, not prejudice: no guarantor, communication worries, income that looks unstable, or unfamiliar paperwork. The fixes are concrete: use a guarantor company, present clean proof of income, target foreigner-friendly listings, and have your application presented properly in Japanese. Do that and most rejections disappear.
 
@@ -11623,7 +11623,7 @@ The Japanese rental market is not hostile, but it is opaque, and the decisions h
     date: '2026-07-02',
     readingTime: '6 min',
     content: `
-Si vous cherchez un appartement à Tokyo en tant qu'étranger, vous entendrez probablement "non" avant "oui", et souvent sans qu'on vous dise pourquoi. Je travaille au coeur de ce marché, avec les propriétaires, les sociétés de garantie et la sélection des locataires, et les raisons de ces refus sont rarement celles que les nouveaux arrivants imaginent. Voici le tableau honnête, vu de l'intérieur, et ce qui transforme vraiment un "non" en "oui".
+Si vous cherchez un appartement à Tokyo en tant qu'étranger, vous entendrez probablement "non" avant "oui", et souvent sans qu'on vous dise pourquoi. J'opère mes propres logements ici, donc je traite avec les sociétés de garantie et je vois la sélection des locataires du côté du bailleur, et les raisons de ces refus sont rarement celles que les nouveaux arrivants imaginent. Voici le tableau honnête, vu de l'intérieur, et ce qui transforme vraiment un "non" en "oui".
 
 **Réponse rapide :** Les propriétaires japonais refusent les étrangers surtout par risque perçu, pas par préjugé : absence de garant, crainte de communication, revenus jugés instables, documents inconnus. Les solutions sont concrètes : passer par une société de garantie, présenter des preuves de revenus propres, cibler les biens ouverts aux étrangers, et faire présenter votre dossier correctement en japonais. Faites cela et la plupart des refus disparaissent.
 

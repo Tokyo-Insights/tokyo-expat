@@ -624,7 +624,7 @@ export const faqData: Record<string, FaqItem[]> = {
     {
       question: 'What makes Tokyo Expat different from GaijinPot Housing?',
       answer:
-        'Tokyo Expat offers a personalised advisory service rather than an aggregated listing database. We search across all platforms (including Japanese-only sites), screen properties, negotiate on your behalf, and support you through contract signing — all in English.',
+        'Tokyo Expat offers a personalised advisory service rather than an aggregated listing database. I search across all platforms (including Japanese-only sites and options you would not find alone), shortlist the best foreigner-friendly properties, and connect you to the right licensed partner who handles the rental, with bilingual support at every step.',
     },
   ],
 
@@ -1022,7 +1022,7 @@ export const faqData: Record<string, FaqItem[]> = {
     },
     {
       question: 'Can a Tokyo property hunter do everything Remoters offers?',
-      answer: 'Yes. A local bilingual property hunter covers: property search across all platforms (including Japanese-only sites), application filing, contract review, landlord negotiation, and move-in coordination. For additional services like visa support or shipping, they can recommend trusted specialists rather than bundling everything at a platform markup.',
+      answer: 'Yes. A local bilingual property hunter covers: property search across all platforms (including Japanese-only sites), help with your application, lease review and explanation, coordination with the licensed agency, and move-in support. For additional services like visa support or shipping, they can recommend trusted specialists rather than bundling everything at a platform markup.',
     },
   ],
 
@@ -2472,7 +2472,7 @@ export const faqData: Record<string, FaqItem[]> = {
     {
       question: 'Combien coûte un chasseur immobilier à Tokyo?',
       answer:
-        'Les honoraires se situent généralement entre 80 000 et 150 000 JPY en forfait fixe, ou l\'équivalent d\'un mois de loyer en pourcentage. Ces honoraires couvrent la recherche complète, les visites, la négociation et la constitution du dossier. Ils ne sont dus qu\'en cas de signature d\'un bail.',
+        'Les honoraires se situent généralement entre 80 000 et 150 000 JPY en forfait fixe, ou l\'équivalent d\'un mois de loyer en pourcentage. Ces honoraires couvrent la recherche complète, les visites, l\'explication du bail et la préparation de votre dossier. Ils ne sont dus qu\'en cas de signature d\'un bail.',
     },
     {
       question: 'Est-ce que faire appel à un chasseur immobilier vaut le coup à Tokyo?',
@@ -2495,7 +2495,7 @@ export const faqData: Record<string, FaqItem[]> = {
     {
       question: 'How much does a real estate hunter cost in Tokyo?',
       answer:
-        'Real estate hunter fees in Tokyo typically range from 80,000 to 150,000 JPY as a fixed fee, or the equivalent of one month\'s rent as a percentage. This covers the full search, visits, negotiation, and application preparation. Fees are only due upon signing a lease.',
+        'Real estate hunter fees in Tokyo typically range from 80,000 to 150,000 JPY as a fixed fee, or the equivalent of one month\'s rent as a percentage. This covers the full search, viewings, lease explanation, and help preparing your application. Fees are only due upon signing a lease.',
     },
     {
       question: 'Is a real estate hunter worth the cost in Tokyo?',
@@ -2564,7 +2564,7 @@ export const faqData: Record<string, FaqItem[]> = {
     {
       question: 'Quelles sont les étapes du service d\'un chasseur immobilier à Tokyo?',
       answer:
-        'Le processus se déroule en 6 étapes: (1) appel de brief en français ou anglais, (2) recherche active auprès de 10 à 20 agences simultanément, (3) présélection de 5 à 10 biens pertinents, (4) visites organisées en présentiel ou en virtuel, (5) négociation et dossier adapté au profil étranger, (6) accompagnement à la signature et remise des clés. Le délai total est généralement de 7 à 21 jours.',
+        'Le processus se déroule en 6 étapes: (1) appel de brief en français ou anglais, (2) recherche active auprès de 10 à 20 agences simultanément, (3) présélection de 5 à 10 biens pertinents, (4) visites organisées en présentiel ou en virtuel, (5) mise en relation avec le partenaire licencié et dossier adapté au profil étranger, (6) accompagnement à la signature et remise des clés. Le délai total est généralement de 7 à 21 jours.',
     },
     {
       question: 'Peut-on faire appel à un chasseur immobilier à Tokyo depuis l\'étranger?',
@@ -2579,7 +2579,7 @@ export const faqData: Record<string, FaqItem[]> = {
     {
       question: 'Faut-il parler japonais pour utiliser un chasseur immobilier à Tokyo?',
       answer:
-        'Non. Le chasseur prend en charge toutes les communications avec les agences et propriétaires japonais en votre nom. Vous n\'avez besoin de parler japonais à aucune étape du processus: brief, visites, négociation, dossier, signature. C\'est précisément ce service linguistique qui constitue l\'une des valeurs clés du chasseur pour les profils étrangers.',
+        'Non. Le chasseur prend en charge toutes les communications avec les agences et propriétaires japonais en votre nom. Vous n\'avez besoin de parler japonais à aucune étape du processus: brief, visites, mise en relation, dossier, signature. C\'est précisément ce service linguistique qui constitue l\'une des valeurs clés du chasseur pour les profils étrangers.',
     },
   ],
 

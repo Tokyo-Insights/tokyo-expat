@@ -210,17 +210,17 @@ export default async function ServicesPage({
         <div className="grid grid-cols-1 md:grid-cols-5 gap-4">
           {(locale === 'fr'
             ? [
-                ['1', 'Consultation gratuite', 'On cadre votre projet : visa, budget, quartiers, timing.'],
-                ['2', 'Brief et recherche', 'On sélectionne les biens qui correspondent à vos critères.'],
-                ['3', 'Visites', 'En personne ou en visio, on vous accompagne.'],
-                ['4', 'Candidature et contrat', 'On gère le dossier, la traduction et la négociation.'],
+                ['1', 'Consultation gratuite', 'Je cadre votre projet : visa, budget, quartiers, timing.'],
+                ['2', 'Recherche', 'Je cherche sur tout le marché, y compris des plateformes que vous ne connaissez pas.'],
+                ['3', 'Présélection et visites', 'Je vous présente les meilleures options et vous accompagne aux visites (présentiel ou visio).'],
+                ['4', 'Mise en relation', 'Je vous connecte au bon partenaire licencié et je traduis / explique à chaque étape jusqu\'à la signature.'],
                 ['5', 'Remise des clés', 'Vous emménagez, sans mauvaise surprise.'],
               ]
             : [
-                ['1', 'Free consultation', 'We frame your project: visa, budget, wards, timing.'],
-                ['2', 'Brief and search', 'We shortlist properties matching your criteria.'],
-                ['3', 'Viewings', 'In person or by video, we guide you.'],
-                ['4', 'Application and contract', 'We handle the file, translation and negotiation.'],
+                ['1', 'Free consultation', 'I frame your project: visa, budget, wards, timing.'],
+                ['2', 'Search', 'I search the whole market, including platforms you would never find on your own.'],
+                ['3', 'Shortlist and viewings', 'I present the best options and join you for viewings (in person or by video).'],
+                ['4', 'Introduction', 'I connect you to the right licensed partner and translate / explain at every step through to signing.'],
                 ['5', 'Keys', 'You move in, with no bad surprises.'],
               ]
           ).map((step) => (
