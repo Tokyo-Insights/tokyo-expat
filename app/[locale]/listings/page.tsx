@@ -41,7 +41,7 @@ export default function ListingsPage() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {[
               { value: STATS.totalProperties, label: isFr ? 'Logements accessibles' : 'Properties accessible' },
-              { value: `${STATS.wards}`, label: isFr ? 'Arrondissements' : 'Tokyo wards' },
+              { value: `${STATS.wards}`, label: isFr ? 'Zones couvertes' : 'Areas covered' },
               { value: STATS.responseTime, label: isFr ? 'Délai de réponse' : 'Response time' },
               { value: '0€', label: isFr ? "Frais d'agence cachés" : 'Hidden agency fees' },
             ].map((s, i) => (

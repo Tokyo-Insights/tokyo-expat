@@ -176,12 +176,12 @@ export default async function ResourcesPage({
 
       <div className="text-center mb-14">
         <h1 className="text-4xl font-extrabold text-[#0f2744] mb-4">
-          {isFr ? 'Ressources pour expatries au Japon' : 'Resources for Expats in Japan'}
+          {isFr ? 'Ressources pour expatriés au Japon' : 'Resources for Expats in Japan'}
         </h1>
         <p className="text-gray-500 text-lg max-w-2xl mx-auto">
           {isFr
-            ? 'Outils et services selectionnes pour faciliter votre installation a Tokyo. Chaque recommandation est testee ou evaluee par notre equipe.'
-            : 'Curated tools and services to make your move to Tokyo smoother. Every recommendation is tested or evaluated by our team.'}
+            ? 'Outils et services sélectionnés pour faciliter votre installation à Tokyo. Chaque recommandation, je l\'ai testée ou utilisée personnellement.'
+            : 'Curated tools and services to make your move to Tokyo smoother. Every recommendation is one I have personally tested or used.'}
         </p>
       </div>
 

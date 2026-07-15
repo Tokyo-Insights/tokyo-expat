@@ -112,13 +112,13 @@ export default async function HomePage({
 
   const stats = locale === 'fr'
     ? [
-        { value: '300+', label: 'Logements en portefeuille' },
-        { value: '16+', label: 'Dossiers clients actifs' },
+        { value: '300+', label: 'Logements accessibles' },
+        { value: '24h', label: 'Délai de réponse' },
         { value: 'FR · EN · JP', label: 'Langues parlées' },
       ]
     : [
         { value: '300+', label: 'Properties available' },
-        { value: '16+', label: 'Active client files' },
+        { value: '24h', label: 'Response time' },
         { value: 'FR · EN · JP', label: 'Languages spoken' },
       ]
 
@@ -263,9 +263,9 @@ export default async function HomePage({
               </div>
             </div>
             <div className="bg-[#12233d] border border-[#1e3352] rounded-2xl p-6 text-center">
-              <div className="text-2xl font-black">100<span className="text-[#e8384f]">%</span></div>
+              <div className="text-2xl font-black">Direct</div>
               <div className="text-[#9fb2c9] text-sm mt-1.5">
-                {locale === 'fr' ? 'indépendant : je travaille pour VOUS, pas pour les propriétaires' : 'independent: I work for YOU, not the landlords'}
+                {locale === 'fr' ? 'opérateur du marché : vous parlez à quelqu\'un de l\'intérieur, pas à un call center' : 'market operator: you deal with someone on the inside, not a call center'}
               </div>
             </div>
             <div className="bg-[#12233d] border border-[#1e3352] rounded-2xl p-6 text-center">
