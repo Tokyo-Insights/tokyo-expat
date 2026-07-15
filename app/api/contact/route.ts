@@ -34,7 +34,11 @@ export async function POST(request: NextRequest) {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        from: 'Tokyo Expat <contact@tokyo-expat.com>',
+        // NOTE: tokyo-expat.com pas encore verifie dans Resend -> on envoie depuis le
+        // domaine partage verifie de Resend (onboarding@resend.dev) pour que la notif
+        // de lead arrive quand meme. reply_to = email du lead (tu reponds directement).
+        // A rebasculer sur contact@tokyo-expat.com une fois le domaine verifie (meilleure deliverabilite).
+        from: 'Tokyo Expat Lead <onboarding@resend.dev>',
         to: ['info.tokyoinsights@gmail.com'],
         subject,
         html,
@@ -45,7 +49,7 @@ export async function POST(request: NextRequest) {
     if (!res.ok) {
       const err = await res.text()
       console.error('Resend error:', err)
-      return NextResponse.json({ error: 'Email failed', _debug: err, _status: res.status }, { status: 500 })
+      return NextResponse.json({ error: 'Email failed' }, { status: 500 })
     }
 
     // Alerte TEMPS REEL (non bloquante) : ping Telegram a chaque nouveau lead /contact.
