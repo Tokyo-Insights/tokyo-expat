@@ -45,7 +45,7 @@ export async function POST(request: NextRequest) {
     if (!res.ok) {
       const err = await res.text()
       console.error('Resend error:', err)
-      return NextResponse.json({ error: 'Email failed' }, { status: 500 })
+      return NextResponse.json({ error: 'Email failed', _debug: err, _status: res.status }, { status: 500 })
     }
 
     // Alerte TEMPS REEL (non bloquante) : ping Telegram a chaque nouveau lead /contact.
