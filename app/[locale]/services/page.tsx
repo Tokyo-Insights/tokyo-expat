@@ -243,13 +243,13 @@ export default async function ServicesPage({
             ? [
                 ['Bilingue FR / EN / 日本語', 'On parle votre langue ET celle des propriétaires japonais.'],
                 ['Appuyé sur la data', 'Nos recommandations reposent sur 500 000+ annonces réelles (notre Indice des loyers).'],
-                ['Tarif fixe et transparent', 'Pas de commission opaque : vous savez ce que vous payez.'],
+                ['Rémunération claire', 'Un forfait convenu après la consultation gratuite, sans commission opaque.'],
                 ['Sans garant, à distance', 'On contourne les obstacles classiques : garant japonais, barrière de langue.'],
               ]
             : [
                 ['Bilingual EN / FR / 日本語', 'We speak your language AND the Japanese landlords\'.'],
                 ['Data-backed', 'Our advice is grounded in 500,000+ real listings (our Rent Index).'],
-                ['Fixed, transparent pricing', 'No opaque commission: you know what you pay.'],
+                ['Clear, agreed fee', 'A flat fee agreed after the free consultation, with no opaque commission.'],
                 ['No guarantor, remote-friendly', 'We bypass the classic hurdles: Japanese guarantor, language barrier.'],
               ]
           ).map((why) => (

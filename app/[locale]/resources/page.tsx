@@ -229,7 +229,7 @@ export default async function ResourcesPage({
               <a
                 href={card.url}
                 target="_blank"
-                rel="noopener noreferrer nofollow"
+                rel="noopener noreferrer sponsored nofollow"
                 className="block text-center bg-[#0f2744] hover:bg-[#1a3a6b] text-white px-6 py-3 rounded-xl font-semibold transition-colors text-sm"
               >
                 {card.cta} &rarr;
@@ -245,8 +245,8 @@ export default async function ResourcesPage({
         </p>
         <p>
           {isFr
-            ? 'Certains liens sur cette page sont des liens affilies. Si vous effectuez un achat via ces liens, Tokyo Expat percoit une commission sans cout supplementaire pour vous. Nous ne recommandons que des services que nous avons evalues et que nous recommanderions indifferemment d\'un partenariat commercial.'
-            : 'Some links on this page are affiliate links. If you make a purchase through these links, Tokyo Expat earns a commission at no extra cost to you. We only recommend services we have evaluated and would recommend regardless of any commercial partnership.'}
+            ? 'Les liens vers des services partenaires sur cette page sont des liens affiliés : si vous effectuez un achat, Tokyo Expat perçoit une commission, sans coût supplémentaire pour vous. Je ne recommande que des services que j\'ai utilisés ou évalués, et que je recommanderais indépendamment de tout partenariat commercial.'
+            : 'The links to partner services on this page are affiliate links: if you make a purchase, Tokyo Expat earns a commission at no extra cost to you. I only recommend services I have personally used or evaluated, and would recommend regardless of any partnership.'}
         </p>
       </div>
 

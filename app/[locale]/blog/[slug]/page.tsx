@@ -81,8 +81,15 @@ function renderInline(text: string, key?: string): ReactNode {
     } else {
       const linkMatch = seg.match(/^\[([^\]]+)\]\(([^)]+)\)$/)
       if (linkMatch) {
+        const href = linkMatch[2]
+        const isExternal = /^https?:\/\//i.test(href) && !href.includes('tokyo-expat.com')
         parts.push(
-          <a key={`${key}-l${idx}`} href={linkMatch[2]} className="text-[#e84141] underline underline-offset-2 hover:text-[#0f2744] transition-colors">
+          <a
+            key={`${key}-l${idx}`}
+            href={href}
+            className="text-[#e84141] underline underline-offset-2 hover:text-[#0f2744] transition-colors"
+            {...(isExternal ? { target: '_blank', rel: 'noopener noreferrer nofollow' } : {})}
+          >
             {linkMatch[1]}
           </a>
         )
