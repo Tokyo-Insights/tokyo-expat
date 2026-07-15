@@ -48,6 +48,26 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ error: 'Email failed' }, { status: 500 })
     }
 
+    // Alerte TEMPS REEL (non bloquante) : ping Telegram a chaque nouveau lead /contact.
+    // Reutilise TELEGRAM_BOT_TOKEN + TELEGRAM_CHAT_ID deja poses sur Vercel.
+    // Priorite #1 = ne jamais rater un lead. Silencieux si les env vars manquent.
+    const tgToken = process.env.TELEGRAM_BOT_TOKEN
+    const tgChat = process.env.TELEGRAM_CHAT_ID
+    if (tgToken && tgChat) {
+      try {
+        await fetch(`https://api.telegram.org/bot${tgToken}/sendMessage`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            chat_id: tgChat,
+            text: `\u{1F3AF} NOUVEAU LEAD (/contact)\n${name}\n${email}\nLangue: ${locale || '?'}\n\n${String(message).slice(0, 800)}`,
+          }),
+        })
+      } catch (tgErr) {
+        console.error('Telegram lead alert failed:', tgErr)
+      }
+    }
+
     return NextResponse.json({ ok: true })
   } catch (err) {
     console.error(err)
