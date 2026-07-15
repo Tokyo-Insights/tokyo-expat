@@ -150,7 +150,7 @@ export default async function ResourcesPage({
   const itemListLd = {
     '@context': 'https://schema.org',
     '@type': 'ItemList',
-    name: isFr ? 'Ressources pour expatries au Japon' : 'Resources for Expats in Japan',
+    name: isFr ? 'Ressources pour expatriés au Japon' : 'Resources for Expats in Japan',
     url: `https://www.tokyo-expat.com/${locale}/resources`,
     numberOfItems: cards.filter(c => !c.badge).length,
     itemListElement: cards
