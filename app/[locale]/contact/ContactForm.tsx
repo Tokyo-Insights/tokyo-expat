@@ -3,8 +3,6 @@
 import { useState } from 'react'
 import { getDictionary, type Locale } from '@/lib/i18n'
 
-const FORMSPREE_ID = process.env.NEXT_PUBLIC_FORMSPREE_ID ?? ''
-
 export default function ContactForm({ locale }: { locale: Locale }) {
   const dict = getDictionary(locale)
   const c = dict.contact
@@ -19,9 +17,9 @@ export default function ContactForm({ locale }: { locale: Locale }) {
     e.preventDefault()
     setError(false)
     try {
-      const res = await fetch(`https://formspree.io/f/${FORMSPREE_ID}`, {
+      const res = await fetch('/api/contact', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+        headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ name, email, message, locale }),
       })
       if (res.ok) {
@@ -45,8 +43,8 @@ export default function ContactForm({ locale }: { locale: Locale }) {
         </h2>
         <p className="text-white/70 text-sm mb-6">
           {locale === 'fr'
-            ? 'On cadre votre projet ensemble : quartiers, budget, démarches. Gratuit, sans engagement.'
-            : 'We map out your project together: wards, budget, next steps. Free, no obligation.'}
+            ? 'Je cadre votre projet avec vous : quartiers, budget, démarches. Gratuit, sans engagement.'
+            : 'I map out your project with you: wards, budget, next steps. Free, no obligation.'}
         </p>
         <a
           href="https://calendly.com/contact-tokyo-expat/30min"
@@ -109,7 +107,7 @@ export default function ContactForm({ locale }: { locale: Locale }) {
             {error && (
               <p className="text-red-600 text-sm">
                 {locale === 'fr'
-                  ? "Erreur d'envoi. Reessayez ou ecrivez directement a contact@tokyo-expat.com"
+                  ? "Erreur d'envoi. Réessayez ou écrivez directement à contact@tokyo-expat.com"
                   : 'Send error. Please retry or email contact@tokyo-expat.com directly.'}
               </p>
             )}

@@ -12,7 +12,7 @@ export async function generateMetadata({
   const title = locale === 'en' ? 'Contact — Tokyo Expat' : 'Contact — Tokyo Expat'
   const description = locale === 'en'
     ? 'Contact Tokyo Expat for a free 30-minute consultation on finding housing in Tokyo. Share house, furnished apartment, family home.'
-    : 'Contactez Tokyo Expat pour une consultation gratuite de 30 minutes sur la recherche de logement a Tokyo.'
+    : 'Contactez Tokyo Expat pour une consultation gratuite de 30 minutes sur la recherche de logement à Tokyo.'
   return {
     title,
     description,
@@ -60,7 +60,7 @@ export default async function ContactPage({
     name: 'Contact - Tokyo Expat',
     url: `https://www.tokyo-expat.com/${locale}/contact`,
     description: locale === 'fr'
-      ? 'Contactez Tokyo Expat pour une consultation gratuite sur la recherche de logement a Tokyo.'
+      ? 'Contactez Tokyo Expat pour une consultation gratuite sur la recherche de logement à Tokyo.'
       : 'Contact Tokyo Expat for a free consultation on finding housing in Tokyo.',
     mainEntity: {
       '@type': 'Organization',
@@ -79,7 +79,7 @@ export default async function ContactPage({
 
   const titleText = locale === 'fr' ? 'Contact' : 'Contact'
   const subtitleText = locale === 'fr'
-    ? 'Une question sur votre projet a Tokyo ? Ecrivez-nous ou reservez un appel gratuit.'
+    ? 'Une question sur votre projet à Tokyo ? Écrivez-moi ou réservez un appel gratuit.'
     : 'A question about your Tokyo project? Write to us or book a free call.'
 
   return (
