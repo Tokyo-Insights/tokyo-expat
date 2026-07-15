@@ -11,10 +11,10 @@ export async function generateMetadata({
   const altLocale = locale === 'fr' ? 'en' : 'fr'
   const title = locale === 'en'
     ? 'Expat Resources Japan 2026: Best Tools for Living in Tokyo'
-    : 'Ressources expatries Japon 2026 : meilleurs outils pour vivre a Tokyo'
+    : 'Ressources expatriés Japon 2026 : meilleurs outils pour vivre à Tokyo'
   const description = locale === 'en'
     ? 'Curated tools and services for expats moving to Tokyo: travel health insurance, Japanese lessons, guided tours and SIM cards. Tested and recommended by Tokyo Expat.'
-    : 'Outils et services selectionnes pour les expatries a Tokyo : assurance sante voyage, cours de japonais, visites guidees et cartes SIM. Testes et recommandes par Tokyo Expat.'
+    : 'Outils et services sélectionnés pour les expatriés à Tokyo : assurance santé voyage, cours de japonais, visites guidées et cartes SIM. Testés et recommandés par Tokyo Expat.'
   return {
     title,
     description,
@@ -58,13 +58,13 @@ function getCards(locale: string): Card[] {
       icon: '🛡️',
       name: 'SafetyWing',
       tagline: isFr
-        ? 'Assurance sante et voyage pour expatries'
+        ? 'Assurance santé et voyage pour expatriés'
         : 'Travel health insurance for expats',
       desc: isFr
-        ? 'Couverture mensuelle sans engagement, activable avant votre inscription a l\'assurance nationale japonaise. Ideale pour la periode de transition apres l\'arrivee au Japon.'
+        ? 'Couverture mensuelle sans engagement, activable avant votre inscription à l\'assurance nationale japonaise. Idéale pour la période de transition après l\'arrivée au Japon.'
         : 'Monthly coverage with no commitment, activatable before your Japanese national insurance enrolment. Ideal for the transition period after arriving in Japan.',
       benefits: isFr
-        ? ['Couverture mondiale + Japon inclus', 'Pas d\'examen medical ni d\'engagement long terme', 'Hospitalisation, evacuation medicale, urgences']
+        ? ['Couverture mondiale + Japon inclus', 'Pas d\'examen médical ni d\'engagement long terme', 'Hospitalisation, évacuation médicale, urgences']
         : ['Worldwide coverage including Japan', 'No medical exam, no long-term commitment', 'Hospitalisation, medical evacuation, emergencies'],
       cta: isFr ? 'Obtenir un devis gratuit' : 'Get a Free Quote',
       url: 'https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador',
@@ -81,7 +81,7 @@ function getCards(locale: string): Card[] {
         ? 'Plateforme de cours particuliers en ligne avec des professeurs natifs japonais. Flexible, abordable, et bien plus efficace que les applications de vocabulaire seules.'
         : 'Online private tutoring platform with native Japanese teachers. Flexible, affordable, and far more effective than vocabulary apps alone.',
       benefits: isFr
-        ? ['Professeurs natifs a partir de 10 $/heure', 'Horaires 100% flexibles selon votre agenda', 'Cours d\'essai a prix reduit pour commencer']
+        ? ['Professeurs natifs à partir de 10 $/heure', 'Horaires 100% flexibles selon votre agenda', 'Cours d\'essai à prix réduit pour commencer']
         : ['Native teachers from $10/hour', '100% flexible scheduling around your life', 'Reduced-price trial lesson to get started'],
       cta: isFr ? 'Trouver un professeur' : 'Find a Teacher',
       url: 'https://www.italki.com/affshare?ref=af32660342',
@@ -92,13 +92,13 @@ function getCards(locale: string): Card[] {
       icon: '🗺️',
       name: 'GetYourGuide',
       tagline: isFr
-        ? 'Visites guidees et activites a Tokyo'
+        ? 'Visites guidées et activités à Tokyo'
         : 'Guided tours and activities in Tokyo',
       desc: isFr
-        ? 'Reservez des visites guidees, experiences culturelles et activites a Tokyo. Ideal pour explorer la ville avant ou apres votre installation, seul, en famille ou en groupe.'
+        ? 'Réservez des visites guidées, expériences culturelles et activités à Tokyo. Idéal pour explorer la ville avant ou après votre installation, seul, en famille ou en groupe.'
         : 'Book guided tours, cultural experiences and activities in Tokyo. Perfect for exploring the city before or after settling in, solo, with family, or in a group.',
       benefits: isFr
-        ? ['Temples, quartiers, experiences culinaires', 'Guides anglophones et francophones disponibles', 'Annulation gratuite jusqu\'a 24h avant']
+        ? ['Temples, quartiers, expériences culinaires', 'Guides anglophones et francophones disponibles', 'Annulation gratuite jusqu\'à 24h avant']
         : ['Temples, districts, food experiences', 'English and French-speaking guides available', 'Free cancellation up to 24 hours before'],
       cta: isFr ? 'Explorer Tokyo' : 'Explore Tokyo',
       url: 'https://www.getyourguide.com/tokyo-l193/?partner_id=4LP5PLT&utm_medium=online_publisher',
@@ -109,13 +109,13 @@ function getCards(locale: string): Card[] {
       icon: '📱',
       name: 'Sakura Mobile',
       tagline: isFr
-        ? 'Carte SIM japonaise pour etrangers'
+        ? 'Carte SIM japonaise pour étrangers'
         : 'Japanese SIM card for foreigners',
       desc: isFr
-        ? 'Carte SIM prepayee ou forfait mensuel accessible des votre arrivee au Japon, sans adresse locale ni garant japonais. Activation rapide avec votre passeport uniquement.'
+        ? 'Carte SIM prépayée ou forfait mensuel accessible dès votre arrivée au Japon, sans adresse locale ni garant japonais. Activation rapide avec votre passeport uniquement.'
         : 'Prepaid SIM card or monthly plan accessible from day one in Japan, without a Japanese address or guarantor. Fast activation with your passport only.',
       benefits: isFr
-        ? ['Pas d\'adresse japonaise requise', 'Livraison a l\'hotel ou retrait a l\'aeroport', 'Forfaits data et appels pour tout type de sejour']
+        ? ['Pas d\'adresse japonaise requise', 'Livraison à l\'hôtel ou retrait à l\'aéroport', 'Forfaits data et appels pour tout type de séjour']
         : ['No Japanese address required', 'Hotel delivery or airport pickup', 'Data and call plans for any length of stay'],
       cta: isFr ? 'Voir les forfaits' : 'View Plans',
       url: 'https://www.sakuramobile.jp/tokyoexpat-top',
