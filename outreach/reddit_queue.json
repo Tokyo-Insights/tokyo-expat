@@ -1,7 +1,7 @@
 {
   "_comment": "File de munitions Reddit. status: todo (pas d'asset) / ready (pret a poster) / posted. Le reminder pioche la prochaine 'ready', rappelle via Telegram, detecte auto le post (email AutoMod OC) et avance. Cadence = POSTS_PER_WEEK dans reddit_munition_reminder.py.",
   "state": {
-    "last_posted_utc": "2026-07-10T00:16:12Z",
+    "last_posted_utc": "2026-07-16T23:01:48Z",
     "awaiting_id": null,
     "awaiting_reminded_utc": null,
     "last_reminded_date": null
@@ -45,12 +45,12 @@
     },
     {
       "id": "rent-by-line",
-      "status": "ready",
+      "status": "posted",
       "png": "outreach/tokyo-rent-by-line.png",
       "title": "[OC] Median rent for a 1K studio by Tokyo train line (2026)",
       "oc_comment": "Source: Compiled from ~500,000 active rental listings across Tokyo's 23 wards (deduplicated); median 1K studio rent for listings along each of 27 major train lines.\n\nTool: Python (pandas) + matplotlib.",
       "sub": "dataisbeautiful",
-      "posted_utc": null,
+      "posted_utc": "2026-07-16T23:01:48Z",
       "views": null,
       "upvotes": null
     },
