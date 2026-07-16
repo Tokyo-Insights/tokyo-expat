@@ -35,11 +35,12 @@ colors = [plt.cm.RdYlGn_r(norm(v)) for v in vals]
 fig, ax = plt.subplots(figsize=(11, 11))
 ax.barh(y, vals, color=colors, edgecolor="white", height=0.78)
 for i, v in enumerate(vals):
-    ax.text(v + max(vals) * 0.008, i, f"{v/1000:.0f}k", va="center", ha="left",
+    usd = round(v / 160 / 10) * 10
+    ax.text(v + max(vals) * 0.008, i, f"{v/1000:.0f}k   ~\\${usd:,.0f}", va="center", ha="left",
             fontsize=9.5, color="#333")
 ax.set_yticks(y)
 ax.set_yticklabels(names, fontsize=10.5, color="#1f2937")
-ax.set_xlim(0, max(vals) * 1.1)
+ax.set_xlim(0, max(vals) * 1.28)
 ax.set_xlabel("Median monthly rent for a 1K studio (JPY)", fontsize=12.5, color="#374151", labelpad=10)
 ax.xaxis.set_major_formatter(lambda x, _: f"{int(x/1000)}k" if x else "0")
 ax.tick_params(axis="x", labelsize=10.5, colors="#4b5563")
@@ -50,11 +51,13 @@ ax.xaxis.grid(True, color="#eef1f4", lw=1)
 ax.set_axisbelow(True)
 ax.margins(y=0.01)
 
-plt.subplots_adjust(top=0.905, bottom=0.075, left=0.28, right=0.965)
+plt.subplots_adjust(top=0.895, bottom=0.075, left=0.28, right=0.965)
 fig.suptitle("The cost of a Tokyo studio, by train line", fontsize=21, fontweight="bold",
-             color=NAVY, x=0.5, y=0.965)
-fig.text(0.5, 0.925, f"Median 1K (studio) rent along {len(lines)} major Tokyo train lines, 2026.",
+             color=NAVY, x=0.5, y=0.975)
+fig.text(0.5, 0.94, f"Median rent for a 1K studio along Tokyo's {len(lines)} major train lines, 2026.  USD at ~160 JPY per USD.",
          ha="center", fontsize=12, color="#6b7280")
+fig.text(0.5, 0.917, "A 1K is Japan's standard studio: one room + a small separate kitchen, ~20-25 m2 (215-270 sq ft).",
+         ha="center", fontsize=10, color="#94a3b8")
 fig.text(0.965, 0.02, "Source: tokyo-expat.com/data  ·  median, not average",
          ha="right", fontsize=9, color="#9ca3af")
 
