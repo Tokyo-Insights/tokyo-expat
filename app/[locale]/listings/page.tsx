@@ -99,7 +99,7 @@ export default function ListingsPage() {
                 href={`/${locale}/contact?type=${type.id}`}
                 className="mt-auto block text-center bg-[#0f2744] hover:bg-[#1a3a6b] text-white px-4 py-2.5 rounded-xl text-sm font-semibold transition-colors"
               >
-                {isFr ? `Chercher un ${type.nameFr.toLowerCase()}` : `Find a ${type.nameEn.toLowerCase()}`}
+                {isFr ? `Chercher : ${type.nameFr.toLowerCase()}` : `Find a ${type.nameEn.toLowerCase()}`}
               </Link>
             </div>
           ))}

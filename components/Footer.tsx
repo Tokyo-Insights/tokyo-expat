@@ -37,7 +37,7 @@ export default function Footer({ locale, nav, footer }: FooterProps) {
         </div>
       </div>
       <div className="border-t border-gray-800 text-center text-xs py-4 text-gray-600">
-        © {new Date().getFullYear()} Tokyo Expat. All rights reserved.
+        © {new Date().getFullYear()} Tokyo Expat. {locale === 'fr' ? 'Tous droits réservés.' : 'All rights reserved.'}
       </div>
     </footer>
   )
