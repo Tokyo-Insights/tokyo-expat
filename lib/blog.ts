@@ -12773,6 +12773,94 @@ Knowing these costs in advance is how you avoid the first-bill shock and spot wh
 *Figures are typical 2026 market ranges. USD at roughly 160 JPY per USD.*
     `.trim(),
   },
+  {
+    slug: 'ur-housing-tokyo-foreigners',
+    locale: 'en',
+    title: 'UR Housing in Tokyo: No Key Money, No Guarantor (2026 Guide)',
+    description: 'UR rental housing in Tokyo charges no key money, no agency fee, no renewal fee and no guarantor. How the four zeros work, who qualifies as a foreigner, and the trade-offs.',
+    date: '2026-07-18',
+    readingTime: '7 min',
+    content: `
+For foreigners on a budget, the single biggest housing secret in Tokyo is UR rental housing. It removes almost every upfront fee that makes a normal Japanese lease so painful. Here is how it works and who qualifies.
+
+**Quick answer:** UR housing (UR賃貸住宅), run by a semi-public agency, charges no key money, no agency fee and no renewal fee, and requires no guarantor. You pay a refundable deposit (usually two months) and the first rent, and that is it. Foreigners with a residence card can apply, as long as you meet an income threshold (roughly a monthly income of at least the rent times a set multiple) or qualify through savings. It is one of the cheapest, most foreigner-open ways to rent a real apartment in Tokyo.
+
+## The four zeros that save you months of rent
+A standard Tokyo lease can cost four to six months of rent up front (see our [move-in cost breakdown](/en/blog/tokyo-apartment-move-in-costs)). UR removes most of that:
+- **No key money (reikin).** The non-refundable one-to-two-month gift to the landlord is gone.
+- **No agency fee.** You rent directly from the agency, so there is no one-month brokerage charge.
+- **No renewal fee.** Normal leases often charge a month every two years. UR does not.
+- **No guarantor.** No guarantee company, no Japanese co-signer to find. This alone solves the biggest obstacle foreigners face (see [why landlords reject foreign tenants](/en/blog/why-japanese-landlords-reject-foreigners)).
+
+You still pay a **deposit** (usually two months, refundable) and your first month, so move-in is typically about three months of rent instead of six.
+
+## Who can qualify
+UR is open to foreign residents, but it checks that you can afford the rent. In most cases you need one of the following:
+- A **monthly income** of at least a set multiple of the rent (commonly around four times for lower rents, less for higher ones).
+- Enough **savings** to satisfy a balance requirement if your income is irregular.
+- Or, in some cases, the option to **prepay** up to a year of rent.
+
+You will need your **residence card**, proof of income or savings, and to apply in person or online. There is no screening by a guarantee company, which is why approval can be faster and more predictable.
+
+## The trade-offs to know
+UR is not perfect, and being honest about it matters:
+- Many UR buildings are **older, danchi-style estates**, though a large share have been renovated inside.
+- Popular, central units go fast, and the **best-value stock is often a bit further out**.
+- You apply on a **first-come basis** for a specific listed unit, so it suits people who can act quickly, less so those who need a very specific address on a fixed date.
+- Support is **mostly in Japanese**, so the paperwork can be a hurdle without help.
+
+## Is UR right for you?
+If your priority is cutting upfront cost and avoiding the guarantor problem, UR is one of the best options in Tokyo, especially for longer stays. If you need a furnished, ready-in-days solution, a [furnished flat or share house](/en/blog/furnished-apartments-tokyo-guide) is faster. Many people start furnished, then move to UR once settled.
+
+You can compare UR-friendly areas against market rents in our [Tokyo Rent Index](/en/data). And if you want someone who knows the market to line up your options, including the ones you would never find alone, [tell us what you need](/en/contact).
+
+*This is general 2026 guidance. Confirm current eligibility and terms before you apply.*
+    `.trim(),
+  },
+  {
+    slug: 'logement-ur-tokyo-etrangers',
+    locale: 'fr',
+    title: 'Le logement UR à Tokyo : ni argent-clé ni garant (guide 2026)',
+    description: 'Le logement UR à Tokyo ne demande ni argent-clé, ni frais d\'agence, ni renouvellement, ni garant. Comment fonctionnent les quatre zéros, qui est éligible, et les compromis.',
+    date: '2026-07-18',
+    readingTime: '7 min',
+    content: `
+Pour un étranger avec un budget serré, le plus grand secret du logement à Tokyo, c'est le logement UR. Il supprime presque tous les frais d'entrée qui rendent un bail japonais classique si douloureux. Voici comment ça marche et qui peut y prétendre.
+
+**Réponse rapide :** Le logement UR (UR賃貸住宅), géré par un organisme semi-public, ne demande ni argent-clé, ni frais d'agence, ni frais de renouvellement, et n'exige pas de garant. Vous payez une caution remboursable (en général deux mois) et le premier loyer, c'est tout. Les étrangers titulaires d'une carte de résident peuvent postuler, à condition de remplir une condition de revenus (en gros un revenu mensuel au moins égal à un multiple du loyer) ou de justifier d'une épargne suffisante. C'est l'un des moyens les moins chers et les plus ouverts aux étrangers de louer un vrai appartement à Tokyo.
+
+## Les quatre zéros qui économisent des mois de loyer
+Un bail classique à Tokyo peut coûter 4 à 6 mois de loyer à l'entrée (voir notre [détail des frais cachés](/fr/blog/frais-caches-location-tokyo)). UR en supprime l'essentiel :
+- **Pas d'argent-clé (reikin).** Le cadeau non remboursable de 1 à 2 mois au propriétaire disparaît.
+- **Pas de frais d'agence.** Vous louez directement auprès de l'organisme, donc pas d'un mois de commission.
+- **Pas de frais de renouvellement.** Les baux classiques facturent souvent un mois tous les deux ans. UR non.
+- **Pas de garant.** Aucune société de garantie, aucun co-signataire japonais à trouver. À lui seul, ce point règle le plus gros obstacle des étrangers (voir [pourquoi les propriétaires japonais refusent les étrangers](/fr/blog/pourquoi-proprietaires-japonais-refusent-etrangers)).
+
+Vous payez tout de même une **caution** (en général deux mois, remboursable) et votre premier loyer, donc l'entrée revient à environ trois mois de loyer au lieu de six.
+
+## Qui peut y prétendre
+UR est ouvert aux résidents étrangers, mais vérifie que vous pouvez payer le loyer. Dans la plupart des cas, il faut l'un des éléments suivants :
+- Un **revenu mensuel** au moins égal à un multiple fixé du loyer (souvent environ quatre fois pour les loyers modestes, moins pour les loyers élevés).
+- Une **épargne** suffisante pour satisfaire une exigence de solde si vos revenus sont irréguliers.
+- Ou, dans certains cas, la possibilité de **payer d'avance** jusqu'à un an de loyer.
+
+Il vous faudra votre **carte de résident**, un justificatif de revenus ou d'épargne, et postuler en personne ou en ligne. Il n'y a pas d'examen par une société de garantie, ce qui rend l'accord souvent plus rapide et plus prévisible.
+
+## Les compromis à connaître
+UR n'est pas parfait, et il faut être honnête là-dessus :
+- Beaucoup d'immeubles UR sont d'anciens **ensembles de type danchi**, même si une large part a été rénovée à l'intérieur.
+- Les logements centraux et prisés partent vite, et le **meilleur rapport qualité-prix est souvent un peu plus loin** du centre.
+- Vous postulez au **premier arrivé** pour un logement précis listé, ce qui convient à qui peut agir vite, moins à qui veut une adresse très précise à une date fixe.
+- L'accompagnement est **surtout en japonais**, donc la paperasse peut être un obstacle sans aide.
+
+## UR est-il fait pour vous ?
+Si votre priorité est de réduire les frais d'entrée et d'éviter le problème du garant, UR est l'une des meilleures options de Tokyo, surtout pour un séjour long. Si vous voulez une solution meublée et disponible en quelques jours, un [meublé ou une share house](/fr/blog/guide-appartements-meubles-tokyo) est plus rapide. Beaucoup commencent en meublé, puis passent à UR une fois installés.
+
+Vous pouvez comparer les zones UR aux loyers du marché dans notre [Indice des loyers de Tokyo](/fr/data). Et si vous voulez quelqu'un qui connaît le marché pour aligner vos options, y compris celles que vous ne trouveriez jamais seul, [dites-nous ce qu'il vous faut](/fr/contact).
+
+*Ceci est une information générale 2026. Vérifiez les conditions d'éligibilité en vigueur avant de postuler.*
+    `.trim(),
+  },
 ]
 
 // Mapping FR slug -> EN slug (articles jumeaux pour hreflang)
@@ -12846,6 +12934,7 @@ export const TWIN_SLUGS: Record<string, string> = {
   'ligne-train-tokyo-loyer-moins-cher':      'cheapest-train-line-tokyo-rent',
   'stations-tokyo-loyer-moins-cher':          'cheapest-stations-tokyo-rent',
   'frais-caches-location-tokyo':               'tokyo-apartment-move-in-costs',
+  'logement-ur-tokyo-etrangers':               'ur-housing-tokyo-foreigners',
 }
 
 export function getTwinSlug(slug: string, locale: Locale): string | undefined {
