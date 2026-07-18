@@ -43,12 +43,15 @@ ax.scatter(studio, y, color=GREY, s=70, zorder=2, label="1K studio (single)", ed
 ax.scatter(family, y, color=NAVY, s=85, zorder=3, label="2LDK (family)", edgecolors="white", linewidths=0.8)
 for i, (_, s, f) in enumerate(rows):
     mult = f / s
-    ax.text(f + xmax * 0.012, i, f"x{mult:.1f}", va="center", ha="left",
-            fontsize=9.5, color=RED, fontweight="bold")
+    usd = round(f / 160 / 10) * 10
+    ax.text(s - xmax * 0.012, i, f"{s/1000:.0f}k", va="center", ha="right",
+            fontsize=8.5, color=GREY)
+    ax.text(f + xmax * 0.012, i, f"{f/1000:.0f}k  ~\\${usd:,.0f}   x{mult:.1f}",
+            va="center", ha="left", fontsize=9.5, color=RED, fontweight="bold")
 
 ax.set_yticks(y)
 ax.set_yticklabels(names, fontsize=10.5, color="#1f2937")
-ax.set_xlim(0, xmax * 1.16)
+ax.set_xlim(0, xmax * 1.40)
 ax.xaxis.set_major_formatter(lambda x, _: f"{int(x/1000)}k" if x else "0")
 ax.set_xlabel("Median monthly rent (JPY)", fontsize=12.5, color="#374151", labelpad=12)
 ax.tick_params(axis="x", labelsize=10.5, colors="#4b5563")
@@ -60,13 +63,17 @@ ax.set_axisbelow(True)
 ax.margins(y=0.012)
 leg = ax.legend(loc="lower right", frameon=False, fontsize=11.5, handletextpad=0.4, labelspacing=0.6)
 
-plt.subplots_adjust(top=0.905, bottom=0.105, left=0.16, right=0.965)
+plt.subplots_adjust(top=0.895, bottom=0.105, left=0.16, right=0.965)
 fig.suptitle("From a studio to a family flat: the Tokyo rent jump", fontsize=20.5,
-             fontweight="bold", color=NAVY, x=0.5, y=0.965)
-fig.text(0.5, 0.925,
+             fontweight="bold", color=NAVY, x=0.5, y=0.975)
+fig.text(0.5, 0.94,
          "Median rent, 1K studio vs 2LDK family flat, by Tokyo ward (2026). "
          "xN = how many times more the family flat costs.",
          ha="center", fontsize=11.5, color="#6b7280")
+fig.text(0.5, 0.917,
+         "A 1K is a studio (one room + kitchen). A 2LDK is a two-bedroom family flat. "
+         "USD at ~160 JPY per USD.",
+         ha="center", fontsize=10, color="#94a3b8")
 fig.text(0.965, 0.02, "Source: tokyo-expat.com/data  ·  median, not average",
          ha="right", fontsize=9, color="#9ca3af")
 

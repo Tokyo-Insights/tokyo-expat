@@ -1,115 +1,115 @@
 {
-  "_comment": "File de munitions Reddit. status: todo (pas d'asset) / ready (pret a poster) / posted. Le reminder pioche la prochaine 'ready', rappelle via Telegram, detecte auto le post (email AutoMod OC) et avance. Cadence = POSTS_PER_WEEK dans reddit_munition_reminder.py.",
-  "state": {
-    "last_posted_utc": "2026-07-16T23:01:48Z",
-    "awaiting_id": null,
-    "awaiting_reminded_utc": null,
-    "last_reminded_date": null
+ "_comment": "File de munitions Reddit. status: todo (pas d'asset) / ready (pret a poster) / posted. Le reminder pioche la prochaine 'ready', rappelle via Telegram, detecte auto le post (email AutoMod OC) et avance. Cadence = POSTS_PER_WEEK dans reddit_munition_reminder.py.",
+ "state": {
+  "last_posted_utc": "2026-07-16T23:01:48Z",
+  "awaiting_id": null,
+  "awaiting_reminded_utc": null,
+  "last_reminded_date": null
+ },
+ "munitions": [
+  {
+   "id": "rent-by-station",
+   "status": "posted",
+   "png": "outreach/tokyo-rent-by-station.png",
+   "title": "[OC] Median rent for a 1K studio near 50 Tokyo stations (2026)",
+   "oc_comment": "Source: Compiled from ~500,000 active rental listings across Tokyo's 23 wards (deduplicated). I took the median monthly rent for a 1K layout near each of 50 major stations.\n\nTool: Python (pandas) for the cleaning and medians, matplotlib for the chart.",
+   "sub": "dataisbeautiful",
+   "posted_utc": "2026-07-03T00:00:00Z",
+   "posted_local": "Fri 09:00 JST = Thu 20:00 ET",
+   "views": 57000,
+   "upvotes": 29,
+   "comments": 23
   },
-  "munitions": [
-    {
-      "id": "rent-by-station",
-      "status": "posted",
-      "png": "outreach/tokyo-rent-by-station.png",
-      "title": "[OC] Median rent for a 1K studio near 50 Tokyo stations (2026)",
-      "oc_comment": "Source: Compiled from ~500,000 active rental listings across Tokyo's 23 wards (deduplicated). I took the median monthly rent for a 1K layout near each of 50 major stations.\n\nTool: Python (pandas) for the cleaning and medians, matplotlib for the chart.",
-      "sub": "dataisbeautiful",
-      "posted_utc": "2026-07-03T00:00:00Z",
-      "posted_local": "Fri 09:00 JST = Thu 20:00 ET",
-      "views": 57000,
-      "upvotes": 29,
-      "comments": 23
-    },
-    {
-      "id": "rent-map-ward",
-      "status": "posted",
-      "png": "outreach/tokyo-rent-map.png",
-      "title": "[OC] Median rent for a 1K studio across Tokyo's 23 wards, mapped (2026)",
-      "oc_comment": "Data: 528,660 active rental listings across Tokyo's 23 wards, compiled from the major Japanese rental portals (2026), deduplicated. Median monthly rent for a 1K studio (one room + separate kitchen) per ward. Medians, not averages, so a few luxury units don't skew it.\n\nMade with Python (pandas) for the medians and GeoPandas + matplotlib for the map. This is the choropleth version some of you asked for after my 50-stations chart.\n\nFull breakdown by ward, line and station: tokyo-expat.com/data",
-      "sub": "dataisbeautiful",
-      "posted_utc": "2026-07-10T00:16:12Z",
-      "views": null,
-      "upvotes": null,
-      "posted_local": "Fri ~09:00 JST 10/07/2026"
-    },
-    {
-      "id": "price-trends-ward",
-      "status": "ready",
-      "png": "outreach/tokyo-price-trends.png",
-      "title": "[OC] Tokyo condo prices per m2, 2021 vs 2025, by ward",
-      "oc_comment": "Source: ~100,000 recorded second-hand condominium sale transactions across Tokyo's 23 wards, 2021-2025 (settled sale prices, not asking prices), aggregated to the median price per m2 per ward.\n\nTool: Python (pandas) for the aggregation, matplotlib for the chart.",
-      "sub": "dataisbeautiful",
-      "posted_utc": null,
-      "views": null,
-      "upvotes": null
-    },
-    {
-      "id": "rent-by-line",
-      "status": "posted",
-      "png": "outreach/tokyo-rent-by-line.png",
-      "title": "[OC] Median rent for a 1K studio by Tokyo train line (2026)",
-      "oc_comment": "Source: Compiled from ~500,000 active rental listings across Tokyo's 23 wards (deduplicated); median 1K studio rent for listings along each of 27 major train lines.\n\nTool: Python (pandas) + matplotlib.",
-      "sub": "dataisbeautiful",
-      "posted_utc": "2026-07-16T23:01:48Z",
-      "views": null,
-      "upvotes": null
-    },
-    {
-      "id": "price-by-station",
-      "status": "todo",
-      "png": null,
-      "title": "[OC] Tokyo condo price per m2 by station, 2025",
-      "oc_comment": null,
-      "sub": "dataisbeautiful",
-      "posted_utc": null,
-      "views": null,
-      "upvotes": null
-    },
-    {
-      "id": "layout-gap",
-      "status": "ready",
-      "png": "outreach/tokyo-layout-gap.png",
-      "title": "[OC] The cost jump from a Tokyo studio to a family flat, by ward (2026)",
-      "oc_comment": "Source: Compiled from ~500,000 active rental listings across Tokyo's 23 wards (deduplicated); median rent for a 1K studio vs a 2LDK family flat in each ward.\n\nTool: Python (pandas) + matplotlib.",
-      "sub": "dataisbeautiful",
-      "posted_utc": null,
-      "views": null,
-      "upvotes": null
-    },
-    {
-      "id": "center-premium-over-time",
-      "status": "todo",
-      "png": null,
-      "title": "[OC] Tokyo's centre vs suburbs condo price gap widened, 2021-2025",
-      "oc_comment": null,
-      "sub": "dataisbeautiful",
-      "posted_utc": null,
-      "views": null,
-      "upvotes": null
-    },
-    {
-      "id": "tokyo-prime-areas",
-      "status": "todo",
-      "png": null,
-      "title": "[OC] Tokyo's most exclusive addresses by rent (prime areas)",
-      "note": "Idee de u/tokyoedo: l'echantillon par volume sous-represente les quartiers prime (Azabu, Hiroo, Daikanyama, Omotesando). Faire une coupe 'haut de gamme uniquement' = histoire tres differente. Necessite baisser le seuil MIN_STATION_SAMPLE ou cibler ces stations.",
-      "oc_comment": null,
-      "sub": "dataisbeautiful",
-      "posted_utc": null,
-      "views": null,
-      "upvotes": null
-    },
-    {
-      "id": "tokyo-price-choropleth",
-      "status": "ready",
-      "png": "outreach/tokyo-price-map.png",
-      "title": "[OC] Tokyo condo price per m2 by ward, mapped (2025)",
-      "note": "Carte choroplethe des 23 wards. Demande explicite du public r/dataisbeautiful. Bonne aussi pour public client (r/japanlife/japanresidents) avec lien /en/data.",
-      "oc_comment": "Source: ~100,000 recorded second-hand condominium sale transactions across Tokyo's 23 wards (settled sale prices, not asking prices), aggregated to the median price per m2 per ward. Ward outlines from public administrative boundary data.\n\nTool: Python (geopandas + matplotlib).",
-      "sub": "dataisbeautiful",
-      "posted_utc": null,
-      "views": null,
-      "upvotes": null
-    }
-  ]
+  {
+   "id": "rent-map-ward",
+   "status": "posted",
+   "png": "outreach/tokyo-rent-map.png",
+   "title": "[OC] Median rent for a 1K studio across Tokyo's 23 wards, mapped (2026)",
+   "oc_comment": "Data: 528,660 active rental listings across Tokyo's 23 wards, compiled from the major Japanese rental portals (2026), deduplicated. Median monthly rent for a 1K studio (one room + separate kitchen) per ward. Medians, not averages, so a few luxury units don't skew it.\n\nMade with Python (pandas) for the medians and GeoPandas + matplotlib for the map. This is the choropleth version some of you asked for after my 50-stations chart.\n\nFull breakdown by ward, line and station: tokyo-expat.com/data",
+   "sub": "dataisbeautiful",
+   "posted_utc": "2026-07-10T00:16:12Z",
+   "views": null,
+   "upvotes": null,
+   "posted_local": "Fri ~09:00 JST 10/07/2026"
+  },
+  {
+   "id": "layout-gap",
+   "status": "ready",
+   "png": "outreach/tokyo-layout-gap.png",
+   "title": "[OC] The cost jump from a Tokyo studio to a family flat, by ward (2026)",
+   "oc_comment": "Source: Compiled from ~500,000 active rental listings across Tokyo's 23 wards (deduplicated); median rent for a 1K studio vs a 2LDK family flat in each ward.\n\nTool: Python (pandas) + matplotlib.",
+   "sub": "dataisbeautiful",
+   "posted_utc": null,
+   "views": null,
+   "upvotes": null
+  },
+  {
+   "id": "price-trends-ward",
+   "status": "ready",
+   "png": "outreach/tokyo-price-trends.png",
+   "title": "[OC] Tokyo condo prices per m2, 2021 vs 2025, by ward",
+   "oc_comment": "Source: ~100,000 recorded second-hand condominium sale transactions across Tokyo's 23 wards, 2021-2025 (settled sale prices, not asking prices), aggregated to the median price per m2 per ward.\n\nTool: Python (pandas) for the aggregation, matplotlib for the chart.",
+   "sub": "dataisbeautiful",
+   "posted_utc": null,
+   "views": null,
+   "upvotes": null
+  },
+  {
+   "id": "rent-by-line",
+   "status": "posted",
+   "png": "outreach/tokyo-rent-by-line.png",
+   "title": "[OC] Median rent for a 1K studio by Tokyo train line (2026)",
+   "oc_comment": "Source: Compiled from ~500,000 active rental listings across Tokyo's 23 wards (deduplicated); median 1K studio rent for listings along each of 27 major train lines.\n\nTool: Python (pandas) + matplotlib.",
+   "sub": "dataisbeautiful",
+   "posted_utc": "2026-07-16T23:01:48Z",
+   "views": null,
+   "upvotes": null
+  },
+  {
+   "id": "price-by-station",
+   "status": "todo",
+   "png": null,
+   "title": "[OC] Tokyo condo price per m2 by station, 2025",
+   "oc_comment": null,
+   "sub": "dataisbeautiful",
+   "posted_utc": null,
+   "views": null,
+   "upvotes": null
+  },
+  {
+   "id": "center-premium-over-time",
+   "status": "todo",
+   "png": null,
+   "title": "[OC] Tokyo's centre vs suburbs condo price gap widened, 2021-2025",
+   "oc_comment": null,
+   "sub": "dataisbeautiful",
+   "posted_utc": null,
+   "views": null,
+   "upvotes": null
+  },
+  {
+   "id": "tokyo-prime-areas",
+   "status": "todo",
+   "png": null,
+   "title": "[OC] Tokyo's most exclusive addresses by rent (prime areas)",
+   "note": "Idee de u/tokyoedo: l'echantillon par volume sous-represente les quartiers prime (Azabu, Hiroo, Daikanyama, Omotesando). Faire une coupe 'haut de gamme uniquement' = histoire tres differente. Necessite baisser le seuil MIN_STATION_SAMPLE ou cibler ces stations.",
+   "oc_comment": null,
+   "sub": "dataisbeautiful",
+   "posted_utc": null,
+   "views": null,
+   "upvotes": null
+  },
+  {
+   "id": "tokyo-price-choropleth",
+   "status": "ready",
+   "png": "outreach/tokyo-price-map.png",
+   "title": "[OC] Tokyo condo price per m2 by ward, mapped (2025)",
+   "note": "Carte choroplethe des 23 wards. Demande explicite du public r/dataisbeautiful. Bonne aussi pour public client (r/japanlife/japanresidents) avec lien /en/data.",
+   "oc_comment": "Source: ~100,000 recorded second-hand condominium sale transactions across Tokyo's 23 wards (settled sale prices, not asking prices), aggregated to the median price per m2 per ward. Ward outlines from public administrative boundary data.\n\nTool: Python (geopandas + matplotlib).",
+   "sub": "dataisbeautiful",
+   "posted_utc": null,
+   "views": null,
+   "upvotes": null
+  }
+ ]
 }
