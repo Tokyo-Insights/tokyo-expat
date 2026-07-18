@@ -12470,6 +12470,309 @@ Trouver un appartement pour expatrié à Tokyo, c'est surtout savoir quelle port
 *À lire aussi : [appartements meublés à Tokyo](/fr/blog/appartement-meuble-tokyo-expats-top-5) et [gaijin house vs share house](/fr/blog/gaijin-house-vs-share-house-difference).*
     `.trim(),
   },
+  {
+    slug: 'do-foreigners-pay-more-rent-tokyo',
+    locale: 'en',
+    title: 'Do Foreigners Really Pay More Rent in Tokyo? (Insider View, 2026)',
+    description: 'The honest answer from inside the market: the monthly rent on a given unit is the same, but foreigners often pay more in fees and get pushed toward pricier stock. Here is why.',
+    date: '2026-07-18',
+    readingTime: '7 min',
+    content: `
+Anyone moving to Tokyo eventually asks the same thing: do foreigners get charged more rent than locals? I operate rentals in Tokyo myself, so I see this from both sides of the table. The honest answer is more nuanced than a simple yes or no.
+
+**Quick answer:** No, the monthly rent on a specific apartment is set by the property, not your nationality. A foreigner and a Japanese tenant pay the same rent for the same unit. But foreigners often pay more in practice, through mandatory guarantor company fees, higher upfront costs, and being pushed toward pricier "foreigner friendly" stock because the cheapest listings quietly refuse them.
+
+## The rent itself does not change
+Rent in Tokyo is attached to the apartment, not the tenant. From 528,660 real active listings, a 1K studio ranges from about 74,000 JPY in Edogawa to 140,000 JPY in Minato, and that figure does not move because you hold a foreign passport. You can check the going rate for any ward, line or station in our [Tokyo Rent Index](/en/data) before you ever contact an agent, so you know when a quoted rent is fair.
+
+## Where foreigners really pay more
+The premium is real, but it hides in the fees and in which doors open, not in the rent line:
+- **Guarantor company fees.** Without a Japanese guarantor, you are asked to use a guarantee company, typically 50 to 100 percent of one month of rent up front plus a yearly renewal. For many foreigners this is effectively mandatory.
+- **Higher upfront costs.** A standard lease can ask for four to six months of rent at once: deposit, key money, agency fee and first month. See our [furnished apartments guide](/en/blog/furnished-apartments-tokyo-guide) for lower-deposit alternatives.
+- **Pushed toward pricier stock.** Rejected from the cheapest listings (here is [why landlords reject foreign tenants](/en/blog/why-japanese-landlords-reject-foreigners)), you end up in furnished flats, international agencies or share houses that cost more per month for the same space.
+- **The information gap.** If you cannot read Japanese listings, you only see the slice of the market marketed to foreigners, which skews expensive.
+
+## Why the cheaper doors close
+From the landlord side, the hesitation is rarely about the rent and almost always about perceived risk: language, no local guarantor, and uncertainty about how long you will stay. Guarantor companies price that risk in, and some owners simply opt out. The result is not a higher rent, but narrower access. That distinction matters, because access is something you can fix.
+
+## How to pay the local price, not the foreigner price
+- Use a guarantee company and treat it as normal, not a penalty.
+- Target listings that are open to foreigners but still priced at the market, not the "foreigner friendly" markup.
+- Know your [Japanese apartment layouts](/en/blog/japanese-apartment-layouts-explained) and which [train lines are cheapest](/en/blog/cheapest-train-line-tokyo-rent), so you are comparing like for like.
+- Have someone who can read the whole market, and who the agencies take seriously, run the search with you.
+
+Foreigners do not pay a higher rent for the same Tokyo apartment. They pay more when they are boxed into a smaller, pricier part of the market. Close that gap and you pay what everyone else pays. If you want someone inside the market to run the search, [tell us what you need](/en/contact).
+
+*Data: Tokyo rent figures from 528,660 real active listings, 2026, median 1K rent in JPY.*
+    `.trim(),
+  },
+  {
+    slug: 'etrangers-paient-plus-cher-loyer-tokyo',
+    locale: 'fr',
+    title: 'Les étrangers paient-ils vraiment plus cher leur loyer à Tokyo ? (2026)',
+    description: 'La réponse honnête, vue de l\'intérieur du marché : le loyer d\'un même logement est identique, mais les étrangers paient souvent plus en frais et sont poussés vers un parc plus cher. Voici pourquoi.',
+    date: '2026-07-18',
+    readingTime: '7 min',
+    content: `
+Toute personne qui s'installe à Tokyo finit par poser la même question : les étrangers paient-ils un loyer plus élevé que les locaux ? J'opère moi-même des logements à Tokyo, donc je vois la situation des deux côtés de la table. La réponse honnête est plus nuancée qu'un simple oui ou non.
+
+**Réponse rapide :** Non, le loyer mensuel d'un appartement donné est fixé par le bien, pas par votre nationalité. Un étranger et un locataire japonais paient le même loyer pour le même logement. Mais dans les faits, les étrangers paient souvent plus cher, à cause des frais de société de garantie, de coûts d'entrée plus élevés, et parce qu'ils sont poussés vers un parc plus cher "adapté aux étrangers", les annonces les moins chères les refusant discrètement.
+
+## Le loyer lui-même ne change pas
+À Tokyo, le loyer est attaché à l'appartement, pas au locataire. Sur 528 660 annonces réelles actives, un studio 1K va d'environ 74 000 JPY à Edogawa à 140 000 JPY à Minato, et ce chiffre ne bouge pas parce que vous avez un passeport étranger. Vérifiez le tarif en vigueur pour chaque arrondissement, ligne ou station dans notre [Indice des loyers de Tokyo](/fr/data) avant même de contacter une agence, pour savoir si un loyer annoncé est juste.
+
+## Là où les étrangers paient vraiment plus
+La surprime est réelle, mais elle se cache dans les frais et dans les portes qui s'ouvrent, pas dans la ligne du loyer :
+- **Frais de société de garantie.** Sans garant japonais, on vous demande de passer par une société de garantie, en général 50 à 100 pour cent d'un mois de loyer à l'entrée, plus un renouvellement annuel. Pour beaucoup d'étrangers, c'est de fait obligatoire.
+- **Coûts d'entrée plus élevés.** Un bail standard peut réclamer quatre à six mois de loyer d'un coup : dépôt, argent-clé, honoraires d'agence et premier mois. Voyez notre [guide des appartements meublés](/fr/blog/guide-appartements-meubles-tokyo) pour des alternatives à faible dépôt.
+- **Poussés vers un parc plus cher.** Refusés sur les annonces les moins chères (voici [pourquoi les propriétaires japonais refusent les étrangers](/fr/blog/pourquoi-proprietaires-japonais-refusent-etrangers)), vous finissez dans des meublés, des agences internationales ou des share houses qui coûtent plus cher au mois pour le même espace.
+- **Le fossé d'information.** Si vous ne lisez pas les annonces en japonais, vous ne voyez que la part du marché commercialisée aux étrangers, qui penche vers le cher.
+
+## Pourquoi les portes les moins chères se ferment
+Du côté du propriétaire, l'hésitation porte rarement sur le loyer et presque toujours sur le risque perçu : la langue, l'absence de garant local, l'incertitude sur la durée de votre séjour. Les sociétés de garantie facturent ce risque, et certains bailleurs préfèrent s'abstenir. Le résultat n'est pas un loyer plus élevé, mais un accès plus étroit. Cette distinction compte, parce que l'accès, lui, se corrige.
+
+## Comment payer le prix local, pas le prix étranger
+- Utilisez une société de garantie et voyez-la comme la norme, pas comme une punition. Notre [guide de la garantie de loyer](/fr/blog/garantie-loyer-etranger-japon) explique comment ça marche.
+- Visez les annonces ouvertes aux étrangers mais toujours au prix du marché, pas à la surcote "adaptée aux étrangers".
+- Connaissez vos [types d'appartements japonais](/fr/blog/types-appartements-japonais-expliques) et les [lignes de train les moins chères](/fr/blog/ligne-train-tokyo-loyer-moins-cher), pour comparer ce qui est comparable.
+- Faites chercher avec vous quelqu'un qui lit tout le marché, et que les agences prennent au sérieux.
+
+Les étrangers ne paient pas un loyer plus élevé pour le même appartement à Tokyo. Ils paient plus quand on les enferme dans une partie plus petite et plus chère du marché. Comblez ce fossé et vous payez ce que tout le monde paie. Si vous voulez quelqu'un de l'intérieur du marché pour mener la recherche, [dites-nous ce qu'il vous faut](/fr/contact).
+
+*Données : chiffres de loyer à Tokyo issus de 528 660 annonces réelles actives, 2026, loyer médian d'un 1K en JPY.*
+    `.trim(),
+  },
+  {
+    slug: 'cheapest-train-line-tokyo-rent',
+    locale: 'en',
+    title: 'Which Tokyo Train Line Is Cheapest to Rent On? (2026 Data)',
+    description: 'From 528,660 listings: the Seibu lines are the cheapest to rent on in Tokyo (around 80,000 JPY for a studio), the Ginza and Yamanote lines the priciest. The full 2026 ranking.',
+    date: '2026-07-18',
+    readingTime: '7 min',
+    content: `
+If you want the cheapest rent in Tokyo, the ward matters, but the train line matters just as much. Two lines can run through the same part of the city and still differ by 50,000 JPY a month for the same size studio. Here is the full ranking, from 528,660 real active listings.
+
+**Quick answer:** The cheapest Tokyo train lines to rent a 1K studio on are the Seibu Ikebukuro (around 80,000 JPY, about US$500) and Seibu Shinjuku (around 82,000 JPY), followed by the Tobu Skytree and Tokyu Toyoko. The priciest are the Tokyo Metro Ginza (around 131,000 JPY, about US$820) and the JR Yamanote (around 120,000 JPY). Living one line over from a prime route is one of the easiest ways to cut your rent.
+
+## The cheapest lines to rent on
+For a 1K studio, median monthly rent (USD at roughly 160 JPY to the dollar):
+- **Seibu Ikebukuro:** 80,000 JPY (about US$500)
+- **Seibu Shinjuku:** 82,000 JPY (about US$510)
+- **Tobu Skytree:** 82,000 JPY (about US$510)
+- **Tokyu Toyoko:** 86,000 JPY (about US$540)
+- **JR Chuo:** 87,000 JPY (about US$540)
+- **Keio:** 87,000 JPY (about US$540)
+
+These lines head out through the western and northern suburbs, where space is more abundant and demand is calmer. You still reach the major hubs, just with a slightly longer ride.
+
+## The priciest lines to rent on
+- **Tokyo Metro Ginza:** 131,000 JPY (about US$820)
+- **JR Yamanote:** 120,000 JPY (about US$750)
+- **Toei Oedo:** 119,000 JPY (about US$740)
+- **Tokyo Metro Hanzomon:** 117,000 JPY (about US$730)
+- **Tokyo Metro Hibiya:** 115,000 JPY (about US$720)
+- **Toei Asakusa:** 112,000 JPY (about US$700)
+
+No surprise here: these lines thread through the central business and luxury districts, so you pay for the address and the zero-transfer commute.
+
+## Why the gap is so wide
+Central subway lines like the Ginza and Hanzomon spend most of their length under Tokyo's priciest wards, so almost every stop is expensive. Suburban lines like the Seibu routes spend most of their length in cheaper residential areas, and several run out into Saitama and Chiba where rents fall further still. The line is really a proxy for how central its stations are.
+
+## How to use this to cut your rent
+The practical move is simple: pick your hub, then live one line over from the obvious one.
+- Commuting to Shinjuku? The Seibu Shinjuku and Seibu Ikebukuro lines undercut the JR options into the same station.
+- Want the Yamanote lifestyle for less? The Tokyu Toyoko and JR Chuo reach the same core for tens of thousands of yen less.
+- Compare like for like first: check the [layout](/en/blog/japanese-apartment-layouts-explained) so you are pricing a 1K against a 1K, and see the [cheapest wards](/en/blog/cheapest-neighbourhoods-tokyo-ranked-by-rent) for the ward-level view.
+
+You can explore every line, ward and station in our [Tokyo Rent Index](/en/data), or see the wider picture in our [Tokyo rent report](/en/blog/tokyo-rent-report-2026). And if you would rather have someone inside the market match your budget to the right line, [tell us what you need](/en/contact).
+
+*Data: median 1K rent by line from 528,660 real active listings, Tokyo, 2026. USD at roughly 160 JPY per USD.*
+    `.trim(),
+  },
+  {
+    slug: 'ligne-train-tokyo-loyer-moins-cher',
+    locale: 'fr',
+    title: 'Quelle ligne de train de Tokyo a les loyers les moins chers ? (2026)',
+    description: 'À partir de 528 660 annonces : les lignes Seibu sont les moins chères de Tokyo (environ 80 000 JPY pour un studio), la Ginza et la Yamanote les plus chères. Le classement complet 2026.',
+    date: '2026-07-18',
+    readingTime: '7 min',
+    content: `
+Si vous cherchez le loyer le moins cher à Tokyo, l'arrondissement compte, mais la ligne de train compte tout autant. Deux lignes peuvent traverser la même partie de la ville et différer de 50 000 JPY par mois pour un studio de même taille. Voici le classement complet, à partir de 528 660 annonces réelles actives.
+
+**Réponse rapide :** Les lignes de train les moins chères pour louer un studio 1K à Tokyo sont la Seibu Ikebukuro (environ 80 000 JPY, soit près de 500 USD) et la Seibu Shinjuku (environ 82 000 JPY), suivies de la Tobu Skytree et de la Tokyu Toyoko. Les plus chères sont la Tokyo Metro Ginza (environ 131 000 JPY, près de 820 USD) et la JR Yamanote (environ 120 000 JPY). Habiter une ligne à côté d'un axe prime est l'un des moyens les plus simples de réduire son loyer.
+
+## Les lignes les moins chères
+Pour un studio 1K, loyer mensuel médian (USD à environ 160 JPY pour un dollar) :
+- **Seibu Ikebukuro :** 80 000 JPY (environ 500 USD)
+- **Seibu Shinjuku :** 82 000 JPY (environ 510 USD)
+- **Tobu Skytree :** 82 000 JPY (environ 510 USD)
+- **Tokyu Toyoko :** 86 000 JPY (environ 540 USD)
+- **JR Chuo :** 87 000 JPY (environ 540 USD)
+- **Keio :** 87 000 JPY (environ 540 USD)
+
+Ces lignes filent vers les banlieues ouest et nord, où l'espace est plus abondant et la demande plus calme. Vous atteignez toujours les grands hubs, avec un trajet un peu plus long.
+
+## Les lignes les plus chères
+- **Tokyo Metro Ginza :** 131 000 JPY (environ 820 USD)
+- **JR Yamanote :** 120 000 JPY (environ 750 USD)
+- **Toei Oedo :** 119 000 JPY (environ 740 USD)
+- **Tokyo Metro Hanzomon :** 117 000 JPY (environ 730 USD)
+- **Tokyo Metro Hibiya :** 115 000 JPY (environ 720 USD)
+- **Toei Asakusa :** 112 000 JPY (environ 700 USD)
+
+Rien d'étonnant : ces lignes traversent les quartiers d'affaires et de luxe du centre, vous payez donc l'adresse et le trajet sans correspondance.
+
+## Pourquoi l'écart est si large
+Les lignes de métro centrales comme la Ginza et la Hanzomon passent l'essentiel de leur parcours sous les arrondissements les plus chers de Tokyo, presque chaque arrêt y est cher. Les lignes de banlieue comme les Seibu passent l'essentiel de leur parcours dans des zones résidentielles moins chères, et plusieurs poussent jusqu'à Saitama et Chiba où les loyers baissent encore. La ligne est en réalité un indicateur de la centralité de ses stations.
+
+## Comment vous en servir pour baisser votre loyer
+Le geste concret est simple : choisissez votre hub, puis habitez une ligne à côté de l'évidente.
+- Vous allez à Shinjuku ? Les lignes Seibu Shinjuku et Seibu Ikebukuro passent sous les options JR pour la même gare.
+- Vous voulez le style de vie Yamanote pour moins cher ? La Tokyu Toyoko et la JR Chuo atteignent le même centre pour des dizaines de milliers de yens de moins.
+- Comparez d'abord ce qui est comparable : vérifiez la [disposition](/fr/blog/types-appartements-japonais-expliques) pour comparer un 1K à un 1K, et voyez les [quartiers les moins chers](/fr/blog/quartiers-tokyo-moins-chers-classement-loyers) pour la vue par arrondissement.
+
+Vous pouvez explorer chaque ligne, arrondissement et station dans notre [Indice des loyers de Tokyo](/fr/data), ou voir le tableau d'ensemble dans notre [rapport des loyers de Tokyo](/fr/blog/rapport-loyers-tokyo-2026). Et si vous préférez que quelqu'un de l'intérieur du marché associe votre budget à la bonne ligne, [dites-nous ce qu'il vous faut](/fr/contact).
+
+*Données : loyer médian d'un 1K par ligne, à partir de 528 660 annonces réelles actives, Tokyo, 2026. USD à environ 160 JPY pour un dollar.*
+    `.trim(),
+  },
+  {
+    slug: 'cheapest-stations-tokyo-rent',
+    locale: 'en',
+    title: 'The Cheapest Tokyo Stations to Rent Near (2026 Rent Data)',
+    description: 'From 528,660 listings: the cheapest Tokyo stations to rent a studio near are Kasai and Shin-Koiwa (under 80,000 JPY), the priciest Jimbocho and Ebisu. The full 2026 ranking.',
+    date: '2026-07-18',
+    readingTime: '7 min',
+    content: `
+Most people do not rent by ward, they rent by station: the walk to the platform is what shapes daily life in Tokyo. So which stations are actually the cheapest to live near? Here is the ranking for a studio, from 528,660 real active listings across the 23 wards.
+
+**Quick answer:** The cheapest Tokyo stations to rent a 1K studio near are Kasai (around 76,000 JPY, about US$475) and Shin-Koiwa (around 78,000 JPY), both in the eastern wards. The most expensive are Jimbocho and Ebisu (around 150,000 JPY, about US$940), in the central districts. The gap between the cheapest and priciest station is nearly double for the same size studio.
+
+## The cheapest stations to rent near
+Median monthly rent for a 1K studio (USD at roughly 160 JPY to the dollar):
+- **Kasai:** 76,000 JPY (about US$475)
+- **Shin-Koiwa:** 78,000 JPY (about US$490)
+- **Ayase:** 85,000 JPY (about US$530)
+- **Ogikubo:** 85,000 JPY (about US$530)
+- **Nerima:** 86,000 JPY (about US$540)
+- **Kita-Senju:** 86,000 JPY (about US$540)
+- **Akabane:** 86,000 JPY (about US$540)
+- **Setagaya:** 88,000 JPY (about US$550)
+
+Most of these sit in the eastern wards (Edogawa, Katsushika, Adachi) or on the outer edges of the western and northern wards. They are ordinary, liveable neighbourhoods with real shopping streets, not distant outposts. Kita-Senju and Akabane in particular are major transfer hubs, so cheap does not mean cut off.
+
+## The most expensive stations to rent near
+- **Jimbocho:** 150,000 JPY (about US$940)
+- **Ebisu:** 149,000 JPY (about US$930)
+- **Azabu-Juban:** 148,000 JPY (about US$925)
+- **Shibuya:** 140,000 JPY (about US$875)
+- **Kanda:** 137,000 JPY (about US$855)
+- **Akihabara:** 135,000 JPY (about US$845)
+
+These cluster in the central wards, Chiyoda, Minato and Shibuya, where you pay for a short, transfer-free commute and a prestige address.
+
+## The pattern: east is cheap, centre is dear
+The map is consistent. Rent falls as you move east across the Sumida and Arakawa rivers into Edogawa, Katsushika and Adachi, and it climbs steeply as you approach the central business and luxury districts. Two stations on the same line can differ by tens of thousands of yen a month purely because one is three stops closer to the centre.
+
+## How to use this to cut your rent
+- Move one or two stops out. The station next to a popular one is often noticeably cheaper for the same commute.
+- Check the line, not just the station: some [train lines are structurally cheaper](/en/blog/cheapest-train-line-tokyo-rent) end to end.
+- Compare like for like: confirm the [layout](/en/blog/japanese-apartment-layouts-explained) so you are pricing a 1K against a 1K, and see the [cheapest wards](/en/blog/cheapest-neighbourhoods-tokyo-ranked-by-rent) for the wider view.
+
+You can explore all 50 stations, plus every ward and line, in our [Tokyo Rent Index](/en/data), or read the full [Tokyo rent report](/en/blog/tokyo-rent-report-2026). And if you would rather hand the search to someone inside the market, [tell us what you need](/en/contact).
+
+*Data: median 1K rent by station from 528,660 real active listings, Tokyo, 2026. USD at roughly 160 JPY per USD.*
+    `.trim(),
+  },
+  {
+    slug: 'stations-tokyo-loyer-moins-cher',
+    locale: 'fr',
+    title: 'Les stations de Tokyo où le loyer est le moins cher (2026)',
+    description: 'À partir de 528 660 annonces : les stations de Tokyo les moins chères pour louer un studio sont Kasai et Shin-Koiwa (moins de 80 000 JPY), les plus chères Jimbocho et Ebisu. Le classement 2026.',
+    date: '2026-07-18',
+    readingTime: '7 min',
+    content: `
+La plupart des gens ne louent pas par arrondissement, ils louent par station : c'est le trajet jusqu'au quai qui rythme la vie quotidienne à Tokyo. Alors, près de quelles stations le loyer est-il vraiment le moins cher ? Voici le classement pour un studio, à partir de 528 660 annonces réelles actives dans les 23 arrondissements.
+
+**Réponse rapide :** Les stations de Tokyo les moins chères pour louer un studio 1K sont Kasai (environ 76 000 JPY, près de 475 USD) et Shin-Koiwa (environ 78 000 JPY), toutes deux dans les arrondissements de l'est. Les plus chères sont Jimbocho et Ebisu (environ 150 000 JPY, près de 940 USD), dans les quartiers centraux. L'écart entre la station la moins chère et la plus chère est presque du simple au double pour un studio de même taille.
+
+## Les stations les moins chères
+Loyer mensuel médian pour un studio 1K (USD à environ 160 JPY pour un dollar) :
+- **Kasai :** 76 000 JPY (environ 475 USD)
+- **Shin-Koiwa :** 78 000 JPY (environ 490 USD)
+- **Ayase :** 85 000 JPY (environ 530 USD)
+- **Ogikubo :** 85 000 JPY (environ 530 USD)
+- **Nerima :** 86 000 JPY (environ 540 USD)
+- **Kita-Senju :** 86 000 JPY (environ 540 USD)
+- **Akabane :** 86 000 JPY (environ 540 USD)
+- **Setagaya :** 88 000 JPY (environ 550 USD)
+
+La plupart se trouvent dans les arrondissements de l'est (Edogawa, Katsushika, Adachi) ou en bordure des arrondissements ouest et nord. Ce sont des quartiers ordinaires et vivables, avec de vraies rues commerçantes, pas des avant-postes isolés. Kita-Senju et Akabane, en particulier, sont de grands hubs de correspondance : pas cher ne veut pas dire coupé de tout.
+
+## Les stations les plus chères
+- **Jimbocho :** 150 000 JPY (environ 940 USD)
+- **Ebisu :** 149 000 JPY (environ 930 USD)
+- **Azabu-Juban :** 148 000 JPY (environ 925 USD)
+- **Shibuya :** 140 000 JPY (environ 875 USD)
+- **Kanda :** 137 000 JPY (environ 855 USD)
+- **Akihabara :** 135 000 JPY (environ 845 USD)
+
+Elles se concentrent dans les arrondissements centraux, Chiyoda, Minato et Shibuya, où vous payez un trajet court et sans correspondance ainsi qu'une adresse de prestige.
+
+## Le schéma : l'est est bon marché, le centre est cher
+La carte est cohérente. Le loyer baisse à mesure que l'on va vers l'est, au-delà des rivières Sumida et Arakawa, vers Edogawa, Katsushika et Adachi, et il grimpe fortement à l'approche des quartiers d'affaires et de luxe du centre. Deux stations sur une même ligne peuvent différer de dizaines de milliers de yens par mois simplement parce que l'une est trois arrêts plus près du centre.
+
+## Comment vous en servir pour baisser votre loyer
+- Décalez-vous d'un ou deux arrêts. La station voisine d'une station prisée est souvent nettement moins chère pour le même trajet.
+- Regardez la ligne, pas seulement la station : certaines [lignes de train sont structurellement moins chères](/fr/blog/ligne-train-tokyo-loyer-moins-cher) d'un bout à l'autre.
+- Comparez ce qui est comparable : vérifiez la [disposition](/fr/blog/types-appartements-japonais-expliques) pour comparer un 1K à un 1K, et voyez les [quartiers les moins chers](/fr/blog/quartiers-tokyo-moins-chers-classement-loyers) pour la vue d'ensemble.
+
+Vous pouvez explorer les 50 stations, ainsi que chaque arrondissement et ligne, dans notre [Indice des loyers de Tokyo](/fr/data), ou lire le [rapport des loyers de Tokyo](/fr/blog/rapport-loyers-tokyo-2026) complet. Et si vous préférez confier la recherche à quelqu'un de l'intérieur du marché, [dites-nous ce qu'il vous faut](/fr/contact).
+
+*Données : loyer médian d'un 1K par station, à partir de 528 660 annonces réelles actives, Tokyo, 2026. USD à environ 160 JPY pour un dollar.*
+    `.trim(),
+  },
+  {
+    slug: 'tokyo-apartment-move-in-costs',
+    locale: 'en',
+    title: 'How Much It Costs to Move Into a Tokyo Apartment (2026)',
+    description: 'Reikin, shikikin, agency fee, guarantor, renewal: the full move-in cost of a Tokyo apartment in 2026, why it runs to four to six months of rent, and how to cut it.',
+    date: '2026-07-18',
+    readingTime: '6 min',
+    content: `
+The advertised rent is only the visible part. In Tokyo, signing a standard lease can cost four to six months of rent all at once, before you have carried a single box inside. Here is the full move-in cost breakdown for 2026, and how to shrink it.
+
+**Quick answer:** On a standard Tokyo lease, budget on top of your first month: reikin (key money, 0 to 2 months, non-refundable), shikikin (deposit, 1 to 2 months, refundable), agency fee (1 month), guarantor company (0.5 to 1 month), and home insurance (around 20,000 JPY for two years). That is four to six months of rent up front. On a 100,000 JPY studio, that is roughly 400,000 to 600,000 JPY, about US$2,500 to US$3,750. Share houses and furnished flats avoid almost all of it.
+
+## The upfront costs
+| Cost | Typical amount | Refundable? |
+|---|---|---|
+| Reikin (key money) | 0 to 2 months | No |
+| Shikikin (deposit) | 1 to 2 months | Yes (minus repairs) |
+| Agency fee | 1 month (+ tax) | No |
+| Guarantor company | 0.5 to 1 month | No |
+| Home insurance | ~20,000 JPY | No |
+| Lock change | 15,000 to 25,000 JPY | No |
+
+## The recurring costs people forget
+- **Renewal fee (更新料 koushinryou):** often one month of rent every two years.
+- **Annual guarantor fee:** the guarantee company takes roughly 10,000 JPY or 0.5 month each year.
+- **Common area charges (共益費):** sometimes billed on top of the advertised rent.
+
+## Traps to check before you sign
+- Is the reikin negotiable? (often yes on units that are slow to rent)
+- Does the deposit cover a mandatory move-out cleaning fee?
+- Are there early-termination penalties?
+- Ask for the explanation of important points (重要事項説明) in English if you need it. Our [guarantor guide](/en/blog/guarantor-japan-rental-foreigner) covers the guarantee-company side.
+
+## How to avoid almost all of it
+Nearly all of these costs disappear with a share house, a monthly mansion or a furnished flat: no reikin, no agency fee, minimal deposit. That is exactly why these options are so popular on arrival (see the [furnished apartments guide](/en/blog/furnished-apartments-tokyo-guide) and the [gaijin house guide](/en/blog/gaijin-house-tokyo-guide)).
+
+Knowing these costs in advance is how you avoid the first-bill shock and spot where to negotiate. For the full process, see [how to find an apartment in Tokyo](/en/blog/find-apartment-tokyo-foreigner), and if you would rather have someone inside the market handle it, [tell us what you need](/en/contact).
+
+*Figures are typical 2026 market ranges. USD at roughly 160 JPY per USD.*
+    `.trim(),
+  },
 ]
 
 // Mapping FR slug -> EN slug (articles jumeaux pour hreflang)
@@ -12539,6 +12842,10 @@ export const TWIN_SLUGS: Record<string, string> = {
   'demenager-tokyo-ete-juillet-aout': 'moving-to-tokyo-summer-july-august',
   'saison-typhons-tokyo-choisir-logement': 'typhoon-season-tokyo-choosing-housing',
   'rapport-loyers-tokyo-2026': 'tokyo-rent-report-2026',
+  'etrangers-paient-plus-cher-loyer-tokyo': 'do-foreigners-pay-more-rent-tokyo',
+  'ligne-train-tokyo-loyer-moins-cher':      'cheapest-train-line-tokyo-rent',
+  'stations-tokyo-loyer-moins-cher':          'cheapest-stations-tokyo-rent',
+  'frais-caches-location-tokyo':               'tokyo-apartment-move-in-costs',
 }
 
 export function getTwinSlug(slug: string, locale: Locale): string | undefined {
