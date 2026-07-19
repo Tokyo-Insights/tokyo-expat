@@ -26,6 +26,7 @@ export default function Footer({ locale, nav, footer }: FooterProps) {
             <li><Link href={`/${locale}/services`} className="hover:text-white transition-colors">{nav.services}</Link></li>
             <li><Link href={`/${locale}/about`} className="hover:text-white transition-colors">{nav.about}</Link></li>
             <li><Link href={`/${locale}/contact`} className="hover:text-white transition-colors">{nav.contact}</Link></li>
+            <li><Link href={`/${locale}/checklist`} className="hover:text-white transition-colors">{locale === 'fr' ? 'Checklist gratuite' : 'Free checklist'}</Link></li>
             <li><Link href={`/${locale}/resources`} className="hover:text-white transition-colors">{locale === 'fr' ? 'Ressources' : 'Resources'}</Link></li>
           </ul>
         </div>
