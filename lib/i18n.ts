@@ -14,6 +14,7 @@ const dictionaries = {
       about: 'À propos',
       contact: 'Contact',
       cta: 'Consultation gratuite',
+      checklist: 'Checklist gratuite',
     },
     home: {
       hero_title: 'Trouvez votre logement à Tokyo',
@@ -170,6 +171,7 @@ const dictionaries = {
       about: 'About',
       contact: 'Contact',
       cta: 'Free Consultation',
+      checklist: 'Free checklist',
     },
     home: {
       hero_title: 'Find Your Home in Tokyo',

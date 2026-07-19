@@ -1187,5 +1187,20 @@
     "added": "2026-07-10",
     "email_verified": true,
     "is_competitor": false
+  },
+  {
+    "domain": "www.oakhouse.jp",
+    "name": "Oak House (broken link)",
+    "type": "broken_link",
+    "email": "",
+    "approach": "broken_link_pitch",
+    "da_est": 0,
+    "priority": "high",
+    "pitch": "Remplacer lien mort vers https://www.oakhouse.jp/interview_houjin/4 par https://www.tokyo-expat.com/en/blog/find-apartment-tokyo-foreigner",
+    "notes": "404 detectee par broken_link_finder.py. Verification backlinks: https://ahrefs.com/backlink-checker/?input=https%3A//www.oakhouse.jp/interview_houjin/4&mode=exact",
+    "status": "to_contact",
+    "dead_url": "https://www.oakhouse.jp/interview_houjin/4",
+    "our_replacement": "https://www.tokyo-expat.com/en/blog/find-apartment-tokyo-foreigner",
+    "added": "2026-07-20"
   }
 ]

@@ -7,7 +7,7 @@
   "proactive:('chasseur immobilier tokyo', 4),('appartement meuble tokyo expatrie', 4)|spring in tokyo guide|japan-guide.com:tokyo rental contract checklist": "2026-06-29",
   "vuln:japan-guide.com:tokyo neighbourhoods expats guide": "2026-06-29",
   "seasonal:trouver_un_appartement_a_tokyo_en_septembre_:_ce_qui_change_": {
-    "date": "2026-07-19",
+    "date": "2026-07-20",
     "dismissed": true
   },
   "proactive:('bail tokyo checklist', 1),('property hunter tokyo', 1)|pet cost cat tokyo|japan-guide.com:tokyo neighbourhoods expats guide": "2026-07-08",
@@ -26,8 +26,17 @@
   "vuln:gaijinpot.com:tokyo expat housing": "2026-07-13",
   "vuln:gaijinpot.com:tokyo apartment hunting abroad": "2026-07-13",
   "vuln:japan-guide.com:open bank account japan foreigner": "2026-07-13",
-  "vuln:remoters.io:trouver appartement tokyo etranger": "2026-07-13",
-  "vuln:sakura-house.com:furnished apartment tokyo no guarantor": "2026-07-13",
-  "vuln:remoters.io:property hunter tokyo": "2026-07-13",
-  "proactive:('appartement meuble tokyo expatrie', 1),('logement tokyo expatrie', 1)|pet cost cat tokyo|remoters.io:louer tokyo sans garant etranger": "2026-07-13"
+  "vuln:remoters.io:trouver appartement tokyo etranger": "2026-07-20",
+  "vuln:sakura-house.com:furnished apartment tokyo no guarantor": "2026-07-20",
+  "vuln:remoters.io:property hunter tokyo": "2026-07-20",
+  "proactive:('appartement meuble tokyo expatrie', 1),('logement tokyo expatrie', 1)|pet cost cat tokyo|remoters.io:louer tokyo sans garant etranger": "2026-07-13",
+  "proactive:('appartement meuble tokyo expatrie', 1),('garantie loyer japon etranger', 1)|pet cost cat tokyo|remoters.io:louer tokyo sans garant etranger": "2026-07-20",
+  "vuln:sakura-house.com:share house tokyo guide 2026": "2026-07-20",
+  "vuln:oakhouse.jp:louer tokyo sans garant etranger": "2026-07-20",
+  "vuln:oakhouse.jp:logement etudiant tokyo": "2026-07-20",
+  "vuln:oakhouse.jp:share house tokyo guide 2026": "2026-07-20",
+  "vuln:oakhouse.jp:furnished apartment tokyo no guarantor": "2026-07-20",
+  "vuln:oakhouse.jp:tokyo apartment hunting abroad": "2026-07-20",
+  "vuln:oakhouse.jp:share house tokyo guide": "2026-07-20",
+  "proactive:('appartement meuble tokyo expatrie', 1),('garantie loyer japon etranger', 1)|pet cost cat tokyo|remoters.io:trouver appartement tokyo etranger": "2026-07-20"
 }

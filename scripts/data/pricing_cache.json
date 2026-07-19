@@ -28,12 +28,12 @@
     "100%",
     "1 P"
   ],
-  "last_check_Remoters Tokyo": "2026-07-13T07:16:12.246856",
+  "last_check_Remoters Tokyo": "2026-07-20T07:36:41.186670",
   "hash_Remoters Homepage": "603757271af1a8907ce5fe2e32c1d4dd",
   "prices_Remoters Homepage": [
     "100 %"
   ],
-  "last_check_Remoters Homepage": "2026-07-13T07:16:12.387436",
+  "last_check_Remoters Homepage": "2026-07-20T07:36:41.907979",
   "hash_Sakura House About": "7eea96b653925dbdf787515964170c9a",
   "prices_Sakura House About": [
     ", J",
@@ -58,13 +58,13 @@
   "last_check_Oak House Rent Prices": "2026-06-22T07:26:44.250119",
   "hash_Oak House About": "8c364f05fd8fed5cf69e829bc57dfdb2",
   "prices_Oak House About": [],
-  "last_check_Oak House About": "2026-07-13T07:16:14.469204",
+  "last_check_Oak House About": "2026-07-20T07:36:43.432571",
   "hash_Sakura House Pricing EN": "7eea96b653925dbdf787515964170c9a",
   "prices_Sakura House Pricing EN": [
     ", J",
     "00 P"
   ],
-  "last_check_Sakura House Pricing EN": "2026-07-13T07:16:13.246776",
+  "last_check_Sakura House Pricing EN": "2026-07-20T07:36:42.569859",
   "hash_Oak House Rent Guide": "9d699c7f8c976cbd12d8345c1844ebeb",
   "prices_Oak House Rent Guide": [
     "5,000円",
@@ -80,7 +80,7 @@
     "165,000円",
     "165,000円"
   ],
-  "last_check_Oak House Rent Guide": "2026-07-13T07:16:14.165514",
+  "last_check_Oak House Rent Guide": "2026-07-20T07:36:43.222408",
   "hash_Gaijin House Pricing": "ea6e1876900293993314358b20209454",
   "prices_Gaijin House Pricing": [
     "$4,395",
@@ -98,13 +98,13 @@
     "$2,795",
     "$1,595"
   ],
-  "last_check_Gaijin House Pricing": "2026-07-13T07:16:15.341208",
+  "last_check_Gaijin House Pricing": "2026-07-20T07:36:44.250126",
   "hash_Crown Relo Tokyo": "0a32d27a26e123977d717338e2174ec4",
   "prices_Crown Relo Tokyo": [],
-  "last_check_Crown Relo Tokyo": "2026-07-13T07:16:26.815658",
+  "last_check_Crown Relo Tokyo": "2026-07-20T07:36:55.714656",
   "hash_Savvy Tokyo Advertise": "dc451507bc2800a748bb0798ac617e28",
   "prices_Savvy Tokyo Advertise": [],
-  "last_check_Savvy Tokyo Advertise": "2026-07-13T07:16:43.885677",
+  "last_check_Savvy Tokyo Advertise": "2026-07-20T07:37:12.497072",
   "hash_GaijinPot Advertise": "3783358ab9c006fd7bfeeafb28fcf8bd",
   "prices_GaijinPot Advertise": [
     "0%",
@@ -114,11 +114,12 @@
     "0%",
     "0%"
   ],
-  "last_check_GaijinPot Advertise": "2026-07-13T07:16:44.077153",
-  "hash_Tokyo Expat Services": "96dfa0e9e690b9aec46e44a8655d51b6",
+  "last_check_GaijinPot Advertise": "2026-07-20T07:37:12.713083",
+  "hash_Tokyo Expat Services": "50bddcab78e2718695918dbb878d6e83",
   "prices_Tokyo Expat Services": [
+    "3 P",
     "000 J",
     "000 J"
   ],
-  "last_check_Tokyo Expat Services": "2026-07-13T07:16:44.746164"
+  "last_check_Tokyo Expat Services": "2026-07-20T07:37:13.463438"
 }

@@ -2,114 +2,114 @@
   "Remoters": {
     "name": "Remoters",
     "total_results": 27,
-    "complaints": 3,
-    "reddit_threads": 12,
+    "complaints": 0,
+    "reddit_threads": 9,
     "top_issues": [
+      "sale",
       "scam",
-      "avoid",
-      "trop cher",
-      "complaint",
-      "expensive"
+      "issue"
     ],
     "issue_counts": {
-      "scam": 5,
-      "avoid": 3,
-      "trop cher": 1,
-      "complaint": 1,
-      "expensive": 1
+      "sale": 4,
+      "scam": 2,
+      "issue": 1
     },
     "counter_angle": "On est local, eux sont une plateforme distante sans connaissance terrain",
-    "complaint_snippets": [
-      {
-        "url": "https://www.remoters.io/en/international-student/tokyo",
-        "title": "Tokyo Student Housing for International Students | Remoters",
-        "snippet": "International student housing in Tokyo made easy. We find apartments near universities, handle paperwork, avoid scams. Professional service from abroad."
-      },
-      {
-        "url": "https://realestateguide.jp/tokyo-rental-scams-how-to-spot-and-avoid-them/",
-        "title": "Tokyo Rental Scams: Avoid Fake Apartment Listings",
-        "snippet": "Nov 13, 2025 · Tokyo Rental Scams — How to Spot and Avoid Them Next step: compare current Tokyo rental listings, foreigner-friendly apartments and English rental support before you shortlist a propert"
-      },
-      {
-        "url": "https://www.reddit.com/r/RemoteJobs/comments/17zjpnp/im_looking_for_a_remote_job_are_these_sites/",
-        "title": "I’m looking for a remote job. Are these sites safe/legit to ...",
-        "snippet": "I was laid off from my remote job and just got a new fully remote. So many scams everywhere but my best luck was applying on company websites, to avoid scams, and LinkedIn."
-      }
-    ],
+    "complaint_snippets": [],
     "reddit_urls": [
-      "https://www.reddit.com/r/ALTinginJapan/comments/1bg875g/help_needed_with_housing_options_as_an_alt/",
-      "https://www.reddit.com/r/movingtojapan/comments/134act8/is_living_japan_agency_legit/",
-      "https://www.reddit.com/r/aloyouiii/comments/gygzrb/_/?rdt=55866",
-      "https://www.reddit.com/r/RemoteJobs/comments/17zjpnp/im_looking_for_a_remote_job_are_these_sites/",
-      "https://www.reddit.com/r/japan/comments/1gk5rig/foreign_buyers_eye_japans_empty_houses_with/"
+      "https://www.reddit.com/r/politics/",
+      "https://www.reddit.com/r/japan/comments/1gk5rig/foreign_buyers_eye_japans_empty_houses_with/",
+      "https://www.reddit.com/r/expats/comments/139kvqo/someone_talk_me_out_of_moving_to_japan/",
+      "https://www.reddit.com/r/movingtojapan/comments/1if0do3/re_re_im_moving_to_japan_with_no_degree_and_lots/",
+      "https://reddit.com/"
     ],
-    "last_scraped": "2026-07-13"
+    "last_scraped": "2026-07-20"
   },
   "Sakura House": {
     "name": "Sakura House",
-    "total_results": 23,
-    "complaints": 2,
-    "reddit_threads": 9,
+    "total_results": 30,
+    "complaints": 6,
+    "reddit_threads": 8,
     "top_issues": [
-      "fee",
-      "cockroach",
-      "problem",
-      "issue",
-      "late",
+      "bad",
+      "overcrowded",
       "noisy",
+      "complaint",
+      "problem",
       "avoid",
-      "small"
+      "mold",
+      "sale"
     ],
     "issue_counts": {
-      "fee": 2,
-      "cockroach": 2,
-      "problem": 1,
-      "issue": 1,
-      "late": 1,
-      "noisy": 1,
+      "bad": 5,
+      "overcrowded": 4,
+      "noisy": 3,
+      "complaint": 2,
+      "problem": 2,
       "avoid": 1,
+      "mold": 1,
+      "sale": 1,
+      "pire": 1,
+      "issue": 1,
       "small": 1
     },
     "counter_angle": "Logements personnalises vs share house impersonnel de masse",
     "complaint_snippets": [
       {
-        "url": "https://www.tripadvisor.com/ShowTopic-g294232-i525-k894717-Sakura_House-Japan.html",
-        "title": "Sakura House - Japan Forum - Tripadvisor",
-        "snippet": "Rat and cockroach problems in summer are an issue as well. Make sure you lock up and secure any valuables - items going missing are often issues and be careful what you leave in the common area - saku"
+        "url": "https://www.reddit.com/r/movingtojapan/comments/v7oclm/best_sharehouse_in_tokyo/",
+        "title": "Best Sharehouse in Tokyo? : r/movingtojapan - Reddit",
+        "snippet": "The problem is that I've been reading bad reviews of both Sakura House and Xross, which were the ones that I was going for because of the location of their houses."
       },
       {
         "url": "https://jref.com/threads/avoid-sakura-house-in-tokyo.32726/",
         "title": "avoid Sakura House in Tokyo - jref.com",
-        "snippet": "Aug 7, 2007 · stayed at one of their cockroach infested gaijin houses for 3 months and had many unpleasant experiences with the staff - I'm fluent in Japanese(I'm an IT consultant here in Tokyo and do"
+        "snippet": "Aug 7, 2007 · It would be useful (and fair) if members could be more specific on their complaints about Sakura House. \"They had lots of stupid rules\" doesn't allow me to decide whether to steer clear "
+      },
+      {
+        "url": "https://www.biggerpockets.com/forums/530/topics/1087496-noisy-neighbours-in-an-overcrowded-house",
+        "title": "Noisy neighbours in an overcrowded house | Forum",
+        "snippet": "The problem is my neighbors.. There are about 5 families living in the house with sometimes up to 6 cars in the driveway. This is the only house in the street with so many people living in it. There i"
+      },
+      {
+        "url": "https://www.trainspread.com/india-trains/indian-train-seat-types",
+        "title": "9 Seat Types on Indian Railways - IRCTC Train Tickets Booking",
+        "snippet": "Seats are not reserved or designated. Most of the 2S carriages don’t have glazing but a few bars to prevent passengers turning in and out of the window. The unreserved/general class is always overcrow"
+      },
+      {
+        "url": "https://pixelnitro.com/project-zomboid-build-42-animal-husbandry-guide-complete-livestock-and-breeding-strategy/",
+        "title": "Project Zomboid Build 42 Animal Husbandry Guide: Complete...",
+        "snippet": "– Loud environmental noise. – Overcrowded pens. – Bad weather exposure. – Witnessing animal death."
       }
     ],
     "reddit_urls": [
-      "https://www.reddit.com/",
       "https://www.reddit.com/r/japan/comments/132bvv/any_experience_with_a_sakura_house/",
+      "https://www.reddit.com/r/movingtojapan/comments/v7oclm/best_sharehouse_in_tokyo/",
       "https://www.reddit.com/r/JapanTravel/comments/cnhilc/sakura_house_apartment_for_a_one_month_vacation/",
       "https://www.reddit.com/r/japan/comments/l687h/has_anyone_here_stayed_at_sakura_house_if_so_were/",
-      "https://www.reddit.com/r/ACPocketCamp/comments/1kbpi1o/im_just_a_little_obsessed_with_the_sakura_house/"
+      "https://www.reddit.com/r/movingtojapan/comments/96rpvg/considering_to_stay_at_sakura_house/"
     ],
-    "last_scraped": "2026-07-13"
+    "last_scraped": "2026-07-20"
   },
   "Oak House": {
     "name": "Oak House",
     "total_results": 23,
-    "complaints": 1,
-    "reddit_threads": 0,
+    "complaints": 2,
+    "reddit_threads": 1,
     "top_issues": [
-      "fee",
       "sale",
-      "small",
+      "hidden fees",
+      "fee",
       "scam",
-      "hidden fees"
+      "complaint",
+      "late"
     ],
     "issue_counts": {
-      "fee": 2,
       "sale": 2,
-      "small": 1,
+      "hidden fees": 2,
+      "fee": 2,
       "scam": 1,
-      "hidden fees": 1
+      "complaint": 1,
+      "late": 1
     },
     "counter_angle": "Transparence totale sur les frais vs frais caches",
     "complaint_snippets": [
@@ -117,48 +117,45 @@
         "url": "https://grokimagineai.io/",
         "title": "Grok Imagine - Free AI Image & Video Generator | Grok Spicy Mode by...",
         "snippet": "Cinematic drone over misty mountains at sunrise. Slow-motion coffee pour, 4K macro. Cyberpunk Tokyo street, rain-soaked neon. Try our models.Simple, Transparent Pricing. Start free, upgrade when you n"
-      }
-    ],
-    "reddit_urls": [],
-    "last_scraped": "2026-07-13"
-  },
-  "GaijinPot Housing": {
-    "name": "GaijinPot",
-    "total_results": 21,
-    "complaints": 2,
-    "reddit_threads": 1,
-    "top_issues": [
-      "scam",
-      "problem",
-      "avoid",
-      "fraud",
-      "complaint",
-      "bad"
-    ],
-    "issue_counts": {
-      "scam": 2,
-      "problem": 1,
-      "avoid": 1,
-      "fraud": 1,
-      "complaint": 1,
-      "bad": 1
-    },
-    "counter_angle": "Accompagnement humain vs portail automatise sans suivi",
-    "complaint_snippets": [
-      {
-        "url": "https://unlockjapan.jp/avoiding-rental-scams-when-house-hunting-in-japan/",
-        "title": "Avoiding Rental Scams When House Hunting in Japan - Unlock Japan",
-        "snippet": "Rental scams in Japan aren’t as rampant as in some other countries, thanks to relatively strict real estate regulations, but they do happen.Foreigners often use agencies like GaijinPot Housing, Sakura"
       },
       {
-        "url": "https://cybercrime.gov.in/",
-        "title": "Cyber Crime Portal",
-        "snippet": "Financial fraud. Other cyber crime. Track your Complaint."
+        "url": "https://imagefree.net/",
+        "title": "Free AI Image Generator No Sign-up, Unlimited Text to Image AI",
+        "snippet": "Imagefree is built for creators who want unlimited AI art without restrictions. Generate high-quality visuals instantly—no accounts, no credits, and absolutely no hidden fees. 100% Free AI Art Generat"
       }
     ],
     "reddit_urls": [
-      "https://www.reddit.com/r/japanlife/comments/wrhg88/experiences_with_gaijinpot_or_similar_services/"
+      "https://www.reddit.com/r/digitalnomad/comments/1fzgthm/japan_oakhouse_foreigner_friendly_share_houses/"
     ],
-    "last_scraped": "2026-07-13"
+    "last_scraped": "2026-07-20"
+  },
+  "GaijinPot Housing": {
+    "name": "GaijinPot",
+    "total_results": 20,
+    "complaints": 0,
+    "reddit_threads": 4,
+    "top_issues": [
+      "scam",
+      "sale",
+      "problem",
+      "bad",
+      "late"
+    ],
+    "issue_counts": {
+      "scam": 2,
+      "sale": 1,
+      "problem": 1,
+      "bad": 1,
+      "late": 1
+    },
+    "counter_angle": "Accompagnement humain vs portail automatise sans suivi",
+    "complaint_snippets": [],
+    "reddit_urls": [
+      "https://www.reddit.com/r/japanlife/comments/wrhg88/experiences_with_gaijinpot_or_similar_services/",
+      "https://www.reddit.com/r/japanlife/comments/i2u2d1/is_gaijinpot_apartments_reliable/",
+      "https://www.reddit.com/r/movingtojapan/comments/f7bc2n/how_trustworthy_are_the_real_estate_agencies_on/",
+      "https://www.reddit.com/r/movingtojapan/comments/168khek/does_gaijinpot_have_scammers_does_it_verify_its/"
+    ],
+    "last_scraped": "2026-07-20"
   }
 }

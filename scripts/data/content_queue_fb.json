@@ -1,8 +1,8 @@
 {
   "generated_at": "2026-06-25",
   "total": 80,
-  "posted_count": 4,
-  "remaining": 76,
+  "posted_count": 5,
+  "remaining": 75,
   "queue": [
     {
       "slug": "trouver-appartement-tokyo-etranger",
@@ -41,8 +41,8 @@
       "locale": "en",
       "title": "How to Find an Apartment in Tokyo as a Foreigner (2026 Guide)",
       "text": "How to Find an Apartment in Tokyo as a Foreigner (2026 Guide)\n\nGuarantors, language barriers, key money: the Tokyo rental market is notoriously difficult for foreigners. Here is exactly how to navigate it.\n\nFull guide: https://www.tokyo-expat.com/en/blog/find-apartment-tokyo-foreigner\n\n#TokyoExpat #JapanExpat #MovingToJapan #TokyoApartment",
-      "posted": false,
-      "posted_date": null
+      "posted": true,
+      "posted_date": "2026-07-20"
     },
     {
       "slug": "moving-to-tokyo-checklist-2026",

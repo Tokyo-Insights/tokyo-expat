@@ -15,6 +15,7 @@ interface HeaderProps {
     about: string
     contact: string
     cta: string
+    checklist: string
   }
 }
 
@@ -41,6 +42,7 @@ export default function Header({ locale, nav }: HeaderProps) {
           <Link href={`/${locale}/blog`} className="hover:text-[#e84141] transition-colors">{nav.blog}</Link>
           <Link href={`/${locale}/about`} className="hover:text-[#e84141] transition-colors">{nav.about}</Link>
           <Link href={`/${locale}/contact`} className="hover:text-[#e84141] transition-colors">{nav.contact}</Link>
+          <Link href={`/${locale}/checklist`} className="border border-[#e84141]/60 text-[#e84141] hover:bg-[#e84141] hover:text-white px-3 py-1.5 rounded-lg transition-colors">{nav.checklist}</Link>
           <Link href={`/${other}`} className="text-gray-400 hover:text-white transition-colors uppercase text-xs border border-gray-600 px-2 py-1 rounded">
             {other.toUpperCase()}
           </Link>
@@ -70,6 +72,7 @@ export default function Header({ locale, nav }: HeaderProps) {
           <Link href={`/${locale}/blog`} onClick={() => setOpen(false)}>{nav.blog}</Link>
           <Link href={`/${locale}/about`} onClick={() => setOpen(false)}>{nav.about}</Link>
           <Link href={`/${locale}/contact`} onClick={() => setOpen(false)}>{nav.contact}</Link>
+          <Link href={`/${locale}/checklist`} onClick={() => setOpen(false)} className="text-[#e84141] font-semibold">{nav.checklist}</Link>
           <Link href={`/${other}`} className="text-gray-400 uppercase text-xs">{other.toUpperCase()}</Link>
           <Link href={`/${locale}/contact`} onClick={() => setOpen(false)} className="bg-[#e84141] text-white px-4 py-2 rounded-lg text-center font-semibold">
             {nav.cta}
