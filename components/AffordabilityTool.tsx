@@ -21,7 +21,7 @@ type Mode = 'wards' | 'stations'
 export default function AffordabilityTool({ locale, wards, stations }: Props): ReactNode {
   const isFr = locale === 'fr'
   const [budget, setBudget] = useState(120000)
-  const [layout, setLayout] = useState<Layout>('r1ldk')
+  const [layout, setLayout] = useState<Layout>('r1k')
   const [mode, setMode] = useState<Mode>('wards')
 
   const t = {
