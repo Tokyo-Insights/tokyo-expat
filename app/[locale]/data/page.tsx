@@ -18,8 +18,8 @@ export async function generateMetadata({
     ? 'Tokyo Rental Market Data 2026 | Tokyo Expat'
     : 'Donnees marche locatif Tokyo 2026 | Tokyo Expat'
   const description = locale === 'en'
-    ? 'Exclusive Tokyo rental market data: average rent by ward, share house pricing, time to find, seasonality. Updated Q2 2026 from 300+ active listings.'
-    : 'Donnees exclusives marche locatif Tokyo : loyer moyen par arrondissement, share house, delais de recherche, saisonnalite. Mis a jour T2 2026.'
+    ? 'Exclusive Tokyo rental market data: median rent by ward, share house pricing, time to find, seasonality. Updated Q2 2026 from 528,660 active listings.'
+    : 'Données exclusives marché locatif Tokyo : loyer médian par arrondissement, share house, délais de recherche, saisonnalité. Mis à jour T2 2026.'
   return {
     title,
     description,
@@ -49,7 +49,7 @@ const t = {
   en: {
     hero_title: 'Tokyo Rent Index',
     hero_subtitle: 'Median rent by ward and layout, computed from 528,660 real active listings across Tokyo\'s 23 wards. Updated Q2 2026.',
-    last_updated: 'Last updated: June 2026',
+    last_updated: 'Last updated: Q2 2026',
     source_note: 'Methodology: median monthly rent (JPY) from 528,660 deduplicated active listings (LIFULL + AtHome), Tokyo 23 special wards, by layout. Median is more robust than average against outliers.',
     context_note: '1K = a Japanese studio: one room plus a small separate kitchen, usually 20-25 m2 (215-270 sq ft). All amounts are monthly rent in JPY. At roughly ¥160 to US$1 (2026), ¥100,000 is about US$625, so a 1K studio here typically runs US$460 to US$875.',
     section_rent: 'Median Rent by Ward and Layout (JPY/month)',
@@ -74,28 +74,28 @@ const t = {
   },
   fr: {
     hero_title: 'Indice des loyers de Tokyo',
-    hero_subtitle: 'Loyer median par arrondissement et par layout, calcule sur 528 660 annonces actives reelles dans les 23 arrondissements de Tokyo. Mis a jour T2 2026.',
-    last_updated: 'Derniere mise a jour : juin 2026',
-    source_note: 'Methodologie : loyer mensuel median (JPY) sur 528 660 annonces actives dedupliquees (LIFULL + AtHome), 23 arrondissements de Tokyo, par layout. La mediane resiste mieux aux valeurs extremes que la moyenne.',
-    context_note: '1K = un studio japonais : une piece plus une petite cuisine separee, en general 20-25 m2 (215-270 sq ft). Tous les montants sont des loyers mensuels en JPY. A environ 160 JPY pour 1 US$ (2026), 100 000 JPY font environ 625 US$, donc un studio 1K se loue ici entre 460 et 875 US$.',
+    hero_subtitle: 'Loyer médian par arrondissement et par layout, calculé sur 528 660 annonces actives réelles dans les 23 arrondissements de Tokyo. Mis à jour T2 2026.',
+    last_updated: 'Dernière mise à jour : T2 2026',
+    source_note: 'Méthodologie : loyer mensuel médian (JPY) sur 528 660 annonces actives dédupliquées (LIFULL + AtHome), 23 arrondissements de Tokyo, par layout. La médiane résiste mieux aux valeurs extrêmes que la moyenne.',
+    context_note: '1K = un studio japonais : une pièce plus une petite cuisine séparée, en général 20-25 m2 (215-270 sq ft). Tous les montants sont des loyers mensuels en JPY. À environ 160 JPY pour 1 US$ (2026), 100 000 JPY font environ 625 US$, donc un studio 1K se loue ici entre 460 et 875 US$.',
     section_rent: 'Loyer median par arrondissement et layout (JPY/mois)',
-    section_types: 'Types de logement : comparatif des couts',
-    section_time: 'Delai moyen pour trouver un logement',
+    section_types: 'Types de logement : comparatif des coûts',
+    section_time: 'Délai moyen pour trouver un logement',
     section_docs: 'Documents requis par type de logement',
-    section_season: 'Saisonnalite du marche locatif',
-    section_foreigner: 'Taux d\'acceptation pour les etrangers',
+    section_season: 'Saisonnalité du marché locatif',
+    section_foreigner: 'Taux d\'acceptation pour les étrangers',
     ward: 'Arrondissement',
     type_label: 'Type de logement',
     min_rent: 'Min (JPY)',
     max_rent: 'Max (JPY)',
     avg_rent: 'Fourchette typique (JPY/mois)',
     notes: 'Notes',
-    time_weeks: 'Delai moyen (semaines)',
+    time_weeks: 'Délai moyen (semaines)',
     competition: 'Concurrence',
     required_docs: 'Documents requis',
     approval_rate: 'Taux d\'acceptation',
     cta_title: 'Besoin d\'aide pour trouver un logement ?',
-    cta_desc: 'Reservez une consultation gratuite de 30 minutes. Nous gerons toute la recherche en francais, anglais et japonais.',
+    cta_desc: 'Réservez une consultation gratuite de 30 minutes. Nous gérons toute la recherche en français, anglais et japonais.',
     cta_btn: 'Consultation gratuite',
   },
 }
@@ -209,7 +209,7 @@ export default async function DataPage({
 
   // Capture email taillee pour le public data (trafic Reddit) -> Brevo liste 3 -> drip 6 emails
   // Bloc embed (linkable asset): les sites qui collent ce code republient la carte AVEC un lien retour.
-  const embedCode = `<a href="https://www.tokyo-expat.com/${l}/data"><img src="https://www.tokyo-expat.com/tokyo-rent-map.png" alt="Median 1K studio rent by Tokyo ward, 2026 (Tokyo Expat)" width="600" /></a>\nSource: <a href="https://www.tokyo-expat.com/${l}/data">Tokyo Expat Rent Index</a>`
+  const embedCode = `<a href="https://www.tokyo-expat.com/${l}/data"><img src="https://www.tokyo-expat.com/tokyo-rent-map.png" alt="${l === 'fr' ? 'Loyer median 1K par arrondissement de Tokyo, 2026 (Tokyo Expat)' : 'Median 1K studio rent by Tokyo ward, 2026 (Tokyo Expat)'}" width="600" /></a>\nSource: <a href="https://www.tokyo-expat.com/${l}/data">${l === 'fr' ? 'Indice des loyers Tokyo Expat' : 'Tokyo Expat Rent Index'}</a>`
 
   const breadcrumbLd = {
     '@context': 'https://schema.org',
@@ -223,10 +223,10 @@ export default async function DataPage({
   const datasetLd = {
     '@context': 'https://schema.org',
     '@type': 'Dataset',
-    name: l === 'en' ? 'Tokyo Rent Index 2026 (median rent by ward and layout)' : 'Indice des loyers de Tokyo 2026 (loyer median par arrondissement et layout)',
+    name: l === 'en' ? 'Tokyo Rent Index 2026 (median rent by ward and layout)' : 'Indice des loyers de Tokyo 2026 (loyer médian par arrondissement et layout)',
     description: l === 'en'
-      ? 'Median monthly rent (JPY) by Tokyo ward and apartment layout (1R to 3LDK), computed from 528,660 deduplicated active rental listings (LIFULL and AtHome), Tokyo 23 special wards, Q2 2026.'
-      : 'Loyer mensuel median (JPY) par arrondissement de Tokyo et par layout (1R a 3LDK), calcule sur 528 660 annonces locatives actives dedupliquees (LIFULL et AtHome), 23 arrondissements de Tokyo, T2 2026.',
+      ? 'Median monthly rent (JPY) by Tokyo ward and apartment layout (1K, 1LDK, 2LDK), computed from 528,660 deduplicated active rental listings (LIFULL and AtHome), Tokyo 23 special wards, Q2 2026.'
+      : 'Loyer mensuel médian (JPY) par arrondissement de Tokyo et par layout (1K, 1LDK, 2LDK), calculé sur 528 660 annonces locatives actives dédupliquées (LIFULL et AtHome), 23 arrondissements de Tokyo, T2 2026.',
     url: `https://www.tokyo-expat.com/${l}/data`,
     creator: { '@type': 'Organization', name: 'Tokyo Expat', url: 'https://www.tokyo-expat.com' },
     dateModified: '2026-06-30',
@@ -835,11 +835,11 @@ export default async function DataPage({
         </Link>
       </div>
 
-      {/* Copyright / data licence (proprietaire, tous droits reserves) */}
+      {/* Data licence (permissive: republication avec attribution+lien OK; scraping massif/revente NON) */}
       <p id="data-license" className="text-[11px] text-gray-400 mt-8 text-center leading-relaxed">
         {l === 'en'
-          ? '© 2026 Tokyo Expat. All data, charts and analysis on this page are proprietary. Reproduction, redistribution, scraping or commercial reuse without prior written permission is prohibited. You may reference individual figures with a clear credit and link to this page.'
-          : '© 2026 Tokyo Expat. Toutes les donnees, graphiques et analyses de cette page sont proprietaires. Toute reproduction, redistribution, extraction automatisee ou reutilisation commerciale sans autorisation ecrite prealable est interdite. Vous pouvez citer un chiffre isole avec un credit clair et un lien vers cette page.'}
+          ? '© 2026 Tokyo Expat. You are welcome to republish our charts and cite figures from this page with clear attribution and a link back to this page. Automated bulk extraction (scraping) and commercial resale of the dataset without prior written permission are not allowed.'
+          : '© 2026 Tokyo Expat. Vous pouvez republier nos graphiques et citer des chiffres de cette page, avec une attribution claire et un lien vers cette page. Le scraping automatisé massif et la revente commerciale du jeu de données sans autorisation écrite préalable ne sont pas autorisés.'}
       </p>
     </div>
   )
