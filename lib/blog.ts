@@ -8831,6 +8831,8 @@ Ebisu, Daikanyama and Nakameguro form one of the most attractive residential clu
 
 This guide covers rents, atmosphere, commute, and practical life across all three.
 
+
+![Median monthly rent for a 1K studio near 50 Tokyo stations (2026)](/tokyo-rent-by-station.png "Where this station sits: median 1K rent across 50 Tokyo stations, from 528,660 real active listings")
 ## Ebisu: The Accessible Starting Point
 
 Ebisu is the most connected of the three neighborhoods. It sits on both the JR Yamanote Line and the Tokyo Metro Hibiya Line, giving it direct access to Shinjuku (8 minutes), Shibuya (3 minutes), Roppongi (5 minutes), and Ginza (15 minutes). For professionals with business requirements spread across multiple districts, Ebisu is often the most efficient base.
@@ -8916,6 +8918,8 @@ Ebisu, Daikanyama et Nakameguro forment l'un des clusters résidentiels les plus
 
 Ce guide couvre les loyers, l'ambiance, les transports et la vie pratique dans les trois quartiers.
 
+
+![Loyer mensuel médian d'un studio 1K près de 50 stations de Tokyo (2026)](/tokyo-rent-by-station.png "Où se situe cette station : loyer médian 1K sur 50 stations de Tokyo, sur 528 660 annonces réelles actives")
 ## Ebisu: le point d'entrée le mieux connecté
 
 Ebisu est le quartier le plus connecté des trois. Il est desservi à la fois par la ligne JR Yamanote et la ligne Tokyo Metro Hibiya, avec accès direct à Shinjuku (8 minutes), Shibuya (3 minutes), Roppongi (5 minutes) et Ginza (15 minutes). Pour les professionnels qui ont des rendez-vous répartis sur plusieurs pôles d'affaires, Ebisu est souvent la base la plus efficace.
@@ -9685,6 +9689,8 @@ Hiroo et Minami-Azabu forment le coeur historique de la communauté expatriée d
 
 Ce guide vous donne une vision complète et honnête de ces deux quartiers: ce qui en fait une valeur sûre, ce que l'on ne vous dit pas toujours, et ce à quoi s'attendre en termes de loyers et de disponibilité.
 
+
+![Loyer médian d'un studio 1K par arrondissement de Tokyo, en carte (2026)](/tokyo-rent-map.png "Où se situe ce quartier : loyer médian 1K dans les 23 arrondissements, sur 528 660 annonces réelles actives")
 ## Hiroo: le quartier expatrié par excellence
 
 Hiroo est probablement le quartier le plus international de Tokyo. On y trouve une densité d'ambassades étrangères (Danemark, Nouvelle-Zélande, Italie, entre autres), plusieurs grandes résidences diplomatiques, et une offre commerciale clairement orientée vers les résidents étrangers.
@@ -9774,6 +9780,8 @@ Hiroo and Minami-Azabu form the historic heart of Tokyo's expat community. Embas
 
 This guide gives you a complete and honest picture of both neighborhoods: what makes them a reliable choice, what is often left unsaid, and what to expect in terms of rents and availability.
 
+
+![Median 1K studio rent by Tokyo ward, mapped (2026)](/tokyo-rent-map.png "Where this area sits: median 1K rent across the 23 wards, from 528,660 real active listings")
 ## Hiroo: Tokyo's Most International Neighborhood
 
 Hiroo is probably the most international neighborhood in Tokyo. It hosts a high density of foreign embassies (Denmark, New Zealand, Italy, among others), several large diplomatic residences, and a commercial offering clearly oriented toward foreign residents.
@@ -9947,6 +9955,8 @@ Shibuya est l'un des quartiers les plus convoités de Tokyo, et l'un des plus ch
 
 **Réponse rapide :** Se loger à Shibuya coûte cher : comptez 100 000 à 150 000 JPY/mois pour un petit 1K, davantage pour un 1LDK. Le quartier offre un accès inégalé (de nombreuses lignes), une vie nocturne et culturelle intense, mais peu d'espace pour le prix. Pour y vivre sans se ruiner, visez une share house (50 000 à 90 000 JPY) ou un quartier limitrophe mieux valorisé.
 
+
+![Loyer mensuel médian d'un studio 1K près de 50 stations de Tokyo (2026)](/tokyo-rent-by-station.png "Où se situe cette station : loyer médian 1K sur 50 stations de Tokyo, sur 528 660 annonces réelles actives")
 ## Pourquoi choisir Shibuya ?
 
 - Hub de transport majeur : JR Yamanote, Ginza, Hanzomon, Fukutoshin, Den-en-toshi. Vous allez partout, vite.
@@ -9992,6 +10002,8 @@ Le loyer affiché n'est que la partie visible. À Tokyo, signer un bail classiqu
 
 **Réponse rapide :** Sur un bail classique à Tokyo, prévoyez en plus du premier loyer : le reikin (argent-clé, 0 à 2 mois, non remboursable), le shikikin (caution, 1 à 2 mois, remboursable), les frais d'agence (1 mois), la société de garantie (0,5 à 1 mois/an) et l'assurance habitation (environ 20 000 JPY pour 2 ans). Soit 4 à 6 mois de loyer au départ. Les share houses et les meublés évitent la quasi-totalité de ces frais.
 
+
+![Ce que coûte réellement l'entrée dans un logement à Tokyo, poste par poste](/tokyo-movein-cost-fr.png "Environ 4,9 mois de loyer à l'entrée sur un logement à 100 000 JPY")
 ## Les frais à l'entrée
 
 | Frais | Montant typique | Remboursable ? |
@@ -10039,6 +10051,8 @@ Connaître ces frais à l'avance, c'est éviter le choc de la première facture 
 
 **Réponse rapide :** Se loger à Nakano coûte 70 000 à 95 000 JPY/mois pour un studio 1K, soit 20 à 30 % de moins qu'à Shinjuku, à seulement 5 minutes en train. Le quartier est résidentiel mais vivant, célèbre pour Nakano Broadway et sa culture pop. Idéal pour qui veut la centralité sans le prix du centre.
 
+
+![Loyer mensuel médian d'un studio 1K près de 50 stations de Tokyo (2026)](/tokyo-rent-by-station.png "Où se situe cette station : loyer médian 1K sur 50 stations de Tokyo, sur 528 660 annonces réelles actives")
 ## Pourquoi choisir Nakano ?
 
 - 5 minutes de Shinjuku (ligne Chuo/Sobu), accès direct à tout Tokyo.
@@ -10082,6 +10096,8 @@ Ikebukuro est l'un des plus grands hubs de Tokyo, et l'un des plus abordables pa
 
 **Réponse rapide :** Se loger à Ikebukuro coûte 75 000 à 105 000 JPY/mois pour un studio 1K, plus abordable que Shibuya ou Shinjuku pour une centralité comparable. Énorme gare, shopping, Sunshine City : tout est sur place. Bon choix pour qui veut un grand hub sans le budget du sud-ouest de Tokyo.
 
+
+![Loyer mensuel médian d'un studio 1K près de 50 stations de Tokyo (2026)](/tokyo-rent-by-station.png "Où se situe cette station : loyer médian 1K sur 50 stations de Tokyo, sur 528 660 annonces réelles actives")
 ## Pourquoi choisir Ikebukuro ?
 
 - Hub majeur : Yamanote, Marunouchi, Fukutoshin, lignes privées vers Saitama.
@@ -10125,6 +10141,8 @@ Koenji est le repaire bohème de Tokyo : musique live, friperies, izakayas, et d
 
 **Réponse rapide :** Se loger à Koenji coûte 65 000 à 88 000 JPY/mois pour un studio 1K, un excellent rapport qualité-prix à 10 minutes de Shinjuku. Quartier jeune, créatif et convivial, célèbre pour ses friperies, sa scène musicale et ses petits restaurants. Idéal pour un budget serré sans sacrifier l'ambiance.
 
+
+![Loyer médian d'un studio 1K par arrondissement de Tokyo, en carte (2026)](/tokyo-rent-map.png "Où se situe ce quartier : loyer médian 1K dans les 23 arrondissements, sur 528 660 annonces réelles actives")
 ## Pourquoi choisir Koenji ?
 
 - 10 minutes de Shinjuku (ligne Chuo/Sobu).
@@ -10340,6 +10358,8 @@ Anticiper cette règle, c'est protéger à la fois votre santé et votre droit d
 
 **Réponse rapide :** Se loger à Asagaya coûte 68 000 à 88 000 JPY/mois pour un studio 1K, à 12 minutes de Shinjuku. Quartier résidentiel paisible, connu pour sa scène jazz, sa rue commerçante couverte (Pearl Center) et son festival d'Awa Odori. Idéal pour qui veut le calme sans s'éloigner du centre.
 
+
+![Loyer médian d'un studio 1K par arrondissement de Tokyo, en carte (2026)](/tokyo-rent-map.png "Où se situe ce quartier : loyer médian 1K dans les 23 arrondissements, sur 528 660 annonces réelles actives")
 ## Pourquoi choisir Asagaya ?
 
 - 12 minutes de Shinjuku (ligne Chuo/Sobu).
@@ -10383,6 +10403,8 @@ Régulièrement élu quartier le plus agréable où vivre à Tokyo, Kichijoji co
 
 **Réponse rapide :** Se loger à Kichijoji coûte 75 000 à 100 000 JPY/mois pour un studio 1K, à 15 minutes de Shinjuku. Adossé au parc d'Inokashira, le quartier offre verdure, boutiques, restaurants et une atmosphère très prisée des familles comme des jeunes actifs. Un peu plus cher que Koenji, mais un cadre de vie exceptionnel.
 
+
+![Loyer médian d'un studio 1K par arrondissement de Tokyo, en carte (2026)](/tokyo-rent-map.png "Où se situe ce quartier : loyer médian 1K dans les 23 arrondissements, sur 528 660 annonces réelles actives")
 ## Pourquoi choisir Kichijoji ?
 
 - 15 minutes de Shinjuku (ligne Chuo/Sobu) + ligne Keio Inokashira vers Shibuya.
@@ -10426,6 +10448,8 @@ Kichijoji, c'est la qualité de vie avant tout : un parc, des commerces, une amb
 
 **Réponse rapide :** Se loger à Sangenjaya coûte 80 000 à 105 000 JPY/mois pour un studio 1K, à seulement 4 minutes de Shibuya (ligne Den-en-toshi). Le quartier est animé, rempli d'izakayas et de ruelles (Sankaku Chitai), tout en gardant une vraie vie de quartier. Excellent rapport proximité/prix pour qui veut être près de Shibuya sans en payer le prix.
 
+
+![Loyer mensuel médian d'un studio 1K près de 50 stations de Tokyo (2026)](/tokyo-rent-by-station.png "Où se situe cette station : loyer médian 1K sur 50 stations de Tokyo, sur 528 660 annonces réelles actives")
 ## Pourquoi choisir Sangenjaya ?
 
 - 4 minutes de Shibuya (ligne Den-en-toshi).
@@ -10469,6 +10493,8 @@ Shibuya is one of Tokyo's most sought-after neighbourhoods, and one of the most 
 
 **Quick answer:** Living in Shibuya costs around 100,000 to 150,000 JPY/month for a small 1K, more for a 1LDK. The area offers unmatched transport access, intense nightlife and culture, but little space for the price. To live there affordably, target a share house (50,000-90,000 JPY) or a neighbouring district with better value.
 
+
+![Median monthly rent for a 1K studio near 50 Tokyo stations (2026)](/tokyo-rent-by-station.png "Where this station sits: median 1K rent across 50 Tokyo stations, from 528,660 real active listings")
 ## Why choose Shibuya?
 
 - A major transport hub: JR Yamanote, Ginza, Hanzomon, Fukutoshin, Den-en-toshi.
@@ -10513,6 +10539,8 @@ One station from Shinjuku but far more affordable, Nakano is one of Tokyo's best
 
 **Quick answer:** Living in Nakano costs 70,000 to 95,000 JPY/month for a 1K studio, around 20-30% less than Shinjuku, just 5 minutes away by train. It is residential yet lively, famous for Nakano Broadway and its pop culture. Ideal for central access without central prices.
 
+
+![Median monthly rent for a 1K studio near 50 Tokyo stations (2026)](/tokyo-rent-by-station.png "Where this station sits: median 1K rent across 50 Tokyo stations, from 528,660 real active listings")
 ## Why choose Nakano?
 
 - 5 minutes from Shinjuku (Chuo/Sobu line), direct access across Tokyo.
@@ -10555,6 +10583,8 @@ Ikebukuro is one of Tokyo's largest hubs, and one of the most affordable among t
 
 **Quick answer:** Living in Ikebukuro costs 75,000 to 105,000 JPY/month for a 1K studio, more affordable than Shibuya or Shinjuku for comparable centrality. A huge station, shopping and Sunshine City put everything on your doorstep. A solid pick for a major hub without the south-west Tokyo budget.
 
+
+![Median monthly rent for a 1K studio near 50 Tokyo stations (2026)](/tokyo-rent-by-station.png "Where this station sits: median 1K rent across 50 Tokyo stations, from 528,660 real active listings")
 ## Why choose Ikebukuro?
 
 - A major hub: Yamanote, Marunouchi, Fukutoshin, private lines to Saitama.
@@ -10597,6 +10627,8 @@ Koenji is Tokyo's bohemian hideout: live music, vintage shops, izakayas, and som
 
 **Quick answer:** Living in Koenji costs 65,000 to 88,000 JPY/month for a 1K studio, excellent value 10 minutes from Shinjuku. A young, creative and friendly district famous for its vintage shops, music scene and small restaurants. Ideal for a tight budget without giving up atmosphere.
 
+
+![Median 1K studio rent by Tokyo ward, mapped (2026)](/tokyo-rent-map.png "Where this area sits: median 1K rent across the 23 wards, from 528,660 real active listings")
 ## Why choose Koenji?
 
 - 10 minutes from Shinjuku (Chuo/Sobu line).
@@ -10639,6 +10671,8 @@ One station from Koenji on the Chuo line, Asagaya offers residential calm that i
 
 **Quick answer:** Living in Asagaya costs 68,000 to 88,000 JPY/month for a 1K studio, 12 minutes from Shinjuku. A peaceful residential district known for its jazz scene, its covered shopping street (Pearl Center) and its Awa Odori festival. Ideal for calm without leaving the centre behind.
 
+
+![Median 1K studio rent by Tokyo ward, mapped (2026)](/tokyo-rent-map.png "Where this area sits: median 1K rent across the 23 wards, from 528,660 real active listings")
 ## Why choose Asagaya?
 
 - 12 minutes from Shinjuku (Chuo/Sobu line).
@@ -10681,6 +10715,8 @@ Regularly voted the most pleasant place to live in Tokyo, Kichijoji combines a p
 
 **Quick answer:** Living in Kichijoji costs 75,000 to 100,000 JPY/month for a 1K studio, 15 minutes from Shinjuku. Backing onto Inokashira Park, it offers greenery, shops, restaurants and an atmosphere prized by families and young professionals alike. A little pricier than Koenji, but an exceptional setting.
 
+
+![Median 1K studio rent by Tokyo ward, mapped (2026)](/tokyo-rent-map.png "Where this area sits: median 1K rent across the 23 wards, from 528,660 real active listings")
 ## Why choose Kichijoji?
 
 - 15 minutes from Shinjuku (Chuo/Sobu) plus the Keio Inokashira line to Shibuya.
@@ -10723,6 +10759,8 @@ One station from Shibuya yet far more affordable and full of character, Sangenja
 
 **Quick answer:** Living in Sangenjaya costs 80,000 to 105,000 JPY/month for a 1K studio, just 4 minutes from Shibuya (Den-en-toshi line). The area is lively, full of izakayas and lanes (Sankaku Chitai), yet keeps a real neighbourhood feel. Excellent value for being so close to Shibuya without paying its price.
 
+
+![Median monthly rent for a 1K studio near 50 Tokyo stations (2026)](/tokyo-rent-by-station.png "Where this station sits: median 1K rent across 50 Tokyo stations, from 528,660 real active listings")
 ## Why choose Sangenjaya?
 
 - 4 minutes from Shibuya (Den-en-toshi line).
@@ -12048,6 +12086,8 @@ If you have ever looked at a Tokyo listing and wondered what "1K" or "1LDK" mean
 
 **Quick answer:** The number is the count of rooms, and the letters describe the other spaces: R = room, K = kitchen, D = dining, L = living. So a 1K is one room plus a separate small kitchen (a studio), a 1LDK is one bedroom plus a combined living, dining and kitchen area (good for a couple), and a 2LDK adds a second bedroom (good for a family). The bathroom and toilet are always there but never appear in the code.
 
+
+![What Japanese apartment layouts mean: 1K, 1DK, 1LDK and 2LDK compared](/tokyo-layouts-en.png "Median Tokyo rent by layout, from 528,660 real active listings")
 ## The layout codes, decoded
 - **1R** (one room): a single room where the kitchen sits inside the main space, with no partition. The most compact option, often 13 to 20 square metres.
 - **1K:** one room plus a separate small kitchen, divided by a door or partition. The classic single-person studio, usually 20 to 25 square metres. The "K" is often just a sink and one burner in the hallway, not a full kitchen.
@@ -12108,6 +12148,8 @@ Si vous avez déjà regardé une annonce à Tokyo en vous demandant ce que veut 
 
 **Réponse rapide :** Le chiffre est le nombre de pièces, et les lettres décrivent les autres espaces : R = pièce, K = cuisine, D = coin repas, L = salon. Donc un 1K, c'est une pièce plus une petite cuisine séparée (un studio), un 1LDK, c'est une chambre plus un espace salon-repas-cuisine (idéal pour un couple), et un 2LDK ajoute une deuxième chambre (idéal pour une famille). La salle de bain et les toilettes sont toujours là mais n'apparaissent jamais dans le code.
 
+
+![Ce que signifient les plans japonais : 1K, 1DK, 1LDK et 2LDK comparés](/tokyo-layouts-fr.png "Loyer médian à Tokyo par type, sur 528 660 annonces réelles actives")
 ## Les codes de configuration, décodés
 - **1R** (one room) : une pièce unique où la cuisine est dans l'espace principal, sans cloison. L'option la plus compacte, souvent 13 à 20 m2.
 - **1K :** une pièce plus une petite cuisine séparée par une porte ou une cloison. Le studio classique pour une personne, en général 20 à 25 m2. Le "K" est souvent juste un évier et une plaque dans le couloir, pas une vraie cuisine.
@@ -12764,6 +12806,8 @@ The advertised rent is only the visible part. In Tokyo, signing a standard lease
 
 **Quick answer:** On a standard Tokyo lease, budget on top of your first month: reikin (key money, 0 to 2 months, non-refundable), shikikin (deposit, 1 to 2 months, refundable), agency fee (1 month), guarantor company (0.5 to 1 month), and home insurance (around 20,000 JPY for two years). That is four to six months of rent up front. On a 100,000 JPY studio, that is roughly 400,000 to 600,000 JPY, about US$2,500 to US$3,750. Share houses and furnished flats avoid almost all of it.
 
+
+![What it really costs to move into a Tokyo apartment, broken down by cost item](/tokyo-movein-cost-en.png "About 4.9 months of rent upfront on a 100,000 JPY apartment")
 ## The upfront costs
 | Cost | Typical amount | Refundable? |
 |---|---|---|
