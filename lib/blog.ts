@@ -9862,6 +9862,8 @@ A gaijin house is often the first home a foreigner has in Tokyo. It is cheap, fl
 **Quick answer:** A gaijin house is a shared residence in Tokyo aimed at foreigners, offering a private furnished room with shared kitchen and bathroom, no Japanese guarantor, no key money, and move-in within days. Rooms run 40,000 to 80,000 JPY/month with utilities often included. It is the fastest and cheapest legal way for a newcomer to get a Tokyo address. For more privacy than a shared house, compare it with the options in our [complete guide to furnished apartments in Tokyo](/en/blog/furnished-apartments-tokyo-guide).
 
 > **From the field.** A gaijin house lives or dies on who runs it, not the price. The cheap ones with an absent operator empty out as fast as they fill. Before you book, notice how fast the operator answers your first email, that tells you more than the photos.
+
+![Median 1K studio rent by Tokyo ward, mapped (2026)](/tokyo-rent-map.png "Median 1K rent across the 23 wards, from 528,660 real active listings")
 ## What is a gaijin house?
 
 "Gaijin house" (外人ハウス) literally means "foreigner house." The term dates back to the 1990s, when a few operators began renting shared rooms to foreigners locked out of the standard rental market. Today the line between a gaijin house and a modern share house has blurred: both offer furnished private rooms with shared common areas, managed by a professional operator.
@@ -10936,6 +10938,8 @@ La gaijin house est souvent le premier logement d'un étranger à Tokyo. Économ
 **Réponse rapide :** Une gaijin house est un logement partagé pensé pour les étrangers : chambre privée meublée, cuisine et salle de bains communes, sans garant japonais, sans argent-clé, installation en quelques jours. Comptez 40 000 à 80 000 JPY/mois, charges souvent incluses. C'est le moyen le plus rapide et le moins cher d'obtenir une adresse à Tokyo.
 
 > **Vu du terrain.** Une gaijin house vaut ce que vaut son opérateur, pas son prix. Les moins chères, mal gérées, se vident aussi vite qu'elles se remplissent. Avant de réserver, regardez la vitesse à laquelle l'opérateur répond à votre premier email : ça en dit plus que les photos.
+
+![Loyer médian d'un studio 1K par arrondissement de Tokyo, en carte (2026)](/tokyo-rent-map.png "Loyer médian 1K dans les 23 arrondissements, sur 528 660 annonces réelles actives")
 ## Qu'est-ce qu'une gaijin house ?
 
 "Gaijin house" (外人ハウス) signifie littéralement "maison d'étrangers". Le terme remonte aux années 1990, quand quelques opérateurs ont commencé à louer des chambres partagées aux étrangers exclus du marché classique. Aujourd'hui, la frontière avec la share house moderne s'est estompée : les deux offrent des chambres privées meublées avec espaces communs, gérées par un opérateur professionnel.
@@ -11674,6 +11678,8 @@ Everyone asks the same question when moving to Tokyo: where can I actually affor
 
 **Quick answer:** The cheapest Tokyo wards for a 1K studio are Edogawa (74 000 JPY), Adachi (76 000 JPY) and Katsushika (81 000 JPY), all eastern or outer wards. The most expensive is Minato (140 000 JPY), followed by Chiyoda and Chuo. From one ward to another, the same studio can cost nearly double.
 
+
+![Median 1K studio rent by Tokyo ward, mapped (2026)](/tokyo-rent-map.png "Median 1K rent across the 23 wards, from 528,660 real active listings")
 ## The 10 cheapest wards to live in Tokyo
 Ranked by median monthly rent for a 1K studio, from 528,660 active listings:
 
@@ -11757,6 +11763,8 @@ Tout le monde se pose la meme question en s'installant a Tokyo : ou puis-je vrai
 
 **Reponse rapide :** Les arrondissements les moins chers pour un studio 1K sont Edogawa (74 000 JPY), Adachi (76 000 JPY) et Katsushika (81 000 JPY), tous a l'est ou en peripherie. Le plus cher est Minato (140 000 JPY), suivi de Chiyoda et Chuo. D'un arrondissement a l'autre, le meme studio peut couter pres du double.
 
+
+![Loyer médian d'un studio 1K par arrondissement de Tokyo, en carte (2026)](/tokyo-rent-map.png "Loyer médian 1K dans les 23 arrondissements, sur 528 660 annonces réelles actives")
 ## Les 10 arrondissements les moins chers de Tokyo
 Classes par loyer median d'un studio 1K, sur 528,660 annonces actives :
 
@@ -12266,6 +12274,8 @@ Finding a furnished apartment in Tokyo as a foreigner should be simple, but it r
 
 **Quick answer:** A furnished apartment in Tokyo typically rents for 80,000 to 200,000 JPY a month (about US$500 to US$1,300), bills often included, with no guarantor and no Japanese bank account required. They come in three flavours: monthly mansions (private, fully furnished), serviced apartments (hotel-like), and share houses (cheapest, from around 35,000 JPY). You can usually move in within one to two weeks.
 
+
+![Median 1K studio rent by Tokyo ward, mapped (2026)](/tokyo-rent-map.png "Median 1K rent across the 23 wards, from 528,660 real active listings")
 ## What "furnished" actually means in Tokyo
 There is no single furnished market in Tokyo, there are three:
 - **Monthly mansion (manslee mansion):** a private, fully furnished apartment with a bed, kitchen, appliances and Wi-Fi, rented by the month. The best balance of privacy and flexibility, usually 80,000 to 200,000 JPY.
@@ -12309,6 +12319,8 @@ Trouver un appartement meuble a Tokyo quand on est etranger devrait etre simple,
 
 **Reponse rapide :** Un appartement meuble a Tokyo se loue en general entre 80 000 et 200 000 JPY par mois (environ 500 a 1 300 US$), charges souvent incluses, sans garant ni compte bancaire japonais. Il en existe trois types : monthly mansion (prive, entierement meuble), serviced apartment (facon hotel), et share house (le moins cher, a partir d'environ 35 000 JPY). On peut souvent emmenager en une a deux semaines.
 
+
+![Loyer médian d'un studio 1K par arrondissement de Tokyo, en carte (2026)](/tokyo-rent-map.png "Loyer médian 1K dans les 23 arrondissements, sur 528 660 annonces réelles actives")
 ## Ce que "meuble" veut vraiment dire a Tokyo
 Il n'y a pas un seul marche du meuble a Tokyo, il y en a trois :
 - **Monthly mansion (mansuri manshon) :** un appartement prive entierement meuble avec lit, cuisine, electromenager et Wi-Fi, loue au mois. Le meilleur equilibre entre intimite et flexibilite, en general 80 000 a 200 000 JPY.
@@ -12554,6 +12566,8 @@ If you want the cheapest rent in Tokyo, the ward matters, but the train line mat
 
 **Quick answer:** The cheapest Tokyo train lines to rent a 1K studio on are the Seibu Ikebukuro (around 80,000 JPY, about US$500) and Seibu Shinjuku (around 82,000 JPY), followed by the Tobu Skytree and Tokyu Toyoko. The priciest are the Tokyo Metro Ginza (around 131,000 JPY, about US$820) and the JR Yamanote (around 120,000 JPY). Living one line over from a prime route is one of the easiest ways to cut your rent.
 
+
+![Median monthly rent for a 1K studio by Tokyo train line (2026)](/tokyo-rent-by-line.png "Median 1K rent by line, from 528,660 real active listings")
 ## The cheapest lines to rent on
 For a 1K studio, median monthly rent (USD at roughly 160 JPY to the dollar):
 - **Seibu Ikebukuro:** 80,000 JPY (about US$500)
@@ -12601,6 +12615,8 @@ Si vous cherchez le loyer le moins cher à Tokyo, l'arrondissement compte, mais 
 
 **Réponse rapide :** Les lignes de train les moins chères pour louer un studio 1K à Tokyo sont la Seibu Ikebukuro (environ 80 000 JPY, soit près de 500 USD) et la Seibu Shinjuku (environ 82 000 JPY), suivies de la Tobu Skytree et de la Tokyu Toyoko. Les plus chères sont la Tokyo Metro Ginza (environ 131 000 JPY, près de 820 USD) et la JR Yamanote (environ 120 000 JPY). Habiter une ligne à côté d'un axe prime est l'un des moyens les plus simples de réduire son loyer.
 
+
+![Loyer mensuel médian d'un studio 1K par ligne de train de Tokyo (2026)](/tokyo-rent-by-line.png "Loyer médian 1K par ligne, sur 528 660 annonces réelles actives")
 ## Les lignes les moins chères
 Pour un studio 1K, loyer mensuel médian (USD à environ 160 JPY pour un dollar) :
 - **Seibu Ikebukuro :** 80 000 JPY (environ 500 USD)
@@ -12648,6 +12664,8 @@ Most people do not rent by ward, they rent by station: the walk to the platform 
 
 **Quick answer:** The cheapest Tokyo stations to rent a 1K studio near are Kasai (around 76,000 JPY, about US$475) and Shin-Koiwa (around 78,000 JPY), both in the eastern wards. The most expensive are Jimbocho and Ebisu (around 150,000 JPY, about US$940), in the central districts. The gap between the cheapest and priciest station is nearly double for the same size studio.
 
+
+![Median monthly rent for a 1K studio near 50 Tokyo stations (2026)](/tokyo-rent-by-station.png "Median 1K rent by station, from 528,660 real active listings")
 ## The cheapest stations to rent near
 Median monthly rent for a 1K studio (USD at roughly 160 JPY to the dollar):
 - **Kasai:** 76,000 JPY (about US$475)
@@ -12696,6 +12714,8 @@ La plupart des gens ne louent pas par arrondissement, ils louent par station : c
 
 **Réponse rapide :** Les stations de Tokyo les moins chères pour louer un studio 1K sont Kasai (environ 76 000 JPY, près de 475 USD) et Shin-Koiwa (environ 78 000 JPY), toutes deux dans les arrondissements de l'est. Les plus chères sont Jimbocho et Ebisu (environ 150 000 JPY, près de 940 USD), dans les quartiers centraux. L'écart entre la station la moins chère et la plus chère est presque du simple au double pour un studio de même taille.
 
+
+![Loyer mensuel médian d'un studio 1K près de 50 stations de Tokyo (2026)](/tokyo-rent-by-station.png "Loyer médian 1K par station, sur 528 660 annonces réelles actives")
 ## Les stations les moins chères
 Loyer mensuel médian pour un studio 1K (USD à environ 160 JPY pour un dollar) :
 - **Kasai :** 76 000 JPY (environ 475 USD)

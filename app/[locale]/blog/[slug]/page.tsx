@@ -181,6 +181,27 @@ function renderContent(content: string, locale?: string) {
       )
       i++
 
+    // Image (graphique / carte proprietaire) : ![alt](/fichier.png "legende optionnelle")
+    } else if (line.startsWith('![')) {
+      const im = line.match(/^!\[([^\]]*)\]\(([^)\s]+)(?:\s+"([^"]*)")?\)/)
+      if (im) {
+        elements.push(
+          <figure key={`fig-${i}`} className="my-8">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={im[2]}
+              alt={im[1]}
+              loading="lazy"
+              className="w-full rounded-xl border border-gray-200"
+            />
+            {im[3] ? (
+              <figcaption className="text-xs text-gray-400 mt-2 text-center">{im[3]}</figcaption>
+            ) : null}
+          </figure>
+        )
+      }
+      i++
+
     // Table
     } else if (line.trim().startsWith('|') && line.trim().endsWith('|')) {
       const tableLines: string[] = []
