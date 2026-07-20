@@ -1,65 +1,68 @@
 {
-  "generated_at": "2026-07-13",
-  "period": "2026-07-06 to 2026-07-13",
+  "generated_at": "2026-07-20",
+  "period": "2026-07-13 to 2026-07-20",
   "this_week": {
-    "sessions": 156,
-    "users": 143,
-    "pageviews": 241,
-    "bounce_rate": 0.6410256410256411
+    "sessions": 173,
+    "users": 153,
+    "pageviews": 203,
+    "bounce_rate": 0.6705202312138728
   },
   "prev_week": {
-    "sessions": 109,
-    "users": 102,
-    "pageviews": 160,
-    "bounce_rate": 0.6513761467889908
+    "sessions": 153,
+    "users": 140,
+    "pageviews": 238,
+    "bounce_rate": 0.6143790849673203
   },
   "changes": {
-    "sessions": "+43%",
-    "users": "+40%",
-    "pageviews": "+51%"
+    "sessions": "+13%",
+    "users": "+9%",
+    "pageviews": "-15%"
   },
   "top_pages": [
     [
       "/en/data",
-      "28"
+      "40"
     ],
     [
       "/en",
-      "23"
+      "15"
     ],
     [
-      "/en/blog/jiko-bukken-cheap-apartments-tokyo",
-      "12"
+      "/en/blog/best-neighbourhoods-families-tokyo-guide",
+      "10"
     ],
     [
-      "/en/blog/japan-working-holiday-visa-guide-2026",
+      "/en/blog/send-money-to-japan-from-abroad",
       "9"
     ],
     [
-      "/en/blog",
-      "8"
+      "/fr/blog/cout-vie-tokyo-expatrie-2026",
+      "9"
     ]
   ],
   "top_sources": [
     [
       "Direct",
-      "93"
+      "114"
     ],
     [
       "Organic Search",
-      "43"
+      "34"
     ],
     [
       "AI Assistant",
-      "16"
+      "17"
     ]
   ],
-  "form_submits_week": 0,
+  "form_submits_week": 1,
   "events": {
-    "page_view": 241,
-    "session_start": 156,
-    "first_visit": 142,
-    "user_engagement": 82,
-    "scroll": 37
+    "page_view": 203,
+    "session_start": 180,
+    "first_visit": 159,
+    "user_engagement": 64,
+    "scroll": 25,
+    "file_download": 1,
+    "form_start": 1,
+    "generate_lead": 1
   }
 }

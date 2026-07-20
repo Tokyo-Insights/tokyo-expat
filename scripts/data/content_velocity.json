@@ -1,14 +1,14 @@
 {
   "prev_week_counts": {
-    "Remoters": 6407,
+    "Remoters": 6416,
     "GaijinPot Housing": 0,
     "GaijinPot Blog": 4571,
     "Sakura House": 970,
-    "Oak House": 5120,
+    "Oak House": 5145,
     "Tokyo Cheapo": 6824,
     "Japan Guide": 0,
     "Fontaine Relocation": 0,
-    "Savvy Tokyo": 8702,
+    "Savvy Tokyo": 8704,
     "Japan Property Central": 0,
     "Japan Today": 0,
     "City Cost": 0,
@@ -27,77 +27,101 @@
   },
   "weekly_history": {
     "Asian Tigers Japan": [
+      0,
       0
     ],
     "City Cost": [
+      0,
       0
     ],
     "Crown Relocations JP": [
+      0,
       0
     ],
     "Fontaine Relocation": [
+      0,
       0
     ],
     "Gaijin House": [
+      0,
       0
     ],
     "GaijinPot Blog": [
+      0,
       0
     ],
     "GaijinPot Housing": [
+      0,
       0
     ],
     "Japan Guide": [
+      0,
       0
     ],
     "Japan Insiders": [
+      0,
       0
     ],
     "Japan Property Central": [
+      0,
       0
     ],
     "Japan Today": [
+      0,
       0
     ],
     "Japon Online": [
+      0,
       0
     ],
     "Modern Living Tokyo": [
+      0,
       0
     ],
     "Oak House": [
-      0
+      0,
+      25
     ],
     "Remoters": [
-      0
+      0,
+      9
     ],
     "Sakura House": [
+      0,
       0
     ],
     "Savvy Tokyo": [
-      0
+      0,
+      2
     ],
     "Time Out Tokyo": [
+      0,
       0
     ],
     "Tofugu": [
+      0,
       0
     ],
     "Tokyo Cheapo": [
+      0,
       0
     ],
     "Tokyo Furnished": [
+      0,
       0
     ],
     "Tokyo Share House": [
+      0,
       0
     ],
     "Vivre Au Japon": [
+      0,
       0
     ],
     "Wise Blog JP": [
+      0,
       0
     ]
   },
-  "last_run": "2026-07-13"
+  "last_run": "2026-07-20"
 }

@@ -1,6 +1,16 @@
 {
-  "last_run": "2026-07-13",
+  "last_run": "2026-07-20",
   "opportunities": [
+    {
+      "keyword": "tokyo apartment no guarantor",
+      "competitor": "gaijinpot.com",
+      "competitor_url": "https://apartments.gaijinpot.com/en/rent",
+      "competitor_title": "Tokyo Apartments for Rent - GaijinPot Apartments",
+      "rank": 2,
+      "format": "answer_box",
+      "action": "H2 exact 'Can foreigners rent in Tokyo without a guarantor?' + reponse directe 60 mots",
+      "format_guide": "Ajouter en intro de l'article une reponse directe de 40-60 mots apres un H2 qui repete le keyword exact. Google extrait les premiers paragraphes apres un header."
+    },
     {
       "keyword": "how much does it cost to rent in tokyo",
       "competitor": "gaijinpot.com",
@@ -23,10 +33,10 @@
     },
     {
       "keyword": "short term apartment tokyo",
-      "competitor": "sakura-house.com",
-      "competitor_url": "https://www.sakura-house.com/",
-      "competitor_title": "Furnished Dormitory, Apartments, Share houses for rent in Tokyo, Izu...",
-      "rank": 1,
+      "competitor": "gaijinpot.com",
+      "competitor_url": "https://apartments.gaijinpot.com/en/rent",
+      "competitor_title": "Tokyo Apartments for Rent - GaijinPot Apartments",
+      "rank": 2,
       "format": "table",
       "action": "Tableau: type / duree min / prix / garant / plateformes. Couvrir 1 semaine a 6 mois",
       "format_guide": "Ajouter un tableau HTML avec headers clairs. Google extrait les tableaux pour les requetes comparatives et de prix."
