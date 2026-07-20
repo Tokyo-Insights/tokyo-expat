@@ -6257,6 +6257,8 @@ Pour votre couverture sante pendant la periode d'installation au Japon, [SafetyW
     date: '2026-06-21',
     readingTime: '9 min',
     content: `
+
+![Du studio à l'appartement familial : le saut de loyer par arrondissement à Tokyo](/tokyo-layout-gap.png "Un 2LDK familial coûte environ 2 à 2,8x un studio, sur 528 660 annonces réelles actives")
 ## Choisir son quartier à Tokyo quand on a des enfants
 
 **Réponse rapide :** Les meilleurs quartiers de Tokyo pour familles expatriées combinent proximité des écoles internationales, espaces verts et logements plus grands : Minato (Hiroo, Azabu), Setagaya, Meguro et Shibuya en tête. Ils sont plus chers mais offrent l'infrastructure familiale. Choisissez d'abord selon l'école de vos enfants, puis le trajet.
@@ -6932,6 +6934,8 @@ For health coverage during your relocation to Japan, [SafetyWing Nomad Insurance
     date: '2026-06-21',
     readingTime: '9 min',
     content: `
+
+![From a studio to a family flat: the Tokyo rent jump by ward](/tokyo-layout-gap.png "A 2LDK family flat costs about 2 to 2.8x a studio, from 528,660 real active listings")
 ## Choosing a Tokyo Neighbourhood as an Expat Family
 
 **Quick answer:** The best Tokyo neighbourhoods for expat families combine proximity to international schools, green space and larger homes: Minato (Hiroo, Azabu), Setagaya, Meguro and Shibuya lead the list. They cost more but offer the family infrastructure. Choose by your children's school first, then the commute.
@@ -11886,6 +11890,8 @@ Everyone feels that Tokyo has gotten more expensive. But by how much, and where 
 
 **Quick answer:** The median price of a used condo in Tokyo rose from 720 000 to 933 333 JPY per square metre between 2021 and 2025, a +29.6% increase. The rise was far from even: central wards like Chuo (+60.3%) and Minato (+51.9%) climbed the most, while outer wards like Edogawa (+16.4%) rose the least. The gap between the centre and the rest widened.
 
+
+![How Tokyo condo prices per m2 changed, 2021 to 2025, by ward](/tokyo-price-trends.png "Median second-hand condo price per m2, from ~100,000 recorded sale transactions")
 ## Tokyo condo prices, 2021 to 2025
 Median transaction price per square metre, used condominiums, across all 23 wards:
 
@@ -11942,6 +11948,8 @@ Tout le monde sent que Tokyo est devenue plus chere. Mais de combien, et ou exac
 
 **Reponse rapide :** Le prix median d'une copropriete d'occasion a Tokyo est passe de 720 000 a 933 333 JPY le metre carre entre 2021 et 2025, soit +29.6%. La hausse a ete tres inegale : les arrondissements centraux comme Chuo (+60.3%) et Minato (+51.9%) ont le plus grimpe, tandis que la peripherie comme Edogawa (+16.4%) a le moins bouge. L'ecart entre le centre et le reste s'est creuse.
 
+
+![Évolution du prix des copropriétés à Tokyo au m2, 2021 à 2025, par arrondissement](/tokyo-price-map.png "Prix médian au m2 des copropriétés d'occasion, sur ~100 000 transactions réelles enregistrées")
 ## Les prix des coproprietes a Tokyo, 2021 a 2025
 Prix median de transaction au metre carre, coproprietes d'occasion, sur les 23 arrondissements :
 
