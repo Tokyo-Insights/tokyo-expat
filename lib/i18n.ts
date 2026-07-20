@@ -7,14 +7,14 @@ const dictionaries = {
   fr: {
     nav: {
       home: 'Accueil',
-      services: 'Nos offres',
+      services: 'Offres',
       listings: 'Logements',
-      data: 'Indice loyers',
+      data: 'Loyers',
       blog: 'Guides',
       about: 'À propos',
       contact: 'Contact',
       cta: 'Consultation gratuite',
-      checklist: 'Checklist gratuite',
+      checklist: 'Checklist',
     },
     home: {
       hero_title: 'Trouvez votre logement à Tokyo',
