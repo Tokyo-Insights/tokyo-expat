@@ -50,7 +50,7 @@ const t = {
     hero_title: 'Tokyo Rent Index',
     hero_subtitle: 'Median rent by ward and layout, computed from 528,660 real active listings across Tokyo\'s 23 wards. Updated Q2 2026.',
     last_updated: 'Last updated: Q2 2026',
-    source_note: 'Methodology: median monthly rent (JPY) from 528,660 deduplicated active listings (LIFULL + AtHome), Tokyo 23 special wards, by layout. Median is more robust than average against outliers.',
+    source_note: 'Methodology: median monthly rent (JPY) from 528,660 deduplicated active listings from major Japanese rental portals, Tokyo 23 special wards, by layout. Median is more robust than average against outliers.',
     context_note: '1K = a Japanese studio: one room plus a small separate kitchen, usually 20-25 m2 (215-270 sq ft). All amounts are monthly rent in JPY. At roughly ¥160 to US$1 (2026), ¥100,000 is about US$625, so a 1K studio here typically runs US$460 to US$875.',
     section_rent: 'Median Rent by Ward and Layout (JPY/month)',
     section_types: 'Housing Types: Cost Comparison',
@@ -76,7 +76,7 @@ const t = {
     hero_title: 'Indice des loyers de Tokyo',
     hero_subtitle: 'Loyer médian par arrondissement et par layout, calculé sur 528 660 annonces actives réelles dans les 23 arrondissements de Tokyo. Mis à jour T2 2026.',
     last_updated: 'Dernière mise à jour : T2 2026',
-    source_note: 'Méthodologie : loyer mensuel médian (JPY) sur 528 660 annonces actives dédupliquées (LIFULL + AtHome), 23 arrondissements de Tokyo, par layout. La médiane résiste mieux aux valeurs extrêmes que la moyenne.',
+    source_note: 'Méthodologie : loyer mensuel médian (JPY) sur 528 660 annonces actives dédupliquées issues des grands portails locatifs japonais, 23 arrondissements de Tokyo, par layout. La médiane résiste mieux aux valeurs extrêmes que la moyenne.',
     context_note: '1K = un studio japonais : une pièce plus une petite cuisine séparée, en général 20-25 m2 (215-270 sq ft). Tous les montants sont des loyers mensuels en JPY. À environ 160 JPY pour 1 US$ (2026), 100 000 JPY font environ 625 US$, donc un studio 1K se loue ici entre 460 et 875 US$.',
     section_rent: 'Loyer median par arrondissement et layout (JPY/mois)',
     section_types: 'Types de logement : comparatif des coûts',
@@ -228,8 +228,8 @@ export default async function DataPage({
     '@type': 'Dataset',
     name: l === 'en' ? 'Tokyo Rent Index 2026 (median rent by ward and layout)' : 'Indice des loyers de Tokyo 2026 (loyer médian par arrondissement et layout)',
     description: l === 'en'
-      ? 'Median monthly rent (JPY) by Tokyo ward and apartment layout (1K, 1LDK, 2LDK), computed from 528,660 deduplicated active rental listings (LIFULL and AtHome), Tokyo 23 special wards, Q2 2026.'
-      : 'Loyer mensuel médian (JPY) par arrondissement de Tokyo et par layout (1K, 1LDK, 2LDK), calculé sur 528 660 annonces locatives actives dédupliquées (LIFULL et AtHome), 23 arrondissements de Tokyo, T2 2026.',
+      ? 'Median monthly rent (JPY) by Tokyo ward and apartment layout (1K, 1LDK, 2LDK), computed from 528,660 deduplicated active rental listings from major Japanese rental portals, Tokyo 23 special wards, Q2 2026.'
+      : 'Loyer mensuel médian (JPY) par arrondissement de Tokyo et par layout (1K, 1LDK, 2LDK), calculé sur 528 660 annonces locatives actives dédupliquées issues des grands portails locatifs japonais, 23 arrondissements de Tokyo, T2 2026.',
     url: `https://www.tokyo-expat.com/${l}/data`,
     creator: { '@type': 'Organization', name: 'Tokyo Expat', url: 'https://www.tokyo-expat.com' },
     dateModified: '2026-06-30',
@@ -316,7 +316,7 @@ export default async function DataPage({
           { value: totalListings, label: l === 'en' ? 'Listings analysed' : 'Annonces analysees' },
           { value: '23', label: l === 'en' ? 'Wards covered' : 'Arrondissements' },
           { value: '8', label: l === 'en' ? 'Layouts (1R-3LDK)' : 'Layouts (1R-3LDK)' },
-          { value: '2', label: l === 'en' ? 'Sources (LIFULL, AtHome)' : 'Sources (LIFULL, AtHome)' },
+          { value: '2', label: l === 'en' ? 'Rental portals' : 'Portails locatifs' },
         ].map((stat) => (
           <div key={stat.label} className="bg-gray-50 border border-gray-200 rounded-xl p-4 text-center">
             <div className="text-2xl font-extrabold text-[#0f2744]">{stat.value}</div>

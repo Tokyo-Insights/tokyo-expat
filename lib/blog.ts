@@ -11471,7 +11471,7 @@ Combien coûte vraiment un loyer à Tokyo ? La plupart des guides donnent des fo
 
 ## Comment ce rapport est construit
 
-Nous avons agrégé 528 660 annonces locatives actives dédupliquées dans les 23 arrondissements de Tokyo (sources : LIFULL et AtHome), puis calculé le loyer mensuel médian pour chaque arrondissement et layout (1R à 3LDK). Nous utilisons la médiane, pas la moyenne, car elle résiste aux valeurs extrêmes : quelques biens de luxe ne faussent pas le chiffre. Chaque montant ci-dessous reflète ce que des locataires paient réellement.
+Nous avons agrégé 528 660 annonces locatives actives dédupliquées dans les 23 arrondissements de Tokyo (sources : les grands portails locatifs japonais), puis calculé le loyer mensuel médian pour chaque arrondissement et layout (1R à 3LDK). Nous utilisons la médiane, pas la moyenne, car elle résiste aux valeurs extrêmes : quelques biens de luxe ne faussent pas le chiffre. Chaque montant ci-dessous reflète ce que des locataires paient réellement.
 
 ## Lire les layouts japonais
 
@@ -11549,7 +11549,7 @@ How much does it really cost to rent in Tokyo? Most guides give vague ranges. Th
 
 ## How we built this
 
-We aggregated 528,660 deduplicated active rental listings across Tokyo's 23 special wards (sources: LIFULL and AtHome), then computed the median monthly rent for each ward and layout (1R to 3LDK). We use the median, not the average, because it resists outliers: a few luxury listings do not distort the figure. Every number below reflects what real tenants actually pay.
+We aggregated 528,660 deduplicated active rental listings across Tokyo's 23 special wards (sources: major Japanese rental portals), then computed the median monthly rent for each ward and layout (1R to 3LDK). We use the median, not the average, because it resists outliers: a few luxury listings do not distort the figure. Every number below reflects what real tenants actually pay.
 
 ## Reading Tokyo apartment layouts
 
