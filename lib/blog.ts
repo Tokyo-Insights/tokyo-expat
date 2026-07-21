@@ -564,6 +564,8 @@ Relocating to Tokyo involves more paperwork and bureaucratic steps than most exp
 
 **Quick answer:** Moving to Tokyo runs in a clear order: confirm your visa, secure housing before you arrive, then within 14 days register your address at the ward office and collect your residence card. Next, open a bank account, enrol in national health insurance, get a SIM card, and set up utilities. Sorting the visa and housing first makes every later step easier.
 
+
+![When to look for housing in Tokyo, by season](/tokyo-seasonality-en.png "Feb-Apr peak vs the May-Aug lull, the best time to negotiate")
 ## Step 1: Secure the right visa (before you leave)
 
 Your visa determines almost everything: what you can rent, where you can open a bank account, and how long you can stay.
@@ -2044,6 +2046,8 @@ Déménager au Japon implique plus de démarches administratives que la plupart 
 
 **Réponse rapide :** Déménager au Japon suit un ordre précis : confirmer le visa, sécuriser le logement avant l'arrivée, puis sous 14 jours déclarer son adresse à la mairie et récupérer la carte de résidence. Ensuite : compte bancaire, assurance maladie nationale, carte SIM et mise en service des utilités. Régler le visa et le logement en premier simplifie tout le reste.
 
+
+![Quand chercher un logement à Tokyo, par saison](/tokyo-seasonality-fr.png "Fév-Avr haute saison vs le creux Mai-Août, le meilleur moment pour négocier")
 ## Avant le départ (2 à 6 mois avant)
 
 **Obtenir votre visa**
@@ -9034,6 +9038,8 @@ Le refus de dossier est l'une des expériences les plus frustrantes du parcours 
 Comprendre pourquoi votre dossier a été refusé, et surtout comment rebondir, peut changer radicalement la suite de votre recherche.
 
 > **Vu du terrain.** Quand un dossier est refusé, ce n'est presque jamais le locataire, c'est un trou dans le dossier que la société de garantie n'a pas pu vérifier : justificatif de revenus, durée du visa, une adresse qui ne correspond pas. Corrigez le dossier, pas vous-même. Un dossier propre et complet évite la plupart des refus avant qu'ils arrivent.
+
+![Taux d'acceptation des locataires étrangers par voie à Tokyo](/tokyo-approval-rate-fr.png "30-45% seul vs 90-98% via une share house ou un agent bilingue")
 ## Les vraies raisons d'un refus de dossier à Tokyo
 
 Les refus viennent rarement d'une intention discriminatoire explicite. Ils reflètent une gestion du risque dans un marché locatif structurellement peu protecteur pour les propriétaires japonais.
@@ -11379,6 +11385,8 @@ Chaque année, de fin août à octobre, Tokyo reçoit la queue de plusieurs typh
 
 **Réponse rapide :** Pour traverser la saison des typhons à Tokyo sereinement, évitez les rez-de-chaussée et sous-sols dans les zones basses près des rivières, consultez la carte des risques (hazard map) de l'arrondissement avant de signer, et privilégiez un immeuble en béton récent. Souscrivez une assurance habitation : elle est peu chère et couvre les dégâts des eaux. Le risque réel est l'inondation locale, pas le bâtiment lui-même.
 
+
+![Quand chercher un logement à Tokyo, par saison](/tokyo-seasonality-fr.png "Fév-Avr haute saison vs le creux Mai-Août, le meilleur moment pour négocier")
 ## Comprendre le risque réel
 
 Les immeubles japonais sont conçus pour résister au vent et aux séismes. Lors d'un typhon, le danger principal pour un résident n'est pas l'effondrement, mais l'eau : rivière qui déborde, remontée d'égouts, ou ruissellement dans les zones basses. Le risque dépend donc surtout de l'emplacement et de l'étage, pas de la solidité apparente du logement.
@@ -11440,6 +11448,8 @@ Every year, from late August to October, Tokyo catches the tail of several typho
 
 **Quick answer:** To get through Tokyo's typhoon season calmly, avoid ground floors and basements in low areas near rivers, check the ward's hazard map before signing, and favour a recent concrete building. Take out renters insurance: it is cheap and covers water damage. The real risk is local flooding, not the building itself.
 
+
+![When to look for housing in Tokyo, by season](/tokyo-seasonality-en.png "Feb-Apr peak vs the May-Aug lull, the best time to negotiate")
 ## Understanding the real risk
 
 Japanese buildings are designed to withstand wind and earthquakes. During a typhoon, the main danger to a resident is not collapse but water: a river overflowing, sewers backing up, or runoff in low areas. The risk therefore depends mostly on location and floor, not on the apparent sturdiness of the unit.
@@ -11657,6 +11667,8 @@ If you are a foreigner hunting for an apartment in Tokyo, you will probably hear
 
 **Quick answer:** Japanese landlords reject foreign tenants mostly out of perceived risk, not prejudice: no guarantor, communication worries, income that looks unstable, or unfamiliar paperwork. The fixes are concrete: use a guarantor company, present clean proof of income, target foreigner-friendly listings, and have your application presented properly in Japanese. Do that and most rejections disappear.
 
+
+![Foreign tenant acceptance rate by route in Tokyo](/tokyo-approval-rate-en.png "30-45% alone vs 90-98% via a share house or a bilingual agent")
 ## It is about risk, not dislike
 
 Most rejections are not personal. A landlord renting to a tenant they cannot easily communicate with, who has no local track record and no Japanese guarantor, sees risk. Their worst case is unpaid rent and a complicated eviction. Almost every "no" flows from that single fear.
@@ -11705,6 +11717,8 @@ Si vous cherchez un appartement à Tokyo en tant qu'étranger, vous entendrez pr
 
 **Réponse rapide :** Les propriétaires japonais refusent les étrangers surtout par risque perçu, pas par préjugé : absence de garant, crainte de communication, revenus jugés instables, documents inconnus. Les solutions sont concrètes : passer par une société de garantie, présenter des preuves de revenus propres, cibler les biens ouverts aux étrangers, et faire présenter votre dossier correctement en japonais. Faites cela et la plupart des refus disparaissent.
 
+
+![Taux d'acceptation des locataires étrangers par voie à Tokyo](/tokyo-approval-rate-fr.png "30-45% seul vs 90-98% via une share house ou un agent bilingue")
 ## C'est une question de risque, pas d'antipathie
 
 La plupart des refus ne sont pas personnels. Un propriétaire qui loue à un locataire avec qui il ne peut pas communiquer facilement, sans historique local et sans garant japonais, voit un risque. Son pire scénario : loyer impayé et expulsion compliquée. Presque chaque "non" découle de cette seule peur.
