@@ -233,6 +233,8 @@ Combien faut-il gagner pour vivre confortablement à Tokyo en tant qu'expatrié 
 
 **Réponse rapide :** Un expatrié vit confortablement à Tokyo avec environ 200 000 à 350 000 JPY par mois selon le style de vie. Le loyer pèse 40 à 50% du budget : share house 50 000 à 90 000 JPY, studio central 80 000 à 130 000 JPY, 1LDK 130 000 à 200 000 JPY. Ajoutez l'alimentation (~40 000 JPY), le transport, l'assurance santé et les charges. Le loyer est votre principal levier d'économie.
 
+
+![Fourchette de loyer mensuel par type de logement à Tokyo](/tokyo-housing-rent-range-fr.png "Share house 35k-90k vs location standard 60k-250k JPY")
 ## Le logement : le poste dominant
 
 Le loyer représente 40 à 50% du budget total d'un expatrié à Tokyo. C'est le levier principal sur lequel vous pouvez agir. Pour le loyer médian par arrondissement et layout, voyez notre [Indice des loyers de Tokyo](/data).
@@ -699,6 +701,8 @@ How much do you need to live comfortably in Tokyo as a foreigner? The answer dep
 
 **Quick answer:** A foreigner lives comfortably in Tokyo on roughly 200,000 to 350,000 JPY per month depending on lifestyle. Rent is 40 to 50% of the budget: share house 50,000 to 90,000 JPY, central studio 80,000 to 130,000 JPY, 1LDK 130,000 to 200,000 JPY. Add food (~40,000 JPY), transport, health insurance and utilities. Rent is your main lever to save.
 
+
+![Monthly rent range by housing type in Tokyo](/tokyo-housing-rent-range-en.png "Share house 35k-90k vs standard rental 60k-250k JPY")
 ## Housing: the dominant cost
 
 Rent represents 40 to 50% of a Tokyo expat's total budget. It is also the main lever you can act on. For median rent by ward and layout, see our [Tokyo Rent Index](/data).
@@ -4675,6 +4679,8 @@ For health coverage upon your September arrival, [SafetyWing Nomad Insurance](ht
     date: '2026-06-21',
     readingTime: '8 min',
     content: `
+
+![Fourchette de loyer mensuel par type de logement à Tokyo](/tokyo-housing-rent-range-fr.png "Share house 35k-90k vs location standard 60k-250k JPY")
 ## Trouver un appartement meublé à Tokyo rapidement : le guide pour expatriés
 
 **Réponse rapide :** Un appartement meublé à Tokyo (monthly mansion) permet d'emménager vite, sans garant ni argent-clé, avec mobilier, électroménager et souvent internet inclus. Idéal pour les premiers mois d'un expatrié : comptez 90 000 à 250 000 JPY par mois selon la taille et le quartier. On candidate en ligne avec passeport et visa.
@@ -7925,6 +7931,8 @@ Trouver un appartement meublé à Tokyo est une des premières urgences de tout 
 Voici les 5 options réelles que vous avez, avec leurs coûts 2026, leurs avantages et leurs limites. Pour le panorama complet au-delà de ces cinq, voyez notre [guide complet des appartements meublés à Tokyo](/fr/blog/guide-appartements-meubles-tokyo).
 
 > **Vu du terrain.** En gérant des meublés, je peux vous dire que les photos de l'annonce sont souvent l'appartement témoin, pas celui que vous aurez. Ce qui varie vraiment, c'est ce qui est inclus : literie, débit wifi, ménage, une cuisine utilisable. Faites lister les inclusions par écrit avant de payer une caution.
+
+![Fourchette de loyer mensuel par type de logement à Tokyo](/tokyo-housing-rent-range-fr.png "Share house 35k-90k vs location standard 60k-250k JPY")
 ## 1. La share house meublée (40 000 à 120 000 JPY/mois)
 
 La share house est la solution la plus accessible pour un expatrié qui arrive sans garant japonais. Les chambres sont entièrement meublées, les parties communes partagées, et le dépôt de garantie est minimal (zéro chez certains opérateurs).
@@ -11055,6 +11063,8 @@ Une mutation tombe rarement avec six mois de préavis. Plus souvent, vous appren
 
 **Réponse rapide :** En deux semaines, oubliez le bail classique non meublé (4 à 6 semaines de délai). Visez un logement meublé sans garant : monthly mansion, share house ou appartement meublé court terme. Réservez avant d'atterrir, gardez 250 000 à 400 000 JPY de trésorerie pour l'entrée, et réglez carte de résidence et compte bancaire dès les premiers jours. Le bail long, vous le signerez plus tard, depuis Tokyo, sans stress.
 
+
+![Délai pour trouver un logement par type à Tokyo](/tokyo-housing-time-fr.png "Share house 1-2 semaines vs location standard 4-8 semaines")
 ## Pourquoi deux semaines, c'est court (mais jouable)
 
 Le bail japonais classique demande un garant (ou une société de garantie), un dossier validé par le propriétaire (3 à 7 jours ouvrés), et souvent 3 à 5 mois d'avance. Entre la sélection du bien et la remise des clés, comptez 4 à 8 semaines. Ce calendrier est incompatible avec une arrivée sous quinze jours.
@@ -11137,6 +11147,8 @@ A corporate transfer rarely comes with six months' notice. More often you learn 
 
 **Quick answer:** In two weeks, forget the standard unfurnished lease (4 to 6 weeks to complete). Go for furnished, no-guarantor housing: a monthly mansion, a share house, or a short-term furnished apartment. Book before you land, keep 250,000 to 400,000 JPY of cash for move-in, and sort your residence card and bank account in the first days. You sign the long lease later, from Tokyo, with no pressure.
 
+
+![Time to find housing by type in Tokyo](/tokyo-housing-time-en.png "Share house 1-2 weeks vs a standard lease 4-8 weeks")
 ## Why two weeks is tight (but workable)
 
 The standard Japanese lease needs a guarantor (or a guarantor company), landlord screening (3 to 7 business days), and often 3 to 5 months upfront. Between picking a unit and getting the keys, expect 4 to 8 weeks. That timeline does not fit an arrival inside a fortnight.
@@ -11219,6 +11231,8 @@ L'été est la saison oubliée du marché locatif tokyoïte. Tout le monde parle
 
 **Réponse rapide :** Déménager à Tokyo en juillet-août se fait sur un marché plus calme qu'au printemps : moins de concurrence, propriétaires plus ouverts à la négociation, biens disponibles plus longtemps. Les contraintes : chaleur et humidité extrêmes (vérifiez la climatisation), la semaine d'Obon mi-août qui ralentit agences et déménageurs, et la saison des typhons qui démarre. Bien géré, l'été est un bon moment pour trouver, souvent moins cher.
 
+
+![Délai pour trouver un logement par type à Tokyo](/tokyo-housing-time-fr.png "Share house 1-2 semaines vs location standard 4-8 semaines")
 ## Pourquoi l'été est un marché creux (et pourquoi c'est une bonne nouvelle)
 
 Au Japon, l'essentiel des déménagements se concentre en février-avril, autour du début de l'année fiscale et scolaire. En juillet-août, la demande retombe : moins de candidats sur chaque bien, des annonces qui restent en ligne plusieurs semaines, et des propriétaires plus enclins à discuter le loyer ou les frais d'entrée pour ne pas laisser un logement vide.
@@ -11291,6 +11305,8 @@ Summer is the forgotten season of the Tokyo rental market. Everyone talks about 
 
 **Quick answer:** Moving to Tokyo in July-August means a quieter market than spring: less competition, landlords more open to negotiation, units that stay available longer. The constraints: extreme heat and humidity (check the air conditioning), the Obon week in mid-August that slows agencies and movers, and the start of typhoon season. Handled well, summer is a good time to find a place, often cheaper.
 
+
+![Time to find housing by type in Tokyo](/tokyo-housing-time-en.png "Share house 1-2 weeks vs a standard lease 4-8 weeks")
 ## Why summer is a market lull (and why that is good news)
 
 In Japan, most moves cluster in February to April, around the start of the fiscal and school year. In July-August demand drops: fewer applicants per unit, listings that stay online for weeks, and landlords more willing to discuss rent or move-in fees rather than leave a place empty.
@@ -12430,6 +12446,8 @@ Le piege, c'est que les meilleurs meubles sont detenus par un petit cercle d'ope
 
 **Quick answer:** An expat (or gaijin) apartment in Tokyo is a rental that welcomes foreign tenants, usually furnished, with no Japanese guarantor, no key money and English-friendly paperwork. In practice that means a share house, a social apartment, a furnished monthly mansion, or a standard lease arranged through a bilingual agent. Expect 45,000 to 200,000 JPY per month depending on the type and how central you want to be.
 
+
+![Monthly rent range by housing type in Tokyo](/tokyo-housing-rent-range-en.png "Share house 35k-90k vs standard rental 60k-250k JPY")
 ## What is an "expat" or "gaijin" apartment?
 
 There is no legal category called a gaijin apartment. The term is shorthand for rentals set up to take foreign tenants, because the standard Japanese market puts up real barriers: a Japanese guarantor, key money, agency fees, and paperwork in Japanese. An expat apartment removes those. You sign in English (or with a bilingual agent), skip the guarantor via a guarantee company, and often move in within days.
@@ -12496,6 +12514,8 @@ Les "appartements pour expatriés" ou "appartements gaijin" ne sont pas un type 
 
 **Réponse rapide :** Un appartement pour expatrié (ou gaijin) à Tokyo est une location qui accueille les locataires étrangers, souvent meublée, sans garant japonais, sans argent-clé et avec des démarches en anglais. En pratique, c'est une share house, un social apartment, un appartement meublé au mois, ou un bail classique arrangé par un agent bilingue. Comptez 45 000 à 200 000 JPY par mois selon le type et le niveau de centralité.
 
+
+![Fourchette de loyer mensuel par type de logement à Tokyo](/tokyo-housing-rent-range-fr.png "Share house 35k-90k vs location standard 60k-250k JPY")
 ## Qu'est-ce qu'un appartement "expatrié" ou "gaijin" ?
 
 Il n'existe aucune catégorie légale d'appartement gaijin. Le terme désigne les locations pensées pour accueillir des étrangers, parce que le marché japonais classique dresse de vraies barrières : garant japonais, argent-clé, frais d'agence et dossier en japonais. Un appartement pour expatrié supprime tout ça. Vous signez en anglais (ou via un agent bilingue), vous évitez le garant grâce à une société de garantie, et vous emménagez souvent en quelques jours.
