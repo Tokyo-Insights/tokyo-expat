@@ -25,6 +25,8 @@ Pourtant, des milliers d'expatriés trouvent un logement à Tokyo chaque année.
 
 **Réponse rapide :** Pour trouver un appartement à Tokyo en tant qu'étranger, ciblez les agences spécialisées internationales et utilisez une société de garantie (garantee company) à la place d'un garant japonais. Les options sans garant les plus rapides sont la share house, le monthly mansion et l'appartement meublé. Notre [guide complet des appartements meublés à Tokyo](/fr/blog/guide-appartements-meubles-tokyo) détaille ces solutions. Préparez votre passeport, votre visa, un justificatif de revenus et une adresse au Japon. Avec la bonne méthode, comptez 2 semaines plutôt que 3 mois.
 
+
+![Coût d'entrée en mois de loyer, par type de logement à Tokyo](/tokyo-housing-barrier-fr.png "Share house ~1 mois vs location standard ~5 mois plus un garant")
 ## Le problème du garant (hoshounin)
 
 La quasi-totalité des propriétés traditionnelles japonaises exigent un **hoshounin** (garant personnel) : un citoyen japonais qui accepte de payer votre loyer si vous devenez défaillant. Pour un étranger sans famille japonaise, c'est un mur.
@@ -129,6 +131,8 @@ Le share house est la porte d'entrée la plus accessible au marché locatif toky
 
 **Réponse rapide :** Un share house à Tokyo coûte 45 000 à 90 000 JPY/mois, sans reikin ni garant japonais, avec une installation possible en quelques jours. Chaque résident a une chambre privée (8 à 16 m²) et partage cuisine, salle de bains et salon. Les charges (eau, électricité, internet) sont souvent incluses. C'est l'option la plus accessible pour un étranger qui arrive à Tokyo.
 
+
+![Coût d'entrée en mois de loyer, par type de logement à Tokyo](/tokyo-housing-barrier-fr.png "Share house ~1 mois vs location standard ~5 mois plus un garant")
 ## Qu'est-ce qu'un share house au Japon ?
 
 Un share house (シェアハウス) est une maison ou un appartement où plusieurs résidents partagent les espaces communs : cuisine, salle de bains, salon. Chaque résident dispose d'une chambre privée, généralement de 8 à 16m2.
@@ -440,6 +444,8 @@ Tokyo has one of the most closed rental markets in the world for foreigners. No 
 
 Yet thousands of expats find housing in Tokyo every year. The difference between those who settle in two weeks and those who struggle for three months comes down to method.
 
+
+![Move-in cost in months of rent, by housing type in Tokyo](/tokyo-housing-barrier-en.png "Share house ~1 month vs a standard lease ~5 months plus a guarantor")
 ## The guarantor problem
 
 Almost all traditional Japanese rental properties require a **hoshounin** (personal guarantor): a Japanese citizen who agrees to cover your rent if you default. For a foreigner without Japanese family, this is a hard wall.
@@ -1021,6 +1027,8 @@ L'un des plus grands obstacles pour un étranger qui cherche un appartement à T
 
 **Réponse rapide :** Oui, on peut louer un appartement meublé à Tokyo sans garant japonais. Les monthly mansions et appartements meublés court terme acceptent les étrangers avec un passeport et un visa, sans garant ni argent-clé, avec emménagement en quelques jours. Comptez 90 000 à 250 000 JPY par mois selon la taille et l'emplacement.
 
+
+![Coût d'entrée en mois de loyer, par type de logement à Tokyo](/tokyo-housing-barrier-fr.png "Share house ~1 mois vs location standard ~5 mois plus un garant")
 ## Pourquoi les propriétaires japonais exigent un garant
 
 Historiquement, le système locatif japonais repose sur une confiance implicite communautaire. Un garant personnel est censé garantir non seulement le paiement du loyer, mais aussi le comportement du locataire. Pour un propriétaire japonais traditionnel, louer à un étranger sans garant japonais représente un risque perçu comme élevé.
@@ -1215,6 +1223,8 @@ Share houses are the fastest, most accessible entry point into the Tokyo rental 
 
 **Quick answer:** A Tokyo share house is a furnished private room with shared kitchen and bathroom, no guarantor and no key money, with move-in within days. Rent runs 40,000 to 90,000 JPY per month, utilities often included, and you can apply online from abroad with just a passport and visa. It is the easiest first home for newcomers.
 
+
+![Move-in cost in months of rent, by housing type in Tokyo](/tokyo-housing-barrier-en.png "Share house ~1 month vs a standard lease ~5 months plus a guarantor")
 ## What is a share house in Japan?
 
 A share house (シェアハウス) is a managed residential property where several tenants share common areas: kitchen, bathroom, living room. Each resident has their own private room, typically 8 to 16 sqm.
@@ -1330,6 +1340,8 @@ The Japanese guarantor requirement is the single biggest barrier for foreigners 
 
 **Quick answer:** Yes, you can rent a furnished apartment in Tokyo without a Japanese guarantor. Monthly mansions and short-term furnished apartments accept foreigners with a passport and visa, no guarantor and no key money, with move-in within days. Expect 90,000 to 250,000 JPY per month depending on size and location.
 
+
+![Move-in cost in months of rent, by housing type in Tokyo](/tokyo-housing-barrier-en.png "Share house ~1 month vs a standard lease ~5 months plus a guarantor")
 ## Why the guarantor barrier exists
 
 Traditional Japanese rental culture relies on a personal guarantor (hoshounin): a Japanese citizen who takes legal responsibility for your rent and behaviour. For a landlord dealing with a foreign tenant who may not speak Japanese and might leave after 1 to 2 years, the perceived risk is high.
@@ -3194,6 +3206,8 @@ La garantie de loyer est l'un des obstacles les plus redoutés par les étranger
 **Réponse rapide :** Vous n'avez pas besoin d'un garant personnel japonais pour louer au Japon. La plupart des étrangers passent par une société de garantie (hoshou-gaisha), qui coûte 50 à 100% d'un mois de loyer et couvre le propriétaire en cas de défaut. Les options sans garant (share houses, appartements meublés et monthly mansions) évitent totalement cette exigence et acceptent un passeport et un visa.
 
 > **Vu du terrain.** Les propriétaires ne vous rejettent pas vraiment en tant que personne : ils tarifent un risque qu'ils ne savent pas lire (pas d'historique de crédit local, durée de séjour incertaine). Les opérateurs et sociétés de garantie qui acceptent les étrangers ont simplement appris à le lire. Donnez-leur un dossier propre et complet, et l'essentiel du mur tombe.
+
+![Coût d'entrée en mois de loyer, par type de logement à Tokyo](/tokyo-housing-barrier-fr.png "Share house ~1 mois vs location standard ~5 mois plus un garant")
 ## Le garant personnel (保証人 hoshounin) : l'obstacle historique
 
 Pendant des décennies, tout locataire au Japon devait présenter un hoshounin, littéralement "personne qui garantit". Ce garant devait être japonais, résider au Japon, disposer de revenus suffisants et accepter une responsabilité solidaire sur le loyer.
@@ -3271,6 +3285,8 @@ The guarantor requirement is one of the most feared obstacles for foreigners loo
 **Quick answer:** You do not need a Japanese personal guarantor to rent in Japan. Most foreigners use a guarantor company (hoshou-gaisha), which charges 50 to 100% of one month's rent and covers the landlord if you default. No-guarantor options (share houses, furnished or monthly mansions) skip the requirement entirely and accept a passport and visa. See our [complete guide to furnished apartments in Tokyo](/en/blog/furnished-apartments-tokyo-guide) for how these work.
 
 > **From the field.** Landlords are not really rejecting you as a person, they are pricing a risk they cannot read: no local credit history, unclear how long you will stay. The operators and guarantee companies that take foreigners have simply learned to read it. Give them a clean, complete file and most of the wall disappears.
+
+![Move-in cost in months of rent, by housing type in Tokyo](/tokyo-housing-barrier-en.png "Share house ~1 month vs a standard lease ~5 months plus a guarantor")
 ## The personal guarantor (保証人 hoshounin): the historical barrier
 
 For decades, every tenant in Japan had to provide a hoshounin, literally "a person who guarantees." This guarantor had to be Japanese, resident in Japan, have sufficient income, and accept joint liability for the rent.
@@ -12857,6 +12873,8 @@ For foreigners on a budget, the single biggest housing secret in Tokyo is UR ren
 
 **Quick answer:** UR housing (UR賃貸住宅), run by a semi-public agency, charges no key money, no agency fee and no renewal fee, and requires no guarantor. You pay a refundable deposit (usually two months) and the first rent, and that is it. Foreigners with a residence card can apply, as long as you meet an income threshold (roughly a monthly income of at least the rent times a set multiple) or qualify through savings. It is one of the cheapest, most foreigner-open ways to rent a real apartment in Tokyo.
 
+
+![Move-in cost in months of rent, by housing type in Tokyo](/tokyo-housing-barrier-en.png "Share house ~1 month vs a standard lease ~5 months plus a guarantor")
 ## The four zeros that save you months of rent
 A standard Tokyo lease can cost four to six months of rent up front (see our [move-in cost breakdown](/en/blog/tokyo-apartment-move-in-costs)). UR removes most of that:
 - **No key money (reikin).** The non-refundable one-to-two-month gift to the landlord is gone.
@@ -12901,6 +12919,8 @@ Pour un étranger avec un budget serré, le plus grand secret du logement à Tok
 
 **Réponse rapide :** Le logement UR (UR賃貸住宅), géré par un organisme semi-public, ne demande ni argent-clé, ni frais d'agence, ni frais de renouvellement, et n'exige pas de garant. Vous payez une caution remboursable (en général deux mois) et le premier loyer, c'est tout. Les étrangers titulaires d'une carte de résident peuvent postuler, à condition de remplir une condition de revenus (en gros un revenu mensuel au moins égal à un multiple du loyer) ou de justifier d'une épargne suffisante. C'est l'un des moyens les moins chers et les plus ouverts aux étrangers de louer un vrai appartement à Tokyo.
 
+
+![Coût d'entrée en mois de loyer, par type de logement à Tokyo](/tokyo-housing-barrier-fr.png "Share house ~1 mois vs location standard ~5 mois plus un garant")
 ## Les quatre zéros qui économisent des mois de loyer
 Un bail classique à Tokyo peut coûter 4 à 6 mois de loyer à l'entrée (voir notre [détail des frais cachés](/fr/blog/frais-caches-location-tokyo)). UR en supprime l'essentiel :
 - **Pas d'argent-clé (reikin).** Le cadeau non remboursable de 1 à 2 mois au propriétaire disparaît.
