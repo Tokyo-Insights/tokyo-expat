@@ -133,6 +133,9 @@ const wardData = (rentIndex.wards as unknown as WardRent[])
     tier: tierFor1K(w.rents['1K']?.median),
   }))
 
+// Ward au 1LDK le moins cher (couple) -- differe du 1K le moins cher = le "flip" citable.
+const cheapest1ldk = [...wardData].filter((w) => w.r1ldk).sort((a, b) => (a.r1ldk ?? 0) - (b.r1ldk ?? 0))[0]
+
 const totalListings = (rentIndex.total_listings as number).toLocaleString('en-US')
 
 type LineRent = {
@@ -293,8 +296,13 @@ export default async function DataPage({
 
       {/* Hero */}
       <div className="mb-12">
-        <div className="inline-block bg-[#0f2744]/8 text-[#0f2744] text-xs font-semibold px-3 py-1 rounded-full mb-4 uppercase tracking-wider">
-          {copy.last_updated}
+        <div className="flex flex-wrap items-center gap-2 mb-4">
+          <span className="inline-block bg-[#e84141]/10 text-[#e84141] text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">
+            {l === 'en' ? 'Tokyo Expat Rent Report' : 'Tokyo Expat Rent Report'}
+          </span>
+          <span className="inline-block bg-[#0f2744]/8 text-[#0f2744] text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wider">
+            {copy.last_updated}
+          </span>
         </div>
         <h1 className="text-4xl font-extrabold text-[#0f2744] mb-4">{copy.hero_title}</h1>
         <p className="text-gray-500 text-lg leading-relaxed">{copy.hero_subtitle}</p>
@@ -317,31 +325,35 @@ export default async function DataPage({
         ))}
       </div>
 
-      {/* Key figures (citable, dated) -- optimise pour la citation par les IA (GEO) */}
+      {/* Tokyo Expat Rent Report -- headline findings nommes + citables (GEO + data-PR) */}
       <section className="mb-14">
-        <div className="border border-gray-200 rounded-2xl p-6 bg-gray-50/60">
-          <h2 className="text-sm font-bold text-[#0f2744] uppercase tracking-wider mb-3">
-            {l === 'en' ? `Key Tokyo rent figures (as of ${asOf})` : `Chiffres cles du loyer a Tokyo (au ${asOf})`}
+        <div className="border border-[#0f2744]/15 rounded-2xl p-6 bg-gray-50/60">
+          <div className="inline-block bg-[#e84141]/10 text-[#e84141] text-[11px] font-bold px-2.5 py-1 rounded-full mb-3 uppercase tracking-wider">
+            {l === 'en' ? 'Tokyo Expat Rent Report 2026' : 'Tokyo Expat Rent Report 2026'}
+          </div>
+          <h2 className="text-lg font-bold text-[#0f2744] mb-3">
+            {l === 'en' ? `Headline findings (as of ${asOf})` : `Résultats clés (au ${asOf})`}
           </h2>
-          <ul className="space-y-2 text-sm text-gray-700">
+          <ul className="space-y-2.5 text-sm text-gray-700">
             <li>{l === 'en'
-              ? `The median monthly rent for a 1K studio in Tokyo ranges from ${fmtYenUsd(wardData[0]?.r1k)} in ${wardData[0]?.ward_fr} to ${fmtYenUsd(wardData[wardData.length-1]?.r1k)} in ${wardData[wardData.length-1]?.ward_fr}.`
-              : `Le loyer mensuel median d'un studio 1K a Tokyo va de ${fmtYenUsd(wardData[0]?.r1k)} a ${wardData[0]?.ward_fr} a ${fmtYenUsd(wardData[wardData.length-1]?.r1k)} a ${wardData[wardData.length-1]?.ward_fr}.`}</li>
+              ? `The same 1K studio costs nearly double depending on the station: ${fmtYenUsd(stationData[0]?.r1k)} near ${stationData[0]?.station} versus ${fmtYenUsd(stationData[stationData.length-1]?.r1k)} near ${stationData[stationData.length-1]?.station} (+${Math.round(((stationData[stationData.length-1]?.r1k||0)/(stationData[0]?.r1k||1)-1)*100)}%), across 50 major stations.`
+              : `Le même studio 1K coûte près du double selon la station : ${fmtYenUsd(stationData[0]?.r1k)} près de ${stationData[0]?.station} contre ${fmtYenUsd(stationData[stationData.length-1]?.r1k)} près de ${stationData[stationData.length-1]?.station} (+${Math.round(((stationData[stationData.length-1]?.r1k||0)/(stationData[0]?.r1k||1)-1)*100)} %), sur 50 grandes stations.`}</li>
             <li>{l === 'en'
-              ? `The cheapest station for a 1K studio is ${stationData[0]?.station} (${fmtYenUsd(stationData[0]?.r1k)}); the most expensive is ${stationData[stationData.length-1]?.station} (${fmtYenUsd(stationData[stationData.length-1]?.r1k)}).`
-              : `La station la moins chere pour un studio 1K est ${stationData[0]?.station} (${fmtYenUsd(stationData[0]?.r1k)}) ; la plus chere est ${stationData[stationData.length-1]?.station} (${fmtYenUsd(stationData[stationData.length-1]?.r1k)}).`}</li>
+              ? `The cheapest ward depends on who you are: a single renter's cheapest 1K is in ${wardData[0]?.ward_fr} (${fmtYenUsd(wardData[0]?.r1k)}), while a couple's cheapest 1LDK is in ${cheapest1ldk?.ward_fr} (${fmtYenUsd(cheapest1ldk?.r1ldk)}). Not the same neighbourhood.`
+              : `L'arrondissement le moins cher dépend de qui vous êtes : pour un célibataire, le 1K le moins cher est à ${wardData[0]?.ward_fr} (${fmtYenUsd(wardData[0]?.r1k)}), alors que pour un couple, le 1LDK le moins cher est à ${cheapest1ldk?.ward_fr} (${fmtYenUsd(cheapest1ldk?.r1ldk)}). Pas le même quartier.`}</li>
+            <li>{l === 'en'
+              ? `Across the 23 wards, a 1K studio runs from ${fmtYenUsd(wardData[0]?.r1k)} in ${wardData[0]?.ward_fr} to ${fmtYenUsd(wardData[wardData.length-1]?.r1k)} in ${wardData[wardData.length-1]?.ward_fr} (+${Math.round(((wardData[wardData.length-1]?.r1k||0)/(wardData[0]?.r1k||1)-1)*100)}%).`
+              : `Sur les 23 arrondissements, un studio 1K va de ${fmtYenUsd(wardData[0]?.r1k)} à ${wardData[0]?.ward_fr} à ${fmtYenUsd(wardData[wardData.length-1]?.r1k)} à ${wardData[wardData.length-1]?.ward_fr} (+${Math.round(((wardData[wardData.length-1]?.r1k||0)/(wardData[0]?.r1k||1)-1)*100)} %).`}</li>
             <li>{l === 'en'
               ? `Tokyo's median used-condominium sale price rose ${ptPct >= 0 ? '+' : ''}${ptPct}% per square metre from ${ptFromYr} to ${ptToYr}.`
-              : `Le prix de vente median au m2 des coproprietes d'occasion a Tokyo a augmente de ${ptPct >= 0 ? '+' : ''}${ptPct}% de ${ptFromYr} a ${ptToYr}.`}</li>
-            <li>{l === 'en'
-              ? `Figures are computed from ${totalListings} active rental listings across Tokyo's 23 wards.`
-              : `Chiffres calcules sur ${totalListings} annonces locatives actives dans les 23 arrondissements de Tokyo.`}</li>
+              : `Le prix de vente médian au m2 des copropriétés d'occasion à Tokyo a augmenté de ${ptPct >= 0 ? '+' : ''}${ptPct}% de ${ptFromYr} à ${ptToYr}.`}</li>
           </ul>
-          <p className="text-[11px] text-gray-500 mt-4 border-t border-gray-200 pt-3">
-            {l === 'en'
-              ? `Cite this data: Tokyo Expat, tokyo-expat.com/${l}/data (as of ${asOf}). Attribution with a link is appreciated.`
-              : `Citer ces donnees : Tokyo Expat, tokyo-expat.com/${l}/data (au ${asOf}). L'attribution avec un lien est appreciee.`}
-          </p>
+          <div className="text-[11px] text-gray-500 mt-4 border-t border-gray-200 pt-3">
+            <p className="font-semibold text-gray-600 mb-1">{l === 'en' ? 'How to cite this report' : 'Comment citer ce rapport'}</p>
+            <p>{l === 'en'
+              ? `Tokyo Expat Rent Report 2026, tokyo-expat.com/${l}/data (as of ${asOf}). Computed from ${totalListings} active rental listings across Tokyo's 23 wards. Free to republish with a link back to this page.`
+              : `Tokyo Expat Rent Report 2026, tokyo-expat.com/${l}/data (au ${asOf}). Calculé sur ${totalListings} annonces locatives actives dans les 23 arrondissements de Tokyo. Libre de republication avec un lien vers cette page.`}</p>
+          </div>
         </div>
       </section>
 
