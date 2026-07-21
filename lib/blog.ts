@@ -1841,7 +1841,7 @@ Après un certain nombre d'années de résidence légale et continue au Japon (e
 Pour votre couverture sante pendant les demarches d'installation, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) propose une assurance mensuelle sans engagement, activable des votre arrivee au Japon. *(lien affilie)*
 ---
 
-*Votre logement à Tokyo est la première étape pour obtenir votre adresse et enregistrer votre zairyu card. Réservez une consultation gratuite pour voir les disponibilités.*
+*Votre logement à Tokyo est la première étape pour obtenir votre adresse et enregistrer votre zairyu card. Réservez une consultation gratuite pour cadrer votre recherche de logement.*
     `.trim(),
   },
   {
@@ -4019,7 +4019,7 @@ For health coverage whatever your housing option, [SafetyWing Nomad Insurance](h
 
 *À lire aussi : [Share house à Tokyo : guide complet pour expatriés (2026)](/blog/share-house-tokyo-guide-complet).*
 
-*Vous cherchez un share house ou un appartement meublé à Tokyo pour votre arrivée ? Réservez une consultation gratuite pour voir les disponibilités actuelles.*
+*Vous cherchez un share house ou un appartement meublé à Tokyo pour votre arrivée ? Réservez une consultation gratuite pour explorer les options adaptées à votre arrivée.*
     `.trim(),
   },
 
@@ -4562,7 +4562,7 @@ Pour votre couverture sante en arrivant en septembre, [SafetyWing Nomad Insuranc
 
 *À lire aussi : [Logement étudiant à Tokyo pour octobre : share house ou dortoir ?](/blog/logement-etudiant-tokyo-octobre).*
 
-*Vous arrivez à Tokyo en septembre ? Réservez une consultation gratuite maintenant pour voir les disponibilités actuelles et sécuriser votre logement avant d'atterrir.*
+*Vous arrivez à Tokyo en septembre ? Réservez une consultation gratuite maintenant pour préparer votre recherche et avancer avant d'atterrir.*
     `.trim(),
   },
 
@@ -4776,7 +4776,7 @@ Pour votre couverture sante pendant la transition, [SafetyWing Nomad Insurance](
 
 *À lire aussi : [Appartement meublé à Tokyo sans garant : comment trouver en 2026](/blog/appartement-meuble-tokyo-sans-garant), [Appartement meublé à Tokyo : les 5 meilleures options pour expatriés (2026)](/blog/appartement-meuble-tokyo-expats-top-5).*
 
-*Vous arrivez à Tokyo prochainement ? [Contactez-nous](/contact) pour une liste des disponibilités actuelles adaptées à votre budget et quartier cible.*
+*Vous arrivez à Tokyo prochainement ? [Contactez-nous](/contact) pour qu'on vous oriente vers les options adaptées à votre budget et votre quartier cible.*
     `.trim(),
   },
   {
