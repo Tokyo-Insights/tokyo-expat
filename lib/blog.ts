@@ -1456,6 +1456,8 @@ Opening a Japanese bank account is one of the first administrative tasks to comp
 
 **Quick answer:** To open a Japanese bank account, first register your address at the ward office, then apply with your residence card, address, and a phone number. Japan Post Bank (Yucho) is the most accessible to newcomers and can often be opened soon after arrival; some other banks ask for six months of residence. You need an account to receive a salary, pay rent, and get a contract SIM.
 
+
+![The order of steps to settle in Tokyo: visa, residence card, bank, guarantor, lease](/tokyo-process-en.png "Your residence card unlocks everything, get it on day 1")
 ## What you need before you start
 
 All Japanese banks require at minimum:
@@ -1690,6 +1692,8 @@ Le système de santé japonais est l'un des meilleurs au monde, mais il est bas�
 
 **Réponse rapide :** Au Japon, tout résident (étrangers inclus) doit avoir une assurance maladie : soit le shakai hoken (assurance d'entreprise, environ 50% payé par l'employeur), soit le kokumin kenko hoken (assurance nationale, pour les indépendants et sans emploi). Elle couvre 70% des frais médicaux. Le coût dépend de vos revenus, souvent 1 500 à 3 000 JPY/mois pour un nouvel arrivant à faible revenu. L'inscription se fait à la mairie de votre quartier.
 
+
+![L'ordre des étapes pour s'installer à Tokyo : visa, carte de séjour, banque, garant, bail](/tokyo-process-fr.png "La carte de séjour débloque tout, faites-la le jour 1")
 ## Les deux systèmes d'assurance maladie au Japon
 
 Au Japon, tout résident (y compris les étrangers) doit être couvert par l'un des deux systèmes :
@@ -2316,6 +2320,8 @@ Japan has one of the best healthcare systems in the world, built on a mandatory 
 
 **Quick answer:** Japan requires every resident, including foreigners, to enrol in health insurance. If you are employed, you join your company's Social Insurance (Shakai Hoken); otherwise you enrol in National Health Insurance (NHI) at the ward office. Both cover about 70% of medical costs, so you pay 30% out of pocket. Enrol as soon as you register your address to avoid back-payments.
 
+
+![The order of steps to settle in Tokyo: visa, residence card, bank, guarantor, lease](/tokyo-process-en.png "Your residence card unlocks everything, get it on day 1")
 ## The two systems
 
 Every resident in Japan must be covered by one of two systems:
@@ -3229,6 +3235,8 @@ Quelques cas où le garant personnel reste possible :
 
 Dans tous les autres cas, la société de garantie est devenue la norme.
 
+
+![Comment marche le garant à Tokyo : locataire, société de garantie, bailleur](/tokyo-guarantor-fr.png "La plupart des étrangers passent par une société de garantie")
 ## La société de garantie (保証会社 hoshougaisha) : la solution moderne
 
 Depuis les années 2010, les sociétés de garantie locative ont transformé le marché. Aujourd'hui, plus de 80 % des propriétaires à Tokyo acceptent une hoshougaisha à la place d'un garant personnel. C'est devenu la solution standard, y compris pour les locataires japonais.
@@ -3308,6 +3316,8 @@ A personal guarantor may still be possible when:
 
 In all other cases, the guarantee company has become the standard solution.
 
+
+![How the guarantor system works in Tokyo: tenant, guarantee company, landlord](/tokyo-guarantor-en.png "Most foreigners use a guarantee company instead of a personal guarantor")
 ## The guarantee company (保証会社 hoshougaisha): the modern solution
 
 Since the 2010s, rental guarantee companies have transformed the market. Today, over 80% of landlords in Tokyo accept a hoshougaisha instead of a personal guarantor. It's now the standard even for Japanese tenants.
@@ -3739,6 +3749,8 @@ Signer un bail à Tokyo en tant qu'étranger comporte des risques concrets si vo
 
 **Réponse rapide :** Avant de signer un bail à Tokyo, vérifiez les 12 points clés : loyer et charges réels, argent-clé (reikin) et caution (shikikin), frais d'agence et de garant, clause de remise en état, préavis de départ, frais de renouvellement et règlement de l'immeuble. Faites traduire toute clause que vous ne comprenez pas : une mauvaise surprise peut coûter des centaines de milliers de yens.
 
+
+![Comment marche le garant à Tokyo : locataire, société de garantie, bailleur](/tokyo-guarantor-fr.png "La plupart des étrangers passent par une société de garantie")
 ## 1. Le montant total des frais d'entrée
 
 La première chose à calculer est le coût total d'entrée, pas seulement le loyer mensuel. Au Japon, la première mise de fonds comprend généralement :
@@ -3844,6 +3856,8 @@ Signing a lease in Tokyo as a foreigner carries real risks if you can't read a c
 
 **Quick answer:** Before signing a lease in Tokyo, verify 12 key points: real rent and fees, key money (reikin) and deposit (shikikin), agency and guarantor fees, the restoration clause, the notice period, renewal fees, and the building rules. Get any clause you do not understand translated: a bad surprise can cost hundreds of thousands of yen.
 
+
+![How the guarantor system works in Tokyo: tenant, guarantee company, landlord](/tokyo-guarantor-en.png "Most foreigners use a guarantee company instead of a personal guarantor")
 ## 1. Total move-in costs
 
 The first thing to calculate is the total upfront cost, not just the monthly rent. In Japan, the initial outlay typically includes:
@@ -6085,6 +6099,8 @@ Pour votre couverture sante pendant les demarches administratives, [SafetyWing N
     date: '2026-06-21',
     readingTime: '8 min',
     content: `
+
+![L'ordre des étapes pour s'installer à Tokyo : visa, carte de séjour, banque, garant, bail](/tokyo-process-fr.png "La carte de séjour débloque tout, faites-la le jour 1")
 ## Organiser son déménagement international vers le Japon
 
 **Réponse rapide :** Pour un déménagement international vers le Japon, comparez plusieurs devis (fret maritime, moins cher mais lent ; aérien, rapide mais coûteux). Vérifiez l'assurance, le dédouanement et la livraison jusqu'au domicile. Déménagez léger : beaucoup de logements japonais sont petits, et racheter sur place est souvent plus simple que d'expédier.
@@ -8665,6 +8681,8 @@ Relocating an employee to Tokyo involves more complexity than most HR managers a
 
 This guide is written for HR managers, mobility coordinators, and office managers responsible for getting a team member settled in Tokyo as efficiently as possible.
 
+
+![The order of steps to settle in Tokyo: visa, residence card, bank, guarantor, lease](/tokyo-process-en.png "Your residence card unlocks everything, get it on day 1")
 ## The Standard Tokyo Relocation Timeline
 
 Understanding the timeline is the most important thing you can do before triggering a relocation.
@@ -8764,6 +8782,8 @@ Relocaliser un employé à Tokyo implique plus de complexité que la plupart des
 
 Ce guide est écrit pour les DRH, coordinateurs de mobilité et office managers qui doivent installer un collaborateur à Tokyo aussi efficacement que possible.
 
+
+![L'ordre des étapes pour s'installer à Tokyo : visa, carte de séjour, banque, garant, bail](/tokyo-process-fr.png "La carte de séjour débloque tout, faites-la le jour 1")
 ## Le calendrier type d'une relocalisation à Tokyo
 
 Comprendre le calendrier est la chose la plus importante à faire avant de déclencher une relocalisation.
@@ -10310,6 +10330,8 @@ Payer son loyer, rembourser un ami, régler une facture : au Japon, presque tout
 
 **Réponse rapide :** Le furikomi (振込) est le virement bancaire japonais. Vous pouvez le faire au distributeur (ATM), via l'application de votre banque, ou en agence. Il vous faut le nom de la banque, l'agence, le type et le numéro de compte, et le nom du bénéficiaire en katakana. Les frais vont de 0 à 880 JPY selon la banque et le mode. Un virement vers une autre banque prend de quelques heures à 1 jour ouvré.
 
+
+![L'ordre des étapes pour s'installer à Tokyo : visa, carte de séjour, banque, garant, bail](/tokyo-process-fr.png "La carte de séjour débloque tout, faites-la le jour 1")
 ## Ce dont vous avez besoin
 
 - Le nom de la banque et de l'agence (支店 shiten)
@@ -10927,6 +10949,8 @@ Paying rent, repaying a friend, settling a bill: in Japan almost everything goes
 
 **Quick answer:** Furikomi (振込) is the Japanese bank transfer. You can do it at an ATM, through your bank's app, or in branch. You need the bank name, the branch, the account type and number, and the recipient's name in katakana. Fees range from 0 to 880 JPY depending on the bank and method. A transfer to another bank takes from a few hours to one business day.
 
+
+![The order of steps to settle in Tokyo: visa, residence card, bank, guarantor, lease](/tokyo-process-en.png "Your residence card unlocks everything, get it on day 1")
 ## What you need
 
 - The bank and branch name (支店 shiten)
@@ -10971,6 +10995,8 @@ From 2027, failing to keep up with your health insurance or pension could compli
 
 **Quick answer:** Japan plans, from 2027, to check payment of national health insurance (kokumin kenko hoken) and pension during visa renewal or status-change applications. In practice, a foreigner who has not paid their contributions risks a refusal or stricter review. Staying up to date becomes essential to secure your visa.
 
+
+![The order of steps to settle in Tokyo: visa, residence card, bank, guarantor, lease](/tokyo-process-en.png "Your residence card unlocks everything, get it on day 1")
 ## What changes in 2027
 
 Until now, payment of health insurance and pension was not systematically checked at visa renewal. From 2027, immigration plans to cross-reference this data. A history of non-payment could weigh on the decision.
