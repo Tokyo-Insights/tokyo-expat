@@ -6307,6 +6307,8 @@ Pour votre couverture sante pendant la periode d'installation au Japon, [SafetyW
 
 Pour une famille expatriée, le choix du quartier est plus contraignant qu'pour un célibataire. Trois facteurs dominent la décision : la proximité de l'école internationale des enfants, la surface disponible pour le loyer payé, et l'accès aux équipements familiaux (parcs, supermarchés, hôpitaux). Ce guide passe en revue les zones les plus plébiscitées par les familles étrangères résidant à Tokyo.
 
+
+![Loyer médian d'un appartement familial (2LDK) par arrondissement de Tokyo](/tokyo-family-rent-ward-fr.png "De Adachi 161k à Minato 390k pour un 2LDK, sur des annonces réelles actives")
 ## Setagaya-ku : le quartier famille par excellence
 
 Setagaya est l'arrondissement préféré des familles expatriées depuis des décennies. Ses avantages :
@@ -6984,6 +6986,8 @@ For health coverage during your relocation to Japan, [SafetyWing Nomad Insurance
 
 For a family relocating to Tokyo, neighbourhood choice involves more constraints than for a single professional. Three factors typically drive the decision: proximity to your children's international school, the amount of space you can get for your housing budget, and access to family infrastructure such as parks, supermarkets and English-speaking medical services. This guide covers the most popular areas among expat families.
 
+
+![Family flat (2LDK) median rent by Tokyo ward, cheapest to priciest](/tokyo-family-rent-ward-en.png "From Adachi 161k to Minato 390k for a 2LDK, from real active listings")
 ## Setagaya Ward: The Classic Family Choice
 
 Setagaya is the ward most consistently chosen by expat families. It combines residential calm, green space, larger apartment sizes and strong access to international schools.
@@ -8418,6 +8422,8 @@ Comprendre les loyers de Tokyo avant de commencer votre recherche, c'est la diff
 
 Tous les prix ci-dessous sont des loyers mensuels en JPY, hors charges et utilities sauf mention contraire. Ajoutez 15 à 25% pour les appartements entièrement meublés et équipés. Pour le loyer médian dans les 23 arrondissements par layout, voyez notre [Indice des loyers de Tokyo](/data), calculé sur 528 660 annonces réelles.
 
+
+![Le quartier de Tokyo le moins cher dépend de votre foyer : célibataire, couple ou famille](/tokyo-household-flip-fr.png "Célibataire : Edogawa, couple : Katsushika, famille : Adachi. Pas le même quartier.")
 ## Comparatif loyers Tokyo par quartier: 2026
 
 | Quartier | 1K / Studio | 1LDK | 2LDK |
@@ -11537,6 +11543,8 @@ Combien coûte vraiment un loyer à Tokyo ? La plupart des guides donnent des fo
 
 **Réponse rapide :** En 2026, un studio 1K à Tokyo va d'un médian de 74 000 JPY à Edogawa (le moins cher) à 140 000 JPY à Minato (le plus cher), soit 89% d'écart. Un 1LDK (pour un couple) va de 118 000 JPY à Katsushika à 260 000 JPY à Minato. Le détail complet par arrondissement et layout est dans notre [Indice des loyers de Tokyo](/data).
 
+
+![Le quartier de Tokyo le moins cher dépend de votre foyer : célibataire, couple ou famille](/tokyo-household-flip-fr.png "Célibataire : Edogawa, couple : Katsushika, famille : Adachi. Pas le même quartier.")
 ## Comment ce rapport est construit
 
 Nous avons agrégé 528 660 annonces locatives actives dédupliquées dans les 23 arrondissements de Tokyo (sources : les grands portails locatifs japonais), puis calculé le loyer mensuel médian pour chaque arrondissement et layout (1R à 3LDK). Nous utilisons la médiane, pas la moyenne, car elle résiste aux valeurs extrêmes : quelques biens de luxe ne faussent pas le chiffre. Chaque montant ci-dessous reflète ce que des locataires paient réellement.
@@ -11615,6 +11623,8 @@ How much does it really cost to rent in Tokyo? Most guides give vague ranges. Th
 
 **Quick answer:** In 2026, a 1K studio in Tokyo runs from a median of ¥74,000 in Edogawa (the cheapest ward) to ¥140,000 in Minato (the priciest), an 89% gap. A 1LDK (for a couple) ranges from ¥118,000 in Katsushika to ¥260,000 in Minato. The full breakdown by ward and layout is in our [Tokyo Rent Index](/data).
 
+
+![The cheapest Tokyo ward depends on your household: single, couple or family](/tokyo-household-flip-en.png "Single: Edogawa, couple: Katsushika, family: Adachi. Not the same ward.")
 ## How we built this
 
 We aggregated 528,660 deduplicated active rental listings across Tokyo's 23 special wards (sources: major Japanese rental portals), then computed the median monthly rent for each ward and layout (1R to 3LDK). We use the median, not the average, because it resists outliers: a few luxury listings do not distort the figure. Every number below reflects what real tenants actually pay.
@@ -11810,6 +11820,8 @@ Ranked by median monthly rent for a 1K studio, from 528,660 active listings:
 
 These are mostly eastern and outer wards. They sit 20 to 40 minutes from the centre but stay fully on the train network, and your money buys a real apartment instead of a shoebox.
 
+
+![The cheapest Tokyo ward depends on your household: single, couple or family](/tokyo-household-flip-en.png "Single: Edogawa, couple: Katsushika, family: Adachi. Not the same ward.")
 ## The most expensive wards to live in Tokyo
 The other end of the scale, same 1K studio:
 
@@ -11895,6 +11907,8 @@ Classes par loyer median d'un studio 1K, sur 528,660 annonces actives :
 
 Ce sont surtout des arrondissements de l'est et de la peripherie. Ils sont a 20-40 minutes du centre mais restent bien desservis, et votre budget achete un vrai appartement plutot qu'une boite a chaussures.
 
+
+![Le quartier de Tokyo le moins cher dépend de votre foyer : célibataire, couple ou famille](/tokyo-household-flip-fr.png "Célibataire : Edogawa, couple : Katsushika, famille : Adachi. Pas le même quartier.")
 ## Les arrondissements les plus chers de Tokyo
 L'autre extreme, pour le meme studio 1K :
 
