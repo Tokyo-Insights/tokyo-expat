@@ -13027,6 +13027,176 @@ Vous pouvez comparer les zones UR aux loyers du marché dans notre [Indice des l
 *Ceci est une information générale 2026. Vérifiez les conditions d'éligibilité en vigueur avant de postuler.*
     `.trim(),
   },
+  {
+    slug: 'renting-pet-friendly-apartment-tokyo',
+    locale: 'en',
+    title: 'Renting a Pet-Friendly Apartment in Tokyo as a Foreigner (2026)',
+    description: 'Pet-friendly (peto-ka) rentals are a small slice of the Tokyo market and cost more. Here is how foreigners find one, what landlords ask, and the real extra costs.',
+    date: '2026-07-22',
+    readingTime: '8 min',
+    content: `
+Finding an apartment in Tokyo is already hard for foreigners. Add a cat or a dog and the search gets much narrower. Most Japanese rentals are simply not pet-friendly, and the ones that are come with extra rules and extra money. I operate rentals in Tokyo myself, so here is the honest picture of renting with a pet, and how to actually pull it off.
+
+**Quick answer:** Pet-friendly apartments in Tokyo are marked "pet-ka" (ペット可) or "pet-sodan" (ペット相談, negotiable), and they are a small minority of listings, usually 10 to 20 percent depending on the area. Expect to pay more: a higher deposit (often one extra month of rent), sometimes higher monthly rent, and a cleaning or deodorising fee when you leave. Small dogs and cats are far easier than large dogs. Start early, be ready to prove you can pay, and target newer buildings and share houses that openly welcome pets.
+
+## What "pet-friendly" actually means in Japan
+Two terms matter. **Pet-ka** (ペット可) means pets are allowed. **Pet-sodan** (ペット相談) means the landlord will consider it, case by case, often depending on the animal's size and number. A listing with neither is a firm no, and asking rarely changes it. Rules are usually specific: one or two animals maximum, a weight or height limit for dogs, and cats sometimes allowed only if they are indoor and neutered. Read the conditions before you fall in love with the place.
+
+Compared with a standard search, the pet-friendly pool is small. In central wards it can be under 10 percent of listings; in more residential, family-oriented wards it is higher. This is the single biggest reason to start your search weeks earlier than you normally would.
+
+## The extra costs, honestly
+A pet does not change the advertised rent by itself, but it changes the bill in three predictable ways:
+- **Higher deposit (shikikin).** A pet-friendly lease often asks for one extra month of deposit, held against scratches, odours and damage.
+- **Cleaning or deodorising fee.** Many leases add a fixed move-out cleaning charge for pet units, separate from the deposit. Ask for the number in writing before you sign.
+- **Occasionally, higher rent.** Some pet-ka units are priced slightly above their non-pet equivalent.
+
+None of this is a scam; it reflects real wear. Knowing it in advance means no shock at signing. For the full breakdown of what any Tokyo lease costs upfront, see our guide to [the real move-in cost of a Tokyo apartment](/en/blog/tokyo-apartment-move-in-costs).
+
+## Where to look, and what makes it easier
+Three routes work best for foreigners with pets:
+- **Newer buildings.** Recently built apartments are far more likely to be pet-ka, because the flooring and materials are pet-durable. Older wooden buildings almost never are.
+- **Foreigner-friendly stock.** Furnished flats and some share houses openly accept pets and skip the guarantor and key-money hurdles, which is a big deal on your first move. See our [furnished apartments guide](/en/blog/furnished-apartments-tokyo-guide).
+- **Bilingual, foreigner-open agencies.** The pet-friendly slice is small enough that having someone search the whole market for you, in your language, saves weeks.
+
+Small dogs and cats open far more doors than a large dog. If you have a big breed, widen your area and lower your rent expectations from the start.
+
+## What landlords worry about, and how to reassure them
+From the landlord side, the hesitation with a pet is the same as with a foreign tenant: perceived risk. They picture scratched floors, odours and noise complaints. You can defuse most of it. Come with a tidy application, proof you can comfortably pay (income or savings), and a calm, factual description of your pet: breed, size, age, neutered, house-trained. A guarantor company covers the financial risk, which is standard for foreigners anyway; our [guarantor guide](/en/blog/guarantor-japan-rental-foreigner) explains how that works. If you understand why owners say no, you can answer the objection before it is raised, the same logic as [why Japanese landlords reject foreign tenants](/en/blog/why-japanese-landlords-reject-foreigners).
+
+## A realistic plan
+Start four to six weeks before you need to move, not two. Decide your non-negotiables (ward, budget, animal) and be flexible on the rest. Check current market rents for your target wards in our [Tokyo Rent Index](/en/data) so you know a fair price when you see one, and remember that pet-ka units sit at the higher end of their ward. If you would rather have someone inside the market filter the small pet-friendly pool for you, [tell us what you need](/en/contact).
+
+A pet makes the Tokyo search narrower and a bit pricier, but it is entirely doable. Start early, prove you can pay, target newer or foreigner-friendly stock, and present your pet like the low-risk tenant it is.
+
+*Also read: [furnished apartments in Tokyo](/en/blog/furnished-apartments-tokyo-guide) and [why landlords reject foreign tenants](/en/blog/why-japanese-landlords-reject-foreigners).*
+    `.trim(),
+  },
+  {
+    slug: 'louer-appartement-animaux-acceptes-tokyo',
+    locale: 'fr',
+    title: 'Louer un appartement qui accepte les animaux à Tokyo (2026)',
+    description: 'Les logements acceptant les animaux (pet-ka) sont rares à Tokyo et coûtent plus cher. Voici comment les étrangers en trouvent un, ce que demandent les bailleurs et les vrais surcoûts.',
+    date: '2026-07-22',
+    readingTime: '8 min',
+    content: `
+Trouver un appartement à Tokyo est déjà difficile pour un étranger. Ajoutez un chat ou un chien et la recherche se rétrécit beaucoup. La plupart des locations japonaises n'acceptent tout simplement pas les animaux, et celles qui les acceptent viennent avec des règles et des frais en plus. J'opère moi-même des logements à Tokyo, alors voici l'image honnête de la location avec un animal, et comment y arriver.
+
+**Réponse rapide :** Les logements qui acceptent les animaux à Tokyo sont marqués "pet-ka" (ペット可) ou "pet-sodan" (ペット相談, négociable), et ils sont une petite minorité des annonces, souvent 10 à 20 pour cent selon le quartier. Prévoyez de payer plus : un dépôt plus élevé (souvent un mois de loyer en plus), parfois un loyer plus élevé, et des frais de nettoyage ou de désodorisation à la sortie. Les petits chiens et les chats sont bien plus faciles que les grands chiens. Commencez tôt, soyez prêt à prouver que vous pouvez payer, et visez les immeubles récents et les share houses qui accueillent ouvertement les animaux.
+
+## Ce que "accepte les animaux" veut vraiment dire au Japon
+Deux termes comptent. **Pet-ka** (ペット可) signifie que les animaux sont autorisés. **Pet-sodan** (ペット相談) signifie que le bailleur étudiera la demande au cas par cas, souvent selon la taille et le nombre d'animaux. Une annonce sans aucun des deux est un non ferme, et demander change rarement les choses. Les règles sont en général précises : un ou deux animaux maximum, une limite de poids ou de taille pour les chiens, et les chats parfois acceptés seulement s'ils sont d'intérieur et stérilisés. Lisez les conditions avant de craquer pour le logement.
+
+Comparé à une recherche classique, le parc "pet-ka" est petit. Dans les arrondissements centraux, il peut être sous les 10 pour cent des annonces ; dans les arrondissements plus résidentiels et familiaux, il est plus élevé. C'est la première raison de commencer votre recherche des semaines plus tôt que d'habitude.
+
+## Les surcoûts, honnêtement
+Un animal ne change pas le loyer affiché en soi, mais il change la facture de trois façons prévisibles :
+- **Dépôt (shikikin) plus élevé.** Un bail "pet-ka" demande souvent un mois de dépôt en plus, retenu contre les griffures, les odeurs et les dégâts.
+- **Frais de nettoyage ou de désodorisation.** Beaucoup de baux ajoutent des frais de nettoyage de sortie fixes pour les logements avec animaux, séparés du dépôt. Demandez le montant par écrit avant de signer.
+- **Parfois, un loyer plus élevé.** Certains logements "pet-ka" sont un peu au-dessus de leur équivalent sans animal.
+
+Rien de tout cela n'est une arnaque ; cela reflète une vraie usure. Le savoir à l'avance évite le choc à la signature. Pour le détail de ce que coûte l'entrée dans n'importe quel logement à Tokyo, voyez notre [détail des frais cachés d'une location](/fr/blog/frais-caches-location-tokyo).
+
+## Où chercher, et ce qui facilite les choses
+Trois voies marchent le mieux pour un étranger avec un animal :
+- **Les immeubles récents.** Les logements récemment construits sont bien plus souvent "pet-ka", car les sols et les matériaux résistent aux animaux. Les vieux immeubles en bois ne le sont presque jamais.
+- **Le parc foreigner-friendly.** Les meublés et certaines share houses acceptent ouvertement les animaux et évitent les obstacles du garant et de l'argent-clé, ce qui compte beaucoup pour un premier emménagement. Voyez notre [guide des appartements meublés](/fr/blog/guide-appartements-meubles-tokyo).
+- **Les agences bilingues ouvertes aux étrangers.** Le parc "pet-ka" est assez petit pour que faire chercher tout le marché à votre place, dans votre langue, vous économise des semaines.
+
+Un petit chien ou un chat ouvre bien plus de portes qu'un grand chien. Si vous avez une grande race, élargissez votre zone et baissez vos attentes de loyer dès le départ.
+
+## Ce qui inquiète les bailleurs, et comment les rassurer
+Du côté du bailleur, l'hésitation avec un animal est la même qu'avec un locataire étranger : le risque perçu. Il imagine des sols griffés, des odeurs et des plaintes pour le bruit. Vous pouvez désamorcer l'essentiel. Arrivez avec un dossier soigné, une preuve que vous pouvez payer confortablement (revenus ou épargne), et une description calme et factuelle de votre animal : race, taille, âge, stérilisé, propre. Une société de garantie couvre le risque financier, ce qui est de toute façon la norme pour les étrangers ; notre [guide de la garantie de loyer](/fr/blog/garantie-loyer-etranger-japon) explique comment ça marche. Si vous comprenez pourquoi les propriétaires disent non, vous répondez à l'objection avant qu'elle soit posée, la même logique que [pourquoi les propriétaires japonais refusent les étrangers](/fr/blog/pourquoi-proprietaires-japonais-refusent-etrangers).
+
+## Un plan réaliste
+Commencez quatre à six semaines avant votre emménagement, pas deux. Décidez de vos non-négociables (arrondissement, budget, animal) et restez flexible sur le reste. Vérifiez les loyers actuels du marché pour vos arrondissements cibles dans notre [Indice des loyers de Tokyo](/fr/data) pour reconnaître un prix juste, et rappelez-vous que les logements "pet-ka" se situent dans le haut de leur arrondissement. Si vous préférez que quelqu'un de l'intérieur du marché filtre le petit parc "pet-ka" pour vous, [dites-nous ce qu'il vous faut](/fr/contact).
+
+Un animal rétrécit la recherche à Tokyo et la rend un peu plus chère, mais c'est tout à fait faisable. Commencez tôt, prouvez que vous pouvez payer, visez le parc récent ou foreigner-friendly, et présentez votre animal comme le locataire à faible risque qu'il est.
+
+*À lire aussi : [appartements meublés à Tokyo](/fr/blog/guide-appartements-meubles-tokyo) et [pourquoi les propriétaires refusent les étrangers](/fr/blog/pourquoi-proprietaires-japonais-refusent-etrangers).*
+    `.trim(),
+  },
+  {
+    slug: 'best-tokyo-wards-couples-1ldk',
+    locale: 'en',
+    title: 'The Best Tokyo Wards to Rent For a Couple (1LDK, 2026)',
+    description: 'For a couple, the cheapest Tokyo ward is not the same as for a single. Here are the best-value wards for a 1LDK, from real rent data, and how to choose.',
+    date: '2026-07-22',
+    readingTime: '7 min',
+    content: `
+When two people move to Tokyo together, the apartment search changes. A studio no longer works, and the layout most couples land on is the 1LDK: one bedroom plus a living-dining-kitchen. What surprises people is that the cheapest ward for a couple is not the same as the cheapest ward for a single person. Here is where a couple gets the best value, from real rent data.
+
+**Quick answer:** For a couple renting a 1LDK in Tokyo, the best-value wards are Katsushika (around 118,000 JPY, about US$740), Adachi and Edogawa (around 125,000 JPY), then Nerima and Itabashi. These eastern and northern wards are calm, residential and well-connected, and they run far below central wards like Minato, where a 1LDK reaches about 260,000 JPY. Notably, a single person's cheapest ward is Edogawa, but a couple's is Katsushika, so the answer really does depend on your household.
+
+
+![The cheapest Tokyo ward depends on your household: single, couple or family](/tokyo-household-flip-en.png "Single: Edogawa, couple: Katsushika, family: Adachi")
+## Why a couple's cheapest ward is different
+Rent does not scale evenly across layouts. A ward can be cheap for tiny 1K studios but relatively pricier for the larger 1LDK that a couple needs, because the mix of buildings and demand differs by size. That is why the ranking reshuffles. From 528,660 active listings, the cheapest 1LDK wards are Katsushika, Adachi and Edogawa, all in the east, with Nerima and Itabashi close behind in the north. You can see the full picture, and how it flips by household, in our [Tokyo Rent Index](/en/data).
+
+## The best-value wards for a couple, and what they are like
+- **Katsushika and Edogawa (east).** The quietest, most affordable end. Rivers, parks, old-Tokyo atmosphere, and a longer but easy ride into the centre.
+- **Adachi (north-east).** Cheap and improving, with Kita-Senju as a major transfer hub, so "affordable" does not mean "cut off."
+- **Nerima and Itabashi (north-west).** Leafy, family-friendly, on direct lines into Ikebukuro and Shinjuku.
+
+None of these are remote outposts. They are ordinary, livable neighbourhoods with real shopping streets, which is exactly what makes them good value for two people setting up a home.
+
+## What a 1LDK costs across Tokyo
+The gap between the cheapest and priciest ward for a 1LDK is large: from about 118,000 JPY in Katsushika to about 260,000 JPY in Minato, more than double for the same layout. If you both commute to the centre, living one or two wards out can save 60,000 to 100,000 JPY a month for very little added travel. For the studio-to-family jump and the wider layout picture, see our guide to [Japanese apartment layouts](/en/blog/japanese-apartment-layouts-explained).
+
+## Choosing as a couple, not as two singles
+A few things matter more when you rent together:
+- **Guarantor and income.** Landlords usually assess the lead tenant, but combined income helps. A guarantee company is standard for foreigners; see our [guarantor guide](/en/blog/guarantor-japan-rental-foreigner).
+- **Commute balance.** Pick a ward that splits the difference between two workplaces rather than optimising for one. A ward on a line that reaches both hubs beats the cheapest ward on paper.
+- **Space vs location.** A 1LDK in a cheaper eastern ward is often larger than a pricier central one for the same rent. Decide which you value more before you start.
+
+## A realistic plan
+Set your combined budget, agree on the two or three wards that fit it, and check the going 1LDK rate in each on our [Tokyo Rent Index](/en/data) before you contact anyone. The cheapest-on-paper ward is not always the best once you factor in both commutes. If you would rather have someone inside the market line up 1LDK options that fit a couple's budget and both journeys, [tell us what you need](/en/contact).
+
+For a couple, Tokyo is more affordable than the central-ward headlines suggest. Look east and north, compare like-for-like on the 1LDK, and you get a real home for two without paying the centre premium.
+
+*Also read: [Japanese apartment layouts explained](/en/blog/japanese-apartment-layouts-explained) and [the cheapest Tokyo neighbourhoods by rent](/en/blog/cheapest-neighbourhoods-tokyo-ranked-by-rent).*
+    `.trim(),
+  },
+  {
+    slug: 'meilleurs-quartiers-tokyo-couple-1ldk',
+    locale: 'fr',
+    title: 'Meilleurs quartiers de Tokyo pour un couple (1LDK, 2026)',
+    description: 'Pour un couple, l\'arrondissement le moins cher n\'est pas le même que pour un célibataire. Voici les meilleurs quartiers pour un 1LDK, sur données réelles, et comment choisir.',
+    date: '2026-07-22',
+    readingTime: '7 min',
+    content: `
+Quand deux personnes s'installent à Tokyo ensemble, la recherche d'appartement change. Un studio ne suffit plus, et le layout sur lequel la plupart des couples se posent est le 1LDK : une chambre plus un salon-cuisine-repas. Ce qui surprend, c'est que l'arrondissement le moins cher pour un couple n'est pas le même que pour un célibataire. Voici où un couple obtient le meilleur rapport qualité-prix, sur données réelles.
+
+**Réponse rapide :** Pour un couple qui loue un 1LDK à Tokyo, les arrondissements au meilleur rapport qualité-prix sont Katsushika (environ 118 000 JPY, près de 740 USD), Adachi et Edogawa (environ 125 000 JPY), puis Nerima et Itabashi. Ces arrondissements de l'est et du nord sont calmes, résidentiels et bien reliés, et bien en dessous des arrondissements centraux comme Minato, où un 1LDK atteint environ 260 000 JPY. Fait notable : l'arrondissement le moins cher pour un célibataire est Edogawa, mais pour un couple c'est Katsushika. La réponse dépend donc vraiment de votre foyer.
+
+
+![Le quartier de Tokyo le moins cher dépend de votre foyer : célibataire, couple ou famille](/tokyo-household-flip-fr.png "Célibataire : Edogawa, couple : Katsushika, famille : Adachi")
+## Pourquoi l'arrondissement le moins cher d'un couple est différent
+Le loyer n'évolue pas de façon uniforme entre les layouts. Un arrondissement peut être bon marché pour les petits studios 1K mais relativement plus cher pour le 1LDK plus grand dont un couple a besoin, car le mélange d'immeubles et la demande diffèrent selon la taille. C'est pourquoi le classement se réorganise. Sur 528 660 annonces actives, les arrondissements 1LDK les moins chers sont Katsushika, Adachi et Edogawa, tous à l'est, avec Nerima et Itabashi juste derrière au nord. Vous pouvez voir le tableau complet, et comment il change selon le foyer, dans notre [Indice des loyers de Tokyo](/fr/data).
+
+## Les arrondissements au meilleur rapport pour un couple
+- **Katsushika et Edogawa (est).** Le bout le plus calme et le plus abordable. Rivières, parcs, ambiance vieux Tokyo, et un trajet plus long mais facile vers le centre.
+- **Adachi (nord-est).** Bon marché et en amélioration, avec Kita-Senju comme grand hub de correspondance : abordable ne veut pas dire coupé de tout.
+- **Nerima et Itabashi (nord-ouest).** Verdoyants, adaptés aux familles, sur des lignes directes vers Ikebukuro et Shinjuku.
+
+Aucun n'est un avant-poste isolé. Ce sont des quartiers ordinaires et vivables, avec de vraies rues commerçantes, ce qui en fait justement de bonnes affaires pour deux personnes qui montent un foyer.
+
+## Ce que coûte un 1LDK à travers Tokyo
+L'écart entre l'arrondissement le moins cher et le plus cher pour un 1LDK est grand : d'environ 118 000 JPY à Katsushika à environ 260 000 JPY à Minato, plus du double pour le même layout. Si vous allez tous les deux au centre, habiter un ou deux arrondissements plus loin peut économiser 60 000 à 100 000 JPY par mois pour très peu de trajet en plus. Pour le saut du studio au familial et la vue d'ensemble des layouts, voyez notre guide des [types d'appartements japonais](/fr/blog/types-appartements-japonais-expliques).
+
+## Choisir en couple, pas comme deux célibataires
+Quelques points comptent davantage quand on loue à deux :
+- **Garant et revenus.** Les bailleurs évaluent en général le locataire principal, mais un revenu combiné aide. Une société de garantie est la norme pour les étrangers ; voyez notre [guide de la garantie de loyer](/fr/blog/garantie-loyer-etranger-japon).
+- **Équilibre des trajets.** Choisissez un arrondissement à mi-chemin entre deux lieux de travail plutôt que d'optimiser pour un seul. Un arrondissement sur une ligne qui atteint les deux hubs bat le moins cher sur le papier.
+- **Espace ou emplacement.** Un 1LDK dans un arrondissement de l'est moins cher est souvent plus grand qu'un central plus cher pour le même loyer. Décidez ce que vous valorisez avant de commencer.
+
+## Un plan réaliste
+Fixez votre budget commun, mettez-vous d'accord sur les deux ou trois arrondissements qui rentrent dedans, et vérifiez le tarif du 1LDK dans chacun sur notre [Indice des loyers de Tokyo](/fr/data) avant de contacter qui que ce soit. Le moins cher sur le papier n'est pas toujours le meilleur une fois les deux trajets pris en compte. Si vous préférez que quelqu'un de l'intérieur du marché aligne des 1LDK adaptés au budget d'un couple et aux deux trajets, [dites-nous ce qu'il vous faut](/fr/contact).
+
+Pour un couple, Tokyo est plus abordable que ne le laissent croire les gros titres sur les arrondissements centraux. Regardez à l'est et au nord, comparez ce qui est comparable sur le 1LDK, et vous obtenez un vrai foyer pour deux sans payer la prime du centre.
+
+*À lire aussi : [les types d'appartements japonais expliqués](/fr/blog/types-appartements-japonais-expliques) et [les quartiers de Tokyo les moins chers](/fr/blog/quartiers-tokyo-moins-chers-classement-loyers).*
+    `.trim(),
+  },
 ]
 
 // Mapping FR slug -> EN slug (articles jumeaux pour hreflang)
@@ -13101,6 +13271,8 @@ export const TWIN_SLUGS: Record<string, string> = {
   'stations-tokyo-loyer-moins-cher':          'cheapest-stations-tokyo-rent',
   'frais-caches-location-tokyo':               'tokyo-apartment-move-in-costs',
   'logement-ur-tokyo-etrangers':               'ur-housing-tokyo-foreigners',
+  'louer-appartement-animaux-acceptes-tokyo':   'renting-pet-friendly-apartment-tokyo',
+  'meilleurs-quartiers-tokyo-couple-1ldk':       'best-tokyo-wards-couples-1ldk',
 }
 
 export function getTwinSlug(slug: string, locale: Locale): string | undefined {
