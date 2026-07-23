@@ -33,6 +33,15 @@
    "posted_local": "Fri ~09:00 JST 10/07/2026"
   },
   {
+   "id": "rent-matrix",
+   "status": "ready",
+   "png": "outreach/tokyo-rent-matrix.png",
+   "title": "[OC] Median rent in Tokyo by ward and apartment size, from 528,660 active listings",
+   "oc_comment": "Source: Compiled from 528,660 active rental listings across Tokyo's 23 wards (deduplicated). Each cell is the median monthly rent for that ward and layout, in thousands of yen.\n\nJapanese layout codes, for anyone unfamiliar: 1K = one room plus a separate kitchen (a studio), 1DK = one room plus a dining-kitchen, 1LDK = one bedroom plus a living-dining-kitchen (typical couple's flat), 2LDK = two bedrooms plus living space (typical family flat). The number is bedrooms, the letters are the shared space.\n\nTool: Python (pandas) for the medians, matplotlib for the chart.\n\nFull breakdown by ward, train line and station: tokyo-expat.com/data",
+   "sub": "dataisbeautiful",
+   "note": "SILHOUETTE NEUVE (matrice, pas des barres) -- rotation de design demandee par Alessandro 23/07."
+  },
+  {
    "id": "layout-gap",
    "status": "ready",
    "png": "outreach/tokyo-layout-gap.png",
