@@ -1291,10 +1291,10 @@
     "notes": "FORMULAIRE SEULEMENT (aucun email public, verifie 2026-07-23 sur ufe-japon.org/contact). A faire a la main par Alessandro.",
     "manual_required": true,
     "form_url": "https://ufe-japon.org/contact/",
-    "status": "to_contact",
+    "status": "declined",
     "emailed_date": null,
     "last_contact": null,
-    "response": null,
+    "response": "Alessandro ne souhaite pas remplir le formulaire (23/07). Ne plus proposer.",
     "link_obtained": false,
     "added": "2026-07-23"
   },
