@@ -1310,9 +1310,9 @@
     "notes": "Email VERIFIE le 23/07 sur aefe.gouv.fr (source officielle tierce), leur propre site etant inaccessible. SAISONNIER: pitcher debut juillet (accueil nouvelles familles fin aout).",
     "manual_required": false,
     "form_url": "",
-    "status": "drafted",
-    "emailed_date": null,
-    "last_contact": null,
+    "status": "emailed",
+    "emailed_date": "2026-07-23",
+    "last_contact": "2026-07-23",
     "response": null,
     "link_obtained": false,
     "added": "2026-07-23"
