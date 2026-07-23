@@ -72,12 +72,21 @@ leg.get_title().set_fontsize(10)
 leg.get_title().set_color("#6b7280")
 
 # titre + sous-titre (style coherent)
-plt.subplots_adjust(top=0.905, bottom=0.105, left=0.16, right=0.965)
-fig.suptitle("Tokyo condo prices climbed for four straight years",
-             fontsize=21, fontweight="bold", color=NAVY, x=0.5, y=0.965)
-fig.text(0.5, 0.925,
-         f"Median sale price per m² by Tokyo ward, {yf} vs {yt}, from recorded transactions.  "
-         f"Citywide +{pct_city:.0f}% in four years.",
+plt.subplots_adjust(top=0.888, bottom=0.105, left=0.16, right=0.965)
+# NB titre: ne JAMAIS affirmer une progression annuelle ("four straight years") --
+# le graphique ne montre que 2 points (yf vs yt), c'est indefendable sur r/dataisbeautiful.
+# Le titre ne doit dire que ce que les 2 points prouvent: hausse partout, tres inegale.
+_lo = min(d["wards"], key=lambda w: w["pct"])
+_hi = max(d["wards"], key=lambda w: w["pct"])
+fig.suptitle("Tokyo condo prices rose in every ward, but far from equally",
+             fontsize=20, fontweight="bold", color=NAVY, x=0.5, y=0.972)
+# sous-titre sur 2 lignes: en 1 seule il deborde de la figure (verifie visuellement 23/07)
+fig.text(0.5, 0.936,
+         f"Median sale price per m² by Tokyo ward, {yf} vs {yt}, from recorded transactions.",
+         ha="center", fontsize=11.5, color="#6b7280")
+fig.text(0.5, 0.912,
+         f"Citywide +{pct_city:.0f}%, from +{_lo['pct']:.0f}% ({_lo['ward_en']}) "
+         f"to +{_hi['pct']:.0f}% ({_hi['ward_en']}).",
          ha="center", fontsize=11.5, color="#6b7280")
 ax.set_xlabel("Median sale price per square metre (JPY)", fontsize=12.5, color="#374151", labelpad=12)
 fig.text(0.965, 0.018, "Source: tokyo-expat.com/data  ·  median, not average",
