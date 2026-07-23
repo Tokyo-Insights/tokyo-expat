@@ -116,10 +116,21 @@ def main():
     queries = queries_r.json().get("rows", []) if queries_r.status_code == 200 else []
     pages = pages_r.json().get("rows", []) if pages_r.status_code == 200 else []
 
-    totals = {
-        "clicks": sum(row.get("clicks", 0) for row in queries),
-        "impressions": sum(row.get("impressions", 0) for row in queries),
-    }
+    # VRAI total du site = requete SANS dimension.
+    # BUG corrige le 2026-07-24: avant, totals = somme du TOP 25 requetes seulement,
+    # ce qui sous-estimait massivement (1293 affiche au lieu de 26340 reels).
+    # Toutes les analyses GSC anterieures a cette date sont donc sous-estimees.
+    totals_r = query_gsc(token, site_url, start, end, [], row_limit=1)
+    _tr = totals_r.json().get("rows", []) if totals_r.status_code == 200 else []
+    if _tr:
+        totals = {
+            "clicks": _tr[0].get("clicks", 0),
+            "impressions": _tr[0].get("impressions", 0),
+            "ctr_pct": round(_tr[0].get("ctr", 0) * 100, 2),
+            "position": round(_tr[0].get("position", 0), 1),
+        }
+    else:
+        totals = {"clicks": 0, "impressions": 0, "ctr_pct": 0, "position": 0}
 
     out = {
         "generated_at": today.isoformat(),
@@ -151,7 +162,8 @@ def main():
 
     # Telegram digest
     lines = [f"<b>GSC 28j</b> ({site_url})",
-             f"Impressions: {totals['impressions']} | Clics: {totals['clicks']}", ""]
+             f"Impressions: {totals['impressions']} | Clics: {totals['clicks']} "
+             f"| CTR {totals.get('ctr_pct', 0)}% | pos moy {totals.get('position', 0)}", ""]
     if out["top_queries"]:
         lines.append("<b>Top requetes (impressions):</b>")
         for q in sorted(out["top_queries"], key=lambda x: x["impressions"], reverse=True)[:8]:
