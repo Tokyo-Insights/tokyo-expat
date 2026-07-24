@@ -13,22 +13,25 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from matplotlib.colors import LinearSegmentedColormap, Normalize
 from matplotlib.ticker import FuncFormatter
+from matplotlib.collections import LineCollection
 
 ROOT = Path("C:/Users/alegu/Desktop/tokyo-expat")
 DATA = ROOT / "lib" / "stationCoords.json"
+CTX = ROOT / "scripts" / "data" / "tokyo_map_context.json"
 OUT = ROOT / "outreach" / "tokyo-station-rent-map.png"
 
 pts = json.loads(DATA.read_text(encoding="utf-8"))
 lats = [p["lat"] for p in pts]
 lons = [p["lon"] for p in pts]
 rents = [p["rent_1k"] for p in pts]
+ctx = json.loads(CTX.read_text(encoding="utf-8")) if CTX.exists() else {"rails": [], "coast": []}
 
 INK, MUTED = "#1f2937", "#6b7280"
 ramp = LinearSegmentedColormap.from_list("rent", ["#dbe6f2", "#8fb2d6", "#3b6fa8", "#123a63", "#0b2545"])
 norm = Normalize(vmin=min(rents), vmax=max(rents))
 
 fig, ax = plt.subplots(figsize=(13, 11.5))
-ax.set_facecolor("#fbfcfd")
+ax.set_facecolor("#f4f8fb")  # legere teinte "eau/fond"
 
 # projection equirectangulaire simple (corrige l'ecrasement est-ouest a lat 35.7)
 mlat = sum(lats) / len(lats)
@@ -36,8 +39,25 @@ kx = cos(radians(mlat))
 X = [lo * kx for lo in lons]
 Y = lats
 
+def proj(line):
+    return [(lo * kx, la) for lo, la in line]
+
+# FOND: reseau ferroviaire (gris clair, recessif) + trait de cote (baie) sous les stations
+if ctx.get("rails"):
+    ax.add_collection(LineCollection([proj(l) for l in ctx["rails"]],
+                                     colors="#c3cdd8", linewidths=0.5, zorder=1))
+if ctx.get("coast"):
+    ax.add_collection(LineCollection([proj(l) for l in ctx["coast"]],
+                                     colors="#9db9d4", linewidths=1.3, zorder=2))
+
 sc = ax.scatter(X, Y, c=rents, cmap=ramp, norm=norm, s=560,
-                edgecolors="white", linewidths=1.6, zorder=3)
+                edgecolors="white", linewidths=1.8, zorder=4)
+
+# cadrer sur les stations (le fond deborde, on le clippe) + marge
+mx = (max(X) - min(X)) * 0.08
+my = (max(Y) - min(Y)) * 0.08
+ax.set_xlim(min(X) - mx, max(X) + mx)
+ax.set_ylim(min(Y) - my, max(Y) + my)
 
 # labels selectifs: 3 plus chers + 4 moins chers + reperes connus espaces
 ranked = sorted(pts, key=lambda p: p["rent_1k"])
