@@ -1,0 +1,352 @@
+[
+ {
+  "station_en": "Kasai",
+  "lat": 35.66363,
+  "lon": 139.87269,
+  "rent_1k": 76000,
+  "matched": "Kasai"
+ },
+ {
+  "station_en": "Shin-Koiwa",
+  "lat": 35.71698,
+  "lon": 139.85807,
+  "rent_1k": 78000,
+  "matched": "Shin-Koiwa"
+ },
+ {
+  "station_en": "Ayase",
+  "lat": 35.76213,
+  "lon": 139.82487,
+  "rent_1k": 85000,
+  "matched": "Ayase"
+ },
+ {
+  "station_en": "Ogikubo",
+  "lat": 35.70448,
+  "lon": 139.62016,
+  "rent_1k": 85000,
+  "matched": "Ogikubo"
+ },
+ {
+  "station_en": "Nerima",
+  "lat": 35.73788,
+  "lon": 139.65408,
+  "rent_1k": 86000,
+  "matched": "Nerima"
+ },
+ {
+  "station_en": "Kita-Senju",
+  "lat": 35.74954,
+  "lon": 139.80509,
+  "rent_1k": 86000,
+  "matched": "Kita-Senju"
+ },
+ {
+  "station_en": "Akabane",
+  "lat": 35.77814,
+  "lon": 139.7208,
+  "rent_1k": 86000,
+  "matched": "Akabane"
+ },
+ {
+  "station_en": "Setagaya",
+  "lat": 35.64351,
+  "lon": 139.65081,
+  "rent_1k": 88000,
+  "matched": "Setagaya"
+ },
+ {
+  "station_en": "Kameari",
+  "lat": 35.76667,
+  "lon": 139.8478,
+  "rent_1k": 89000,
+  "matched": "Kameari"
+ },
+ {
+  "station_en": "Nakano",
+  "lat": 35.70583,
+  "lon": 139.66563,
+  "rent_1k": 90000,
+  "matched": "Nakano"
+ },
+ {
+  "station_en": "Oji",
+  "lat": 35.75396,
+  "lon": 139.73752,
+  "rent_1k": 91000,
+  "matched": "Oji"
+ },
+ {
+  "station_en": "Tabata",
+  "lat": 35.73737,
+  "lon": 139.76171,
+  "rent_1k": 95000,
+  "matched": "Tabata"
+ },
+ {
+  "station_en": "Komagome",
+  "lat": 35.73658,
+  "lon": 139.74724,
+  "rent_1k": 98000,
+  "matched": "Komagome"
+ },
+ {
+  "station_en": "Minami-Senju",
+  "lat": 35.7333,
+  "lon": 139.79901,
+  "rent_1k": 99000,
+  "matched": "Minami-Senju"
+ },
+ {
+  "station_en": "Minowa",
+  "lat": 35.72955,
+  "lon": 139.7913,
+  "rent_1k": 100000,
+  "matched": "Minowa"
+ },
+ {
+  "station_en": "Kamata",
+  "lat": 35.56202,
+  "lon": 139.71582,
+  "rent_1k": 100000,
+  "matched": "Kamata"
+ },
+ {
+  "station_en": "Sasazuka",
+  "lat": 35.67368,
+  "lon": 139.66723,
+  "rent_1k": 100000,
+  "matched": "Sasazuka"
+ },
+ {
+  "station_en": "Sangenjaya",
+  "lat": 35.64406,
+  "lon": 139.66907,
+  "rent_1k": 104000,
+  "matched": "Sangen-jaya"
+ },
+ {
+  "station_en": "Kameido",
+  "lat": 35.69732,
+  "lon": 139.82672,
+  "rent_1k": 105000,
+  "matched": "Kameido"
+ },
+ {
+  "station_en": "Sumiyoshi",
+  "lat": 35.689,
+  "lon": 139.81569,
+  "rent_1k": 105000,
+  "matched": "Sumiyoshi"
+ },
+ {
+  "station_en": "Oshiage",
+  "lat": 35.71029,
+  "lon": 139.81329,
+  "rent_1k": 105000,
+  "matched": "Oshiage 'SKYTREE'"
+ },
+ {
+  "station_en": "Omori",
+  "lat": 35.6401,
+  "lon": 139.78879,
+  "rent_1k": 107000,
+  "matched": "Ariake-Tennis-no-mori"
+ },
+ {
+  "station_en": "Gakugei-Daigaku",
+  "lat": 35.62895,
+  "lon": 139.68535,
+  "rent_1k": 108000,
+  "matched": "Gakugei-daigaku"
+ },
+ {
+  "station_en": "Otsuka",
+  "lat": 35.73169,
+  "lon": 139.72859,
+  "rent_1k": 109000,
+  "matched": "Otsuka"
+ },
+ {
+  "station_en": "Kinshicho",
+  "lat": 35.69631,
+  "lon": 139.81504,
+  "rent_1k": 110000,
+  "matched": "Kinshicho"
+ },
+ {
+  "station_en": "Ikebukuro",
+  "lat": 35.72809,
+  "lon": 139.71104,
+  "rent_1k": 110000,
+  "matched": "Ikebukuro"
+ },
+ {
+  "station_en": "Waseda",
+  "lat": 35.7058,
+  "lon": 139.72119,
+  "rent_1k": 110000,
+  "matched": "Waseda"
+ },
+ {
+  "station_en": "Asakusa",
+  "lat": 35.71195,
+  "lon": 139.79837,
+  "rent_1k": 111000,
+  "matched": "Asakusa"
+ },
+ {
+  "station_en": "Kikukawa",
+  "lat": 35.68842,
+  "lon": 139.80612,
+  "rent_1k": 112000,
+  "matched": "Kikukawa"
+ },
+ {
+  "station_en": "Iriya",
+  "lat": 35.72071,
+  "lon": 139.78458,
+  "rent_1k": 113000,
+  "matched": "Iriya"
+ },
+ {
+  "station_en": "Ryogoku",
+  "lat": 35.6958,
+  "lon": 139.79296,
+  "rent_1k": 116000,
+  "matched": "Ryogoku"
+ },
+ {
+  "station_en": "Shinagawa",
+  "lat": 35.628,
+  "lon": 139.73801,
+  "rent_1k": 116000,
+  "matched": "Shinagawa"
+ },
+ {
+  "station_en": "Kiba",
+  "lat": 35.66942,
+  "lon": 139.80655,
+  "rent_1k": 119000,
+  "matched": "Kiba"
+ },
+ {
+  "station_en": "Morishita",
+  "lat": 35.688,
+  "lon": 139.79704,
+  "rent_1k": 121000,
+  "matched": "Morishita"
+ },
+ {
+  "station_en": "Monzen-Nakacho",
+  "lat": 35.67229,
+  "lon": 139.79507,
+  "rent_1k": 122000,
+  "matched": "Monzen-nakacho"
+ },
+ {
+  "station_en": "Kiyosumi-Shirakawa",
+  "lat": 35.68205,
+  "lon": 139.79876,
+  "rent_1k": 122000,
+  "matched": "Kiyosumi-shirakawa"
+ },
+ {
+  "station_en": "Kuramae",
+  "lat": 35.70321,
+  "lon": 139.79094,
+  "rent_1k": 123000,
+  "matched": "Kuramae"
+ },
+ {
+  "station_en": "Shirokane-Takanawa",
+  "lat": 35.64295,
+  "lon": 139.73417,
+  "rent_1k": 125000,
+  "matched": "Shirokane-takanawa"
+ },
+ {
+  "station_en": "Kachidoki",
+  "lat": 35.65896,
+  "lon": 139.77717,
+  "rent_1k": 125000,
+  "matched": "Kachidoki"
+ },
+ {
+  "station_en": "Shinjuku",
+  "lat": 35.69223,
+  "lon": 139.7006,
+  "rent_1k": 126000,
+  "matched": "Shinjuku"
+ },
+ {
+  "station_en": "Asakusabashi",
+  "lat": 35.69739,
+  "lon": 139.78631,
+  "rent_1k": 126000,
+  "matched": "Asakusabashi"
+ },
+ {
+  "station_en": "Meguro",
+  "lat": 35.63251,
+  "lon": 139.71577,
+  "rent_1k": 128000,
+  "matched": "Meguro"
+ },
+ {
+  "station_en": "Toyosu",
+  "lat": 35.65375,
+  "lon": 139.79541,
+  "rent_1k": 134000,
+  "matched": "Toyosu"
+ },
+ {
+  "station_en": "Tsukishima",
+  "lat": 35.66417,
+  "lon": 139.78448,
+  "rent_1k": 135000,
+  "matched": "Tsukishima"
+ },
+ {
+  "station_en": "Akihabara",
+  "lat": 35.69883,
+  "lon": 139.7743,
+  "rent_1k": 135000,
+  "matched": "Akihabara"
+ },
+ {
+  "station_en": "Kanda",
+  "lat": 35.69179,
+  "lon": 139.77091,
+  "rent_1k": 137000,
+  "matched": "Kanda"
+ },
+ {
+  "station_en": "Shibuya",
+  "lat": 35.65808,
+  "lon": 139.70176,
+  "rent_1k": 140000,
+  "matched": "Shibuya"
+ },
+ {
+  "station_en": "Azabu-Juban",
+  "lat": 35.6565,
+  "lon": 139.73616,
+  "rent_1k": 148000,
+  "matched": "Azabu-juban"
+ },
+ {
+  "station_en": "Ebisu",
+  "lat": 35.64697,
+  "lon": 139.70865,
+  "rent_1k": 149000,
+  "matched": "Ebisu"
+ },
+ {
+  "station_en": "Jimbocho",
+  "lat": 35.69501,
+  "lon": 139.75827,
+  "rent_1k": 150000,
+  "matched": "Jimbocho"
+ }
+]
