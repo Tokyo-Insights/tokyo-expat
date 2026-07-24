@@ -1316,5 +1316,43 @@
     "response": null,
     "link_obtained": false,
     "added": "2026-07-23"
+  },
+  {
+    "domain": "bst.ac.jp",
+    "name": "British School in Tokyo",
+    "type": "backlink_t1",
+    "email": "admissions@bst.ac.jp",
+    "approach": "resource_link",
+    "da_est": 45,
+    "priority": "high",
+    "pitch": "Familles anglophones arrivant pour la rentree = ICP premium. Offre: donnees loyers gratuites, argument commute-vs-budget (data au niveau STATION).",
+    "notes": "Email VERIFIE live 24/07 sur bst.ac.jp/contact-us (page contact officielle). SAISONNIER: pitcher juin-juillet.",
+    "manual_required": false,
+    "form_url": "",
+    "status": "drafted",
+    "emailed_date": null,
+    "last_contact": null,
+    "response": null,
+    "link_obtained": false,
+    "added": "2026-07-24"
+  },
+  {
+    "domain": "asij.ac.jp",
+    "name": "American School in Japan",
+    "type": "backlink_t1",
+    "email": "enroll@asij.ac.jp",
+    "approach": "resource_link",
+    "da_est": 50,
+    "priority": "high",
+    "pitch": "Idem BST. Campus Chofu (ouest) + ELC Roppongi.",
+    "notes": "Email VERIFIE live 24/07 sur asij.ac.jp/admissions/admissions-visits (enroll@ = campus Chofu). ⚠️ NE PAS utiliser ccarrillo@asij.ac.jp trouve sur Lusha (annuaire tiers, non verifie).",
+    "manual_required": false,
+    "form_url": "",
+    "status": "drafted",
+    "emailed_date": null,
+    "last_contact": null,
+    "response": null,
+    "link_obtained": false,
+    "added": "2026-07-24"
   }
 ]
