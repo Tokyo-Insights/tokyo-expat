@@ -405,11 +405,12 @@
     "priority": "medium",
     "pitch": "Pendant anglophone de la CCIFJ. Angle eco: indemnite logement uniforme rate sa cible (membres = entreprises qui installent des collaborateurs).",
     "notes": "American Chamber of Commerce Japan, audience US expats premium | Email VERIFIE live 24/07 sur accj.or.jp/contact-us. Identifie des le 21/06 mais jamais contacte.",
-    "status": "drafted",
-    "last_contact": null,
+    "status": "emailed",
+    "last_contact": "2026-07-24",
     "response": null,
     "link_obtained": false,
-    "added": "2026-06-21"
+    "added": "2026-06-21",
+    "emailed_date": "2026-07-24"
   },
   {
     "domain": "tokyointernationalschool.ac.jp",
@@ -1329,9 +1330,9 @@
     "notes": "Email VERIFIE live 24/07 sur bst.ac.jp/contact-us (page contact officielle). SAISONNIER: pitcher juin-juillet.",
     "manual_required": false,
     "form_url": "",
-    "status": "drafted",
-    "emailed_date": null,
-    "last_contact": null,
+    "status": "emailed",
+    "emailed_date": "2026-07-24",
+    "last_contact": "2026-07-24",
     "response": null,
     "link_obtained": false,
     "added": "2026-07-24"
@@ -1348,9 +1349,9 @@
     "notes": "Email VERIFIE live 24/07 sur asij.ac.jp/admissions/admissions-visits (enroll@ = campus Chofu). ⚠️ NE PAS utiliser ccarrillo@asij.ac.jp trouve sur Lusha (annuaire tiers, non verifie).",
     "manual_required": false,
     "form_url": "",
-    "status": "drafted",
-    "emailed_date": null,
-    "last_contact": null,
+    "status": "emailed",
+    "emailed_date": "2026-07-24",
+    "last_contact": "2026-07-24",
     "response": null,
     "link_obtained": false,
     "added": "2026-07-24"
