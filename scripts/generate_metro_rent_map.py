@@ -13,7 +13,7 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from matplotlib.colors import LinearSegmentedColormap, Normalize
 from matplotlib.ticker import FuncFormatter
-from matplotlib.collections import LineCollection
+from matplotlib.collections import LineCollection, PolyCollection
 
 ROOT = Path("C:/Users/alegu/Desktop/tokyo-expat")
 DATA = ROOT / "lib" / "stationCoords.json"
@@ -31,7 +31,7 @@ ramp = LinearSegmentedColormap.from_list("rent", ["#dbe6f2", "#8fb2d6", "#3b6fa8
 norm = Normalize(vmin=min(rents), vmax=max(rents))
 
 fig, ax = plt.subplots(figsize=(13, 11.5))
-ax.set_facecolor("#f4f8fb")  # legere teinte "eau/fond"
+ax.set_facecolor("#ffffff")  # terre = blanc ; l'eau sera peinte par-dessus
 
 # projection equirectangulaire simple (corrige l'ecrasement est-ouest a lat 35.7)
 mlat = sum(lats) / len(lats)
@@ -42,16 +42,27 @@ Y = lats
 def proj(line):
     return [(lo * kx, la) for lo, la in line]
 
-# FOND: reseau ferroviaire (gris clair, recessif) + trait de cote (baie) sous les stations
+WATER = "#cfe0f2"
+# FOND, du bas vers le haut:
+# 0 eau remplie (baie + plans d'eau) -> distinction terre/mer
+if ctx.get("water"):
+    polys = [proj(w) for w in ctx["water"] if len(w) >= 3]
+    ax.add_collection(PolyCollection(polys, facecolors=WATER, edgecolors="none", zorder=0))
+# 1 rivieres (Sumida, Arakawa...) = reperes
+if ctx.get("rivers"):
+    ax.add_collection(LineCollection([proj(l) for l in ctx["rivers"]],
+                                     colors=WATER, linewidths=2.2, zorder=1))
+# 2 reseau ferroviaire (gris clair, recessif)
 if ctx.get("rails"):
     ax.add_collection(LineCollection([proj(l) for l in ctx["rails"]],
-                                     colors="#c3cdd8", linewidths=0.5, zorder=1))
-if ctx.get("coast"):
-    ax.add_collection(LineCollection([proj(l) for l in ctx["coast"]],
-                                     colors="#9db9d4", linewidths=1.3, zorder=2))
+                                     colors="#cbd3dd", linewidths=0.5, zorder=2))
+# 3 la boucle Yamanote soulignee (repere central iconique)
+if ctx.get("yamanote"):
+    ax.add_collection(LineCollection([proj(l) for l in ctx["yamanote"]],
+                                     colors="#7fae5a", linewidths=2.6, zorder=3, alpha=0.9))
 
 sc = ax.scatter(X, Y, c=rents, cmap=ramp, norm=norm, s=560,
-                edgecolors="white", linewidths=1.8, zorder=4)
+                edgecolors="white", linewidths=1.8, zorder=5)
 
 # cadrer sur les stations (le fond deborde, on le clippe) + marge
 mx = (max(X) - min(X)) * 0.08
@@ -71,8 +82,12 @@ for p in pts:
         ax.annotate(f"{p['station_en']}\n{p['rent_1k']//1000}k",
                     (p["lon"] * kx, p["lat"]),
                     textcoords="offset points", xytext=OFF.get(p["station_en"], (0, 14)),
-                    ha="center", fontsize=9.5, fontweight="bold", color=INK, zorder=5,
+                    ha="center", fontsize=9.5, fontweight="bold", color=INK, zorder=6,
                     bbox=dict(boxstyle="round,pad=0.16", fc="white", ec="none", alpha=0.82))
+
+# petite legende pour la boucle verte
+ax.plot([], [], color="#7fae5a", lw=2.6, label="Yamanote loop")
+ax.legend(loc="lower left", frameon=False, fontsize=11, handlelength=1.6)
 
 ax.set_aspect("equal")
 ax.axis("off")
