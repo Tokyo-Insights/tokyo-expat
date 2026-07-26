@@ -1,31 +1,25 @@
 {
-  "generated_at": "2026-07-24",
-  "period": "2026-06-26 to 2026-07-23",
+  "generated_at": "2026-07-27",
+  "period": "2026-06-29 to 2026-07-26",
   "property": "sc-domain:tokyo-expat.com",
   "totals": {
-    "clicks": 86,
-    "impressions": 26340,
-    "ctr_pct": 0.33,
-    "position": 20.7
+    "clicks": 85,
+    "impressions": 23598,
+    "ctr_pct": 0.36,
+    "position": 20.4
   },
   "top_queries": [
     {
       "query": "jiko bukken for sale",
       "clicks": 4,
-      "impressions": 16,
-      "position": 9.4
+      "impressions": 20,
+      "position": 9.2
     },
     {
       "query": "jiko bukken",
       "clicks": 3,
-      "impressions": 101,
-      "position": 9.5
-    },
-    {
-      "query": "furnished apartment tokyo",
-      "clicks": 2,
-      "impressions": 533,
-      "position": 22.6
+      "impressions": 83,
+      "position": 9.2
     },
     {
       "query": "compte bancaire japonais",
@@ -34,39 +28,45 @@
       "position": 82
     },
     {
+      "query": "furnished apartment tokyo",
+      "clicks": 1,
+      "impressions": 456,
+      "position": 23.1
+    },
+    {
       "query": "furnished appartment tokyo",
       "clicks": 1,
-      "impressions": 19,
-      "position": 24.7
+      "impressions": 16,
+      "position": 25.2
     },
     {
       "query": "gaijin house tokyo",
       "clicks": 1,
-      "impressions": 57,
-      "position": 15.4
+      "impressions": 61,
+      "position": 14.4
     },
     {
       "query": "jiko bukken tokyo",
       "clicks": 1,
-      "impressions": 65,
-      "position": 19.1
+      "impressions": 63,
+      "position": 18.8
     },
     {
       "query": "sakura house reviews",
       "clicks": 1,
-      "impressions": 27,
-      "position": 6.1
+      "impressions": 24,
+      "position": 5.8
     },
     {
       "query": "social apartment",
       "clicks": 1,
-      "impressions": 98,
-      "position": 23.0
+      "impressions": 96,
+      "position": 22.6
     },
     {
       "query": "social apartments japan",
       "clicks": 1,
-      "impressions": 266,
+      "impressions": 264,
       "position": 18.2
     },
     {
@@ -84,8 +84,8 @@
     {
       "query": "\"how to find an apartment in tokyo as a foreigner\"",
       "clicks": 0,
-      "impressions": 7,
-      "position": 2.4
+      "impressions": 5,
+      "position": 2
     },
     {
       "query": "1 bhk flat rent",
@@ -124,102 +124,97 @@
       "position": 6.5
     },
     {
+      "query": "acheter un appartement a tokyo",
+      "clicks": 0,
+      "impressions": 1,
+      "position": 48
+    },
+    {
       "query": "agence de garant japonaise",
       "clicks": 0,
-      "impressions": 18,
-      "position": 13.3
+      "impressions": 13,
+      "position": 11.1
     },
     {
-      "query": "apartment for foreigner in tokyo",
+      "query": "any other providers",
       "clicks": 0,
-      "impressions": 2,
-      "position": 32.5
-    },
-    {
-      "query": "apartment for foreigners in tokyo",
-      "clicks": 0,
-      "impressions": 14,
-      "position": 34.4
+      "impressions": 1,
+      "position": 4
     },
     {
       "query": "apartment gaijinpot",
       "clicks": 0,
-      "impressions": 30,
+      "impressions": 21,
       "position": 12.7
     },
     {
       "query": "apartment in tokyo for foreigner",
       "clicks": 0,
-      "impressions": 24,
-      "position": 38.6
+      "impressions": 1,
+      "position": 49
     },
     {
-      "query": "apartment in tokyo for foreigners",
+      "query": "apartments for rent in tokyo furnished",
       "clicks": 0,
-      "impressions": 1,
-      "position": 48
+      "impressions": 137,
+      "position": 38.1
     }
   ],
   "top_pages": [
     {
       "page": "https://www.tokyo-expat.com/en/blog/jiko-bukken-cheap-apartments-tokyo",
       "clicks": 16,
-      "impressions": 371
-    },
-    {
-      "page": "https://www.tokyo-expat.com/en/blog/furnished-apartment-tokyo-top-5-expats",
-      "clicks": 7,
-      "impressions": 10248
+      "impressions": 319
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/share-house-tokyo-comparison-2026",
-      "clicks": 7,
-      "impressions": 446
+      "clicks": 6,
+      "impressions": 411
+    },
+    {
+      "page": "https://www.tokyo-expat.com/en/blog/furnished-apartment-tokyo-top-5-expats",
+      "clicks": 5,
+      "impressions": 8903
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/sakura-house-review",
-      "clicks": 6,
-      "impressions": 1618
-    },
-    {
-      "page": "https://www.tokyo-expat.com/fr/blog/avis-sakura-house-tokyo",
-      "clicks": 3,
-      "impressions": 95
+      "clicks": 4,
+      "impressions": 1319
     },
     {
       "page": "https://www.tokyo-expat.com/fr/blog/logement-etudiant-tokyo-guide",
       "clicks": 3,
-      "impressions": 516
+      "impressions": 498
     },
     {
       "page": "https://www.tokyo-expat.com/blog/impots-revenus-japon-expatrie-2026",
       "clicks": 2,
-      "impressions": 11
+      "impressions": 14
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/best-neighbourhoods-families-tokyo-guide",
       "clicks": 2,
-      "impressions": 74
+      "impressions": 85
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/moving-to-tokyo-checklist-2026",
       "clicks": 2,
-      "impressions": 14
+      "impressions": 12
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/student-housing-tokyo-october",
       "clicks": 2,
-      "impressions": 43
+      "impressions": 22
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/tokyo-condo-price-trends",
       "clicks": 2,
-      "impressions": 87
+      "impressions": 89
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/tokyo-rental-contract-checklist",
       "clicks": 2,
-      "impressions": 13
+      "impressions": 14
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/typhoon-season-tokyo-choosing-housing",
@@ -227,14 +222,19 @@
       "impressions": 21
     },
     {
-      "page": "https://www.tokyo-expat.com/fr/blog/jiko-bukken-appartements-pas-chers-tokyo",
+      "page": "https://www.tokyo-expat.com/fr/blog/avis-sakura-house-tokyo",
       "clicks": 2,
-      "impressions": 75
+      "impressions": 48
     },
     {
-      "page": "https://www.tokyo-expat.com/fr/blog/virement-bancaire-japon-furikomi-guide",
+      "page": "https://www.tokyo-expat.com/fr/blog/jiko-bukken-appartements-pas-chers-tokyo",
       "clicks": 2,
-      "impressions": 21
+      "impressions": 56
+    },
+    {
+      "page": "https://www.tokyo-expat.com/fr/blog/loyers-tokyo-par-quartier-2026",
+      "clicks": 2,
+      "impressions": 19
     }
   ]
 }
