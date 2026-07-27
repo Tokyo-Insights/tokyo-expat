@@ -574,7 +574,7 @@ export default async function DataPage({
 
         {/* Animated choropleth: prices heating up quarter by quarter */}
         <figure className="mb-6">
-          <div className="rounded-xl overflow-hidden border border-gray-200 bg-[#0e0e12]">
+          <div className="rounded-xl overflow-hidden border border-gray-200 bg-[#0e0e12] mx-auto" style={{ maxWidth: 'min(100%, 74vh)' }}>
             <video
               src="/tokyo-price-heatmap.mp4"
               poster="/tokyo-price-heatmap-poster.jpg"
