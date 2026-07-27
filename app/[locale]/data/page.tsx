@@ -572,6 +572,29 @@ export default async function DataPage({
             : `Prix de vente median au metre carre, coproprietes d'occasion, sur ${ptTotal} transactions reelles enregistrees de ${ptFromYr} a ${ptToYr}. Prix conclus, pas des prix affiches.`}
         </p>
 
+        {/* Animated choropleth: prices heating up quarter by quarter */}
+        <figure className="mb-6">
+          <div className="rounded-xl overflow-hidden border border-gray-200 bg-[#0e0e12]">
+            <video
+              src="/tokyo-price-heatmap.mp4"
+              poster="/tokyo-price-heatmap-poster.jpg"
+              autoPlay
+              muted
+              loop
+              playsInline
+              className="w-full h-auto block"
+              aria-label={l === 'en'
+                ? 'Animated map of Tokyo condo prices per square metre, quarter by quarter, 2021 to 2025'
+                : 'Carte animee des prix des coproprietes a Tokyo au metre carre, trimestre par trimestre, de 2021 a 2025'}
+            />
+          </div>
+          <figcaption className="text-[11px] text-gray-400 mt-2">
+            {l === 'en'
+              ? 'Each ward coloured by its median price per m2, quarter by quarter. The centre pulls away from the suburbs.'
+              : 'Chaque arrondissement colore par son prix median au m2, trimestre par trimestre. Le centre se detache de la peripherie.'}
+          </figcaption>
+        </figure>
+
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
           {[
             { value: '+' + ptPct + '%', label: l === 'en' ? `Citywide, ${ptFromYr}-${ptToYr}` : `Tokyo, ${ptFromYr}-${ptToYr}`, hl: true },
