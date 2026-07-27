@@ -1,67 +1,66 @@
 {
-  "generated_at": "2026-07-20",
-  "period": "2026-07-13 to 2026-07-20",
+  "generated_at": "2026-07-27",
+  "period": "2026-07-20 to 2026-07-27",
   "this_week": {
-    "sessions": 173,
-    "users": 153,
-    "pageviews": 203,
-    "bounce_rate": 0.6705202312138728
+    "sessions": 218,
+    "users": 196,
+    "pageviews": 289,
+    "bounce_rate": 0.6651376146788991
   },
   "prev_week": {
-    "sessions": 153,
-    "users": 140,
-    "pageviews": 238,
-    "bounce_rate": 0.6143790849673203
+    "sessions": 169,
+    "users": 151,
+    "pageviews": 201,
+    "bounce_rate": 0.6449704142011834
   },
   "changes": {
-    "sessions": "+13%",
-    "users": "+9%",
-    "pageviews": "-15%"
+    "sessions": "+29%",
+    "users": "+30%",
+    "pageviews": "+44%"
   },
   "top_pages": [
     [
       "/en/data",
-      "40"
+      "44"
+    ],
+    [
+      "/en/blog/japan-sim-card-foreigners-2026",
+      "19"
     ],
     [
       "/en",
-      "15"
+      "14"
     ],
     [
-      "/en/blog/best-neighbourhoods-families-tokyo-guide",
-      "10"
+      "/fr",
+      "13"
     ],
     [
-      "/en/blog/send-money-to-japan-from-abroad",
-      "9"
-    ],
-    [
-      "/fr/blog/cout-vie-tokyo-expatrie-2026",
-      "9"
+      "/fr/blog/pvt-japon-visa-vacances-travail-2026",
+      "11"
     ]
   ],
   "top_sources": [
     [
       "Direct",
-      "114"
+      "122"
     ],
     [
       "Organic Search",
-      "34"
+      "68"
     ],
     [
       "AI Assistant",
-      "17"
+      "21"
     ]
   ],
   "form_submits_week": 1,
   "events": {
-    "page_view": 203,
-    "session_start": 180,
-    "first_visit": 159,
-    "user_engagement": 64,
-    "scroll": 25,
-    "file_download": 1,
+    "page_view": 289,
+    "session_start": 224,
+    "first_visit": 200,
+    "user_engagement": 121,
+    "scroll": 28,
     "form_start": 1,
     "generate_lead": 1
   }
