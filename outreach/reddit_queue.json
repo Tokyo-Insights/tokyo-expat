@@ -43,6 +43,18 @@
    "posted_utc": "2026-07-23T22:44:38Z"
   },
   {
+   "id": "price-heatmap-anim",
+   "status": "ready",
+   "media": "outreach/tokyo-price-heatmap.mp4",
+   "media_mobile": "outreach/tokyo-price-heatmap-mobile.mp4",
+   "png": "outreach/tokyo-price-heatmap.mp4",
+   "type": "video",
+   "title": "[OC] Watch central Tokyo's condo prices pull away, 2021 to 2025",
+   "oc_comment": "Source: Compiled from hundreds of thousands of recorded resale transactions across Tokyo's 23 wards, 2021 Q1 to 2025 Q3. Each ward is coloured by its median resale price per square metre that quarter (median, not mean, so a few luxury sales don't skew it).\n\nOver the four years the citywide median rose from about 0.77M to 1.02M yen per m2, but it's very uneven: Minato +67% and Shibuya +56% at the centre, against +26% for Adachi out east.\n\nTool: Python (pandas) for the medians, matplotlib for the animated choropleth, ward boundaries from OpenStreetMap.\n\nFull breakdown by ward, train line and station: tokyo-expat.com/data",
+   "sub": "dataisbeautiful",
+   "note": "VIDEO (uploader le MP4, pas une image). Silhouette neuve = animation. Version mobile dispo."
+  },
+  {
    "id": "layout-gap",
    "status": "ready",
    "png": "outreach/tokyo-layout-gap.png",
