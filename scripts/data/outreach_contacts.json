@@ -1158,10 +1158,10 @@
     "notes": "Data PR. Email verifie LIVE 09/07 (page /contact invite partnership). Draft Gmail cree 09/07 (id r5088035779237146561). Non concurrent (blog couts de la vie, pas agence immo). | ENVOYE 09/07 (draft propre htmlBody r81064698814684010).",
     "manual_required": false,
     "form_url": "",
-    "status": "emailed",
+    "status": "declined",
     "emailed_date": "2026-07-09",
     "last_contact": "2026-07-09",
-    "response": "",
+    "response": "pas de reponse apres relance",
     "link_obtained": false,
     "added": "2026-07-09",
     "email_verified": true,
@@ -1221,7 +1221,8 @@
     "last_contact": "2026-07-23",
     "response": null,
     "link_obtained": false,
-    "added": "2026-07-23"
+    "added": "2026-07-23",
+    "followup_prepared": "2026-07-29"
   },
   {
     "domain": "lepetitjournal.com",
@@ -1259,7 +1260,8 @@
     "last_contact": "2026-07-23",
     "response": null,
     "link_obtained": false,
-    "added": "2026-07-23"
+    "added": "2026-07-23",
+    "followup_prepared": "2026-07-29"
   },
   {
     "domain": "ccifj.or.jp",
@@ -1278,7 +1280,8 @@
     "last_contact": "2026-07-23",
     "response": null,
     "link_obtained": false,
-    "added": "2026-07-23"
+    "added": "2026-07-23",
+    "followup_prepared": "2026-07-29"
   },
   {
     "domain": "ufe-japon.org",
@@ -1316,7 +1319,8 @@
     "last_contact": "2026-07-23",
     "response": null,
     "link_obtained": false,
-    "added": "2026-07-23"
+    "added": "2026-07-23",
+    "followup_prepared": "2026-07-29"
   },
   {
     "domain": "bst.ac.jp",
