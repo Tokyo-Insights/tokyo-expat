@@ -8329,6 +8329,9 @@ Understanding Tokyo apartment prices before you start your search is the differe
 
 All prices below are monthly rent in JPY, excluding service charges and utilities unless specified. Add 15-25% for fully furnished serviced apartments. For median rent across all 23 wards by layout, see our [Tokyo Rent Index](/data), computed from 528,660 real listings.
 
+
+![Map of median 1K studio rent across Tokyo's 23 wards](/tokyo-rent-map.png "Median 1K studio rent by ward, from real active listings. Central wards cost roughly double the eastern edge.")
+
 ## Tokyo Rent Comparison by Neighborhood: 2026
 
 | Neighborhood | 1K / Studio | 1LDK | 2LDK |
@@ -8424,6 +8427,9 @@ Tous les prix ci-dessous sont des loyers mensuels en JPY, hors charges et utilit
 
 
 ![Le quartier de Tokyo le moins cher dépend de votre foyer : célibataire, couple ou famille](/tokyo-household-flip-fr.png "Célibataire : Edogawa, couple : Katsushika, famille : Adachi. Pas le même quartier.")
+
+![Map of median 1K studio rent across Tokyo's 23 wards](/tokyo-rent-map.png "Median 1K studio rent by ward, from real active listings. Central wards cost roughly double the eastern edge.")
+
 ## Comparatif loyers Tokyo par quartier: 2026
 
 | Quartier | 1K / Studio | 1LDK | 2LDK |
