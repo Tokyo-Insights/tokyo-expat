@@ -6,6 +6,7 @@ import priceTrends from '@/lib/tokyoPriceTrends.json'
 import AffordabilityTool from '@/components/AffordabilityTool'
 import LeadMagnetForm from '@/components/LeadMagnetForm'
 import EmbedMap from '@/components/EmbedMap'
+import LazyVideo from '@/components/LazyVideo'
 
 export async function generateMetadata({
   params,
@@ -575,15 +576,11 @@ export default async function DataPage({
         {/* Animated choropleth: prices heating up quarter by quarter */}
         <figure className="mb-6">
           <div className="rounded-xl overflow-hidden border border-gray-200 bg-[#0e0e12] mx-auto" style={{ maxWidth: 'min(100%, 82vh)' }}>
-            <video
+            <LazyVideo
               src="/tokyo-price-heatmap.mp4"
               poster="/tokyo-price-heatmap-poster.jpg"
-              autoPlay
-              muted
-              loop
-              playsInline
               className="w-full h-auto block"
-              aria-label={l === 'en'
+              ariaLabel={l === 'en'
                 ? 'Animated map of Tokyo condo prices per square metre, quarter by quarter, 2021 to 2025'
                 : 'Carte animee des prix des coproprietes a Tokyo au metre carre, trimestre par trimestre, de 2021 a 2025'}
             />
