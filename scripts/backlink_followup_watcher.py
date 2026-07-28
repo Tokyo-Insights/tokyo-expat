@@ -22,6 +22,7 @@ import io
 import datetime
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
+from email.utils import formataddr
 from datetime import datetime as dt, timezone, date
 from pathlib import Path
 import requests
@@ -234,7 +235,8 @@ def main():
             if not dry:
                 msg = MIMEMultipart('alternative')
                 msg['From'] = FROM
-                msg['To'] = f"{c['name']} <{email_addr}>"
+                # formataddr quote le nom si besoin (les parentheses cassaient le champ To Gmail)
+                msg['To'] = formataddr((c['name'], email_addr))
                 msg['Subject'] = subject
                 msg['Date'] = email.utils.formatdate(localtime=True)
                 msg['Message-ID'] = email.utils.make_msgid()
