@@ -410,7 +410,8 @@
     "response": null,
     "link_obtained": false,
     "added": "2026-06-21",
-    "emailed_date": "2026-07-24"
+    "emailed_date": "2026-07-24",
+    "followup_prepared": "2026-07-30"
   },
   {
     "domain": "tokyointernationalschool.ac.jp",
@@ -1339,7 +1340,8 @@
     "last_contact": "2026-07-24",
     "response": null,
     "link_obtained": false,
-    "added": "2026-07-24"
+    "added": "2026-07-24",
+    "followup_prepared": "2026-07-30"
   },
   {
     "domain": "asij.ac.jp",
@@ -1358,6 +1360,7 @@
     "last_contact": "2026-07-24",
     "response": null,
     "link_obtained": false,
-    "added": "2026-07-24"
+    "added": "2026-07-24",
+    "followup_prepared": "2026-07-30"
   }
 ]
