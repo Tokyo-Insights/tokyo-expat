@@ -28,6 +28,7 @@ export default function Footer({ locale, nav, footer }: FooterProps) {
             <li><Link href={`/${locale}/contact`} className="hover:text-white transition-colors">{nav.contact}</Link></li>
             <li><Link href={`/${locale}/checklist`} className="hover:text-white transition-colors">{locale === 'fr' ? 'Checklist gratuite' : 'Free checklist'}</Link></li>
             <li><Link href={`/${locale}/resources`} className="hover:text-white transition-colors">{locale === 'fr' ? 'Ressources' : 'Resources'}</Link></li>
+            <li><Link href={`/${locale}/embed`} className="hover:text-white transition-colors">{locale === 'fr' ? 'Widgets a integrer' : 'Embed our data'}</Link></li>
           </ul>
         </div>
         <div>
