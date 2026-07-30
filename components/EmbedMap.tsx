@@ -2,7 +2,15 @@
 
 import { useState } from 'react'
 
-export default function EmbedMap({ code, locale }: { code: string; locale: 'en' | 'fr' }) {
+export default function EmbedMap({
+  code,
+  locale,
+  title,
+}: {
+  code: string
+  locale: 'en' | 'fr'
+  title?: string
+}) {
   const [copied, setCopied] = useState(false)
   const en = locale === 'en'
 
@@ -21,7 +29,7 @@ export default function EmbedMap({ code, locale }: { code: string; locale: 'en' 
       <div className="flex items-start justify-between gap-4 flex-wrap">
         <div>
           <p className="text-sm font-bold text-[#0f2744]">
-            {en ? 'Use this map on your site — free' : 'Utilisez cette carte sur votre site — gratuit'}
+            {title ?? (en ? 'Use this on your site, free' : 'Utilisez ceci sur votre site, gratuit')}
           </p>
           <p className="text-xs text-gray-500 mt-1 max-w-lg">
             {en

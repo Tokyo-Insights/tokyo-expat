@@ -435,6 +435,11 @@ export default async function DataPage({
           className="w-full max-w-2xl mx-auto rounded-xl border border-gray-200"
         />
         <EmbedMap code={embedCode} locale={l as 'en' | 'fr'} />
+        <p className="mt-3 text-sm">
+          <Link href={`/${l}/embed`} className="font-semibold text-[#e84141] hover:underline">
+            {l === 'en' ? 'More free widgets to embed (station map, animated prices) →' : 'Plus de widgets gratuits a integrer (carte par station, prix animes) →'}
+          </Link>
+        </p>
       </section>
 
       {/* Rent by train line */}
