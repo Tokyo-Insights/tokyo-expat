@@ -31,7 +31,7 @@ const dictionaries = {
       services_title: 'Nos offres',
       services_cta: 'Voir toutes les offres',
       trust_title: 'Basé à Tokyo depuis plusieurs années',
-      trust_desc: 'Alessandro P., chasseur immobilier spécialisé dans l\'accompagnement des expatriés francophones et anglophones à Tokyo.',
+      trust_desc: 'Alessandro, chasseur immobilier spécialisé dans l\'accompagnement des expatriés francophones et anglophones à Tokyo.',
     },
     services: {
       title: 'Nos offres',
@@ -130,7 +130,7 @@ const dictionaries = {
     },
     about: {
       title: 'À propos',
-      name: 'Alessandro P.',
+      name: 'Alessandro',
       role: 'Chasseur immobilier à Tokyo',
       bio_1: 'Je travaille au cœur du marché locatif de Tokyo depuis plusieurs années, pas depuis un bureau : j\'opère mes propres logements meublés ici, donc je connais le marché de l\'intérieur, ses vraies pratiques et ses pièges. C\'est ce regard que je mets au service de votre recherche : je vous oriente vers les meilleures options adaptées aux étrangers, y compris des plateformes que vous ne trouveriez pas seul, et je vous connecte au bon partenaire licencié qui finalise la location.',
       bio_2: 'Je vous accompagne à chaque étape : recherche, présélection, visites, mise en relation avec le partenaire licencié, et traduction jusqu\'à la signature. Tout se fait en français, anglais et japonais.',
@@ -188,7 +188,7 @@ const dictionaries = {
       services_title: 'Our Services',
       services_cta: 'View all services',
       trust_title: 'Based in Tokyo for years',
-      trust_desc: 'Alessandro P., property hunter specialising in supporting French-speaking and English-speaking expats in Tokyo.',
+      trust_desc: 'Alessandro, property hunter specialising in supporting French-speaking and English-speaking expats in Tokyo.',
     },
     services: {
       title: 'Our Services',
@@ -287,7 +287,7 @@ const dictionaries = {
     },
     about: {
       title: 'About',
-      name: 'Alessandro P.',
+      name: 'Alessandro',
       role: 'Property Hunter in Tokyo',
       bio_1: 'I have been working inside Tokyo\'s rental market for several years, not from a desk: I operate my own furnished rentals here, so I know the market from the inside, its real practices and its traps. That firsthand view is what I bring to your search: I point you to the best foreigner-friendly options, including platforms you would never find on your own, and I connect you to the right licensed partner who finalises the rental.',
       bio_2: 'I guide you through every step: search, shortlist, viewings, introduction to the licensed partner, and translation through to signing. Everything in English, French, and Japanese.',

@@ -397,7 +397,7 @@ export default async function DevisPage({
           {/* Contact card */}
           <div className="bg-[#0f2744] rounded-2xl p-6">
             <p className="text-white/60 text-xs mb-1">{t.contact_title}</p>
-            <p className="text-white font-bold mb-1">Alessandro P.</p>
+            <p className="text-white font-bold mb-1">Alessandro</p>
             <p className="text-white/60 text-xs mb-3">Tokyo Expat</p>
             <a href="https://wa.me/817041715285" className="block text-center bg-white/10 hover:bg-white/20 text-white text-sm px-4 py-2 rounded-lg transition-colors mb-2">
               WhatsApp
