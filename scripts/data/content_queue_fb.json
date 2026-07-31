@@ -1,8 +1,8 @@
 {
   "generated_at": "2026-06-25",
   "total": 80,
-  "posted_count": 6,
-  "remaining": 74,
+  "posted_count": 7,
+  "remaining": 73,
   "queue": [
     {
       "slug": "trouver-appartement-tokyo-etranger",
@@ -57,8 +57,8 @@
       "locale": "en",
       "title": "Cost of Living in Tokyo for Expats in 2026: Real Numbers",
       "text": "Cost of Living in Tokyo for Expats in 2026: Real Numbers\n\nRent, food, transport, healthcare: the real monthly budget for an expat in Tokyo, broken down by lifestyle and neighbourhood.\n\nFull guide: https://www.tokyo-expat.com/en/blog/tokyo-expat-cost-of-living-2026\n\n#TokyoExpat #JapanExpat #MovingToJapan #CostOfLiving",
-      "posted": false,
-      "posted_date": null
+      "posted": true,
+      "posted_date": "2026-08-01"
     },
     {
       "slug": "visa-travail-japon-francophone-2026",
