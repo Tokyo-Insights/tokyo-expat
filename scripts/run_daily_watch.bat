@@ -85,6 +85,11 @@ python scripts\reddit_comment_harvester.py >> "%LOG_FILE%" 2>&1
 echo [%TIME%] [11c] Subscriber feedback harvester... >> "%LOG_FILE%"
 python scripts\subscriber_feedback.py --harvest >> "%LOG_FILE%" 2>&1
 
+:: 11d. Reddit cadence reminder (mer/sam uniquement, idempotent) : rappelle la passe
+::       d'engagement logement r/japanlife. Ne poste rien, juste un nudge Telegram.
+echo [%TIME%] [11d] Reddit cadence reminder (if Wed/Sat)... >> "%LOG_FILE%"
+python scripts\reddit_cadence_reminder.py >> "%LOG_FILE%" 2>&1
+
 :: 12. Rapport GA4 (INACTIF tant que la cle compte de service n'est pas posee -> aucune erreur)
 echo [%TIME%] [12/13] GA4 daily report... >> "%LOG_FILE%"
 python scripts\ga4_daily_report.py >> "%LOG_FILE%" 2>&1
