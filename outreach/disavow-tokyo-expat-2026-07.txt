@@ -1,0 +1,9 @@
+# Disavow file for tokyo-expat.com - created 2026-07-31
+# Reseau de spam black-hat "BHS Links" (domaines .xyz jetables pointant vers
+# /en/blog/gaijin-house-tokyo-guide). Spam manifeste, a ignorer par Google.
+# A uploader dans: search.google.com/search-console/disavow-links
+domain:bhs-links-r101.xyz
+domain:bhs-links-r102.xyz
+domain:bhs-links-r104.xyz
+domain:bhs-links-r105.xyz
+domain:bhs-links-r116.xyz
