@@ -1,0 +1,230 @@
+[2026-08-03  7:23:38.38] Starting weekly intelligence (lundi)... 
+[ 7:23:38.39] [1/19] Keyword tracking... 
+
+Tracking 30 keywords across 8 domains...
+ETA: ~2min 30s
+
+[ 1/30] trouver appartement tokyo etranger                 TE:#1 | remoters:#6 | oakhouse:#2
+[ 2/30] chasseur immobilier tokyo                          TE:#2 | remoters:#1
+[ 3/30] share house tokyo guide                            TE:— | sakura-house:#15 | oakhouse:#7
+[ 4/30] appartement meuble tokyo expatrie                  TE:#1 | sakura-house:#9 | oakhouse:#6
+[ 5/30] louer tokyo sans garant etranger                   TE:#3 | oakhouse:#11
+[ 6/30] logement tokyo expatrie                            TE:#4 | remoters:#3 | sakura-house:#20
+[ 7/30] installer tokyo francais                           TE:—
+[ 8/30] quartiers tokyo expatries                          TE:#1
+[ 9/30] cout vie tokyo 2026                                TE:#1
+[10/30] garantie loyer japon etranger                      TE:#1
+[11/30] assurance habitation japon locataire               TE:#1
+[12/30] logement etudiant tokyo                            TE:#2 | remoters:#4 | oakhouse:#13
+[13/30] visa travail japon francophone                     TE:#1
+[14/30] ouvrir compte bancaire japon etranger              TE:#1
+[15/30] bail tokyo checklist                               TE:#1
+[16/30] find apartment tokyo foreigner                     TE:#1 | gaijinpot:#14
+[17/30] property hunter tokyo                              TE:#1 | remoters:#8
+[18/30] share house tokyo guide 2026                       TE:#1 | sakura-house:#10
+[19/30] furnished apartment tokyo no guarantor             TE:#3 | sakura-house:#2 | tokyocheapo:#8
+[20/30] moving to tokyo guide 2026                         TE:#13
+[21/30] tokyo expat housing                                TE:#13
+[22/30] rent tokyo expat 2026                              TE:#1 | gaijinpot:#10
+[23/30] gaijin house tokyo                                 TE:#1 | sakura-house:#7 | gaijinpot:#9 | oakhouse:#11 | japan-guide:#2
+[24/30] tokyo neighbourhoods expats guide                  TE:#2
+[25/30] student housing tokyo guide                        TE:#1 | oakhouse:#11
+[26/30] guarantor japan rental foreigner                   TE:—
+[27/30] tokyo rental contract checklist                    TE:#1 | gaijinpot:#10
+[28/30] japan health insurance expat                       TE:#1
+[29/30] open bank account japan foreigner                  TE:#8
+[30/30] tokyo apartment hunting abroad                     TE:—
+
+✅ Tracking complete for 2026-08-03
+
+✅ Weekly report sent to Telegram
+[ 7:28:43.79] [1b] GSC opportunity miner... 
+BOUCLE RECHERCHE->ARTICLE | 56 CLUSTERS d'opportunites (90j)
+🎯 3612 impr | pos 25.7 |  8 variantes | OPTIMISER (article existe)
+       theme: apartment furnished  (ex: "furnished apartment tokyo")
+🎯 2046 impr | pos 19.3 |  9 variantes | OPTIMISER (article existe)
+       theme: gaijin house  (ex: "tokyo gaijin house")
+🎯 1088 impr | pos 13.1 |  1 variantes | OPTIMISER (article existe)
+       theme: cheap gaijin house  (ex: "cheap gaijin house in tokyo")
+🎯  790 impr | pos 19.1 |  2 variantes | ECRIRE (nouveau)
+       theme: apartment expat  (ex: "expat apartments tokyo")
+🎯  733 impr | pos 27.7 |  1 variantes | OPTIMISER (article existe)
+       theme: apartment furnished long term  (ex: "furnished apartments tokyo long term")
+🎯  620 impr | pos 24.6 |  1 variantes | OPTIMISER (article existe)
+       theme: apartment fully furnished  (ex: "fully furnished apartments tokyo")
+🎯  402 impr | pos 16.5 |  3 variantes | ECRIRE (nouveau)
+       theme: apartment gaijin  (ex: "gaijin apartment")
+🎯  392 impr | pos 20.6 |  3 variantes | OPTIMISER (article existe)
+       theme: apartment social  (ex: "social apartments japan")
+    677 impr | pos 35.1 |  6 variantes | OPTIMISER (article existe)
+       theme: apartment furnished rent  (ex: "apartments for rent in tokyo furnished")
+    646 impr | pos 36.3 |  9 variantes | OPTIMISER (article existe)
+       theme: apartment foreigner  (ex: "apartment in tokyo for foreigner")
+🎯  270 impr | pos 27.3 |  1 variantes | ECRIRE (nouveau)
+       theme: apartment gaijin helper  (ex: "gaijin apartment helper")
+🎯  257 impr | pos 12.4 |  5 variantes | ECRIRE (nouveau)
+       theme: apartment gaijinpot  (ex: "gaijinpot apartments tokyo")
+
+[Telegram envoye]
+[ 7:28:46.57] [2/19] Content gap analysis... 
+
+============================================================
+CONTENT GAP DETECTOR - 2026-08-03
+============================================================
+
+Our content: 182 URLs, 173 unique slugs
+
+Remoters: 19 content URLs (from 6428 total)
+GaijinPot Housing: 0 content URLs (from 0 total)
+GaijinPot Blog: 0 content URLs (from 4578 total)
+Sakura House: 0 content URLs (from 970 total)
+Oak House: 0 content URLs (from 5160 total)
+Tokyo Cheapo: 100 content URLs (from 6824 total)
+Japan Guide: 0 content URLs (from 0 total)
+Fontaine Relocation: 0 content URLs (from 0 total)
+Savvy Tokyo: 0 content URLs (from 8704 total)
+Japan Property Central: 0 content URLs (from 0 total)
+Japan Today: 0 content URLs (from 0 total)
+City Cost: 0 content URLs (from 0 total)
+Japan Insiders: 0 content URLs (from 17 total)
+Tofugu: 1 content URLs (from 1910 total)
+Time Out Tokyo: 0 content URLs (from 0 total)
+Gaijin House: 0 content URLs (from 0 total)
+Tokyo Share House: 0 content URLs (from 0 total)
+Crown Relocations JP: 0 content URLs (from 0 total)
+Asian Tigers Japan: 0 content URLs (from 0 total)
+Wise Blog JP: 0 content URLs (from 0 total)
+Vivre Au Japon: 0 content URLs (from 187 total)
+Japon Online: 0 content URLs (from 0 total)
+Modern Living Tokyo: 0 content URLs (from 0 total)
+Tokyo Furnished: 0 content URLs (from 0 total)
+
+Total gaps identifies: 66
+Top 100 saved to C:\Users\alegu\Desktop\tokyo-expat\scripts\data\content_gaps.json
+
+============================================================
+TOP 20 CONTENT GAPS (topics a couvrir en priorite):
+============================================================
+
+ 1. [ 35] pet cost cat tokyo
+     Via: Tokyo Cheapo
+     Angle: Creer contenu plus specifique, avec donnees proprietaires et angle francophone u
+
+ 2. [ 25] cheap tokyo salon hair makeup
+     Via: Tokyo Cheapo
+     Angle: Creer contenu plus specifique, avec donnees proprietaires et angle francophone u
+
+ 3. [ 25] star wars tokyo
+     Via: Tokyo Cheapo
+     Angle: Creer contenu plus specifique, avec donnees proprietaires et angle francophone u
+
+ 4. [ 25] interview clark parker tokyo files
+     Via: Tokyo Cheapo
+     Angle: Creer contenu plus specifique, avec donnees proprietaires et angle francophone u
+
+ 5. [ 25] top tokyo blogs
+     Via: Tokyo Cheapo
+     Angle: Creer contenu plus specifique, avec donnees proprietaires et angle francophone u
+
+ 6. [ 25] great tokyo kit kat search
+     Via: Tokyo Cheapo
+     Angle: Creer contenu plus specifique, avec donnees proprietaires et angle francophone u
+
+ 7. [ 25] tokyos top 5 cheapo trends in 2012
+     Via: Tokyo Cheapo
+     Angle: Creer contenu plus specifique, avec donnees proprietaires et angle francophone u
+
+ 8. [ 25] snoring sleep apnea tokyo
+     Via: Tokyo Cheapo
+     Angle: Creer contenu plus specifique, avec donnees proprietaires et angle francophone u
+
+ 9. [ 25] top salons hair dyed in tokyo
+     Via: Tokyo Cheapo
+     Angle: Creer contenu plus specifique, avec donnees proprietaires et angle francophone u
+
+10. [ 25] code chrysalis coding courses tokyo
+     Via: Tokyo Cheapo
+     Angle: Creer contenu plus specifique, avec donnees proprietaires et angle francophone u
+
+11. [ 25] womens health tokyo clinics birth control
+     Via: Tokyo Cheapo
+     Angle: Creer contenu plus specifique, avec donnees proprietaires et angle francophone u
+
+12. [ 25] the tokyo partnership oath system explained
+     Via: Tokyo Cheapo
+     Angle: Creer contenu plus specifique, avec donnees proprietaires et angle francophone u
+
+13. [ 25] video tokyo roar
+     Via: Tokyo Cheapo
+     Angle: Creer contenu plus specifique, avec donnees proprietaires et angle francophone u
+
+14. [ 25] changing tokyo energy company
+     Via: Tokyo Cheapo
+     Angle: Creer contenu plus specifique, avec donnees proprietaires et angle francophone u
+
+15. [ 25] getting your broken phone repaired in tokyo
+     Via: Tokyo Cheapo
+     Angle: Creer contenu plus specifique, avec donnees proprietaires et angle francophone u
+
+16. [ 25] getting married in tokyo
+     Via: Tokyo Cheapo
+     Angle: Creer contenu plus specifique, avec donnees proprietaires et angle francophone u
+
+17. [ 25] the top 10 cheapo neighborhoods in tokyo part 1 10 through 6
+     Via: Tokyo Cheapo
+     Angle: Creer contenu plus specifique, avec donnees proprietaires et angle francophone u
+
+18. [ 25] board game stores tokyo
+     Via: Tokyo Cheapo
+     Angle: Creer contenu plus specifique, avec donnees proprietaires et angle francophone u
+
+19. [ 25] smartphone computer repair tokyo english
+     Via: Tokyo Cheapo
+     Angle: Creer contenu plus specifique, avec donnees proprietaires et angle francophone u
+
+20. [ 25] safe sex condoms sti testing in tokyo
+     Via: Tokyo Cheapo
+     Angle: Creer contenu plus specifique, avec donnees proprietaires et angle francophone u
+
+Telegram alert sent.
+[ 7:28:48.23] [3/19] Pricing monitor... 
+
+============================================================
+PRICING MONITOR - 2026-08-03
+============================================================
+
+Checking Remoters Tokyo...
+  Aucun changement
+Checking Remoters Homepage...
+  Aucun changement
+Checking Sakura House Pricing EN...
+  Aucun changement
+Checking Sakura House Homepage...
+  [WARN] https://www.sakura-house.com/en/: 520 Server Error: <none> for url: http://www.sakura-house.com/
+  [SKIP] Could not fetch
+Checking Oak House Rent Guide...
+  Aucun changement
+Checking Oak House About...
+  Aucun changement
+Checking Gaijin House Pricing...
+  Aucun changement
+Checking Fontaine Services...
+  [WARN] https://fontaine.co.jp/services/: HTTPSConnectionPool(host='fontaine.co.jp', port=443): Max retries exceeded with url: /services/ (Caused by NameResolutionError("HTTPSConnection(host='fontaine.co.jp', port=443): Failed to resolve 'fontaine.co.jp' ([Errno 11001] getaddrinfo failed)"))
+  [SKIP] Could not fetch
+Checking Crown Relo Tokyo...
+  Aucun changement
+Checking Asian Tigers Services...
+  [WARN] https://www.asiantigers-japan.com/services/: HTTPSConnectionPool(host='www.asiantigers-japan.com', port=443): Max retries exceeded with url: /services/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.asiantigers-japan.com', port=443) at 0x1714e925e50>, 'Connection to www.asiantigers-japan.com timed out. (connect timeout=15)'))
+  [SKIP] Could not fetch
+Checking Tokyo Cheapo Housing...
+  [WARN] https://tokyocheapo.com/living/housing/: 404 Client Error: Not Found for url: https://tokyocheapo.com/living/housing/
+  [SKIP] Could not fetch
+Checking Savvy Tokyo Advertise...
+  Aucun changement
+Checking GaijinPot Advertise...
+  Aucun changement
+Checking Tokyo Expat Services...
+  Aucun changement
+
+Aucun changement de prix detecte
+[ 7:29:21.48] [4/19] Backlink spy... 
