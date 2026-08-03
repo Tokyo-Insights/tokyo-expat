@@ -1229,6 +1229,17 @@ Share houses are the fastest, most accessible entry point into the Tokyo rental 
 
 **Quick answer:** A Tokyo share house is a furnished private room with shared kitchen and bathroom, no guarantor and no key money, with move-in within days. Rent runs 40,000 to 90,000 JPY per month, utilities often included, and you can apply online from abroad with just a passport and visa. It is the easiest first home for newcomers.
 
+## Tokyo share house prices at a glance
+
+| Room type | Typical monthly rent | Deposit | Minimum stay | Guarantor |
+|---|---|---|---|---|
+| Dormitory bed | 30,000 to 50,000 JPY | Low or none | 1 month | No |
+| Small private room | 45,000 to 65,000 JPY | 1 month or none | 1 month | No |
+| Standard private room | 60,000 to 80,000 JPY | 1 month or none | 1 month | No |
+| Private room with ensuite | 80,000 to 110,000 JPY | 1 month or none | 1 month | No |
+
+Utilities are often bundled into the monthly rent. Prices vary by ward and distance to a station.
+
 
 ![Move-in cost in months of rent, by housing type in Tokyo](/tokyo-housing-barrier-en.png "Share house ~1 month vs a standard lease ~5 months plus a guarantor")
 ## What is a share house in Japan?
@@ -1345,6 +1356,10 @@ For health coverage during your share house stay, [SafetyWing Nomad Insurance](h
 The Japanese guarantor requirement is the single biggest barrier for foreigners renting in Tokyo. The good news: an entire segment of the market exists specifically for foreigners who need furnished housing without a Japanese guarantor. Our [complete guide to furnished apartments in Tokyo](/en/blog/furnished-apartments-tokyo-guide) walks through every option in detail.
 
 **Quick answer:** Yes, you can rent a furnished apartment in Tokyo without a Japanese guarantor. Monthly mansions and short-term furnished apartments accept foreigners with a passport and visa, no guarantor and no key money, with move-in within days. Expect 90,000 to 250,000 JPY per month depending on size and location.
+
+## Can foreigners rent in Tokyo without a guarantor?
+
+Yes. Foreigners can rent in Tokyo without a Japanese guarantor by choosing furnished monthly mansions, serviced apartments, or share houses, which accept a passport and visa instead. Many standard unfurnished rentals also accept a paid guarantor company (hosho gaisha) in place of a personal guarantor, usually for around half a month of rent.
 
 
 ![Move-in cost in months of rent, by housing type in Tokyo](/tokyo-housing-barrier-en.png "Share house ~1 month vs a standard lease ~5 months plus a guarantor")
@@ -8065,6 +8080,17 @@ Finding a furnished apartment in Tokyo is one of the first urgent tasks for any 
 
 **Quick answer:** For most expats, the best furnished apartment option in Tokyo is a **share house** (40,000-120,000 JPY/month, no Japanese guarantor, move in within a week). For more privacy, a **monthly mansion** (80,000-200,000 JPY/month) gives you a private studio with an address usable for admin. For longer stays, a specialist agency arranges a **full furnished apartment** (100,000-300,000 JPY/month). None of these require a Japanese guarantor.
 
+## Short-term apartment options in Tokyo at a glance
+
+| Option | Minimum stay | Typical price | Guarantor |
+|---|---|---|---|
+| Airbnb or short stay | 1 night | 15,000 to 40,000 JPY/night | No |
+| Share house (private room) | 1 month | 40,000 to 120,000 JPY/month | No |
+| Monthly mansion (furnished studio) | 1 month | 80,000 to 200,000 JPY/month | No |
+| Serviced furnished apartment | 1 to 3 months | 100,000 to 300,000 JPY/month | No |
+
+None of these require a Japanese guarantor; a passport and visa are enough.
+
 Here are the 5 real options available to you, with their 2026 costs, pros, and limits. For the full picture beyond these five, see our [complete guide to furnished apartments in Tokyo](/en/blog/furnished-apartments-tokyo-guide).
 
 > **From the field.** Running furnished units, I can tell you the listing photos are usually the show apartment, not the one you get. What really varies is what is included: bedding, wifi speed, cleaning, a usable kitchen. Get the inclusions in writing before you pay a deposit.
@@ -8326,6 +8352,17 @@ Pour votre couverture sante pendant la recherche de logement, [SafetyWing Nomad 
 Understanding Tokyo apartment prices before you start your search is the difference between a realistic brief and weeks of wasted visits. Rents in Tokyo vary enormously by neighborhood, apartment type, and proximity to a metro station. This guide gives you benchmarks for 15 key expat districts in 2026, based on current market data for furnished and unfurnished rentals.
 
 **Quick answer:** Tokyo rents vary widely by neighbourhood and layout. Central premium areas (Hiroo, Roppongi, Minato) run 150,000 to 300,000 JPY for a 1LDK; mid-range areas offer more space per yen; outer wards are the most affordable. Always weigh rent against commute time. See our data-backed Tokyo Rent Index for medians by ward and train line.
+
+## How much does it cost to rent in Tokyo by apartment type?
+
+| Apartment type | Typical monthly rent | Deposit | Guarantor needed |
+|---|---|---|---|
+| Share house (private room) | 40,000 to 90,000 JPY | 1 month or none | No |
+| Monthly mansion (furnished studio) | 90,000 to 200,000 JPY | Often none | No |
+| 1K unfurnished (standard lease) | 80,000 to 140,000 JPY | 1 to 2 months | Usually yes |
+| 1LDK unfurnished | 150,000 to 300,000 JPY | 1 to 2 months | Usually yes |
+
+Figures are indicative Tokyo ranges from current market listings; central wards sit at the top of each band.
 
 All prices below are monthly rent in JPY, excluding service charges and utilities unless specified. Add 15-25% for fully furnished serviced apartments. For median rent across all 23 wards by layout, see our [Tokyo Rent Index](/data), computed from 528,660 real listings.
 
