@@ -23,7 +23,7 @@
   "vuln:tokyocheapo.com:moving to tokyo guide 2026": "2026-07-27",
   "vuln:tokyocheapo.com:open bank account japan foreigner": "2026-07-13",
   "vuln:tokyocheapo.com:tokyo apartment hunting abroad": "2026-07-13",
-  "vuln:gaijinpot.com:tokyo expat housing": "2026-07-13",
+  "vuln:gaijinpot.com:tokyo expat housing": "2026-08-03",
   "vuln:gaijinpot.com:tokyo apartment hunting abroad": "2026-07-13",
   "vuln:japan-guide.com:open bank account japan foreigner": "2026-07-13",
   "vuln:remoters.io:trouver appartement tokyo etranger": "2026-07-20",
@@ -52,5 +52,12 @@
     "date": "2026-08-03",
     "dismissed": true
   },
-  "proactive:('trouver appartement tokyo etranger', 1),('appartement meuble tokyo expatrie', 1)|pet cost cat tokyo|sakura-house.com:logement tokyo expatrie": "2026-08-03"
+  "proactive:('trouver appartement tokyo etranger', 1),('appartement meuble tokyo expatrie', 1)|pet cost cat tokyo|sakura-house.com:logement tokyo expatrie": "2026-08-03",
+  "vuln:sakura-house.com:trouver appartement tokyo etranger": "2026-08-03",
+  "vuln:gaijinpot.com:furnished apartment tokyo no guarantor": "2026-08-03",
+  "vuln:sakura-house.com:share house tokyo guide": "2026-08-03",
+  "vuln:oakhouse.jp:gaijin house tokyo": "2026-08-03",
+  "vuln:tokyocheapo.com:furnished apartment tokyo no guarantor": "2026-08-03",
+  "vuln:gaijinpot.com:rent tokyo expat 2026": "2026-08-03",
+  "proactive:('trouver appartement tokyo etranger', 1),('appartement meuble tokyo expatrie', 1)|pet cost cat tokyo|sakura-house.com:trouver appartement tokyo etranger": "2026-08-03"
 }
