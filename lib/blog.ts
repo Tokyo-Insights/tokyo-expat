@@ -9964,7 +9964,7 @@ To discover the food scene of these upscale residential neighbourhoods, [Arigato
     slug: 'gaijin-house-tokyo-guide',
     locale: 'en',
     title: 'Gaijin House Tokyo: Complete Guide for Foreigners (2026)',
-    description: 'What a gaijin house is, real 2026 costs, pros and cons, and how to secure a room in Tokyo with no Japanese guarantor and no key money.',
+    description: 'Cheap furnished gaijin house rooms in Tokyo from around 40,000 JPY a month, no guarantor and no key money. Real 2026 costs and how to book one fast.',
     date: '2026-06-28',
     readingTime: '6 min',
     content: `
@@ -12472,6 +12472,9 @@ Compare that to unfurnished rents by ward and layout in our [Tokyo Rent Index](/
 An unfurnished apartment has a lower monthly rent, but the upfront bill (deposit, key money, agency fee, guarantor company, plus buying everything) can top 500,000 JPY before you sleep there one night. A furnished apartment front-loads almost nothing: you pay rent, maybe a small cleaning fee, and move in. For a stay under two years, or any time you value speed and certainty, furnished usually wins on total cost.
 
 ## Long-term furnished apartments in Tokyo
+
+**Long-term furnished apartment in Tokyo?** Yes. You can rent a furnished apartment in Tokyo long-term, typically from three months up to two or three years, with monthly rates that drop the longer you commit and no guarantor or Japanese bank account required.
+
 Furnished does not mean short-term only. Plenty of monthly mansions and share houses offer long-term rates that drop the longer you commit, and many foreigners live in them for years. If you want to stay one, two or three years without the guarantor and bank-account hurdles of a standard lease, a long-term furnished contract is the smoothest path in.
 
 ## How to rent one as a foreigner
@@ -12535,7 +12538,7 @@ Le piege, c'est que les meilleurs meubles sont detenus par un petit cercle d'ope
     slug: 'expat-apartments-tokyo',
     locale: 'en',
     title: 'Expat Apartments in Tokyo: How to Find One in 2026',
-    description: 'How to find an expat-friendly apartment in Tokyo in 2026: what "gaijin apartments" really are, real costs, no guarantor, and where to look.',
+    description: 'Expat apartments in Tokyo explained: what "gaijin apartments" really are, real 2026 costs, no guarantor needed, and exactly where to find one.',
     date: '2026-07-10',
     readingTime: '7 min',
     content: `
