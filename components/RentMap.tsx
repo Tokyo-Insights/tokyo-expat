@@ -66,11 +66,15 @@ export default function RentMap({ locale }: { locale: string }) {
     const circles = Array.from(svg.querySelectorAll<SVGCircleElement>('circle.rm-st'))
     const clamp = (v: number, a: number, b: number) => (v < a ? a : v > b ? b : v)
 
-    const applyT = () => {
+    let raf = 0
+    let match: Station[] = []
+    const setTransform = () => {
       const { k, tx, ty } = view.current
       vp.setAttribute('transform', `translate(${tx} ${ty}) scale(${k})`)
-      placeLabels()
     }
+    const draw = () => { setTransform(); placeLabels() }
+    const schedule = () => { if (!raf) raf = requestAnimationFrame(() => { raf = 0; draw() }) }
+    const applyT = () => schedule()
     const toVB = (cx: number, cy: number): [number, number] => {
       const rb = svg.getBoundingClientRect()
       return [(cx - rb.left) / rb.width * W, (cy - rb.top) / rb.height * Hh]
@@ -86,11 +90,9 @@ export default function RentMap({ locale }: { locale: string }) {
     const overlap = (a: number[], b: number[]) => !(a[2] < b[0] || a[0] > b[2] || a[3] < b[1] || a[1] > b[3])
     const placeLabels = () => {
       while (dyn.firstChild) dyn.removeChild(dyn.firstChild)
-      const code = filt.current.line, q = filt.current.query.toLowerCase()
-      if (!code && !q) return
+      if (!match.length) return
       const { k, tx, ty } = view.current
-      const cand = data.stations.filter(d => (!code || d.L.indexOf(code) >= 0) && (!q || d.n.toLowerCase().indexOf(q) >= 0))
-        .sort((a, b) => b.s - a.s)
+      const cand = match
       const boxes: number[][] = []
       let placed = 0
       for (let i = 0; i < cand.length && placed < 60; i++) {
@@ -126,6 +128,7 @@ export default function RentMap({ locale }: { locale: string }) {
       rails.classList.toggle('rm-filtered', !!code)
       rails.querySelectorAll<SVGPathElement>('.rm-rail').forEach(p => p.classList.toggle('rm-hot', !!code && p.getAttribute('data-line') === code))
       setCount(active ? `${hits} ${hits === 1 ? 'station' : 'stations'}` : `${circles.length} stations`)
+      match = active ? data.stations.filter(d => (!code || d.L.indexOf(code) >= 0) && (!q || d.n.toLowerCase().indexOf(q) >= 0)).sort((a, b) => b.s - a.s) : []
       placeLabels()
     }
     ;(svg as unknown as { _apply?: () => void })._apply = apply
@@ -174,6 +177,7 @@ export default function RentMap({ locale }: { locale: string }) {
 
     apply()
     return () => {
+      if (raf) cancelAnimationFrame(raf)
       svg.removeEventListener('wheel', onWheel)
       svg.removeEventListener('pointerdown', onDown)
       svg.removeEventListener('pointermove', onMove)
