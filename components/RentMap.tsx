@@ -15,6 +15,7 @@ const CSS = `
 .rm-stage{position:relative;max-width:1120px;margin:0 auto;background:#fbfdff;border:1px solid #e3e9f1;border-radius:16px;padding:8px;box-shadow:0 1px 3px rgba(15,39,68,.06);overflow:hidden;}
 .rm-stage svg{width:100%;height:auto;display:block;background:#fbfdff;cursor:grab;touch-action:none;}
 .rm-stage svg.rm-grab{cursor:grabbing;}
+.rm-vp{transform-origin:0 0;will-change:transform;}
 .rm-wards path{fill:#eef2f7;stroke:#d6dfea;stroke-width:1.3;stroke-linejoin:round;}
 .rm-wl text{fill:#8492a6;font-size:22px;font-weight:700;letter-spacing:2px;text-anchor:middle;text-transform:uppercase;}
 .rm-railbg{fill:none;stroke:#aeb9c8;stroke-width:2;stroke-linejoin:round;stroke-linecap:round;opacity:.31;}
@@ -65,16 +66,13 @@ export default function RentMap({ locale }: { locale: string }) {
     const W = data.w, Hh = data.h
     const circles = Array.from(svg.querySelectorAll<SVGCircleElement>('circle.rm-st'))
     const clamp = (v: number, a: number, b: number) => (v < a ? a : v > b ? b : v)
-
-    let raf = 0
     let match: Station[] = []
+
+    // --- transform via CSS (GPU-composite, pas de re-layout SVG) ---
     const setTransform = () => {
       const { k, tx, ty } = view.current
-      vp.setAttribute('transform', `translate(${tx} ${ty}) scale(${k})`)
+      vp.style.transform = `translate(${tx}px, ${ty}px) scale(${k})`
     }
-    const draw = () => { setTransform(); placeLabels() }
-    const schedule = () => { if (!raf) raf = requestAnimationFrame(() => { raf = 0; draw() }) }
-    const applyT = () => schedule()
     const toVB = (cx: number, cy: number): [number, number] => {
       const rb = svg.getBoundingClientRect()
       return [(cx - rb.left) / rb.width * W, (cy - rb.top) / rb.height * Hh]
@@ -85,25 +83,20 @@ export default function RentMap({ locale }: { locale: string }) {
       v.tx = clamp(vx - (vx - v.tx) * (nk / v.k), W - W * nk, 0)
       v.ty = clamp(vy - (vy - v.ty) * (nk / v.k), Hh - Hh * nk, 0)
       v.k = nk
-      applyT()
+      setTransform()
     }
+    // --- labels: en coords carte (dans vp -> suivent le zoom), calcules 1x/filtre ---
     const overlap = (a: number[], b: number[]) => !(a[2] < b[0] || a[0] > b[2] || a[3] < b[1] || a[1] > b[3])
     const placeLabels = () => {
       while (dyn.firstChild) dyn.removeChild(dyn.firstChild)
       if (!match.length) return
-      const { k, tx, ty } = view.current
-      const cand = match
       const boxes: number[][] = []
       let placed = 0
-      for (let i = 0; i < cand.length && placed < 60; i++) {
-        const d = cand[i], X = tx + k * d.x, Y = ty + k * d.y
-        if (X < 0 || X > W || Y < 0 || Y > Hh) continue
-        const dotR = 8 * k, hh = 17
-        const w = d.n.length * 16 + 12
-        const off = dotR + hh + 6
-        const cands = [[0, -off], [0, off], [w / 2 + dotR + 8, 0], [-(w / 2 + dotR + 8), 0], [0, -off - 34], [0, off + 34]]
+      for (let i = 0; i < match.length && placed < 70; i++) {
+        const d = match[i], w = d.n.length * 16 + 12, hh = 17, off = 8 + hh + 6
+        const cands = [[0, -off], [0, off], [w / 2 + 16, 0], [-(w / 2 + 16), 0], [0, -off - 34], [0, off + 34]]
         for (const [dx, dy] of cands) {
-          const cx = X + dx, cy = Y + dy
+          const cx = d.x + dx, cy = d.y + dy
           const box = [cx - w / 2, cy - hh, cx + w / 2, cy + hh]
           if (!boxes.some(bb => overlap(box, bb))) {
             boxes.push(box)
@@ -121,9 +114,9 @@ export default function RentMap({ locale }: { locale: string }) {
       circles.forEach(c => {
         const n = (c.getAttribute('data-n') || '').toLowerCase()
         const ls = ',' + (c.getAttribute('data-lines') || '') + ','
-        const ok = (!code || ls.indexOf(',' + code + ',') >= 0) && (!q || n.indexOf(q) >= 0)
-        c.classList.toggle('rm-dim', active && !ok)
-        if (active && ok) hits++
+        const okc = (!code || ls.indexOf(',' + code + ',') >= 0) && (!q || n.indexOf(q) >= 0)
+        c.classList.toggle('rm-dim', active && !okc)
+        if (active && okc) hits++
       })
       rails.classList.toggle('rm-filtered', !!code)
       rails.querySelectorAll<SVGPathElement>('.rm-rail').forEach(p => p.classList.toggle('rm-hot', !!code && p.getAttribute('data-line') === code))
@@ -133,7 +126,8 @@ export default function RentMap({ locale }: { locale: string }) {
     }
     ;(svg as unknown as { _apply?: () => void })._apply = apply
 
-    // tooltip
+    // --- tooltip (desktop hover + mobile tap) ---
+    let moved = false, panning = false, pinch = false
     const showTip = (el: SVGCircleElement, cx: number, cy: number) => {
       const n = el.getAttribute('data-n'), a = el.getAttribute('data-k')
       const l = el.getAttribute('data-l'), t = el.getAttribute('data-t'), s = el.getAttribute('data-s')
@@ -145,44 +139,72 @@ export default function RentMap({ locale }: { locale: string }) {
       tip.style.left = (cx - rb.left) + 'px'; tip.style.top = (cy - rb.top) + 'px'; tip.style.opacity = '1'
     }
     const hideTip = () => { tip.style.opacity = '0' }
-    let dragging = false
     circles.forEach(el => {
-      el.addEventListener('mousemove', e => { if (!dragging) showTip(el, (e as MouseEvent).clientX, (e as MouseEvent).clientY) })
+      el.addEventListener('mousemove', e => { if (!panning && !pinch) showTip(el, (e as MouseEvent).clientX, (e as MouseEvent).clientY) })
       el.addEventListener('mouseleave', hideTip)
       el.addEventListener('focus', () => { const b = el.getBoundingClientRect(); showTip(el, b.left + b.width / 2, b.top + b.height / 2) })
       el.addEventListener('blur', hideTip)
+      el.addEventListener('click', () => { if (!moved) { const b = el.getBoundingClientRect(); showTip(el, b.left + b.width / 2, b.top + b.height / 2) } })
     })
 
-    // zoom / pan
-    const onWheel = (e: WheelEvent) => { e.preventDefault(); const p = toVB(e.clientX, e.clientY); zoomAt(e.deltaY < 0 ? 1.18 : 1 / 1.18, p[0], p[1]) }
-    svg.addEventListener('wheel', onWheel, { passive: false })
-    let sxp = 0, syp = 0, stx = 0, sty = 0
-    const onDown = (e: PointerEvent) => { dragging = true; svg.classList.add('rm-grab'); sxp = e.clientX; syp = e.clientY; stx = view.current.tx; sty = view.current.ty; svg.setPointerCapture(e.pointerId); hideTip() }
-    const onMove = (e: PointerEvent) => {
-      if (!dragging) return
-      const rb = svg.getBoundingClientRect(), k = view.current.k
-      view.current.tx = clamp(stx + (e.clientX - sxp) / rb.width * W, W - W * k, 0)
-      view.current.ty = clamp(sty + (e.clientY - syp) / rb.height * Hh, Hh - Hh * k, 0)
-      applyT()
+    // --- pan + pinch via pointer events ---
+    const pts = new Map<number, { x: number; y: number }>()
+    let panTx = 0, panTy = 0, panX = 0, panY = 0
+    let lastDist = 0
+    const dist = (a: { x: number; y: number }, b: { x: number; y: number }) => Math.hypot(a.x - b.x, a.y - b.y)
+    const onDown = (e: PointerEvent) => {
+      pts.set(e.pointerId, { x: e.clientX, y: e.clientY })
+      svg.setPointerCapture(e.pointerId)
+      moved = false
+      if (pts.size === 1) { panning = true; pinch = false; panTx = view.current.tx; panTy = view.current.ty; panX = e.clientX; panY = e.clientY; svg.classList.add('rm-grab'); hideTip() }
+      else if (pts.size === 2) { panning = false; pinch = true; const [p1, p2] = Array.from(pts.values()); lastDist = dist(p1, p2) }
     }
-    const endDrag = () => { dragging = false; svg.classList.remove('rm-grab') }
+    const onMove = (e: PointerEvent) => {
+      if (!pts.has(e.pointerId)) return
+      pts.set(e.pointerId, { x: e.clientX, y: e.clientY })
+      if (pinch && pts.size >= 2) {
+        const [p1, p2] = Array.from(pts.values())
+        const d = dist(p1, p2)
+        if (lastDist > 0) {
+          const mx = (p1.x + p2.x) / 2, my = (p1.y + p2.y) / 2
+          const [vx, vy] = toVB(mx, my)
+          zoomAt(d / lastDist, vx, vy)
+        }
+        lastDist = d; moved = true
+      } else if (panning) {
+        const rb = svg.getBoundingClientRect(), k = view.current.k
+        const dx = (e.clientX - panX) / rb.width * W, dy = (e.clientY - panY) / rb.height * Hh
+        if (Math.abs(e.clientX - panX) + Math.abs(e.clientY - panY) > 4) moved = true
+        view.current.tx = clamp(panTx + dx, W - W * k, 0)
+        view.current.ty = clamp(panTy + dy, Hh - Hh * k, 0)
+        setTransform()
+      }
+    }
+    const onUp = (e: PointerEvent) => {
+      pts.delete(e.pointerId)
+      if (pts.size < 2) { pinch = false; lastDist = 0 }
+      if (pts.size === 1) { const [p] = Array.from(pts.values()); panning = true; panTx = view.current.tx; panTy = view.current.ty; panX = p.x; panY = p.y }
+      if (pts.size === 0) { panning = false; svg.classList.remove('rm-grab') }
+    }
+    const onWheel = (e: WheelEvent) => { e.preventDefault(); const [vx, vy] = toVB(e.clientX, e.clientY); zoomAt(e.deltaY < 0 ? 1.18 : 1 / 1.18, vx, vy) }
     svg.addEventListener('pointerdown', onDown)
     svg.addEventListener('pointermove', onMove)
-    svg.addEventListener('pointerup', endDrag)
-    svg.addEventListener('pointercancel', endDrag)
+    svg.addEventListener('pointerup', onUp)
+    svg.addEventListener('pointercancel', onUp)
+    svg.addEventListener('wheel', onWheel, { passive: false })
 
     ;(svg as unknown as { _zin?: () => void })._zin = () => zoomAt(1.4, W / 2, Hh / 2)
     ;(svg as unknown as { _zout?: () => void })._zout = () => zoomAt(1 / 1.4, W / 2, Hh / 2)
-    ;(svg as unknown as { _zreset?: () => void })._zreset = () => { view.current = { k: 1, tx: 0, ty: 0 }; applyT() }
+    ;(svg as unknown as { _zreset?: () => void })._zreset = () => { view.current = { k: 1, tx: 0, ty: 0 }; setTransform() }
 
+    setTransform()
     apply()
     return () => {
-      if (raf) cancelAnimationFrame(raf)
-      svg.removeEventListener('wheel', onWheel)
       svg.removeEventListener('pointerdown', onDown)
       svg.removeEventListener('pointermove', onMove)
-      svg.removeEventListener('pointerup', endDrag)
-      svg.removeEventListener('pointercancel', endDrag)
+      svg.removeEventListener('pointerup', onUp)
+      svg.removeEventListener('pointercancel', onUp)
+      svg.removeEventListener('wheel', onWheel)
     }
   }, [data])
 
@@ -232,7 +254,7 @@ export default function RentMap({ locale }: { locale: string }) {
           <button type="button" aria-label="Reset view" onClick={() => zcall('_zreset')}>&#8635;</button>
         </div>
         <svg ref={svgRef} viewBox={`0 0 ${data.w} ${data.h}`} role="img" aria-label="Interactive Tokyo rent map by station and line">
-          <g ref={vpRef}>
+          <g className="rm-vp" ref={vpRef}>
             <g className="rm-wards">{data.wards.map(w => <path key={w.n} d={w.d} />)}</g>
             <g className="rm-wl">{data.wards.map(w => <text key={w.n} x={w.cx} y={w.cy}>{w.n}</text>)}</g>
             <g className="rm-rails" ref={railsRef}>
@@ -245,8 +267,8 @@ export default function RentMap({ locale }: { locale: string }) {
                   data-n={s.n} data-k={s.k.toLocaleString()} data-l={s.l ? s.l.toLocaleString() : ''} data-t={s.t ? s.t.toLocaleString() : ''} data-s={s.s.toLocaleString()} data-lines={s.L.join(',')} />
               ))}
             </g>
+            <g className="rm-lbls" ref={dynRef} />
           </g>
-          <g className="rm-lbls" ref={dynRef} />
         </svg>
         <div className="rm-legend">
           <div className="rm-cap">{fr ? 'Loyer médian 1K' : 'Median 1K rent'}</div>
