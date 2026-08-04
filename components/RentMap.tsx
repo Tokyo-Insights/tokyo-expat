@@ -69,23 +69,24 @@ export default function RentMap({ locale }: { locale: string }) {
     const circles = Array.from(svg.querySelectorAll<SVGCircleElement>('circle.rm-st'))
     const clamp = (v: number, a: number, b: number) => (v < a ? a : v > b ? b : v)
     let match: Station[] = []
+    let raf = 0
+    let rect = svg.getBoundingClientRect()   // cache: PAS de getBoundingClientRect dans la boucle de pan
 
-    // --- transform via CSS (GPU-composite, pas de re-layout SVG) ---
+    // --- transform via CSS (GPU-composite) ; rendu limite a 1 fois/frame (rAF) ---
     const setTransform = () => {
       const { k, tx, ty } = view.current
       vp.style.transform = `translate(${tx}px, ${ty}px) scale(${k})`
     }
-    const toVB = (cx: number, cy: number): [number, number] => {
-      const rb = svg.getBoundingClientRect()
-      return [(cx - rb.left) / rb.width * W, (cy - rb.top) / rb.height * Hh]
-    }
+    const scheduleDraw = () => { if (!raf) raf = requestAnimationFrame(() => { raf = 0; setTransform() }) }
+    const toVB = (cx: number, cy: number): [number, number] =>
+      [(cx - rect.left) / rect.width * W, (cy - rect.top) / rect.height * Hh]
     const zoomAt = (f: number, vx: number, vy: number) => {
       const v = view.current
       const nk = clamp(v.k * f, 1, 9)
       v.tx = clamp(vx - (vx - v.tx) * (nk / v.k), W - W * nk, 0)
       v.ty = clamp(vy - (vy - v.ty) * (nk / v.k), Hh - Hh * nk, 0)
       v.k = nk
-      setTransform()
+      scheduleDraw()
     }
     // --- labels: en coords carte (dans vp -> suivent le zoom), calcules 1x/filtre ---
     const overlap = (a: number[], b: number[]) => !(a[2] < b[0] || a[0] > b[2] || a[3] < b[1] || a[1] > b[3])
@@ -158,6 +159,7 @@ export default function RentMap({ locale }: { locale: string }) {
       pts.set(e.pointerId, { x: e.clientX, y: e.clientY })
       svg.setPointerCapture(e.pointerId)
       moved = false
+      rect = svg.getBoundingClientRect()
       if (pts.size === 1) { panning = true; pinch = false; panTx = view.current.tx; panTy = view.current.ty; panX = e.clientX; panY = e.clientY; svg.classList.add('rm-grab'); hideTip() }
       else if (pts.size === 2) { panning = false; pinch = true; const [p1, p2] = Array.from(pts.values()); lastDist = dist(p1, p2) }
     }
@@ -174,12 +176,12 @@ export default function RentMap({ locale }: { locale: string }) {
         }
         lastDist = d; moved = true
       } else if (panning) {
-        const rb = svg.getBoundingClientRect(), k = view.current.k
-        const dx = (e.clientX - panX) / rb.width * W, dy = (e.clientY - panY) / rb.height * Hh
+        const k = view.current.k
+        const dx = (e.clientX - panX) / rect.width * W, dy = (e.clientY - panY) / rect.height * Hh
         if (Math.abs(e.clientX - panX) + Math.abs(e.clientY - panY) > 4) moved = true
         view.current.tx = clamp(panTx + dx, W - W * k, 0)
         view.current.ty = clamp(panTy + dy, Hh - Hh * k, 0)
-        setTransform()
+        scheduleDraw()
       }
     }
     const onUp = (e: PointerEvent) => {
@@ -188,7 +190,7 @@ export default function RentMap({ locale }: { locale: string }) {
       if (pts.size === 1) { const [p] = Array.from(pts.values()); panning = true; panTx = view.current.tx; panTy = view.current.ty; panX = p.x; panY = p.y }
       if (pts.size === 0) { panning = false; svg.classList.remove('rm-grab') }
     }
-    const onWheel = (e: WheelEvent) => { e.preventDefault(); const [vx, vy] = toVB(e.clientX, e.clientY); zoomAt(e.deltaY < 0 ? 1.18 : 1 / 1.18, vx, vy) }
+    const onWheel = (e: WheelEvent) => { e.preventDefault(); rect = svg.getBoundingClientRect(); const [vx, vy] = toVB(e.clientX, e.clientY); zoomAt(e.deltaY < 0 ? 1.18 : 1 / 1.18, vx, vy) }
     svg.addEventListener('pointerdown', onDown)
     svg.addEventListener('pointermove', onMove)
     svg.addEventListener('pointerup', onUp)
@@ -202,6 +204,7 @@ export default function RentMap({ locale }: { locale: string }) {
     setTransform()
     apply()
     return () => {
+      if (raf) cancelAnimationFrame(raf)
       svg.removeEventListener('pointerdown', onDown)
       svg.removeEventListener('pointermove', onMove)
       svg.removeEventListener('pointerup', onUp)
