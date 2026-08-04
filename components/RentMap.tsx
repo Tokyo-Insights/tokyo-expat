@@ -239,8 +239,8 @@ export default function RentMap({ locale }: { locale: string }) {
                   data-n={s.n} data-k={s.k.toLocaleString()} data-l={s.l ? s.l.toLocaleString() : ''} data-t={s.t ? s.t.toLocaleString() : ''} data-s={s.s.toLocaleString()} data-lines={s.L.join(',')} />
               ))}
             </g>
-            <g className="rm-lbls" ref={dynRef} />
           </g>
+          <g className="rm-lbls" ref={dynRef} />
         </svg>
         <div className="rm-legend">
           <div className="rm-cap">{fr ? 'Loyer médian 1K' : 'Median 1K rent'}</div>
