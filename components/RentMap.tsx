@@ -12,26 +12,23 @@ type MapData = {
 }
 
 const CSS = `
-.rm-stage{position:relative;max-width:1120px;margin:0 auto;background:#fbfdff;border:1px solid #e3e9f1;border-radius:16px;padding:8px;box-shadow:0 1px 3px rgba(15,39,68,.06);overflow:hidden;}
-.rm-stage{user-select:none;-webkit-user-select:none;-moz-user-select:none;}
-.rm-stage svg{width:100%;height:auto;display:block;background:#fbfdff;cursor:grab;touch-action:none;-webkit-user-select:none;user-select:none;}
-.rm-stage svg text,.rm-lbl,.rm-wl text{user-select:none;-webkit-user-select:none;}
-.rm-stage svg.rm-grab{cursor:grabbing;}
-.rm-vp{transform-origin:0 0;will-change:transform;}
+.rm-stage{position:relative;max-width:1120px;margin:0 auto;background:#fbfdff;border:1px solid #e3e9f1;border-radius:16px;padding:8px;box-shadow:0 1px 3px rgba(15,39,68,.06);overflow:hidden;user-select:none;-webkit-user-select:none;-moz-user-select:none;}
+.rm-vp{transform-origin:0 0;will-change:transform;cursor:grab;touch-action:none;}
+.rm-vp.rm-grab{cursor:grabbing;}
+.rm-vp svg{width:100%;height:auto;display:block;background:#fbfdff;pointer-events:none;}
 .rm-wards path{fill:#eef2f7;stroke:#d6dfea;stroke-width:1.3;stroke-linejoin:round;}
 .rm-wl text{fill:#8492a6;font-size:22px;font-weight:700;letter-spacing:2px;text-anchor:middle;text-transform:uppercase;}
 .rm-railbg{fill:none;stroke:#aeb9c8;stroke-width:2;stroke-linejoin:round;stroke-linecap:round;opacity:.31;}
 .rm-rail{fill:none;stroke-width:2.6;stroke-linejoin:round;stroke-linecap:round;opacity:.45;transition:opacity .15s,stroke-width .15s;}
 .rm-rails.rm-filtered .rm-rail,.rm-rails.rm-filtered .rm-railbg{opacity:.1;}
 .rm-rails.rm-filtered .rm-rail.rm-hot{opacity:1;stroke-width:4.6;}
-circle.rm-st{stroke:#fff;stroke-width:1.1;cursor:pointer;}
-circle.rm-st:hover,circle.rm-st:focus{stroke-width:2.6;outline:none;}
+circle.rm-st{stroke:#fff;stroke-width:1.1;pointer-events:auto;cursor:pointer;}
 circle.rm-st.rm-dim{opacity:.08;}
 .rm-lbl{fill:#0f2744;font-size:30px;font-weight:700;text-anchor:middle;paint-order:stroke;stroke:#fbfdff;stroke-width:6px;stroke-linejoin:round;pointer-events:none;}
 .rm-zoom{position:absolute;top:14px;right:14px;display:flex;flex-direction:column;gap:6px;z-index:5;}
 .rm-zoom button{width:38px;height:38px;border:1px solid #e3e9f1;background:#fff;color:#0f2744;border-radius:10px;font-size:20px;font-weight:700;cursor:pointer;box-shadow:0 1px 3px rgba(0,0,0,.1);line-height:1;display:flex;align-items:center;justify-content:center;}
 .rm-zoom button:hover{background:#f4f7fb;}
-.rm-legend{position:absolute;left:14px;bottom:12px;background:#fff;border:1px solid #e3e9f1;border-radius:12px;padding:9px 12px;font-size:12px;color:#5b6b82;box-shadow:0 1px 3px rgba(0,0,0,.06);}
+.rm-legend{position:absolute;left:14px;bottom:12px;background:#fff;border:1px solid #e3e9f1;border-radius:12px;padding:9px 12px;font-size:12px;color:#5b6b82;box-shadow:0 1px 3px rgba(0,0,0,.06);z-index:5;}
 .rm-legend .rm-bar{width:190px;height:10px;border-radius:6px;margin:6px 0 4px;}
 .rm-legend .rm-ends{display:flex;justify-content:space-between;font-weight:700;color:#0f2744;font-variant-numeric:tabular-nums;}
 .rm-legend .rm-cap{font-weight:700;letter-spacing:.04em;text-transform:uppercase;font-size:10.5px;}
@@ -47,7 +44,7 @@ export default function RentMap({ locale }: { locale: string }) {
   const [count, setCount] = useState('')
 
   const svgRef = useRef<SVGSVGElement>(null)
-  const vpRef = useRef<SVGGElement>(null)
+  const vpRef = useRef<HTMLDivElement>(null)
   const railsRef = useRef<SVGGElement>(null)
   const dynRef = useRef<SVGGElement>(null)
   const tipRef = useRef<HTMLDivElement>(null)
@@ -65,30 +62,36 @@ export default function RentMap({ locale }: { locale: string }) {
     if (!data) return
     const svg = svgRef.current!, vp = vpRef.current!, dyn = dynRef.current!, tip = tipRef.current!
     const stage = stageRef.current!, rails = railsRef.current!
-    const W = data.w, Hh = data.h
     const circles = Array.from(svg.querySelectorAll<SVGCircleElement>('circle.rm-st'))
     const clamp = (v: number, a: number, b: number) => (v < a ? a : v > b ? b : v)
     let match: Station[] = []
     let raf = 0
-    let rect = svg.getBoundingClientRect()   // cache: PAS de getBoundingClientRect dans la boucle de pan
+    // geometrie (en px ecran) mise en cache -> AUCUN getBoundingClientRect dans la boucle
+    let natW = vp.clientWidth, natH = vp.clientHeight, originL = 0, originT = 0
+    const refreshGeom = () => {
+      const rb = vp.getBoundingClientRect()
+      originL = rb.left - view.current.tx
+      originT = rb.top - view.current.ty
+      natW = vp.clientWidth
+      natH = vp.clientHeight
+    }
 
-    // --- transform via CSS (GPU-composite) ; rendu limite a 1 fois/frame (rAF) ---
+    // --- transform sur le DIV (couche GPU garantie) ; 1 rendu/frame ---
     const setTransform = () => {
       const { k, tx, ty } = view.current
-      vp.style.transform = `translate(${tx}px, ${ty}px) scale(${k})`
+      vp.style.transform = `translate3d(${tx}px, ${ty}px, 0) scale(${k})`
     }
     const scheduleDraw = () => { if (!raf) raf = requestAnimationFrame(() => { raf = 0; setTransform() }) }
-    const toVB = (cx: number, cy: number): [number, number] =>
-      [(cx - rect.left) / rect.width * W, (cy - rect.top) / rect.height * Hh]
-    const zoomAt = (f: number, vx: number, vy: number) => {
+    const zoomAt = (f: number, mx: number, my: number) => {
       const v = view.current
       const nk = clamp(v.k * f, 1, 9)
-      v.tx = clamp(vx - (vx - v.tx) * (nk / v.k), W - W * nk, 0)
-      v.ty = clamp(vy - (vy - v.ty) * (nk / v.k), Hh - Hh * nk, 0)
+      v.tx = clamp(mx - (mx - v.tx) * (nk / v.k), natW * (1 - nk), 0)
+      v.ty = clamp(my - (my - v.ty) * (nk / v.k), natH * (1 - nk), 0)
       v.k = nk
       scheduleDraw()
     }
-    // --- labels: en coords carte (dans vp -> suivent le zoom), calcules 1x/filtre ---
+
+    // --- labels (dans le SVG, suivent le zoom du div), calcules 1x/filtre ---
     const overlap = (a: number[], b: number[]) => !(a[2] < b[0] || a[0] > b[2] || a[3] < b[1] || a[1] > b[3])
     const placeLabels = () => {
       while (dyn.firstChild) dyn.removeChild(dyn.firstChild)
@@ -129,7 +132,7 @@ export default function RentMap({ locale }: { locale: string }) {
     }
     ;(svg as unknown as { _apply?: () => void })._apply = apply
 
-    // --- tooltip (desktop hover + mobile tap) ---
+    // --- tooltip (hover desktop + tap mobile) ---
     let moved = false, panning = false, pinch = false
     const showTip = (el: SVGCircleElement, cx: number, cy: number) => {
       const n = el.getAttribute('data-n'), a = el.getAttribute('data-k')
@@ -145,22 +148,19 @@ export default function RentMap({ locale }: { locale: string }) {
     circles.forEach(el => {
       el.addEventListener('mousemove', e => { if (!panning && !pinch) showTip(el, (e as MouseEvent).clientX, (e as MouseEvent).clientY) })
       el.addEventListener('mouseleave', hideTip)
-      el.addEventListener('focus', () => { const b = el.getBoundingClientRect(); showTip(el, b.left + b.width / 2, b.top + b.height / 2) })
-      el.addEventListener('blur', hideTip)
       el.addEventListener('click', () => { if (!moved) { const b = el.getBoundingClientRect(); showTip(el, b.left + b.width / 2, b.top + b.height / 2) } })
     })
 
-    // --- pan + pinch via pointer events ---
+    // --- pan + pinch (pointer events, coords px ecran) ---
     const pts = new Map<number, { x: number; y: number }>()
-    let panTx = 0, panTy = 0, panX = 0, panY = 0
-    let lastDist = 0
+    let panTx = 0, panTy = 0, panX = 0, panY = 0, lastDist = 0
     const dist = (a: { x: number; y: number }, b: { x: number; y: number }) => Math.hypot(a.x - b.x, a.y - b.y)
     const onDown = (e: PointerEvent) => {
       pts.set(e.pointerId, { x: e.clientX, y: e.clientY })
-      svg.setPointerCapture(e.pointerId)
+      vp.setPointerCapture(e.pointerId)
       moved = false
-      rect = svg.getBoundingClientRect()
-      if (pts.size === 1) { panning = true; pinch = false; panTx = view.current.tx; panTy = view.current.ty; panX = e.clientX; panY = e.clientY; svg.classList.add('rm-grab'); hideTip() }
+      refreshGeom()
+      if (pts.size === 1) { panning = true; pinch = false; panTx = view.current.tx; panTy = view.current.ty; panX = e.clientX; panY = e.clientY; vp.classList.add('rm-grab'); hideTip() }
       else if (pts.size === 2) { panning = false; pinch = true; const [p1, p2] = Array.from(pts.values()); lastDist = dist(p1, p2) }
     }
     const onMove = (e: PointerEvent) => {
@@ -169,18 +169,13 @@ export default function RentMap({ locale }: { locale: string }) {
       if (pinch && pts.size >= 2) {
         const [p1, p2] = Array.from(pts.values())
         const d = dist(p1, p2)
-        if (lastDist > 0) {
-          const mx = (p1.x + p2.x) / 2, my = (p1.y + p2.y) / 2
-          const [vx, vy] = toVB(mx, my)
-          zoomAt(d / lastDist, vx, vy)
-        }
+        if (lastDist > 0) zoomAt(d / lastDist, (p1.x + p2.x) / 2 - originL, (p1.y + p2.y) / 2 - originT)
         lastDist = d; moved = true
       } else if (panning) {
-        const k = view.current.k
-        const dx = (e.clientX - panX) / rect.width * W, dy = (e.clientY - panY) / rect.height * Hh
         if (Math.abs(e.clientX - panX) + Math.abs(e.clientY - panY) > 4) moved = true
-        view.current.tx = clamp(panTx + dx, W - W * k, 0)
-        view.current.ty = clamp(panTy + dy, Hh - Hh * k, 0)
+        const k = view.current.k
+        view.current.tx = clamp(panTx + (e.clientX - panX), natW * (1 - k), 0)
+        view.current.ty = clamp(panTy + (e.clientY - panY), natH * (1 - k), 0)
         scheduleDraw()
       }
     }
@@ -188,28 +183,28 @@ export default function RentMap({ locale }: { locale: string }) {
       pts.delete(e.pointerId)
       if (pts.size < 2) { pinch = false; lastDist = 0 }
       if (pts.size === 1) { const [p] = Array.from(pts.values()); panning = true; panTx = view.current.tx; panTy = view.current.ty; panX = p.x; panY = p.y }
-      if (pts.size === 0) { panning = false; svg.classList.remove('rm-grab') }
+      if (pts.size === 0) { panning = false; vp.classList.remove('rm-grab') }
     }
-    const onWheel = (e: WheelEvent) => { e.preventDefault(); rect = svg.getBoundingClientRect(); const [vx, vy] = toVB(e.clientX, e.clientY); zoomAt(e.deltaY < 0 ? 1.18 : 1 / 1.18, vx, vy) }
-    svg.addEventListener('pointerdown', onDown)
-    svg.addEventListener('pointermove', onMove)
-    svg.addEventListener('pointerup', onUp)
-    svg.addEventListener('pointercancel', onUp)
-    svg.addEventListener('wheel', onWheel, { passive: false })
+    const onWheel = (e: WheelEvent) => { e.preventDefault(); refreshGeom(); zoomAt(e.deltaY < 0 ? 1.18 : 1 / 1.18, e.clientX - originL, e.clientY - originT) }
+    vp.addEventListener('pointerdown', onDown)
+    vp.addEventListener('pointermove', onMove)
+    vp.addEventListener('pointerup', onUp)
+    vp.addEventListener('pointercancel', onUp)
+    vp.addEventListener('wheel', onWheel, { passive: false })
 
-    ;(svg as unknown as { _zin?: () => void })._zin = () => zoomAt(1.4, W / 2, Hh / 2)
-    ;(svg as unknown as { _zout?: () => void })._zout = () => zoomAt(1 / 1.4, W / 2, Hh / 2)
+    ;(svg as unknown as { _zin?: () => void })._zin = () => { refreshGeom(); zoomAt(1.4, natW / 2, natH / 2) }
+    ;(svg as unknown as { _zout?: () => void })._zout = () => { refreshGeom(); zoomAt(1 / 1.4, natW / 2, natH / 2) }
     ;(svg as unknown as { _zreset?: () => void })._zreset = () => { view.current = { k: 1, tx: 0, ty: 0 }; setTransform() }
 
     setTransform()
     apply()
     return () => {
       if (raf) cancelAnimationFrame(raf)
-      svg.removeEventListener('pointerdown', onDown)
-      svg.removeEventListener('pointermove', onMove)
-      svg.removeEventListener('pointerup', onUp)
-      svg.removeEventListener('pointercancel', onUp)
-      svg.removeEventListener('wheel', onWheel)
+      vp.removeEventListener('pointerdown', onDown)
+      vp.removeEventListener('pointermove', onMove)
+      vp.removeEventListener('pointerup', onUp)
+      vp.removeEventListener('pointercancel', onUp)
+      vp.removeEventListener('wheel', onWheel)
     }
   }, [data])
 
@@ -258,8 +253,8 @@ export default function RentMap({ locale }: { locale: string }) {
           <button type="button" aria-label="Zoom out" onClick={() => zcall('_zout')}>&minus;</button>
           <button type="button" aria-label="Reset view" onClick={() => zcall('_zreset')}>&#8635;</button>
         </div>
-        <svg ref={svgRef} viewBox={`0 0 ${data.w} ${data.h}`} role="img" aria-label="Interactive Tokyo rent map by station and line">
-          <g className="rm-vp" ref={vpRef}>
+        <div className="rm-vp" ref={vpRef}>
+          <svg ref={svgRef} viewBox={`0 0 ${data.w} ${data.h}`} role="img" aria-label="Interactive Tokyo rent map by station and line">
             <g className="rm-wards">{data.wards.map(w => <path key={w.n} d={w.d} />)}</g>
             <g className="rm-wl">{data.wards.map(w => <text key={w.n} x={w.cx} y={w.cy}>{w.n}</text>)}</g>
             <g className="rm-rails" ref={railsRef}>
@@ -268,13 +263,13 @@ export default function RentMap({ locale }: { locale: string }) {
             </g>
             <g>
               {data.stations.map((s, i) => (
-                <circle key={i} className="rm-st" tabIndex={0} cx={s.x} cy={s.y} r={8} fill={s.f}
+                <circle key={i} className="rm-st" cx={s.x} cy={s.y} r={8} fill={s.f}
                   data-n={s.n} data-k={s.k.toLocaleString()} data-l={s.l ? s.l.toLocaleString() : ''} data-t={s.t ? s.t.toLocaleString() : ''} data-s={s.s.toLocaleString()} data-lines={s.L.join(',')} />
               ))}
             </g>
             <g className="rm-lbls" ref={dynRef} />
-          </g>
-        </svg>
+          </svg>
+        </div>
         <div className="rm-legend">
           <div className="rm-cap">{fr ? 'Loyer médian 1K' : 'Median 1K rent'}</div>
           <div className="rm-bar" style={{ background: `linear-gradient(90deg, ${g[0]}, ${g[1]}, ${g[2]}, ${g[3]}, ${g[4]})` }} />
