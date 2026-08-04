@@ -33,7 +33,8 @@ W = 2000.0; H = W*(maxy-miny)/(maxx-minx)
 def sx(lo, la): return (lo*kx-minx)/(maxx-minx)*W
 def sy(lo, la): return (maxy-la)/(maxy-miny)*H
 
-STOPS = [(0.0,(234,240,247)),(0.25,(159,192,224)),(0.5,(79,134,198)),(0.75,(29,78,137)),(1.0,(11,37,69))]
+# Rampe sequentielle 1 teinte terminant sur le NAVY DE MARQUE #0f2744 (coherence site)
+STOPS = [(0.0,(238,242,247)),(0.25,(185,198,216)),(0.5,(123,148,179)),(0.75,(61,92,130)),(1.0,(15,39,68))]
 rents = [p["rent_1k"] for p in pts]; rmin, rmax = min(rents), max(rents)
 def ramp(v):
     t = (v-rmin)/(rmax-rmin)
@@ -113,15 +114,15 @@ cheap = min(pts, key=lambda z: z["rent_1k"]); pricey = max(pts, key=lambda z: z[
 
 HTML = '''<style>
 :root{
-  --bg:#f4f7fb;--panel:#fff;--ink:#0b2545;--muted:#5b6b82;--line:#e3e9f1;--accent:#1d4e89;--field:#f4f7fb;
-  /* carte VERROUILLEE en clair (le degrade fonce=cher exige un fond clair) */
-  --map:#fbfdff;--wfill:#eef3f9;--wline:#d7e0ec;--wlabel:#8494a9;--rail-op:.45;--stroke:#fff;--halo:#fbfdff;--mapink:#0b2545;
-  --grad:linear-gradient(90deg,#eaf0f7,#9fc0e0,#4f86c6,#1d4e89,#0b2545);}
-@media (prefers-color-scheme:dark){:root{--bg:#0a111f;--panel:#111a2b;--ink:#eaf0f7;--muted:#93a3bd;--line:#1e2b44;--accent:#7fb0e6;--field:#0a111f;}}
-:root[data-theme="dark"]{--bg:#0a111f;--panel:#111a2b;--ink:#eaf0f7;--muted:#93a3bd;--line:#1e2b44;--accent:#7fb0e6;--field:#0a111f;}
-:root[data-theme="light"]{--bg:#f4f7fb;--panel:#fff;--ink:#0b2545;--muted:#5b6b82;--line:#e3e9f1;--accent:#1d4e89;--field:#f4f7fb;}
+  --bg:#f4f7fb;--panel:#fff;--ink:#0f2744;--muted:#5b6b82;--line:#e3e9f1;--accent:#e84141;--field:#f4f7fb;
+  /* carte VERROUILLEE en clair (le degrade fonce=cher exige un fond clair); teintes = navy de marque */
+  --map:#fbfdff;--wfill:#eef2f7;--wline:#d6dfea;--wlabel:#8492a6;--rail-op:.45;--stroke:#fff;--halo:#fbfdff;--mapink:#0f2744;
+  --grad:linear-gradient(90deg,#eef2f7,#b9c6d8,#7b94b3,#3d5c82,#0f2744);}
+@media (prefers-color-scheme:dark){:root{--bg:#0a111f;--panel:#111a2b;--ink:#eaf0f7;--muted:#93a3bd;--line:#1e2b44;--accent:#ff6b6b;--field:#0a111f;}}
+:root[data-theme="dark"]{--bg:#0a111f;--panel:#111a2b;--ink:#eaf0f7;--muted:#93a3bd;--line:#1e2b44;--accent:#ff6b6b;--field:#0a111f;}
+:root[data-theme="light"]{--bg:#f4f7fb;--panel:#fff;--ink:#0f2744;--muted:#5b6b82;--line:#e3e9f1;--accent:#e84141;--field:#f4f7fb;}
 *{box-sizing:border-box}
-.wrap{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--ink);background:var(--bg);min-height:100vh;padding:clamp(16px,3vw,32px);}
+.wrap{font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--ink);background:var(--bg);min-height:100vh;padding:clamp(16px,3vw,32px);}
 .head{max-width:1300px;margin:0 auto 14px;}
 .eyebrow{font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);font-weight:700;margin:0 0 6px;}
 h1{font-size:clamp(1.5rem,4vw,2.4rem);line-height:1.05;margin:0 0 8px;text-wrap:balance;font-weight:800;letter-spacing:-.01em;}
@@ -152,7 +153,7 @@ circle.st.dim{opacity:.08;}
 .legend .bar{width:200px;height:10px;border-radius:6px;background:var(--grad);margin:6px 0 4px;}
 .legend .ends{display:flex;justify-content:space-between;font-variant-numeric:tabular-nums;font-weight:700;color:var(--ink);}
 .legend .cap{font-weight:700;letter-spacing:.04em;text-transform:uppercase;font-size:.66rem;}
-.tip{position:absolute;pointer-events:none;opacity:0;transform:translate(-50%,-125%);text-align:left;background:#0b2545;color:#fff;padding:9px 12px;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,.28);transition:opacity .1s;min-width:150px;z-index:6;}
+.tip{position:absolute;pointer-events:none;opacity:0;transform:translate(-50%,-125%);text-align:left;background:#0f2744;color:#fff;padding:9px 12px;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,.28);transition:opacity .1s;min-width:150px;z-index:6;}
 .tip .tn{font-weight:800;font-size:.95rem;margin-bottom:3px;}
 .tip .tr{font-size:.82rem;font-variant-numeric:tabular-nums;line-height:1.5;}
 .tip .tr b{font-weight:800;} .tip .ts{font-size:.7rem;opacity:.7;margin-top:3px;}

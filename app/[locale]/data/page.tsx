@@ -7,6 +7,7 @@ import AffordabilityTool from '@/components/AffordabilityTool'
 import LeadMagnetForm from '@/components/LeadMagnetForm'
 import EmbedMap from '@/components/EmbedMap'
 import LazyVideo from '@/components/LazyVideo'
+import RentMap from '@/components/RentMap'
 
 export async function generateMetadata({
   params,
@@ -356,6 +357,19 @@ export default async function DataPage({
               : `Tokyo Expat Rent Report 2026, tokyo-expat.com/${l}/data (au ${asOf}). Calculé sur ${totalListings} annonces locatives actives dans les 23 arrondissements de Tokyo. Libre de republication avec un lien vers cette page.`}</p>
           </div>
         </div>
+      </section>
+
+      {/* Interactive station rent map (flagship data asset, embeddable) */}
+      <section className="mb-14">
+        <h2 className="text-2xl font-bold text-[#0f2744] mb-2">
+          {l === 'en' ? 'Explore rent across 450+ Tokyo stations' : 'Explorez le loyer sur 450+ stations de Tokyo'}
+        </h2>
+        <p className="text-sm text-gray-600 mb-6 max-w-2xl">
+          {l === 'en'
+            ? 'Median 1K studio rent at every major Tokyo station, drawn on the real rail network. Pick a line or search a station to reveal the rents; hover a dot for its 1K, 1LDK and 2LDK.'
+            : 'Loyer médian d\'un studio 1K à chaque grande station de Tokyo, sur le vrai réseau ferré. Choisissez une ligne ou cherchez une station ; survolez un point pour ses loyers 1K, 1LDK et 2LDK.'}
+        </p>
+        <RentMap locale={l} />
       </section>
 
       {/* Interactive affordability tool */}
