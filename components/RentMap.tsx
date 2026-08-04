@@ -66,6 +66,10 @@ export default function RentMap({ locale }: { locale: string }) {
     const clamp = (v: number, a: number, b: number) => (v < a ? a : v > b ? b : v)
     let match: Station[] = []
     let raf = 0
+    let pinned = false
+    let idleTimer: ReturnType<typeof setTimeout> | undefined
+    const wcActive = () => { clearTimeout(idleTimer); vp.style.willChange = 'transform' }
+    const wcIdle = (ms: number) => { clearTimeout(idleTimer); idleTimer = setTimeout(() => { vp.style.willChange = 'auto' }, ms) }
     // geometrie (en px ecran) mise en cache -> AUCUN getBoundingClientRect dans la boucle
     let natW = vp.clientWidth, natH = vp.clientHeight, originL = 0, originT = 0
     const refreshGeom = () => {
@@ -146,9 +150,9 @@ export default function RentMap({ locale }: { locale: string }) {
     }
     const hideTip = () => { tip.style.opacity = '0' }
     circles.forEach(el => {
-      el.addEventListener('mousemove', e => { if (!panning && !pinch) showTip(el, (e as MouseEvent).clientX, (e as MouseEvent).clientY) })
-      el.addEventListener('mouseleave', hideTip)
-      el.addEventListener('click', () => { if (!moved) { const b = el.getBoundingClientRect(); showTip(el, b.left + b.width / 2, b.top + b.height / 2) } })
+      el.addEventListener('mousemove', e => { if (!panning && !pinch && !pinned) showTip(el, (e as MouseEvent).clientX, (e as MouseEvent).clientY) })
+      el.addEventListener('mouseleave', () => { if (!pinned) hideTip() })
+      el.addEventListener('click', () => { if (!moved) { pinned = true; const b = el.getBoundingClientRect(); showTip(el, b.left + b.width / 2, b.top + b.height / 2) } })
     })
 
     // --- pan + pinch (pointer events, coords px ecran) ---
@@ -160,8 +164,8 @@ export default function RentMap({ locale }: { locale: string }) {
       vp.setPointerCapture(e.pointerId)
       moved = false
       refreshGeom()
-      if (pts.size === 1) { panning = true; pinch = false; panTx = view.current.tx; panTy = view.current.ty; panX = e.clientX; panY = e.clientY; vp.classList.add('rm-grab'); hideTip() }
-      else if (pts.size === 2) { panning = false; pinch = true; const [p1, p2] = Array.from(pts.values()); lastDist = dist(p1, p2) }
+      if (pts.size === 1) { panning = true; pinch = false; pinned = false; panTx = view.current.tx; panTy = view.current.ty; panX = e.clientX; panY = e.clientY; vp.classList.add('rm-grab'); hideTip(); wcActive() }
+      else if (pts.size === 2) { panning = false; pinch = true; const [p1, p2] = Array.from(pts.values()); lastDist = dist(p1, p2); wcActive() }
     }
     const onMove = (e: PointerEvent) => {
       if (!pts.has(e.pointerId)) return
@@ -183,23 +187,24 @@ export default function RentMap({ locale }: { locale: string }) {
       pts.delete(e.pointerId)
       if (pts.size < 2) { pinch = false; lastDist = 0 }
       if (pts.size === 1) { const [p] = Array.from(pts.values()); panning = true; panTx = view.current.tx; panTy = view.current.ty; panX = p.x; panY = p.y }
-      if (pts.size === 0) { panning = false; vp.classList.remove('rm-grab') }
+      if (pts.size === 0) { panning = false; vp.classList.remove('rm-grab'); wcIdle(120) }
     }
-    const onWheel = (e: WheelEvent) => { e.preventDefault(); refreshGeom(); zoomAt(e.deltaY < 0 ? 1.18 : 1 / 1.18, e.clientX - originL, e.clientY - originT) }
+    const onWheel = (e: WheelEvent) => { e.preventDefault(); wcActive(); refreshGeom(); zoomAt(e.deltaY < 0 ? 1.18 : 1 / 1.18, e.clientX - originL, e.clientY - originT); wcIdle(240) }
     vp.addEventListener('pointerdown', onDown)
     vp.addEventListener('pointermove', onMove)
     vp.addEventListener('pointerup', onUp)
     vp.addEventListener('pointercancel', onUp)
     vp.addEventListener('wheel', onWheel, { passive: false })
 
-    ;(svg as unknown as { _zin?: () => void })._zin = () => { refreshGeom(); zoomAt(1.4, natW / 2, natH / 2) }
-    ;(svg as unknown as { _zout?: () => void })._zout = () => { refreshGeom(); zoomAt(1 / 1.4, natW / 2, natH / 2) }
-    ;(svg as unknown as { _zreset?: () => void })._zreset = () => { view.current = { k: 1, tx: 0, ty: 0 }; setTransform() }
+    ;(svg as unknown as { _zin?: () => void })._zin = () => { wcActive(); refreshGeom(); zoomAt(1.4, natW / 2, natH / 2); wcIdle(240) }
+    ;(svg as unknown as { _zout?: () => void })._zout = () => { wcActive(); refreshGeom(); zoomAt(1 / 1.4, natW / 2, natH / 2); wcIdle(240) }
+    ;(svg as unknown as { _zreset?: () => void })._zreset = () => { wcActive(); view.current = { k: 1, tx: 0, ty: 0 }; setTransform(); wcIdle(240) }
 
     setTransform()
     apply()
     return () => {
       if (raf) cancelAnimationFrame(raf)
+      clearTimeout(idleTimer)
       vp.removeEventListener('pointerdown', onDown)
       vp.removeEventListener('pointermove', onMove)
       vp.removeEventListener('pointerup', onUp)
