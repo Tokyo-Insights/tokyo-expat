@@ -83,7 +83,7 @@ export default function RentMap({ locale }: { locale: string }) {
     // --- transform sur le DIV (couche GPU garantie) ; 1 rendu/frame ---
     const setTransform = () => {
       const { k, tx, ty } = view.current
-      vp.style.transform = `translate3d(${tx}px, ${ty}px, 0) scale(${k})`
+      vp.style.transform = `translate(${tx}px, ${ty}px) scale(${k})`
     }
     const scheduleDraw = () => { if (!raf) raf = requestAnimationFrame(() => { raf = 0; setTransform() }) }
     const zoomAt = (f: number, mx: number, my: number) => {
