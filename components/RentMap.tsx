@@ -24,7 +24,7 @@ const CSS = `
 circle.rm-st{stroke:#fff;stroke-width:1.1;cursor:pointer;}
 circle.rm-st:hover,circle.rm-st:focus{stroke-width:2.6;outline:none;}
 circle.rm-st.rm-dim{opacity:.08;}
-.rm-lbl{fill:#0f2744;font-size:15px;font-weight:700;text-anchor:middle;paint-order:stroke;stroke:#fbfdff;stroke-width:3.6px;stroke-linejoin:round;pointer-events:none;}
+.rm-lbl{fill:#0f2744;font-size:30px;font-weight:700;text-anchor:middle;paint-order:stroke;stroke:#fbfdff;stroke-width:6px;stroke-linejoin:round;pointer-events:none;}
 .rm-zoom{position:absolute;top:14px;right:14px;display:flex;flex-direction:column;gap:6px;z-index:5;}
 .rm-zoom button{width:38px;height:38px;border:1px solid #e3e9f1;background:#fff;color:#0f2744;border-radius:10px;font-size:20px;font-weight:700;cursor:pointer;box-shadow:0 1px 3px rgba(0,0,0,.1);line-height:1;display:flex;align-items:center;justify-content:center;}
 .rm-zoom button:hover{background:#f4f7fb;}
@@ -96,15 +96,17 @@ export default function RentMap({ locale }: { locale: string }) {
       for (let i = 0; i < cand.length && placed < 60; i++) {
         const d = cand[i], X = tx + k * d.x, Y = ty + k * d.y
         if (X < 0 || X > W || Y < 0 || Y > Hh) continue
-        const w = d.n.length * 8.4 + 8
-        const cands = [[0, -16], [0, 20], [0, -32], [0, 34]]
+        const dotR = 8 * k, hh = 17
+        const w = d.n.length * 16 + 12
+        const off = dotR + hh + 6
+        const cands = [[0, -off], [0, off], [w / 2 + dotR + 8, 0], [-(w / 2 + dotR + 8), 0], [0, -off - 34], [0, off + 34]]
         for (const [dx, dy] of cands) {
           const cx = X + dx, cy = Y + dy
-          const box = [cx - w / 2, cy - 11, cx + w / 2, cy + 11]
+          const box = [cx - w / 2, cy - hh, cx + w / 2, cy + hh]
           if (!boxes.some(bb => overlap(box, bb))) {
             boxes.push(box)
             const t = document.createElementNS('http://www.w3.org/2000/svg', 'text')
-            t.setAttribute('class', 'rm-lbl'); t.setAttribute('x', String(cx)); t.setAttribute('y', String(cy + 5))
+            t.setAttribute('class', 'rm-lbl'); t.setAttribute('x', String(cx)); t.setAttribute('y', String(cy + 10))
             t.textContent = d.n; dyn.appendChild(t); placed++; break
           }
         }
