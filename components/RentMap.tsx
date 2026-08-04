@@ -13,7 +13,9 @@ type MapData = {
 
 const CSS = `
 .rm-stage{position:relative;max-width:1120px;margin:0 auto;background:#fbfdff;border:1px solid #e3e9f1;border-radius:16px;padding:8px;box-shadow:0 1px 3px rgba(15,39,68,.06);overflow:hidden;}
-.rm-stage svg{width:100%;height:auto;display:block;background:#fbfdff;cursor:grab;touch-action:none;}
+.rm-stage{user-select:none;-webkit-user-select:none;-moz-user-select:none;}
+.rm-stage svg{width:100%;height:auto;display:block;background:#fbfdff;cursor:grab;touch-action:none;-webkit-user-select:none;user-select:none;}
+.rm-stage svg text,.rm-lbl,.rm-wl text{user-select:none;-webkit-user-select:none;}
 .rm-stage svg.rm-grab{cursor:grabbing;}
 .rm-vp{transform-origin:0 0;will-change:transform;}
 .rm-wards path{fill:#eef2f7;stroke:#d6dfea;stroke-width:1.3;stroke-linejoin:round;}
