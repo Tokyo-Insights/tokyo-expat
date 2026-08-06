@@ -399,10 +399,7 @@ export default async function DevisPage({
             <p className="text-white/60 text-xs mb-1">{t.contact_title}</p>
             <p className="text-white font-bold mb-1">Alessandro</p>
             <p className="text-white/60 text-xs mb-3">Tokyo Expat</p>
-            <a href="https://wa.me/817041715285" className="block text-center bg-white/10 hover:bg-white/20 text-white text-sm px-4 py-2 rounded-lg transition-colors mb-2">
-              WhatsApp
-            </a>
-            <a href="mailto:contact@tokyo-expat.com" className="block text-center text-white/60 text-xs hover:text-white transition-colors">
+            <a href="mailto:contact@tokyo-expat.com" className="block text-center bg-white/10 hover:bg-white/20 text-white text-sm px-4 py-2 rounded-lg transition-colors">
               contact@tokyo-expat.com
             </a>
           </div>
