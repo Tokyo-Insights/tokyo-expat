@@ -35,6 +35,10 @@ Before you sign anything, know your cash-on-hand for month one, then match the h
 
 Tokyo is not an expensive city to rent in month after month. It is an expensive city to move into. Plan for the move, and the rest is manageable.
 
+## See where the rent actually sits before you budget
+
+One last practical tip. Before you settle on a number, it helps to see how much rent swings from one part of the city to the next. I built a free interactive map of median rent across more than 450 Tokyo stations, so you can check your target area in a few seconds and budget from real figures rather than a guess: https://www.tokyo-expat.com/en/data
+
 ---
 
 *Alessandro lives in Tokyo and operates furnished rentals in the city. He writes practical, bilingual guides for foreigners renting and settling in Japan, based on real market data, at [Tokyo Expat](https://www.tokyo-expat.com).*
