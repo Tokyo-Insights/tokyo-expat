@@ -1,9 +1,9 @@
 {
   "_comment": "File de munitions Reddit. status: todo (pas d'asset) / ready (pret a poster) / posted. Le reminder pioche la prochaine 'ready', rappelle via Telegram, detecte auto le post (email AutoMod OC) et avance. Cadence = POSTS_PER_WEEK dans reddit_munition_reminder.py.",
   "state": {
-    "last_posted_utc": "2026-07-31T01:01:01Z",
-    "awaiting_id": "layout-gap",
-    "awaiting_reminded_utc": "2026-08-07T22:13:03Z",
+    "last_posted_utc": "2026-08-08T07:09:10Z",
+    "awaiting_id": null,
+    "awaiting_reminded_utc": null,
     "last_reminded_date": "2026-08-07"
   },
   "munitions": [
@@ -58,12 +58,12 @@
     },
     {
       "id": "layout-gap",
-      "status": "ready",
+      "status": "posted",
       "png": "outreach/tokyo-layout-gap.png",
       "title": "[OC] The cost jump from a Tokyo studio to a family flat, by ward (2026)",
       "oc_comment": "Source: Compiled from ~500,000 active rental listings across Tokyo's 23 wards (deduplicated); median rent for a 1K studio vs a 2LDK family flat in each ward.\n\nTool: Python (pandas) + matplotlib.",
       "sub": "dataisbeautiful",
-      "posted_utc": null,
+      "posted_utc": "2026-08-08T07:09:10Z",
       "views": null,
       "upvotes": null
     },

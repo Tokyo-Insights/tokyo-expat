@@ -7,52 +7,6 @@ export interface FaqItem {
 // Used by blog/[slug]/page.tsx to inject FAQPage JSON-LD + render visual accordion
 export const faqData: Record<string, FaqItem[]> = {
 
-  'furnished-vs-unfurnished-apartment-tokyo-cost': [
-    {
-      question: 'How much more does a furnished apartment cost in Tokyo?',
-      answer:
-        'A furnished or monthly 1K studio costs about 20% to 98% more per month than a standard unfurnished one, based on real listings across the 23 wards. The premium is smallest in central wards like Minato (+20%) and biggest in cheaper wards like Katsushika (+98%).',
-    },
-    {
-      question: 'Is it cheaper to rent furnished or unfurnished in Tokyo?',
-      answer:
-        'Unfurnished is cheaper per month, but furnished skips the guarantor, most of the key money and weeks of setup. For a stay under a year or a fast arrival, furnished usually works out better overall; for a long committed stay, unfurnished wins.',
-    },
-    {
-      question: 'Why is the furnished premium higher in cheaper Tokyo wards?',
-      answer:
-        'Because the standard rent is already low there, so the fixed cost of furniture and convenience is a bigger share of it. In a cheap ward the furnished route can nearly double the rent, while in an expensive central ward it adds only around 20%.',
-    },
-    {
-      question: 'Is this based on real data?',
-      answer:
-        'Yes. It compares the median furnished or monthly rent to the median standard rent for a 1K studio in each Tokyo ward, 2026, updated quarterly.',
-    },
-  ],
-
-  'appartement-meuble-vs-non-meuble-tokyo-cout': [
-    {
-      question: 'Combien coute un appartement meuble en plus a Tokyo ?',
-      answer:
-        'Un studio 1K meuble ou monthly coute environ 20% a 98% de plus par mois qu\'un standard non meuble, sur des annonces reelles dans les 23 arrondissements. Le surcout est le plus faible dans les arrondissements centraux comme Minato (+20%) et le plus fort dans les moins chers comme Katsushika (+98%).',
-    },
-    {
-      question: 'Est-ce moins cher de louer meuble ou non meuble a Tokyo ?',
-      answer:
-        'Le non meuble est moins cher au mois, mais le meuble evite le garant, l\'essentiel du key money et des semaines de demarches. Pour un sejour de moins d\'un an ou une arrivee rapide, le meuble est souvent plus avantageux au total ; pour un long sejour engage, le non meuble l\'emporte.',
-    },
-    {
-      question: 'Pourquoi le surcout du meuble est-il plus eleve dans les quartiers moins chers ?',
-      answer:
-        'Parce que le loyer standard y est deja bas, donc le cout fixe des meubles et du confort en represente une part plus grande. Dans un quartier bon marche, la voie meublee peut presque doubler le loyer, alors que dans un arrondissement central cher elle n\'ajoute qu\'environ 20%.',
-    },
-    {
-      question: 'Est-ce base sur des donnees reelles ?',
-      answer:
-        'Oui. On compare le loyer median meuble ou monthly au loyer median standard pour un studio 1K dans chaque arrondissement de Tokyo, 2026, mis a jour chaque trimestre.',
-    },
-  ],
-
   'furnished-apartments-tokyo-guide': [
     {
       question: 'How much is a furnished apartment in Tokyo?',
@@ -96,6 +50,52 @@ export const faqData: Record<string, FaqItem[]> = {
       question: 'Un meuble est-il moins cher qu\'un vide a Tokyo ?',
       answer:
         'Le loyer mensuel est plus eleve, mais le meuble evite les 4 a 6 mois de frais d\'entree et l\'achat de meubles d\'un bail classique : pour un sejour de moins de deux ans, c\'est en general moins cher au total.',
+    },
+  ],
+
+  'furnished-vs-unfurnished-apartment-tokyo-cost': [
+    {
+      question: 'How much more does a furnished apartment cost in Tokyo?',
+      answer:
+        'A furnished or monthly 1K studio costs about 20% to 98% more per month than a standard unfurnished one, based on real listings across the 23 wards. The premium is smallest in central wards like Minato (+20%) and biggest in cheaper wards like Katsushika (+98%).',
+    },
+    {
+      question: 'Is it cheaper to rent furnished or unfurnished in Tokyo?',
+      answer:
+        'Unfurnished is cheaper per month, but furnished skips the guarantor, most of the key money and weeks of setup. For a stay under a year or a fast arrival, furnished usually works out better overall; for a long committed stay, unfurnished wins.',
+    },
+    {
+      question: 'Why is the furnished premium higher in cheaper Tokyo wards?',
+      answer:
+        'Because the standard rent is already low there, so the fixed cost of furniture and convenience is a bigger share of it. In a cheap ward the furnished route can nearly double the rent, while in an expensive central ward it adds only around 20%.',
+    },
+    {
+      question: 'Is this based on real data?',
+      answer:
+        'Yes. It compares the median furnished or monthly rent to the median standard rent for a 1K studio in each Tokyo ward, 2026, updated quarterly.',
+    },
+  ],
+
+  'appartement-meuble-vs-non-meuble-tokyo-cout': [
+    {
+      question: 'Combien coute un appartement meuble en plus a Tokyo ?',
+      answer:
+        'Un studio 1K meuble ou monthly coute environ 20% a 98% de plus par mois qu\'un standard non meuble, sur des annonces reelles dans les 23 arrondissements. Le surcout est le plus faible dans les arrondissements centraux comme Minato (+20%) et le plus fort dans les moins chers comme Katsushika (+98%).',
+    },
+    {
+      question: 'Est-ce moins cher de louer meuble ou non meuble a Tokyo ?',
+      answer:
+        'Le non meuble est moins cher au mois, mais le meuble evite le garant, l\'essentiel du key money et des semaines de demarches. Pour un sejour de moins d\'un an ou une arrivee rapide, le meuble est souvent plus avantageux au total ; pour un long sejour engage, le non meuble l\'emporte.',
+    },
+    {
+      question: 'Pourquoi le surcout du meuble est-il plus eleve dans les quartiers moins chers ?',
+      answer:
+        'Parce que le loyer standard y est deja bas, donc le cout fixe des meubles et du confort en represente une part plus grande. Dans un quartier bon marche, la voie meublee peut presque doubler le loyer, alors que dans un arrondissement central cher elle n\'ajoute qu\'environ 20%.',
+    },
+    {
+      question: 'Est-ce base sur des donnees reelles ?',
+      answer:
+        'Oui. On compare le loyer median meuble ou monthly au loyer median standard pour un studio 1K dans chaque arrondissement de Tokyo, 2026, mis a jour chaque trimestre.',
     },
   ],
 
