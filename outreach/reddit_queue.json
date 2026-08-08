@@ -143,6 +143,14 @@
       "posted_utc": null,
       "views": null,
       "upvotes": null
+    },
+    {
+      "id": "furnished-premium",
+      "status": "ready",
+      "title": "[OC] A furnished studio in Tokyo costs 20% to 98% more than an unfurnished one, and the gap is biggest in the cheapest wards (2026)",
+      "image": "outreach/tokyo-furnished-premium.png",
+      "first_comment": "Source: my own Tokyo rent index, from a large sample of current rental listings across the 23 special wards. I compared the median monthly cost of a furnished 1K studio to a standard unfurnished one in the same ward (2026): https://www.tokyo-expat.com/en/data\nTool: Python and matplotlib.\nNote: furnished here means the furnished or monthly route, which also skips the guarantor and key money, so part of the premium is convenience, not just furniture. The two cheapest wards have smaller furnished samples, so read those two as rough.",
+      "sub": "dataisbeautiful"
     }
   ]
 }

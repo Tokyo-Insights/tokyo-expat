@@ -3,6 +3,7 @@ import type { Metadata } from 'next'
 import type { Locale } from '@/lib/i18n'
 import rentIndex from '@/lib/tokyoRentIndex.json'
 import priceTrends from '@/lib/tokyoPriceTrends.json'
+import furnishedPremium from '@/lib/furnishedPremium.json'
 import AffordabilityTool from '@/components/AffordabilityTool'
 import LeadMagnetForm from '@/components/LeadMagnetForm'
 import EmbedMap from '@/components/EmbedMap'
@@ -189,6 +190,13 @@ const ptLast = priceTrends.median_last as number
 const ptFromYr = (priceTrends.period_from as string).slice(0, 4)
 const ptToYr = (priceTrends.period_to as string).slice(0, 4)
 const ptTotal = (priceTrends.total_transactions as number).toLocaleString('en-US')
+
+type FpWard = { ward: string; std: number; furn: number; premium: number; n_furn: number }
+const fpWards = ([...(furnishedPremium.wards as FpWard[])]).sort((a, b) => b.premium - a.premium)
+const fpLow = fpWards.reduce((a, b) => (a.premium < b.premium ? a : b))
+const fpHigh = fpWards.reduce((a, b) => (a.premium > b.premium ? a : b))
+const fpMinPct = Math.round(fpLow.premium * 100)
+const fpMaxPct = Math.round(fpHigh.premium * 100)
 
 const tierColors: Record<string, string> = {
   premium: 'bg-red-50 text-red-700 border-red-200',
@@ -706,6 +714,62 @@ export default async function DataPage({
             </div>
           ))}
         </div>
+      </section>
+
+      {/* Furnished premium */}
+      <section className="mb-14">
+        <h2 className="text-2xl font-bold text-[#0f2744] mb-2">
+          {l === 'en' ? 'The Furnished Premium (1K studio)' : 'Le surcout du meuble (studio 1K)'}
+        </h2>
+        <p className="text-xs text-gray-400 mb-6">
+          {l === 'en'
+            ? 'How much more a furnished or monthly 1K studio costs per month than a standard unfurnished one, by ward. The furnished route also skips the guarantor and the key money, so part of the gap is convenience, not only furniture.'
+            : 'Combien un studio 1K meuble ou monthly coute de plus par mois qu\'un studio standard non meuble, par arrondissement. La voie meublee evite aussi le garant et le key money, donc une partie de l\'ecart est le confort, pas seulement les meubles.'}
+        </p>
+
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
+          {[
+            { value: `+${fpMinPct}% / +${fpMaxPct}%`, label: l === 'en' ? 'Furnished premium range' : 'Fourchette du surcout', hl: true },
+            { value: `+${Math.round(fpLow.premium * 100)}%`, label: l === 'en' ? `Lowest: ${fpLow.ward}` : `Plus faible : ${fpLow.ward}`, hl: false },
+            { value: `+${Math.round(fpHigh.premium * 100)}%`, label: l === 'en' ? `Highest: ${fpHigh.ward}` : `Plus eleve : ${fpHigh.ward}`, hl: false },
+            { value: l === 'en' ? 'Cheaper wards' : 'Moins chers', label: l === 'en' ? 'pay the biggest premium' : 'paient le plus gros surcout', hl: false },
+          ].map((s) => (
+            <div key={s.label} className={`rounded-xl p-4 text-center border ${s.hl ? 'bg-[#0f2744] border-[#0f2744]' : 'bg-gray-50 border-gray-200'}`}>
+              <div className={`text-xl font-extrabold ${s.hl ? 'text-white' : 'text-[#0f2744]'}`}>{s.value}</div>
+              <div className={`text-xs mt-1 ${s.hl ? 'text-gray-300' : 'text-gray-500'}`}>{s.label}</div>
+            </div>
+          ))}
+        </div>
+
+        <div className="overflow-x-auto rounded-xl border border-gray-200">
+          <table className="w-full text-sm border-collapse">
+            <thead>
+              <tr className="bg-[#0f2744] text-white">
+                <th className="px-4 py-3 text-left font-semibold">{l === 'en' ? 'Ward' : 'Arrondissement'}</th>
+                <th className="px-4 py-3 text-right font-semibold">{l === 'en' ? 'Standard 1K' : 'Standard 1K'}</th>
+                <th className="px-4 py-3 text-right font-semibold">{l === 'en' ? 'Furnished 1K' : 'Meuble 1K'}</th>
+                <th className="px-4 py-3 text-right font-semibold">{l === 'en' ? 'Premium' : 'Surcout'}</th>
+              </tr>
+            </thead>
+            <tbody>
+              {fpWards.map((row, i) => (
+                <tr key={row.ward} className={i % 2 === 0 ? 'bg-white' : 'bg-gray-50'}>
+                  <td className="px-4 py-3 border-t border-gray-100 font-medium text-[#0f2744]">{row.ward}</td>
+                  <td className="px-4 py-3 border-t border-gray-100 text-gray-700 font-mono text-xs text-right">{fmtYen(Math.round(row.std))}</td>
+                  <td className="px-4 py-3 border-t border-gray-100 text-gray-700 font-mono text-xs text-right">{fmtYen(Math.round(row.furn))}</td>
+                  <td className="px-4 py-3 border-t border-gray-100 text-right">
+                    <span className="text-xs font-semibold px-2 py-0.5 rounded-full bg-[#0f2744]/5 text-[#0f2744]">+{Math.round(row.premium * 100)}%</span>
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <p className="text-[11px] text-gray-400 mt-3">
+          {l === 'en'
+            ? 'Median furnished or monthly rent versus median standard rent for the same layout and ward (2026). The two cheapest wards have smaller furnished samples, so read those as indicative.'
+            : 'Loyer median meuble ou monthly contre loyer median standard, meme layout et arrondissement (2026). Les deux arrondissements les moins chers ont de plus petits echantillons meubles, a lire comme indicatif.'}
+        </p>
       </section>
 
       {/* Time to find */}

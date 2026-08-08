@@ -13243,6 +13243,104 @@ Pour un couple, Tokyo est plus abordable que ne le laissent croire les gros titr
 *À lire aussi : [les types d'appartements japonais expliqués](/fr/blog/types-appartements-japonais-expliques) et [les quartiers de Tokyo les moins chers](/fr/blog/quartiers-tokyo-moins-chers-classement-loyers).*
     `.trim(),
   },
+  {
+    slug: 'furnished-vs-unfurnished-apartment-tokyo-cost',
+    locale: 'en',
+    title: 'Furnished vs Unfurnished Apartments in Tokyo: The Real Cost',
+    description: 'A data-backed look at how much more furnished apartments cost than unfurnished ones in Tokyo, by ward, and when the furnished route is worth the premium.',
+    date: '2026-08-08',
+    readingTime: '6 min',
+    content: `
+Moving to Tokyo, one of the first real decisions is furnished or unfurnished. It sounds small, but it changes your monthly rent, your move-in bill and how fast you can settle in. Here is the honest, data-backed answer, from real rental listings across Tokyo's 23 wards, updated every quarter.
+
+**Quick answer:** A furnished or monthly 1K studio in Tokyo costs roughly 20% to 98% more per month than a standard unfurnished one, and the premium is biggest in the cheaper outer wards. Furnished makes sense for a short or uncertain stay, or a fast arrival with no guarantor. Unfurnished wins for a long, committed stay where the lower monthly rent pays off.
+
+## How much more does furnished cost in Tokyo?
+Comparing the median rent of a furnished 1K studio to a standard one in the same ward, the gap runs from about +20% in the most central wards to +98% in the cheapest. The smallest premiums:
+
+- **Minato**: 144 000 JPY unfurnished, 173 400 JPY furnished (+20%)
+- **Chiyoda**: 143 000 JPY unfurnished, 173 400 JPY furnished (+21%)
+- **Shibuya**: 130 000 JPY unfurnished, 167 400 JPY furnished (+29%)
+- **Shinjuku**: 123 500 JPY unfurnished, 161 400 JPY furnished (+31%)
+- **Koto**: 123 000 JPY unfurnished, 165 000 JPY furnished (+34%)
+
+And the biggest premiums, all in cheaper outer wards:
+
+- **Katsushika**: 83 000 JPY unfurnished, 164 400 JPY furnished (+98%)
+- **Edogawa**: 78 000 JPY unfurnished, 146 400 JPY furnished (+88%)
+- **Adachi**: 81 000 JPY unfurnished, 136 500 JPY furnished (+69%)
+- **Suginami**: 85 000 JPY unfurnished, 141 600 JPY furnished (+67%)
+- **Chuo**: 104 500 JPY unfurnished, 169 800 JPY furnished (+62%)
+
+Two things drive this gap. A furnished or monthly place bundles convenience: furniture, appliances, often no key money, no guarantor and a flexible term. And it lets you move in within days instead of weeks. You are not only paying for a sofa, you are paying to skip the hardest parts of the Japanese rental system.
+
+## Why the premium is biggest in the cheapest wards
+This is the counter-intuitive part. In an expensive central ward like Minato, a furnished studio is only about +20%, because the standard rent is already high. In a cheaper outer ward like Katsushika, the same furnished convenience can nearly double the rent, because the standard base is so low. In short, the cheaper the neighbourhood, the more the furnished route costs you in relative terms. If your budget is tight and you were counting on a cheap outer ward, going furnished can quietly erase that saving.
+
+## When furnished is worth it, and when it is not
+Choose furnished or monthly if you are arriving soon and need a home within days, if you do not have a Japanese guarantor or a local income record yet, if your stay is short or uncertain, or if you want to avoid the four-to-five-months-of-rent upfront bill of a standard lease.
+
+Choose unfurnished if you are staying two years or more and want the lowest monthly rent, if you can cover the upfront move-in costs and a guarantor company, or if you want more space for the money, especially in the cheaper wards where the furnished premium is steepest.
+
+For many newcomers the smartest play is to start furnished for the arrival, then move to an unfurnished lease once they have a residence card, a bank account and a feel for the city. Just remember the move-in costs are paid again on the second move, so this two-step only pays off on longer stays.
+
+## How to decide with real numbers
+- Check the furnished premium for your target ward in our [Tokyo Rent Index](/en/data), then weigh it against the standard rent.
+- Budget the full upfront bill, not just the rent. Our [guide to renting in Tokyo as a foreigner](/en/blog/find-apartment-tokyo-foreigner) breaks down deposit, key money, agency and guarantor fees.
+- If you want someone inside the market to run the search and handle the furnished-or-unfurnished trade-off for you, see [how our property hunter works](/en/blog/how-real-estate-hunter-works-tokyo) or [book a free call](/en/contact).
+
+*Data: median furnished or monthly rent versus median standard rent for a 1K studio, Tokyo 23 wards, 2026. Updated quarterly. The two cheapest wards have smaller furnished samples, so read those as indicative.*
+    `.trim(),
+  },
+  {
+    slug: 'appartement-meuble-vs-non-meuble-tokyo-cout',
+    locale: 'fr',
+    title: 'Appartement meuble ou non a Tokyo : le vrai surcout',
+    description: 'Combien un appartement meuble coute de plus par rapport au non meuble a Tokyo, par arrondissement, et quand la voie meublee en vaut vraiment la peine.',
+    date: '2026-08-08',
+    readingTime: '6 min',
+    content: `
+En s'installant a Tokyo, l'une des premieres vraies decisions est : meuble ou non meuble ? Ca parait anodin, mais ca change votre loyer mensuel, votre facture d'entree et la vitesse a laquelle vous vous installez. Voici la reponse honnete et chiffree, a partir d'annonces locatives reelles dans les 23 arrondissements de Tokyo, mise a jour chaque trimestre.
+
+**Reponse rapide :** Un studio 1K meuble ou monthly coute environ 20% a 98% de plus par mois qu'un studio standard non meuble, et le surcout est le plus eleve dans les arrondissements les moins chers. Le meuble a du sens pour un sejour court ou incertain, ou une arrivee rapide sans garant. Le non meuble l'emporte pour un long sejour ou le loyer mensuel plus bas finit par payer.
+
+## Combien coute le meuble en plus a Tokyo ?
+En comparant le loyer median d'un studio 1K meuble a celui d'un standard dans le meme arrondissement, l'ecart va d'environ +20% dans les arrondissements les plus centraux a +98% dans les moins chers. Les plus petits surcouts :
+
+- **Minato** : 144 000 JPY non meuble, 173 400 JPY meuble (+20%)
+- **Chiyoda** : 143 000 JPY non meuble, 173 400 JPY meuble (+21%)
+- **Shibuya** : 130 000 JPY non meuble, 167 400 JPY meuble (+29%)
+- **Shinjuku** : 123 500 JPY non meuble, 161 400 JPY meuble (+31%)
+- **Koto** : 123 000 JPY non meuble, 165 000 JPY meuble (+34%)
+
+Et les plus gros surcouts, tous dans des arrondissements peripheriques moins chers :
+
+- **Katsushika** : 83 000 JPY non meuble, 164 400 JPY meuble (+98%)
+- **Edogawa** : 78 000 JPY non meuble, 146 400 JPY meuble (+88%)
+- **Adachi** : 81 000 JPY non meuble, 136 500 JPY meuble (+69%)
+- **Suginami** : 85 000 JPY non meuble, 141 600 JPY meuble (+67%)
+- **Chuo** : 104 500 JPY non meuble, 169 800 JPY meuble (+62%)
+
+Deux choses expliquent cet ecart. Un logement meuble ou monthly regroupe le confort : meubles, electromenager, souvent pas de key money, pas de garant et une duree flexible. Et il permet d'emmenager en quelques jours au lieu de plusieurs semaines. Vous ne payez pas seulement un canape, vous payez pour eviter les parties les plus dures du systeme locatif japonais.
+
+## Pourquoi le surcout est le plus eleve dans les quartiers les moins chers
+C'est le point contre-intuitif. Dans un arrondissement central et cher comme Minato, un studio meuble n'est que d'environ +20%, parce que le loyer standard est deja eleve. Dans un arrondissement peripherique moins cher comme Katsushika, le meme confort meuble peut presque doubler le loyer, parce que la base standard est tres basse. Autrement dit, plus le quartier est bon marche, plus la voie meublee vous coute en proportion. Si votre budget est serre et que vous comptiez sur un quartier peripherique pas cher, passer au meuble peut effacer discretement cette economie.
+
+## Quand le meuble en vaut la peine, et quand non
+Choisissez le meuble ou monthly si vous arrivez bientot et avez besoin d'un logement en quelques jours, si vous n'avez pas encore de garant japonais ou de revenus locaux, si votre sejour est court ou incertain, ou si vous voulez eviter la facture d'entree de quatre a cinq mois de loyer d'un bail classique.
+
+Choisissez le non meuble si vous restez deux ans ou plus et voulez le loyer mensuel le plus bas, si vous pouvez couvrir les frais d'entree et une societe de garant, ou si vous voulez plus d'espace pour votre argent, surtout dans les quartiers moins chers ou le surcout du meuble est le plus fort.
+
+Pour beaucoup de nouveaux arrivants, le plus malin est de commencer meuble pour l'arrivee, puis de passer a un bail non meuble une fois la carte de resident, le compte bancaire et la connaissance de la ville acquis. Rappelez-vous simplement que les frais d'entree se paient de nouveau au second demenagement, donc ce plan en deux temps ne paie que sur les longs sejours.
+
+## Comment decider avec de vrais chiffres
+- Verifiez le surcout du meuble pour votre arrondissement cible dans notre [Indice des loyers de Tokyo](/fr/data), puis pesez-le face au loyer standard.
+- Budgetez toute la facture d'entree, pas seulement le loyer. Notre [guide pour louer a Tokyo](/fr/blog/trouver-appartement-tokyo-etranger) detaille depot, key money, frais d'agence et de garant.
+- Si vous preferez confier la recherche et l'arbitrage meuble ou non a quelqu'un qui travaille dans le marche, voyez [comment fonctionne le chasseur immobilier](/fr/blog/service-chasseur-immobilier-tokyo-comment-ca-marche) ou [reservez un appel gratuit](/fr/contact).
+
+*Donnees : loyer median meuble ou monthly contre loyer median standard pour un studio 1K, 23 arrondissements de Tokyo, 2026. Mis a jour chaque trimestre. Les deux arrondissements les moins chers ont de plus petits echantillons meubles, a lire comme indicatif.*
+    `.trim(),
+  },
 ]
 
 // Mapping FR slug -> EN slug (articles jumeaux pour hreflang)
