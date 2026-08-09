@@ -23,7 +23,7 @@ SLUG_EN = "furnished-apartments-tokyo-guide"
 SLUG_FR = "guide-appartements-meubles-tokyo"
 
 EN_TITLE = "Furnished Apartments in Tokyo: The Complete Guide for Foreigners (2026)"
-EN_DESC = "How to rent a furnished apartment in Tokyo as a foreigner in 2026: costs, long-term options, no guarantor, and how the process really works."
+EN_DESC = "Rent a furnished apartment in Tokyo from 80,000 JPY a month, no guarantor, no key money. Costs by type, long-term options, and how the process really works."
 EN = """
 Finding a furnished apartment in Tokyo as a foreigner should be simple, but it rarely is. Most standard rentals are unfurnished, demand a Japanese guarantor, and ask for four to six months of rent upfront. Furnished apartments cut through all of that, which is exactly why they are the easiest way for a foreigner to move into Tokyo. Here is the complete, honest guide.
 
@@ -40,7 +40,7 @@ Furnished units carry a premium over a bare unfurnished apartment because you sk
 - **Share house room:** 35,000 to 90,000 JPY a month, bills included.
 - **Monthly mansion (studio):** 90,000 to 180,000 JPY.
 - **Monthly mansion (1LDK for a couple):** 150,000 to 260,000 JPY.
-Compare that to unfurnished rents by ward and layout in our [Tokyo Rent Index](/en/data). The furnished premium is real, but it disappears once you count the furniture and move-in costs you avoid.
+Compare that to unfurnished rents by ward and layout in our [Tokyo Rent Index](/en/data). How big is the furnished premium? On a 1K studio it runs from about +20% in central wards like Minato to nearly double in the cheapest outer wards, and it is steepest exactly where the base rent is lowest. We break it down ward by ward, with real numbers, in [furnished vs unfurnished apartments in Tokyo](/en/blog/furnished-vs-unfurnished-apartment-tokyo-cost). The premium is real, but much of it disappears once you count the furniture, guarantor and move-in costs you avoid.
 
 ## Furnished vs unfurnished: the real trade-off
 An unfurnished apartment has a lower monthly rent, but the upfront bill (deposit, key money, agency fee, guarantor company, plus buying everything) can top 500,000 JPY before you sleep there one night. A furnished apartment front-loads almost nothing: you pay rent, maybe a small cleaning fee, and move in. For a stay under two years, or any time you value speed and certainty, furnished usually wins on total cost. For the exact premium by ward and when each option really wins, see [furnished vs unfurnished apartments in Tokyo](/en/blog/furnished-vs-unfurnished-apartment-tokyo-cost).
@@ -61,7 +61,7 @@ The catch is that the best furnished units are held by a small set of operators 
 """.strip()
 
 FR_TITLE = "Appartements meubles a Tokyo : le guide complet pour etrangers (2026)"
-FR_DESC = "Comment louer un appartement meuble a Tokyo en tant qu'etranger en 2026 : couts, longue duree, sans garant, et comment ca marche vraiment."
+FR_DESC = "Louer un appartement meuble a Tokyo des 80 000 JPY par mois, sans garant ni key money. Couts par type, options longue duree, et comment ca marche vraiment."
 FR = """
 Trouver un appartement meuble a Tokyo quand on est etranger devrait etre simple, mais ca l'est rarement. La plupart des locations classiques sont vides, exigent un garant japonais et demandent 4 a 6 mois de loyer d'avance. Les appartements meubles balaient tout ca, et c'est exactement pourquoi c'est la facon la plus simple pour un etranger de s'installer a Tokyo. Voici le guide complet et honnete.
 
@@ -78,7 +78,7 @@ Le meuble se paie plus cher qu'un appartement vide, parce que vous evitez d'ache
 - **Chambre en share house :** 35 000 a 90 000 JPY par mois, charges incluses.
 - **Monthly mansion (studio) :** 90 000 a 180 000 JPY.
 - **Monthly mansion (1LDK pour un couple) :** 150 000 a 260 000 JPY.
-Comparez avec les loyers vides par arrondissement et configuration dans notre [Indice des loyers de Tokyo](/fr/data). La prime du meuble est reelle, mais elle disparait des qu'on compte les meubles et frais d'entree evites.
+Comparez avec les loyers vides par arrondissement et configuration dans notre [Indice des loyers de Tokyo](/fr/data). Quelle est l'ampleur de la prime du meuble ? Sur un studio 1K, elle va d'environ +20% dans les arrondissements centraux comme Minato a presque le double dans les moins chers, et elle est la plus forte la ou le loyer de base est le plus bas. On la detaille arrondissement par arrondissement, chiffres reels a l'appui, dans [appartement meuble ou non a Tokyo](/fr/blog/appartement-meuble-vs-non-meuble-tokyo-cout). La prime est reelle, mais l'essentiel disparait des qu'on compte les meubles, le garant et les frais d'entree evites.
 
 ## Meuble vs vide : le vrai arbitrage
 Un appartement vide a un loyer mensuel plus bas, mais la facture d'entree (depot, key money, frais d'agence, societe de garantie, plus tout acheter) peut depasser 500 000 JPY avant meme d'y dormir une nuit. Un meuble ne demande presque rien d'avance : vous payez le loyer, parfois un petit frais de menage, et vous emmenagez. Pour un sejour de moins de deux ans, ou des que vous valorisez la rapidite et la certitude, le meuble gagne en general sur le cout total. Pour le surcout exact par arrondissement et le moment ou chaque option gagne vraiment, voyez [appartement meuble ou non a Tokyo](/fr/blog/appartement-meuble-vs-non-meuble-tokyo-cout).

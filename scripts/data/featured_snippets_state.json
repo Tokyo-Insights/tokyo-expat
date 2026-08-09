@@ -2,36 +2,6 @@
   "last_run": "2026-08-10",
   "opportunities": [
     {
-      "keyword": "how much does it cost to rent in tokyo",
-      "competitor": "gaijinpot.com",
-      "competitor_url": "https://apartments.gaijinpot.com/en/rent",
-      "competitor_title": "Tokyo Apartments for Rent - GaijinPot Apartments",
-      "rank": 1,
-      "format": "table",
-      "action": "Tableau: type logement / loyer moyen / depot / garant. Inclure share house, 1K, 1LDK, meuble",
-      "format_guide": "Ajouter un tableau HTML avec headers clairs. Google extrait les tableaux pour les requetes comparatives et de prix."
-    },
-    {
-      "keyword": "share house tokyo price",
-      "competitor": "borderless-house.com",
-      "competitor_url": "https://www.borderless-house.com/jp/",
-      "competitor_title": "Share House Japan: Tokyo, Kansai & Sendai｜BORDERLESS HOUSE",
-      "rank": 2,
-      "format": "table",
-      "action": "Tableau: operateur / prix moyen / quartiers / duree min / garant",
-      "format_guide": "Ajouter un tableau HTML avec headers clairs. Google extrait les tableaux pour les requetes comparatives et de prix."
-    },
-    {
-      "keyword": "tokyo apartment foreigner documents",
-      "competitor": "tokyocheapo.com",
-      "competitor_url": "https://tokyocheapo.com/lifestyle/rent-an-apartment-in-tokyo/",
-      "competitor_title": "How to Rent an Apartment in Tokyo: A Guide for Foreigners",
-      "rank": 1,
-      "format": "list",
-      "action": "Liste documents avec pastilles: requis toujours / requis parfois / utile",
-      "format_guide": "Reformater la section cle comme liste numerotee ou a puces sous un H2 qui commence par 'How to', 'Best' ou un nombre. Google prefere les listes de 5-8 items."
-    },
-    {
       "keyword": "short term apartment tokyo",
       "competitor": "gaijinpot.com",
       "competitor_url": "https://apartments.gaijinpot.com/en/rent",
