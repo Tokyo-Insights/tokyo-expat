@@ -113,46 +113,74 @@ def get_outreach_targets(contacts_data: list, n: int = 3) -> list[dict]:
     return eligible[:n]
 
 
-def get_content_gaps(gaps_data: dict, state: dict, n: int = 2) -> list[dict]:
-    """Top N content gaps non deja signales ni dismisses."""
+def get_content_gaps(gaps_data, state: dict, n: int = 2) -> list[dict]:
+    """Top N content gaps non deja signales ni dismisses.
+    Accepte le nouveau format (liste plate d'objets gap) ou l'ancien (dict {source: [items]})."""
     dismissed = set(state.get("dismissed_gaps", []))
+
+    # Normaliser en liste de (source, item) quel que soit le format d'entree
+    pairs = []
+    if isinstance(gaps_data, list):
+        for item in gaps_data:
+            if isinstance(item, dict):
+                src = ", ".join(item.get("competitors", [])) or item.get("category", "")
+                pairs.append((src, item))
+    elif isinstance(gaps_data, dict):
+        for source, items in gaps_data.items():
+            if isinstance(items, list):
+                for item in items:
+                    pairs.append((source, item))
+
     gaps = []
-
-    for source, items in gaps_data.items():
-        if not isinstance(items, list):
+    for source, item in pairs:
+        if not isinstance(item, dict):
             continue
-        for item in items:
-            topic = item.get("topic") or item.get("title") or str(item)
-            if topic in dismissed:
-                continue
-            gaps.append({
-                "topic": topic,
-                "source": source,
-                "url": item.get("url", ""),
-            })
+        topic = item.get("topic") or item.get("title") or str(item)
+        if topic in dismissed:
+            continue
+        gaps.append({
+            "topic": topic,
+            "source": source,
+            "url": item.get("url", ""),
+            "score": item.get("score", 0),
+        })
 
+    gaps.sort(key=lambda g: g.get("score", 0), reverse=True)
     return gaps[:n]
 
 
-def get_vulnerability_alerts(vuln_data: dict, state: dict) -> list[dict]:
-    """Retourne les vulnerabilites concurrentes non encore actionnees."""
+def get_vulnerability_alerts(vuln_data, state: dict) -> list[dict]:
+    """Retourne les vulnerabilites concurrentes non encore actionnees.
+    Accepte le nouveau format (liste plate) ou l'ancien (dict {comp: {drops:[...]}})."""
     actioned = set(state.get("actioned_vulns", []))
-    alerts = []
 
-    for comp, details in vuln_data.items():
-        if not isinstance(details, dict):
-            continue
-        drops = details.get("drops", [])
-        for drop in drops:
-            key = f"{comp}:{drop.get('keyword', '')}"
-            if key not in actioned:
-                alerts.append({
-                    "competitor": comp,
-                    "keyword": drop.get("keyword", ""),
-                    "from_pos": drop.get("from_pos", 0),
-                    "to_pos": drop.get("to_pos", 0),
-                    "key": key,
+    # Normaliser en liste de drops avec competiteur
+    drops = []
+    if isinstance(vuln_data, list):
+        for v in vuln_data:
+            if isinstance(v, dict):
+                drops.append({
+                    "competitor": v.get("domain", ""),
+                    "keyword": v.get("keyword", ""),
+                    "from_pos": v.get("prev_pos", 0),
+                    "to_pos": v.get("curr_pos", 0),
                 })
+    elif isinstance(vuln_data, dict):
+        for comp, details in vuln_data.items():
+            if isinstance(details, dict):
+                for d in details.get("drops", []):
+                    drops.append({
+                        "competitor": comp,
+                        "keyword": d.get("keyword", ""),
+                        "from_pos": d.get("from_pos", 0),
+                        "to_pos": d.get("to_pos", 0),
+                    })
+
+    alerts = []
+    for d in drops:
+        key = f"{d['competitor']}:{d['keyword']}"
+        if key not in actioned:
+            alerts.append({**d, "key": key})
     return alerts[:2]
 
 
