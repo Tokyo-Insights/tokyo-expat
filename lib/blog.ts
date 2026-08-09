@@ -16,7 +16,7 @@ export const blogPosts: BlogPost[] = [
     locale: 'fr',
     title: 'Comment trouver un appartement à Tokyo quand on est étranger',
     description: 'Le marché locatif tokyoïte est fermé aux étrangers par défaut. Garant, langue, dossier : voici exactement comment contourner chaque obstacle.',
-    date: '2026-06-19',
+    date: '2026-08-10',
     readingTime: '8 min',
     content: `
 Le marché locatif japonais est l'un des plus fermés au monde pour les étrangers. Pas de résidence permanente, pas de garant japonais, pas de compte bancaire local : la plupart des agences refusent d'instruire votre dossier avant même de vous rencontrer.
@@ -62,7 +62,7 @@ Au Japon, s'installer dans un appartement standard coûte environ 4 à 6 mois de
 - **Frais d'agence** : 1 mois HT (légalement plafonné)
 - **Prime de garantie** : 0,5 à 1 mois
 
-Pour un appartement à 100 000 JPY/mois, comptez 400 000 à 600 000 JPY d'entrée. Les logements meublés sans reikin existent et permettent de diviser cette somme par deux.
+Pour un appartement à 100 000 JPY/mois, comptez 400 000 à 600 000 JPY d'entrée. Les logements meublés sans reikin existent et permettent de diviser cette somme par deux. Pour chiffrer précisément votre cas, comparez les loyers par arrondissement dans notre [Indice des loyers de Tokyo](/fr/data) et le [surcoût réel du meublé par quartier](/fr/blog/appartement-meuble-vs-non-meuble-tokyo-cout).
 
 ## Le délai réaliste
 
@@ -427,7 +427,7 @@ La règle générale : chaque station supplémentaire de la zone centrale repré
 Pour explorer Tokyo et ses quartiers avant de vous installer, [GetYourGuide](https://www.getyourguide.com/tokyo-l193/?partner_id=4LP5PLT&utm_medium=online_publisher) propose des visites guidees, experiences culinaires et activites culturelles reservables en ligne. *(lien affilie)*
 ---
 
-*À lire aussi : [Meilleurs quartiers de Tokyo pour familles expatriées 2026](/blog/quartiers-tokyo-familles-expatriees-guide), [Trouver un appartement a Tokyo en septembre : ce qui change vs le printemps](/blog/appartement-tokyo-septembre-guide).*
+*À lire aussi : [Meilleurs quartiers de Tokyo pour familles expatriées 2026](/blog/quartiers-tokyo-familles-expatriees-guide), [Trouver un appartement a Tokyo en septembre : ce qui change vs le printemps](/blog/appartement-tokyo-septembre-guide), [Comment trouver un appartement à Tokyo quand on est étranger](/blog/trouver-appartement-tokyo-etranger).*
 
 *Vous hésitez entre deux quartiers ? Lors d'une consultation gratuite, je vous aide à identifier les biens disponibles dans chaque zone selon votre budget réel.*
     `.trim(),
@@ -1132,7 +1132,7 @@ Passer par un chasseur vous permet d'accéder à ce stock invisible, de comparer
 Pour votre couverture sante pendant la transition, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) propose une assurance mensuelle sans engagement, adaptee aux expatries avant l'assurance nationale japonaise. *(lien affilie)*
 ---
 
-*À lire aussi : [Appartement meublé Tokyo expatriés : 5 options rapides 2026](/blog/appartement-meuble-tokyo-expats), [Appartement meublé à Tokyo : les 5 meilleures options pour expatriés (2026)](/blog/appartement-meuble-tokyo-expats-top-5), [Garantie de loyer au Japon : guide complet pour étrangers](/blog/garantie-loyer-etranger-japon), [Appartement meuble ou non a Tokyo : le vrai surcout](/blog/appartement-meuble-vs-non-meuble-tokyo-cout).*
+*À lire aussi : [Appartement meublé Tokyo expatriés : 5 options rapides 2026](/blog/appartement-meuble-tokyo-expats), [Appartement meublé à Tokyo : les 5 meilleures options pour expatriés (2026)](/blog/appartement-meuble-tokyo-expats-top-5), [Garantie de loyer au Japon : guide complet pour étrangers](/blog/garantie-loyer-etranger-japon), [Appartement meuble ou non a Tokyo : le vrai surcout](/blog/appartement-meuble-vs-non-meuble-tokyo-cout), [Comment trouver un appartement à Tokyo quand on est étranger](/blog/trouver-appartement-tokyo-etranger).*
 
 *Vous cherchez un appartement meublé à Tokyo sans garant ? Réservez une consultation gratuite pour recevoir une sélection de biens disponibles cette semaine.*
     `.trim(),
@@ -4807,7 +4807,7 @@ Oui. La majorité des share houses proposent des visites virtuelles via Zoom. Le
 Pour votre couverture sante pendant la transition, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) propose une assurance mensuelle sans engagement, ideale pour la periode entre l'arrivee et l'inscription a l'assurance nationale. *(lien affilie)*
 ---
 
-*À lire aussi : [Appartement meublé à Tokyo sans garant : comment trouver en 2026](/blog/appartement-meuble-tokyo-sans-garant), [Appartement meublé à Tokyo : les 5 meilleures options pour expatriés (2026)](/blog/appartement-meuble-tokyo-expats-top-5), [Appartement meuble ou non a Tokyo : le vrai surcout](/blog/appartement-meuble-vs-non-meuble-tokyo-cout).*
+*À lire aussi : [Appartement meublé à Tokyo sans garant : comment trouver en 2026](/blog/appartement-meuble-tokyo-sans-garant), [Appartement meublé à Tokyo : les 5 meilleures options pour expatriés (2026)](/blog/appartement-meuble-tokyo-expats-top-5), [Appartement meuble ou non a Tokyo : le vrai surcout](/blog/appartement-meuble-vs-non-meuble-tokyo-cout), [Comment trouver un appartement à Tokyo quand on est étranger](/blog/trouver-appartement-tokyo-etranger).*
 
 *Vous arrivez à Tokyo prochainement ? [Contactez-nous](/contact) pour qu'on vous oriente vers les options adaptées à votre budget et votre quartier cible.*
     `.trim(),
