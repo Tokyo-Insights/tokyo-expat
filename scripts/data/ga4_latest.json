@@ -1,68 +1,70 @@
 {
-  "generated_at": "2026-08-03",
-  "period": "2026-07-27 to 2026-08-03",
+  "generated_at": "2026-08-10",
+  "period": "2026-08-03 to 2026-08-10",
   "this_week": {
-    "sessions": 208,
-    "users": 187,
-    "pageviews": 245,
-    "bounce_rate": 0.7067307692307693
+    "sessions": 267,
+    "users": 228,
+    "pageviews": 350,
+    "bounce_rate": 0.7228464419475655
   },
   "prev_week": {
-    "sessions": 205,
+    "sessions": 204,
     "users": 185,
-    "pageviews": 276,
-    "bounce_rate": 0.6146341463414634
+    "pageviews": 238,
+    "bounce_rate": 0.6519607843137255
   },
   "changes": {
-    "sessions": "+1%",
-    "users": "+1%",
-    "pageviews": "-11%"
+    "sessions": "+31%",
+    "users": "+23%",
+    "pageviews": "+47%"
   },
   "top_pages": [
     [
       "/en/data",
-      "31"
+      "52"
     ],
     [
       "/en",
-      "18"
+      "38"
     ],
     [
-      "/en/blog/furnished-apartment-tokyo-top-5-expats",
-      "13"
+      "/en/blog/japan-sim-card-foreigners-2026",
+      "14"
     ],
     [
       "/en/blog/japan-health-insurance-expat-guide",
-      "13"
+      "12"
     ],
     [
-      "/en/blog/gaijin-house-tokyo-guide",
-      "9"
+      "/en/blog/japan-income-tax-foreigners-guide",
+      "11"
     ]
   ],
   "top_sources": [
     [
       "Direct",
-      "96"
+      "130"
     ],
     [
       "Organic Search",
-      "86"
+      "90"
     ],
     [
       "AI Assistant",
-      "18"
+      "31"
     ]
   ],
   "form_submits_week": 1,
   "events": {
-    "page_view": 245,
-    "session_start": 208,
-    "first_visit": 186,
-    "user_engagement": 105,
-    "scroll": 29,
-    "file_download": 1,
-    "form_start": 1,
-    "generate_lead": 1
+    "page_view": 350,
+    "session_start": 266,
+    "first_visit": 221,
+    "user_engagement": 149,
+    "scroll": 46,
+    "click": 5,
+    "form_start": 2,
+    "book_call_click": 1,
+    "generate_lead": 1,
+    "select_consultation": 1
   }
 }
