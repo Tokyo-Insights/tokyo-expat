@@ -114,7 +114,7 @@ Pour une installation réussie à Tokyo, c'est le levier le plus efficace que vo
 Pour votre couverture sante pendant la recherche de logement, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) propose une assurance mensuelle sans engagement, activable avant l'assurance nationale japonaise. Pour communiquer avec les agences en japonais, [iTalki](https://www.italki.com/affshare?ref=af32660342) propose des cours avec des professeurs natifs a partir de 10$/heure. *(liens affilies)*
 ---
 
-*À lire aussi : [Chercher un appartement à Tokyo depuis l'étranger](/blog/chercher-appartement-tokyo-depuis-etranger), [Chercher un appartement à Tokyo depuis l'étranger](/blog/chercher-appartement-tokyo-depuis-etranger), [Logement etudiant a Tokyo : guide complet pour francophones](/blog/logement-etudiant-tokyo-guide), [Appartement meuble ou non a Tokyo : le vrai surcout](/blog/appartement-meuble-vs-non-meuble-tokyo-cout).*
+*À lire aussi : [Chercher un appartement à Tokyo depuis l'étranger](/blog/chercher-appartement-tokyo-depuis-etranger), [Chercher un appartement à Tokyo depuis l'étranger](/blog/chercher-appartement-tokyo-depuis-etranger), [Logement etudiant a Tokyo : guide complet pour francophones](/blog/logement-etudiant-tokyo-guide), [Appartement meuble ou non a Tokyo : le vrai surcout](/blog/appartement-meuble-vs-non-meuble-tokyo-cout), [Trouver un appartement a Tokyo en septembre : ce qui change vs le printemps](/blog/appartement-tokyo-septembre-guide).*
 
 *Vous avez un projet d'installation à Tokyo ? Réservez une consultation gratuite de 30 minutes pour évaluer votre situation.*
     `.trim(),
@@ -427,7 +427,7 @@ La règle générale : chaque station supplémentaire de la zone centrale repré
 Pour explorer Tokyo et ses quartiers avant de vous installer, [GetYourGuide](https://www.getyourguide.com/tokyo-l193/?partner_id=4LP5PLT&utm_medium=online_publisher) propose des visites guidees, experiences culinaires et activites culturelles reservables en ligne. *(lien affilie)*
 ---
 
-*À lire aussi : [Meilleurs quartiers de Tokyo pour familles expatriées 2026](/blog/quartiers-tokyo-familles-expatriees-guide).*
+*À lire aussi : [Meilleurs quartiers de Tokyo pour familles expatriées 2026](/blog/quartiers-tokyo-familles-expatriees-guide), [Trouver un appartement a Tokyo en septembre : ce qui change vs le printemps](/blog/appartement-tokyo-septembre-guide).*
 
 *Vous hésitez entre deux quartiers ? Lors d'une consultation gratuite, je vous aide à identifier les biens disponibles dans chaque zone selon votre budget réel.*
     `.trim(),
@@ -12887,7 +12887,7 @@ Knowing these costs in advance is how you avoid the first-bill shock and spot wh
 
 *Figures are typical 2026 market ranges. USD at roughly 160 JPY per USD.*
 
-*See also: [Furnished vs Unfurnished Apartments in Tokyo: The Real Cost](/blog/furnished-vs-unfurnished-apartment-tokyo-cost).*`.trim(),
+*See also: [Furnished vs Unfurnished Apartments in Tokyo: The Real Cost](/blog/furnished-vs-unfurnished-apartment-tokyo-cost), [Finding an Apartment in Tokyo in September: What Changes vs Spring](/blog/find-apartment-tokyo-september).*`.trim(),
   },
   {
     slug: 'ur-housing-tokyo-foreigners',
