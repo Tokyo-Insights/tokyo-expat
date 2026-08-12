@@ -42,6 +42,8 @@ CLIPS = ["tk00.mp4", "tk05.mp4", "ap00.mp4", "__CHART__", "ap01.mp4",
 CHART = ROOT / "outreach" / "tokyo-furnished-premium.png"   # visuel du beat "__CHART__"
 OUTPUT = ASSETS / "short_output.mp4"
 MUSIC = ASSETS / "music.mp3"
+WHOOSH = ASSETS / "whoosh.mp3"   # SFX transition sur chaque coupe
+IMPACT = ASSETS / "impact.mp3"   # SFX impact sur le beat "__CHART__"
 VOICE_ID = "pFZP5JQG7iQjIQuC4Bku"   # Lily (premade, gratuit). Autres gratuits: Sarah/Matilda/Alice.
 MODEL = "eleven_multilingual_v2"
 VOICE_SETTINGS = {"stability": 0.35, "similarity_boost": 0.8, "style": 0.35, "use_speaker_boost": True}
@@ -164,13 +166,39 @@ def main():
     (CACHE / "concat.txt").write_text("".join(f"file '{s.as_posix()}'\n" for s in segs), encoding="utf-8")
     subprocess.run(["ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", str(CACHE / "concat.txt"),
                     "-c", "copy", str(CACHE / "video.mp4")], capture_output=True, text=True)
-    # NB: on execute depuis CACHE avec des chemins RELATIFS -> le filtre ass= n'aime pas
-    # le ':' des chemins Windows absolus (C:/...). Les -i absolus (voix/musique) passent bien.
-    fc = (f"[0:v]ass=subs.ass[v];[2:a]volume=0.09,afade=t=out:st={max(dur-1.2,0):.1f}:d=1.2[m];"
-          "[1:a]volume=1.0[vo];[vo][m]amix=inputs=2:duration=first:dropout_transition=0[a]")
-    cmd = ["ffmpeg", "-y", "-i", "video.mp4", "-i", str(mp3), "-i", str(MUSIC),
-           "-filter_complex", fc, "-map", "[v]", "-map", "[a]", "-r", str(FPS),
-           "-c:v", "libx264", "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "192k", "-shortest", str(OUTPUT)]
+    # ---- AUDIO (template valide 12/08): ducking sidechain + SFX + master -14 LUFS ----
+    # NB: on execute depuis CACHE (chemins relatifs) -> le filtre ass= n'aime pas le ':'
+    # des chemins Windows absolus. Les -i absolus (voix/musique/sfx) passent bien.
+    # NIVEAUX PRO: musique -15/-20 dB sous la voix (ici ducking auto), master -14 LUFS / -1 dBTP
+    # = le seul niveau qui survit a TikTok + IG + YouTube (2026).
+    bounds = [sum(durs[:k]) for k in range(1, n)]                     # coupes internes -> whoosh
+    chart_i = clips.index("__CHART__") if "__CHART__" in clips else None
+    inp = ["-i", "video.mp4", "-i", str(mp3), "-i", str(MUSIC)]
+    for _ in bounds:
+        inp += ["-i", str(WHOOSH)]
+    if chart_i is not None:
+        inp += ["-i", str(IMPACT)]
+    parts = [
+        "[0:v]ass=subs.ass[v]",
+        "[1:a]volume=1.0,asplit=2[vo][vkey]",                        # voix + copie sidechain
+        "[2:a]volume=0.32[mus]",                                     # musique presente dans les gaps
+        "[mus][vkey]sidechaincompress=threshold=0.04:ratio=8:attack=20:release=350[mduck]",  # duck sous la voix
+        f"[mduck]afade=t=out:st={max(dur-1.4,0):.1f}:d=1.4[m]",
+    ]
+    labels = ["[vo]", "[m]"]
+    for i, b in enumerate(bounds):
+        ms = max(int((b - 0.10) * 1000), 0)
+        parts.append(f"[{3+i}:a]atrim=0:0.5,asetpts=PTS-STARTPTS,adelay={ms}|{ms},volume=0.38[w{i}]")
+        labels.append(f"[w{i}]")
+    if chart_i is not None:
+        cms = max(int(sum(durs[:chart_i]) * 1000), 0)
+        parts.append(f"[{3+len(bounds)}:a]atrim=0:1.4,asetpts=PTS-STARTPTS,adelay={cms}|{cms},volume=0.6[imp]")
+        labels.append("[imp]")
+    parts.append("".join(labels) + f"amix=inputs={len(labels)}:normalize=0:duration=first[mix]")
+    parts.append("[mix]loudnorm=I=-14:TP=-1.5:LRA=11[a]")            # master plateformes
+    cmd = ["ffmpeg", "-y"] + inp + ["-filter_complex", ";".join(parts), "-map", "[v]", "-map", "[a]",
+           "-r", str(FPS), "-c:v", "libx264", "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "192k",
+           "-shortest", str(OUTPUT)]
     res = subprocess.run(cmd, capture_output=True, text=True, cwd=str(CACHE))
     if res.returncode != 0:
         raise SystemExit("assemblage final KO:\n" + res.stderr[-800:])
