@@ -40,7 +40,9 @@ SCRIPT = ("Furnished apartments in Tokyo are the number one trap for foreigners.
 CLIPS = ["tk00.mp4", "tk05.mp4", "ap00.mp4", "__CHART__", "ap01.mp4",
          "tk02.mp4", "tk03.mp4", "tk04.mp4", "tk01.mp4"]
 CHART = ROOT / "outreach" / "tokyo-furnished-premium.png"   # visuel du beat "__CHART__"
-OUTPUT = ASSETS / "short_output_en.mp4"
+# NOM UNIQUE ET DESCRIPTIF PAR SHORT: sert de nom d'asset GitHub Release + d'URL publique.
+# Ne JAMAIS reutiliser un nom deja publie (--clobber ecraserait l'ancienne video en ligne).
+OUTPUT = ASSETS / "short-furnished-premium-en.mp4"
 MUSIC = ASSETS / "music.mp3"
 WHOOSH = ASSETS / "whoosh.mp3"   # SFX transition sur chaque coupe
 IMPACT = ASSETS / "impact.mp3"   # SFX impact sur le beat "__CHART__"
@@ -53,6 +55,10 @@ BRAND_SPOKEN = ("tokyoexpat", "dot", "com")   # sequence parlee a fusionner (EN 
 BRAND_DISPLAY = "Tokyo-Expat.com"
 W, H, FPS = 1080, 1920, 30
 HOOK_N, HOOK_DUR = 3, 1.6   # 3 premiers plans courts (hook rapide)
+# Hebergement de la video finale = asset d'un GitHub Release (repo PUBLIC) -> URL
+# publique stable SANS committer la video dans le repo (zero bloat git). gh CLI requis.
+RELEASE_TAG = "media"
+GH_REPO = "Tokyo-Insights/tokyo-expat"
 # ==============================================================================
 
 
@@ -209,6 +215,20 @@ def main():
     if res.returncode != 0:
         raise SystemExit("assemblage final KO:\n" + res.stderr[-800:])
     print(f"\nOK: {OUTPUT}  ({OUTPUT.stat().st_size//1024} KB | {dur:.0f}s | {W}x{H} | {n} coupes)")
+    url = publish_to_release(OUTPUT)
+    if url:
+        print(f"HEBERGEE (URL publique pour le CSV Video URL):\n  {url}")
+
+
+def publish_to_release(path):
+    """Uploade la video en asset du GitHub Release (repo public) -> URL publique stable,
+    sans committer la video dans le repo (zero bloat). Retourne l'URL, ou None si echec."""
+    up = subprocess.run(["gh", "release", "upload", RELEASE_TAG, str(path),
+                         "--clobber", "--repo", GH_REPO], capture_output=True, text=True)
+    if up.returncode != 0:
+        print("WARN: hebergement GitHub Release KO (video OK mais non hebergee):\n" + up.stderr[-400:])
+        return None
+    return f"https://github.com/{GH_REPO}/releases/download/{RELEASE_TAG}/{path.name}"
 
 
 if __name__ == "__main__":
