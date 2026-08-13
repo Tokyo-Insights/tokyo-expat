@@ -20,3 +20,7 @@ scripts/*service_account*.json
 # Secrets (Telegram, Gmail app password, API keys) -- NE JAMAIS committer
 scripts/config.py
 video_assets/
+
+# Python build artifacts
+__pycache__/
+*.pyc
