@@ -32,17 +32,17 @@ CACHE = ASSETS / "cache"; CACHE.mkdir(parents=True, exist_ok=True)
 # ============================== CONFIG (a editer) ==============================
 # Texte parle. Pour un domaine, ecrire "point com" (la voix le prononce, le sous-titre
 # affichera BRAND_DISPLAY a la place). ~55-65 mots = ~25s (viser 15-30s).
-SCRIPT = ("Furnished apartments in Tokyo are the number one trap for foreigners. We analysed thousands "
-"of listings. The result: furnished costs 20 to 98 percent more per month than unfurnished. And the "
-"worst part? The gap explodes in the cheapest wards. In Katsushika it nearly doubles the rent. "
-"So before you sign, always compare. Everything is at tokyo-expat dot com.")
+SCRIPT = ("Voici le vrai coût pour emménager dans un appartement à Tokyo. Pour un loyer de cent mille yens, "
+"tu ne paies pas un mois. Tu paies le premier mois, le dépôt, l'argent-clé, l'agence, un garant, l'assurance, "
+"la serrure. Total: près de cinq mois de loyer, d'avance. Presque cinq cent mille yens avant d'avoir les clés. "
+"Prévois-le. Tout est sur tokyo-expat point com.")
 # Ordre des plans. "__CHART__" = insere le chart data. Sinon nom de fichier dans video_assets/broll/.
 CLIPS = ["tk00.mp4", "tk05.mp4", "ap00.mp4", "__CHART__", "ap01.mp4",
          "tk02.mp4", "tk03.mp4", "tk04.mp4", "tk01.mp4"]
-CHART = ROOT / "outreach" / "tokyo-furnished-premium.png"   # visuel du beat "__CHART__"
+CHART = ROOT / "outreach" / "tokyo-movein-cost-fr.png"   # visuel du beat "__CHART__"
 # NOM UNIQUE ET DESCRIPTIF PAR SHORT: sert de nom d'asset GitHub Release + d'URL publique.
 # Ne JAMAIS reutiliser un nom deja publie (--clobber ecraserait l'ancienne video en ligne).
-OUTPUT = ASSETS / "short-furnished-premium-en.mp4"
+OUTPUT = ASSETS / "cout-emmenagement-fr.mp4"
 MUSIC = ASSETS / "music.mp3"
 WHOOSH = ASSETS / "whoosh.mp3"   # SFX transition sur chaque coupe
 IMPACT = ASSETS / "impact.mp3"   # SFX impact sur le beat "__CHART__"
@@ -50,8 +50,8 @@ VOICE_ID = "pFZP5JQG7iQjIQuC4Bku"   # Lily (premade, gratuit). Autres gratuits: 
 MODEL = "eleven_multilingual_v2"
 VOICE_SETTINGS = {"stability": 0.35, "similarity_boost": 0.8, "style": 0.35, "use_speaker_boost": True}
 # Mots mis en JAUNE (emphase). Les nombres et le domaine sont jaunes automatiquement.
-EMPH = {"FURNISHED", "TRAP", "DOUBLES", "EXPLODES", "CHEAPEST", "WORST", "KATSUSHIKA", "MORE"}
-BRAND_SPOKEN = ("tokyoexpat", "dot", "com")   # sequence parlee a fusionner (EN = dot)
+EMPH = {"CINQ", "MOIS", "TOTAL", "GARANT", "AVANT", "LOYER"}
+BRAND_SPOKEN = ("tokyoexpat", "point", "com")   # sequence parlee a fusionner (FR = point, EN = dot)
 BRAND_DISPLAY = "Tokyo-Expat.com"
 W, H, FPS = 1080, 1920, 30
 HOOK_N, HOOK_DUR = 3, 1.6   # 3 premiers plans courts (hook rapide)
