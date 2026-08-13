@@ -32,15 +32,15 @@ CACHE = ASSETS / "cache"; CACHE.mkdir(parents=True, exist_ok=True)
 # ============================== CONFIG (a editer) ==============================
 # Texte parle. Pour un domaine, ecrire "point com" (la voix le prononce, le sous-titre
 # affichera BRAND_DISPLAY a la place). ~55-65 mots = ~25s (viser 15-30s).
-SCRIPT = ("Le meublé à Tokyo, c'est le piège numéro un des étrangers. On a analysé des milliers "
-"d'annonces. Résultat : le meublé coûte de 20 à 98 pour cent de plus que le vide. Et le pire ? "
-"C'est dans les quartiers les moins chers que l'écart explose. À Katsushika, il double presque "
-"le loyer. Alors avant de signer, compare. Tout est sur tokyo-expat point com.")
+SCRIPT = ("Furnished apartments in Tokyo are the number one trap for foreigners. We analysed thousands "
+"of listings. The result: furnished costs 20 to 98 percent more per month than unfurnished. And the "
+"worst part? The gap explodes in the cheapest wards. In Katsushika it nearly doubles the rent. "
+"So before you sign, always compare. Everything is at tokyo-expat dot com.")
 # Ordre des plans. "__CHART__" = insere le chart data. Sinon nom de fichier dans video_assets/broll/.
 CLIPS = ["tk00.mp4", "tk05.mp4", "ap00.mp4", "__CHART__", "ap01.mp4",
          "tk02.mp4", "tk03.mp4", "tk04.mp4", "tk01.mp4"]
 CHART = ROOT / "outreach" / "tokyo-furnished-premium.png"   # visuel du beat "__CHART__"
-OUTPUT = ASSETS / "short_output.mp4"
+OUTPUT = ASSETS / "short_output_en.mp4"
 MUSIC = ASSETS / "music.mp3"
 WHOOSH = ASSETS / "whoosh.mp3"   # SFX transition sur chaque coupe
 IMPACT = ASSETS / "impact.mp3"   # SFX impact sur le beat "__CHART__"
@@ -48,8 +48,8 @@ VOICE_ID = "pFZP5JQG7iQjIQuC4Bku"   # Lily (premade, gratuit). Autres gratuits: 
 MODEL = "eleven_multilingual_v2"
 VOICE_SETTINGS = {"stability": 0.35, "similarity_boost": 0.8, "style": 0.35, "use_speaker_boost": True}
 # Mots mis en JAUNE (emphase). Les nombres et le domaine sont jaunes automatiquement.
-EMPH = {"MEUBLÉ", "PIÈGE", "DOUBLE", "EXPLOSE", "MOINS", "CHERS", "KATSUSHIKA", "PIRE"}
-BRAND_SPOKEN = ("tokyoexpat", "point", "com")   # sequence parlee a fusionner
+EMPH = {"FURNISHED", "TRAP", "DOUBLES", "EXPLODES", "CHEAPEST", "WORST", "KATSUSHIKA", "MORE"}
+BRAND_SPOKEN = ("tokyoexpat", "dot", "com")   # sequence parlee a fusionner (EN = dot)
 BRAND_DISPLAY = "Tokyo-Expat.com"
 W, H, FPS = 1080, 1920, 30
 HOOK_N, HOOK_DUR = 3, 1.6   # 3 premiers plans courts (hook rapide)
@@ -173,19 +173,25 @@ def main():
     # = le seul niveau qui survit a TikTok + IG + YouTube (2026).
     bounds = [sum(durs[:k]) for k in range(1, n)]                     # coupes internes -> whoosh
     chart_i = clips.index("__CHART__") if "__CHART__" in clips else None
-    inp = ["-i", "video.mp4", "-i", str(mp3), "-i", str(MUSIC)]
+    # PASSE 1 (audio): musique duckee sous la voix, rendue dans un FICHIER.
+    # -> pas d'asplit ni d'amix ici = casse le deadlock asplit->sidechain->amix.
+    ducked = CACHE / "music_ducked.m4a"
+    p1 = ["ffmpeg", "-y", "-i", str(mp3), "-i", str(MUSIC), "-filter_complex",
+          "[1:a]volume=0.32[mus];[0:a]volume=1.0[vk];"
+          "[mus][vk]sidechaincompress=threshold=0.04:ratio=8:attack=20:release=350[md];"
+          f"[md]afade=t=out:st={max(dur-1.4,0):.1f}:d=1.4[m]",
+          "-map", "[m]", "-t", f"{dur:.2f}", "-c:a", "aac", "-b:a", "192k", str(ducked)]
+    r1 = subprocess.run(p1, capture_output=True, text=True, cwd=str(CACHE))
+    if r1.returncode != 0:
+        raise SystemExit("passe 1 (ducking) KO:\n" + r1.stderr[-800:])
+    # PASSE 2 (final): amix de FICHIERS simples (voix + musique duckee + SFX) + master.
+    inp = ["-i", "video.mp4", "-i", str(mp3), "-i", str(ducked)]
     for _ in bounds:
         inp += ["-i", str(WHOOSH)]
     if chart_i is not None:
         inp += ["-i", str(IMPACT)]
-    parts = [
-        "[0:v]ass=subs.ass[v]",
-        "[1:a]volume=1.0,asplit=2[vo][vkey]",                        # voix + copie sidechain
-        "[2:a]volume=0.32[mus]",                                     # musique presente dans les gaps
-        "[mus][vkey]sidechaincompress=threshold=0.04:ratio=8:attack=20:release=350[mduck]",  # duck sous la voix
-        f"[mduck]afade=t=out:st={max(dur-1.4,0):.1f}:d=1.4[m]",
-    ]
-    labels = ["[vo]", "[m]"]
+    parts = ["[0:v]ass=subs.ass[v]"]
+    labels = ["[1:a]", "[2:a]"]                                       # voix + musique deja duckee/volee
     for i, b in enumerate(bounds):
         ms = max(int((b - 0.10) * 1000), 0)
         parts.append(f"[{3+i}:a]atrim=0:0.5,asetpts=PTS-STARTPTS,adelay={ms}|{ms},volume=0.38[w{i}]")
