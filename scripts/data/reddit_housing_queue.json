@@ -8,7 +8,7 @@
       "sub": "japanlife",
       "status": "posted",
       "first_seen": "2026-07-31T04:00:00+00:00",
-      "last_seen": "2026-08-07T23:02:33.948579+00:00"
+      "last_seen": "2026-08-14T22:36:57.115419+00:00"
     },
     "1v7vvw0": {
       "title": "How to get back full deposit from UR ?",
@@ -26,7 +26,7 @@
       "author": "Sunshine890890",
       "body": "Planning to move out of Tokyo apartment, wondering about move-out charges, paid a deposit.",
       "sub": "japanlife",
-      "status": "drafted",
+      "status": "expired",
       "first_seen": "2026-07-31T04:00:00+00:00",
       "last_seen": "2026-08-07T23:02:33.948579+00:00"
     },
@@ -46,7 +46,7 @@
       "author": "Kirby8187",
       "body": "Leaving Japan in a few months, stumped on how to deal with the security deposit of the apartment.",
       "sub": "japanlife",
-      "status": "new",
+      "status": "expired",
       "first_seen": "2026-07-31T04:00:00+00:00",
       "last_seen": "2026-08-07T23:02:33.948579+00:00"
     },
@@ -58,7 +58,7 @@
       "sub": "japanlife",
       "status": "posted",
       "first_seen": "2026-07-31T04:00:00+00:00",
-      "last_seen": "2026-07-31T04:00:00+00:00"
+      "last_seen": "2026-08-14T22:36:57.115419+00:00"
     },
     "1v41j40": {
       "title": "Have meeting with realtor and downstairs tenant over noise - any advice?",
@@ -66,7 +66,7 @@
       "author": "Comfortable-Floor603",
       "body": "Moved to a house-turned-apartment second floor, noise complaint from downstairs neighbor, meeting with realtor.",
       "sub": "japanlife",
-      "status": "new",
+      "status": "expired",
       "first_seen": "2026-07-31T04:00:00+00:00",
       "last_seen": "2026-08-06T01:44:25.531117+00:00"
     },
@@ -178,7 +178,7 @@
       "sub": "japanlife",
       "status": "new",
       "first_seen": "2026-08-06T01:44:25.529113+00:00",
-      "last_seen": "2026-08-07T23:02:33.945571+00:00"
+      "last_seen": "2026-08-14T22:36:57.115419+00:00"
     },
     "1vftey8": {
       "title": "Rent increases leading to more fixed term leases?",
@@ -429,6 +429,26 @@
       "status": "new",
       "first_seen": "2026-08-07T23:02:33.945571+00:00",
       "last_seen": "2026-08-07T23:02:33.945571+00:00"
+    },
+    "1vnwoxv": {
+      "title": "How is your rent renewal structured ? Has anyone ever negotiated a decrease ?",
+      "link": "https://www.reddit.com/r/japanlife/comments/1vnwoxv/how_is_your_rent_renewal_structured_has_anyone/",
+      "author": "/u/pacifichoe",
+      "body": "So I had made a post about increase in rent notice earlier, the owner ultimately agreed to continue at the previous rent rate. https://www.reddit.com/r/japanlife/comments/1v2hkcq/rent_increase_notice_in_kawasaki_please_advise/ Now I received the renewal contract (契約更新 Keiyaku Koushin) The original rental contract states that renewal shall be 1.5 months of latest rent + 15,000. 111,000 (74000 x 1.5",
+      "sub": "japanlife",
+      "status": "new",
+      "first_seen": "2026-08-14T22:36:57.112374+00:00",
+      "last_seen": "2026-08-14T22:36:57.112374+00:00"
+    },
+    "1vexx6h": {
+      "title": "Rent Increase trends",
+      "link": "https://www.reddit.com/r/japanlife/comments/1vexx6h/rent_increase_trends/",
+      "author": "/u/RaiTouHen",
+      "body": "Has anyone noticed landlords/building owners constantly increasing rent? For reference I’ve lived in the same マンション for 4 years, large building (150 rooms) owned and managed by large corporates. Building is on the border of Tokyo/Chiba and 15min from a small commuter station, so not exactly convenient. It seems every contract renewal they try to increase the rent based on BS reasons. I’ve engaged ",
+      "sub": "japanlife",
+      "status": "new",
+      "first_seen": "2026-08-14T22:36:57.115419+00:00",
+      "last_seen": "2026-08-14T22:36:57.115419+00:00"
     }
   }
 }
