@@ -9,7 +9,7 @@ La voix dit "point com" (FR) / "dot com" (EN); le sous-titre affiche `Tokyo-Expa
 CHART a une version EN et FR -> mettre `...-en.png` pour la version EN, `...-fr.png` pour la FR.
 CLIPS b-roll dispo: tk00..tk06 (Tokyo), ap00/ap01 (appartement). Rendre 1-2 par cadence.
 
-Statut: ✅ M1 furnished premium (FR+EN livres). ✅ M2 cout d'emmenagement (FR+EN rendus+heberges+VALIDES 13/08, CSV prets: FR sam 15/08 03h30, EN mar 18/08 09h00). ⬜ M3..M6 a rendre.
+Statut: ✅ M1 furnished premium (FR+EN, PUBLIES sur 6 SNS 14/08). ✅ M2 cout d'emmenagement (FR+EN, CSV: FR sam 15/08 03h30, EN mar 18/08 09h00). ✅ M3 voies de logement (FR+EN rendus+heberges 14/08, CSV: FR mar 18/08 03h30, EN jeu 20/08 09h00). ⬜ M4..M6 a rendre.
 
 ---
 
