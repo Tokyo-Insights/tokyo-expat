@@ -7,6 +7,13 @@ BRAND: la voix dit "dot" (en) / "point" (fr); le sous-titre affiche Tokyo-Expat.
 
 BASE_URL = "https://github.com/Tokyo-Insights/tokyo-expat/releases/download/media/"
 
+# B-ROLL PAR MUNITION (variete visuelle, a partir de M7): ajouter une cle "clips" = liste de 9 plans
+# (avec "__CHART__" au bon endroit) assortis au SUJET -> chaque short devient visuellement distinct.
+# Fichiers dans video_assets/broll/. CURATION OBLIGATOIRE (extraire vignette + REGARDER avant de garder,
+# jamais de hors-sujet). Sans cle "clips", le short reutilise le pool par defaut (M2-M6 = ce pool commun,
+# volontairement inchanges). Mapping sujets: cout->billets/pieces/calculatrice ; voies->cles/share house ;
+# acceptation->poignee de main/documents ; wards->carte/train/quartiers ; refus->porte/proprietaire.
+
 MUNITIONS = {
     "M2": {
         "chart_en": "tokyo-movein-cost-en.png", "chart_fr": "tokyo-movein-cost-fr.png",

@@ -72,6 +72,8 @@ if len(sys.argv) >= 3:
     EMPH = set(_m["emph_" + _lang])
     BRAND_SPOKEN = ("tokyoexpat", "point" if _lang == "fr" else "dot", "com")
     BRAND_DISPLAY = "Tokyo-Expat.com"
+    if _m.get("clips"):            # b-roll dedie a la munition (assorti au sujet); sinon CLIPS par defaut
+        CLIPS = _m["clips"]
     print(f"[munition {_k} / {_lang}] -> {OUTPUT.name}")
 
 
