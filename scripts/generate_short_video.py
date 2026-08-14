@@ -61,6 +61,19 @@ RELEASE_TAG = "media"
 GH_REPO = "Tokyo-Insights/tokyo-expat"
 # ==============================================================================
 
+# ---- Pilotage par munition: `python generate_short_video.py M4 en` (sinon = CONFIG ci-dessus)
+if len(sys.argv) >= 3:
+    import shorts_meta
+    _k, _lang = sys.argv[1].upper(), sys.argv[2].lower()
+    _m = shorts_meta.MUNITIONS[_k]
+    SCRIPT = _m["script_" + _lang]
+    CHART = ROOT / "outreach" / _m["chart_" + _lang]
+    OUTPUT = ASSETS / (_m["out_" + _lang] + ".mp4")
+    EMPH = set(_m["emph_" + _lang])
+    BRAND_SPOKEN = ("tokyoexpat", "point" if _lang == "fr" else "dot", "com")
+    BRAND_DISPLAY = "Tokyo-Expat.com"
+    print(f"[munition {_k} / {_lang}] -> {OUTPUT.name}")
+
 
 def eleven_key():
     for line in (ROOT / "scripts" / ".env").read_text(encoding="utf-8").splitlines():
