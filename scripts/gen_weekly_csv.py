@@ -26,8 +26,9 @@ def row(key, lang, day, hh, mm):
     M = SM.MUNITIONS[key]
     d = MON + dt.timedelta(days=WD[day])
     url = SM.BASE_URL + M["out_" + lang] + ".mp4"
+    thumb = SM.BASE_URL + M["out_" + lang] + "-cover.jpg" if M.get("cover_" + lang) else ""
     return ["", M["cap_" + lang], d.year, d.month, d.day, hh, mm, "", "SHORTS",
-            M["title_" + lang], url, "", "", "", "", "PUBLIC", "", "",
+            M["title_" + lang], url, thumb, "", "", "", "PUBLIC", "", "",
             M["tags_" + lang], "YOUTUBE", "Yes", "Yes", "No"]
 
 def build(lang, slots, outfile):

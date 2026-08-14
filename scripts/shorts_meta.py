@@ -7,6 +7,12 @@ BRAND: la voix dit "dot" (en) / "point" (fr); le sous-titre affiche Tokyo-Expat.
 
 BASE_URL = "https://github.com/Tokyo-Insights/tokyo-expat/releases/download/media/"
 
+# COVER / THUMBNAIL (a partir de M7): ajouter cle "cover_en"/"cover_fr" = titre-accroche 2 lignes
+# separees par "|" (ex "5 MOIS | D'AVANCE"; les mots avec chiffre/%/+ passent en JAUNE). Puis
+# `python gen_cover.py M7 fr --publish` -> genere+heberge <out>-cover.jpg sur le release. gen_weekly_csv
+# remplit alors automatiquement la colonne Thumbnail URL. Sans cover_<lang>, pas de thumbnail (M2-M6).
+# NB thumbnail: fiable pour YouTube; TikTok/IG choisissent souvent une frame -> a verifier au 1er batch.
+#
 # B-ROLL PAR MUNITION (variete visuelle, a partir de M7): ajouter une cle "clips" = liste de 9 plans
 # (avec "__CHART__" au bon endroit) assortis au SUJET -> chaque short devient visuellement distinct.
 # Fichiers dans video_assets/broll/. CURATION OBLIGATOIRE (extraire vignette + REGARDER avant de garder,
