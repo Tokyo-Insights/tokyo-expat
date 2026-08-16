@@ -1,70 +1,69 @@
 {
-  "generated_at": "2026-08-10",
-  "period": "2026-08-03 to 2026-08-10",
+  "generated_at": "2026-08-16",
+  "period": "2026-08-09 to 2026-08-16",
   "this_week": {
-    "sessions": 267,
-    "users": 228,
-    "pageviews": 350,
-    "bounce_rate": 0.7228464419475655
+    "sessions": 252,
+    "users": 219,
+    "pageviews": 313,
+    "bounce_rate": 0.7142857142857143
   },
   "prev_week": {
-    "sessions": 204,
-    "users": 185,
-    "pageviews": 238,
-    "bounce_rate": 0.6519607843137255
+    "sessions": 263,
+    "users": 225,
+    "pageviews": 340,
+    "bounce_rate": 0.6311787072243346
   },
   "changes": {
-    "sessions": "+31%",
-    "users": "+23%",
-    "pageviews": "+47%"
+    "sessions": "-4%",
+    "users": "-3%",
+    "pageviews": "-8%"
   },
   "top_pages": [
     [
-      "/en/data",
-      "52"
-    ],
-    [
       "/en",
-      "38"
+      "26"
     ],
     [
-      "/en/blog/japan-sim-card-foreigners-2026",
+      "/en/blog/tokyo-expat-cost-of-living-2026",
+      "24"
+    ],
+    [
+      "/en/data",
+      "21"
+    ],
+    [
+      "/en/blog/japan-work-visa-foreigners-guide",
       "14"
     ],
     [
-      "/en/blog/japan-health-insurance-expat-guide",
+      "/en/blog/tokyo-rent-report-2026",
       "12"
-    ],
-    [
-      "/en/blog/japan-income-tax-foreigners-guide",
-      "11"
     ]
   ],
   "top_sources": [
     [
       "Direct",
-      "130"
+      "143"
     ],
     [
       "Organic Search",
-      "90"
+      "75"
     ],
     [
       "AI Assistant",
-      "31"
+      "20"
     ]
   ],
-  "form_submits_week": 1,
+  "form_submits_week": 4,
   "events": {
-    "page_view": 350,
-    "session_start": 266,
-    "first_visit": 221,
-    "user_engagement": 149,
-    "scroll": 46,
-    "click": 5,
-    "form_start": 2,
-    "book_call_click": 1,
-    "generate_lead": 1,
-    "select_consultation": 1
+    "page_view": 313,
+    "session_start": 251,
+    "first_visit": 212,
+    "user_engagement": 115,
+    "scroll": 29,
+    "form_start": 4,
+    "generate_lead": 4,
+    "file_download": 3,
+    "click": 1
   }
 }
