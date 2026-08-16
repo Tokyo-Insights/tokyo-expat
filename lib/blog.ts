@@ -549,7 +549,7 @@ For health coverage during your apartment search, [SafetyWing Nomad Insurance](h
 
 *See also: [How to Find an Apartment in Tokyo from Abroad (Remote Hunting Guide)](/blog/tokyo-apartment-hunting-from-abroad), [Finding an Apartment in Tokyo in September: What Changes vs Spring](/blog/find-apartment-tokyo-september), [Furnished Apartment Tokyo: 5 Best Options for Expats in 2026](/blog/furnished-apartment-tokyo-top-5-expats), [Gaijin House Tokyo: Complete Guide for Foreigners (2026)](/blog/gaijin-house-tokyo-guide), [Furnished vs Unfurnished Apartments in Tokyo: The Real Cost](/blog/furnished-vs-unfurnished-apartment-tokyo-cost).*
 
-*Planning to move to Tokyo? Book a free 30-minute consultation to assess your situation and see what is available now.*
+*Planning to move to Tokyo? [Book a free 30-minute consultation](/en/contact) to assess your situation and see what is available now.*
     `.trim(),
   },
   {
@@ -688,7 +688,7 @@ For health coverage during your transition, [SafetyWing Nomad Insurance](https:/
 
 *See also: [Best International Moving Companies to Japan (2026)](/blog/international-moving-company-japan-guide).*
 
-*Planning your relocation to Tokyo? Book a free consultation to get housing options ready before you land.*
+*Planning your relocation to Tokyo? [Book a free consultation](/en/contact) to get housing options ready before you land.*
     `.trim(),
   },
   {
@@ -784,7 +784,7 @@ Finding the right property at the right price in the right neighbourhood is wher
 For activities and sightseeing in Tokyo, [GetYourGuide](https://www.getyourguide.com/tokyo-l193/?partner_id=4LP5PLT&utm_medium=online_publisher) offers experiences bookable online at all budgets. For health coverage, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) offers monthly insurance with no commitment. *(affiliate links)*
 ---
 
-*Preparing your move to Tokyo? Book a free consultation to map out a realistic budget and see what is available in your range.*
+*Preparing your move to Tokyo? [Book a free consultation](/en/contact) to map out a realistic budget and see what is available in your range.*
     `.trim(),
   },
   {
@@ -1214,7 +1214,7 @@ Pour votre couverture sante pendant la recherche d'appartement, [SafetyWing Noma
 
 *À lire aussi : [Dossier refusé à Tokyo : solutions concrètes pour les étrangers](/blog/dossier-location-refuse-tokyo-etranger).*
 
-*Vous avez trouvé un appartement à Tokyo et souhaitez faire relire le contrat avant de signer ? Contactez-nous pour une consultation.*
+*Vous avez trouvé un appartement à Tokyo et souhaitez faire relire le contrat avant de signer ? [Contactez-nous pour une consultation](/fr/contact).*
     `.trim(),
   },
   {
@@ -1342,7 +1342,7 @@ For health coverage during your share house stay, [SafetyWing Nomad Insurance](h
 
 *See also: [Gaijin House vs Share House in Tokyo: What Is the Difference?](/blog/gaijin-house-vs-share-house-tokyo), [Furnished Apartment Tokyo: 5 Best Options for Expats in 2026](/blog/furnished-apartment-tokyo-top-5-expats), [Gaijin House Tokyo: Complete Guide for Foreigners (2026)](/blog/gaijin-house-tokyo-guide), [Expat Apartments in Tokyo: How to Find One in 2026](/blog/expat-apartments-tokyo), [Furnished Apartments in Tokyo: The Complete Guide for Foreigners (2026)](/blog/furnished-apartments-tokyo-guide).*
 
-*Need help finding the right share house in Tokyo for your arrival date and budget? Book a free 30-minute consultation.*
+*Need help finding the right share house in Tokyo for your arrival date and budget? [Book a free 30-minute consultation](/en/contact).*
     `.trim(),
   },
   {
@@ -1356,6 +1356,15 @@ For health coverage during your share house stay, [SafetyWing Nomad Insurance](h
 The Japanese guarantor requirement is the single biggest barrier for foreigners renting in Tokyo. The good news: an entire segment of the market exists specifically for foreigners who need furnished housing without a Japanese guarantor. Our [complete guide to furnished apartments in Tokyo](/en/blog/furnished-apartments-tokyo-guide) walks through every option in detail.
 
 **Quick answer:** Yes, you can rent a furnished apartment in Tokyo without a Japanese guarantor. Monthly mansions and short-term furnished apartments accept foreigners with a passport and visa, no guarantor and no key money, with move-in within days. Expect 90,000 to 250,000 JPY per month depending on size and location.
+
+**No-guarantor routes at a glance:** several housing types in Tokyo skip the guarantor entirely, so you are not stuck with a standard lease.
+
+| Housing route | Guarantor needed? | Typical upfront cost |
+| --- | --- | --- |
+| Monthly / furnished apartment | No | About 1 to 1.5 months |
+| Share house room | No | About 1 month, no key money |
+| UR public rental | No | About 3 months, no key money |
+| Standard lease | Guarantor company, not a person | About 5 months |
 
 ## Can foreigners rent in Tokyo without a guarantor?
 
@@ -1456,7 +1465,7 @@ For health coverage during your transition, [SafetyWing Nomad Insurance](https:/
 
 *See also: [Furnished Apartment in Tokyo for Expats: 5 Quick Options (2026)](/blog/furnished-apartment-tokyo-expats), [Furnished Apartment Tokyo: 5 Best Options for Expats in 2026](/blog/furnished-apartment-tokyo-top-5-expats), [Guarantor for Japan Rental: Complete Guide for Foreigners](/blog/guarantor-japan-rental-foreigner), [Expat Apartments in Tokyo: How to Find One in 2026](/blog/expat-apartments-tokyo), [Furnished vs Unfurnished Apartments in Tokyo: The Real Cost](/blog/furnished-vs-unfurnished-apartment-tokyo-cost).*
 
-*Looking for a furnished apartment in Tokyo without a guarantor? Book a free consultation to see what is currently available.*
+*Looking for a furnished apartment in Tokyo without a guarantor? [Book a free consultation](/en/contact) to see what is currently available.*
     `.trim(),
   },
   {
@@ -1568,7 +1577,7 @@ Useful as a bridge solution during your first weeks while waiting for a Japanese
 For health coverage while you complete your admin setup, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) offers monthly insurance with no commitment, activatable before Japanese national insurance enrolment. *(affiliate link)*
 ---
 
-*Setting up in Tokyo? Book a free consultation to get a shortlist of available housing matching your profile and arrival date.*
+*Setting up in Tokyo? [Book a free consultation](/en/contact) to get a shortlist of available housing matching your profile and arrival date.*
     `.trim(),
   },
   {
@@ -1692,7 +1701,7 @@ For health coverage from day one in Japan, [SafetyWing Nomad Insurance](https://
 
 *See also: [How to Find an Apartment in Tokyo as a Foreigner (2026 Guide)](/blog/find-apartment-tokyo-foreigner), [Finding an Apartment in Tokyo in September: What Changes vs Spring](/blog/find-apartment-tokyo-september), [Furnished Apartment Tokyo: 5 Best Options for Expats in 2026](/blog/furnished-apartment-tokyo-top-5-expats), [Gaijin House Tokyo: Complete Guide for Foreigners (2026)](/blog/gaijin-house-tokyo-guide), [Expat Apartments in Tokyo: How to Find One in 2026](/blog/expat-apartments-tokyo).*
 
-*Relocating to Tokyo and want housing ready before you arrive? Book a free 30-minute consultation to start the remote search process.*
+*Relocating to Tokyo and want housing ready before you arrive? [Book a free 30-minute consultation](/en/contact) to start the remote search process.*
     `.trim(),
   },
   {
@@ -2050,7 +2059,7 @@ Pour mieux negocier en japonais avec votre agence, [iTalki](https://www.italki.c
 
 *À lire aussi : [Loyers à Tokyo par quartier 2026 : guide pour expatriés](/blog/loyers-tokyo-par-quartier-2026).*
 
-*Vous avez trouvé un appartement à Tokyo et souhaitez optimiser les conditions d\'entrée ? Contactez-nous pour un accompagnement à la négociation.*
+*Vous avez trouvé un appartement à Tokyo et souhaitez optimiser les conditions d\'entrée ? [Contactez-nous pour un accompagnement à la négociation](/fr/contact).*
     `.trim(),
   },
   {
@@ -2320,7 +2329,7 @@ After a certain number of years of legal, continuous residence in Japan (general
 For health coverage while completing your registration process, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) offers monthly insurance with no commitment, activatable from your first day in Japan. *(affiliate link)*
 ---
 
-*Your Tokyo address starts with securing housing. Book a free consultation to see what is available for your arrival date.*
+*Your Tokyo address starts with securing housing. [Book a free consultation](/en/contact) to see what is available for your arrival date.*
     `.trim(),
   },
   {
@@ -2417,7 +2426,7 @@ If you need a doctor before receiving your insurance card, you pay 100% of the c
 
 *See also: [Renter's Insurance in Japan: What Every Tenant Should Know](/blog/renters-insurance-japan-guide).*
 
-*Planning your move to Tokyo? Book a free consultation to secure housing before you arrive and start your administrative setup on the right foot.*
+*Planning your move to Tokyo? [Book a free consultation](/en/contact) to secure housing before you arrive and start your administrative setup on the right foot.*
     `.trim(),
   },
   {
@@ -2525,7 +2534,7 @@ Employer-provided relocation packages covering part of the school fees and housi
 To introduce Tokyo to your children in an engaging way, [GetYourGuide](https://www.getyourguide.com/tokyo-l193/?partner_id=4LP5PLT&utm_medium=online_publisher) offers family-friendly guided tours and activities suited for expat families. *(affiliate link)*
 ---
 
-*Relocating to Tokyo with your family? Book a free consultation to find available family housing near international schools.*
+*Relocating to Tokyo with your family? [Book a free consultation](/en/contact) to find available family housing near international schools.*
     `.trim(),
   },
   {
@@ -2603,7 +2612,7 @@ To negotiate in Japanese with your agency, [iTalki](https://www.italki.com/affsh
 
 *See also: [7 Rental Traps to Avoid When Renting in Tokyo as a Foreigner](/blog/tokyo-rental-traps-foreigners), [Tokyo Rental Contract: 12 Things to Check Before Signing](/blog/tokyo-rental-contract-checklist), [Tokyo Rent by Neighborhood 2026: Expat Price Guide](/blog/tokyo-rent-by-neighborhood-2026).*
 
-*Found an apartment in Tokyo and want help optimising your entry conditions? Contact us for negotiation support.*
+*Found an apartment in Tokyo and want help optimising your entry conditions? [Contact us for negotiation support](/en/contact).*
     `.trim(),
   },
   {
@@ -2690,7 +2699,7 @@ Pour votre couverture sante quelle que soit votre option de logement, [SafetyWin
 
 *See also: [Share House in Tokyo: Complete Guide for Foreigners (2026)](/blog/share-house-tokyo-guide-2026), [Gaijin House Tokyo: Complete Guide for Foreigners (2026)](/blog/gaijin-house-tokyo-guide).*
 
-*Looking for the right share house or furnished apartment in Tokyo for your arrival? Book a free consultation to see current availability.*
+*Looking for the right share house or furnished apartment in Tokyo for your arrival? [Book a free consultation](/en/contact) to see current availability.*
     `.trim(),
   },
   {
@@ -2803,7 +2812,7 @@ To explore Tokyo and its neighbourhoods before settling in, [GetYourGuide](https
 
 *See also: [Best Tokyo Neighbourhoods for Expat Families (2026)](/blog/best-neighbourhoods-families-tokyo-guide), [Gaijin House Tokyo: Complete Guide for Foreigners (2026)](/blog/gaijin-house-tokyo-guide), [Expat Apartments in Tokyo: How to Find One in 2026](/blog/expat-apartments-tokyo), [Furnished Apartments in Tokyo: The Complete Guide for Foreigners (2026)](/blog/furnished-apartments-tokyo-guide).*
 
-*Unsure between two neighbourhoods? During a free consultation, I help you identify available properties in each area based on your actual budget.*
+*Unsure between two neighbourhoods? During [a free consultation](/en/contact), I help you identify available properties in each area based on your actual budget.*
     `.trim(),
   },
   {
@@ -2927,7 +2936,7 @@ Once your visa is obtained, the next step is finding housing. Visa type affects 
 For health coverage during your transition, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) offers monthly insurance with no commitment, activatable before your Japanese national insurance enrolment. To build your Japanese before arriving, [iTalki](https://www.italki.com/affshare?ref=af32660342) offers private lessons with native teachers from $10/hour. *(affiliate links)*
 ---
 
-*Visa sorted and looking for housing in Tokyo? Book a free consultation to see what is available before your arrival date.*
+*Visa sorted and looking for housing in Tokyo? [Book a free consultation](/en/contact) to see what is available before your arrival date.*
     `.trim(),
   },
   {
@@ -3007,7 +3016,7 @@ For health coverage during your apartment search, [SafetyWing Nomad Insurance](h
 
 *See also: [Negotiating Rent in Tokyo: Is It Possible and How to Do It?](/blog/negotiating-rent-tokyo-tips), [Tokyo Rental Contract: 12 Things to Check Before Signing](/blog/tokyo-rental-contract-checklist), [Tokyo Rent by Neighborhood 2026: Expat Price Guide](/blog/tokyo-rent-by-neighborhood-2026), [Rental Application Rejected in Japan: What to Do Next](/blog/rental-application-rejected-japan-foreigner), [Furnished Apartment Tokyo: 5 Best Options for Expats in 2026](/blog/furnished-apartment-tokyo-top-5-expats), [Expat Apartments in Tokyo: How to Find One in 2026](/blog/expat-apartments-tokyo), [Furnished Apartments in Tokyo: The Complete Guide for Foreigners (2026)](/blog/furnished-apartments-tokyo-guide).*
 
-*Found an apartment in Tokyo and want the contract reviewed before signing? Contact us for a consultation.*
+*Found an apartment in Tokyo and want the contract reviewed before signing? [Contact us for a consultation](/en/contact).*
     `.trim(),
   },
   {
@@ -3099,7 +3108,7 @@ For families with children: Tokyo is the obvious choice if a French-curriculum s
 To compare the atmosphere of Tokyo, Osaka and Kyoto for yourself, [GetYourGuide](https://www.getyourguide.com/tokyo-l193/?partner_id=4LP5PLT&utm_medium=online_publisher) offers guided tours in each city, bookable online. *(affiliate link)*
 ---
 
-*Decided on Tokyo and looking for housing? Book a free consultation to explore available options.*
+*Decided on Tokyo and looking for housing? [Book a free consultation](/en/contact) to explore available options.*
     `.trim(),
   },
   {
@@ -3383,7 +3392,7 @@ For health coverage while navigating the guarantor process, [SafetyWing Nomad In
 
 *See also: [Furnished Apartment Tokyo: 5 Best Options for Expats in 2026](/blog/furnished-apartment-tokyo-top-5-expats), [Expat Apartments in Tokyo: How to Find One in 2026](/blog/expat-apartments-tokyo).*
 
-*Looking for an apartment in Tokyo and stuck on the guarantor requirement? Book a free consultation: we'll assess your profile and identify the best-fit properties for your situation.*
+*Looking for an apartment in Tokyo and stuck on the guarantor requirement? [Book a free consultation](/en/contact): we'll assess your profile and identify the best-fit properties for your situation.*
     `.trim(),
   },
   {
@@ -3543,7 +3552,7 @@ For a broader picture of life in Japan as an expat, our guide on [health insuran
 For expats without interim health coverage, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) offers monthly insurance with no commitment, activatable from day one in Japan and before signing a local renters insurance contract. *(affiliate link)*
 ---
 
-*Setting up in Tokyo and need guidance on the paperwork required on arrival? Book a free consultation, we walk you through every step so you don't make costly mistakes.*
+*Setting up in Tokyo and need guidance on the paperwork required on arrival? [Book a free consultation](/en/contact), we walk you through every step so you don't make costly mistakes.*
     `.trim(),
   },
   {
@@ -3749,7 +3758,7 @@ For health coverage during your studies in Japan, [SafetyWing Nomad Insurance](h
 
 *See also: [Student Housing in Tokyo: Share House vs University Dorm (2026 Guide)](/blog/student-housing-tokyo-guide-2026), [Student Housing in Tokyo for October Intake: Share House vs University Dorm](/blog/student-housing-tokyo-october).*
 
-*Preparing a study stay in Tokyo and need housing sorted before you arrive? Get in touch for a free consultation, we'll help you find the right option for your budget and visa type.*
+*Preparing a study stay in Tokyo and need housing sorted before you arrive? [Get in touch for a free consultation](/en/contact), we'll help you find the right option for your budget and visa type.*
     `.trim(),
   },
   {
@@ -3856,7 +3865,7 @@ Pour aller plus loin, notre guide sur les [pièges classiques de la location à 
 Pour votre couverture sante pendant la signature du bail, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) propose une assurance mensuelle sans engagement. Pour comprendre votre contrat en japonais, [iTalki](https://www.italki.com/affshare?ref=af32660342) propose des cours avec des professeurs natifs a partir de 10$/heure. *(liens affilies)*
 ---
 
-*Vous êtes sur le point de signer un bail à Tokyo et vous voulez être sûr que tout est en ordre ? Réservez une consultation : on revoit les documents avec vous et on identifie les clauses à négocier.*
+*Vous êtes sur le point de signer un bail à Tokyo et vous voulez être sûr que tout est en ordre ? [Réservez une consultation](/fr/contact) : on revoit les documents avec vous et on identifie les clauses à négocier.*
     `.trim(),
   },
   {
@@ -3965,7 +3974,7 @@ For health coverage when signing your lease, [SafetyWing Nomad Insurance](https:
 
 *See also: [Negotiating Rent in Tokyo: Is It Possible and How to Do It?](/blog/negotiating-rent-tokyo-tips), [Tokyo Rent by Neighborhood 2026: Expat Price Guide](/blog/tokyo-rent-by-neighborhood-2026).*
 
-*About to sign a lease in Tokyo and want to make sure everything is in order? Book a consultation: we review the documents with you and identify what to negotiate.*
+*About to sign a lease in Tokyo and want to make sure everything is in order? [Book a consultation](/en/contact): we review the documents with you and identify what to negotiate.*
     `.trim(),
   },
   {
@@ -4299,7 +4308,7 @@ For health coverage during your studies in Japan, [SafetyWing Nomad Insurance](h
 
 *See also: [Student Housing Tokyo 2026: Complete Guide for International Students](/blog/student-housing-tokyo-guide), [Student Housing in Tokyo for October Intake: Share House vs University Dorm](/blog/student-housing-tokyo-october).*
 
-*Starting your studies in Tokyo in October? Book a free consultation now to secure housing before the semester starts.*
+*Starting your studies in Tokyo in October? [Book a free consultation](/en/contact) now to secure housing before the semester starts.*
     `.trim(),
   },
 
@@ -4489,7 +4498,7 @@ For health coverage during your search and admin process, [SafetyWing Nomad Insu
 
 *See also: [Furnished Apartment Tokyo: 5 Best Options for Expats in 2026](/blog/furnished-apartment-tokyo-top-5-expats), [Gaijin House Tokyo: Complete Guide for Foreigners (2026)](/blog/gaijin-house-tokyo-guide).*
 
-*Looking for good-value housing in Tokyo? Let's discuss your situation in a free 30-minute consultation.*
+*Looking for good-value housing in Tokyo? [Let's discuss your situation](/en/contact) in a free 30-minute consultation.*
     `.trim(),
   },
 
@@ -4701,7 +4710,7 @@ For health coverage upon your September arrival, [SafetyWing Nomad Insurance](ht
 
 *See also: [How to Find an Apartment in Tokyo as a Foreigner (2026 Guide)](/blog/find-apartment-tokyo-foreigner), [How to Find an Apartment in Tokyo from Abroad (Remote Hunting Guide)](/blog/tokyo-apartment-hunting-from-abroad), [Student Housing in Tokyo for October Intake: Share House vs University Dorm](/blog/student-housing-tokyo-october).*
 
-*Arriving in Tokyo in September? Book a free consultation now to see current availability and secure your housing before you land.*
+*Arriving in Tokyo in September? [Book a free consultation](/en/contact) now to see current availability and secure your housing before you land.*
     `.trim(),
   },
   {
