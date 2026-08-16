@@ -116,7 +116,7 @@ Pour votre couverture sante pendant la recherche de logement, [SafetyWing Nomad 
 
 *À lire aussi : [Chercher un appartement à Tokyo depuis l'étranger](/blog/chercher-appartement-tokyo-depuis-etranger), [Chercher un appartement à Tokyo depuis l'étranger](/blog/chercher-appartement-tokyo-depuis-etranger), [Logement etudiant a Tokyo : guide complet pour francophones](/blog/logement-etudiant-tokyo-guide), [Appartement meuble ou non a Tokyo : le vrai surcout](/blog/appartement-meuble-vs-non-meuble-tokyo-cout), [Trouver un appartement a Tokyo en septembre : ce qui change vs le printemps](/blog/appartement-tokyo-septembre-guide).*
 
-*Vous avez un projet d'installation à Tokyo ? Réservez une consultation gratuite de 30 minutes pour évaluer votre situation.*
+*Vous avez un projet d'installation à Tokyo ? Réservez une [consultation gratuite](/fr/contact) de 30 minutes pour évaluer votre situation.*
     `.trim(),
   },
   {
@@ -316,7 +316,7 @@ Pour identifier les meilleures opportunités dans votre budget, une consultation
 Pour les activites et visites a Tokyo, [GetYourGuide](https://www.getyourguide.com/tokyo-l193/?partner_id=4LP5PLT&utm_medium=online_publisher) propose des experiences reservables en ligne a tous les budgets. Pour votre couverture sante, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) propose une assurance mensuelle sans engagement. *(liens affilies)*
 ---
 
-*Vous préparez votre installation à Tokyo ? Réservez une consultation gratuite pour établir un budget précis selon votre profil.*
+*Vous préparez votre installation à Tokyo ? Réservez une [consultation gratuite](/fr/contact) pour établir un budget précis selon votre profil.*
     `.trim(),
   },
   {
@@ -429,7 +429,7 @@ Pour explorer Tokyo et ses quartiers avant de vous installer, [GetYourGuide](htt
 
 *À lire aussi : [Meilleurs quartiers de Tokyo pour familles expatriées 2026](/blog/quartiers-tokyo-familles-expatriees-guide), [Trouver un appartement a Tokyo en septembre : ce qui change vs le printemps](/blog/appartement-tokyo-septembre-guide), [Comment trouver un appartement à Tokyo quand on est étranger](/blog/trouver-appartement-tokyo-etranger).*
 
-*Vous hésitez entre deux quartiers ? Lors d'une consultation gratuite, je vous aide à identifier les biens disponibles dans chaque zone selon votre budget réel.*
+*Vous hésitez entre deux quartiers ? Lors d'une [consultation gratuite](/fr/contact), je vous aide à identifier les biens disponibles dans chaque zone selon votre budget réel.*
     `.trim(),
   },
   {
@@ -908,7 +908,7 @@ Une fois votre visa obtenu, l'étape suivante est de trouver un logement. Les co
 Pour votre couverture sante et celle de votre famille pendant la transition, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) propose une assurance mensuelle sans engagement, activable avant votre inscription a l'assurance nationale japonaise. Pour apprendre le japonais avant votre arrivee, [iTalki](https://www.italki.com/affshare?ref=af32660342) propose des cours particuliers avec des professeurs natifs a partir de 10$/heure. *(liens affilies)*
 ---
 
-*Vous avez votre visa et cherchez un logement à Tokyo ? Réservez une consultation gratuite pour voir les options disponibles dès votre arrivée.*
+*Vous avez votre visa et cherchez un logement à Tokyo ? Réservez une [consultation gratuite](/fr/contact) pour voir les options disponibles dès votre arrivée.*
     `.trim(),
   },
   {
@@ -1134,7 +1134,7 @@ Pour votre couverture sante pendant la transition, [SafetyWing Nomad Insurance](
 
 *À lire aussi : [Appartement meublé Tokyo expatriés : 5 options rapides 2026](/blog/appartement-meuble-tokyo-expats), [Appartement meublé à Tokyo : les 5 meilleures options pour expatriés (2026)](/blog/appartement-meuble-tokyo-expats-top-5), [Garantie de loyer au Japon : guide complet pour étrangers](/blog/garantie-loyer-etranger-japon), [Appartement meuble ou non a Tokyo : le vrai surcout](/blog/appartement-meuble-vs-non-meuble-tokyo-cout), [Comment trouver un appartement à Tokyo quand on est étranger](/blog/trouver-appartement-tokyo-etranger).*
 
-*Vous cherchez un appartement meublé à Tokyo sans garant ? Réservez une consultation gratuite pour recevoir une sélection de biens disponibles cette semaine.*
+*Vous cherchez un appartement meublé à Tokyo sans garant ? Réservez une [consultation gratuite](/fr/contact) pour recevoir une sélection de biens disponibles cette semaine.*
     `.trim(),
   },
   {
@@ -1789,7 +1789,7 @@ Si vous avez besoin d'un médecin avant d'avoir reçu votre carte d'assurance, v
 
 *À lire aussi : [Assurance habitation Japon : ce que tout locataire doit savoir](/blog/assurance-habitation-japon-locataire).*
 
-*Vous planifiez votre installation à Tokyo ? Réservez une consultation gratuite pour préparer votre logement avant votre arrivée.*
+*Vous planifiez votre installation à Tokyo ? Réservez une [consultation gratuite](/fr/contact) pour préparer votre logement avant votre arrivée.*
     `.trim(),
   },
   {
@@ -1862,7 +1862,7 @@ Après un certain nombre d'années de résidence légale et continue au Japon (e
 Pour votre couverture sante pendant les demarches d'installation, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) propose une assurance mensuelle sans engagement, activable des votre arrivee au Japon. *(lien affilie)*
 ---
 
-*Votre logement à Tokyo est la première étape pour obtenir votre adresse et enregistrer votre zairyu card. Réservez une consultation gratuite pour cadrer votre recherche de logement.*
+*Votre logement à Tokyo est la première étape pour obtenir votre adresse et enregistrer votre zairyu card. Réservez une [consultation gratuite](/fr/contact) pour cadrer votre recherche de logement.*
     `.trim(),
   },
   {
@@ -1972,7 +1972,7 @@ La couverture d'une partie des frais de scolarité et du logement par l'employeu
 Pour faire decouvrir Tokyo a vos enfants de facon ludique, [GetYourGuide](https://www.getyourguide.com/tokyo-l193/?partner_id=4LP5PLT&utm_medium=online_publisher) propose des visites guidees et activites familiales adaptees aux expatries. *(lien affilie)*
 ---
 
-*Vous installez votre famille à Tokyo ? Réservez une consultation gratuite pour identifier les logements familiaux disponibles à proximité des écoles internationales.*
+*Vous installez votre famille à Tokyo ? Réservez une [consultation gratuite](/fr/contact) pour identifier les logements familiaux disponibles à proximité des écoles internationales.*
     `.trim(),
   },
   {
@@ -2153,7 +2153,7 @@ Pour votre couverture sante pendant la transition, [SafetyWing Nomad Insurance](
 
 *À lire aussi : [Déménageur international vers le Japon : guide et prix 2026](/blog/demenageur-international-japon-guide).*
 
-*Vous préparez votre déménagement au Japon ? Réservez une consultation gratuite pour sécuriser votre logement avant l'arrivée.*
+*Vous préparez votre déménagement au Japon ? Réservez une [consultation gratuite](/fr/contact) pour sécuriser votre logement avant l'arrivée.*
     `.trim(),
   },
   {
@@ -2247,7 +2247,7 @@ Pour comparer les atmospheres de Tokyo, Osaka et Kyoto par vous-meme, [GetYourGu
 
 *À lire aussi : [Tokyo ou Osaka pour vivre : comparatif expatrié 2026](/blog/tokyo-osaka-ou-vivre-expatrie-comparatif).*
 
-*Vous hésitez encore sur votre ville et cherchez un logement à Tokyo ? Réservez une consultation gratuite pour explorer les options disponibles.*
+*Vous hésitez encore sur votre ville et cherchez un logement à Tokyo ? Réservez une [consultation gratuite](/fr/contact) pour explorer les options disponibles.*
     `.trim(),
   },
   {
@@ -3219,7 +3219,7 @@ Pour preparer votre couverture sante avant l'arrivee, [SafetyWing Nomad Insuranc
 
 *À lire aussi : [Comment trouver un appartement à Tokyo quand on est étranger](/blog/trouver-appartement-tokyo-etranger), [Logement etudiant a Tokyo : guide complet pour francophones](/blog/logement-etudiant-tokyo-guide).*
 
-*Vous vous installez à Tokyo et voulez un logement prêt avant votre arrivée ? Réservez une consultation gratuite pour démarrer la recherche à distance.*
+*Vous vous installez à Tokyo et voulez un logement prêt avant votre arrivée ? Réservez une [consultation gratuite](/fr/contact) pour démarrer la recherche à distance.*
     `.trim(),
   },
   {
@@ -3300,7 +3300,7 @@ Pour éviter les [pièges classiques de la location à Tokyo](/fr/blog/pieges-lo
 Pour votre couverture sante pendant les demarches de garant, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) propose une assurance mensuelle sans engagement. Pour communiquer avec votre garant en japonais, [iTalki](https://www.italki.com/affshare?ref=af32660342) propose des cours avec des professeurs natifs a partir de 10$/heure. *(liens affilies)*
 ---
 
-*Vous cherchez un appartement à Tokyo et vous bloquez sur la garantie ? Réservez une consultation gratuite : on étudie votre profil et on identifie les meilleurs dossiers pour votre situation.*
+*Vous cherchez un appartement à Tokyo et vous bloquez sur la garantie ? Réservez une [consultation gratuite](/fr/contact) : on étudie votre profil et on identifie les meilleurs dossiers pour votre situation.*
     `.trim(),
   },
   {
@@ -3463,7 +3463,7 @@ Pour aller plus loin sur la vie quotidienne au Japon, notre guide sur [l'assuran
 Pour les expatries sans couverture interim, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) propose une assurance sante mensuelle sans engagement, activable des l'arrivee au Japon et avant la signature d'un contrat d'assurance habitation local. *(lien affilie)*
 ---
 
-*Vous vous installez à Tokyo et vous avez des questions sur les démarches à faire à votre arrivée ? Réservez une consultation gratuite : on vous guide de A à Z pour éviter les erreurs coûteuses.*
+*Vous vous installez à Tokyo et vous avez des questions sur les démarches à faire à votre arrivée ? Réservez une [consultation gratuite](/fr/contact) : on vous guide de A à Z pour éviter les erreurs coûteuses.*
     `.trim(),
   },
   {
@@ -3646,7 +3646,7 @@ Pour votre couverture sante pendant vos etudes au Japon, [SafetyWing Nomad Insur
 
 *À lire aussi : [Logement étudiant à Tokyo : share house, dortoir ou appart ? (2026)](/blog/logement-etudiant-tokyo-2026), [Logement étudiant à Tokyo pour octobre : share house ou dortoir ?](/blog/logement-etudiant-tokyo-octobre).*
 
-*Vous préparez un séjour d'études à Tokyo et vous cherchez un logement accessible dès votre arrivée ? Contactez-nous pour une consultation gratuite et on vous aide à trouver la bonne option selon votre budget et votre visa.*
+*Vous préparez un séjour d'études à Tokyo et vous cherchez un logement accessible dès votre arrivée ? Contactez-nous pour une [consultation gratuite](/fr/contact) et on vous aide à trouver la bonne option selon votre budget et votre visa.*
     `.trim(),
   },
   {
@@ -4052,7 +4052,7 @@ For health coverage whatever your housing option, [SafetyWing Nomad Insurance](h
 
 *À lire aussi : [Share house à Tokyo : guide complet pour expatriés (2026)](/blog/share-house-tokyo-guide-complet).*
 
-*Vous cherchez un share house ou un appartement meublé à Tokyo pour votre arrivée ? Réservez une consultation gratuite pour explorer les options adaptées à votre arrivée.*
+*Vous cherchez un share house ou un appartement meublé à Tokyo pour votre arrivée ? Réservez une [consultation gratuite](/fr/contact) pour explorer les options adaptées à votre arrivée.*
     `.trim(),
   },
 
@@ -4176,7 +4176,7 @@ Pour votre couverture sante pendant vos etudes au Japon, [SafetyWing Nomad Insur
 
 *À lire aussi : [Logement étudiant à Tokyo : guide complet pour francophones](/blog/logement-etudiant-tokyo-guide), [Logement étudiant à Tokyo pour octobre : share house ou dortoir ?](/blog/logement-etudiant-tokyo-octobre).*
 
-*Vous commencez vos études à Tokyo en octobre ? Réservez maintenant une consultation gratuite pour sécuriser votre logement avant la rentrée.*
+*Vous commencez vos études à Tokyo en octobre ? Réservez maintenant une [consultation gratuite](/fr/contact) pour sécuriser votre logement avant la rentrée.*
     `.trim(),
   },
 
@@ -4393,7 +4393,7 @@ Pour les autres : c'est l'un des rares leviers qui permettent de louer en zone c
 Pour votre couverture sante pendant la recherche et les demarches, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) propose une assurance mensuelle sans engagement. Pour communiquer avec les agences en japonais, [iTalki](https://www.italki.com/affshare?ref=af32660342) propose des cours avec des professeurs natifs a partir de 10$/heure. *(liens affilies)*
 ---
 
-*Vous cherchez un logement à Tokyo avec un bon rapport qualité-prix ? Discutons de votre situation lors d'une consultation gratuite.*
+*Vous cherchez un logement à Tokyo avec un bon rapport qualité-prix ? Discutons de votre situation lors d'une [consultation gratuite](/fr/contact).*
     `.trim(),
   },
 
@@ -4595,7 +4595,7 @@ Pour votre couverture sante en arrivant en septembre, [SafetyWing Nomad Insuranc
 
 *À lire aussi : [Logement étudiant à Tokyo pour octobre : share house ou dortoir ?](/blog/logement-etudiant-tokyo-octobre), [Logement etudiant a Tokyo : guide complet pour francophones](/blog/logement-etudiant-tokyo-guide).*
 
-*Vous arrivez à Tokyo en septembre ? Réservez une consultation gratuite maintenant pour préparer votre recherche et avancer avant d'atterrir.*
+*Vous arrivez à Tokyo en septembre ? Réservez une [consultation gratuite](/fr/contact) maintenant pour préparer votre recherche et avancer avant d'atterrir.*
     `.trim(),
   },
 
