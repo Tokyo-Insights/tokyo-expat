@@ -13345,96 +13345,92 @@ Le piege, c'est que les meilleurs meubles sont detenus par un petit cercle d'ope
     `.trim(),
   },
   {
-    slug: 'pet-friendly-apartments-tokyo',
+    slug: 'cost-of-owning-pet-tokyo',
     locale: 'en',
-    title: 'Pet-Friendly Apartments in Tokyo: A Guide for Foreigners (2026)',
-    description: 'Finding a pet-friendly (ペット可) apartment in Tokyo as a foreigner is hard: few listings, bigger deposits, size and breed limits. How to find one and get approved.',
-    date: '2026-08-16',
+    title: 'How Much It Costs to Own a Cat or Dog in Tokyo (2026)',
+    description: 'What does it really cost to own a cat or dog in Tokyo in 2026? One-time setup, monthly food and insurance, vet bills and the hidden housing premium, in real yen.',
+    date: '2026-08-17',
     readingTime: '7 min',
     content: `
-Bringing a cat or a dog to Tokyo, or adopting one after you arrive, quietly doubles the difficulty of an already hard rental market. Pet-friendly apartments exist, but they are a small slice of the market, and foreigners face the housing barrier on top of the pet barrier. Here is exactly how it works and how to get approved.
+Owning a pet in Tokyo is very doable, but the real budget is bigger than the food bill, and part of it is hidden in your rent. Here is what a cat or a small dog actually costs in 2026, from setup to monthly running costs.
 
-**Quick answer:** Only a minority of Tokyo rentals are pet-friendly (ペット可 or ペット相談), and they usually cost more: a larger deposit (often one to two extra months, sometimes non-refundable), stricter rules on size, breed and number of animals, and a smaller pool of buildings. As a foreigner you also face the usual guarantor and language hurdles. The realistic path is to filter for genuinely pet-friendly listings, prepare a strong application, and use furnished or share options that already accept pets.
+**Quick answer:** In 2026, budget a one-time setup of roughly ¥50,000 to ¥150,000 for a cat (more for a dog), then about ¥8,000 to ¥15,000 a month for a cat (¥12,000 to ¥25,000 for a small dog) covering food, litter and pet insurance, plus ¥15,000 to ¥30,000 a year in routine vet care. The biggest hidden cost is housing: a pet-friendly apartment usually means a larger deposit and sometimes higher rent.
 
-## Why pet-friendly apartments are scarce in Tokyo
-Japanese landlords worry about noise, smells, scratched floors and tatami, and cleaning costs at move-out. Many buildings ban animals outright to avoid the risk, so pet-friendly stock is concentrated in newer buildings and specific operators, and it disappears fast. Layer on the fact that many landlords already hesitate to rent to foreigners (see [why Japanese landlords reject foreign tenants](/en/blog/why-japanese-landlords-reject-foreigners)), and you are searching in a doubly narrow slice of the market.
+## One-time setup costs
+Before the monthly bills start, budget for the basics:
+- **The animal itself.** A shelter cat can be close to free (adoption fees around ¥10,000 to ¥30,000 cover vaccines and neutering); a pedigree cat or dog from a breeder or pet shop runs from ¥100,000 to well over ¥300,000.
+- **Starter supplies.** Carrier, bed, litter box, bowls, scratching post or crate: roughly ¥20,000 to ¥40,000.
+- **First vet visit.** Health check, vaccinations, microchip (now required for sold pets) and neutering: about ¥30,000 to ¥60,000 in total.
 
-## What "pet-friendly" actually means: ペット可 vs ペット相談
-Two terms matter. **ペット可 (petto ka)** means pets are allowed, usually within limits (often one small dog or one cat, under a set weight). **ペット相談 (petto sodan)** means "pets negotiable": the landlord will consider it case by case. That is not a yes. Approval depends on your animal, your application and often an extra deposit. Never assume a listing that looks pet-tolerant will accept your specific animal: a large dog, two cats, or an exotic pet narrows your options dramatically.
+## Monthly running costs
+For a single cat, a realistic monthly budget is ¥8,000 to ¥15,000: food (¥3,000 to ¥8,000), litter (¥1,000 to ¥2,000), pet insurance (¥2,000 to ¥5,000), plus treats and toys. A small dog costs more, roughly ¥12,000 to ¥25,000 a month once you add grooming and walks.
 
-## The real costs of renting with a pet
-Budget for more than a standard move-in, which already runs around five months of rent up front (see our [move-in cost breakdown](/en/blog/tokyo-apartment-move-in-costs)):
-- **Higher deposit.** Expect one to two extra months, and part of it may be non-refundable to cover cleaning and wear.
-- **Restoration at move-out.** Scratches, odours and tatami replacement are commonly billed to pet owners.
-- **Rules.** Weight and breed limits, a cap on the number of animals, and sometimes a requirement to register the pet with the building.
+## The hidden cost: housing
+This is where foreigners get surprised. A pet-friendly (ペット可) apartment in Tokyo usually costs more than a standard one: often one to two extra months of deposit, sometimes non-refundable, and occasionally higher rent. Pet-friendly stock is also scarce, so your search is narrower. Factor this into your move-in budget, which already runs around five months of rent up front (see our [Tokyo move-in cost breakdown](/en/blog/tokyo-apartment-move-in-costs)). For how to actually find and get approved for one, read our guide to [renting a pet-friendly apartment in Tokyo](/en/blog/renting-pet-friendly-apartment-tokyo).
 
-Confirm every number in writing before you sign. This is exactly the kind of clause worth checking against your [rental contract](/en/blog/tokyo-rental-contract-checklist).
+## Vet care and insurance
+Routine care (an annual checkup plus vaccinations) runs about ¥15,000 to ¥30,000 a year for a cat, more for a dog. The real risk is an emergency: surgery or a serious illness can cost ¥100,000 to ¥500,000, and Japan has no public pet health system. This is why pet insurance (¥2,000 to ¥5,000 a month) is popular; it typically reimburses 50% to 70% of covered treatment. Decide early, because pre-existing conditions are excluded.
 
-## How to find one and get approved as a foreigner
-1. **Filter properly.** Search specifically for ペット可, not just ペット相談, and confirm the exact species, size and count allowed.
-2. **Use routes that already accept pets.** Some furnished and monthly options, and a subset of share houses, are pet-friendly from the start and skip the guarantor problem. See our guides to [expat apartments in Tokyo](/en/blog/expat-apartments-tokyo) and [renting with no guarantor](/en/blog/furnished-apartment-tokyo-no-guarantor).
-3. **Strengthen your application.** A stable income, a guarantor company that accepts pets, a short "pet resume" (breed, weight, vaccination and neutering records) and a calm first impression all help a hesitant landlord say yes.
-4. **Get bilingual help.** Many pet-friendly units never reach the big foreigner-facing portals. A local, bilingual search reaches the operators who hold them.
+## If you are bringing a pet from abroad
+Importing a cat or dog into Japan is a cost and a timeline of its own: microchip, rabies vaccinations, blood tests and an advance-notice period that can take months, plus flight and paperwork. Plan well ahead. Our [guide to bringing pets to Japan](/en/blog/bringing-pets-to-japan-guide) walks through the quarantine rules step by step.
 
-## Checklist before you commit
-- Is it ペット可 (allowed) or only ペット相談 (negotiable)?
-- Exact limits: species, weight, number of animals?
-- Extra deposit, and how much is refundable?
-- Move-out restoration terms, in writing?
-- Does the guarantor company accept pets?
+## The 2026 budget, at a glance
+| Cost | Cat | Small dog |
+| --- | --- | --- |
+| One-time setup | ¥50,000 to ¥150,000 | ¥80,000 to ¥250,000 |
+| Monthly running cost | ¥8,000 to ¥15,000 | ¥12,000 to ¥25,000 |
+| Routine vet (per year) | ¥15,000 to ¥30,000 | ¥20,000 to ¥40,000 |
 
-Finding a home in Tokyo with a pet is harder, but it is very doable with the right listings and a strong application. If you would rather have someone inside the market shortlist genuinely pet-friendly places and handle the approval for you, [tell us what you need](/en/contact) and we will find the right fit for you and your animal.
+Owning a pet in Tokyo is affordable if you plan for the setup, the monthly costs and, above all, the housing premium. If you want help finding a genuinely pet-friendly home and budgeting the move, [tell us what you need](/en/contact) and we will find the right fit for you and your animal.
 
-*See also: [How to Find an Apartment in Tokyo as a Foreigner (2026 Guide)](/en/blog/find-apartment-tokyo-foreigner), [Furnished Apartments in Tokyo With No Guarantor Required (2026)](/en/blog/furnished-apartment-tokyo-no-guarantor), [Gaijin House Tokyo: Complete Guide for Foreigners (2026)](/en/blog/gaijin-house-tokyo-guide).*`.trim(),
+*Figures are typical 2026 market ranges. See also: [Renting a Pet-Friendly Apartment in Tokyo as a Foreigner](/en/blog/renting-pet-friendly-apartment-tokyo), [Bringing Pets to Japan: Import Guide](/en/blog/bringing-pets-to-japan-guide), [Cost of Living in Tokyo for Expats in 2026](/en/blog/tokyo-expat-cost-of-living-2026).*`.trim(),
   },
   {
-    slug: 'appartement-animaux-tokyo',
+    slug: 'cout-avoir-animal-tokyo',
     locale: 'fr',
-    title: 'Appartement qui Accepte les Animaux à Tokyo (2026)',
-    description: 'Louer un appartement qui accepte les animaux (ペット可) à Tokyo quand on est étranger est difficile : peu de biens, dépôt majoré, limites de taille. Voici comment faire.',
-    date: '2026-08-16',
+    title: 'Combien Coûte un Chat ou un Chien à Tokyo (2026)',
+    description: 'Combien coûte vraiment un chat ou un chien à Tokyo en 2026 ? Installation, budget mensuel nourriture et assurance, frais vétérinaires et le surcoût caché du logement.',
+    date: '2026-08-17',
     readingTime: '7 min',
     content: `
-Venir à Tokyo avec un chat ou un chien, ou en adopter un une fois sur place, double discrètement la difficulté d'un marché locatif déjà compliqué. Les logements qui acceptent les animaux existent, mais ils ne représentent qu'une petite part du marché, et les étrangers cumulent la barrière du logement avec celle de l'animal. Voici comment ça marche et comment se faire accepter.
+Avoir un animal à Tokyo est tout à fait possible, mais le vrai budget dépasse la nourriture, et une partie est cachée dans votre loyer. Voici ce que coûte réellement un chat ou un petit chien en 2026, de l'installation aux frais mensuels.
 
-**Réponse rapide :** seule une minorité de locations à Tokyo acceptent les animaux (ペット可 ou ペット相談), et elles coûtent généralement plus cher : dépôt majoré (souvent un à deux mois de plus, parfois non remboursable), règles strictes sur la taille, la race et le nombre d'animaux, et un parc de bâtiments réduit. En tant qu'étranger, vous affrontez aussi le garant et la langue. La bonne approche : filtrer sur des biens réellement ペット可, préparer un dossier solide, et viser les options meublées ou en colocation qui acceptent déjà les animaux.
+**Réponse rapide :** en 2026, prévoyez une installation unique d'environ 50 000 à 150 000 yens pour un chat (plus pour un chien), puis environ 8 000 à 15 000 yens par mois pour un chat (12 000 à 25 000 pour un petit chien) pour la nourriture, la litière et l'assurance, plus 15 000 à 30 000 yens par an de soins vétérinaires courants. Le plus gros coût caché, c'est le logement : un appartement qui accepte les animaux implique un dépôt majoré et parfois un loyer plus élevé.
 
-## Pourquoi c'est rare à Tokyo
-Les propriétaires japonais craignent le bruit, les odeurs, les sols et tatamis abîmés, et les frais de nettoyage au départ. Beaucoup d'immeubles interdisent donc purement et simplement les animaux. Le parc ペット可 est concentré dans des bâtiments récents et chez certains opérateurs, et il part vite. Ajoutez le fait que de nombreux propriétaires hésitent déjà à louer aux étrangers, et vous cherchez dans une part doublement étroite du marché.
+## Les coûts d'installation (une fois)
+Avant les frais mensuels, prévoyez les bases :
+- **L'animal.** Un chat de refuge peut être quasi gratuit (frais d'adoption de 10 000 à 30 000 yens couvrant vaccins et stérilisation) ; un chat ou chien de race en animalerie ou chez un éleveur va de 100 000 à plus de 300 000 yens.
+- **L'équipement de départ.** Caisse de transport, panier, bac à litière, gamelles, griffoir ou cage : environ 20 000 à 40 000 yens.
+- **Première visite vétérinaire.** Bilan de santé, vaccins, puce (désormais obligatoire pour les animaux vendus) et stérilisation : environ 30 000 à 60 000 yens au total.
 
-## ペット可 ou ペット相談 : la nuance qui compte
-Deux termes à connaître. **ペット可 (petto ka)** signifie que les animaux sont autorisés, souvent dans certaines limites (un petit chien ou un chat, sous un certain poids). **ペット相談 (petto sodan)** signifie "animaux négociables" : le propriétaire étudie au cas par cas. Ce n'est pas un oui. L'accord dépend de votre animal, de votre dossier et souvent d'un dépôt supplémentaire. Ne supposez jamais qu'une annonce "tolérante" acceptera votre animal précis : un grand chien, deux chats ou un animal exotique réduisent fortement vos options.
+## Les frais mensuels
+Pour un chat, comptez un budget réaliste de 8 000 à 15 000 yens : nourriture (3 000 à 8 000), litière (1 000 à 2 000), assurance (2 000 à 5 000), plus friandises et jouets. Un petit chien coûte davantage, environ 12 000 à 25 000 yens par mois avec le toilettage et les promenades.
 
-## Le vrai coût d'une location avec animal
-Prévoyez plus qu'un emménagement standard, déjà autour de cinq mois de loyer d'avance :
-- **Dépôt majoré.** Comptez un à deux mois de plus, dont une partie peut être non remboursable (nettoyage et usure).
-- **Remise en état au départ.** Griffures, odeurs et remplacement des tatamis sont souvent facturés aux propriétaires d'animaux.
-- **Règles.** Limites de poids et de race, plafond sur le nombre d'animaux, parfois obligation de déclarer l'animal auprès de l'immeuble.
+## Le coût caché : le logement
+C'est là que les étrangers sont surpris. Un appartement qui accepte les animaux (ペット可) à Tokyo coûte généralement plus cher qu'un logement standard : souvent un à deux mois de dépôt en plus, parfois non remboursable, et parfois un loyer plus élevé. Le parc est aussi rare, donc la recherche est plus étroite. Intégrez-le à votre budget d'emménagement, qui tourne déjà autour de cinq mois de loyer d'avance. Pour savoir comment en trouver un et vous faire accepter, lisez notre guide pour [louer un appartement qui accepte les animaux à Tokyo](/fr/blog/louer-appartement-animaux-acceptes-tokyo).
 
-Faites confirmer chaque montant par écrit avant de signer.
+## Vétérinaire et assurance
+Les soins courants (un bilan annuel et les vaccins) coûtent environ 15 000 à 30 000 yens par an pour un chat, plus pour un chien. Le vrai risque, c'est l'urgence : une chirurgie ou une maladie grave peut coûter de 100 000 à 500 000 yens, et le Japon n'a pas de système de santé animale public. D'où la popularité de l'assurance animale (2 000 à 5 000 yens par mois), qui rembourse en général 50 à 70 % des soins couverts. Décidez tôt, car les maladies préexistantes sont exclues.
 
-## Comment en trouver un et se faire accepter (étranger)
-1. **Filtrer correctement.** Cherchez spécifiquement ペット可, pas seulement ペット相談, et confirmez l'espèce, la taille et le nombre autorisés.
-2. **Viser les voies déjà ouvertes aux animaux.** Certaines options meublées ou au mois, et une partie des share houses, acceptent les animaux d'emblée et évitent le garant. Voyez notre [classement des quartiers les moins chers](/fr/blog/quartiers-tokyo-moins-chers-classement-loyers) et notre [guide des gaijin houses](/fr/blog/gaijin-house-tokyo-guide-complet).
-3. **Renforcer le dossier.** Un revenu stable, une société de garantie qui accepte les animaux, un court "CV de l'animal" (race, poids, vaccins, stérilisation) et une première impression calme aident un propriétaire hésitant à dire oui.
-4. **Se faire aider en bilingue.** Beaucoup de biens ペット可 n'arrivent jamais sur les grands portails destinés aux étrangers. Une recherche locale et bilingue atteint les opérateurs qui les détiennent.
+## Si vous faites venir un animal de l'étranger
+Importer un chat ou un chien au Japon est un coût et un calendrier à part : puce, vaccins antirabiques, prises de sang et un délai de notification préalable qui peut prendre des mois, plus le vol et les démarches. Anticipez largement. Notre [guide pour emmener son animal au Japon](/fr/blog/importer-animal-compagnie-japon-guide) détaille les règles de quarantaine étape par étape.
 
-## Checklist avant de signer
-- Est-ce ペット可 (autorisé) ou seulement ペット相談 (négociable) ?
-- Limites exactes : espèce, poids, nombre d'animaux ?
-- Dépôt supplémentaire, et quelle part est remboursable ?
-- Conditions de remise en état, par écrit ?
-- La société de garantie accepte-t-elle les animaux ?
+## Le budget 2026, en un coup d'œil
+| Poste | Chat | Petit chien |
+| --- | --- | --- |
+| Installation (une fois) | 50 000 à 150 000 ¥ | 80 000 à 250 000 ¥ |
+| Coût mensuel | 8 000 à 15 000 ¥ | 12 000 à 25 000 ¥ |
+| Vétérinaire (par an) | 15 000 à 30 000 ¥ | 20 000 à 40 000 ¥ |
 
-Trouver un logement à Tokyo avec un animal est plus dur, mais tout à fait faisable avec les bonnes annonces et un dossier solide. Si vous préférez qu'un insider du marché sélectionne des biens réellement ペット可 et gère l'accord à votre place, [dites-nous ce qu'il vous faut](/fr/contact) et nous trouverons la solution qui convient à vous et à votre animal.
+Avoir un animal à Tokyo reste abordable si vous prévoyez l'installation, les frais mensuels et surtout le surcoût du logement. Si vous voulez de l'aide pour trouver un logement réellement pet-friendly et cadrer le budget, [dites-nous ce qu'il vous faut](/fr/contact) et nous trouverons la solution adaptée à vous et à votre animal.
 
-*Voir aussi : [Types d'appartements japonais expliqués](/fr/blog/types-appartements-japonais-expliques), [Gaijin House à Tokyo : le guide complet](/fr/blog/gaijin-house-tokyo-guide-complet).*`.trim(),
+*Les montants sont des fourchettes de marché 2026 typiques. Voir aussi : [Louer un appartement qui accepte les animaux à Tokyo](/fr/blog/louer-appartement-animaux-acceptes-tokyo), [Coût de la vie à Tokyo pour les expatriés en 2026](/fr/blog/cout-vie-tokyo-expatrie-2026).*`.trim(),
   },
 ]
 
 // Mapping FR slug -> EN slug (articles jumeaux pour hreflang)
 export const TWIN_SLUGS: Record<string, string> = {
-  'appartement-animaux-tokyo':                   'pet-friendly-apartments-tokyo',
+  'cout-avoir-animal-tokyo':                     'cost-of-owning-pet-tokyo',
   'trouver-appartement-tokyo-etranger':          'find-apartment-tokyo-foreigner',
   'share-house-tokyo-guide-complet':             'share-house-tokyo-guide-2026',
   'cout-vie-tokyo-expatrie-2026':                'tokyo-expat-cost-of-living-2026',

@@ -46,6 +46,9 @@ const nextConfig: NextConfig = {
       { source: '/en/blog/oak-house-alternative', destination: '/en/blog/gaijin-house-tokyo-guide', permanent: true },
       { source: '/fr/blog/oak-house-alternative', destination: '/fr/blog/gaijin-house-tokyo-guide-complet', permanent: true },
       { source: '/en/blog/share-house-tokyo-comparison-2026', destination: '/en/blog/share-house-tokyo-guide-2026', permanent: true },
+      // Doublons pet-friendly retires 17/08 (cannibalisaient renting-pet-friendly-apartment-tokyo). Consolidation.
+      { source: '/en/blog/pet-friendly-apartments-tokyo', destination: '/en/blog/renting-pet-friendly-apartment-tokyo', permanent: true },
+      { source: '/fr/blog/appartement-animaux-tokyo', destination: '/fr/blog/louer-appartement-animaux-acceptes-tokyo', permanent: true },
     ]
   },
 }
