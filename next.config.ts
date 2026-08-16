@@ -42,6 +42,10 @@ const nextConfig: NextConfig = {
       { source: '/fr/blog/sakura-house-review', destination: '/fr/blog/gaijin-house-tokyo-guide-complet', permanent: true },
       { source: '/en/blog/gaijinpot-housing-alternative', destination: '/en/blog/gaijin-house-tokyo-guide', permanent: true },
       { source: '/fr/blog/gaijinpot-housing-alternative', destination: '/fr/blog/gaijin-house-tokyo-guide-complet', permanent: true },
+      // 404 encore indexees avec du trafic (GSC 16/08): oak-house-alternative 680 impr, share-house-comparison 324 impr.
+      { source: '/en/blog/oak-house-alternative', destination: '/en/blog/gaijin-house-tokyo-guide', permanent: true },
+      { source: '/fr/blog/oak-house-alternative', destination: '/fr/blog/gaijin-house-tokyo-guide-complet', permanent: true },
+      { source: '/en/blog/share-house-tokyo-comparison-2026', destination: '/en/blog/share-house-tokyo-guide-2026', permanent: true },
     ]
   },
 }
