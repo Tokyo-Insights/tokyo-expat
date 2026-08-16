@@ -1,43 +1,43 @@
 {
-  "generated_at": "2026-08-16",
-  "period": "2026-07-19 to 2026-08-15",
+  "generated_at": "2026-08-17",
+  "period": "2026-07-20 to 2026-08-16",
   "property": "sc-domain:tokyo-expat.com",
   "totals": {
-    "clicks": 76,
-    "impressions": 16085,
-    "ctr_pct": 0.47,
-    "position": 21.7
+    "clicks": 77,
+    "impressions": 16057,
+    "ctr_pct": 0.48,
+    "position": 21.5
   },
   "top_queries": [
     {
       "query": "jiko bukken for sale",
       "clicks": 4,
-      "impressions": 19,
+      "impressions": 18,
       "position": 8.9
     },
     {
       "query": "furnished apartment tokyo",
       "clicks": 1,
-      "impressions": 189,
-      "position": 27.2
+      "impressions": 173,
+      "position": 27.3
     },
     {
       "query": "gaijin house",
       "clicks": 1,
-      "impressions": 82,
-      "position": 14.9
+      "impressions": 86,
+      "position": 14.8
     },
     {
       "query": "gaijin house tokyo",
       "clicks": 1,
-      "impressions": 88,
-      "position": 8.2
+      "impressions": 91,
+      "position": 7.6
     },
     {
       "query": "gaijin houses tokyo",
       "clicks": 1,
-      "impressions": 66,
-      "position": 11.8
+      "impressions": 67,
+      "position": 11.3
     },
     {
       "query": "\"how to find an apartment in tokyo as a foreigner\"",
@@ -90,7 +90,7 @@
     {
       "query": "about me: corporate relocator corporate relocator question: what is the minimum rental period for a furnished apartment in tokyo?",
       "clicks": 0,
-      "impressions": 5,
+      "impressions": 4,
       "position": 7.2
     },
     {
@@ -163,38 +163,43 @@
   "top_pages": [
     {
       "page": "https://www.tokyo-expat.com/en/blog/jiko-bukken-cheap-apartments-tokyo",
-      "clicks": 11,
-      "impressions": 275
+      "clicks": 10,
+      "impressions": 283
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/gaijin-house-tokyo-guide",
       "clicks": 5,
-      "impressions": 2526
+      "impressions": 2622
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/share-house-tokyo-comparison-2026",
       "clicks": 5,
-      "impressions": 324
+      "impressions": 326
     },
     {
       "page": "https://www.tokyo-expat.com/fr/blog/assurance-habitation-japon-locataire",
       "clicks": 4,
-      "impressions": 28
+      "impressions": 29
     },
     {
       "page": "https://www.tokyo-expat.com/blog/assurance-habitation-japon-locataire",
       "clicks": 3,
-      "impressions": 13
+      "impressions": 14
+    },
+    {
+      "page": "https://www.tokyo-expat.com/en/blog/furnished-apartment-tokyo-top-5-expats",
+      "clicks": 3,
+      "impressions": 4060
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/oak-house-alternative",
       "clicks": 3,
-      "impressions": 680
+      "impressions": 705
     },
     {
       "page": "https://www.tokyo-expat.com/",
       "clicks": 2,
-      "impressions": 22
+      "impressions": 21
     },
     {
       "page": "https://www.tokyo-expat.com/blog/impots-revenus-japon-expatrie-2026",
@@ -204,32 +209,27 @@
     {
       "page": "https://www.tokyo-expat.com/en/blog/best-neighbourhoods-families-tokyo-guide",
       "clicks": 2,
-      "impressions": 151
+      "impressions": 155
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/cheapest-neighbourhoods-tokyo-ranked-by-rent",
       "clicks": 2,
-      "impressions": 50
+      "impressions": 51
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/ebisu-daikanyama-nakameguro-expat-guide",
       "clicks": 2,
-      "impressions": 35
-    },
-    {
-      "page": "https://www.tokyo-expat.com/en/blog/furnished-apartment-tokyo-top-5-expats",
-      "clicks": 2,
-      "impressions": 4278
+      "impressions": 34
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/social-apartments-tokyo-guide",
       "clicks": 2,
-      "impressions": 68
+      "impressions": 72
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/ur-housing-tokyo-foreigners",
       "clicks": 2,
-      "impressions": 86
+      "impressions": 88
     },
     {
       "page": "https://www.tokyo-expat.com/fr/blog/internet-utilitaires-tokyo-appartement",

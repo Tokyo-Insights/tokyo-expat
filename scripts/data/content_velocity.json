@@ -1,14 +1,14 @@
 {
   "prev_week_counts": {
-    "Remoters": 6431,
+    "Remoters": 6435,
     "GaijinPot Housing": 0,
-    "GaijinPot Blog": 4577,
+    "GaijinPot Blog": 4580,
     "Sakura House": 970,
-    "Oak House": 5183,
-    "Tokyo Cheapo": 6880,
+    "Oak House": 5187,
+    "Tokyo Cheapo": 6824,
     "Japan Guide": 0,
     "Fontaine Relocation": 0,
-    "Savvy Tokyo": 8706,
+    "Savvy Tokyo": 8701,
     "Japan Property Central": 0,
     "Japan Today": 0,
     "City Cost": 0,
@@ -20,13 +20,14 @@
     "Crown Relocations JP": 0,
     "Asian Tigers Japan": 0,
     "Wise Blog JP": 0,
-    "Vivre Au Japon": 193,
+    "Vivre Au Japon": 197,
     "Japon Online": 0,
     "Modern Living Tokyo": 0,
     "Tokyo Furnished": 0
   },
   "weekly_history": {
     "Asian Tigers Japan": [
+      0,
       0,
       0,
       0,
@@ -40,9 +41,11 @@
       0,
       0,
       0,
+      0,
       0
     ],
     "Crown Relocations JP": [
+      0,
       0,
       0,
       0,
@@ -56,9 +59,11 @@
       0,
       0,
       0,
+      0,
       0
     ],
     "Gaijin House": [
+      0,
       0,
       0,
       0,
@@ -72,9 +77,11 @@
       4,
       3,
       0,
-      0
+      0,
+      3
     ],
     "GaijinPot Housing": [
+      0,
       0,
       0,
       0,
@@ -88,9 +95,11 @@
       0,
       0,
       0,
+      0,
       0
     ],
     "Japan Insiders": [
+      0,
       0,
       0,
       0,
@@ -104,9 +113,11 @@
       0,
       0,
       0,
+      0,
       0
     ],
     "Japan Today": [
+      0,
       0,
       0,
       0,
@@ -120,9 +131,11 @@
       0,
       0,
       0,
+      0,
       0
     ],
     "Modern Living Tokyo": [
+      0,
       0,
       0,
       0,
@@ -136,7 +149,8 @@
       1,
       14,
       23,
-      0
+      0,
+      4
     ],
     "Remoters": [
       0,
@@ -144,9 +158,11 @@
       10,
       2,
       3,
-      0
+      0,
+      4
     ],
     "Sakura House": [
+      0,
       0,
       0,
       0,
@@ -160,9 +176,11 @@
       0,
       0,
       2,
+      0,
       0
     ],
     "Time Out Tokyo": [
+      0,
       0,
       0,
       0,
@@ -176,6 +194,7 @@
       0,
       0,
       0,
+      0,
       0
     ],
     "Tokyo Cheapo": [
@@ -184,9 +203,11 @@
       0,
       0,
       56,
+      0,
       0
     ],
     "Tokyo Furnished": [
+      0,
       0,
       0,
       0,
@@ -200,6 +221,7 @@
       0,
       0,
       0,
+      0,
       0
     ],
     "Vivre Au Japon": [
@@ -208,9 +230,11 @@
       0,
       3,
       6,
-      0
+      0,
+      4
     ],
     "Wise Blog JP": [
+      0,
       0,
       0,
       0,
@@ -219,5 +243,5 @@
       0
     ]
   },
-  "last_run": "2026-08-10"
+  "last_run": "2026-08-17"
 }

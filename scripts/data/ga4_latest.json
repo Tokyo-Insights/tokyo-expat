@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-08-16",
-  "period": "2026-08-09 to 2026-08-16",
+  "generated_at": "2026-08-17",
+  "period": "2026-08-10 to 2026-08-17",
   "this_week": {
-    "sessions": 252,
-    "users": 219,
-    "pageviews": 313,
-    "bounce_rate": 0.7142857142857143
+    "sessions": 259,
+    "users": 222,
+    "pageviews": 317,
+    "bounce_rate": 0.7181467181467182
   },
   "prev_week": {
-    "sessions": 263,
-    "users": 225,
-    "pageviews": 340,
-    "bounce_rate": 0.6311787072243346
+    "sessions": 262,
+    "users": 222,
+    "pageviews": 345,
+    "bounce_rate": 0.6374045801526718
   },
   "changes": {
-    "sessions": "-4%",
-    "users": "-3%",
+    "sessions": "-1%",
+    "users": "+0%",
     "pageviews": "-8%"
   },
   "top_pages": [
     [
-      "/en",
+      "/en/blog/tokyo-expat-cost-of-living-2026",
       "26"
     ],
     [
-      "/en/blog/tokyo-expat-cost-of-living-2026",
+      "/en",
       "24"
     ],
     [
@@ -36,34 +36,34 @@
       "14"
     ],
     [
-      "/en/blog/tokyo-rent-report-2026",
-      "12"
+      "/fr",
+      "13"
     ]
   ],
   "top_sources": [
     [
       "Direct",
-      "143"
+      "153"
     ],
     [
       "Organic Search",
-      "75"
+      "73"
     ],
     [
       "AI Assistant",
-      "20"
+      "22"
     ]
   ],
   "form_submits_week": 4,
   "events": {
-    "page_view": 313,
-    "session_start": 251,
-    "first_visit": 212,
-    "user_engagement": 115,
+    "page_view": 317,
+    "session_start": 260,
+    "first_visit": 219,
+    "user_engagement": 114,
     "scroll": 29,
     "form_start": 4,
     "generate_lead": 4,
     "file_download": 3,
-    "click": 1
+    "select_consultation": 1
   }
 }

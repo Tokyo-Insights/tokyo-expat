@@ -1,0 +1,773 @@
+[2026-08-17  6:35:56.83] Starting weekly intelligence (lundi)... 
+[ 6:35:56.84] [1/19] Keyword tracking... 
+
+Tracking 30 keywords across 8 domains...
+ETA: ~2min 30s
+
+[ 1/30] trouver appartement tokyo etranger                 TE:#2 | sakura-house:#8 | oakhouse:#7
+[ 2/30] chasseur immobilier tokyo                          TE:#2 | remoters:#1
+[ 3/30] share house tokyo guide                            TE:— | sakura-house:#9 | oakhouse:#4
+[ 4/30] appartement meuble tokyo expatrie                  TE:#1 | sakura-house:#4 | oakhouse:#11
+[ 5/30] louer tokyo sans garant etranger                   TE:#3 | oakhouse:#18
+[ 6/30] logement tokyo expatrie                            TE:#2 | sakura-house:#6
+[ 7/30] installer tokyo francais                           TE:#4
+[ 8/30] quartiers tokyo expatries                          TE:#2
+[ 9/30] cout vie tokyo 2026                                TE:#18
+[10/30] garantie loyer japon etranger                      TE:#2
+[11/30] assurance habitation japon locataire               TE:#7
+[12/30] logement etudiant tokyo                            TE:#8 | remoters:#10
+[13/30] visa travail japon francophone                     TE:#2
+[14/30] ouvrir compte bancaire japon etranger              TE:#2
+[15/30] bail tokyo checklist                               TE:#1 | sakura-house:#18
+[16/30] find apartment tokyo foreigner                     TE:#2 | tokyocheapo:#13 | gaijinpot:#3 | oakhouse:#15
+[17/30] property hunter tokyo                              TE:#1
+[18/30] share house tokyo guide 2026                       TE:#1 | oakhouse:#2
+[19/30] furnished apartment tokyo no guarantor             TE:#2 | tokyocheapo:#7 | gaijinpot:#8
+[20/30] moving to tokyo guide 2026                         TE:— | tokyocheapo:#13
+[21/30] tokyo expat housing                                TE:#2 | gaijinpot:#1
+[22/30] rent tokyo expat 2026                              TE:#2 | gaijinpot:#1
+[23/30] gaijin house tokyo                                 TE:#2 | sakura-house:#6 | gaijinpot:#5 | oakhouse:#10 | japan-guide:#1
+[24/30] tokyo neighbourhoods expats guide                  TE:#7
+[25/30] student housing tokyo guide                        TE:#1
+[26/30] guarantor japan rental foreigner                   TE:#7 | gaijinpot:#17
+[27/30] tokyo rental contract checklist                    TE:#7 | gaijinpot:#11
+[28/30] japan health insurance expat                       TE:#7
+[29/30] open bank account japan foreigner                  TE:#6
+[30/30] tokyo apartment hunting abroad                     TE:#11 | gaijinpot:#2 | oakhouse:#4
+
+✅ Tracking complete for 2026-08-17
+
+✅ Weekly report sent to Telegram
+[ 6:40:33.76] [1b] GSC opportunity miner... 
+BOUCLE RECHERCHE->ARTICLE | 57 CLUSTERS d'opportunites (90j)
+🎯 4083 impr | pos 25.9 |  8 variantes | OPTIMISER (article existe)
+       theme: apartment furnished  (ex: "furnished apartment tokyo")
+🎯 2422 impr | pos 14.8 |  8 variantes | OPTIMISER (article existe)
+       theme: gaijin house  (ex: "tokyo gaijin house")
+🎯 1557 impr | pos 11.1 |  1 variantes | OPTIMISER (article existe)
+       theme: cheap gaijin house  (ex: "cheap gaijin house in tokyo")
+🎯  975 impr | pos 19.8 |  2 variantes | ECRIRE (nouveau)
+       theme: apartment expat  (ex: "expat apartments tokyo")
+🎯  819 impr | pos 27.7 |  1 variantes | OPTIMISER (article existe)
+       theme: apartment furnished long term  (ex: "furnished apartments tokyo long term")
+🎯  690 impr | pos 25.0 |  1 variantes | OPTIMISER (article existe)
+       theme: apartment fully furnished  (ex: "fully furnished apartments tokyo")
+🎯  558 impr | pos 14.9 |  3 variantes | ECRIRE (nouveau)
+       theme: apartment gaijin  (ex: "gaijin apartments tokyo")
+    963 impr | pos 35.8 |  6 variantes | OPTIMISER (article existe)
+       theme: apartment furnished rent  (ex: "apartments for rent in tokyo furnished")
+🎯  364 impr | pos 19.5 |  2 variantes | OPTIMISER (article existe)
+       theme: apartment social  (ex: "social apartments japan")
+🎯  347 impr | pos 26.8 |  1 variantes | ECRIRE (nouveau)
+       theme: apartment gaijin helper  (ex: "gaijin apartment helper")
+    658 impr | pos 36.3 |  9 variantes | OPTIMISER (article existe)
+       theme: apartment foreigner  (ex: "apartments for foreigners in tokyo")
+🎯  296 impr | pos 15.2 |  2 variantes | OPTIMISER (article existe)
+       theme: bukken jiko  (ex: "jiko bukken")
+
+[Telegram envoye]
+[ 6:40:37.07] [2/19] Content gap analysis... 
+
+============================================================
+CONTENT GAP DETECTOR - 2026-08-17
+============================================================
+
+Our content: 186 URLs, 177 unique slugs
+
+Remoters: 19 content URLs (from 6435 total)
+GaijinPot Housing: 0 content URLs (from 0 total)
+GaijinPot Blog: 0 content URLs (from 4580 total)
+Sakura House: 0 content URLs (from 970 total)
+Oak House: 0 content URLs (from 5187 total)
+Tokyo Cheapo: 100 content URLs (from 6824 total)
+Japan Guide: 0 content URLs (from 0 total)
+Fontaine Relocation: 0 content URLs (from 0 total)
+Savvy Tokyo: 0 content URLs (from 8701 total)
+Japan Property Central: 0 content URLs (from 0 total)
+Japan Today: 0 content URLs (from 0 total)
+City Cost: 0 content URLs (from 0 total)
+Japan Insiders: 0 content URLs (from 17 total)
+Tofugu: 1 content URLs (from 1910 total)
+Time Out Tokyo: 0 content URLs (from 0 total)
+Gaijin House: 0 content URLs (from 0 total)
+Tokyo Share House: 0 content URLs (from 0 total)
+Crown Relocations JP: 0 content URLs (from 0 total)
+Asian Tigers Japan: 0 content URLs (from 0 total)
+Wise Blog JP: 0 content URLs (from 0 total)
+Vivre Au Japon: 0 content URLs (from 197 total)
+Japon Online: 0 content URLs (from 0 total)
+Modern Living Tokyo: 0 content URLs (from 0 total)
+Tokyo Furnished: 0 content URLs (from 0 total)
+
+Total gaps identifies: 66
+Top 100 saved to C:\Users\alegu\Desktop\tokyo-expat\scripts\data\content_gaps.json
+
+============================================================
+TOP 20 CONTENT GAPS (topics a couvrir en priorite):
+============================================================
+
+ 1. [ 35] pet cost cat tokyo
+     Via: Tokyo Cheapo
+     Angle: Creer contenu plus specifique, avec donnees proprietaires et angle francophone u
+
+ 2. [ 25] tokyo garden shops tips
+     Via: Tokyo Cheapo
+     Angle: Creer contenu plus specifique, avec donnees proprietaires et angle francophone u
+
+ 3. [ 25] tadaku english cooking classes tokyo
+     Via: Tokyo Cheapo
+     Angle: Creer contenu plus specifique, avec donnees proprietaires et angle francophone u
+
+ 4. [ 25] great tokyo kit kat search
+     Via: Tokyo Cheapo
+     Angle: Creer contenu plus specifique, avec donnees proprietaires et angle francophone u
+
+ 5. [ 25] top salons hair dyed in tokyo
+     Via: Tokyo Cheapo
+     Angle: Creer contenu plus specifique, avec donnees proprietaires et angle francophone u
+
+ 6. [ 25] safe sex condoms sti testing in tokyo
+     Via: Tokyo Cheapo
+     Angle: Creer contenu plus specifique, avec donnees proprietaires et angle francophone u
+
+ 7. [ 25] snoring sleep apnea tokyo
+     Via: Tokyo Cheapo
+     Angle: Creer contenu plus specifique, avec donnees proprietaires et angle francophone u
+
+ 8. [ 25] smartphone computer repair tokyo english
+     Via: Tokyo Cheapo
+     Angle: Creer contenu plus specifique, avec donnees proprietaires et angle francophone u
+
+ 9. [ 25] cheap supermarkets in tokyo
+     Via: Tokyo Cheapo
+     Angle: Creer contenu plus specifique, avec donnees proprietaires et angle francophone u
+
+10. [ 25] 10 special deals for your birthday in tokyo
+     Via: Tokyo Cheapo
+     Angle: Creer contenu plus specifique, avec donnees proprietaires et angle francophone u
+
+11. [ 25] womens health tokyo clinics birth control
+     Via: Tokyo Cheapo
+     Angle: Creer contenu plus specifique, avec donnees proprietaires et angle francophone u
+
+12. [ 25] interview clark parker tokyo files
+     Via: Tokyo Cheapo
+     Angle: Creer contenu plus specifique, avec donnees proprietaires et angle francophone u
+
+13. [ 25] the tokyo partnership oath system explained
+     Via: Tokyo Cheapo
+     Angle: Creer contenu plus specifique, avec donnees proprietaires et angle francophone u
+
+14. [ 25] board game stores tokyo
+     Via: Tokyo Cheapo
+     Angle: Creer contenu plus specifique, avec donnees proprietaires et angle francophone u
+
+15. [ 25] the top 10 cheapo neighborhoods in tokyo part 1 10 through 6
+     Via: Tokyo Cheapo
+     Angle: Creer contenu plus specifique, avec donnees proprietaires et angle francophone u
+
+16. [ 25] star wars tokyo
+     Via: Tokyo Cheapo
+     Angle: Creer contenu plus specifique, avec donnees proprietaires et angle francophone u
+
+17. [ 25] video tokyo roar
+     Via: Tokyo Cheapo
+     Angle: Creer contenu plus specifique, avec donnees proprietaires et angle francophone u
+
+18. [ 25] getting married in tokyo
+     Via: Tokyo Cheapo
+     Angle: Creer contenu plus specifique, avec donnees proprietaires et angle francophone u
+
+19. [ 25] tokyos top 5 cheapo trends in 2012
+     Via: Tokyo Cheapo
+     Angle: Creer contenu plus specifique, avec donnees proprietaires et angle francophone u
+
+20. [ 25] the top 10 cheapo neighborhoods to live in tokyo part ii 5 through 1
+     Via: Tokyo Cheapo
+     Angle: Creer contenu plus specifique, avec donnees proprietaires et angle francophone u
+
+Telegram alert sent.
+[ 6:40:38.82] [3/19] Pricing monitor... 
+
+============================================================
+PRICING MONITOR - 2026-08-17
+============================================================
+
+Checking Remoters Tokyo...
+  Aucun changement
+Checking Remoters Homepage...
+  Aucun changement
+Checking Sakura House Pricing EN...
+  Aucun changement
+Checking Sakura House Homepage...
+  [WARN] https://www.sakura-house.com/en/: 520 Server Error: <none> for url: http://www.sakura-house.com/
+  [SKIP] Could not fetch
+Checking Oak House Rent Guide...
+  Aucun changement
+Checking Oak House About...
+  Aucun changement
+Checking Gaijin House Pricing...
+  Aucun changement
+Checking Fontaine Services...
+  [WARN] https://fontaine.co.jp/services/: HTTPSConnectionPool(host='fontaine.co.jp', port=443): Max retries exceeded with url: /services/ (Caused by NameResolutionError("HTTPSConnection(host='fontaine.co.jp', port=443): Failed to resolve 'fontaine.co.jp' ([Errno 11001] getaddrinfo failed)"))
+  [SKIP] Could not fetch
+Checking Crown Relo Tokyo...
+  Aucun changement
+Checking Asian Tigers Services...
+  [WARN] https://www.asiantigers-japan.com/services/: HTTPSConnectionPool(host='www.asiantigers-japan.com', port=443): Max retries exceeded with url: /services/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.asiantigers-japan.com', port=443) at 0x2a873b6e0d0>, 'Connection to www.asiantigers-japan.com timed out. (connect timeout=15)'))
+  [SKIP] Could not fetch
+Checking Tokyo Cheapo Housing...
+  [WARN] https://tokyocheapo.com/living/housing/: 404 Client Error: Not Found for url: https://tokyocheapo.com/living/housing/
+  [SKIP] Could not fetch
+Checking Savvy Tokyo Advertise...
+  Aucun changement
+Checking GaijinPot Advertise...
+  Aucun changement
+Checking Tokyo Expat Services...
+  Aucun changement
+
+Aucun changement de prix detecte
+[ 6:41:12.09] [4/19] Backlink spy... 
+
+============================================================
+BACKLINK SPY — 2026-08-17
+============================================================
+
+Fetching our own backlinks...
+  [INFO] API indisponible — vérif manuelle: https://ahrefs.com/backlink-checker/?input=tokyo-expat.com&mode=subdomains
+  Nous avons 0 backlinks depuis 0 domaines
+
+Fetching backlinks for remoters.io...
+  [INFO] API indisponible — vérif manuelle: https://ahrefs.com/backlink-checker/?input=remoters.io&mode=subdomains
+  0 links found
+Fetching backlinks for housing.gaijinpot.com...
+  [INFO] API indisponible — vérif manuelle: https://ahrefs.com/backlink-checker/?input=housing.gaijinpot.com&mode=subdomains
+  0 links found
+Fetching backlinks for blog.gaijinpot.com...
+  [INFO] API indisponible — vérif manuelle: https://ahrefs.com/backlink-checker/?input=blog.gaijinpot.com&mode=subdomains
+  0 links found
+Fetching backlinks for sakura-house.com...
+  [INFO] API indisponible — vérif manuelle: https://ahrefs.com/backlink-checker/?input=sakura-house.com&mode=subdomains
+  0 links found
+Fetching backlinks for oakhouse.jp...
+  [INFO] API indisponible — vérif manuelle: https://ahrefs.com/backlink-checker/?input=oakhouse.jp&mode=subdomains
+  0 links found
+Fetching backlinks for tokyocheapo.com...
+  [INFO] API indisponible — vérif manuelle: https://ahrefs.com/backlink-checker/?input=tokyocheapo.com&mode=subdomains
+  0 links found
+Fetching backlinks for savvytokyo.com...
+  [INFO] API indisponible — vérif manuelle: https://ahrefs.com/backlink-checker/?input=savvytokyo.com&mode=subdomains
+  0 links found
+Fetching backlinks for japanpropertycentral.com...
+  [INFO] API indisponible — vérif manuelle: https://ahrefs.com/backlink-checker/?input=japanpropertycentral.com&mode=subdomains
+  0 links found
+Fetching backlinks for japan-guide.com...
+  [INFO] API indisponible — vérif manuelle: https://ahrefs.com/backlink-checker/?input=japan-guide.com&mode=subdomains
+  0 links found
+Fetching backlinks for fontaine.co.jp...
+  [INFO] API indisponible — vérif manuelle: https://ahrefs.com/backlink-checker/?input=fontaine.co.jp&mode=subdomains
+  0 links found
+Fetching backlinks for japantoday.com...
+  [INFO] API indisponible — vérif manuelle: https://ahrefs.com/backlink-checker/?input=japantoday.com&mode=subdomains
+  0 links found
+Fetching backlinks for city-cost.com...
+  [INFO] API indisponible — vérif manuelle: https://ahrefs.com/backlink-checker/?input=city-cost.com&mode=subdomains
+  0 links found
+Fetching backlinks for tofugu.com...
+  [INFO] API indisponible — vérif manuelle: https://ahrefs.com/backlink-checker/?input=tofugu.com&mode=subdomains
+  0 links found
+Fetching backlinks for gaijinhouse.com...
+  [INFO] API indisponible — vérif manuelle: https://ahrefs.com/backlink-checker/?input=gaijinhouse.com&mode=subdomains
+  0 links found
+Fetching backlinks for vivre-au-japon.com...
+  [INFO] API indisponible — vérif manuelle: https://ahrefs.com/backlink-checker/?input=vivre-au-japon.com&mode=subdomains
+  0 links found
+
+============================================================
+RÉSULTATS:
+  Total opportunités: 0
+  Nouvelles (pas encore nos backlinks): 0
+============================================================
+
+
+📁 CSV exporté: C:\Users\alegu\Desktop\tokyo-expat\scripts\data\backlink_opportunities_2026-08-17.csv
+[ 6:41:43.87] [5/19] Broken link finder... 
+
+============================================================
+BROKEN LINK FINDER — 2026-08-17
+============================================================
+
+
+Checking Remoters (80 URLs)...
+
+Checking GaijinPot Housing (0 URLs)...
+
+Checking GaijinPot Blog (80 URLs)...
+
+Checking Sakura House (80 URLs)...
+  404 NEW: https://www.sakura-house.com/indonesian/building/building/hiroo
+  404 NEW: https://www.sakura-house.com/search/
+  404 NEW: https://www.sakura-house.com/fr/building/building/shibuya-ebisu-apartment
+  404 NEW: https://www.sakura-house.com/indonesian/building/building/ojima-tokyo-2
+  404 NEW: https://www.sakura-house.com/de/building/building/ojima-tokyo-1
+  404 NEW: https://www.sakura-house.com/tw/building/building/shibuya-ebisu-apartment
+  404 NEW: https://www.sakura-house.com/cn/search/
+  404 NEW: https://www.sakura-house.com/cn/muslim-friendly-houses
+  404 NEW: https://www.sakura-house.com/es/building/building/shinjuku-akebonobashi-5
+  404 NEW: https://www.sakura-house.com/jp/building/building/ojima-tokyo-3
+  404 NEW: https://www.sakura-house.com/kr/building/building/shinjuku-akebonobashi-3
+
+Checking Oak House (80 URLs)...
+
+Checking Tokyo Cheapo (80 URLs)...
+
+Checking Japan Guide (0 URLs)...
+
+Checking Fontaine Relocation (0 URLs)...
+
+Checking Savvy Tokyo (80 URLs)...
+
+Checking Japan Property Central (0 URLs)...
+
+Checking Japan Today (0 URLs)...
+
+Checking City Cost (0 URLs)...
+
+Checking Japan Insiders (17 URLs)...
+
+Checking Tofugu (80 URLs)...
+
+Checking Time Out Tokyo (0 URLs)...
+
+Checking Gaijin House (0 URLs)...
+
+Checking Tokyo Share House (0 URLs)...
+
+Checking Crown Relocations JP (0 URLs)...
+
+Checking Asian Tigers Japan (0 URLs)...
+
+Checking Wise Blog JP (0 URLs)...
+
+Checking Vivre Au Japon (80 URLs)...
+
+Checking Japon Online (0 URLs)...
+
+Checking Modern Living Tokyo (0 URLs)...
+
+Checking Tokyo Furnished (0 URLs)...
+
+CSV manuel: C:\Users\alegu\Desktop\tokyo-expat\scripts\data\dead_pages_manual_check_2026-08-17.csv
+
+RESULTATS: 657 vérifiées, 11 nouvelles mortes
+[ 6:52:38.80] [6/19] Outreach tracker digest... 
+
+============================================================
+OUTREACH TRACKER — 2026-08-17
+============================================================
+Total: 76 | A contacter: 27 | Emails: 8 | Réponses: 0 | Liens: 0
+
+Cibles cette semaine:
+  -> expat.com (directory_t1, DA:60) — Soumettre tokyo-expat.com dans annuaire expat Japan + publier guide da...
+  -> frjournal.com (media_fr, DA:35) — Article sur logement Tokyo pour francophones: guide pratique, quartier...
+  -> isij.com (language_school, DA:30) — Lien dans section 'Life in Japan' ou 'Accommodation' pour etudiants...
+  -> www.sakura-house.com (broken_link, DA:0) — Remplacer lien mort vers https://www.sakura-house.com/thai/search/ par...
+  -> www.oakhouse.jp (broken_link, DA:0) — Remplacer lien mort vers https://www.oakhouse.jp/interview_houjin/4 pa...
+
+Email template: python scripts/outreach_tracker.py --email DOMAIN
+Mise à jour: python scripts/outreach_tracker.py --update DOMAIN emailed
+[ 6:52:40.14] [7/19] Vulnerability detector... 
+
+============================================================
+VULNERABILITY DETECTOR - 2026-08-17
+============================================================
+
+Comparaison : 2026-08-10 -> 2026-08-17 (7j d'ecart)
+
+VULNERABILITY: remoters.io | 'logement tokyo expatrie' | #13 -> #OUT (chute 20)
+VULNERABILITY: remoters.io | 'property hunter tokyo' | #9 -> #OUT (chute 20)
+VULNERABILITY: sakura-house.com | 'trouver appartement tokyo etranger' | #1 -> #8 (chute 7)
+VULNERABILITY: gaijinpot.com | 'appartement meuble tokyo expatrie' | #7 -> #OUT (chute 20)
+VULNERABILITY: oakhouse.jp | 'logement etudiant tokyo' | #7 -> #OUT (chute 20)
+VULNERABILITY: oakhouse.jp | 'gaijin house tokyo' | #4 -> #10 (chute 6)
+
+6 vulnerabilites sauvegardees -> C:\Users\alegu\Desktop\tokyo-expat\scripts\data\vulnerabilities.json
+Telegram envoye.
+[ 6:52:41.41] [8/19] Google Trends... 
+
+============================================================
+GOOGLE TRENDS EARLY WARNING - 2026-08-17
+============================================================
+
+Groupe 1/4: tokyo apartment rent, move to japan, japan expat housing...
+  [WARN] pytrends error: The request failed: Google returned a response with code 400
+  [WARN] pytrends error: The request failed: Google returned a response with code 400
+Groupe 2/4: share house tokyo, japan visa work, tokyo foreigner rent...
+  [WARN] pytrends error: The request failed: Google returned a response with code 400
+  [WARN] pytrends error: The request failed: Google returned a response with code 400
+Groupe 3/4: tokyo housing cost 2026, tokyo expat cost of living, find apartment tokyo...
+  [WARN] pytrends error: The request failed: Google returned a response with code 400
+  [WARN] pytrends error: The request failed: Google returned a response with code 400
+Groupe 4/4: logement tokyo, appartement tokyo expatrie, s installer au japon...
+  [WARN] pytrends error: The request failed: Google returned a response with code 400
+  [WARN] pytrends error: The request failed: Google returned a response with code 400
+
+Historique sauvegarde (0 entrees)
+Aucun spike detecte cette semaine.
+[ 6:54:56.76] [9/19] Review scraper... 
+
+============================================================
+REVIEW SCRAPER - 2026-08-17
+============================================================
+
+
+--- Remoters ---
+  Searching: remoters housing japan review problems...
+  Searching: remoters.io housing complaint reddit...
+  Searching: remoters tokyo housing scam review...
+  Searching: site:reddit.com remoters japan housing...
+  30 resultats | 2 plaintes | 14 Reddit threads
+  Top issues: scam, sale, bad, problem, worst
+
+--- Sakura House ---
+  Searching: sakura house tokyo review bad reddit...
+  Searching: sakura house japan complaints problems...
+  Searching: sakura house overcrowded noisy review...
+  Searching: site:reddit.com sakura-house review...
+  28 resultats | 11 plaintes | 12 Reddit threads
+  Top issues: overcrowded, noisy, small, problem, complaint
+
+--- Oak House ---
+  Searching: oak house japan review reddit problems...
+  Searching: oakhouse.jp complaint review 2024 2025...
+  Searching: oak house tokyo hidden fees problems...
+  23 resultats | 0 plaintes | 2 Reddit threads
+  Top issues: problem, small, fee, sale
+
+--- GaijinPot ---
+  Searching: gaijinpot housing review problems reddit...
+  Searching: gaijinpot housing scam complaint japan...
+  Searching: housing.gaijinpot.com review bad experience...
+  19 resultats | 3 plaintes | 2 Reddit threads
+  Top issues: scam, fee, bad, complaint, fraud
+
+Sauvegarde -> C:\Users\alegu\Desktop\tokyo-expat\scripts\data\competitor_reviews.json
+Telegram envoye.
+[ 6:56:33.73] [10/19] Seasonal calendar... 
+
+============================================================
+SEASONAL CALENDAR - 2026-08-17
+============================================================
+
+Regle : publier 7 semaines AVANT le pic
+
+2026-09-01 | Rentree universitaire          | Publier avant: 2026-07-14 [PUBLIER MAINTENANT - 15j restants avant pic]
+   Article : Trouver un appartement a Tokyo en septembre : ce qui change vs le prin
+
+2026-10-01 | Pic Q4 expats                  | Publier avant: 2026-08-13 [PUBLIER MAINTENANT - 45j restants avant pic]
+   Article : Appartement meuble Tokyo : les 5 meilleures options pour expatries arr
+
+2026-12-15 | Planification Noel/Nouvel An   | Publier avant: 2026-10-27 [dans 120j]
+   Article : Mon guide complet pour s'expatrier a Tokyo : tout ce que j'aurais voul
+
+2027-02-01 | Annonces affectations pro      | Publier avant: 2026-12-14 [dans 168j]
+   Article : Guide complet : trouver un logement a Tokyo en 2 semaines (pour une mu
+
+2027-03-15 | Pic demenagement Mars          | Publier avant: 2027-01-25 [dans 210j]
+   Article : Checklist demenagement Tokyo : J-30 a J+7 (tout ce qu'il faut preparer
+
+2027-04-01 | Debut annee fiscale            | Publier avant: 2027-02-11 [dans 227j]
+   Article : S'installer a Tokyo en avril : guide pratique semaine par semaine
+
+2027-07-15 | Pre-rentree universitaire      | Publier avant: 2027-05-27 [dans 332j]
+   Article : Logement etudiant a Tokyo pour octobre : share house vs dortoir univer
+
+[SKIP] Article deja publie : Trouver un appartement a Tokyo en septembre : ce qui change 
+[SKIP] Article deja publie : Appartement meuble Tokyo : les 5 meilleures options pour exp
+Aucun article saisonnier a ecrire (tout couvert ou hors fenetre). PAS d'alerte Telegram.
+
+ARTICLES URGENTS A ECRIRE :
+  - Trouver un appartement a Tokyo en septembre : ce qui change vs le printemps
+  - Appartement meuble Tokyo : les 5 meilleures options pour expatries arrives rapidement
+[ 6:56:34.15] [11/19] Proactive analysis... 
+
+============================================================
+ANALYSE PROACTIVE COMPLETE - 2026-08-17
+============================================================
+
+Donnees chargees:
+  Gaps        : OK
+  Keywords    : OK
+  Pricing     : OK
+  Competitors : OK
+  Vulns       : OK
+  Saison      : OK
+
+Envoi rapport Telegram (3 messages)...
+Rapport proactif envoye.
+[ 6:56:37.64] [12/19] Expat.com autoposter... 
+Aucun article à poster sur Expat.com.
+[ 6:56:37.95] [13/19] Expat.com replier (draft)... 
+[DRY-RUN] Mode draft actif -- aucune reponse ne sera soumise.
+Login OK
+Topics trouves: 149
+[DRY-RUN] 2 drafts envoyes sur Telegram. Aucune soumission.
+[ 6:57:20.45] [14/19] Expat.com link checker... 
+Login OK
+Threads trouves: 10
+Liens approuves: 0
+Liens en attente: 0
+[ 6:58:17.98] [15/19] Social sharing digest... 
+Digest envoyé pour 2 article(s).
+[ 6:58:19.37] [16/19] Competitor radar... 
+
+============================================================
+COMPETITOR RADAR -- 2026-08-17
+============================================================
+
+Domaines vus cette semaine dans les SERP : 6
+Domaines deja connus : 14
+Aucun nouveau concurrent.
+[ 6:58:20.84] [17/19] Influencer finder... 
+
+============================================================
+INFLUENCER FINDER -- 2026-08-17
+============================================================
+
+Recherche d'influenceurs pertinents...
+  Searching: moved to japan vlog site:youtube.com...
+  Searching: tokyo apartment hunting vlog 2024 2025...
+  Searching: expat in japan housing guide youtube...
+  Searching: living in tokyo foreigner youtube channel...
+  Searching: japan relocation vlog moving tips...
+  Searching: tokyo expat blog housing...
+  Searching: japan expat instagram housing...
+  Searching: find apartment tokyo vlog english...
+  Searching: japanlife expat housing instagram blog...
+  Searching: france japon expatrie blog logement...
+
+43 resultats scores >= 30
+
+Telegram envoye. 22 nouveaux influenceurs.
+[ 6:59:19.66] [18/22] Facebook Buffer poster... 
+[FB] Post trop recent (2026-08-13). Skip.
+[LI] Post trop recent (2026-08-13). Skip.
+[ 6:59:20.53] [19/22] Email reply monitor... 
+
+============================================================
+EMAIL REPLY MONITOR - 2026-08-17
+Compte: info.tokyoinsights@gmail.com
+============================================================
+
+Contacts en attente de reponse : 8
+[OK] Connexion Gmail IMAP
+Emails des 30 derniers jours : 27
+Nouveaux a analyser : 0
+
+============================================================
+RESULTAT: 0 bounces, 0 reponses
+Aucun bounce ni reponse detecte.
+[ 6:59:28.62] [20/22] Email sender outreach... 
+[HUNTER] redaction@frjournal.com -> status=invalid score=0
+[HUNTER] Email invalide et pas d'alternative. Skip frjournal.com.
+[HUNTER] info@isij.com -> status=invalid score=0
+[HUNTER] Email invalide et pas d'alternative. Skip isij.com.
+[ 6:59:35.93] [21/22] LinkedIn Buffer poster... 
+[LI] Post trop recent (2026-08-13). Skip.
+[ 6:59:37.16] [22/30] Content velocity tracker... 
+
+============================================================
+CONTENT VELOCITY TRACKER - 2026-08-17
+============================================================
+
+Asian Tigers Japan: 0 total, +0 cette semaine (moy: 0.0/sem)
+City Cost: 0 total, +0 cette semaine (moy: 0.0/sem)
+Crown Relocations JP: 0 total, +0 cette semaine (moy: 0.0/sem)
+Fontaine Relocation: 0 total, +0 cette semaine (moy: 0.0/sem)
+Gaijin House: 0 total, +0 cette semaine (moy: 0.0/sem)
+GaijinPot Blog: 4580 total, +3 cette semaine (moy: 1.2/sem)
+  !! ACCELERATION DETECTEE (x2.6)
+GaijinPot Housing: 0 total, +0 cette semaine (moy: 0.0/sem)
+Japan Guide: 0 total, +0 cette semaine (moy: 0.0/sem)
+Japan Insiders: 17 total, +0 cette semaine (moy: 0.0/sem)
+Japan Property Central: 0 total, +0 cette semaine (moy: 0.0/sem)
+Japan Today: 0 total, +0 cette semaine (moy: 0.0/sem)
+Japon Online: 0 total, +0 cette semaine (moy: 0.0/sem)
+Modern Living Tokyo: 0 total, +0 cette semaine (moy: 0.0/sem)
+Oak House: 5187 total, +4 cette semaine (moy: 10.5/sem)
+Remoters: 6435 total, +4 cette semaine (moy: 4.0/sem)
+Sakura House: 970 total, +0 cette semaine (moy: 0.0/sem)
+Savvy Tokyo: 8701 total, +0 cette semaine (moy: 0.7/sem)
+Time Out Tokyo: 0 total, +0 cette semaine (moy: 0.0/sem)
+Tofugu: 1910 total, +0 cette semaine (moy: 0.0/sem)
+Tokyo Cheapo: 6824 total, +0 cette semaine (moy: 9.3/sem)
+Tokyo Furnished: 0 total, +0 cette semaine (moy: 0.0/sem)
+Tokyo Share House: 0 total, +0 cette semaine (moy: 0.0/sem)
+Vivre Au Japon: 197 total, +4 cette semaine (moy: 1.5/sem)
+  !! ACCELERATION DETECTEE (x2.7)
+Wise Blog JP: 0 total, +0 cette semaine (moy: 0.0/sem)
+
+2 alertes d'acceleration envoyees
+[ 6:59:40.22] [23/30] Competitor jobs monitor... 
+
+============================================================
+COMPETITOR JOBS MONITOR - 2026-08-17
+============================================================
+
+Scanning jobs for Sakura House...
+  0 offres trouvees
+Scanning jobs for Oak House...
+  0 offres trouvees
+Scanning jobs for GaijinPot...
+  0 offres trouvees
+Scanning jobs for Remoters...
+  0 offres trouvees
+Scanning jobs for Fontaine...
+  0 offres trouvees
+Scanning jobs for Crown Relo JP...
+  0 offres trouvees
+Scanning jobs for Asian Tigers JP...
+  0 offres trouvees
+
+Aucun nouveau signal emploi detecte
+[ 6:59:56.36] [24/30] Review monitor... 
+
+============================================================
+REVIEW MONITOR - 2026-08-17
+============================================================
+
+Scanning reviews for Sakura House...
+  0 avis trouves
+Scanning reviews for Oak House...
+  0 avis trouves
+Scanning reviews for GaijinPot Housing...
+  0 avis trouves
+Scanning reviews for Remoters...
+  0 avis trouves
+Scanning reviews for Fontaine Relocation...
+  0 avis trouves
+Scanning reviews for Crown Relocations Japan...
+  0 avis trouves
+
+Aucune nouvelle mauvaise review detectee
+[ 7:00:05.70] [25a] IndexNow submit... 
+Cle: d45d1e81... | 186 URLs a soumettre a IndexNow
+IndexNow reponse: HTTP 200
+✅ 186 URLs soumises avec succes.
+[ 7:00:07.44] [25b] GSC Analytics reporter... 
+GSC Analytics Reporter starting...
+  using property: sc-domain:tokyo-expat.com
+Saved to C:\Users\alegu\Desktop\tokyo-expat\scripts\data\gsc_latest.json
+Telegram sent.
+[ 7:00:10.45] [26/29] GA4 Analytics reporter... 
+GA4 Analytics Reporter starting...
+Saved to C:\Users\alegu\Desktop\tokyo-expat\scripts\data\ga4_latest.json
+Telegram sent.
+[ 7:00:16.40] [27/29] Monday briefing consolide... 
+
+============================================================
+MONDAY BRIEFING -- 2026-08-17
+============================================================
+
+<b>LUNDI BRIEFING</b> — 17 Aug 2026
+Tes priorites de la semaine :
+
+<b>Analytics (2026-08-10 to 2026-08-17):</b>
+   Sessions: 259 (-1%) DOWN | Users: 222 (+0%) | Pages vues: 317
+   Top pages: tokyo-expat-cost-of-living-2026(26) | en(24) | data(21)
+   Newsletter signups: 4
+
+🔴 <b>1. ARTICLE URGENT <b>OVERDUE</b></b> (deadline depassee de 34j)
+   Trouver un appartement Tokyo en septembre
+🔴 <b>2. ARTICLE URGENT <b>OVERDUE</b></b> (deadline depassee de 4j)
+   Appartement meuble Tokyo pour expatries arrives rapidement
+📧 <b>3. OUTREACH — 2-3 emails cette semaine</b>
+   Cibles : Expat.com Japan, FR Journal (Journal Français du Japon), ISI Language School
+   <i>python scripts/outreach_tracker.py --email DOMAIN</i>
+🔴 <b>4. BROKEN LINKS — 74 pages mortes repertoriees</b>
+   Ouvre Ahrefs (gratuit) pour chaque URL dans scripts/data/dead_pages_manual_check_*.csv
+   Identifie qui linke les pages mortes et envoie le pitch de remplacement.
+⚡ <b>5. VULN CONCURRENT</b> — remoters.io
+   Drop #13 -> #hors top 20 sur <i>logement tokyo expatrie</i>
+   Action : publier/booster notre article sur ce keyword maintenant.
+⚡ <b>6. VULN CONCURRENT</b> — remoters.io
+   Drop #9 -> #hors top 20 sur <i>property hunter tokyo</i>
+   Action : publier/booster notre article sur ce keyword maintenant.
+📝 <b>7. CONTENT GAP</b> via Tokyo Cheapo
+   Sujet : pet cost cat tokyo
+📝 <b>8. CONTENT GAP</b> via Tokyo Cheapo
+   Sujet : tokyo garden shops tips
+🎤 <b>9. INFLUENCEUR</b> [YouTube, 89/100]
+   MOVING IN JAPAN ALONE VLOG | packing, japanese mov
+   Pitch : <code>python scripts/influencer_finder.py --email https://www.youtube.com/watch?v=s16U-OTZwFA</code>
+   Envoyer le pitch personnellement (email direct, pas automatise).
+   Dismiss : <code>monday_briefing.py --dismiss-influencer "https://www.youtube.com/watch?v=s16U-OTZwFA"</code>
+🎤 <b>10. INFLUENCEUR</b> [YouTube, 89/100]
+   tokyo apartment hunting & makeover - YouTubeAPARTM
+   Pitch : <code>python scripts/influencer_finder.py --email https://www.youtube.com/watch?v=QOpulu9V3-U</code>
+   Envoyer le pitch personnellement (email direct, pas automatise).
+   Dismiss : <code>monday_briefing.py --dismiss-influencer "https://www.youtube.com/watch?v=QOpulu9V3-U"</code>
+🟢 <b>BUFFER QUEUE</b>
+   FB: 71/80 posts restants (~71 semaines)
+   LI: 71/80 posts restants
+   <i>Regenerer si < 5 restants : python scripts/generate_content_queue.py</i>
+
+<b>ACTIONS EN ATTENTE (non actionnees) :</b>
+💬 <b>Reddit</b> r/movingtojapan [2026-08-16]
+   Where do I find jobs in Okinawa? : r/movingtojapan - Reddit
+   <i>Dis a Claude 'aide-moi a repondre' pour le draft</i>
+💬 <b>Reddit</b> r/movingtojapan [2026-08-16]
+   How much would be bare minimum to move to Chiba for a ... - Reddit
+   <i>Dis a Claude 'aide-moi a repondre' pour le draft</i>
+
+<b>Commandes utiles :</b>
+• Email envoye : <code>python scripts/outreach_tracker.py --update DOMAIN emailed</code>
+• Email auto : <code>python scripts/email_sender.py --preview</code>
+• Dismiss article : <code>python scripts/monday_briefing.py --dismiss-seasonal "nom"</code>
+• Dismiss gap : <code>python scripts/monday_briefing.py --dismiss "topic"</code>
+• Dismiss vuln : <code>python scripts/monday_briefing.py --dismiss-vuln "comp:keyword"</code>
+• Dismiss threat : <code>python scripts/monday_briefing.py --dismiss-threat "domain"</code>
+• Dismiss influenceur : <code>python scripts/monday_briefing.py --dismiss-influencer "url"</code>
+• Quora done : <code>python scripts/monday_briefing.py --dismiss-quora "url"</code>
+
+Telegram envoye.
+[ 7:00:17.46] [28/29] Google Alerts monitor... 
+[INFO] Connexion Gmail IMAP...
+[INFO] 0 alertes Google non lues
+[OK] Aucune nouvelle alerte.
+[ 7:00:19.88] [29/30] Featured snippets attack... 
+
+============================================================
+FEATURED SNIPPETS ATTACK -- 2026-08-17
+============================================================
+
+  Checking: find apartment tokyo foreigner...
+    COMPETITOR pos 1: gaijinpot.com
+  Checking: share house tokyo expat 2026...
+  Checking: tokyo apartment no guarantor...
+  Checking: how much does it cost to rent in tokyo...
+    COMPETITOR pos 1: gaijinpot.com
+  Checking: moving to tokyo housing guide...
+  Checking: furnished apartment tokyo monthly...
+  Checking: share house tokyo price...
+    COMPETITOR pos 3: borderless-house.com
+  Checking: best neighborhoods tokyo expats...
+  Checking: japan guarantor foreigner rental...
+  Checking: student housing tokyo university...
+  Checking: cost of living tokyo expat 2026...
+  Checking: tokyo apartment foreigner documents...
+    COMPETITOR pos 1: tokyocheapo.com
+  Checking: gaijin house tokyo guide...
+  Checking: trouver appartement tokyo etranger...
+  Checking: chasseur immobilier tokyo...
+  Checking: tokyo expat housing options...
+  Checking: moving to japan checklist 2026...
+  Checking: short term apartment tokyo...
+
+4 opportunites d'attaque trouvees
+
+Telegram envoye.
+[ 7:02:10.28] [30/30] Backup .env chiffre OneDrive... 
+[OK] Backup : .env.20260817_070210.enc (2552 bytes)
+[INFO] 8 backup(s) disponibles dans C:\Users\alegu\OneDrive\Documents\tokyo-expat-backups
+[ 7:02:10.52] Weekly intelligence complete. 
