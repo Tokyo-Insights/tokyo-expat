@@ -11666,6 +11666,15 @@ How much does it really cost to rent in Tokyo? Most guides give vague ranges. Th
 
 **Quick answer:** In 2026, a 1K studio in Tokyo runs from a median of ¥74,000 in Edogawa (the cheapest ward) to ¥140,000 in Minato (the priciest), an 89% gap. A 1LDK (for a couple) ranges from ¥118,000 in Katsushika to ¥260,000 in Minato. The full breakdown by ward and layout is in our [Tokyo Rent Index](/data).
 
+**Rent by housing option (Tokyo, 2026):** what you pay depends as much on the type of housing as the location. The upfront cost and whether you need a guarantor matter just as much as the monthly rent.
+
+| Housing option | Typical monthly rent | Upfront cost | Guarantor |
+| --- | --- | --- | --- |
+| Share house room | ¥40,000 to ¥70,000 | About 1 month, no key money | No |
+| 1K studio, standard lease | Around ¥96,000 (median) | About 5 months of rent | Yes |
+| Furnished / monthly 1K | ¥115,000 to ¥190,000 | About 1 to 1.5 months | No |
+| 1LDK for a couple | Around ¥174,000 (median) | About 5 months of rent | Yes |
+| UR public rental | Market rent | About 3 months, no key money | No |
 
 ![The cheapest Tokyo ward depends on your household: single, couple or family](/tokyo-household-flip-en.png "Single: Edogawa, couple: Katsushika, family: Adachi. Not the same ward.")
 ## How we built this
