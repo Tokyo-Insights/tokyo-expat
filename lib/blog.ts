@@ -13335,10 +13335,97 @@ Le piege, c'est que les meilleurs meubles sont detenus par un petit cercle d'ope
 *Les couts sont des fourchettes de marche 2026 typiques pour le meuble a Tokyo. Les chiffres du vide viennent de notre Indice des loyers.*
     `.trim(),
   },
+  {
+    slug: 'pet-friendly-apartments-tokyo',
+    locale: 'en',
+    title: 'Pet-Friendly Apartments in Tokyo: A Guide for Foreigners (2026)',
+    description: 'Finding a pet-friendly (ペット可) apartment in Tokyo as a foreigner is hard: few listings, bigger deposits, size and breed limits. How to find one and get approved.',
+    date: '2026-08-16',
+    readingTime: '7 min',
+    content: `
+Bringing a cat or a dog to Tokyo, or adopting one after you arrive, quietly doubles the difficulty of an already hard rental market. Pet-friendly apartments exist, but they are a small slice of the market, and foreigners face the housing barrier on top of the pet barrier. Here is exactly how it works and how to get approved.
+
+**Quick answer:** Only a minority of Tokyo rentals are pet-friendly (ペット可 or ペット相談), and they usually cost more: a larger deposit (often one to two extra months, sometimes non-refundable), stricter rules on size, breed and number of animals, and a smaller pool of buildings. As a foreigner you also face the usual guarantor and language hurdles. The realistic path is to filter for genuinely pet-friendly listings, prepare a strong application, and use furnished or share options that already accept pets.
+
+## Why pet-friendly apartments are scarce in Tokyo
+Japanese landlords worry about noise, smells, scratched floors and tatami, and cleaning costs at move-out. Many buildings ban animals outright to avoid the risk, so pet-friendly stock is concentrated in newer buildings and specific operators, and it disappears fast. Layer on the fact that many landlords already hesitate to rent to foreigners (see [why Japanese landlords reject foreign tenants](/en/blog/why-japanese-landlords-reject-foreigners)), and you are searching in a doubly narrow slice of the market.
+
+## What "pet-friendly" actually means: ペット可 vs ペット相談
+Two terms matter. **ペット可 (petto ka)** means pets are allowed, usually within limits (often one small dog or one cat, under a set weight). **ペット相談 (petto sodan)** means "pets negotiable": the landlord will consider it case by case. That is not a yes. Approval depends on your animal, your application and often an extra deposit. Never assume a listing that looks pet-tolerant will accept your specific animal: a large dog, two cats, or an exotic pet narrows your options dramatically.
+
+## The real costs of renting with a pet
+Budget for more than a standard move-in, which already runs around five months of rent up front (see our [move-in cost breakdown](/en/blog/tokyo-apartment-move-in-costs)):
+- **Higher deposit.** Expect one to two extra months, and part of it may be non-refundable to cover cleaning and wear.
+- **Restoration at move-out.** Scratches, odours and tatami replacement are commonly billed to pet owners.
+- **Rules.** Weight and breed limits, a cap on the number of animals, and sometimes a requirement to register the pet with the building.
+
+Confirm every number in writing before you sign. This is exactly the kind of clause worth checking against your [rental contract](/en/blog/tokyo-rental-contract-checklist).
+
+## How to find one and get approved as a foreigner
+1. **Filter properly.** Search specifically for ペット可, not just ペット相談, and confirm the exact species, size and count allowed.
+2. **Use routes that already accept pets.** Some furnished and monthly options, and a subset of share houses, are pet-friendly from the start and skip the guarantor problem. See our guides to [expat apartments in Tokyo](/en/blog/expat-apartments-tokyo) and [renting with no guarantor](/en/blog/furnished-apartment-tokyo-no-guarantor).
+3. **Strengthen your application.** A stable income, a guarantor company that accepts pets, a short "pet resume" (breed, weight, vaccination and neutering records) and a calm first impression all help a hesitant landlord say yes.
+4. **Get bilingual help.** Many pet-friendly units never reach the big foreigner-facing portals. A local, bilingual search reaches the operators who hold them.
+
+## Checklist before you commit
+- Is it ペット可 (allowed) or only ペット相談 (negotiable)?
+- Exact limits: species, weight, number of animals?
+- Extra deposit, and how much is refundable?
+- Move-out restoration terms, in writing?
+- Does the guarantor company accept pets?
+
+Finding a home in Tokyo with a pet is harder, but it is very doable with the right listings and a strong application. If you would rather have someone inside the market shortlist genuinely pet-friendly places and handle the approval for you, [tell us what you need](/en/contact) and we will find the right fit for you and your animal.
+
+*See also: [How to Find an Apartment in Tokyo as a Foreigner (2026 Guide)](/en/blog/find-apartment-tokyo-foreigner), [Furnished Apartments in Tokyo With No Guarantor Required (2026)](/en/blog/furnished-apartment-tokyo-no-guarantor), [Gaijin House Tokyo: Complete Guide for Foreigners (2026)](/en/blog/gaijin-house-tokyo-guide).*`.trim(),
+  },
+  {
+    slug: 'appartement-animaux-tokyo',
+    locale: 'fr',
+    title: 'Appartement qui Accepte les Animaux à Tokyo (2026)',
+    description: 'Louer un appartement qui accepte les animaux (ペット可) à Tokyo quand on est étranger est difficile : peu de biens, dépôt majoré, limites de taille. Voici comment faire.',
+    date: '2026-08-16',
+    readingTime: '7 min',
+    content: `
+Venir à Tokyo avec un chat ou un chien, ou en adopter un une fois sur place, double discrètement la difficulté d'un marché locatif déjà compliqué. Les logements qui acceptent les animaux existent, mais ils ne représentent qu'une petite part du marché, et les étrangers cumulent la barrière du logement avec celle de l'animal. Voici comment ça marche et comment se faire accepter.
+
+**Réponse rapide :** seule une minorité de locations à Tokyo acceptent les animaux (ペット可 ou ペット相談), et elles coûtent généralement plus cher : dépôt majoré (souvent un à deux mois de plus, parfois non remboursable), règles strictes sur la taille, la race et le nombre d'animaux, et un parc de bâtiments réduit. En tant qu'étranger, vous affrontez aussi le garant et la langue. La bonne approche : filtrer sur des biens réellement ペット可, préparer un dossier solide, et viser les options meublées ou en colocation qui acceptent déjà les animaux.
+
+## Pourquoi c'est rare à Tokyo
+Les propriétaires japonais craignent le bruit, les odeurs, les sols et tatamis abîmés, et les frais de nettoyage au départ. Beaucoup d'immeubles interdisent donc purement et simplement les animaux. Le parc ペット可 est concentré dans des bâtiments récents et chez certains opérateurs, et il part vite. Ajoutez le fait que de nombreux propriétaires hésitent déjà à louer aux étrangers, et vous cherchez dans une part doublement étroite du marché.
+
+## ペット可 ou ペット相談 : la nuance qui compte
+Deux termes à connaître. **ペット可 (petto ka)** signifie que les animaux sont autorisés, souvent dans certaines limites (un petit chien ou un chat, sous un certain poids). **ペット相談 (petto sodan)** signifie "animaux négociables" : le propriétaire étudie au cas par cas. Ce n'est pas un oui. L'accord dépend de votre animal, de votre dossier et souvent d'un dépôt supplémentaire. Ne supposez jamais qu'une annonce "tolérante" acceptera votre animal précis : un grand chien, deux chats ou un animal exotique réduisent fortement vos options.
+
+## Le vrai coût d'une location avec animal
+Prévoyez plus qu'un emménagement standard, déjà autour de cinq mois de loyer d'avance :
+- **Dépôt majoré.** Comptez un à deux mois de plus, dont une partie peut être non remboursable (nettoyage et usure).
+- **Remise en état au départ.** Griffures, odeurs et remplacement des tatamis sont souvent facturés aux propriétaires d'animaux.
+- **Règles.** Limites de poids et de race, plafond sur le nombre d'animaux, parfois obligation de déclarer l'animal auprès de l'immeuble.
+
+Faites confirmer chaque montant par écrit avant de signer.
+
+## Comment en trouver un et se faire accepter (étranger)
+1. **Filtrer correctement.** Cherchez spécifiquement ペット可, pas seulement ペット相談, et confirmez l'espèce, la taille et le nombre autorisés.
+2. **Viser les voies déjà ouvertes aux animaux.** Certaines options meublées ou au mois, et une partie des share houses, acceptent les animaux d'emblée et évitent le garant. Voyez notre [classement des quartiers les moins chers](/fr/blog/quartiers-tokyo-moins-chers-classement-loyers) et notre [guide des gaijin houses](/fr/blog/gaijin-house-tokyo-guide-complet).
+3. **Renforcer le dossier.** Un revenu stable, une société de garantie qui accepte les animaux, un court "CV de l'animal" (race, poids, vaccins, stérilisation) et une première impression calme aident un propriétaire hésitant à dire oui.
+4. **Se faire aider en bilingue.** Beaucoup de biens ペット可 n'arrivent jamais sur les grands portails destinés aux étrangers. Une recherche locale et bilingue atteint les opérateurs qui les détiennent.
+
+## Checklist avant de signer
+- Est-ce ペット可 (autorisé) ou seulement ペット相談 (négociable) ?
+- Limites exactes : espèce, poids, nombre d'animaux ?
+- Dépôt supplémentaire, et quelle part est remboursable ?
+- Conditions de remise en état, par écrit ?
+- La société de garantie accepte-t-elle les animaux ?
+
+Trouver un logement à Tokyo avec un animal est plus dur, mais tout à fait faisable avec les bonnes annonces et un dossier solide. Si vous préférez qu'un insider du marché sélectionne des biens réellement ペット可 et gère l'accord à votre place, [dites-nous ce qu'il vous faut](/fr/contact) et nous trouverons la solution qui convient à vous et à votre animal.
+
+*Voir aussi : [Types d'appartements japonais expliqués](/fr/blog/types-appartements-japonais-expliques), [Gaijin House à Tokyo : le guide complet](/fr/blog/gaijin-house-tokyo-guide-complet).*`.trim(),
+  },
 ]
 
 // Mapping FR slug -> EN slug (articles jumeaux pour hreflang)
 export const TWIN_SLUGS: Record<string, string> = {
+  'appartement-animaux-tokyo':                   'pet-friendly-apartments-tokyo',
   'trouver-appartement-tokyo-etranger':          'find-apartment-tokyo-foreigner',
   'share-house-tokyo-guide-complet':             'share-house-tokyo-guide-2026',
   'cout-vie-tokyo-expatrie-2026':                'tokyo-expat-cost-of-living-2026',
