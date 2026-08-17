@@ -9,6 +9,7 @@ import LeadMagnetForm from '@/components/LeadMagnetForm'
 import EmbedMap from '@/components/EmbedMap'
 import LazyVideo from '@/components/LazyVideo'
 import RentMap from '@/components/RentMap'
+import CtaConsultation from '@/components/CtaConsultation'
 
 export async function generateMetadata({
   params,
@@ -589,6 +590,8 @@ export default async function DataPage({
         </div>
       </section>
 
+      <CtaConsultation locale={l} />
+
       {/* Price trends (historical) */}
       <section className="mb-14">
         <h2 className="text-2xl font-bold text-[#0f2744] mb-2">
@@ -715,6 +718,8 @@ export default async function DataPage({
           ))}
         </div>
       </section>
+
+      <CtaConsultation locale={l} />
 
       {/* Furnished premium */}
       <section className="mb-14">
@@ -850,6 +855,8 @@ export default async function DataPage({
           ))}
         </div>
       </section>
+
+      <CtaConsultation locale={l} />
 
       {/* Seasonality */}
       <section className="mb-14">
