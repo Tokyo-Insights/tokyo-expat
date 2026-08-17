@@ -24,6 +24,17 @@ def load(name):
     except Exception: return None
 
 
+def send_telegram(msg):
+    try:
+        from config import TELEGRAM_TOKEN, TELEGRAM_CHAT_ID
+        r = requests.post(f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage",
+                          json={"chat_id": TELEGRAM_CHAT_ID, "text": msg, "parse_mode": "HTML",
+                                "disable_web_page_preview": True}, verify=False, timeout=30)
+        return r.status_code == 200
+    except Exception as e:
+        print("Telegram KO:", e); return False
+
+
 # ---------- GA4 live: attribution des leads (le pont vers les clients) ----------
 def ga4_leads():
     try:
@@ -563,6 +574,19 @@ def build():
             "vuln": vpairs, "callout": callout,
         })
         print(f"[Ecrit: {HTML_OUT}]")
+        if "--telegram" in sys.argv:
+            tp = ", ".join(f"#{p} {kw}" for kw, lg, p in kp if p <= 2)
+            dg = (f"📊 <b>RAPPORT HEBDO</b> — tokyo-expat — {dt.date.today().isoformat()}\n\n"
+                  f"Trafic <b>{(ga4 or {}).get('this_week',{}).get('sessions','?')}</b> sess · "
+                  f"<b>{leads.get('total','?') if isinstance(leads,dict) else '?'}</b> leads (surtout SEO)\n"
+                  f"Visibilite {impr} impr · pos moy {t.get('position',0) or 0:.1f}\n\n"
+                  f"🎯 <b>Action n1 :</b> {callout}\n\n"
+                  f"🔻 Entonnoir : {fn.get('form_start',0)} form → {fn.get('generate_lead',0)} lead → "
+                  f"{fn.get('select_consultation',0)} consult → {fn.get('book_call_click',0)} appel\n"
+                  f"🏅 {len(kp)} keywords rankes · {tp[:110]}\n\n"
+                  f"Rapport complet (16 sections) + dashboard HTML generes. Dis-moi 'rapport' pour le voir.")
+            if send_telegram(dg):
+                print("[Telegram digest envoye]")
     except Exception as e:
         print("WARN HTML dashboard KO:", e)
 
