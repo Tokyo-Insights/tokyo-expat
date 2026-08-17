@@ -98,6 +98,62 @@ def snapshot_and_trend(ga4, gsc, leads):
     return cur, prev
 
 
+# ---------- Helper GA4 generique ----------
+def _ga4(dims, metrics, ranges, ev=None, limit=50):
+    try:
+        from ga4_analytics import get_access_token, GA4_API_URL
+        tok = get_access_token()
+        body = {"dateRanges": ranges, "dimensions": [{"name": d} for d in dims],
+                "metrics": [{"name": m} for m in metrics], "limit": limit}
+        if ev:
+            body["dimensionFilter"] = {"filter": {"fieldName": "eventName", "stringFilter": {"value": ev}}}
+        r = requests.post(GA4_API_URL, headers={"Authorization": f"Bearer {tok}"}, json=body,
+                          verify=False, timeout=60).json()
+        return r.get("rows", [])
+    except Exception:
+        return []
+
+
+# ---------- Dimension 1: CONTENT DECAY (pages qui declinent) ----------
+def ga4_decay():
+    def pages(rng):
+        return {r["dimensionValues"][0]["value"]: int(r["metricValues"][0]["value"])
+                for r in _ga4(["landingPagePlusQueryString"], ["sessions"], [rng])}
+    cur = pages({"startDate": "28daysAgo", "endDate": "today"})
+    prev = pages({"startDate": "56daysAgo", "endDate": "29daysAgo"})
+    out = []
+    for pg, p in prev.items():
+        c = cur.get(pg, 0)
+        if p >= 20 and c < p * 0.7:   # avait >=20 sessions, a chute de >30%
+            out.append((p - c, p, c, pg))
+    return sorted(out, reverse=True)[:6]
+
+
+# ---------- Dimension 2: ENGAGEMENT (pages qui retiennent vs perdent) ----------
+def ga4_engagement():
+    rows = _ga4(["landingPagePlusQueryString"], ["sessions", "engagementRate", "averageSessionDuration"],
+                [{"startDate": "28daysAgo", "endDate": "today"}])
+    out = []
+    for r in rows:
+        try:
+            s = int(r["metricValues"][0]["value"]); eng = float(r["metricValues"][1]["value"])
+            dur = float(r["metricValues"][2]["value"])
+            if s >= 15:
+                out.append((s, eng, dur, r["dimensionValues"][0]["value"]))
+        except Exception:
+            pass
+    return out
+
+
+# ---------- Dimension 3: ENTONNOIR DE CONVERSION ----------
+def ga4_funnel():
+    res = {}
+    for ev in ["form_start", "generate_lead", "select_consultation", "book_call_click"]:
+        rows = _ga4(["eventName"], ["eventCount"], [{"startDate": "90daysAgo", "endDate": "today"}], ev=ev, limit=1)
+        res[ev] = int(rows[0]["metricValues"][0]["value"]) if rows else 0
+    return res
+
+
 def build():
     ga4, gsc, vuln, gaps = load("ga4_latest.json"), load("gsc_latest.json"), load("vulnerabilities.json"), load("content_gaps.json")
     leads = ga4_leads()
@@ -181,6 +237,44 @@ def build():
                 L.append(f"  - _{kw}_ : impr {'+' if di>=0 else ''}{di}, pos {pos:.1f} ({'monte' if dp > 0 else 'stable'})")
     else:
         L.append("_(1er snapshot enregistre — les tendances apparaitront a la prochaine execution)_")
+    L.append("")
+
+    # B4. CONTENT DECAY (pages qui declinent -> rafraichir avant qu'elles meurent)
+    L.append("## 📉 CONTENT DECAY (pages en declin — a rafraichir)")
+    dec = ga4_decay()
+    if dec:
+        for drop, p, c, pg in dec:
+            L.append(f"  - **-{drop}** sessions ({p} -> {c}, 28j vs 28j prec.) | {pg}")
+    else:
+        L.append("_(aucune chute significative)_")
+    L.append("")
+
+    # B5. ENGAGEMENT (pages qui retiennent vs perdent l'attention)
+    L.append("## 🧲 ENGAGEMENT PAR PAGE")
+    eng = ga4_engagement()
+    if eng:
+        low = sorted([x for x in eng if x[1] < 0.45], reverse=True)[:6]
+        if low:
+            L.append("**Fort trafic, FAIBLE engagement (contenu a ameliorer) :**")
+            for s, e, d, pg in low:
+                L.append(f"  - {s} sess · engagement {e*100:.0f}% · {d:.0f}s | {pg}")
+        best = sorted([x for x in eng if x[1] >= 0.6], reverse=True)[:4]
+        if best:
+            L.append("**Retiennent le mieux (modeles a suivre) :**")
+            for s, e, d, pg in best:
+                L.append(f"  - {s} sess · engagement {e*100:.0f}% · {d:.0f}s | {pg}")
+    else:
+        L.append("_(indisponible)_")
+    L.append("")
+
+    # B6. ENTONNOIR DE CONVERSION (90j)
+    L.append("## 🔻 ENTONNOIR DE CONVERSION (90j)")
+    fn = ga4_funnel()
+    fs, gl, sc, bc = fn.get("form_start", 0), fn.get("generate_lead", 0), fn.get("select_consultation", 0), fn.get("book_call_click", 0)
+    def rate(a, b): return f"{a/b*100:.0f}%" if b else "n/d"
+    L.append(f"  - Form start **{fs}** → Lead **{gl}** ({rate(gl, fs)}) → Consultation **{sc}** ({rate(sc, gl)}) → Appel reserve **{bc}** ({rate(bc, sc)})")
+    if gl and bc == 0:
+        L.append("  ⚠️ **Deperdition lead → appel** : des leads mais 0 appel reserve → renforcer le nurture / la prise de RDV.")
     L.append("")
 
     # C. TOP OPPORTUNITES (priorisees)
