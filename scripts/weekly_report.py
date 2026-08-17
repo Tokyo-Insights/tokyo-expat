@@ -6,7 +6,7 @@ Consolide: GA4 (trafic + LEADS attribues) + GSC (visibilite + striking distance)
 vulnerabilites concurrents + content gaps. Sortie: rapport markdown propre (scripts/data/)
 + digest Telegram concis. Lecture seule (aucune modif du site).
 """
-import sys, io, json, datetime as dt
+import sys, io, json, sqlite3, glob, datetime as dt
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import requests, urllib3
@@ -183,6 +183,40 @@ def ga4_funnel():
         rows = _ga4(["eventName"], ["eventCount"], [{"startDate": "90daysAgo", "endDate": "today"}], ev=ev, limit=1)
         res[ev] = int(rows[0]["metricValues"][0]["value"]) if rows else 0
     return res
+
+
+# ---------- Consolidation du LUNDI: nos positions / snippets / veille / pages mortes ----------
+def keyword_positions():
+    try:
+        c = sqlite3.connect(str(DATA / "keyword_rankings.db"))
+        last = c.execute("SELECT MAX(date) FROM rankings").fetchone()[0]
+        rows = c.execute("SELECT keyword, lang, position FROM rankings WHERE date=? AND "
+                         "domain LIKE '%tokyo-expat%' AND position>0 ORDER BY position", (last,)).fetchall()
+        c.close()
+        return rows
+    except Exception:
+        return []
+
+
+def featured_snippets():
+    return (load("featured_snippets_state.json") or {}).get("opportunities", [])
+
+
+def content_velocity():
+    cnt = (load("content_velocity.json") or {}).get("prev_week_counts", {})
+    return sorted([(v, k) for k, v in cnt.items() if v > 0], reverse=True)[:5]
+
+
+def dead_pages():
+    files = sorted(glob.glob(str(DATA / "dead_pages_manual_check_*.csv")))
+    if not files:
+        return 0, None
+    try:
+        with io.open(files[-1], encoding="utf-8") as f:
+            n = max(sum(1 for _ in f) - 1, 0)
+        return n, Path(files[-1]).name
+    except Exception:
+        return 0, None
 
 
 def build():
@@ -369,7 +403,39 @@ def build():
     else:
         L.append("_(aucune)_")
     L.append("")
-    L.append("---\n_Genere par weekly_report.py (lecture seule). Lancer le dimanche._")
+    # D. NOS POSITIONS (remplace le KEYWORD REPORT du lundi)
+    L.append("## 🏅 NOS POSITIONS (keywords ou on ranke)")
+    kp = keyword_positions()
+    if kp:
+        top = [r for r in kp if r[2] <= 3][:10]
+        L.append(f"**{len(kp)} keywords rankes** · le top 3 :")
+        for kw, lang, pos in top:
+            L.append(f"  - #{pos} · [{lang}] {kw}")
+    else:
+        L.append("_(indisponible)_")
+    L.append("")
+
+    # E. FEATURED SNIPPETS (a voler)
+    L.append("## 📦 FEATURED SNIPPETS (a voler aux concurrents)")
+    fss = featured_snippets()
+    if fss:
+        for s in fss[:5]:
+            L.append(f"  - _{s.get('keyword','?')}_ ({s.get('format','?')}) — {s.get('competitor','?')} pos {s.get('rank','?')}")
+    else:
+        L.append("_(aucun)_")
+    L.append("")
+
+    # F. VEILLE (content velocity + pages mortes)
+    L.append("## ⚡ VEILLE")
+    cv = content_velocity()
+    if cv:
+        L.append("**Masse de contenu concurrents (top) :** " + " · ".join(f"{k} {v}" for v, k in cv))
+    dp_n, dp_f = dead_pages()
+    if dp_n:
+        L.append(f"**Pages mortes a traiter :** {dp_n} (cf {dp_f})")
+    L.append("")
+
+    L.append("---\n_Genere par weekly_report.py (lecture seule). Lancer le dimanche. Consolide GA4+GSC+keyword_tracker+snippets+velocity+vulnerabilites+content-gaps._")
 
     report = "\n".join(L)
     io.open(OUT, "w", encoding="utf-8").write(report)
