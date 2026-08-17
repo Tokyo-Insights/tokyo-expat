@@ -99,19 +99,50 @@ def snapshot_and_trend(ga4, gsc, leads):
 
 
 # ---------- Helper GA4 generique ----------
-def _ga4(dims, metrics, ranges, ev=None, limit=50):
+def _ga4(dims, metrics, ranges, ev=None, filt=None, limit=50):
     try:
         from ga4_analytics import get_access_token, GA4_API_URL
         tok = get_access_token()
         body = {"dateRanges": ranges, "dimensions": [{"name": d} for d in dims],
                 "metrics": [{"name": m} for m in metrics], "limit": limit}
         if ev:
-            body["dimensionFilter"] = {"filter": {"fieldName": "eventName", "stringFilter": {"value": ev}}}
+            filt = ("eventName", ev)
+        if filt:
+            body["dimensionFilter"] = {"filter": {"fieldName": filt[0], "stringFilter": {"value": filt[1]}}}
         r = requests.post(GA4_API_URL, headers={"Authorization": f"Bearer {tok}"}, json=body,
                           verify=False, timeout=60).json()
         return r.get("rows", [])
     except Exception:
         return []
+
+
+# ---------- Tier 1 additions: CTR sous la courbe / GEO-IA / backlinks referents ----------
+def ctr_below_curve(gsc):
+    EXP = {1: .28, 2: .15, 3: .11, 4: .08, 5: .07, 6: .05, 7: .04, 8: .035, 9: .03, 10: .025}
+    out = []
+    for r in (gsc or {}).get("top_queries", []):
+        kw = r.get("query") or (r.get("keys", [""]) or [""])[0]
+        pos = r.get("position", 99); impr = r.get("impressions", 0); clk = r.get("clicks", 0)
+        if pos <= 10 and impr >= 30:
+            exp = EXP.get(round(pos), .02)
+            ctr = (clk / impr) if impr else 0
+            if ctr < exp * 0.5:
+                out.append((impr, pos, ctr, exp, kw))
+    return sorted(out, reverse=True)[:6]
+
+
+def ga4_ai():
+    rows = _ga4(["sessionDefaultChannelGroup", "landingPagePlusQueryString"], ["sessions"],
+                [{"startDate": "90daysAgo", "endDate": "today"}], limit=200)
+    ai = [(int(r["metricValues"][0]["value"]), r["dimensionValues"][1]["value"]) for r in rows
+          if "ai" in r["dimensionValues"][0]["value"].lower()]
+    return sorted(ai, reverse=True)[:6]
+
+
+def ga4_referrals():
+    rows = _ga4(["sessionSource"], ["sessions"], [{"startDate": "90daysAgo", "endDate": "today"}],
+                filt=("sessionMedium", "referral"), limit=15)
+    return [(int(r["metricValues"][0]["value"]), r["dimensionValues"][0]["value"]) for r in rows]
 
 
 # ---------- Dimension 1: CONTENT DECAY (pages qui declinent) ----------
@@ -275,6 +306,36 @@ def build():
     L.append(f"  - Form start **{fs}** → Lead **{gl}** ({rate(gl, fs)}) → Consultation **{sc}** ({rate(sc, gl)}) → Appel reserve **{bc}** ({rate(bc, sc)})")
     if gl and bc == 0:
         L.append("  ⚠️ **Deperdition lead → appel** : des leads mais 0 appel reserve → renforcer le nurture / la prise de RDV.")
+    L.append("")
+
+    # B7. CTR SOUS LA COURBE (page 1, titre/meta a ameliorer = clics gratuits)
+    L.append("## 🔎 CTR SOUS LA COURBE (page 1 — titre/meta a ameliorer)")
+    cb = ctr_below_curve(gsc)
+    if cb:
+        for impr, pos, ctr, exp, kw in cb:
+            L.append(f"  - {impr} impr · pos {pos:.1f} · CTR {ctr*100:.1f}% (attendu ~{exp*100:.0f}%) · _{kw}_")
+    else:
+        L.append("_(aucune page 1 sous-performante)_")
+    L.append("")
+
+    # B8. GEO / IA (pages qui captent le trafic IA)
+    L.append("## 🤖 GEO / IA (pages qui captent le trafic 'AI Assistant')")
+    ai = ga4_ai()
+    if ai:
+        for s, pg in ai:
+            L.append(f"  - {s} sess IA | {pg}")
+    else:
+        L.append("_(aucun trafic IA attribue cette periode)_")
+    L.append("")
+
+    # B9. BACKLINKS / REFERENTS (domaines qui envoient du trafic = ton autorite)
+    L.append("## 🔗 BACKLINKS / REFERENTS (domaines qui t'envoient du trafic)")
+    ref = ga4_referrals()
+    if ref:
+        for s, src in ref[:8]:
+            L.append(f"  - {s} sess | {src}")
+    else:
+        L.append("_(aucun referral — le goulot autorite reste entier)_")
     L.append("")
 
     # C. TOP OPPORTUNITES (priorisees)
