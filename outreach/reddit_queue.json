@@ -1,9 +1,9 @@
 {
   "_comment": "File de munitions Reddit. status: todo (pas d'asset) / ready (pret a poster) / posted. Le reminder pioche la prochaine 'ready', rappelle via Telegram, detecte auto le post (email AutoMod OC) et avance. Cadence = POSTS_PER_WEEK dans reddit_munition_reminder.py.",
   "state": {
-    "last_posted_utc": "2026-08-08T07:09:10Z",
-    "awaiting_id": "price-trends-ward",
-    "awaiting_reminded_utc": "2026-08-15T22:06:43Z",
+    "last_posted_utc": "2026-08-17T22:28:16Z",
+    "awaiting_id": null,
+    "awaiting_reminded_utc": null,
     "last_reminded_date": "2026-08-16"
   },
   "munitions": [
@@ -78,12 +78,12 @@
     },
     {
       "id": "price-trends-ward",
-      "status": "ready",
+      "status": "posted",
       "png": "outreach/tokyo-price-trends.png",
       "title": "[OC] Tokyo condo prices per m2, 2021 vs 2025, by ward",
       "oc_comment": "Source: ~100,000 recorded second-hand condominium sale transactions across Tokyo's 23 wards, 2021-2025 (settled sale prices, not asking prices), aggregated to the median price per m2 per ward.\n\nTool: Python (pandas) for the aggregation, matplotlib for the chart.",
       "sub": "dataisbeautiful",
-      "posted_utc": null,
+      "posted_utc": "2026-08-17T22:28:16Z",
       "views": null,
       "upvotes": null
     },
