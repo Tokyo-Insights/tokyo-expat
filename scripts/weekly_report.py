@@ -219,6 +219,101 @@ def dead_pages():
         return 0, None
 
 
+HTML_OUT = DATA / "weekly_report_latest.html"
+_CSS = """
+:root{--bg:#f5f7fa;--surface:#fff;--surface2:#eef1f6;--ink:#0f2744;--ink-soft:#42506a;--muted:#8291a8;--line:#e2e7ef;--accent:#e84141;--good:#12805c;--warn:#b9720a;--crit:#d64545;--shadow:0 1px 2px rgba(15,39,68,.06),0 8px 24px rgba(15,39,68,.05);--mono:ui-monospace,Menlo,Consolas,monospace;--sans:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif}
+@media(prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#0d1626;--surface:#152238;--surface2:#1b2842;--ink:#e9eef7;--ink-soft:#b3bfd4;--muted:#7688a3;--line:#27344e;--accent:#ff5c5c;--good:#33c191;--warn:#e0a63a;--crit:#ff6b6b;--shadow:0 1px 2px rgba(0,0,0,.3),0 10px 30px rgba(0,0,0,.25)}}
+:root[data-theme=dark]{--bg:#0d1626;--surface:#152238;--surface2:#1b2842;--ink:#e9eef7;--ink-soft:#b3bfd4;--muted:#7688a3;--line:#27344e;--accent:#ff5c5c;--good:#33c191;--warn:#e0a63a;--crit:#ff6b6b;--shadow:0 1px 2px rgba(0,0,0,.3),0 10px 30px rgba(0,0,0,.25)}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:15px;line-height:1.5}
+.wrap{max-width:1120px;margin:0 auto;padding:32px 20px 64px}
+header{display:flex;justify-content:space-between;align-items:flex-end;gap:16px;flex-wrap:wrap;padding-bottom:20px;border-bottom:2px solid var(--line);margin-bottom:24px}
+.brand{display:flex;align-items:center;gap:11px}.dot{width:12px;height:12px;border-radius:3px;background:var(--accent)}
+h1{font-size:23px;font-weight:800;letter-spacing:-.02em;margin:0}.sub{color:var(--muted);font-size:13px;margin-top:3px}
+.stamp{text-align:right;color:var(--muted);font-size:12.5px}.stamp b{color:var(--ink);font-size:15px;display:block;font-variant-numeric:tabular-nums}
+.kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:16px}
+.kpi{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:15px 16px;box-shadow:var(--shadow)}
+.kpi .lab{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);font-weight:600}
+.kpi .val{font-size:26px;font-weight:800;letter-spacing:-.02em;margin-top:5px;font-variant-numeric:tabular-nums}.kpi .meta{font-size:12.5px;color:var(--ink-soft);margin-top:2px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(330px,1fr));gap:16px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:18px 18px 16px;box-shadow:var(--shadow)}.card.wide{grid-column:1/-1}
+.card h2{font-size:12px;text-transform:uppercase;letter-spacing:.06em;margin:0 0 13px;color:var(--ink);display:flex;align-items:center;gap:8px}.card h2 .tag{margin-left:auto;font-size:10.5px;font-weight:700;color:var(--muted);text-transform:none;letter-spacing:0}
+.row{display:flex;align-items:center;gap:10px;padding:7px 0;border-top:1px solid var(--line);font-size:13.5px;line-height:1.35}.row:first-of-type{border-top:0}
+.num{font-family:var(--mono);font-variant-numeric:tabular-nums;font-weight:600;min-width:34px;text-align:right}
+.path{font-family:var(--mono);font-size:12.5px;color:var(--ink-soft);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;flex:1}.kw{color:var(--ink-soft);flex:1}
+.chip{font-size:11px;font-weight:700;padding:2px 8px;border-radius:20px;white-space:nowrap;font-variant-numeric:tabular-nums}
+.c-crit{background:color-mix(in srgb,var(--crit) 15%,transparent);color:var(--crit)}.c-good{background:color-mix(in srgb,var(--good) 16%,transparent);color:var(--good)}.c-warn{background:color-mix(in srgb,var(--warn) 16%,transparent);color:var(--warn)}.c-mut{background:var(--surface2);color:var(--muted)}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:20px}@media(max-width:560px){.split{grid-template-columns:1fr}.kpis{grid-template-columns:repeat(2,1fr)}}
+.mini{font-size:10.5px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);font-weight:700;margin:0 0 6px}
+.funnel{display:flex;gap:8px;flex-wrap:wrap}.stage{flex:1;min-width:110px;background:var(--surface2);border-radius:10px;padding:12px 13px;position:relative}
+.stage .n{font-size:23px;font-weight:800;font-variant-numeric:tabular-nums}.stage .s{font-size:11.5px;color:var(--ink-soft)}.stage .pc{position:absolute;top:12px;right:12px;font-size:11px;font-weight:700;color:var(--muted)}.stage .bar{height:4px;border-radius:3px;background:var(--accent);margin-top:9px}
+.callout{background:color-mix(in srgb,var(--accent) 8%,var(--surface));border:1px solid color-mix(in srgb,var(--accent) 30%,var(--line));border-radius:14px;padding:16px 18px;margin-bottom:16px}.callout h2{color:var(--accent);margin:0 0 4px;font-size:12px;text-transform:uppercase;letter-spacing:.06em}.callout p{margin:0;font-size:13.5px;color:var(--ink-soft)}
+footer{margin-top:26px;text-align:center;color:var(--muted);font-size:12px}
+"""
+
+
+def _esc(s):
+    return str(s).replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+
+
+def render_html(d):
+    def rows_np(items):  # (num, path/kw, chip_html)
+        return "".join(f'<div class="row"><span class="num">{_esc(n)}</span>'
+                       f'<span class="{cls}">{_esc(t)}</span>{chip}</div>' for n, t, cls, chip in items)
+    K = d
+    kpi = (f'<div class="kpi"><div class="lab">Trafic (7j)</div><div class="val">{K["sessions"]}</div>'
+           f'<div class="meta">sessions · {K["sess_delta"]} · {K["users"]} users</div></div>'
+           f'<div class="kpi"><div class="lab">Visibilite (28j)</div><div class="val">{K["impr"]:,}</div>'
+           f'<div class="meta">impr · {K["clicks"]} clics · CTR {K["ctr"]:.2f}%</div></div>'
+           f'<div class="kpi"><div class="lab">Position moy.</div><div class="val">{K["pos"]:.1f}</div>'
+           f'<div class="meta">page 2-3 · levier autorite</div></div>'
+           f'<div class="kpi"><div class="lab">Leads (90j)</div><div class="val">{K["leads"]}</div>'
+           f'<div class="meta">via SEO surtout</div></div>').replace(",", " ")
+
+    def chip(txt, cls): return f'<span class="chip {cls}">{_esc(txt)}</span>'
+    conv_boost = "".join(f'<div class="row"><span class="num">{s}</span><span class="path">{_esc(pg)}</span>{chip("0 lead","c-crit")}</div>' for s, pg in d["conv_boost"][:6])
+    conv_win = "".join(f'<div class="row"><span class="path">{_esc(pg)}</span>{chip(f"{r:.1f}%","c-good")}</div>' for r, pg in d["conv_win"][:5])
+    decay = "".join(f'<div class="row"><span class="num">-{drop}</span><span class="path">{_esc(pg)}</span>{chip(f"{p} → {c}","c-crit" if c==0 else "c-warn")}</div>' for drop, p, c, pg in d["decay"][:5]) or '<div class="row"><span class="kw">Aucune chute</span></div>'
+    engl = "".join(f'<div class="row"><span class="path">{_esc(pg)}</span>{chip(f"{e*100:.0f}%","c-crit" if e<0.15 else "c-warn")}</div>' for s, e, dur, pg in d["eng_low"][:5])
+    ai = "".join(f'<div class="row"><span class="num">{s}</span><span class="path">{_esc(pg)}</span></div>' for s, pg in d["ai"][:5])
+    ref = "".join(f'<div class="row"><span class="num">{s}</span><span class="path">{_esc(src)}</span>{chip("social","c-mut")}</div>' for s, src in d["ref"][:5])
+    pos = "".join(f'<div class="row"><span class="num">#{p}</span><span class="kw">[{l}] {_esc(kw)}</span></div>' for kw, l, p in d["positions"][:10])
+    snip = "".join(f'<div class="row"><span class="kw">{_esc(s.get("keyword",""))}</span>{chip(s.get("format",""),"c-mut")}</div>' for s in d["snippets"][:5])
+    vuln = "".join(f'<div class="row"><span class="path"><b>{_esc(c)}</b></span><span class="kw" style="flex:0">{_esc(kw)}</span></div>' for c, kw in d["vuln"][:6])
+    lead_ch = "".join(f'<div class="row"><span class="num">{n}</span><span class="kw">{_esc(c)}</span></div>' for c, n in d["leads_channel"][:4])
+    lead_co = "".join(f'<div class="row"><span class="num">{n}</span><span class="kw">{_esc(c)}</span></div>' for c, n in d["leads_country"][:4])
+    fn = d["funnel"]
+    def pct(a, b): return f"{a/b*100:.0f}%" if b else "-"
+
+    html = (f'<title>Tokyo-Expat Intelligence</title>\n<meta name="viewport" content="width=device-width, initial-scale=1">\n'
+            f'<style>{_CSS}</style>\n<div class="wrap">\n'
+            f'<header><div class="brand"><span class="dot"></span><div><h1>Tokyo-Expat Intelligence</h1>'
+            f'<div class="sub">Rapport hebdo consolide · weekly_report.py</div></div></div>'
+            f'<div class="stamp">Semaine du<b>{d["date"]}</b></div></header>\n'
+            f'<div class="kpis">{kpi}</div>\n'
+            f'<div class="callout"><h2>🎯 Filon n°1</h2><p>{_esc(d["callout"])}</p></div>\n'
+            f'<div class="grid">\n'
+            f'<div class="card"><h2>💰 Leads &amp; conversion<span class="tag">90j</span></h2>'
+            f'<div class="split"><div><p class="mini">Par canal</p>{lead_ch}</div><div><p class="mini">Par pays</p>{lead_co}</div></div></div>\n'
+            f'<div class="card"><h2>🔻 Entonnoir<span class="tag">90j</span></h2><div class="funnel">'
+            f'<div class="stage"><div class="n">{fn["fs"]}</div><div class="s">Form start</div><div class="bar" style="width:100%"></div></div>'
+            f'<div class="stage"><div class="n">{fn["gl"]}</div><div class="s">Lead</div><span class="pc">{pct(fn["gl"],fn["fs"])}</span><div class="bar" style="width:{pct(fn["gl"],fn["fs"])}"></div></div>'
+            f'<div class="stage"><div class="n">{fn["sc"]}</div><div class="s">Consult.</div><span class="pc">{pct(fn["sc"],fn["gl"])}</span><div class="bar" style="width:{pct(fn["sc"],fn["gl"])}"></div></div>'
+            f'<div class="stage"><div class="n">{fn["bc"]}</div><div class="s">Appel</div><span class="pc">{pct(fn["bc"],fn["sc"])}</span><div class="bar" style="width:{pct(fn["bc"],fn["sc"])}"></div></div></div></div>\n'
+            f'<div class="card wide"><h2>🔀 Conversion par page</h2><div class="split">'
+            f'<div><p class="mini">Fort trafic, 0 lead — a booster</p>{conv_boost}</div>'
+            f'<div><p class="mini">Convertissent — y amener + de trafic</p>{conv_win}</div></div></div>\n'
+            f'<div class="card"><h2>🏅 Nos positions<span class="tag">{d["n_kw"]} keywords</span></h2>{pos}</div>\n'
+            f'<div class="card"><h2>📉 Content decay<span class="tag">28j vs prec.</span></h2>{decay}</div>\n'
+            f'<div class="card"><h2>🧲 Engagement faible</h2>{engl or "<div class=row><span class=kw>OK</span></div>"}</div>\n'
+            f'<div class="card"><h2>🤖 GEO / IA<span class="tag">AI Assistant</span></h2>{ai or "<div class=row><span class=kw>Aucun</span></div>"}</div>\n'
+            f'<div class="card"><h2>🔗 Referents<span class="tag">trafic entrant</span></h2>{ref or "<div class=row><span class=kw>Aucun</span></div>"}</div>\n'
+            f'<div class="card"><h2>📦 Featured snippets<span class="tag">a voler</span></h2>{snip or "<div class=row><span class=kw>Aucun</span></div>"}</div>\n'
+            f'<div class="card wide"><h2>🔥 Vulnerabilites concurrents<span class="tag">places a prendre</span></h2>{vuln or "<div class=row><span class=kw>Aucune</span></div>"}</div>\n'
+            f'</div>\n<footer>Tokyo-Expat · rapport genere chaque dimanche · lecture seule</footer>\n</div>')
+    HTML_OUT.write_text(html, encoding="utf-8")
+    return html
+
+
 def build():
     ga4, gsc, vuln, gaps = load("ga4_latest.json"), load("gsc_latest.json"), load("vulnerabilities.json"), load("content_gaps.json")
     leads = ga4_leads()
@@ -436,6 +531,40 @@ def build():
     L.append("")
 
     L.append("---\n_Genere par weekly_report.py (lecture seule). Lancer le dimanche. Consolide GA4+GSC+keyword_tracker+snippets+velocity+vulnerabilites+content-gaps._")
+
+    # ---- Dashboard HTML (memes donnees, genere automatiquement) ----
+    try:
+        t = (gsc or {}).get("totals", {})
+        impr, clk = t.get("impressions", 0) or 0, t.get("clicks", 0) or 0
+        cboost = [(s, pg) for pg, s in sorted(sess.items(), key=lambda x: -x[1])
+                  if s >= 20 and lead_pg.get(pg, 0) == 0 and "not set" not in pg.lower()]
+        cwin = sorted([(lead_pg[pg] / sess.get(pg, 1) * 100, pg) for pg in lead_pg
+                       if lead_pg[pg] > 0 and sess.get(pg, 0) > 0], reverse=True)
+        engl = sorted([x for x in eng if x[1] < 0.45], reverse=True)
+        vlist = vuln if isinstance(vuln, list) else (vuln or {}).get("items", [])
+        vpairs = [(v.get("competitor") or v.get("domain", "?"), v.get("keyword", "?"))
+                  for v in vlist if isinstance(v, dict)]
+        callout = (f'{cboost[0][1]} = {cboost[0][0]} sessions, 0 lead — ta page la plus visitee '
+                   f'ne convertit rien. A optimiser en priorite.') if cboost else "Voir la conversion par page."
+        render_html({
+            "date": dt.date.today().isoformat(),
+            "sessions": (ga4 or {}).get("this_week", {}).get("sessions", "?"),
+            "sess_delta": (ga4 or {}).get("changes", {}).get("sessions", ""),
+            "users": (ga4 or {}).get("this_week", {}).get("users", "?"),
+            "impr": impr, "clicks": clk, "ctr": (clk / impr * 100) if impr else 0,
+            "pos": t.get("position", 0) or 0,
+            "leads": leads.get("total", "?") if isinstance(leads, dict) else "?",
+            "leads_channel": leads.get("by_channel", []) if isinstance(leads, dict) else [],
+            "leads_country": leads.get("by_country", []) if isinstance(leads, dict) else [],
+            "conv_boost": cboost, "conv_win": cwin, "decay": dec, "eng_low": engl,
+            "funnel": {"fs": fn.get("form_start", 0), "gl": fn.get("generate_lead", 0),
+                       "sc": fn.get("select_consultation", 0), "bc": fn.get("book_call_click", 0)},
+            "ai": ai, "ref": ref, "positions": kp, "n_kw": len(kp), "snippets": fss,
+            "vuln": vpairs, "callout": callout,
+        })
+        print(f"[Ecrit: {HTML_OUT}]")
+    except Exception as e:
+        print("WARN HTML dashboard KO:", e)
 
     report = "\n".join(L)
     io.open(OUT, "w", encoding="utf-8").write(report)
