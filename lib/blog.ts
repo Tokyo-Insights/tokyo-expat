@@ -485,6 +485,17 @@ In Japan, moving into a standard apartment costs roughly 4 to 6 months of rent i
 
 For a 100,000 JPY/month apartment, budget 400,000 to 600,000 JPY upfront. Furnished rentals without reikin exist and can cut this sum in half.
 
+## Documents you need to rent
+To rent an apartment in Tokyo as a foreigner, prepare these documents before you apply:
+- **Passport** and your **residence card** (在留カード), or your visa details if you are still abroad.
+- **Proof of visa status** and period of stay.
+- **Proof of income or employment**: recent payslips, an employment contract, or a letter from your employer or school. Students can use an enrolment certificate and a sponsor's income.
+- **Guarantor details** or a **guarantor company** application (most foreigners use a paid guarantor company).
+- **Emergency contact**, ideally someone based in Japan.
+- A **Japanese bank account** and sometimes a personal seal (hanko) to finalise the contract.
+
+Having these ready speeds up approval and signals to a cautious landlord that you are a reliable tenant.
+
 ## Realistic timelines
 
 Searching alone, without a network or Japanese: **6 to 10 weeks** on average.
