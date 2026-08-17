@@ -58,6 +58,46 @@ def striking(gsc):
     return sorted(out, reverse=True)[:6]
 
 
+HIST = DATA / "weekly_history.jsonl"
+
+
+# ---------- GA4: sessions par page (pour le taux de conversion) ----------
+def ga4_sessions_by_page(days=90):
+    try:
+        from ga4_analytics import get_access_token, GA4_API_URL
+        tok = get_access_token()
+        body = {"dateRanges": [{"startDate": f"{days}daysAgo", "endDate": "today"}],
+                "dimensions": [{"name": "landingPagePlusQueryString"}], "metrics": [{"name": "sessions"}],
+                "limit": 40, "orderBys": [{"metric": {"metricName": "sessions"}, "desc": True}]}
+        r = requests.post(GA4_API_URL, headers={"Authorization": f"Bearer {tok}"}, json=body,
+                          verify=False, timeout=60).json()
+        return {row["dimensionValues"][0]["value"]: int(row["metricValues"][0]["value"]) for row in r.get("rows", [])}
+    except Exception:
+        return {}
+
+
+# ---------- Snapshot + tendances (vagues montantes detectees auto) ----------
+def snapshot_and_trend(ga4, gsc, leads):
+    today = dt.date.today().isoformat()
+    def qkw(r): return r.get("query") or (r.get("keys", [""]) or [""])[0]
+    cur = {"date": today,
+           "sessions": (ga4 or {}).get("this_week", {}).get("sessions"),
+           "impressions": (gsc or {}).get("totals", {}).get("impressions"),
+           "clicks": (gsc or {}).get("totals", {}).get("clicks"),
+           "leads": leads.get("total") if isinstance(leads, dict) else None,
+           "queries": {qkw(r): {"pos": r.get("position"), "impr": r.get("impressions")}
+                       for r in (gsc or {}).get("top_queries", [])[:25]}}
+    prev, hist = None, []
+    if HIST.exists():
+        hist = [json.loads(l) for l in io.open(HIST, encoding="utf-8").read().splitlines() if l.strip()]
+        for e in reversed(hist):
+            if e.get("date") != today:
+                prev = e; break
+    hist = [e for e in hist if e.get("date") != today] + [cur]   # dedupe same-day
+    io.open(HIST, "w", encoding="utf-8").write("\n".join(json.dumps(e, ensure_ascii=False) for e in hist) + "\n")
+    return cur, prev
+
+
 def build():
     ga4, gsc, vuln, gaps = load("ga4_latest.json"), load("gsc_latest.json"), load("vulnerabilities.json"), load("content_gaps.json")
     leads = ga4_leads()
@@ -93,6 +133,54 @@ def build():
                 L.append(f"  - {n} | {pg}")
     else:
         L.append(f"_(GA4 leads indisponible: {leads.get('error','') if isinstance(leads,dict) else ''})_")
+    L.append("")
+
+    # B2. CONVERSION PAR PAGE (fort trafic / faible conversion = a booster)
+    L.append("## 🔀 CONVERSION PAR PAGE")
+    sess = ga4_sessions_by_page()
+    lead_pg = dict(leads.get("by_page", [])) if isinstance(leads, dict) and "error" not in leads else {}
+    if sess:
+        boost = [(s, pg) for pg, s in sorted(sess.items(), key=lambda x: -x[1])[:12]
+                 if s >= 20 and lead_pg.get(pg, 0) == 0]
+        if boost:
+            L.append("**Fort trafic SANS lead (ajouter/renforcer un CTA) :**")
+            for s, pg in boost[:8]:
+                L.append(f"  - {s} sessions · 0 lead | {pg}")
+        winners = [(lead_pg[pg], sess.get(pg, 0), pg) for pg in lead_pg if lead_pg[pg] > 0]
+        if winners:
+            L.append("**Convertissent (y amener plus de trafic) :**")
+            for ld, s, pg in sorted(winners, reverse=True)[:5]:
+                rate = f"{ld/s*100:.1f}%" if s else "n/d"
+                L.append(f"  - {ld} lead / {s} sess ({rate}) | {pg}")
+    else:
+        L.append("_(sessions par page indisponibles)_")
+    L.append("")
+
+    # B3. TENDANCES (vagues montantes vs snapshot precedent)
+    L.append("## 📈 TENDANCES (vs snapshot precedent)")
+    cur, prev = snapshot_and_trend(ga4, gsc, leads)
+    if prev:
+        def delta(k):
+            a, b = cur.get(k), prev.get(k)
+            if isinstance(a, (int, float)) and isinstance(b, (int, float)):
+                d = a - b; return f"{'+' if d >= 0 else ''}{d}"
+            return "n/d"
+        L.append(f"- Sessions {delta('sessions')} · Impressions {delta('impressions')} · "
+                 f"Clics {delta('clicks')} · Leads {delta('leads')} (depuis {prev.get('date')})")
+        rising = []
+        for kw, v in cur.get("queries", {}).items():
+            pv = prev.get("queries", {}).get(kw)
+            if pv and isinstance(v.get("impr"), (int, float)) and isinstance(pv.get("impr"), (int, float)):
+                di = v["impr"] - pv["impr"]
+                dp = (pv.get("pos") or 0) - (v.get("pos") or 0)   # positif = monte en position
+                if di >= 15 or dp >= 2:
+                    rising.append((di, dp, kw, v.get("pos") or 0))
+        if rising:
+            L.append("**Vagues montantes (requetes) :**")
+            for di, dp, kw, pos in sorted(rising, reverse=True)[:6]:
+                L.append(f"  - _{kw}_ : impr {'+' if di>=0 else ''}{di}, pos {pos:.1f} ({'monte' if dp > 0 else 'stable'})")
+    else:
+        L.append("_(1er snapshot enregistre — les tendances apparaitront a la prochaine execution)_")
     L.append("")
 
     # C. TOP OPPORTUNITES (priorisees)
