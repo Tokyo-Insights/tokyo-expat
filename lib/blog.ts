@@ -13528,10 +13528,91 @@ Trouver un emploi et s'installer dans un logement sont les deux moitiés d'un m�
 
 *Voir aussi : [Visa travail au Japon pour les francophones](/fr/blog/visa-travail-japon-francophone-2026), [Travailler à Tokyo en tant qu'expatrié](/fr/blog/travailler-tokyo-expatrie-guide-2026), [Coût de la vie à Tokyo pour les expatriés](/fr/blog/cout-vie-tokyo-expatrie-2026).*`.trim(),
   },
+  {
+    slug: 'family-apartment-tokyo-foreigner',
+    locale: 'en',
+    title: 'How to Rent a Family Apartment in Tokyo as a Foreigner (2026)',
+    description: 'Relocating to Tokyo with kids? What size you need (2LDK or 3LDK), realistic budgets, the best family wards, and how to find a family apartment that accepts foreigners.',
+    date: '2026-08-18',
+    readingTime: '7 min',
+    content: `
+Relocating to Tokyo with a family changes the housing search completely. You need more space, proximity to schools, and a landlord comfortable with both a family and foreigners. Here is how to find the right family apartment, what it costs, and where to look.
+
+**Quick answer:** A family apartment in Tokyo usually means a 2LDK or 3LDK (two or three bedrooms plus a living-dining-kitchen). Budget from around 235,000 yen a month for a 2LDK and roughly 300,000 yen and up for a 3LDK, more in central or school-heavy wards. Family-sized, foreigner-friendly units are scarcer than studios, so plan early, keep a strong application, and prioritise areas near your children's school.
+
+## What size does a family need?
+Japanese apartments are labelled by rooms plus LDK (living-dining-kitchen). A family with one small child often fits a 2LDK; families with two or more children usually want a 3LDK. Our guide to [Japanese apartment layouts](/en/blog/japanese-apartment-layouts-explained) breaks down 1K, 1LDK, 2LDK and beyond so you can picture the space.
+
+## What a family apartment costs
+Family units cost more than studios, and the move-in bill is bigger because it scales with rent:
+- **2LDK:** around 235,000 yen a month is a Tokyo median, less in outer wards, more in central ones.
+- **3LDK:** typically from around 300,000 yen and up, higher near international schools and in premium wards.
+- **Move-in:** a standard lease still runs about five months of rent up front (see our [move-in cost breakdown](/en/blog/tokyo-apartment-move-in-costs)), so a bigger rent means a bigger initial outlay.
+
+## Best areas for families
+Families weigh schools, parks, space and commute differently from single renters. Some wards are consistently family-friendly and popular with expat families. See our guides to the [best Tokyo neighbourhoods for expat families](/en/blog/best-neighbourhoods-families-tokyo-guide) and, if international schooling is a priority, [family life and international schools in Tokyo](/en/blog/family-expat-tokyo-international-schools). Proximity to your chosen school usually matters more than the ward's prestige.
+
+## The extra challenges for families
+- **Scarcer stock.** Larger units are a smaller slice of the market, so good ones move fast.
+- **Bigger budget upfront.** Higher rent means a higher deposit and total move-in cost.
+- **Foreigner acceptance.** Families face the same landlord hesitancy as any foreigner, plus questions about the number of occupants. A stable income and a guarantor company solve most of it.
+- **Timing with schools.** Many families need to move before the school term, which compresses the search.
+
+## How to find one and get approved
+1. **Start early.** Family-sized, foreigner-friendly units are limited, so begin well before your move.
+2. **Fix your school first, then the area.** Let the school anchor your search radius.
+3. **Prepare a strong application.** Stable income, a guarantor company and clear numbers on occupants reassure a cautious landlord.
+4. **Use bilingual help.** Many suitable family units never reach the big foreigner-facing portals; a local, bilingual search reaches the operators who hold them.
+
+Moving a whole family is a lot to coordinate, and housing is the piece everything else depends on. If you would like help finding a family apartment that fits your budget, your school and your timeline, [tell us what you need](/en/contact) and we will handle the search with you.
+
+*See also: [Best Tokyo Neighbourhoods for Expat Families (2026)](/en/blog/best-neighbourhoods-families-tokyo-guide), [1K, 1LDK, 2LDK: Japanese Apartment Layouts Explained](/en/blog/japanese-apartment-layouts-explained), [How to Find an Apartment in Tokyo as a Foreigner (2026 Guide)](/en/blog/find-apartment-tokyo-foreigner).*`.trim(),
+  },
+  {
+    slug: 'appartement-familial-tokyo-etranger',
+    locale: 'fr',
+    title: 'Louer un Appartement Familial a Tokyo (Guide Expat 2026)',
+    description: 'Vous partez a Tokyo en famille ? Quelle taille (2LDK ou 3LDK), budgets realistes, meilleurs quartiers familiaux, et comment trouver un logement familial qui accepte les etrangers.',
+    date: '2026-08-18',
+    readingTime: '7 min',
+    content: `
+Déménager à Tokyo en famille change complètement la recherche de logement. Il vous faut plus d'espace, la proximité des écoles, et un propriétaire à l'aise avec une famille ET des étrangers. Voici comment trouver le bon appartement familial, ce qu'il coûte, et où chercher.
+
+**Réponse rapide :** un appartement familial à Tokyo, c'est en général un 2LDK ou 3LDK (deux ou trois chambres plus séjour-cuisine). Comptez à partir d'environ 235 000 yens par mois pour un 2LDK et grosso modo 300 000 yens et plus pour un 3LDK, davantage dans les wards centraux ou proches des écoles. Les logements familiaux ouverts aux étrangers sont plus rares que les studios : anticipez, soignez votre dossier, et priorisez les zones proches de l'école de vos enfants.
+
+## Quelle taille pour une famille ?
+Les appartements japonais sont notés en chambres + LDK (séjour-salle à manger-cuisine). Une famille avec un jeune enfant tient souvent dans un 2LDK ; les familles de deux enfants ou plus visent un 3LDK. Notre guide des [types d'appartements japonais](/fr/blog/types-appartements-japonais-expliques) détaille 1K, 1LDK, 2LDK et au-delà pour visualiser l'espace.
+
+## Le coût d'un appartement familial
+Les logements familiaux coûtent plus que les studios, et la facture d'entrée est plus lourde car elle suit le loyer :
+- **2LDK :** environ 235 000 yens par mois (médiane Tokyo), moins en périphérie, plus au centre.
+- **3LDK :** en général à partir d'environ 300 000 yens et plus, davantage près des écoles internationales et dans les wards premium.
+- **Entrée :** une location standard demande toujours environ cinq mois de loyer d'avance, donc un loyer plus élevé = une mise de départ plus lourde.
+
+## Les meilleurs quartiers pour familles
+Les familles pèsent écoles, parcs, espace et trajet autrement qu'un célibataire. Certains wards sont réputés familiaux et prisés des expatriés. Voyez nos guides des [meilleurs quartiers de Tokyo pour familles expatriées](/fr/blog/quartiers-tokyo-familles-expatriees-guide) et, si l'école internationale est prioritaire, [familles expatriées et écoles internationales à Tokyo](/fr/blog/famille-expatriee-tokyo-ecoles-internationales). La proximité de l'école compte souvent plus que le prestige du quartier.
+
+## Les défis supplémentaires pour les familles
+- **Parc plus rare.** Les grands logements sont une part plus petite du marché : les bons partent vite.
+- **Budget d'entrée plus élevé.** Loyer plus haut = dépôt et coût d'entrée plus lourds.
+- **Acceptation des étrangers.** Les familles affrontent la même hésitation des propriétaires, plus des questions sur le nombre d'occupants. Un revenu stable et une société de garantie règlent l'essentiel.
+- **Timing scolaire.** Beaucoup doivent emménager avant la rentrée, ce qui comprime la recherche.
+
+## Comment en trouver un et se faire accepter
+1. **Commencez tôt.** Les logements familiaux ouverts aux étrangers sont limités : démarrez bien avant le déménagement.
+2. **Fixez l'école d'abord, puis la zone.** Laissez l'école définir votre rayon de recherche.
+3. **Préparez un dossier solide.** Revenu stable, société de garantie et nombre d'occupants clair rassurent un propriétaire prudent.
+4. **Faites-vous aider en bilingue.** Beaucoup de bons logements familiaux n'arrivent jamais sur les grands portails pour étrangers ; une recherche locale et bilingue atteint les opérateurs qui les détiennent.
+
+Déménager toute une famille demande beaucoup de coordination, et le logement est la pièce dont tout le reste dépend. Si vous voulez de l'aide pour trouver un appartement familial adapté à votre budget, votre école et votre calendrier, [dites-nous ce qu'il vous faut](/fr/contact) et on gère la recherche avec vous.
+
+*Voir aussi : [Meilleurs quartiers de Tokyo pour familles expatriées](/fr/blog/quartiers-tokyo-familles-expatriees-guide), [Types d'appartements japonais expliqués](/fr/blog/types-appartements-japonais-expliques), [Trouver un appartement à Tokyo en tant qu'étranger](/fr/blog/trouver-appartement-tokyo-etranger).*`.trim(),
+  },
 ]
 
 // Mapping FR slug -> EN slug (articles jumeaux pour hreflang)
 export const TWIN_SLUGS: Record<string, string> = {
+  'appartement-familial-tokyo-etranger':         'family-apartment-tokyo-foreigner',
   'trouver-emploi-japon-etranger':               'how-to-find-job-japan-foreigner',
   'cout-avoir-animal-tokyo':                     'cost-of-owning-pet-tokyo',
   'trouver-appartement-tokyo-etranger':          'find-apartment-tokyo-foreigner',
