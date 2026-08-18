@@ -325,6 +325,20 @@ def render_html(d):
     return html
 
 
+def voice_of_customer():
+    p = DATA / "customer_signals.jsonl"
+    if not p.exists():
+        return []
+    from collections import defaultdict
+    tc = defaultdict(set)
+    for l in io.open(p, encoding="utf-8"):
+        if l.strip():
+            s = json.loads(l)
+            for t in s.get("themes", []):
+                tc[t].add(s.get("contact"))
+    return sorted([(len(c), t) for t, c in tc.items() if len(c) >= 2], reverse=True)
+
+
 def build():
     ga4, gsc, vuln, gaps = load("ga4_latest.json"), load("gsc_latest.json"), load("vulnerabilities.json"), load("content_gaps.json")
     leads = ga4_leads()
@@ -541,7 +555,17 @@ def build():
         L.append(f"**Pages mortes a traiter :** {dp_n} (cf {dp_f})")
     L.append("")
 
-    L.append("---\n_Genere par weekly_report.py (lecture seule). Lancer le dimanche. Consolide GA4+GSC+keyword_tracker+snippets+velocity+vulnerabilites+content-gaps._")
+    # G. VOIX DU CLIENT (filons issus des messages leads/clients, via customer_signals.py)
+    L.append("## 🎙️ VOIX DU CLIENT (besoins recurrents des leads)")
+    voc = voice_of_customer()
+    if voc:
+        for n, t in voc[:8]:
+            L.append(f"  - 🔥 {t} : {n} contacts")
+    else:
+        L.append("_(lancer scripts/customer_signals.py pour alimenter)_")
+    L.append("")
+
+    L.append("---\n_Genere par weekly_report.py (lecture seule). Lancer le dimanche. Consolide GA4+GSC+keyword_tracker+snippets+velocity+vulnerabilites+content-gaps+voix-du-client._")
 
     # ---- Dashboard HTML (memes donnees, genere automatiquement) ----
     try:
