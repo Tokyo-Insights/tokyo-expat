@@ -86,6 +86,20 @@ export default function LeadMagnetForm({ locale, compact = false, variant = 'che
         >
           {t.download}
         </a>
+        <p className="text-sm text-gray-600 mt-5 pt-4 border-t border-green-200">
+          {isFr ? 'Besoin d\'aide personnalisee pour trouver votre logement a Tokyo ? ' : 'Want hands-on help finding your place in Tokyo? '}
+          <a
+            href={`/${locale}/contact`}
+            onClick={() => {
+              if (typeof window !== 'undefined' && typeof window.gtag === 'function') {
+                window.gtag('event', 'select_consultation', { source: 'lead-magnet-success', locale })
+              }
+            }}
+            className="text-[#e84141] font-semibold underline underline-offset-2 hover:text-[#0f2744]"
+          >
+            {isFr ? 'Reservez une consultation gratuite' : 'Book a free consultation'}
+          </a>
+        </p>
       </div>
     )
   }
