@@ -19,6 +19,16 @@ NOISE = ["mailchimp", "featured.com", "sakuramobile", "arigatojapan", "no-reply"
          "oakhouse.jp", "sakura-house.com", "tokyu-rs", "blogexpat", "manus.im", "wise.com",
          "invoice+", "statements", "teamcalendly", "send.calendly", "brevo", "sendinblue"]
 
+# v2: contacts/domaines d'OUTREACH d'Alessandro (backlinks/guest posts/data) = PAS des leads clients.
+OUTREACH = ["gaijinblog.com", "expatarrivals.com", "expatfocus.com", "journaldujapon.com",
+            "mamzeldree.fr", "japan-dev.com", "lepetitjournal.com", "mr.japanization",
+            "japontheway", "its.a.me", "a-way-abroad"]
+# v2: sujets typiques d'outreach a exclure (pas des besoins logement de clients).
+OUTREACH_TOPICS = ["guest article", "guest post", "proposition d'article", "proposition d article",
+                   "rent data", "furnished premium", "backlink", "media kit", "your readers",
+                   "vos lecteurs", "indice des loyers", "collaboration", "partnership", "publiez",
+                   "contact us submission", "tokyo rent data"]
+
 THEMES = {
     "job/emploi": ["job", "work", "employ", "recruit", "salary", "no job", "without a job", "travail", "emploi"],
     "animal/pet": ["pet", " cat", " dog", "animal", "chat", "chien", "petto"],
@@ -30,8 +40,8 @@ THEMES = {
     "sdb privee": ["own bathroom", "private bathroom", "ensuite", "salle de bain privee"],
     "visa/statut": ["visa", "working holiday", "residence card", "zairyu", "status of residence", "titre de sejour"],
     "meuble": ["furnished", "furniture", "meuble", "monthly mansion", "short-term", "short term"],
-    "timeline/urgent": ["urgent", "asap", "arriving", "move-in", "moving to japan", "arrive", "airbnb"],
-    "quartier": ["neighbourhood", "neighborhood", " ward", "station", "quartier", "shinjuku", "shibuya", "minato", "area"],
+    "timeline/urgent": ["urgent", "asap", "as soon as", "arriving", "move-in date", "moving to japan"],
+    "quartier": ["neighbourhood", "neighborhood", " ward ", "station", "quartier", "shinjuku", "shibuya", "minato", "which area"],
     "jeunes pros": ["young professional", "professionals rather than students", "jeune actif"],
 }
 
@@ -103,8 +113,12 @@ def harvest(days=60):
         b = body_text(msg)
         is_calendly = "calendly" in sender.lower() and "scheduled" in b.lower()
         is_form = "new message from" in subject.lower() or "resend.dev" in sender.lower()
-        if not (is_calendly or is_form) and any(n in sender.lower() for n in NOISE):
-            continue
+        if not (is_calendly or is_form):
+            low_s = sender.lower()
+            if any(n in low_s for n in NOISE): continue
+            if any(o in low_s for o in OUTREACH): continue                    # v2: exclut l'outreach
+            if any(tp in (subject + " " + b[:700]).lower() for tp in OUTREACH_TOPICS): continue  # v2: sujets outreach
+            if "contact us submission" in subject.lower(): continue           # replies aux formulaires de blogs = outreach
         who, text = extract(sender, subject, b)
         text = (text or "").strip()
         if len(text) < 30:
