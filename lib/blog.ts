@@ -231,7 +231,7 @@ Pour votre couverture sante pendant votre sejour en share house, [SafetyWing Nom
     content: `
 Combien faut-il gagner pour vivre confortablement à Tokyo en tant qu'expatrié ? La réponse dépend de votre style de vie, mais les chiffres ci-dessous sont des moyennes réelles, pas des estimations touristiques.
 
-**Réponse rapide :** Un expatrié vit confortablement à Tokyo avec environ 200 000 à 350 000 JPY par mois selon le style de vie. Le loyer pèse 40 à 50% du budget : share house 50 000 à 90 000 JPY, studio central 80 000 à 130 000 JPY, 1LDK 130 000 à 200 000 JPY. Ajoutez l'alimentation (~40 000 JPY), le transport, l'assurance santé et les charges. Le loyer est votre principal levier d'économie.
+**Réponse rapide :** Un expatrié vit confortablement à Tokyo avec environ 200 000 à 350 000 JPY par mois selon le style de vie. Le [loyer](/fr/data) pèse 40 à 50% du budget : share house 50 000 à 90 000 JPY, studio central 80 000 à 130 000 JPY, 1LDK 130 000 à 200 000 JPY. Ajoutez l'alimentation (~40 000 JPY), le transport, l'assurance santé et les charges. Le loyer est votre principal levier d'économie.
 
 
 ![Fourchette de loyer mensuel par type de logement à Tokyo](/tokyo-housing-rent-range-fr.png "Share house 35k-90k vs location standard 60k-250k JPY")
@@ -713,6 +713,19 @@ For health coverage during your transition, [SafetyWing Nomad Insurance](https:/
 How much do you need to live comfortably in Tokyo as a foreigner? The answer depends on your lifestyle, but the numbers below are real averages, not tourist estimates.
 
 **Quick answer:** A foreigner lives comfortably in Tokyo on roughly 200,000 to 350,000 JPY per month depending on lifestyle. Rent is 40 to 50% of the budget: share house 50,000 to 90,000 JPY, central studio 80,000 to 130,000 JPY, 1LDK 130,000 to 200,000 JPY. Add food (~40,000 JPY), transport, health insurance and utilities. Rent is your main lever to save.
+
+**Monthly cost breakdown (single person, 2026):**
+
+| Expense | Typical monthly cost |
+| --- | --- |
+| Rent (studio or 1K) | ¥80,000 to ¥130,000 |
+| Food and groceries | ¥40,000 to ¥60,000 |
+| Transport | ¥10,000 to ¥15,000 |
+| Utilities (elec, gas, water) | ¥10,000 to ¥20,000 |
+| Health insurance | ¥3,000 to ¥20,000 (income-based) |
+| Phone and internet | ¥5,000 to ¥10,000 |
+| Leisure and misc | ¥20,000 to ¥50,000 |
+| **Total** | **around ¥200,000 to ¥350,000** |
 
 
 ![Monthly rent range by housing type in Tokyo](/tokyo-housing-rent-range-en.png "Share house 35k-90k vs standard rental 60k-250k JPY")
@@ -9991,6 +10004,14 @@ To discover the food scene of these upscale residential neighbourhoods, [Arigato
 A gaijin house is often the first home a foreigner has in Tokyo. It is cheap, flexible, and skips the obstacles that lock newcomers out of the traditional rental market. Here is exactly how it works in 2026.
 
 **Quick answer:** A gaijin house is a shared residence in Tokyo aimed at foreigners, offering a private furnished room with shared kitchen and bathroom, no Japanese guarantor, no key money, and move-in within days. Rooms run 40,000 to 80,000 JPY/month with utilities often included. It is the fastest and cheapest legal way for a newcomer to get a Tokyo address. For more privacy than a shared house, compare it with the options in our [complete guide to furnished apartments in Tokyo](/en/blog/furnished-apartments-tokyo-guide).
+
+**Gaijin house prices in Tokyo (2026):**
+
+| Gaijin house type | Typical monthly rent | Deposit | Guarantor / key money |
+| --- | --- | --- | --- |
+| Dormitory bed | ¥30,000 to ¥50,000 | Minimal | None |
+| Private room, shared facilities | ¥50,000 to ¥80,000 | About 1 month or a set fee | None |
+| Private room with own bathroom | ¥70,000 to ¥110,000 | About 1 month | None |
 
 > **From the field.** A gaijin house lives or dies on who runs it, not the price. The cheap ones with an absent operator empty out as fast as they fill. Before you book, notice how fast the operator answers your first email, that tells you more than the photos.
 
