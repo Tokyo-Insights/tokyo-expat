@@ -13446,10 +13446,93 @@ Avoir un animal à Tokyo reste abordable si vous prévoyez l'installation, les f
 
 *Les montants sont des fourchettes de marché 2026 typiques. Voir aussi : [Louer un appartement qui accepte les animaux à Tokyo](/fr/blog/louer-appartement-animaux-acceptes-tokyo), [Coût de la vie à Tokyo pour les expatriés en 2026](/fr/blog/cout-vie-tokyo-expatrie-2026).*`.trim(),
   },
+  {
+    slug: 'how-to-find-job-japan-foreigner',
+    locale: 'en',
+    title: 'How to Find a Job in Japan as a Foreigner (2026 Guide)',
+    description: 'Moving to Japan without a job lined up? Where to look, what jobs foreigners land, whether you need Japanese, and how your job affects renting an apartment.',
+    date: '2026-08-18',
+    readingTime: '7 min',
+    content: `
+Plenty of people move to Japan without a job lined up, then find one after they arrive. It is very doable, but it helps to know where to look and how the pieces fit together, including how your job affects your apartment search.
+
+**Quick answer:** You can find a job in Japan as a foreigner, and many arrive without one. The most common routes are English teaching (fastest, lowest bar), IT and engineering (strong demand, often little Japanese needed), and bilingual roles in finance, sales or hospitality. Use foreigner-friendly job boards, LinkedIn and recruiters, prepare a Japanese-style CV, and expect a few weeks to a few months. A standard work visa needs a job offer first, so timing matters.
+
+## Can you move to Japan without a job?
+Yes, on the right visa. A working holiday visa (for eligible nationalities, usually under 30) lets you arrive and job-hunt on the spot. Student and dependent visas allow part-time work. But a standard work visa requires a job offer and sponsorship before it is issued, so if you are not on a working holiday you usually secure the offer first. See our guide to [work visa types for foreigners](/en/blog/japan-work-visa-foreigners-guide).
+
+## Where to look for a job
+- **Foreigner-focused job boards.** Sites like Daijob, CareerCross and Jobs in Japan list bilingual and English-speaking roles across industries.
+- **LinkedIn.** Widely used by international companies and recruiters in Tokyo. Keep your profile in English and state your visa status.
+- **Bilingual recruiters and agencies.** They place foreigners in IT, finance and sales, and are free for candidates.
+- **Company career pages.** Global firms with Tokyo offices often hire directly.
+- **English teaching.** Eikaiwa schools and the JET Programme are the fastest entry point and commonly sponsor visas.
+
+## What jobs do foreigners actually land?
+The most accessible routes in 2026 are **English teaching** (lowest barrier, sponsorship common), **IT and engineering** (high demand, many roles need little or no Japanese), **finance and consulting** (for bilingual or specialised profiles), and **hospitality and tourism** (growing with inbound travel). Your Japanese level widens or narrows the field.
+
+## Do you need to speak Japanese?
+Not always. Teaching and a good share of tech jobs run in English. But conversational or business Japanese dramatically increases your options and pay, and it helps with daily life and, later, with renting: landlords are more comfortable with tenants who can communicate. Even basic Japanese on your CV is a plus.
+
+## Prepare a Japanese-style application
+Japanese employers often expect a **rirekisho** (a standard-format CV) alongside a Western resume, and sometimes a **shokumu-keirekisho** (a detailed work history). Keep it clean and factual, add a photo where expected, and be ready for a polite, structured interview. A calm, well-prepared candidate reassures a cautious employer.
+
+## Timeline: before or after you arrive
+Secure the offer **before arrival** if you need a standard work visa (the offer triggers the visa). **Arrive first, then search** if you are on a working holiday, student or dependent visa. Budget for a few weeks to a few months, and keep a financial cushion for rent and living costs while you look. Our [Tokyo cost-of-living guide](/en/blog/tokyo-expat-cost-of-living-2026) helps you size that buffer.
+
+## Your job and your apartment are linked
+This catches many newcomers: your **income and employment status directly affect which apartments will accept you**. Guarantor companies and landlords check income, and a stable job makes approval far easier. If you are still job-hunting on arrival, no-guarantor and furnished options (share houses, monthly apartments) bridge the gap. See [how to find an apartment in Tokyo as a foreigner](/en/blog/find-apartment-tokyo-foreigner).
+
+Finding a job and settling into a home are two halves of the same move. If you would like help lining up housing that fits your situation and timeline while you job-hunt, [tell us what you need](/en/contact) and we will guide you through it.
+
+*See also: [Japan Work Visa for Foreigners: Which Type to Choose](/en/blog/japan-work-visa-foreigners-guide), [Working in Tokyo as an Expat: Practical Guide 2026](/en/blog/working-in-tokyo-expat-guide-2026), [Cost of Living in Tokyo for Expats in 2026](/en/blog/tokyo-expat-cost-of-living-2026).*`.trim(),
+  },
+  {
+    slug: 'trouver-emploi-japon-etranger',
+    locale: 'fr',
+    title: 'Trouver un Emploi au Japon quand on est Etranger (2026)',
+    description: 'Vous partez au Japon sans emploi ? Ou chercher, quels metiers pour les etrangers, faut-il parler japonais, et comment votre travail conditionne la location d un logement.',
+    date: '2026-08-18',
+    readingTime: '7 min',
+    content: `
+Beaucoup partent au Japon sans emploi en poche, puis en trouvent un une fois sur place. C'est tout à fait faisable, mais il vaut mieux savoir où chercher et comment les pièces s'emboîtent, notamment le lien entre votre travail et votre recherche de logement.
+
+**Réponse rapide :** on peut trouver un emploi au Japon en tant qu'étranger, et beaucoup arrivent sans. Les voies les plus courantes : l'enseignement de l'anglais (le plus rapide, barrière la plus basse), l'IT et l'ingénierie (forte demande, souvent peu de japonais requis), et les postes bilingues en finance, vente ou hôtellerie. Utilisez les job boards pour étrangers, LinkedIn et les recruteurs, préparez un CV au format japonais, et comptez quelques semaines à quelques mois. Un visa de travail standard exige d'abord une offre, donc le timing compte.
+
+## Peut-on partir au Japon sans emploi ?
+Oui, avec le bon visa. Le PVT (vacances-travail, pour les nationalités éligibles, généralement moins de 30 ans) permet d'arriver et de chercher sur place. Les visas étudiant et personne à charge autorisent un temps partiel. Mais un visa de travail standard exige une offre et un sponsor avant d'être délivré : sans PVT, vous décrochez donc l'offre en premier. Voyez notre guide des [types de visa de travail](/fr/blog/visa-travail-japon-francophone-2026).
+
+## Où chercher un emploi
+- **Job boards pour étrangers.** Des sites comme Daijob, CareerCross et Jobs in Japan listent des postes bilingues et anglophones dans tous les secteurs.
+- **LinkedIn.** Très utilisé par les entreprises internationales et les recruteurs à Tokyo. Gardez un profil en anglais et indiquez votre statut de visa.
+- **Recruteurs bilingues.** Ils placent des étrangers en IT, finance et vente, et sont gratuits pour les candidats.
+- **Pages carrières des entreprises.** Les groupes mondiaux avec un bureau à Tokyo recrutent souvent en direct.
+- **Enseignement de l'anglais.** Les écoles eikaiwa et le programme JET sont l'entrée la plus rapide et sponsorisent souvent le visa.
+
+## Quels métiers pour les étrangers ?
+Les voies les plus accessibles en 2026 : **enseignement de l'anglais** (barrière la plus basse, sponsor fréquent), **IT et ingénierie** (forte demande, beaucoup de postes sans japonais), **finance et conseil** (profils bilingues ou spécialisés), et **hôtellerie et tourisme** (en croissance avec le tourisme). Votre niveau de japonais élargit ou réduit le champ.
+
+## Faut-il parler japonais ?
+Pas toujours. L'enseignement et une bonne partie des postes tech se font en anglais. Mais un japonais courant ou professionnel augmente fortement vos options et votre salaire, et facilite la vie quotidienne et, plus tard, la location : les propriétaires sont plus à l'aise avec un locataire qui peut communiquer. Même un japonais de base sur le CV est un plus.
+
+## Préparez une candidature au format japonais
+Les employeurs japonais attendent souvent un **rirekisho** (CV au format standard) en plus d'un CV occidental, et parfois un **shokumu-keirekisho** (historique de carrière détaillé). Restez clair et factuel, ajoutez une photo si attendu, et préparez un entretien poli et structuré. Un candidat calme et bien préparé rassure un employeur prudent.
+
+## Timing : avant ou après l'arrivée
+Décrochez l'offre **avant l'arrivée** s'il vous faut un visa de travail standard (l'offre déclenche le visa). **Arrivez d'abord, puis cherchez** si vous êtes en PVT, étudiant ou personne à charge. Prévoyez quelques semaines à quelques mois, et gardez un coussin financier pour le loyer et la vie courante pendant la recherche. Notre [guide du coût de la vie à Tokyo](/fr/blog/cout-vie-tokyo-expatrie-2026) aide à le dimensionner.
+
+## Votre emploi et votre logement sont liés
+C'est le piège de beaucoup de nouveaux arrivants : vos **revenus et votre statut d'emploi conditionnent directement les appartements qui vous accepteront**. Sociétés de garantie et propriétaires vérifient les revenus, et un emploi stable facilite l'accord. Si vous cherchez encore un job à l'arrivée, les options sans garant et meublées (share houses, appartements au mois) font le pont. Voyez [comment trouver un appartement à Tokyo en tant qu'étranger](/fr/blog/trouver-appartement-tokyo-etranger).
+
+Trouver un emploi et s'installer dans un logement sont les deux moitiés d'un même déménagement. Si vous voulez de l'aide pour caler un logement adapté à votre situation pendant votre recherche d'emploi, [dites-nous ce qu'il vous faut](/fr/contact) et on vous guide.
+
+*Voir aussi : [Visa travail au Japon pour les francophones](/fr/blog/visa-travail-japon-francophone-2026), [Travailler à Tokyo en tant qu'expatrié](/fr/blog/travailler-tokyo-expatrie-guide-2026), [Coût de la vie à Tokyo pour les expatriés](/fr/blog/cout-vie-tokyo-expatrie-2026).*`.trim(),
+  },
 ]
 
 // Mapping FR slug -> EN slug (articles jumeaux pour hreflang)
 export const TWIN_SLUGS: Record<string, string> = {
+  'trouver-emploi-japon-etranger':               'how-to-find-job-japan-foreigner',
   'cout-avoir-animal-tokyo':                     'cost-of-owning-pet-tokyo',
   'trouver-appartement-tokyo-etranger':          'find-apartment-tokyo-foreigner',
   'share-house-tokyo-guide-complet':             'share-house-tokyo-guide-2026',
