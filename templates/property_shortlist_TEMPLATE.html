@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<!--
+  ============================================================================
+  TOKYO EXPAT — PROPERTY SHORTLIST (reusable template, EN)
+  ----------------------------------------------------------------------------
+  HOW TO USE:
+   1. Duplicate per client:  shortlist_<client>_<date>.html
+   2. Fill every [BRACKET].
+   3. Add/remove an <article class="card"> block (1 per property).
+   4. Replace <div class="ph">...</div> with <img src="photo.jpg"> (photo in same folder).
+   5. Open in a browser -> Ctrl+P -> "Save as PDF" (A4).
+   6. IN THE PRINT DIALOG: uncheck "Headers and footers" (removes the URL/date),
+      and keep "Background graphics" on so the navy cover page prints.
+  ============================================================================
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Property Shortlist — Tokyo Expat</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+  :root{
+    --navy:#0f2744; --navy-light:#1a3a5c; --accent:#e84141; --accent-dark:#c73333;
+    --ink:#1f2430; --muted:#6b7280; --line:#e5e7eb; --soft:#f7f8fa;
+    --good:#0f7a4d; --bad:#a33; --max:920px;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0}
+  body{font-family:'Inter',-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    color:var(--ink); background:#fff; line-height:1.5; -webkit-font-smoothing:antialiased;
+    -webkit-print-color-adjust:exact; print-color-adjust:exact;}
+  .howto{background:#fffbe6; border:1px solid #f0e2a8; color:#6b5e1a; border-radius:10px;
+    padding:12px 16px; font-size:13px; margin:20px auto; max-width:var(--max)}
+  .howto b{color:#5a4d10}
+
+  .cover{background:var(--navy); color:#fff; min-height:100vh; display:flex; flex-direction:column;
+    align-items:center; justify-content:center; text-align:center; padding:60px 40px; position:relative;
+    page-break-after:always; break-after:page;}
+  .cover .mark{width:78px; height:78px; margin-bottom:22px}
+  .wordmark{font-size:42px; font-weight:900; letter-spacing:-1px; line-height:1}
+  .wordmark span{color:var(--accent); margin-left:10px}
+  .rule{width:64px; height:4px; background:var(--accent); border-radius:2px; margin:26px 0}
+  .cover-title{font-size:30px; font-weight:800; letter-spacing:.5px}
+  .cover-for{margin-top:14px; font-size:16px; color:#c7d2e0}
+  .cover-for b{color:#fff}
+  .cover-tag{margin-top:30px; font-size:15px; color:#9fb0c4; max-width:400px}
+  .cover-foot{position:absolute; bottom:30px; font-size:12.5px; color:#7f93aa; letter-spacing:.03em}
+
+  .wrap{max-width:var(--max); margin:0 auto; padding:30px 28px 56px}
+  header.brand{display:flex; align-items:center; justify-content:space-between;
+    border-bottom:2px solid var(--navy); padding-bottom:12px; margin-bottom:24px; gap:16px; flex-wrap:wrap;}
+  .brand .lockup{display:flex; align-items:center; gap:10px}
+  .brand .lockup svg{width:30px; height:30px}
+  .brand .name{font-size:19px; font-weight:800; letter-spacing:.2px; color:var(--navy)}
+  .brand .name span{color:var(--accent)}
+  .brand .doc{font-size:13px; color:var(--muted); text-align:right}
+  h1{font-size:26px; margin:4px 0 6px; color:var(--navy)}
+  .sub{color:var(--muted); font-size:15px; margin:0 0 22px}
+  .brief{background:var(--soft); border:1px solid var(--line); border-radius:12px; padding:18px 20px; margin:0 0 14px;}
+  .brief h2{font-size:13px; text-transform:uppercase; letter-spacing:.08em; color:var(--muted); margin:0 0 12px}
+  .brief-grid{display:grid; grid-template-columns:repeat(2,1fr); gap:10px 28px}
+  .brief-grid div{font-size:14px}
+  .brief-grid b{display:block; font-size:11px; text-transform:uppercase; letter-spacing:.05em; color:var(--muted); font-weight:700; margin-bottom:1px}
+  .context{font-size:14px; color:#374151; margin:14px 2px 30px}
+  .context .flex{color:var(--accent); font-weight:600}
+  .card{border:1px solid var(--line); border-radius:14px; overflow:hidden; margin:0 0 26px; break-inside:avoid; page-break-inside:avoid;}
+  .card-head{display:flex; align-items:center; gap:12px; padding:14px 18px; border-bottom:1px solid var(--line); background:#fff;}
+  .rank{flex:none; width:34px; height:34px; border-radius:9px; background:var(--navy); color:#fff; font-weight:800; font-size:15px; display:flex; align-items:center; justify-content:center;}
+  .card.top .rank{background:var(--accent)}
+  .card-head .t{font-size:17px; font-weight:700; margin:0; color:var(--navy)}
+  .card-head .fit{margin-left:auto; font-size:13px; font-weight:700; color:#fff; background:var(--accent); padding:4px 11px; border-radius:999px; white-space:nowrap}
+  .card:not(.top) .card-head .fit{background:var(--navy-light)}
+  .photos{display:grid; grid-template-columns:2fr 1fr 1fr; gap:4px; background:var(--line)}
+  .photos img{width:100%; height:150px; object-fit:cover; display:block}
+  .photos .ph{width:100%; height:150px; background:repeating-linear-gradient(45deg,#eef0f3,#eef0f3 10px,#e7e9ee 10px,#e7e9ee 20px); display:flex; align-items:center; justify-content:center; color:#9aa1ad; font-size:12px}
+  .body{display:grid; grid-template-columns:1.15fr 1fr; gap:0}
+  .specs, .costs{padding:16px 18px}
+  .specs{border-right:1px solid var(--line)}
+  .specs h3, .costs h3{font-size:11px; text-transform:uppercase; letter-spacing:.07em; color:var(--muted); margin:0 0 10px}
+  .kv{display:flex; justify-content:space-between; gap:10px; font-size:13.5px; padding:4px 0; border-bottom:1px dotted var(--line)}
+  .kv:last-child{border-bottom:0}
+  .kv b{font-weight:600; color:#374151; text-align:right}
+  .tags{margin-top:10px; display:flex; flex-wrap:wrap; gap:6px}
+  .tag{font-size:11.5px; background:var(--soft); border:1px solid var(--line); border-radius:6px; padding:2px 8px; color:#4b5563}
+  table.cost{width:100%; border-collapse:collapse; font-size:13.5px}
+  table.cost td{padding:4px 0; border-bottom:1px dotted var(--line)}
+  table.cost td.n{text-align:right; font-variant-numeric:tabular-nums; white-space:nowrap}
+  table.cost tr.movein td{font-weight:800; color:var(--accent)}
+  table.cost tr.total td{border-top:2px solid var(--navy); border-bottom:0; font-weight:800; padding-top:8px; font-size:14.5px; color:var(--navy)}
+  .take{padding:14px 18px; border-top:1px solid var(--line); background:var(--soft)}
+  .take h3{font-size:11px; text-transform:uppercase; letter-spacing:.07em; color:var(--muted); margin:0 0 10px}
+  .take-grid{display:grid; grid-template-columns:1fr 1fr; gap:8px 24px}
+  .take-grid ul{margin:0; padding-left:18px}
+  .take-grid li{font-size:13.5px; margin:2px 0}
+  .take-grid .pros li::marker{color:var(--good)}
+  .take-grid .cons li::marker{color:var(--bad)}
+  .col-h{font-size:12px; font-weight:800; margin:0 0 4px; color:var(--navy)}
+  .verdict{margin:12px 0 0; font-size:14px; font-style:italic; color:#374151}
+  .reco{border:2px solid var(--navy); border-radius:14px; padding:20px 22px; margin:34px 0 0; break-inside:avoid}
+  .reco h2{margin:0 0 8px; font-size:18px; color:var(--navy)}
+  .reco p{margin:0 0 10px; font-size:14.5px}
+  .steps{margin:6px 0 0; padding-left:20px; font-size:14px}
+  .steps li{margin:4px 0}
+  footer{margin-top:34px; padding-top:16px; border-top:1px solid var(--line); font-size:13px; color:var(--muted); display:flex; justify-content:space-between; flex-wrap:wrap; gap:8px}
+  footer a{color:var(--accent); text-decoration:none}
+  @media (max-width:640px){ .brief-grid,.body,.take-grid{grid-template-columns:1fr} .specs{border-right:0;border-bottom:1px solid var(--line)} .photos{grid-template-columns:1fr 1fr} }
+  @media print{ .howto{display:none} .wrap{max-width:none; padding:0} body{font-size:12.5px} a{color:inherit} .cover{height:247mm; min-height:247mm} @page{size:A4; margin:14mm} }
+</style>
+</head>
+<body>
+
+  <div class="howto">
+    <b>Template — delete this banner before sending.</b> Fill every [bracket], add/remove an
+    <code>&lt;article class="card"&gt;</code> per property, replace the photo boxes with real images,
+    then <b>Ctrl+P → Save as PDF (A4)</b> with <b>"Headers and footers" unchecked</b>.
+  </div>
+
+  <!-- ===================== COVER PAGE ===================== -->
+  <section class="cover">
+    <svg class="mark" viewBox="0 0 500 500" aria-hidden="true">
+      <polygon points="250,95 120,210 148,210 148,360 222,360 222,285 278,285 278,360 352,360 352,210 380,210" fill="#ffffff"/>
+      <rect x="224" y="216" width="52" height="46" rx="5" fill="#0f2744"/>
+    </svg>
+    <div class="wordmark">Tokyo<span>Expat</span></div>
+    <div class="rule"></div>
+    <div class="cover-title">Property Shortlist</div>
+    <div class="cover-for">Prepared for <b>[CLIENT NAME]</b> &middot; [DATE]</div>
+    <div class="cover-tag">Hand-picked homes, fully costed, and ranked by fit — so your decision is easy.</div>
+    <div class="cover-foot">tokyo-expat.com &middot; contact@tokyo-expat.com</div>
+  </section>
+
+  <div class="wrap">
+
+  <header class="brand">
+    <div class="lockup">
+      <svg viewBox="0 0 500 500" aria-hidden="true">
+        <circle cx="250" cy="250" r="245" fill="#0f2744"/>
+        <polygon points="250,105 130,210 155,210 155,345 220,345 220,280 280,280 280,345 345,345 345,210 370,210" fill="#ffffff"/>
+        <rect x="225" y="215" width="50" height="45" rx="4" fill="#0f2744"/>
+      </svg>
+      <div class="name">Tokyo <span>Expat</span></div>
+    </div>
+    <div class="doc">Property Shortlist<br>Prepared [DATE]</div>
+  </header>
+
+  <h1>Your shortlist, [CLIENT FIRST NAME]</h1>
+  <p class="sub">A hand-picked selection based on your brief, ranked by fit. Every cost is laid out in full — no surprises at signing.</p>
+
+  <section class="brief">
+    <h2>Your brief</h2>
+    <div class="brief-grid">
+      <div><b>Budget (monthly)</b>¥[MAX RENT] / mo</div>
+      <div><b>Areas / stations</b>[e.g. Nakameguro, Ebisu — 10 min walk max]</div>
+      <div><b>Layout &amp; size</b>[e.g. 1LDK, 40 m²+]</div>
+      <div><b>Move-in</b>[MONTH YEAR]</div>
+      <div><b>Must-haves</b>[e.g. furnished, pet-friendly, autolock]</div>
+      <div><b>Nice-to-have</b>[e.g. balcony, top floor]</div>
+    </div>
+  </section>
+
+  <p class="context">
+    I screened <span class="flex">[XX] listings</span> across multiple sources and selected the
+    <span class="flex">[X] best matches</span> below. For context, the median rent for a
+    [LAYOUT] in [WARD] is about <span class="flex">¥[MEDIAN]</span> — your picks sit
+    [below / around] that.
+  </p>
+
+  <!-- ============ PROPERTY CARD (duplicate this block per property) ============ -->
+  <article class="card top">
+    <div class="card-head">
+      <div class="rank">1</div>
+      <p class="t">[Property short name — e.g. Bright 1LDK, 6 min to Nakameguro]</p>
+      <div class="fit">Top pick · Strong match</div>
+    </div>
+    <div class="photos">
+      <!-- Replace .ph boxes with: <img src="photo1.jpg" alt=""> -->
+      <div class="ph">Main photo</div>
+      <div class="ph">Photo 2</div>
+      <div class="ph">Photo 3</div>
+    </div>
+    <div class="body">
+      <div class="specs">
+        <h3>The property</h3>
+        <div class="kv"><span>Nearest station</span><b>[Line · Station] — [X] min walk</b></div>
+        <div class="kv"><span>Ward / area</span><b>[Meguro-ku]</b></div>
+        <div class="kv"><span>Size</span><b>[40] m²</b></div>
+        <div class="kv"><span>Layout / floor</span><b>[1LDK] · [3F]</b></div>
+        <div class="kv"><span>Building age</span><b>[8] yrs</b></div>
+        <div class="kv"><span>Orientation</span><b>[South-facing]</b></div>
+        <div class="tags">
+          <span class="tag">Furnished</span><span class="tag">Pet-friendly</span>
+          <span class="tag">Autolock</span><span class="tag">[+ feature]</span>
+        </div>
+      </div>
+      <div class="costs">
+        <h3>Full cost breakdown</h3>
+        <table class="cost">
+          <tr><td>Monthly rent</td><td class="n">¥[XXX,XXX]</td></tr>
+          <tr><td>Maintenance (管理費)</td><td class="n">¥[X,XXX]</td></tr>
+          <tr class="movein"><td>Total monthly</td><td class="n">¥[XXX,XXX]</td></tr>
+          <tr><td>Deposit (敷金)</td><td class="n">¥[XXX,XXX]</td></tr>
+          <tr><td>Key money (礼金)</td><td class="n">¥[XXX,XXX]</td></tr>
+          <tr><td>Agency fee</td><td class="n">¥[XXX,XXX]</td></tr>
+          <tr><td>Guarantor</td><td class="n">¥[XX,XXX]</td></tr>
+          <tr><td>Other (fire ins. / lock)</td><td class="n">¥[XX,XXX]</td></tr>
+          <tr class="total"><td>Move-in total</td><td class="n">¥[X,XXX,XXX]</td></tr>
+        </table>
+      </div>
+    </div>
+    <div class="take">
+      <h3>My take</h3>
+      <div class="take-grid">
+        <div>
+          <p class="col-h">Why it fits</p>
+          <ul class="pros">
+            <li>[e.g. 8% below the ward median for this size]</li>
+            <li>[e.g. quiet back street, south light all day]</li>
+            <li>[e.g. landlord already accepts foreign tenants]</li>
+          </ul>
+        </div>
+        <div>
+          <p class="col-h">Watch-outs</p>
+          <ul class="cons">
+            <li>[e.g. no elevator]</li>
+            <li>[e.g. compact kitchen]</li>
+          </ul>
+        </div>
+      </div>
+      <p class="verdict">Verdict: [one honest line — e.g. "Best all-round value on your list; I'd move on this first."]</p>
+    </div>
+  </article>
+  <!-- ============ /PROPERTY CARD ============ -->
+
+  <!-- Duplicate the block above for #2, #3... Remove the "top" class for non-#1. -->
+
+  <section class="reco">
+    <h2>My recommendation</h2>
+    <p>If it were my move, I'd go for <b>[#1 — property name]</b>: [1-2 line reason tied to your priorities].
+       <b>[#2]</b> is the strong backup if [condition].</p>
+    <p><b>Next steps — I handle the hard part:</b></p>
+    <ol class="steps">
+      <li>Tell me which one(s) you'd like to view (or shortlist further).</li>
+      <li>I arrange the viewing and coordinate everything with the partner agency in Japanese.</li>
+      <li>I prepare your application and paperwork and make the case to the landlord.</li>
+      <li>You review and sign — I stay with you until you have the keys.</li>
+    </ol>
+  </section>
+
+  <footer>
+    <div>Tokyo Expat — relocation &amp; housing support in Tokyo</div>
+    <div><a href="https://www.tokyo-expat.com">tokyo-expat.com</a> · contact@tokyo-expat.com</div>
+  </footer>
+
+  </div>
+</body>
+</html>
