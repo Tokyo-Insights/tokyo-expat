@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!--
   ============================================================================
-  TOKYO EXPAT — PROPERTY SHORTLIST (reusable template, EN)
+  TOKYO EXPAT - PROPERTY SHORTLIST (reusable template, EN)
   ----------------------------------------------------------------------------
   HOW TO USE:
    1. Duplicate per client:  shortlist_<client>_<date>.html
@@ -17,7 +17,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Property Shortlist — Tokyo Expat</title>
+<title>Property Shortlist - Tokyo Expat</title>
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
   :root{
@@ -36,7 +36,7 @@
 
   .cover{background:var(--navy); color:#fff; min-height:100vh; display:flex; flex-direction:column;
     align-items:center; justify-content:center; text-align:center; padding:60px 40px; position:relative;
-    page-break-after:always; break-after:page;}
+    page-break-after:always; break-after:page; page:cover;}
   .cover .mark{width:78px; height:78px; margin-bottom:22px}
   .wordmark{font-size:42px; font-weight:900; letter-spacing:-1px; line-height:1}
   .wordmark span{color:var(--accent); margin-left:10px}
@@ -105,13 +105,13 @@
   footer{margin-top:34px; padding-top:16px; border-top:1px solid var(--line); font-size:13px; color:var(--muted); display:flex; justify-content:space-between; flex-wrap:wrap; gap:8px}
   footer a{color:var(--accent); text-decoration:none}
   @media (max-width:640px){ .brief-grid,.body,.take-grid{grid-template-columns:1fr} .specs{border-right:0;border-bottom:1px solid var(--line)} .photos{grid-template-columns:1fr 1fr} }
-  @media print{ .howto{display:none} .wrap{max-width:none; padding:0} body{font-size:12.5px} a{color:inherit} .cover{height:247mm; min-height:247mm} @page{size:A4; margin:14mm} }
+  @media print{ .howto{display:none} .wrap{max-width:none; padding:0} body{font-size:12.5px} a{color:inherit} .cover{width:210mm; height:297mm; min-height:0} @page{size:A4; margin:14mm} @page cover{size:A4; margin:0} }
 </style>
 </head>
 <body>
 
   <div class="howto">
-    <b>Template — delete this banner before sending.</b> Fill every [bracket], add/remove an
+    <b>Template - delete this banner before sending.</b> Fill every [bracket], add/remove an
     <code>&lt;article class="card"&gt;</code> per property, replace the photo boxes with real images,
     then <b>Ctrl+P → Save as PDF (A4)</b> with <b>"Headers and footers" unchecked</b>.
   </div>
@@ -126,7 +126,7 @@
     <div class="rule"></div>
     <div class="cover-title">Property Shortlist</div>
     <div class="cover-for">Prepared for <b>[CLIENT NAME]</b> &middot; [DATE]</div>
-    <div class="cover-tag">Hand-picked homes, fully costed, and ranked by fit — so your decision is easy.</div>
+    <div class="cover-tag">Hand-picked homes, fully costed, and ranked by fit - so your decision is easy.</div>
     <div class="cover-foot">tokyo-expat.com &middot; contact@tokyo-expat.com</div>
   </section>
 
@@ -145,13 +145,13 @@
   </header>
 
   <h1>Your shortlist, [CLIENT FIRST NAME]</h1>
-  <p class="sub">A hand-picked selection based on your brief, ranked by fit. Every cost is laid out in full — no surprises at signing.</p>
+  <p class="sub">A hand-picked selection based on your brief, ranked by fit. Every cost is laid out in full - no surprises at signing.</p>
 
   <section class="brief">
     <h2>Your brief</h2>
     <div class="brief-grid">
       <div><b>Budget (monthly)</b>¥[MAX RENT] / mo</div>
-      <div><b>Areas / stations</b>[e.g. Nakameguro, Ebisu — 10 min walk max]</div>
+      <div><b>Areas / stations</b>[e.g. Nakameguro, Ebisu - 10 min walk max]</div>
       <div><b>Layout &amp; size</b>[e.g. 1LDK, 40 m²+]</div>
       <div><b>Move-in</b>[MONTH YEAR]</div>
       <div><b>Must-haves</b>[e.g. furnished, pet-friendly, autolock]</div>
@@ -162,7 +162,7 @@
   <p class="context">
     I screened <span class="flex">[XX] listings</span> across multiple sources and selected the
     <span class="flex">[X] best matches</span> below. For context, the median rent for a
-    [LAYOUT] in [WARD] is about <span class="flex">¥[MEDIAN]</span> — your picks sit
+    [LAYOUT] in [WARD] is about <span class="flex">¥[MEDIAN]</span> - your picks sit
     [below / around] that.
   </p>
 
@@ -170,7 +170,7 @@
   <article class="card top">
     <div class="card-head">
       <div class="rank">1</div>
-      <p class="t">[Property short name — e.g. Bright 1LDK, 6 min to Nakameguro]</p>
+      <p class="t">[Property short name - e.g. Bright 1LDK, 6 min to Nakameguro]</p>
       <div class="fit">Top pick · Strong match</div>
     </div>
     <div class="photos">
@@ -182,7 +182,7 @@
     <div class="body">
       <div class="specs">
         <h3>The property</h3>
-        <div class="kv"><span>Nearest station</span><b>[Line · Station] — [X] min walk</b></div>
+        <div class="kv"><span>Nearest station</span><b>[Line · Station] - [X] min walk</b></div>
         <div class="kv"><span>Ward / area</span><b>[Meguro-ku]</b></div>
         <div class="kv"><span>Size</span><b>[40] m²</b></div>
         <div class="kv"><span>Layout / floor</span><b>[1LDK] · [3F]</b></div>
@@ -227,7 +227,7 @@
           </ul>
         </div>
       </div>
-      <p class="verdict">Verdict: [one honest line — e.g. "Best all-round value on your list; I'd move on this first."]</p>
+      <p class="verdict">Verdict: [one honest line - e.g. "Best all-round value on your list; I'd move on this first."]</p>
     </div>
   </article>
   <!-- ============ /PROPERTY CARD ============ -->
@@ -236,19 +236,19 @@
 
   <section class="reco">
     <h2>My recommendation</h2>
-    <p>If it were my move, I'd go for <b>[#1 — property name]</b>: [1-2 line reason tied to your priorities].
+    <p>If it were my move, I'd go for <b>[#1 - property name]</b>: [1-2 line reason tied to your priorities].
        <b>[#2]</b> is the strong backup if [condition].</p>
-    <p><b>Next steps — I handle the hard part:</b></p>
+    <p><b>Next steps - I handle the hard part:</b></p>
     <ol class="steps">
       <li>Tell me which one(s) you'd like to view (or shortlist further).</li>
       <li>I arrange the viewing and coordinate everything with the partner agency in Japanese.</li>
       <li>I prepare your application and paperwork and make the case to the landlord.</li>
-      <li>You review and sign — I stay with you until you have the keys.</li>
+      <li>You review and sign - I stay with you until you have the keys.</li>
     </ol>
   </section>
 
   <footer>
-    <div>Tokyo Expat — relocation &amp; housing support in Tokyo</div>
+    <div>Tokyo Expat - relocation &amp; housing support in Tokyo</div>
     <div><a href="https://www.tokyo-expat.com">tokyo-expat.com</a> · contact@tokyo-expat.com</div>
   </footer>
 

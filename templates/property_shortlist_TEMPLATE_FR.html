@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!--
   ============================================================================
-  TOKYO EXPAT — SELECTION DE BIENS (template reutilisable, FR)
+  TOKYO EXPAT - SELECTION DE BIENS (template reutilisable, FR)
   ----------------------------------------------------------------------------
   MODE D'EMPLOI :
    1. Duplique ce fichier par client : selection_<client>_<date>.html
@@ -17,7 +17,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Sélection de biens — Tokyo Expat</title>
+<title>Sélection de biens - Tokyo Expat</title>
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
   :root{
@@ -36,7 +36,7 @@
 
   .cover{background:var(--navy); color:#fff; min-height:100vh; display:flex; flex-direction:column;
     align-items:center; justify-content:center; text-align:center; padding:60px 40px; position:relative;
-    page-break-after:always; break-after:page;}
+    page-break-after:always; break-after:page; page:cover;}
   .cover .mark{width:78px; height:78px; margin-bottom:22px}
   .wordmark{font-size:42px; font-weight:900; letter-spacing:-1px; line-height:1}
   .wordmark span{color:var(--accent); margin-left:10px}
@@ -105,13 +105,13 @@
   footer{margin-top:34px; padding-top:16px; border-top:1px solid var(--line); font-size:13px; color:var(--muted); display:flex; justify-content:space-between; flex-wrap:wrap; gap:8px}
   footer a{color:var(--accent); text-decoration:none}
   @media (max-width:640px){ .brief-grid,.body,.take-grid{grid-template-columns:1fr} .specs{border-right:0;border-bottom:1px solid var(--line)} .photos{grid-template-columns:1fr 1fr} }
-  @media print{ .howto{display:none} .wrap{max-width:none; padding:0} body{font-size:12.5px} a{color:inherit} .cover{height:247mm; min-height:247mm} @page{size:A4; margin:14mm} }
+  @media print{ .howto{display:none} .wrap{max-width:none; padding:0} body{font-size:12.5px} a{color:inherit} .cover{width:210mm; height:297mm; min-height:0} @page{size:A4; margin:14mm} @page cover{size:A4; margin:0} }
 </style>
 </head>
 <body>
 
   <div class="howto">
-    <b>Template — supprime cet encart avant d'envoyer.</b> Remplis les [crochets], ajoute/retire un
+    <b>Template - supprime cet encart avant d'envoyer.</b> Remplis les [crochets], ajoute/retire un
     <code>&lt;article class="card"&gt;</code> par bien, remplace les cases photo par tes images, puis
     <b>Ctrl+P → Enregistrer en PDF (A4)</b> en <b>décochant "En-têtes et pieds de page"</b>.
   </div>
@@ -126,7 +126,7 @@
     <div class="rule"></div>
     <div class="cover-title">Sélection de biens</div>
     <div class="cover-for">Préparé pour <b>[PRÉNOM CLIENT]</b> &middot; [DATE]</div>
-    <div class="cover-tag">Des biens triés sur le volet, entièrement chiffrés et classés selon vos critères — pour une décision facile.</div>
+    <div class="cover-tag">Des biens triés sur le volet, entièrement chiffrés et classés selon vos critères - pour une décision facile.</div>
     <div class="cover-foot">tokyo-expat.com &middot; contact@tokyo-expat.com</div>
   </section>
 
@@ -145,13 +145,13 @@
   </header>
 
   <h1>Votre sélection, [PRÉNOM CLIENT]</h1>
-  <p class="sub">Une sélection personnalisée selon votre brief, classée par pertinence. Tous les coûts sont détaillés — aucune surprise à la signature.</p>
+  <p class="sub">Une sélection personnalisée selon votre brief, classée par pertinence. Tous les coûts sont détaillés - aucune surprise à la signature.</p>
 
   <section class="brief">
     <h2>Votre brief</h2>
     <div class="brief-grid">
       <div><b>Budget (mensuel)</b>¥[LOYER MAX] / mois</div>
-      <div><b>Zones / stations</b>[ex. Nakameguro, Ebisu — 10 min à pied max]</div>
+      <div><b>Zones / stations</b>[ex. Nakameguro, Ebisu - 10 min à pied max]</div>
       <div><b>Type &amp; surface</b>[ex. 1LDK, 40 m²+]</div>
       <div><b>Emménagement</b>[MOIS ANNÉE]</div>
       <div><b>Indispensables</b>[ex. meublé, animaux OK, autolock]</div>
@@ -162,7 +162,7 @@
   <p class="context">
     J'ai passé en revue <span class="flex">[XX] annonces</span> sur plusieurs sources et sélectionné les
     <span class="flex">[X] meilleures</span> ci-dessous. À titre de repère, la médiane pour un
-    [TYPE] à [ARRONDISSEMENT] est d'environ <span class="flex">¥[MÉDIANE]</span> — vos choix se situent
+    [TYPE] à [ARRONDISSEMENT] est d'environ <span class="flex">¥[MÉDIANE]</span> - vos choix se situent
     [en dessous / autour].
   </p>
 
@@ -170,7 +170,7 @@
   <article class="card top">
     <div class="card-head">
       <div class="rank">1</div>
-      <p class="t">[Nom court du bien — ex. Beau 1LDK, 6 min de Nakameguro]</p>
+      <p class="t">[Nom court du bien - ex. Beau 1LDK, 6 min de Nakameguro]</p>
       <div class="fit">Coup de cœur · Idéal</div>
     </div>
     <div class="photos">
@@ -182,7 +182,7 @@
     <div class="body">
       <div class="specs">
         <h3>Le bien</h3>
-        <div class="kv"><span>Station la plus proche</span><b>[Ligne · Station] — [X] min à pied</b></div>
+        <div class="kv"><span>Station la plus proche</span><b>[Ligne · Station] - [X] min à pied</b></div>
         <div class="kv"><span>Arrondissement / quartier</span><b>[Meguro-ku]</b></div>
         <div class="kv"><span>Surface</span><b>[40] m²</b></div>
         <div class="kv"><span>Type / étage</span><b>[1LDK] · [3F]</b></div>
@@ -227,7 +227,7 @@
           </ul>
         </div>
       </div>
-      <p class="verdict">Verdict : [une ligne honnête — ex. "Meilleur rapport qualité-prix de la liste ; je foncerais dessus."]</p>
+      <p class="verdict">Verdict : [une ligne honnête - ex. "Meilleur rapport qualité-prix de la liste ; je foncerais dessus."]</p>
     </div>
   </article>
   <!-- ============ /FICHE-BIEN ============ -->
@@ -236,19 +236,19 @@
 
   <section class="reco">
     <h2>Ma recommandation</h2>
-    <p>Si c'était mon choix, je partirais sur <b>[#1 — nom du bien]</b> : [1-2 lignes de justification liées à vos priorités].
+    <p>Si c'était mon choix, je partirais sur <b>[#1 - nom du bien]</b> : [1-2 lignes de justification liées à vos priorités].
        <b>[#2]</b> est la solution de repli si [condition].</p>
-    <p><b>Prochaines étapes — je m'occupe du plus dur :</b></p>
+    <p><b>Prochaines étapes - je m'occupe du plus dur :</b></p>
     <ol class="steps">
       <li>Dites-moi le(s) bien(s) que vous souhaitez visiter (ou affiner).</li>
       <li>J'organise la visite et je coordonne tout avec l'agence partenaire en japonais.</li>
-      <li>Je prépare votre dossier, le garant et les documents — et je plaide votre cause auprès du propriétaire.</li>
+      <li>Je prépare votre dossier, le garant et les documents - et je plaide votre cause auprès du propriétaire.</li>
       <li>Vous relisez et signez. Je reste avec vous jusqu'à la remise des clés.</li>
     </ol>
   </section>
 
   <footer>
-    <div>Tokyo Expat — accompagnement relocation &amp; logement à Tokyo</div>
+    <div>Tokyo Expat - accompagnement relocation &amp; logement à Tokyo</div>
     <div><a href="https://www.tokyo-expat.com">tokyo-expat.com</a> · contact@tokyo-expat.com</div>
   </footer>
 
