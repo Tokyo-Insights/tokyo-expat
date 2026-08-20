@@ -1,0 +1,86 @@
+{
+  "generated": "2026-08-20T08:18:20.804757",
+  "site": "sc-domain:tokyo-expat.com",
+  "results": [
+    {
+      "url": "https://www.tokyo-expat.com/en/contact?type=appartement",
+      "coverageState": "Page en double sans URL canonique sélectionnée par l'utilisateur",
+      "googleCanonical": "https://www.tokyo-expat.com/en/contact",
+      "userCanonical": "",
+      "lastCrawlTime": "2026-08-18T12:31:18Z",
+      "verdict": "BENIN (URL a parametre -> Google consolide sur la version propre; normal)"
+    },
+    {
+      "url": "https://www.tokyo-expat.com/fr",
+      "coverageState": "Page en double sans URL canonique sélectionnée par l'utilisateur",
+      "googleCanonical": "https://www.tokyo-expat.com/",
+      "userCanonical": "",
+      "lastCrawlTime": "2026-08-14T00:19:00Z",
+      "verdict": "page en double sans url canonique sélectionnée par l'utilisateur"
+    },
+    {
+      "url": "https://www.tokyo-expat.com/fr/contact?type=appartement",
+      "coverageState": "Page en double sans URL canonique sélectionnée par l'utilisateur",
+      "googleCanonical": "https://www.tokyo-expat.com/fr/contact",
+      "userCanonical": "",
+      "lastCrawlTime": "2026-07-31T05:56:48Z",
+      "verdict": "BENIN (URL a parametre -> Google consolide sur la version propre; normal)"
+    },
+    {
+      "url": "https://www.tokyo-expat.com/fr/blog/appartement-tokyo-septembre-guide",
+      "coverageState": "Page en double sans URL canonique sélectionnée par l'utilisateur",
+      "googleCanonical": "https://www.tokyo-expat.com/blog/appartement-tokyo-septembre-guide",
+      "userCanonical": "",
+      "lastCrawlTime": "2026-07-22T00:42:08Z",
+      "verdict": "page en double sans url canonique sélectionnée par l'utilisateur"
+    },
+    {
+      "url": "https://www.tokyo-expat.com/fr/blog/frais-caches-location-tokyo",
+      "coverageState": "Page en double sans URL canonique sélectionnée par l'utilisateur",
+      "googleCanonical": "https://www.tokyo-expat.com/blog/frais-caches-location-tokyo",
+      "userCanonical": "",
+      "lastCrawlTime": "2026-06-28T12:31:56Z",
+      "verdict": "page en double sans url canonique sélectionnée par l'utilisateur"
+    },
+    {
+      "url": "https://www.tokyo-expat.com/fr/blog/quartiers-tokyo-expatries-guide",
+      "coverageState": "Page en double sans URL canonique sélectionnée par l'utilisateur",
+      "googleCanonical": "https://www.tokyo-expat.com/blog/quartiers-tokyo-expatries-guide",
+      "userCanonical": "",
+      "lastCrawlTime": "2026-06-28T09:22:05Z",
+      "verdict": "page en double sans url canonique sélectionnée par l'utilisateur"
+    },
+    {
+      "url": "https://www.tokyo-expat.com/fr/blog/pieges-location-tokyo-etranger",
+      "coverageState": "Page en double sans URL canonique sélectionnée par l'utilisateur",
+      "googleCanonical": "https://www.tokyo-expat.com/blog/pieges-location-tokyo-etranger",
+      "userCanonical": "",
+      "lastCrawlTime": "2026-06-25T14:14:58Z",
+      "verdict": "page en double sans url canonique sélectionnée par l'utilisateur"
+    },
+    {
+      "url": "https://www.tokyo-expat.com/fr/blog/service-chasseur-immobilier-tokyo-comment-ca-marche",
+      "coverageState": "Page en double sans URL canonique sélectionnée par l'utilisateur",
+      "googleCanonical": "https://www.tokyo-expat.com/blog/service-chasseur-immobilier-tokyo-comment-ca-marche",
+      "userCanonical": "",
+      "lastCrawlTime": "2026-06-25T08:56:03Z",
+      "verdict": "page en double sans url canonique sélectionnée par l'utilisateur"
+    },
+    {
+      "url": "https://www.tokyo-expat.com/fr/blog/assurance-maladie-japon-expatrie",
+      "coverageState": "Page en double sans URL canonique sélectionnée par l'utilisateur",
+      "googleCanonical": "https://www.tokyo-expat.com/blog/assurance-maladie-japon-expatrie",
+      "userCanonical": "",
+      "lastCrawlTime": "2026-06-21T19:38:48Z",
+      "verdict": "page en double sans url canonique sélectionnée par l'utilisateur"
+    },
+    {
+      "url": "https://www.tokyo-expat.com/fr/blog/impots-revenus-japon-expatrie-2026",
+      "coverageState": "Page en double sans URL canonique sélectionnée par l'utilisateur",
+      "googleCanonical": "https://www.tokyo-expat.com/blog/impots-revenus-japon-expatrie-2026",
+      "userCanonical": "",
+      "lastCrawlTime": "2026-06-21T16:58:50Z",
+      "verdict": "page en double sans url canonique sélectionnée par l'utilisateur"
+    }
+  ]
+}

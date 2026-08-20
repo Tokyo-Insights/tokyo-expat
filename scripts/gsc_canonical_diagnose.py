@@ -87,11 +87,20 @@ def resolve_site(token: str) -> str:
 
 def inspect(token: str, site_url: str, page_url: str, lang="fr") -> dict:
     body = {"inspectionUrl": page_url, "siteUrl": site_url, "languageCode": lang}
-    r = requests.post(INSPECT_URL, headers={"Authorization": f"Bearer {token}"},
-                      json=body, verify=VERIFY_SSL, timeout=60)
-    if r.status_code != 200:
-        return {"_error": f"{r.status_code}: {r.text[:200]}"}
-    return r.json().get("inspectionResult", {})
+    for attempt in range(3):
+        try:
+            r = requests.post(INSPECT_URL, headers={"Authorization": f"Bearer {token}"},
+                              json=body, verify=VERIFY_SSL, timeout=90)
+        except Exception as e:
+            if attempt < 2:
+                time.sleep(3)
+                continue
+            return {"_error": f"timeout/exception: {str(e)[:150]}"}
+        if r.status_code != 200:
+            return {"_error": f"{r.status_code}: {r.text[:200]}"}
+        # Les champs (coverageState, googleCanonical...) sont sous indexStatusResult
+        return r.json().get("inspectionResult", {}).get("indexStatusResult", {})
+    return {"_error": "unknown"}
 
 
 def diagnose(page_url: str, idx: dict) -> str:
@@ -101,6 +110,13 @@ def diagnose(page_url: str, idx: dict) -> str:
     uc = idx.get("userCanonical", "")
     if "?" in page_url:
         return "BENIN (URL a parametre -> Google consolide sur la version propre; normal)"
+    # Google retient une canonique SANS prefixe de langue (/fr|/en manquant) = crawl perime/legacy
+    if gc:
+        gc_path = gc.replace("https://www.tokyo-expat.com", "")
+        import re as _re
+        if not _re.match(r"^/(fr|en)(/|$)", gc_path):
+            return ("LEGACY/CRAWL PERIME (Google retient l'URL SANS langue -> "
+                    "demander reindexation en GSC; sitemap+canonicals actuels sont OK)")
     if "duplicate" in cov and "user-selected" in cov:
         if gc and uc and gc != uc:
             return "A VERIFIER (Google ignore ta canonique -> cannibalisation/contenu trop proche)"

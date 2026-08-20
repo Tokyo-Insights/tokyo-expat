@@ -148,6 +148,41 @@ MUNITIONS = {
         "tags_en": "tokyo,japan,japanese landlords,foreigner housing,guarantor,bilingual agent,rent in tokyo",
         "tags_fr": "tokyo,japon,proprietaires japonais,logement etranger,garant,agent bilingue,vivre au japon",
     },
+    "M7": {
+        "chart_en": "furnished-premium-short-en.png", "chart_fr": "furnished-premium-short-fr.png",
+        "out_en": "furnished-premium-tokyo-en", "out_fr": "cout-meuble-tokyo-fr",
+        # B-roll DEDIE (intérieurs meublés Mixkit, libres) + 3 plans Tokyo pour le contexte.
+        "clips": ["furn0.mp4", "furn2.mp4", "tk00.mp4", "furn1.mp4", "__CHART__",
+                  "furn3.mp4", "tk02.mp4", "furn4.mp4", "tk05.mp4"],
+        "emph_en": ["HIDDEN", "TRAP", "CHEAPEST", "MINATO", "KATSUSHIKA", "DOUBLES", "PERCENT"],
+        "emph_fr": ["MOINS", "CHERS", "MINATO", "KATSUSHIKA", "DOUBLE", "VIDE"],
+        "cover_en": "UP TO +98%|THE FURNISHED TRAP",
+        "cover_fr": "JUSQU'A +98%|LE PIEGE DU MEUBLE",
+        "script_en": ("Furnished apartments in Tokyo look convenient, but here is the hidden cost. A furnished one K "
+            "studio can cost twenty to nearly one hundred percent more per month than the same place empty. And here is "
+            "the trap: the premium is biggest in the cheapest wards, not the priciest. In central Minato it is about plus "
+            "twenty percent. In cheaper Katsushika, furnished nearly doubles the rent. So going furnished costs the most "
+            "exactly where you moved to save. Do the math at tokyo-expat dot com."),
+        "script_fr": ("Un appartement meublé à Tokyo paraît pratique, mais voici le coût caché. Un studio one K meublé "
+            "peut coûter vingt à près de cent pour cent de plus par mois que le même vide. Et voici le piège: le surcoût "
+            "est le plus élevé dans les wards les moins chers, pas les plus chers. À Minato, en centre-ville: environ plus "
+            "vingt pour cent. À Katsushika, moins cher: le meublé double presque le loyer. Donc prendre meublé coûte le "
+            "plus cher là où tu voulais économiser. Fais le calcul sur tokyo-expat point com."),
+        "title_en": "Furnished apartments in Tokyo cost up to 98% more (the trap) \U0001F1EF\U0001F1F5",
+        "title_fr": "Un meublé à Tokyo coûte jusqu'à 98% de plus (le piège) \U0001F1EF\U0001F1F5",
+        "cap_en": ("Furnished apartments in Tokyo look convenient, but here is the hidden cost \U0001F1EF\U0001F1F5 A furnished "
+            "1K can cost 20% to ~98% more per month than the same place empty. The trap: the premium is biggest in the "
+            "CHEAPEST wards, not the priciest. Minato ~+20%; Katsushika nearly doubles the rent. Going furnished costs the "
+            "most exactly where you moved to save. Do the math at tokyo-expat.com \U0001F449 "
+            "#tokyo #japan #movingtojapan #livinginjapan #expatlife #tokyoapartment #japanrealestate #furnishedapartment"),
+        "cap_fr": ("Un meublé à Tokyo paraît pratique, mais voici le coût caché \U0001F1EF\U0001F1F5 Un 1K meublé peut coûter "
+            "20% à ~98% de plus par mois que le même vide. Le piège : le surcoût est le plus élevé dans les wards les MOINS "
+            "chers, pas les plus chers. Minato ~+20% ; Katsushika double presque le loyer. Prendre meublé coûte le plus cher "
+            "là où tu voulais économiser. Fais le calcul sur tokyo-expat.com \U0001F449 "
+            "#tokyo #japon #expatjapon #vivreautokyo #logementtokyo #immobilierjapon #sinstalleraujapon #meuble"),
+        "tags_en": "tokyo,japan,furnished apartment,tokyo rent,moving to japan,tokyo apartment,living in japan,expat",
+        "tags_fr": "tokyo,japon,appartement meuble,loyer tokyo,emmenager tokyo,logement tokyo,vivre au japon,immobilier japon",
+    },
 }
 
 # Cadence optimale (recherche 2026): 3x/sem par langue. Social Champ en JST.
