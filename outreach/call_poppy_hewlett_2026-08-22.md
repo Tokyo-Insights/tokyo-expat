@@ -1,5 +1,8 @@
 # Fiche d'appel — Poppy Hewlett (Free Discovery Call)
 
+> **STATUT 21/08** : elle a ACCEPTE l'invitation calendrier (confirmee). **Mot pre-appel ENVOYE 21/08** (rappel horaire + desamorce la peur "louer sans job" + retourne l'epargne en atout + demande budget/quartiers/statut). Appel = **DEMAIN samedi 22/08 18h JST**. Apres l'appel: recap + devis forfait (modele paiement-d'abord).
+
+
 **Quand :** samedi 22 aout 2026, **18h00 JST** (= 10h00 UK). Google Meet (lien dans l'email Calendly).
 **Contact :** poppyhewlett7@gmail.com — fuseau UK/Irlande.
 **Parcours :** lead-magnet-checklist -> reservation Calendly = lead CHAUD (a consomme le contenu puis reserve).
