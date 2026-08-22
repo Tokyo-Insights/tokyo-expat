@@ -1,69 +1,71 @@
 {
-  "generated_at": "2026-08-17",
-  "period": "2026-08-10 to 2026-08-17",
+  "generated_at": "2026-08-23",
+  "period": "2026-08-16 to 2026-08-23",
   "this_week": {
-    "sessions": 259,
-    "users": 222,
-    "pageviews": 317,
-    "bounce_rate": 0.7181467181467182
+    "sessions": 306,
+    "users": 269,
+    "pageviews": 341,
+    "bounce_rate": 0.7189542483660131
   },
   "prev_week": {
-    "sessions": 262,
-    "users": 222,
-    "pageviews": 345,
-    "bounce_rate": 0.6374045801526718
+    "sessions": 248,
+    "users": 214,
+    "pageviews": 305,
+    "bounce_rate": 0.6733870967741935
   },
   "changes": {
-    "sessions": "-1%",
-    "users": "+0%",
-    "pageviews": "-8%"
+    "sessions": "+23%",
+    "users": "+26%",
+    "pageviews": "+12%"
   },
   "top_pages": [
-    [
-      "/en/blog/tokyo-expat-cost-of-living-2026",
-      "26"
-    ],
     [
       "/en",
       "24"
     ],
     [
       "/en/data",
-      "21"
+      "24"
     ],
     [
-      "/en/blog/japan-work-visa-foreigners-guide",
-      "14"
+      "/en/blog/japan-sim-card-foreigners-2026",
+      "23"
     ],
     [
-      "/fr",
-      "13"
+      "/en/blog/bank-transfer-japan-furikomi-guide",
+      "15"
+    ],
+    [
+      "/en/blog/tokyo-expat-cost-of-living-2026",
+      "15"
     ]
   ],
   "top_sources": [
     [
       "Direct",
-      "153"
+      "156"
     ],
     [
       "Organic Search",
-      "73"
+      "88"
     ],
     [
       "AI Assistant",
-      "22"
+      "41"
     ]
   ],
-  "form_submits_week": 4,
+  "form_submits_week": 2,
   "events": {
-    "page_view": 317,
-    "session_start": 260,
-    "first_visit": 219,
-    "user_engagement": 114,
-    "scroll": 29,
-    "form_start": 4,
-    "generate_lead": 4,
-    "file_download": 3,
+    "page_view": 341,
+    "session_start": 307,
+    "first_visit": 268,
+    "user_engagement": 133,
+    "scroll": 32,
+    "click": 2,
+    "form_start": 2,
+    "generate_lead": 2,
+    "book_call_click": 1,
+    "file_download": 1,
     "select_consultation": 1
   }
 }

@@ -1,55 +1,55 @@
 {
-  "generated_at": "2026-08-17",
-  "period": "2026-07-20 to 2026-08-16",
+  "generated_at": "2026-08-23",
+  "period": "2026-07-26 to 2026-08-22",
   "property": "sc-domain:tokyo-expat.com",
   "totals": {
-    "clicks": 77,
-    "impressions": 16057,
-    "ctr_pct": 0.48,
-    "position": 21.5
+    "clicks": 78,
+    "impressions": 17487,
+    "ctr_pct": 0.45,
+    "position": 20.9
   },
   "top_queries": [
     {
       "query": "jiko bukken for sale",
       "clicks": 4,
-      "impressions": 18,
-      "position": 8.9
-    },
-    {
-      "query": "furnished apartment tokyo",
-      "clicks": 1,
-      "impressions": 173,
-      "position": 27.3
+      "impressions": 14,
+      "position": 8.2
     },
     {
       "query": "gaijin house",
       "clicks": 1,
-      "impressions": 86,
-      "position": 14.8
+      "impressions": 97,
+      "position": 13.1
     },
     {
       "query": "gaijin house tokyo",
       "clicks": 1,
-      "impressions": 91,
-      "position": 7.6
+      "impressions": 97,
+      "position": 7.2
     },
     {
       "query": "gaijin houses tokyo",
       "clicks": 1,
-      "impressions": 67,
-      "position": 11.3
+      "impressions": 131,
+      "position": 9.5
     },
     {
       "query": "\"how to find an apartment in tokyo as a foreigner\"",
       "clicks": 0,
-      "impressions": 6,
-      "position": 3.8
+      "impressions": 5,
+      "position": 4
     },
     {
       "query": "0120-995-113",
       "clicks": 0,
       "impressions": 2,
       "position": 6
+    },
+    {
+      "query": "1 година",
+      "clicks": 0,
+      "impressions": 1,
+      "position": 2
     },
     {
       "query": "1ldk tokyo",
@@ -78,38 +78,50 @@
     {
       "query": "about me: corporate relocator corporate relocator question: how do i find multi-bedroom apartments for my family in tokyo?",
       "clicks": 0,
-      "impressions": 4,
-      "position": 7.5
+      "impressions": 5,
+      "position": 8.2
     },
     {
       "query": "about me: corporate relocator corporate relocator question: what are good accommodation options for families moving to tokyo?",
       "clicks": 0,
-      "impressions": 4,
-      "position": 2
+      "impressions": 6,
+      "position": 6.2
     },
     {
       "query": "about me: corporate relocator corporate relocator question: what is the minimum rental period for a furnished apartment in tokyo?",
       "clicks": 0,
-      "impressions": 4,
-      "position": 7.2
+      "impressions": 5,
+      "position": 6.6
     },
     {
       "query": "about me: corporate relocator corporate relocator question: where in tokyo can families find quiet and child-friendly amenities?",
       "clicks": 0,
-      "impressions": 4,
-      "position": 14
+      "impressions": 6,
+      "position": 13.5
     },
     {
       "query": "about me: corporate relocator corporate relocator question: which parts of tokyo are more family-oriented?",
       "clicks": 0,
-      "impressions": 7,
-      "position": 6.6
+      "impressions": 10,
+      "position": 6.8
+    },
+    {
+      "query": "about me: corporate relocator corporate relocator question: which parts of tokyo are popular with young professionals?",
+      "clicks": 0,
+      "impressions": 1,
+      "position": 11
     },
     {
       "query": "about me: digital nomad digital nomad question: what are good accommodation options for families moving to tokyo?",
       "clicks": 0,
       "impressions": 5,
       "position": 10
+    },
+    {
+      "query": "about me: digital nomad digital nomad question: what is the minimum rental period for a furnished apartment in tokyo?",
+      "clicks": 0,
+      "impressions": 2,
+      "position": 9
     },
     {
       "query": "about me: digital nomad digital nomad question: which parts of tokyo are more family-oriented?",
@@ -126,75 +138,68 @@
     {
       "query": "about me: international student international student question: what is the minimum rental period for a furnished apartment in tokyo?",
       "clicks": 0,
-      "impressions": 2,
-      "position": 9.5
+      "impressions": 4,
+      "position": 9.8
     },
     {
       "query": "about me: international student international student question: which parts of tokyo are more family-oriented?",
       "clicks": 0,
-      "impressions": 3,
-      "position": 6.7
+      "impressions": 4,
+      "position": 9.2
     },
     {
       "query": "about me: international student international student question: which parts of tokyo are popular with young professionals?",
       "clicks": 0,
-      "impressions": 2,
-      "position": 17
-    },
-    {
-      "query": "about me: remote professional remote professional question: what are good accommodation options for families moving to tokyo?",
-      "clicks": 0,
-      "impressions": 5,
-      "position": 9
-    },
-    {
-      "query": "about me: remote professional remote professional question: which parts of tokyo are more family-oriented?",
-      "clicks": 0,
-      "impressions": 5,
+      "impressions": 3,
       "position": 13
     },
     {
-      "query": "about me: short-term life transition user short-term life transition user question: which parts of tokyo are more family-oriented?",
+      "query": "about me: remote professional remote professional question: how do i find multi-bedroom apartments for my family in tokyo?",
       "clicks": 0,
-      "impressions": 2,
-      "position": 6.5
+      "impressions": 1,
+      "position": 12
     }
   ],
   "top_pages": [
     {
       "page": "https://www.tokyo-expat.com/en/blog/jiko-bukken-cheap-apartments-tokyo",
-      "clicks": 10,
-      "impressions": 283
+      "clicks": 9,
+      "impressions": 415
+    },
+    {
+      "page": "https://www.tokyo-expat.com/en/blog/share-house-tokyo-comparison-2026",
+      "clicks": 7,
+      "impressions": 315
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/gaijin-house-tokyo-guide",
       "clicks": 5,
-      "impressions": 2622
+      "impressions": 2975
     },
     {
-      "page": "https://www.tokyo-expat.com/en/blog/share-house-tokyo-comparison-2026",
-      "clicks": 5,
-      "impressions": 326
+      "page": "https://www.tokyo-expat.com/en/blog/oak-house-alternative",
+      "clicks": 4,
+      "impressions": 861
     },
     {
       "page": "https://www.tokyo-expat.com/fr/blog/assurance-habitation-japon-locataire",
       "clicks": 4,
-      "impressions": 29
+      "impressions": 30
     },
     {
       "page": "https://www.tokyo-expat.com/blog/assurance-habitation-japon-locataire",
       "clicks": 3,
-      "impressions": 14
+      "impressions": 16
     },
     {
-      "page": "https://www.tokyo-expat.com/en/blog/furnished-apartment-tokyo-top-5-expats",
+      "page": "https://www.tokyo-expat.com/en/blog/japan-sim-card-foreigners-2026",
       "clicks": 3,
-      "impressions": 4060
+      "impressions": 486
     },
     {
-      "page": "https://www.tokyo-expat.com/en/blog/oak-house-alternative",
+      "page": "https://www.tokyo-expat.com/fr/blog/permis-conduire-etranger-japon-conversion",
       "clicks": 3,
-      "impressions": 705
+      "impressions": 23
     },
     {
       "page": "https://www.tokyo-expat.com/",
@@ -202,39 +207,34 @@
       "impressions": 21
     },
     {
-      "page": "https://www.tokyo-expat.com/blog/impots-revenus-japon-expatrie-2026",
-      "clicks": 2,
-      "impressions": 21
-    },
-    {
       "page": "https://www.tokyo-expat.com/en/blog/best-neighbourhoods-families-tokyo-guide",
       "clicks": 2,
-      "impressions": 155
+      "impressions": 195
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/cheapest-neighbourhoods-tokyo-ranked-by-rent",
       "clicks": 2,
-      "impressions": 51
+      "impressions": 98
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/ebisu-daikanyama-nakameguro-expat-guide",
       "clicks": 2,
-      "impressions": 34
+      "impressions": 47
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/social-apartments-tokyo-guide",
       "clicks": 2,
-      "impressions": 72
+      "impressions": 80
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/ur-housing-tokyo-foreigners",
       "clicks": 2,
-      "impressions": 88
+      "impressions": 94
     },
     {
-      "page": "https://www.tokyo-expat.com/fr/blog/internet-utilitaires-tokyo-appartement",
+      "page": "https://www.tokyo-expat.com/fr/blog/louer-appartement-animaux-acceptes-tokyo",
       "clicks": 2,
-      "impressions": 7
+      "impressions": 21
     }
   ]
 }
