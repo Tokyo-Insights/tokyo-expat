@@ -2,6 +2,7 @@
   "shared_slugs": [
     "alternative-remoters-chasseur-tokyo",
     "appartement-animaux-tokyo",
+    "appartement-familial-tokyo-etranger",
     "appartement-meuble-tokyo-expats",
     "appartement-meuble-tokyo-expats-top-5",
     "appartement-meuble-tokyo-sans-garant",
@@ -27,7 +28,9 @@
     "chercher-appartement-tokyo-depuis-etranger",
     "convert-foreign-driving-licence-japan",
     "corporate-relocation-tokyo-hr-housing-guide",
+    "cost-of-owning-pet-tokyo",
     "cours-japonais-tokyo-expatries-guide",
+    "cout-avoir-animal-tokyo",
     "cout-vie-tokyo-expatrie-2026",
     "demenager-japon-checklist-complete",
     "demenager-tokyo-ete-juillet-aout",
@@ -40,6 +43,7 @@
     "evolution-prix-immobilier-tokyo",
     "expat-apartments-tokyo",
     "famille-expatriee-tokyo-ecoles-internationales",
+    "family-apartment-tokyo-foreigner",
     "family-expat-tokyo-international-schools",
     "find-apartment-tokyo-foreigner",
     "find-apartment-tokyo-september",
@@ -61,6 +65,7 @@
     "hiroo-minami-azabu-expat-neighborhood-guide",
     "hiroo-minami-azabu-guide-expatries-tokyo",
     "how-real-estate-hunter-works-tokyo",
+    "how-to-find-job-japan-foreigner",
     "importer-animal-compagnie-japon-guide",
     "impots-revenus-japon-expatrie-2026",
     "international-moving-company-japan-guide",
@@ -156,6 +161,7 @@
     "transport-tokyo-expatrie-guide",
     "travailler-tokyo-expatrie-guide-2026",
     "trouver-appartement-tokyo-etranger",
+    "trouver-emploi-japon-etranger",
     "trouver-logement-tokyo-deux-semaines-mutation",
     "types-appartements-japonais-expliques",
     "typhoon-season-tokyo-choosing-housing",
@@ -167,5 +173,5 @@
     "why-japanese-landlords-reject-foreigners",
     "working-in-tokyo-expat-guide-2026"
   ],
-  "last_run": "2026-08-17 06:58"
+  "last_run": "2026-08-24 07:32"
 }

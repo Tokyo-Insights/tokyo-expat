@@ -29,6 +29,7 @@
   "katapamera@gmail.com": [
     "step14",
     "step2",
+    "step21",
     "step5",
     "step9"
   ],
@@ -66,5 +67,7 @@
     "step2",
     "step5"
   ],
-  "expeditionresponsable@gmail.com": []
+  "expeditionresponsable@gmail.com": [
+    "step2"
+  ]
 }
