@@ -1,8 +1,8 @@
 {
   "generated_at": "2026-06-25",
   "total": 80,
-  "posted_count": 10,
-  "remaining": 70,
+  "posted_count": 11,
+  "remaining": 69,
   "queue": [
     {
       "slug": "trouver-appartement-tokyo-etranger",
@@ -89,8 +89,8 @@
       "locale": "fr",
       "title": "7 pièges à éviter quand on loue un appartement à Tokyo en tant qu'étranger",
       "text": "7 pièges à éviter quand on loue un appartement à Tokyo en tant qu'étranger\n\nReikin non remboursable, clauses de résiliation cachées, frais de nettoyage abusifs : les erreurs les plus coûteuses des expatriés sur le marché locatif tokyoïte.\n\nhttps://www.tokyo-expat.com/fr/blog/pieges-location-tokyo-etranger",
-      "posted": false,
-      "posted_date": null
+      "posted": true,
+      "posted_date": "2026-08-25"
     },
     {
       "slug": "share-house-tokyo-guide-2026",
