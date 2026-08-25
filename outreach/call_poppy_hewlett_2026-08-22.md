@@ -1,6 +1,8 @@
 # Fiche d'appel — Poppy Hewlett (Free Discovery Call)
 
-> **STATUT 21/08** : elle a ACCEPTE l'invitation calendrier (confirmee). **Mot pre-appel ENVOYE 21/08** (rappel horaire + desamorce la peur "louer sans job" + retourne l'epargne en atout + demande budget/quartiers/statut). Appel = **DEMAIN samedi 22/08 18h JST**. Apres l'appel: recap + devis forfait (modele paiement-d'abord).
+> **STATUT 21/08** : elle a ACCEPTE l'invitation calendrier + **mot pre-appel ENVOYE 21/08**.
+> **⚠️ NO-SHOW 22/08** : Poppy n'a PAS rejoint l'appel (18h JST). Alessandro a envoye 2 messages samedi (nudge avec lien Meet + offre de reprogrammation) -> **PAS de reponse au 23/08 matin**. C'est NORMAL sur un appel decouverte gratuit (engagement faible), et elle reste un LEAD CHAUD (checklist + resa + invite acceptee) -> convertit souvent au 2e essai. 
+> **PLAN**: ne PAS re-relancer avant ~lundi 24/08 (2 messages = assez, un 3e = desespere). Si silence total -> UN seul mot doux de reprogrammation (chaleureux, zero reproche, rappelle sa timeline arrivee 1er sept). Sinon nurture Brevo. Si elle repond -> reprogrammer + apres l'appel recap + devis forfait (paiement-d'abord).
 
 
 **Quand :** samedi 22 aout 2026, **18h00 JST** (= 10h00 UK). Google Meet (lien dans l'email Calendly).

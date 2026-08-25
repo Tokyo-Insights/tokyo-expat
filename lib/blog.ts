@@ -6047,7 +6047,7 @@ Oui, clairement. Même quelques phrases de base facilitent les visites avec les 
 
 ---
 
-*Pour votre installation complète à Tokyo, notre [checklist déménagement Japon](/blog/demenager-japon-checklist-complete) couvre toutes les étapes administratives. Pour le logement, voir notre [guide des quartiers pour expatriés](/blog/quartiers-tokyo-expatries-guide).*
+*Pour votre installation complète à Tokyo, notre [checklist déménagement Japon](/blog/demenager-japon-checklist-complete) couvre toutes les étapes administratives. Pour le logement, voir notre [guide des quartiers pour expatriés](/blog/quartiers-tokyo-expatries-guide). Si vous êtes étudiant, consultez aussi notre [guide du logement étudiant à Tokyo](/blog/logement-etudiant-tokyo-guide).*
     `.trim(),
   },
   {
@@ -9997,7 +9997,7 @@ To discover the food scene of these upscale residential neighbourhoods, [Arigato
     slug: 'gaijin-house-tokyo-guide',
     locale: 'en',
     title: 'Gaijin House Tokyo: Complete Guide for Foreigners (2026)',
-    description: 'Cheap furnished gaijin house rooms in Tokyo from around 40,000 JPY a month, no guarantor and no key money. Real 2026 costs and how to book one fast.',
+    description: 'Gaijin houses let foreigners rent in Tokyo with no guarantor or key money, from ~40,000 JPY/month. See real 2026 prices, pros and cons, and how to book fast.',
     date: '2026-06-28',
     readingTime: '6 min',
     content: `

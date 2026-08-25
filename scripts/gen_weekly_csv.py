@@ -9,8 +9,8 @@ from pathlib import Path
 import shorts_meta as SM
 
 # ============================== A EDITER CHAQUE SEMAINE ==============================
-WEEK_START = "2026-08-17"          # le LUNDI de la semaine visee
-KEYS = ["M2", "M3", "M4"]          # 1 a 3 munitions (ordre = ordre de publication)
+WEEK_START = "2026-08-31"          # le LUNDI de la semaine visee
+KEYS = ["M5", "M6", "M7"]          # 1 a 3 munitions (ordre = ordre de publication)
 # ====================================================================================
 
 AS = Path(r"C:\Users\alegu\Desktop\tokyo-expat\video_assets")
