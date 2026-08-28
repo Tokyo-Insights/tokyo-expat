@@ -1,0 +1,433 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fiche d'appel - Poppy Hewlett - 29 aout 2026</title>
+<style>
+  :root{
+    --navy:#0f2744; --navy-soft:#1c3c63; --accent:#e84141; --accent-soft:#fdeceb;
+    --ink:#152238; --muted:#5b6b82; --line:#dfe5ee; --bg:#f4f6fa; --card:#ffffff;
+    --ok:#0f7b4f; --ok-soft:#e8f5ef; --warn:#9a6200; --warn-soft:#fdf3e2;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font-family:"Inter","Segoe UI",system-ui,-apple-system,sans-serif;
+    font-size:15px; line-height:1.55;
+  }
+  .wrap{max-width:900px; margin:0 auto; padding:0 0 60px}
+
+  /* ---------- entete ---------- */
+  header{background:var(--navy); color:#fff; padding:28px 34px 26px}
+  header .kicker{font-size:11px; letter-spacing:.16em; text-transform:uppercase; color:#8fa8c8; margin:0 0 6px}
+  header h1{margin:0 0 4px; font-size:29px; line-height:1.15; font-weight:700}
+  header .sub{margin:0; color:#c3d3e8; font-size:15px}
+  .slots{display:flex; flex-wrap:wrap; gap:10px; margin-top:18px}
+  .slot{background:rgba(255,255,255,.09); border:1px solid rgba(255,255,255,.18); border-radius:8px; padding:9px 13px; min-width:150px}
+  .slot b{display:block; font-size:10px; letter-spacing:.12em; text-transform:uppercase; color:#8fa8c8; font-weight:600; margin-bottom:2px}
+  .slot span{font-size:15px; color:#fff; font-weight:600}
+  .slot a{color:#fff}
+
+  /* ---------- structure ---------- */
+  section{background:var(--card); margin:16px 0 0; padding:24px 34px; border:1px solid var(--line); border-radius:10px}
+  h2{font-size:12px; letter-spacing:.14em; text-transform:uppercase; color:var(--accent); margin:0 0 14px; font-weight:700}
+  h3{font-size:16px; margin:20px 0 8px; color:var(--navy)}
+  h3:first-of-type{margin-top:0}
+  p{margin:0 0 10px}
+  ul{margin:0 0 10px; padding-left:20px}
+  li{margin:0 0 6px}
+  .muted{color:var(--muted)}
+  .lead{font-size:17px; line-height:1.5}
+
+  .cols{display:grid; grid-template-columns:1fr 1fr; gap:16px}
+  @media(max-width:720px){ .cols{grid-template-columns:1fr} header,section{padding-left:20px; padding-right:20px} }
+
+  .box{border:1px solid var(--line); border-radius:9px; padding:16px 18px; background:#fbfcfe}
+  .box h4{margin:0 0 10px; font-size:14px; color:var(--navy); letter-spacing:.02em}
+  .box.know{border-left:4px solid var(--ok)}
+  .box.gap{border-left:4px solid var(--warn); background:var(--warn-soft)}
+
+  /* ---------- timeline ---------- */
+  .tl{border-left:2px solid var(--line); margin-left:8px; padding-left:0}
+  .tl .step{position:relative; padding:0 0 18px 24px}
+  .tl .step:last-child{padding-bottom:0}
+  .tl .step::before{content:""; position:absolute; left:-7px; top:5px; width:12px; height:12px; border-radius:50%; background:var(--accent)}
+  .tl .t{font-size:11px; font-weight:700; letter-spacing:.08em; color:var(--accent); text-transform:uppercase}
+  .tl .h{font-weight:600; color:var(--navy); margin:1px 0 4px}
+  .tl p{margin:0 0 4px}
+
+  /* ---------- scripts ---------- */
+  .say{border-left:4px solid var(--navy); background:#f7f9fc; padding:12px 16px; border-radius:0 8px 8px 0; margin:10px 0}
+  .say .tag{font-size:10px; letter-spacing:.14em; text-transform:uppercase; color:var(--muted); font-weight:700; display:block; margin-bottom:5px}
+  .say q{font-style:normal; color:var(--navy); display:block}
+  .say q::before,.say q::after{content:'"'}
+
+  /* ---------- questions ---------- */
+  ol.q{counter-reset:q; list-style:none; padding:0; margin:0}
+  ol.q li{counter-increment:q; position:relative; padding:0 0 12px 40px; margin:0}
+  ol.q li::before{
+    content:counter(q); position:absolute; left:0; top:0; width:26px; height:26px; border-radius:50%;
+    background:var(--navy); color:#fff; font-size:13px; font-weight:700; display:flex; align-items:center; justify-content:center;
+  }
+  ol.q .why{color:var(--muted); font-size:13.5px}
+
+  /* ---------- tableaux ---------- */
+  .scroll{overflow-x:auto}
+  table{border-collapse:collapse; width:100%; font-size:14px}
+  th,td{text-align:left; padding:8px 10px; border-bottom:1px solid var(--line)}
+  th{background:#f1f4f9; color:var(--navy); font-size:11px; letter-spacing:.08em; text-transform:uppercase}
+  td.num{text-align:right; font-variant-numeric:tabular-nums}
+  tr.hi td{background:var(--accent-soft); font-weight:600}
+
+  /* ---------- objections ---------- */
+  .obj{border:1px solid var(--line); border-radius:9px; padding:14px 16px; margin:0 0 10px; background:#fff}
+  .obj .she{font-weight:600; color:var(--navy); margin:0 0 6px}
+  .obj .she::before{content:"Elle: "; color:var(--accent); font-weight:700}
+  .obj .you{margin:0; color:var(--ink)}
+  .obj .you::before{content:"Toi: "; color:var(--muted); font-weight:700}
+
+  /* ---------- alertes ---------- */
+  .flag{border-radius:9px; padding:14px 18px; margin:0 0 12px; border:1px solid}
+  .flag.red{background:var(--accent-soft); border-color:#f4c4c1}
+  .flag.amber{background:var(--warn-soft); border-color:#efd9ac}
+  .flag.green{background:var(--ok-soft); border-color:#bfe3d2}
+  .flag b{color:var(--navy)}
+
+  .check{list-style:none; padding:0; margin:0}
+  .check li{padding-left:28px; position:relative; margin-bottom:8px}
+  .check li::before{content:""; position:absolute; left:0; top:2px; width:16px; height:16px; border:2px solid var(--navy-soft); border-radius:4px}
+
+  footer{color:var(--muted); font-size:12px; padding:18px 34px 0}
+
+  @media print{
+    body{background:#fff; font-size:11.5pt}
+    .wrap{max-width:none}
+    section{break-inside:avoid; border:none; border-top:1px solid var(--line); border-radius:0; padding:14px 0; margin:0}
+    header{padding:16px 0; -webkit-print-color-adjust:exact; print-color-adjust:exact}
+    .flag,.box,.say,.obj{-webkit-print-color-adjust:exact; print-color-adjust:exact}
+    @page{margin:14mm}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <p class="kicker">Fiche d'appel &middot; Tokyo Expat</p>
+  <h1>Poppy Hewlett</h1>
+  <p class="sub">Free Discovery Call &middot; 30 minutes &middot; Google Meet</p>
+  <div class="slots">
+    <div class="slot"><b>Quand</b><span>Sam. 29 aout, 18:00 JST</span></div>
+    <div class="slot"><b>Chez elle (UK)</b><span>10:00</span></div>
+    <div class="slot"><b>Lien</b><span><a href="https://meet.google.com/tqp-puod-xeg">meet.google.com/tqp-puod-xeg</a></span></div>
+    <div class="slot"><b>Email</b><span>poppyhewlett7@gmail.com</span></div>
+  </div>
+</header>
+
+<section>
+  <h2>L'essentiel en 20 secondes</h2>
+  <p class="lead">Britannique, elle atterrit au Japon le <b>1er septembre</b> avec un Airbnb pour <b>2,5 semaines</b> (fin vers le <b>18 septembre</b>). Pas de job sur place, <b>~10 000 £ d'economies</b>. Sa priorite&nbsp;: <b>chambre privative ET salle de bain privative</b>. Elle hesite encore entre une <b>share house avec sanitaires prives</b> et un <b>petit studio</b>, et elle est ouverte aux deux.</p>
+  <div class="flag red">
+    <b>Ce qui se joue&nbsp;:</b> c'est un vrai deadline, pas un projet vague. Elle a environ 18 jours pour se loger, elle sera sur place, et elle a les fonds. C'est le profil le plus convertible qu'on ait eu. <b>Objectif de l'appel = repartir avec un accord de mission, pas avec de la sympathie.</b>
+  </div>
+  <div class="flag green">
+    <b>Signal d'achat, mot pour mot (email du 26/08)&nbsp;:</b> <i>"I'm also okay with paying reasonable agency or initial fees if it opens up more suitable options. My priority is finding somewhere comfortable and practical rather than avoiding fees altogether."</i><br>
+    Traduction&nbsp;: <b>le prix n'est pas son obstacle</b>. Ne passe pas l'appel a defendre tes 250 euros. Son vrai blocage est ailleurs&nbsp;: elle ne sait pas <b>quelle route</b> choisir. C'est ca que tu vends.
+  </div>
+  <div class="flag amber">
+    <b>Risque n&deg;1&nbsp;:</b> elle a deja manque l'appel du 22/08 (debordee par son demenagement). <b>Envoie-lui un rappel vendredi soir</b> avec le lien Meet en clair. Si elle ne se connecte pas a 18:05, envoie le lien par email dans la minute.
+  </div>
+</section>
+
+<section>
+  <div class="cols">
+    <div class="box know">
+      <h4>Ce qu'on sait (de sa bouche)</h4>
+      <ul>
+        <li>Arrivee au Japon le <b>1er septembre 2026</b>.</li>
+        <li>Airbnb reserve <b>2,5 semaines</b> &rarr; sortie vers le <b>18 septembre</b>.</li>
+        <li><b>Pas de job</b> encore au Japon.</li>
+        <li>Arrive avec <b>~10 000 £</b> d'economies.</li>
+        <li><b>Chambre privative + salle de bain privative = sa priorite n&deg;1</b>, formulee deux fois.</li>
+        <li><b>Indecise entre share house avec sanitaires prives et petit studio</b>, ouverte a explorer les deux (email du 26/08).</li>
+        <li>Si elle part sur la share house&nbsp;: orientee <b>jeunes actifs</b>, pas etudiants.</li>
+        <li><b>Accepte de payer des frais d'agence ou d'entree raisonnables</b> si ca ouvre de meilleures options. Confort et praticite avant l'economie de frais.</li>
+        <li>Fuseau UK. Repond vite et poliment, s'est excusee pour l'appel manque.</li>
+      </ul>
+    </div>
+    <div class="box gap">
+      <h4>Ce qu'on ne sait toujours pas</h4>
+      <p class="muted" style="margin-top:-4px">Les 4 questions du 17/08 sont restees sans reponse. A poser dans les 7 premieres minutes.</p>
+      <ul>
+        <li><b>Budget mensuel</b> pour le loyer.</li>
+        <li><b>Duree du sejour</b> au Japon.</li>
+        <li><b>Quartiers ou lignes</b> preferes.</li>
+        <li><b>Statut a l'arrivee</b>: working holiday, visa etudiant, touriste en recherche d'emploi&nbsp;? <span class="muted">(determine ce qui lui est ouvert et pour combien de temps)</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Objectif unique de l'appel</h2>
+  <p class="lead">Qu'elle sorte de l'appel en disant <b>"envoie-moi le devis"</b>.</p>
+  <ul>
+    <li><b>Succes</b>&nbsp;: elle repart avec <b>une route tranchee</b> (share house ou studio meuble), elle valide la mission, tu envoies le lien de paiement correspondant dans l'heure, la recherche demarre lundi.</li>
+    <li><b>Succes partiel acceptable</b>&nbsp;: elle veut y reflechir 24-48h &rarr; tu fixes une <b>date de decision</b> pendant l'appel ("je te renvoie le devis ce soir, dis-moi lundi").</li>
+    <li><b>Echec</b>&nbsp;: elle raccroche avec une liste de sites a consulter toute seule. <b>Ne donne aucune piste concrete de logement pendant l'appel.</b></li>
+  </ul>
+  <div class="flag green">
+    <b>Ton angle unique&nbsp;:</b> tu es operateur de location meublee a Tokyo, tu vois le marche de l'interieur. Elle n'achete pas une recherche sur des portails, elle achete <b>un jugement sur ce qui se vit bien, la verite sur les disponibilites, et des yeux sur place</b>.
+  </div>
+  <div class="flag amber">
+    <b>Sois lucide sur ton argument&nbsp;:</b> sur la route <b>share house et meuble</b>, les operateurs parlent anglais et n'exigent pas de garant. Donc <b>"je parle japonais et je te fais passer le mur du garant" ne mord pas ici</b>, et si tu t'appuies dessus elle peut te repondre "mais leur site est en anglais". Ton argument japonais et garant est decisif sur le <b>marche classique</b>, pas sur celui-la. Sur celui-la, vends <b>curation, verite des dispos, neutralite entre operateurs, visite sur place</b>. Voir l'objection dediee plus bas.
+  </div>
+</section>
+
+<section>
+  <h2>Deroule minute par minute (30 min)</h2>
+  <div class="tl">
+    <div class="step">
+      <div class="t">0 - 2 min</div>
+      <div class="h">Accueil et cadrage</div>
+      <p>Chaleureux, zero reproche sur l'appel manque.</p>
+      <div class="say"><span class="tag">A dire</span><q>Congratulations on the move, September 1st is close. Here is how I suggest we use the 30 minutes: 10 minutes for me to understand exactly what you need, 10 minutes for me to tell you honestly what is realistic in your situation, and 10 minutes on how I can help if it makes sense. Sound good?</q></div>
+    </div>
+    <div class="step">
+      <div class="t">2 - 10 min</div>
+      <div class="h">Qualification (elle parle, tu notes)</div>
+      <p>Les 6 questions ci-dessous. Ne coupe pas, note les mots exacts qu'elle emploie, tu les reutiliseras dans le devis.</p>
+    </div>
+    <div class="step">
+      <div class="t">10 - 18 min</div>
+      <div class="h">Diagnostic honnete + arbitrage share house / studio</div>
+      <p>C'est le bloc qui cree la valeur, et c'est ce qu'elle est venue chercher&nbsp;: elle est indecise entre les deux. Tu expliques le mur du garant, pourquoi son profil ferme le bail classique, puis tu l'aides a trancher entre share house et studio meuble. Chiffres reels a l'appui.</p>
+    </div>
+    <div class="step">
+      <div class="t">18 - 24 min</div>
+      <div class="h">Comment je travaille + le forfait</div>
+      <p>Ce que la mission inclut, le process paiement d'abord, la protection remboursement. Annonce du prix sans hesitation ni justification excessive.</p>
+    </div>
+    <div class="step">
+      <div class="t">24 - 28 min</div>
+      <div class="h">Objections</div>
+      <p>Elle en aura une ou deux. Reponses preparees plus bas.</p>
+    </div>
+    <div class="step">
+      <div class="t">28 - 30 min</div>
+      <div class="h">Prochaine etape, datee</div>
+      <div class="say"><span class="tag">A dire</span><q>I will send you a summary and the secure quote link right after this call. If you confirm today or tomorrow, I start the search on Monday, which gives us a full two weeks before your Airbnb ends. Does that work for you?</q></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Les 6 questions de qualification</h2>
+  <ol class="q">
+    <li>
+      <b>What monthly budget do you have in mind, all in?</b>
+      <div class="why">Le chiffre qui decide de tout. Si elle repond en livres, reformule en yens a voix haute. Precise "all in" = loyer + charges, sinon elle compare des pommes et des poires.</div>
+    </li>
+    <li>
+      <b>What will your status be when you land, and how long do you plan to stay?</b>
+      <div class="why">Working holiday, visa etudiant ou touriste change tout: duree de bail acceptable, possibilite d'ouvrir un compte, et surtout ce que les operateurs vont exiger. C'est la question la plus sous-estimee.</div>
+    </li>
+    <li>
+      <b>Have you already started looking, and did anything come close?</b>
+      <div class="why">Te dit si elle a deja mange un refus (excellent pour la suite) et si elle est en train de faire le travail seule. Si elle a deja des candidats, tu ajustes la valeur que tu apportes.</div>
+    </li>
+    <li>
+      <b>You said you are torn between a share house with private facilities and a small studio. What pulls you towards each?</b>
+      <div class="why">La question centrale de l'appel. Ecoute si elle parle de <b>solitude et de rencontrer du monde</b> (alors share house) ou d'<b>independance et de calme</b> (alors studio meuble). Sa reponse determine le forfait que tu lui envoies. Enchaine sur le reste des criteres: trajet, quartier, cuisine, duree d'engagement.</div>
+    </li>
+    <li>
+      <b>Which areas or train lines are you drawn to, and where will you likely work?</b>
+      <div class="why">Sans lieu de travail, vise l'acces multi-lignes plutot qu'un quartier. Utile pour ne pas la laisser s'enfermer sur un quartier cher par reflexe touristique.</div>
+    </li>
+    <li>
+      <b>If we found the right room next week, what would stop you from saying yes?</b>
+      <div class="why">La question qui fait sortir l'objection reelle (argent, timing, quelqu'un d'autre a consulter) pendant que tu peux encore y repondre. Pose-la avant de parler prix.</div>
+    </li>
+  </ol>
+</section>
+
+<section>
+  <h2>Le diagnostic marche (bloc 10-18 min)</h2>
+  <h3>1. Le vrai mur, ce n'est pas le prix, c'est le garant</h3>
+  <p>Sur le marche locatif classique, il lui faudra un garant, un justificatif de revenus japonais et souvent un repondant local. Sans job, sans historique de credit au Japon, avec une arrivee dans 3 jours, ce marche est essentiellement ferme, quel que soit le montant sur son compte.</p>
+  <div class="say"><span class="tag">A dire</span><q>Your savings are genuinely strong, and that helps. But the standard rental market does not screen on savings, it screens on a Japanese guarantor and a local income. That is the wall. The good news is that there are three routes that go around it, and they are exactly the routes you should be looking at.</q></div>
+
+  <h3>2. Les 3 voies qui restent ouvertes</h3>
+  <ul>
+    <li><b>Share house jeunes actifs avec salle de bain privative</b>&nbsp;: pas de garant, pas de justificatif de revenus, meuble, contrat court. C'est sa demande initiale et c'est la bonne intuition.</li>
+    <li><b>Monthly mansion / appartement meuble</b>&nbsp;: 100% independant, disponible en 7 a 14 jours, sans garant. Plus cher au mois, mais c'est la voie si la salle de bain privative se paye trop cher en share house.</li>
+    <li><b>Bail classique plus tard</b>&nbsp;: une fois qu'elle a un job et une adresse, dans 3 a 6 mois. A mentionner comme horizon, pas comme option de septembre.</li>
+  </ul>
+  <p class="muted">Formuler ces voies comme un plan, pas comme un catalogue. Tu ne cites aucun nom d'operateur, aucun bien precis, aucun lien.</p>
+
+  <h3>3. Le cout cache que personne ne lui a dit</h3>
+  <p>Le meuble se paye. Sur notre indice, un studio 1K meuble coute <b>20% a 98% de plus par mois</b> qu'un equivalent vide, et l'ecart est le plus grand dans les quartiers les moins chers. Autrement dit, "prendre meuble pour economiser" coute le plus cher exactement la ou elle irait pour economiser.</p>
+  <div class="say"><span class="tag">A dire</span><q>One thing worth knowing before you pick an area: furnished places carry a premium of 20% in central Minato, and close to double in the cheaper outer wards. So the cheap-area logic quietly breaks down once you go furnished. I can show you where that trade-off actually works.</q></div>
+</section>
+
+<section>
+  <h2>Munitions data (chiffres verifies, notre indice)</h2>
+  <p class="muted">Indice loyers Tokyo Expat, genere le 02/07/2026, 528 660 annonces actives, 23 arrondissements. Loyer median mensuel d'un studio 1K, hors charges.</p>
+  <div class="scroll">
+  <table>
+    <thead><tr><th>Arrondissement</th><th class="num">Loyer median 1K</th><th class="num">Echantillon</th><th>Pourquoi le citer</th></tr></thead>
+    <tbody>
+      <tr class="hi"><td>Nakano</td><td class="num">88 000 &yen;</td><td class="num">6 765</td><td>Le compromis jeunes actifs: central, vivant, moins cher que Shinjuku</td></tr>
+      <tr class="hi"><td>Suginami</td><td class="num">84 000 &yen;</td><td class="num">8 266</td><td>Meme logique, un cran plus calme et moins cher</td></tr>
+      <tr><td>Toshima (Ikebukuro)</td><td class="num">96 000 &yen;</td><td class="num">7 267</td><td>Noeud de lignes, forte densite de share houses</td></tr>
+      <tr><td>Setagaya</td><td class="num">87 000 &yen;</td><td class="num">13 233</td><td>Le plus gros stock de Tokyo, residentiel</td></tr>
+      <tr><td>Kita</td><td class="num">90 000 &yen;</td><td class="num">8 066</td><td>Bon rapport acces / prix, sous-cote</td></tr>
+      <tr><td>Shinjuku</td><td class="num">120 000 &yen;</td><td class="num">11 083</td><td>Le reflexe de tout nouvel arrivant, et le piege budget</td></tr>
+      <tr><td>Shibuya</td><td class="num">127 000 &yen;</td><td class="num">5 592</td><td>Idem, a citer pour cadrer l'ecart</td></tr>
+      <tr><td>Minato</td><td class="num">140 000 &yen;</td><td class="num">6 220</td><td>Le haut du marche, sert de borne</td></tr>
+      <tr><td>Edogawa</td><td class="num">74 000 &yen;</td><td class="num">6 125</td><td>Le plus abordable des 23, mais trajet et vie sociale en retrait</td></tr>
+    </tbody>
+  </table>
+  </div>
+  <p style="margin-top:12px"><b>Prime du meuble (1K, meme indice)</b>&nbsp;: Minato +20%, Chiyoda +21%, Shibuya +29%, Shinjuku +31%, et jusqu'a environ +100% dans les arrondissements peripheriques les moins chers, ou l'echantillon meuble est petit.</p>
+  <div class="flag green">
+    <b>Cote offre, tu es couvert&nbsp;:</b> ton partenaire operateur propose des share houses, donc la question n'est pas "est-ce que ca existe", c'est "quelles chambres avec salle de bain privative sont libres a sa date". Tu peux donc etre affirmatif sur la faisabilite. <span class="muted">Ne nomme pas le partenaire pendant l'appel.</span>
+  </div>
+  <div class="flag amber">
+    <b>Le seul point a confirmer avant l'appel&nbsp;:</b> la <b>fourchette de prix actuelle</b> pour une chambre avec salle de bain privative disponible mi-septembre. Notre indice couvre les appartements, pas les share houses, donc ce chiffre doit venir de la grille de ton partenaire, pas de memoire. Si tu ne l'as pas verifie d'ici demain, utilise la formule ci-dessous plutot que d'avancer un montant.
+  </div>
+  <div class="say"><span class="tag">Si tu n'as pas encore la fourchette exacte</span><q>Availability is not the problem, I work with operators who run this type of house. What I would rather not do is quote you a number off the top of my head, because private-bathroom rooms are the narrow end of that market and the range moves with what is actually open on your dates. Confirming that for your criteria is the first thing I do.</q></div>
+</section>
+
+<section>
+  <h2>Le vrai arbitrage de l'appel&nbsp;: share house ou studio</h2>
+  <p>C'est la question qu'elle n'arrive pas a trancher seule, donc c'est la ou tu crees le plus de valeur en 8 minutes. Presente-lui les <b>trois</b> routes en etant clair que la troisieme lui est fermee en septembre.</p>
+  <div class="scroll">
+  <table>
+    <thead><tr><th>Route</th><th>Garant / revenus</th><th>Frais d'entree</th><th>Delai</th><th>Verdict pour elle</th></tr></thead>
+    <tbody>
+      <tr class="hi"><td><b>Share house, sanitaires prives</b></td><td>Ni garant ni justificatif de revenus</td><td>Faibles (petit depot)</td><td>Rapide</td><td><b>La route la plus sure pour tenir la date du 18/09</b></td></tr>
+      <tr class="hi"><td><b>Studio meuble / monthly</b></td><td>Ni garant ni justificatif de revenus</td><td>Faibles a moyens</td><td>7 a 14 jours</td><td><b>100% prive, mais elle paye la prime du meuble chaque mois</b></td></tr>
+      <tr><td>Studio vide, bail classique</td><td>Garant japonais + revenus japonais exiges</td><td>Ordre de grandeur du marche&nbsp;: 4 a 6 mois de loyer</td><td>Plusieurs semaines</td><td><b>Ferme en septembre</b>, a revoir quand elle aura un job</td></tr>
+    </tbody>
+  </table>
+  </div>
+  <p class="muted" style="margin-top:10px">Les frais d'entree du bail classique sont un ordre de grandeur du marche japonais, pas un chiffre de notre indice. Ne l'annonce pas comme une donnee Tokyo Expat.</p>
+
+  <h3>Comment mener l'arbitrage</h3>
+  <ul>
+    <li>Elle dit accepter des frais d'entree raisonnables. <b>Utilise-le pour clarifier, pas pour vendre plus cher</b>&nbsp;: explique que le probleme du bail classique n'est pas le montant des frais, c'est le <b>garant</b>. Elle peut avoir l'argent et se faire refuser quand meme. Ce seul point vaut l'appel a ses yeux.</li>
+    <li>Le vrai arbitrage share house contre studio meuble est un arbitrage <b>vie sociale et budget</b>, pas un arbitrage de faisabilite&nbsp;: les deux passent sans garant.</li>
+    <li>Ressers la prime du meuble ici&nbsp;: si elle vise le studio dans un quartier bon marche pour economiser, le meuble peut pratiquement doubler le loyer. C'est l'argument qui fait basculer beaucoup de gens vers la share house.</li>
+  </ul>
+  <div class="say"><span class="tag">A dire</span><q>Both of the options you are weighing work without a guarantor, so this is not really a feasibility question, it is a lifestyle and budget one. The route that does not work in September is the ordinary unfurnished lease, and not because of the money. You could have the full amount in your account and still be turned down, because that market screens on a Japanese guarantor and a local income. That is the part nobody tells you before you land.</q></div>
+</section>
+
+<section>
+  <h2>Le moment prix (bloc 18-24 min)</h2>
+  <p>Annonce le prix <b>apres</b> avoir liste ce qui est inclus, <b>d'une traite</b>, puis <b>tais-toi</b>. Le premier qui parle apres le prix negocie contre lui-meme.</p>
+  <div class="say"><span class="tag">Script</span>
+    <q>Here is how I work. It is a single flat fee per assignment, no commission, no extras. For a share house search it is 250 euros, and for a furnished studio it is 400, because it is a wider search. That covers the consultation, a curated shortlist of at least five places that actually match your criteria and that I have confirmed are open to you, the viewings, support and advice through the negotiation, translation of the documents, and I stay with you until you have the keys.</q>
+  </div>
+  <div class="say"><span class="tag">A dire juste apres, pour lever la confusion sur les frais</span>
+    <q>And to be clear, because you mentioned agency and initial fees: my fee is separate from whatever the place itself charges on move-in. Mine is the only thing you pay me, there is no commission on top and nothing added later.</q>
+  </div>
+  <div class="say"><span class="tag">Process, a dire tel quel</span>
+    <q>The way it runs: we confirm the brief, you settle the fee, and the search starts the moment the payment lands. Missions typically take one to three weeks, and yours would be at the fast end because of your dates. And to be straight with you about the risk: if I fail to bring you a single proposal, you get the full fee back.</q>
+  </div>
+  <ul>
+    <li><b>Share house 1 personne = 250 &euro;</b> &middot; <b>Appartement meuble 1 personne = 400 &euro;</b>. Les deux sont sur la table&nbsp;: <b>c'est la route qu'elle choisit pendant l'appel qui determine le forfait</b>, pas toi.</li>
+    <li>Si elle hesite encore a la fin de l'appel, <b>ne la force pas</b>&nbsp;: propose de trancher ensemble sur la base de sa fourchette de budget, puis envoie le devis correspondant. Une hesitation sur la route n'est pas un refus.</li>
+    <li>Le forfait est <b>ton honoraire</b>, pas le loyer et pas les frais d'entree du logement. Elle a parle de "agency or initial fees", donc dis-le explicitement, sinon elle additionnera tout dans sa tete.</li>
+  </ul>
+  <div class="flag red">
+    <b>Regle absolue&nbsp;:</b> aucune option, aucune shortlist, aucun nom d'operateur avant paiement. La consultation et la validation de faisabilite sont gratuites, <b>la recherche est la mission payante</b>. Si tu donnes trois pistes "pour montrer ta bonne foi", tu viens de livrer le produit gratuitement.
+  </div>
+</section>
+
+<section>
+  <h2>Objections probables et reponses</h2>
+
+  <div class="flag amber">
+    <b>Attention&nbsp;:</b> elle a ecrit noir sur blanc qu'elle accepte de payer des frais raisonnables. <b>L'objection prix est la moins probable de cette liste.</b> Les deux premieres ci-dessous sont celles a preparer en priorite.
+  </div>
+
+  <div class="obj">
+    <p class="she">"Je n'arrive pas a choisir entre la share house et le studio."</p>
+    <p class="you">C'est normal, et c'est justement la premiere chose qu'on regle. Dis-moi ta fourchette de budget et je te dis laquelle des deux te donne le meilleur logement pour ce montant, avec ta salle de bain privative dans les deux cas. On tranche maintenant, et je lance la recherche sur celle qu'on choisit.</p>
+  </div>
+
+  <div class="obj">
+    <p class="she">"Ton honoraire, c'est en plus des frais d'agence et du depot ?"</p>
+    <p class="you">Oui, et c'est important que ce soit clair. Mon forfait est le seul montant que tu me verses, il n'y a ni commission ni supplement ensuite. Ce que le logement facture a l'entree, depot ou frais, va au logement, pas a moi. Et sur les deux routes qu'on regarde, ces frais d'entree sont justement bien plus faibles que sur un bail classique.</p>
+  </div>
+
+  <div class="obj">
+    <p class="she">"Mais ces compagnies de share houses ont des sites en anglais et du personnel anglophone. J'ai besoin de toi pour quoi ?"</p>
+    <p class="you">You are right, and I am not going to pretend otherwise. On this particular route the operators work in English, and if you already knew which house suited you, you could book one tonight. So let me be precise about what you are actually paying for. First, which houses are genuinely pleasant to live in, as opposed to the ones that photograph well. Nobody is going to tell you their own house is noisy or run down. Second, what is truly free on your dates, which is rarely what the website still shows. Third, I compare across operators instead of selling you one company's rooms, because each of them will only ever show you their own. And I can go and stand in the room before you commit, which you cannot do from the UK.</p>
+  </div>
+
+  <div class="obj">
+    <p class="she">"250 euros, je peux chercher moi-meme sur les sites de share houses, non ?"</p>
+    <p class="you">Absolument, et certaines personnes y arrivent. Ce que tu achetes, c'est la partie que les sites ne montrent pas: qui accepte reellement quelqu'un sans job et sans garant, quelles chambres avec salle de bain privative sont libres a ta date, et les appels en japonais pour le verifier. Si tu le fais seule et que ca prend dix jours de plus, ce sont dix nuits d'Airbnb en plus.</p>
+  </div>
+
+  <div class="obj">
+    <p class="she">"Je paie avant que le travail commence ?"</p>
+    <p class="you">Oui, et voici pourquoi c'est aussi dans ton interet. Je prends un nombre limite de missions a la fois et je les traite serieusement. Payer d'avance, c'est ce qui fait que ta recherche demarre lundi et pas quand j'ai le temps. Et tu es protegee: si je ne te transmets aucune proposition, tu es integralement remboursee.</p>
+  </div>
+
+  <div class="obj">
+    <p class="she">"Et si je ne trouve rien qui me plait ?"</p>
+    <p class="you">Alors on continue de chercher pendant la mission. Ce qui n'est pas rembourse, c'est si tu trouves de ton cote ou si tu arretes la recherche. Ce qui est rembourse, c'est si je ne t'apporte rien.</p>
+  </div>
+
+  <div class="obj">
+    <p class="she">"Je prefere attendre d'etre sur place pour voir."</p>
+    <p class="you">Tu seras sur place, c'est justement le bon moment pour visiter. Mais les chambres avec salle de bain privative partent vite, et tu as environ dix-huit jours. Le travail de reperage se fait maintenant pour que tes visites de la semaine du 8 soient deja les bonnes. Si on attend le 15, on cherche dans l'urgence.</p>
+  </div>
+
+  <div class="obj">
+    <p class="she">"Mon budget est plus serre que ca."</p>
+    <p class="you">Dis-moi ton chiffre et je te dis honnetement si c'est faisable avec une salle de bain privative. Si ca ne l'est pas, je te le dirai avant que tu payes quoi que ce soit, ce n'est pas dans mon interet de prendre une mission que je ne peux pas reussir.</p>
+  </div>
+
+  <div class="obj">
+    <p class="she">"Je vais y reflechir."</p>
+    <p class="you">Bien sur. Je t'envoie le recapitulatif et le devis apres l'appel. Une seule chose sur le calendrier: si tu confirmes d'ici lundi, je commence lundi et on a deux semaines pleines avant la fin de ton Airbnb. Passe mercredi, on travaille dans l'urgence et ca reduit les options. Tu peux me dire lundi ?</p>
+  </div>
+</section>
+
+<section>
+  <h2>Pieges a eviter</h2>
+  <ul>
+    <li><b>Ne cite aucun nom d'agence ni d'operateur partenaire.</b> C'est ta source, et la nommer, c'est la perdre.</li>
+    <li><b>Ne parle pas de courtage ni de negociation de bail a ta place.</b> Ton role: conseil, coordination, traduction, accompagnement. La mediation du bail passe par une agence licenciee. Reste sur "I coordinate with a licensed partner agency", sans plus de details.</li>
+    <li><b>N'invente aucun chiffre de share house.</b> Une fourchette fausse a l'oral te suivra jusqu'a la facture.</li>
+    <li><b>Ne fais pas de remise.</b> 250 &euro; est deja bas pour le travail fourni. Si elle bloque sur le prix, ce n'est pas le prix le probleme, c'est la confiance: reviens sur la garantie de remboursement.</li>
+    <li><b>Ne promets pas de delai de resultat.</b> Tu promets une methode et une shortlist, pas une date de remise des cles.</li>
+    <li><b>Ne remplis pas les silences.</b> Surtout apres l'annonce du prix.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Apres l'appel (a faire dans l'heure)</h2>
+  <ul class="check">
+    <li>Email de recap avec ses propres mots: criteres, budget, dates, ce que couvre la mission.</li>
+    <li>Lien du devis correspondant a la route choisie&nbsp;: Share House 1 personne (250 &euro;) ou Appartement meuble 1 personne (400 &euro;), page privee.</li>
+    <li>Rappel de la clause de remboursement, en une phrase.</li>
+    <li>Une date de decision explicite ("dis-moi lundi") et rien d'autre comme relance.</li>
+    <li>Si elle a dit oui: confirmer le demarrage lundi et lui demander sa date exacte de sortie d'Airbnb.</li>
+    <li>Me dire ce qu'elle a repondu aux 6 questions, que je mette a jour la memoire et prepare la suite.</li>
+  </ul>
+</section>
+
+<footer>
+  Fiche preparee le 28/08/2026 &middot; Sources: emails Poppy Hewlett du 17 au 27/08, indice loyers Tokyo Expat (02/07/2026), offres /devis.
+  Les chiffres de loyer et de prime du meuble sont verifies. Les fourchettes share house viennent de la grille du partenaire operateur et doivent etre confirmees avant d'etre annoncees.
+</footer>
+
+</div>
+</body>
+</html>

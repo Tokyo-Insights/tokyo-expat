@@ -1,11 +1,11 @@
 {
   "_comment": "File de munitions Reddit. status: todo (pas d'asset) / ready (pret a poster) / posted. Le reminder pioche la prochaine 'ready', rappelle via Telegram, detecte auto le post (email AutoMod OC) et avance. Cadence = POSTS_PER_WEEK dans reddit_munition_reminder.py.",
   "state": {
-    "last_posted_utc": "2026-08-17T22:28:16Z",
-    "awaiting_id": "tokyo-price-choropleth",
-    "awaiting_reminded_utc": "2026-08-25T22:12:36Z",
+    "last_posted_utc": "2026-08-27T23:10:05Z",
+    "awaiting_id": null,
+    "awaiting_reminded_utc": null,
     "last_reminded_date": "2026-08-26",
-    "low_stock_alerted_utc": "2026-08-24T22:10:29Z"
+    "low_stock_alerted_utc": "2026-08-27T23:10:05Z"
   },
   "munitions": [
     {
@@ -135,13 +135,13 @@
     },
     {
       "id": "tokyo-price-choropleth",
-      "status": "ready",
+      "status": "posted",
       "png": "outreach/tokyo-price-map.png",
       "title": "[OC] Tokyo condo price per m2 by ward, mapped (2025)",
       "note": "Carte choroplethe des 23 wards. Demande explicite du public r/dataisbeautiful. Bonne aussi pour public client (r/japanlife/japanresidents) avec lien /en/data.",
       "oc_comment": "Source: ~100,000 recorded second-hand condominium sale transactions across Tokyo's 23 wards (settled sale prices, not asking prices), aggregated to the median price per m2 per ward. Ward outlines from public administrative boundary data.\n\nTool: Python (geopandas + matplotlib).",
       "sub": "dataisbeautiful",
-      "posted_utc": null,
+      "posted_utc": "2026-08-27T23:10:05Z",
       "views": null,
       "upvotes": null
     },
