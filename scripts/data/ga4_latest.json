@@ -1,70 +1,66 @@
 {
-  "generated_at": "2026-08-24",
-  "period": "2026-08-17 to 2026-08-24",
+  "generated_at": "2026-08-31",
+  "period": "2026-08-24 to 2026-08-31",
   "this_week": {
-    "sessions": 323,
-    "users": 287,
-    "pageviews": 355,
-    "bounce_rate": 0.7213622291021672
+    "sessions": 330,
+    "users": 297,
+    "pageviews": 375,
+    "bounce_rate": 0.7484848484848485
   },
   "prev_week": {
-    "sessions": 256,
-    "users": 219,
-    "pageviews": 314,
-    "bounce_rate": 0.68359375
+    "sessions": 319,
+    "users": 283,
+    "pageviews": 353,
+    "bounce_rate": 0.6927899686520376
   },
   "changes": {
-    "sessions": "+26%",
-    "users": "+31%",
-    "pageviews": "+13%"
+    "sessions": "+3%",
+    "users": "+5%",
+    "pageviews": "+6%"
   },
   "top_pages": [
     [
+      "/en/data",
+      "23"
+    ],
+    [
       "/en/blog/japan-sim-card-foreigners-2026",
-      "26"
+      "20"
     ],
     [
       "/en",
-      "25"
+      "19"
     ],
     [
-      "/en/data",
-      "21"
+      "/fr/blog/tokyo-osaka-ou-vivre-expatrie-comparatif",
+      "17"
     ],
     [
-      "/en/blog/bank-transfer-japan-furikomi-guide",
-      "15"
-    ],
-    [
-      "/en/blog/tokyo-rent-report-2026",
-      "15"
+      "/fr/blog/ouvrir-compte-bancaire-japon-etranger",
+      "16"
     ]
   ],
   "top_sources": [
     [
       "Direct",
-      "166"
+      "173"
     ],
     [
       "Organic Search",
-      "99"
+      "119"
     ],
     [
       "AI Assistant",
-      "36"
+      "25"
     ]
   ],
-  "form_submits_week": 2,
+  "form_submits_week": 0,
   "events": {
-    "page_view": 355,
-    "session_start": 323,
-    "first_visit": 285,
-    "user_engagement": 137,
-    "scroll": 36,
-    "click": 2,
-    "form_start": 2,
-    "generate_lead": 2,
-    "book_call_click": 1,
-    "file_download": 1
+    "page_view": 375,
+    "session_start": 336,
+    "first_visit": 302,
+    "user_engagement": 125,
+    "scroll": 32,
+    "click": 1
   }
 }

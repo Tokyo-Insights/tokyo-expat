@@ -1,85 +1,87 @@
 {
   "Remoters": {
     "name": "Remoters",
-    "total_results": 31,
-    "complaints": 2,
-    "reddit_threads": 9,
+    "total_results": 28,
+    "complaints": 1,
+    "reddit_threads": 7,
     "top_issues": [
       "scam",
       "sale",
       "issue",
-      "bad",
-      "complaint",
-      "pest",
-      "fraud"
+      "small",
+      "avoid"
     ],
     "issue_counts": {
-      "scam": 4,
-      "sale": 2,
+      "scam": 5,
+      "sale": 3,
       "issue": 1,
-      "bad": 1,
-      "complaint": 1,
-      "pest": 1,
-      "fraud": 1
+      "small": 1,
+      "avoid": 1
     },
     "counter_angle": "On est local, eux sont une plateforme distante sans connaissance terrain",
     "complaint_snippets": [
       {
-        "url": "https://www.reddit.com/r/ApartmentHacks/comments/j44tty/all_i_see_are_bad_reviews_and_complaints_about/",
-        "title": "All I see are bad reviews and complaints about ... - Reddit",
-        "snippet": "All I see are bad reviews and complaints about apartments. Has anyone had atleast an okay time in their apartment? Share Sort by: Best Open comment sort options Best Top New Controversial Old Q&A Add "
-      },
-      {
-        "url": "https://www.scamadviser.com/",
-        "title": "ScamAdviser | Check Any Website for Scams & Fraud | Free",
-        "snippet": "Scam IQ Test. Can you spot the scam? Survive the test and get your personal verdict."
+        "url": "https://www.remoters.io/en",
+        "title": "Remoters, the human way to find your new home abroad",
+        "snippet": "Avoid scams. With a Remoters real estate hunter, you talk to a real English-speaking professional who is an expert on your destination. For you, it is the guarantee that your project will be supported"
       }
     ],
     "reddit_urls": [
-      "https://www.reddit.com/r/ApartmentHacks/comments/j44tty/all_i_see_are_bad_reviews_and_complaints_about/",
+      "https://www.reddit.com/r/rome/comments/1ngobr5/remotersio_apartment_search_in_pinciano/",
       "https://www.reddit.com/r/japan/comments/1gk5rig/foreign_buyers_eye_japans_empty_houses_with/",
       "https://www.reddit.com/r/australia/comments/1fjfvh5/japans_public_transport_and_housing_is_so_good_it/",
-      "https://www.reddit.com/r/expats/comments/139kvqo/someone_talk_me_out_of_moving_to_japan/",
-      "https://www.reddit.com/r/movingtojapan/comments/1if0do3/re_re_im_moving_to_japan_with_no_degree_and_lots/"
+      "https://www.reddit.com/r/japan/comments/1chqegs/akiya_houses_why_japan_has_nine_million_empty/",
+      "https://www.reddit.com/r/expats/comments/139kvqo/someone_talk_me_out_of_moving_to_japan/"
     ],
-    "last_scraped": "2026-08-24"
+    "last_scraped": "2026-08-31"
   },
   "Sakura House": {
     "name": "Sakura House",
-    "total_results": 30,
-    "complaints": 3,
+    "total_results": 23,
+    "complaints": 7,
     "reddit_threads": 9,
     "top_issues": [
       "overcrowded",
-      "bad",
       "noisy",
+      "bad",
+      "complaint",
       "fee",
-      "sale",
-      "small",
-      "problem",
-      "pire"
+      "issue",
+      "avoid",
+      "expensive"
     ],
     "issue_counts": {
-      "overcrowded": 3,
-      "bad": 2,
-      "noisy": 2,
-      "fee": 1,
-      "sale": 1,
-      "small": 1,
-      "problem": 1,
-      "pire": 1
+      "overcrowded": 6,
+      "noisy": 5,
+      "bad": 3,
+      "complaint": 2,
+      "fee": 2,
+      "issue": 1,
+      "avoid": 1,
+      "expensive": 1,
+      "problem": 1
     },
     "counter_angle": "Logements personnalises vs share house impersonnel de masse",
     "complaint_snippets": [
+      {
+        "url": "https://jref.com/threads/avoid-sakura-house-in-tokyo.32726/",
+        "title": "avoid Sakura House in Tokyo - jref.com",
+        "snippet": "Aug 7, 2007 · It would be useful (and fair) if members could be more specific on their complaints about Sakura House. \"They had lots of stupid rules\" doesn't allow me to decide whether to steer clear "
+      },
       {
         "url": "https://www.biggerpockets.com/forums/530/topics/1087496-noisy-neighbours-in-an-overcrowded-house",
         "title": "Noisy neighbours in an overcrowded house | Forum",
         "snippet": "The problem is my neighbors.. There are about 5 families living in the house with sometimes up to 6 cars in the driveway. This is the only house in the street with so many people living in it. There i"
       },
       {
-        "url": "https://www.tripadvisor.com/ShowUserReviews-g294197-d3295602-r260431091-Four_Seasons_House-Seoul.html",
-        "title": "Great value but noisy & overcrowded - Review of Four... - Tripadvisor",
-        "snippet": "Four Seasons House: Great value but noisy & overcrowded - See 53 traveler reviews, 21 candid photos, and great deals for Four Seasons House at Tripadvisor."
+        "url": "https://www.tripadvisor.com/ShowUserReviews-g41315-d26347568-r1066055616-Great_Wolf_Lodge-Perryville_Maryland.html",
+        "title": "Noisy and overcrowded! - Review of Great Wolf Lodge... - Tripadvisor",
+        "snippet": "- See 487 traveler reviews, 389 candid photos, and great deals for Great Wolf Lodge at Tripadvisor.We spent the day with our children and grandchildren. I found the pool room to be overly noisy. I thi"
+      },
+      {
+        "url": "https://www.ybw.com/videos/sailing-jakarta-polluted-noisy-overcrowded-brilliant-72491",
+        "title": "Sailing Jakarta: Polluted, noisy, overcrowded but absolutely... - YBW",
+        "snippet": "Reviews.It's polluted, noisy, over-crowded, the traffic is appalling and it's sinking: is there anything to like about Jakarta? We think so! As much as we love anchoring in the remote and white-sand b"
       },
       {
         "url": "https://pixelnitro.com/project-zomboid-build-42-animal-husbandry-guide-complete-livestock-and-breeding-strategy/",
@@ -88,97 +90,96 @@
       }
     ],
     "reddit_urls": [
-      "https://www.reddit.com/",
-      "https://www.reddit.com/r/ACPocketCamp/comments/1kbpi1o/im_just_a_little_obsessed_with_the_sakura_house/",
-      "https://www.reddit.com/r/DragonRajaMobile/comments/ga7eh5/dragon_raja_housing_update_coming_soon/",
-      "https://reddit.com/",
-      "https://www.reddit.com/r/Portland/comments/1ew8xw5/an_honest_review_of_soho_house_after_being_a/"
+      "https://www.reddit.com/r/japan/comments/132bvv/any_experience_with_a_sakura_house/",
+      "https://www.reddit.com/r/JapanTravel/comments/cnhilc/sakura_house_apartment_for_a_one_month_vacation/",
+      "https://modernlivingjapan.com/en/blog/share-house-tokyo-reddit-what-real-residents-actually-say",
+      "https://www.reddit.com/r/movingtojapan/comments/96rpvg/considering_to_stay_at_sakura_house/",
+      "https://www.reddit.com/r/japan/comments/l687h/has_anyone_here_stayed_at_sakura_house_if_so_were/"
     ],
-    "last_scraped": "2026-08-24"
+    "last_scraped": "2026-08-31"
   },
   "Oak House": {
     "name": "Oak House",
-    "total_results": 22,
-    "complaints": 3,
-    "reddit_threads": 3,
+    "total_results": 23,
+    "complaints": 0,
+    "reddit_threads": 0,
     "top_issues": [
       "fee",
-      "problem",
-      "avoid",
       "sale",
-      "hidden fees",
-      "expensive",
+      "problem",
       "late"
     ],
     "issue_counts": {
-      "fee": 5,
-      "problem": 3,
-      "avoid": 3,
-      "sale": 1,
-      "hidden fees": 1,
-      "expensive": 1,
+      "fee": 2,
+      "sale": 2,
+      "problem": 1,
       "late": 1
     },
     "counter_angle": "Transparence totale sur les frais vs frais caches",
-    "complaint_snippets": [
-      {
-        "url": "https://sharehouses.howtojp.com/posts/why-tokyo-sharehouses-hidden-fees/",
-        "title": "Why Tokyo Sharehouses Have So Many Hidden Fees",
-        "snippet": "Dec 15, 2024 · Uncover the truth behind Tokyo sharehouse hidden fees, from utility surcharges to exit penalties, and learn how to spot and avoid unexpected costs."
-      },
-      {
-        "url": "https://www.juwai.asia/main/news/6989",
-        "title": "How Much Is a House in Japan? (Prices, Taxes & Investment Tips)Anyone using / us",
-        "snippet": "a. Nationwide Property Cost Overview The cost of houses in Japan varies widely, influenced by location, property type, and market trends. In 2024, the average cost of a house in Japanis as follows: So"
-      },
-      {
-        "url": "https://nipponrama.com/oakhouse-review/",
-        "title": "Oakhouse: my review after living in 3 different share houses ...",
-        "snippet": "May 16, 2019 · This wasn’t a problem for me, since I always chose single rooms and shared the toilet and the bathroom with a few housemates. If you’re modest, I advise you to absolutely avoid dormitor"
-      }
-    ],
-    "reddit_urls": [
-      "https://www.trustpilot.com/review/reddit.it",
-      "https://www.reddit.com/r/japanlife/comments/1bm7wcn/thoughts_on_oakhouse_and_any_other_sharehouse/",
-      "https://www.reddit.com/r/japanlife/comments/ezqqe3/anyone_using_used_oakhouse_reviews/"
-    ],
-    "last_scraped": "2026-08-24"
+    "complaint_snippets": [],
+    "reddit_urls": [],
+    "last_scraped": "2026-08-31"
   },
   "GaijinPot Housing": {
     "name": "GaijinPot",
-    "total_results": 19,
-    "complaints": 2,
-    "reddit_threads": 1,
+    "total_results": 21,
+    "complaints": 6,
+    "reddit_threads": 4,
     "top_issues": [
-      "problem",
+      "bad",
+      "fee",
       "scam",
       "complaint",
-      "worst",
-      "bad"
+      "fraud",
+      "problem",
+      "sale",
+      "pest"
     ],
     "issue_counts": {
-      "problem": 2,
+      "bad": 3,
+      "fee": 2,
       "scam": 2,
-      "complaint": 1,
-      "worst": 1,
-      "bad": 1
+      "complaint": 2,
+      "fraud": 1,
+      "problem": 1,
+      "sale": 1,
+      "pest": 1,
+      "late": 1
     },
     "counter_angle": "Accompagnement humain vs portail automatise sans suivi",
     "complaint_snippets": [
+      {
+        "url": "https://www.reddit.com/r/movingtojapan/comments/7i52co/anyone_used_gaijinpot_housing_service/",
+        "title": "Anyone used GaijinPot housing service? : r/movingtojapan - Reddit",
+        "snippet": "I was wondering if anyone has had good or bad experiences with the GaijinPot housing service (going through properties on realestate.co.jp). Is it a good process to follow through with or are there ot"
+      },
       {
         "url": "https://www.ic3.gov/",
         "title": "Home Page - Internet Crime Complaint Center (IC3)",
         "snippet": "Welcome to the Internet Crime Complaint Center. Scammers are Impersonating the IC3. The IC3 does not work with any non-law enforcement entity, such as law firms or crypto services, to recuperate lost "
       },
       {
-        "url": "https://2upskill.com/how-to-fix-how-to-fish-lobby-invite-error-complete-4-player-multiplayer-troubleshooting-guide/",
-        "title": "How to Fix How to Fish Lobby Invite Error: Complete 4-Player...",
-        "snippet": "The worst part of a multiplayer error in How to Fish isn’t necessarily the technical problem itself. It’s the timing. You’ve got friends online."
+        "url": "https://cybercrime.gov.in/",
+        "title": "Cyber Crime Portal",
+        "snippet": "Financial fraud. Other cyber crime. Track your Complaint."
+      },
+      {
+        "url": "https://worldeka.com/how-to-fix-star-wars-zero-company-nvidia-driver-crashes-black-screen-and-low-fps-on-pc/",
+        "title": "How to Fix Star Wars Zero Company Nvidia Driver Crashes, Black...",
+        "snippet": "When a big Unreal Engine title starts behaving badly, randomly changing twenty graphics settings at once usually makes things worse. You want to attack the problem systematically: driver first, game f"
+      },
+      {
+        "url": "https://bloxrant.com/forgotten-stories-roblox-beginner-guide/",
+        "title": "Forgotten Stories Roblox Beginner Guide: 10+ Tips and Tricks",
+        "snippet": "Missing them can leave you in a bad position, especially during difficult encounters. If you’re struggling with the timing, don’t get frustrated. The timing can feel unusual at first, particularly bec"
       }
     ],
     "reddit_urls": [
-      "https://www.reddit.com/r/japanlife/comments/wrhg88/experiences_with_gaijinpot_or_similar_services/"
+      "https://www.reddit.com/r/japanlife/comments/wrhg88/experiences_with_gaijinpot_or_similar_services/",
+      "https://www.reddit.com/r/japanlife/comments/i2u2d1/is_gaijinpot_apartments_reliable/",
+      "https://www.reddit.com/r/movingtojapan/comments/7i52co/anyone_used_gaijinpot_housing_service/",
+      "https://www.reddit.com/r/movingtojapan/comments/f7bc2n/how_trustworthy_are_the_real_estate_agencies_on/"
     ],
-    "last_scraped": "2026-08-24"
+    "last_scraped": "2026-08-31"
   }
 }
