@@ -112,14 +112,15 @@
     },
     {
       "id": "center-premium-over-time",
-      "status": "todo",
-      "png": null,
-      "title": "[OC] Tokyo's centre vs suburbs condo price gap widened, 2021-2025",
-      "oc_comment": null,
+      "status": "ready",
+      "png": "outreach/tokyo-center-premium.png",
+      "title": "[OC] Tokyo's centre is pulling away: the condo price gap with the rest of the city nearly doubled in four years",
+      "oc_comment": "Source: my own index of recorded second-hand condominium transactions across Tokyo's 23 special wards, 2021 Q1 to 2025 Q3 (settled sale prices, not asking prices), aggregated to a median price per m2 per ward per quarter.\n\nMethod: \"Central 5\" is the conventional group of Chiyoda, Chuo, Minato, Shinjuku and Shibuya; the other line is the median across the remaining 18 wards. Quarterly medians are noisy at this sample size, so both lines are a 4-quarter rolling average, which is why the series starts at 2021 Q4. Medians throughout, never averages.\n\nTool: Python (pandas) for the aggregation, matplotlib for the chart.",
       "sub": "dataisbeautiful",
       "posted_utc": null,
       "views": null,
-      "upvotes": null
+      "upvotes": null,
+      "note": "Serie temporelle lissee 4Q (les medianes trimestrielles brutes sont bruitees). Chart: scripts/generate_center_premium_chart.py"
     },
     {
       "id": "tokyo-prime-areas",
