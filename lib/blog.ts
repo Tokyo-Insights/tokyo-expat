@@ -2287,7 +2287,7 @@ Pour comparer les atmospheres de Tokyo, Osaka et Kyoto par vous-meme, [GetYourGu
     slug: 'residence-card-japan-zairyu-card-guide',
     locale: 'en',
     title: 'Japan Residence Card (Zairyu Card): Complete Guide for Foreigners',
-    description: 'How to get your Japan Residence Card, what it lets you do, and the mandatory steps within 14 days of arrival. Everything foreigners need to know.',
+    description: 'Issued at the airport, then activated by registering your address at the ward office within 14 days. Without it: no bank account, no lease, no contract SIM.',
     date: '2026-06-19',
     readingTime: '5 min',
     content: `
@@ -5595,7 +5595,7 @@ For your SIM card in Japan, [Sakura Mobile](https://www.sakuramobile.jp/tokyoexp
     slug: 'japan-income-tax-foreigners-guide',
     locale: 'en',
     title: 'Japan Income Tax for Foreigners: Complete Guide 2026',
-    description: 'Tax brackets, filing deadlines and deductions for expats in Japan. How the 15 March deadline, MyPortal online filing, and foreign income rules work in 2026.',
+    description: 'Employers withhold income tax via the nenmatsu chosei, but resident tax (~10%) is billed the year after. Who must file a kakutei shinkoku, and by 15 March.',
     date: '2026-06-21',
     readingTime: '9 min',
     content: `
@@ -7481,7 +7481,7 @@ Pour votre couverture sante en nomade digital, [SafetyWing Nomad Insurance](http
     slug: 'japan-working-holiday-visa-guide-2026',
     locale: 'en',
     title: 'Japan Working Holiday Visa 2026: Complete Guide (Eligibility & Housing)',
-    description: 'Japan Working Holiday Visa requirements, eligible countries, age limits, quotas, application steps and housing guide for Tokyo arrivals.',
+    description: 'Ages 18 to 30, up to one year in Japan, no employer sponsor needed. Eligible countries, quotas, proof of funds, and how to line up housing before you land.',
     date: '2026-06-22',
     readingTime: '9 min',
     content: `
@@ -7629,7 +7629,7 @@ For health coverage during your working holiday, [SafetyWing Nomad Insurance](ht
     slug: 'pvt-japon-visa-vacances-travail-2026',
     locale: 'fr',
     title: 'PVT Japon 2026 : Guide Complet du Programme Vacances Travail',
-    description: 'Conditions, quotas, démarches, logement et conseils pratiques pour le PVT Japon. Guide complet pour les Français, Belges et Canadiens francophones.',
+    description: 'De 18 à 30 ans, jusqu\'à un an au Japon, sans employeur parrain. Pays éligibles, quotas, justificatif de fonds, et comment préparer son logement avant le départ.',
     date: '2026-06-22',
     readingTime: '9 min',
     content: `
