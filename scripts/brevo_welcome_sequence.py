@@ -96,6 +96,8 @@ templates = [
 <p>Preparer une installation au Japon a distance, c'est gerable mais chronophage : trouver le bon quartier, eviter les pieges de contrat, caler les demarches dans le bon ordre.</p>
 <p>Si vous preferez deleguer ou simplement securiser vos choix, je propose un accompagnement personnalise, de la simple consultation a la recherche de logement complete.</p>
 <p>{btn("Voir comment je peux aider", "https://www.tokyo-expat.com/fr/services")}</p>
+<p>Le plus simple reste souvent d'en parler de vive voix : 30 minutes, gratuit, sans engagement. Vous repartez avec un avis clair sur votre situation, meme si vous faites tout vous-meme ensuite.</p>
+<p>{btn("Reserver un appel gratuit", "https://www.tokyo-expat.com/fr/contact")}</p>
 <p>Et si vous avez juste une question, repondez a cet email. Toujours ravi d'aider.</p>
 <p>Alessandro<br>Tokyo Expat</p>
 """),
@@ -133,6 +135,8 @@ templates = [
 <p>Preparing a move to Japan from abroad is doable but time-consuming: finding the right neighbourhood, avoiding contract traps, sequencing the admin in the right order.</p>
 <p>If you would rather delegate or simply de-risk your choices, I offer personalised support, from a single consultation to a full housing search.</p>
 <p>{btn("See how I can help", "https://www.tokyo-expat.com/en/services")}</p>
+<p>Often the fastest route is simply to talk it through: 30 minutes, free, no obligation. You leave with a clear read on your situation, even if you then handle everything yourself.</p>
+<p>{btn("Book a free call", "https://www.tokyo-expat.com/en/contact")}</p>
 <p>And if you just have a question, reply to this email. Always happy to help.</p>
 <p>Alessandro<br>Tokyo Expat</p>
 """),
@@ -218,18 +222,59 @@ templates = [
 
 def main():
     # Idempotent: ne (re)cree PAS les templates deja existants (par nom).
+    # ⚠️ CONSEQUENCE (constatee 02/09/2026): modifier le HTML ci-dessus et relancer le script
+    # ne changeait RIEN chez Brevo, tout etait "SKIP". Pour propager une correction de contenu
+    # il faut --update, qui fait un PUT sur le template existant (retrouve par NOM).
+    #   python scripts/brevo_welcome_sequence.py --update --dry-run   (montre le diff, n'envoie rien)
+    #   python scripts/brevo_welcome_sequence.py --update             (met a jour chez Brevo)
+    update_mode = "--update" in sys.argv
+    dry_run = "--dry-run" in sys.argv
+    # --only "3,6" ou --only "Bienvenue 3" : ne reecrire QUE ces templates.
+    # Sans filtre, --update repousse les 12, dont 10 inchangees = ecritures inutiles
+    # sur des emails en production.
+    only = ""
+    if "--only" in sys.argv:
+        i = sys.argv.index("--only")
+        only = sys.argv[i + 1] if i + 1 < len(sys.argv) else ""
+    only_terms = [s.strip().lower() for s in only.split(",") if s.strip()]
+
     existing = set()
+    by_name = {}
     try:
         rr = requests.get(TEMPLATES_URL + "?limit=200", headers=HEADERS, verify=False, timeout=30)
         if rr.status_code == 200:
-            existing = {t.get("name") for t in rr.json().get("templates", [])}
+            for t in rr.json().get("templates", []):
+                existing.add(t.get("name"))
+                by_name[t.get("name")] = t
     except Exception as e:
         print(f"[WARN] liste templates existants indisponible: {e}")
 
     created = []
     for t in templates:
         if t["name"] in existing:
-            print(f"SKIP (existe deja) {t['name']}")
+            if not update_mode:
+                print(f"SKIP (existe deja) {t['name']}")
+                continue
+            live = by_name.get(t["name"], {})
+            tid = live.get("id")
+            # Un terme NUMERIQUE ne matche que l'id (sinon "6" attrape aussi
+            # "[FR] Bienvenue 6" via le nom, constate au dry-run du 02/09).
+            if only_terms and not any(s == str(tid) if s.isdigit() else s in t["name"].lower()
+                                      for s in only_terms):
+                continue
+            same_subject = live.get("subject") == t["subject"]
+            # Brevo ne rend pas toujours le htmlContent dans la liste: on compare ce qu'on peut
+            # et on annonce la mise a jour explicitement plutot que de la faire en silence.
+            print(f"UPDATE id={tid}  {t['name']}"
+                  f"{'' if same_subject else '  [SUJET MODIFIE]'}")
+            if dry_run:
+                print(f"       (dry-run, aucun appel) longueur html={len(t['html'])}")
+                continue
+            ru = requests.put(f"{TEMPLATES_URL}/{tid}", headers=HEADERS, verify=False, timeout=30,
+                              json={"templateName": t["name"], "subject": t["subject"],
+                                    "htmlContent": t["html"], "sender": SENDER, "isActive": True})
+            print("       OK" if ru.status_code in (200, 204)
+                  else f"       FAIL {ru.status_code} -> {ru.text[:200]}")
             continue
         payload = {
             "templateName": t["name"],
