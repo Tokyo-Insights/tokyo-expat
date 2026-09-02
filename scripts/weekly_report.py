@@ -295,6 +295,22 @@ def render_html(d):
     fn = d["funnel"]
     def pct(a, b): return f"{a/b*100:.0f}%" if b else "-"
 
+    # --- Bing (ajoute 02/09/2026): index de Bing = index que ChatGPT interroge.
+    # Donnee restee inexploitee jusqu'ici; le classement Bing est DIFFERENT de Google.
+    b = d.get("bing") or {}
+    b_tot = b.get("totals", {})
+    b_pages = "".join(
+        f'<div class="row"><span class="num">{p["impressions"]}</span>'
+        f'<span class="path">{_esc(str(p["query"]).replace("https://www.tokyo-expat.com", ""))}</span>'
+        f'{chip(str(p["clicks"]) + " clics", "c-good" if p["clicks"] else "c-crit")}</div>'
+        for p in b.get("top_pages", [])[:8])
+    b_strike = "".join(
+        f'<div class="row"><span class="num">{q["impressions"]}</span>'
+        f'<span class="kw">{_esc(q["query"])}</span>{chip("pos " + str(q["position"]), "c-warn")}</div>'
+        for q in b.get("striking_distance", [])[:8])
+    b_head = (f'<span class="tag">{b_tot.get("impressions", 0)} impr · '
+              f'{b_tot.get("clicks", 0)} clics · CTR {b.get("ctr_pct", 0)}%</span>') if b else ""
+
     html = (f'<title>Tokyo-Expat Intelligence</title>\n<meta name="viewport" content="width=device-width, initial-scale=1">\n'
             f'<style>{_CSS}</style>\n<div class="wrap">\n'
             f'<header><div class="brand"><span class="dot"></span><div><h1>Tokyo-Expat Intelligence</h1>'
@@ -320,7 +336,9 @@ def render_html(d):
             f'<div class="card"><h2>🔗 Referents<span class="tag">trafic entrant</span></h2>{ref or "<div class=row><span class=kw>Aucun</span></div>"}</div>\n'
             f'<div class="card"><h2>📦 Featured snippets<span class="tag">a voler</span></h2>{snip or "<div class=row><span class=kw>Aucun</span></div>"}</div>\n'
             f'<div class="card wide"><h2>🔥 Vulnerabilites concurrents<span class="tag">places a prendre</span></h2>{vuln or "<div class=row><span class=kw>Aucune</span></div>"}</div>\n'
-            f'</div>\n<footer>Tokyo-Expat · rapport genere chaque dimanche · lecture seule</footer>\n</div>')
+            f'<div class="card"><h2>🅱️ Bing — pages fortes{b_head}</h2>{b_pages or "<div class=row><span class=kw>Aucune donnee</span></div>"}</div>\n'
+            f'<div class="card"><h2>🅱️ Bing — visible, zero clic<span class="tag">titre/desc a revoir</span></h2>{b_strike or "<div class=row><span class=kw>Aucune</span></div>"}</div>\n'
+            f'</div>\n<footer>Tokyo-Expat · rapport genere chaque mercredi · lecture seule</footer>\n</div>')
     HTML_OUT.write_text(html, encoding="utf-8")
     return html
 
@@ -535,6 +553,26 @@ def build():
         L.append("_(indisponible)_")
     L.append("")
 
+    # D-bis. BING (ajoute 02/09/2026) -- index interroge par ChatGPT, longtemps inexploite.
+    # ⚠️ Le classement Bing n'est PAS celui de Google: les pages gagnantes different.
+    bing = load("bing_latest.json")
+    if bing and bing.get("totals", {}).get("impressions"):
+        bt, bp = bing["totals"], bing.get("period", {})
+        L.append("## 🅱️ BING (l'index que ChatGPT interroge)")
+        L.append(f"**{bt['impressions']} impressions · {bt['clicks']} clics · "
+                 f"CTR {bing.get('ctr_pct', 0)}%** sur {bp.get('from', '?')} → {bp.get('to', '?')} "
+                 f"({bing.get('queries_total', 0)} requetes, {bing.get('pages_total', 0)} pages)")
+        if bing.get("top_pages"):
+            L.append("**Pages fortes sur Bing (souvent PAS les memes que sur Google) :**")
+            for p in bing["top_pages"][:6]:
+                url = str(p["query"]).replace("https://www.tokyo-expat.com", "")
+                L.append(f"  - {p['impressions']} impr · {p['clicks']} clics · pos {p['position']} | {url}")
+        if bing.get("striking_distance"):
+            L.append("**Visible sur Bing mais zero clic (titre/description a revoir) :**")
+            for q in bing["striking_distance"][:6]:
+                L.append(f"  - {q['impressions']} impr · pos {q['position']} · _{q['query']}_")
+        L.append("")
+
     # E. FEATURED SNIPPETS (a voler)
     L.append("## 📦 FEATURED SNIPPETS (a voler aux concurrents)")
     fss = featured_snippets()
@@ -596,6 +634,7 @@ def build():
                        "sc": fn.get("select_consultation", 0), "bc": fn.get("book_call_click", 0)},
             "ai": ai, "ref": ref, "positions": kp, "n_kw": len(kp), "snippets": fss,
             "vuln": vpairs, "callout": callout,
+            "bing": load("bing_latest.json") or {},
         })
         print(f"[Ecrit: {HTML_OUT}]")
         if "--telegram" in sys.argv:

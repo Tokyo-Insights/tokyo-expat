@@ -1,10 +1,765 @@
 {
-  "generated_at": "2026-06-29",
+  "generated_at": "2026-09-02",
   "site": "https://tokyo-expat.com/",
   "totals": {
-    "impressions": 0,
-    "clicks": 0
+    "impressions": 7266,
+    "clicks": 176
   },
-  "points": 0,
-  "top_queries": []
+  "points": 64,
+  "top_queries": [
+    {
+      "query": "pvt japon",
+      "impressions": 96,
+      "clicks": 0,
+      "position": 7.2,
+      "ctr_pct": 0.0
+    },
+    {
+      "query": "jiko bukken",
+      "impressions": 61,
+      "clicks": 1,
+      "position": 6.5,
+      "ctr_pct": 1.64
+    },
+    {
+      "query": "ur housing",
+      "impressions": 37,
+      "clicks": 0,
+      "position": 9.6,
+      "ctr_pct": 0.0
+    },
+    {
+      "query": "1ldk",
+      "impressions": 15,
+      "clicks": 0,
+      "position": 6.5,
+      "ctr_pct": 0.0
+    },
+    {
+      "query": "1ldk meaning",
+      "impressions": 14,
+      "clicks": 0,
+      "position": 6.9,
+      "ctr_pct": 0.0
+    },
+    {
+      "query": "working holiday visa japan",
+      "impressions": 13,
+      "clicks": 0,
+      "position": 8.8,
+      "ctr_pct": 0.0
+    },
+    {
+      "query": "zairyu card",
+      "impressions": 12,
+      "clicks": 0,
+      "position": 7.8,
+      "ctr_pct": 0.0
+    },
+    {
+      "query": "social apartment tokyo",
+      "impressions": 11,
+      "clicks": 0,
+      "position": 3.9,
+      "ctr_pct": 0.0
+    },
+    {
+      "query": "money received from go fund me and alike is taxable in japan",
+      "impressions": 11,
+      "clicks": 0,
+      "position": 6.0,
+      "ctr_pct": 0.0
+    },
+    {
+      "query": "sharehouse tokyo pour etranger",
+      "impressions": 10,
+      "clicks": 0,
+      "position": 5.0,
+      "ctr_pct": 0.0
+    },
+    {
+      "query": "japanese resident card",
+      "impressions": 10,
+      "clicks": 0,
+      "position": 6.8,
+      "ctr_pct": 0.0
+    },
+    {
+      "query": "how to transfer indonesian salary to japanese bank account?",
+      "impressions": 10,
+      "clicks": 0,
+      "position": 3.0,
+      "ctr_pct": 0.0
+    },
+    {
+      "query": "japan income tax",
+      "impressions": 9,
+      "clicks": 0,
+      "position": 7.1,
+      "ctr_pct": 0.0
+    },
+    {
+      "query": "japan residence card",
+      "impressions": 9,
+      "clicks": 0,
+      "position": 6.6,
+      "ctr_pct": 0.0
+    },
+    {
+      "query": "tokyo fully furnished house for rent 2026",
+      "impressions": 8,
+      "clicks": 0,
+      "position": 4.0,
+      "ctr_pct": 0.0
+    },
+    {
+      "query": "pays éligibles visa vacances-travail japon 2026",
+      "impressions": 8,
+      "clicks": 0,
+      "position": 4.0,
+      "ctr_pct": 0.0
+    },
+    {
+      "query": "tokyo cheapest wards rent share house foreigners 2026 adachi katsushika edogawa itabashi",
+      "impressions": 8,
+      "clicks": 0,
+      "position": 4.0,
+      "ctr_pct": 0.0
+    },
+    {
+      "query": "kyodai japan furikumi bank account number",
+      "impressions": 8,
+      "clicks": 0,
+      "position": 3.0,
+      "ctr_pct": 0.0
+    },
+    {
+      "query": "japanese residence card",
+      "impressions": 8,
+      "clicks": 0,
+      "position": 9.6,
+      "ctr_pct": 0.0
+    },
+    {
+      "query": "logement tokyo 19-21 octobre 2026",
+      "impressions": 8,
+      "clicks": 0,
+      "position": 2.0,
+      "ctr_pct": 0.0
+    },
+    {
+      "query": "out of box methods find furnished apartment tokyo expat family",
+      "impressions": 8,
+      "clicks": 0,
+      "position": 2.0,
+      "ctr_pct": 0.0
+    },
+    {
+      "query": "tokyo family cost of living 2026 outer wards rent 2ldk",
+      "impressions": 8,
+      "clicks": 0,
+      "position": 3.0,
+      "ctr_pct": 0.0
+    },
+    {
+      "query": "tokyo student apartment rent average 2026 waseda sophia commute nearby suburbs",
+      "impressions": 8,
+      "clicks": 0,
+      "position": 5.0,
+      "ctr_pct": 0.0
+    },
+    {
+      "query": "tokyo furnished 1k 1dk apartment rent monthly expat 2026",
+      "impressions": 8,
+      "clicks": 0,
+      "position": 3.0,
+      "ctr_pct": 0.0
+    },
+    {
+      "query": "shared room accommodation costs in tokyo for international students",
+      "impressions": 7,
+      "clicks": 0,
+      "position": 5.0,
+      "ctr_pct": 0.0
+    }
+  ],
+  "period": {
+    "from": "2026-06-28",
+    "to": "2026-08-30",
+    "days": 64
+  },
+  "ctr_pct": 2.42,
+  "queries_total": 798,
+  "pages_total": 93,
+  "top_pages": [
+    {
+      "query": "https://www.tokyo-expat.com/en/blog/japan-income-tax-foreigners-guide",
+      "impressions": 769,
+      "clicks": 12,
+      "position": 6.0,
+      "ctr_pct": 1.56
+    },
+    {
+      "query": "https://www.tokyo-expat.com/en/blog/japanese-apartment-layouts-explained",
+      "impressions": 440,
+      "clicks": 10,
+      "position": 5.6,
+      "ctr_pct": 2.27
+    },
+    {
+      "query": "https://www.tokyo-expat.com/en/blog/japan-working-holiday-visa-guide-2026",
+      "impressions": 431,
+      "clicks": 2,
+      "position": 6.9,
+      "ctr_pct": 0.46
+    },
+    {
+      "query": "https://www.tokyo-expat.com/en/blog/residence-card-japan-zairyu-card-guide",
+      "impressions": 422,
+      "clicks": 4,
+      "position": 6.4,
+      "ctr_pct": 0.95
+    },
+    {
+      "query": "https://www.tokyo-expat.com/en/blog/japan-sim-card-foreigners-2026",
+      "impressions": 395,
+      "clicks": 23,
+      "position": 4.3,
+      "ctr_pct": 5.82
+    },
+    {
+      "query": "https://www.tokyo-expat.com/fr/blog/pvt-japon-visa-vacances-travail-2026",
+      "impressions": 364,
+      "clicks": 7,
+      "position": 5.9,
+      "ctr_pct": 1.92
+    },
+    {
+      "query": "https://www.tokyo-expat.com/en/blog/send-money-to-japan-from-abroad",
+      "impressions": 174,
+      "clicks": 6,
+      "position": 4.3,
+      "ctr_pct": 3.45
+    },
+    {
+      "query": "https://www.tokyo-expat.com/en/blog/japan-health-insurance-expat-guide",
+      "impressions": 174,
+      "clicks": 3,
+      "position": 5.3,
+      "ctr_pct": 1.72
+    },
+    {
+      "query": "https://www.tokyo-expat.com/en/blog/bringing-pets-to-japan-guide",
+      "impressions": 111,
+      "clicks": 3,
+      "position": 6.7,
+      "ctr_pct": 2.7
+    },
+    {
+      "query": "https://www.tokyo-expat.com/en/blog/student-housing-tokyo-guide",
+      "impressions": 99,
+      "clicks": 5,
+      "position": 4.6,
+      "ctr_pct": 5.05
+    },
+    {
+      "query": "https://www.tokyo-expat.com/en/blog/japan-work-visa-foreigners-guide",
+      "impressions": 89,
+      "clicks": 3,
+      "position": 5.9,
+      "ctr_pct": 3.37
+    },
+    {
+      "query": "https://www.tokyo-expat.com/en/blog/japanese-language-schools-tokyo-guide",
+      "impressions": 75,
+      "clicks": 6,
+      "position": 3.9,
+      "ctr_pct": 8.0
+    },
+    {
+      "query": "https://www.tokyo-expat.com/en/blog/jiko-bukken-cheap-apartments-tokyo",
+      "impressions": 72,
+      "clicks": 3,
+      "position": 6.0,
+      "ctr_pct": 4.17
+    },
+    {
+      "query": "https://www.tokyo-expat.com/en/blog/tokyo-public-transport-expat-guide",
+      "impressions": 69,
+      "clicks": 0,
+      "position": 6.9,
+      "ctr_pct": 0.0
+    },
+    {
+      "query": "https://www.tokyo-expat.com/fr/blog/impots-revenus-japon-expatrie-2026",
+      "impressions": 68,
+      "clicks": 4,
+      "position": 3.1,
+      "ctr_pct": 5.88
+    },
+    {
+      "query": "https://www.tokyo-expat.com/fr/blog/visa-travail-japon-francophone-2026",
+      "impressions": 55,
+      "clicks": 1,
+      "position": 5.2,
+      "ctr_pct": 1.82
+    },
+    {
+      "query": "https://www.tokyo-expat.com/en/blog/share-house-tokyo-guide-2026",
+      "impressions": 53,
+      "clicks": 6,
+      "position": 3.0,
+      "ctr_pct": 11.32
+    },
+    {
+      "query": "https://www.tokyo-expat.com/en/blog/open-bank-account-japan-foreigner",
+      "impressions": 43,
+      "clicks": 3,
+      "position": 5.2,
+      "ctr_pct": 6.98
+    },
+    {
+      "query": "https://www.tokyo-expat.com/en/blog/convert-foreign-driving-licence-japan",
+      "impressions": 40,
+      "clicks": 3,
+      "position": 6.9,
+      "ctr_pct": 7.5
+    },
+    {
+      "query": "https://www.tokyo-expat.com/en/blog/japan-digital-nomad-visa-2026",
+      "impressions": 37,
+      "clicks": 0,
+      "position": 7.1,
+      "ctr_pct": 0.0
+    }
+  ],
+  "striking_distance": [
+    {
+      "query": "pvt japon",
+      "impressions": 96,
+      "clicks": 0,
+      "position": 7.2,
+      "ctr_pct": 0.0
+    },
+    {
+      "query": "ur housing",
+      "impressions": 37,
+      "clicks": 0,
+      "position": 9.6,
+      "ctr_pct": 0.0
+    },
+    {
+      "query": "1ldk",
+      "impressions": 15,
+      "clicks": 0,
+      "position": 6.5,
+      "ctr_pct": 0.0
+    },
+    {
+      "query": "1ldk meaning",
+      "impressions": 14,
+      "clicks": 0,
+      "position": 6.9,
+      "ctr_pct": 0.0
+    },
+    {
+      "query": "working holiday visa japan",
+      "impressions": 13,
+      "clicks": 0,
+      "position": 8.8,
+      "ctr_pct": 0.0
+    },
+    {
+      "query": "zairyu card",
+      "impressions": 12,
+      "clicks": 0,
+      "position": 7.8,
+      "ctr_pct": 0.0
+    },
+    {
+      "query": "social apartment tokyo",
+      "impressions": 11,
+      "clicks": 0,
+      "position": 3.9,
+      "ctr_pct": 0.0
+    },
+    {
+      "query": "money received from go fund me and alike is taxable in japan",
+      "impressions": 11,
+      "clicks": 0,
+      "position": 6.0,
+      "ctr_pct": 0.0
+    },
+    {
+      "query": "sharehouse tokyo pour etranger",
+      "impressions": 10,
+      "clicks": 0,
+      "position": 5.0,
+      "ctr_pct": 0.0
+    },
+    {
+      "query": "japanese resident card",
+      "impressions": 10,
+      "clicks": 0,
+      "position": 6.8,
+      "ctr_pct": 0.0
+    },
+    {
+      "query": "how to transfer indonesian salary to japanese bank account?",
+      "impressions": 10,
+      "clicks": 0,
+      "position": 3.0,
+      "ctr_pct": 0.0
+    },
+    {
+      "query": "japan income tax",
+      "impressions": 9,
+      "clicks": 0,
+      "position": 7.1,
+      "ctr_pct": 0.0
+    },
+    {
+      "query": "japan residence card",
+      "impressions": 9,
+      "clicks": 0,
+      "position": 6.6,
+      "ctr_pct": 0.0
+    },
+    {
+      "query": "tokyo fully furnished house for rent 2026",
+      "impressions": 8,
+      "clicks": 0,
+      "position": 4.0,
+      "ctr_pct": 0.0
+    },
+    {
+      "query": "pays éligibles visa vacances-travail japon 2026",
+      "impressions": 8,
+      "clicks": 0,
+      "position": 4.0,
+      "ctr_pct": 0.0
+    }
+  ],
+  "daily": [
+    {
+      "date": "2026-06-28",
+      "impressions": 0,
+      "clicks": 0
+    },
+    {
+      "date": "2026-06-29",
+      "impressions": 27,
+      "clicks": 1
+    },
+    {
+      "date": "2026-06-30",
+      "impressions": 27,
+      "clicks": 0
+    },
+    {
+      "date": "2026-07-01",
+      "impressions": 22,
+      "clicks": 1
+    },
+    {
+      "date": "2026-07-02",
+      "impressions": 21,
+      "clicks": 0
+    },
+    {
+      "date": "2026-07-03",
+      "impressions": 22,
+      "clicks": 2
+    },
+    {
+      "date": "2026-07-04",
+      "impressions": 20,
+      "clicks": 2
+    },
+    {
+      "date": "2026-07-05",
+      "impressions": 32,
+      "clicks": 0
+    },
+    {
+      "date": "2026-07-06",
+      "impressions": 33,
+      "clicks": 3
+    },
+    {
+      "date": "2026-07-07",
+      "impressions": 33,
+      "clicks": 2
+    },
+    {
+      "date": "2026-07-08",
+      "impressions": 41,
+      "clicks": 1
+    },
+    {
+      "date": "2026-07-09",
+      "impressions": 59,
+      "clicks": 0
+    },
+    {
+      "date": "2026-07-10",
+      "impressions": 17,
+      "clicks": 0
+    },
+    {
+      "date": "2026-07-11",
+      "impressions": 32,
+      "clicks": 1
+    },
+    {
+      "date": "2026-07-12",
+      "impressions": 65,
+      "clicks": 2
+    },
+    {
+      "date": "2026-07-13",
+      "impressions": 56,
+      "clicks": 0
+    },
+    {
+      "date": "2026-07-14",
+      "impressions": 82,
+      "clicks": 3
+    },
+    {
+      "date": "2026-07-15",
+      "impressions": 106,
+      "clicks": 2
+    },
+    {
+      "date": "2026-07-16",
+      "impressions": 80,
+      "clicks": 2
+    },
+    {
+      "date": "2026-07-17",
+      "impressions": 52,
+      "clicks": 1
+    },
+    {
+      "date": "2026-07-18",
+      "impressions": 65,
+      "clicks": 0
+    },
+    {
+      "date": "2026-07-19",
+      "impressions": 93,
+      "clicks": 0
+    },
+    {
+      "date": "2026-07-20",
+      "impressions": 131,
+      "clicks": 3
+    },
+    {
+      "date": "2026-07-21",
+      "impressions": 112,
+      "clicks": 1
+    },
+    {
+      "date": "2026-07-22",
+      "impressions": 99,
+      "clicks": 2
+    },
+    {
+      "date": "2026-07-23",
+      "impressions": 120,
+      "clicks": 7
+    },
+    {
+      "date": "2026-07-24",
+      "impressions": 103,
+      "clicks": 1
+    },
+    {
+      "date": "2026-07-25",
+      "impressions": 81,
+      "clicks": 1
+    },
+    {
+      "date": "2026-07-26",
+      "impressions": 150,
+      "clicks": 2
+    },
+    {
+      "date": "2026-07-27",
+      "impressions": 125,
+      "clicks": 3
+    },
+    {
+      "date": "2026-07-28",
+      "impressions": 158,
+      "clicks": 2
+    },
+    {
+      "date": "2026-07-29",
+      "impressions": 137,
+      "clicks": 2
+    },
+    {
+      "date": "2026-07-30",
+      "impressions": 146,
+      "clicks": 5
+    },
+    {
+      "date": "2026-07-31",
+      "impressions": 112,
+      "clicks": 4
+    },
+    {
+      "date": "2026-08-01",
+      "impressions": 139,
+      "clicks": 6
+    },
+    {
+      "date": "2026-08-02",
+      "impressions": 165,
+      "clicks": 3
+    },
+    {
+      "date": "2026-08-03",
+      "impressions": 144,
+      "clicks": 1
+    },
+    {
+      "date": "2026-08-04",
+      "impressions": 184,
+      "clicks": 6
+    },
+    {
+      "date": "2026-08-05",
+      "impressions": 188,
+      "clicks": 7
+    },
+    {
+      "date": "2026-08-06",
+      "impressions": 193,
+      "clicks": 5
+    },
+    {
+      "date": "2026-08-07",
+      "impressions": 120,
+      "clicks": 4
+    },
+    {
+      "date": "2026-08-08",
+      "impressions": 122,
+      "clicks": 4
+    },
+    {
+      "date": "2026-08-09",
+      "impressions": 180,
+      "clicks": 1
+    },
+    {
+      "date": "2026-08-10",
+      "impressions": 166,
+      "clicks": 5
+    },
+    {
+      "date": "2026-08-11",
+      "impressions": 193,
+      "clicks": 5
+    },
+    {
+      "date": "2026-08-12",
+      "impressions": 174,
+      "clicks": 6
+    },
+    {
+      "date": "2026-08-13",
+      "impressions": 197,
+      "clicks": 2
+    },
+    {
+      "date": "2026-08-14",
+      "impressions": 132,
+      "clicks": 2
+    },
+    {
+      "date": "2026-08-15",
+      "impressions": 84,
+      "clicks": 1
+    },
+    {
+      "date": "2026-08-16",
+      "impressions": 140,
+      "clicks": 2
+    },
+    {
+      "date": "2026-08-17",
+      "impressions": 176,
+      "clicks": 1
+    },
+    {
+      "date": "2026-08-18",
+      "impressions": 201,
+      "clicks": 4
+    },
+    {
+      "date": "2026-08-19",
+      "impressions": 194,
+      "clicks": 6
+    },
+    {
+      "date": "2026-08-20",
+      "impressions": 193,
+      "clicks": 7
+    },
+    {
+      "date": "2026-08-21",
+      "impressions": 188,
+      "clicks": 4
+    },
+    {
+      "date": "2026-08-22",
+      "impressions": 103,
+      "clicks": 1
+    },
+    {
+      "date": "2026-08-23",
+      "impressions": 163,
+      "clicks": 5
+    },
+    {
+      "date": "2026-08-24",
+      "impressions": 266,
+      "clicks": 5
+    },
+    {
+      "date": "2026-08-25",
+      "impressions": 169,
+      "clicks": 6
+    },
+    {
+      "date": "2026-08-26",
+      "impressions": 156,
+      "clicks": 3
+    },
+    {
+      "date": "2026-08-27",
+      "impressions": 141,
+      "clicks": 7
+    },
+    {
+      "date": "2026-08-28",
+      "impressions": 98,
+      "clicks": 3
+    },
+    {
+      "date": "2026-08-29",
+      "impressions": 83,
+      "clicks": 4
+    },
+    {
+      "date": "2026-08-30",
+      "impressions": 155,
+      "clicks": 4
+    }
+  ]
 }
