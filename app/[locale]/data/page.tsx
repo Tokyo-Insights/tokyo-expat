@@ -75,6 +75,10 @@ const t = {
     cta_title: 'Need help finding a property?',
     cta_desc: 'Book a free 30-minute consultation. We handle the full search in English, French, and Japanese.',
     cta_btn: 'Free Consultation',
+    // CTA intermediaire (ajoute 02/09/2026): la seule invitation a reserver etait ligne 950
+    // sur une page de 968 lignes. Placee juste apres l'outil de budget = pic d'intention.
+    mid_cta_text: 'Know your budget but not where to start? I search for you, in Japanese, without a guarantor.',
+    mid_cta_btn: 'Talk it through, free',
   },
   fr: {
     hero_title: 'Indice des loyers de Tokyo',
@@ -101,6 +105,8 @@ const t = {
     cta_title: 'Besoin d\'aide pour trouver un logement ?',
     cta_desc: 'Réservez une consultation gratuite de 30 minutes. Nous gérons toute la recherche en français, anglais et japonais.',
     cta_btn: 'Consultation gratuite',
+    mid_cta_text: 'Vous connaissez votre budget mais pas par où commencer ? Je cherche pour vous, en japonais, sans garant.',
+    mid_cta_btn: 'En parler, gratuitement',
   },
 }
 
@@ -384,6 +390,22 @@ export default async function DataPage({
       {/* Interactive affordability tool */}
       <section className="mb-14">
         <AffordabilityTool locale={l} wards={affordWards} stations={affordStations} />
+      </section>
+
+      {/* CTA intermediaire (02/09/2026). Diagnostic: /en/data = la page la plus visitee du site
+          (48 sessions ChatGPT sur 90j) mais 0 lead, et sa seule invitation a reserver etait tout
+          en bas d'une page de 968 lignes. Bande sobre placee au pic d'intention: le lecteur vient
+          de calculer ce qu'il peut se payer. Additif, rien retire. */}
+      <section className="mb-14">
+        <div className="flex flex-col sm:flex-row sm:items-center gap-4 rounded-xl border border-[#e2e7ef] bg-[#f7f9fc] px-5 py-4">
+          <p className="text-sm text-[#42506a] flex-1 m-0">{copy.mid_cta_text}</p>
+          <Link
+            href={`/${l}/contact`}
+            className="shrink-0 inline-block rounded-lg bg-[#0f2744] hover:bg-[#e84141] text-white text-sm font-bold px-5 py-2.5 transition-colors"
+          >
+            {copy.mid_cta_btn} &rarr;
+          </Link>
+        </div>
       </section>
 
       {/* Lead magnet: full rent index PDF (capture principale, intention data) */}
