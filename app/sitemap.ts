@@ -19,7 +19,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const blogEntries: MetadataRoute.Sitemap = locales.flatMap((locale) =>
     getBlogPosts(locale).map((post) => ({
       url: `${BASE_URL}/${locale}/blog/${post.slug}`,
-      lastModified: new Date(post.date),
+      // `updated` prime sur `date`: sans cela, une refonte de contenu laisse
+      // le sitemap annoncer la date de publication, donc "rien n'a change".
+      lastModified: new Date(post.updated ?? post.date),
       changeFrequency: 'monthly' as const,
       priority: 0.7,
     }))

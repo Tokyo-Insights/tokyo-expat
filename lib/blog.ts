@@ -6,6 +6,13 @@ export interface BlogPost {
   title: string
   description: string
   date: string
+  /**
+   * Date de derniere mise a jour de fond (AAAA-MM-JJ), optionnelle.
+   * Sert UNIQUEMENT au lastmod du sitemap: sans elle, une refonte de contenu
+   * reste invisible pour Google, qui continue de lire la date de publication.
+   * Ne modifie pas la date affichee sur l'article.
+   */
+  updated?: string
   readingTime: string
   content: string
 }
@@ -3583,8 +3590,9 @@ For expats without interim health coverage, [SafetyWing Nomad Insurance](https:/
     slug: 'logement-etudiant-tokyo-guide',
     locale: 'fr',
     title: 'Logement étudiant à Tokyo : guide complet pour francophones',
-    description: 'Trouver un logement étudiant à Tokyo en tant que francophone : dortoirs universitaires, share houses, appartements meublés et aides financières disponibles.',
+    description: 'Trouver un logement étudiant à Tokyo : dortoirs universitaires, share houses, résidences étudiantes privées sans garant japonais et candidature depuis son pays.',
     date: '2026-06-20',
+    updated: '2026-09-03',
     readingTime: '8 min',
     content: `
 Tokyo attire chaque année des milliers d'étudiants étrangers, notamment des francophones venus de France, de Belgique, du Canada ou de Suisse pour des échanges universitaires, des masters ou des programmes de langue. Trouver un logement satisfaisant dans une ville aussi dense peut sembler intimidant. Ce guide couvre toutes les options disponibles en 2026, avec les budgets réels et les calendriers à respecter.
@@ -3715,6 +3723,7 @@ Pour votre couverture sante pendant vos etudes au Japon, [SafetyWing Nomad Insur
     title: 'Student Housing Tokyo 2026: Complete Guide for International Students',
     description: 'How to find student housing in Tokyo: university dorms, share houses and private student residences with no Japanese guarantor, and how to apply from overseas.',
     date: '2026-06-20',
+    updated: '2026-09-03',
     readingTime: '8 min',
     content: `
 Tokyo attracts thousands of international students each year for university exchanges, master's programs, or language courses. Finding the right housing in one of the world's most densely populated cities can feel overwhelming. This guide covers every realistic option available in 2026, with real budgets and the timelines you need to respect.
