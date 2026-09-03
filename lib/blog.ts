@@ -3589,7 +3589,7 @@ For expats without interim health coverage, [SafetyWing Nomad Insurance](https:/
     content: `
 Tokyo attire chaque année des milliers d'étudiants étrangers, notamment des francophones venus de France, de Belgique, du Canada ou de Suisse pour des échanges universitaires, des masters ou des programmes de langue. Trouver un logement satisfaisant dans une ville aussi dense peut sembler intimidant. Ce guide couvre toutes les options disponibles en 2026, avec les budgets réels et les calendriers à respecter.
 
-**Réponse rapide :** Pour un étudiant francophone à Tokyo, l'option la moins chère est la résidence universitaire (学生寮) à 30 000-60 000 JPY/mois tout compris, mais les places sont limitées et à demander tôt. Un share house (45 000-90 000 JPY/mois, sans garant) offre flexibilité et vie sociale immédiate. Les appartements meublés conviennent pour plus d'intimité. Réservez idéalement 2 à 3 mois avant la rentrée.
+**Réponse rapide :** Un étudiant à Tokyo dispose de quatre options : la résidence universitaire (学生寮) à 30 000-60 000 JPY/mois tout compris, mais les places sont rares et à demander tôt ; le share house (45 000-90 000 JPY/mois, sans garant) ; la résidence étudiante privée (sans garant japonais, avec des formules courtes sans caution ni argent-clé) ; et l'appartement meublé. Candidater depuis l'étranger est plus simple qu'une fois arrivé au Japon.
 
 ## Les résidences universitaires (学生寮 gakusei ryou)
 
@@ -3637,6 +3637,31 @@ Pour les étudiants qui préfèrent vivre seuls ou avec un partenaire, les appar
 - Dépôt initial (sans reikin) : généralement 1 à 2 mois de caution + 0,5 mois de garantie
 
 Sans garant japonais, un [appartement meublé spécialisé étrangers](/fr/blog/appartement-meuble-tokyo-sans-garant) est souvent la meilleure voie : le gestionnaire connaît les spécificités des profils étudiants et peut traiter votre dossier même sans historique de crédit japonais.
+
+## Les résidences étudiantes privées (学生マンション)
+
+Entre le dortoir universitaire et le marché locatif classique existe une catégorie que la plupart des guides ignorent : les résidences étudiantes gérées par des opérateurs privés, et non par votre université. Elles méritent le détour parce qu'elles résolvent les deux obstacles qui bloquent le plus les étudiants étrangers : le garant, et le fait d'être encore à l'étranger au moment de signer.
+
+**Qui peut candidater.** Ces résidences sont ouvertes aux étudiants inscrits en université, en junior college, en école professionnelle et en école de japonais. Il n'est pas nécessaire d'être inscrit dans une école partenaire de l'opérateur, et c'est cette croyance qui fait renoncer la plupart des étudiants avant même d'avoir vérifié.
+
+**Pas de garant japonais.** Une société de garantie de loyer remplace le garant personnel, et les étudiants étrangers peuvent y souscrire. C'est le mécanisme décrit dans notre [guide de la garantie de loyer au Japon](/fr/blog/garantie-loyer-etranger-japon), à ceci près qu'il est ici intégré au produit au lieu d'être négocié au cas par cas.
+
+**La règle de calendrier que presque personne ne vous dira.** Le besoin d'un contact d'urgence au Japon dépend d'où vous vous trouvez au moment de candidater :
+
+- **Depuis l'étranger, avant votre arrivée :** aucun contact d'urgence japonais n'est exigé pour signer. Vous le fournissez après votre emménagement.
+- **Une fois installé au Japon :** le contact d'urgence est exigé dès la candidature.
+
+Relisez ces deux lignes, car elles inversent l'intuition habituelle. Il est *plus simple* d'obtenir ce logement avant d'arriver qu'après. Si vous êtes encore dans votre pays, c'est un argument pour lancer le dossier maintenant plutôt que d'attendre d'être sur place pour « visiter correctement ».
+
+**Ce que demande un dossier depuis l'étranger.** Le certificat d'éligibilité n'est pas exigé par l'opérateur de logement. Un dossier type comprend vos informations de base, votre lettre d'admission, votre passeport et les informations de base d'un de vos parents. C'est bien plus léger qu'un dossier de bail classique.
+
+**Durée du contrat, et le cycle de mars.** Les contrats de résidence étudiante courent généralement sur un an ou deux ans et suivent l'année scolaire japonaise : l'échéance tombe donc en mars. Pour un étudiant en école de japonais qui reste six à douze mois, la voie normale consiste à signer un an puis à résilier par anticipation, ce qui est autorisé. Lisez la clause de résiliation anticipée avant de signer : certaines résidences appliquent une pénalité d'environ 30 000 JPY.
+
+**Moins de six mois : les formules courtes.** Plusieurs opérateurs proposent une formule mensuelle pour les séjours courts, à partir d'un mois, et l'économie du produit y est inhabituelle : **ni caution, ni argent-clé, ni frais d'agence**. Le loyer englobe généralement l'électricité, l'eau, le gaz, l'assurance incendie, le Wi-Fi et un jeu de literie. Prévoyez des frais de ménage uniques d'environ 22 000 JPY, plus deux options quand elles existent : une formule repas autour de 33 000 JPY par mois, et un pack meubles et électroménager autour de 5 500 JPY par mois.
+
+Les contreparties sont réelles. Une personne par chambre, il faut être inscrit dans un établissement, et l'absence de caution s'accompagne de clauses non-fumeur strictes. Les chambres de ces formules ferment aussi dès qu'elles sont complètes : mieux vaut candidater tôt que comparer pendant des semaines.
+
+Face à une [share house](/fr/blog/share-house-tokyo-guide-complet), vous gagnez une chambre à vous et un coût mensuel tout compris prévisible. Face à un bail classique, vous évitez les frais d'entrée qui engloutissent d'ordinaire trois à cinq mois de loyer avant même la remise des clés.
 
 ## Quartiers étudiants à Tokyo
 
@@ -3692,7 +3717,7 @@ Pour votre couverture sante pendant vos etudes au Japon, [SafetyWing Nomad Insur
     content: `
 Tokyo attracts thousands of international students each year for university exchanges, master's programs, or language courses. Finding the right housing in one of the world's most densely populated cities can feel overwhelming. This guide covers every realistic option available in 2026, with real budgets and the timelines you need to respect.
 
-**Quick answer:** International students in Tokyo have three main housing options: university dormitories (cheapest, limited spots, apply early), share houses (40,000 to 80,000 JPY, no guarantor, social), and student residences. Most accept online applications from abroad with a passport and student visa. Apply 2 to 3 months before your term starts.
+**Quick answer:** International students in Tokyo have four realistic options: university dormitories (cheapest, limited spots, apply early), share houses (40,000 to 80,000 JPY, no guarantor), private student residences (no Japanese guarantor, and short-stay plans with no deposit or key money), and independent furnished apartments. Most accept applications from abroad, and applying before you land is easier than applying once you are already in Japan.
 
 ## University dormitories (学生寮 gakusei ryou)
 
@@ -3740,6 +3765,31 @@ For students who prefer living alone or with a partner, furnished apartments in 
 - Move-in costs (no reikin): typically 1 to 2 months security deposit + 0.5 month guarantee fee
 
 Without a Japanese guarantor, a [foreigner-friendly furnished apartment](/en/blog/furnished-apartment-tokyo-no-guarantor) is often the best path: the manager understands international student profiles and can process your file even without a Japanese credit history.
+
+## Private student residences (学生マンション)
+
+Between the university dormitory and the open rental market sits a category most guides skip: student residences run by private operators rather than by your university. They deserve attention because they solve the two problems that block international students hardest, the guarantor and the fact that you are still abroad at the moment you need to sign.
+
+**Who can apply.** These are open to enrolled students of universities, junior colleges, vocational schools and Japanese language schools. You do not need to attend one of the operator's partner schools, which is the assumption that makes most students abandon the option before checking.
+
+**No Japanese guarantor.** A rent guarantee company stands in for the personal guarantor, and international students can subscribe to it. It is the same mechanism described in our [guide to the Japanese guarantor system](/en/blog/guarantor-japan-rental-foreigner), except that here it is built into the product instead of being negotiated case by case.
+
+**The timing rule almost nobody tells you.** Whether you need a Japanese emergency contact depends on where you are when you apply:
+
+- **Applying from abroad, before you land:** no Japanese emergency contact is required to sign. You provide it after you move in.
+- **Applying once you already live in Japan:** the emergency contact is required with your application.
+
+That is worth reading twice, because it inverts the usual instinct. It is *easier* to secure this housing before you arrive than after. If you are still in your home country, that is an argument for starting now rather than waiting until you land to "look at places properly".
+
+**What an overseas application needs.** A Certificate of Eligibility is not required by the housing operator. A typical file is your own basic details, your school acceptance letter, your passport, and basic details for one parent. That is far lighter than a standard lease file.
+
+**Contract length, and the March cycle.** Student residence contracts usually run one or two years and follow the Japanese academic year, so the term ends in March. For a language student staying six to twelve months, the normal route is to sign a one-year contract and terminate early, which is permitted. Read the early termination clause before signing: some buildings charge a penalty of around 30,000 JPY.
+
+**Under six months: short-stay plans.** Several operators run a monthly plan for short stays, from one month upward, and the economics are unusual: **no security deposit, no key money and no agency fee**. Rent typically bundles electricity, water, gas, fire insurance, Wi-Fi and a bedding set. Budget a one-off cleaning fee of around 22,000 JPY, plus two optional extras where offered: a meal plan around 33,000 JPY per month, and a furniture and appliance pack around 5,500 JPY per month.
+
+The trade-offs are real. One person per room, you must be currently enrolled, and because there is no deposit the non-smoking clauses are strict. Rooms on these plans also close as soon as they fill, so they reward applying early rather than comparing for weeks.
+
+Set against a [share house](/en/blog/share-house-tokyo-guide-2026), you get your own room and a predictable all-in monthly figure. Set against a private lease, you skip the move-in costs that normally swallow three to five months of rent before you have even received the keys.
 
 ## Best student neighborhoods in Tokyo
 
