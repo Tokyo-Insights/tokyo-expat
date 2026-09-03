@@ -146,7 +146,13 @@ So I would not tell you one is superior in the abstract. I would compare them on
 
 One thing worth knowing well ahead of your timeline: large incoming transfers to a Japanese account attract source-of-funds questions from the receiving bank, and a purchase-sized sum from abroad will usually need documentation ready. It is routine, but it is smoother when you have anticipated it rather than discovered it.
 
-Hokkaido in retirement with a house to remodel sounds like a good plan. A year out is not too early to start watching the market up there, since the akiya and older-stock side of it moves on very different logic from the city rental market I track.
+Hokkaido in retirement with a house to remodel sounds like a good plan. A year out is not too early to start watching that market, since the older-stock and akiya side of it moves on very different logic from the city rental market I track.
+
+Which brings me to something the checklist would not have told you: buying is part of what I do, not just renting. I work with a licensed Japanese agent, so the transaction itself is handled properly on the Japanese side, and I sit on your side of it. Finding properties that match what you actually want, reading the listing and the register honestly rather than optimistically, telling you what a place is worth and what the remodelling will really cost before you commit to it. Hokkaido is not my home market the way Tokyo is and I will not pretend otherwise, but I have contacts up there and the licensed side of the arrangement travels.
+
+Worth saying plainly how I am paid on a purchase, because it should colour how you weigh anything I tell you. I am compensated out of the partner agency's commission on the transaction, so there is no separate invoice from me. The flip side is that a commission is a percentage of the price, so you are entitled to discount anything I say that pushes that number upwards. I would rather you knew that from the start than worked it out later.
+
+None of this is urgent at a year out, and I am not asking you for anything today. I mention it only so you know who to call when it stops being hypothetical. Closer to the time, tell me the area and roughly what you are looking to spend, and I will tell you straight whether it is realistic, the same way I would for rent.
 
 Good luck with it, and thanks again for taking the time to write.
 
