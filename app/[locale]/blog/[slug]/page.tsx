@@ -7,6 +7,11 @@ import { faqData } from '@/lib/faq_data'
 import LeadMagnetForm from '@/components/LeadMagnetForm'
 import CtaConsultation from '@/components/CtaConsultation'
 
+// Recommandations editoriales pures: aucune affiliation, aucune contrepartie financiere.
+// Ces domaines gardent un lien suivi. TOUT LE RESTE, affilies compris, reste en nofollow.
+// Pour revenir en arriere: vider ce tableau.
+const EDITORIAL_DOFOLLOW = ['cotoacademy.com']
+
 export async function generateStaticParams() {
   const locales: Locale[] = ['fr', 'en']
   const params: { locale: string; slug: string }[] = []
@@ -83,12 +88,15 @@ function renderInline(text: string, key?: string): ReactNode {
       if (linkMatch) {
         const href = linkMatch[2]
         const isExternal = /^https?:\/\//i.test(href) && !href.includes('tokyo-expat.com')
+        const isEditorial = EDITORIAL_DOFOLLOW.some((d) => href.includes(d))
         parts.push(
           <a
             key={`${key}-l${idx}`}
             href={href}
             className="text-[#e84141] underline underline-offset-2 hover:text-[#0f2744] transition-colors"
-            {...(isExternal ? { target: '_blank', rel: 'noopener noreferrer nofollow' } : {})}
+            {...(isExternal
+              ? { target: '_blank', rel: isEditorial ? 'noopener noreferrer' : 'noopener noreferrer nofollow' }
+              : {})}
           >
             {linkMatch[1]}
           </a>

@@ -5970,13 +5970,13 @@ Même dans un environnement de travail entièrement en anglais, parler japonais 
 
 ## Coto Academy : la référence pour les professionnels expatriés
 
-Coto Academy est probablement l'école de japonais la mieux adaptée aux expatriés qui travaillent. Elle propose des cours intensifs, des cours du soir et des programmes en ligne, tous dispensés en anglais.
+[Coto Academy](https://cotoacademy.com/) est probablement l'école de japonais la mieux adaptée aux expatriés qui travaillent. Elle propose des cours intensifs, des cours du soir et des programmes en ligne, tous dispensés en anglais.
 
 **Points forts :**
 - Groupes limités à 4 à 6 personnes
 - Contenu orienté vie quotidienne et japonais professionnel
 - Cours du soir disponibles dès 19h
-- Locaux à Shinjuku et cours en ligne
+- Campus à Shibuya, Shinjuku, Iidabashi et Minato, plus Yokohama et les cours en ligne
 
 **Tarifs :** 15 000 à 30 000 ¥ par mois pour les cours en groupe selon l'intensité. Cours particuliers autour de 4 000 à 5 000 ¥ par heure.
 
@@ -6633,13 +6633,13 @@ Even in a fully English-speaking work environment, knowing Japanese dramatically
 
 ## Coto Academy: Best for Working Professionals
 
-Coto Academy is arguably the Japanese school best adapted to expats who hold a full-time job. All instruction is in English, and the schedule includes evening and weekend options.
+[Coto Academy](https://cotoacademy.com/) is arguably the Japanese school best adapted to expats who hold a full-time job. All instruction is in English, and the schedule includes evening and weekend options.
 
 **Strengths:**
 - Small groups of 4 to 6 students maximum
 - Content focused on real-life situations and business Japanese
 - Evening classes available from 19:00
-- Locations in Shinjuku, Ichigaya and online
+- Campuses in Shibuya, Shinjuku, Iidabashi and Minato, plus Yokohama and online lessons
 
 **Typical cost:** 15,000 to 30,000 ¥ per month for group classes depending on intensity. Private lessons at approximately 4,000 to 5,000 ¥ per hour.
 

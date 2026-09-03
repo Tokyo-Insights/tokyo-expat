@@ -1584,7 +1584,7 @@ export const faqData: Record<string, FaqItem[]> = {
   'japanese-language-schools-tokyo-guide': [
     {
       question: 'What are the best Japanese language schools in Tokyo for expats?',
-      answer: 'Top Japanese language schools in Tokyo for expats include: Coto Academy (Ginza, professional-focused, small classes), ISI Language School (multiple locations, recognized for student visas), Human Academy Japanese Language School (competitive pricing), Naganuma School (long-established, quality instruction), and Nihon Language School (Shinjuku, popular with Western students).',
+      answer: 'Top Japanese language schools in Tokyo for expats include: Coto Academy (Iidabashi, professional-focused, small classes), ISI Language School (multiple locations, recognized for student visas), Human Academy Japanese Language School (competitive pricing), Naganuma School (long-established, quality instruction), and Nihon Language School (Shinjuku, popular with Western students).',
     },
     {
       question: 'How much do Japanese language schools cost in Tokyo?',
@@ -2357,7 +2357,7 @@ export const faqData: Record<string, FaqItem[]> = {
   'cours-japonais-tokyo-expatries-guide': [
     {
       question: 'Quelles sont les meilleures ecoles de japonais a Tokyo pour les expatries?',
-      answer: 'Parmi les meilleures ecoles de japonais a Tokyo pour expatries: Coto Academy (Ginza, axee professionnels, petites classes), ISI Language School (plusieurs sites, reconnue pour les visas etudiants), Human Academy Japanese Language School (tarifs competitifs), Naganuma School (etablie de longue date, enseignement de qualite) et Nihon Language School (Shinjuku, populaire aupres des etudiants occidentaux).',
+      answer: 'Parmi les meilleures ecoles de japonais a Tokyo pour expatries: Coto Academy (Iidabashi, axee professionnels, petites classes), ISI Language School (plusieurs sites, reconnue pour les visas etudiants), Human Academy Japanese Language School (tarifs competitifs), Naganuma School (etablie de longue date, enseignement de qualite) et Nihon Language School (Shinjuku, populaire aupres des etudiants occidentaux).',
     },
     {
       question: 'Combien coutent les cours de japonais a Tokyo?',
