@@ -3646,6 +3646,8 @@ Entre le dortoir universitaire et le marché locatif classique existe une catég
 
 **Pas de garant japonais.** Une société de garantie de loyer remplace le garant personnel, et les étudiants étrangers peuvent y souscrire. C'est le mécanisme décrit dans notre [guide de la garantie de loyer au Japon](/fr/blog/garantie-loyer-etranger-japon), à ceci près qu'il est ici intégré au produit au lieu d'être négocié au cas par cas.
 
+![Comment marche le garant à Tokyo : locataire, société de garantie, bailleur](/tokyo-guarantor-fr.png "La société de garantie remplace le garant personnel que peu d'étudiants peuvent fournir")
+
 **La règle de calendrier que presque personne ne vous dira.** Le besoin d'un contact d'urgence au Japon dépend d'où vous vous trouvez au moment de candidater :
 
 - **Depuis l'étranger, avant votre arrivée :** aucun contact d'urgence japonais n'est exigé pour signer. Vous le fournissez après votre emménagement.
@@ -3711,7 +3713,7 @@ Pour votre couverture sante pendant vos etudes au Japon, [SafetyWing Nomad Insur
     slug: 'student-housing-tokyo-guide',
     locale: 'en',
     title: 'Student Housing Tokyo 2026: Complete Guide for International Students',
-    description: 'Finding student housing in Tokyo as an international student: university dorms, share houses, furnished apartments, and financial aid options explained for 2026.',
+    description: 'How to find student housing in Tokyo: university dorms, share houses and private student residences with no Japanese guarantor, and how to apply from overseas.',
     date: '2026-06-20',
     readingTime: '8 min',
     content: `
@@ -3773,6 +3775,8 @@ Between the university dormitory and the open rental market sits a category most
 **Who can apply.** These are open to enrolled students of universities, junior colleges, vocational schools and Japanese language schools. You do not need to attend one of the operator's partner schools, which is the assumption that makes most students abandon the option before checking.
 
 **No Japanese guarantor.** A rent guarantee company stands in for the personal guarantor, and international students can subscribe to it. It is the same mechanism described in our [guide to the Japanese guarantor system](/en/blog/guarantor-japan-rental-foreigner), except that here it is built into the product instead of being negotiated case by case.
+
+![How the guarantor system works in Tokyo: tenant, guarantee company, landlord](/tokyo-guarantor-en.png "A guarantee company replaces the personal guarantor most students cannot provide")
 
 **The timing rule almost nobody tells you.** Whether you need a Japanese emergency contact depends on where you are when you apply:
 
