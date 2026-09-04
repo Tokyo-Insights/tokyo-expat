@@ -10,7 +10,9 @@ import CtaConsultation from '@/components/CtaConsultation'
 // Recommandations editoriales pures: aucune affiliation, aucune contrepartie financiere.
 // Ces domaines gardent un lien suivi. TOUT LE RESTE, affilies compris, reste en nofollow.
 // Pour revenir en arriere: vider ce tableau.
-const EDITORIAL_DOFOLLOW = ['cotoacademy.com']
+// internationalschools.net: annuaire d'ecoles, pas un concurrent logement. Ils nous ont donne
+// un lien suivi vers /en/data le 04/09/2026, on rend l'equivalent. Echange unique et editorial.
+const EDITORIAL_DOFOLLOW = ['cotoacademy.com', 'internationalschools.net']
 
 export async function generateStaticParams() {
   const locales: Locale[] = ['fr', 'en']

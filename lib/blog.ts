@@ -7162,6 +7162,8 @@ Yokohama is frequently overlooked by expats focused on Tokyo's 23 wards, but it 
 
 **Test the school commute during rush hour.** What seems manageable at 10:00 can be very different at 07:30 with children in tow.
 
+**Build your school shortlist before you choose the neighbourhood.** Schools set the geography, so it pays to compare them independently first: the [InternationalSchools.net Tokyo directory](https://internationalschools.net/cities/tokyo) lists the city's international schools in one place, which makes it easier to draw up a shortlist before you start testing commutes and comparing rents.
+
 ## FAQ
 
 **Do Japanese landlords accept families with children?**
