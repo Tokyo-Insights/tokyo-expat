@@ -4,7 +4,7 @@
     "last_posted_utc": "2026-08-27T23:10:05Z",
     "awaiting_id": "center-premium-over-time",
     "awaiting_reminded_utc": "2026-09-04T22:13:31Z",
-    "last_reminded_date": "2026-09-04",
+    "last_reminded_date": "2026-09-05",
     "low_stock_alerted_utc": "2026-09-04T22:13:31Z"
   },
   "munitions": [
@@ -148,11 +148,21 @@
     },
     {
       "id": "furnished-premium",
-      "status": "ready",
+      "status": "todo",
       "title": "[OC] A furnished studio in Tokyo costs 20% to 98% more than an unfurnished one, and the gap is biggest in the cheapest wards (2026)",
       "image": "outreach/tokyo-furnished-premium.png",
       "first_comment": "Source: my own Tokyo rent index, from a large sample of current rental listings across the 23 special wards. I compared the median monthly cost of a furnished 1K studio to a standard unfurnished one in the same ward (2026): https://www.tokyo-expat.com/en/data\nTool: Python and matplotlib.\nNote: furnished here means the furnished or monthly route, which also skips the guarantor and key money, so part of the premium is convenience, not just furniture. The two cheapest wards have smaller furnished samples, so read those two as rough.",
-      "sub": "dataisbeautiful"
+      "sub": "dataisbeautiful",
+      "notes": "Marquee ready a tort: ni PNG ni commentaire OC. Repassee todo le 06/09/2026."
+    },
+    {
+      "id": "entry-cost-by-ward",
+      "status": "ready",
+      "png": "outreach/tokyo-entry-cost-by-ward.png",
+      "title": "[OC] A third of Tokyo rental listings ask for no deposit at all, and in the cheapest wards it is nearly 60%",
+      "oc_comment": "Source: 136,492 active rental listings across Tokyo's 23 special wards, collected in September 2026 from the major Japanese rental portals and deduplicated. For each ward I took the median deposit (shikikin), the median key money (reikin), and the share of listings where the amount asked is explicitly zero. Sample sizes run from 1,939 listings in Chiyoda to 12,570 in Setagaya.\n\nThe trap in this data, in case anyone wants to reproduce it: a dash in a listing means zero is required, not that the number is missing. If you drop those rows as missing values the medians come out roughly twice too high, which is part of why published figures for Japanese move-in costs tend to overstate what people actually pay.\n\nDeposit and key money are the only entry costs that appear in listings at all. Agency fees and guarantor company fees are negotiated separately and never published, so they are not in the chart.\n\nThe two wards with no blue bar, Adachi and Katsushika, have a median deposit of exactly zero. More than half the listings there ask for no deposit.\n\nTool: Python, pandas for the medians, matplotlib for the chart.\n\nRent data by ward, train line and station: tokyo-expat.com/data",
+      "sub": "dataisbeautiful",
+      "notes": "Genere par scripts/generate_entry_cost_by_ward_chart.py. CSV par ward: outreach/tokyo-entry-cost-by-ward.csv (sert aussi l'article move-in costs et le tableau de couts client)."
     }
   ]
 }
