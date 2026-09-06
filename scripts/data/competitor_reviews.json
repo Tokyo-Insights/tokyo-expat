@@ -1,25 +1,32 @@
 {
   "Remoters": {
     "name": "Remoters",
-    "total_results": 28,
-    "complaints": 1,
+    "total_results": 29,
+    "complaints": 2,
     "reddit_threads": 7,
     "top_issues": [
       "scam",
       "sale",
-      "issue",
       "small",
+      "problem",
+      "broken",
       "avoid"
     ],
     "issue_counts": {
-      "scam": 5,
-      "sale": 3,
-      "issue": 1,
+      "scam": 3,
+      "sale": 2,
       "small": 1,
+      "problem": 1,
+      "broken": 1,
       "avoid": 1
     },
     "counter_angle": "On est local, eux sont une plateforme distante sans connaissance terrain",
     "complaint_snippets": [
+      {
+        "url": "https://2upskill.com/how-to-fix-the-blood-of-dawnwalker-audio-not-working-complete-guide-for-pc-and-consoles-2026/",
+        "title": "How to Fix The Blood of Dawnwalker Audio Not Working: Complete...",
+        "snippet": "Dawnwalker can run into similar problems, so before reinstalling the entire game, there are several much quicker things worth checking. Why Is The Blood of Dawnwalker Audio Not Working? There isn’t al"
+      },
       {
         "url": "https://www.remoters.io/en",
         "title": "Remoters, the human way to find your new home abroad",
@@ -28,45 +35,42 @@
     ],
     "reddit_urls": [
       "https://www.reddit.com/r/rome/comments/1ngobr5/remotersio_apartment_search_in_pinciano/",
-      "https://www.reddit.com/r/japan/comments/1gk5rig/foreign_buyers_eye_japans_empty_houses_with/",
       "https://www.reddit.com/r/australia/comments/1fjfvh5/japans_public_transport_and_housing_is_so_good_it/",
-      "https://www.reddit.com/r/japan/comments/1chqegs/akiya_houses_why_japan_has_nine_million_empty/",
-      "https://www.reddit.com/r/expats/comments/139kvqo/someone_talk_me_out_of_moving_to_japan/"
+      "https://www.reddit.com/r/expats/comments/139kvqo/someone_talk_me_out_of_moving_to_japan/",
+      "https://www.reddit.com/r/DragonRajaMobile/comments/ga7eh5/dragon_raja_housing_update_coming_soon/",
+      "https://www.reddit.com/r/AmerExit/comments/1i7lf31/for_anyone_scared_right_now_you_can_probably_move/"
     ],
-    "last_scraped": "2026-08-31"
+    "last_scraped": "2026-09-07"
   },
   "Sakura House": {
     "name": "Sakura House",
-    "total_results": 23,
-    "complaints": 7,
-    "reddit_threads": 9,
+    "total_results": 28,
+    "complaints": 4,
+    "reddit_threads": 7,
     "top_issues": [
-      "overcrowded",
       "noisy",
-      "bad",
-      "complaint",
+      "overcrowded",
+      "problem",
       "fee",
-      "issue",
-      "avoid",
-      "expensive"
+      "bad",
+      "sale",
+      "small"
     ],
     "issue_counts": {
-      "overcrowded": 6,
-      "noisy": 5,
-      "bad": 3,
-      "complaint": 2,
-      "fee": 2,
-      "issue": 1,
-      "avoid": 1,
-      "expensive": 1,
-      "problem": 1
+      "noisy": 4,
+      "overcrowded": 4,
+      "problem": 2,
+      "fee": 1,
+      "bad": 1,
+      "sale": 1,
+      "small": 1
     },
     "counter_angle": "Logements personnalises vs share house impersonnel de masse",
     "complaint_snippets": [
       {
-        "url": "https://jref.com/threads/avoid-sakura-house-in-tokyo.32726/",
-        "title": "avoid Sakura House in Tokyo - jref.com",
-        "snippet": "Aug 7, 2007 · It would be useful (and fair) if members could be more specific on their complaints about Sakura House. \"They had lots of stupid rules\" doesn't allow me to decide whether to steer clear "
+        "url": "https://www.tripadvisor.com/ShowUserReviews-g41315-d26347568-r1066055616-Great_Wolf_Lodge-Perryville_Maryland.html",
+        "title": "Noisy and overcrowded! - Review of Great Wolf Lodge... - Tripadvisor",
+        "snippet": "- See 487 traveler reviews, 389 candid photos, and great deals for Great Wolf Lodge at Tripadvisor.We spent the day with our children and grandchildren. I found the pool room to be overly noisy. I thi"
       },
       {
         "url": "https://www.biggerpockets.com/forums/530/topics/1087496-noisy-neighbours-in-an-overcrowded-house",
@@ -74,33 +78,28 @@
         "snippet": "The problem is my neighbors.. There are about 5 families living in the house with sometimes up to 6 cars in the driveway. This is the only house in the street with so many people living in it. There i"
       },
       {
-        "url": "https://www.tripadvisor.com/ShowUserReviews-g41315-d26347568-r1066055616-Great_Wolf_Lodge-Perryville_Maryland.html",
-        "title": "Noisy and overcrowded! - Review of Great Wolf Lodge... - Tripadvisor",
-        "snippet": "- See 487 traveler reviews, 389 candid photos, and great deals for Great Wolf Lodge at Tripadvisor.We spent the day with our children and grandchildren. I found the pool room to be overly noisy. I thi"
+        "url": "https://www.tripadvisor.ca/Attraction_Review-g644047-d3331573-Reviews-Jungle_Beach-Unawatuna_Galle_District_Southern_Province.html",
+        "title": "Jungle Beach - All You SHOULD Know Before Going 2026 (w/ Reviews)",
+        "snippet": "A small stretch of beach that is overcrowded, noisy and a bit of a tricky climb down a very rocky track. If you want a beach with a load of tourists doing their best poses for Instagram, and boats tie"
       },
       {
         "url": "https://www.ybw.com/videos/sailing-jakarta-polluted-noisy-overcrowded-brilliant-72491",
         "title": "Sailing Jakarta: Polluted, noisy, overcrowded but absolutely... - YBW",
         "snippet": "Reviews.It's polluted, noisy, over-crowded, the traffic is appalling and it's sinking: is there anything to like about Jakarta? We think so! As much as we love anchoring in the remote and white-sand b"
-      },
-      {
-        "url": "https://pixelnitro.com/project-zomboid-build-42-animal-husbandry-guide-complete-livestock-and-breeding-strategy/",
-        "title": "Project Zomboid Build 42 Animal Husbandry Guide: Complete...",
-        "snippet": "– Loud environmental noise. – Overcrowded pens. – Bad weather exposure. – Witnessing animal death."
       }
     ],
     "reddit_urls": [
-      "https://www.reddit.com/r/japan/comments/132bvv/any_experience_with_a_sakura_house/",
-      "https://www.reddit.com/r/JapanTravel/comments/cnhilc/sakura_house_apartment_for_a_one_month_vacation/",
-      "https://modernlivingjapan.com/en/blog/share-house-tokyo-reddit-what-real-residents-actually-say",
-      "https://www.reddit.com/r/movingtojapan/comments/96rpvg/considering_to_stay_at_sakura_house/",
-      "https://www.reddit.com/r/japan/comments/l687h/has_anyone_here_stayed_at_sakura_house_if_so_were/"
+      "https://www.reddit.com/",
+      "https://www.reddit.com/r/ACPocketCamp/comments/1kbpi1o/im_just_a_little_obsessed_with_the_sakura_house/",
+      "https://www.reddit.com/r/DragonRajaMobile/comments/ga7eh5/dragon_raja_housing_update_coming_soon/",
+      "https://reddit.com/",
+      "https://www.reddit.com/login/?dest=https://www.reddit.com/submit?url=https%3A%2F%2Fwww.bangordailynews.com%2F2012%2F06%2F25%2Fnews%2Fcompany-planning-deep-water-wind-project-holds-open-house-in-boothbay%2F&title=Company+planning+deep-water+wind+project+holds+open+house+in+Boothbay"
     ],
-    "last_scraped": "2026-08-31"
+    "last_scraped": "2026-09-07"
   },
   "Oak House": {
     "name": "Oak House",
-    "total_results": 23,
+    "total_results": 22,
     "complaints": 0,
     "reddit_threads": 0,
     "top_issues": [
@@ -118,68 +117,34 @@
     "counter_angle": "Transparence totale sur les frais vs frais caches",
     "complaint_snippets": [],
     "reddit_urls": [],
-    "last_scraped": "2026-08-31"
+    "last_scraped": "2026-09-07"
   },
   "GaijinPot Housing": {
     "name": "GaijinPot",
-    "total_results": 21,
-    "complaints": 6,
-    "reddit_threads": 4,
+    "total_results": 19,
+    "complaints": 1,
+    "reddit_threads": 1,
     "top_issues": [
-      "bad",
-      "fee",
       "scam",
       "complaint",
-      "fraud",
-      "problem",
-      "sale",
-      "pest"
+      "bad"
     ],
     "issue_counts": {
-      "bad": 3,
-      "fee": 2,
       "scam": 2,
-      "complaint": 2,
-      "fraud": 1,
-      "problem": 1,
-      "sale": 1,
-      "pest": 1,
-      "late": 1
+      "complaint": 1,
+      "bad": 1
     },
     "counter_angle": "Accompagnement humain vs portail automatise sans suivi",
     "complaint_snippets": [
       {
-        "url": "https://www.reddit.com/r/movingtojapan/comments/7i52co/anyone_used_gaijinpot_housing_service/",
-        "title": "Anyone used GaijinPot housing service? : r/movingtojapan - Reddit",
-        "snippet": "I was wondering if anyone has had good or bad experiences with the GaijinPot housing service (going through properties on realestate.co.jp). Is it a good process to follow through with or are there ot"
-      },
-      {
         "url": "https://www.ic3.gov/",
         "title": "Home Page - Internet Crime Complaint Center (IC3)",
         "snippet": "Welcome to the Internet Crime Complaint Center. Scammers are Impersonating the IC3. The IC3 does not work with any non-law enforcement entity, such as law firms or crypto services, to recuperate lost "
-      },
-      {
-        "url": "https://cybercrime.gov.in/",
-        "title": "Cyber Crime Portal",
-        "snippet": "Financial fraud. Other cyber crime. Track your Complaint."
-      },
-      {
-        "url": "https://worldeka.com/how-to-fix-star-wars-zero-company-nvidia-driver-crashes-black-screen-and-low-fps-on-pc/",
-        "title": "How to Fix Star Wars Zero Company Nvidia Driver Crashes, Black...",
-        "snippet": "When a big Unreal Engine title starts behaving badly, randomly changing twenty graphics settings at once usually makes things worse. You want to attack the problem systematically: driver first, game f"
-      },
-      {
-        "url": "https://bloxrant.com/forgotten-stories-roblox-beginner-guide/",
-        "title": "Forgotten Stories Roblox Beginner Guide: 10+ Tips and Tricks",
-        "snippet": "Missing them can leave you in a bad position, especially during difficult encounters. If you’re struggling with the timing, don’t get frustrated. The timing can feel unusual at first, particularly bec"
       }
     ],
     "reddit_urls": [
-      "https://www.reddit.com/r/japanlife/comments/wrhg88/experiences_with_gaijinpot_or_similar_services/",
-      "https://www.reddit.com/r/japanlife/comments/i2u2d1/is_gaijinpot_apartments_reliable/",
-      "https://www.reddit.com/r/movingtojapan/comments/7i52co/anyone_used_gaijinpot_housing_service/",
-      "https://www.reddit.com/r/movingtojapan/comments/f7bc2n/how_trustworthy_are_the_real_estate_agencies_on/"
+      "https://www.reddit.com/r/japanlife/comments/wrhg88/experiences_with_gaijinpot_or_similar_services/"
     ],
-    "last_scraped": "2026-08-31"
+    "last_scraped": "2026-09-07"
   }
 }
