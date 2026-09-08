@@ -58,6 +58,65 @@ def ga4_leads():
             "by_country": q(["country"]), "total": sum(n for _, n in q(["sessionDefaultChannelGroup"]))}
 
 
+# ---------- LA DEMANDE REELLE (ajoute 08/09/2026) ----------
+# Pourquoi: l'evenement GA4 `generate_lead` ne se declenche QUE dans ExitIntentPopup,
+# LeadMagnetForm et NewsletterForm. C'est une CAPTURE D'EMAIL, pas une demande commerciale.
+# Le formulaire de contact, lui, n'emet aucun evenement. Resultat: le rapport annoncait
+# "10 leads / 90j" alors que 3 personnes seulement avaient ecrit, dont un partenaire et un
+# spam. Ces deux compteurs-ci sont les seuls qui mesurent une vraie intention d'achat.
+def real_demand(days=90):
+    """Demandes de contact reelles + reservations Calendly, comptees dans Gmail.
+
+    Le site envoie ses formulaires via Resend et Calendly notifie chaque reservation:
+    ces deux boites sont donc la source de verite, pas GA4.
+    """
+    import email as _email
+    import imaplib
+    from email.header import decode_header, make_header
+    from email.utils import parsedate_to_datetime
+    try:
+        from config import GMAIL_ADDRESS, GMAIL_APP_PASSWORD
+    except Exception as e:
+        return {"error": f"config: {e}"}
+
+    since = (dt.date.today() - dt.timedelta(days=days)).strftime("%d-%b-%Y")
+    out = {"forms": [], "bookings": [], "error": None}
+    try:
+        m = imaplib.IMAP4_SSL("imap.gmail.com")
+        m.login(GMAIL_ADDRESS, GMAIL_APP_PASSWORD)
+        # All Mail: les notifications sont souvent archivees lors du triage.
+        folder = "INBOX"
+        typ, folders = m.list()
+        for f in folders or []:
+            line = f.decode("utf-8", "replace")
+            if "\\All" in line:
+                folder = line.split(' "/" ')[-1].strip().strip('"')
+                break
+        m.select(f'"{folder}"')
+
+        for key, sender in (("forms", "resend.dev"), ("bookings", "notifications@calendly.com")):
+            typ, data = m.uid("SEARCH", None, "FROM", sender, "SINCE", since)
+            for uid in (data[0].split() if data and data[0] else []):
+                _, md = m.uid("FETCH", uid, "(BODY.PEEK[HEADER])")
+                if not md or not md[0]:
+                    continue
+                h = _email.message_from_bytes(md[0][1])
+                subj = str(make_header(decode_header(h.get("Subject", ""))))
+                if key == "bookings" and "New Event" not in subj:
+                    continue    # ignore les emails marketing de Calendly
+                try:
+                    when = parsedate_to_datetime(h.get("Date")).date().isoformat()
+                except Exception:
+                    when = "?"
+                out[key].append((when, subj[:80]))
+        m.logout()
+    except Exception as e:
+        out["error"] = str(e)
+    for k in ("forms", "bookings"):
+        out[k].sort(reverse=True)
+    return out
+
+
 # ---------- GSC: striking distance (pos 5-15, forte impression) ----------
 def striking(gsc):
     out = []
@@ -277,8 +336,8 @@ def render_html(d):
            f'<div class="meta">impr · {K["clicks"]} clics · CTR {K["ctr"]:.2f}%</div></div>'
            f'<div class="kpi"><div class="lab">Position moy.</div><div class="val">{K["pos"]:.1f}</div>'
            f'<div class="meta">page 2-3 · levier autorite</div></div>'
-           f'<div class="kpi"><div class="lab">Leads (90j)</div><div class="val">{K["leads"]}</div>'
-           f'<div class="meta">via SEO surtout</div></div>').replace(",", " ")
+           f'<div class="kpi"><div class="lab">Captures email (90j)</div><div class="val">{K["leads"]}</div>'
+           f'<div class="meta">PDF + newsletter · pas des prospects</div></div>').replace(",", " ")
 
     def chip(txt, cls): return f'<span class="chip {cls}">{_esc(txt)}</span>'
     conv_boost = "".join(f'<div class="row"><span class="num">{s}</span><span class="path">{_esc(pg)}</span>{chip("0 lead","c-crit")}</div>' for s, pg in d["conv_boost"][:6])
@@ -375,23 +434,51 @@ def build():
         ctr = (clk / impr * 100) if impr else 0
         L.append(f"- **Visibilite (28j)** : {impr} impressions | {clk} clics | CTR {ctr:.2f}% "
                  f"| pos moy {t.get('position',0):.1f}" if t else "- Visibilite : n/d")
+    demand = real_demand()
+    if not demand.get("error"):
+        L.append(f"- **🔴 DEMANDES REELLES (90j)** : {len(demand['forms'])} formulaires de contact "
+                 f"· {len(demand['bookings'])} reservations Calendly")
     if isinstance(leads, dict) and "error" not in leads:
-        L.append(f"- **Leads (90j)** : {leads.get('total','?')}")
+        L.append(f"- Captures d'email (90j) : {leads.get('total','?')}")
     L.append("")
 
-    # B. LEADS & CONVERSION (le coeur : d'ou viennent les clients)
-    L.append("## 💰 LEADS & CONVERSION (le pont vers les clients)")
+    # B0. LA DEMANDE REELLE (ajoute 08/09/2026, cf real_demand())
+    # Ces 2 compteurs passent AVANT les captures d'email: ce sont les seuls qui mesurent
+    # quelqu'un qui demande quelque chose. Tout le reste ci-dessous est du trafic.
+    L.append("## 🔴 DEMANDE REELLE (90j) — les seuls chiffres qui engagent quelqu'un")
+    if demand.get("error"):
+        L.append(f"_(indisponible: {demand['error']})_")
+    else:
+        L.append(f"**Formulaires de contact recus : {len(demand['forms'])}** "
+                 f"· **Reservations Calendly : {len(demand['bookings'])}**")
+        if demand["forms"]:
+            L.append("Qui a ecrit :")
+            for when, subj in demand["forms"][:10]:
+                L.append(f"  - {when} | {subj}")
+        if demand["bookings"]:
+            L.append("Qui a reserve un appel :")
+            for when, subj in demand["bookings"][:10]:
+                L.append(f"  - {when} | {subj}")
+        L.append("_Trier soi-meme: un partenaire qui propose une collaboration et un spam "
+                 "commercial arrivent par le meme formulaire qu'un client._")
+    L.append("")
+
+    # B. CAPTURES D'EMAIL (attention: ce ne sont PAS des prospects)
+    L.append("## 📧 CAPTURES D'EMAIL (lead magnet + newsletter, 90j)")
+    L.append("_⚠️ L'evenement GA4 `generate_lead` se declenche uniquement quand quelqu'un donne "
+             "son adresse contre un PDF gratuit ou la newsletter. Ce n'est PAS une demande "
+             "commerciale, et ces personnes n'ont rien demande. Ne pas les appeler des leads._")
     if isinstance(leads, dict) and "error" not in leads:
         if leads.get("by_channel"):
             L.append("**Par canal :** " + " · ".join(f"{c} {n}" for c, n in leads["by_channel"]))
         if leads.get("by_country"):
             L.append("**Par pays :** " + " · ".join(f"{c} {n}" for c, n in leads["by_country"]))
         if leads.get("by_page"):
-            L.append("**Pages qui convertissent :**")
+            L.append("**Pages qui captent le plus d'adresses :**")
             for pg, n in leads["by_page"][:8]:
                 L.append(f"  - {n} | {pg}")
     else:
-        L.append(f"_(GA4 leads indisponible: {leads.get('error','') if isinstance(leads,dict) else ''})_")
+        L.append(f"_(GA4 indisponible: {leads.get('error','') if isinstance(leads,dict) else ''})_")
     L.append("")
 
     # B2. CONVERSION PAR PAGE (fort trafic / faible conversion = a booster)
@@ -470,14 +557,26 @@ def build():
         L.append("_(indisponible)_")
     L.append("")
 
-    # B6. ENTONNOIR DE CONVERSION (90j)
-    L.append("## 🔻 ENTONNOIR DE CONVERSION (90j)")
+    # B6. ENTONNOIR (90j) — libelles corriges le 08/09/2026.
+    # Les 4 evenements mesurent des CLICS, pas des etapes commerciales. Les anciens libelles
+    # ("Lead", "Consultation", "Appel reserve") faisaient lire un entonnoir de vente la ou il
+    # n'y a que de la navigation. Les vrais chiffres sont dans la section DEMANDE REELLE.
+    L.append("## 🔻 ENTONNOIR DE NAVIGATION (90j) — que des clics, pas des ventes")
     fn = ga4_funnel()
     fs, gl, sc, bc = fn.get("form_start", 0), fn.get("generate_lead", 0), fn.get("select_consultation", 0), fn.get("book_call_click", 0)
     def rate(a, b): return f"{a/b*100:.0f}%" if b else "n/d"
-    L.append(f"  - Form start **{fs}** → Lead **{gl}** ({rate(gl, fs)}) → Consultation **{sc}** ({rate(sc, gl)}) → Appel reserve **{bc}** ({rate(bc, sc)})")
-    if gl and bc == 0:
-        L.append("  ⚠️ **Deperdition lead → appel** : des leads mais 0 appel reserve → renforcer le nurture / la prise de RDV.")
+    L.append(f"  - Clic dans un champ **{fs}** → Email donne **{gl}** ({rate(gl, fs)}) "
+             f"→ Clic vers /contact **{sc}** ({rate(sc, gl)}) → Clic sur Calendly **{bc}** ({rate(bc, sc)})")
+    L.append("  _Aucune de ces 4 etapes ne prouve qu'une personne a demande quelque chose. "
+             "Un clic sur le bouton Calendly n'est pas une reservation: la reservation est "
+             "comptee dans la section DEMANDE REELLE, depuis les emails Calendly._")
+    if not demand.get("error"):
+        nb = len(demand["bookings"])
+        if bc and nb == 0:
+            L.append(f"  ⚠️ **{bc} clics sur Calendly, 0 reservation reelle** → la page de "
+                     f"reservation perd tout le monde, ou elle est cassee. A tester soi-meme.")
+        elif bc:
+            L.append(f"  📊 {bc} clics sur Calendly → **{nb} reservation(s) reelle(s)** ({rate(nb, bc)}).")
     L.append("")
 
     # B7. CTR SOUS LA COURBE (page 1, titre/meta a ameliorer = clics gratuits)
@@ -500,14 +599,21 @@ def build():
         L.append("_(aucun trafic IA attribue cette periode)_")
     L.append("")
 
-    # B9. BACKLINKS / REFERENTS (domaines qui envoient du trafic = ton autorite)
-    L.append("## 🔗 BACKLINKS / REFERENTS (domaines qui t'envoient du trafic)")
+    # B9. TRAFIC DE REFERENCE — ce n'est PAS un index de backlinks (corrige 08/09/2026).
+    # Cette section lit les REFERRALS GA4. Un lien d'autorite n'envoie presque aucun trafic:
+    # aucun des domaines referents reellement gagnes n'apparait ici, et c'est normal.
+    # La metrique-phare du master plan (domaines referents) n'est donc mesuree par AUCUN script:
+    # elle est tenue a la main dans reference_outreach_conversion_evidence (memoire).
+    L.append("## 🔗 TRAFIC DE REFERENCE (GA4) — a ne pas confondre avec les backlinks")
     ref = ga4_referrals()
     if ref:
         for s, src in ref[:8]:
             L.append(f"  - {s} sess | {src}")
     else:
-        L.append("_(aucun referral — le goulot autorite reste entier)_")
+        L.append("_(aucun trafic de reference cette periode)_")
+    L.append("_⚠️ Ceci mesure le TRAFIC envoye, pas les liens. Un backlink d'autorite n'envoie "
+             "quasiment personne et n'apparaitra jamais ici. **Le compte des domaines referents "
+             "n'est automatise nulle part**, il se tient a la main._")
     L.append("")
 
     # C. TOP OPPORTUNITES (priorisees)
