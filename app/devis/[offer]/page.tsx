@@ -198,7 +198,7 @@ const FAQ = {
     },
     {
       q: "Combien de temps dure la mission ?",
-      a: "La plupart des missions se concluent en 7 à 21 jours. Tout dépend de vos critères et de la disponibilité des biens.",
+      a: "Votre première sélection de biens vous parvient sous 48 heures après le paiement. La mission complète, jusqu'à la remise des clés, se conclut le plus souvent en 7 à 21 jours : cette partie dépend de la disponibilité des biens et de l'étude de votre dossier, pas de la vitesse de recherche.",
     },
   ],
   en: [
@@ -216,7 +216,7 @@ const FAQ = {
     },
     {
       q: "How long does the mission take?",
-      a: "Most missions are completed within 7 to 21 days. It depends on your criteria and property availability.",
+      a: "Your first shortlist reaches you within 48 hours of payment. The full mission, through to the keys, is most often completed within 7 to 21 days: that part depends on property availability and on the screening of your application, not on how fast the search is.",
     },
   ],
 }

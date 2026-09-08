@@ -55,7 +55,7 @@ export default async function ServicesPage({
     },
     {
       q: 'How long does it take to find housing in Tokyo through Tokyo Expat?',
-      a: 'For share houses and furnished apartments, typically 1-4 weeks from the initial consultation. Standard 2-year rentals take 4-8 weeks. We present your first options within 48-72 hours of your brief.',
+      a: 'You get your first shortlist within 48 hours of your brief, often sooner. From there, share houses and furnished apartments typically complete in 1-4 weeks from the initial consultation, and standard 2-year rentals take 4-8 weeks, because that part depends on landlord screening rather than on the search itself.',
     },
     {
       q: 'Do I need a Japanese guarantor to rent through Tokyo Expat?',
@@ -76,7 +76,7 @@ export default async function ServicesPage({
     },
     {
       q: 'Combien de temps faut-il pour trouver un logement à Tokyo ?',
-      a: 'Pour les share houses et appartements meublés, comptez 1 à 4 semaines à partir de la consultation initiale. Les locations classiques 2 ans nécessitent 4 à 8 semaines. Nous vous présentons les premières options dans les 48 à 72h après votre brief.',
+      a: 'Vous recevez votre première sélection sous 48 heures après votre brief, souvent plus vite. Ensuite, comptez 1 à 4 semaines depuis la consultation initiale pour une share house ou un meublé, et 4 à 8 semaines pour une location classique de 2 ans, car cette partie dépend de l\'étude du dossier par le propriétaire et non de la recherche.',
     },
     {
       q: 'Faut-il un garant japonais pour louer via Tokyo Expat ?',
