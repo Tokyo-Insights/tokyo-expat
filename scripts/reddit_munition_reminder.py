@@ -6,9 +6,25 @@ Reddit interdit le post 100% auto -> on automatise TOUT SAUF le clic humain:
   1. Pioche la prochaine munition 'ready' dans outreach/reddit_queue.json
   2. Quand le delai est ecoule, RAPPELLE via Telegram le package pret (titre + commentaire OC
      + chemin image + sub + meilleur creneau US), a copier-coller.
-  3. DETECTE AUTO que c'est poste (email AutoMod "Original Content" dans Gmail) -> marque la
-     munition postee AVEC l'heure exacte, avance la file, et se TAIT pendant l'intervalle.
-  4. Re-rappelle gentiment 1x/jour tant que non detecte; apres 2 jours sans preuve, suppose poste.
+  3. DETECTE AUTO que c'est poste en LISANT LE FLUX RSS du compte (le post existe ou il
+     n'existe pas) -> marque la munition postee avec son heure et son URL, avance la file,
+     et se TAIT pendant l'intervalle.
+  4. Re-rappelle gentiment 1x/jour tant que non detecte. Une munition non postee reste EN
+     ATTENTE indefiniment: le script ne suppose JAMAIS qu'un post est parti.
+
+⚠️ INCIDENT DU 08/09/2026 -- pourquoi la detection est passee par le RSS.
+Avant, la detection reposait sur l'email AutoMod "Original Content" + une hypothese
+`ASSUME_POSTED_AFTER = 2 jours` ("pas de preuve apres 2j -> on suppose poste"). Deux
+defauts qui se sont combines:
+  (a) l'email AutoMod du post du 07/08 est arrive le 08/08, APRES le rappel de la munition
+      suivante -> il a ete credite a `layout-gap`, qui n'avait jamais ete postee;
+  (b) ensuite, tous les 7 jours, une munition etait piochee puis marquee "postee" au bout
+      de 2 jours sans preuve.
+Resultat: 4 munitions (layout-gap, price-trends-ward, tokyo-price-choropleth,
+center-premium-over-time) brulees sur le papier sans qu'aucun post ne parte, et un
+Telegram qui annoncait un succes a chaque fois. Le canal backlink est reste mort un mois
+sans que rien ne le signale. Regle tiree de la: **ne jamais marquer un fait externe comme
+acquis sur la base d'un delai ecoule; le verifier, ou rester en attente.**
 
 Cadence: changer UNE ligne -> POSTS_PER_WEEK (1 = defaut, 2 = deux/semaine).
 Lance a chaque allumage PC (run_daily_watch.bat). Idempotent (max 1 rappel/jour).
@@ -16,9 +32,9 @@ Lance a chaque allumage PC (run_daily_watch.bat). Idempotent (max 1 rappel/jour)
   python scripts/reddit_munition_reminder.py            # run normal
   python scripts/reddit_munition_reminder.py --force     # force le rappel (test)
 """
-import imaplib, email, sys, io, json
+import sys, io, json, re, time
+import html as htmllib
 import datetime as dt
-from email.utils import parsedate_to_datetime
 from pathlib import Path
 import requests
 
@@ -26,14 +42,19 @@ sys.path.insert(0, str(Path(__file__).parent))
 if sys.stdout.encoding and sys.stdout.encoding.lower() not in ('utf-8', 'utf8'):
     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
 
-from config import GMAIL_ADDRESS, GMAIL_APP_PASSWORD, TELEGRAM_TOKEN, TELEGRAM_CHAT_ID
+from config import TELEGRAM_TOKEN, TELEGRAM_CHAT_ID
 
 # ===== CADENCE (change juste cette ligne pour 2/semaine) =====
 POSTS_PER_WEEK = 1
 # =============================================================
 
 INTERVAL = dt.timedelta(days=7.0 / POSTS_PER_WEEK)
-ASSUME_POSTED_AFTER = dt.timedelta(days=2)   # si pas de preuve email apres 2j, on suppose poste
+REDDIT_USER = "Salty-Technician4002"
+UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+# Au bout de ce delai sans post visible, on ALERTE (on ne suppose plus rien: la munition
+# reste en attente jusqu'a ce qu'un post apparaisse vraiment dans le flux).
+STALE_AFTER = dt.timedelta(days=3)
+STALE_COOLDOWN = dt.timedelta(days=3)
 # Alerte PROACTIVE "stock bas": prevenir de creer des munitions AVANT que la file se vide.
 LOW_STOCK = 2                                # alerte si <= 2 munitions pretes
 LOW_STOCK_COOLDOWN = dt.timedelta(days=3)    # re-nudge tous les 3j tant que bas (pas de spam quotidien)
@@ -69,68 +90,80 @@ def send_telegram(msg):
     except Exception as e:
         print(f"[WARN] telegram: {e}")
 
-def body_text(msg):
-    out = []
-    for part in msg.walk():
-        if part.get_content_type() in ("text/plain", "text/html"):
-            try:
-                out.append(part.get_payload(decode=True).decode(part.get_content_charset() or "utf-8", "replace"))
-            except Exception:
-                pass
-    return " ".join(out)
+_FEED_CACHE = []   # memo d'execution: Reddit renvoie 429 si on rappelle le flux trop vite
 
-def select_all_mail(m):
-    """Selectionne le dossier All Mail via le flag \\All (robuste a la langue Gmail).
-    INDISPENSABLE: les emails AutoMod OC sont souvent ARCHIVES (retires de l'INBOX lors
-    du triage) -> chercher dans INBOX seul raterait la detection. All Mail inclut tout."""
-    try:
-        typ, folders = m.list()
-        for f in folders or []:
-            line = f.decode("utf-8", "replace")
-            if "\\All" in line:
-                name = line.split(' "/" ')[-1].strip().strip('"')
-                if m.select(f'"{name}"')[0] == "OK":
-                    return True
-    except Exception:
-        pass
-    for name in ('"[Gmail]/All Mail"', "INBOX"):
+
+def fetch_submitted():
+    """Les posts du compte, lus dans son flux RSS. C'est la VERITE TERRAIN: un post
+    existe ou il n'existe pas. Retourne [{published, title, url}] du + recent au + ancien,
+    ou None si le flux n'a pas pu etre lu (429, reseau...).
+
+    None et [] veulent dire deux choses differentes et le code appelant DOIT les
+    distinguer: None = "je ne sais pas" (on ne touche a rien), [] = "aucun post".
+    Le resultat est memoise: un seul appel reseau par execution.
+    """
+    if _FEED_CACHE:
+        return _FEED_CACHE[0]
+
+    url = f"https://www.reddit.com/user/{REDDIT_USER}/submitted.rss"
+    r = None
+    for attempt in range(2):
+        if attempt:
+            time.sleep(5)          # 429 = trop rapproche, on laisse retomber
         try:
-            if m.select(name)[0] == "OK":
-                return True
-        except Exception:
+            r = requests.get(url, headers={"User-Agent": UA}, timeout=25, verify=False)
+        except Exception as e:
+            print(f"[WARN] RSS: {e}")
+            r = None
             continue
-    return False
-
-
-def detect_oc_since(since_dt):
-    """Retourne le datetime du + recent email AutoMod 'Original Content' apres since_dt, sinon None.
-    Cherche dans All Mail (inclut les archives) = robuste a mon archivage lors du triage Gmail."""
-    try:
-        m = imaplib.IMAP4_SSL("imap.gmail.com")
-        m.login(GMAIL_ADDRESS, GMAIL_APP_PASSWORD)
-        select_all_mail(m)
-        typ, d = m.uid("SEARCH", None, "FROM", "redditmail.com")
-        uids = d[0].split() if d and d[0] else []
-        found = None
-        for uid in reversed(uids[-40:]):
-            _, md = m.uid("FETCH", uid, "(BODY.PEEK[])")
-            if not md or not md[0]:
-                continue
-            msg = email.message_from_bytes(md[0][1])
-            try:
-                ddate = parsedate_to_datetime(msg.get("Date"))
-            except Exception:
-                continue
-            if ddate <= since_dt:
-                continue
-            if "Original Content" in body_text(msg):
-                if found is None or ddate > found:
-                    found = ddate
-        m.logout()
-        return found
-    except Exception as e:
-        print(f"[WARN] IMAP detect: {e}")
+        if r.status_code == 200:
+            break
+        print(f"[WARN] RSS {url} -> HTTP {r.status_code}")
+    if r is None or r.status_code != 200:
+        _FEED_CACHE.append(None)
         return None
+
+    out = []
+    for entry in re.findall(r"<entry>.*?</entry>", r.text, re.S):
+        pub = re.search(r"<published>(.*?)</published>", entry)
+        title = re.search(r"<title>(.*?)</title>", entry, re.S)
+        link = re.search(r'<link href="(.*?)"', entry)
+        if not pub:
+            continue
+        out.append({
+            "published": parse(pub.group(1)),
+            "title": htmllib.unescape(title.group(1).strip()) if title else "",
+            "url": htmllib.unescape(link.group(1)) if link else "",
+        })
+    out.sort(key=lambda e: e["published"], reverse=True)
+    _FEED_CACHE.append(out)
+    return out
+
+
+def detect_post_since(since_dt, munition):
+    """Un post de cette munition est-il VISIBLE sur le compte apres since_dt ?
+
+    Retourne (datetime, url) si oui, None sinon, et "unknown" si le flux est illisible
+    (on ne conclut pas). On exige que le post soit posterieur au rappel ET que son titre
+    corresponde: sans ce second test, le post precedent encore en tete de flux pourrait
+    etre credite a la munition suivante -- exactement l'erreur du 08/08/2026.
+    """
+    posts = fetch_submitted()
+    if posts is None:
+        return "unknown"
+    want = norm_title(munition.get("title", ""))
+    for p in posts:
+        if p["published"] <= since_dt:
+            continue
+        if want and norm_title(p["title"]) != want:
+            continue
+        return p["published"], p["url"]
+    return None
+
+
+def norm_title(s):
+    """Titre comparable: Reddit reencode les apostrophes et l'espacement."""
+    return re.sub(r"[^a-z0-9]+", "", htmllib.unescape(s or "").lower())
 
 
 def main():
@@ -162,34 +195,48 @@ def main():
     if st.get("awaiting_id"):
         awaiting = by_id(st["awaiting_id"])
         reminded = parse(st.get("awaiting_reminded_utc")) or (n - INTERVAL)
-        is_oc_sub = awaiting.get("sub") == "dataisbeautiful"
+        post_url = ""
         if "--posted" in sys.argv:
             posted_at, note = n, " (confirme manuellement)"
         else:
-            # Auto-detection FIABLE uniquement pour r/dataisbeautiful (email AutoMod OC = signal
-            # d'un NOUVEAU post). Les autres subs n'ont pas de signal fiable -> confirmation
-            # manuelle (--posted) ou hypothese apres ASSUME_POSTED_AFTER. On NE se base PAS sur
-            # les emails 'a repondu a ta publication' (faux positifs: vieux posts encore actifs).
-            posted_at = detect_oc_since(reminded - dt.timedelta(minutes=5)) if is_oc_sub else None
-            if posted_at is None and (n - reminded) >= ASSUME_POSTED_AFTER:
-                posted_at = n  # pas de preuve apres 2j -> on suppose poste pour ne pas harceler
-                note = " (suppose, pas de confirmation)"
-            else:
-                note = ""
+            # VERITE TERRAIN: le post est-il visible sur le compte ? On ne suppose rien.
+            found = detect_post_since(reminded - dt.timedelta(minutes=5), awaiting)
+            if found == "unknown":
+                print("Flux RSS illisible: on ne conclut rien, on reessaiera.")
+                found = None
+            posted_at, note = (found[0], "") if found else (None, "")
+            if found:
+                post_url = found[1]
         if posted_at:
             awaiting["status"] = "posted"
             awaiting["posted_utc"] = iso(posted_at)
+            if post_url:
+                awaiting["post_url"] = post_url
             st["last_posted_utc"] = iso(posted_at)
             st["awaiting_id"] = None
             st["awaiting_reminded_utc"] = None
+            st["stale_alerted_utc"] = None
             changed = True
             save(q)
             hh = posted_at.astimezone(dt.timezone(dt.timedelta(hours=-4)))  # ET (EDT)
             send_telegram(
-                f"✅ <b>Post Reddit detecte</b>{note}\nMunition <code>{awaiting['id']}</code> marquee postee "
-                f"(~{hh.strftime('%a %H:%M')} ET).\nProchaine dans {INTERVAL.days}j. Repose-toi. \U0001F3F0")
-            print(f"Detecte poste: {awaiting['id']} a {iso(posted_at)}{note}")
+                f"✅ <b>Post Reddit confirme</b>{note}\nMunition <code>{awaiting['id']}</code> vue sur le compte "
+                f"(~{hh.strftime('%a %H:%M')} ET).\n{post_url}\nProchaine dans {INTERVAL.days}j. Repose-toi. \U0001F3F0")
+            print(f"Confirme poste: {awaiting['id']} a {iso(posted_at)} {post_url}")
             return
+
+        # Toujours rien de visible: on ALERTE, on ne suppose pas (incident du 08/09/2026).
+        if (n - reminded) >= STALE_AFTER:
+            last_stale = parse(st.get("stale_alerted_utc"))
+            if last_stale is None or (n - last_stale) >= STALE_COOLDOWN:
+                st["stale_alerted_utc"] = iso(n)
+                save(q)
+                days = (n - reminded).days
+                send_telegram(
+                    f"⚠️ <b>Munition toujours pas postee</b>\n<code>{awaiting['id']}</code> attend depuis "
+                    f"{days}j et n'apparait PAS sur le compte.\nElle reste en file: rien n'est perdu, "
+                    f"mais le canal backlink est a l'arret tant qu'elle n'est pas partie.")
+                print(f"Alerte stale: {awaiting['id']} ({days}j)")
 
     # -------- 2. RAPPEL: faut-il pousser la prochaine munition ? --------
     last_posted = parse(st.get("last_posted_utc")) or (n - INTERVAL * 2)
