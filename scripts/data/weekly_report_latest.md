@@ -1,113 +1,131 @@
-# 📊 RAPPORT HEBDO — tokyo-expat — 2026-09-02
+# 📊 RAPPORT HEBDO — tokyo-expat — 2026-09-09
 
 ## 🎯 KPIs
-- **Trafic (7j)** : 344 sessions (+13%), 319 users (+17%)
-- **Visibilite (28j)** : 16931 impressions | 92 clics | CTR 0.54% | pos moy 20.1
-- **Leads (90j)** : 10
+- **Trafic (7j)** : 333 sessions (+1%), 315 users (+3%)
+- **Visibilite (28j)** : 19056 impressions | 100 clics | CTR 0.52% | pos moy 21.1
+- **🔴 DEMANDES REELLES (90j)** : 3 formulaires de contact · 2 reservations Calendly
+- Captures d'email (90j) : 11
 
-## 💰 LEADS & CONVERSION (le pont vers les clients)
-**Par canal :** Organic Search 7 · AI Assistant 1 · Direct 1 · Organic Social 1
-**Par pays :** United States 4 · France 3 · Australia 1 · Kenya 1 · United Kingdom 1
-**Pages qui convertissent :**
+## 🔴 DEMANDE REELLE (90j) — les seuls chiffres qui engagent quelqu'un
+**Formulaires de contact recus : 3** · **Reservations Calendly : 2**
+Qui a ecrit :
+  - 2026-09-05 | [Tokyo Expat] Nouveau message de BOL7 Technologies
+  - 2026-08-23 | [Tokyo Expat] New message from Engin Cosar
+  - 2026-08-05 | [Tokyo Expat] New message from jill hill
+Qui a reserve un appel :
+  - 2026-08-26 | New Event: Poppy Hewlett - 18:00 Sat, 29 Aug 2026 - Free Discovery
+ Call
+  - 2026-08-17 | New Event: Poppy Hewlett - 18:00 Sat, 22 Aug 2026 - Free Discovery
+ Call
+_Trier soi-meme: un partenaire qui propose une collaboration et un spam commercial arrivent par le meme formulaire qu'un client._
+
+## 📧 CAPTURES D'EMAIL (lead magnet + newsletter, 90j)
+_⚠️ L'evenement GA4 `generate_lead` se declenche uniquement quand quelqu'un donne son adresse contre un PDF gratuit ou la newsletter. Ce n'est PAS une demande commerciale, et ces personnes n'ont rien demande. Ne pas les appeler des leads._
+**Par canal :** Organic Search 7 · AI Assistant 1 · Direct 1 · Organic Social 1 · Unassigned 1
+**Par pays :** United States 4 · France 3 · Australia 1 · Kenya 1 · Philippines 1 · United Kingdom 1
+**Pages qui captent le plus d'adresses :**
   - 2 | /en/blog/gaijin-house-tokyo-guide
+  - 1 | 
   - 1 | /en
   - 1 | /en/blog/japan-digital-nomad-visa-2026
   - 1 | /en/blog/japan-income-tax-foreigners-guide
   - 1 | /en/blog/japan-sim-card-foreigners-2026
   - 1 | /en/blog/send-money-to-japan-from-abroad
   - 1 | /fr/blog/appartement-meuble-tokyo-expats
-  - 1 | /fr/blog/logement-etudiant-tokyo-guide
 
 ## 🔀 CONVERSION PAR PAGE
 **Fort trafic SANS lead (ajouter/renforcer un CTA) :**
-  - 247 sessions · 0 lead | /en/data
-  - 84 sessions · 0 lead | /fr
-  - 63 sessions · 0 lead | /en/blog/tokyo-rent-report-2026
-  - 59 sessions · 0 lead | /en/blog/tokyo-expat-cost-of-living-2026
-  - 55 sessions · 0 lead | (not set)
-  - 55 sessions · 0 lead | /en/blog/tokyo-rent-by-neighborhood-2026
-  - 53 sessions · 0 lead | /en/blog/jiko-bukken-cheap-apartments-tokyo
-  - 43 sessions · 0 lead | /en/blog/student-housing-tokyo-guide
+  - 266 sessions · 0 lead | /en/data
+  - 86 sessions · 0 lead | /fr
+  - 70 sessions · 0 lead | /en/blog/tokyo-rent-report-2026
+  - 64 sessions · 0 lead | (not set)
+  - 64 sessions · 0 lead | /en/blog/tokyo-expat-cost-of-living-2026
+  - 63 sessions · 0 lead | /en/blog/jiko-bukken-cheap-apartments-tokyo
+  - 60 sessions · 0 lead | /en/blog/tokyo-rent-by-neighborhood-2026
 **Convertissent (y amener plus de trafic) :**
-  - 2 lead / 41 sess (4.9%) | /en/blog/gaijin-house-tokyo-guide
-  - 1 lead / 133 sess (0.8%) | /en
-  - 1 lead / 99 sess (1.0%) | /en/blog/japan-sim-card-foreigners-2026
-  - 1 lead / 62 sess (1.6%) | /en/blog/japan-income-tax-foreigners-guide
-  - 1 lead / 43 sess (2.3%) | /en/blog/send-money-to-japan-from-abroad
+  - 2 lead / 56 sess (3.6%) | /en/blog/gaijin-house-tokyo-guide
+  - 1 lead / 146 sess (0.7%) | /en
+  - 1 lead / 117 sess (0.9%) | /en/blog/japan-sim-card-foreigners-2026
+  - 1 lead / 66 sess (1.5%) | /en/blog/japan-income-tax-foreigners-guide
+  - 1 lead / 52 sess (1.9%) | /en/blog/send-money-to-japan-from-abroad
 
 ## 📈 TENDANCES (vs snapshot precedent)
-- Sessions +38 · Impressions -556 · Clics +14 · Leads +0 (depuis 2026-08-23)
+- Sessions -11 · Impressions +2125 · Clics +8 · Leads +1 (depuis 2026-09-02)
 **Vagues montantes (requetes) :**
-  - _about me: corporate relocator corporate relocator question: which parts of tokyo are popular with young professionals?_ : impr +4, pos 8.2 (monte)
-  - _about me: international student international student question: how do i find multi-bedroom apartments for my family in tokyo?_ : impr +0, pos 9.0 (monte)
+  - _jiko bukken for sale_ : impr +22, pos 7.9 (stable)
 
 ## 📉 CONTENT DECAY (pages en declin — a rafraichir)
-  - **-42** sessions (124 -> 82, 28j vs 28j prec.) | /en/data
-  - **-9** sessions (23 -> 14, 28j vs 28j prec.) | /en/blog/furnished-apartment-tokyo-top-5-expats
+  - **-39** sessions (120 -> 81, 28j vs 28j prec.) | /en/data
+  - **-11** sessions (24 -> 13, 28j vs 28j prec.) | /en/blog/japan-health-insurance-expat-guide
 
 ## 🧲 ENGAGEMENT PAR PAGE
 **Fort trafic, FAIBLE engagement (contenu a ameliorer) :**
-  - 82 sess · engagement 24% · 32s | /en/data
-  - 77 sess · engagement 42% · 141s | /en
-  - 53 sess · engagement 8% · 40s | /en/blog/tokyo-expat-cost-of-living-2026
-  - 45 sess · engagement 11% · 38s | /en/blog/tokyo-rent-report-2026
-  - 36 sess · engagement 42% · 92s | /en/blog/japan-income-tax-foreigners-guide
-  - 35 sess · engagement 23% · 6s | /en/blog/tokyo-rent-by-neighborhood-2026
+  - 81 sess · engagement 26% · 39s | /en/data
+  - 69 sess · engagement 42% · 90s | /en/blog/japan-sim-card-foreigners-2026
+  - 69 sess · engagement 38% · 93s | /en
+  - 47 sess · engagement 6% · 45s | /en/blog/tokyo-expat-cost-of-living-2026
+  - 42 sess · engagement 12% · 39s | /en/blog/tokyo-rent-report-2026
+  - 39 sess · engagement 38% · 110s | /en/blog/share-house-tokyo-guide-2026
 
-## 🔻 ENTONNOIR DE CONVERSION (90j)
-  - Form start **19** → Lead **10** (53%) → Consultation **2** (20%) → Appel reserve **2** (100%)
+## 🔻 ENTONNOIR DE NAVIGATION (90j) — que des clics, pas des ventes
+  - Clic dans un champ **20** → Email donne **11** (55%) → Clic vers /contact **3** (27%) → Clic sur Calendly **3** (100%)
+  _Aucune de ces 4 etapes ne prouve qu'une personne a demande quelque chose. Un clic sur le bouton Calendly n'est pas une reservation: la reservation est comptee dans la section DEMANDE REELLE, depuis les emails Calendly._
+  📊 3 clics sur Calendly → **2 reservation(s) reelle(s)** (67%).
 
 ## 🔎 CTR SOUS LA COURBE (page 1 — titre/meta a ameliorer)
-  - 864 impr · pos 8.0 · CTR 0.1% (attendu ~4%) · _tokyo gaijin house_
+  - 796 impr · pos 8.4 · CTR 0.1% (attendu ~4%) · _tokyo gaijin house_
+  - 177 impr · pos 9.3 · CTR 0.6% (attendu ~3%) · _jiko bukken_
 
 ## 🤖 GEO / IA (pages qui captent le trafic 'AI Assistant')
-  - 45 sess IA | /en/data
+  - 49 sess IA | /en/data
   - 20 sess IA | /en/blog/tokyo-rent-by-neighborhood-2026
-  - 15 sess IA | /en/blog/tokyo-rent-report-2026
+  - 17 sess IA | /en/blog/tokyo-rent-report-2026
+  - 11 sess IA | /en/blog/share-house-tokyo-guide-2026
   - 10 sess IA | /en/blog/japanese-language-schools-tokyo-guide
-  - 8 sess IA | /en/blog/furnished-apartment-tokyo-top-5-expats
-  - 8 sess IA | (not set)
+  - 9 sess IA | (not set)
 
-## 🔗 BACKLINKS / REFERENTS (domaines qui t'envoient du trafic)
+## 🔗 TRAFIC DE REFERENCE (GA4) — a ne pas confondre avec les backlinks
   - 22 sess | dailytokyo.news
+  - 11 sess | facebook.com
   - 11 sess | linkedin.com
   - 10 sess | fr.search.yahoo.com
-  - 9 sess | facebook.com
+  - 7 sess | cn.bing.com
   - 7 sess | m.facebook.com
   - 6 sess | reddit.com
-  - 2 sess | ca.search.yahoo.com
-  - 2 sess | cn.bing.com
+  - 4 sess | studyinjapan.org
+_⚠️ Ceci mesure le TRAFIC envoye, pas les liens. Un backlink d'autorite n'envoie quasiment personne et n'apparaitra jamais ici. **Le compte des domaines referents n'est automatise nulle part**, il se tient a la main._
 
 ## 🎯 TOP OPPORTUNITES (priorisees)
 **Striking distance (page 1-2, a pousser en top-3) :**
-  - 864 impr · pos 8.0 · 1 clics · _tokyo gaijin house_
-  - 100 impr · pos 11.4 · 1 clics · _gaijin house_
+  - 796 impr · pos 8.4 · 1 clics · _tokyo gaijin house_
+  - 177 impr · pos 9.3 · 1 clics · _jiko bukken_
+  - 48 impr · pos 7.9 · 2 clics · _jiko bukken for sale_
 **Content gaps pertinents (logement) :**
   - pet cost cat tokyo
   - finding a pet sitter in japan
   - low cost pets
-  - les differents modes dhebergement
+  - rental home frankfurt
 
 ## 🔥 VULNERABILITES CONCURRENTS (places a prendre)
-  - **remoters.io** chute sur _property hunter tokyo_ -> attaquer / verifier notre position
-  - **oakhouse.jp** chute sur _appartement meuble tokyo expatrie_ -> attaquer / verifier notre position
-  - **oakhouse.jp** chute sur _logement etudiant tokyo_ -> attaquer / verifier notre position
-  - **sakura-house.com** chute sur _appartement meuble tokyo expatrie_ -> attaquer / verifier notre position
-  - **gaijinpot.com** chute sur _find apartment tokyo foreigner_ -> attaquer / verifier notre position
-  - **oakhouse.jp** chute sur _share house tokyo guide_ -> attaquer / verifier notre position
+  - **remoters.io** chute sur _logement tokyo expatrie_ -> attaquer / verifier notre position
+  - **sakura-house.com** chute sur _rent tokyo expat 2026_ -> attaquer / verifier notre position
+  - **oakhouse.jp** chute sur _louer tokyo sans garant etranger_ -> attaquer / verifier notre position
+  - **sakura-house.com** chute sur _logement tokyo expatrie_ -> attaquer / verifier notre position
+  - **gaijinpot.com** chute sur _tokyo apartment hunting abroad_ -> attaquer / verifier notre position
+  - **sakura-house.com** chute sur _share house tokyo guide 2026_ -> attaquer / verifier notre position
 
 ## 🏅 NOS POSITIONS (keywords ou on ranke)
-**24 keywords rankes** · le top 3 :
+**28 keywords rankes** · le top 3 :
   - #1 · [fr] appartement meuble tokyo expatrie
+  - #1 · [fr] logement tokyo expatrie
   - #1 · [fr] quartiers tokyo expatries
+  - #1 · [fr] cout vie tokyo 2026
   - #1 · [fr] garantie loyer japon etranger
   - #1 · [fr] assurance habitation japon locataire
   - #1 · [fr] logement etudiant tokyo
   - #1 · [fr] visa travail japon francophone
-  - #1 · [fr] ouvrir compte bancaire japon etranger
   - #1 · [fr] bail tokyo checklist
   - #1 · [en] find apartment tokyo foreigner
-  - #1 · [en] property hunter tokyo
 
 ## 🅱️ BING (l'index que ChatGPT interroge)
 **7266 impressions · 176 clics · CTR 2.42%** sur 2026-06-28 → 2026-08-30 (798 requetes, 93 pages)
@@ -127,15 +145,14 @@
   - 12 impr · pos 7.8 · _zairyu card_
 
 ## 📦 FEATURED SNIPPETS (a voler aux concurrents)
-  - _share house tokyo expat 2026_ (list) — sakura-house.com pos 3
   - _tokyo apartment no guarantor_ (answer_box) — gaijinpot.com pos 3
-  - _how much does it cost to rent in tokyo_ (table) — gaijinpot.com pos 2
   - _share house tokyo price_ (table) — borderless-house.com pos 2
+  - _tokyo apartment foreigner documents_ (list) — tokyocheapo.com pos 1
   - _short term apartment tokyo_ (table) — sakura-house.com pos 1
 
 ## ⚡ VEILLE
-**Masse de contenu concurrents (top) :** Savvy Tokyo 8048 · Tokyo Cheapo 6824 · Remoters 5506 · Oak House 5112 · GaijinPot Blog 4587
-**Pages mortes a traiter :** 5 (cf dead_pages_manual_check_2026-08-31.csv)
+**Masse de contenu concurrents (top) :** Tokyo Cheapo 6824 · Remoters 5372 · Oak House 5090 · Tofugu 1910 · Sakura House 970
+**Pages mortes a traiter :** 8 (cf dead_pages_manual_check_2026-09-07.csv)
 
 ## 🎙️ VOIX DU CLIENT (besoins recurrents des leads)
   - 🔥 famille : 8 contacts

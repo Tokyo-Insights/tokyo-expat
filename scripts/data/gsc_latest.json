@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-09-07",
-  "period": "2026-08-10 to 2026-09-06",
+  "generated_at": "2026-09-09",
+  "period": "2026-08-12 to 2026-09-08",
   "property": "sc-domain:tokyo-expat.com",
   "totals": {
-    "clicks": 93,
-    "impressions": 18081,
-    "ctr_pct": 0.51,
-    "position": 20.7
+    "clicks": 100,
+    "impressions": 19056,
+    "ctr_pct": 0.52,
+    "position": 21.1
   },
   "top_queries": [
     {
       "query": "jiko bukken for sale",
       "clicks": 2,
-      "impressions": 47,
+      "impressions": 48,
       "position": 7.9
     },
     {
@@ -22,10 +22,16 @@
       "position": 6.9
     },
     {
+      "query": "jiko bukken",
+      "clicks": 1,
+      "impressions": 177,
+      "position": 9.3
+    },
+    {
       "query": "jiko bukken map tokyo",
       "clicks": 1,
-      "impressions": 11,
-      "position": 5.1
+      "impressions": 12,
+      "position": 4.6
     },
     {
       "query": "location appartement tokyo expatrié",
@@ -42,8 +48,8 @@
     {
       "query": "tokyo gaijin house",
       "clicks": 1,
-      "impressions": 813,
-      "position": 8.2
+      "impressions": 796,
+      "position": 8.4
     },
     {
       "query": "1 година",
@@ -85,12 +91,12 @@
       "query": "about me: corporate relocator corporate relocator question: what are good accommodation options for families moving to tokyo?",
       "clicks": 0,
       "impressions": 12,
-      "position": 11.5
+      "position": 14.4
     },
     {
       "query": "about me: corporate relocator corporate relocator question: what are the most common renting mistakes for newcomers?",
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 3,
       "position": 11
     },
     {
@@ -102,26 +108,26 @@
     {
       "query": "about me: corporate relocator corporate relocator question: what is the minimum rental period for a furnished apartment in tokyo?",
       "clicks": 0,
-      "impressions": 6,
-      "position": 4.8
+      "impressions": 7,
+      "position": 4.6
     },
     {
       "query": "about me: corporate relocator corporate relocator question: where in tokyo can families find quiet and child-friendly amenities?",
       "clicks": 0,
-      "impressions": 11,
-      "position": 16.7
+      "impressions": 13,
+      "position": 16.6
     },
     {
       "query": "about me: corporate relocator corporate relocator question: which parts of tokyo are more family-oriented?",
       "clicks": 0,
-      "impressions": 22,
-      "position": 13.1
+      "impressions": 24,
+      "position": 14.3
     },
     {
       "query": "about me: corporate relocator corporate relocator question: which parts of tokyo are popular with young professionals?",
       "clicks": 0,
-      "impressions": 6,
-      "position": 8.8
+      "impressions": 7,
+      "position": 11.1
     },
     {
       "query": "about me: digital nomad digital nomad question: what is the minimum rental period for a furnished apartment in tokyo?",
@@ -132,8 +138,8 @@
     {
       "query": "about me: digital nomad digital nomad question: which parts of tokyo are more family-oriented?",
       "clicks": 0,
-      "impressions": 6,
-      "position": 14.5
+      "impressions": 8,
+      "position": 13.1
     },
     {
       "query": "about me: international student international student question: how do i find multi-bedroom apartments for my family in tokyo?",
@@ -144,57 +150,51 @@
     {
       "query": "about me: international student international student question: how far in advance should i book a short-term apartment in tokyo?",
       "clicks": 0,
-      "impressions": 1,
-      "position": 6
+      "impressions": 4,
+      "position": 3.8
     },
     {
       "query": "about me: international student international student question: what are good accommodation options for families moving to tokyo?",
       "clicks": 0,
       "impressions": 4,
       "position": 15.2
-    },
-    {
-      "query": "about me: international student international student question: what is the minimum rental period for a furnished apartment in tokyo?",
-      "clicks": 0,
-      "impressions": 3,
-      "position": 8.7
     }
   ],
   "top_pages": [
     {
       "page": "https://www.tokyo-expat.com/en/blog/jiko-bukken-cheap-apartments-tokyo",
-      "clicks": 16,
-      "impressions": 975
+      "clicks": 20,
+      "impressions": 1047
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/share-house-tokyo-comparison-2026",
       "clicks": 9,
-      "impressions": 242
+      "impressions": 236
     },
     {
       "page": "https://www.tokyo-expat.com/",
       "clicks": 5,
-      "impressions": 24
+      "impressions": 26
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/best-neighbourhoods-families-tokyo-guide",
-      "clicks": 4,
-      "impressions": 349
+      "clicks": 5,
+      "impressions": 400
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/japan-sim-card-foreigners-2026",
       "clicks": 4,
-      "impressions": 391
+      "impressions": 341
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/oak-house-alternative",
       "clicks": 4,
-      "impressions": 939
+      "impressions": 915
     },
     {
       "page": "https://www.tokyo-expat.com/fr/blog/permis-conduire-etranger-japon-conversion",
       "clicks": 4,
-      "impressions": 12
+      "impressions": 11
     },
     {
       "page": "https://www.tokyo-expat.com/blog/garantie-loyer-etranger-japon",
@@ -207,14 +207,19 @@
       "impressions": 19
     },
     {
+      "page": "https://www.tokyo-expat.com/en/blog/furnished-apartment-tokyo-top-5-expats",
+      "clicks": 2,
+      "impressions": 6348
+    },
+    {
       "page": "https://www.tokyo-expat.com/en/blog/gaijin-house-tokyo-guide",
       "clicks": 2,
-      "impressions": 2774
+      "impressions": 2720
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/renters-insurance-japan-guide",
       "clicks": 2,
-      "impressions": 144
+      "impressions": 140
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/share-house-tokyo-guide-2026",
@@ -222,19 +227,14 @@
       "impressions": 148
     },
     {
-      "page": "https://www.tokyo-expat.com/en/blog/social-apartments-tokyo-guide",
-      "clicks": 2,
-      "impressions": 110
-    },
-    {
       "page": "https://www.tokyo-expat.com/en/blog/student-housing-tokyo-guide",
       "clicks": 2,
-      "impressions": 279
+      "impressions": 721
     },
     {
-      "page": "https://www.tokyo-expat.com/fr/blog/appartement-familial-tokyo-etranger",
+      "page": "https://www.tokyo-expat.com/en/blog/ur-housing-tokyo-foreigners",
       "clicks": 2,
-      "impressions": 60
+      "impressions": 34
     }
   ]
 }

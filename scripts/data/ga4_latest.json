@@ -1,68 +1,70 @@
 {
-  "generated_at": "2026-09-07",
-  "period": "2026-08-31 to 2026-09-07",
+  "generated_at": "2026-09-09",
+  "period": "2026-09-02 to 2026-09-09",
   "this_week": {
-    "sessions": 355,
-    "users": 336,
-    "pageviews": 421,
-    "bounce_rate": 0.8
+    "sessions": 333,
+    "users": 315,
+    "pageviews": 407,
+    "bounce_rate": 0.7837837837837838
   },
   "prev_week": {
-    "sessions": 314,
-    "users": 282,
-    "pageviews": 360,
-    "bounce_rate": 0.7165605095541401
+    "sessions": 331,
+    "users": 306,
+    "pageviews": 371,
+    "bounce_rate": 0.7190332326283988
   },
   "changes": {
-    "sessions": "+13%",
-    "users": "+19%",
-    "pageviews": "+17%"
+    "sessions": "+1%",
+    "users": "+3%",
+    "pageviews": "+10%"
   },
   "top_pages": [
     [
       "/en/data",
-      "25"
-    ],
-    [
-      "/en",
-      "22"
+      "27"
     ],
     [
       "/en/blog/share-house-tokyo-guide-2026",
-      "19"
+      "22"
     ],
     [
-      "/en/blog/tokyo-rent-by-neighborhood-2026",
-      "16"
+      "/en",
+      "21"
+    ],
+    [
+      "/en/blog/gaijin-house-tokyo-guide",
+      "17"
     ],
     [
       "/en/blog/japan-sim-card-foreigners-2026",
-      "12"
+      "17"
     ]
   ],
   "top_sources": [
     [
       "Direct",
-      "228"
+      "212"
     ],
     [
       "Organic Search",
-      "92"
+      "86"
     ],
     [
       "AI Assistant",
-      "20"
+      "18"
     ]
   ],
-  "form_submits_week": 0,
+  "form_submits_week": 1,
   "events": {
-    "page_view": 421,
-    "session_start": 360,
-    "first_visit": 335,
-    "user_engagement": 157,
-    "scroll": 23,
+    "page_view": 407,
+    "session_start": 336,
+    "first_visit": 313,
+    "user_engagement": 150,
+    "scroll": 28,
     "click": 2,
     "book_call_click": 1,
+    "form_start": 1,
+    "generate_lead": 1,
     "select_consultation": 1
   }
 }
