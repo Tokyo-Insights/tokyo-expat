@@ -277,11 +277,12 @@ def main():
         oc = str(nxt.get("oc_comment") or "(demande le commentaire a Claude)")
         if nxt.get("sub") == "dataisbeautiful":
             oc_line = f"\U0001F4CC <b>Commentaire OC</b> (a coller en 1er commentaire, sinon retrait auto):\n{oc}"
-            detect_line = f"Je detecte auto quand c'est poste et je me tais {INTERVAL.days}j."
         else:
             oc_line = f"\U0001F4CC Premier commentaire (source, sans lien):\n{oc}"
-            detect_line = (f"⚠️ Auto-detection indisponible sur r/{nxt['sub']}. Reponds a Claude 'poste' "
-                           f"quand c'est fait (sinon j'assume dans {ASSUME_POSTED_AFTER.days}j).")
+        # Le flux RSS liste TOUS les subs -> la detection marche partout, pas seulement
+        # sur r/dataisbeautiful (l'ancienne detection par email AutoMod, elle, non).
+        detect_line = (f"Je verifie le flux du compte: des que le post apparait, je me tais "
+                       f"{INTERVAL.days}j. Toujours rien apres {STALE_AFTER.days}j -> je te relance.")
         send_telegram(
             f"\U0001F3AF <b>JOUR REDDIT</b> — munition prete\nPoste ceci quand tu as 2 min:\n\n"
             f"\U0001F4CA <b>{nxt['title']}</b>\n\U0001F5BC️ Image: <code>{nxt['png']}</code>\n\U0001F3AF Sub: r/{nxt['sub']}\n\n"
