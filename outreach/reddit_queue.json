@@ -148,12 +148,12 @@
     },
     {
       "id": "furnished-premium",
-      "status": "todo",
+      "status": "retired",
       "title": "[OC] A furnished studio in Tokyo costs 20% to 98% more than an unfurnished one, and the gap is biggest in the cheapest wards (2026)",
-      "image": "outreach/tokyo-furnished-premium.png",
-      "first_comment": "Source: my own Tokyo rent index, from a large sample of current rental listings across the 23 special wards. I compared the median monthly cost of a furnished 1K studio to a standard unfurnished one in the same ward (2026): https://www.tokyo-expat.com/en/data\nTool: Python and matplotlib.\nNote: furnished here means the furnished or monthly route, which also skips the guarantor and key money, so part of the premium is convenience, not just furniture. The two cheapest wards have smaller furnished samples, so read those two as rough.",
       "sub": "dataisbeautiful",
-      "notes": "Marquee ready a tort: ni PNG ni commentaire OC. Repassee todo le 06/09/2026."
+      "notes": "RETIREE 08/09/2026, remplacee par furnished-by-location (meme sujet, seuil d'echantillon + silhouette neuve). Cles 'image'/'first_comment' renommees en 'png'/'oc_comment': reddit_munition_reminder.py lit ces cles-la et aurait plante.",
+      "png": "outreach/tokyo-furnished-premium.png",
+      "oc_comment": "Source: my own Tokyo rent index, from a large sample of current rental listings across the 23 special wards. I compared the median monthly cost of a furnished 1K studio to a standard unfurnished one in the same ward (2026): https://www.tokyo-expat.com/en/data\nTool: Python and matplotlib.\nNote: furnished here means the furnished or monthly route, which also skips the guarantor and key money, so part of the premium is convenience, not just furniture. The two cheapest wards have smaller furnished samples, so read those two as rough."
     },
     {
       "id": "entry-cost-by-ward",
@@ -163,6 +163,18 @@
       "oc_comment": "Source: 136,492 active rental listings across Tokyo's 23 special wards, collected in September 2026 from the major Japanese rental portals and deduplicated. For each ward I took the median deposit (shikikin), the median key money (reikin), and the share of listings where the amount asked is explicitly zero. Sample sizes run from 1,939 listings in Chiyoda to 12,570 in Setagaya.\n\nThe trap in this data, in case anyone wants to reproduce it: a dash in a listing means zero is required, not that the number is missing. If you drop those rows as missing values the medians come out roughly twice too high, which is part of why published figures for Japanese move-in costs tend to overstate what people actually pay.\n\nDeposit and key money are the only entry costs that appear in listings at all. Agency fees and guarantor company fees are negotiated separately and never published, so they are not in the chart.\n\nThe two wards with no blue bar, Adachi and Katsushika, have a median deposit of exactly zero. More than half the listings there ask for no deposit.\n\nTool: Python, pandas for the medians, matplotlib for the chart.\n\nRent data by ward, train line and station: tokyo-expat.com/data",
       "sub": "dataisbeautiful",
       "notes": "Genere par scripts/generate_entry_cost_by_ward_chart.py. CSV par ward: outreach/tokyo-entry-cost-by-ward.csv (sert aussi l'article move-in costs et le tableau de couts client)."
+    },
+    {
+      "id": "furnished-by-location",
+      "status": "ready",
+      "png": "outreach/tokyo-furnished-by-location.png",
+      "title": "[OC] A furnished studio in Tokyo costs much the same wherever you live. A standard one does not.",
+      "oc_comment": "Source: my own rent index for Tokyo, built from a large sample of active rental listings across the 23 special wards, collected in September 2026 from the major Japanese rental portals and deduplicated. For each ward I took the median monthly rent (rent plus management fee) for a 1K studio, once for standard unfurnished listings and once for the furnished route.\n\nSample: about 160,000 standard listings and 2,400 furnished ones across the 18 wards shown. Furnished stock is small by nature, so I dropped the 5 wards with fewer than 50 furnished listings (Edogawa, Adachi, Nakano, Kita, Arakawa) rather than publish a median that a single listing could move.\n\nWhat surprised me is how flat the fitted line is next to the diagonal. Standard rent varies by a factor of 1.7 across these wards (¥83,500 to ¥144,000), while furnished rent only varies by 1.5 (¥124,800 to ¥182,400). For every ¥10,000 the standard rent rises, the furnished rent rises only about ¥5,600. So the further out you go, the bigger the premium: +16% in Chiyoda, +104% in Katsushika. The correlation between how cheap a ward is and how big its furnished premium is comes out at -0.74.\n\nOne caveat I would flag myself: furnished in Japan usually means the furnished or monthly-mansion route, which also skips the guarantor, the key money and often the deposit. So part of that gap is convenience and a shorter commitment, not just furniture. Katsushika still sits well above the trend, and Taito has the priciest furnished stock of all at ¥182k.\n\nTool: Python, pandas for the medians, matplotlib for the chart.\n\nRent data by ward, train line and station: tokyo-expat.com/data",
+      "sub": "dataisbeautiful",
+      "posted_utc": null,
+      "views": null,
+      "upvotes": null,
+      "notes": "Genere par scripts/generate_furnished_location_chart.py (08/09/2026). Silhouette NEUVE: nuage de points + diagonale de reference, on n'avait fait que barres/cartes/animation. Seuil MIN_FURN=50 annonces meublees par ward: 5 wards exclus, dit sur le chart. CSV citable: outreach/tokyo-furnished-by-location.csv. Remplace la munition furnished-premium (meme data, chart en barres, sans garde-fou d'echantillon)."
     }
   ]
 }
