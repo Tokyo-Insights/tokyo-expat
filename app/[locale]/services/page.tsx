@@ -55,7 +55,7 @@ export default async function ServicesPage({
     },
     {
       q: 'How long does it take to find housing in Tokyo through Tokyo Expat?',
-      a: 'You get your first shortlist within 48 hours of your brief, often sooner. From there, share houses and furnished apartments typically complete in 1-4 weeks from the initial consultation, and standard 2-year rentals take 4-8 weeks, because that part depends on landlord screening rather than on the search itself.',
+      a: 'For a furnished apartment, a share house or a monthly plan, you get your first shortlist within 48 hours of your brief, often sooner, and the whole thing usually completes in 1-4 weeks from the initial consultation. A standard unfurnished 2-year rental works differently: the first shortlist takes about a week, because Japanese agencies have to be contacted one by one and the landlord\'s willingness to accept a foreign tenant confirmed, and the full process takes 4-8 weeks.',
     },
     {
       q: 'Do I need a Japanese guarantor to rent through Tokyo Expat?',
@@ -76,7 +76,7 @@ export default async function ServicesPage({
     },
     {
       q: 'Combien de temps faut-il pour trouver un logement à Tokyo ?',
-      a: 'Vous recevez votre première sélection sous 48 heures après votre brief, souvent plus vite. Ensuite, comptez 1 à 4 semaines depuis la consultation initiale pour une share house ou un meublé, et 4 à 8 semaines pour une location classique de 2 ans, car cette partie dépend de l\'étude du dossier par le propriétaire et non de la recherche.',
+      a: 'Pour un meublé, une share house ou une formule mensuelle, vous recevez votre première sélection sous 48 heures après votre brief, souvent plus vite, et l\'ensemble se conclut en général en 1 à 4 semaines depuis la consultation initiale. Une location classique non meublée de 2 ans fonctionne autrement : la première sélection demande environ une semaine, car il faut contacter les agences japonaises une par une et confirmer que le propriétaire accepte un locataire étranger, et le processus complet prend 4 à 8 semaines.',
     },
     {
       q: 'Faut-il un garant japonais pour louer via Tokyo Expat ?',

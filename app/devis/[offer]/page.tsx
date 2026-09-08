@@ -198,7 +198,7 @@ const FAQ = {
     },
     {
       q: "Combien de temps dure la mission ?",
-      a: "Votre première sélection de biens vous parvient sous 48 heures après le paiement. La mission complète, jusqu'à la remise des clés, se conclut le plus souvent en 7 à 21 jours : cette partie dépend de la disponibilité des biens et de l'étude de votre dossier, pas de la vitesse de recherche.",
+      a: "Cela dépend du type de logement. Pour un meublé, une share house ou une formule mensuelle, votre première sélection vous parvient sous 48 heures après le paiement. Pour une location classique non meublée (bail de 2 ans), comptez environ une semaine : il faut contacter les agences japonaises une par une et confirmer que le propriétaire accepte un locataire étranger, ce qui ne se fait pas en 48 heures. La mission complète, jusqu'à la remise des clés, se conclut le plus souvent en 7 à 21 jours.",
     },
   ],
   en: [
@@ -216,7 +216,7 @@ const FAQ = {
     },
     {
       q: "How long does the mission take?",
-      a: "Your first shortlist reaches you within 48 hours of payment. The full mission, through to the keys, is most often completed within 7 to 21 days: that part depends on property availability and on the screening of your application, not on how fast the search is.",
+      a: "It depends on the type of housing. For a furnished apartment, a share house or a monthly plan, your first shortlist reaches you within 48 hours of payment. For a standard unfurnished rental on a 2-year lease, expect about a week: Japanese agencies have to be contacted one by one and the landlord's willingness to accept a foreign tenant confirmed, which cannot be done in 48 hours. The full mission, through to the keys, is most often completed within 7 to 21 days.",
     },
   ],
 }
