@@ -258,13 +258,41 @@ def post_to_expatcom_selenium(articles: list) -> list:
     return posted_slugs
 
 
+# GARDE-FOUS AJOUTES LE 09/09/2026.
+# Ce script publie PUBLIQUEMENT sur un forum, au nom d'Alessandro, et n'avait AUCUNE
+# limite: il postait tous les articles non publies a chaque execution. Le 31/08 il en a
+# poste SIX d'un coup, ce qui est exactement le comportement qui fait marquer un compte
+# comme spammeur. Un automate qui agit en public doit etre plus prudent qu'un radar qui
+# observe: une erreur ici coute la reputation, pas de l'attention.
+MAX_PAR_RUN = 2          # jamais plus de 2 messages dans la meme execution
+JOURS_ENTRE_RUNS = 7     # et pas plus d'une fournee par semaine
+
+
 def main():
     state = load_posted_state()
+
+    dernier = state.get("last_run")
+    if dernier:
+        try:
+            d = datetime.strptime(str(dernier)[:10], "%Y-%m-%d").date()
+            ecoules = (datetime.now().date() - d).days
+            if ecoules < JOURS_ENTRE_RUNS:
+                print(f"Dernier post il y a {ecoules}j (< {JOURS_ENTRE_RUNS}j). "
+                      f"On ne poste pas: cadence anti-spam.")
+                return
+        except Exception:
+            pass
+
     articles = get_unposted_articles(state)
 
     if not articles:
         print("Aucun article à poster sur Expat.com.")
         return
+
+    if len(articles) > MAX_PAR_RUN:
+        print(f"{len(articles)} articles en attente -> on n'en poste que {MAX_PAR_RUN} "
+              f"(garde-fou anti-spam). Les autres attendront la semaine prochaine.")
+        articles = articles[:MAX_PAR_RUN]
 
     print(f"Articles à poster: {len(articles)}")
 
