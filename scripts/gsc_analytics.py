@@ -110,8 +110,17 @@ def main():
 
     print(f"  using property: {site_url}")
 
-    queries_r = query_gsc(token, site_url, start, end, ["query"], row_limit=25)
-    pages_r = query_gsc(token, site_url, start, end, ["page"], row_limit=15)
+    # CORRIGE 09/09/2026 -- DEFAUT STRUCTUREL.
+    # row_limit valait 25 (et 15 pour les pages) sans orderBy: l'API GSC renvoie alors
+    # les requetes les plus CLIQUEES. Sur ~800 requetes distinctes, on n'en voyait donc
+    # que 25, choisies par les clics. Consequence: les sections "CTR sous la courbe" et
+    # "striking distance" du rapport hebdo cherchent des requetes a BEAUCOUP
+    # d'impressions et ZERO clic... qui etaient structurellement exclues de leur propre
+    # source. Elles ne trouvaient que ce qui tombait par hasard dans les 25.
+    # Le snapshot de tendances continue de ne garder que les 25 premieres (cf
+    # snapshot_and_trend), donc l'historique reste borne.
+    queries_r = query_gsc(token, site_url, start, end, ["query"], row_limit=1000)
+    pages_r = query_gsc(token, site_url, start, end, ["page"], row_limit=200)
 
     queries = queries_r.json().get("rows", []) if queries_r.status_code == 200 else []
     pages = pages_r.json().get("rows", []) if pages_r.status_code == 200 else []

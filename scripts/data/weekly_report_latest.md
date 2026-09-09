@@ -78,7 +78,11 @@ _⚠️ L'evenement GA4 `generate_lead` se declenche uniquement quand quelqu'un 
 
 ## 🔎 CTR SOUS LA COURBE (page 1 — titre/meta a ameliorer)
   - 796 impr · pos 8.4 · CTR 0.1% (attendu ~4%) · _tokyo gaijin house_
+  - 727 impr · pos 4.7 · CTR 0.0% (attendu ~7%) · _cheap gaijin house in tokyo_
   - 177 impr · pos 9.3 · CTR 0.6% (attendu ~3%) · _jiko bukken_
+  - 133 impr · pos 7.6 · CTR 0.0% (attendu ~4%) · _gaijin houses tokyo_
+  - 107 impr · pos 5.4 · CTR 0.0% (attendu ~7%) · _gaijin house tokyo_
+  - 101 impr · pos 9.6 · CTR 0.0% (attendu ~2%) · _gaijin house_
 
 ## 🤖 GEO / IA (canal prioritaire)
 **📈 106 sessions IA sur 28j** (vs 80 les 28j precedents, +32%)
@@ -105,8 +109,11 @@ _⚠️ Ceci mesure le TRAFIC envoye, pas les liens. Un backlink d'autorite n'en
 ## 🎯 TOP OPPORTUNITES (priorisees)
 **Striking distance (page 1-2, a pousser en top-3) :**
   - 796 impr · pos 8.4 · 1 clics · _tokyo gaijin house_
+  - 304 impr · pos 14.8 · 0 clics · _oak house tokyo_
+  - 239 impr · pos 11.9 · 0 clics · _gaijin houses_
   - 177 impr · pos 9.3 · 1 clics · _jiko bukken_
-  - 48 impr · pos 7.9 · 2 clics · _jiko bukken for sale_
+  - 133 impr · pos 7.6 · 0 clics · _gaijin houses tokyo_
+  - 107 impr · pos 5.4 · 0 clics · _gaijin house tokyo_
 **Content gaps pertinents (logement) :**
   - pet cost cat tokyo
   - finding a pet sitter in japan
