@@ -35,6 +35,10 @@ EXPATCOM_EMAIL = os.environ.get('EXPATCOM_EMAIL', '')
 EXPATCOM_PASSWORD = os.environ.get('EXPATCOM_PASSWORD', '')
 
 STATE_FILE = Path(__file__).parent / 'data' / 'expatcom_replies.json'
+# Sortie fichier des brouillons: Telegram etait leur seule sortie, et la chaine
+# hebdo est passee en silence le 09/09. Un emetteur doit toujours avoir un support
+# qui survit au silence.
+DRAFTS_FILE = Path(__file__).parent / 'data' / 'expatcom_drafts.json'
 FORUM_URL = 'https://www.expat.com/en/forum/asia/japan/tokyo/'
 OUR_NAME = 'Tokyo Expat'
 MAX_REPLIES_PER_RUN = 2
@@ -278,17 +282,35 @@ def main(dry_run: bool = False):
         if dry_run:
             # Mode draft : generer les reponses et envoyer sur Telegram sans poster
             drafts = []
+            fiches = []
             for t in targets:
                 reply = pick_reply(t['title'])
                 drafts.append(f"<b>{t['title'][:60]}</b>\n{t['url']}\n\n<i>{reply[:200]}...</i>")
+                fiches.append({"titre": t['title'], "url": t['url'], "reponse": reply})
             driver.quit()
+
+            # 🔑 CORRIGE 09/09/2026 — ces brouillons n'avaient QUE Telegram pour sortie.
+            # Depuis que la chaine hebdo tourne en silence, ils ne parvenaient donc
+            # nulle part. Meme piege que gsc_opportunity_miner. On ecrit un fichier,
+            # qui survit au silence et reste relisable.
+            DRAFTS_FILE.write_text(json.dumps({
+                "genere_le": datetime.now().strftime("%Y-%m-%d %H:%M"),
+                "brouillons": fiches,
+            }, indent=2, ensure_ascii=False), encoding='utf-8')
+
             msg = (
                 f"<b>EXPAT.COM REPLIER -- DRAFTS A RELIRE</b>\n"
                 f"{len(drafts)} reponse(s) prete(s) -- a poster manuellement :\n\n"
                 + "\n\n---\n\n".join(drafts)
             )
             send_telegram(msg)
-            print(f"[DRY-RUN] {len(drafts)} drafts envoyes sur Telegram. Aucune soumission.")
+            print(f"[DRY-RUN] {len(drafts)} drafts ecrits dans {DRAFTS_FILE.name} "
+                  f"(+ Telegram). Aucune soumission.")
+            # Dire la verite sur le rendement du canal plutot que de la taire.
+            state = load_state()
+            if state.get("total_replies", 0) == 0 and state.get("last_run"):
+                print(f"⚠️  Ce script prepare des reponses depuis le {state['last_run']} "
+                      f"et AUCUNE n'a jamais ete postee (total_replies = 0).")
             return
 
         for t in targets:

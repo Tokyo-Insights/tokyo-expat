@@ -328,6 +328,15 @@ def ga4_funnel():
 
 # ---------- Consolidation du LUNDI: nos positions / snippets / veille / pages mortes ----------
 def keyword_positions():
+    """⚠️ SOURCE = DUCKDUCKGO, PAS GOOGLE (keyword_tracker.py ligne 3).
+
+    Constate le 09/09/2026: le tracker annonce #1 sur 15 mots-cles, alors que GSC
+    place la meme page en position 7,4 (`furnished apartment tokyo no guarantor`)
+    et tout le cluster meuble en position 29. Ce sont deux moteurs differents.
+    DuckDuckGo est alimente par Bing: c'est un proxy BING, utile a ce titre, mais
+    il ne dit RIEN de notre place sur Google, d'ou viennent 100 % des impressions
+    mesurees par GSC. Ne jamais l'afficher sans le nommer.
+    """
     try:
         c = sqlite3.connect(str(DATA / "keyword_rankings.db"))
         last = c.execute("SELECT MAX(date) FROM rankings").fetchone()[0]
@@ -337,6 +346,25 @@ def keyword_positions():
         return rows
     except Exception:
         return []
+
+
+def _norm_kw(s):
+    return "".join(ch for ch in str(s).lower() if ch.isalnum() or ch == " ").strip()
+
+
+def positions_google():
+    """Nos VRAIES positions Google, depuis GSC (476 requetes). L'autorite.
+
+    Retourne {requete normalisee: (position, impressions)}. C'est cette source
+    qui doit trancher quand elle et DuckDuckGo se contredisent.
+    """
+    g = load("gsc_latest.json") or {}
+    out = {}
+    for r in g.get("top_queries", []):
+        q = _norm_kw(r.get("query", ""))
+        if q:
+            out[q] = (r.get("position", 0), r.get("impressions", 0))
+    return out
 
 
 def featured_snippets():
@@ -471,7 +499,8 @@ def render_html(d):
             f'<div class="card wide"><h2>🔀 Conversion par page</h2><div class="split">'
             f'<div><p class="mini">Fort trafic, 0 lead — a booster</p>{conv_boost}</div>'
             f'<div><p class="mini">Convertissent — y amener + de trafic</p>{conv_win}</div></div></div>\n'
-            f'<div class="card"><h2>🏅 Nos positions<span class="tag">{d["n_kw"]} keywords</span></h2>{pos}</div>\n'
+            f'<div class="card"><h2>🏅 Nos positions DuckDuckGo'
+            f'<span class="tag">{d["n_kw"]} keywords · pas Google</span></h2>{pos}</div>\n'
             f'<div class="card"><h2>📉 Content decay<span class="tag">28j vs prec.</span></h2>{decay}</div>\n'
             f'<div class="card"><h2>🧲 Engagement faible</h2>{engl or "<div class=row><span class=kw>OK</span></div>"}</div>\n'
             f'<div class="card"><h2>🤖 GEO / IA<span class="tag">AI Assistant</span></h2>{ai or "<div class=row><span class=kw>Aucun</span></div>"}</div>\n'
@@ -782,17 +811,17 @@ def build():
         L.append("")
 
     # D. VULNERABILITES CONCURRENTS (places a prendre)
-    # CORRIGE 09/09/2026: le radar signalait des concurrents en chute sur des mots-cles
-    # ou NOUS SOMMES DEJA #1 (2 des 6 items du 09/09). Il ne croisait jamais nos propres
-    # positions. On les croise ici: une place deja tenue n'est pas une place a prendre.
+    # CORRIGE 09/09 (1re passe): le radar signalait des concurrents en chute sur des
+    # mots-cles ou nous sommes deja premiers. On croise donc nos propres positions.
+    # CORRIGE 09/09 (6e passe): ce croisement se faisait sur les positions DUCKDUCKGO.
+    # Ecarter une opportunite Google parce qu'on est premier sur DuckDuckGo n'a aucun
+    # sens. GSC tranche desormais; DuckDuckGo ne sert que faute de mieux, et est nomme.
     kp = keyword_positions()
-
-    def _norm(s):
-        return "".join(ch for ch in str(s).lower() if ch.isalnum() or ch == " ").strip()
-
-    nos_positions = {_norm(kw): p for kw, _l, p in kp}
+    pg = positions_google()
+    nos_ddg = {_norm_kw(kw): p for kw, _l, p in kp}
 
     L.append("## 🔥 VULNERABILITES CONCURRENTS (places a prendre)")
+    L.append("_Chutes vues par le tracker DuckDuckGo, croisees avec NOS positions Google (GSC)._")
     if vuln:
         vlist = vuln if isinstance(vuln, list) else vuln.get("items", [])
         a_prendre, deja_tenues = [], []
@@ -801,26 +830,50 @@ def build():
                 continue
             comp = v.get("competitor") or v.get("domain", "?")
             kw = v.get("keyword", "?")
-            ma_pos = nos_positions.get(_norm(kw))
-            (deja_tenues if (ma_pos and ma_pos <= 3) else a_prendre).append((comp, kw, ma_pos))
-        for comp, kw, ma_pos in a_prendre[:6]:
-            ou = f" (nous: #{ma_pos})" if ma_pos else " (position inconnue, a verifier)"
+            n = _norm_kw(kw)
+            if n in pg:                       # verite Google
+                ma_pos, src = pg[n][0], "Google"
+            elif n in nos_ddg:                # faute de mieux
+                ma_pos, src = nos_ddg[n], "DDG"
+            else:
+                ma_pos, src = None, None
+            (deja_tenues if (ma_pos and ma_pos <= 3 and src == "Google")
+             else a_prendre).append((comp, kw, ma_pos, src))
+        for comp, kw, ma_pos, src in a_prendre[:6]:
+            if ma_pos and src == "Google":
+                ou = f" (nous: position {ma_pos:.0f} sur Google)"
+            elif ma_pos:
+                ou = f" (nous: #{ma_pos} sur DuckDuckGo — position Google inconnue)"
+            else:
+                ou = " (aucune impression Google mesuree sur ce mot-cle)"
             L.append(f"  - **{comp}** chute sur _{kw}_{ou}")
         if deja_tenues:
-            L.append(f"_✅ {len(deja_tenues)} vulnerabilite(s) ecartee(s), on y est deja top-3 : "
-                     + ", ".join(f"{kw} (#{p})" for _c, kw, p in deja_tenues) + "._")
+            L.append(f"_✅ {len(deja_tenues)} vulnerabilite(s) ecartee(s), top-3 Google confirme : "
+                     + ", ".join(f"{kw} (pos {p:.0f})" for _c, kw, p, _s in deja_tenues) + "._")
         if not a_prendre:
             L.append("_(aucune place reellement a prendre : tout est deja tenu)_")
     else:
         L.append("_(aucune)_")
     L.append("")
-    # D. NOS POSITIONS (remplace le KEYWORD REPORT du lundi)
-    L.append("## 🏅 NOS POSITIONS (keywords ou on ranke)")
+    # D. NOS POSITIONS — DEUX MOTEURS, JAMAIS MELANGES
+    L.append("## 🏅 NOS POSITIONS")
     if kp:
         top = [r for r in kp if r[2] <= 3][:10]
-        L.append(f"**{len(kp)} keywords rankes** · le top 3 :")
+        L.append(f"**DuckDuckGo (proxy Bing) — {len(kp)} keywords rankes**, le top 3. "
+                 "⚠️ Ce n'est PAS Google : la colonne de droite donne la position Google reelle.")
         for kw, lang, pos in top:
-            L.append(f"  - #{pos} · [{lang}] {kw}")
+            g = pg.get(_norm_kw(kw))
+            if g and g[1] >= 10:
+                ecart = ("  ⚠️ **Google: position %.0f** (%d impr)" % (g[0], g[1])) \
+                    if g[0] - pos >= 3 else "  Google: position %.0f (%d impr)" % (g[0], g[1])
+            elif g:
+                ecart = "  Google: %.0f, mais %d impressions seulement" % (g[0], g[1])
+            else:
+                # Precision: GSC remonte les 476 requetes ayant genere des impressions
+                # sur 28 j. Absent de cette liste = pas de volume mesurable, ce qui
+                # n'est pas tout a fait "zero impression". On le dit comme c'est.
+                ecart = "  _absent des requetes GSC (28 j) : pas de volume mesurable_"
+            L.append(f"  - #{pos} · [{lang}] {kw}{ecart}")
     else:
         L.append("_(indisponible)_")
     L.append("")

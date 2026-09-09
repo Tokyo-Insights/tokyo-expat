@@ -26,27 +26,23 @@ SCRIPT_DIR = Path(__file__).parent
 DATA_DIR = SCRIPT_DIR / "data"
 STATE_FILE = DATA_DIR / "briefing_state.json"
 
-# ── Seasonal calendar (copie locale, plus rapide que reimporter) ──────────────
-
-RELOCATION_PEAKS = [
-    {"month": 2,  "day": 1,  "name": "Annonces mutations pro",     "urgency": "high",
-     "article": "Guide logement Tokyo pour mutation pro (arrivee en 2 semaines)"},
-    {"month": 3,  "day": 15, "name": "Pic demenagements mars",     "urgency": "high",
-     "article": "Checklist demenagement Tokyo J-30 a J+7"},
-    {"month": 4,  "day": 1,  "name": "Debut annee fiscale JP",     "urgency": "medium",
-     "article": "S installer a Tokyo en avril : guide semaine par semaine"},
-    {"month": 7,  "day": 15, "name": "Pre-rentree universitaire",  "urgency": "high",
-     "article": "Logement etudiant Tokyo pour octobre : share house vs dortoir"},
-    {"month": 9,  "day": 1,  "name": "Rentree universitaire",      "urgency": "medium",
-     "article": "Trouver un appartement Tokyo en septembre"},
-    {"month": 10, "day": 1,  "name": "Pic Q4 expats",              "urgency": "medium",
-     "article": "Appartement meuble Tokyo pour expatries arrives rapidement"},
-    {"month": 12, "day": 15, "name": "Planification Noel/Nouvel An","urgency": "high",
-     "article": "Guide complet s expatrier a Tokyo : tout ce qu il faut savoir"},
-]
+# ── Seasonal calendar ─────────────────────────────────────────────────────────
+# 🚨 CORRIGE 09/09/2026 — il y avait ici une COPIE LOCALE du calendrier, justifiee
+# par "plus rapide que reimporter". Consequence: le correctif applique la veille a
+# seasonal_calendar.py (respecter le filtre deja-publie) n'a jamais atteint le
+# briefing, qui a continue d'annoncer en 🔴 "ARTICLE URGENT OVERDUE, deadline
+# depassee de 27j : Appartement meuble Tokyo pour expatries arrives rapidement"
+# alors que l'article existe depuis des mois (slug appartement-meuble-tokyo-expats).
+# Une donnee dupliquee finit toujours par diverger: on importe la source unique.
+from seasonal_calendar import RELOCATION_PEAKS  # noqa: E402
+from blog_helpers import article_already_published, existing_slugs  # noqa: E402
 
 PUBLISH_WINDOW_WEEKS = 7
 ALERT_THRESHOLD_DAYS = 70
+
+# Le titre annoncait "LUNDI" quel que soit le jour reel. La chaine hebdo tourne le
+# MERCREDI depuis le 09/09, et le mode --thursday le jeudi.
+_JOURS_FR = ["LUNDI", "MARDI", "MERCREDI", "JEUDI", "VENDREDI", "SAMEDI", "DIMANCHE"]
 
 
 def load_json(path: Path, default=None):
@@ -79,11 +75,18 @@ def next_occurrence(month: int, day: int, today: datetime.date) -> datetime.date
 
 
 def get_seasonal_urgencies(today: datetime.date, dismissed_seasonal: list | None = None) -> list[dict]:
-    """Retourne les alertes saisonnieres actives (deadline dans < 70 jours)."""
+    """Alertes saisonnieres actives (deadline < 70 j) ET dont l'article n'existe PAS.
+
+    Le filtre deja-publie est le meme que celui de seasonal_calendar (blog_helpers):
+    un sujet couvert n'est pas une urgence, c'est du bruit qui s'affiche en rouge.
+    """
     dismissed = set(dismissed_seasonal or [])
+    slugs = existing_slugs()
     urgent = []
     for peak in RELOCATION_PEAKS:
         if peak["name"] in dismissed:
+            continue
+        if article_already_published(peak.get("keywords", []), peak.get("article", ""), slugs):
             continue
         peak_date = next_occurrence(peak["month"], peak["day"], today)
         publish_deadline = peak_date - datetime.timedelta(weeks=PUBLISH_WINDOW_WEEKS)
@@ -185,8 +188,15 @@ def get_vulnerability_alerts(vuln_data, state: dict) -> list[dict]:
 
 
 def get_broken_link_summary(broken_cache: dict) -> int:
-    """Nombre total de pages 404 trouvees et reportees."""
-    return len(broken_cache.get("reported", []))
+    """🚫 NEUTRALISE le 09/09/2026 — canal ferme, mais le briefing le ressuscitait.
+
+    `broken_link_finder` a ete coupe de la chaine hebdo (ROI nul acte le 30/06: les
+    91 "pages mortes" sont des pages produit profondes sans aucun backlink). Le
+    briefing continuait pourtant a l'afficher en 🔴 PRIORITE n2 chaque semaine, en
+    lisant un cache de 416 Ko fige. Couper un radar du planificateur ne suffit pas:
+    il faut couper ses REDIFFUSEURS. Retourne 0 pour ne plus rien afficher.
+    """
+    return 0
 
 
 def get_competitor_radar(state: dict) -> list[dict]:
@@ -209,17 +219,14 @@ def get_competitor_radar(state: dict) -> list[dict]:
 
 
 def get_influencer_opps(state: dict) -> list[dict]:
-    """Top influenceurs non encore pitches (score >= 40)."""
-    inf_data = load_json(DATA_DIR / "influencer_targets.json", {"targets": [], "pitched": []})
-    pitched = set(inf_data.get("pitched", []))
-    actioned = set(state.get("actioned_influencers", []))
-    targets = [
-        t for t in inf_data.get("targets", [])
-        if t.get("url", "") not in pitched
-        and t.get("url", "") not in actioned
-        and t.get("score", 0) >= 40
-    ]
-    return sorted(targets, key=lambda x: -x.get("score", 0))[:2]
+    """🚫 NEUTRALISE le 09/09/2026 — meme raison que les broken links.
+
+    `influencer_finder` a ete coupe: 198 cibles trouvees, ZERO pitchee, et le canal
+    est contraire a la doctrine (Alessandro ne veut pas d'un marketing d'influence
+    ni d'exposition personnelle). Le briefing proposait quand meme deux YouTubeurs
+    a demarcher chaque semaine, en tete de liste. Retourne une liste vide.
+    """
+    return []
 
 
 def get_buffer_queue_status() -> dict:
@@ -275,7 +282,7 @@ def send_telegram(msg: str) -> None:
 def main():
     today = datetime.date.today()
     print(f"\n{'='*60}")
-    print(f"MONDAY BRIEFING -- {today}")
+    print(f"BRIEFING {_JOURS_FR[today.weekday()]} -- {today}")
     print(f"{'='*60}\n")
 
     state = load_json(STATE_FILE, {"dismissed_gaps": [], "actioned_vulns": [], "last_run": ""})
@@ -299,8 +306,11 @@ def main():
 
     # Construire le message Telegram
     action_num = 1
+    # Le titre disait "LUNDI BRIEFING" quel que soit le jour: la chaine hebdo est
+    # passee au MERCREDI le 09/09, et le mode --thursday tourne le jeudi. Un titre
+    # qui annonce le mauvais jour fait douter de la fraicheur de tout le reste.
     lines = [
-        f"<b>LUNDI BRIEFING</b> — {today.strftime('%d %b %Y')}",
+        f"<b>BRIEFING {_JOURS_FR[today.weekday()]}</b> — {today.strftime('%d %b %Y')}",
         f"Tes priorites de la semaine :\n",
     ]
 
@@ -356,11 +366,15 @@ def main():
         action_num += 1
 
     # 4. Vulnerabilites concurrentes
+    # La source est keyword_rankings.db, alimente par DUCKDUCKGO et non par Google
+    # (cf keyword_tracker.py). "Publier maintenant" sur la foi d'un mouvement
+    # DuckDuckGo, c'est engager une journee d'ecriture sur le mauvais moteur.
     for v in vulns:
         lines.append(
             f"⚡ <b>{action_num}. VULN CONCURRENT</b> — {v['competitor']}\n"
             f"   Drop #{v['from_pos']} -> #{v['to_pos']} sur <i>{v['keyword']}</i>\n"
-            f"   Action : publier/booster notre article sur ce keyword maintenant."
+            f"   <i>(mesure DuckDuckGo, pas Google)</i>\n"
+            f"   Action : verifier ce mot-cle dans GSC avant d'ecrire quoi que ce soit."
         )
         action_num += 1
 

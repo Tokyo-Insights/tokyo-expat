@@ -1,41 +1,13 @@
 {
-  "hash_Remoters Tokyo": "2bbc864e738385f5c230899916218e4f",
+  "hash_Remoters Tokyo": "4af01a1c141f8b3c35ba43cf1422ebf6",
   "prices_Remoters Tokyo": [
-    "85%",
-    "15%",
-    "20%",
-    "95%",
-    "20%",
-    "95%",
-    "000 J",
-    "000 J",
-    "000 J",
-    "000 J",
-    "1 %",
-    "8 %",
-    "7 %",
-    "400 J",
-    "000 J",
-    "000 J",
-    "000 J",
-    "000 J",
-    "000 J",
-    "000 J",
-    "000 J",
-    "000 J",
-    "000 J",
-    "000 J",
-    "100%",
-    "1 P"
+    "000JPY",
+    "400JPY"
   ],
-  "last_check_Remoters Tokyo": "2026-09-09T11:46:58.533696",
-  "hash_Remoters Homepage": "17b2f54418322c3729968d45957ffccc",
-  "prices_Remoters Homepage": [
-    "2 P",
-    "€,",
-    "100 %"
-  ],
-  "last_check_Remoters Homepage": "2026-09-09T11:46:58.750500",
+  "last_check_Remoters Tokyo": "2026-09-09T15:49:41.891152",
+  "hash_Remoters Homepage": "d41d8cd98f00b204e9800998ecf8427e",
+  "prices_Remoters Homepage": [],
+  "last_check_Remoters Homepage": "2026-09-09T15:49:42.062092",
   "hash_Sakura House About": "7eea96b653925dbdf787515964170c9a",
   "prices_Sakura House About": [
     ", J",
@@ -58,31 +30,24 @@
     "165,000円"
   ],
   "last_check_Oak House Rent Prices": "2026-06-22T07:26:44.250119",
-  "hash_Oak House About": "8c364f05fd8fed5cf69e829bc57dfdb2",
+  "hash_Oak House About": "d41d8cd98f00b204e9800998ecf8427e",
   "prices_Oak House About": [],
-  "last_check_Oak House About": "2026-09-09T11:47:03.536252",
-  "hash_Sakura House Pricing EN": "7eea96b653925dbdf787515964170c9a",
-  "prices_Sakura House Pricing EN": [
-    ", J",
-    "00 P"
-  ],
-  "last_check_Sakura House Pricing EN": "2026-09-09T11:47:00.605084",
-  "hash_Oak House Rent Guide": "9d699c7f8c976cbd12d8345c1844ebeb",
+  "last_check_Oak House About": "2026-09-09T15:49:44.464635",
+  "hash_Sakura House Pricing EN": "d41d8cd98f00b204e9800998ecf8427e",
+  "prices_Sakura House Pricing EN": [],
+  "last_check_Sakura House Pricing EN": "2026-09-09T15:49:42.747457",
+  "hash_Oak House Rent Guide": "d262db57fe816e782f78090ad34ba462",
   "prices_Oak House Rent Guide": [
+    "15,000円",
+    "165,000円",
+    "30,000円",
+    "325,000円",
+    "40,000円",
     "5,000円",
     "80,000円",
-    "80,000円",
-    "80,000円",
-    "85,000円",
-    "325,000円",
-    "80,000円",
-    "15,000円",
-    "30,000円",
-    "40,000円",
-    "165,000円",
-    "165,000円"
+    "85,000円"
   ],
-  "last_check_Oak House Rent Guide": "2026-09-09T11:47:02.756130",
+  "last_check_Oak House Rent Guide": "2026-09-09T15:49:43.877724",
   "hash_Gaijin House Pricing": "ea6e1876900293993314358b20209454",
   "prices_Gaijin House Pricing": [
     "$4,395",
@@ -101,27 +66,27 @@
     "$1,595"
   ],
   "last_check_Gaijin House Pricing": "2026-09-07T07:08:44.361616",
-  "hash_Crown Relo Tokyo": "0a32d27a26e123977d717338e2174ec4",
+  "hash_Crown Relo Tokyo": "d41d8cd98f00b204e9800998ecf8427e",
   "prices_Crown Relo Tokyo": [],
-  "last_check_Crown Relo Tokyo": "2026-09-09T11:47:45.357917",
-  "hash_Savvy Tokyo Advertise": "dc451507bc2800a748bb0798ac617e28",
+  "last_check_Crown Relo Tokyo": "2026-09-09T15:49:44.928952",
+  "hash_Savvy Tokyo Advertise": "d41d8cd98f00b204e9800998ecf8427e",
   "prices_Savvy Tokyo Advertise": [],
-  "last_check_Savvy Tokyo Advertise": "2026-09-09T11:48:02.757370",
-  "hash_GaijinPot Advertise": "3783358ab9c006fd7bfeeafb28fcf8bd",
-  "prices_GaijinPot Advertise": [
-    "0%",
-    "0%",
-    "0%",
-    "0%",
-    "0%",
-    "0%"
-  ],
-  "last_check_GaijinPot Advertise": "2026-09-09T11:48:03.097312",
-  "hash_Tokyo Expat Services": "50bddcab78e2718695918dbb878d6e83",
+  "last_check_Savvy Tokyo Advertise": "2026-09-09T15:49:46.542176",
+  "hash_GaijinPot Advertise": "d41d8cd98f00b204e9800998ecf8427e",
+  "prices_GaijinPot Advertise": [],
+  "last_check_GaijinPot Advertise": "2026-09-09T15:49:46.758366",
+  "hash_Tokyo Expat Services": "7b4a5a8a2ea67ff94fa4cc22f7e694be",
   "prices_Tokyo Expat Services": [
-    "3 P",
-    "000 J",
-    "000 J"
+    "000JPY"
   ],
-  "last_check_Tokyo Expat Services": "2026-09-09T11:48:03.804783"
+  "last_check_Tokyo Expat Services": "2026-09-09T15:49:48.015762",
+  "hash_Tokyo Cheapo Rent": "e68a018e1a9cd580ec6f7847f905271b",
+  "prices_Tokyo Cheapo Rent": [
+    "5,000YEN"
+  ],
+  "last_check_Tokyo Cheapo Rent": "2026-09-09T15:49:45.152257",
+  "_injoignables": [
+    "Sakura House Homepage"
+  ],
+  "_couverture": "10/11"
 }

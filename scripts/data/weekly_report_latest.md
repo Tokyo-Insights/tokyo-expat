@@ -21,15 +21,15 @@ _Trier soi-meme: un partenaire qui propose une collaboration et un spam commerci
 
 ## 📧 CAPTURES D'EMAIL (lead magnet + newsletter, 90j)
 _⚠️ L'evenement GA4 `generate_lead` se declenche uniquement quand quelqu'un donne son adresse contre un PDF gratuit ou la newsletter. Ce n'est PAS une demande commerciale, et ces personnes n'ont rien demande. Ne pas les appeler des leads._
-**Par canal :** Organic Search 7 · AI Assistant 1 · Direct 1 · Organic Social 1 · Unassigned 1
+**Par canal :** Organic Search 7 · AI Assistant 2 · Direct 1 · Organic Social 1
 **Par pays :** United States 4 · France 3 · Australia 1 · Kenya 1 · Philippines 1 · United Kingdom 1
 **Pages qui captent le plus d'adresses :**
   - 2 | /en/blog/gaijin-house-tokyo-guide
-  - 1 | 
   - 1 | /en
   - 1 | /en/blog/japan-digital-nomad-visa-2026
   - 1 | /en/blog/japan-income-tax-foreigners-guide
   - 1 | /en/blog/japan-sim-card-foreigners-2026
+  - 1 | /en/blog/living-sangenjaya-housing-guide
   - 1 | /en/blog/send-money-to-japan-from-abroad
   - 1 | /fr/blog/appartement-meuble-tokyo-expats
 
@@ -38,14 +38,14 @@ _⚠️ L'evenement GA4 `generate_lead` se declenche uniquement quand quelqu'un 
   - 266 sessions · 0 lead | /en/data
   - 86 sessions · 0 lead | /fr
   - 70 sessions · 0 lead | /en/blog/tokyo-rent-report-2026
-  - 64 sessions · 0 lead | (not set)
-  - 64 sessions · 0 lead | /en/blog/tokyo-expat-cost-of-living-2026
+  - 66 sessions · 0 lead | (not set)
+  - 65 sessions · 0 lead | /en/blog/tokyo-expat-cost-of-living-2026
   - 63 sessions · 0 lead | /en/blog/jiko-bukken-cheap-apartments-tokyo
   - 60 sessions · 0 lead | /en/blog/tokyo-rent-by-neighborhood-2026
 **Convertissent (y amener plus de trafic) :**
   - 2 lead / 56 sess (3.6%) | /en/blog/gaijin-house-tokyo-guide
-  - 1 lead / 146 sess (0.7%) | /en
-  - 1 lead / 117 sess (0.9%) | /en/blog/japan-sim-card-foreigners-2026
+  - 1 lead / 148 sess (0.7%) | /en
+  - 1 lead / 118 sess (0.8%) | /en/blog/japan-sim-card-foreigners-2026
   - 1 lead / 66 sess (1.5%) | /en/blog/japan-income-tax-foreigners-guide
   - 1 lead / 52 sess (1.9%) | /en/blog/send-money-to-japan-from-abroad
 
@@ -64,12 +64,12 @@ _⚠️ L'evenement GA4 `generate_lead` se declenche uniquement quand quelqu'un 
 
 ## 🧲 ENGAGEMENT PAR PAGE
 **Fort trafic, FAIBLE engagement (contenu a ameliorer) :**
-  - 81 sess · engagement 26% · 39s | /en/data
-  - 69 sess · engagement 42% · 90s | /en/blog/japan-sim-card-foreigners-2026
-  - 69 sess · engagement 38% · 93s | /en
-  - 47 sess · engagement 6% · 45s | /en/blog/tokyo-expat-cost-of-living-2026
+  - 81 sess · engagement 27% · 43s | /en/data
+  - 71 sess · engagement 38% · 91s | /en
+  - 70 sess · engagement 44% · 91s | /en/blog/japan-sim-card-foreigners-2026
+  - 48 sess · engagement 6% · 44s | /en/blog/tokyo-expat-cost-of-living-2026
   - 42 sess · engagement 12% · 39s | /en/blog/tokyo-rent-report-2026
-  - 39 sess · engagement 38% · 110s | /en/blog/share-house-tokyo-guide-2026
+  - 40 sess · engagement 38% · 107s | /en/blog/share-house-tokyo-guide-2026
 
 ## 🔻 ENTONNOIR DE NAVIGATION (90j) — que des clics, pas des ventes
   - Clic dans un champ **20** → Email donne **11** (55%) → Clic vers /contact **4** (36%) → Clic sur Calendly **3** (75%)
@@ -85,12 +85,12 @@ _⚠️ L'evenement GA4 `generate_lead` se declenche uniquement quand quelqu'un 
   - 101 impr · pos 9.6 · CTR 0.0% (attendu ~2%) · _gaijin house_
 
 ## 🤖 GEO / IA (canal prioritaire)
-**📈 106 sessions IA sur 28j** (vs 80 les 28j precedents, +32%)
+**📈 109 sessions IA sur 28j** (vs 80 les 28j precedents, +36%)
 **Pages qui captent l'IA (90j) :**
   - 49 sess IA | /en/data
   - 20 sess IA | /en/blog/tokyo-rent-by-neighborhood-2026
   - 17 sess IA | /en/blog/tokyo-rent-report-2026
-  - 11 sess IA | /en/blog/share-house-tokyo-guide-2026
+  - 12 sess IA | /en/blog/share-house-tokyo-guide-2026
   - 10 sess IA | /en/blog/japanese-language-schools-tokyo-guide
   - 9 sess IA | (not set)
 _⚠️ Bing a un onglet 'AI Performance' plus precis, mais il n'est PAS expose par son API (404 verifie le 09/09) : ce chiffre-ci vient du regroupement GA4._
@@ -131,22 +131,26 @@ _Requetes regroupees par theme, position ponderee par les impressions. 🎯 = pa
   🎯 **364 impr** · pos 19.5 · 2 variantes · OPTIMISER — _social apartments japan_
 
 ## 🔥 VULNERABILITES CONCURRENTS (places a prendre)
-  - **gaijinpot.com** chute sur _tokyo apartment hunting abroad_ (position inconnue, a verifier)
-  - **sakura-house.com** chute sur _share house tokyo guide_ (position inconnue, a verifier)
-_✅ 9 vulnerabilite(s) ecartee(s), on y est deja top-3 : logement tokyo expatrie (#1), share house tokyo guide 2026 (#1), furnished apartment tokyo no guarantor (#1), rent tokyo expat 2026 (#1), find apartment tokyo foreigner (#1), property hunter tokyo (#1), furnished apartment tokyo no guarantor (#1), trouver appartement tokyo etranger (#1), trouver appartement tokyo etranger (#1)._
+_Chutes vues par le tracker DuckDuckGo, croisees avec NOS positions Google (GSC)._
+  - **remoters.io** chute sur _logement tokyo expatrie_ (nous: #1 sur DuckDuckGo — position Google inconnue)
+  - **sakura-house.com** chute sur _share house tokyo guide 2026_ (nous: #1 sur DuckDuckGo — position Google inconnue)
+  - **sakura-house.com** chute sur _furnished apartment tokyo no guarantor_ (nous: #1 sur DuckDuckGo — position Google inconnue)
+  - **sakura-house.com** chute sur _rent tokyo expat 2026_ (nous: #1 sur DuckDuckGo — position Google inconnue)
+  - **gaijinpot.com** chute sur _find apartment tokyo foreigner_ (nous: #1 sur DuckDuckGo — position Google inconnue)
+  - **gaijinpot.com** chute sur _property hunter tokyo_ (nous: #1 sur DuckDuckGo — position Google inconnue)
 
-## 🏅 NOS POSITIONS (keywords ou on ranke)
-**27 keywords rankes** · le top 3 :
-  - #1 · [fr] trouver appartement tokyo etranger
-  - #1 · [fr] chasseur immobilier tokyo
-  - #1 · [fr] appartement meuble tokyo expatrie
-  - #1 · [fr] logement tokyo expatrie
-  - #1 · [fr] cout vie tokyo 2026
-  - #1 · [fr] garantie loyer japon etranger
-  - #1 · [fr] logement etudiant tokyo
-  - #1 · [fr] visa travail japon francophone
-  - #1 · [fr] ouvrir compte bancaire japon etranger
-  - #1 · [fr] bail tokyo checklist
+## 🏅 NOS POSITIONS
+**DuckDuckGo (proxy Bing) — 27 keywords rankes**, le top 3. ⚠️ Ce n'est PAS Google : la colonne de droite donne la position Google reelle.
+  - #1 · [fr] trouver appartement tokyo etranger  _absent des requetes GSC (28 j) : pas de volume mesurable_
+  - #1 · [fr] chasseur immobilier tokyo  _absent des requetes GSC (28 j) : pas de volume mesurable_
+  - #1 · [fr] appartement meuble tokyo expatrie  _absent des requetes GSC (28 j) : pas de volume mesurable_
+  - #1 · [fr] logement tokyo expatrie  _absent des requetes GSC (28 j) : pas de volume mesurable_
+  - #1 · [fr] cout vie tokyo 2026  _absent des requetes GSC (28 j) : pas de volume mesurable_
+  - #1 · [fr] garantie loyer japon etranger  _absent des requetes GSC (28 j) : pas de volume mesurable_
+  - #1 · [fr] logement etudiant tokyo  _absent des requetes GSC (28 j) : pas de volume mesurable_
+  - #1 · [fr] visa travail japon francophone  _absent des requetes GSC (28 j) : pas de volume mesurable_
+  - #1 · [fr] ouvrir compte bancaire japon etranger  _absent des requetes GSC (28 j) : pas de volume mesurable_
+  - #1 · [fr] bail tokyo checklist  _absent des requetes GSC (28 j) : pas de volume mesurable_
 
 ## 🅱️ BING (l'index que ChatGPT interroge)
 _Donnees a jour (2 j de decalage, fin 2026-09-07)._

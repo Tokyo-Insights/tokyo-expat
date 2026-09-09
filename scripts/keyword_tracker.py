@@ -3,6 +3,14 @@ keyword_tracker.py — Tokyo Expat SERP Intelligence
 Track positions de 30 keywords (FR+EN) via DuckDuckGo.
 Stocke l'historique en SQLite. Envoie rapport Telegram hebdo.
 
+⚠️ CE SCRIPT NE MESURE PAS GOOGLE (constate le 09/09/2026).
+DuckDuckGo est alimente par Bing. Le tracker donnait tokyo-expat.com #1 sur 15
+mots-cles le 09/09, alors que GSC place la meme page en position 7,4 sur
+"furnished apartment tokyo no guarantor" et tout le cluster meuble en position 29.
+Les deux mesures sont justes: elles portent sur des moteurs differents.
+Utile comme proxy Bing (Bing = ~2x nos clics Google). Jamais comme position Google.
+La verite Google est dans GSC: scripts/data/gsc_latest.json (476 requetes).
+
 Deps: pip install duckduckgo-search
 Run: python scripts/keyword_tracker.py [--report]
 """
@@ -211,7 +219,9 @@ def generate_report(conn):
     today = datetime.date.today().isoformat()
     week_ago = (datetime.date.today() - datetime.timedelta(days=7)).isoformat()
 
-    lines = [f"📊 <b>KEYWORD REPORT</b> — {today}\n"]
+    lines = [f"📊 <b>KEYWORD REPORT — DUCKDUCKGO</b> — {today}",
+             "<i>⚠️ Source = DuckDuckGo (proxy Bing), PAS Google. "
+             "Pour nos vraies positions Google, voir GSC dans le rapport hebdo.</i>\n"]
 
     # Nos positions actuelles
     our_current = dict(conn.execute(
@@ -227,7 +237,7 @@ def generate_report(conn):
     # Top rankings
     if our_current:
         ranked = sorted(our_current.items(), key=lambda x: x[1])
-        lines.append(f"<b>Nos positions ({len(ranked)} keywords rankés):</b>")
+        lines.append(f"<b>Nos positions DuckDuckGo ({len(ranked)} keywords rankés):</b>")
         for kw, pos in ranked[:10]:
             prev = our_prev.get(kw, 0)
             trend = ""
