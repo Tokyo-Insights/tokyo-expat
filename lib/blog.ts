@@ -10061,7 +10061,20 @@ To discover the food scene of these upscale residential neighbourhoods, [Arigato
   {
     slug: 'gaijin-house-tokyo-guide',
     locale: 'en',
-    title: 'Gaijin House Tokyo: Complete Guide for Foreigners (2026)',
+    // TEST DE TITRE — 09/09/2026. Exception assumee a la regle "ne jamais reecrire un
+    // title qui ranke", et voici pourquoi elle ne s'applique pas ici.
+    // Mesure GSC sur 90 j pour "cheap gaijin house in tokyo" et son cluster:
+    //   2 174 impressions, 5 pays (UK 260, CAN 224, AUS 219, IDN 198, IND 100),
+    //   desktop 1 134 / mobile 1 040, et **ZERO clic**, partout, sur tous appareils.
+    //   Position: 16,3 il y a 3 mois -> 9,0 -> **4,6** sur les 30 derniers jours.
+    // Google fait donc MONTER la page et personne ne clique. La regle protege un
+    // classement qui a de la valeur; un classement a 0 clic sur 3 mois n'en a aucune.
+    // Diagnostic: decalage d'INTENTION. Qui cherche "cheap" veut un prix et une
+    // chambre, pas un "Complete Guide". Le prix vient de l'article lui-meme
+    // ("40,000 to 80,000 JPY per month"), rien n'est invente.
+    // La description n'est PAS touchee: une seule variable, sinon la mesure est illisible.
+    // A RELIRE VERS LE 30/09 (2-3 semaines, volume suffisant pour conclure).
+    title: 'Gaijin House Tokyo: Prices from ¥40,000, No Guarantor (2026)',
     description: 'Gaijin houses let foreigners rent in Tokyo with no guarantor or key money, from ~40,000 JPY/month. See real 2026 prices, pros and cons, and how to book fast.',
     date: '2026-06-28',
     readingTime: '6 min',
