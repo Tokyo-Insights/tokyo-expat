@@ -171,11 +171,12 @@
     "priority": "medium",
     "pitch": "Lien guide logement complementaire dans leur blog",
     "notes": "Portail listing immobilier EN, section blog peu fournie",
-    "status": "to_contact",
+    "status": "skip",
     "last_contact": null,
     "response": null,
     "link_obtained": false,
-    "added": "2026-06-21"
+    "added": "2026-06-21",
+    "note_audit": "[09/09] ecarte: GaijinPot = CONCURRENT logement"
   },
   {
     "domain": "cotoacademy.com",
@@ -187,13 +188,14 @@
     "priority": "high",
     "pitch": "Partenariat logement: leurs etudiants cherchent appartement, on peut les aider",
     "notes": "Ecole japonais connue Tokyo, etudiants etrangers nombreux",
-    "status": "declined",
+    "status": "linked",
     "last_contact": "2026-07-01",
     "response": "pas de reponse apres relance",
-    "link_obtained": false,
+    "link_obtained": true,
     "added": "2026-06-21",
     "emailed_date": "2026-07-01",
-    "followup_prepared": "2026-06-30"
+    "followup_prepared": "2026-06-30",
+    "note_audit": "[09/09] LIEN OBTENU: meme groupe que studyinjapan.org"
   },
   {
     "domain": "isij.com",
@@ -205,11 +207,12 @@
     "priority": "high",
     "pitch": "Lien dans section 'Life in Japan' ou 'Accommodation' pour etudiants",
     "notes": "ISI a plusieurs ecoles JP, section housing souvent vide",
-    "status": "to_contact",
+    "status": "skip",
     "last_contact": null,
     "response": null,
     "link_obtained": false,
-    "added": "2026-06-21"
+    "added": "2026-06-21",
+    "note_audit": "[09/09] ecarte: formulaire seul, verifie le 09/09"
   },
   {
     "domain": "berlitz.co.jp",
@@ -760,12 +763,13 @@
     "notes": "Double action: (1) soumettre le site dans le Business Directory Japan, (2) poster article dans Forum Japan > Housing. URL: expat.com/en/guide/asia/japan/",
     "manual_required": true,
     "form_url": "https://www.expat.com/en/expat-tools/business-directory/",
-    "status": "to_contact",
+    "status": "linked",
     "emailed_date": null,
     "last_contact": null,
     "response": null,
-    "link_obtained": false,
-    "added": "2026-06-25"
+    "link_obtained": true,
+    "added": "2026-06-25",
+    "note_audit": "[09/09] LIEN OBTENU: annuaire soumis, 2 liens vus par Bing"
   },
   {
     "domain": "justlanded.com",
@@ -779,12 +783,13 @@
     "notes": "Section Japan Housing: justlanded.com/english/Japan/Japan-Guide/Housing. Soumettre comme ressource.",
     "manual_required": false,
     "form_url": "",
-    "status": "to_contact",
+    "status": "dropped",
     "emailed_date": null,
     "last_contact": null,
     "response": null,
     "link_obtained": false,
-    "added": "2026-06-25"
+    "added": "2026-06-25",
+    "note_audit": "[09/09] ecarte: domaine MORT (ERR_CONNECTION_RESET)"
   },
   {
     "domain": "expatnetwork.com",
@@ -817,13 +822,14 @@
     "notes": "Section Japan: expatarrivals.com/japan. Acceptent contributions editoriales. Audience parfaitement alignee. | VERIFIE 2026-07-01: page write-for LIVE (>=1000 mots, lien+societe en fin OK, photo sujet). Email non expose (403) -> cible ARTICLE, pas email. Article en cours de redaction. ARTICLE REDIGE: outreach/GuestPost-3-ExpatArrivals-Renting-Tokyo-Ward-Guide.md | INTRO ENVOYEE via formulaire 2026-07-02. En attente reponse pour envoyer texte complet + photo Tokyo.",
     "manual_required": false,
     "form_url": "",
-    "status": "pitched",
+    "status": "linked",
     "emailed_date": null,
     "last_contact": "2026-07-02",
     "response": null,
-    "link_obtained": false,
+    "link_obtained": true,
     "added": "2026-06-25",
-    "email_verified": false
+    "email_verified": false,
+    "note_audit": "[09/09] LIEN OBTENU: article contribue, contributor note -> /en/data"
   },
   {
     "domain": "numbeo.com",
@@ -915,12 +921,13 @@
     "notes": "Journal FR au Japon. DA plus faible mais audience hyper-ciblee = francophones au Japon. Un lien ici vaut 10x son DA en trafic qualifie.",
     "manual_required": false,
     "form_url": "",
-    "status": "to_contact",
+    "status": "declined",
     "emailed_date": null,
     "last_contact": null,
     "response": null,
     "link_obtained": false,
-    "added": "2026-06-25"
+    "added": "2026-06-25",
+    "note_audit": "[09/09] ecarte: media FR = mur payant, confirme sur pieces"
   },
   {
     "domain": "wikivoyage.org",
@@ -968,10 +975,11 @@
     "priority": "high",
     "pitch": "Remplacer lien mort vers https://www.sakura-house.com/thai/search/ par https://www.tokyo-expat.com/en/blog/find-apartment-tokyo-foreigner",
     "notes": "404 detectee par broken_link_finder.py. Verification backlinks: https://ahrefs.com/backlink-checker/?input=https%3A//www.sakura-house.com/thai/search/&mode=exact",
-    "status": "to_contact",
+    "status": "skip",
     "dead_url": "https://www.sakura-house.com/thai/search/",
     "our_replacement": "https://www.tokyo-expat.com/en/blog/find-apartment-tokyo-foreigner",
-    "added": "2026-06-29"
+    "added": "2026-06-29",
+    "note_audit": "[09/09] ecarte: CONCURRENT logement, ne jamais pitcher"
   },
   {
     "domain": "kanpai.fr",
@@ -1041,12 +1049,13 @@
     "notes": "VERIFIED live 2026-07-01. FORM at /contact/. Author bio+links allowed. ICP2 (teachers). Manual submission. | ARTICLE REDIGE 2026-07-01: tokyo-expat/outreach/GuestPost-2-ESLExpat-Rent-Without-Guarantor.md (angle profs, PHOTO-FREE). A relire + soumettre formulaire. | MOT D INTRO ENVOYE via formulaire 2026-07-01. En attente reponse pour envoyer le texte complet (deja redige).",
     "manual_required": true,
     "form_url": "https://eslexpat.com/contact/",
-    "status": "pitched",
+    "status": "linked",
     "emailed_date": "",
     "last_contact": "2026-07-01",
     "response": "",
-    "link_obtained": false,
-    "added": "2026-07-01"
+    "link_obtained": true,
+    "added": "2026-07-01",
+    "note_audit": "[09/09] LIEN OBTENU: annuaire soumis, 2 liens vus par Bing"
   },
   {
     "domain": "metropolisjapan.com",
@@ -1200,10 +1209,11 @@
     "priority": "high",
     "pitch": "Remplacer lien mort vers https://www.oakhouse.jp/interview_houjin/4 par https://www.tokyo-expat.com/en/blog/find-apartment-tokyo-foreigner",
     "notes": "404 detectee par broken_link_finder.py. Verification backlinks: https://ahrefs.com/backlink-checker/?input=https%3A//www.oakhouse.jp/interview_houjin/4&mode=exact",
-    "status": "to_contact",
+    "status": "skip",
     "dead_url": "https://www.oakhouse.jp/interview_houjin/4",
     "our_replacement": "https://www.tokyo-expat.com/en/blog/find-apartment-tokyo-foreigner",
-    "added": "2026-07-20"
+    "added": "2026-07-20",
+    "note_audit": "[09/09] ecarte: CONCURRENT logement, ne jamais pitcher"
   },
   {
     "domain": "afj-japon.org",

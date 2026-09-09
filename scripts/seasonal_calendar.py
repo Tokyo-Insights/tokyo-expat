@@ -214,7 +214,13 @@ def main():
 
         if s["is_window_open"] or s["is_urgent"]:
             alerts.append(s)
-            urgent_articles.append(s["article"])
+            # CORRIGE 09/09/2026: la liste "ARTICLES URGENTS" ne respectait PAS le
+            # filtre deja-publie, alors que le bloc Telegram, lui, le respecte. Le
+            # script affichait donc "[SKIP] article deja publie" puis, deux lignes
+            # plus bas, le meme titre sous "ARTICLES URGENTS A ECRIRE". Contradiction
+            # visible dans le log quotidien.
+            if not bh_published(s.get("keywords", []), s.get("article", "")):
+                urgent_articles.append(s["article"])
 
     # Telegram: prochains pics
     upcoming = [s for s in schedule if not s["is_overdue"]][:4]

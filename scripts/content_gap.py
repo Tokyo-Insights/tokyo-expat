@@ -149,11 +149,31 @@ def is_relevant_url(url: str) -> bool:
     if any(kw in slug for kw in OFFNICHE_KEYWORDS):
         return False
 
-    # Le slug doit contenir au moins un mot de notre niche
-    niche_words = ["japan", "tokyo", "apartment", "housing", "expat", "living",
-                   "visa", "moving", "rent", "share", "cost", "guide",
-                   "foreigner", "work", "student", "bank", "insurance"]
-    return any(w in slug for w in niche_words)
+    # CORRIGE 09/09/2026. L'ancienne regle acceptait le slug des qu'il contenait UN mot
+    # d'une liste qui melangeait geographie et sujet: "mole-removal-tokyo" passait parce
+    # qu'il contient "tokyo", et se retrouvait en priorite n2 du rapport. La rubrique
+    # "living" de Tokyo Cheapo est entierement tokyoite et majoritairement hors sujet.
+    # Nouvelle regle: la geographie ne suffit JAMAIS, il faut un mot de SUJET.
+    SUJET = ["apartment", "housing", "logement", "appartement", "rent", "loyer",
+             "share", "lease", "tenant", "landlord", "deposit", "guarantor", "garant",
+             "moving", "relocat", "expat", "foreigner", "gaijin", "visa", "residence",
+             "student", "dorm", "bank", "insurance", "tax", "utilities", "furnished",
+             "meuble", "neighbourhood", "neighborhood", "quartier", "ward", "station"]
+    # Sujets tokyoites mais etrangers a notre metier (vus dans le cache le 09/09).
+    HORS_METIER = ["mole-removal", "married", "wedding", "dentist", "haircut", "gym",
+                   "restaurant", "cafe", "nightlife", "festival", "museum", "onsen",
+                   "hospital", "clinic", "beauty", "salon", "tattoo"]
+    # Geographies etrangeres: "rental home frankfurt" et "prix de loyer copenhague"
+    # passaient le filtre thematique (ils contiennent "rental home" / "loyer") et se
+    # retrouvaient proposes comme opportunites Tokyo. Notre marche est le Japon.
+    HORS_JAPON = ["frankfurt", "copenhague", "copenhagen", "berlin", "london", "londres",
+                  "paris", "new-york", "newyork", "singapore", "singapour", "seoul",
+                  "bangkok", "dubai", "sydney", "toronto", "madrid", "barcelona",
+                  "lisbon", "lisbonne", "amsterdam", "hong-kong", "taipei", "shanghai",
+                  "beijing", "pekin", "bali", "melbourne", "vancouver", "montreal"]
+    if any(w in slug for w in HORS_METIER) or any(w in slug for w in HORS_JAPON):
+        return False
+    return any(w in slug for w in SUJET)
 
 def score_gap(slug: str, competitor: str) -> int:
     """Score de priorite du gap (100 = ultra prioritaire)."""

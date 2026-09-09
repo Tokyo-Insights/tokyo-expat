@@ -353,23 +353,30 @@ def main():
     # ── MESSAGE 3 : Plan 30 jours ────────────────────────────────────────────
     msg3_lines = [f"<b>PLAN D'ACTION 30 JOURS</b>\n"]
 
+    # PLAN REECRIT LE 09/09/2026. L'ancien recommandait chaque semaine des actions que
+    # la doctrine a explicitement ARRETEES: partager sur des groupes Facebook, poster sur
+    # r/movingtojapan et r/JapanFinance, republier sur LinkedIn, repondre sur Quora. Or
+    # la these corrigee du 08/09 dit que le goulot est la DEMANDE, que le cold outreach
+    # est a 0/35, que Reddit n'est plus un canal de leads, et qu'Alessandro ne fait pas
+    # de reseaux sociaux. Un radar qui conseille contre la strategie est pire qu'un
+    # radar muet: il fait perdre du temps avec autorite.
     msg3_lines.append("<b>Semaine 1 (maintenant) :</b>")
     if article_queue:
         msg3_lines.append(f"  Ecrire : {article_queue[0]['title'][:55]}")
-    msg3_lines.append("  Partager sur Facebook Expats Tokyo + r/movingtojapan")
-    msg3_lines.append("  Poster sur Expat.com (profil + 1 reponse utile)")
+    msg3_lines.append("  Traiter les GISEMENTS SEO du rapport (clusters a fortes")
+    msg3_lines.append("  impressions et faible CTR : meta descriptions, pas les titles)")
 
     msg3_lines.append("\n<b>Semaine 2 :</b>")
     if len(article_queue) > 1:
         msg3_lines.append(f"  Ecrire : {article_queue[1]['title'][:55]}")
-    msg3_lines.append("  Commenter sur r/JapanFinance (zero promo, valeur pure)")
-    msg3_lines.append("  Republier article S1 sur LinkedIn")
+    msg3_lines.append("  Vente directe : 1 prescripteur qualifie (pas une salve)")
 
     msg3_lines.append("\n<b>Semaines 3-4 :</b>")
     if len(article_queue) > 2:
         msg3_lines.append(f"  Ecrire : {article_queue[2]['title'][:55]}")
-    msg3_lines.append("  Backlinks : repondre sur Quora Japan housing")
-    msg3_lines.append("  Check Search Console : quels articles progressent?")
+    msg3_lines.append("  Donner de la data a un editeur deja chaud (seule mecanique")
+    msg3_lines.append("  qui ait produit un backlink : 6 domaines sur 6)")
+    msg3_lines.append("  Verifier les demandes REELLES : formulaires + Calendly")
 
     if vulns.get("available") and vulns.get("total", 0) > 0:
         msg3_lines.append(f"\n<b>Opportunites vulnerabilites ({vulns['total']}) :</b>")
