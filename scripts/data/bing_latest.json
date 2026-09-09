@@ -2,10 +2,10 @@
   "generated_at": "2026-09-09",
   "site": "https://tokyo-expat.com/",
   "totals": {
-    "impressions": 8665,
-    "clicks": 200
+    "impressions": 8883,
+    "clicks": 204
   },
-  "points": 71,
+  "points": 72,
   "top_queries": [
     {
       "query": "pvt japon",
@@ -113,13 +113,6 @@
       "ctr_pct": 0.0
     },
     {
-      "query": "tips for negotiating rent in 2025",
-      "impressions": 8,
-      "clicks": 1,
-      "position": 4.0,
-      "ctr_pct": 12.5
-    },
-    {
       "query": "tokyo fully furnished house for rent 2026",
       "impressions": 8,
       "clicks": 0,
@@ -134,14 +127,14 @@
       "ctr_pct": 0.0
     },
     {
-      "query": "pays éligibles visa vacances-travail japon 2026",
+      "query": "tokyo cheapest wards rent share house foreigners 2026 adachi katsushika edogawa itabashi",
       "impressions": 8,
       "clicks": 0,
       "position": 4.0,
       "ctr_pct": 0.0
     },
     {
-      "query": "tokyo cheapest wards rent share house foreigners 2026 adachi katsushika edogawa itabashi",
+      "query": "pays éligibles visa vacances-travail japon 2026",
       "impressions": 8,
       "clicks": 0,
       "position": 4.0,
@@ -162,6 +155,20 @@
       "ctr_pct": 0.0
     },
     {
+      "query": "tokyo student apartment rent average 2026 waseda sophia commute nearby suburbs",
+      "impressions": 8,
+      "clicks": 0,
+      "position": 5.0,
+      "ctr_pct": 0.0
+    },
+    {
+      "query": "tokyo family cost of living 2026 outer wards rent 2ldk",
+      "impressions": 8,
+      "clicks": 0,
+      "position": 3.0,
+      "ctr_pct": 0.0
+    },
+    {
       "query": "logement tokyo 19-21 octobre 2026",
       "impressions": 8,
       "clicks": 0,
@@ -174,21 +181,14 @@
       "clicks": 0,
       "position": 2.0,
       "ctr_pct": 0.0
-    },
-    {
-      "query": "tokyo family cost of living 2026 outer wards rent 2ldk",
-      "impressions": 8,
-      "clicks": 0,
-      "position": 3.0,
-      "ctr_pct": 0.0
     }
   ],
   "period": {
     "from": "2026-06-28",
-    "to": "2026-09-06",
-    "days": 71
+    "to": "2026-09-07",
+    "days": 72
   },
-  "ctr_pct": 2.31,
+  "ctr_pct": 2.3,
   "queries_total": 881,
   "pages_total": 99,
   "top_pages": [
@@ -795,6 +795,11 @@
       "date": "2026-09-06",
       "impressions": 269,
       "clicks": 1
+    },
+    {
+      "date": "2026-09-07",
+      "impressions": 218,
+      "clicks": 4
     }
   ]
 }

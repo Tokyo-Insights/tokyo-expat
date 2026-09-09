@@ -2,10 +2,10 @@
   "generated_at": "2026-09-09",
   "period": "2026-09-02 to 2026-09-09",
   "this_week": {
-    "sessions": 333,
-    "users": 315,
-    "pageviews": 407,
-    "bounce_rate": 0.7837837837837838
+    "sessions": 341,
+    "users": 323,
+    "pageviews": 417,
+    "bounce_rate": 0.7888563049853372
   },
   "prev_week": {
     "sessions": 331,
@@ -14,9 +14,9 @@
     "bounce_rate": 0.7190332326283988
   },
   "changes": {
-    "sessions": "+1%",
-    "users": "+3%",
-    "pageviews": "+10%"
+    "sessions": "+3%",
+    "users": "+6%",
+    "pageviews": "+12%"
   },
   "top_pages": [
     [
@@ -43,28 +43,28 @@
   "top_sources": [
     [
       "Direct",
-      "212"
+      "217"
     ],
     [
       "Organic Search",
-      "86"
+      "88"
     ],
     [
-      "AI Assistant",
-      "18"
+      "Unassigned",
+      "20"
     ]
   ],
   "form_submits_week": 1,
   "events": {
-    "page_view": 407,
-    "session_start": 336,
-    "first_visit": 313,
-    "user_engagement": 150,
+    "page_view": 417,
+    "session_start": 344,
+    "first_visit": 321,
+    "user_engagement": 153,
     "scroll": 28,
     "click": 2,
+    "select_consultation": 2,
     "book_call_click": 1,
     "form_start": 1,
-    "generate_lead": 1,
-    "select_consultation": 1
+    "generate_lead": 1
   }
 }

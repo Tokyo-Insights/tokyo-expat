@@ -20,39 +20,9 @@
     "category": "tokyo"
   },
   {
-    "slug": "prix-de-loyer--copenhague",
-    "topic": "prix de loyer  copenhague",
-    "url": "https://www.remoters.io/logement/prix-de-loyer--copenhague",
-    "competitors": [
-      "Remoters"
-    ],
-    "score": 20,
-    "category": "cout"
-  },
-  {
     "slug": "les-differents-modes-dhebergement",
     "topic": "les differents modes dhebergement",
     "url": "https://www.remoters.io/blog/les-differents-modes-dhebergement",
-    "competitors": [
-      "Remoters"
-    ],
-    "score": 10,
-    "category": "default"
-  },
-  {
-    "slug": "rental-home-frankfurt",
-    "topic": "rental home frankfurt",
-    "url": "https://www.remoters.io/en/logement/rental-home-frankfurt",
-    "competitors": [
-      "Remoters"
-    ],
-    "score": 10,
-    "category": "default"
-  },
-  {
-    "slug": "loyer-autour-de-ufv-madrid",
-    "topic": "loyer autour de ufv madrid",
-    "url": "https://www.remoters.io/logement/loyer-autour-de-ufv-madrid",
     "competitors": [
       "Remoters"
     ],

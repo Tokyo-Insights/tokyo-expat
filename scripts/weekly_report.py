@@ -931,8 +931,21 @@ def build():
         vlist = vuln if isinstance(vuln, list) else (vuln or {}).get("items", [])
         vpairs = [(v.get("competitor") or v.get("domain", "?"), v.get("keyword", "?"))
                   for v in vlist if isinstance(v, dict)]
-        callout = (f'{cboost[0][1]} = {cboost[0][0]} sessions, 0 lead — ta page la plus visitee '
-                   f'ne convertit rien. A optimiser en priorite.') if cboost else "Voir la conversion par page."
+        # CALLOUT CORRIGE 09/09/2026: il disait "ta page la plus visitee ne convertit
+        # rien, a optimiser en priorite" — conclusion fausse pour /en/data, dont le
+        # trafic Direct etait du tourisme Reddit et dont le trafic IA MONTE. Le vrai
+        # levier n1 est le gisement SEO, pas une page a "optimiser" au hasard.
+        _opp = load("gsc_opportunities.json") or {}
+        _top = next((c for c in _opp.get("clusters", []) if c.get("winnable")), None)
+        if _top:
+            callout = (f"{_top['impressions']} impressions en position {_top['position']} sur "
+                       f"\"{_top['example']}\" — {_top['action']}. C'est le plus gros gisement "
+                       f"actionnable de la semaine.")
+        elif cboost:
+            callout = (f"{cboost[0][1]} = {cboost[0][0]} sessions sans capture d'email. "
+                       f"Verifier la decomposition par canal avant d'en conclure quoi que ce soit.")
+        else:
+            callout = "Voir la conversion par page."
         render_html({
             "date": dt.date.today().isoformat(),
             "sessions": (ga4 or {}).get("this_week", {}).get("sessions", "?"),
@@ -952,16 +965,33 @@ def build():
         })
         print(f"[Ecrit: {HTML_OUT}]")
         if "--telegram" in sys.argv:
-            tp = ", ".join(f"#{p} {kw}" for kw, lg, p in kp if p <= 2)
+            # DIGEST REECRIT LE 09/09/2026. Il disait encore "11 leads" et
+            # "3 appel" alors que le rapport avait ete corrige la veille: j'avais
+            # corrige le DOCUMENT et oublie le MESSAGE, qui est pourtant le seul
+            # que lit Alessandro. Il ouvre desormais sur la DEMANDE REELLE, et le
+            # reste est explicitement etiquete pour ce qu'il est.
+            nb_form = len(demand["forms"]) if not demand.get("error") else "?"
+            nb_resa = len(demand["bookings"]) if not demand.get("error") else "?"
+            opp = load("gsc_opportunities.json") or {}
+            gisement = ""
+            for c in opp.get("clusters", []):
+                if c.get("winnable"):
+                    gisement = (f"\n💎 <b>Gisement n1 :</b> {c['impressions']} impr en position "
+                                f"{c['position']} — <i>{c['example']}</i> ({c['action']})")
+                    break
             dg = (f"📊 <b>RAPPORT HEBDO</b> — tokyo-expat — {dt.date.today().isoformat()}\n\n"
-                  f"Trafic <b>{(ga4 or {}).get('this_week',{}).get('sessions','?')}</b> sess · "
-                  f"<b>{leads.get('total','?') if isinstance(leads,dict) else '?'}</b> leads (surtout SEO)\n"
-                  f"Visibilite {impr} impr · pos moy {t.get('position',0) or 0:.1f}\n\n"
-                  f"🎯 <b>Action n1 :</b> {callout}\n\n"
-                  f"🔻 Entonnoir : {fn.get('form_start',0)} form → {fn.get('generate_lead',0)} lead → "
-                  f"{fn.get('select_consultation',0)} consult → {fn.get('book_call_click',0)} appel\n"
-                  f"🏅 {len(kp)} keywords rankes · {tp[:110]}\n\n"
-                  f"Rapport complet (16 sections) + dashboard HTML generes. Dis-moi 'rapport' pour le voir.")
+                  f"🔴 <b>DEMANDES REELLES (90j) : {nb_form} formulaire(s) · "
+                  f"{nb_resa} reservation(s)</b>\n"
+                  f"<i>Les seuls chiffres ou quelqu'un demande quelque chose.</i>\n\n"
+                  f"Trafic {(ga4 or {}).get('this_week',{}).get('sessions','?')} sess · "
+                  f"visibilite {impr} impr · pos moy {t.get('position',0) or 0:.1f}\n"
+                  f"Captures d'email (PDF/newsletter, pas des prospects) : "
+                  f"{leads.get('total','?') if isinstance(leads,dict) else '?'}"
+                  f"{gisement}\n\n"
+                  f"🔻 Navigation (des CLICS, pas des ventes) : {fn.get('form_start',0)} champs → "
+                  f"{fn.get('generate_lead',0)} emails → {fn.get('select_consultation',0)} clics contact → "
+                  f"{fn.get('book_call_click',0)} clics Calendly\n\n"
+                  f"Rapport complet + dashboard generes. Dis-moi 'rapport' pour le voir.")
             if send_telegram(dg):
                 print("[Telegram digest envoye]")
     except Exception as e:

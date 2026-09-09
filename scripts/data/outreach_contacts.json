@@ -352,17 +352,18 @@
     "domain": "jetro.go.jp",
     "name": "JETRO",
     "type": "government",
-    "email": "pr@jetro.go.jp",
+    "email": "toshio_yoshihara@jetro.go.jp",
     "approach": "resource_link",
     "da_est": 70,
     "priority": "medium",
     "pitch": "Lien dans section 'Life in Japan' pour expatries d'affaires",
     "notes": "Japan External Trade Org., section Living in Japan existante",
-    "status": "to_contact",
+    "status": "emailed",
     "last_contact": null,
     "response": null,
     "link_obtained": false,
-    "added": "2026-06-21"
+    "added": "2026-06-21",
+    "emailed_date": "2026-09-09"
   },
   {
     "domain": "ccifj.or.jp",

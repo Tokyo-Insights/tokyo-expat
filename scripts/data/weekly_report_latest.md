@@ -1,7 +1,7 @@
 # 📊 RAPPORT HEBDO — tokyo-expat — 2026-09-09
 
 ## 🎯 KPIs
-- **Trafic (7j)** : 333 sessions (+1%), 315 users (+3%)
+- **Trafic (7j)** : 341 sessions (+3%), 323 users (+6%)
 - **Visibilite (28j)** : 19056 impressions | 100 clics | CTR 0.52% | pos moy 21.1
 - **🔴 DEMANDES REELLES (90j)** : 3 formulaires de contact · 2 reservations Calendly
 - Captures d'email (90j) : 11
@@ -50,7 +50,7 @@ _⚠️ L'evenement GA4 `generate_lead` se declenche uniquement quand quelqu'un 
   - 1 lead / 52 sess (1.9%) | /en/blog/send-money-to-japan-from-abroad
 
 ## 📈 TENDANCES (vs snapshot precedent)
-- Sessions -11 · Impressions +2125 · Clics +8 · Leads +1 (depuis 2026-09-02)
+- Sessions -3 · Impressions +2125 · Clics +8 · Leads +1 (depuis 2026-09-02)
 **Vagues montantes (requetes) :**
   - _jiko bukken for sale_ : impr +22, pos 7.9 (stable)
 
@@ -115,10 +115,9 @@ _⚠️ Ceci mesure le TRAFIC envoye, pas les liens. Un backlink d'autorite n'en
   - 133 impr · pos 7.6 · 0 clics · _gaijin houses tokyo_
   - 107 impr · pos 5.4 · 0 clics · _gaijin house tokyo_
 **Content gaps pertinents (logement) :**
-  - pet cost cat tokyo
-  - finding a pet sitter in japan
-  - low cost pets
   - les differents modes dhebergement
+  - pocket translator rental japan
+  - instant room rental english
 
 ## 💎 GISEMENTS SEO (clusters, 90j)
 _Requetes regroupees par theme, position ponderee par les impressions. 🎯 = page 2-3, donc gagnable._
@@ -132,25 +131,26 @@ _Requetes regroupees par theme, position ponderee par les impressions. 🎯 = pa
   🎯 **364 impr** · pos 19.5 · 2 variantes · OPTIMISER — _social apartments japan_
 
 ## 🔥 VULNERABILITES CONCURRENTS (places a prendre)
-  - **gaijinpot.com** chute sur _tokyo apartment hunting abroad_ (nous: #5)
-_✅ 6 vulnerabilite(s) ecartee(s), on y est deja top-3 : logement tokyo expatrie (#1), rent tokyo expat 2026 (#1), louer tokyo sans garant etranger (#3), logement tokyo expatrie (#1), share house tokyo guide 2026 (#1), trouver appartement tokyo etranger (#3)._
+  - **gaijinpot.com** chute sur _tokyo apartment hunting abroad_ (position inconnue, a verifier)
+  - **sakura-house.com** chute sur _share house tokyo guide_ (position inconnue, a verifier)
+_✅ 9 vulnerabilite(s) ecartee(s), on y est deja top-3 : logement tokyo expatrie (#1), share house tokyo guide 2026 (#1), furnished apartment tokyo no guarantor (#1), rent tokyo expat 2026 (#1), find apartment tokyo foreigner (#1), property hunter tokyo (#1), furnished apartment tokyo no guarantor (#1), trouver appartement tokyo etranger (#1), trouver appartement tokyo etranger (#1)._
 
 ## 🏅 NOS POSITIONS (keywords ou on ranke)
-**28 keywords rankes** · le top 3 :
+**27 keywords rankes** · le top 3 :
+  - #1 · [fr] trouver appartement tokyo etranger
+  - #1 · [fr] chasseur immobilier tokyo
   - #1 · [fr] appartement meuble tokyo expatrie
   - #1 · [fr] logement tokyo expatrie
-  - #1 · [fr] quartiers tokyo expatries
   - #1 · [fr] cout vie tokyo 2026
   - #1 · [fr] garantie loyer japon etranger
-  - #1 · [fr] assurance habitation japon locataire
   - #1 · [fr] logement etudiant tokyo
   - #1 · [fr] visa travail japon francophone
+  - #1 · [fr] ouvrir compte bancaire japon etranger
   - #1 · [fr] bail tokyo checklist
-  - #1 · [en] find apartment tokyo foreigner
 
 ## 🅱️ BING (l'index que ChatGPT interroge)
-_Donnees a jour (3 j de decalage, fin 2026-09-06)._
-**8665 impressions · 200 clics · CTR 2.31%** sur 2026-06-28 → 2026-09-06 (881 requetes, 99 pages)
+_Donnees a jour (2 j de decalage, fin 2026-09-07)._
+**8883 impressions · 204 clics · CTR 2.3%** sur 2026-06-28 → 2026-09-07 (881 requetes, 99 pages)
 **Pages fortes sur Bing (souvent PAS les memes que sur Google) :**
   - 917 impr · 14 clics · pos 6.0 | /en/blog/japan-income-tax-foreigners-guide
   - 543 impr · 26 clics · pos 4.2 | /en/blog/japan-sim-card-foreigners-2026
@@ -167,13 +167,14 @@ _Donnees a jour (3 j de decalage, fin 2026-09-06)._
   - 15 impr · pos 6.5 · _1ldk_
 
 ## 📦 FEATURED SNIPPETS (a voler aux concurrents)
+  - _share house tokyo expat 2026_ (list) — oakhouse.jp pos 3
   - _tokyo apartment no guarantor_ (answer_box) — gaijinpot.com pos 3
+  - _how much does it cost to rent in tokyo_ (table) — gaijinpot.com pos 1
   - _share house tokyo price_ (table) — borderless-house.com pos 2
   - _tokyo apartment foreigner documents_ (list) — tokyocheapo.com pos 1
-  - _short term apartment tokyo_ (table) — sakura-house.com pos 1
 
 ## ⚡ VEILLE CONCURRENTS
-**Masse de contenu (top) :** Tokyo Cheapo 6824 · Remoters 5372 · Oak House 5090 · Tofugu 1910 · Sakura House 970
+**Masse de contenu (top) :** Tokyo Cheapo 6824 · Remoters 5331 · Oak House 5135 · Tofugu 1910 · Sakura House 970
 ⚠️ **18 scrapers MUETS** (0 publication detectee sur 10 semaines d'affilee = sitemap probablement illisible, PAS un concurrent inactif) : Asian Tigers Japan, City Cost, Crown Relocations JP, Fontaine Relocation, Gaijin House, GaijinPot Housing, Japan Guide, Japan Insiders...
 **Ce qu'on reproche aux concurrents (matiere a contenu) :**
   - **Remoters** : 2 plainte(s) sur 29 resultats · scam ×3, sale ×2, small ×1
