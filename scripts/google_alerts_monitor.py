@@ -19,6 +19,7 @@ import re
 import sys
 import io
 import html
+import urllib.parse
 import datetime
 from email.header import decode_header
 from pathlib import Path
@@ -142,6 +143,34 @@ def parse_alert_email(msg) -> list:
     if not body:
         return []
 
+    # 🚨 CORRIGE 09/09/2026 — AlertLinkParser cherchait les titres dans des <h4>.
+    # Google Alerts n'en emet plus: le mail du 07/09 ne contient AUCUN <h4>
+    # (balises reelles: td, a, div, tr, span, table). Le parseur rendait donc une
+    # liste vide meme quand l'alerte contenait des articles, et le radar concluait
+    # "aucun article extrait". Deux pannes superposees: ne pas trouver les mails,
+    # et ne pas savoir les lire.
+    # Ce qui est stable depuis des annees, c'est l'enveloppe de redirection
+    # google.com/url?...&url=<vraie url>. On s'appuie dessus.
+    liens, vus = [], set()
+    for m in re.finditer(r'<a[^>]+href="([^"]*google\.com/url[^"]*)"[^>]*>(.*?)</a>',
+                         body, re.S | re.IGNORECASE):
+        href, brut = m.group(1), m.group(2)
+        titre = html.unescape(re.sub(r"<[^>]+>", "", brut)).strip()
+        titre = re.sub(r"\s+", " ", titre)
+        if not titre or len(titre) < 12:
+            continue                       # "Voir tous les resultats", icones, etc.
+        cible = re.search(r'[?&]url=([^&]+)', html.unescape(href))
+        url = urllib.parse.unquote(cible.group(1)) if cible else href
+        if url in vus:
+            continue
+        vus.add(url)
+        liens.append((titre, url))
+
+    if liens:
+        return liens[:MAX_RESULTS_PER_ALERT]
+
+    # Filet: si Google change encore de format, on retombe sur l'ancien parseur
+    # plutot que de rendre le silence.
     parser = AlertLinkParser()
     parser.feed(body)
     return parser.links[:MAX_RESULTS_PER_ALERT]
@@ -206,24 +235,70 @@ def run():
         print(f"[ERROR] IMAP login: {e}")
         return
 
-    M.select("INBOX")
-    _, data = M.search(None, f'FROM "{GOOGLE_ALERTS_SENDER}"', 'UNSEEN')
-    uids = data[0].split() if data[0] else []
-    print(f"[INFO] {len(uids)} alertes Google non lues")
+    # 🚨 CORRIGE 09/09/2026 — la recherche etait 'INBOX + UNSEEN'.
+    # Ce radar tourne le mercredi; entre deux passages, une alerte peut etre lue,
+    # archivee ou mise a la corbeille (par gmail_morning_cleaner, par un tri manuel,
+    # ou par un menage de la boite). Elle devenait alors DEFINITIVEMENT invisible,
+    # et le script annoncait "0 alertes Google non lues" — une phrase vraie sur un
+    # monde faux. Cas constate: l'alerte du 07/09 sur les restrictions d'hebergement
+    # a Tokyo (sujet directement pertinent) etait a la corbeille, jamais lue.
+    # On cherche desormais dans TOUS LES MESSAGES sur une fenetre de dates, et la
+    # deduplication se fait sur le Message-ID, pas sur l'etat "non lu".
+    FENETRE_JOURS = 14
+    depuis = (datetime.datetime.now()
+              - datetime.timedelta(days=FENETRE_JOURS)).strftime("%d-%b-%Y")
 
-    if not uids:
+    # ⚠️ Une recherche IMAP ne porte QUE sur la boite selectionnee, et
+    # "[Gmail]/All Mail" EXCLUT la corbeille (verifie le 09/09: l'alerte du 07/09
+    # etait introuvable partout SAUF dans "[Gmail]/Trash", ou un menage de boite
+    # l'avait envoyee). Meme `X-GM-RAW ... in:anywhere` ne franchit pas cette
+    # frontiere. Il faut donc parcourir les boites une par une, corbeille comprise.
+    # Les UID n'etant valables que dans leur boite, on garde le couple (boite, uid).
+    BOITES = ['"[Gmail]/Tous les messages"', '"[Gmail]/All Mail"',
+              '"[Gmail]/Corbeille"', '"[Gmail]/Trash"', "INBOX"]
+    trouves = []          # [(boite, uid_bytes)]
+    boites_lues = []
+    for boite in BOITES:
+        try:
+            if M.select(boite)[0] != "OK":
+                continue
+        except Exception:
+            continue
+        boites_lues.append(boite)
+        try:
+            _, d = M.search(None, f'FROM "{GOOGLE_ALERTS_SENDER}"', f'SINCE {depuis}')
+        except Exception:
+            continue
+        for u in (d[0].split() if d and d[0] else []):
+            trouves.append((boite, u))
+
+    print(f"[INFO] Boites lues : {', '.join(boites_lues)}")
+    print(f"[INFO] {len(trouves)} alerte(s) Google sur {FENETRE_JOURS} j "
+          f"(lues ou non, corbeille comprise)")
+
+    if not trouves:
         M.logout()
-        print("[OK] Aucune nouvelle alerte.")
+        print(f"[OK] Aucune alerte Google recue depuis {FENETRE_JOURS} j.")
+        print("     Si c'est durable: verifier que des alertes sont bien configurees "
+              "sur google.com/alerts — un radar sans source n'est pas un radar calme.")
         return
 
     # Grouper par categorie
     buckets = {}  # cat_id -> {"label": str, "priority": int, "items": [(query, title, url)]}
 
     new_uids = []
-    for uid in uids:
-        uid_str = uid.decode() if isinstance(uid, bytes) else str(uid)
+    boite_courante = None
+    vus_msgid = set()
+    for boite, uid in trouves:
+        # Le meme message peut apparaitre dans deux boites: on dedoublonne plus bas
+        # sur le Message-ID, qui lui est stable.
+        uid_str = f"{boite}:{uid.decode() if isinstance(uid, bytes) else uid}"
         if uid_str in processed:
             continue
+        if boite != boite_courante:
+            if M.select(boite)[0] != "OK":
+                continue
+            boite_courante = boite
 
         _, msg_data = M.fetch(uid, "(RFC822)")
         if not msg_data or not msg_data[0]:
@@ -232,11 +307,21 @@ def run():
         raw = msg_data[0][1]
         msg = email.message_from_bytes(raw)
 
+        # Un message archive ET copie ailleurs ressort deux fois: le Message-ID
+        # tranche, l'UID non (il change d'une boite a l'autre).
+        mid = (msg.get("Message-ID") or "").strip()
+        if mid and mid in vus_msgid:
+            continue
+        if mid:
+            vus_msgid.add(mid)
+
         subject = decode_subject(msg)
         subject_lower = subject.lower()
 
-        # Extraire le nom de la requete depuis "Google Alert - ..."
-        query = re.sub(r'^google\s+alert\s*[-:]\s*', '', subject, flags=re.IGNORECASE).strip()
+        # Le sujet est "Alerte Google : ..." en francais, "Google Alert - ..." en
+        # anglais. L'ancienne expression ne connaissait que la forme anglaise.
+        query = re.sub(r'^(?:google\s+alert|alerte\s+google)\s*[-:]\s*', '',
+                       subject, flags=re.IGNORECASE).strip()
 
         cat_id, priority, label = categorize(subject_lower)
         links = parse_alert_email(msg)
