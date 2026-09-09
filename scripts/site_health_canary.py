@@ -50,6 +50,66 @@ DATA_FILES = [
 ]
 
 
+# ============================================================
+# PARCOURS DE PAIEMENT (ajoute 09/09/2026)
+# Pourquoi: c'est le SEUL chemin par lequel de l'argent peut arriver, et rien ne le
+# surveillait. Precedents: le formulaire /contact est reste casse en SILENCE pendant
+# des mois avant juillet (tous les leads perdus), le tier gratuit de Calendly peut
+# desactiver l'evenement sans prevenir, et Poppy - seule personne allee jusqu'au oui -
+# s'est arretee exactement a cette etape. Une panne ici ne fait aucun bruit.
+# ============================================================
+DEVIS_PAGES = ["/devis/appartement-1p", "/devis/appartement-meuble-1p", "/devis/share-house-1p"]
+DEVIS_MUST_CONTAIN = ["Paiement", "montant"]   # verifie sur la page live le 09/09
+CALENDLY_URL = "https://calendly.com/contact-tokyo-expat/30min"
+CONTACT_PAGES = ["/en/contact", "/fr/contact"]
+
+
+def check_payment_path(failures, oks):
+    """Le client peut-il encore reserver un appel, et payer ?"""
+    # 1) Les pages de devis repondent ET affichent bien le bloc de paiement.
+    for path in DEVIS_PAGES:
+        try:
+            r = requests.get(BASE + path, verify=False, timeout=TIMEOUT, allow_redirects=True,
+                             headers={"User-Agent": "TokyoExpat-HealthCanary/1.0"})
+            if r.status_code != 200:
+                failures.append(f"❌ PAIEMENT: {path} -> HTTP {r.status_code} (page de devis morte)")
+                continue
+            manquants = [m for m in DEVIS_MUST_CONTAIN if m not in r.text]
+            if manquants:
+                failures.append(f"❌ PAIEMENT: {path} repond 200 mais le bloc de paiement a disparu "
+                                f"(absent: {', '.join(manquants)})")
+            else:
+                oks.append(f"Devis OK {path}")
+        except Exception as e:
+            failures.append(f"❌ PAIEMENT: {path} -> {type(e).__name__}: {str(e)[:70]}")
+
+    # 2) Le lien Calendly est-il TOUJOURS sur les pages contact ?
+    for path in CONTACT_PAGES:
+        try:
+            r = requests.get(BASE + path, verify=False, timeout=TIMEOUT, allow_redirects=True,
+                             headers={"User-Agent": "TokyoExpat-HealthCanary/1.0"})
+            if "calendly.com" in r.text:
+                oks.append(f"Lien Calendly present {path}")
+            else:
+                failures.append(f"❌ RESERVATION: plus aucun lien Calendly sur {path} "
+                                f"(le client ne peut plus reserver d'appel)")
+        except Exception as e:
+            failures.append(f"❌ RESERVATION: {path} -> {type(e).__name__}: {str(e)[:70]}")
+
+    # 3) La page Calendly elle-meme repond-elle ? (le tier gratuit peut couper l'evenement)
+    try:
+        r = requests.get(CALENDLY_URL, verify=False, timeout=TIMEOUT, allow_redirects=True,
+                         headers={"User-Agent": "Mozilla/5.0"})
+        if r.status_code == 200:
+            oks.append("Page Calendly 200")
+        else:
+            failures.append(f"❌ RESERVATION: la page Calendly renvoie HTTP {r.status_code}. "
+                            f"L'evenement a peut-etre ete desactive (tier gratuit) = fuite "
+                            f"silencieuse de leads. Verifier {CALENDLY_URL}")
+    except Exception as e:
+        failures.append(f"❌ RESERVATION: Calendly injoignable -> {type(e).__name__}: {str(e)[:70]}")
+
+
 def check_data_freshness(failures, oks):
     """Alerte si un jeu de donnees local depasse STALE_DAYS (data 'auto-fraiche' figee)."""
     today = datetime.date.today()
@@ -122,7 +182,10 @@ def main():
     except Exception as e:
         failures.append(f"❌ Inspection home ({HEADER_URL}) -> {type(e).__name__}: {str(e)[:80]}")
 
-    # 3) Fraicheur des donnees locales (Indice loyers + Prix)
+    # 3) Parcours de paiement: devis + reservation Calendly (ajoute 09/09/2026)
+    check_payment_path(failures, oks)
+
+    # 4) Fraicheur des donnees locales (Indice loyers + Prix)
     check_data_freshness(failures, oks)
 
     # Rapport

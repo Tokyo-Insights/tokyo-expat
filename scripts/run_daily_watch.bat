@@ -73,9 +73,19 @@ python scripts\backlink_draft_stocker.py >> "%LOG_FILE%" 2>&1
 echo [%TIME%] [9/10] Social Buffer poster (if due)... >> "%LOG_FILE%"
 python scripts\facebook_buffer_poster.py >> "%LOG_FILE%" 2>&1
 
-:: 10. Site health canary : detecte les pannes silencieuses (pages 200, tag GA, CSP). Alerte si casse.
+:: 10. Site health canary : pannes silencieuses (pages 200, tag GA, CSP) + depuis le
+::     09/09/2026 le PARCOURS DE PAIEMENT (pages /devis, lien Calendly, page Calendly).
+::     C'est le seul chemin par lequel de l'argent arrive et il n'etait pas surveille.
 echo [%TIME%] [10/11] Site health canary... >> "%LOG_FILE%"
 python scripts\site_health_canary.py >> "%LOG_FILE%" 2>&1
+
+:: 10b. Fils partenaires chauds (ajoute 09/09/2026). Les 6 domaines referents viennent
+::      TOUS d'une relation email, et aucun de ces fils n'etait suivi: le
+::      backlink_followup_watcher travaille sur outreach_contacts.json, qui ne les
+::      contient pas. Regarde seulement, n'ecrit a personne, n'alerte que si une
+::      reponse attend ou si un silence depasse le delai propre au contact.
+echo [%TIME%] [10b] Fils partenaires chauds... >> "%LOG_FILE%"
+python scripts\warm_threads_watch.py >> "%LOG_FILE%" 2>&1
 
 :: 11. Reddit munition reminder (AUTO-REPARANT) : rappelle la prochaine munition data a poster
 ::      si >=7j depuis le dernier post (1/sem), detecte auto le post via email AutoMod OC, puis se tait.

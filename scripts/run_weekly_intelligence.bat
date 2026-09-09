@@ -62,9 +62,11 @@ python scripts\pricing_monitor.py >> "%LOG_FILE%" 2>&1
 echo [%TIME%] [4/19] Backlink spy... >> "%LOG_FILE%"
 python scripts\backlink_spy.py >> "%LOG_FILE%" 2>&1
 
-:: 5. Broken link finder (~5min)
-echo [%TIME%] [5/19] Broken link finder... >> "%LOG_FILE%"
-python scripts\broken_link_finder.py >> "%LOG_FILE%" 2>&1
+:: 5. Broken link finder -- COUPE 09/09/2026. Les 91 liens "reported" sont des pages
+::    PRODUIT profondes de concurrents (immeubles Sakura House, versions CN), sans backlink
+::    externe: ROI nul, deja acte en memoire le 30/06. Cout: ~5 min et 416 Ko de cache.
+:: echo [%TIME%] [5/19] Broken link finder... >> "%LOG_FILE%"
+:: python scripts\broken_link_finder.py >> "%LOG_FILE%" 2>&1
 
 :: 6. Outreach tracker digest (~30s)
 echo [%TIME%] [6/19] Outreach tracker digest... >> "%LOG_FILE%"
@@ -74,13 +76,19 @@ python scripts\outreach_tracker.py >> "%LOG_FILE%" 2>&1
 echo [%TIME%] [7/19] Vulnerability detector... >> "%LOG_FILE%"
 python scripts\vulnerability_detector.py >> "%LOG_FILE%" 2>&1
 
-:: 8. Google Trends early warning (~5min)
-echo [%TIME%] [8/19] Google Trends... >> "%LOG_FILE%"
-python scripts\google_trends.py >> "%LOG_FILE%" 2>&1
+:: 8. Google Trends -- COUPE 09/09/2026. CASSE: pytrends ne se connecte plus
+::    (SSLCertVerificationError sur trends.google.com). `trends_history.json` est vide
+::    ({} , 2 octets) depuis toujours, et le script envoyait quand meme une alerte
+::    "GOOGLE TRENDS" chaque semaine, donc il annoncait du vide. Rallumer si un jour
+::    pytrends refonctionne, et seulement apres avoir verifie que le fichier se remplit.
+:: echo [%TIME%] [8/19] Google Trends... >> "%LOG_FILE%"
+:: python scripts\google_trends.py >> "%LOG_FILE%" 2>&1
 
-:: 9. Review scraper (~3min)
-echo [%TIME%] [9/19] Review scraper... >> "%LOG_FILE%"
-python scripts\review_scraper.py >> "%LOG_FILE%" 2>&1
+:: 9. Review scraper -- COUPE 09/09/2026. Renvoie 0 avis pour les 5 concurrents suivis,
+::    systematiquement (`reviews_cache.json` = 0 partout). C'est `review_monitor` (etape 24)
+::    qui fait reellement le travail et qui, lui, produit de la vraie donnee.
+:: echo [%TIME%] [9/19] Review scraper... >> "%LOG_FILE%"
+:: python scripts\review_scraper.py >> "%LOG_FILE%" 2>&1
 
 :: 10. Calendrier saisonnier (~5s)
 echo [%TIME%] [10/19] Seasonal calendar... >> "%LOG_FILE%"
@@ -110,9 +118,11 @@ python scripts\social_sharing.py >> "%LOG_FILE%" 2>&1
 echo [%TIME%] [16/19] Competitor radar... >> "%LOG_FILE%"
 python scripts\competitor_radar.py >> "%LOG_FILE%" 2>&1
 
-:: 17. Influencer Finder -- YouTube/Instagram/Blog Tokyo expat
-echo [%TIME%] [17/19] Influencer finder... >> "%LOG_FILE%"
-python scripts\influencer_finder.py >> "%LOG_FILE%" 2>&1
+:: 17. Influencer Finder -- COUPE 09/09/2026. 198 cibles accumulees, **0 pitchee**, et
+::     105 Ko de cache. Le canal influenceurs contredit frontalement l'aversion d'Alessandro
+::     aux reseaux (user_social_media_aversion): une liste que personne n'utilisera jamais.
+:: echo [%TIME%] [17/19] Influencer finder... >> "%LOG_FILE%"
+:: python scripts\influencer_finder.py >> "%LOG_FILE%" 2>&1
 
 :: 18. Facebook via Buffer API (setup : voir facebook_buffer_poster.py --help)
 echo [%TIME%] [18/22] Facebook Buffer poster... >> "%LOG_FILE%"
@@ -134,9 +144,11 @@ python scripts\facebook_buffer_poster.py --li-only >> "%LOG_FILE%" 2>&1
 echo [%TIME%] [22/30] Content velocity tracker... >> "%LOG_FILE%"
 python scripts\content_velocity_tracker.py >> "%LOG_FILE%" 2>&1
 
-:: 23. Competitor jobs monitor (signaux recrutement concurrents)
-echo [%TIME%] [23/30] Competitor jobs monitor... >> "%LOG_FILE%"
-python scripts\competitor_jobs_monitor.py >> "%LOG_FILE%" 2>&1
+:: 23. Competitor jobs monitor -- COUPE 09/09/2026. Renvoie 0 offre pour les 5 concurrents,
+::     systematiquement (`jobs_cache.json` = 0 partout). Et meme s'il marchait: aucune action
+::     concrete ne decoule de "un concurrent recrute". Radar sans consequence.
+:: echo [%TIME%] [23/30] Competitor jobs monitor... >> "%LOG_FILE%"
+:: python scripts\competitor_jobs_monitor.py >> "%LOG_FILE%" 2>&1
 
 :: 24. Review monitor (mauvaises reviews concurrents = opportunites)
 echo [%TIME%] [24/30] Review monitor... >> "%LOG_FILE%"

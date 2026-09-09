@@ -213,6 +213,49 @@ def ga4_ai():
     return sorted(ai, reverse=True)[:6]
 
 
+def ga4_ai_trend():
+    """Le canal IA progresse-t-il ? 28j vs 28j precedents.
+
+    Ajoute le 09/09/2026. Le GEO est le canal PRIORITAIRE du master plan et n'etait
+    mesure qu'en absolu (une liste de pages), jamais en TENDANCE: impossible de dire
+    s'il montait ou mourait. Bing expose bien un onglet "AI Performance" dans son
+    interface, mais PAS par API (404 sur GetAIPerformanceStats / GetCopilotStats /
+    GetChatStats, verifie le 09/09) -> on mesure via le regroupement GA4 'AI Assistant',
+    qui est gratuit et automatisable.
+    """
+    def total(rng):
+        rows = _ga4(["sessionDefaultChannelGroup"], ["sessions"], [rng], limit=30)
+        return sum(int(r["metricValues"][0]["value"]) for r in rows
+                   if "ai" in r["dimensionValues"][0]["value"].lower())
+    try:
+        cur = total({"startDate": "28daysAgo", "endDate": "today"})
+        prev = total({"startDate": "56daysAgo", "endDate": "29daysAgo"})
+    except Exception:
+        return None
+    return cur, prev
+
+
+def bing_crawl_errors():
+    """Erreurs de crawl vues par Bing (gratuit, jamais exploite jusqu'au 09/09/2026)."""
+    try:
+        from pathlib import Path as _P
+        env = (_P(__file__).parent / ".env").read_text(encoding="utf-8")
+        key = [l.split("=", 1)[1].strip() for l in env.splitlines()
+               if l.startswith("BING_API_KEY=")][0]
+        r = requests.get("https://ssl.bing.com/webmaster/api.svc/json/GetCrawlStats",
+                         params={"apikey": key, "siteUrl": "https://tokyo-expat.com/"},
+                         verify=False, timeout=45)
+        rows = r.json().get("d", []) if r.status_code == 200 else []
+        if not rows:
+            return None
+        dernier = rows[-1]
+        return {"4xx": dernier.get("Code4xx", 0), "5xx": dernier.get("Code5xx", 0),
+                "2xx": dernier.get("Code2xx", 0),
+                "bloques_robots": dernier.get("BlockedByRobotsTxt", 0)}
+    except Exception:
+        return None
+
+
 def ga4_referrals():
     rows = _ga4(["sessionSource"], ["sessions"], [{"startDate": "90daysAgo", "endDate": "today"}],
                 filt=("sessionMedium", "referral"), limit=15)
@@ -301,8 +344,20 @@ def featured_snippets():
 
 
 def content_velocity():
-    cnt = (load("content_velocity.json") or {}).get("prev_week_counts", {})
-    return sorted([(v, k) for k, v in cnt.items() if v > 0], reverse=True)[:5]
+    """Masse de contenu concurrente, AVEC les scrapers muets signales.
+
+    CORRIGE 09/09/2026: le rapport affichait "Sakura House 970" alors que la VELOCITE
+    de Sakura House est a zero depuis 10 semaines d'affilee: son sitemap n'est pas lu.
+    Sur 24 concurrents suivis, **17 sont a zero sur 10 semaines** = scrapers muets, pas
+    des concurrents inactifs. Afficher leur masse sans le dire donne une fausse veille.
+    """
+    d = load("content_velocity.json") or {}
+    cnt = d.get("prev_week_counts", {})
+    hist = d.get("weekly_history", {})
+    muets = [k for k, serie in hist.items()
+             if isinstance(serie, list) and len(serie) >= 5 and not any(serie)]
+    actifs = sorted([(v, k) for k, v in cnt.items() if v > 0], reverse=True)[:5]
+    return actifs, muets
 
 
 def dead_pages():
@@ -634,14 +689,33 @@ def build():
         L.append("_(aucune page 1 sous-performante)_")
     L.append("")
 
-    # B8. GEO / IA (pages qui captent le trafic IA)
-    L.append("## 🤖 GEO / IA (pages qui captent le trafic 'AI Assistant')")
+    # B8. GEO / IA -- canal PRIORITAIRE du master plan. Depuis le 09/09 on mesure aussi
+    # sa TENDANCE, sans quoi on ne sait pas s'il monte ou s'il meurt.
+    L.append("## 🤖 GEO / IA (canal prioritaire)")
+    tr = ga4_ai_trend()
+    if tr:
+        cur, prev = tr
+        if prev:
+            var = (cur - prev) / prev * 100
+            fleche = "📈" if var > 5 else ("📉" if var < -5 else "➡️")
+            L.append(f"**{fleche} {cur} sessions IA sur 28j** (vs {prev} les 28j precedents, "
+                     f"{var:+.0f}%)")
+        else:
+            L.append(f"**{cur} sessions IA sur 28j** (aucune reference precedente)")
     ai = ga4_ai()
     if ai:
+        L.append("**Pages qui captent l'IA (90j) :**")
         for s, pg in ai:
             L.append(f"  - {s} sess IA | {pg}")
     else:
         L.append("_(aucun trafic IA attribue cette periode)_")
+    L.append("_⚠️ Bing a un onglet 'AI Performance' plus precis, mais il n'est PAS expose par "
+             "son API (404 verifie le 09/09) : ce chiffre-ci vient du regroupement GA4._")
+
+    ce = bing_crawl_errors()
+    if ce and (ce["4xx"] or ce["5xx"]):
+        L.append(f"**Crawl Bing :** {ce['2xx']} pages OK · **{ce['4xx']} en 4xx** · "
+                 f"{ce['5xx']} en 5xx · {ce['bloques_robots']} bloquees par robots.txt")
     L.append("")
 
     # B9. TRAFIC DE REFERENCE — ce n'est PAS un index de backlinks (corrige 08/09/2026).
@@ -671,9 +745,21 @@ def build():
     if gaps:
         items = gaps if isinstance(gaps, list) else gaps.get("gaps", gaps.get("items", []))
         def gkw(g): return str(g.get("keyword") or g.get("topic") or g.get("title", "")).lower()
-        rel = [g for g in items if isinstance(g, dict) and any(w in gkw(g)
-               for w in ["rent", "apartment", "housing", "gaijin", "guarantor", "pet", "loyer",
-                         "logement", "share house", "tenant", "landlord", "lease", "deposit"])][:4]
+        # CORRIGE 09/09/2026: le filtre etait purement thematique, donc "rental home
+        # frankfurt" passait comme opportunite Tokyo. On exclut desormais toute
+        # geographie etrangere, et on ecarte le hors-sujet vu dans le cache
+        # ("mole removal tokyo", "getting married in tokyo" venaient de la rubrique
+        # "living" de Tokyo Cheapo).
+        _HORS_JAPON = ("frankfurt", "berlin", "london", "paris", "new york", "singapore",
+                       "seoul", "bangkok", "dubai", "sydney", "toronto", "madrid",
+                       "barcelona", "lisbon", "amsterdam", "hong kong", "taipei", "shanghai")
+        _HORS_SUJET = ("mole removal", "married", "wedding", "dentist", "haircut", "gym")
+        rel = [g for g in items if isinstance(g, dict)
+               and any(w in gkw(g) for w in
+                       ["rent", "apartment", "housing", "gaijin", "guarantor", "pet", "loyer",
+                        "logement", "share house", "tenant", "landlord", "lease", "deposit"])
+               and not any(v in gkw(g) for v in _HORS_JAPON)
+               and not any(v in gkw(g) for v in _HORS_SUJET)][:4]
         if rel:
             L.append("**Content gaps pertinents (logement) :**")
             for g in rel:
@@ -772,11 +858,35 @@ def build():
         L.append("_(aucun)_")
     L.append("")
 
-    # F. VEILLE (content velocity + pages mortes)
-    L.append("## ⚡ VEILLE")
-    cv = content_velocity()
+    # F. VEILLE (content velocity + reviews concurrents + pages mortes)
+    L.append("## ⚡ VEILLE CONCURRENTS")
+    cv, muets = content_velocity()
     if cv:
-        L.append("**Masse de contenu concurrents (top) :** " + " · ".join(f"{k} {v}" for v, k in cv))
+        L.append("**Masse de contenu (top) :** " + " · ".join(f"{k} {v}" for v, k in cv))
+    if muets:
+        L.append(f"⚠️ **{len(muets)} scrapers MUETS** (0 publication detectee sur 10 semaines "
+                 f"d'affilee = sitemap probablement illisible, PAS un concurrent inactif) : "
+                 + ", ".join(sorted(muets)[:8])
+                 + ("..." if len(muets) > 8 else ""))
+
+    # Plaintes clients des concurrents (review_monitor). Ce radar PRODUIT de la vraie
+    # donnee depuis toujours et n'etait lu NULLE PART. Ajoute au rapport le 09/09/2026:
+    # ce que les clients reprochent a un concurrent = angle de contenu et de vente.
+    revs = load("competitor_reviews.json") or {}
+    lignes = []
+    for nom, r in revs.items():
+        if not isinstance(r, dict):
+            continue
+        issues = r.get("issue_counts") or {}
+        top = sorted(issues.items(), key=lambda kv: -kv[1])[:3]
+        if r.get("complaints") or top:
+            lignes.append(f"  - **{nom}** : {r.get('complaints', 0)} plainte(s) sur "
+                          f"{r.get('total_results', 0)} resultats · "
+                          + ", ".join(f"{m} ×{n}" for m, n in top))
+    if lignes:
+        L.append("**Ce qu'on reproche aux concurrents (matiere a contenu) :**")
+        L.extend(lignes[:5])
+
     dp_n, dp_f = dead_pages()
     if dp_n:
         L.append(f"**Pages mortes a traiter :** {dp_n} (cf {dp_f})")

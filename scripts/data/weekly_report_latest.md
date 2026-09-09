@@ -80,13 +80,16 @@ _⚠️ L'evenement GA4 `generate_lead` se declenche uniquement quand quelqu'un 
   - 796 impr · pos 8.4 · CTR 0.1% (attendu ~4%) · _tokyo gaijin house_
   - 177 impr · pos 9.3 · CTR 0.6% (attendu ~3%) · _jiko bukken_
 
-## 🤖 GEO / IA (pages qui captent le trafic 'AI Assistant')
+## 🤖 GEO / IA (canal prioritaire)
+**📈 106 sessions IA sur 28j** (vs 80 les 28j precedents, +32%)
+**Pages qui captent l'IA (90j) :**
   - 49 sess IA | /en/data
   - 20 sess IA | /en/blog/tokyo-rent-by-neighborhood-2026
   - 17 sess IA | /en/blog/tokyo-rent-report-2026
   - 11 sess IA | /en/blog/share-house-tokyo-guide-2026
   - 10 sess IA | /en/blog/japanese-language-schools-tokyo-guide
   - 9 sess IA | (not set)
+_⚠️ Bing a un onglet 'AI Performance' plus precis, mais il n'est PAS expose par son API (404 verifie le 09/09) : ce chiffre-ci vient du regroupement GA4._
 
 ## 🔗 TRAFIC DE REFERENCE (GA4) — a ne pas confondre avec les backlinks
   - 22 sess | dailytokyo.news
@@ -108,7 +111,7 @@ _⚠️ Ceci mesure le TRAFIC envoye, pas les liens. Un backlink d'autorite n'en
   - pet cost cat tokyo
   - finding a pet sitter in japan
   - low cost pets
-  - rental home frankfurt
+  - les differents modes dhebergement
 
 ## 🔥 VULNERABILITES CONCURRENTS (places a prendre)
   - **gaijinpot.com** chute sur _tokyo apartment hunting abroad_ (nous: #5)
@@ -151,8 +154,14 @@ _Donnees a jour (3 j de decalage, fin 2026-09-06)._
   - _tokyo apartment foreigner documents_ (list) — tokyocheapo.com pos 1
   - _short term apartment tokyo_ (table) — sakura-house.com pos 1
 
-## ⚡ VEILLE
-**Masse de contenu concurrents (top) :** Tokyo Cheapo 6824 · Remoters 5372 · Oak House 5090 · Tofugu 1910 · Sakura House 970
+## ⚡ VEILLE CONCURRENTS
+**Masse de contenu (top) :** Tokyo Cheapo 6824 · Remoters 5372 · Oak House 5090 · Tofugu 1910 · Sakura House 970
+⚠️ **18 scrapers MUETS** (0 publication detectee sur 10 semaines d'affilee = sitemap probablement illisible, PAS un concurrent inactif) : Asian Tigers Japan, City Cost, Crown Relocations JP, Fontaine Relocation, Gaijin House, GaijinPot Housing, Japan Guide, Japan Insiders...
+**Ce qu'on reproche aux concurrents (matiere a contenu) :**
+  - **Remoters** : 2 plainte(s) sur 29 resultats · scam ×3, sale ×2, small ×1
+  - **Sakura House** : 4 plainte(s) sur 28 resultats · noisy ×4, overcrowded ×4, problem ×2
+  - **Oak House** : 0 plainte(s) sur 22 resultats · fee ×2, sale ×2, problem ×1
+  - **GaijinPot Housing** : 1 plainte(s) sur 19 resultats · scam ×2, complaint ×1, bad ×1
 **Pages mortes a traiter :** 8 (cf dead_pages_manual_check_2026-09-07.csv)
 
 ## 🎙️ VOIX DU CLIENT (besoins recurrents des leads)
@@ -166,4 +175,4 @@ _Donnees a jour (3 j de decalage, fin 2026-09-06)._
   - 🔥 garant : 4 contacts
 
 ---
-_Genere par weekly_report.py (lecture seule). Lancer le dimanche. Consolide GA4+GSC+keyword_tracker+snippets+velocity+vulnerabilites+content-gaps+voix-du-client._
+_Genere par weekly_report.py (lecture seule), le MERCREDI en fin de chaine. Consolide GA4+GSC+Bing+keyword_tracker+snippets+velocity+vulnerabilites+content-gaps+voix-du-client. La chaine tourne en silence Telegram: ce rapport est le seul envoi._
