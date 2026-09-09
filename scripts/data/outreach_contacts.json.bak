@@ -1373,22 +1373,5 @@
     "link_obtained": false,
     "added": "2026-07-24",
     "followup_prepared": "2026-07-30"
-  },
-  {
-    "domain": "internationalschools.net",
-    "name": "InternationalSchools.net (Engin Cosar, Managing Director)",
-    "type": "intl_school_directory",
-    "email": "info@internationalschools.net",
-    "approach": "data_section",
-    "da_est": 40,
-    "priority": "high",
-    "pitch": "Section originale de 350-450 mots sur le logement autour des poles d'ecoles internationales, avec loyers medians reels par zone et arbitrages de trajet, creditee Tokyo Expat",
-    "notes": "ENTRANT: il a ecrit le 23/08 via le formulaire du site apres avoir lu le guide 'Best Tokyo Neighbourhoods for Expat Families'. Echange reciproque: son annuaire est dans notre guide (EDITORIAL_DOFOLLOW), notre section de 421 mots est sur sa page Tokyo depuis le 06/09. Offre en cours au 08/09: le meme traitement pour une autre ville.",
-    "status": "linked",
-    "last_contact": "2026-09-08",
-    "response": "publie le 06/09 ('integrates seamlessly'), lien suivi obtenu",
-    "link_obtained": true,
-    "added": "2026-09-09",
-    "emailed_date": "2026-08-25"
   }
 ]
