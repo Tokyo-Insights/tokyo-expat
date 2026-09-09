@@ -766,6 +766,21 @@ def build():
                 L.append(f"  - {g.get('keyword') or g.get('topic') or g.get('title','?')}")
     L.append("")
 
+    # C-bis. GISEMENTS SEO (ajoute 09/09/2026) -- le radar le plus rentable du parc.
+    # gsc_opportunity_miner regroupe les requetes en CLUSTERS et pondere la position par
+    # les impressions. Il ne produisait que du Telegram: en passant la chaine en silence,
+    # on l'aurait purement perdu. Il ecrit desormais gsc_opportunities.json, lu ici.
+    opp = load("gsc_opportunities.json")
+    if opp and opp.get("clusters"):
+        L.append(f"## 💎 GISEMENTS SEO (clusters, {opp.get('days', 90)}j)")
+        L.append("_Requetes regroupees par theme, position ponderee par les impressions. "
+                 "🎯 = page 2-3, donc gagnable._")
+        for c in opp["clusters"][:8]:
+            cible = "🎯" if c.get("winnable") else "  "
+            L.append(f"  {cible} **{c['impressions']} impr** · pos {c['position']} · "
+                     f"{c['variants']} variantes · {c['action']} — _{c['example']}_")
+        L.append("")
+
     # D. VULNERABILITES CONCURRENTS (places a prendre)
     # CORRIGE 09/09/2026: le radar signalait des concurrents en chute sur des mots-cles
     # ou NOUS SOMMES DEJA #1 (2 des 6 items du 09/09). Il ne croisait jamais nos propres

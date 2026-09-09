@@ -58,9 +58,12 @@ python scripts\content_gap.py >> "%LOG_FILE%" 2>&1
 echo [%TIME%] [3/19] Pricing monitor... >> "%LOG_FILE%"
 python scripts\pricing_monitor.py >> "%LOG_FILE%" 2>&1
 
-:: 4. Backlink spy (~2min)
-echo [%TIME%] [4/19] Backlink spy... >> "%LOG_FILE%"
-python scripts\backlink_spy.py >> "%LOG_FILE%" 2>&1
+:: 4. Backlink spy -- COUPE 09/09/2026. CASSE: son message hebdomadaire dit lui-meme
+::    "API OpenLinkProfiler indisponible, verification manuelle requise" et se contente
+::    de lister 6 domaines a aller checker a la main sur Ahrefs. Une alerte qui delegue
+::    entierement son travail au lecteur n'est pas un radar.
+:: echo [%TIME%] [4/19] Backlink spy... >> "%LOG_FILE%"
+:: python scripts\backlink_spy.py >> "%LOG_FILE%" 2>&1
 
 :: 5. Broken link finder -- COUPE 09/09/2026. Les 91 liens "reported" sont des pages
 ::    PRODUIT profondes de concurrents (immeubles Sakura House, versions CN), sans backlink

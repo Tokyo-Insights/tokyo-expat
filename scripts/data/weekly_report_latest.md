@@ -120,6 +120,17 @@ _⚠️ Ceci mesure le TRAFIC envoye, pas les liens. Un backlink d'autorite n'en
   - low cost pets
   - les differents modes dhebergement
 
+## 💎 GISEMENTS SEO (clusters, 90j)
+_Requetes regroupees par theme, position ponderee par les impressions. 🎯 = page 2-3, donc gagnable._
+  🎯 **3851 impr** · pos 27.6 · 7 variantes · OPTIMISER — _furnished apartments in tokyo japan_
+  🎯 **2557 impr** · pos 10.0 · 4 variantes · OPTIMISER — _tokyo gaijin house_
+  🎯 **2174 impr** · pos 9.2 · 1 variantes · OPTIMISER — _cheap gaijin house in tokyo_
+  🎯 **1280 impr** · pos 20.0 · 2 variantes · ECRIRE — _expat apartments tokyo_
+  🎯 **942 impr** · pos 26.3 · 1 variantes · OPTIMISER — _fully furnished apartments tokyo_
+     **1568 impr** · pos 36.1 · 6 variantes · OPTIMISER — _apartments for rent in tokyo furnished_
+  🎯 **515 impr** · pos 13.0 · 2 variantes · OPTIMISER — _jiko bukken_
+  🎯 **364 impr** · pos 19.5 · 2 variantes · OPTIMISER — _social apartments japan_
+
 ## 🔥 VULNERABILITES CONCURRENTS (places a prendre)
   - **gaijinpot.com** chute sur _tokyo apartment hunting abroad_ (nous: #5)
 _✅ 6 vulnerabilite(s) ecartee(s), on y est deja top-3 : logement tokyo expatrie (#1), rent tokyo expat 2026 (#1), louer tokyo sans garant etranger (#3), logement tokyo expatrie (#1), share house tokyo guide 2026 (#1), trouver appartement tokyo etranger (#3)._

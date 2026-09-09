@@ -140,6 +140,31 @@ def main():
         print(f"       theme: {label[:60]}  (ex: \"{top_q}\")")
         lines.append(f"{zone} {impr} impr, pos {pos:.0f}, {variants} variantes -> {action}\n   \"{top_q}\"")
 
+    # SORTIE JSON (ajoutee 09/09/2026) -- INDISPENSABLE.
+    # Ce script ne produisait QUE du Telegram. Depuis que la chaine hebdo tourne en
+    # silence (TE_TELEGRAM_SILENT), son resultat aurait ete purement et simplement
+    # perdu, alors que c'est le radar qui trouve les PLUS GROS gisements du site
+    # (ex. "furnished apartments in tokyo japan": 4515 impressions en position 27).
+    # Le rapport consolide lit maintenant ce fichier.
+    import json as _json
+    import datetime as _dt
+    out = {
+        "generated_at": _dt.date.today().isoformat(),
+        "days": DAYS,
+        "clusters": [
+            {"impressions": impr, "clicks": clicks, "position": round(pos, 1),
+             "variants": len(queries),
+             "action": "OPTIMISER" if covered(s, art_sets) else "ECRIRE",
+             "winnable": bool(STRIKE_LOW <= pos <= STRIKE_HIGH),
+             "example": max(queries, key=lambda x: x[1])[0],
+             "theme": " ".join(sorted(s))}
+            for score, s, impr, clicks, pos, queries in ranked[:12]
+        ],
+    }
+    (Path(__file__).parent / "data" / "gsc_opportunities.json").write_text(
+        _json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"\n[Ecrit: data/gsc_opportunities.json — {len(out['clusters'])} clusters]")
+
     if not do_print and ranked:
         top = "\n".join(lines[:8])
         send_telegram(

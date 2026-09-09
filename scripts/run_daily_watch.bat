@@ -23,9 +23,15 @@ cd /d "%PROJECT_DIR%"
 echo [%TIME%] [0] Gmail morning cleaner... >> "%LOG_FILE%"
 python scripts\gmail_morning_cleaner.py >> "%LOG_FILE%" 2>&1
 
-:: 1. Nouveaux contenus concurrents (sitemaps)
-echo [%TIME%] [1/4] Competitor watch... >> "%LOG_FILE%"
+:: 1. Nouveaux contenus concurrents (sitemaps) -- MIS EN SILENCE le 09/09/2026.
+::    Il envoyait une alerte CHAQUE JOUR (30 en 30 jours, 2e volume du parc) pour dire
+::    des choses comme "Oak House: 3 nouvelles annonces ajoutees": aucune action n'en
+::    decoule. Il continue d'ECRIRE competitor_cache.json, que le rapport du mercredi
+::    lit pour la section veille. On garde la donnee, on supprime la notification.
+set TE_TELEGRAM_SILENT=1
+echo [%TIME%] [1/4] Competitor watch (silencieux)... >> "%LOG_FILE%"
 python scripts\competitor_watch.py >> "%LOG_FILE%" 2>&1
+set TE_TELEGRAM_SILENT=
 
 :: 2. HARO monitor -- DESACTIVE 09/09/2026. Le canal est ferme des DEUX cotes:
 ::    comptes Qwoted/Connectively suspendus, reinscription bloquee par l'exigence de
