@@ -1,0 +1,211 @@
+[2026-09-10  7:06:17.31] Starting daily watch... 
+[ 7:06:17.31] [0] Gmail morning cleaner... 
+C:\Users\alegu\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'api.telegram.org'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+1 email(s) de bruit mis a la corbeille:
+  🗑️ Formspree News <newsletter@formspr | Your Forms Should Have One Job
+[ 7:06:45.35] [1/4] Competitor watch (silencieux)... 
+
+============================================================
+COMPETITOR WATCH - 2026-09-10
+============================================================
+
+Scanning Remoters (editorial)...
+  5313 URLs found
+Scanning GaijinPot Housing (listings)...
+  [WARN] https://housing.gaijinpot.com/sitemap.xml: HTTPSConnectionPool(host='housing.gaijinpot.com', port=443): Max retries exceeded with url: /sitemap.xml (Caused by NameResolutionError("HTTPSConnection(host='housing.gaijinpot.com', port=443): Failed to resolve 'housing.gaijinpot.com' ([Errno 11001] getaddrinfo failed)"))
+  0 URLs found
+Scanning GaijinPot Blog (editorial)...
+  [WARN] https://blog.gaijinpot.com/sitemap.xml: 403 Client Error: Forbidden for url: https://blog.gaijinpot.com/sitemap.xml
+  0 URLs found
+Scanning Sakura House (listings)...
+  970 URLs found
+Scanning Oak House (listings)...
+  5211 URLs found
+  13 new URLs!
+Scanning Fontaine Relocation (editorial)...
+  [WARN] https://fontaine.co.jp/sitemap.xml: HTTPSConnectionPool(host='fontaine.co.jp', port=443): Max retries exceeded with url: /sitemap.xml (Caused by NameResolutionError("HTTPSConnection(host='fontaine.co.jp', port=443): Failed to resolve 'fontaine.co.jp' ([Errno 11001] getaddrinfo failed)"))
+  0 URLs found
+Scanning Tokyo Cheapo (editorial)...
+  6887 URLs found
+  93 new URLs!
+Scanning Savvy Tokyo (editorial)...
+  [WARN] https://savvytokyo.com/sitemap.xml: 403 Client Error: Forbidden for url: https://savvytokyo.com/sitemap.xml
+  0 URLs found
+Scanning Japan Guide (editorial)...
+  [WARN] https://www.japan-guide.com/sitemap.xml: 404 Client Error: Not Found for url: https://www.japan-guide.com/sitemap.xml
+  0 URLs found
+Scanning Japan Property Central (editorial)...
+  [WARN] https://japanpropertycentral.com/sitemap.xml: 404 Client Error: Not Found for url: https://japanpropertycentral.com/sitemap.xml
+  0 URLs found
+Scanning Japan Today (editorial)...
+  [WARN] https://japantoday.com/sitemap.xml: 403 Client Error: Forbidden for url: https://japantoday.com/sitemap.xml
+  0 URLs found
+Scanning City Cost (editorial)...
+  0 URLs found
+Scanning Japan Insiders (editorial)...
+  17 URLs found
+Scanning Tofugu (editorial)...
+  1911 URLs found
+Scanning Time Out Tokyo (editorial)...
+  [WARN] https://www.timeout.com/sitemap.xml: 404 Client Error: Not Found for url: https://www.timeout.com/sitemap.xml
+  0 URLs found
+Scanning Gaijin House (listings)...
+  [WARN] https://www.gaijinhouse.com/sitemap.xml: HTTPSConnectionPool(host='www.gaijinhouse.com', port=443): Max retries exceeded with url: /sitemap.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.gaijinhouse.com', port=443) at 0x2a43e09e010>, 'Connection to www.gaijinhouse.com timed out. (connect timeout=15)'))
+  0 URLs found
+Scanning Tokyo Share House (listings)...
+  [WARN] https://www.tokyosharehouse.com/sitemap.xml: not well-formed (invalid token): line 8, column 42
+  0 URLs found
+Scanning Crown Relocations JP (editorial)...
+  [WARN] https://www.crownrelo.com/sitemap.xml: 403 Client Error: Forbidden for url: https://www.crownrelo.com/sitemap.xml
+  0 URLs found
+Scanning Asian Tigers Japan (editorial)...
+  [WARN] https://www.asiantigers-japan.com/sitemap.xml: HTTPSConnectionPool(host='www.asiantigers-japan.com', port=443): Max retries exceeded with url: /sitemap.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.asiantigers-japan.com', port=443) at 0x2a43e09ee50>, 'Connection to www.asiantigers-japan.com timed out. (connect timeout=15)'))
+  0 URLs found
+Scanning Wise Blog JP (editorial)...
+  [WARN] https://wise.com/sitemap.xml: 404 Client Error: Not Found for url: https://wise.com/sitemap.xml
+  0 URLs found
+Scanning Modern Living Tokyo (editorial)...
+  [WARN] https://www.modernlivingtokyo.com/sitemap.xml: HTTPSConnectionPool(host='www.modernlivingtokyo.com', port=443): Max retries exceeded with url: /sitemap.xml (Caused by NameResolutionError("HTTPSConnection(host='www.modernlivingtokyo.com', port=443): Failed to resolve 'www.modernlivingtokyo.com' ([Errno 11001] getaddrinfo failed)"))
+  0 URLs found
+Scanning Tokyo Furnished (editorial)...
+  [WARN] https://www.tokyofurnished.com/sitemap.xml: HTTPSConnectionPool(host='www.tokyofurnished.com', port=443): Max retries exceeded with url: /sitemap.xml (Caused by NameResolutionError("HTTPSConnection(host='www.tokyofurnished.com', port=443): Failed to resolve 'www.tokyofurnished.com' ([Errno 11001] getaddrinfo failed)"))
+  0 URLs found
+Scanning Vivre Au Japon (editorial)...
+  197 URLs found
+Scanning Japon Online (editorial)...
+  [WARN] https://www.japon-online.fr/sitemap.xml: HTTPSConnectionPool(host='www.japon-online.fr', port=443): Max retries exceeded with url: /sitemap.xml (Caused by NameResolutionError("HTTPSConnection(host='www.japon-online.fr', port=443): Failed to resolve 'www.japon-online.fr' ([Errno 11001] getaddrinfo failed)"))
+  0 URLs found
+
+✅ Telegram alert sent (2 items)
+
+Total indexed: 20492 competitor URLs in cache
+[ 7:07:58.32] [3/4] Seasonal calendar... 
+
+============================================================
+SEASONAL CALENDAR - 2026-09-10
+============================================================
+
+Regle : publier 7 semaines AVANT le pic
+
+2026-10-01 | Pic Q4 expats                  | Publier avant: 2026-08-13 [PUBLIER MAINTENANT - 21j restants avant pic]
+   Article : Appartement meuble Tokyo : les 5 meilleures options pour expatries arr
+
+2026-12-15 | Planification Noel/Nouvel An   | Publier avant: 2026-10-27 [dans 96j]
+   Article : Mon guide complet pour s'expatrier a Tokyo : tout ce que j'aurais voul
+
+2027-02-01 | Annonces affectations pro      | Publier avant: 2026-12-14 [dans 144j]
+   Article : Guide complet : trouver un logement a Tokyo en 2 semaines (pour une mu
+
+2027-03-15 | Pic demenagement Mars          | Publier avant: 2027-01-25 [dans 186j]
+   Article : Checklist demenagement Tokyo : J-30 a J+7 (tout ce qu'il faut preparer
+
+2027-04-01 | Debut annee fiscale            | Publier avant: 2027-02-11 [dans 203j]
+   Article : S'installer a Tokyo en avril : guide pratique semaine par semaine
+
+2027-07-15 | Pre-rentree universitaire      | Publier avant: 2027-05-27 [dans 308j]
+   Article : Logement etudiant a Tokyo pour octobre : share house vs dortoir univer
+
+2027-09-01 | Rentree universitaire          | Publier avant: 2027-07-14 [dans 356j]
+   Article : Trouver un appartement a Tokyo en septembre : ce qui change vs le prin
+
+[SKIP] Article deja publie : Appartement meuble Tokyo : les 5 meilleures options pour exp
+Aucun article saisonnier a ecrire (tout couvert ou hors fenetre). PAS d'alerte Telegram.
+[ 7:07:58.59] [4/5] Proactive analysis... 
+
+============================================================
+ANALYSE PROACTIVE COMPLETE - 2026-09-10
+============================================================
+
+Donnees chargees:
+  Gaps        : OK
+  Keywords    : OK
+  Pricing     : OK
+  Competitors : OK
+  Vulns       : OK
+  Saison      : OK
+
+[DEDUP] Rapport identique envoye il y a moins de 7j. Skip Telegram.
+[ 7:07:58.86] [5/7] Reddit intercept... 
+
+============================================================
+REDDIT INTERCEPT -- 2026-09-10
+============================================================
+
+  Searching: site:reddit.com/r/movingtojapan apartment housing rent tokyo...
+  Searching: site:reddit.com/r/JapanLife housing apartment rent foreigner toky...
+  Searching: site:reddit.com/r/japanfinance apartment rent tokyo foreigner...
+  Searching: site:reddit.com/r/Tokyo find apartment housing rent expat...
+  Searching: site:reddit.com/r/japan housing apartment foreigner share house...
+  Searching: site:reddit.com/r/teachinginjapan apartment housing tokyo rent...
+  Searching: site:reddit.com/r/expats housing apartment tokyo japan...
+  Searching: site:reddit.com/r/digitalnomad apartment housing tokyo japan...
+
+0 posts pertinents trouves
+
+Aucun match. Pas d'alerte envoyee.
+[ 7:08:55.88] [6/8] Brevo welcome drip... 
+Liste 3: 15 contacts
+  (0 ancien(s) contact(s) ignore(s), inscrits avant 2026-06-27)
+
+0 email(s) envoyes.
+[ 7:08:56.97] [6b] Rent index quarterly update (if new version)... 
+Version de l'indice: 2026-07-02
+Liste 3: 15 contacts, dont 1 segment 'lead-magnet-rent-index'.
+
+0 email(s) envoyes pour la version 2026-07-02.
+  (1 nouveau(x) inscrit(s) ignore(s) - deja a jour, 0 deja notifie(s)).
+[ 7:08:57.96] [7/9] Backlink follow-up watcher... 
+[2026-09-10] Aucune relance due.
+[ 7:09:00.38] [8/9] Backlink draft stocker... 
+Aucune cible eligible a stocker (aucune cible email_verified=True en attente).
+[ 7:09:00.64] [9/10] Social Buffer poster (if due)... 
+[FB] Post trop recent (2026-09-06). Skip.
+[LI] Post trop recent (2026-09-06). Skip.
+[ 7:09:00.86] [10/11] Site health canary... 
+Tout vert (21 checks OK). Pas d'alerte (silence = sain).
+[ 7:09:09.72] [10b] Fils partenaires chauds... 
+=== FILS PARTENAIRES CHAUDS — 2026-09-10 ===
+  GaijinBlog (Fernando/Damith)       recu il y a 6j · envoye il y a 1j · nous avons ecrit en dernier
+  Expat Arrivals (Daniel)            recu il y a 19j · envoye il y a 1j · nous avons ecrit en dernier
+  InternationalSchools (Engin)       recu il y a 3j · envoye il y a 1j · nous avons ecrit en dernier
+  UniLife (Shin)                     recu il y a 4j · envoye il y a 1j · nous avons ecrit en dernier
+  Dormy (Kyoritsu)                   recu il y a 5j · envoye il y a 5j · EUX ont ecrit en dernier (transactionnel, pas d'action)
+  PetAir                             recu il y a -j · envoye il y a 1j · nous avons ecrit en dernier
+  Naganuma                           recu il y a -j · envoye il y a 7j · nous avons ecrit en dernier
+  SNG                                recu il y a 5j · envoye il y a 5j · nous avons ecrit en dernier
+  Coto / studyinjapan (Camilla)      recu il y a 6j · envoye il y a 6j · nous avons ecrit en dernier
+
+Rien a signaler (silence = sain).
+[ 7:10:13.57] [11/12] Reddit munition reminder (if due)... 
+C:\Users\alegu\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.reddit.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+Rien a faire (due=True, awaiting=entry-cost-by-ward, reminded_today=True).
+[ 7:10:14.77] [11b] Reddit comment harvester... 
+0 nouveau(x) commentaire(s) capture(s). Total log: 127.
+[ 7:10:46.44] [11c] Subscriber feedback harvester... 
+0 nouvelle(s) reponse(s) recoltee(s). Total: 0. -> Claude en tire des sujets d'articles.
+[ 7:10:48.45] [11d] Reddit cadence reminder (if Wed/Sat)... 
+[ 7:10:48.68] [12/13] GA4 daily report... 
+📊 GA4 - hier
+Sessions: 47 (+2% vs base 7j) 📈
+Utilisateurs: 42 | Vues: 51
+
+Top pays: United States (11), Japan (10), Singapore (8), United Kingdom (4), China (2),  (1)
+Top sources: Direct (19), Unassigned (15), Organic Search (12), Cross-network (4)
+🤖 IA (GEO): 3 session(s) via chatgpt.com, perplexity
+
+Top pages:
+  /fr/blog/cout-avoir-animal-tokyo (7)
+  /fr/blog/pieges-location-tokyo-etrange (4)
+  /en (3)
+  /fr/blog/ouvrir-compte-bancaire-japon- (3)
+  /en/blog/best-neighbourhoods-families- (2)
+
+[Telegram envoye]
+[ 7:10:56.53] [7/7] Thursday briefing... 
+<b>JEUDI CHECK</b> -- 10 Sep 2026
+
+🟢 <b>Buffer queue</b> : 67 posts FB, 67 posts LI restants
+Aucune action HARO/Reddit en attente.
+[ 7:10:57.81] Daily watch complete. 
