@@ -56,8 +56,12 @@ UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
 STALE_AFTER = dt.timedelta(days=3)
 STALE_COOLDOWN = dt.timedelta(days=3)
 # Alerte PROACTIVE "stock bas": prevenir de creer des munitions AVANT que la file se vide.
-LOW_STOCK = 2                                # alerte si <= 2 munitions pretes
-LOW_STOCK_COOLDOWN = dt.timedelta(days=3)    # re-nudge tous les 3j tant que bas (pas de spam quotidien)
+# 09/09/2026: seuil abaisse de 2 a 1 et cooldown porte de 3 a 7 jours. L'alerte etait
+# partie 6 fois en 30 jours pour un stock de 2, soit une cadence de 2 semaines de tir:
+# ce n'etait pas une urgence, c'etait du bruit. A 1 munition restante, ca redevient un
+# vrai signal. (La reserve est remontee a 6 le 08/09.)
+LOW_STOCK = 1                                # alerte si <= 1 munition prete
+LOW_STOCK_COOLDOWN = dt.timedelta(days=7)    # une relance par semaine au plus
 QUEUE = Path(__file__).parent.parent / "outreach" / "reddit_queue.json"
 UTC = dt.timezone.utc
 

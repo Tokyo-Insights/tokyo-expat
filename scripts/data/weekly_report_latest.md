@@ -54,9 +54,13 @@ _⚠️ L'evenement GA4 `generate_lead` se declenche uniquement quand quelqu'un 
 **Vagues montantes (requetes) :**
   - _jiko bukken for sale_ : impr +22, pos 7.9 (stable)
 
-## 📉 CONTENT DECAY (pages en declin — a rafraichir)
+## 📉 PAGES EN BAISSE (decomposees par canal — le total ne dit pas la cause)
   - **-39** sessions (120 -> 81, 28j vs 28j prec.) | /en/data
+      Direct -40 · Organic Search -6 · Organic Social -4 · Unassigned -2 · Referral +3 · AI Assistant +10
+      ✅ **Pas un declin de contenu** : la perte vient de canaux sans valeur (Direct/Social). Le trafic qualifie MONTE (+10).
   - **-11** sessions (24 -> 13, 28j vs 28j prec.) | /en/blog/japan-health-insurance-expat-guide
+      Direct -11 · Organic Search -2 · Unassigned +2
+      ✅ **Pas un declin de contenu** : la perte vient de canaux sans valeur (Direct/Social).
 
 ## 🧲 ENGAGEMENT PAR PAGE
 **Fort trafic, FAIBLE engagement (contenu a ameliorer) :**
@@ -68,7 +72,7 @@ _⚠️ L'evenement GA4 `generate_lead` se declenche uniquement quand quelqu'un 
   - 39 sess · engagement 38% · 110s | /en/blog/share-house-tokyo-guide-2026
 
 ## 🔻 ENTONNOIR DE NAVIGATION (90j) — que des clics, pas des ventes
-  - Clic dans un champ **20** → Email donne **11** (55%) → Clic vers /contact **3** (27%) → Clic sur Calendly **3** (100%)
+  - Clic dans un champ **20** → Email donne **11** (55%) → Clic vers /contact **4** (36%) → Clic sur Calendly **3** (75%)
   _Aucune de ces 4 etapes ne prouve qu'une personne a demande quelque chose. Un clic sur le bouton Calendly n'est pas une reservation: la reservation est comptee dans la section DEMANDE REELLE, depuis les emails Calendly._
   📊 3 clics sur Calendly → **2 reservation(s) reelle(s)** (67%).
 
@@ -107,12 +111,8 @@ _⚠️ Ceci mesure le TRAFIC envoye, pas les liens. Un backlink d'autorite n'en
   - rental home frankfurt
 
 ## 🔥 VULNERABILITES CONCURRENTS (places a prendre)
-  - **remoters.io** chute sur _logement tokyo expatrie_ -> attaquer / verifier notre position
-  - **sakura-house.com** chute sur _rent tokyo expat 2026_ -> attaquer / verifier notre position
-  - **oakhouse.jp** chute sur _louer tokyo sans garant etranger_ -> attaquer / verifier notre position
-  - **sakura-house.com** chute sur _logement tokyo expatrie_ -> attaquer / verifier notre position
-  - **gaijinpot.com** chute sur _tokyo apartment hunting abroad_ -> attaquer / verifier notre position
-  - **sakura-house.com** chute sur _share house tokyo guide 2026_ -> attaquer / verifier notre position
+  - **gaijinpot.com** chute sur _tokyo apartment hunting abroad_ (nous: #5)
+_✅ 6 vulnerabilite(s) ecartee(s), on y est deja top-3 : logement tokyo expatrie (#1), rent tokyo expat 2026 (#1), louer tokyo sans garant etranger (#3), logement tokyo expatrie (#1), share house tokyo guide 2026 (#1), trouver appartement tokyo etranger (#3)._
 
 ## 🏅 NOS POSITIONS (keywords ou on ranke)
 **28 keywords rankes** · le top 3 :
@@ -128,21 +128,22 @@ _⚠️ Ceci mesure le TRAFIC envoye, pas les liens. Un backlink d'autorite n'en
   - #1 · [en] find apartment tokyo foreigner
 
 ## 🅱️ BING (l'index que ChatGPT interroge)
-**7266 impressions · 176 clics · CTR 2.42%** sur 2026-06-28 → 2026-08-30 (798 requetes, 93 pages)
+_Donnees a jour (3 j de decalage, fin 2026-09-06)._
+**8665 impressions · 200 clics · CTR 2.31%** sur 2026-06-28 → 2026-09-06 (881 requetes, 99 pages)
 **Pages fortes sur Bing (souvent PAS les memes que sur Google) :**
-  - 769 impr · 12 clics · pos 6.0 | /en/blog/japan-income-tax-foreigners-guide
-  - 440 impr · 10 clics · pos 5.6 | /en/blog/japanese-apartment-layouts-explained
-  - 431 impr · 2 clics · pos 6.9 | /en/blog/japan-working-holiday-visa-guide-2026
-  - 422 impr · 4 clics · pos 6.4 | /en/blog/residence-card-japan-zairyu-card-guide
-  - 395 impr · 23 clics · pos 4.3 | /en/blog/japan-sim-card-foreigners-2026
-  - 364 impr · 7 clics · pos 5.9 | /fr/blog/pvt-japon-visa-vacances-travail-2026
+  - 917 impr · 14 clics · pos 6.0 | /en/blog/japan-income-tax-foreigners-guide
+  - 543 impr · 26 clics · pos 4.2 | /en/blog/japan-sim-card-foreigners-2026
+  - 513 impr · 10 clics · pos 5.6 | /en/blog/japanese-apartment-layouts-explained
+  - 487 impr · 3 clics · pos 6.9 | /en/blog/japan-working-holiday-visa-guide-2026
+  - 444 impr · 5 clics · pos 6.5 | /en/blog/residence-card-japan-zairyu-card-guide
+  - 404 impr · 9 clics · pos 6.0 | /fr/blog/pvt-japon-visa-vacances-travail-2026
 **Visible sur Bing mais zero clic (titre/description a revoir) :**
-  - 96 impr · pos 7.2 · _pvt japon_
+  - 108 impr · pos 7.2 · _pvt japon_
   - 37 impr · pos 9.6 · _ur housing_
+  - 16 impr · pos 8.9 · _working holiday visa japan_
+  - 16 impr · pos 6.5 · _1ldk meaning_
+  - 16 impr · pos 8.0 · _住宅間図 パーキングスペースと浴場の設置_
   - 15 impr · pos 6.5 · _1ldk_
-  - 14 impr · pos 6.9 · _1ldk meaning_
-  - 13 impr · pos 8.8 · _working holiday visa japan_
-  - 12 impr · pos 7.8 · _zairyu card_
 
 ## 📦 FEATURED SNIPPETS (a voler aux concurrents)
   - _tokyo apartment no guarantor_ (answer_box) — gaijinpot.com pos 3

@@ -211,10 +211,12 @@ def main():
         elif result['links_pending']:
             print(f"{len(result['links_pending'])} lien(s) toujours en attente de moderation. Normal si <7 jours.")
         elif result['threads_found']:
-            send_telegram(
-                f"Expat.com: {len(result['threads_found'])} thread(s) trouves mais statut des liens ambigu.\n"
-                f"Verifie manuellement: {FORUM_TOKYO_URL}"
-            )
+            # 09/09/2026: cette alerte partait chaque semaine (6 fois en 30 jours) pour dire
+            # "je ne sais pas". Une alerte qui ne conclut rien et ne demande rien de precis
+            # est du bruit: elle apprend a ignorer les alertes suivantes, qui elles comptent.
+            # Le constat reste dans les logs; il n'a plus besoin d'un message sur le telephone.
+            print(f"{len(result['threads_found'])} thread(s) trouves, statut des liens ambigu "
+                  f"(pas d'alerte: sans conclusion). Verif manuelle si besoin: {FORUM_TOKYO_URL}")
         else:
             print("Aucun thread Tokyo Expat trouve dans le forum (peut etre en page 2+).")
 

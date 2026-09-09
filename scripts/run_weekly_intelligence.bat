@@ -1,9 +1,21 @@
 @echo off
 :: ============================================================
 :: Tokyo Expat -- Weekly Intelligence Report
-:: Lance: uniquement les lundis (filtre DOW via PowerShell)
+:: Lance: uniquement les MERCREDIS (filtre DOW via PowerShell)
 :: Duree: ~25-35min total
 :: Fix date: PowerShell pour format locale-independant (YYYY/MM/DD sur JP Windows)
+::
+:: === MAJ 09/09/2026 : LUNDI -> MERCREDI, ET SILENCE TELEGRAM ===
+:: Pourquoi le mercredi : le jour d'analyse d'Alessandro a ete deplace au mercredi
+:: le 25/08 (credits Claude frais). La chaine tournait encore le lundi, donc le
+:: rapport du mercredi lisait des donnees vieilles de 2 jours, et une vingtaine
+:: d'alertes tombaient un jour ou rien n'etait prevu pour les lire.
+::
+:: Pourquoi TE_TELEGRAM_SILENT=1 : le rapport consolide ABSORBE ces alertes
+:: (decision du 17/08, jamais appliquee). Le mode silencieux de config.py
+:: JOURNALISE tout sans envoyer -> `notify.py --digest` et le rapport voient
+:: toujours 100% des messages. Rien n'est perdu, seul le telephone se tait.
+:: Le silence est LEVE pour le rapport final, qui est le seul envoi voulu.
 :: ============================================================
 
 set SCRIPT_DIR=%~dp0
@@ -18,14 +30,17 @@ set LOG_FILE=%SCRIPT_DIR%data\log_weekly_%LOG_DATE%.txt
 :: Creer le dossier data si inexistant
 if not exist "%SCRIPT_DIR%data\" mkdir "%SCRIPT_DIR%data\"
 
-:: Filtre lundi uniquement
-if not "%DOW%"=="Monday" (
-    echo [%LOG_DATE% %TIME%] Jour %DOW% - Weekly intelligence reserve aux lundis. Skip. >> "%LOG_FILE%"
+:: Filtre mercredi uniquement (jour d'analyse d'Alessandro depuis le 25/08)
+if not "%DOW%"=="Wednesday" (
+    echo [%LOG_DATE% %TIME%] Jour %DOW% - Weekly intelligence reserve aux mercredis. Skip. >> "%LOG_FILE%"
     exit /b 0
 )
 
-echo [%LOG_DATE% %TIME%] Starting weekly intelligence (lundi)... >> "%LOG_FILE%"
+echo [%LOG_DATE% %TIME%] Starting weekly intelligence (mercredi)... >> "%LOG_FILE%"
 cd /d "%PROJECT_DIR%"
+
+:: Telegram muet pour toute la phase de collecte (tout reste journalise).
+set TE_TELEGRAM_SILENT=1
 
 :: 1. Keyword tracking (~15min)
 echo [%TIME%] [1/19] Keyword tracking... >> "%LOG_FILE%"
@@ -157,7 +172,23 @@ echo [%TIME%] [29/30] Featured snippets attack... >> "%LOG_FILE%"
 python scripts\featured_snippets_attack.py >> "%LOG_FILE%" 2>&1
 
 :: 30. Backup .env chiffre vers OneDrive (1x/semaine suffit)
-echo [%TIME%] [30/30] Backup .env chiffre OneDrive... >> "%LOG_FILE%"
+echo [%TIME%] [30/33] Backup .env chiffre OneDrive... >> "%LOG_FILE%"
 python scripts\backup_env.py >> "%LOG_FILE%" 2>&1
+
+:: 31. BING (ajoute 09/09/2026). N'etait dans AUCUN planificateur alors que Bing
+::     donne ~2x plus de clics que Google (CTR 2,3% vs 0,5%). Le rapport affichait
+::     donc des chiffres figes au dernier lancement manuel.
+echo [%TIME%] [31/33] Bing analytics... >> "%LOG_FILE%"
+python scripts\bing_analytics.py >> "%LOG_FILE%" 2>&1
+
+:: 32. Domaines referents (metrique-phare du master plan, jamais automatisee).
+echo [%TIME%] [32/33] Bing backlinks... >> "%LOG_FILE%"
+python scripts\bing_backlinks.py >> "%LOG_FILE%" 2>&1
+
+:: 33. RAPPORT CONSOLIDE -- le SEUL envoi Telegram voulu de la chaine.
+::     Doit passer en DERNIER: il lit les JSON produits par toutes les etapes.
+echo [%TIME%] [33/33] Rapport hebdo consolide... >> "%LOG_FILE%"
+set TE_TELEGRAM_SILENT=
+python scripts\weekly_report.py --telegram >> "%LOG_FILE%" 2>&1
 
 echo [%TIME%] Weekly intelligence complete. >> "%LOG_FILE%"

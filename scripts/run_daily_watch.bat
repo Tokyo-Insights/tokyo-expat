@@ -27,9 +27,14 @@ python scripts\gmail_morning_cleaner.py >> "%LOG_FILE%" 2>&1
 echo [%TIME%] [1/4] Competitor watch... >> "%LOG_FILE%"
 python scripts\competitor_watch.py >> "%LOG_FILE%" 2>&1
 
-:: 2. HARO monitor (quotidien -- requetes Qwoted/Featured expirent en 24-72h)
-echo [%TIME%] [2/4] HARO monitor... >> "%LOG_FILE%"
-python scripts\haro_monitor.py >> "%LOG_FILE%" 2>&1
+:: 2. HARO monitor -- DESACTIVE 09/09/2026. Le canal est ferme des DEUX cotes:
+::    comptes Qwoted/Connectively suspendus, reinscription bloquee par l'exigence de
+::    headshot (incompatible avec l'aversion d'Alessandro a exposer son visage), et
+::    surtout ZERO digest recu en 30 jours (verifie dans Gmail le 09/09). Le script
+::    ouvrait donc une connexion IMAP chaque jour pour lire des emails qui n'arrivent
+::    plus: 0 alerte en 30 jours. Rallumer le jour ou une plateforme photo-free existe.
+:: echo [%TIME%] [2/4] HARO monitor... >> "%LOG_FILE%"
+:: python scripts\haro_monitor.py >> "%LOG_FILE%" 2>&1
 
 :: 3. Calendrier saisonnier (alerte si fenetre de publication ouverte)
 echo [%TIME%] [3/4] Seasonal calendar... >> "%LOG_FILE%"

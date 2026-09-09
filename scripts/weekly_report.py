@@ -1,6 +1,10 @@
 # -*- coding: utf-8 -*-
 """RAPPORT HEBDO CONSOLIDE tokyo-expat — un seul rapport propre et priorise.
-Remplace les ~15 alertes eparpillees du lundi. A lancer le DIMANCHE (analyse hebdo).
+
+Tourne le MERCREDI, en DERNIERE etape de run_weekly_intelligence.bat (jour d'analyse
+d'Alessandro depuis le 25/08). Il REMPLACE reellement les ~20 alertes de la chaine:
+depuis le 09/09 celle-ci tourne avec TE_TELEGRAM_SILENT=1, donc tout est journalise
+mais rien n'est envoye, et ce rapport est le seul message qui part.
 
 Consolide: GA4 (trafic + LEADS attribues) + GSC (visibilite + striking distance) +
 vulnerabilites concurrents + content gaps. Sortie: rapport markdown propre (scripts/data/)
@@ -215,7 +219,12 @@ def ga4_referrals():
     return [(int(r["metricValues"][0]["value"]), r["dimensionValues"][0]["value"]) for r in rows]
 
 
-# ---------- Dimension 1: CONTENT DECAY (pages qui declinent) ----------
+# ---------- Dimension 1: pages en baisse, DECOMPOSEES PAR CANAL ----------
+# CORRIGE 09/09/2026. Cette section s'appelait "CONTENT DECAY" et concluait "declin"
+# sur un simple delta de sessions. Le 09/09 elle a signale /en/data a -39: en realite
+# -40 de Direct (le trafic Reddit qui s'arrete, jamais converti) et +10 d'IA (+59%).
+# La page ne declinait pas, elle s'assainissait. Un total ne dit RIEN de la cause:
+# on decompose donc par canal avant d'etiqueter quoi que ce soit.
 def ga4_decay():
     def pages(rng):
         return {r["dimensionValues"][0]["value"]: int(r["metricValues"][0]["value"])
@@ -228,6 +237,25 @@ def ga4_decay():
         if p >= 20 and c < p * 0.7:   # avait >=20 sessions, a chute de >30%
             out.append((p - c, p, c, pg))
     return sorted(out, reverse=True)[:6]
+
+
+# Canaux dont la perte n'est PAS un probleme de contenu.
+_CANAUX_SANS_VALEUR = {"Direct", "Organic Social", "Unassigned", "Referral"}
+
+
+def ga4_decay_by_channel(page):
+    """Delta par canal pour UNE page, 28j vs 28j precedents."""
+    def par_canal(rng):
+        return {r["dimensionValues"][0]["value"]: int(r["metricValues"][0]["value"])
+                for r in _ga4(["sessionDefaultChannelGroup"], ["sessions"], [rng],
+                              filt=("landingPagePlusQueryString", page), limit=15)}
+    try:
+        cur = par_canal({"startDate": "28daysAgo", "endDate": "today"})
+        prev = par_canal({"startDate": "56daysAgo", "endDate": "29daysAgo"})
+    except Exception:
+        return None
+    deltas = {c: cur.get(c, 0) - prev.get(c, 0) for c in set(cur) | set(prev)}
+    return dict(sorted(deltas.items(), key=lambda kv: kv[1]))
 
 
 # ---------- Dimension 2: ENGAGEMENT (pages qui retiennent vs perdent) ----------
@@ -529,12 +557,29 @@ def build():
         L.append("_(1er snapshot enregistre — les tendances apparaitront a la prochaine execution)_")
     L.append("")
 
-    # B4. CONTENT DECAY (pages qui declinent -> rafraichir avant qu'elles meurent)
-    L.append("## 📉 CONTENT DECAY (pages en declin — a rafraichir)")
+    # B4. PAGES EN BAISSE, decomposees par canal (cf ga4_decay_by_channel).
+    L.append("## 📉 PAGES EN BAISSE (decomposees par canal — le total ne dit pas la cause)")
     dec = ga4_decay()
     if dec:
         for drop, p, c, pg in dec:
             L.append(f"  - **-{drop}** sessions ({p} -> {c}, 28j vs 28j prec.) | {pg}")
+            parts = ga4_decay_by_channel(pg)
+            if parts:
+                detail = " · ".join(f"{ch} {d:+d}" for ch, d in parts.items() if d)
+                if detail:
+                    L.append(f"      {detail}")
+                perdu_sans_valeur = sum(d for ch, d in parts.items()
+                                        if d < 0 and ch in _CANAUX_SANS_VALEUR)
+                gagne_qualifie = sum(d for ch, d in parts.items()
+                                     if d > 0 and ch not in _CANAUX_SANS_VALEUR)
+                if perdu_sans_valeur and abs(perdu_sans_valeur) >= drop * 0.8:
+                    verdict = ("      ✅ **Pas un declin de contenu** : la perte vient de canaux "
+                               "sans valeur (Direct/Social).")
+                    if gagne_qualifie > 0:
+                        verdict += f" Le trafic qualifie MONTE ({gagne_qualifie:+d})."
+                    L.append(verdict)
+                else:
+                    L.append("      ⚠️ Baisse sur du trafic qualifie : la, oui, regarder le contenu.")
     else:
         L.append("_(aucune chute significative)_")
     L.append("")
@@ -636,20 +681,40 @@ def build():
     L.append("")
 
     # D. VULNERABILITES CONCURRENTS (places a prendre)
+    # CORRIGE 09/09/2026: le radar signalait des concurrents en chute sur des mots-cles
+    # ou NOUS SOMMES DEJA #1 (2 des 6 items du 09/09). Il ne croisait jamais nos propres
+    # positions. On les croise ici: une place deja tenue n'est pas une place a prendre.
+    kp = keyword_positions()
+
+    def _norm(s):
+        return "".join(ch for ch in str(s).lower() if ch.isalnum() or ch == " ").strip()
+
+    nos_positions = {_norm(kw): p for kw, _l, p in kp}
+
     L.append("## 🔥 VULNERABILITES CONCURRENTS (places a prendre)")
     if vuln:
         vlist = vuln if isinstance(vuln, list) else vuln.get("items", [])
-        for v in vlist[:6]:
-            if isinstance(v, dict):
-                comp = v.get("competitor") or v.get("domain", "?")
-                kw = v.get("keyword", "?")
-                L.append(f"  - **{comp}** chute sur _{kw}_ -> attaquer / verifier notre position")
+        a_prendre, deja_tenues = [], []
+        for v in vlist:
+            if not isinstance(v, dict):
+                continue
+            comp = v.get("competitor") or v.get("domain", "?")
+            kw = v.get("keyword", "?")
+            ma_pos = nos_positions.get(_norm(kw))
+            (deja_tenues if (ma_pos and ma_pos <= 3) else a_prendre).append((comp, kw, ma_pos))
+        for comp, kw, ma_pos in a_prendre[:6]:
+            ou = f" (nous: #{ma_pos})" if ma_pos else " (position inconnue, a verifier)"
+            L.append(f"  - **{comp}** chute sur _{kw}_{ou}")
+        if deja_tenues:
+            L.append(f"_✅ {len(deja_tenues)} vulnerabilite(s) ecartee(s), on y est deja top-3 : "
+                     + ", ".join(f"{kw} (#{p})" for _c, kw, p in deja_tenues) + "._")
+        if not a_prendre:
+            L.append("_(aucune place reellement a prendre : tout est deja tenu)_")
     else:
         L.append("_(aucune)_")
     L.append("")
     # D. NOS POSITIONS (remplace le KEYWORD REPORT du lundi)
     L.append("## 🏅 NOS POSITIONS (keywords ou on ranke)")
-    kp = keyword_positions()
     if kp:
         top = [r for r in kp if r[2] <= 3][:10]
         L.append(f"**{len(kp)} keywords rankes** · le top 3 :")
@@ -665,6 +730,24 @@ def build():
     if bing and bing.get("totals", {}).get("impressions"):
         bt, bp = bing["totals"], bing.get("period", {})
         L.append("## 🅱️ BING (l'index que ChatGPT interroge)")
+        # CONTROLE DE FRAICHEUR (ajoute 09/09/2026). Ce bloc affichait des chiffres
+        # sans jamais dire de quand ils dataient: le 09/09 il servait des donnees
+        # arretees au 30/08 comme si elles etaient courantes, parce que
+        # bing_analytics.py n'etait dans aucun planificateur.
+        retard = None
+        try:
+            fin = dt.date.fromisoformat(str(bp.get("to", ""))[:10])
+            retard = (dt.date.today() - fin).days
+        except Exception:
+            pass
+        if retard is None:
+            L.append("⚠️ **Fraicheur inconnue** : impossible de lire la periode. Lancer `bing_analytics.py`.")
+        elif retard > 7:
+            L.append(f"🚨 **DONNEES PERIMEES : {retard} jours de retard** (fin de periode "
+                     f"{bp.get('to')}). Ne pas conclure sur ces chiffres, relancer "
+                     f"`python scripts/bing_analytics.py`.")
+        else:
+            L.append(f"_Donnees a jour ({retard} j de decalage, fin {bp.get('to')})._")
         L.append(f"**{bt['impressions']} impressions · {bt['clicks']} clics · "
                  f"CTR {bing.get('ctr_pct', 0)}%** sur {bp.get('from', '?')} → {bp.get('to', '?')} "
                  f"({bing.get('queries_total', 0)} requetes, {bing.get('pages_total', 0)} pages)")
@@ -709,7 +792,7 @@ def build():
         L.append("_(lancer scripts/customer_signals.py pour alimenter)_")
     L.append("")
 
-    L.append("---\n_Genere par weekly_report.py (lecture seule). Lancer le dimanche. Consolide GA4+GSC+keyword_tracker+snippets+velocity+vulnerabilites+content-gaps+voix-du-client._")
+    L.append("---\n_Genere par weekly_report.py (lecture seule), le MERCREDI en fin de chaine. Consolide GA4+GSC+Bing+keyword_tracker+snippets+velocity+vulnerabilites+content-gaps+voix-du-client. La chaine tourne en silence Telegram: ce rapport est le seul envoi._")
 
     # ---- Dashboard HTML (memes donnees, genere automatiquement) ----
     try:

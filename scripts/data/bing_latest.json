@@ -1,31 +1,52 @@
 {
-  "generated_at": "2026-09-02",
+  "generated_at": "2026-09-09",
   "site": "https://tokyo-expat.com/",
   "totals": {
-    "impressions": 7266,
-    "clicks": 176
+    "impressions": 8665,
+    "clicks": 200
   },
-  "points": 64,
+  "points": 71,
   "top_queries": [
     {
       "query": "pvt japon",
-      "impressions": 96,
+      "impressions": 108,
       "clicks": 0,
       "position": 7.2,
       "ctr_pct": 0.0
     },
     {
       "query": "jiko bukken",
-      "impressions": 61,
+      "impressions": 63,
       "clicks": 1,
-      "position": 6.5,
-      "ctr_pct": 1.64
+      "position": 6.4,
+      "ctr_pct": 1.59
     },
     {
       "query": "ur housing",
       "impressions": 37,
       "clicks": 0,
       "position": 9.6,
+      "ctr_pct": 0.0
+    },
+    {
+      "query": "working holiday visa japan",
+      "impressions": 16,
+      "clicks": 0,
+      "position": 8.9,
+      "ctr_pct": 0.0
+    },
+    {
+      "query": "1ldk meaning",
+      "impressions": 16,
+      "clicks": 0,
+      "position": 6.5,
+      "ctr_pct": 0.0
+    },
+    {
+      "query": "住宅間図 パーキングスペースと浴場の設置",
+      "impressions": 16,
+      "clicks": 0,
+      "position": 8.0,
       "ctr_pct": 0.0
     },
     {
@@ -36,31 +57,31 @@
       "ctr_pct": 0.0
     },
     {
-      "query": "1ldk meaning",
+      "query": "social apartment tokyo",
       "impressions": 14,
       "clicks": 0,
-      "position": 6.9,
-      "ctr_pct": 0.0
-    },
-    {
-      "query": "working holiday visa japan",
-      "impressions": 13,
-      "clicks": 0,
-      "position": 8.8,
+      "position": 4.4,
       "ctr_pct": 0.0
     },
     {
       "query": "zairyu card",
-      "impressions": 12,
+      "impressions": 14,
       "clicks": 0,
-      "position": 7.8,
+      "position": 7.6,
       "ctr_pct": 0.0
     },
     {
-      "query": "social apartment tokyo",
-      "impressions": 11,
+      "query": "japanese resident card",
+      "impressions": 12,
       "clicks": 0,
-      "position": 3.9,
+      "position": 7.3,
+      "ctr_pct": 0.0
+    },
+    {
+      "query": "japan income tax",
+      "impressions": 12,
+      "clicks": 0,
+      "position": 6.6,
       "ctr_pct": 0.0
     },
     {
@@ -78,24 +99,10 @@
       "ctr_pct": 0.0
     },
     {
-      "query": "japanese resident card",
-      "impressions": 10,
-      "clicks": 0,
-      "position": 6.8,
-      "ctr_pct": 0.0
-    },
-    {
       "query": "how to transfer indonesian salary to japanese bank account?",
       "impressions": 10,
       "clicks": 0,
       "position": 3.0,
-      "ctr_pct": 0.0
-    },
-    {
-      "query": "japan income tax",
-      "impressions": 9,
-      "clicks": 0,
-      "position": 7.1,
       "ctr_pct": 0.0
     },
     {
@@ -106,10 +113,24 @@
       "ctr_pct": 0.0
     },
     {
+      "query": "tips for negotiating rent in 2025",
+      "impressions": 8,
+      "clicks": 1,
+      "position": 4.0,
+      "ctr_pct": 12.5
+    },
+    {
       "query": "tokyo fully furnished house for rent 2026",
       "impressions": 8,
       "clicks": 0,
       "position": 4.0,
+      "ctr_pct": 0.0
+    },
+    {
+      "query": "insurance plans in japan",
+      "impressions": 8,
+      "clicks": 0,
+      "position": 7.8,
       "ctr_pct": 0.0
     },
     {
@@ -160,100 +181,86 @@
       "clicks": 0,
       "position": 3.0,
       "ctr_pct": 0.0
-    },
-    {
-      "query": "tokyo student apartment rent average 2026 waseda sophia commute nearby suburbs",
-      "impressions": 8,
-      "clicks": 0,
-      "position": 5.0,
-      "ctr_pct": 0.0
-    },
-    {
-      "query": "tokyo furnished 1k 1dk apartment rent monthly expat 2026",
-      "impressions": 8,
-      "clicks": 0,
-      "position": 3.0,
-      "ctr_pct": 0.0
-    },
-    {
-      "query": "shared room accommodation costs in tokyo for international students",
-      "impressions": 7,
-      "clicks": 0,
-      "position": 5.0,
-      "ctr_pct": 0.0
     }
   ],
   "period": {
     "from": "2026-06-28",
-    "to": "2026-08-30",
-    "days": 64
+    "to": "2026-09-06",
+    "days": 71
   },
-  "ctr_pct": 2.42,
-  "queries_total": 798,
-  "pages_total": 93,
+  "ctr_pct": 2.31,
+  "queries_total": 881,
+  "pages_total": 99,
   "top_pages": [
     {
       "query": "https://www.tokyo-expat.com/en/blog/japan-income-tax-foreigners-guide",
-      "impressions": 769,
-      "clicks": 12,
+      "impressions": 917,
+      "clicks": 14,
       "position": 6.0,
-      "ctr_pct": 1.56
-    },
-    {
-      "query": "https://www.tokyo-expat.com/en/blog/japanese-apartment-layouts-explained",
-      "impressions": 440,
-      "clicks": 10,
-      "position": 5.6,
-      "ctr_pct": 2.27
-    },
-    {
-      "query": "https://www.tokyo-expat.com/en/blog/japan-working-holiday-visa-guide-2026",
-      "impressions": 431,
-      "clicks": 2,
-      "position": 6.9,
-      "ctr_pct": 0.46
-    },
-    {
-      "query": "https://www.tokyo-expat.com/en/blog/residence-card-japan-zairyu-card-guide",
-      "impressions": 422,
-      "clicks": 4,
-      "position": 6.4,
-      "ctr_pct": 0.95
+      "ctr_pct": 1.53
     },
     {
       "query": "https://www.tokyo-expat.com/en/blog/japan-sim-card-foreigners-2026",
-      "impressions": 395,
-      "clicks": 23,
-      "position": 4.3,
-      "ctr_pct": 5.82
+      "impressions": 543,
+      "clicks": 26,
+      "position": 4.2,
+      "ctr_pct": 4.79
+    },
+    {
+      "query": "https://www.tokyo-expat.com/en/blog/japanese-apartment-layouts-explained",
+      "impressions": 513,
+      "clicks": 10,
+      "position": 5.6,
+      "ctr_pct": 1.95
+    },
+    {
+      "query": "https://www.tokyo-expat.com/en/blog/japan-working-holiday-visa-guide-2026",
+      "impressions": 487,
+      "clicks": 3,
+      "position": 6.9,
+      "ctr_pct": 0.62
+    },
+    {
+      "query": "https://www.tokyo-expat.com/en/blog/residence-card-japan-zairyu-card-guide",
+      "impressions": 444,
+      "clicks": 5,
+      "position": 6.5,
+      "ctr_pct": 1.13
     },
     {
       "query": "https://www.tokyo-expat.com/fr/blog/pvt-japon-visa-vacances-travail-2026",
-      "impressions": 364,
-      "clicks": 7,
-      "position": 5.9,
-      "ctr_pct": 1.92
-    },
-    {
-      "query": "https://www.tokyo-expat.com/en/blog/send-money-to-japan-from-abroad",
-      "impressions": 174,
-      "clicks": 6,
-      "position": 4.3,
-      "ctr_pct": 3.45
+      "impressions": 404,
+      "clicks": 9,
+      "position": 6.0,
+      "ctr_pct": 2.23
     },
     {
       "query": "https://www.tokyo-expat.com/en/blog/japan-health-insurance-expat-guide",
-      "impressions": 174,
-      "clicks": 3,
-      "position": 5.3,
-      "ctr_pct": 1.72
+      "impressions": 240,
+      "clicks": 5,
+      "position": 5.2,
+      "ctr_pct": 2.08
+    },
+    {
+      "query": "https://www.tokyo-expat.com/en/blog/send-money-to-japan-from-abroad",
+      "impressions": 209,
+      "clicks": 9,
+      "position": 4.4,
+      "ctr_pct": 4.31
     },
     {
       "query": "https://www.tokyo-expat.com/en/blog/bringing-pets-to-japan-guide",
-      "impressions": 111,
+      "impressions": 123,
       "clicks": 3,
-      "position": 6.7,
-      "ctr_pct": 2.7
+      "position": 6.6,
+      "ctr_pct": 2.44
+    },
+    {
+      "query": "https://www.tokyo-expat.com/en/blog/japanese-language-schools-tokyo-guide",
+      "impressions": 102,
+      "clicks": 9,
+      "position": 4.2,
+      "ctr_pct": 8.82
     },
     {
       "query": "https://www.tokyo-expat.com/en/blog/student-housing-tokyo-guide",
@@ -270,73 +277,66 @@
       "ctr_pct": 3.37
     },
     {
-      "query": "https://www.tokyo-expat.com/en/blog/japanese-language-schools-tokyo-guide",
-      "impressions": 75,
-      "clicks": 6,
-      "position": 3.9,
-      "ctr_pct": 8.0
-    },
-    {
       "query": "https://www.tokyo-expat.com/en/blog/jiko-bukken-cheap-apartments-tokyo",
-      "impressions": 72,
-      "clicks": 3,
-      "position": 6.0,
-      "ctr_pct": 4.17
-    },
-    {
-      "query": "https://www.tokyo-expat.com/en/blog/tokyo-public-transport-expat-guide",
-      "impressions": 69,
-      "clicks": 0,
-      "position": 6.9,
-      "ctr_pct": 0.0
+      "impressions": 78,
+      "clicks": 4,
+      "position": 5.8,
+      "ctr_pct": 5.13
     },
     {
       "query": "https://www.tokyo-expat.com/fr/blog/impots-revenus-japon-expatrie-2026",
-      "impressions": 68,
-      "clicks": 4,
-      "position": 3.1,
-      "ctr_pct": 5.88
-    },
-    {
-      "query": "https://www.tokyo-expat.com/fr/blog/visa-travail-japon-francophone-2026",
-      "impressions": 55,
-      "clicks": 1,
-      "position": 5.2,
-      "ctr_pct": 1.82
-    },
-    {
-      "query": "https://www.tokyo-expat.com/en/blog/share-house-tokyo-guide-2026",
-      "impressions": 53,
+      "impressions": 76,
       "clicks": 6,
-      "position": 3.0,
-      "ctr_pct": 11.32
+      "position": 3.2,
+      "ctr_pct": 7.89
+    },
+    {
+      "query": "https://www.tokyo-expat.com/en/blog/tokyo-public-transport-expat-guide",
+      "impressions": 73,
+      "clicks": 1,
+      "position": 6.9,
+      "ctr_pct": 1.37
     },
     {
       "query": "https://www.tokyo-expat.com/en/blog/open-bank-account-japan-foreigner",
-      "impressions": 43,
+      "impressions": 60,
       "clicks": 3,
-      "position": 5.2,
-      "ctr_pct": 6.98
+      "position": 5.5,
+      "ctr_pct": 5.0
+    },
+    {
+      "query": "https://www.tokyo-expat.com/en/blog/share-house-tokyo-guide-2026",
+      "impressions": 57,
+      "clicks": 7,
+      "position": 3.1,
+      "ctr_pct": 12.28
+    },
+    {
+      "query": "https://www.tokyo-expat.com/fr/blog/visa-travail-japon-francophone-2026",
+      "impressions": 56,
+      "clicks": 1,
+      "position": 5.3,
+      "ctr_pct": 1.79
     },
     {
       "query": "https://www.tokyo-expat.com/en/blog/convert-foreign-driving-licence-japan",
-      "impressions": 40,
+      "impressions": 43,
       "clicks": 3,
-      "position": 6.9,
-      "ctr_pct": 7.5
+      "position": 6.7,
+      "ctr_pct": 6.98
     },
     {
-      "query": "https://www.tokyo-expat.com/en/blog/japan-digital-nomad-visa-2026",
-      "impressions": 37,
-      "clicks": 0,
-      "position": 7.1,
-      "ctr_pct": 0.0
+      "query": "https://www.tokyo-expat.com/en/blog/bank-transfer-japan-furikomi-guide",
+      "impressions": 42,
+      "clicks": 1,
+      "position": 5.0,
+      "ctr_pct": 2.38
     }
   ],
   "striking_distance": [
     {
       "query": "pvt japon",
-      "impressions": 96,
+      "impressions": 108,
       "clicks": 0,
       "position": 7.2,
       "ctr_pct": 0.0
@@ -349,6 +349,27 @@
       "ctr_pct": 0.0
     },
     {
+      "query": "working holiday visa japan",
+      "impressions": 16,
+      "clicks": 0,
+      "position": 8.9,
+      "ctr_pct": 0.0
+    },
+    {
+      "query": "1ldk meaning",
+      "impressions": 16,
+      "clicks": 0,
+      "position": 6.5,
+      "ctr_pct": 0.0
+    },
+    {
+      "query": "住宅間図 パーキングスペースと浴場の設置",
+      "impressions": 16,
+      "clicks": 0,
+      "position": 8.0,
+      "ctr_pct": 0.0
+    },
+    {
       "query": "1ldk",
       "impressions": 15,
       "clicks": 0,
@@ -356,31 +377,31 @@
       "ctr_pct": 0.0
     },
     {
-      "query": "1ldk meaning",
+      "query": "social apartment tokyo",
       "impressions": 14,
       "clicks": 0,
-      "position": 6.9,
-      "ctr_pct": 0.0
-    },
-    {
-      "query": "working holiday visa japan",
-      "impressions": 13,
-      "clicks": 0,
-      "position": 8.8,
+      "position": 4.4,
       "ctr_pct": 0.0
     },
     {
       "query": "zairyu card",
-      "impressions": 12,
+      "impressions": 14,
       "clicks": 0,
-      "position": 7.8,
+      "position": 7.6,
       "ctr_pct": 0.0
     },
     {
-      "query": "social apartment tokyo",
-      "impressions": 11,
+      "query": "japanese resident card",
+      "impressions": 12,
       "clicks": 0,
-      "position": 3.9,
+      "position": 7.3,
+      "ctr_pct": 0.0
+    },
+    {
+      "query": "japan income tax",
+      "impressions": 12,
+      "clicks": 0,
+      "position": 6.6,
       "ctr_pct": 0.0
     },
     {
@@ -398,24 +419,10 @@
       "ctr_pct": 0.0
     },
     {
-      "query": "japanese resident card",
-      "impressions": 10,
-      "clicks": 0,
-      "position": 6.8,
-      "ctr_pct": 0.0
-    },
-    {
       "query": "how to transfer indonesian salary to japanese bank account?",
       "impressions": 10,
       "clicks": 0,
       "position": 3.0,
-      "ctr_pct": 0.0
-    },
-    {
-      "query": "japan income tax",
-      "impressions": 9,
-      "clicks": 0,
-      "position": 7.1,
       "ctr_pct": 0.0
     },
     {
@@ -427,13 +434,6 @@
     },
     {
       "query": "tokyo fully furnished house for rent 2026",
-      "impressions": 8,
-      "clicks": 0,
-      "position": 4.0,
-      "ctr_pct": 0.0
-    },
-    {
-      "query": "pays éligibles visa vacances-travail japon 2026",
       "impressions": 8,
       "clicks": 0,
       "position": 4.0,
@@ -760,6 +760,41 @@
       "date": "2026-08-30",
       "impressions": 155,
       "clicks": 4
+    },
+    {
+      "date": "2026-08-31",
+      "impressions": 205,
+      "clicks": 9
+    },
+    {
+      "date": "2026-09-01",
+      "impressions": 197,
+      "clicks": 5
+    },
+    {
+      "date": "2026-09-02",
+      "impressions": 256,
+      "clicks": 3
+    },
+    {
+      "date": "2026-09-03",
+      "impressions": 197,
+      "clicks": 3
+    },
+    {
+      "date": "2026-09-04",
+      "impressions": 154,
+      "clicks": 3
+    },
+    {
+      "date": "2026-09-05",
+      "impressions": 121,
+      "clicks": 0
+    },
+    {
+      "date": "2026-09-06",
+      "impressions": 269,
+      "clicks": 1
     }
   ]
 }
