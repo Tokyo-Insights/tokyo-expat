@@ -3706,6 +3706,8 @@ La gestion du temps est cruciale pour le logement étudiant à Tokyo :
 - **1 à 2 mois avant :** réserver votre logement, préparer les documents requis (lettre d'admission, preuve de visa étudiant)
 - **À l'arrivée :** activation du contrat, remise des clés, enregistrement à la mairie (obligatoire dans les 14 jours)
 
+⚠️ **Ce rétroplanning est celui des dortoirs universitaires. Le marché privé est plus rapide.** D'après les opérateurs de résidences étudiantes avec qui je suis en contact, les chambres pour une entrée en **avril** se libèrent dès **septembre-octobre de l'année précédente**, et fin janvier il ne reste presque plus rien. Si vous visez avril, la ligne « 1 à 2 mois avant » ci-dessus vous fera arriver après tout le monde. Le détail des deux rentrées est dans notre article [quand réserver sa chambre étudiante à Tokyo](/blog/logement-etudiant-tokyo-octobre).
+
 Commencer tôt est important. Les meilleures chambres dans les share houses prisés partent plusieurs semaines à l'avance, notamment pour les rentrées de septembre et d'avril.
 
 
@@ -3836,6 +3838,8 @@ Time management is critical for student housing in Tokyo:
 - **3 months out:** if dorm not confirmed, start searching for a share house or furnished apartment
 - **1 to 2 months out:** book your housing, prepare required documents (admission letter, proof of student visa)
 - **On arrival:** activate contract, collect keys, register at the local city hall (required within 14 days of arrival)
+
+⚠️ **That schedule is the university dormitory one. The private market moves faster.** According to the student housing operators I deal with, rooms for an **April** entry start opening up from **September and October of the previous year**, and by late January there is almost nothing left. If you are aiming for April, the "1 to 2 months out" line above will get you there after everyone else. The full calendar for both intakes is in our article on [when to book your student room in Tokyo](/blog/student-housing-tokyo-october).
 
 Starting early matters. The best rooms in popular share houses go weeks in advance, especially for September and April intakes.
 
@@ -7832,16 +7836,47 @@ Pour votre couverture sante pendant votre PVT, [SafetyWing Nomad Insurance](http
   {
     slug: 'logement-etudiant-tokyo-octobre',
     locale: 'fr',
-    title: 'Logement étudiant à Tokyo pour octobre : share house ou dortoir ?',
-    description: 'Rentrée universitaire d\'octobre au Japon ? Comparatif complet share house vs dortoir à Tokyo, coûts réels 2026 et délais à respecter pour trouver avant d\'arriver.',
+    title: 'Logement étudiant à Tokyo : quand réserver sa chambre',
+    description: 'Les chambres pour la rentrée d\'avril se libèrent dès septembre, et fin janvier tout est pris. Le calendrier réel des réservations étudiantes à Tokyo.',
     date: '2026-06-23',
-    readingTime: '7 min',
+    updated: '2026-09-11',
+    readingTime: '8 min',
     content: `
-Les programmes universitaires japonais à rentrée d'octobre se multiplient : masters en anglais, écoles de langue, programmes d'échange au second semestre. Si vous arrivez à Tokyo en octobre, la question du logement se pose dès maintenant. Les meilleures options se réservent 6 à 8 semaines à l'avance.
+La plupart des guides vous expliquent quoi choisir entre un dortoir et une share house. Presque aucun ne vous dit **quand** vous y prendre. C'est pourtant ce qui décide du résultat : un étudiant qui s'y met au bon moment choisit dans un catalogue complet, celui qui s'y met deux mois trop tard choisit dans ce qui reste.
 
-**Réponse rapide :** Pour une rentrée d'octobre à Tokyo, visez une share house ou un dortoir universitaire : sans garant, meublés, candidature en ligne depuis l'étranger. Cherchez dès juillet-août, car les places partent vite avant octobre. Comptez 40 000 à 80 000 JPY par mois en share house, souvent charges incluses.
+**Réponse rapide :** Pour une entrée en **avril**, la rentrée principale au Japon, les chambres commencent à se libérer dès **septembre-octobre de l'année précédente**, et fin janvier il ne reste presque plus rien. Pour une entrée en **septembre-octobre**, la fenêtre s'ouvre vers **juillet**. Dans les deux cas, la bonne règle est de réserver dès réception de votre lettre d'admission (合格通知書), pas d'attendre d'avoir votre visa.
 
-Deux choix s'offrent à la grande majorité des étudiants : le dortoir universitaire, encadré mais limité, et le share house, plus flexible mais plus cher. Ce guide vous aide à choisir.
+## Le calendrier réel des disponibilités
+
+Voici les périodes que m'indiquent les opérateurs de résidences étudiantes avec qui je suis en contact à Tokyo. Elles ne correspondent pas au calendrier que les étudiants imaginent, et c'est précisément là que se joue l'écart.
+
+| Entrée visée | Les chambres se libèrent | Moment critique |
+|---|---|---|
+| **Avril** (rentrée principale) | dès **septembre-octobre** de l'année précédente | **fin janvier : presque tout est pris** |
+| Septembre / octobre | à partir de **juillet** environ | septembre : le catalogue est entamé |
+
+Deux conséquences pratiques. D'abord, si vous visez avril, la période utile commence **un à deux trimestres avant** le moment où la plupart des étudiants commencent à chercher. Ensuite, si vous nous consultez en janvier pour une entrée en avril, vous êtes déjà en retard, et mieux vaut le savoir tout de suite que de lancer une recherche qui échouera.
+
+**Le déclencheur, ce n'est pas le visa.** Beaucoup d'étudiants attendent leur certificat d'éligibilité ou leur visa avant de chercher un logement. C'est trop tard. Le signal à retenir est la **lettre d'admission** : dès que vous l'avez, vous pouvez engager la réservation, et c'est ce que recommandent les opérateurs eux-mêmes.
+
+*Une précision d'honnêteté : ce calendrier m'a été donné par des opérateurs de résidences étudiantes, pas par une statistique de marché. Il décrit ce que font ces opérateurs. Les dortoirs universitaires, eux, suivent le calendrier administratif de chaque université, décrit plus bas.*
+
+## Rentrée d'avril : pourquoi septembre est le bon moment
+
+Avril est la rentrée principale du système japonais, celle où arrive le gros des effectifs. La conséquence est mécanique : c'est aussi la rentrée où la demande de logement est la plus forte, et où le stock part le plus vite.
+
+- **Septembre-octobre** : les chambres de la promotion sortante commencent à être remises sur le marché. C'est la fenêtre où le choix est maximal, en quartier comme en budget.
+- **Novembre-décembre** : le catalogue reste correct, mais les chambres bien situées et les moins chères partent en premier.
+- **Fin janvier** : d'après les opérateurs, il ne reste quasiment plus rien. Ce qui subsiste est en général plus cher, plus loin, ou les deux.
+- **Février-mars** : vous cherchez dans les annulations et les désistements.
+
+Si vous lisez ceci en septembre ou en octobre pour une entrée en avril prochain, vous êtes exactement au bon moment. C'est rare, et ça ne durera que quelques semaines.
+
+## Rentrée de septembre-octobre : la fenêtre de juillet
+
+Les programmes à rentrée d'automne se multiplient : masters en anglais, écoles de langue, échanges au second semestre. Le rythme est le même, décalé.
+
+Les chambres se libèrent à partir de **juillet** environ. En pratique, les meilleures partent fin juillet et début août. Attendre septembre, c'est se retrouver avec le fond du catalogue au moment précis où l'on a le moins de temps pour visiter.
 
 ## Les dortoirs universitaires à Tokyo
 
@@ -7857,7 +7892,7 @@ Les universités japonaises proposent des résidences pour étudiants internatio
 - **Places limitées** : la plupart des universités ne peuvent pas loger tous leurs étudiants internationaux. Les listes d'attente existent. Ne comptez pas dessus sans confirmation écrite.
 - **Règles strictes** : heure de rentrée (couvre-feu dans certaines résidences), interdiction d'invités, règles de bruit, durée maximale de séjour (souvent 1 ou 2 ans).
 - **Localisation parfois excentrée** : les campus hors centre-ville impliquent 45 à 90 minutes de trajet aller-retour chaque jour.
-- **Délai de candidature** : le bureau des logements accepte les demandes 3 à 4 mois avant l'entrée. Pour octobre, c'est maintenant. Certains dossiers se clôturent en juillet.
+- **Délai de candidature** : le bureau des logements accepte en général les demandes 3 à 4 mois avant l'entrée, et certains dossiers se clôturent bien plus tôt. Attention, ce calendrier universitaire est **plus tardif** que celui des opérateurs privés décrit plus haut : ne prenez pas la date limite du dortoir pour la date limite du marché. Si vous ratez le dortoir en janvier pour une entrée en avril, le privé sera déjà épuisé lui aussi.
 
 **Comment s'inscrire :**
 Contactez le bureau des affaires étudiantes (International Student Office) de votre université dès que votre admission est confirmée. Demandez explicitement la liste d'attente pour le dortoir, même si les places affichées sont épuisées. Des désistements arrivent jusqu'à 3 semaines avant la rentrée.
@@ -7897,7 +7932,7 @@ Le share house est une maison ou un appartement partagé entre plusieurs réside
 | Garant exigé | Non | Non |
 | Invités autorisés | Rarement | Selon règlement |
 
-**Budget mensuel réaliste à Tokyo pour un étudiant (octobre 2026) :**
+**Budget mensuel réaliste à Tokyo pour un étudiant (2026) :**
 - Logement (share house) : 65 000 JPY
 - Nourriture : 35 000 à 50 000 JPY
 - Transport (commute + sorties) : 8 000 à 15 000 JPY
@@ -7918,42 +7953,73 @@ Le share house est une maison ou un appartement partagé entre plusieurs réside
 - Vous préférez un environnement social mixte (Japonais + internationaux)
 - Vous n'avez pas de garant japonais (le share house n'en demande pas)
 
-## Comment trouver avant d'arriver au Japon
+## Comment réserver depuis l'étranger
 
-La recherche depuis l'étranger est possible et recommandée. Voici la démarche qui fonctionne :
+La recherche à distance est possible et recommandée. La démarche qui fonctionne tient en trois gestes, dans cet ordre :
 
-**1. Candidatez au dortoir maintenant** (si votre université en propose) : envoyez un email au bureau international avec votre lettre d'admission, votre date d'arrivée et votre demande de logement.
+**1. Dès la lettre d'admission, candidatez au dortoir** (si votre université en propose) : envoyez un email au bureau international avec votre lettre d'admission, votre date d'arrivée et votre demande de logement. Demandez explicitement à figurer sur la liste d'attente même si les places affichées sont épuisées.
 
-**2. En parallèle, explorez les share houses** : les opérateurs spécialisés expatriés permettent de réserver en ligne depuis l'étranger. Payez votre premier mois à distance, les clés vous attendent à l'arrivée.
+**2. En parallèle, et sans attendre la réponse du dortoir**, engagez la piste privée : les opérateurs de share houses et de résidences étudiantes permettent de réserver en ligne depuis l'étranger. Payez votre premier mois à distance, les clés vous attendent à l'arrivée. C'est le point où la plupart des étudiants perdent leurs semaines utiles : ils attendent le verdict du dortoir jusqu'en février, et découvrent le marché privé une fois qu'il est vide.
 
-**3. Réservez dès maintenant pour octobre** : les meilleures chambres partent fin juillet et début août. Attendre septembre est le meilleur moyen de se retrouver avec le fond du catalogue.
+**3. Calez-vous sur le calendrier, pas sur votre ressenti** : pour avril, c'est septembre-octobre. Pour la rentrée d'automne, c'est juillet. Dans les deux cas, six semaines d'avance changent complètement ce que vous pouvez obtenir à budget égal.
 
 Pour plus de détails sur la recherche depuis l'étranger, consultez notre [guide pour chercher un appartement à Tokyo depuis l'étranger](/blog/chercher-appartement-tokyo-depuis-etranger).
 
 Si vous hésitez encore sur le type de logement, notre [guide complet des share houses à Tokyo](/blog/share-house-tokyo-guide-complet) détaille les options quartier par quartier et opérateur par opérateur.
 
 
-Pour votre couverture sante en arrivant en octobre, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) propose une assurance mensuelle sans engagement, activable des votre arrivee au Japon. *(lien affilie)*
+Pour votre couverture sante a l'arrivee, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) propose une assurance mensuelle sans engagement, activable des votre arrivee au Japon. *(lien affilie)*
 ---
 
 *À lire aussi : [Logement étudiant à Tokyo : guide complet pour francophones](/blog/logement-etudiant-tokyo-guide), [Trouver un appartement à Tokyo en septembre : ce qui change vs le printemps](/blog/appartement-tokyo-septembre-guide).*
 
-*Votre programme commence en octobre et vous n'avez toujours pas trouvé de logement ? Consultez notre [guide logement étudiant Tokyo 2026](/blog/logement-etudiant-tokyo-2026) pour les démarches complètes, et contactez-nous directement si vous souhaitez un accompagnement personnalisé.*
+*Vous savez maintenant quand vous y prendre. Pour le détail des quatre types de logement étudiant, des quartiers et des aides financières, notre [guide complet du logement étudiant à Tokyo](/blog/logement-etudiant-tokyo-guide) prend le relais, et notre [comparatif share house, dortoir ou appartement](/blog/logement-etudiant-tokyo-2026) vous aide à trancher entre les formules. Si vous préférez qu'on cale le calendrier avec vous, écrivez-nous.*
     `.trim(),
   },
   {
     slug: 'student-housing-tokyo-october',
     locale: 'en',
-    title: 'Student Housing in Tokyo for October Intake: Share House vs University Dorm',
-    description: 'Starting university in Tokyo in October? Full comparison of share houses vs university dormitories with real 2026 costs and timelines for international students.',
+    title: 'When to Book Student Housing in Tokyo: The Real Calendar',
+    description: 'Rooms for the April intake open up from September, and by late January almost nothing is left. The real booking calendar for student housing in Tokyo.',
     date: '2026-06-23',
-    readingTime: '7 min',
+    updated: '2026-09-11',
+    readingTime: '8 min',
     content: `
-October university intakes in Japan are growing: English-language master's programs, language schools, and second-semester exchange programs. If you're arriving in Tokyo in October, housing needs to be sorted now. The best options fill up 6 to 8 weeks before arrival.
+Most guides tell you what to choose between a dormitory and a share house. Almost none tell you **when** to start. That is what actually decides the outcome: a student who starts at the right time picks from a full catalogue, one who starts two months late picks from what is left.
 
-**Quick answer:** For an October intake in Tokyo, aim for a share house or university dormitory: no guarantor, furnished, with online applications from abroad. Search in July or August, as spots fill fast before October. Budget 40,000 to 80,000 JPY per month in a share house, utilities often included.
+**Quick answer:** For an **April** intake, the main academic entry in Japan, rooms start opening up from **September and October of the previous year**, and by late January there is almost nothing left. For a **September or October** intake, the window opens around **July**. In both cases, the right trigger is your letter of acceptance (合格通知書), not your visa.
 
-Most students face the same two choices: a university dormitory (structured, affordable, but limited) or a share house (more flexible, widely available, slightly more expensive). This guide walks you through the real comparison.
+## The real availability calendar
+
+These are the periods given to me by the student housing operators I deal with in Tokyo. They do not match the calendar most students assume, and that gap is exactly where places are lost.
+
+| Intake | Rooms open up | Critical point |
+|---|---|---|
+| **April** (main intake) | from **September and October** of the previous year | **late January: almost everything is taken** |
+| September / October | from around **July** | September: the catalogue is already picked over |
+
+Two practical consequences. First, if you are aiming for April, the useful window starts **one to two quarters before** most students begin looking. Second, if you come to us in January for an April start, you are already late, and it is better to hear that immediately than to launch a search that will fail.
+
+**The trigger is not the visa.** Many students wait for their certificate of eligibility or their visa before looking for housing. That is too late. The signal to act on is the **letter of acceptance**: once you have it you can commit to a booking, and that is what the operators themselves recommend.
+
+*One point of honesty: this calendar comes from student housing operators, not from a market statistic. It describes what those operators do. University dormitories follow each university's own administrative calendar, covered below.*
+
+## April intake: why September is the moment
+
+April is the main intake of the Japanese system, when the bulk of students arrive. The consequence is mechanical: it is also the intake where housing demand peaks and stock disappears fastest.
+
+- **September and October:** rooms from the outgoing year start coming back on the market. This is when choice is widest, in both location and budget.
+- **November and December:** the catalogue is still decent, but well-located and cheaper rooms go first.
+- **Late January:** according to the operators, there is almost nothing left. What remains is usually pricier, further out, or both.
+- **February and March:** you are searching through cancellations.
+
+If you are reading this in September or October for an April start, you are exactly on time. That is rare, and it will only last a few weeks.
+
+## September and October intake: the July window
+
+Autumn intakes are growing: English-language master's programs, language schools, second-semester exchanges. The rhythm is the same, shifted.
+
+Rooms open up from around **July**. In practice the best ones go in late July and early August. Waiting until September means taking what is left, at the exact moment you have the least time to view anything.
 
 ## University Dormitories in Tokyo
 
@@ -7969,7 +8035,7 @@ Japanese universities offer on-campus or nearby housing for international studen
 - **Limited availability:** Most universities cannot house all international students. Waitlists exist. Never assume you have a spot without written confirmation.
 - **Strict rules:** Some dormitories have curfews, no overnight guests policies, and noise restrictions. Tenure is often capped at one or two years.
 - **Location can be inconvenient:** Campuses outside central Tokyo mean 45 to 90 minutes of commuting each way, every day.
-- **Application deadlines:** The international housing office typically accepts applications 3 to 4 months before arrival. For October, that window is now. Some offices close in July.
+- **Application deadlines:** The international housing office typically accepts applications 3 to 4 months before arrival, and some close far earlier. Careful: this university calendar is **later** than the private operators' calendar described above. Do not mistake the dormitory deadline for the market deadline. If you miss the dorm in January for an April start, the private market will already be empty too.
 
 **How to apply:**
 Email your university's International Student Office as soon as your admission is confirmed. Ask explicitly for the dormitory waitlist even if no spots appear available. Cancellations come in up until three weeks before the semester starts.
@@ -7997,7 +8063,7 @@ A share house is a managed property where residents have a private room and shar
 - Commute time to your campus (check peak-hour train times, not distance)
 - Cleaning responsibilities for shared spaces
 
-## Real Cost Comparison for October 2026
+## Real Cost Comparison 2026
 
 | | University Dormitory | Share House |
 |---|---|---|
@@ -8009,7 +8075,7 @@ A share house is a managed property where residents have a private room and shar
 | Guarantor required | No | No |
 | Overnight guests | Rarely allowed | Depends on house rules |
 
-**Realistic monthly budget in Tokyo as a student (October 2026):**
+**Realistic monthly budget in Tokyo as a student (2026):**
 - Housing (share house): 65,000 JPY
 - Food: 35,000 to 50,000 JPY
 - Transport (commute and outings): 8,000 to 15,000 JPY
@@ -8030,27 +8096,27 @@ A share house is a managed property where residents have a private room and shar
 - You prefer a social, mixed-nationality environment
 - You have no Japanese guarantor (share houses don't require one)
 
-## How to Find Housing Before You Leave
+## How to Book From Abroad
 
-Searching from abroad is not only possible, it is the right move. Here is what works:
+Searching from abroad is not only possible, it is the right move. It comes down to three steps, in this order:
 
-**Step 1 - Apply to the dorm now:** If your university offers one, email the international housing office today with your admission letter and requested arrival date.
+**Step 1, the moment you have your acceptance letter, apply to the dorm:** If your university offers one, email the international housing office with your admission letter and requested arrival date. Ask explicitly to be put on the waitlist even if the listed spots are gone.
 
-**Step 2 - Search share houses in parallel:** Expat-specialist share house operators allow international bookings online. Pay your first month remotely and the keys will be ready on arrival.
+**Step 2, in parallel and without waiting for the dorm's answer, open the private track:** Share house and student residence operators take online bookings from abroad. Pay your first month remotely and the keys will be ready on arrival. This is where most students lose their useful weeks: they wait for the dormitory verdict until February, then discover the private market once it is empty.
 
-**Step 3 - Book before August:** The best rooms in the best share houses are gone by late July and early August. Waiting until September means you're choosing from what's left.
+**Step 3, work to the calendar, not to your instinct:** For April, that means September and October. For an autumn intake, July. In both cases six weeks of lead time completely change what the same budget can get you.
 
 For a step-by-step guide on searching from abroad, see our [Tokyo apartment hunting from abroad guide](/blog/tokyo-apartment-hunting-from-abroad).
 
 If you're still deciding on the type of housing, our [complete Tokyo share house guide](/blog/share-house-tokyo-guide-2026) covers options by neighbourhood and operator.
 
 
-For health coverage upon arrival in October, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) offers monthly insurance with no commitment, activatable from day one in Japan. *(affiliate link)*
+For health coverage upon arrival, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) offers monthly insurance with no commitment, activatable from day one in Japan. *(affiliate link)*
 ---
 
 *See also: [Student Housing Tokyo 2026: Complete Guide for International Students](/blog/student-housing-tokyo-guide), [Finding an Apartment in Tokyo in September: What Changes vs Spring](/blog/find-apartment-tokyo-september).*
 
-*Starting in October and haven't sorted housing yet? See our [student housing Tokyo 2026 guide](/blog/student-housing-tokyo-guide-2026) for the full process, or contact us directly if you want personalised help.*
+*Now you know when to start. For the detail on all four housing types, neighbourhoods and financial aid, our [complete Tokyo student housing guide](/blog/student-housing-tokyo-guide) takes over, and our [share house vs dorm vs apartment comparison](/blog/student-housing-tokyo-guide-2026) helps you pick a format. If you would rather we set the calendar with you, get in touch.*
     `.trim(),
   },
   {
