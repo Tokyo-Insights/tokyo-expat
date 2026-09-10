@@ -1,5 +1,5 @@
 {
-  "_comment": "File de munitions Reddit. status: todo (pas d'asset) / ready (pret a poster) / posted. Le reminder pioche la prochaine 'ready', rappelle via Telegram, detecte auto le post (email AutoMod OC) et avance. Cadence = POSTS_PER_WEEK dans reddit_munition_reminder.py.",
+  "_comment": "File de munitions Reddit. status: todo (pas d'asset) / ready (pret a poster) / posted. Le reminder pioche la prochaine 'ready', rappelle via Telegram, detecte auto le post (email AutoMod OC) et avance. Cadence = POSTS_PER_WEEK dans reddit_munition_reminder.py. | 11/09/2026: DEUX textes par munition (convention AutoMod 05/07). post_description = sous l'image, PORTE le lien /en/data. oc_comment = 1er commentaire, Source + Tool, ZERO lien (self-promo = retrait).",
   "state": {
     "last_posted_utc": "2026-09-10T22:44:37Z",
     "awaiting_id": null,
@@ -84,12 +84,13 @@
       "status": "ready",
       "png": "outreach/tokyo-furnished-by-location.png",
       "title": "[OC] A furnished studio in Tokyo costs much the same wherever you live. A standard one does not.",
-      "oc_comment": "Source: my own rent index for Tokyo, built from a large sample of active rental listings across the 23 special wards, collected in September 2026 from the major Japanese rental portals and deduplicated. For each ward I took the median monthly rent (rent plus management fee) for a 1K studio, once for standard unfurnished listings and once for the furnished route.\n\nSample: about 160,000 standard listings and 2,400 furnished ones across the 18 wards shown. Furnished stock is small by nature, so I dropped the 5 wards with fewer than 50 furnished listings (Edogawa, Adachi, Nakano, Kita, Arakawa) rather than publish a median that a single listing could move.\n\nWhat surprised me is how flat the fitted line is next to the diagonal. Standard rent varies by a factor of 1.7 across these wards (¥83,500 to ¥144,000), while furnished rent only varies by 1.5 (¥124,800 to ¥182,400). For every ¥10,000 the standard rent rises, the furnished rent rises only about ¥5,600. So the further out you go, the bigger the premium: +16% in Chiyoda, +104% in Katsushika. The correlation between how cheap a ward is and how big its furnished premium is comes out at -0.74.\n\nOne caveat I would flag myself: furnished in Japan usually means the furnished or monthly-mansion route, which also skips the guarantor, the key money and often the deposit. So part of that gap is convenience and a shorter commitment, not just furniture. Katsushika still sits well above the trend, and Taito has the priciest furnished stock of all at ¥182k.\n\nTool: Python, pandas for the medians, matplotlib for the chart.\n\nRent data by ward, train line and station: tokyo-expat.com/data",
+      "oc_comment": "Source: my own rent index for Tokyo, built from a large sample of active rental listings across the 23 special wards, collected in September 2026 from the major Japanese rental portals and deduplicated. For each ward I took the median monthly rent (rent plus management fee) for a 1K studio, once for standard unfurnished listings and once for the furnished route.\n\nSample: about 160,000 standard listings and 2,400 furnished ones across the 18 wards shown. Furnished stock is small by nature, so I dropped the 5 wards with fewer than 50 furnished listings (Edogawa, Adachi, Nakano, Kita, Arakawa) rather than publish a median that a single listing could move.\n\nWhat surprised me is how flat the fitted line is next to the diagonal. Standard rent varies by a factor of 1.7 across these wards (¥83,500 to ¥144,000), while furnished rent only varies by 1.5 (¥124,800 to ¥182,400). For every ¥10,000 the standard rent rises, the furnished rent rises only about ¥5,600. So the further out you go, the bigger the premium: +16% in Chiyoda, +104% in Katsushika. The correlation between how cheap a ward is and how big its furnished premium is comes out at -0.74.\n\nOne caveat I would flag myself: furnished in Japan usually means the furnished or monthly-mansion route, which also skips the guarantor, the key money and often the deposit. So part of that gap is convenience and a shorter commitment, not just furniture. Katsushika still sits well above the trend, and Taito has the priciest furnished stock of all at ¥182k.\n\nTool: Python, pandas for the medians, matplotlib for the chart.",
       "sub": "dataisbeautiful",
       "posted_utc": null,
       "views": null,
       "upvotes": null,
-      "notes": "Genere par scripts/generate_furnished_location_chart.py (08/09/2026). Silhouette NEUVE: nuage de points + diagonale de reference, on n'avait fait que barres/cartes/animation. Seuil MIN_FURN=50 annonces meublees par ward: 5 wards exclus, dit sur le chart. CSV citable: outreach/tokyo-furnished-by-location.csv. Remplace la munition furnished-premium (meme data, chart en barres, sans garde-fou d'echantillon)."
+      "notes": "Genere par scripts/generate_furnished_location_chart.py (08/09/2026). Silhouette NEUVE: nuage de points + diagonale de reference, on n'avait fait que barres/cartes/animation. Seuil MIN_FURN=50 annonces meublees par ward: 5 wards exclus, dit sur le chart. CSV citable: outreach/tokyo-furnished-by-location.csv. Remplace la munition furnished-premium (meme data, chart en barres, sans garde-fou d'echantillon).",
+      "post_description": "Data: about 160,000 standard rental listings and 2,400 furnished ones across 18 of Tokyo's 23 wards, September 2026, deduplicated. Furnished stock is small by nature, so I dropped the 5 wards with fewer than 50 furnished listings rather than publish a median a single listing could move. Medians, not averages, so a few luxury units don't skew it.\n\nFull breakdown by ward, train line and station: tokyo-expat.com/en/data"
     },
     {
       "id": "rent-by-line",
@@ -124,7 +125,8 @@
       "views": null,
       "upvotes": null,
       "note": "Serie temporelle lissee 4Q (les medianes trimestrielles brutes sont bruitees). Chart: scripts/generate_center_premium_chart.py",
-      "notes": "Marquee postee a tort par ASSUME_POSTED_AFTER (08/09/2026): jamais publiee. Confirme par Alessandro + absente du flux RSS du compte."
+      "notes": "Marquee postee a tort par ASSUME_POSTED_AFTER (08/09/2026): jamais publiee. Confirme par Alessandro + absente du flux RSS du compte.",
+      "post_description": "Data: recorded second-hand condominium transactions across Tokyo's 23 wards, 2021 Q1 to 2025 Q3 (settled sale prices, not asking prices). Quarterly medians are noisy at this sample size, so both lines are a 4-quarter rolling average. Medians, not averages, so a few luxury sales don't skew it.\n\nFull breakdown by ward, train line and station: tokyo-expat.com/en/data"
     },
     {
       "id": "tokyo-prime-areas",
@@ -148,7 +150,8 @@
       "posted_utc": null,
       "views": null,
       "upvotes": null,
-      "notes": "Marquee postee a tort par ASSUME_POSTED_AFTER (08/09/2026): jamais publiee. Confirme par Alessandro + absente du flux RSS du compte."
+      "notes": "Marquee postee a tort par ASSUME_POSTED_AFTER (08/09/2026): jamais publiee. Confirme par Alessandro + absente du flux RSS du compte.",
+      "post_description": "Data: about 500,000 active rental listings across Tokyo's 23 wards, deduplicated. Median rent for a 1K studio against a 2LDK family flat in each ward. Medians, not averages, so a few luxury units don't skew it.\n\nFull breakdown by ward, train line and station: tokyo-expat.com/en/data"
     },
     {
       "id": "furnished-premium",
@@ -169,7 +172,8 @@
       "posted_utc": null,
       "views": null,
       "upvotes": null,
-      "notes": "Marquee postee a tort par ASSUME_POSTED_AFTER (08/09/2026): jamais publiee. Confirme par Alessandro + absente du flux RSS du compte."
+      "notes": "Marquee postee a tort par ASSUME_POSTED_AFTER (08/09/2026): jamais publiee. Confirme par Alessandro + absente du flux RSS du compte.",
+      "post_description": "Data: about 100,000 recorded second-hand condominium sale transactions across Tokyo's 23 wards, 2021 to 2025 (settled sale prices, not asking prices), aggregated to the median price per m2 per ward. Medians, not averages, so a few luxury sales don't skew it.\n\nFull breakdown by ward, train line and station: tokyo-expat.com/en/data"
     },
     {
       "id": "tokyo-price-choropleth",
@@ -182,7 +186,8 @@
       "posted_utc": null,
       "views": null,
       "upvotes": null,
-      "notes": "Marquee postee a tort par ASSUME_POSTED_AFTER (08/09/2026): jamais publiee. Confirme par Alessandro + absente du flux RSS du compte."
+      "notes": "Marquee postee a tort par ASSUME_POSTED_AFTER (08/09/2026): jamais publiee. Confirme par Alessandro + absente du flux RSS du compte.",
+      "post_description": "Data: about 100,000 recorded second-hand condominium sale transactions across Tokyo's 23 wards (settled sale prices, not asking prices), aggregated to the median price per m2 per ward. Ward outlines from public administrative boundary data. Medians, not averages, so a few luxury sales don't skew it.\n\nFull breakdown by ward, train line and station: tokyo-expat.com/en/data"
     }
   ]
 }

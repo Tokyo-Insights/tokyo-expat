@@ -256,7 +256,9 @@ def main():
         send_telegram(
             f"⏰ <b>Rappel: pas encore poste</b>\nTa munition <code>{awaiting['id']}</code> attend toujours.\n\n"
             f"\U0001F4CA {awaiting['title']}\n\U0001F5BC️ {awaiting['png']}\n\U0001F3AF r/{awaiting['sub']}\n\n"
-            f"\U0001F4CC Commentaire OC (1er commentaire):\n{awaiting['oc_comment']}")
+            + (f"\U0001F4DD 1) Description du post (PORTE le lien):\n{awaiting['post_description']}\n\n"
+               if awaiting.get("post_description") else "")
+            + f"\U0001F4CC 2) Commentaire OC (Source + Tool, ZERO lien):\n{awaiting['oc_comment']}")
         print(f"Re-rappel: {awaiting['id']}")
         return
 
@@ -278,11 +280,23 @@ def main():
         st["awaiting_reminded_utc"] = iso(n)
         st["last_reminded_date"] = today
         save(q)
+        # DEUX textes separes (convention confirmee par le mail AutoMod du 05/07/2026):
+        # le LIEN va dans la description sous l'image, JAMAIS dans le commentaire
+        # (self-promo dans le commentaire = retrait du post).
         oc = str(nxt.get("oc_comment") or "(demande le commentaire a Claude)")
+        desc = str(nxt.get("post_description") or "").strip()
+        parts = []
+        if desc:
+            parts.append(f"\U0001F4DD <b>1) Description du post</b> (sous l'image, PORTE le lien):\n{desc}")
         if nxt.get("sub") == "dataisbeautiful":
-            oc_line = f"\U0001F4CC <b>Commentaire OC</b> (a coller en 1er commentaire, sinon retrait auto):\n{oc}"
+            parts.append(f"\U0001F4CC <b>2) Commentaire OC</b> (1er commentaire, Source + Tool, "
+                         f"ZERO lien, sinon retrait auto):\n{oc}")
         else:
-            oc_line = f"\U0001F4CC Premier commentaire (source, sans lien):\n{oc}"
+            parts.append(f"\U0001F4CC <b>2) Premier commentaire</b> (source, sans lien):\n{oc}")
+        if not desc:
+            parts.append("⚠️ Pas de <code>post_description</code> pour cette munition: "
+                         "le lien /en/data n'a nulle part ou aller. Demande-la a Claude.")
+        oc_line = "\n\n".join(parts)
         # Le flux RSS liste TOUS les subs -> la detection marche partout, pas seulement
         # sur r/dataisbeautiful (l'ancienne detection par email AutoMod, elle, non).
         detect_line = (f"Je verifie le flux du compte: des que le post apparait, je me tais "
