@@ -157,7 +157,7 @@ export default async function ServicesPage({
       {/* Credibility band (elements 100% verifiables, pas de faux temoignages) */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-14">
         {[
-          { v: '300+', l: locale === 'fr' ? 'logements dans notre réseau' : 'properties in our network' },
+          { v: '13', l: locale === 'fr' ? 'zones couvertes à Tokyo' : 'Tokyo areas covered' },
           { v: 'FR / EN / 日本語', l: locale === 'fr' ? 'accompagnement multilingue' : 'multilingual support' },
           { v: '500 000+', l: locale === 'fr' ? 'annonces analysées' : 'listings analysed' },
           { v: locale === 'fr' ? 'Gratuite' : 'Free', l: locale === 'fr' ? 'consultation initiale' : 'initial consultation' },

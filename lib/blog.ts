@@ -8107,7 +8107,7 @@ Certaines agences immobilières spécialisées dans la clientèle internationale
 
 **Agences recommandées :**
 - **Fontaine Relocation** : spécialisé expatriés francophones, accompagnement complet
-- **Tokyo Expat** : accès à 300+ biens meublés, accompagnement en français du dossier à la signature
+- **Tokyo Expat** : ligne directe avec les opérateurs de meublé, disponibilités confirmées avant envoi, accompagnement en français du dossier à la signature
 
 **Ce qu'on négocie pour vous :** bail 3-12 mois, meubles inclus, clauses de résiliation flexibles, pas de garant humain (société de garantie acceptée).
 
@@ -8229,7 +8229,7 @@ Some real estate agencies specialising in international clients offer furnished 
 
 **Recommended agencies:**
 - **Fontaine Relocation**: specialist in French-speaking expats, full relocation support
-- **Tokyo Expat**: access to 300+ furnished and unfurnished properties, full support in English from application to lease signing
+- **Tokyo Expat**: a direct line to the furnished operators, availability confirmed before anything is sent to you, full support in English from application to lease signing
 
 **What these arrangements typically include:** 3-12 month lease, furniture included, flexible break clauses, no human guarantor needed (rental guarantee company accepted).
 

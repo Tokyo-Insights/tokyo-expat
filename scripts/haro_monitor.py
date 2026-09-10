@@ -73,8 +73,9 @@ MIN_RELEVANCE_SCORE = 2
 # Profil expert d'Alessandro (pour les drafts)
 EXPERT_PROFILE = """Alessandro est fondateur de Tokyo Expat (tokyo-expat.com), chasseur immobilier
 billingue FR/EN specialise dans la recherche de logements pour expatries a Tokyo.
-Il gere un inventaire de 300+ logements (meuble, non-meuble, share house, 40k-300k JPY/mois)
-et aide des dizaines d'expatries francophones et anglophones a se loger a Tokyo chaque annee."""
+Il a une ligne directe avec les operateurs de logement meuble et de share house a Tokyo
+(meuble, non-meuble, share house, 40k-300k JPY/mois) et confirme les disponibilites avant
+de les proposer, en francais comme en anglais."""
 
 # Templates de reponse par categorie
 RESPONSE_TEMPLATES = {

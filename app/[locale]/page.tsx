@@ -112,12 +112,12 @@ export default async function HomePage({
 
   const stats = locale === 'fr'
     ? [
-        { value: '300+', label: 'Logements accessibles' },
+        { value: '48h', label: 'Short-list (meublé)' },
         { value: '24h', label: 'Délai de réponse' },
         { value: 'FR · EN · JP', label: 'Langues parlées' },
       ]
     : [
-        { value: '300+', label: 'Properties available' },
+        { value: '48h', label: 'Shortlist (furnished)' },
         { value: '24h', label: 'Response time' },
         { value: 'FR · EN · JP', label: 'Languages spoken' },
       ]

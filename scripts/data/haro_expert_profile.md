@@ -6,7 +6,7 @@ _Last updated: 2026-06-24_
 
 ## SHORT BIO (50 words — for profile header)
 
-Alessandro is a Tokyo-based property hunter specializing in housing for foreigners relocating to Japan. He founded Tokyo Expat (tokyo-expat.com), a bilingual English-French housing service covering share houses, furnished apartments, and family homes. He has navigated 300+ Tokyo properties and speaks French, English, and Japanese.
+Alessandro is a Tokyo-based property hunter specializing in housing for foreigners relocating to Japan. He founded Tokyo Expat (tokyo-expat.com), a bilingual English-French housing service covering share houses, furnished apartments, and family homes. He works directly with Tokyo's furnished and share house operators, publishes a rent index built from over 500,000 active listings, and speaks French, English, and Japanese.
 
 ---
 
@@ -14,7 +14,7 @@ Alessandro is a Tokyo-based property hunter specializing in housing for foreigne
 
 Alessandro is the founder of Tokyo Expat (tokyo-expat.com), a property hunting service based in Tokyo dedicated to foreigners relocating to Japan. With years of on-the-ground experience in the Tokyo rental market, he specializes in finding share houses, monthly mansions, and furnished apartments for expats who arrive without a Japanese guarantor, a Japanese bank account, or Japanese language skills.
 
-His clients include corporate relocatees, language students, digital nomads, and families moving to Tokyo from Europe, North America, and Australia. He operates in English, French, and Japanese, and has built a direct network of 300+ properties across Tokyo's 23 wards.
+His clients include corporate relocatees, language students, digital nomads, and families moving to Tokyo from Europe, North America, and Australia. He operates in English, French, and Japanese, and has a direct line to the furnished and share house operators across Tokyo's 23 wards.
 
 Alessandro writes regularly on Tokyo housing strategy, ward-by-ward rental analysis, and the practical realities of the Japanese rental market for foreigners at tokyo-expat.com.
 
@@ -90,7 +90,7 @@ Subject: Tokyo property hunter + expat (6+ years in Japan)
 
 Hi [Name],
 
-Happy to help. I'm Alessandro, founder of Tokyo Expat (tokyo-expat.com), a property hunting service for foreigners relocating to Tokyo. I've searched, visited, and negotiated 300+ properties across Tokyo's 23 wards.
+Happy to help. I'm Alessandro, founder of Tokyo Expat (tokyo-expat.com), a property hunting service for foreigners relocating to Tokyo. I work directly with the furnished and share house operators across Tokyo's 23 wards, and I publish a rent index built from over 500,000 active listings.
 
 [Directly answer their specific question here — 3-5 sentences, concrete facts/numbers]
 
@@ -105,11 +105,11 @@ Tokyo Expat | www.tokyo-expat.com | contact@tokyo-expat.com
 
 ### TYPE B: "Expert on Japan real estate / property market"
 
-Subject: Tokyo residential market analyst — 300+ listings tracked
+Subject: Tokyo residential market analyst: 500,000+ rental listings tracked
 
 Hi [Name],
 
-I run Tokyo Expat, a housing service and market analysis platform for foreign investors and expats in Tokyo. I track 300+ active listings across all 23 wards monthly and publish data on rent levels, GRM (gross rent multiplier), and yield by neighborhood.
+I run Tokyo Expat, a housing service and market analysis platform for foreign investors and expats in Tokyo. I track over 500,000 active rental listings across all 23 wards and publish data on rent levels, GRM (gross rent multiplier), and yield by neighborhood.
 
 [Directly answer their specific question — use concrete data: ward names, price ranges, GRM figures]
 

@@ -19,7 +19,7 @@ Dedicated housing hunter for expats in Tokyo. Share houses, furnished apartments
 **Description longue (EN) :**
 Tokyo Expat is a bilingual (French / English) property hunting service based in Tokyo, Japan. We help French-speaking and English-speaking expats find housing in Tokyo quickly and without the usual barriers: no guarantor required for most properties, English contracts, remote application accepted.
 
-Services: share house search, furnished apartment search, family home search. All neighbourhoods covered. Access to 300+ immediately available properties.
+Services: share house search, furnished apartment search, family home search. A direct line to Tokyo's furnished and share house operators, with availability confirmed before anything is sent to you.
 
 Free 30-minute consultation available. Response within 24 hours.
 
@@ -57,7 +57,7 @@ Bilingual property hunter in Tokyo for expats. Share houses, furnished apartment
 Tokyo Expat helps French and English-speaking expats find housing in Tokyo without the usual bureaucratic hurdles. As a dedicated property hunter (not a traditional agency), we work exclusively for you — not the landlord.
 
 What we offer:
-- Access to 300+ immediately available properties (share houses, furnished studios, 1K, 1LDK, family homes)
+- A direct line to the operators, availability confirmed before it reaches you (share houses, furnished studios, 1K, 1LDK, family homes)
 - No Japanese guarantor required for most properties
 - Contracts available in English
 - Remote applications accepted — your apartment ready before you land
