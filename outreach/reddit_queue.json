@@ -1,11 +1,12 @@
 {
   "_comment": "File de munitions Reddit. status: todo (pas d'asset) / ready (pret a poster) / posted. Le reminder pioche la prochaine 'ready', rappelle via Telegram, detecte auto le post (email AutoMod OC) et avance. Cadence = POSTS_PER_WEEK dans reddit_munition_reminder.py.",
   "state": {
-    "last_posted_utc": "2026-08-07T01:08:25Z",
-    "awaiting_id": "entry-cost-by-ward",
-    "awaiting_reminded_utc": "2026-09-08T03:39:19Z",
+    "last_posted_utc": "2026-09-10T22:44:37Z",
+    "awaiting_id": null,
+    "awaiting_reminded_utc": null,
     "last_reminded_date": "2026-09-10",
-    "low_stock_alerted_utc": "2026-09-04T22:13:31Z"
+    "low_stock_alerted_utc": "2026-09-04T22:13:31Z",
+    "stale_alerted_utc": null
   },
   "munitions": [
     {
@@ -59,12 +60,14 @@
     },
     {
       "id": "entry-cost-by-ward",
-      "status": "ready",
+      "status": "posted",
       "png": "outreach/tokyo-entry-cost-by-ward.png",
       "title": "[OC] A third of Tokyo rental listings ask for no deposit at all, and in the cheapest wards it is nearly 60%",
       "oc_comment": "Source: 136,492 active rental listings across Tokyo's 23 special wards, collected in September 2026 from the major Japanese rental portals and deduplicated. For each ward I took the median deposit (shikikin), the median key money (reikin), and the share of listings where the amount asked is explicitly zero. Sample sizes run from 1,940 listings in Chiyoda to 12,571 in Setagaya.\n\nThe trap in this data, in case anyone wants to reproduce it: a dash in a listing means zero is required, not that the number is missing. If you drop those rows as missing values the medians come out roughly twice too high, which is part of why published figures for Japanese move-in costs tend to overstate what people actually pay.\n\nOne thing to be precise about, since the bars stack: each bar is the median deposit plus the median key money for that ward, so it is a sum of two medians rather than the median of per-listing totals. The latter is a little lower (about 348k in Minato and 276k in Chuo, against the 352k and 322k drawn), because few listings sit at the median on both at once.\n\nDeposit and key money are the only entry costs that appear in listings at all. Agency fees and guarantor company fees are negotiated separately and never published, so they are not in the chart.\n\nThe two wards with no blue bar, Adachi and Katsushika, have a median deposit of exactly zero. More than half the listings there ask for no deposit.\n\nTool: Python, pandas for the medians, matplotlib for the chart.\n\nRent data by ward, train line and station: tokyo-expat.com/data",
       "sub": "dataisbeautiful",
-      "notes": "Genere par scripts/generate_entry_cost_by_ward_chart.py. CSV par ward: outreach/tokyo-entry-cost-by-ward.csv (sert aussi l'article move-in costs et le tableau de couts client). | 10/09/2026: chart regenere (sous-titre disait 'median move-in cost' alors que les barres tracent la somme de deux medianes). Commentaire OC resynchronise sur les n actuels (1,940 / 12,571) + caveat methodo ajoute."
+      "notes": "Genere par scripts/generate_entry_cost_by_ward_chart.py. CSV par ward: outreach/tokyo-entry-cost-by-ward.csv (sert aussi l'article move-in costs et le tableau de couts client). | 10/09/2026: chart regenere (sous-titre disait 'median move-in cost' alors que les barres tracent la somme de deux medianes). Commentaire OC resynchronise sur les n actuels (1,940 / 12,571) + caveat methodo ajoute.",
+      "posted_utc": "2026-09-10T22:44:37Z",
+      "post_url": "https://www.reddit.com/r/dataisbeautiful/comments/1wcyd10/oc_a_third_of_tokyo_rental_listings_ask_for_no/"
     },
     {
       "id": "household-flip",
