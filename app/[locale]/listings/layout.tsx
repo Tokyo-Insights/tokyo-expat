@@ -11,18 +11,18 @@ export async function generateMetadata({
   const isFr = locale === 'fr'
   return {
     title: isFr
-      ? `${STATS.totalProperties} logements à Tokyo — Mon réseau | Tokyo Expat`
-      : `${STATS.totalProperties} properties in Tokyo — My network | Tokyo Expat`,
+      ? `Trouver votre logement à Tokyo : mon réseau | Tokyo Expat`
+      : `Find your home in Tokyo: my operator network | Tokyo Expat`,
     description: isFr
-      ? `Accès direct à ${STATS.totalProperties} logements à Tokyo : share houses (dès ${STATS.shareHouseMin.toLocaleString('fr-FR')} ¥), appartements meublés, maisons. ${STATS.wards} arrondissements. Sans garant. Réponse en 24h.`
-      : `Direct access to ${STATS.totalProperties} Tokyo properties: share houses (from ¥${STATS.shareHouseMin.toLocaleString()}), furnished apartments, houses. ${STATS.wards} wards. No guarantor. Reply in 24h.`,
+      ? `Share houses, appartements meublés et maisons dans ${STATS.wards} zones de Tokyo. Je confirme les disponibilités auprès des opérateurs avant envoi. Réponse en 24h.`
+      : `Share houses, furnished apartments and houses across ${STATS.wards} Tokyo areas. I confirm availability with the operators before I send it. Reply within 24h.`,
     alternates: {
       canonical: `/${locale}/listings`,
     },
     openGraph: {
       title: isFr
-        ? `Trouvez votre logement à Tokyo — ${STATS.totalProperties} options`
-        : `Find your Tokyo home — ${STATS.totalProperties} options`,
+        ? `Trouvez votre logement à Tokyo`
+        : `Find your Tokyo home`,
       description: isFr
         ? `Share house, appartement meublé, maison. Réseau direct, sans frais cachés.`
         : `Share house, furnished apartment, house. Direct network, no hidden fees.`,

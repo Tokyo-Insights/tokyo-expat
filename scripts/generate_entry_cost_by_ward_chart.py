@@ -172,8 +172,8 @@ def build(g, totals):
     )
     fig.text(
         0.093, 0.925,
-        "Median move-in cost and the share of landlords waiving the deposit entirely, "
-        "across Tokyo's 23 wards.",
+        "Median deposit plus median key money, and the share of landlords waiving "
+        "the deposit entirely, across Tokyo's 23 wards.",
         ha="left", fontsize=11.6, color="#6b7280",
     )
     fig.text(

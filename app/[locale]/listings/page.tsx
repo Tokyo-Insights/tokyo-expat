@@ -28,19 +28,19 @@ export default function ListingsPage() {
           </div>
           <h1 className="text-3xl md:text-4xl font-extrabold mb-4">
             {isFr
-              ? 'Accès direct à 300+ logements à Tokyo'
-              : 'Direct access to 300+ properties in Tokyo'}
+              ? 'Je cherche votre logement à Tokyo, et je vérifie qu’il est vraiment libre'
+              : 'I search for your Tokyo home, and I check it is genuinely available'}
           </h1>
           <p className="text-gray-300 text-lg max-w-2xl mb-8">
             {isFr
-              ? "Je travaille avec un réseau d'agences locales et de propriétaires privés qui me donnent accès à des logements non publiés en ligne. Décrivez votre projet, je cherche pour vous."
-              : "I work with a network of local agencies and private landlords giving me access to properties not listed online. Describe your needs, I'll search for you."}
+              ? "Je traite régulièrement avec les opérateurs de logement meublé et de share house à Tokyo, et j’ai une ligne directe chez eux. Je confirme ce qui est réellement disponible avant de vous l’envoyer, au lieu de vous laisser écrire à dix annonces déjà louées. Décrivez votre projet, je cherche pour vous."
+              : "I work with Tokyo's furnished and share house operators regularly, and I have a direct line to them. I confirm what is genuinely available before I send it to you, instead of leaving you to email ten listings that are already taken. Describe your needs, I'll do the searching."}
           </p>
 
           {/* Stats */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {[
-              { value: STATS.totalProperties, label: isFr ? 'Logements accessibles' : 'Properties accessible' },
+              { value: STATS.shortlistTime, label: isFr ? 'Short-list (meublé)' : 'Shortlist (furnished)' },
               { value: `${STATS.wards}`, label: isFr ? 'Zones couvertes' : 'Areas covered' },
               { value: STATS.responseTime, label: isFr ? 'Délai de réponse' : 'Response time' },
               { value: '0€', label: isFr ? "Frais d'agence cachés" : 'Hidden agency fees' },

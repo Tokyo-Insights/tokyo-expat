@@ -177,13 +177,15 @@ export const ZONES: ZoneData[] = [
   },
 ]
 
+// Ne remettre ici que des chiffres verifiables. Le '300+' qui figurait sur cette page
+// etait un nombre en dur qu'aucune source ne soutenait, sur une page commerciale.
 export const STATS = {
-  totalProperties: '300+',
   wards: ZONES.length,
   shareHouseMin: 35000,
   aptMin: 80000,
   houseMin: 200000,
   responseTime: '24h',
+  shortlistTime: '48h',
 }
 
 export function formatPrice(price: number): string {
