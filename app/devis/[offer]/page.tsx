@@ -186,7 +186,7 @@ const FAQ = {
   fr: [
     {
       q: "Y aura-t-il des frais supplémentaires ?",
-      a: "Non. Le montant indiqué est le seul honoraire. Aucun frais supplémentaire ne sera demandé.",
+      a: "Aucun de ma part : le montant indiqué est mon seul honoraire, et je ne vous demanderai jamais rien d'autre. C'est à distinguer des frais du logement lui-même, que vous réglez au propriétaire ou à l'agence : dépôt de garantie, argent-clé le cas échéant, premier mois de loyer, frais d'agence et société de garantie. Ces sommes ne passent jamais par moi. Chaque bien de votre sélection vous est présenté avec le détail chiffré de ces coûts d'entrée, pour que vous sachiez ce que vous engagez avant de vous décider, et non à la signature.",
     },
     {
       q: "Quand commence la recherche ?",
@@ -204,7 +204,7 @@ const FAQ = {
   en: [
     {
       q: "Will there be any additional fees?",
-      a: "No. The amount shown is the only fee. No additional charges will be requested.",
+      a: "None from me: the amount shown is my only fee, and I will never ask you for anything else. That is separate from the property's own move-in costs, which you pay to the landlord or the agency: deposit, key money where it applies, first month's rent, agency fee and guarantor company fee. That money never passes through me. Every property in your shortlist comes with a full breakdown of those entry costs, so you know what you are committing to before you decide, not at signing.",
     },
     {
       q: "When does the search begin?",
@@ -252,9 +252,13 @@ export default async function DevisPage({
       contact_sub: 'Disponible pour toute question',
       faq_title: 'Questions fréquentes',
       starts: 'La recherche commence dès réception du paiement.',
-      google: '4.8/5 sur Google',
+      // Le badge "4.8/5 sur Google" a ete retire le 11/09/2026: aucune fiche Google
+      // n'existe, donc aucune note. Une note d'avis inventee sur la page de paiement
+      // est verifiable en un clic et se retourne contre nous. Remplace par la garantie
+      // de remboursement, qui est VRAIE et deja engagee plus bas dans la FAQ.
+      google: 'Remboursé si aucune proposition',
       bilingual: 'Service FR / EN / JP',
-      no_extra: 'Aucun frais supplémentaire',
+      no_extra: 'Aucun honoraire en plus du montant affiché',
     },
     en: {
       quote: 'Your quote',
@@ -268,9 +272,9 @@ export default async function DevisPage({
       contact_sub: 'Available for any questions',
       faq_title: 'Frequently asked questions',
       starts: 'The search begins as soon as payment is received.',
-      google: '4.8/5 on Google',
+      google: 'Refunded if nothing is proposed',
       bilingual: 'FR / EN / JP service',
-      no_extra: 'No additional fees',
+      no_extra: 'No fee beyond the amount shown',
     },
   }
 
