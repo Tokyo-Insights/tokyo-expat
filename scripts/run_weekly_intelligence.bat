@@ -1,4 +1,4 @@
-@echo off
+﻿@echo off
 :: ============================================================
 :: Tokyo Expat -- Weekly Intelligence Report
 :: Lance: uniquement les MERCREDIS (filtre DOW via PowerShell)
@@ -103,7 +103,7 @@ python scripts\proactive_analysis.py >> "%LOG_FILE%" 2>&1
 
 :: 12. Expat.com auto-post (nouveaux articles)
 echo [%TIME%] [12/19] Expat.com autoposter... >> "%LOG_FILE%"
-python scripts\expatcom_autoposter.py >> "%LOG_FILE%" 2>&1
+python scripts\expatcom_autoposter.py --draft >> "%LOG_FILE%" 2>&1
 
 :: 13. Expat.com reponses (DRAFT UNIQUEMENT -- soumettre manuellement apres relecture)
 echo [%TIME%] [13/19] Expat.com replier (draft)... >> "%LOG_FILE%"
@@ -129,7 +129,7 @@ python scripts\competitor_radar.py >> "%LOG_FILE%" 2>&1
 
 :: 18. Facebook via Buffer API (setup : voir facebook_buffer_poster.py --help)
 echo [%TIME%] [18/22] Facebook Buffer poster... >> "%LOG_FILE%"
-python scripts\facebook_buffer_poster.py >> "%LOG_FILE%" 2>&1
+python scripts\facebook_buffer_poster.py --draft >> "%LOG_FILE%" 2>&1
 
 :: 19. Email reply monitor (scanne Gmail IMAP, detecte bounces/reponses, MAJ contacts)
 echo [%TIME%] [19/22] Email reply monitor... >> "%LOG_FILE%"
@@ -148,7 +148,7 @@ python scripts\email_sender.py --draft >> "%LOG_FILE%" 2>&1
 
 :: 21. LinkedIn via Buffer API
 echo [%TIME%] [21/22] LinkedIn Buffer poster... >> "%LOG_FILE%"
-python scripts\facebook_buffer_poster.py --li-only >> "%LOG_FILE%" 2>&1
+python scripts\facebook_buffer_poster.py --li-only --draft >> "%LOG_FILE%" 2>&1
 
 :: 22. Content velocity tracker (lit competitor_cache, detecte accelerations)
 echo [%TIME%] [22/30] Content velocity tracker... >> "%LOG_FILE%"

@@ -403,16 +403,64 @@ def cmd_channels():
         print(f"  ID      : {c.get('id')}{paused}\n")
 
 
+def _draft_notice(kind, text, state_path):
+    """Prepare sans publier: ecrit le texte et PREVIENT. N'ecrit PAS l'etat,
+    donc le message reviendra tant qu'il n'a pas ete valide."""
+    today = datetime.date.today().isoformat()
+    out = DATA_DIR / f"social_drafts_{today}.md"
+    try:
+        prev = out.read_text(encoding="utf-8") if out.exists() else (
+            f"# Publications sociales en attente de TA validation — {today}\n\n"
+            "Rien n'a ete publie. Pour publier reellement :\n"
+            "`python scripts/facebook_buffer_poster.py --send`\n")
+        out.write_text(prev + f"\n## {kind}\n\n```\n{text}\n```\n", encoding="utf-8")
+    except Exception as e:
+        print(f"[DRAFT] Ecriture impossible: {e}")
+    send_telegram(
+        f"✍️ <b>{kind} : 1 message a valider</b>\n<b>RIEN N'A ETE PUBLIE.</b>\n\n"
+        f"<i>{text[:220]}</i>\n\nDetail : <code>{out.name}</code>\n"
+        f"Pour publier : <code>python scripts/facebook_buffer_poster.py --send</code>")
+
+
 if __name__ == "__main__":
+    # ⚠️ REGLE POSEE PAR ALESSANDRO LE 11/09/2026: rien ne part en public sans
+    # qu'il l'ait valide. Ces posts alimentent Buffer, qui publie ensuite tout
+    # seul sous son nom, et la notification etait ETOUFFEE par
+    # TE_TELEGRAM_SILENT=1 dans la chaine du mercredi. Defaut = brouillon.
     args = sys.argv[1:]
     preview = "--preview" in args
+    explicit_send = "--send" in args
+    draft = not (preview or explicit_send or "--channels" in args)
+    if draft:
+        print("[GARDE-FOU] Aucun argument -> mode brouillon (aucune publication). "
+              "Utiliser --send pour publier reellement.")
+
+    def _fb():
+        if draft:
+            st = load_state(FB_STATE)
+            if too_recent(st):
+                print(f"[FB] Post trop recent ({st['last_post_date']}). Skip.")
+                return
+            _draft_notice("Facebook", pick_from_queue(QUEUE_FB_FILE) or pick(FB_TEMPLATES, st), FB_STATE)
+        else:
+            run_facebook(preview)
+
+    def _li():
+        if draft:
+            st = load_state(LI_STATE)
+            if too_recent(st):
+                print(f"[LI] Post trop recent ({st['last_post_date']}). Skip.")
+                return
+            _draft_notice("LinkedIn", pick_from_queue(QUEUE_LI_FILE) or pick(LI_TEMPLATES, st), LI_STATE)
+        else:
+            run_linkedin(preview)
 
     if "--channels" in args:
         cmd_channels()
     elif "--fb-only" in args:
-        run_facebook(preview)
+        _fb()
     elif "--li-only" in args:
-        run_linkedin(preview)
+        _li()
     else:
-        run_facebook(preview)
-        run_linkedin(preview)
+        _fb()
+        _li()

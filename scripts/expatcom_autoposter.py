@@ -269,6 +269,18 @@ JOURS_ENTRE_RUNS = 7     # et pas plus d'une fournee par semaine
 
 
 def main():
+    # ⚠️ REGLE POSEE PAR ALESSANDRO LE 11/09/2026: rien ne part en public sans
+    # qu'il l'ait valide. Ce script publie sous SON nom sur un forum, et sa
+    # notification Telegram etait de surcroit ETOUFFEE par TE_TELEGRAM_SILENT=1
+    # dans la chaine du mercredi: il ne savait donc meme pas ce qui etait parti.
+    # Defaut = --draft. Publication reelle = --send, geste explicite.
+    args = sys.argv[1:]
+    explicit_send = "--send" in args
+    draft = not explicit_send
+    if draft and "--draft" not in args:
+        print("[GARDE-FOU] Aucun argument -> mode --draft (aucune publication). "
+              "Utiliser --send pour publier reellement.")
+
     state = load_posted_state()
 
     dernier = state.get("last_run")
@@ -295,6 +307,34 @@ def main():
         articles = articles[:MAX_PAR_RUN]
 
     print(f"Articles à poster: {len(articles)}")
+
+    if draft:
+        # On PREPARE et on PREVIENT. Aucune publication, aucun changement d'etat:
+        # les articles restent "non postes" et reviendront tant qu'ils ne sont
+        # pas traites. Le silence n'acte rien.
+        lignes = [f"# Expat.com — {len(articles)} message(s) en attente de TA validation",
+                  f"_{datetime.now().strftime('%Y-%m-%d %H:%M')}_", "",
+                  "Rien n'a ete publie. Pour publier reellement :",
+                  "`python scripts/expatcom_autoposter.py --send`", ""]
+        for a in articles:
+            lignes += [f"## {a.get('title', a.get('slug'))}",
+                       f"- slug : `{a.get('slug')}`",
+                       f"- forum vise : {a.get('forum', '(defini a la publication)')}", ""]
+        try:
+            out = STATE_FILE.parent / f"expatcom_drafts_{datetime.now().strftime('%Y-%m-%d')}.md"
+            out.write_text("\n".join(lignes), encoding="utf-8")
+            print(f"[DRAFT] Ecrit: {out}")
+        except Exception as e:
+            out = None
+            print(f"[DRAFT] Ecriture impossible: {e}")
+        send_telegram(
+            f"✍️ <b>Expat.com : {len(articles)} message(s) a valider</b>\n"
+            f"<b>RIEN N'A ETE PUBLIE.</b>\n\n"
+            + "\n".join(f"• {a.get('title', a.get('slug'))}" for a in articles)
+            + ("\n\nDetail : <code>%s</code>" % out.name if out else "")
+            + "\nPour publier : <code>python scripts/expatcom_autoposter.py --send</code>"
+        )
+        return
 
     if not EXPATCOM_EMAIL or not EXPATCOM_PASSWORD:
         send_telegram(
