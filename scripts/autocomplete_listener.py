@@ -81,6 +81,30 @@ def load_blog_text():
 STOPW = set("""the a an to of in on at for and or is it my your how what why can i do does
 le la les un une des du de a au aux en et est il on ou que qui quoi pour dans avec""".split())
 
+# Les souches sont polysemiques: 'rent' attrape la location de voitures, 'maison'
+# les boutiques de luxe, 'residence' des adresses francaises. Sans ce filtre, la
+# 1re passe profonde sortait 28 "trous" dont 28 de bruit (Tokyo Revengers, GTR,
+# Hermes, Vaulx-en-Velin, une banque turque). Constate le 11/09/2026.
+RELEVANT = re.compile(
+    r"apart|appart|logement|rent(?!a[l]? (car|bike|bicycle|jdm|nissan|kimono))|loyer|"
+    r"louer|location|hous(e|ing)|share ?house|sharehouse|guest ?house|gaijin house|"
+    r"colocation|dorm|residence universitaire|garant|guarantor|hosho|caution|"
+    r"shikikin|reikin|key ?money|deposit|depot|landlord|proprietaire|bail|lease|"
+    r"agence immo|real estate|immobilier|meuble|furnished|studio|mansion|"
+    r"s'installer|\bmoving\b|\bmove\b|demenag|expat|etudiant|student",
+    re.I)
+# Veto explicite: sujets qui contiennent un mot-cle logement mais n'ont rien a voir.
+IRRELEVANT = re.compile(
+    r"revengers|ghoul|wallpaper|anime|manga|kimono|girlfriend|gtr|skyline|nissan|"
+    r"jdm|goyard|hermes|kayser|takashimaya|vaulx|velin|bankas|nygaard|van gang|"
+    r"samurai|karaoke|restaurant|hotel(?! tokyo rent)|airbnb tokyo quartier",
+    re.I)
+
+
+def is_topical(s):
+    """Une suggestion ne compte comme trou que si elle parle VRAIMENT de logement."""
+    return bool(RELEVANT.search(s)) and not IRRELEVANT.search(s)
+
 
 def covered(sugg, blog):
     """Heuristique volontairement PRUDENTE: on considere couvert si au moins deux
@@ -141,10 +165,13 @@ def main():
     for lang, found in results.items():
         if not found:
             continue
-        gaps = [(s, n) for s, n in found.items() if covered(s, blog) is False]
+        raw_gaps = [(s, n) for s, n in found.items() if covered(s, blog) is False]
+        gaps = [(s, n) for s, n in raw_gaps if is_topical(s)]
         gaps.sort(key=lambda x: -x[1])
+        noise = len(raw_gaps) - len(gaps)
         print("\n" + "=" * 76)
-        print(f"{lang.upper()} — {len(found)} suggestions, dont {len(gaps)} SANS article chez nous")
+        print(f"{lang.upper()} — {len(found)} suggestions, {len(gaps)} trous REELS "
+              f"({noise} ecartes comme hors-sujet)")
         print("=" * 76)
         if gaps:
             print("Ce que les gens tapent et qu'on ne traite pas:")

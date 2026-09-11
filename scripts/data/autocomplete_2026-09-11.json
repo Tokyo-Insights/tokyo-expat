@@ -1,50 +1,298 @@
 {
-  "generated": "2026-09-11T03:53:17.936081+00:00",
+  "generated": "2026-09-11T04:11:51.838939+00:00",
   "coverage_pct": 100.0,
   "langs": {
     "en": {
-      "total": 163,
+      "total": 675,
       "gaps": [
         {
-          "q": "what is a gaijin",
+          "q": "tokyo beta share house reddit",
+          "n": 2
+        },
+        {
+          "q": "oakhouse sharehouse tokyo",
           "n": 1
         },
         {
-          "q": "best kimono rental tokyo reddit",
+          "q": "reddit average moving cost tokyo to kanagawa",
           "n": 1
         },
         {
-          "q": "touring tokyo's best share house ft. van gang",
+          "q": "moving from nyc to tokyo reddit",
           "n": 1
         }
       ],
       "all": [
         {
+          "q": "how much does it cost to move to tokyo",
+          "n": 18
+        },
+        {
           "q": "what is a share house in japan",
-          "n": 3
+          "n": 17
         },
         {
           "q": "cheapest share house in tokyo",
-          "n": 3
+          "n": 17
+        },
+        {
+          "q": "how much does moving to japan cost",
+          "n": 17
+        },
+        {
+          "q": "japan visa requirements with guarantor",
+          "n": 14
+        },
+        {
+          "q": "what is guarantor fee in japan",
+          "n": 13
+        },
+        {
+          "q": "do i need a guarantor for japan visa",
+          "n": 12
+        },
+        {
+          "q": "requirements for tourist visa in japan with guarantor",
+          "n": 11
+        },
+        {
+          "q": "is moving to japan expensive",
+          "n": 7
+        },
+        {
+          "q": "how to move to tokyo",
+          "n": 7
+        },
+        {
+          "q": "can foreigners rent apartments in japan",
+          "n": 6
+        },
+        {
+          "q": "how to rent an apartment in japan as a foreigner",
+          "n": 5
         },
         {
           "q": "what is rent in tokyo",
+          "n": 5
+        },
+        {
+          "q": "how much is rent in tokyo",
+          "n": 5
+        },
+        {
+          "q": "moving to tokyo what ll happen to meiko",
+          "n": 5
+        },
+        {
+          "q": "how much does apartment cost in japan",
+          "n": 4
+        },
+        {
+          "q": "how to go about moving to japan",
+          "n": 4
+        },
+        {
+          "q": "rent tokyo short term",
           "n": 3
+        },
+        {
+          "q": "share house tokyo women only",
+          "n": 3
+        },
+        {
+          "q": "share house tokyo short term",
+          "n": 3
+        },
+        {
+          "q": "share house tokyo private bathroom",
+          "n": 3
+        },
+        {
+          "q": "guarantor japan visa philippines",
+          "n": 3
+        },
+        {
+          "q": "guarantor japan visa application",
+          "n": 3
+        },
+        {
+          "q": "guarantor japan visa reddit",
+          "n": 3
+        },
+        {
+          "q": "moving to tokyo from us",
+          "n": 3
+        },
+        {
+          "q": "moving to tokyo from uk",
+          "n": 3
+        },
+        {
+          "q": "moving to tokyo from australia",
+          "n": 3
+        },
+        {
+          "q": "moving to tokyo from canada",
+          "n": 3
+        },
+        {
+          "q": "moving to tokyo from california",
+          "n": 3
+        },
+        {
+          "q": "moving to tokyo as a foreigner",
+          "n": 3
+        },
+        {
+          "q": "best share house tokyo reddit",
+          "n": 3
+        },
+        {
+          "q": "how much does an apartment cost in tokyo japan",
+          "n": 3
+        },
+        {
+          "q": "tokyo rent price",
+          "n": 3
+        },
+        {
+          "q": "share house in tokyo fontana",
+          "n": 3
+        },
+        {
+          "q": "kaika tokyo by the share hotels",
+          "n": 3
+        },
+        {
+          "q": "guarantor letter japan permanent residency",
+          "n": 3
+        },
+        {
+          "q": "moving to tokyo for a year",
+          "n": 3
+        },
+        {
+          "q": "moving to tokyo with a dog",
+          "n": 3
+        },
+        {
+          "q": "moving to tokyo without knowing japanese",
+          "n": 3
+        },
+        {
+          "q": "tokyo apartment foreigner friendly",
+          "n": 2
+        },
+        {
+          "q": "rent apartment tokyo foreigner",
+          "n": 2
+        },
+        {
+          "q": "rent apartment tokyo foreigner reddit",
+          "n": 2
+        },
+        {
+          "q": "furnished apartments tokyo foreigners",
+          "n": 2
+        },
+        {
+          "q": "tokyo apartment rental foreigner",
+          "n": 2
+        },
+        {
+          "q": "monthly apartment tokyo for foreigners",
+          "n": 2
         },
         {
           "q": "monthly apartment tokyo for foreigners reddit",
           "n": 2
         },
         {
-          "q": "japan visa requirements with guarantor",
+          "q": "rent tokyo apartment",
           "n": 2
         },
         {
-          "q": "requirements for tourist visa in japan with guarantor",
+          "q": "rent tokyo japan",
           "n": 2
         },
         {
-          "q": "how much is rent in tokyo",
+          "q": "rent tokyo price",
+          "n": 2
+        },
+        {
+          "q": "rent tokyo car",
+          "n": 2
+        },
+        {
+          "q": "rent tokyo godfathers",
+          "n": 2
+        },
+        {
+          "q": "rent tokyo house",
+          "n": 2
+        },
+        {
+          "q": "rent tokyo drift",
+          "n": 2
+        },
+        {
+          "q": "rent tokyo average",
+          "n": 2
+        },
+        {
+          "q": "share house tokyo for foreigners",
+          "n": 2
+        },
+        {
+          "q": "share house tokyo cheap",
+          "n": 2
+        },
+        {
+          "q": "share house tokyo 1 month",
+          "n": 2
+        },
+        {
+          "q": "share house tokyo reddit",
+          "n": 2
+        },
+        {
+          "q": "share house tokyo shinjuku",
+          "n": 2
+        },
+        {
+          "q": "share house tokyo ikebukuro",
+          "n": 2
+        },
+        {
+          "q": "guarantor japan visa",
+          "n": 2
+        },
+        {
+          "q": "guarantor japan visa requirements",
+          "n": 2
+        },
+        {
+          "q": "guarantor japan tourist visa",
+          "n": 2
+        },
+        {
+          "q": "guarantor japan visa form",
+          "n": 2
+        },
+        {
+          "q": "guarantor japan apartment",
+          "n": 2
+        },
+        {
+          "q": "moving to tokyo reddit",
+          "n": 2
+        },
+        {
+          "q": "moving to tokyo as an american",
+          "n": 2
+        },
+        {
+          "q": "moving to tokyo japan",
           "n": 2
         },
         {
@@ -52,23 +300,219 @@
           "n": 2
         },
         {
-          "q": "tokyo apartment foreigner friendly",
-          "n": 1
+          "q": "how much is it to rent an apartment in tokyo",
+          "n": 2
         },
         {
-          "q": "rent apartment tokyo foreigner",
-          "n": 1
+          "q": "touring tokyo's best share house ft. van gang",
+          "n": 2
         },
         {
-          "q": "rent apartment tokyo foreigner reddit",
-          "n": 1
+          "q": "buying apartment in tokyo foreigner",
+          "n": 2
+        },
+        {
+          "q": "tokyo apartments for foreigners reddit",
+          "n": 2
+        },
+        {
+          "q": "rent car tokyo to mt fuji",
+          "n": 2
+        },
+        {
+          "q": "tokyo rent kano english",
+          "n": 2
+        },
+        {
+          "q": "tokyo rent real estate",
+          "n": 2
+        },
+        {
+          "q": "rent house tokyo japan",
+          "n": 2
+        },
+        {
+          "q": "rent tokyo long term",
+          "n": 2
+        },
+        {
+          "q": "guest house tokyo azabu reviews",
+          "n": 2
+        },
+        {
+          "q": "guest house tokyo azabu photos",
+          "n": 2
+        },
+        {
+          "q": "guest house tokyo samurai asakusa",
+          "n": 2
+        },
+        {
+          "q": "guest house tokyo samurai address",
+          "n": 2
+        },
+        {
+          "q": "tokyo beta share house review",
+          "n": 2
+        },
+        {
+          "q": "tokyo beta share house reddit",
+          "n": 2
+        },
+        {
+          "q": "co living share house tokyo",
+          "n": 2
+        },
+        {
+          "q": "share house tokyo for foreigners reddit",
+          "n": 2
+        },
+        {
+          "q": "share house tokyo pet friendly",
+          "n": 2
+        },
+        {
+          "q": "female only share house tokyo",
+          "n": 2
+        },
+        {
+          "q": "share house in tokyo cheap",
+          "n": 2
+        },
+        {
+          "q": "share house in tokyo japan",
+          "n": 2
+        },
+        {
+          "q": "share house in tokyo reddit",
+          "n": 2
+        },
+        {
+          "q": "guest house in tokyo",
+          "n": 2
+        },
+        {
+          "q": "are there houses in tokyo",
+          "n": 2
+        },
+        {
+          "q": "share house tokyo one month",
+          "n": 2
+        },
+        {
+          "q": "true tokyo share house manga",
+          "n": 2
+        },
+        {
+          "q": "guest house tokyo samurai reviews",
+          "n": 2
+        },
+        {
+          "q": "world unite share house tokyo",
+          "n": 2
+        },
+        {
+          "q": "guarantor japan visa application form",
+          "n": 2
+        },
+        {
+          "q": "guarantor company japan reddit",
+          "n": 2
+        },
+        {
+          "q": "guarantor letter japan visa",
+          "n": 2
+        },
+        {
+          "q": "guarantor letter japan visa philippines",
+          "n": 2
+        },
+        {
+          "q": "guarantor requirements japan visa ph",
+          "n": 2
+        },
+        {
+          "q": "moving company tokyo english",
+          "n": 2
+        },
+        {
+          "q": "moving company tokyo reddit",
+          "n": 2
+        },
+        {
+          "q": "moving company tokyo price",
+          "n": 2
+        },
+        {
+          "q": "move to east in tokyo city",
+          "n": 2
+        },
+        {
+          "q": "tokyo moving to 4 day work week",
+          "n": 2
+        },
+        {
+          "q": "moving to tokyo from london",
+          "n": 2
+        },
+        {
+          "q": "moving from tokyo to osaka",
+          "n": 2
+        },
+        {
+          "q": "moving on tokyo ghoul",
+          "n": 2
+        },
+        {
+          "q": "is moving to tokyo hard",
+          "n": 2
+        },
+        {
+          "q": "move to tokyo in japanese",
+          "n": 2
+        },
+        {
+          "q": "is moving to tokyo worth it",
+          "n": 2
+        },
+        {
+          "q": "is moving to japan worth it",
+          "n": 2
+        },
+        {
+          "q": "moving to tokyo with kids",
+          "n": 2
+        },
+        {
+          "q": "moving luggage from tokyo to kyoto",
+          "n": 2
+        },
+        {
+          "q": "moving luggage from tokyo to osaka",
+          "n": 2
+        },
+        {
+          "q": "how much does it cost to move and live in japan",
+          "n": 2
+        },
+        {
+          "q": "safiya nygaard moving to tokyo",
+          "n": 2
+        },
+        {
+          "q": "moving from tokyo to osaka reddit",
+          "n": 2
+        },
+        {
+          "q": "why are people moving to tokyo",
+          "n": 2
+        },
+        {
+          "q": "is it worth it to move to japan",
+          "n": 2
         },
         {
           "q": "tokyo house foreigner",
-          "n": 1
-        },
-        {
-          "q": "furnished apartments tokyo foreigners",
           "n": 1
         },
         {
@@ -76,159 +520,15 @@
           "n": 1
         },
         {
-          "q": "tokyo apartment rental foreigner",
-          "n": 1
-        },
-        {
-          "q": "monthly apartment tokyo for foreigners",
-          "n": 1
-        },
-        {
-          "q": "rent tokyo apartment",
-          "n": 1
-        },
-        {
-          "q": "rent tokyo japan",
-          "n": 1
-        },
-        {
-          "q": "rent tokyo price",
-          "n": 1
-        },
-        {
-          "q": "rent tokyo car",
-          "n": 1
-        },
-        {
-          "q": "rent tokyo godfathers",
-          "n": 1
-        },
-        {
-          "q": "rent tokyo house",
-          "n": 1
-        },
-        {
-          "q": "rent tokyo drift",
-          "n": 1
-        },
-        {
-          "q": "rent tokyo average",
-          "n": 1
-        },
-        {
-          "q": "rent tokyo short term",
-          "n": 1
-        },
-        {
-          "q": "share house tokyo for foreigners",
-          "n": 1
-        },
-        {
-          "q": "share house tokyo cheap",
-          "n": 1
-        },
-        {
-          "q": "share house tokyo women only",
-          "n": 1
-        },
-        {
-          "q": "share house tokyo 1 month",
-          "n": 1
-        },
-        {
-          "q": "share house tokyo short term",
-          "n": 1
-        },
-        {
-          "q": "share house tokyo reddit",
-          "n": 1
-        },
-        {
-          "q": "share house tokyo shinjuku",
-          "n": 1
-        },
-        {
-          "q": "share house tokyo private bathroom",
-          "n": 1
-        },
-        {
-          "q": "share house tokyo ikebukuro",
-          "n": 1
-        },
-        {
-          "q": "guarantor japan visa",
-          "n": 1
-        },
-        {
-          "q": "guarantor japan visa requirements",
-          "n": 1
-        },
-        {
-          "q": "guarantor japan visa philippines",
-          "n": 1
-        },
-        {
           "q": "guarantor japanese",
           "n": 1
         },
         {
-          "q": "guarantor japan visa application",
-          "n": 1
-        },
-        {
-          "q": "guarantor japan tourist visa",
-          "n": 1
-        },
-        {
-          "q": "guarantor japan visa reddit",
-          "n": 1
-        },
-        {
-          "q": "guarantor japan visa form",
-          "n": 1
-        },
-        {
-          "q": "guarantor japan apartment",
-          "n": 1
-        },
-        {
-          "q": "moving to tokyo reddit",
-          "n": 1
-        },
-        {
-          "q": "moving to tokyo as an american",
-          "n": 1
-        },
-        {
-          "q": "moving to tokyo from us",
-          "n": 1
-        },
-        {
-          "q": "moving to tokyo from uk",
-          "n": 1
-        },
-        {
-          "q": "moving to tokyo japan",
-          "n": 1
-        },
-        {
-          "q": "moving to tokyo from australia",
-          "n": 1
-        },
-        {
-          "q": "moving to tokyo from canada",
-          "n": 1
-        },
-        {
-          "q": "moving to tokyo from california",
-          "n": 1
-        },
-        {
-          "q": "moving to tokyo as a foreigner",
-          "n": 1
-        },
-        {
           "q": "furnished apartment tokyo short term",
+          "n": 1
+        },
+        {
+          "q": "furnished apartment tokyo rent",
           "n": 1
         },
         {
@@ -245,10 +545,6 @@
         },
         {
           "q": "furnished apartments tokyo long term",
-          "n": 1
-        },
-        {
-          "q": "furnished apt tokyo",
           "n": 1
         },
         {
@@ -361,14 +657,6 @@
         },
         {
           "q": "how to buy an apartment in tokyo as a foreigner",
-          "n": 1
-        },
-        {
-          "q": "how to rent an apartment in japan as a foreigner",
-          "n": 1
-        },
-        {
-          "q": "can foreigners rent apartments in japan",
           "n": 1
         },
         {
@@ -500,10 +788,6 @@
           "n": 1
         },
         {
-          "q": "how much is it to rent an apartment in tokyo",
-          "n": 1
-        },
-        {
           "q": "what is rent in tokyo japan",
           "n": 1
         },
@@ -538,292 +822,376 @@
         {
           "q": "what is the cheapest rent in tokyo",
           "n": 1
-        },
-        {
-          "q": "what is a share house in tokyo",
-          "n": 1
-        },
-        {
-          "q": "what are share houses",
-          "n": 1
-        },
-        {
-          "q": "what is guarantor in japan visa",
-          "n": 1
-        },
-        {
-          "q": "what is guarantor in japan visa application",
-          "n": 1
-        },
-        {
-          "q": "what is a guarantor japan",
-          "n": 1
-        },
-        {
-          "q": "what is guarantor in japanese",
-          "n": 1
-        },
-        {
-          "q": "what is guarantor fee in japan",
-          "n": 1
-        },
-        {
-          "q": "what is guarantor or reference in japan",
-          "n": 1
-        },
-        {
-          "q": "what is a guarantor company japan",
-          "n": 1
-        },
-        {
-          "q": "what is visit visa with guarantor in japan",
-          "n": 1
-        },
-        {
-          "q": "where to rent tokyo godfathers",
-          "n": 1
-        },
-        {
-          "q": "where to rent in tokyo",
-          "n": 1
-        },
-        {
-          "q": "where to rent car tokyo",
-          "n": 1
-        },
-        {
-          "q": "where to rent bike tokyo",
-          "n": 1
-        },
-        {
-          "q": "where to rent kimono tokyo",
-          "n": 1
-        },
-        {
-          "q": "where to rent in tokyo reddit",
-          "n": 1
-        },
-        {
-          "q": "where to rent wheelchair tokyo",
-          "n": 1
-        },
-        {
-          "q": "where to rent yukata in tokyo",
-          "n": 1
-        },
-        {
-          "q": "where to rent stroller in tokyo",
-          "n": 1
-        },
-        {
-          "q": "where to rent stroller in tokyo disneyland",
-          "n": 1
-        },
-        {
-          "q": "best car rental tokyo",
-          "n": 1
-        },
-        {
-          "q": "best kimono rental tokyo",
-          "n": 1
-        },
-        {
-          "q": "best car rental tokyo reddit",
-          "n": 1
-        },
-        {
-          "q": "best bike rental tokyo",
-          "n": 1
-        },
-        {
-          "q": "best jdm rental tokyo",
-          "n": 1
-        },
-        {
-          "q": "best kimono rental tokyo reddit",
-          "n": 1
-        },
-        {
-          "q": "best wifi rental tokyo",
-          "n": 1
-        },
-        {
-          "q": "best campervan rental tokyo",
-          "n": 1
-        },
-        {
-          "q": "best yukata rental tokyo",
-          "n": 1
-        },
-        {
-          "q": "best apartment rental tokyo",
-          "n": 1
-        },
-        {
-          "q": "best share house tokyo reddit",
-          "n": 1
-        },
-        {
-          "q": "best guest house tokyo",
-          "n": 1
-        },
-        {
-          "q": "touring tokyo's best share house ft. van gang",
-          "n": 1
         }
       ]
     },
     "fr": {
-      "total": 48,
+      "total": 381,
       "gaps": [
         {
           "q": "garanti japonya",
+          "n": 1
+        },
+        {
+          "q": "apartment mimaru tokyo nihombashi suitengumae",
+          "n": 1
+        },
+        {
+          "q": "nestay apartment tokyo otsuka",
           "n": 1
         }
       ],
       "all": [
         {
-          "q": "logement tokyo etudiant",
-          "n": 1
+          "q": "apartment tokyo",
+          "n": 5
+        },
+        {
+          "q": "est il facile de s installer au japon",
+          "n": 5
         },
         {
           "q": "logement tokyo pas cher",
-          "n": 1
+          "n": 4
+        },
+        {
+          "q": "logement tokyo etudiant",
+          "n": 3
         },
         {
           "q": "logement tokyo airbnb",
-          "n": 1
+          "n": 3
         },
         {
           "q": "logement tokyo prix",
-          "n": 1
+          "n": 3
         },
         {
           "q": "logement tokyo conseil",
-          "n": 1
+          "n": 3
         },
         {
           "q": "logement tokyo shinjuku",
-          "n": 1
+          "n": 3
         },
         {
           "q": "logement tokyo vacances",
-          "n": 1
-        },
-        {
-          "q": "logement tokyo 1 mois",
-          "n": 1
+          "n": 3
         },
         {
           "q": "logement tokyo longue durée",
-          "n": 1
-        },
-        {
-          "q": "apartment tokyo",
-          "n": 1
-        },
-        {
-          "q": "appartement tokyo location",
-          "n": 1
+          "n": 3
         },
         {
           "q": "appartement tokyo a vendre",
-          "n": 1
+          "n": 3
         },
         {
           "q": "appartement tokyo achat",
-          "n": 1
+          "n": 3
         },
         {
           "q": "appartement tokyo prix",
-          "n": 1
+          "n": 3
         },
         {
           "q": "appartement tokyo rent",
-          "n": 1
+          "n": 3
         },
         {
           "q": "appartement tokyo luxe",
-          "n": 1
+          "n": 3
         },
         {
           "q": "appartement tokyo japon",
-          "n": 1
+          "n": 3
         },
         {
           "q": "appartement tokyo loyer",
-          "n": 1
-        },
-        {
-          "q": "appartement tokyo location vacances",
-          "n": 1
+          "n": 3
         },
         {
           "q": "location appartement japon longue durée",
-          "n": 1
+          "n": 3
+        },
+        {
+          "q": "s installer au japon pour sa retraite",
+          "n": 3
+        },
+        {
+          "q": "aide pour s'installer au japon",
+          "n": 3
+        },
+        {
+          "q": "demarche pour s installer au japon",
+          "n": 3
+        },
+        {
+          "q": "conditions pour s'installer au japon",
+          "n": 3
+        },
+        {
+          "q": "appartement meublé tokyo",
+          "n": 3
+        },
+        {
+          "q": "location appartement meublé tokyo",
+          "n": 3
+        },
+        {
+          "q": "apartment tokyo pas cher",
+          "n": 3
+        },
+        {
+          "q": "logement tokyo 1 mois",
+          "n": 2
+        },
+        {
+          "q": "appartement tokyo location",
+          "n": 2
+        },
+        {
+          "q": "appartement tokyo location vacances",
+          "n": 2
+        },
+        {
+          "q": "location appartement japon prix",
+          "n": 2
+        },
+        {
+          "q": "location appartement japon 1 mois",
+          "n": 2
+        },
+        {
+          "q": "garant visa japon",
+          "n": 2
+        },
+        {
+          "q": "garant en japonais",
+          "n": 2
+        },
+        {
+          "q": "garanti japon yeni",
+          "n": 2
+        },
+        {
+          "q": "s'installer au japon a la retraite",
+          "n": 2
+        },
+        {
+          "q": "comment s installer au japon",
+          "n": 2
+        },
+        {
+          "q": "partir s installer au japon",
+          "n": 2
+        },
+        {
+          "q": "peut on s installer au japon",
+          "n": 2
+        },
+        {
+          "q": "logement étudiant tokyo prix",
+          "n": 2
+        },
+        {
+          "q": "comment louer un appartement au japon",
+          "n": 2
+        },
+        {
+          "q": "appartement tokyo a louer",
+          "n": 2
+        },
+        {
+          "q": "logement tokyo booking",
+          "n": 2
+        },
+        {
+          "q": "logement tokyo blog",
+          "n": 2
+        },
+        {
+          "q": "apartment tokyo buy",
+          "n": 2
+        },
+        {
+          "q": "logement tokyo centre",
+          "n": 2
+        },
+        {
+          "q": "logement capsule tokyo",
+          "n": 2
+        },
+        {
+          "q": "appartement tokyo centre",
+          "n": 2
+        },
+        {
+          "q": "appartement capsule tokyo",
+          "n": 2
+        },
+        {
+          "q": "logement tokyo 2 mois",
+          "n": 2
+        },
+        {
+          "q": "appartement etudiant tokyo",
+          "n": 2
+        },
+        {
+          "q": "residence tokyo vaulx en velin",
+          "n": 2
+        },
+        {
+          "q": "logement tokyo famille",
+          "n": 2
+        },
+        {
+          "q": "logement ginza tokyo",
+          "n": 2
+        },
+        {
+          "q": "appartement ginza tokyo",
+          "n": 2
+        },
+        {
+          "q": "logement tokyo hotel",
+          "n": 2
+        },
+        {
+          "q": "logement tokyo haneda",
+          "n": 2
+        },
+        {
+          "q": "hotel apartment tokyo",
+          "n": 2
+        },
+        {
+          "q": "logement insolite tokyo",
+          "n": 2
+        },
+        {
+          "q": "tokyo location map",
+          "n": 2
+        },
+        {
+          "q": "logement tokyo japon",
+          "n": 2
+        },
+        {
+          "q": "logement japon tokyo prix",
+          "n": 2
+        },
+        {
+          "q": "logement japon tokyo pas cher",
+          "n": 2
+        },
+        {
+          "q": "appartement tokyo kopen",
+          "n": 2
+        },
+        {
+          "q": "logement tokyo location",
+          "n": 2
+        },
+        {
+          "q": "logement tokyo 3 mois",
+          "n": 2
+        },
+        {
+          "q": "appartement neuf tokyo",
+          "n": 2
+        },
+        {
+          "q": "logement tokyo pvt",
+          "n": 2
+        },
+        {
+          "q": "logement tokyo shibuya",
+          "n": 2
+        },
+        {
+          "q": "appartement tokyo shibuya",
+          "n": 2
+        },
+        {
+          "q": "appartement tokyo shinjuku",
+          "n": 2
+        },
+        {
+          "q": "logement tokyo traditionnel",
+          "n": 2
+        },
+        {
+          "q": "logement tokyo ueno",
+          "n": 2
+        },
+        {
+          "q": "tokyo logement vacances pas cher",
+          "n": 2
+        },
+        {
+          "q": "appartement tokyo vente",
+          "n": 2
+        },
+        {
+          "q": "appartement tokyo vacances",
+          "n": 2
+        },
+        {
+          "q": "appartement tokyo vue mont fuji",
+          "n": 2
+        },
+        {
+          "q": "location appartement tokyo expatrié",
+          "n": 2
+        },
+        {
+          "q": "location appartement tokyo etudiant",
+          "n": 2
+        },
+        {
+          "q": "maison na tokyo",
+          "n": 2
+        },
+        {
+          "q": "apartment tokyo short term",
+          "n": 2
+        },
+        {
+          "q": "location appartement tokyo vacances",
+          "n": 2
+        },
+        {
+          "q": "louer un appartement au japon prix",
+          "n": 2
+        },
+        {
+          "q": "location appartement tokyo longue durée",
+          "n": 2
+        },
+        {
+          "q": "comment faire pour s installer au japon",
+          "n": 2
+        },
+        {
+          "q": "s installer au japon a la retraite",
+          "n": 2
         },
         {
           "q": "loyer appartement japon",
           "n": 1
         },
         {
-          "q": "location appartement japon 1 mois",
+          "q": "louer logement japon",
           "n": 1
         },
         {
-          "q": "louer un appartement au japon prix",
-          "n": 1
-        },
-        {
-          "q": "garant visa japon",
-          "n": 1
-        },
-        {
-          "q": "garant en japonais",
-          "n": 1
-        },
-        {
-          "q": "garanti japon yeni",
+          "q": "louer appartement tokyo",
           "n": 1
         },
         {
           "q": "garanti japonya",
-          "n": 1
-        },
-        {
-          "q": "s'installer au japon a la retraite",
-          "n": 1
-        },
-        {
-          "q": "s installer au japon pour sa retraite",
-          "n": 1
-        },
-        {
-          "q": "comment s installer au japon",
-          "n": 1
-        },
-        {
-          "q": "partir s installer au japon",
-          "n": 1
-        },
-        {
-          "q": "aide pour s'installer au japon",
-          "n": 1
-        },
-        {
-          "q": "peut on s installer au japon",
-          "n": 1
-        },
-        {
-          "q": "demarche pour s installer au japon",
-          "n": 1
-        },
-        {
-          "q": "conditions pour s'installer au japon",
-          "n": 1
-        },
-        {
-          "q": "est il facile de s installer au japon",
           "n": 1
         },
         {
@@ -847,10 +1215,6 @@
           "n": 1
         },
         {
-          "q": "logement étudiant tokyo prix",
-          "n": 1
-        },
-        {
           "q": "residence etudiant tokyo",
           "n": 1
         },
@@ -863,15 +1227,419 @@
           "n": 1
         },
         {
-          "q": "appartement meublé tokyo",
+          "q": "logement a tokyo",
           "n": 1
         },
         {
-          "q": "location appartement meublé tokyo",
+          "q": "logement atypique tokyo",
           "n": 1
         },
         {
-          "q": "comment louer un appartement au japon",
+          "q": "logement a tokyo prix",
+          "n": 1
+        },
+        {
+          "q": "hébergement a tokyo",
+          "n": 1
+        },
+        {
+          "q": "residence a tokyo",
+          "n": 1
+        },
+        {
+          "q": "tokyo location box",
+          "n": 1
+        },
+        {
+          "q": "hyatt residence tokyo bay",
+          "n": 1
+        },
+        {
+          "q": "tokyo residence benin",
+          "n": 1
+        },
+        {
+          "q": "tokyo location background",
+          "n": 1
+        },
+        {
+          "q": "tokyo location background pokemon go",
+          "n": 1
+        },
+        {
+          "q": "unito residence tokyo bay",
+          "n": 1
+        },
+        {
+          "q": "location car tokyo",
+          "n": 1
+        },
+        {
+          "q": "location chambre tokyo",
+          "n": 1
+        },
+        {
+          "q": "location campervan tokyo",
+          "n": 1
+        },
+        {
+          "q": "location chien tokyo",
+          "n": 1
+        },
+        {
+          "q": "tokyo location de voiture",
+          "n": 1
+        },
+        {
+          "q": "location de tokyo",
+          "n": 1
+        },
+        {
+          "q": "location tokyo disneyland",
+          "n": 1
+        },
+        {
+          "q": "location tokyo drift",
+          "n": 1
+        },
+        {
+          "q": "location tokyo dome",
+          "n": 1
+        },
+        {
+          "q": "location disney tokyo",
+          "n": 1
+        },
+        {
+          "q": "residence etudiante tokyo",
+          "n": 1
+        },
+        {
+          "q": "residence ef tokyo",
+          "n": 1
+        },
+        {
+          "q": "logement tokyo 2 semaines",
+          "n": 1
+        },
+        {
+          "q": "residence tokyo edogawabashi",
+          "n": 1
+        },
+        {
+          "q": "residence furukawa tokyo",
+          "n": 1
+        },
+        {
+          "q": "residence france tokyo",
+          "n": 1
+        },
+        {
+          "q": "location for tokyo",
+          "n": 1
+        },
+        {
+          "q": "location ferrari tokyo",
+          "n": 1
+        },
+        {
+          "q": "tokyo location for pokemon go",
+          "n": 1
+        },
+        {
+          "q": "aman residence tokyo for sale",
+          "n": 1
+        },
+        {
+          "q": "aman residence tokyo floor plan",
+          "n": 1
+        },
+        {
+          "q": "residence ginza tokyo",
+          "n": 1
+        },
+        {
+          "q": "location gtr tokyo",
+          "n": 1
+        },
+        {
+          "q": "tokyo location google maps",
+          "n": 1
+        },
+        {
+          "q": "randor residence tokyo grand",
+          "n": 1
+        },
+        {
+          "q": "location hotel tokyo",
+          "n": 1
+        },
+        {
+          "q": "logement chez l habitant tokyo",
+          "n": 1
+        },
+        {
+          "q": "tokyo residence hotel",
+          "n": 1
+        },
+        {
+          "q": "appartement huren in tokyo",
+          "n": 1
+        },
+        {
+          "q": "residence in tokyo",
+          "n": 1
+        },
+        {
+          "q": "residence imperiale tokyo",
+          "n": 1
+        },
+        {
+          "q": "location in tokyo",
+          "n": 1
+        },
+        {
+          "q": "tokyo residence ikebukuro nishi",
+          "n": 1
+        },
+        {
+          "q": "tokyo location in japan",
+          "n": 1
+        },
+        {
+          "q": "tokyo location in japan map",
+          "n": 1
+        },
+        {
+          "q": "hébergement japon tokyo",
+          "n": 1
+        },
+        {
+          "q": "location jdm tokyo",
+          "n": 1
+        },
+        {
+          "q": "location japon tokyo",
+          "n": 1
+        },
+        {
+          "q": "logement traditionnel japon tokyo",
+          "n": 1
+        },
+        {
+          "q": "location tokyo japan",
+          "n": 1
+        },
+        {
+          "q": "tokyo residence jakarta",
+          "n": 1
+        },
+        {
+          "q": "location kimono tokyo",
+          "n": 1
+        },
+        {
+          "q": "location kimono tokyo asakusa",
+          "n": 1
+        },
+        {
+          "q": "location kart tokyo",
+          "n": 1
+        },
+        {
+          "q": "hotel residence tokyo kikukawa",
+          "n": 1
+        },
+        {
+          "q": "appartement tokyo louer",
+          "n": 1
+        },
+        {
+          "q": "location tokyo maison",
+          "n": 1
+        },
+        {
+          "q": "tokyo residence matsudo 7",
+          "n": 1
+        },
+        {
+          "q": "logement tokyo 6 mois",
+          "n": 1
+        },
+        {
+          "q": "location moto tokyo",
+          "n": 1
+        },
+        {
+          "q": "location maison tokyo vacances",
+          "n": 1
+        },
+        {
+          "q": "location maison tokyo longue durée",
+          "n": 1
+        },
+        {
+          "q": "tokyo xtreme racer location name",
+          "n": 1
+        },
+        {
+          "q": "court residence tokyo nakano",
+          "n": 1
+        },
+        {
+          "q": "tokyo location number",
+          "n": 1
+        },
+        {
+          "q": "tokyo location name",
+          "n": 1
+        },
+        {
+          "q": "court residence tokyo nakano reviews",
+          "n": 1
+        },
+        {
+          "q": "court residence tokyo nakano phone number",
+          "n": 1
+        },
+        {
+          "q": "location of tokyo",
+          "n": 1
+        },
+        {
+          "q": "logement à tokyo",
+          "n": 1
+        },
+        {
+          "q": "logement avec onsen tokyo",
+          "n": 1
+        },
+        {
+          "q": "location of tokyo disneyland",
+          "n": 1
+        },
+        {
+          "q": "location of tokyo japan",
+          "n": 1
+        },
+        {
+          "q": "location of tokyo tower",
+          "n": 1
+        },
+        {
+          "q": "location of tokyo skytree",
+          "n": 1
+        },
+        {
+          "q": "location of tokyo tower fh6",
+          "n": 1
+        },
+        {
+          "q": "location of tokyo station",
+          "n": 1
+        },
+        {
+          "q": "hébergement tokyo pas cher",
+          "n": 1
+        },
+        {
+          "q": "residence tokyo paris 13",
+          "n": 1
+        },
+        {
+          "q": "location tokyo pas cher",
+          "n": 1
+        },
+        {
+          "q": "logement tokyo 4 personnes",
+          "n": 1
+        },
+        {
+          "q": "quartier logement tokyo",
+          "n": 1
+        },
+        {
+          "q": "residence tokyo rodange",
+          "n": 1
+        },
+        {
+          "q": "logement ryokan tokyo",
+          "n": 1
+        },
+        {
+          "q": "location. ryokan tokyo",
+          "n": 1
+        },
+        {
+          "q": "location rx7 tokyo",
+          "n": 1
+        },
+        {
+          "q": "reservation logement tokyo",
+          "n": 1
+        },
+        {
+          "q": "residence tokyo ryogoku",
+          "n": 1
+        },
+        {
+          "q": "tokyo residence riverside pik 2",
+          "n": 1
+        },
+        {
+          "q": "tokyo residence rental",
+          "n": 1
+        },
+        {
+          "q": "sano residence tokyo revengers",
+          "n": 1
+        },
+        {
+          "q": "logement sur tokyo",
+          "n": 1
+        },
+        {
+          "q": "logement tokyo 1 semaine",
+          "n": 1
+        },
+        {
+          "q": "location scooter tokyo",
+          "n": 1
+        },
+        {
+          "q": "location studio tokyo",
+          "n": 1
+        },
+        {
+          "q": "location supra tokyo",
+          "n": 1
+        },
+        {
+          "q": "location tokyo tower",
+          "n": 1
+        },
+        {
+          "q": "location tokyo tower fh6",
+          "n": 1
+        },
+        {
+          "q": "tokyo residence tower",
+          "n": 1
+        },
+        {
+          "q": "tokyo location to stay",
+          "n": 1
+        },
+        {
+          "q": "tokyo residence ulaanbaatar",
+          "n": 1
+        },
+        {
+          "q": "location tokyo voiture",
+          "n": 1
+        },
+        {
+          "q": "prix logement tokyo vacances",
           "n": 1
         }
       ]
