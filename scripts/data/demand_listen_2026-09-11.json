@@ -1,0 +1,270 @@
+{
+  "generated": "2026-09-11T03:42:36.386604+00:00",
+  "subs": [
+    "japanlife",
+    "movingtojapan"
+  ],
+  "posts_analysed": 82,
+  "themes": {
+    "refus / discrimination": 19,
+    "etat des lieux/sortie": 7,
+    "langue / paperasse": 10,
+    "visa / statut": 18,
+    "chercher a distance": 7,
+    "meuble / court terme": 7,
+    "budget / cherte": 20,
+    "garant / hosho": 5,
+    "renouvellement": 4,
+    "share house": 5,
+    "animaux": 1
+  },
+  "stages": {
+    "deja installe": 15,
+    "juste arrive": 3,
+    "avant l'arrivee": 12
+  },
+  "painful_pct": 29.3,
+  "top_bigrams": [
+    {
+      "phrase": "link comments",
+      "n": 82
+    },
+    {
+      "phrase": "real estate",
+      "n": 11
+    },
+    {
+      "phrase": "long term",
+      "n": 10
+    },
+    {
+      "phrase": "love hear",
+      "n": 10
+    },
+    {
+      "phrase": "working holiday",
+      "n": 10
+    },
+    {
+      "phrase": "moving japan",
+      "n": 10
+    },
+    {
+      "phrase": "ward office",
+      "n": 8
+    },
+    {
+      "phrase": "holiday visa",
+      "n": 8
+    },
+    {
+      "phrase": "second hand",
+      "n": 7
+    },
+    {
+      "phrase": "share house",
+      "n": 7
+    },
+    {
+      "phrase": "right away",
+      "n": 6
+    },
+    {
+      "phrase": "first time",
+      "n": 6
+    },
+    {
+      "phrase": "i'm trying",
+      "n": 6
+    },
+    {
+      "phrase": "thanks submitted",
+      "n": 6
+    },
+    {
+      "phrase": "move japan",
+      "n": 6
+    },
+    {
+      "phrase": "part time",
+      "n": 6
+    },
+    {
+      "phrase": "higher education",
+      "n": 6
+    },
+    {
+      "phrase": "estate agent",
+      "n": 5
+    },
+    {
+      "phrase": "thank submitted",
+      "n": 5
+    },
+    {
+      "phrase": "even though",
+      "n": 5
+    },
+    {
+      "phrase": "bank account",
+      "n": 5
+    },
+    {
+      "phrase": "few months",
+      "n": 5
+    },
+    {
+      "phrase": "next year",
+      "n": 5
+    },
+    {
+      "phrase": "right now",
+      "n": 5
+    },
+    {
+      "phrase": "new apartment",
+      "n": 5
+    },
+    {
+      "phrase": "living japan",
+      "n": 5
+    },
+    {
+      "phrase": "came home",
+      "n": 5
+    },
+    {
+      "phrase": "year old",
+      "n": 5
+    },
+    {
+      "phrase": "work culture",
+      "n": 5
+    },
+    {
+      "phrase": "language school",
+      "n": 5
+    },
+    {
+      "phrase": "i've seen",
+      "n": 5
+    },
+    {
+      "phrase": "education admin",
+      "n": 5
+    },
+    {
+      "phrase": "another job",
+      "n": 4
+    },
+    {
+      "phrase": "english speaking",
+      "n": 4
+    },
+    {
+      "phrase": "parking space",
+      "n": 4
+    },
+    {
+      "phrase": "appreciated submitted",
+      "n": 4
+    },
+    {
+      "phrase": "residence card",
+      "n": 4
+    },
+    {
+      "phrase": "last years",
+      "n": 4
+    },
+    {
+      "phrase": "i'm sure",
+      "n": 4
+    },
+    {
+      "phrase": "time i'm",
+      "n": 4
+    },
+    {
+      "phrase": "once year",
+      "n": 4
+    },
+    {
+      "phrase": "share houses",
+      "n": 4
+    },
+    {
+      "phrase": "house tokyo",
+      "n": 4
+    },
+    {
+      "phrase": "years ago",
+      "n": 4
+    },
+    {
+      "phrase": "thanks advance",
+      "n": 4
+    },
+    {
+      "phrase": "getting apartment",
+      "n": 4
+    },
+    {
+      "phrase": "visa application",
+      "n": 4
+    },
+    {
+      "phrase": "university aizu",
+      "n": 4
+    },
+    {
+      "phrase": "japan i'm",
+      "n": 4
+    },
+    {
+      "phrase": "several months",
+      "n": 3
+    },
+    {
+      "phrase": "months ago",
+      "n": 3
+    },
+    {
+      "phrase": "legal terms",
+      "n": 3
+    },
+    {
+      "phrase": "around property",
+      "n": 3
+    },
+    {
+      "phrase": "job offer",
+      "n": 3
+    },
+    {
+      "phrase": "japanese labor",
+      "n": 3
+    },
+    {
+      "phrase": "poor performance",
+      "n": 3
+    },
+    {
+      "phrase": "much better",
+      "n": 3
+    },
+    {
+      "phrase": "tell them",
+      "n": 3
+    },
+    {
+      "phrase": "dry mode",
+      "n": 3
+    },
+    {
+      "phrase": "monthly parking",
+      "n": 3
+    }
+  ],
+  "amounts_median": 362000
+}
