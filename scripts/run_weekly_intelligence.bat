@@ -135,9 +135,16 @@ python scripts\facebook_buffer_poster.py >> "%LOG_FILE%" 2>&1
 echo [%TIME%] [19/22] Email reply monitor... >> "%LOG_FILE%"
 python scripts\email_reply_monitor.py >> "%LOG_FILE%" 2>&1
 
-:: 20. Email sender (envoie les 2 prochains contacts en queue)
-echo [%TIME%] [20/22] Email sender outreach... >> "%LOG_FILE%"
-python scripts\email_sender.py >> "%LOG_FILE%" 2>&1
+:: 20. Email sender -- MODE BROUILLON depuis le 11/09/2026 (regle d'Alessandro:
+::     plus d'envoi automatique reel a son insu). Prepare les 2 prochains emails,
+::     les ecrit dans data/outreach_drafts_<date>.md, previent par Telegram, et
+::     N'ENVOIE RIEN. Le statut des contacts n'est PAS modifie: ils reviendront
+::     tant qu'ils ne sont pas traites, le silence n'acte rien.
+::     Envoi reel = `python scripts\email_sender.py --send`, geste explicite.
+::     Contexte: 43 emails a froid sont partis entre le 22/06 et le 09/09 sans
+::     qu'aucun soit relu (Air France, LVMH, Airbus, Thales, JETRO, Japan Times).
+echo [%TIME%] [20/35] Email sender (BROUILLONS, aucun envoi)... >> "%LOG_FILE%"
+python scripts\email_sender.py --draft >> "%LOG_FILE%" 2>&1
 
 :: 21. LinkedIn via Buffer API
 echo [%TIME%] [21/22] LinkedIn Buffer poster... >> "%LOG_FILE%"

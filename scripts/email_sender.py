@@ -615,7 +615,24 @@ def send_email(to_address: str, subject: str, body: str) -> bool:
 
 def main():
     args = sys.argv[1:]
+    # ⚠️ REGLE POSEE PAR ALESSANDRO LE 11/09/2026: plus aucun envoi automatique a
+    # son insu. Soit un brouillon qu'il relit, soit au minimum qu'il SACHE.
+    # Ce script a envoye 43 emails de prospection a froid entre le 22/06 et le
+    # 09/09 (Air France, LVMH, Airbus, Thales, JETRO, Japan Times...) sans qu'il
+    # en relise un seul. Bilan: 28 declined, 3 bounces, 2 liens obtenus, et les
+    # 2 liens venaient de contacts CHAUDS, pas du froid.
+    # --draft = mode par defaut dans la chaine: prepare, notifie, n'envoie RIEN.
+    # --send  = envoi reel, exige un geste explicite.
+    draft = "--draft" in args
     preview = "--preview" in args
+    explicit_send = "--send" in args
+    if not (draft or preview or explicit_send):
+        # Garde-fou: un appel nu ne doit PLUS envoyer. Il prepare.
+        draft = True
+        print("[GARDE-FOU] Appel sans argument -> mode --draft (aucun envoi). "
+              "Utiliser --send pour envoyer reellement.")
+    if draft:
+        preview = True   # reutilise tout le chemin 'ne pas envoyer'
     target_domain = None
     if "--domain" in args:
         idx = args.index("--domain")
@@ -657,6 +674,7 @@ def main():
         return
 
     sent_ok = []
+    drafted = []
     for contact in to_send:
         domain = contact.get("domain", "")
         email  = contact.get("email", "")
@@ -701,6 +719,8 @@ def main():
                 print(f"Echec pour {email}")
         else:
             sent_ok.append(f"[PREVIEW] {domain}")
+            drafted.append({"domain": domain, "email": email,
+                            "subject": subject, "body": body})
 
     if not preview and sent_ok:
         save_contacts(contacts)
@@ -710,6 +730,30 @@ def main():
             f"Envoyes : {', '.join(sent_ok)}\n"
             f"Reponses attendues dans 3-7 jours.\n"
             f"Mise a jour statut : <code>python scripts/outreach_tracker.py --update DOMAIN replied</code>"
+        )
+    elif draft and drafted:
+        # On ECRIT le brouillon sur disque et on PREVIENT. Aucun envoi, aucun
+        # changement de statut: le contact reste 'to_contact' et reviendra tant
+        # qu'Alessandro ne l'a pas traite. Le silence n'acte rien.
+        out = DATA_DIR / f"outreach_drafts_{datetime.date.today().isoformat()}.md"
+        lines = [f"# Brouillons outreach du {datetime.date.today().isoformat()}", "",
+                 "Aucun de ces emails n'a ete envoye. Relis, puis envoie a la main,",
+                 "ou lance `python scripts/email_sender.py --send` pour les 2 premiers.", ""]
+        for d in drafted:
+            lines += [f"## {d['domain']}", f"**A :** {d['email']}",
+                      f"**Objet :** {d['subject']}", "", "```", d["body"], "```", ""]
+        try:
+            out.write_text("\n".join(lines), encoding="utf-8")
+            print(f"\n[DRAFT] Ecrit: {out}")
+        except Exception as e:
+            print(f"[DRAFT] Ecriture impossible: {e}")
+        send_telegram(
+            f"✍️ <b>OUTREACH : {len(drafted)} brouillon(s) a relire</b>\n"
+            f"<b>RIEN N'A ETE ENVOYE.</b>\n\n"
+            + "\n".join(f"• {d['domain']} → {d['email']}\n  <i>{d['subject']}</i>"
+                        for d in drafted)
+            + f"\n\nTexte complet : <code>{out.name}</code>\n"
+              f"Pour envoyer : <code>python scripts/email_sender.py --send</code>"
         )
     elif preview:
         print(f"\n[PREVIEW] Seraient envoyes : {', '.join(sent_ok)}")
