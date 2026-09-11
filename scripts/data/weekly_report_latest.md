@@ -1,10 +1,39 @@
-# 📊 RAPPORT HEBDO — tokyo-expat — 2026-09-09
+# 📊 RAPPORT HEBDO — tokyo-expat — 2026-09-11
 
 ## 🎯 KPIs
 - **Trafic (7j)** : 341 sessions (+3%), 323 users (+6%)
 - **Visibilite (28j)** : 19056 impressions | 100 clics | CTR 0.52% | pos moy 21.1
 - **🔴 DEMANDES REELLES (90j)** : 3 formulaires de contact · 2 reservations Calendly
 - Captures d'email (90j) : 11
+
+## 👂 ECOUTE DE LA DEMANDE — ce que les gens disent, pas ce qu'on publie
+**Reddit** : 82 fils analyses (2026-09-11), **1re passe: aucune comparaison possible**
+
+| Ce qui bloque | Fils | vs passe precedente |
+|---|---:|---|
+| budget / cherte | 20 |  |
+| refus / discrimination | 19 |  |
+| visa / statut | 18 |  |
+| langue / paperasse | 10 |  |
+| etat des lieux/sortie | 7 |  |
+| chercher a distance | 7 |  |
+
+- **Avant l'arrivee (= la cible qui achete)** : 12 fils sur 30 (40%). Les autres sont deja loges.
+- **Montant median cite** : 362,000 JPY. Rappel: le forfait meuble (400 EUR ~ 62 000 JPY) vaut 17% de ce qu'ils s'attendent deja a depenser. **Argument de vente chiffre, dans leurs mots.**
+- **Leurs expressions** : link comments · real estate · long term · love hear · working holiday · moving japan · ward office · holiday visa · second hand · share house
+
+**Autocompletion Google** (couverture 100.0%) — ce que les gens TAPENT, la ou la Search Console est aveugle.
+- **EN** : 163 suggestions, **3 sans article chez nous**
+    - what is a gaijin
+    - best kimono rental tokyo reddit
+    - touring tokyo's best share house ft. van gang
+- **FR** : 48 suggestions, **1 sans article chez nous**
+    - garanti japonya
+
+### ⚔️ PLAN D'ATTAQUE issu de l'ecoute
+1. Reprendre CES expressions dans les titres et les emails, pas le vocabulaire SEO.
+
+_Une suggestion n'est pas un volume, et une passe isolee ne dit pas si un sujet monte. Lire les colonnes de variation, pas les valeurs._
 
 ## 🔴 DEMANDE REELLE (90j) — les seuls chiffres qui engagent quelqu'un
 **Formulaires de contact recus : 3** · **Reservations Calendly : 2**
@@ -35,41 +64,38 @@ _⚠️ L'evenement GA4 `generate_lead` se declenche uniquement quand quelqu'un 
 
 ## 🔀 CONVERSION PAR PAGE
 **Fort trafic SANS lead (ajouter/renforcer un CTA) :**
-  - 266 sessions · 0 lead | /en/data
-  - 86 sessions · 0 lead | /fr
-  - 70 sessions · 0 lead | /en/blog/tokyo-rent-report-2026
-  - 66 sessions · 0 lead | (not set)
-  - 65 sessions · 0 lead | /en/blog/tokyo-expat-cost-of-living-2026
-  - 63 sessions · 0 lead | /en/blog/jiko-bukken-cheap-apartments-tokyo
-  - 60 sessions · 0 lead | /en/blog/tokyo-rent-by-neighborhood-2026
+  - 274 sessions · 0 lead | /en/data
+  - 87 sessions · 0 lead | /fr
+  - 71 sessions · 0 lead | (not set)
+  - 71 sessions · 0 lead | /en/blog/tokyo-rent-report-2026
+  - 66 sessions · 0 lead | /en/blog/jiko-bukken-cheap-apartments-tokyo
+  - 66 sessions · 0 lead | /en/blog/tokyo-expat-cost-of-living-2026
+  - 62 sessions · 0 lead | /en/blog/tokyo-rent-by-neighborhood-2026
 **Convertissent (y amener plus de trafic) :**
   - 2 lead / 56 sess (3.6%) | /en/blog/gaijin-house-tokyo-guide
-  - 1 lead / 148 sess (0.7%) | /en
-  - 1 lead / 118 sess (0.8%) | /en/blog/japan-sim-card-foreigners-2026
-  - 1 lead / 66 sess (1.5%) | /en/blog/japan-income-tax-foreigners-guide
+  - 1 lead / 153 sess (0.7%) | /en
+  - 1 lead / 126 sess (0.8%) | /en/blog/japan-sim-card-foreigners-2026
+  - 1 lead / 69 sess (1.4%) | /en/blog/japan-income-tax-foreigners-guide
   - 1 lead / 52 sess (1.9%) | /en/blog/send-money-to-japan-from-abroad
 
 ## 📈 TENDANCES (vs snapshot precedent)
-- Sessions -3 · Impressions +2125 · Clics +8 · Leads +1 (depuis 2026-09-02)
-**Vagues montantes (requetes) :**
-  - _jiko bukken for sale_ : impr +22, pos 7.9 (stable)
+- Sessions +0 · Impressions +0 · Clics +0 · Leads +0 (depuis 2026-09-09)
 
 ## 📉 PAGES EN BAISSE (decomposees par canal — le total ne dit pas la cause)
-  - **-39** sessions (120 -> 81, 28j vs 28j prec.) | /en/data
-      Direct -40 · Organic Search -6 · Organic Social -4 · Unassigned -2 · Referral +3 · AI Assistant +10
-      ✅ **Pas un declin de contenu** : la perte vient de canaux sans valeur (Direct/Social). Le trafic qualifie MONTE (+10).
-  - **-11** sessions (24 -> 13, 28j vs 28j prec.) | /en/blog/japan-health-insurance-expat-guide
-      Direct -11 · Organic Search -2 · Unassigned +2
+  - **-10** sessions (24 -> 14, 28j vs 28j prec.) | /en/blog/japan-health-insurance-expat-guide
+      Direct -10 · Organic Search -2 · Unassigned +2
       ✅ **Pas un declin de contenu** : la perte vient de canaux sans valeur (Direct/Social).
 
 ## 🧲 ENGAGEMENT PAR PAGE
 **Fort trafic, FAIBLE engagement (contenu a ameliorer) :**
-  - 81 sess · engagement 27% · 43s | /en/data
-  - 71 sess · engagement 38% · 91s | /en
-  - 70 sess · engagement 44% · 91s | /en/blog/japan-sim-card-foreigners-2026
-  - 48 sess · engagement 6% · 44s | /en/blog/tokyo-expat-cost-of-living-2026
-  - 42 sess · engagement 12% · 39s | /en/blog/tokyo-rent-report-2026
-  - 40 sess · engagement 38% · 107s | /en/blog/share-house-tokyo-guide-2026
+  - 86 sess · engagement 26% · 40s | /en/data
+  - 63 sess · engagement 37% · 84s | /en
+  - 43 sess · engagement 5% · 42s | /en/blog/tokyo-expat-cost-of-living-2026
+  - 42 sess · engagement 40% · 105s | /en/blog/share-house-tokyo-guide-2026
+  - 40 sess · engagement 12% · 43s | /en/blog/tokyo-rent-report-2026
+  - 37 sess · engagement 22% · 4s | /en/blog/tokyo-rent-by-neighborhood-2026
+**Retiennent le mieux (modeles a suivre) :**
+  - 29 sess · engagement 62% · 202s | /en/blog/japan-income-tax-foreigners-guide
 
 ## 🔻 ENTONNOIR DE NAVIGATION (90j) — que des clics, pas des ventes
   - Clic dans un champ **20** → Email donne **11** (55%) → Clic vers /contact **4** (36%) → Clic sur Calendly **3** (75%)
@@ -85,9 +111,9 @@ _⚠️ L'evenement GA4 `generate_lead` se declenche uniquement quand quelqu'un 
   - 101 impr · pos 9.6 · CTR 0.0% (attendu ~2%) · _gaijin house_
 
 ## 🤖 GEO / IA (canal prioritaire)
-**📈 109 sessions IA sur 28j** (vs 80 les 28j precedents, +36%)
+**📈 107 sessions IA sur 28j** (vs 84 les 28j precedents, +27%)
 **Pages qui captent l'IA (90j) :**
-  - 49 sess IA | /en/data
+  - 50 sess IA | /en/data
   - 20 sess IA | /en/blog/tokyo-rent-by-neighborhood-2026
   - 17 sess IA | /en/blog/tokyo-rent-report-2026
   - 12 sess IA | /en/blog/share-house-tokyo-guide-2026
@@ -97,13 +123,13 @@ _⚠️ Bing a un onglet 'AI Performance' plus precis, mais il n'est PAS expose 
 
 ## 🔗 TRAFIC DE REFERENCE (GA4) — a ne pas confondre avec les backlinks
   - 22 sess | dailytokyo.news
-  - 11 sess | facebook.com
+  - 13 sess | fr.search.yahoo.com
+  - 12 sess | facebook.com
+  - 11 sess | cn.bing.com
   - 11 sess | linkedin.com
-  - 10 sess | fr.search.yahoo.com
-  - 7 sess | cn.bing.com
-  - 7 sess | m.facebook.com
+  - 9 sess | m.facebook.com
+  - 7 sess | studyinjapan.org
   - 6 sess | reddit.com
-  - 4 sess | studyinjapan.org
 _⚠️ Ceci mesure le TRAFIC envoye, pas les liens. Un backlink d'autorite n'envoie quasiment personne et n'apparaitra jamais ici. **Le compte des domaines referents n'est automatise nulle part**, il se tient a la main._
 
 ## 🎯 TOP OPPORTUNITES (priorisees)
@@ -114,10 +140,6 @@ _⚠️ Ceci mesure le TRAFIC envoye, pas les liens. Un backlink d'autorite n'en
   - 177 impr · pos 9.3 · 1 clics · _jiko bukken_
   - 133 impr · pos 7.6 · 0 clics · _gaijin houses tokyo_
   - 107 impr · pos 5.4 · 0 clics · _gaijin house tokyo_
-**Content gaps pertinents (logement) :**
-  - les differents modes dhebergement
-  - pocket translator rental japan
-  - instant room rental english
 
 ## 💎 GISEMENTS SEO (clusters, 90j)
 _Requetes regroupees par theme, position ponderee par les impressions. 🎯 = page 2-3, donc gagnable._
@@ -153,7 +175,7 @@ _Chutes vues par le tracker DuckDuckGo, croisees avec NOS positions Google (GSC)
   - #1 · [fr] bail tokyo checklist  _absent des requetes GSC (28 j) : pas de volume mesurable_
 
 ## 🅱️ BING (l'index que ChatGPT interroge)
-_Donnees a jour (2 j de decalage, fin 2026-09-07)._
+_Donnees a jour (4 j de decalage, fin 2026-09-07)._
 **8883 impressions · 204 clics · CTR 2.3%** sur 2026-06-28 → 2026-09-07 (881 requetes, 99 pages)
 **Pages fortes sur Bing (souvent PAS les memes que sur Google) :**
   - 917 impr · 14 clics · pos 6.0 | /en/blog/japan-income-tax-foreigners-guide

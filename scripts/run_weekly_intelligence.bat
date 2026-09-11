@@ -200,9 +200,20 @@ python scripts\bing_analytics.py >> "%LOG_FILE%" 2>&1
 echo [%TIME%] [32/33] Bing backlinks... >> "%LOG_FILE%"
 python scripts\bing_backlinks.py >> "%LOG_FILE%" 2>&1
 
-:: 33. RAPPORT CONSOLIDE -- le SEUL envoi Telegram voulu de la chaine.
+:: 33. ECOUTE DE LA DEMANDE (ajoute 11/09/2026). Les 26 radars existants regardent
+::     les concurrents, le site ou les cibles de backlink: AUCUN ne regardait le
+::     client. Ces deux-la si. Ils DOIVENT passer avant le rapport, qui lit leurs JSON.
+::     Lent (backoff Reddit ~10 min): c'est voulu, sans backoff on obtient 6% des
+::     appels et un echantillon qu'on prendrait pour une mesure.
+echo [%TIME%] [33/35] Ecoute de la demande (Reddit)... >> "%LOG_FILE%"
+python scripts\demand_listener.py >> "%LOG_FILE%" 2>&1
+
+echo [%TIME%] [34/35] Ecoute de l'autocompletion Google... >> "%LOG_FILE%"
+python scripts\autocomplete_listener.py >> "%LOG_FILE%" 2>&1
+
+:: 35. RAPPORT CONSOLIDE -- le SEUL envoi Telegram voulu de la chaine.
 ::     Doit passer en DERNIER: il lit les JSON produits par toutes les etapes.
-echo [%TIME%] [33/33] Rapport hebdo consolide... >> "%LOG_FILE%"
+echo [%TIME%] [35/35] Rapport hebdo consolide... >> "%LOG_FILE%"
 set TE_TELEGRAM_SILENT=
 python scripts\weekly_report.py --telegram >> "%LOG_FILE%" 2>&1
 

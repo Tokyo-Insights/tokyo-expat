@@ -28,6 +28,33 @@ def load(name):
     except Exception: return None
 
 
+# ---------- ECOUTE DE LA DEMANDE (ajoute 11/09/2026) ----------
+# Les 26 radars existants regardent les concurrents, le site, ou les cibles de
+# backlink. AUCUN ne regardait le client. demand_listener et autocomplete_listener
+# comblent ca, mais ils ecrivaient un JSON que personne n'ouvrait: c'est exactement
+# le defaut de review_monitor trouve le 09/09. On les lit donc ICI.
+def _latest_two(prefix):
+    """Les 2 passes les plus recentes. Une mesure isolee ne dit pas si un sujet
+    monte; c'est la COMPARAISON qui porte l'information."""
+    files = sorted(DATA.glob(f"{prefix}_*.json"), reverse=True)
+    out = []
+    for p in files[:2]:
+        try:
+            out.append((p.name, json.load(io.open(p, encoding="utf-8"))))
+        except Exception:
+            pass
+    return out
+
+
+def _delta(cur, prev, key):
+    """Variation d'un compteur entre deux passes, en points de pourcentage du total."""
+    if not prev:
+        return None
+    c_tot = sum(cur.values()) or 1
+    p_tot = sum(prev.values()) or 1
+    return round(100 * cur.get(key, 0) / c_tot - 100 * prev.get(key, 0) / p_tot, 1)
+
+
 def send_telegram(msg):
     try:
         from config import TELEGRAM_TOKEN, TELEGRAM_CHAT_ID
@@ -553,6 +580,85 @@ def build():
     if isinstance(leads, dict) and "error" not in leads:
         L.append(f"- Captures d'email (90j) : {leads.get('total','?')}")
     L.append("")
+
+    # A2. ECOUTE DE LA DEMANDE + PLAN D'ATTAQUE (ajoute 11/09/2026).
+    # Place haut volontairement: c'est la seule source qui parle des CLIENTS.
+    plan = []
+    dl = _latest_two("demand_listen")
+    ac = _latest_two("autocomplete")
+    if dl or ac:
+        L.append("## 👂 ECOUTE DE LA DEMANDE — ce que les gens disent, pas ce qu'on publie")
+
+    if dl:
+        name, cur = dl[0]
+        prev = dl[1][1] if len(dl) > 1 else None
+        n = cur.get("posts_analysed", 0)
+        L.append(f"**Reddit** : {n} fils analyses ({name.replace('demand_listen_', '').replace('.json', '')})"
+                 + (f", passe precedente {prev.get('posts_analysed', '?')} fils" if prev else ", **1re passe: aucune comparaison possible**"))
+        themes = cur.get("themes", {}) or {}
+        pthemes = (prev or {}).get("themes", {}) or {}
+        top = sorted(themes.items(), key=lambda kv: -kv[1])[:6]
+        if top:
+            L.append("")
+            L.append("| Ce qui bloque | Fils | vs passe precedente |")
+            L.append("|---|---:|---|")
+            for k, v in top:
+                d = _delta(themes, pthemes, k)
+                arrow = "" if d is None else (f"+{d} pts" if d > 0.5 else (f"{d} pts" if d < -0.5 else "stable"))
+                L.append(f"| {k} | {v} | {arrow} |")
+        stages = cur.get("stages", {}) or {}
+        if stages:
+            pre = stages.get("avant l'arrivee", 0)
+            tot = sum(stages.values()) or 1
+            L.append("")
+            L.append(f"- **Avant l'arrivee (= la cible qui achete)** : {pre} fils sur {tot} "
+                     f"({100*pre//tot}%). Les autres sont deja loges.")
+            if 100 * pre / tot < 25:
+                plan.append("Le sub surveille parle surtout de gens **deja loges**: "
+                            "ils ne sont pas acheteurs. Envisager un autre etang.")
+        amt = cur.get("amounts_median")
+        if amt:
+            L.append(f"- **Montant median cite** : {amt:,} JPY. Rappel: le forfait meuble "
+                     f"(400 EUR ~ 62 000 JPY) vaut {round(100*62000/amt)}% de ce qu'ils "
+                     f"s'attendent deja a depenser. **Argument de vente chiffre, dans leurs mots.**")
+        big = [b["phrase"] for b in (cur.get("top_bigrams") or [])[:10]]
+        if big:
+            L.append(f"- **Leurs expressions** : {' · '.join(big)}")
+            plan.append("Reprendre CES expressions dans les titres et les emails, "
+                        "pas le vocabulaire SEO.")
+        if cur.get("painful_pct", 0) >= 30:
+            plan.append(f"{cur['painful_pct']}% des fils emploient un mot de detresse: "
+                        "l'urgence est reelle, un message direct passera mieux qu'un article.")
+
+    if ac:
+        name, cur = ac[0]
+        cov = cur.get("coverage_pct", 0)
+        L.append("")
+        L.append(f"**Autocompletion Google** (couverture {cov}%) — ce que les gens TAPENT, "
+                 f"la ou la Search Console est aveugle.")
+        if cov < 70:
+            L.append("_🚨 Couverture faible: resultats partiels, ne rien conclure d'une absence._")
+        for lang, d in (cur.get("langs") or {}).items():
+            gaps = d.get("gaps") or []
+            L.append(f"- **{lang.upper()}** : {d.get('total', 0)} suggestions, "
+                     f"**{len(gaps)} sans article chez nous**")
+            for g in gaps[:5]:
+                L.append(f"    - {g['q']}")
+            if len(gaps) >= 5:
+                plan.append(f"{len(gaps)} formulations {lang.upper()} sans page: "
+                            "verifier si une seule page peut les couvrir (pas une par requete, "
+                            "cf cannibalisation du cluster etudiant).")
+
+    if plan:
+        L.append("")
+        L.append("### ⚔️ PLAN D'ATTAQUE issu de l'ecoute")
+        for i, p in enumerate(plan, 1):
+            L.append(f"{i}. {p}")
+    if dl or ac:
+        L.append("")
+        L.append("_Une suggestion n'est pas un volume, et une passe isolee ne dit pas "
+                 "si un sujet monte. Lire les colonnes de variation, pas les valeurs._")
+        L.append("")
 
     # B0. LA DEMANDE REELLE (ajoute 08/09/2026, cf real_demand())
     # Ces 2 compteurs passent AVANT les captures d'email: ce sont les seuls qui mesurent
