@@ -390,7 +390,7 @@ export const faqData: Record<string, FaqItem[]> = {
     {
       question: 'How much does a gaijin house cost per month?',
       answer:
-        'Rooms typically run 40,000 to 80,000 JPY per month, with dorm beds from around 30,000 JPY and central private rooms up to 100,000 JPY. Utilities are often included, and there is a one-time admin fee of 10,000 to 30,000 JPY instead of key money.',
+        'A dorm bed runs 30,000 to 45,000 JPY per month, a private room with shared facilities 45,000 to 70,000 JPY, and a private room in a central ward 70,000 to 100,000 JPY. Utilities are often included, and there is a one-time admin fee of 10,000 to 30,000 JPY instead of key money.',
     },
     {
       question: 'Do you need a guarantor for a gaijin house?',
