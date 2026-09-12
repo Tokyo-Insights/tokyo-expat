@@ -10136,26 +10136,37 @@ To discover the food scene of these upscale residential neighbourhoods, [Arigato
     // Google fait donc MONTER la page et personne ne clique. La regle protege un
     // classement qui a de la valeur; un classement a 0 clic sur 3 mois n'en a aucune.
     // Diagnostic: decalage d'INTENTION. Qui cherche "cheap" veut un prix et une
-    // chambre, pas un "Complete Guide". Le prix vient de l'article lui-meme
-    // ("40,000 to 80,000 JPY per month"), rien n'est invente.
-    // La description n'est PAS touchee: une seule variable, sinon la mesure est illisible.
-    // A RELIRE VERS LE 30/09 (2-3 semaines, volume suffisant pour conclure).
+    // chambre, pas un "Complete Guide".
+    //
+    // 🚨 MISE A JOUR 12/09/2026 — LE TEST EST CONFONDU DEUX FOIS, NE PAS LE LIRE LE 30/09.
+    // (1) SERP regardee le 12/09: un APERCU IA occupe l'espace au-dessus et annonce
+    //     "start around ¥20,000 to ¥45,000", en citant GG House et Xross House a ¥20,000.
+    //     Notre ligne affichait ¥40,000 juste en dessous, sur une requete contenant "cheap".
+    // (2) Le ¥40,000 du titre venait de la reponse rapide ("40,000 to 80,000"), or cette
+    //     phrase etait l'UN DES CINQ enonces de prix de la page, et le MOINS corroboré:
+    //     deux tableaux differents se contredisaient, et 3 enonces sur 5 disaient deja
+    //     dortoir 30-45k / chambre privee 45-70k (100k en central).
+    // => Prix RECONCILIES le 12/09 sur la majorite: un seul tableau, reponse rapide et
+    //    meta description alignees. Le titre porte ENCORE ¥40,000 et contredit donc la
+    //    page: decision d'Alessandro en attente.
+    // ⚠️ Aucun prix de share house n'est verifie par nos donnees (l'indice couvre les
+    //    APPARTEMENTS): ces fourchettes restent a confirmer aupres des operateurs.
     title: 'Gaijin House Tokyo: Prices from ¥40,000, No Guarantor (2026)',
-    description: 'Gaijin houses let foreigners rent in Tokyo with no guarantor or key money, from ~40,000 JPY/month. See real 2026 prices, pros and cons, and how to book fast.',
+    description: 'Gaijin houses let foreigners rent in Tokyo with no guarantor or key money, from 30,000 JPY/month for a dorm bed. See real 2026 prices, pros and cons, and how to book fast.',
     date: '2026-06-28',
     readingTime: '6 min',
     content: `
 A gaijin house is often the first home a foreigner has in Tokyo. It is cheap, flexible, and skips the obstacles that lock newcomers out of the traditional rental market. Here is exactly how it works in 2026.
 
-**Quick answer:** A gaijin house is a shared residence in Tokyo aimed at foreigners, offering a private furnished room with shared kitchen and bathroom, no Japanese guarantor, no key money, and move-in within days. Rooms run 40,000 to 80,000 JPY/month with utilities often included. It is the fastest and cheapest legal way for a newcomer to get a Tokyo address. For more privacy than a shared house, compare it with the options in our [complete guide to furnished apartments in Tokyo](/en/blog/furnished-apartments-tokyo-guide).
+**Quick answer:** A gaijin house is a shared residence in Tokyo aimed at foreigners, offering a private furnished room with shared kitchen and bathroom, no Japanese guarantor, no key money, and move-in within days. A dorm bed runs 30,000 to 45,000 JPY/month and a private room 45,000 to 100,000, utilities often included. It is the fastest and cheapest legal way for a newcomer to get a Tokyo address. For more privacy than a shared house, compare it with the options in our [complete guide to furnished apartments in Tokyo](/en/blog/furnished-apartments-tokyo-guide).
 
 **Gaijin house prices in Tokyo (2026):**
 
-| Gaijin house type | Typical monthly rent | Deposit | Guarantor / key money |
-| --- | --- | --- | --- |
-| Dormitory bed | ¥30,000 to ¥50,000 | Minimal | None |
-| Private room, shared facilities | ¥50,000 to ¥80,000 | About 1 month or a set fee | None |
-| Private room with own bathroom | ¥70,000 to ¥110,000 | About 1 month | None |
+| Gaijin house type | Typical monthly rent | Deposit | Guarantor / key money | Utilities |
+| --- | --- | --- | --- | --- |
+| Dorm bed, shared room | ¥30,000 to ¥45,000 | Minimal | None | Usually included |
+| Private room, shared facilities | ¥45,000 to ¥70,000 | About 1 month or a set fee | None | Often included |
+| Private room, central ward | ¥70,000 to ¥100,000 | About 1 month | None | Often included |
 
 > **From the field.** A gaijin house lives or dies on who runs it, not the price. The cheap ones with an absent operator empty out as fast as they fill. Before you book, notice how fast the operator answers your first email, that tells you more than the photos.
 
@@ -10168,11 +10179,7 @@ What still defines a gaijin house is its purpose: housing built around foreign r
 
 ## How much does a gaijin house cost?
 
-| Room type | Monthly rent | Deposit | Utilities |
-|---|---|---|---|
-| Dorm bed (shared room) | 30,000-45,000 JPY | minimal | usually included |
-| Private room (standard) | 45,000-70,000 JPY | ~1 month | often included |
-| Private room (central) | 70,000-100,000 JPY | ~1 month | often included |
+A dorm bed costs 30,000 to 45,000 JPY per month, a private room with shared facilities 45,000 to 70,000, and a private room in a central ward 70,000 to 100,000. The full breakdown, with deposits and what is included, is in the table above.
 
 Beyond rent, expect a one-time admin and cleaning fee of 10,000 to 30,000 JPY. There is no reikin (key money) and no agency commission, which is what makes a gaijin house dramatically cheaper to move into than a standard apartment, where you can pay 4 to 6 months upfront.
 
