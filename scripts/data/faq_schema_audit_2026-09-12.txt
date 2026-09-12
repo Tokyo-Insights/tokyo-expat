@@ -1,0 +1,360 @@
+﻿137 articles portent une FAQ, 538 questions au total.
+170 articles lus dans blog.ts.
+
+========================================================================
+🔴 ORPHELINS : 8 FAQ servies pour un slug absent de blog.ts
+    alternative-gaijinpot-logement-tokyo
+    alternative-oak-house-tokyo
+    avis-sakura-house-tokyo
+    comparatif-share-house-tokyo-2026
+    gaijinpot-housing-alternative
+    oak-house-alternative
+    sakura-house-review
+    share-house-tokyo-comparison-2026
+
+🟠 MONTANTS QUE L'ARTICLE NE DIT PAS : 62 reponses
+   (le schema affirme un chiffre introuvable dans l'article)
+
+  [appartement-meuble-tokyo-expats]
+    Q: Quelle est la difference entre un appartement meuble et un share house pour les ex
+    absents de l'article : [180000]
+    l'article dit plutot : [2020, 2026, 25000, 45000, 50000, 80000, 90000, 100000]
+
+  [appartement-meuble-tokyo-sans-garant]
+    Q: Quel est le loyer d\'un appartement meublé à Tokyo?
+    absents de l'article : [80000, 180000]
+    l'article dit plutot : [2026, 10000, 30000, 60000, 90000, 120000, 150000, 240000]
+
+  [assurance-habitation-japon-locataire]
+    Q: L\'assurance habitation est-elle obligatoire au Japon?
+    absents de l'article : [10000]
+    l'article dit plutot : [1000, 1500, 2000, 2026, 3000, 15000, 20000]
+
+  [assurance-habitation-japon-locataire]
+    Q: L\'assurance habitation couvre-t-elle les tremblements de terre au Japon?
+    absents de l'article : [5000]
+    l'article dit plutot : [1000, 1500, 2000, 2026, 3000, 15000, 20000]
+
+  [assurance-maladie-japon-expatrie]
+    Q: Combien coute l\'assurance maladie au Japon pour un etranger?
+    absents de l'article : [30000]
+    l'article dit plutot : [1000, 1500, 2000, 2026, 3000, 5000, 15000, 20000]
+
+  [best-neighbourhoods-families-tokyo-guide]
+    Q: How much does a family apartment cost in Tokyo?
+    absents de l'article : [100000, 150000, 160000, 250000]
+    l'article dit plutot : [2026, 140000, 180000, 200000, 220000, 280000, 300000, 350000]
+
+  [bringing-pets-to-japan-guide]
+    Q: How much does it cost to bring a pet to Japan?
+    absents de l'article : [2000, 3000, 8000, 20000, 40000]
+    l'article dit plutot : [1000, 2026, 11784, 11785]
+
+  [carte-residence-japon-zairyu-card]
+    Q: Que faire si je perds ma carte de residence au Japon?
+    absents de l'article : [1600]
+    l'article dit plutot : [2026]
+
+  [carte-sim-japon-etranger-2026]
+    Q: Quelle est la meilleure carte SIM pour les etrangers vivant au Japon?
+    absents de l'article : [3278]
+    l'article dit plutot : [2000, 2018, 2019, 2026, 2728, 2970, 3000, 4000]
+
+  [chasseur-immobilier-vs-agence-tokyo-comparatif]
+    Q: Combien coûte une agence immobilière japonaise par rapport à un chasseur?
+    absents de l'article : [80000, 150000]
+    l'article dit plutot : [2026]
+
+  [convert-foreign-driving-licence-japan]
+    Q: How do I convert my foreign driving licence to a Japanese licence?
+    absents de l'article : [4000]
+    l'article dit plutot : [2026, 2350, 3000]
+
+  [corporate-relocation-tokyo-hr-housing-guide]
+    Q: What is the typical corporate housing budget for Tokyo in 2026?
+    absents de l'article : [50000, 130000, 180000, 200000, 350000, 500000, 700000, 1200000]
+    l'article dit plutot : [2026, 8000, 15000, 20000, 35000, 150000, 400000]
+
+  [cours-japonais-tokyo-expatries-guide]
+    Q: Combien coutent les cours de japonais a Tokyo?
+    absents de l'article : [1500, 3000, 8000, 100000, 200000]
+    l'article dit plutot : [1000, 2000, 2026, 4000, 5000, 10000, 15000, 20000]
+
+  [cout-vie-tokyo-expatrie-2026]
+    Q: Combien coute la vie a Tokyo pour un expatrie en 2026?
+    absents de l'article : [60000]
+    l'article dit plutot : [1200, 1500, 1800, 2000, 2026, 3000, 4000, 5000]
+
+  [demenager-japon-checklist-complete]
+    Q: Combien d\'argent faut-il prevoir pour le premier mois au Japon?
+    absents de l'article : [100000, 200000, 400000, 600000]
+    l'article dit plutot : [2026, 150000, 300000]
+
+  [demenageur-international-japon-guide]
+    Q: Combien coute un demenagement international vers le Japon?
+    absents de l'article : [6000]
+    l'article dit plutot : [1500, 2026, 3000, 3500, 4000, 8000, 9000]
+
+  [famille-expatriee-tokyo-ecoles-internationales]
+    Q: Combien coutent les ecoles internationales a Tokyo?
+    absents de l'article : [10000, 23000, 1500000, 3500000]
+    l'article dit plutot : [2026, 20000, 30000, 40000, 60000, 80000, 120000, 150000]
+
+  [family-expat-tokyo-international-schools]
+    Q: How much do international schools cost in Tokyo?
+    absents de l'article : [10000, 23000, 1500000, 3500000]
+    l'article dit plutot : [2026, 20000, 30000, 40000, 60000, 80000, 120000, 150000]
+
+  [furnished-apartment-tokyo-expats]
+    Q: What is the difference between a furnished apartment and a share house for expats 
+    absents de l'article : [180000]
+    l'article dit plutot : [2020, 2026, 25000, 45000, 50000, 80000, 90000, 100000]
+
+  [furnished-apartment-tokyo-no-guarantor]
+    Q: How much does a furnished apartment in Tokyo cost per month?
+    absents de l'article : [80000, 180000]
+    l'article dit plutot : [2026, 10000, 30000, 60000, 90000, 120000, 150000, 240000]
+
+  [gaijin-house-vs-share-house-difference]
+    Q: Les gaijin houses existent-ils encore a Tokyo?
+    absents de l'article : [35000, 55000]
+    l'article dit plutot : [1980, 1990, 2000, 2026, 40000, 90000]
+
+  [gaijin-house-vs-share-house-difference]
+    Q: Combien un gaijin house est-il moins cher qu\'un share house a Tokyo?
+    absents de l'article : [15000, 25000, 35000, 50000, 55000, 80000]
+    l'article dit plutot : [1980, 1990, 2000, 2026, 40000, 90000]
+
+  [gaijin-house-vs-share-house-tokyo]
+    Q: Are gaijin houses still available in Tokyo?
+    absents de l'article : [35000, 55000]
+    l'article dit plutot : [2026, 40000, 90000]
+
+  [gaijin-house-vs-share-house-tokyo]
+    Q: How much cheaper is a gaijin house versus a share house in Tokyo?
+    absents de l'article : [15000, 25000, 35000, 50000, 55000, 80000]
+    l'article dit plutot : [2026, 40000, 90000]
+
+  [importer-animal-compagnie-japon-guide]
+    Q: Combien coute l\'importation d\'un animal de compagnie au Japon?
+    absents de l'article : [1000, 2000, 3000, 8000, 20000, 40000]
+    l'article dit plutot : [2026, 11784, 11785]
+
+  [internet-utilitaires-tokyo-appartement]
+    Q: Combien coutent les charges mensuelles dans un appartement a Tokyo?
+    absents de l'article : [2000, 3000, 5000, 10000]
+    l'article dit plutot : [1000, 1101, 1500, 2026, 2500, 3433, 4000, 5200]
+
+  [japan-health-insurance-expat-guide]
+    Q: How much does health insurance cost in Japan for foreigners?
+    absents de l'article : [30000, 1000000]
+    l'article dit plutot : [1000, 2000, 2026, 3000, 5000, 15000, 20000, 25000]
+
+  [japan-sim-card-foreigners-2026]
+    Q: What is the best SIM card for foreigners living in Japan?
+    absents de l'article : [3278]
+    l'article dit plutot : [2000, 2019, 2026, 2728, 2970, 3000, 4000, 4500]
+
+  [japanese-language-schools-tokyo-guide]
+    Q: How much do Japanese language schools cost in Tokyo?
+    absents de l'article : [1500, 3000, 8000, 100000, 200000]
+    l'article dit plutot : [1000, 2000, 2026, 4000, 5000, 10000, 15000, 20000]
+
+  [logement-etudiant-tokyo-2026]
+    Q: Quel est le loyer moyen pour un logement etudiant a Tokyo en 2026?
+    absents de l'article : [85000]
+    l'article dit plutot : [2026, 10000, 20000, 40000, 45000, 50000, 55000, 60000]
+
+  [logement-etudiant-tokyo-guide]
+    Q: Quelles sont les options de logement pour les etudiants etrangers a Tokyo?
+    absents de l'article : [20000, 35000, 50000, 55000, 75000, 80000]
+    l'article dit plutot : [2026, 5500, 22000, 30000, 33000, 40000, 45000, 48000]
+
+  [logement-etudiant-tokyo-guide]
+    Q: Quelle est l\'option de logement la moins chere pour les etudiants a Tokyo?
+    absents de l'article : [35000, 55000]
+    l'article dit plutot : [2026, 5500, 22000, 30000, 33000, 40000, 45000, 48000]
+
+  [moving-to-tokyo-checklist-2026]
+    Q: How much money do I need when first moving to Tokyo?
+    absents de l'article : [100000, 200000, 400000, 600000]
+    l'article dit plutot : [2000, 2026, 3000, 4000, 5000]
+
+  [negocier-loyer-tokyo-conseils]
+    Q: Comment negocier un loyer a Tokyo en tant qu\'etranger?
+    absents de l'article : [5000]
+    l'article dit plutot : [2026, 120000]
+
+  [negocier-loyer-tokyo-conseils]
+    Q: Quelles reductions de loyer sont realistes a Tokyo?
+    absents de l'article : [3000, 10000]
+    l'article dit plutot : [2026, 120000]
+
+  [negotiating-rent-tokyo-tips]
+    Q: How do I negotiate rent in Tokyo as a foreigner?
+    absents de l'article : [5000]
+    l'article dit plutot : [2026, 120000]
+
+  [negotiating-rent-tokyo-tips]
+    Q: What are realistic rent reductions in Tokyo?
+    absents de l'article : [3000, 10000]
+    l'article dit plutot : [2026, 120000]
+
+  [permis-conduire-etranger-japon-conversion]
+    Q: Comment convertir son permis de conduire etranger en permis japonais?
+    absents de l'article : [4000]
+    l'article dit plutot : [2026, 2350, 3000]
+
+  [pvt-japon-visa-vacances-travail-2026]
+    Q: Combien faut-il d\'argent pour faire un PVT au Japon?
+    absents de l'article : [1200, 2000, 500000, 800000]
+    l'article dit plutot : [1500, 2026, 5000, 6500, 35000, 55000, 60000, 85000]
+
+  [quartiers-tokyo-familles-expatriees-guide]
+    Q: Combien coute un appartement familial a Tokyo?
+    absents de l'article : [100000, 150000, 160000, 250000]
+    l'article dit plutot : [2026, 140000, 180000, 200000, 220000, 280000, 300000, 350000]
+
+  [real-estate-hunter-vs-agency-tokyo]
+    Q: How much does a Japanese real estate agency cost compared to a real estate hunter?
+    absents de l'article : [80000, 150000]
+    l'article dit plutot : [2026]
+
+  [relocation-entreprise-tokyo-guide-rh]
+    Q: Quel est le budget moyen pour une relocalisation corporate à Tokyo en 2026?
+    absents de l'article : [50000, 130000, 180000, 200000, 350000, 500000, 700000, 1200000]
+    l'article dit plutot : [2026, 8000, 15000, 20000, 35000, 150000, 400000]
+
+  [renters-insurance-japan-guide]
+    Q: Is renters insurance required in Japan?
+    absents de l'article : [10000]
+    l'article dit plutot : [1000, 1500, 2000, 2026, 3000, 15000, 20000]
+
+  [renters-insurance-japan-guide]
+    Q: Does renters insurance cover earthquake damage in Japan?
+    absents de l'article : [5000]
+    l'article dit plutot : [1000, 1500, 2000, 2026, 3000, 15000, 20000]
+
+  [residence-card-japan-zairyu-card-guide]
+    Q: What happens if I lose my residence card in Japan?
+    absents de l'article : [1600]
+    l'article dit plutot : [2026]
+
+  [send-money-to-japan-from-abroad]
+    Q: Are there limits on how much money I can transfer to Japan?
+    absents de l'article : [7000, 50000]
+    l'article dit plutot : [1000, 2000, 2026]
+
+  [setting-up-utilities-tokyo-apartment]
+    Q: Are there English-speaking utility providers in Tokyo?
+    absents de l'article : [6375, 9811]
+    l'article dit plutot : [1000, 1101, 1500, 2026, 2500, 3433, 4000, 5200]
+
+  [setting-up-utilities-tokyo-apartment]
+    Q: How much are monthly utilities in a Tokyo apartment?
+    absents de l'article : [2000, 3000, 5000, 10000]
+    l'article dit plutot : [1000, 1101, 1500, 2026, 2500, 3433, 4000, 5200]
+
+  [student-housing-tokyo-guide]
+    Q: What are the housing options for international students in Tokyo?
+    absents de l'article : [20000, 35000, 50000, 55000, 75000]
+    l'article dit plutot : [2026, 5500, 22000, 30000, 33000, 40000, 48000, 60000]
+
+  [student-housing-tokyo-guide]
+    Q: What is the cheapest housing option for students in Tokyo?
+    absents de l'article : [35000, 55000]
+    l'article dit plutot : [2026, 5500, 22000, 30000, 33000, 40000, 48000, 60000]
+
+  [student-housing-tokyo-guide-2026]
+    Q: What is the average rent for student housing in Tokyo in 2026?
+    absents de l'article : [85000]
+    l'article dit plutot : [2026, 10000, 20000, 40000, 45000, 50000, 55000, 60000]
+
+  [tokyo-osaka-kyoto-ou-s-installer]
+    Q: Combien Osaka est-elle moins chere que Tokyo pour les loyers?
+    absents de l'article : [60000]
+    l'article dit plutot : [2026, 55000, 80000, 90000, 130000, 200000, 450000]
+
+  [tokyo-osaka-kyoto-ou-s-installer]
+    Q: Peut-on facilement faire des allers-retours entre Tokyo et Osaka pour le travail?
+    absents de l'article : [13500, 14500]
+    l'article dit plutot : [2026, 55000, 80000, 90000, 130000, 200000, 450000]
+
+  [tokyo-osaka-kyoto-which-city-to-live]
+    Q: How much cheaper is Osaka than Tokyo for rent?
+    absents de l'article : [60000]
+    l'article dit plutot : [2026, 55000, 80000, 90000, 130000, 200000, 450000]
+
+  [tokyo-osaka-kyoto-which-city-to-live]
+    Q: Can you easily commute between Tokyo and Osaka for work?
+    absents de l'article : [13500, 14500]
+    l'article dit plutot : [2026, 55000, 80000, 90000, 130000, 200000, 450000]
+
+  [tokyo-osaka-ou-vivre-expatrie-comparatif]
+    Q: Osaka est-elle moins chere que Tokyo pour les loyers?
+    absents de l'article : [60000, 80000, 150000]
+    l'article dit plutot : [1000, 1500, 2000, 2026, 4000, 5000, 7000, 8000]
+
+  [tokyo-public-transport-expat-guide]
+    Q: How much does a monthly commuter pass cost in Tokyo?
+    absents de l'article : [5000, 10000, 18000]
+    l'article dit plutot : [1200, 1500, 2026, 3000]
+
+  [tokyo-vs-osaka-expat-living-comparison]
+    Q: Is Osaka cheaper than Tokyo for rent?
+    absents de l'article : [60000, 80000, 150000]
+    l'article dit plutot : [1000, 1500, 2000, 2026, 4000, 5000, 7000, 8000]
+
+  [transport-tokyo-expatrie-guide]
+    Q: Combien coute un abonnement mensuel de transport a Tokyo?
+    absents de l'article : [5000, 10000, 18000]
+    l'article dit plutot : [1200, 1500, 2026, 3000]
+
+  [travailler-tokyo-expatrie-guide-2026]
+    Q: Quel est le salaire moyen pour les expatries a Tokyo?
+    absents de l'article : [3000000, 5000000]
+    l'article dit plutot : [2019, 2026, 17000, 22000, 24000, 27000, 33000, 36000]
+
+  [virement-international-japon-wise-revolut]
+    Q: Y a-t-il des limites sur le montant que je peux transferer au Japon?
+    absents de l'article : [7000, 50000]
+    l'article dit plutot : [1000, 2000, 2026]
+
+  [working-in-tokyo-expat-guide-2026]
+    Q: What is the average salary for expats in Tokyo?
+    absents de l'article : [20000, 3000000, 5000000]
+    l'article dit plutot : [2019, 2026, 17000, 22000, 24000, 27000, 33000, 36000]
+
+
+🟡 QUESTIONS DE PRIX SANS AUCUN MONTANT : 73
+   (occasion manquee: un moteur de reponse cite ce qui est chiffre)
+    [appartement-meuble-tokyo-expats-top-5] Les appartements meubles haut de gamme a Tokyo valent-ils le supplement de c
+    [appartement-meuble-tokyo-expats-top-5] Peut-on negocier le prix d\'un appartement meuble a Tokyo?
+    [appartement-meuble-vs-non-meuble-tokyo-cout] Combien coute un appartement meuble en plus a Tokyo ?
+    [appartement-meuble-vs-non-meuble-tokyo-cout] Pourquoi le surcout du meuble est-il plus eleve dans les quartiers moins che
+    [appartement-tokyo-entrepreneur-freelance] Combien de temps faut-il à un freelance pour trouver un appartement à Tokyo?
+    [appartement-tokyo-septembre-guide] Combien de temps a l\'avance faut-il chercher pour un emmenagement en septem
+    [appartement-tokyo-septembre-guide] Les loyers sont-ils moins chers en septembre a Tokyo?
+    [carte-residence-japon-zairyu-card] Combien de temps est valable la carte de residence?
+    [carte-sim-japon-etranger-2026] Combien de temps faut-il pour obtenir une carte SIM au Japon?
+    [chercher-appartement-tokyo-depuis-etranger] Combien de temps à l\'avance faut-il chercher un appartement à Tokyo depuis 
+    [demenager-tokyo-ete-juillet-aout] Le loyer est-il moins cher à Tokyo en été?
+    [demenageur-international-japon-guide] Quelles entreprises de demenagement international opèrent au Japon?
+    [dossier-location-refuse-tokyo-etranger] Combien de temps faut-il pour trouver un appartement à Tokyo après un refus?
+    [famille-expatriee-tokyo-ecoles-internationales] Combien de temps a l\'avance faut-il postuler dans les ecoles internationale
+    [find-apartment-tokyo-foreigner] Can foreigners rent an apartment in Tokyo without a Japanese guarantor?
+    [find-apartment-tokyo-foreigner] What documents are needed to rent an apartment in Tokyo as a foreigner?
+    [find-apartment-tokyo-foreigner] Do you need to speak Japanese to rent an apartment in Tokyo?
+    [find-apartment-tokyo-september] How much notice do I need to give for a September move-in in Tokyo?
+    [find-apartment-tokyo-september] Are rents cheaper in September in Tokyo?
+    [frais-caches-location-tokyo] Combien faut-il prévoir pour entrer dans un appartement à Tokyo ?
+    [frais-caches-location-tokyo] Comment éviter le reikin et les frais d\'agence à Tokyo ?
+    [furnished-apartment-tokyo-no-guarantor] What is the minimum rental period for a furnished apartment in Tokyo?
+    [furnished-apartment-tokyo-top-5-expats] Are top-rated furnished apartments in Tokyo worth the extra cost?
+    [furnished-apartment-tokyo-top-5-expats] Can I negotiate furnished apartment prices in Tokyo?
+    [furnished-apartments-tokyo-guide] Can I rent a furnished apartment in Tokyo without a guarantor?
+    ... et 48 autres
+
+========================================================================
+BILAN : 8 orphelins · 62 montants a verifier · 73 questions de prix sans chiffre
+Rien n'a ete modifie. Les faux positifs sont possibles (arrondis, fourchettes).
