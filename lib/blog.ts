@@ -10146,12 +10146,16 @@ To discover the food scene of these upscale residential neighbourhoods, [Arigato
     //     phrase etait l'UN DES CINQ enonces de prix de la page, et le MOINS corroboré:
     //     deux tableaux differents se contredisaient, et 3 enonces sur 5 disaient deja
     //     dortoir 30-45k / chambre privee 45-70k (100k en central).
-    // => Prix RECONCILIES le 12/09 sur la majorite: un seul tableau, reponse rapide et
-    //    meta description alignees. Le titre porte ENCORE ¥40,000 et contredit donc la
-    //    page: decision d'Alessandro en attente.
+    // => Prix RECONCILIES le 12/09 sur la majorite: un seul tableau, reponse rapide,
+    //    meta description ET TITRE alignes sur ¥30,000 (decision d'Alessandro le 12/09).
+    //    Toute la page dit desormais la meme chose.
+    // 📅 NOUVELLE MESURE A PARTIR DU 12/09, pas du 09/09. Relire vers le 05/10 et
+    //    comparer au meme fait: 2 064 impressions / 0 clic sur "cheap gaijin house in
+    //    tokyo". Un clic non nul suffirait a trancher; l'apercu IA reste au-dessus, donc
+    //    l'absence de clic ne prouvera toujours rien sur le titre seul.
     // ⚠️ Aucun prix de share house n'est verifie par nos donnees (l'indice couvre les
     //    APPARTEMENTS): ces fourchettes restent a confirmer aupres des operateurs.
-    title: 'Gaijin House Tokyo: Prices from ¥40,000, No Guarantor (2026)',
+    title: 'Gaijin House Tokyo: Prices from ¥30,000, No Guarantor (2026)',
     description: 'Gaijin houses let foreigners rent in Tokyo with no guarantor or key money, from 30,000 JPY/month for a dorm bed. See real 2026 prices, pros and cons, and how to book fast.',
     date: '2026-06-28',
     readingTime: '6 min',
