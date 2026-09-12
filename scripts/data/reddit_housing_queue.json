@@ -673,7 +673,7 @@
       "sub": "movingtojapan",
       "status": "new",
       "first_seen": "2026-09-02T02:22:05.311401+00:00",
-      "last_seen": "2026-09-02T02:22:05.311401+00:00"
+      "last_seen": "2026-09-11T23:37:01.323264+00:00"
     },
     "1vqn3qo": {
       "title": "Apartment Hunt",
@@ -785,6 +785,67 @@
       "status": "new",
       "first_seen": "2026-09-05T22:43:38.495550+00:00",
       "last_seen": "2026-09-05T22:43:38.495550+00:00"
+    },
+    "1wd77lg": {
+      "title": "Best way to buy Japanese kindle eBooks with overseas credit card?",
+      "link": "https://www.reddit.com/r/japanlife/comments/1wd77lg/best_way_to_buy_japanese_kindle_ebooks_with/",
+      "author": "/u/Business-Pass4672",
+      "body": "Not sure if this is the best sub to post in--please redirect me if not! But I've been trying to buy eBooks for kindle with my Japanese Amazon account and overseas credit card but it keeps redirecting me to change my region. I've successfully ordered (physical) items from Japanese Amazon before (to my apartment here in Japan) so I'm not sure why it's giving me trouble now... Any ideas or tips for w",
+      "sub": "japanlife",
+      "status": "new",
+      "published": "2026-09-11T05:32:43+00:00",
+      "first_seen": "2026-09-11T23:46:56.544016+00:00",
+      "last_seen": "2026-09-11T23:46:56.544016+00:00"
+    },
+    "1wcxmrd": {
+      "title": "My husband’s family are blackmailing him otherwise they refuse to move out the house",
+      "link": "https://www.reddit.com/r/japanlife/comments/1wcxmrd/my_husbands_family_are_blackmailing_him_otherwise/",
+      "author": "/u/timediplomat",
+      "body": "Long story short, my husband (who is half-Japanese and mother is Japanese) recently managed to sell the house in Chichibu that he purchased under his own name for his parents to live in. I made some posts about this situation on other subs several months ago. We had to sell because he was going to move to my country, and the house was still under mortgage. Luckily the real estate agent was fantast",
+      "sub": "japanlife",
+      "status": "new",
+      "published": "2026-09-10T22:14:52+00:00",
+      "first_seen": "2026-09-11T23:46:56.544016+00:00",
+      "last_seen": "2026-09-11T23:46:56.544016+00:00"
+    },
+    "1waj14w": {
+      "title": "LeoNext apartment humidity help",
+      "link": "https://www.reddit.com/r/japanlife/comments/1waj14w/leonext_apartment_humidity_help/",
+      "author": "/u/xhyejin",
+      "body": "I have a wall panasonic air conditioner and about a foot-tall dehumidifier, but the humidity level is stuck at 70%, and i fear there is nothing I can do about it. I heard LeoPalace and LeoNext apartments are notorious for being easy to accumulate mold, and I'm distressed that there's no one I can get help from. I have pictures of the models, but I can't upload them. Anyways, I could really use som",
+      "sub": "japanlife",
+      "status": "new",
+      "published": "2026-09-08T08:59:59+00:00",
+      "first_seen": "2026-09-11T23:46:56.544016+00:00",
+      "last_seen": "2026-09-11T23:46:56.544016+00:00"
+    },
+    "1wcrehv": {
+      "title": "Working holiday in Japan - residence address",
+      "link": "https://www.reddit.com/r/movingtojapan/comments/1wcrehv/working_holiday_in_japan_residence_address/",
+      "author": "/u/emberizio",
+      "body": "Hi everyone, I’m going to Japan on a Working Holiday visa for about a year. I have short-term accommodation secured in Osaka for the first few weeks. During that time, I want to buy a motorcycle and travel around Japan for most of the year. I’m aware of the rules regarding registering your address, but I’m wondering if anyone has experience with registering an address mainly for administrative pur",
+      "sub": "movingtojapan",
+      "status": "new",
+      "published": "2026-09-10T18:25:37+00:00",
+      "first_seen": "2026-09-11T23:49:58.402302+00:00",
+      "last_seen": "2026-09-11T23:49:58.402302+00:00"
+    },
+    "1waw67a": {
+      "title": "Is my Japan Working Holiday plan viable? (21M from Europe, Worldpackers / Workaway, ~€8k–€10k budget)",
+      "link": "https://www.reddit.com/r/movingtojapan/comments/1waw67a/is_my_japan_working_holiday_plan_viable_21m_from/",
+      "author": "/u/Morlexx",
+      "body": "Hi everyone, I’m a 21-year-old from Europe, considering spending a year in Japan on a Working Holiday Visa starting early next year. Just to clarify upfront: my country has a Working Holiday Visa agreement with Japan, so I am fully eligible. I’d love to get a reality check on my plan. My Profile & Budget: Budget: Currently around €8,000, and my goal is to save up closer to €10,000 by the time I le",
+      "sub": "movingtojapan",
+      "status": "new",
+      "published": "2026-09-08T18:10:11+00:00",
+      "first_seen": "2026-09-11T23:49:58.402302+00:00",
+      "last_seen": "2026-09-11T23:49:58.402302+00:00"
     }
+  },
+  "meta": {
+    "query_cursor": 3,
+    "last_run": "2026-09-11T23:51:59.276887+00:00",
+    "last_run_ok_calls": 6,
+    "last_run_planned_calls": 6
   }
 }

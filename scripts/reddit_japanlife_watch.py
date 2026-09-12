@@ -9,9 +9,15 @@ memorise avec un statut. Rien de bon n'est jamais perdu silencieusement.
 Statuts: new (a traiter) / drafted (reponse redigee, pas encore postee) /
 posted (poste) / skipped (hors filon) / expired (trop vieux, auto).
 
+⚠️ Reddit limite tres fort le RSS: mesure le 12/09/2026, une requete passe puis tout
+le reste prend un 429. Le script joue donc peu de mots-cles par passage, espaces d'une
+minute, en ROTATION, et il DIT quand une requete a echoue. Une file qui ne bouge pas
+peut vouloir dire "Reddit a refuse de repondre", jamais "personne ne parle logement".
+
 Usage:
     python reddit_japanlife_watch.py                       # japanlife+movingtojapan, fetch
     python reddit_japanlife_watch.py --sub japanlife --days 4
+    python reddit_japanlife_watch.py --queries 6 --sleep 90  # passage plus large, plus lent
     python reddit_japanlife_watch.py --queue               # file seule, SANS reseau
     python reddit_japanlife_watch.py --check               # scanne les fils drafted/posted:
                                                            #   auto-marque posted + remonte les reponses
@@ -48,7 +54,17 @@ EXPIRE_DAYS = 12
 ACTIONABLE = ("new", "drafted")
 DEFAULT_SUBS = "japanlife,movingtojapan"
 USERNAME = "Salty-Technician4002"   # compte d'Alessandro (detection posts/reponses)
-SLEEP = 1.5                          # pause polie entre requetes (Reddit RSS throttle)
+
+# Throttle Reddit, MESURE le 12/09/2026: a 1,5 s d'intervalle, la 1re requete passe
+# (25 fils) et les 11 suivantes prennent un 429. Soit 1 requete utile sur 24 quand on
+# balaie 12 mots-cles sur 2 subs, sans que rien ne le signale. D'ou:
+#   - une pause d'une minute entre deux requetes,
+#   - un seul reessai apres un 429,
+#   - et surtout 3 mots-cles par passage au lieu de 12, pris en ROTATION.
+SLEEP = 60.0                         # pause entre deux requetes
+RETRY_WAIT = 90.0                    # attente avant le reessai apres un 429
+MAX_TRIES = 2                        # tentatives par requete
+QUERIES_PER_RUN = 3                  # mots-cles joues par passage (rotation persistante)
 
 QUERIES = [
     "apartment", "guarantor", "rejected foreigner", "housing",
@@ -122,24 +138,46 @@ def expire_old(q):
                 t["status"] = "expired"
 
 
-def _get_rss(url):
-    try:
-        r = requests.get(url, headers={"User-Agent": UA}, verify=False, timeout=25)
-        if r.status_code != 200:
-            return None
-        return ET.fromstring(r.content)
-    except Exception:
-        return None
+def _get_rss(url, tries=MAX_TRIES):
+    """Retourne (root, err): err vaut None si la requete a abouti, sinon la raison.
+    Un echec n'est JAMAIS avale en silence, sinon un 429 ressemble a 'rien de neuf'."""
+    err = "jamais tente"
+    for attempt in range(1, tries + 1):
+        try:
+            r = requests.get(url, headers={"User-Agent": UA}, verify=False, timeout=25)
+        except Exception as ex:
+            err = type(ex).__name__
+        else:
+            if r.status_code == 200:
+                try:
+                    return ET.fromstring(r.content), None
+                except ET.ParseError as ex:
+                    return None, f"XML illisible ({ex})"
+            err = f"HTTP {r.status_code}"
+            if r.status_code != 429:
+                break
+        if attempt < tries:
+            print(f"      {err}, reessai dans {RETRY_WAIT:.0f}s")
+            time.sleep(RETRY_WAIT)
+    return None, err
 
 
-def fetch_search(sub, query):
+def fetch_search(sub, query, max_age_days=None):
+    """Retourne (fils, err). Les fils plus vieux que max_age_days sont ecartes:
+    au-dela de quelques jours un fil ne recoit plus de commentaires."""
     url = (f"https://www.reddit.com/r/{sub}/search.rss"
            f"?q={requests.utils.quote(query)}&restrict_sr=on&sort=new&t=month")
-    root = _get_rss(url)
+    root, err = _get_rss(url)
     if root is None:
-        return []
+        return [], err
+    cutoff = now_utc() - dt.timedelta(days=max_age_days) if max_age_days else None
     out = []
     for e in root.findall(f"{ATOM}entry"):
+        published = (e.findtext(f"{ATOM}published")
+                     or e.findtext(f"{ATOM}updated") or "").strip()
+        d = parse_dt(published)
+        if cutoff and d and d < cutoff:
+            continue
         link_el = e.find(f"{ATOM}link")
         link = link_el.get("href") if link_el is not None else ""
         a = e.find(f"{ATOM}author")
@@ -148,15 +186,17 @@ def fetch_search(sub, query):
             "title": (e.findtext(f"{ATOM}title") or "").strip(),
             "link": link,
             "author": author,
+            "published": published,
             "body": strip_html(e.findtext(f"{ATOM}content") or ""),
         })
-    return out
+    return out, None
 
 
 def fetch_comments(sub, tid):
     """Flux RSS des commentaires d'un fil -> liste {author, updated, snippet, link}."""
-    root = _get_rss(f"https://www.reddit.com/r/{sub}/comments/{tid}/.rss?sort=new")
+    root, err = _get_rss(f"https://www.reddit.com/r/{sub}/comments/{tid}/.rss?sort=new")
     if root is None:
+        print(f"      lecture des commentaires impossible ({err})")
         return None  # None = echec reseau (distinct de [] = fil sans commentaire)
     out = []
     for e in root.findall(f"{ATOM}entry"):
@@ -177,14 +217,26 @@ def print_actionable(q, subs=None):
     rows = [(tid, t) for tid, t in q["threads"].items()
             if t.get("status") in ACTIONABLE
             and (not subs or t.get("sub") in subs)]
-    rows.sort(key=lambda x: x[1].get("first_seen", ""), reverse=True)
+    rows.sort(key=lambda x: x[1].get("published") or x[1].get("first_seen", ""),
+              reverse=True)
     if not rows:
         print("File: aucun fil ACTIONNABLE (new/drafted) en attente.")
         return
-    print(f"\n=== FILE ACTIONNABLE : {len(rows)} fils (new/drafted) ===")
+    fresh = sum(1 for _, t in rows
+                if (age_days(t.get("published") or t.get("first_seen", "")) or 99) <= 3)
+    print(f"\n=== FILE ACTIONNABLE : {len(rows)} fils (new/drafted), "
+          f"dont {fresh} de moins de 3 jours ===")
+    if not fresh:
+        print("    Aucun fil frais: repondre a un fil de plus de 3 jours ne sert a rien,")
+        print("    les commentaires n'y sont plus lus. Ce n'est PAS une file de travail.")
     for tid, t in rows:
-        a = age_days(t.get("first_seen", ""))
-        age = f"vu il y a {a}j" if a is not None else ""
+        # age REEL du fil (date de publication), pas la date ou le script l'a vu:
+        # les deux ont longtemps ete confondues a l'affichage.
+        a = age_days(t.get("published") or t.get("first_seen", ""))
+        age = f"publie il y a {a}j" if a is not None else ""
+        if t.get("published") is None:
+            v = age_days(t.get("first_seen", ""))
+            age = f"vu il y a {v}j (date de publication inconnue)" if v is not None else ""
         flag = "[DRAFTED, a poster]" if t["status"] == "drafted" else "[NEW]"
         print(f"\n{flag} ({tid}) r/{t.get('sub','?')}  {age}")
         print(f"  {t.get('title','')}")
@@ -194,7 +246,7 @@ def print_actionable(q, subs=None):
             print(f"  {snip}...")
 
 
-def do_check(q):
+def do_check(q, sleep=SLEEP):
     """Scanne les fils drafted/posted: auto-marque posted si Alessandro a commente,
     et remonte les reponses des autres (candidats a follow-up)."""
     targets = [(tid, t) for tid, t in q["threads"].items()
@@ -205,7 +257,7 @@ def do_check(q):
     print(f"=== CHECK : {len(targets)} fils drafted/posted ===")
     for i, (tid, t) in enumerate(targets):
         if i:
-            time.sleep(SLEEP)
+            time.sleep(sleep)
         comments = fetch_comments(t.get("sub", "japanlife"), tid)
         if comments is None:
             print(f"\n({tid}) {t.get('title','')}\n  [reseau limite, reessayer]")
@@ -241,7 +293,14 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--sub", default=DEFAULT_SUBS,
                     help="sub(s) separes par virgule (defaut: japanlife,movingtojapan)")
-    ap.add_argument("--days", type=int, default=7)
+    ap.add_argument("--days", type=int, default=7,
+                    help="ne garder que les fils publies dans les N derniers jours "
+                         "(etait ignore avant le 12/09/2026)")
+    ap.add_argument("--queries", type=int, default=QUERIES_PER_RUN,
+                    help=f"mots-cles joues par passage, en rotation "
+                         f"(defaut {QUERIES_PER_RUN} sur {len(QUERIES)})")
+    ap.add_argument("--sleep", type=float, default=SLEEP,
+                    help=f"pause entre deux requetes, en secondes (defaut {SLEEP:.0f})")
     ap.add_argument("--queue", action="store_true", help="afficher la file sans reseau")
     ap.add_argument("--check", action="store_true",
                     help="scanner drafted/posted: auto-marque posted + remonte les reponses")
@@ -263,7 +322,7 @@ def main():
     expire_old(q)
 
     if args.check:
-        do_check(q)
+        do_check(q, args.sleep)
         return
 
     if args.queue:
@@ -272,13 +331,35 @@ def main():
         return
 
     subs = [s.strip() for s in args.sub.split(",") if s.strip()]
-    total_seen, added = 0, 0
-    for si, sub in enumerate(subs):
+
+    # Rotation: on ne joue que quelques mots-cles par passage, en repartant la ou
+    # le passage precedent s'etait arrete. Les 12 mots-cles sont couverts en 4 passages
+    # au lieu d'etre tous refuses en un seul.
+    meta = q.setdefault("meta", {})
+    n = max(1, min(args.queries, len(QUERIES)))
+    cursor = int(meta.get("query_cursor", 0)) % len(QUERIES)
+    picked = [QUERIES[(cursor + i) % len(QUERIES)] for i in range(n)]
+    planned = len(picked) * len(subs)
+    print(f"Mots-cles de ce passage ({n}/{len(QUERIES)}, rotation): {', '.join(picked)}")
+    print(f"Fenetre: {args.days} jours. {planned} requetes espacees de {args.sleep:.0f}s.\n")
+
+    total_seen, added, ok_calls = 0, 0, 0
+    failures = []
+    first = True
+    for sub in subs:
         seen_ids = set()
-        for qi, query in enumerate(QUERIES):
-            if si or qi:
-                time.sleep(SLEEP)
-            for it in fetch_search(sub, query):
+        for query in picked:
+            if not first:
+                time.sleep(args.sleep)
+            first = False
+            items, err = fetch_search(sub, query, args.days)
+            if err:
+                failures.append(f"r/{sub} '{query}': {err}")
+                print(f"  r/{sub} '{query}': ECHEC ({err})")
+                continue
+            ok_calls += 1
+            print(f"  r/{sub} '{query}': {len(items)} fils dans la fenetre")
+            for it in items:
                 tid = thread_id(it["link"])
                 if tid in seen_ids:
                     continue
@@ -288,24 +369,39 @@ def main():
                     continue
                 if tid in q["threads"]:
                     q["threads"][tid]["last_seen"] = now_utc().isoformat()
+                    q["threads"][tid].setdefault("published", it["published"])
                 else:
                     q["threads"][tid] = {
                         "title": it["title"], "link": it["link"],
                         "author": it["author"], "body": it["body"][:400],
                         "sub": sub, "status": "new",
+                        "published": it["published"],
                         "first_seen": now_utc().isoformat(),
                         "last_seen": now_utc().isoformat(),
                     }
                     added += 1
         total_seen += len(seen_ids)
-        print(f"r/{sub}: {len(seen_ids)} fils vus.")
+    meta["query_cursor"] = (cursor + n) % len(QUERIES)
+    meta["last_run"] = now_utc().isoformat()
+    meta["last_run_ok_calls"] = ok_calls
+    meta["last_run_planned_calls"] = planned
     save_queue(q)
 
-    if not total_seen:
-        print("Aucun fil recupere (Reddit RSS a peut-etre limite; relancer plus "
-              "tard). La file existante est preservee.")
+    print()
+    if ok_calls == 0:
+        print(f"🚨 AUCUNE des {planned} requetes n'a abouti: LE SCAN N'A PAS EU LIEU.")
+        print("   Ne pas lire la file ci-dessous comme 'rien de neuf sur Reddit':")
+        print("   on n'a rien demande a Reddit qui ait recu une reponse.")
+        for f in failures:
+            print(f"   - {f}")
+    elif failures:
+        print(f"⚠️ SCAN PARTIEL: {ok_calls}/{planned} requetes ont abouti.")
+        for f in failures:
+            print(f"   - {f}")
+        print(f"   {total_seen} fils vus, {added} NOUVEAUX ajoutes a la file.")
     else:
-        print(f"Total: {total_seen} fils vus, {added} NOUVEAUX ajoutes a la file.")
+        print(f"✅ Scan complet: {planned}/{planned} requetes, "
+              f"{total_seen} fils vus, {added} NOUVEAUX ajoutes a la file.")
     print_actionable(q, subs=subs)
 
 
