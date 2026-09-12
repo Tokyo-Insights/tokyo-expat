@@ -1,0 +1,1197 @@
+{
+  "date": "2026-09-12",
+  "fenetre_jours": 90,
+  "start": "2026-06-11",
+  "end": "2026-09-09",
+  "total": 170,
+  "vivantes": [
+    {
+      "slug": "jiko-bukken-cheap-apartments-tokyo",
+      "locale": "en",
+      "clicks": 52,
+      "impressions": 1897,
+      "position": 9.072746441750132
+    },
+    {
+      "slug": "furnished-apartment-tokyo-top-5-expats",
+      "locale": "en",
+      "clicks": 11,
+      "impressions": 22958,
+      "position": 26.784824462061156
+    },
+    {
+      "slug": "best-neighbourhoods-families-tokyo-guide",
+      "locale": "en",
+      "clicks": 9,
+      "impressions": 689,
+      "position": 14.37010159651669
+    },
+    {
+      "slug": "gaijin-house-tokyo-guide",
+      "locale": "en",
+      "clicks": 9,
+      "impressions": 7921,
+      "position": 12.95808610023987
+    },
+    {
+      "slug": "assurance-habitation-japon-locataire",
+      "locale": "fr",
+      "clicks": 5,
+      "impressions": 39,
+      "position": 4.820512820512821
+    },
+    {
+      "slug": "japan-sim-card-foreigners-2026",
+      "locale": "en",
+      "clicks": 5,
+      "impressions": 1029,
+      "position": 8.580174927113703
+    },
+    {
+      "slug": "logement-etudiant-tokyo-guide",
+      "locale": "fr",
+      "clicks": 4,
+      "impressions": 1972,
+      "position": 20.934077079107507
+    },
+    {
+      "slug": "permis-conduire-etranger-japon-conversion",
+      "locale": "fr",
+      "clicks": 4,
+      "impressions": 50,
+      "position": 7.74
+    },
+    {
+      "slug": "social-apartments-tokyo-guide",
+      "locale": "en",
+      "clicks": 4,
+      "impressions": 2725,
+      "position": 21.632293577981653
+    },
+    {
+      "slug": "ur-housing-tokyo-foreigners",
+      "locale": "en",
+      "clicks": 4,
+      "impressions": 117,
+      "position": 16.34188034188034
+    },
+    {
+      "slug": "garantie-loyer-etranger-japon",
+      "locale": "fr",
+      "clicks": 3,
+      "impressions": 45,
+      "position": 7.088888888888889
+    },
+    {
+      "slug": "renters-insurance-japan-guide",
+      "locale": "en",
+      "clicks": 3,
+      "impressions": 295,
+      "position": 6.5864406779661016
+    },
+    {
+      "slug": "tokyo-rental-contract-checklist",
+      "locale": "en",
+      "clicks": 3,
+      "impressions": 44,
+      "position": 8.931818181818182
+    },
+    {
+      "slug": "impots-revenus-japon-expatrie-2026",
+      "locale": "fr",
+      "clicks": 3,
+      "impressions": 43,
+      "position": 7.6976744186046515
+    },
+    {
+      "slug": "tokyo-condo-price-trends",
+      "locale": "en",
+      "clicks": 3,
+      "impressions": 118,
+      "position": 8.991525423728813
+    },
+    {
+      "slug": "louer-appartement-animaux-acceptes-tokyo",
+      "locale": "fr",
+      "clicks": 3,
+      "impressions": 32,
+      "position": 5.34375
+    },
+    {
+      "slug": "share-house-tokyo-guide-complet",
+      "locale": "fr",
+      "clicks": 2,
+      "impressions": 693,
+      "position": 26.61038961038961
+    },
+    {
+      "slug": "quartiers-tokyo-expatries-guide",
+      "locale": "fr",
+      "clicks": 2,
+      "impressions": 45,
+      "position": 4.844444444444445
+    },
+    {
+      "slug": "moving-to-tokyo-checklist-2026",
+      "locale": "en",
+      "clicks": 2,
+      "impressions": 42,
+      "position": 11.666666666666666
+    },
+    {
+      "slug": "share-house-tokyo-guide-2026",
+      "locale": "en",
+      "clicks": 2,
+      "impressions": 274,
+      "position": 23.675182481751825
+    },
+    {
+      "slug": "assurance-maladie-japon-expatrie",
+      "locale": "fr",
+      "clicks": 2,
+      "impressions": 117,
+      "position": 17.5982905982906
+    },
+    {
+      "slug": "tokyo-rental-traps-foreigners",
+      "locale": "en",
+      "clicks": 2,
+      "impressions": 16,
+      "position": 8.0625
+    },
+    {
+      "slug": "student-housing-tokyo-guide",
+      "locale": "en",
+      "clicks": 2,
+      "impressions": 2108,
+      "position": 31.692599620493358
+    },
+    {
+      "slug": "jiko-bukken-appartements-pas-chers-tokyo",
+      "locale": "fr",
+      "clicks": 2,
+      "impressions": 79,
+      "position": 6.848101265822785
+    },
+    {
+      "slug": "internet-utilitaires-tokyo-appartement",
+      "locale": "fr",
+      "clicks": 2,
+      "impressions": 14,
+      "position": 3.642857142857143
+    },
+    {
+      "slug": "setting-up-utilities-tokyo-apartment",
+      "locale": "en",
+      "clicks": 2,
+      "impressions": 75,
+      "position": 6.386666666666667
+    },
+    {
+      "slug": "international-moving-company-japan-guide",
+      "locale": "en",
+      "clicks": 2,
+      "impressions": 404,
+      "position": 22.002475247524753
+    },
+    {
+      "slug": "student-housing-tokyo-october",
+      "locale": "en",
+      "clicks": 2,
+      "impressions": 65,
+      "position": 12.461538461538462
+    },
+    {
+      "slug": "appartement-meuble-tokyo-expats-top-5",
+      "locale": "fr",
+      "clicks": 2,
+      "impressions": 215,
+      "position": 26.71627906976744
+    },
+    {
+      "slug": "loyers-tokyo-par-quartier-2026",
+      "locale": "fr",
+      "clicks": 2,
+      "impressions": 29,
+      "position": 10.827586206896552
+    },
+    {
+      "slug": "ebisu-daikanyama-nakameguro-expat-guide",
+      "locale": "en",
+      "clicks": 2,
+      "impressions": 143,
+      "position": 8.88111888111888
+    },
+    {
+      "slug": "virement-bancaire-japon-furikomi-guide",
+      "locale": "fr",
+      "clicks": 2,
+      "impressions": 28,
+      "position": 11.142857142857142
+    },
+    {
+      "slug": "gaijin-house-tokyo-guide-complet",
+      "locale": "fr",
+      "clicks": 2,
+      "impressions": 76,
+      "position": 20.94736842105263
+    },
+    {
+      "slug": "typhoon-season-tokyo-choosing-housing",
+      "locale": "en",
+      "clicks": 2,
+      "impressions": 49,
+      "position": 6.1020408163265305
+    },
+    {
+      "slug": "cheapest-neighbourhoods-tokyo-ranked-by-rent",
+      "locale": "en",
+      "clicks": 2,
+      "impressions": 113,
+      "position": 17.646017699115045
+    },
+    {
+      "slug": "expat-apartments-tokyo",
+      "locale": "en",
+      "clicks": 2,
+      "impressions": 1435,
+      "position": 19.478048780487804
+    },
+    {
+      "slug": "trouver-emploi-japon-etranger",
+      "locale": "fr",
+      "clicks": 2,
+      "impressions": 14,
+      "position": 27.928571428571427
+    },
+    {
+      "slug": "appartement-familial-tokyo-etranger",
+      "locale": "fr",
+      "clicks": 2,
+      "impressions": 60,
+      "position": 15.633333333333333
+    },
+    {
+      "slug": "trouver-appartement-tokyo-etranger",
+      "locale": "fr",
+      "clicks": 1,
+      "impressions": 192,
+      "position": 19.286458333333332
+    },
+    {
+      "slug": "ouvrir-compte-bancaire-japon-etranger",
+      "locale": "fr",
+      "clicks": 1,
+      "impressions": 68,
+      "position": 7.720588235294118
+    },
+    {
+      "slug": "carte-residence-japon-zairyu-card",
+      "locale": "fr",
+      "clicks": 1,
+      "impressions": 23,
+      "position": 7.826086956521739
+    },
+    {
+      "slug": "famille-expatriee-tokyo-ecoles-internationales",
+      "locale": "fr",
+      "clicks": 1,
+      "impressions": 20,
+      "position": 8.5
+    },
+    {
+      "slug": "demenager-japon-checklist-complete",
+      "locale": "fr",
+      "clicks": 1,
+      "impressions": 38,
+      "position": 7
+    },
+    {
+      "slug": "tokyo-osaka-kyoto-ou-s-installer",
+      "locale": "fr",
+      "clicks": 1,
+      "impressions": 29,
+      "position": 7.344827586206897
+    },
+    {
+      "slug": "japan-health-insurance-expat-guide",
+      "locale": "en",
+      "clicks": 1,
+      "impressions": 14,
+      "position": 10.428571428571429
+    },
+    {
+      "slug": "family-expat-tokyo-international-schools",
+      "locale": "en",
+      "clicks": 1,
+      "impressions": 20,
+      "position": 8
+    },
+    {
+      "slug": "negotiating-rent-tokyo-tips",
+      "locale": "en",
+      "clicks": 1,
+      "impressions": 56,
+      "position": 8.464285714285715
+    },
+    {
+      "slug": "gaijin-house-vs-share-house-tokyo",
+      "locale": "en",
+      "clicks": 1,
+      "impressions": 1343,
+      "position": 24.254653760238273
+    },
+    {
+      "slug": "checklist-bail-tokyo",
+      "locale": "fr",
+      "clicks": 1,
+      "impressions": 8,
+      "position": 5.875
+    },
+    {
+      "slug": "travailler-tokyo-expatrie-guide-2026",
+      "locale": "fr",
+      "clicks": 1,
+      "impressions": 10,
+      "position": 6.2
+    },
+    {
+      "slug": "tokyo-public-transport-expat-guide",
+      "locale": "en",
+      "clicks": 1,
+      "impressions": 39,
+      "position": 6.461538461538462
+    },
+    {
+      "slug": "japan-income-tax-foreigners-guide",
+      "locale": "en",
+      "clicks": 1,
+      "impressions": 152,
+      "position": 18.973684210526315
+    },
+    {
+      "slug": "virement-international-japon-wise-revolut",
+      "locale": "fr",
+      "clicks": 1,
+      "impressions": 104,
+      "position": 8.028846153846153
+    },
+    {
+      "slug": "quartiers-tokyo-familles-expatriees-guide",
+      "locale": "fr",
+      "clicks": 1,
+      "impressions": 15,
+      "position": 10.6
+    },
+    {
+      "slug": "japanese-language-schools-tokyo-guide",
+      "locale": "en",
+      "clicks": 1,
+      "impressions": 535,
+      "position": 31.53271028037383
+    },
+    {
+      "slug": "japan-working-holiday-visa-guide-2026",
+      "locale": "en",
+      "clicks": 1,
+      "impressions": 347,
+      "position": 11.521613832853026
+    },
+    {
+      "slug": "logement-etudiant-tokyo-octobre",
+      "locale": "fr",
+      "clicks": 1,
+      "impressions": 595,
+      "position": 17.114285714285714
+    },
+    {
+      "slug": "ebisu-daikanyama-nakameguro-guide-expatries",
+      "locale": "fr",
+      "clicks": 1,
+      "impressions": 19,
+      "position": 9.631578947368421
+    },
+    {
+      "slug": "se-loger-nakano-quartier-guide",
+      "locale": "fr",
+      "clicks": 1,
+      "impressions": 17,
+      "position": 10.941176470588236
+    },
+    {
+      "slug": "se-loger-koenji-quartier-guide",
+      "locale": "fr",
+      "clicks": 1,
+      "impressions": 13,
+      "position": 9.076923076923077
+    },
+    {
+      "slug": "social-apartment-tokyo-guide",
+      "locale": "fr",
+      "clicks": 1,
+      "impressions": 551,
+      "position": 16.22141560798548
+    },
+    {
+      "slug": "se-loger-kichijoji-quartier-guide",
+      "locale": "fr",
+      "clicks": 1,
+      "impressions": 22,
+      "position": 12.772727272727273
+    },
+    {
+      "slug": "living-shibuya-housing-guide",
+      "locale": "en",
+      "clicks": 1,
+      "impressions": 214,
+      "position": 7.210280373831775
+    },
+    {
+      "slug": "living-nakano-housing-guide",
+      "locale": "en",
+      "clicks": 1,
+      "impressions": 33,
+      "position": 7.0606060606060606
+    },
+    {
+      "slug": "living-koenji-housing-guide",
+      "locale": "en",
+      "clicks": 1,
+      "impressions": 222,
+      "position": 19.144144144144143
+    },
+    {
+      "slug": "living-kichijoji-housing-guide",
+      "locale": "en",
+      "clicks": 1,
+      "impressions": 111,
+      "position": 24.71171171171171
+    },
+    {
+      "slug": "saison-typhons-tokyo-choisir-logement",
+      "locale": "fr",
+      "clicks": 1,
+      "impressions": 10,
+      "position": 8.5
+    },
+    {
+      "slug": "why-japanese-landlords-reject-foreigners",
+      "locale": "en",
+      "clicks": 1,
+      "impressions": 16,
+      "position": 10.125
+    },
+    {
+      "slug": "evolution-prix-immobilier-tokyo",
+      "locale": "fr",
+      "clicks": 1,
+      "impressions": 114,
+      "position": 9.701754385964913
+    },
+    {
+      "slug": "tokyo-rent-vs-world-cities",
+      "locale": "en",
+      "clicks": 1,
+      "impressions": 167,
+      "position": 27.101796407185628
+    },
+    {
+      "slug": "tokyo-most-exclusive-neighbourhoods",
+      "locale": "en",
+      "clicks": 1,
+      "impressions": 26,
+      "position": 6.961538461538462
+    },
+    {
+      "slug": "etrangers-paient-plus-cher-loyer-tokyo",
+      "locale": "fr",
+      "clicks": 1,
+      "impressions": 77,
+      "position": 21.064935064935064
+    },
+    {
+      "slug": "cheapest-train-line-tokyo-rent",
+      "locale": "en",
+      "clicks": 1,
+      "impressions": 19,
+      "position": 6.473684210526316
+    },
+    {
+      "slug": "cheapest-stations-tokyo-rent",
+      "locale": "en",
+      "clicks": 1,
+      "impressions": 34,
+      "position": 14.205882352941176
+    },
+    {
+      "slug": "cout-avoir-animal-tokyo",
+      "locale": "fr",
+      "clicks": 1,
+      "impressions": 13,
+      "position": 4.461538461538462
+    },
+    {
+      "slug": "how-to-find-job-japan-foreigner",
+      "locale": "en",
+      "clicks": 1,
+      "impressions": 292,
+      "position": 59.571917808219176
+    }
+  ],
+  "vues_sans_clic": [
+    {
+      "slug": "find-apartment-tokyo-foreigner",
+      "locale": "en",
+      "clicks": 0,
+      "impressions": 2109,
+      "position": 35.02228544333808
+    },
+    {
+      "slug": "furnished-apartments-tokyo-guide",
+      "locale": "en",
+      "clicks": 0,
+      "impressions": 1133,
+      "position": 30.74669020300088
+    },
+    {
+      "slug": "furnished-apartment-tokyo-no-guarantor",
+      "locale": "en",
+      "clicks": 0,
+      "impressions": 876,
+      "position": 18.934931506849313
+    },
+    {
+      "slug": "tokyo-neighbourhoods-expats-guide",
+      "locale": "en",
+      "clicks": 0,
+      "impressions": 463,
+      "position": 39.53347732181425
+    },
+    {
+      "slug": "tokyo-vs-osaka-expat-living-comparison",
+      "locale": "en",
+      "clicks": 0,
+      "impressions": 350,
+      "position": 17.042857142857144
+    },
+    {
+      "slug": "furnished-apartment-tokyo-expats",
+      "locale": "en",
+      "clicks": 0,
+      "impressions": 302,
+      "position": 20.837748344370862
+    },
+    {
+      "slug": "tokyo-apartment-move-in-costs",
+      "locale": "en",
+      "clicks": 0,
+      "impressions": 297,
+      "position": 40.0976430976431
+    },
+    {
+      "slug": "renting-pet-friendly-apartment-tokyo",
+      "locale": "en",
+      "clicks": 0,
+      "impressions": 297,
+      "position": 37.05050505050505
+    },
+    {
+      "slug": "guide-appartements-meubles-tokyo",
+      "locale": "fr",
+      "clicks": 0,
+      "impressions": 241,
+      "position": 30.406639004149376
+    },
+    {
+      "slug": "appartements-expatries-tokyo",
+      "locale": "fr",
+      "clicks": 0,
+      "impressions": 233,
+      "position": 30.257510729613735
+    },
+    {
+      "slug": "tokyo-rent-report-2026",
+      "locale": "en",
+      "clicks": 0,
+      "impressions": 231,
+      "position": 6.489177489177489
+    },
+    {
+      "slug": "logement-etudiant-tokyo-2026",
+      "locale": "fr",
+      "clicks": 0,
+      "impressions": 206,
+      "position": 27.966019417475728
+    },
+    {
+      "slug": "tokyo-osaka-kyoto-which-city-to-live",
+      "locale": "en",
+      "clicks": 0,
+      "impressions": 199,
+      "position": 15.316582914572864
+    },
+    {
+      "slug": "japan-digital-nomad-visa-2026",
+      "locale": "en",
+      "clicks": 0,
+      "impressions": 190,
+      "position": 15.652631578947368
+    },
+    {
+      "slug": "appartement-meuble-tokyo-expats",
+      "locale": "fr",
+      "clicks": 0,
+      "impressions": 186,
+      "position": 20.725806451612904
+    },
+    {
+      "slug": "pvt-japon-visa-vacances-travail-2026",
+      "locale": "fr",
+      "clicks": 0,
+      "impressions": 167,
+      "position": 8.263473053892216
+    },
+    {
+      "slug": "residence-card-japan-zairyu-card-guide",
+      "locale": "en",
+      "clicks": 0,
+      "impressions": 160,
+      "position": 30.65
+    },
+    {
+      "slug": "tokyo-rent-by-neighborhood-2026",
+      "locale": "en",
+      "clicks": 0,
+      "impressions": 149,
+      "position": 6.2885906040268456
+    },
+    {
+      "slug": "demenageur-international-japon-guide",
+      "locale": "fr",
+      "clicks": 0,
+      "impressions": 110,
+      "position": 22.027272727272727
+    },
+    {
+      "slug": "rapport-loyers-tokyo-2026",
+      "locale": "fr",
+      "clicks": 0,
+      "impressions": 96,
+      "position": 15.135416666666666
+    },
+    {
+      "slug": "hiroo-minami-azabu-expat-neighborhood-guide",
+      "locale": "en",
+      "clicks": 0,
+      "impressions": 89,
+      "position": 9.50561797752809
+    },
+    {
+      "slug": "japanese-apartment-layouts-explained",
+      "locale": "en",
+      "clicks": 0,
+      "impressions": 81,
+      "position": 14.876543209876543
+    },
+    {
+      "slug": "moving-to-tokyo-summer-july-august",
+      "locale": "en",
+      "clicks": 0,
+      "impressions": 67,
+      "position": 14.343283582089553
+    },
+    {
+      "slug": "send-money-to-japan-from-abroad",
+      "locale": "en",
+      "clicks": 0,
+      "impressions": 65,
+      "position": 21.43076923076923
+    },
+    {
+      "slug": "bank-transfer-japan-furikomi-guide",
+      "locale": "en",
+      "clicks": 0,
+      "impressions": 61,
+      "position": 14.065573770491802
+    },
+    {
+      "slug": "student-housing-tokyo-guide-2026",
+      "locale": "en",
+      "clicks": 0,
+      "impressions": 58,
+      "position": 11.362068965517242
+    },
+    {
+      "slug": "bringing-pets-to-japan-guide",
+      "locale": "en",
+      "clicks": 0,
+      "impressions": 57,
+      "position": 25.07017543859649
+    },
+    {
+      "slug": "guarantor-japan-rental-foreigner",
+      "locale": "en",
+      "clicks": 0,
+      "impressions": 53,
+      "position": 23.30188679245283
+    },
+    {
+      "slug": "quartiers-tokyo-moins-chers-classement-loyers",
+      "locale": "fr",
+      "clicks": 0,
+      "impressions": 53,
+      "position": 21.264150943396228
+    },
+    {
+      "slug": "living-ikebukuro-housing-guide",
+      "locale": "en",
+      "clicks": 0,
+      "impressions": 51,
+      "position": 21.862745098039216
+    },
+    {
+      "slug": "stations-tokyo-loyer-moins-cher",
+      "locale": "fr",
+      "clicks": 0,
+      "impressions": 50,
+      "position": 23
+    },
+    {
+      "slug": "cost-of-owning-pet-tokyo",
+      "locale": "en",
+      "clicks": 0,
+      "impressions": 49,
+      "position": 4.918367346938775
+    },
+    {
+      "slug": "best-tokyo-wards-couples-1ldk",
+      "locale": "en",
+      "clicks": 0,
+      "impressions": 43,
+      "position": 7.488372093023256
+    },
+    {
+      "slug": "importer-animal-compagnie-japon-guide",
+      "locale": "fr",
+      "clicks": 0,
+      "impressions": 41,
+      "position": 8.73170731707317
+    },
+    {
+      "slug": "tokyo-apartment-hunting-from-abroad",
+      "locale": "en",
+      "clicks": 0,
+      "impressions": 38,
+      "position": 20.973684210526315
+    },
+    {
+      "slug": "cout-vie-tokyo-expatrie-2026",
+      "locale": "fr",
+      "clicks": 0,
+      "impressions": 35,
+      "position": 11.685714285714285
+    },
+    {
+      "slug": "corporate-relocation-tokyo-hr-housing-guide",
+      "locale": "en",
+      "clicks": 0,
+      "impressions": 34,
+      "position": 20.058823529411764
+    },
+    {
+      "slug": "rental-application-rejected-japan-foreigner",
+      "locale": "en",
+      "clicks": 0,
+      "impressions": 33,
+      "position": 9.848484848484848
+    },
+    {
+      "slug": "loyer-tokyo-age-batiment",
+      "locale": "fr",
+      "clicks": 0,
+      "impressions": 33,
+      "position": 33.21212121212121
+    },
+    {
+      "slug": "se-loger-shibuya-quartier-guide",
+      "locale": "fr",
+      "clicks": 0,
+      "impressions": 32,
+      "position": 16.59375
+    },
+    {
+      "slug": "real-estate-hunter-vs-agency-tokyo",
+      "locale": "en",
+      "clicks": 0,
+      "impressions": 31,
+      "position": 8.064516129032258
+    },
+    {
+      "slug": "family-apartment-tokyo-foreigner",
+      "locale": "en",
+      "clicks": 0,
+      "impressions": 31,
+      "position": 11.32258064516129
+    },
+    {
+      "slug": "appartement-meuble-vs-non-meuble-tokyo-cout",
+      "locale": "fr",
+      "clicks": 0,
+      "impressions": 30,
+      "position": 27.7
+    },
+    {
+      "slug": "demenager-tokyo-ete-juillet-aout",
+      "locale": "fr",
+      "clicks": 0,
+      "impressions": 29,
+      "position": 23.137931034482758
+    },
+    {
+      "slug": "convert-foreign-driving-licence-japan",
+      "locale": "en",
+      "clicks": 0,
+      "impressions": 27,
+      "position": 13.88888888888889
+    },
+    {
+      "slug": "renting-tokyo-entrepreneur-startup-guide",
+      "locale": "en",
+      "clicks": 0,
+      "impressions": 27,
+      "position": 10.185185185185185
+    },
+    {
+      "slug": "chercher-appartement-tokyo-depuis-etranger",
+      "locale": "fr",
+      "clicks": 0,
+      "impressions": 26,
+      "position": 12
+    },
+    {
+      "slug": "find-apartment-tokyo-september",
+      "locale": "en",
+      "clicks": 0,
+      "impressions": 25,
+      "position": 5.88
+    },
+    {
+      "slug": "health-insurance-visa-japan-2027",
+      "locale": "en",
+      "clicks": 0,
+      "impressions": 25,
+      "position": 9.04
+    },
+    {
+      "slug": "furnished-vs-unfurnished-apartment-tokyo-cost",
+      "locale": "en",
+      "clicks": 0,
+      "impressions": 24,
+      "position": 7.75
+    },
+    {
+      "slug": "living-sangenjaya-housing-guide",
+      "locale": "en",
+      "clicks": 0,
+      "impressions": 21,
+      "position": 7.190476190476191
+    },
+    {
+      "slug": "negocier-loyer-tokyo-conseils",
+      "locale": "fr",
+      "clicks": 0,
+      "impressions": 18,
+      "position": 18.38888888888889
+    },
+    {
+      "slug": "quartiers-huppes-tokyo",
+      "locale": "fr",
+      "clicks": 0,
+      "impressions": 17,
+      "position": 5.647058823529412
+    },
+    {
+      "slug": "remoters-alternative",
+      "locale": "en",
+      "clicks": 0,
+      "impressions": 16,
+      "position": 7.5625
+    },
+    {
+      "slug": "visa-nomade-digital-japon-2026",
+      "locale": "fr",
+      "clicks": 0,
+      "impressions": 15,
+      "position": 15.733333333333333
+    },
+    {
+      "slug": "se-loger-ikebukuro-quartier-guide",
+      "locale": "fr",
+      "clicks": 0,
+      "impressions": 15,
+      "position": 14.733333333333333
+    },
+    {
+      "slug": "find-housing-tokyo-two-weeks-relocation",
+      "locale": "en",
+      "clicks": 0,
+      "impressions": 15,
+      "position": 12.266666666666667
+    },
+    {
+      "slug": "pourquoi-proprietaires-japonais-refusent-etrangers",
+      "locale": "fr",
+      "clicks": 0,
+      "impressions": 15,
+      "position": 6.333333333333333
+    },
+    {
+      "slug": "tokyo-expat-cost-of-living-2026",
+      "locale": "en",
+      "clicks": 0,
+      "impressions": 14,
+      "position": 11.785714285714286
+    },
+    {
+      "slug": "japan-work-visa-foreigners-guide",
+      "locale": "en",
+      "clicks": 0,
+      "impressions": 14,
+      "position": 24.071428571428573
+    },
+    {
+      "slug": "tokyo-osaka-ou-vivre-expatrie-comparatif",
+      "locale": "fr",
+      "clicks": 0,
+      "impressions": 14,
+      "position": 8.357142857142858
+    },
+    {
+      "slug": "living-asagaya-housing-guide",
+      "locale": "en",
+      "clicks": 0,
+      "impressions": 14,
+      "position": 11.5
+    },
+    {
+      "slug": "do-foreigners-pay-more-rent-tokyo",
+      "locale": "en",
+      "clicks": 0,
+      "impressions": 14,
+      "position": 4.5
+    },
+    {
+      "slug": "appartement-meuble-tokyo-sans-garant",
+      "locale": "fr",
+      "clicks": 0,
+      "impressions": 11,
+      "position": 12.363636363636363
+    },
+    {
+      "slug": "visa-travail-japon-francophone-2026",
+      "locale": "fr",
+      "clicks": 0,
+      "impressions": 10,
+      "position": 7.4
+    },
+    {
+      "slug": "meilleurs-quartiers-tokyo-couple-1ldk",
+      "locale": "fr",
+      "clicks": 0,
+      "impressions": 10,
+      "position": 8.2
+    },
+    {
+      "slug": "carte-sim-japon-etranger-2026",
+      "locale": "fr",
+      "clicks": 0,
+      "impressions": 8,
+      "position": 8
+    },
+    {
+      "slug": "frais-caches-location-tokyo",
+      "locale": "fr",
+      "clicks": 0,
+      "impressions": 8,
+      "position": 5.875
+    },
+    {
+      "slug": "working-in-tokyo-expat-guide-2026",
+      "locale": "en",
+      "clicks": 0,
+      "impressions": 7,
+      "position": 3.5714285714285716
+    },
+    {
+      "slug": "hiroo-minami-azabu-guide-expatries-tokyo",
+      "locale": "fr",
+      "clicks": 0,
+      "impressions": 7,
+      "position": 11.857142857142858
+    },
+    {
+      "slug": "open-bank-account-japan-foreigner",
+      "locale": "en",
+      "clicks": 0,
+      "impressions": 6,
+      "position": 25.666666666666668
+    },
+    {
+      "slug": "cours-japonais-tokyo-expatries-guide",
+      "locale": "fr",
+      "clicks": 0,
+      "impressions": 6,
+      "position": 12
+    },
+    {
+      "slug": "assurance-sante-visa-japon-2027",
+      "locale": "fr",
+      "clicks": 0,
+      "impressions": 6,
+      "position": 12.666666666666666
+    },
+    {
+      "slug": "se-loger-asagaya-quartier-guide",
+      "locale": "fr",
+      "clicks": 0,
+      "impressions": 6,
+      "position": 13.666666666666666
+    },
+    {
+      "slug": "real-estate-hunter-tokyo-cost-worth-it",
+      "locale": "en",
+      "clicks": 0,
+      "impressions": 5,
+      "position": 17
+    },
+    {
+      "slug": "se-loger-sangenjaya-quartier-guide",
+      "locale": "fr",
+      "clicks": 0,
+      "impressions": 5,
+      "position": 17.4
+    },
+    {
+      "slug": "transport-tokyo-expatrie-guide",
+      "locale": "fr",
+      "clicks": 0,
+      "impressions": 4,
+      "position": 6.5
+    },
+    {
+      "slug": "how-real-estate-hunter-works-tokyo",
+      "locale": "en",
+      "clicks": 0,
+      "impressions": 4,
+      "position": 8.25
+    },
+    {
+      "slug": "tokyo-rent-building-age",
+      "locale": "en",
+      "clicks": 0,
+      "impressions": 4,
+      "position": 8
+    },
+    {
+      "slug": "logement-ur-tokyo-etrangers",
+      "locale": "fr",
+      "clicks": 0,
+      "impressions": 4,
+      "position": 16.25
+    },
+    {
+      "slug": "chasseur-immobilier-tokyo-tarifs-vaut-il-le-coup",
+      "locale": "fr",
+      "clicks": 0,
+      "impressions": 3,
+      "position": 25
+    },
+    {
+      "slug": "gaijin-house-vs-share-house-difference",
+      "locale": "fr",
+      "clicks": 0,
+      "impressions": 2,
+      "position": 9
+    },
+    {
+      "slug": "appartement-tokyo-septembre-guide",
+      "locale": "fr",
+      "clicks": 0,
+      "impressions": 2,
+      "position": 26
+    },
+    {
+      "slug": "alternative-remoters-chasseur-tokyo",
+      "locale": "fr",
+      "clicks": 0,
+      "impressions": 2,
+      "position": 8
+    },
+    {
+      "slug": "ligne-train-tokyo-loyer-moins-cher",
+      "locale": "fr",
+      "clicks": 0,
+      "impressions": 2,
+      "position": 29
+    },
+    {
+      "slug": "pieges-location-tokyo-etranger",
+      "locale": "fr",
+      "clicks": 0,
+      "impressions": 1,
+      "position": 6
+    },
+    {
+      "slug": "appartement-tokyo-entrepreneur-freelance",
+      "locale": "fr",
+      "clicks": 0,
+      "impressions": 1,
+      "position": 12
+    },
+    {
+      "slug": "dossier-location-refuse-tokyo-etranger",
+      "locale": "fr",
+      "clicks": 0,
+      "impressions": 1,
+      "position": 8
+    }
+  ],
+  "mortes": [
+    {
+      "slug": "relocation-entreprise-tokyo-guide-rh",
+      "locale": "fr",
+      "clicks": 0,
+      "impressions": 0
+    },
+    {
+      "slug": "chasseur-immobilier-vs-agence-tokyo-comparatif",
+      "locale": "fr",
+      "clicks": 0,
+      "impressions": 0
+    },
+    {
+      "slug": "service-chasseur-immobilier-tokyo-comment-ca-marche",
+      "locale": "fr",
+      "clicks": 0,
+      "impressions": 0
+    },
+    {
+      "slug": "trouver-logement-tokyo-deux-semaines-mutation",
+      "locale": "fr",
+      "clicks": 0,
+      "impressions": 0
+    },
+    {
+      "slug": "loyers-tokyo-vs-grandes-villes",
+      "locale": "fr",
+      "clicks": 0,
+      "impressions": 0
+    },
+    {
+      "slug": "types-appartements-japonais-expliques",
+      "locale": "fr",
+      "clicks": 0,
+      "impressions": 0
+    }
+  ]
+}
