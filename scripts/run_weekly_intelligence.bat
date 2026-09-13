@@ -127,9 +127,15 @@ python scripts\competitor_radar.py >> "%LOG_FILE%" 2>&1
 :: echo [%TIME%] [17/19] Influencer finder... >> "%LOG_FILE%"
 :: python scripts\influencer_finder.py >> "%LOG_FILE%" 2>&1
 
-:: 18. Facebook via Buffer API (setup : voir facebook_buffer_poster.py --help)
-echo [%TIME%] [18/22] Facebook Buffer poster... >> "%LOG_FILE%"
-python scripts\facebook_buffer_poster.py --draft >> "%LOG_FILE%" 2>&1
+:: 18. Facebook via Buffer API -- DESACTIVE ICI le 14/09/2026.
+::     Deux raisons: (a) run_daily_watch.bat fait deja tourner le poster chaque jour
+::     avec son garde-fou interne de 6 jours, donc la cadence hebdo est tenue meme si
+::     le PC est eteint un lundi; (b) cette etape-ci est DANS la zone
+::     TE_TELEGRAM_SILENT=1, donc une publication lancee d'ici partirait sans qu'aucune
+::     notification n'arrive sur le telephone d'Alessandro. C'est exactement le piege
+::     du 11/09/2026. Le seul appelant qui publie est donc le quotidien, hors silence.
+:: echo [%TIME%] [18/22] Facebook Buffer poster... >> "%LOG_FILE%"
+:: python scripts\facebook_buffer_poster.py >> "%LOG_FILE%" 2>&1
 
 :: 19. Email reply monitor (scanne Gmail IMAP, detecte bounces/reponses, MAJ contacts)
 echo [%TIME%] [19/22] Email reply monitor... >> "%LOG_FILE%"
@@ -146,9 +152,9 @@ python scripts\email_reply_monitor.py >> "%LOG_FILE%" 2>&1
 echo [%TIME%] [20/35] Email sender (BROUILLONS, aucun envoi)... >> "%LOG_FILE%"
 python scripts\email_sender.py --draft >> "%LOG_FILE%" 2>&1
 
-:: 21. LinkedIn via Buffer API
-echo [%TIME%] [21/22] LinkedIn Buffer poster... >> "%LOG_FILE%"
-python scripts\facebook_buffer_poster.py --li-only --draft >> "%LOG_FILE%" 2>&1
+:: 21. LinkedIn via Buffer API -- DESACTIVE ICI le 14/09/2026, meme raison qu'au 18.
+:: echo [%TIME%] [21/22] LinkedIn Buffer poster... >> "%LOG_FILE%"
+:: python scripts\facebook_buffer_poster.py --li-only >> "%LOG_FILE%" 2>&1
 
 :: 22. Content velocity tracker (lit competitor_cache, detecte accelerations)
 echo [%TIME%] [22/30] Content velocity tracker... >> "%LOG_FILE%"

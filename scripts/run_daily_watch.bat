@@ -76,6 +76,9 @@ python scripts\backlink_draft_stocker.py >> "%LOG_FILE%" 2>&1
 
 :: 9. Social poster Buffer (AUTO-REPARANT) : poste 1 FB + 1 LI si >=6j depuis le dernier,
 ::    sinon skip (garde-fou too_recent interne). Ne depend plus du PC allume un lundi precis.
+::    14/09/2026 : PUBLICATION AUTOMATIQUE RETABLIE a la demande d'Alessandro (elle etait
+::    passee en brouillon le 11/09). C'est le SEUL appelant qui publie, et il est hors de
+::    la zone TE_TELEGRAM_SILENT, donc chaque publication reelle est annoncee sur Telegram.
 echo [%TIME%] [9/10] Social Buffer poster (if due)... >> "%LOG_FILE%"
 python scripts\facebook_buffer_poster.py >> "%LOG_FILE%" 2>&1
 

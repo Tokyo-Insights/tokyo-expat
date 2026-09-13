@@ -10,8 +10,9 @@ SETUP (une seule fois) :
 4. Dans scripts/.env : BUFFER_FB_PROFILE_ID + BUFFER_LI_PROFILE_ID
 
 Commandes :
-  python scripts/facebook_buffer_poster.py              # poste FB + LI
-  python scripts/facebook_buffer_poster.py --preview    # affiche sans poster
+  python scripts/facebook_buffer_poster.py              # poste FB + LI (defaut)
+  python scripts/facebook_buffer_poster.py --preview    # affiche sans poster, sans consommer la file
+  python scripts/facebook_buffer_poster.py --draft      # ecrit le texte + previent, ne publie pas
   python scripts/facebook_buffer_poster.py --channels   # liste les channels
   python scripts/facebook_buffer_poster.py --fb-only    # Facebook uniquement
   python scripts/facebook_buffer_poster.py --li-only    # LinkedIn uniquement
@@ -266,11 +267,17 @@ def pick(templates: list, state: dict) -> str:
     return templates[idx]
 
 
-def pick_from_queue(queue_path: Path) -> str | None:
+def pick_from_queue(queue_path: Path, mark: bool = True) -> str | None:
     """
     Retourne le prochain post non-poste de la queue generee par generate_content_queue.py.
     Reset auto quand tous les posts ont ete envoyes.
     Retourne None si le fichier n'existe pas (fallback vers les templates hardcodes).
+
+    ⚠️ `mark=False` (brouillon / preview) : LIT sans consommer. Defaut du 11/09 au
+    14/09/2026 : le mode brouillon marquait quand meme `posted=True`. Trois articles
+    (compte en banque 12/09, recherche depuis l'etranger 13/09, assurance maladie 14/09)
+    ont ete retires de la file sans avoir jamais ete publies. Un brouillon n'ecrit
+    JAMAIS l'etat, sinon le silence acte quelque chose.
     """
     if not queue_path.exists():
         return None
@@ -281,12 +288,16 @@ def pick_from_queue(queue_path: Path) -> str | None:
             return None
         unposted = [i for i, item in enumerate(queue) if not item.get("posted")]
         if not unposted:
+            if not mark:
+                return queue[0]["text"]
             for item in queue:
                 item["posted"] = False
                 item["posted_date"] = None
             unposted = list(range(len(queue)))
         idx = unposted[0]
         text = queue[idx]["text"]
+        if not mark:
+            return text
         queue[idx]["posted"] = True
         queue[idx]["posted_date"] = datetime.date.today().isoformat()
         data["posted_count"] = sum(1 for item in queue if item.get("posted"))
@@ -339,7 +350,7 @@ def run_facebook(preview: bool = False):
     if too_recent(state) and not preview:
         print(f"[FB] Post trop recent ({state['last_post_date']}). Skip.")
         return
-    text = pick_from_queue(QUEUE_FB_FILE) or pick(FB_TEMPLATES, state)
+    text = pick_from_queue(QUEUE_FB_FILE, mark=not preview) or pick(FB_TEMPLATES, state)
     if preview:
         print(f"\n[FB PREVIEW]\n{text}\n")
         return
@@ -365,7 +376,7 @@ def run_linkedin(preview: bool = False):
     if too_recent(state) and not preview:
         print(f"[LI] Post trop recent ({state['last_post_date']}). Skip.")
         return
-    text = pick_from_queue(QUEUE_LI_FILE) or pick(LI_TEMPLATES, state)
+    text = pick_from_queue(QUEUE_LI_FILE, mark=not preview) or pick(LI_TEMPLATES, state)
     if preview:
         print(f"\n[LI PREVIEW]\n{text}\n")
         return
@@ -412,28 +423,34 @@ def _draft_notice(kind, text, state_path):
         prev = out.read_text(encoding="utf-8") if out.exists() else (
             f"# Publications sociales en attente de TA validation — {today}\n\n"
             "Rien n'a ete publie. Pour publier reellement :\n"
-            "`python scripts/facebook_buffer_poster.py --send`\n")
+            "`python scripts/facebook_buffer_poster.py`\n")
         out.write_text(prev + f"\n## {kind}\n\n```\n{text}\n```\n", encoding="utf-8")
     except Exception as e:
         print(f"[DRAFT] Ecriture impossible: {e}")
     send_telegram(
         f"✍️ <b>{kind} : 1 message a valider</b>\n<b>RIEN N'A ETE PUBLIE.</b>\n\n"
         f"<i>{text[:220]}</i>\n\nDetail : <code>{out.name}</code>\n"
-        f"Pour publier : <code>python scripts/facebook_buffer_poster.py --send</code>")
+        f"Pour publier : <code>python scripts/facebook_buffer_poster.py</code>")
 
 
 if __name__ == "__main__":
-    # ⚠️ REGLE POSEE PAR ALESSANDRO LE 11/09/2026: rien ne part en public sans
-    # qu'il l'ait valide. Ces posts alimentent Buffer, qui publie ensuite tout
-    # seul sous son nom, et la notification etait ETOUFFEE par
-    # TE_TELEGRAM_SILENT=1 dans la chaine du mercredi. Defaut = brouillon.
+    # HISTORIQUE DU MODE PAR DEFAUT
+    # 11/09/2026: passe en brouillon par defaut, dans le lot des trois automates
+    # qui agissaient au nom d'Alessandro ([[feedback_no_autonomous_outbound]]).
+    # 14/09/2026: Alessandro demande explicitement le retour a la publication
+    # automatique POUR CE SCRIPT. Difference de nature avec les deux autres:
+    # il publie SES articles sur SES pages, il n'ecrit pas a un tiers. La
+    # publication reste donc automatique, mais elle reste ANNONCEE:
+    #   - elle passe par run_daily_watch.bat, HORS de la zone TE_TELEGRAM_SILENT,
+    #     donc la notification arrive vraiment sur son telephone;
+    #   - le garde-fou too_recent (6 jours) tient la cadence a ~1 post/semaine.
+    # `email_sender.py` et `expatcom_autoposter.py` restent en brouillon: eux
+    # ecrivent a des tiers.
     args = sys.argv[1:]
     preview = "--preview" in args
-    explicit_send = "--send" in args
-    draft = not (preview or explicit_send or "--channels" in args)
+    draft = "--draft" in args
     if draft:
-        print("[GARDE-FOU] Aucun argument -> mode brouillon (aucune publication). "
-              "Utiliser --send pour publier reellement.")
+        print("[BROUILLON] --draft -> aucune publication, le texte est seulement ecrit.")
 
     def _fb():
         if draft:
@@ -441,7 +458,7 @@ if __name__ == "__main__":
             if too_recent(st):
                 print(f"[FB] Post trop recent ({st['last_post_date']}). Skip.")
                 return
-            _draft_notice("Facebook", pick_from_queue(QUEUE_FB_FILE) or pick(FB_TEMPLATES, st), FB_STATE)
+            _draft_notice("Facebook", pick_from_queue(QUEUE_FB_FILE, mark=False) or pick(FB_TEMPLATES, st), FB_STATE)
         else:
             run_facebook(preview)
 
@@ -451,7 +468,7 @@ if __name__ == "__main__":
             if too_recent(st):
                 print(f"[LI] Post trop recent ({st['last_post_date']}). Skip.")
                 return
-            _draft_notice("LinkedIn", pick_from_queue(QUEUE_LI_FILE) or pick(LI_TEMPLATES, st), LI_STATE)
+            _draft_notice("LinkedIn", pick_from_queue(QUEUE_LI_FILE, mark=False) or pick(LI_TEMPLATES, st), LI_STATE)
         else:
             run_linkedin(preview)
 
