@@ -1166,7 +1166,7 @@ export const faqData: Record<string, FaqItem[]> = {
   'student-housing-tokyo-guide': [
     {
       question: 'What are the housing options for international students in Tokyo?',
-      answer: 'International students in Tokyo typically choose between: university dormitories (cheapest, 20,000-50,000 JPY/month, limited availability), share houses targeting students (50,000-75,000 JPY/month all-in), gaijin houses (the cheapest option, 35,000-55,000 JPY/month, often older facilities), and private furnished apartments (80,000+ JPY/month, most private).',
+      answer: 'International students in Tokyo typically choose between: university dormitories (cheapest at 30,000-60,000 JPY/month all-in, limited availability), share houses (40,000-90,000 JPY/month all-in, no guarantor), private student residences (no Japanese guarantor, short-stay plans with no deposit or key money), and independent furnished apartments (from about 100,000 JPY/month, most private).',
     },
     {
       question: 'Can international students rent a private apartment in Tokyo?',
@@ -1178,7 +1178,7 @@ export const faqData: Record<string, FaqItem[]> = {
     },
     {
       question: 'What is the cheapest housing option for students in Tokyo?',
-      answer: 'Gaijin houses (also called foreigner-friendly houses) are the cheapest option at 35,000-55,000 JPY/month, often including utilities and internet. They are older, sometimes with shared bathrooms, but located near student neighborhoods like Waseda, Shinjuku, or Nakano. Quality varies significantly: read recent reviews before booking.',
+      answer: 'University dormitories are the cheapest option at 30,000-60,000 JPY/month all-in, but places are limited and must be requested early. Share houses come next at 40,000-90,000 JPY/month, often with utilities and internet included, in student neighborhoods like Waseda, Shinjuku, or Nakano. Quality varies significantly: read recent reviews before booking.',
     },
   ],
 
@@ -1232,7 +1232,7 @@ export const faqData: Record<string, FaqItem[]> = {
   'japan-sim-card-foreigners-2026': [
     {
       question: 'What is the best SIM card for foreigners living in Japan?',
-      answer: 'For long-term residents, the best options are: IIJmio (reliable, affordable at 2,000-3,000 JPY/month), Y! Mobile (Softbank network, English support, 2,000-4,000 JPY/month), and Rakuten Mobile (cheapest unlimited data at 3,278 JPY/month). All require a residence card and Japanese bank account or credit card. Avoid tourist SIMs for stays over 3 months.',
+      answer: 'For long-term residents, the best options are: IIJmio (reliable, affordable at 2,000-3,000 JPY/month), Y! Mobile (Softbank network, English support, 2,000-4,000 JPY/month), ahamo (20 GB at 2,970 JPY/month) and LINEMO (20 GB at 2,728 JPY/month, or 3 GB at 990 JPY). All require a residence card and Japanese bank account or credit card. Avoid tourist SIMs for stays over 3 months.',
     },
     {
       question: 'Can foreigners get a SIM card in Japan without a residence card?',
@@ -1280,7 +1280,7 @@ export const faqData: Record<string, FaqItem[]> = {
     },
     {
       question: 'Is Osaka cheaper than Tokyo for rent?',
-      answer: 'Yes. A furnished studio in central Osaka costs 60,000-100,000 JPY/month versus 80,000-150,000 JPY in central Tokyo. Restaurants and daily expenses are also 10-20% cheaper in Osaka. The cost difference is significant for those not on a Tokyo-level salary package.',
+      answer: 'Yes, substantially. A central 1LDK in Osaka (Namba, Shinsaibashi, Umeda) runs 70,000-120,000 JPY/month, against a median of about 235,000 JPY/month for the same layout across Tokyo\'s five central wards. Restaurants and daily expenses are also 10-20% cheaper in Osaka. The cost difference is significant for those not on a Tokyo-level salary package.',
     },
     {
       question: 'Which city has better job opportunities for foreigners: Tokyo or Osaka?',
@@ -1302,7 +1302,7 @@ export const faqData: Record<string, FaqItem[]> = {
     },
     {
       question: 'Are gaijin houses still available in Tokyo?',
-      answer: 'Yes, though the term is less common. What remains of traditional gaijin houses offers the cheapest accommodation in Tokyo at 35,000-55,000 JPY/month. They typically have older buildings, shared bathrooms, and basic kitchens. Search for "foreigner-friendly houses" or "guest house Tokyo" to find this category.',
+      answer: 'Yes, though the term is less common. What remains of traditional gaijin houses sits at the bottom of a market that runs from about 40,000 JPY/month for budget rooms to 90,000 JPY/month for premium share houses. They typically have older buildings, shared bathrooms, and basic kitchens. Search for "foreigner-friendly houses" or "guest house Tokyo" to find this category.',
     },
     {
       question: 'Is a gaijin house or share house better for meeting people in Tokyo?',
@@ -1310,7 +1310,7 @@ export const faqData: Record<string, FaqItem[]> = {
     },
     {
       question: 'How much cheaper is a gaijin house versus a share house in Tokyo?',
-      answer: 'Gaijin houses are typically 15,000-25,000 JPY/month cheaper than comparable share houses. A gaijin house shared room runs 35,000-50,000 JPY/month versus a share house private room at 55,000-80,000 JPY/month. The trade-off is older facilities, shared bathrooms, and less privacy.',
+      answer: 'Both sit on the same scale, which runs from about 40,000 JPY/month for budget rooms to 90,000 JPY/month for premium share houses with gym access, designer interiors or concierge services. Gaijin houses cluster at the bottom of that range and share houses across the middle and top. What you save is paid for in older facilities, shared bathrooms and less privacy, not in a worse location.',
     },
   ],
 
@@ -1408,7 +1408,7 @@ export const faqData: Record<string, FaqItem[]> = {
   'renters-insurance-japan-guide': [
     {
       question: 'Is renters insurance required in Japan?',
-      answer: 'Yes, renters insurance (kasai hoken or kaketsuke hoken) is mandatory in virtually all Japanese rental contracts. Landlords require it to protect against fire, water damage to neighbors, and liability. The cost is very low: typically 10,000-20,000 JPY for a 2-year policy.',
+      answer: 'Yes, renters insurance (kasai hoken or kaketsuke hoken) is mandatory in virtually all Japanese rental contracts. Landlords require it to protect against fire, water damage to neighbors, and liability. The cost is very low: typically 15,000-20,000 JPY for a 2-year policy.',
     },
     {
       question: 'What does renters insurance cover in Japan?',
@@ -1588,7 +1588,7 @@ export const faqData: Record<string, FaqItem[]> = {
     },
     {
       question: 'How much do Japanese language schools cost in Tokyo?',
-      answer: 'Group classes at reputable Tokyo language schools cost 15,000-30,000 JPY/month for 4 lessons/week. Private tutoring runs 3,000-8,000 JPY/hour. Intensive programs (20+ hours/week) cost 100,000-200,000 JPY/semester. Online platforms like Preply or iTalki offer budget alternatives at 1,500-4,000 JPY/hour with native speakers.',
+      answer: 'Group classes at reputable Tokyo language schools cost 15,000-30,000 JPY/month depending on intensity. Private lessons run approximately 4,000-5,000 JPY/hour. Online platforms are the budget alternative, with native teachers from around 10 USD/hour.',
     },
     {
       question: 'Do I need to enroll in a language school to get a student visa for Japan?',
@@ -1939,7 +1939,7 @@ export const faqData: Record<string, FaqItem[]> = {
   'logement-etudiant-tokyo-guide': [
     {
       question: 'Quelles sont les options de logement pour les etudiants etrangers a Tokyo?',
-      answer: 'Les etudiants etrangers a Tokyo choisissent generalement entre: les residences universitaires (les moins cheres, 20 000-50 000 JPY/mois, places limitees), les share houses pour etudiants (50 000-75 000 JPY/mois tout inclus), les gaijin houses (l\'option la moins chere, 35 000-55 000 JPY/mois, souvent plus anciennes) et les appartements prives meubles (80 000+ JPY/mois, plus d\'intimite).',
+      answer: 'Les etudiants etrangers a Tokyo choisissent generalement entre: les residences universitaires (les moins cheres, 30 000-60 000 JPY/mois tout compris, places limitees), les share houses (40 000-90 000 JPY/mois tout inclus, sans garant), les residences etudiantes privees (sans garant japonais, formules courtes sans caution ni argent-cle) et les appartements meubles independants (a partir d\'environ 100 000 JPY/mois, plus d\'intimite).',
     },
     {
       question: 'Les etudiants etrangers peuvent-ils louer un appartement prive a Tokyo?',
@@ -1951,7 +1951,7 @@ export const faqData: Record<string, FaqItem[]> = {
     },
     {
       question: 'Quelle est l\'option de logement la moins chere pour les etudiants a Tokyo?',
-      answer: 'Les gaijin houses sont l\'option la moins chere a 35 000-55 000 JPY/mois, souvent avec les charges et internet inclus. Elles sont plus anciennes, parfois avec des salles de bain communes, mais situees dans des quartiers etudiants comme Waseda, Shinjuku ou Nakano. La qualite varie: lisez les avis recents avant de reserver.',
+      answer: 'La residence universitaire est l\'option la moins chere a 30 000-60 000 JPY/mois tout compris, mais les places sont rares et a demander tot. Vient ensuite le share house a 40 000-90 000 JPY/mois, souvent avec les charges et internet inclus, dans des quartiers etudiants comme Waseda, Shinjuku ou Nakano. La qualite varie: lisez les avis recents avant de reserver.',
     },
   ],
 

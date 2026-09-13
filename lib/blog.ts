@@ -3516,7 +3516,7 @@ Pour les expatries sans couverture interim, [SafetyWing Nomad Insurance](https:/
     content: `
 When you sign a lease in Japan, you'll quickly notice a clause requiring renter's insurance. This is not a suggestion: in the vast majority of Japanese rental contracts, taking out fire insurance (火災保険, kasai hoken) is a condition of signing. Here's everything you need to know to choose the right coverage and avoid the common traps.
 
-**Quick answer:** Renter's (fire) insurance, kasai hoken, is almost always mandatory to sign a lease in Japan. It is cheap, often 15,000 to 20,000 JPY for two years, and covers fire, water damage and personal liability. You can usually pick your own insurer instead of the agency's default, which is often cheaper.
+**Quick answer:** Renter's (fire) insurance, kasai hoken, is almost always mandatory to sign a lease in Japan. It is cheap, often 15,000 to 20,000 JPY for two years, and covers fire, water damage and personal liability. An earthquake rider (jishin hoken) is sold separately and typically adds 5,000 to 15,000 JPY per year. You can usually pick your own insurer instead of the agency's default, which is often cheaper.
 
 ## Why renter's insurance is mandatory in Japan
 
@@ -3597,7 +3597,7 @@ For expats without interim health coverage, [SafetyWing Nomad Insurance](https:/
     content: `
 Tokyo attire chaque année des milliers d'étudiants étrangers, notamment des francophones venus de France, de Belgique, du Canada ou de Suisse pour des échanges universitaires, des masters ou des programmes de langue. Trouver un logement satisfaisant dans une ville aussi dense peut sembler intimidant. Ce guide couvre toutes les options disponibles en 2026, avec les budgets réels et les calendriers à respecter.
 
-**Réponse rapide :** Un étudiant à Tokyo dispose de quatre options : la résidence universitaire (学生寮) à 30 000-60 000 JPY/mois tout compris, mais les places sont rares et à demander tôt ; le share house (45 000-90 000 JPY/mois, sans garant) ; la résidence étudiante privée (sans garant japonais, avec des formules courtes sans caution ni argent-clé) ; et l'appartement meublé. Candidater depuis l'étranger est plus simple qu'une fois arrivé au Japon.
+**Réponse rapide :** Un étudiant à Tokyo dispose de quatre options : la résidence universitaire (学生寮) à 30 000-60 000 JPY/mois tout compris, mais les places sont rares et à demander tôt ; le share house (40 000-90 000 JPY/mois, sans garant) ; la résidence étudiante privée (sans garant japonais, avec des formules courtes sans caution ni argent-clé) ; et l'appartement meublé (à partir d'environ 100 000 JPY/mois). Candidater depuis l'étranger est plus simple qu'une fois arrivé au Japon.
 
 ## Les résidences universitaires (学生寮 gakusei ryou)
 
@@ -3730,7 +3730,7 @@ Pour votre couverture sante pendant vos etudes au Japon, [SafetyWing Nomad Insur
     content: `
 Tokyo attracts thousands of international students each year for university exchanges, master's programs, or language courses. Finding the right housing in one of the world's most densely populated cities can feel overwhelming. This guide covers every realistic option available in 2026, with real budgets and the timelines you need to respect.
 
-**Quick answer:** International students in Tokyo have four realistic options: university dormitories (cheapest, limited spots, apply early), share houses (40,000 to 80,000 JPY, no guarantor), private student residences (no Japanese guarantor, and short-stay plans with no deposit or key money), and independent furnished apartments. Most accept applications from abroad, and applying before you land is easier than applying once you are already in Japan.
+**Quick answer:** International students in Tokyo have four realistic options: university dormitories (cheapest at 30,000 to 60,000 JPY/month all-in, limited spots, apply early), share houses (40,000 to 90,000 JPY, no guarantor), private student residences (no Japanese guarantor, and short-stay plans with no deposit or key money), and independent furnished apartments (from about 100,000 JPY/month). Most accept applications from abroad, and applying before you land is easier than applying once you are already in Japan.
 
 ## University dormitories (学生寮 gakusei ryou)
 
@@ -7230,7 +7230,7 @@ Osaka is generally 15 to 25% cheaper than Tokyo on housing. Food is cheaper but 
 
 ## Housing: Osaka More Accessible
 
-For a central 1LDK apartment (Namba, Shinsaibashi, Umeda), expect 70,000 to 120,000 ¥/month. The equivalent in Shibuya or Shinjuku in Tokyo runs 100,000 to 160,000 ¥/month.
+For a central 1LDK apartment (Namba, Shinsaibashi, Umeda), expect 70,000 to 120,000 ¥/month. The same layout across Tokyo's five central wards has a median advertised rent of about 235,000 ¥/month, so the gap is not marginal. The equivalent in Shibuya or Shinjuku in Tokyo runs 100,000 to 160,000 ¥/month.
 
 Osaka also has excellent residential suburbs 30 to 45 minutes from the centre (Toyonaka, Suita, Nishinomiya) where rents drop further.
 
