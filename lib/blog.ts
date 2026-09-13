@@ -3592,12 +3592,12 @@ For expats without interim health coverage, [SafetyWing Nomad Insurance](https:/
     title: 'Logement étudiant à Tokyo : guide complet pour francophones',
     description: 'Trouver un logement étudiant à Tokyo : dortoirs universitaires, share houses, résidences étudiantes privées sans garant japonais et candidature depuis son pays.',
     date: '2026-06-20',
-    updated: '2026-09-03',
-    readingTime: '8 min',
+    updated: '2026-09-14',
+    readingTime: '10 min',
     content: `
 Tokyo attire chaque année des milliers d'étudiants étrangers, notamment des francophones venus de France, de Belgique, du Canada ou de Suisse pour des échanges universitaires, des masters ou des programmes de langue. Trouver un logement satisfaisant dans une ville aussi dense peut sembler intimidant. Ce guide couvre toutes les options disponibles en 2026, avec les budgets réels et les calendriers à respecter.
 
-**Réponse rapide :** Un étudiant à Tokyo dispose de quatre options : la résidence universitaire (学生寮) à 30 000-60 000 JPY/mois tout compris, mais les places sont rares et à demander tôt ; le share house (40 000-90 000 JPY/mois, sans garant) ; la résidence étudiante privée (sans garant japonais, avec des formules courtes sans caution ni argent-clé) ; et l'appartement meublé (à partir d'environ 100 000 JPY/mois). Candidater depuis l'étranger est plus simple qu'une fois arrivé au Japon.
+**Réponse rapide :** Un étudiant à Tokyo dispose de quatre options : la résidence universitaire (学生寮) à 30 000-60 000 JPY/mois tout compris, mais les places sont rares et à demander tôt ; le share house (40 000-90 000 JPY/mois, sans garant) ; la résidence étudiante privée (sans garant japonais, avec des formules courtes sans caution ni argent-clé) ; et l'appartement meublé (65 000 à 130 000 JPY/mois selon le quartier). Candidater depuis l'étranger est plus simple qu'une fois arrivé au Japon.
 
 ## Les résidences universitaires (学生寮 gakusei ryou)
 
@@ -3673,17 +3673,33 @@ Les contreparties sont réelles. Une personne par chambre, il faut être inscrit
 
 Face à une [share house](/fr/blog/share-house-tokyo-guide-complet), vous gagnez une chambre à vous et un coût mensuel tout compris prévisible. Face à un bail classique, vous évitez les frais d'entrée qui engloutissent d'ordinaire trois à cinq mois de loyer avant même la remise des clés.
 
+## Comparatif des quatre formules
+
+| Formule | Loyer mensuel | Frais d'entrée | Garant japonais |
+|---|---|---|---|
+| Résidence universitaire | 30 000 - 60 000 JPY tout compris | Variable, fixés par l'université | Non |
+| Share house | 40 000 - 90 000 JPY | 1 à 2 mois (caution seulement) | Non |
+| Résidence étudiante privée | Selon l'opérateur, charges et Wi-Fi inclus | Formule courte : ni caution, ni argent-clé, ni frais d'agence (ménage ~22 000 JPY) | Non, société de garantie |
+| Appartement meublé | 65 000 - 130 000 JPY | 1 à 2 mois de caution + 0,5 mois de garantie | Non |
+| Appartement standard | 80 000 - 130 000 JPY | 4 à 6 mois | Oui |
+
+Pour un budget logement étudiant classique de 60 000 à 90 000 JPY par mois, le share house et la résidence étudiante privée sont les deux formules qui tiennent sans compromis sur l'emplacement.
+
 ## Quartiers étudiants à Tokyo
 
 Le choix du quartier dépend de votre université, mais voici les zones les plus prisées pour les étudiants :
 
-**Bunkyo-ku (文京区)** : quartier universitaire par excellence. Abrite l'Université de Tokyo (Todai), Tokyo University of Science et plusieurs autres. Calme, bien connecté, nombreux logements étudiants.
+**Bunkyo-ku (文京区)** : quartier universitaire par excellence. Abrite l'Université de Tokyo (Todai), Tokyo University of Science et plusieurs autres. Calme, bien connecté, nombreux logements étudiants. Le secteur Hongo / Nezu est le plus demandé.
 
-**Shinjuku-ku (新宿区)** : central, nombreuses lignes de métro, proche de Waseda University et du campus de Yotsuya de Sophia University. Plus animé, légèrement plus cher.
+**Shinjuku-ku (新宿区)** : central, nombreuses lignes de métro, proche de Waseda University et du campus de Yotsuya de Sophia University. Plus animé, légèrement plus cher. Autour de Waseda et Takadanobaba, beaucoup de share houses étudiants entre 55 000 et 75 000 JPY.
 
 **Koenji / Nakano (高円寺・中野)** : populaires parmi les étudiants pour le bon rapport qualité-prix. Bien desservi par la Chuo Line. Ambiance alternative et artistique.
 
+**Ikebukuro (Toshima-ku)** : bien connecté à plusieurs universités, large offre de share houses entre 50 000 et 80 000 JPY.
+
 **Eviter :** Minato, Shibuya et Roppongi pour un budget étudiant. Le loyer est 30 à 50 % plus élevé pour une qualité de vie similaire.
+
+**La règle qui vaut plus que le nom du quartier :** habitez à moins de 30 minutes de votre campus. Les transports tokyoïtes sont fiables, mais un trajet de plus de 45 minutes deux fois par jour finit par peser sur un semestre entier.
 
 ## Aides financières disponibles
 
@@ -3710,11 +3726,27 @@ La gestion du temps est cruciale pour le logement étudiant à Tokyo :
 
 Commencer tôt est important. Les meilleures chambres dans les share houses prisés partent plusieurs semaines à l'avance, notamment pour les rentrées de septembre et d'avril.
 
+## Les erreurs les plus fréquentes chez les étudiants
+
+**Attendre le visa pour commencer à chercher.** C'est l'erreur la plus coûteuse, et la plus répandue. La majorité des opérateurs acceptent un dossier avant la délivrance du visa, et les résidences étudiantes privées n'exigent même pas de contact d'urgence japonais tant que vous candidatez depuis l'étranger. Attendre, c'est perdre deux mois sur un calendrier déjà serré.
+
+**Ignorer la clause de résiliation anticipée.** Si vous rentrez avant la fin du contrat, vous pouvez devoir un à deux mois de pénalités, et certaines résidences appliquent un forfait d'environ 30 000 JPY. Lisez cette clause avant de signer, et demandez une sortie à 30 jours de préavis quand l'opérateur le permet.
+
+**Sous-estimer le budget transport.** Un abonnement mensuel de train entre votre logement et votre campus coûte souvent 10 000 à 20 000 JPY. Ajoutez-le au loyer avant de conclure qu'un quartier éloigné est "moins cher" : l'écart fond souvent entièrement.
+
+**Ne pas vérifier que l'opérateur accepte les visas étudiants.** Certains share houses n'acceptent que les visas de travail, et certaines résidences exigent une inscription dans un établissement. Confirmez ce point avant d'envoyer votre dossier plutôt qu'après.
+
+## Ce que propose notre service pour les étudiants
+
+Nous avons une ligne directe avec des opérateurs de logement qui acceptent les étudiants internationaux : share houses ouverts aux visas étudiants, résidences étudiantes privées sans garant japonais, et appartements meublés à contrat souple, à distance raisonnable des campus des grandes universités tokyoïtes.
+
+Une consultation de 30 minutes suffit pour identifier ce qui est réellement disponible à votre date d'arrivée, dans votre budget et près de votre université. Les disponibilités sont confirmées auprès de l'opérateur avant de vous être envoyées.
+
 
 Pour votre couverture sante pendant vos etudes au Japon, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) propose une assurance mensuelle sans engagement, populaire aupres des etudiants en attente de l'assurance nationale. Pour progresser en japonais, [iTalki](https://www.italki.com/affshare?ref=af32660342) propose des cours avec des professeurs natifs a partir de 10$/heure. *(liens affilies)*
 ---
 
-*À lire aussi : [Logement étudiant à Tokyo : share house, dortoir ou appart ? (2026)](/blog/logement-etudiant-tokyo-2026), [Logement étudiant à Tokyo pour octobre : share house ou dortoir ?](/blog/logement-etudiant-tokyo-octobre).*
+*À lire aussi : [Logement étudiant à Tokyo pour octobre : share house ou dortoir ?](/blog/logement-etudiant-tokyo-octobre), [Share house à Tokyo : le guide complet](/blog/share-house-tokyo-guide-complet).*
 
 *Vous préparez un séjour d'études à Tokyo et vous cherchez un logement accessible dès votre arrivée ? Contactez-nous pour une [consultation gratuite](/fr/contact) et on vous aide à trouver la bonne option selon votre budget et votre visa.*
     `.trim(),
@@ -3725,12 +3757,12 @@ Pour votre couverture sante pendant vos etudes au Japon, [SafetyWing Nomad Insur
     title: 'Student Housing Tokyo 2026: Complete Guide for International Students',
     description: 'How to find student housing in Tokyo: university dorms, share houses and private student residences with no Japanese guarantor, and how to apply from overseas.',
     date: '2026-06-20',
-    updated: '2026-09-03',
-    readingTime: '8 min',
+    updated: '2026-09-14',
+    readingTime: '10 min',
     content: `
 Tokyo attracts thousands of international students each year for university exchanges, master's programs, or language courses. Finding the right housing in one of the world's most densely populated cities can feel overwhelming. This guide covers every realistic option available in 2026, with real budgets and the timelines you need to respect.
 
-**Quick answer:** International students in Tokyo have four realistic options: university dormitories (cheapest at 30,000 to 60,000 JPY/month all-in, limited spots, apply early), share houses (40,000 to 90,000 JPY, no guarantor), private student residences (no Japanese guarantor, and short-stay plans with no deposit or key money), and independent furnished apartments (from about 100,000 JPY/month). Most accept applications from abroad, and applying before you land is easier than applying once you are already in Japan.
+**Quick answer:** International students in Tokyo have four realistic options: university dormitories (cheapest at 30,000 to 60,000 JPY/month all-in, limited spots, apply early), share houses (40,000 to 90,000 JPY, no guarantor), private student residences (no Japanese guarantor, and short-stay plans with no deposit or key money), and independent furnished apartments (65,000 to 130,000 JPY/month depending on the neighbourhood). Most accept applications from abroad, and applying before you land is easier than applying once you are already in Japan.
 
 ## University dormitories (学生寮 gakusei ryou)
 
@@ -3806,17 +3838,33 @@ The trade-offs are real. One person per room, you must be currently enrolled, an
 
 Set against a [share house](/en/blog/share-house-tokyo-guide-2026), you get your own room and a predictable all-in monthly figure. Set against a private lease, you skip the move-in costs that normally swallow three to five months of rent before you have even received the keys.
 
+## The four options compared
+
+| Option | Monthly rent | Move-in costs | Japanese guarantor |
+|---|---|---|---|
+| University dormitory | 30,000 - 60,000 JPY all-in | Variable, set by the university | No |
+| Share house | 40,000 - 90,000 JPY | 1 to 2 months (deposit only) | No |
+| Private student residence | Operator-dependent, utilities and Wi-Fi included | Short-stay plan: no deposit, no key money, no agency fee (cleaning ~22,000 JPY) | No, guarantee company |
+| Furnished apartment | 65,000 - 130,000 JPY | 1 to 2 months deposit + 0.5 month guarantee fee | No |
+| Standard apartment | 80,000 - 130,000 JPY | 4 to 6 months | Yes |
+
+On a typical student housing budget of 60,000 to 90,000 JPY per month, share houses and private student residences are the two formats that work without compromising on location.
+
 ## Best student neighborhoods in Tokyo
 
 The right neighborhood depends on your university, but here are the most popular areas for students:
 
-**Bunkyo-ku (文京区):** the quintessential university district. Home to the University of Tokyo (Todai), Tokyo University of Science, and others. Quiet, well-connected, many student housing options.
+**Bunkyo-ku (文京区):** the quintessential university district. Home to the University of Tokyo (Todai), Tokyo University of Science, and others. Quiet, well-connected, many student housing options. The Hongo and Nezu pocket is the most sought after.
 
-**Shinjuku-ku (新宿区):** central, multiple subway lines, close to Waseda University and Sophia University's Yotsuya campus. More lively, slightly pricier.
+**Shinjuku-ku (新宿区):** central, multiple subway lines, close to Waseda University and Sophia University's Yotsuya campus. More lively, slightly pricier. Around Waseda and Takadanobaba there is a deep supply of student share houses at 55,000 to 75,000 JPY.
 
 **Koenji / Nakano (高円寺・中野):** popular among students for good value for money. Well-served by the Chuo Line. Alternative, artistic atmosphere.
 
+**Ikebukuro (Toshima-ku):** well connected to several universities, large share house supply at 50,000 to 80,000 JPY.
+
 **Avoid for a student budget:** Minato, Shibuya, and Roppongi. Rent is 30 to 50% higher for similar living quality.
+
+**The rule that matters more than the ward name:** live within 30 minutes of your campus. Tokyo's trains are reliable, but a 45-minute-plus commute twice a day wears you down over a full semester.
 
 ## Financial aid available for international students
 
@@ -3843,11 +3891,27 @@ Time management is critical for student housing in Tokyo:
 
 Starting early matters. The best rooms in popular share houses go weeks in advance, especially for September and April intakes.
 
+## The most common student mistakes
+
+**Waiting for the visa before starting the search.** This is the most expensive mistake and the most common one. Most operators accept a file before the visa is issued, and private student residences do not even require a Japanese emergency contact as long as you apply from abroad. Waiting costs you two months on an already tight calendar.
+
+**Ignoring the early termination clause.** If you go home before the contract ends, you may owe one to two months in penalties, and some residences charge a flat fee of around 30,000 JPY. Read that clause before signing, and ask for a 30-day notice exit where the operator allows it.
+
+**Underestimating the transport budget.** A monthly train pass between your housing and your campus often costs 10,000 to 20,000 JPY. Add it to the rent before concluding that a distant neighbourhood is "cheaper": the gap frequently disappears entirely.
+
+**Not confirming the operator accepts student visas.** Some share houses only take work visas, and some residences require current enrolment. Confirm this before sending your file rather than after.
+
+## How our service helps students
+
+We hold a direct line to housing operators who take international students: share houses open to student visas, private student residences with no Japanese guarantor, and furnished apartments on flexible contracts, within a sensible commute of the major Tokyo campuses.
+
+A 30-minute consultation is enough to identify what is genuinely available on your arrival date, within your budget and near your university. Availability is confirmed with the operator before anything is sent to you.
+
 
 For health coverage during your studies in Japan, [SafetyWing Nomad Insurance](https://safetywing.com/nomad-insurance/?referenceID=26551332&utm_source=26551332&utm_medium=Ambassador) offers monthly insurance with no commitment, popular among students before enrolling in national insurance. To improve your Japanese, [iTalki](https://www.italki.com/affshare?ref=af32660342) offers lessons with native teachers from $10/hour. *(affiliate links)*
 ---
 
-*See also: [Student Housing in Tokyo: Share House vs University Dorm (2026 Guide)](/blog/student-housing-tokyo-guide-2026), [Student Housing in Tokyo for October Intake: Share House vs University Dorm](/blog/student-housing-tokyo-october).*
+*See also: [Student Housing in Tokyo for October Intake: Share House vs University Dorm](/blog/student-housing-tokyo-october), [Share House in Tokyo: the complete guide](/blog/share-house-tokyo-guide-2026).*
 
 *Preparing a study stay in Tokyo and need housing sorted before you arrive? [Get in touch for a free consultation](/en/contact), we'll help you find the right option for your budget and visa type.*
     `.trim(),
