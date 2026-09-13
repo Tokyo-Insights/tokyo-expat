@@ -1166,7 +1166,7 @@ export const faqData: Record<string, FaqItem[]> = {
   'student-housing-tokyo-guide': [
     {
       question: 'What are the housing options for international students in Tokyo?',
-      answer: 'International students in Tokyo typically choose between: university dormitories (cheapest at 30,000-60,000 JPY/month all-in, limited availability), share houses (40,000-90,000 JPY/month all-in, no guarantor), private student residences (no Japanese guarantor, short-stay plans with no deposit or key money), and independent furnished apartments (from about 100,000 JPY/month, most private).',
+      answer: 'International students in Tokyo typically choose between: university dormitories (cheapest at 30,000-60,000 JPY/month all-in, limited availability), share houses (40,000-90,000 JPY/month all-in, no guarantor), private student residences (no Japanese guarantor, short-stay plans with no deposit or key money), and independent furnished apartments (65,000-130,000 JPY/month depending on the neighbourhood, most private).',
     },
     {
       question: 'Can international students rent a private apartment in Tokyo?',
@@ -1174,7 +1174,7 @@ export const faqData: Record<string, FaqItem[]> = {
     },
     {
       question: 'How far in advance should international students look for housing in Tokyo?',
-      answer: 'For April enrollment (spring semester), start looking in December-January. For October enrollment, start in July-August. University dormitories require application 3-6 months before the start of term. Share houses and private apartments can be arranged 1-2 months in advance.',
+      answer: 'For April enrollment (spring semester), start in September or October of the previous year: that is when student residence rooms open, and by late January there is almost nothing left. December-January is already late. For October enrollment, start in July-August. University dormitories require application 3-6 months before the start of term, through your university. Share houses can be arranged 1-2 months in advance, but the best rooms go earlier.',
     },
     {
       question: 'What is the cheapest housing option for students in Tokyo?',
@@ -1918,7 +1918,7 @@ export const faqData: Record<string, FaqItem[]> = {
   'logement-etudiant-tokyo-guide': [
     {
       question: 'Quelles sont les options de logement pour les etudiants etrangers a Tokyo?',
-      answer: 'Les etudiants etrangers a Tokyo choisissent generalement entre: les residences universitaires (les moins cheres, 30 000-60 000 JPY/mois tout compris, places limitees), les share houses (40 000-90 000 JPY/mois tout inclus, sans garant), les residences etudiantes privees (sans garant japonais, formules courtes sans caution ni argent-cle) et les appartements meubles independants (a partir d\'environ 100 000 JPY/mois, plus d\'intimite).',
+      answer: 'Les etudiants etrangers a Tokyo choisissent generalement entre: les residences universitaires (les moins cheres, 30 000-60 000 JPY/mois tout compris, places limitees), les share houses (40 000-90 000 JPY/mois tout inclus, sans garant), les residences etudiantes privees (sans garant japonais, formules courtes sans caution ni argent-cle) et les appartements meubles independants (65 000-130 000 JPY/mois selon le quartier, plus d\'intimite).',
     },
     {
       question: 'Les etudiants etrangers peuvent-ils louer un appartement prive a Tokyo?',
@@ -1926,7 +1926,7 @@ export const faqData: Record<string, FaqItem[]> = {
     },
     {
       question: 'Combien de temps a l\'avance les etudiants etrangers doivent-ils chercher un logement a Tokyo?',
-      answer: 'Pour l\'inscription d\'avril (semestre de printemps), commencez a chercher en decembre-janvier. Pour l\'inscription d\'octobre, commencez en juillet-aout. Les residences universitaires necessitent une demande 3 a 6 mois avant la rentree. Les share houses et appartements prives peuvent etre organises 1 a 2 mois a l\'avance.',
+      answer: 'Pour l\'inscription d\'avril (semestre de printemps), commencez des septembre-octobre de l\'annee precedente: c\'est la que les chambres de residences etudiantes se liberent, et fin janvier il ne reste presque plus rien. Decembre-janvier, c\'est deja tard. Pour l\'inscription d\'octobre, commencez en juillet-aout. Les residences universitaires necessitent une demande 3 a 6 mois avant la rentree, via votre universite. Les share houses peuvent etre organises 1 a 2 mois a l\'avance, mais les meilleures chambres partent plus tot.',
     },
     {
       question: 'Quelle est l\'option de logement la moins chere pour les etudiants a Tokyo?',
