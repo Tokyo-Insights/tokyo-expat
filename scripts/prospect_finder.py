@@ -82,10 +82,19 @@ SEGMENTS = {
 
 # Un prescripteur qui LOGE lui-meme est un concurrent, pas un partenaire.
 # Test memorise: "propose-t-il du logement a des etrangers au Japon ?" OUI = concurrent.
+#
+# ⚠️ 14/09/2026: la version precedente contenait `vacanc` et `listings` tout seuls. Or un
+# annuaire dit "listings" pour ses fiches et "vacancies" pour ses offres d'emploi. Teste
+# sur internationalschools.net, LE partenariat qui marche: verdict CONCURRENT, sur ces deux
+# mots exactement. Le filtre rejetait donc le profil meme qui a converti. Un mot de metier
+# generique ne peut pas servir de preuve: chaque motif doit maintenant porter le LOGEMENT.
 CONCURRENT = re.compile(
     r"share\s?house|guest\s?house|gaijin\s?house|serviced apartment|monthly mansion|"
-    r"our (rooms|properties|apartments)|book a room|vacanc|listings|"
-    r"apartment (search|hunting|finder)|find(ing)? (you )?an apartment", re.I)
+    r"our (rooms|properties|apartments)|book a room|"
+    r"(rental|property|apartment|housing|accommodation) listings|"
+    r"(apartments?|rooms?|houses?) for rent|"
+    r"apartment (search|hunting|finder)|find(ing)? (you )?an apartment|"
+    r"(find|arrange|secure) (your )?(accommodation|housing)", re.I)
 JAPON = re.compile(r"japan|tokyo|osaka|kyoto|yokohama|nippon|日本|東京", re.I)
 
 EMAIL = re.compile(r"[A-Za-z0-9._%+\-]+@[A-Za-z0-9.\-]+\.[A-Za-z]{2,}")
@@ -95,6 +104,20 @@ EMAIL_POUBELLE = re.compile(
     r"privacy|dpo|unsubscribe)@|\.(png|jpg|jpeg|gif|webp|svg|css|js)$", re.I)
 PAGES_CONTACT = ["/contact", "/contact-us", "/en/contact", "/about/contact", "/contactez-nous",
                  "/お問い合わせ", "/inquiry"]
+
+
+def sans_www(domaine: str) -> str:
+    """Retire le prefixe www., et RIEN d'autre.
+
+    ⚠️ 14/09/2026: le code utilisait `.lstrip("www.")`, qui ne retire pas un prefixe mais
+    tous les caracteres de l'ensemble {w, .} en tete. `world-schools.com` devenait donc
+    `orld-schools.com`, et `wise.com` devenait `ise.com`. Consequence reelle: un domaine
+    deja dans la base et commencant par w n'etait plus reconnu, donc l'outil pouvait
+    proposer de re-demarcher quelqu'un de deja engage. C'est exactement le risque que le
+    croisement des deux registres est cense supprimer.
+    """
+    d = (domaine or "").strip().lower()
+    return d[4:] if d.startswith("www.") else d
 
 
 def charger_base():
@@ -117,7 +140,7 @@ def contacts_radar():
         for nom, emails in re.findall(r'"nom":\s*"([^"]+)".*?"emails":\s*\[([^\]]+)\]',
                                       bloc, re.S):
             for e in re.findall(r'"([^"]+)"', emails):
-                dom = e.split("@")[-1].lower().lstrip("www.")
+                dom = sans_www(e.split("@")[-1])
                 out[dom] = nom
     except Exception:
         pass
@@ -125,12 +148,12 @@ def contacts_radar():
 
 
 def domaines_connus(base):
-    return {(c.get("domain") or "").lower().lstrip("www.") for c in base if isinstance(c, dict)}
+    return {sans_www(c.get("domain") or "") for c in base if isinstance(c, dict)}
 
 
 def statut_connu(base, radar, domaine):
     for c in base:
-        if isinstance(c, dict) and (c.get("domain") or "").lower().lstrip("www.") == domaine:
+        if isinstance(c, dict) and sans_www(c.get("domain") or "") == domaine:
             return c.get("status")
     if domaine in radar:
         return f"fil suivi par le radar ({radar[domaine]})"
@@ -148,7 +171,7 @@ def recuperer(url):
 def scanner(domaine, base, radar):
     """Retourne un dict de qualification pour un domaine."""
     # ﻿: un fichier enregistre en UTF-8 avec BOM colle la marque au 1er domaine.
-    domaine = domaine.strip().lstrip("﻿").lower().lstrip("www.").rstrip("/")
+    domaine = sans_www(domaine.strip().lstrip("﻿")).rstrip("/")
     if not domaine or domaine.startswith("#"):
         return None
     res = {"domain": domaine, "emails": [], "form_url": "", "verdict": "", "raison": ""}
@@ -186,7 +209,7 @@ def scanner(domaine, base, radar):
             e = e.lower()
             if EMAIL_POUBELLE.search(e) or e in vus:
                 continue
-            if e.split("@")[1].lstrip("www.") not in domaine and domaine not in e:
+            if sans_www(e.split("@")[1]) not in domaine and domaine not in e:
                 continue      # email d'un tiers (prestataire, CMS)
             vus.append(e)
     res["emails"] = vus[:4]
