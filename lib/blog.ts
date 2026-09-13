@@ -1386,7 +1386,7 @@ For health coverage during your share house stay, [SafetyWing Nomad Insurance](h
     content: `
 The Japanese guarantor requirement is the single biggest barrier for foreigners renting in Tokyo. The good news: an entire segment of the market exists specifically for foreigners who need furnished housing without a Japanese guarantor. Our [complete guide to furnished apartments in Tokyo](/en/blog/furnished-apartments-tokyo-guide) walks through every option in detail.
 
-**Quick answer:** Yes, you can rent a furnished apartment in Tokyo without a Japanese guarantor. Monthly mansions and short-term furnished apartments accept foreigners with a passport and visa, no guarantor and no key money, with move-in within days. Expect 90,000 to 250,000 JPY per month depending on size and location.
+**Quick answer:** Yes, you can rent a furnished apartment in Tokyo without a Japanese guarantor. Monthly mansions and short-term furnished apartments accept foreigners with a passport and visa, no guarantor and no key money, with move-in within days. Expect 100,000 to 240,000 JPY per month for a furnished studio across the 23 wards, 145,000 to 185,000 in the five central wards, and 305,000 to 435,000 for a central 1LDK. All figures are medians from active rental listings.
 
 **No-guarantor routes at a glance:** several housing types in Tokyo skip the guarantor entirely, so you are not stuck with a standard lease.
 
@@ -4922,7 +4922,7 @@ Pour votre couverture sante pendant la transition, [SafetyWing Nomad Insurance](
     content: `
 ## Furnished Housing in Tokyo: What Expats Actually Need to Know
 
-**Quick answer:** A furnished apartment in Tokyo (monthly mansion) lets you move in fast, with no guarantor and no key money, and furniture, appliances and often internet included. It is ideal for an expat's first months: expect 90,000 to 250,000 JPY per month depending on size and ward. You apply online with a passport and visa.
+**Quick answer:** A furnished apartment in Tokyo (monthly mansion) lets you move in fast, with no guarantor and no key money, and furniture, appliances and often internet included. It is ideal for an expat's first months: expect 100,000 to 240,000 JPY per month for a furnished studio across the 23 wards, and 145,000 to 185,000 in the five central wards, as medians from active rental listings. You apply online with a passport and visa.
 
 Relocating to Tokyo, corporate transfer, new job, long-term move, means facing one of the tightest rental markets in the developed world. Standard Japanese leases require a guarantor, hanko, and 3 to 6 weeks of processing. These 5 options bypass all that. For how furnished rentals actually work in Tokyo, start with our [complete guide to furnished apartments in Tokyo](/en/blog/furnished-apartments-tokyo-guide).
 
@@ -7113,7 +7113,7 @@ Setagaya is the ward most consistently chosen by expat families. It combines res
 
 **Nearby international schools:** Tokyo International School (IB), Seisen International School, Nishimachi International School.
 
-**Typical rents:** 3LDK apartments 200,000 to 350,000 ¥/month. Detached houses 300,000 to 500,000 ¥/month.
+**Typical rents:** median advertised rent is around 243,000 ¥/month for a 2LDK and 294,000 ¥/month for a 3LDK. Detached houses 300,000 to 500,000 ¥/month.
 
 **Recommended areas within Setagaya:** Yoga, Sangenjaya, Todoroki (near Nakameguro), Chitose-Karasuyama.
 
@@ -7125,7 +7125,7 @@ Nakameguro and Aobadai are the most sought-after pockets within Meguro. Strong i
 
 **Nearby international schools:** British School in Tokyo (Jiyugaoka), American School in Japan (ASIJ, accessible from Jiyugaoka).
 
-**Typical rents:** 2LDK apartments 180,000 to 280,000 ¥/month. Less space than Setagaya at equivalent prices.
+**Typical rents:** median advertised rent is around 311,000 ¥/month for a 2LDK and 380,000 ¥/month for a 3LDK. Less space than Setagaya, and dearer for it: the centrality is what you are paying for.
 
 ## Minato Ward (Hiroo and Azabu): Premium but Convenient
 
@@ -7137,7 +7137,7 @@ Minato is Tokyo's premium residential ward, home to many embassies, Azabu-Juban 
 
 **Nearby international schools:** Nishimachi International School (Moto-Azabu), ASIJ, Tokyo International School.
 
-**Typical rents:** significantly higher than Setagaya. 3LDK apartments 300,000 to 600,000 ¥/month depending on building and exact location.
+**Typical rents:** significantly higher than Setagaya. Median advertised rent is around 425,000 ¥/month for a 2LDK and 605,000 ¥/month for a 3LDK, with wide variation by building and exact location.
 
 ## Yokohama: The Spacious Alternative
 

@@ -478,7 +478,7 @@ export const faqData: Record<string, FaqItem[]> = {
     {
       question: 'How much does a furnished apartment in Tokyo cost per month?',
       answer:
-        'Expect to pay 80,000-180,000 JPY/month for a furnished studio or 1LDK in central Tokyo. This usually includes furniture, appliances, and sometimes Wi-Fi or utilities.',
+        'In the five central wards (Chiyoda, Chuo, Minato, Shibuya, Shinjuku), the median advertised rent for a furnished studio runs about 145,000-185,000 JPY/month, and a furnished 1LDK about 305,000-435,000 JPY/month. This usually includes furniture, appliances, and sometimes Wi-Fi or utilities. Figures are medians from active rental listings.',
     },
     {
       question: 'What is typically included in a furnished apartment in Tokyo?',
@@ -1156,7 +1156,7 @@ export const faqData: Record<string, FaqItem[]> = {
     },
     {
       question: 'How much does a family apartment cost in Tokyo?',
-      answer: 'A 2LDK (2 bedrooms plus living/dining/kitchen) in a family-friendly Tokyo neighborhood costs 150,000-250,000 JPY/month in Minato or Setagaya. More affordable family-friendly options exist in Nerima, Suginami, or Edogawa at 100,000-160,000 JPY/month for similar space, with a slightly longer school commute.',
+      answer: 'A 2LDK (2 bedrooms plus living/dining/kitchen) in a family-friendly Tokyo ward has a median advertised rent of about 243,000 JPY/month in Setagaya, 311,000 in Meguro and 425,000 in Minato. For a 3LDK, expect around 294,000 in Setagaya, 380,000 in Meguro and 605,000 in Minato. Yokohama remains the spacious alternative at 140,000 to 220,000 JPY/month for a 3LDK, at the cost of a longer commute. Figures are medians from active rental listings.',
     },
   ],
 
@@ -1474,7 +1474,7 @@ export const faqData: Record<string, FaqItem[]> = {
   'furnished-apartment-tokyo-expats': [
     {
       question: 'What is the difference between a furnished apartment and a share house for expats in Tokyo?',
-      answer: 'A furnished apartment gives you a self-contained private unit with your own kitchen, bathroom, and entrance. A share house gives you a private bedroom with shared common areas. Furnished apartments cost more (80,000-180,000 JPY/month) but provide full privacy and autonomy. Share houses are cheaper (50,000-90,000 JPY/month all-in) but involve communal living.',
+      answer: 'A furnished apartment gives you a self-contained private unit with your own kitchen, bathroom, and entrance. A share house gives you a private bedroom with shared common areas. Furnished apartments cost more (a furnished studio in central Tokyo has a median advertised rent of about 145,000-185,000 JPY/month) but provide full privacy and autonomy. Share houses are cheaper (45,000-80,000 JPY/month all-in) but involve communal living.',
     },
     {
       question: 'Can I find furnished apartments in Tokyo with month-to-month contracts?',
