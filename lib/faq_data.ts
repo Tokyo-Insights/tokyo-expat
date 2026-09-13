@@ -1182,27 +1182,6 @@ export const faqData: Record<string, FaqItem[]> = {
     },
   ],
 
-  // ============================================================
-  // EN: Student housing 2026
-  // ============================================================
-  'student-housing-tokyo-guide-2026': [
-    {
-      question: 'What has changed in Tokyo student housing in 2026?',
-      answer: 'In 2026, student housing demand in Tokyo has increased due to Japan\'s record international student enrollment. New co-living buildings targeting students have opened in Shinjuku, Shibuya, and Bunkyo. Competition for affordable share houses and university dorms has intensified, making early booking (3-4 months in advance) more important than before.',
-    },
-    {
-      question: 'What is the average rent for student housing in Tokyo in 2026?',
-      answer: 'Average 2026 rents for student housing: gaijin houses 40,000-60,000 JPY/month, share houses 55,000-85,000 JPY/month all-in, private furnished studios 80,000-130,000 JPY/month. University dormitories remain the cheapest at 20,000-50,000 JPY/month but are very limited.',
-    },
-    {
-      question: 'Is it better to live in a share house or university dorm as an international student in Tokyo?',
-      answer: 'University dormitories are cheaper and ensure a structured community, but are limited (typically only for the first year). Share houses offer more independence, easier internet and utilities setup, and a mix of Japanese and international residents that helps language learning. Share houses are the preferred choice for students after the first year.',
-    },
-    {
-      question: 'Which neighborhoods are best for students in Tokyo?',
-      answer: 'Best student neighborhoods are: Waseda and Takadanobaba (near Waseda University, affordable and very student-oriented), Hongo and Nezu (near Tokyo University), Nakano and Koenji (affordable, creative, excellent transport), and Sangenjaya (popular, mid-range, good nightlife). Avoid renting in Minato or Shibuya: the premium is not justified for students.',
-    },
-  ],
 
   // ============================================================
   // EN: Utilities setup
@@ -1955,27 +1934,6 @@ export const faqData: Record<string, FaqItem[]> = {
     },
   ],
 
-  // ============================================================
-  // FR: Logement etudiant Tokyo 2026
-  // ============================================================
-  'logement-etudiant-tokyo-2026': [
-    {
-      question: 'Qu\'est-ce qui a change dans le logement etudiant a Tokyo en 2026?',
-      answer: 'En 2026, la demande de logement etudiant a Tokyo a augmente avec l\'inscription record d\'etudiants etrangers au Japon. De nouveaux immeubles de co-living ciblant les etudiants ont ouvert a Shinjuku, Shibuya et Bunkyo. La competition pour les share houses abordables et les residences universitaires s\'est intensifiee, rendant la reservation anticipee (3 a 4 mois avant) plus importante.',
-    },
-    {
-      question: 'Quel est le loyer moyen pour un logement etudiant a Tokyo en 2026?',
-      answer: 'Loyers moyens 2026 pour le logement etudiant: gaijin houses 40 000-60 000 JPY/mois, share houses 55 000-85 000 JPY/mois tout inclus, studios prives meubles 80 000-130 000 JPY/mois. Les residences universitaires restent les moins cheres a 20 000-50 000 JPY/mois mais sont tres limitees en nombre de places.',
-    },
-    {
-      question: 'Vaut-il mieux vivre en share house ou en residence universitaire en tant qu\'etudiant etranger a Tokyo?',
-      answer: 'Les residences universitaires sont moins cheres et garantissent une communaute structuree, mais sont limitees (generalement seulement pour la premiere annee). Les share houses offrent plus d\'independance, une configuration internet et charges plus facile, et un melange de residents japonais et etrangers qui aide a l\'apprentissage de la langue. Les share houses sont le choix prefere apres la premiere annee.',
-    },
-    {
-      question: 'Quels quartiers sont les meilleurs pour les etudiants a Tokyo?',
-      answer: 'Les meilleurs quartiers pour etudiants sont: Waseda et Takadanobaba (pres de l\'universite Waseda, abordable et tres etudiant), Hongo et Nezu (pres de l\'universite de Tokyo), Nakano et Koenji (abordable, ambiance creative, excellent transport), et Sangenjaya (populaire, milieu de gamme, bonne ambiance). Evitez de louer a Minato ou Shibuya: la prime de prix n\'est pas justifiee pour les etudiants.',
-    },
-  ],
 
   // ============================================================
   // FR: Internet et utilites Tokyo appartement

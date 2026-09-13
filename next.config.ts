@@ -49,6 +49,14 @@ const nextConfig: NextConfig = {
       // Doublons pet-friendly retires 17/08 (cannibalisaient renting-pet-friendly-apartment-tokyo). Consolidation.
       { source: '/en/blog/pet-friendly-apartments-tokyo', destination: '/en/blog/renting-pet-friendly-apartment-tokyo', permanent: true },
       { source: '/fr/blog/appartement-animaux-tokyo', destination: '/fr/blog/louer-appartement-animaux-acceptes-tokyo', permanent: true },
+      // Doublon logement etudiant fusionne le 14/09/2026 vers le guide. Le doublon
+      // faisait 63 impressions FR et 14 EN sur 28 jours, zero clic, et CONTREDISAIT le
+      // guide sur trois chiffres (dortoir 20-50k contre 30-60k, share house 55-85k
+      // contre 40-90k, studio 80-130k contre "a partir de 100k"). Ce qu'il avait en
+      // propre (tableau comparatif, erreurs frequentes, section service) a ete porte
+      // dans le guide AVANT la suppression. Titre du guide non touche: il est protege.
+      { source: '/fr/blog/logement-etudiant-tokyo-2026', destination: '/fr/blog/logement-etudiant-tokyo-guide', permanent: true },
+      { source: '/en/blog/student-housing-tokyo-guide-2026', destination: '/en/blog/student-housing-tokyo-guide', permanent: true },
     ]
   },
 }
