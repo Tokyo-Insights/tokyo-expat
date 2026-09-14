@@ -66,7 +66,7 @@
       "acquis_le": "2026-09-04",
       "contact_nom": "Engin Cosar (InternationalSchools)",
       "contact_email": "info@internationalschools.net",
-      "note": "2 liens: section Cost of living (04/09) + section invitee de 421 mots (06/09). PERDUS: lu en HTML le 13/09, absent le 14/09, confirme de visu par Alessandro. Leurs pages sont regenerees. Brouillon de signalement ecrit le 14/09.",
+      "note": "2 liens: section Cost of living (04/09) + section invitee de 421 mots (06/09). PERDUS: lu en HTML le 13/09, absent le 14/09, confirme de visu par Alessandro. Leurs pages sont regenerees. Signalement ENVOYE le 14/09 a 11:11 JST. NE PAS RELANCER: le moniteur verra seul si le lien revient.",
       "etat": "PERDU",
       "premier_vu": "2026-09-04",
       "dernier_vu": "2026-09-13",
@@ -82,6 +82,11 @@
           "date": "2026-09-14",
           "etat": "PERDU",
           "detail": "zero occurrence de tokyo-expat, aucun lien sortant sur la page. Confirme par Alessandro dans son navigateur."
+        },
+        {
+          "date": "2026-09-14",
+          "etat": "PERDU",
+          "detail": "Signalement envoye a Engin (perte de la section Tokyo + section renvoyee en PJ). Aucune relance prevue."
         }
       ]
     },
@@ -101,7 +106,13 @@
       "dernier_vu": null,
       "dernier_check": "2026-09-14",
       "echecs_consecutifs": 0,
-      "historique": []
+      "historique": [
+        {
+          "date": "2026-09-14",
+          "etat": "attendu",
+          "detail": "Signalement envoye a Engin (perte de la section Tokyo + section renvoyee en PJ). Aucune relance prevue."
+        }
+      ]
     }
   ],
   "_sans_url_connue": {
