@@ -375,7 +375,8 @@
     "response": null,
     "link_obtained": false,
     "added": "2026-06-21",
-    "emailed_date": "2026-09-09"
+    "emailed_date": "2026-09-09",
+    "followup_prepared": "2026-09-15"
   },
   {
     "domain": "ccifj.or.jp",
@@ -1442,7 +1443,8 @@
     "response": null,
     "link_obtained": false,
     "added": "2026-09-14",
-    "note_audit": "Ajoute le 14/09/2026 par relecture des messages ENVOYES en IMAP. Il manquait au registre alors que l'email etait parti."
+    "note_audit": "Ajoute le 14/09/2026 par relecture des messages ENVOYES en IMAP. Il manquait au registre alors que l'email etait parti.",
+    "followup_prepared": "2026-09-15"
   },
   {
     "domain": "japaninsidersecrets.com",
@@ -1462,7 +1464,8 @@
     "response": null,
     "link_obtained": false,
     "added": "2026-09-14",
-    "note_audit": "Ajoute le 14/09/2026 par relecture des messages ENVOYES en IMAP. Il manquait au registre alors que l'email etait parti."
+    "note_audit": "Ajoute le 14/09/2026 par relecture des messages ENVOYES en IMAP. Il manquait au registre alors que l'email etait parti.",
+    "followup_prepared": "2026-09-15"
   },
   {
     "domain": "journaldujapon.com",
@@ -1482,7 +1485,8 @@
     "response": null,
     "link_obtained": false,
     "added": "2026-09-14",
-    "note_audit": "Ajoute le 14/09/2026 par relecture des messages ENVOYES en IMAP. Il manquait au registre alors que l'email etait parti."
+    "note_audit": "Ajoute le 14/09/2026 par relecture des messages ENVOYES en IMAP. Il manquait au registre alors que l'email etait parti.",
+    "followup_prepared": "2026-09-15"
   },
   {
     "domain": "projetjapon.fr",
@@ -1502,7 +1506,8 @@
     "response": null,
     "link_obtained": false,
     "added": "2026-09-14",
-    "note_audit": "Ajoute le 14/09/2026 par relecture des messages ENVOYES en IMAP. Il manquait au registre alors que l'email etait parti."
+    "note_audit": "Ajoute le 14/09/2026 par relecture des messages ENVOYES en IMAP. Il manquait au registre alors que l'email etait parti.",
+    "followup_prepared": "2026-09-15"
   },
   {
     "domain": "mamzeldree.fr",
@@ -1522,7 +1527,8 @@
     "response": null,
     "link_obtained": false,
     "added": "2026-09-14",
-    "note_audit": "Ajoute le 14/09/2026 par relecture des messages ENVOYES en IMAP. Il manquait au registre alors que l'email etait parti."
+    "note_audit": "Ajoute le 14/09/2026 par relecture des messages ENVOYES en IMAP. Il manquait au registre alors que l'email etait parti.",
+    "followup_prepared": "2026-09-15"
   },
   {
     "domain": "x-house.jp",
@@ -1542,7 +1548,8 @@
     "response": null,
     "link_obtained": false,
     "added": "2026-09-14",
-    "note_audit": "Ajoute le 14/09/2026 par relecture des messages ENVOYES en IMAP. Il manquait au registre alors que l'email etait parti."
+    "note_audit": "Ajoute le 14/09/2026 par relecture des messages ENVOYES en IMAP. Il manquait au registre alors que l'email etait parti.",
+    "followup_prepared": "2026-09-15"
   },
   {
     "domain": "mobal.com",
@@ -1562,7 +1569,8 @@
     "response": null,
     "link_obtained": false,
     "added": "2026-09-14",
-    "note_audit": "Ajoute le 14/09/2026 par relecture des messages ENVOYES en IMAP. Il manquait au registre alors que l'email etait parti."
+    "note_audit": "Ajoute le 14/09/2026 par relecture des messages ENVOYES en IMAP. Il manquait au registre alors que l'email etait parti.",
+    "followup_prepared": "2026-09-15"
   },
   {
     "domain": "unilife.co.jp",
@@ -1582,6 +1590,7 @@
     "response": null,
     "link_obtained": false,
     "added": "2026-09-14",
-    "note_audit": "Ajoute le 14/09/2026 par relecture des messages ENVOYES en IMAP. Il manquait au registre alors que l'email etait parti."
+    "note_audit": "Ajoute le 14/09/2026 par relecture des messages ENVOYES en IMAP. Il manquait au registre alors que l'email etait parti.",
+    "followup_prepared": "2026-09-15"
   }
 ]
