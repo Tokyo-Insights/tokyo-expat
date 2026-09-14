@@ -119,6 +119,6 @@
     "_comment": "Vus par Bing Webmaster mais sans page identifiee, donc non surveillables. Ne pas les compter comme des citations gagnees.",
     "expat.com": "2 liens, annuaire rempli une fois en juin/juillet. Puits sec.",
     "bento.travel": "1 lien, agregateur qui liste sans qu'on demande. Vaut ~0.",
-    "dailytokyo.news": "22 sessions de referral au 02/09, n'apparait dans aucun echange. Origine inconnue."
+    "dailytokyo.news": "ELUCIDE le 14/09: ferme de contenu IA (mention 'written by AI from the linked sources' en bas d'article), reseau dailynetwork.news. Home + article logement + article expat verifies: AUCUN lien vers nous, et leur article logement cite un CONCURRENT (theblueground.com). Ne pas compter comme domaine referent. 4 pages verifiees sur 138."
   }
 }
