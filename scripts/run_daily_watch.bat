@@ -118,6 +118,17 @@ python scripts\reddit_cadence_reminder.py >> "%LOG_FILE%" 2>&1
 echo [%TIME%] [12/13] GA4 daily report... >> "%LOG_FILE%"
 python scripts\ga4_daily_report.py >> "%LOG_FILE%" 2>&1
 
+:: 12b. Backlinks ACQUIS : relit chaque page qui nous lie et signale celles qui nous ont
+::      perdus. Ajoute le 14/09/2026, apres la disparition des 2 liens internationalschools.net
+::      entre le 13 et le 14/09 sans que rien ne la voie: tout le parc surveillait les
+::      backlinks a CONQUERIR, aucun ceux qu'on avait deja.
+::      Auto-reparant comme le poster social: garde-fou interne de 7 jours, donc il tourne
+::      une fois par semaine quel que soit le jour ou le PC est allume. Ici, HORS de la zone
+::      TE_TELEGRAM_SILENT, sinon une perte serait signalee dans le vide.
+::      N'envoie RIEN a personne: il donne le contact, Alessandro decide.
+echo [%TIME%] [12b] Backlink monitor (if due)... >> "%LOG_FILE%"
+python scripts\backlink_monitor.py >> "%LOG_FILE%" 2>&1
+
 :: 13. Thursday briefing leger (jeudi uniquement : Buffer status + actions en attente)
 for /f %%d in ('powershell -NoProfile -Command "(Get-Date).DayOfWeek"') do set DOW_DAILY=%%d
 if "%DOW_DAILY%"=="Thursday" (

@@ -1,0 +1,113 @@
+{
+  "_comment": "Registre des backlinks gagnes. Cree le 14/09/2026 apres la perte des 2 liens InternationalSchools, restee invisible parce que rien ne surveillait les liens ACQUIS. Chaque entree decrit UNE page qui nous lie. `backlink_monitor.py` la relit et signale les pertes. NE PAS y mettre une page sans URL exacte: on ne surveille que ce qu'on peut relire.",
+  "_etats": "vivant = cible trouvee dans le HTML | PERDU = absente 2 fois de suite sur des reponses 200 | suspect = absente 1 fois, en attente de confirmation | illisible = page non recuperable (403/5xx/timeout), ce n'est PAS une perte",
+  "backlinks": [
+    {
+      "id": "gaijinblog-furnished",
+      "domaine": "gaijinblog.com",
+      "page": "https://gaijinblog.com/posts/furnished-apartments-tokyo-cost-2026",
+      "cible": "tokyo-expat.com/en/data",
+      "ancre_attendue": "live rent index",
+      "type": "citation_editoriale",
+      "acquis_le": "2026-09-02",
+      "contact_nom": "Fernando / Damith (GaijinBlog)",
+      "contact_email": "info@gaijinblog.com",
+      "note": "1er canal ENTRANT. Deux ancres sur la page: une en texte, une en bouton.",
+      "etat": "vivant",
+      "premier_vu": "2026-09-14",
+      "dernier_vu": "2026-09-14",
+      "dernier_check": "2026-09-14",
+      "echecs_consecutifs": 0,
+      "historique": []
+    },
+    {
+      "id": "studyinjapan-tuition",
+      "domaine": "studyinjapan.org",
+      "page": "https://studyinjapan.org/from-tuition-to-accommodation-how-much-does-it-cost-to-learn-japanese-in-japan/",
+      "cible": "tokyo-expat.com/en/data",
+      "ancre_attendue": "Tokyo Expat Rent Index",
+      "type": "citation_editoriale",
+      "acquis_le": "2026-09-03",
+      "contact_nom": "Camilla (Coto / studyinjapan)",
+      "contact_email": "camilla@cotoacademy.com",
+      "note": "MEME boite que cotoacademy.com: un seul domaine, un seul evenement. La page porte aussi notre tokyo-rent-map.png en hotlink, DANS un lien vers /en/data. Ne jamais renommer cet asset.",
+      "etat": "vivant",
+      "premier_vu": "2026-09-14",
+      "dernier_vu": "2026-09-14",
+      "dernier_check": "2026-09-14",
+      "echecs_consecutifs": 0,
+      "historique": []
+    },
+    {
+      "id": "expatarrivals-ward-guide",
+      "domaine": "expatarrivals.com",
+      "page": "https://www.expatarrivals.com/asia-pacific/japan/tokyo/renting-tokyo-foreigner-ward-ward-guide-costs-and-neighbourhoods",
+      "cible": "tokyo-expat.com/en/data",
+      "ancre_attendue": "",
+      "type": "citation_editoriale",
+      "acquis_le": "2026-08-21",
+      "contact_nom": "Daniel (Expat Arrivals)",
+      "contact_email": "daniel@expatarrivals.com",
+      "note": "Article contribue, lien dans la note de contributeur. Le 14/09 la page rendait HTTP 522 (Cloudflare): jamais relu par nous, etat inconnu, PAS une perte.",
+      "etat": "illisible",
+      "premier_vu": null,
+      "dernier_vu": null,
+      "dernier_check": "2026-09-14",
+      "echecs_consecutifs": 0,
+      "historique": []
+    },
+    {
+      "id": "internationalschools-tokyo",
+      "domaine": "internationalschools.net",
+      "page": "https://internationalschools.net/cities/tokyo",
+      "cible": "tokyo-expat.com/en/data",
+      "ancre_attendue": "Tokyo Expat",
+      "type": "citation_editoriale",
+      "acquis_le": "2026-09-04",
+      "contact_nom": "Engin Cosar (InternationalSchools)",
+      "contact_email": "info@internationalschools.net",
+      "note": "2 liens: section Cost of living (04/09) + section invitee de 421 mots (06/09). PERDUS: lu en HTML le 13/09, absent le 14/09, confirme de visu par Alessandro. Leurs pages sont regenerees. Brouillon de signalement ecrit le 14/09.",
+      "etat": "PERDU",
+      "premier_vu": "2026-09-04",
+      "dernier_vu": "2026-09-13",
+      "dernier_check": "2026-09-14",
+      "echecs_consecutifs": 2,
+      "historique": [
+        {
+          "date": "2026-09-13",
+          "etat": "vivant",
+          "detail": "href direct vers /en/data, sans nofollow"
+        },
+        {
+          "date": "2026-09-14",
+          "etat": "PERDU",
+          "detail": "zero occurrence de tokyo-expat, aucun lien sortant sur la page. Confirme par Alessandro dans son navigateur."
+        }
+      ]
+    },
+    {
+      "id": "internationalschools-fukuoka",
+      "domaine": "internationalschools.net",
+      "page": "https://internationalschools.net/cities/fukuoka",
+      "cible": "tokyo-expat.com/en/data",
+      "ancre_attendue": "ward-by-ward rent index",
+      "type": "citation_editoriale_attendue",
+      "acquis_le": null,
+      "contact_nom": "Engin Cosar (InternationalSchools)",
+      "contact_email": "info@internationalschools.net",
+      "note": "PAS UNE PERTE: section envoyee le 12/09, il a annonce une INTENTION de l'integrer, jamais confirme la publication. Surveille pour detecter la mise en ligne, pas pour constater un manque. Ne pas relancer dessus.",
+      "etat": "attendu",
+      "premier_vu": null,
+      "dernier_vu": null,
+      "dernier_check": "2026-09-14",
+      "echecs_consecutifs": 0,
+      "historique": []
+    }
+  ],
+  "_sans_url_connue": {
+    "_comment": "Vus par Bing Webmaster mais sans page identifiee, donc non surveillables. Ne pas les compter comme des citations gagnees.",
+    "expat.com": "2 liens, annuaire rempli une fois en juin/juillet. Puits sec.",
+    "bento.travel": "1 lien, agregateur qui liste sans qu'on demande. Vaut ~0.",
+    "dailytokyo.news": "22 sessions de referral au 02/09, n'apparait dans aucun echange. Origine inconnue."
+  }
+}
