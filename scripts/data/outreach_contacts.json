@@ -53,7 +53,10 @@
     "link_obtained": false,
     "added": "2026-06-21",
     "emailed_date": "2026-06-22",
-    "followup_prepared": "2026-06-30"
+    "followup_prepared": "2026-06-30",
+    "domaines_emails": [
+      "gplusmedia.com"
+    ]
   },
   {
     "domain": "japantoday.com",
@@ -125,7 +128,10 @@
     "link_obtained": false,
     "added": "2026-06-21",
     "emailed_date": "2026-06-22",
-    "followup_prepared": "2026-06-30"
+    "followup_prepared": "2026-06-30",
+    "domaines_emails": [
+      "timeout.com"
+    ]
   },
   {
     "domain": "expatica.com",
@@ -212,7 +218,10 @@
     "response": null,
     "link_obtained": false,
     "added": "2026-06-21",
-    "note_audit": "[09/09] ecarte: formulaire seul, verifie le 09/09"
+    "note_audit": "[09/09] ecarte: formulaire seul, verifie le 09/09",
+    "domaines_emails": [
+      "isi-global.com"
+    ]
   },
   {
     "domain": "berlitz.co.jp",
@@ -346,7 +355,10 @@
     "response": "bounce",
     "link_obtained": false,
     "added": "2026-06-21",
-    "emailed_date": "2026-06-22"
+    "emailed_date": "2026-06-22",
+    "domaines_emails": [
+      "ambafrance-jp.org"
+    ]
   },
   {
     "domain": "jetro.go.jp",
@@ -528,7 +540,10 @@
     "response": null,
     "link_obtained": false,
     "added": "2026-06-21",
-    "emailed_date": "2026-06-22"
+    "emailed_date": "2026-06-22",
+    "domaines_emails": [
+      "airfrance.fr"
+    ]
   },
   {
     "domain": "totalenergies.co.jp",
@@ -545,7 +560,10 @@
     "response": null,
     "link_obtained": false,
     "added": "2026-06-21",
-    "emailed_date": "2026-06-23"
+    "emailed_date": "2026-06-23",
+    "domaines_emails": [
+      "totalenergies.com"
+    ]
   },
   {
     "domain": "lvmhjapan.com",
@@ -562,7 +580,10 @@
     "response": null,
     "link_obtained": false,
     "added": "2026-06-21",
-    "emailed_date": "2026-06-22"
+    "emailed_date": "2026-06-22",
+    "domaines_emails": [
+      "lvmh.com"
+    ]
   },
   {
     "domain": "bnpparibas.co.jp",
@@ -579,7 +600,10 @@
     "response": null,
     "link_obtained": false,
     "added": "2026-06-21",
-    "emailed_date": "2026-06-23"
+    "emailed_date": "2026-06-23",
+    "domaines_emails": [
+      "bnpparibas.com"
+    ]
   },
   {
     "domain": "renault-japan.co.jp",
@@ -613,7 +637,10 @@
     "response": null,
     "link_obtained": false,
     "added": "2026-06-21",
-    "emailed_date": "2026-06-23"
+    "emailed_date": "2026-06-23",
+    "domaines_emails": [
+      "airbus.com"
+    ]
   },
   {
     "domain": "edf.co.jp",
@@ -647,7 +674,10 @@
     "response": null,
     "link_obtained": false,
     "added": "2026-06-21",
-    "emailed_date": "2026-06-23"
+    "emailed_date": "2026-06-23",
+    "domaines_emails": [
+      "thalesgroup.com"
+    ]
   },
   {
     "domain": "wise.com",
@@ -869,7 +899,10 @@
     "response": "pas de reponse apres relance",
     "link_obtained": false,
     "added": "2026-06-25",
-    "followup_prepared": "2026-07-02"
+    "followup_prepared": "2026-07-02",
+    "domaines_emails": [
+      "japantimes.co.jp"
+    ]
   },
   {
     "domain": "nhk.or.jp",
@@ -1390,5 +1423,165 @@
     "link_obtained": true,
     "added": "2026-09-09",
     "emailed_date": "2026-08-25"
+  },
+  {
+    "domain": "japan-dev.com",
+    "name": "Japan Dev",
+    "type": "backlink_t1",
+    "email": "contact@japan-dev.com",
+    "approach": "data_pitch",
+    "da_est": null,
+    "priority": "low",
+    "pitch": "Donnee loyers Tokyo: le meuble jusqu'a +98%, ecart maximal la ou le loyer est le plus bas.",
+    "notes": "Job board pour ingenieurs etrangers au Japon, publie de vrais guides d'installation. Fait partie des 6 pitchs DONNEE du 12-13/08 (1 seul a converti: Fernando/GaijinBlog). AUCUNE reponse en un mois. 14/09: re-qualifie par erreur comme prospect NEUF parce qu'il ne figurait dans aucun registre. Ne pas re-pitcher avec la meme donnee.",
+    "manual_required": false,
+    "form_url": null,
+    "status": "emailed",
+    "emailed_date": "2026-08-13",
+    "last_contact": "2026-08-13",
+    "response": null,
+    "link_obtained": false,
+    "added": "2026-09-14",
+    "note_audit": "Ajoute le 14/09/2026 par relecture des messages ENVOYES en IMAP. Il manquait au registre alors que l'email etait parti."
+  },
+  {
+    "domain": "japaninsidersecrets.com",
+    "name": "Japan Insider Secrets",
+    "type": "backlink_t1",
+    "email": "press@japaninsidersecrets.com",
+    "approach": "data_pitch",
+    "da_est": null,
+    "priority": "low",
+    "pitch": "Meme angle donnee (+98% sur le meuble).",
+    "notes": "Pitch DONNEE du 18/08, sans reponse.",
+    "manual_required": false,
+    "form_url": null,
+    "status": "emailed",
+    "emailed_date": "2026-08-18",
+    "last_contact": "2026-08-18",
+    "response": null,
+    "link_obtained": false,
+    "added": "2026-09-14",
+    "note_audit": "Ajoute le 14/09/2026 par relecture des messages ENVOYES en IMAP. Il manquait au registre alors que l'email etait parti."
+  },
+  {
+    "domain": "journaldujapon.com",
+    "name": "Journal du Japon (Paul Ozouf)",
+    "type": "backlink_t1",
+    "email": "contact@journaldujapon.com",
+    "approach": "guest_post",
+    "da_est": null,
+    "priority": "low",
+    "pitch": "Proposition d'article: guide logement Tokyo pour francophones.",
+    "notes": "4 echanges. A demande DEUX FOIS si Tokyo Expat serait 'mis en avant' puis s'est evapore a la reponse franche. Media FR = mur payant. MORT, ne pas retenter.",
+    "manual_required": false,
+    "form_url": null,
+    "status": "emailed",
+    "emailed_date": "2026-06-30",
+    "last_contact": "2026-06-30",
+    "response": null,
+    "link_obtained": false,
+    "added": "2026-09-14",
+    "note_audit": "Ajoute le 14/09/2026 par relecture des messages ENVOYES en IMAP. Il manquait au registre alors que l'email etait parti."
+  },
+  {
+    "domain": "projetjapon.fr",
+    "name": "Projet Japon",
+    "type": "backlink_t1",
+    "email": "contact@projetjapon.fr",
+    "approach": "annuaire",
+    "da_est": null,
+    "priority": "low",
+    "pitch": "Inscription dans leur annuaire de ressources Japon.",
+    "notes": "Campagne de masse de juin, sans reponse.",
+    "manual_required": false,
+    "form_url": null,
+    "status": "emailed",
+    "emailed_date": "2026-06-30",
+    "last_contact": "2026-06-30",
+    "response": null,
+    "link_obtained": false,
+    "added": "2026-09-14",
+    "note_audit": "Ajoute le 14/09/2026 par relecture des messages ENVOYES en IMAP. Il manquait au registre alors que l'email etait parti."
+  },
+  {
+    "domain": "mamzeldree.fr",
+    "name": "Miettes de vie (Johanna)",
+    "type": "backlink_t1",
+    "email": "contact@mamzeldree.fr",
+    "approach": "data_pitch",
+    "da_est": null,
+    "priority": "low",
+    "pitch": "Donnees loyers Tokyo, version FR de l'angle meuble.",
+    "notes": "Pitch DONNEE du 13/08, sans reponse.",
+    "manual_required": false,
+    "form_url": null,
+    "status": "emailed",
+    "emailed_date": "2026-08-13",
+    "last_contact": "2026-08-13",
+    "response": null,
+    "link_obtained": false,
+    "added": "2026-09-14",
+    "note_audit": "Ajoute le 14/09/2026 par relecture des messages ENVOYES en IMAP. Il manquait au registre alors que l'email etait parti."
+  },
+  {
+    "domain": "x-house.jp",
+    "name": "X-House",
+    "type": "backlink_t1",
+    "email": "info_xh@x-house.jp",
+    "approach": "partenariat_operateur",
+    "da_est": null,
+    "priority": "low",
+    "pitch": "Demande de partenariat + un placement chat en cours.",
+    "notes": "Operateur de logement: partenaire de SOURCING, pas un prescripteur. Ne pas le traiter comme une cible de backlink.",
+    "manual_required": false,
+    "form_url": null,
+    "status": "emailed",
+    "emailed_date": "2026-08-05",
+    "last_contact": "2026-08-05",
+    "response": null,
+    "link_obtained": false,
+    "added": "2026-09-14",
+    "note_audit": "Ajoute le 14/09/2026 par relecture des messages ENVOYES en IMAP. Il manquait au registre alors que l'email etait parti."
+  },
+  {
+    "domain": "mobal.com",
+    "name": "Mobal",
+    "type": "backlink_t1",
+    "email": "support@mobal.com",
+    "approach": "partenariat",
+    "da_est": null,
+    "priority": "low",
+    "pitch": "Partnerships or Collaborations.",
+    "notes": "SIM/telecom pour etrangers au Japon. Fil ouvert le 04/09.",
+    "manual_required": false,
+    "form_url": null,
+    "status": "emailed",
+    "emailed_date": "2026-09-04",
+    "last_contact": "2026-09-04",
+    "response": null,
+    "link_obtained": false,
+    "added": "2026-09-14",
+    "note_audit": "Ajoute le 14/09/2026 par relecture des messages ENVOYES en IMAP. Il manquait au registre alors que l'email etait parti."
+  },
+  {
+    "domain": "unilife.co.jp",
+    "name": "UniLife (Shin)",
+    "type": "backlink_t1",
+    "email": "ulg@unilife.co.jp",
+    "approach": "sourcing",
+    "da_est": null,
+    "priority": "low",
+    "pitch": "Conditions d'entree des etudiants internationaux.",
+    "notes": "SOURCE DE LOGEMENT, pas un prescripteur. 🛑 SILENCE PROMIS de notre part: ne pas relancer, le prochain contact doit etre un etudiant reel. Le radar le suit sous jsb-g.co.jp, un AUTRE domaine: d'ou l'absence ici.",
+    "manual_required": false,
+    "form_url": null,
+    "status": "emailed",
+    "emailed_date": "2026-09-08",
+    "last_contact": "2026-09-08",
+    "response": null,
+    "link_obtained": false,
+    "added": "2026-09-14",
+    "note_audit": "Ajoute le 14/09/2026 par relecture des messages ENVOYES en IMAP. Il manquait au registre alors que l'email etait parti."
   }
 ]

@@ -147,14 +147,36 @@ def contacts_radar():
     return out
 
 
+def _domaines_du_contact(c):
+    """Tous les domaines sous lesquels ce contact peut apparaitre.
+
+    ⚠️ 14/09/2026: le registre est cle sur le domaine du SITE, alors que l'email part
+    souvent vers un AUTRE domaine (`lvmhjapan.com` en base, `hr.japan@lvmh.com` a l'envoi;
+    `blog.gaijinpot.com` en base, `content-team@gplusmedia.com` a l'envoi). Le garde-fou
+    anti-doublon comparait des domaines qui ne pouvaient pas se rencontrer, donc il ne
+    protegeait rien sur 11 cibles deja demarchees. Le champ `domaines_emails` porte les
+    domaines d'envoi reels, releves dans les messages ENVOYES.
+    """
+    doms = {sans_www(c.get("domain") or "")}
+    for d in (c.get("domaines_emails") or []):
+        doms.add(sans_www(d))
+    mail = (c.get("email") or "").strip()
+    if "@" in mail:
+        doms.add(sans_www(mail.split("@")[-1]))
+    return {d for d in doms if d}
+
+
 def domaines_connus(base):
-    return {sans_www(c.get("domain") or "") for c in base if isinstance(c, dict)}
+    return {d for c in base if isinstance(c, dict) for d in _domaines_du_contact(c)}
 
 
 def statut_connu(base, radar, domaine):
     for c in base:
-        if isinstance(c, dict) and sans_www(c.get("domain") or "") == domaine:
-            return c.get("status")
+        if isinstance(c, dict) and domaine in _domaines_du_contact(c):
+            statut = c.get("status")
+            if sans_www(c.get("domain") or "") != domaine:
+                statut = f"{statut} (inscrit sous {c.get('domain')})"
+            return statut
     if domaine in radar:
         return f"fil suivi par le radar ({radar[domaine]})"
     return None
