@@ -57,7 +57,20 @@ except Exception:
     TE_CHAT_ID = os.environ.get("TE_CHAT_ID", "")
 
 
+DRY_RUN = "--dry-run" in sys.argv
+
+
 def telegram(msg: str):
+    # ⚠️ 14/09/2026: un test du moniteur, lance avec une cible volontairement fausse, a ecrit
+    # "🔴 BACKLINK PERDU gaijinblog.com" dans data/telegram_log.jsonl. TE_TELEGRAM_SILENT=1
+    # empechait l'envoi sur le telephone, mais PAS l'ecriture au journal, et `notify.py
+    # --digest` a ressorti la fausse perte comme une vraie le matin meme.
+    # 🔑 Un mode silencieux n'est pas un mode test: il tait la sortie, il n'annule pas la trace.
+    # --dry-run ne touche a rien du tout.
+    if DRY_RUN:
+        print("[--dry-run] alerte NON envoyee et NON journalisee:\n"
+              + re.sub(r"<[^>]+>", "", msg))
+        return
     if not TE_TOKEN or not TE_CHAT_ID:
         print("[Telegram] non configure, message non envoye")
         return
