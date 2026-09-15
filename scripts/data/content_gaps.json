@@ -30,14 +30,14 @@
     "category": "default"
   },
   {
-    "slug": "pocket-translator-rental-japan",
-    "topic": "pocket translator rental japan",
-    "url": "https://tokyocheapo.com/living/pocket-translator-rental-japan/",
+    "slug": "instant-room-rental-english",
+    "topic": "instant room rental english",
+    "url": "https://tokyocheapo.com/living/instant-room-rental-english/",
     "competitors": [
       "Tokyo Cheapo"
     ],
     "score": 10,
-    "category": "default"
+    "category": "logement"
   },
   {
     "slug": "renew-visa-online-japan",
@@ -60,6 +60,16 @@
     "category": "etudiant"
   },
   {
+    "slug": "pocket-translator-rental-japan",
+    "topic": "pocket translator rental japan",
+    "url": "https://tokyocheapo.com/living/pocket-translator-rental-japan/",
+    "competitors": [
+      "Tokyo Cheapo"
+    ],
+    "score": 10,
+    "category": "default"
+  },
+  {
     "slug": "furusato-nozei-tax-payments-donations",
     "topic": "furusato nozei tax payments donations",
     "url": "https://tokyocheapo.com/living/furusato-nozei-tax-payments-donations/",
@@ -68,15 +78,5 @@
     ],
     "score": 10,
     "category": "default"
-  },
-  {
-    "slug": "instant-room-rental-english",
-    "topic": "instant room rental english",
-    "url": "https://tokyocheapo.com/living/instant-room-rental-english/",
-    "competitors": [
-      "Tokyo Cheapo"
-    ],
-    "score": 10,
-    "category": "logement"
   }
 ]
