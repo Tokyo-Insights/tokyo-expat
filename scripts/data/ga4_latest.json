@@ -1,70 +1,71 @@
 {
-  "generated_at": "2026-09-09",
-  "period": "2026-09-02 to 2026-09-09",
+  "generated_at": "2026-09-16",
+  "period": "2026-09-09 to 2026-09-16",
   "this_week": {
-    "sessions": 341,
-    "users": 323,
-    "pageviews": 417,
-    "bounce_rate": 0.7888563049853372
+    "sessions": 339,
+    "users": 299,
+    "pageviews": 380,
+    "bounce_rate": 0.7492625368731564
   },
   "prev_week": {
-    "sessions": 331,
-    "users": 306,
-    "pageviews": 371,
-    "bounce_rate": 0.7190332326283988
+    "sessions": 324,
+    "users": 307,
+    "pageviews": 398,
+    "bounce_rate": 0.7345679012345679
   },
   "changes": {
-    "sessions": "+3%",
-    "users": "+6%",
-    "pageviews": "+12%"
+    "sessions": "+5%",
+    "users": "-3%",
+    "pageviews": "-5%"
   },
   "top_pages": [
     [
       "/en/data",
-      "27"
+      "55"
     ],
     [
-      "/en/blog/share-house-tokyo-guide-2026",
-      "22"
+      "/en/blog/japan-sim-card-foreigners-2026",
+      "24"
     ],
     [
       "/en",
       "21"
     ],
     [
-      "/en/blog/gaijin-house-tokyo-guide",
-      "17"
+      "/en/blog/share-house-tokyo-guide-2026",
+      "14"
     ],
     [
-      "/en/blog/japan-sim-card-foreigners-2026",
-      "17"
+      "/en/blog/expat-apartments-tokyo",
+      "12"
     ]
   ],
   "top_sources": [
     [
       "Direct",
-      "217"
+      "176"
     ],
     [
       "Organic Search",
-      "88"
+      "108"
     ],
     [
-      "Unassigned",
-      "20"
+      "AI Assistant",
+      "33"
     ]
   ],
-  "form_submits_week": 1,
+  "form_submits_week": 6,
   "events": {
-    "page_view": 417,
-    "session_start": 344,
-    "first_visit": 321,
-    "user_engagement": 153,
-    "scroll": 28,
-    "click": 2,
-    "select_consultation": 2,
-    "book_call_click": 1,
-    "form_start": 1,
-    "generate_lead": 1
+    "page_view": 380,
+    "session_start": 339,
+    "first_visit": 294,
+    "user_engagement": 150,
+    "scroll": 37,
+    "file_download": 12,
+    "form_start": 6,
+    "generate_lead": 6,
+    "book_call_click": 4,
+    "click": 3,
+    "select_consultation": 3
   }
 }

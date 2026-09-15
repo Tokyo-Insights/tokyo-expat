@@ -1,43 +1,67 @@
 {
-  "generated_at": "2026-09-09",
-  "period": "2026-08-12 to 2026-09-08",
+  "generated_at": "2026-09-16",
+  "period": "2026-08-19 to 2026-09-15",
   "property": "sc-domain:tokyo-expat.com",
   "totals": {
-    "clicks": 100,
-    "impressions": 19056,
-    "ctr_pct": 0.52,
-    "position": 21.1
+    "clicks": 102,
+    "impressions": 22926,
+    "ctr_pct": 0.44,
+    "position": 22.0
   },
   "top_queries": [
     {
       "query": "jiko bukken for sale",
+      "clicks": 3,
+      "impressions": 61,
+      "position": 8.0
+    },
+    {
+      "query": "jiko bukken",
       "clicks": 2,
-      "impressions": 48,
-      "position": 7.9
+      "impressions": 240,
+      "position": 9.0
     },
     {
       "query": "jiko bukken map google maps",
       "clicks": 2,
-      "impressions": 32,
+      "impressions": 33,
       "position": 6.9
     },
     {
-      "query": "jiko bukken",
-      "clicks": 1,
-      "impressions": 177,
-      "position": 9.3
+      "query": "jiko bukken map tokyo",
+      "clicks": 2,
+      "impressions": 14,
+      "position": 4
     },
     {
-      "query": "jiko bukken map tokyo",
+      "query": "gaijin house tokyo",
       "clicks": 1,
-      "impressions": 12,
-      "position": 4.6
+      "impressions": 109,
+      "position": 5.4
+    },
+    {
+      "query": "japan data sim",
+      "clicks": 1,
+      "impressions": 1,
+      "position": 9
+    },
+    {
+      "query": "jiko bukken properties",
+      "clicks": 1,
+      "impressions": 9,
+      "position": 9.6
+    },
+    {
+      "query": "jikobukken map japan",
+      "clicks": 1,
+      "impressions": 32,
+      "position": 8.3
     },
     {
       "query": "location appartement tokyo expatrié",
       "clicks": 1,
-      "impressions": 14,
-      "position": 26.8
+      "impressions": 13,
+      "position": 27.6
     },
     {
       "query": "tokyo expat",
@@ -48,8 +72,8 @@
     {
       "query": "tokyo gaijin house",
       "clicks": 1,
-      "impressions": 796,
-      "position": 8.4
+      "impressions": 709,
+      "position": 8.7
     },
     {
       "query": "1 година",
@@ -64,22 +88,22 @@
       "position": 22
     },
     {
-      "query": "4人家族",
+      "query": "86000 jpy to usd",
       "clicks": 0,
       "impressions": 1,
-      "position": 16
-    },
-    {
-      "query": "6 miesiecy",
-      "clicks": 0,
-      "impressions": 1,
-      "position": 10
+      "position": 11
     },
     {
       "query": "about me: corporate relocator corporate relocator question: how can i find a budget-friendly fully-furnished option?",
       "clicks": 0,
       "impressions": 1,
       "position": 13
+    },
+    {
+      "query": "about me: corporate relocator corporate relocator question: how do i find furnished apartments for a 3-month rental in tokyo?",
+      "clicks": 0,
+      "impressions": 1,
+      "position": 1
     },
     {
       "query": "about me: corporate relocator corporate relocator question: how do i find multi-bedroom apartments for my family in tokyo?",
@@ -90,13 +114,13 @@
     {
       "query": "about me: corporate relocator corporate relocator question: what are good accommodation options for families moving to tokyo?",
       "clicks": 0,
-      "impressions": 12,
-      "position": 14.4
+      "impressions": 16,
+      "position": 16.2
     },
     {
       "query": "about me: corporate relocator corporate relocator question: what are the most common renting mistakes for newcomers?",
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 5,
       "position": 11
     },
     {
@@ -108,38 +132,44 @@
     {
       "query": "about me: corporate relocator corporate relocator question: what is the minimum rental period for a furnished apartment in tokyo?",
       "clicks": 0,
-      "impressions": 7,
-      "position": 4.6
+      "impressions": 10,
+      "position": 4.8
     },
     {
       "query": "about me: corporate relocator corporate relocator question: where in tokyo can families find quiet and child-friendly amenities?",
       "clicks": 0,
-      "impressions": 13,
-      "position": 16.6
+      "impressions": 16,
+      "position": 16.4
     },
     {
       "query": "about me: corporate relocator corporate relocator question: which parts of tokyo are more family-oriented?",
       "clicks": 0,
-      "impressions": 24,
-      "position": 14.3
+      "impressions": 30,
+      "position": 11.9
     },
     {
       "query": "about me: corporate relocator corporate relocator question: which parts of tokyo are popular with young professionals?",
       "clicks": 0,
-      "impressions": 7,
-      "position": 11.1
+      "impressions": 8,
+      "position": 13.2
+    },
+    {
+      "query": "about me: digital nomad digital nomad question: what are good accommodation options for families moving to tokyo?",
+      "clicks": 0,
+      "impressions": 2,
+      "position": 3.5
     },
     {
       "query": "about me: digital nomad digital nomad question: what is the minimum rental period for a furnished apartment in tokyo?",
       "clicks": 0,
-      "impressions": 2,
-      "position": 9
+      "impressions": 1,
+      "position": 2
     },
     {
       "query": "about me: digital nomad digital nomad question: which parts of tokyo are more family-oriented?",
       "clicks": 0,
-      "impressions": 8,
-      "position": 13.1
+      "impressions": 12,
+      "position": 11.9
     },
     {
       "query": "about me: international student international student question: how do i find multi-bedroom apartments for my family in tokyo?",
@@ -150,32 +180,32 @@
     {
       "query": "about me: international student international student question: how far in advance should i book a short-term apartment in tokyo?",
       "clicks": 0,
-      "impressions": 4,
-      "position": 3.8
+      "impressions": 23,
+      "position": 3.5
     },
     {
       "query": "about me: international student international student question: what are good accommodation options for families moving to tokyo?",
       "clicks": 0,
-      "impressions": 4,
-      "position": 15.2
+      "impressions": 8,
+      "position": 17.1
     },
     {
       "query": "about me: international student international student question: what is the minimum rental period for a furnished apartment in tokyo?",
       "clicks": 0,
-      "impressions": 3,
-      "position": 8.7
+      "impressions": 2,
+      "position": 8
     },
     {
       "query": "about me: international student international student question: which parts of tokyo are more family-oriented?",
       "clicks": 0,
-      "impressions": 26,
-      "position": 14.6
+      "impressions": 35,
+      "position": 13.6
     },
     {
       "query": "about me: international student international student question: which parts of tokyo are popular with young professionals?",
       "clicks": 0,
-      "impressions": 1,
-      "position": 5
+      "impressions": 6,
+      "position": 13.8
     },
     {
       "query": "about me: international student international student question: which type of accommodation offers monthly rates for stays under 3 months?",
@@ -193,19 +223,19 @@
       "query": "about me: remote professional remote professional question: what are good accommodation options for families moving to tokyo?",
       "clicks": 0,
       "impressions": 20,
-      "position": 10.9
+      "position": 9.9
     },
     {
       "query": "about me: remote professional remote professional question: what is the minimum rental period for a furnished apartment in tokyo?",
       "clicks": 0,
-      "impressions": 2,
-      "position": 7.5
+      "impressions": 4,
+      "position": 4.8
     },
     {
       "query": "about me: remote professional remote professional question: which parts of tokyo are more family-oriented?",
       "clicks": 0,
-      "impressions": 12,
-      "position": 16.1
+      "impressions": 25,
+      "position": 10.6
     },
     {
       "query": "about me: remote professional remote professional question: which parts of tokyo are popular with young professionals?",
@@ -223,31 +253,25 @@
       "query": "about me: short-term life transition user short-term life transition user question: what are good accommodation options for families moving to tokyo?",
       "clicks": 0,
       "impressions": 2,
-      "position": 19
+      "position": 2.5
     },
     {
       "query": "about me: short-term life transition user short-term life transition user question: what is the minimum rental period for a furnished apartment in tokyo?",
       "clicks": 0,
-      "impressions": 1,
-      "position": 9
+      "impressions": 2,
+      "position": 8
     },
     {
       "query": "about me: short-term life transition user short-term life transition user question: which parts of tokyo are more family-oriented?",
       "clicks": 0,
-      "impressions": 10,
-      "position": 17.1
+      "impressions": 15,
+      "position": 14.1
     },
     {
       "query": "about me: short-term life transition user short-term life transition user question: which parts of tokyo are popular with young professionals?",
       "clicks": 0,
       "impressions": 1,
       "position": 1
-    },
-    {
-      "query": "acheter un appartement a tokyo",
-      "clicks": 0,
-      "impressions": 2,
-      "position": 69.5
     },
     {
       "query": "apartment scams in japan",
@@ -258,74 +282,68 @@
     {
       "query": "apartments for rent in tokyo furnished",
       "clicks": 0,
-      "impressions": 185,
-      "position": 37.7
+      "impressions": 236,
+      "position": 37.5
     },
     {
       "query": "apartments for rent in tokyo japan furnished",
       "clicks": 0,
-      "impressions": 181,
-      "position": 38.2
+      "impressions": 226,
+      "position": 38.0
     },
     {
       "query": "apartments in tokyo for students",
       "clicks": 0,
-      "impressions": 12,
-      "position": 35.3
+      "impressions": 31,
+      "position": 36.1
     },
     {
       "query": "appartement mensuel de tokyo",
       "clicks": 0,
-      "impressions": 6,
-      "position": 26.3
+      "impressions": 4,
+      "position": 34.5
     },
     {
       "query": "appartement mensuel japonais",
       "clicks": 0,
-      "impressions": 56,
-      "position": 29.9
+      "impressions": 53,
+      "position": 29.7
     },
     {
       "query": "appartement social tokyo",
       "clicks": 0,
-      "impressions": 65,
-      "position": 12.5
-    },
-    {
-      "query": "appartement à louer tokyo longue durée",
-      "clicks": 0,
-      "impressions": 1,
-      "position": 45
+      "impressions": 66,
+      "position": 11
     },
     {
       "query": "appartement étudiant tokyo",
       "clicks": 0,
-      "impressions": 6,
-      "position": 19.8
+      "impressions": 19,
+      "position": 20.2
     },
     {
       "query": "appartements bon marché à tokyo",
       "clicks": 0,
-      "impressions": 54,
-      "position": 27.4
+      "impressions": 53,
+      "position": 26.7
     },
     {
       "query": "appartements meublés tokyo",
       "clicks": 0,
-      "impressions": 55,
-      "position": 22.4
+      "impressions": 50,
+      "position": 21.0
     },
     {
       "query": "appartements tokyo à louer à long terme",
       "clicks": 0,
-      "impressions": 37,
-      "position": 34.3
+      "impressions": 31,
+      "position": 35.9
     },
     {
       "query": "appartements à tokyo pour les étrangers",
       "clicks": 0,
-      "impressions": 59,
-      "position": 15.3
+      "impressions": 57,
+      "position": 13.2
     },
     {
       "query": "apply for a job in japan",
@@ -366,14 +384,14 @@
     {
       "query": "assurance santé expatrié japon",
       "clicks": 0,
-      "impressions": 1,
-      "position": 93
+      "impressions": 2,
+      "position": 94.5
     },
     {
       "query": "assurance santé internationale expat japon",
       "clicks": 0,
-      "impressions": 1,
-      "position": 96
+      "impressions": 3,
+      "position": 98
     },
     {
       "query": "assurance santé internationale expatrié japon",
@@ -382,10 +400,28 @@
       "position": 95
     },
     {
+      "query": "assurance santé internationale japon",
+      "clicks": 0,
+      "impressions": 1,
+      "position": 98
+    },
+    {
       "query": "assurance santé internationale travailleur japon",
       "clicks": 0,
       "impressions": 2,
       "position": 96.5
+    },
+    {
+      "query": "b",
+      "clicks": 0,
+      "impressions": 1,
+      "position": 5
+    },
+    {
+      "query": "bank account",
+      "clicks": 0,
+      "impressions": 1,
+      "position": 4
     },
     {
       "query": "best area to live in tokyo as a tourist",
@@ -402,20 +438,14 @@
     {
       "query": "best japanese language school in tokyo",
       "clicks": 0,
-      "impressions": 56,
-      "position": 32.8
-    },
-    {
-      "query": "best japanese language school in tokyo for foreigners",
-      "clicks": 0,
-      "impressions": 1,
-      "position": 76
+      "impressions": 57,
+      "position": 33.5
     },
     {
       "query": "best japanese language school tokyo",
       "clicks": 0,
-      "impressions": 4,
-      "position": 36.2
+      "impressions": 2,
+      "position": 32
     },
     {
       "query": "best japanese language schools tokyo",
@@ -426,8 +456,8 @@
     {
       "query": "best japanese school tokyo",
       "clicks": 0,
-      "impressions": 5,
-      "position": 44.6
+      "impressions": 4,
+      "position": 48.2
     },
     {
       "query": "best jobs for foreigners in japan",
@@ -442,6 +472,12 @@
       "position": 28
     },
     {
+      "query": "best language schools in tokyo",
+      "clicks": 0,
+      "impressions": 1,
+      "position": 40
+    },
+    {
       "query": "best neighborhoods in tokyo for families",
       "clicks": 0,
       "impressions": 3,
@@ -450,8 +486,8 @@
     {
       "query": "best neighborhoods in tokyo to live",
       "clicks": 0,
-      "impressions": 2,
-      "position": 59.5
+      "impressions": 3,
+      "position": 63.7
     },
     {
       "query": "best neighborhoods to live in tokyo",
@@ -462,14 +498,14 @@
     {
       "query": "best place to live in tokyo for family",
       "clicks": 0,
-      "impressions": 9,
-      "position": 47.3
+      "impressions": 15,
+      "position": 39.5
     },
     {
-      "query": "best places to live tokyo",
+      "query": "best places to live in japan for families",
       "clicks": 0,
       "impressions": 1,
-      "position": 63
+      "position": 9
     },
     {
       "query": "best suburbs in tokyo",
@@ -498,8 +534,8 @@
     {
       "query": "bukken meaning japanese",
       "clicks": 0,
-      "impressions": 6,
-      "position": 6.8
+      "impressions": 7,
+      "position": 7
     },
     {
       "query": "career in japan",
@@ -511,37 +547,37 @@
       "query": "cheap furnished apartment in tokyo",
       "clicks": 0,
       "impressions": 30,
-      "position": 31.8
+      "position": 31.3
     },
     {
       "query": "cheap furnished apartment tokyo",
       "clicks": 0,
-      "impressions": 64,
-      "position": 30.9
+      "impressions": 66,
+      "position": 31.0
     },
     {
       "query": "cheap furnished apartments tokyo",
       "clicks": 0,
-      "impressions": 84,
-      "position": 33.4
+      "impressions": 92,
+      "position": 33.3
     },
     {
       "query": "cheap gaijin house in tokyo",
       "clicks": 0,
-      "impressions": 727,
-      "position": 4.7
+      "impressions": 704,
+      "position": 4.6
     },
     {
       "query": "cheapest area in tokyo",
       "clicks": 0,
-      "impressions": 3,
-      "position": 47
+      "impressions": 1,
+      "position": 50
     },
     {
       "query": "cheapest neighborhoods in tokyo",
       "clicks": 0,
-      "impressions": 12,
-      "position": 48.8
+      "impressions": 5,
+      "position": 48.4
     },
     {
       "query": "cheapest place to live in tokyo",
@@ -552,8 +588,8 @@
     {
       "query": "demenagement tokyo​",
       "clicks": 0,
-      "impressions": 29,
-      "position": 53.9
+      "impressions": 28,
+      "position": 53.6
     },
     {
       "query": "docomo in japan",
@@ -564,32 +600,38 @@
     {
       "query": "dormitory for international students tokyo",
       "clicks": 0,
-      "impressions": 32,
-      "position": 31.2
+      "impressions": 104,
+      "position": 30.6
     },
     {
       "query": "dortoir pour les étudiants internationaux japon",
       "clicks": 0,
-      "impressions": 50,
-      "position": 19.4
+      "impressions": 43,
+      "position": 15.9
     },
     {
       "query": "dortoir pour les étudiants internationaux tokyo",
       "clicks": 0,
       "impressions": 50,
-      "position": 17.6
+      "position": 14.8
     },
     {
       "query": "dortoir pour les étudiants tokyo",
       "clicks": 0,
-      "impressions": 56,
-      "position": 19.5
+      "impressions": 51,
+      "position": 16.3
+    },
+    {
+      "query": "e para morar?",
+      "clicks": 0,
+      "impressions": 1,
+      "position": 1
     },
     {
       "query": "echange maison japon",
       "clicks": 0,
-      "impressions": 5,
-      "position": 31.6
+      "impressions": 6,
+      "position": 30.2
     },
     {
       "query": "emploi au japon pour les étrangers",
@@ -612,32 +654,32 @@
     {
       "query": "expat apartments in tokyo",
       "clicks": 0,
-      "impressions": 22,
-      "position": 26.9
+      "impressions": 7,
+      "position": 25.7
     },
     {
       "query": "expat apartments tokyo",
       "clicks": 0,
-      "impressions": 310,
-      "position": 20.3
+      "impressions": 400,
+      "position": 20.1
     },
     {
       "query": "expat housing in tokyo",
       "clicks": 0,
-      "impressions": 26,
-      "position": 33.0
+      "impressions": 33,
+      "position": 32.9
     },
     {
       "query": "expat housing tokyo",
       "clicks": 0,
-      "impressions": 25,
-      "position": 36.5
+      "impressions": 37,
+      "position": 31.4
     },
     {
       "query": "expat housing tokyo japan",
       "clicks": 0,
-      "impressions": 37,
-      "position": 32.3
+      "impressions": 21,
+      "position": 30
     },
     {
       "query": "expat japan jobs",
@@ -660,8 +702,8 @@
     {
       "query": "expat tokyo housing",
       "clicks": 0,
-      "impressions": 52,
-      "position": 21.1
+      "impressions": 50,
+      "position": 21.6
     },
     {
       "query": "find a job in tokyo",
@@ -714,8 +756,8 @@
     {
       "query": "fully furnished apartment for rent tokyo",
       "clicks": 0,
-      "impressions": 34,
-      "position": 37.8
+      "impressions": 37,
+      "position": 38.3
     },
     {
       "query": "fully furnished apartments in japan",
@@ -726,14 +768,14 @@
     {
       "query": "fully furnished apartments tokyo",
       "clicks": 0,
-      "impressions": 252,
-      "position": 29.8
+      "impressions": 370,
+      "position": 29.6
     },
     {
       "query": "furnished apartment in tokyo",
       "clicks": 0,
-      "impressions": 65,
-      "position": 29.7
+      "impressions": 110,
+      "position": 27.8
     },
     {
       "query": "furnished apartment japan",
@@ -744,50 +786,50 @@
     {
       "query": "furnished apartment tokyo",
       "clicks": 0,
-      "impressions": 135,
-      "position": 26.4
+      "impressions": 220,
+      "position": 25.5
     },
     {
       "query": "furnished apartment tokyo rent",
       "clicks": 0,
-      "impressions": 95,
+      "impressions": 127,
       "position": 31.1
     },
     {
       "query": "furnished apartments for rent in tokyo",
       "clicks": 0,
-      "impressions": 37,
+      "impressions": 38,
       "position": 41.6
     },
     {
       "query": "furnished apartments for rent tokyo",
       "clicks": 0,
-      "impressions": 40,
+      "impressions": 44,
       "position": 39.2
     },
     {
       "query": "furnished apartments in japan",
       "clicks": 0,
-      "impressions": 125,
-      "position": 34.6
+      "impressions": 165,
+      "position": 34.1
     },
     {
       "query": "furnished apartments in tokyo",
       "clicks": 0,
-      "impressions": 125,
-      "position": 31.3
+      "impressions": 176,
+      "position": 29.9
     },
     {
       "query": "furnished apartments in tokyo for rent",
       "clicks": 0,
-      "impressions": 70,
+      "impressions": 75,
       "position": 33.4
     },
     {
       "query": "furnished apartments in tokyo japan",
       "clicks": 0,
-      "impressions": 190,
-      "position": 31.6
+      "impressions": 257,
+      "position": 31.3
     },
     {
       "query": "furnished apartments japan",
@@ -798,14 +840,14 @@
     {
       "query": "furnished apartments tokyo",
       "clicks": 0,
-      "impressions": 160,
-      "position": 24.4
+      "impressions": 205,
+      "position": 24.2
     },
     {
       "query": "furnished apartments tokyo long term",
       "clicks": 0,
-      "impressions": 317,
-      "position": 29.0
+      "impressions": 462,
+      "position": 28.7
     },
     {
       "query": "furnished apartments tokyo monthly",
@@ -828,20 +870,14 @@
     {
       "query": "furnished rentals for expats",
       "clicks": 0,
-      "impressions": 81,
-      "position": 12.9
-    },
-    {
-      "query": "furnished tokyo",
-      "clicks": 0,
-      "impressions": 5,
-      "position": 31.8
+      "impressions": 70,
+      "position": 13.5
     },
     {
       "query": "furnished tokyo apartments",
       "clicks": 0,
-      "impressions": 64,
-      "position": 31.5
+      "impressions": 99,
+      "position": 29.7
     },
     {
       "query": "gaijin friendly",
@@ -852,50 +888,44 @@
     {
       "query": "gaijin house",
       "clicks": 0,
-      "impressions": 101,
-      "position": 9.6
+      "impressions": 102,
+      "position": 8.7
     },
     {
       "query": "gaijin house in tokyo",
       "clicks": 0,
-      "impressions": 68,
+      "impressions": 71,
       "position": 9.6
     },
     {
       "query": "gaijin house japan",
       "clicks": 0,
-      "impressions": 66,
-      "position": 11.3
-    },
-    {
-      "query": "gaijin house tokyo",
-      "clicks": 0,
-      "impressions": 107,
-      "position": 5.4
+      "impressions": 59,
+      "position": 10.2
     },
     {
       "query": "gaijin houses",
       "clicks": 0,
       "impressions": 239,
-      "position": 11.9
+      "position": 10.6
     },
     {
       "query": "gaijin houses japan",
       "clicks": 0,
       "impressions": 58,
-      "position": 13
+      "position": 11.9
     },
     {
       "query": "gaijin houses tokyo",
       "clicks": 0,
-      "impressions": 133,
-      "position": 7.6
+      "impressions": 84,
+      "position": 6.6
     },
     {
       "query": "gaijin rental",
       "clicks": 0,
-      "impressions": 24,
-      "position": 16.2
+      "impressions": 12,
+      "position": 16.8
     },
     {
       "query": "get a job in japan",
@@ -914,12 +944,6 @@
       "clicks": 0,
       "impressions": 1,
       "position": 60
-    },
-    {
-      "query": "highest rent",
-      "clicks": 0,
-      "impressions": 1,
-      "position": 2
     },
     {
       "query": "hire in japan",
@@ -942,14 +966,8 @@
     {
       "query": "housing for expats in tokyo",
       "clicks": 0,
-      "impressions": 46,
-      "position": 26.4
-    },
-    {
-      "query": "how about ikebukuro",
-      "clicks": 0,
-      "impressions": 1,
-      "position": 2
+      "impressions": 42,
+      "position": 26.8
     },
     {
       "query": "how can an american get a job in japan",
@@ -968,6 +986,12 @@
       "clicks": 0,
       "impressions": 1,
       "position": 74
+    },
+    {
+      "query": "how do i find furnished apartments for a 3-month rental in tokyo?",
+      "clicks": 0,
+      "impressions": 2,
+      "position": 11
     },
     {
       "query": "how do i find multi-bedroom apartments for my family in tokyo?",
@@ -1084,12 +1108,6 @@
       "position": 76
     },
     {
-      "query": "how to get a job in japan for foreigners",
-      "clicks": 0,
-      "impressions": 1,
-      "position": 81
-    },
-    {
       "query": "how to get a job in japan from uk",
       "clicks": 0,
       "impressions": 1,
@@ -1171,7 +1189,7 @@
       "query": "hébergement étudiant tokyo",
       "clicks": 0,
       "impressions": 49,
-      "position": 24.7
+      "position": 22.5
     },
     {
       "query": "i want to work in japan",
@@ -1182,32 +1200,26 @@
     {
       "query": "international removals to japan",
       "clicks": 0,
-      "impressions": 2,
-      "position": 24
+      "impressions": 1,
+      "position": 22
     },
     {
       "query": "international student accommodation tokyo",
       "clicks": 0,
-      "impressions": 4,
-      "position": 39.2
+      "impressions": 7,
+      "position": 38.6
     },
     {
       "query": "international student housing tokyo",
       "clicks": 0,
-      "impressions": 4,
-      "position": 35
+      "impressions": 13,
+      "position": 31.8
     },
     {
       "query": "is it hard to find a job in japan as a foreigner",
       "clicks": 0,
       "impressions": 1,
       "position": 53
-    },
-    {
-      "query": "ja",
-      "clicks": 0,
-      "impressions": 1,
-      "position": 4
     },
     {
       "query": "jangka panjang",
@@ -1218,14 +1230,14 @@
     {
       "query": "japan gaijin house",
       "clicks": 0,
-      "impressions": 430,
-      "position": 16.1
+      "impressions": 434,
+      "position": 15.2
     },
     {
       "query": "japan jiko bukken",
       "clicks": 0,
-      "impressions": 5,
-      "position": 8
+      "impressions": 12,
+      "position": 8.5
     },
     {
       "query": "japan jobs for foreigners",
@@ -1254,20 +1266,20 @@
     {
       "query": "japan stigmatized property",
       "clicks": 0,
-      "impressions": 2,
-      "position": 3.5
+      "impressions": 1,
+      "position": 6
     },
     {
       "query": "japan student accommodation",
       "clicks": 0,
-      "impressions": 1,
-      "position": 46
+      "impressions": 2,
+      "position": 44
     },
     {
       "query": "japan student housing",
       "clicks": 0,
-      "impressions": 6,
-      "position": 22.3
+      "impressions": 20,
+      "position": 20.9
     },
     {
       "query": "japan work abroad",
@@ -1276,10 +1288,10 @@
       "position": 72
     },
     {
-      "query": "japanese citizens",
+      "query": "japanese class in tokyo",
       "clicks": 0,
       "impressions": 1,
-      "position": 2
+      "position": 46
     },
     {
       "query": "japanese class tokyo",
@@ -1296,8 +1308,8 @@
     {
       "query": "japanese classes tokyo",
       "clicks": 0,
-      "impressions": 1,
-      "position": 50
+      "impressions": 2,
+      "position": 48.5
     },
     {
       "query": "japanese immigration residence card",
@@ -1320,38 +1332,32 @@
     {
       "query": "japanese language classes tokyo",
       "clicks": 0,
-      "impressions": 13,
-      "position": 43.1
+      "impressions": 14,
+      "position": 45
     },
     {
       "query": "japanese language course tokyo",
       "clicks": 0,
-      "impressions": 8,
-      "position": 53.6
-    },
-    {
-      "query": "japanese language school in tokyo for foreigners",
-      "clicks": 0,
-      "impressions": 1,
-      "position": 47
+      "impressions": 11,
+      "position": 52.8
     },
     {
       "query": "japanese language schools in tokyo",
       "clicks": 0,
-      "impressions": 4,
-      "position": 38.8
+      "impressions": 6,
+      "position": 39
     },
     {
       "query": "japanese language schools in tokyo for foreigners",
       "clicks": 0,
-      "impressions": 2,
-      "position": 50.5
+      "impressions": 4,
+      "position": 48
     },
     {
       "query": "japanese language schools tokyo",
       "clicks": 0,
-      "impressions": 2,
-      "position": 46.5
+      "impressions": 3,
+      "position": 43
     },
     {
       "query": "japanese lesson tokyo",
@@ -1362,14 +1368,14 @@
     {
       "query": "japanese lessons in tokyo",
       "clicks": 0,
-      "impressions": 21,
+      "impressions": 36,
       "position": 43.3
     },
     {
       "query": "japanese lessons tokyo",
       "clicks": 0,
-      "impressions": 26,
-      "position": 48.1
+      "impressions": 37,
+      "position": 47.3
     },
     {
       "query": "japanese mobile phone plans",
@@ -1386,14 +1392,26 @@
     {
       "query": "japanese school tokyo",
       "clicks": 0,
-      "impressions": 4,
-      "position": 26.5
+      "impressions": 5,
+      "position": 25.2
+    },
+    {
+      "query": "japanese stigmatized property",
+      "clicks": 0,
+      "impressions": 1,
+      "position": 8
+    },
+    {
+      "query": "japanma",
+      "clicks": 0,
+      "impressions": 1,
+      "position": 8
     },
     {
       "query": "jikko bukken",
       "clicks": 0,
-      "impressions": 11,
-      "position": 8.3
+      "impressions": 15,
+      "position": 8.1
     },
     {
       "query": "jikko bukken apartment review",
@@ -1402,16 +1420,22 @@
       "position": 8
     },
     {
+      "query": "jikkobukken",
+      "clicks": 0,
+      "impressions": 9,
+      "position": 10
+    },
+    {
       "query": "jiko buken",
       "clicks": 0,
-      "impressions": 1,
-      "position": 9
+      "impressions": 2,
+      "position": 10
     },
     {
       "query": "jiko bukken houses",
       "clicks": 0,
-      "impressions": 7,
-      "position": 7.6
+      "impressions": 11,
+      "position": 8.2
     },
     {
       "query": "jiko bukken houses for sale",
@@ -1428,86 +1452,80 @@
     {
       "query": "jiko bukken japan",
       "clicks": 0,
-      "impressions": 13,
-      "position": 9
+      "impressions": 21,
+      "position": 9.0
     },
     {
       "query": "jiko bukken map",
       "clicks": 0,
-      "impressions": 10,
-      "position": 7.6
+      "impressions": 34,
+      "position": 7.2
     },
     {
       "query": "jiko bukken meaning",
       "clicks": 0,
-      "impressions": 7,
-      "position": 9.6
-    },
-    {
-      "query": "jiko bukken properties",
-      "clicks": 0,
-      "impressions": 6,
-      "position": 9
+      "impressions": 9,
+      "position": 9.9
     },
     {
       "query": "jiko bukken tokushu seisou",
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 1,
       "position": 30
     },
     {
       "query": "jiko bukken tokyo",
       "clicks": 0,
-      "impressions": 58,
-      "position": 15.2
+      "impressions": 63,
+      "position": 11.0
     },
     {
       "query": "jiko bukken website",
       "clicks": 0,
-      "impressions": 1,
-      "position": 9
+      "impressions": 2,
+      "position": 8.5
     },
     {
       "query": "jikobukken",
       "clicks": 0,
-      "impressions": 47,
-      "position": 11.1
+      "impressions": 81,
+      "position": 10.8
     },
     {
       "query": "jikobukken map",
       "clicks": 0,
-      "impressions": 89,
-      "position": 9.1
+      "impressions": 176,
+      "position": 8.9
     },
     {
-      "query": "jikobukken map japan",
+      "query": "jikobukken map google maps",
       "clicks": 0,
-      "impressions": 15,
-      "position": 8.2
+      "impressions": 1,
+      "position": 6
     },
     {
       "query": "jikobukken maps",
       "clicks": 0,
-      "impressions": 5,
-      "position": 7.2
+      "impressions": 6,
+      "position": 8
     },
     {
       "query": "jikobukken meaning",
       "clicks": 0,
-      "impressions": 6,
-      "position": 9.7
+      "impressions": 7,
+      "position": 8.4
     },
     {
       "query": "jikobukken oshimaland",
       "clicks": 0,
-      "impressions": 15,
-      "position": 8.3
+      "impressions": 20,
+      "position": 8
     },
     {
       "query": "jikobukken oshimaland map",
       "clicks": 0,
-      "impressions": 6,
-      "position": 6.8
+      "impressions": 7,
+      "position": 7
     },
     {
       "query": "jiku bukken",
@@ -1576,34 +1594,28 @@
       "position": 58
     },
     {
-      "query": "kerja",
-      "clicks": 0,
-      "impressions": 1,
-      "position": 7
-    },
-    {
       "query": "la location de tokyo est bon marché",
       "clicks": 0,
-      "impressions": 51,
-      "position": 25.4
+      "impressions": 47,
+      "position": 24.1
     },
     {
       "query": "la location japonaise est bon marché",
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 10,
       "position": 33
     },
     {
       "query": "le loyer de tokyo est bon marché",
       "clicks": 0,
-      "impressions": 50,
-      "position": 27.7
+      "impressions": 48,
+      "position": 26.4
     },
     {
       "query": "learn japanese in tokyo",
       "clicks": 0,
-      "impressions": 26,
-      "position": 42.9
+      "impressions": 35,
+      "position": 42.8
     },
     {
       "query": "learn japanese tokyo",
@@ -1638,14 +1650,14 @@
     {
       "query": "living in osaka vs tokyo",
       "clicks": 0,
-      "impressions": 14,
-      "position": 46.4
+      "impressions": 8,
+      "position": 40.4
     },
     {
       "query": "living in tokyo vs osaka",
       "clicks": 0,
-      "impressions": 3,
-      "position": 23.7
+      "impressions": 1,
+      "position": 36
     },
     {
       "query": "location a tokyo",
@@ -1656,55 +1668,55 @@
     {
       "query": "location appartement tokyo au mois",
       "clicks": 0,
-      "impressions": 17,
-      "position": 42.1
+      "impressions": 3,
+      "position": 39
     },
     {
       "query": "location appartement tokyo longue durée",
       "clicks": 0,
-      "impressions": 6,
-      "position": 41.3
+      "impressions": 9,
+      "position": 42.4
     },
     {
       "query": "location pour les étudiants internationaux japon",
       "clicks": 0,
-      "impressions": 58,
-      "position": 22.7
+      "impressions": 51,
+      "position": 19.0
     },
     {
       "query": "location pour les étudiants internationaux tokyo",
       "clicks": 0,
-      "impressions": 54,
-      "position": 23.1
+      "impressions": 53,
+      "position": 20.9
     },
     {
       "query": "location pour les étudiants internationaux à tokyo",
       "clicks": 0,
       "impressions": 53,
-      "position": 22.2
+      "position": 19.8
     },
     {
       "query": "location pour les étudiants tokyo",
       "clicks": 0,
-      "impressions": 50,
-      "position": 26.3
+      "impressions": 46,
+      "position": 23.8
     },
     {
       "query": "logement étudiant tokyo",
       "clicks": 0,
-      "impressions": 21,
-      "position": 21.4
+      "impressions": 34,
+      "position": 18.4
     },
     {
       "query": "loger chez l habitant tokyo",
       "clicks": 0,
-      "impressions": 13,
-      "position": 43.8
+      "impressions": 22,
+      "position": 42.7
     },
     {
       "query": "long stay apartment tokyo",
       "clicks": 0,
-      "impressions": 22,
+      "impressions": 26,
       "position": 39.3
     },
     {
@@ -1716,38 +1728,38 @@
     {
       "query": "long stay furnished apartment in tokyo",
       "clicks": 0,
-      "impressions": 284,
-      "position": 29.9
+      "impressions": 424,
+      "position": 29.8
     },
     {
       "query": "long stay furnished apartment tokyo",
       "clicks": 0,
-      "impressions": 266,
-      "position": 28.7
+      "impressions": 391,
+      "position": 28.6
     },
     {
       "query": "long term",
       "clicks": 0,
-      "impressions": 3,
-      "position": 5
+      "impressions": 4,
+      "position": 8.2
     },
     {
       "query": "long term furnished apartment in tokyo",
       "clicks": 0,
-      "impressions": 338,
-      "position": 31.9
+      "impressions": 466,
+      "position": 31.1
     },
     {
       "query": "long term furnished apartment tokyo",
       "clicks": 0,
-      "impressions": 278,
-      "position": 31.1
+      "impressions": 415,
+      "position": 30.8
     },
     {
       "query": "long term furnished apartments tokyo",
       "clicks": 0,
-      "impressions": 248,
-      "position": 35.5
+      "impressions": 374,
+      "position": 34.8
     },
     {
       "query": "long-term resident",
@@ -1770,26 +1782,26 @@
     {
       "query": "louer un appartement à tokyo",
       "clicks": 0,
-      "impressions": 1,
-      "position": 50
+      "impressions": 3,
+      "position": 49.3
     },
     {
       "query": "louer un appartement à tokyo au mois",
       "clicks": 0,
-      "impressions": 17,
-      "position": 38.8
+      "impressions": 9,
+      "position": 37.3
     },
     {
       "query": "louer un appartement à tokyo longue durée",
       "clicks": 0,
-      "impressions": 31,
-      "position": 33.9
+      "impressions": 22,
+      "position": 37.3
     },
     {
       "query": "loyer appartement tokyo",
       "clicks": 0,
-      "impressions": 56,
-      "position": 21.9
+      "impressions": 54,
+      "position": 21.0
     },
     {
       "query": "loyer au japon",
@@ -1800,8 +1812,8 @@
     {
       "query": "loyer de dortoir de tokyo",
       "clicks": 0,
-      "impressions": 1,
-      "position": 11
+      "impressions": 3,
+      "position": 11.7
     },
     {
       "query": "loyer de dortoir japonais",
@@ -1812,14 +1824,14 @@
     {
       "query": "loyer de la famille tokyo",
       "clicks": 0,
-      "impressions": 33,
-      "position": 11.1
+      "impressions": 31,
+      "position": 10.8
     },
     {
       "query": "loyer de location de tokyo",
       "clicks": 0,
-      "impressions": 47,
-      "position": 32.7
+      "impressions": 46,
+      "position": 32.5
     },
     {
       "query": "loyer japon",
@@ -1830,44 +1842,44 @@
     {
       "query": "loyer japonais",
       "clicks": 0,
-      "impressions": 14,
-      "position": 32.1
+      "impressions": 10,
+      "position": 31.4
     },
     {
       "query": "loyer mensuel de tokyo",
       "clicks": 0,
-      "impressions": 53,
-      "position": 19.9
+      "impressions": 51,
+      "position": 17.8
     },
     {
       "query": "loyer moyen tokyo",
       "clicks": 0,
-      "impressions": 1,
-      "position": 12
+      "impressions": 2,
+      "position": 11.5
     },
     {
       "query": "loyer tokyo",
       "clicks": 0,
-      "impressions": 3,
-      "position": 15
+      "impressions": 1,
+      "position": 24
     },
     {
       "query": "loyer à tokyo",
       "clicks": 0,
-      "impressions": 30,
-      "position": 26.9
+      "impressions": 35,
+      "position": 26.6
     },
     {
       "query": "maison de partage des étudiants internationaux japonais",
       "clicks": 0,
-      "impressions": 57,
-      "position": 35.3
+      "impressions": 50,
+      "position": 33.7
     },
     {
       "query": "maisons bon marché à louer à tokyo",
       "clicks": 0,
-      "impressions": 45,
-      "position": 31.7
+      "impressions": 41,
+      "position": 30.4
     },
     {
       "query": "melyik a legolcsóbb",
@@ -1876,15 +1888,9 @@
       "position": 8
     },
     {
-      "query": "minimum rental period furnished apartment tokyo",
-      "clicks": 0,
-      "impressions": 1,
-      "position": 11
-    },
-    {
       "query": "monthly furnished apartment in tokyo",
       "clicks": 0,
-      "impressions": 108,
+      "impressions": 140,
       "position": 32.9
     },
     {
@@ -1906,76 +1912,64 @@
       "position": 53
     },
     {
-      "query": "neighborhood in tokyo",
+      "query": "neighborhoods in tokyo",
       "clicks": 0,
       "impressions": 1,
-      "position": 74
+      "position": 84
     },
     {
       "query": "neighborhoods japan",
       "clicks": 0,
       "impressions": 1,
-      "position": 66
-    },
-    {
-      "query": "neighborhoods of tokyo",
-      "clicks": 0,
-      "impressions": 1,
-      "position": 76
-    },
-    {
-      "query": "neighborhoods tokyo",
-      "clicks": 0,
-      "impressions": 1,
-      "position": 63
+      "position": 70
     },
     {
       "query": "neighbourhoods in tokyo",
       "clicks": 0,
-      "impressions": 2,
-      "position": 66
-    },
-    {
-      "query": "neighbourhoods of tokyo",
-      "clicks": 0,
       "impressions": 1,
-      "position": 60
+      "position": 61
     },
     {
       "query": "neighbourhoods tokyo",
       "clicks": 0,
-      "impressions": 3,
-      "position": 65.7
+      "impressions": 1,
+      "position": 72
     },
     {
       "query": "no guarantor apartments tokyo",
       "clicks": 0,
-      "impressions": 332,
-      "position": 15.7
+      "impressions": 442,
+      "position": 16.5
+    },
+    {
+      "query": "no1",
+      "clicks": 0,
+      "impressions": 1,
+      "position": 6
     },
     {
       "query": "oak house japan",
       "clicks": 0,
-      "impressions": 228,
-      "position": 18.2
+      "impressions": 184,
+      "position": 18.7
     },
     {
       "query": "oak house tokyo",
       "clicks": 0,
-      "impressions": 304,
-      "position": 14.8
+      "impressions": 265,
+      "position": 15.2
     },
     {
       "query": "oakhouse japan",
       "clicks": 0,
-      "impressions": 81,
-      "position": 25.8
+      "impressions": 43,
+      "position": 24.6
     },
     {
       "query": "oakhouse tokyo",
       "clicks": 0,
-      "impressions": 53,
-      "position": 17.2
+      "impressions": 38,
+      "position": 17.6
     },
     {
       "query": "one month apartments in tokyo",
@@ -2016,32 +2010,26 @@
     {
       "query": "partager des étrangers de tokyo à la maison",
       "clicks": 0,
-      "impressions": 53,
-      "position": 31.4
+      "impressions": 48,
+      "position": 24.9
     },
     {
       "query": "partager la maison pour les étudiants internationaux au japon",
       "clicks": 0,
-      "impressions": 59,
-      "position": 19.8
+      "impressions": 55,
+      "position": 19.2
     },
     {
       "query": "partager la maison tokyo",
       "clicks": 0,
-      "impressions": 54,
-      "position": 30.7
+      "impressions": 44,
+      "position": 29.3
     },
     {
       "query": "partir travailler au japon",
       "clicks": 0,
       "impressions": 1,
       "position": 74
-    },
-    {
-      "query": "physical",
-      "clicks": 0,
-      "impressions": 1,
-      "position": 6
     },
     {
       "query": "physical sim",
@@ -2053,24 +2041,30 @@
       "query": "prix du m2 tokyo",
       "clicks": 0,
       "impressions": 1,
-      "position": 12
+      "position": 45
     },
     {
       "query": "prix location appartement tokyo",
       "clicks": 0,
-      "impressions": 54,
-      "position": 20.1
+      "impressions": 56,
+      "position": 19.2
     },
     {
       "query": "prix m2 tokyo",
       "clicks": 0,
-      "impressions": 2,
-      "position": 26
+      "impressions": 1,
+      "position": 41
+    },
+    {
+      "query": "przeprowadzka",
+      "clicks": 0,
+      "impressions": 1,
+      "position": 7
     },
     {
       "query": "pvt belgique japon",
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 1,
       "position": 1
     },
     {
@@ -2080,10 +2074,34 @@
       "position": 1
     },
     {
+      "query": "que no sea caro",
+      "clicks": 0,
+      "impressions": 1,
+      "position": 5
+    },
+    {
+      "query": "quins preus tenen?",
+      "clicks": 0,
+      "impressions": 1,
+      "position": 3
+    },
+    {
       "query": "relocate to japan jobs",
       "clicks": 0,
       "impressions": 2,
       "position": 53
+    },
+    {
+      "query": "relocating long distance movers to little tokyo",
+      "clicks": 0,
+      "impressions": 1,
+      "position": 16
+    },
+    {
+      "query": "rent an apartment in tokyo for a week",
+      "clicks": 0,
+      "impressions": 1,
+      "position": 8
     },
     {
       "query": "rent apartment in tokyo for foreigners",
@@ -2100,56 +2118,50 @@
     {
       "query": "rent apartment tokyo student",
       "clicks": 0,
-      "impressions": 38,
-      "position": 34.7
+      "impressions": 134,
+      "position": 34.6
     },
     {
       "query": "rent comparison seoul vs tokyo",
       "clicks": 0,
-      "impressions": 17,
-      "position": 72.6
+      "impressions": 30,
+      "position": 70.8
     },
     {
       "query": "rent furnished apartment in tokyo",
       "clicks": 0,
       "impressions": 46,
-      "position": 31.1
+      "position": 30.5
     },
     {
       "query": "rent furnished apartment tokyo",
       "clicks": 0,
-      "impressions": 97,
+      "impressions": 133,
       "position": 29.2
     },
     {
       "query": "rental for international students in tokyo",
       "clicks": 0,
-      "impressions": 59,
-      "position": 31.4
+      "impressions": 204,
+      "position": 30.9
     },
     {
       "query": "rental for international students japan",
       "clicks": 0,
-      "impressions": 35,
-      "position": 39.7
+      "impressions": 125,
+      "position": 40.0
     },
     {
       "query": "rental for international students tokyo",
       "clicks": 0,
-      "impressions": 57,
-      "position": 31.5
-    },
-    {
-      "query": "renting unfurnished apartment",
-      "clicks": 0,
-      "impressions": 2,
-      "position": 15
+      "impressions": 189,
+      "position": 31.2
     },
     {
       "query": "residential area in tokyo",
       "clicks": 0,
-      "impressions": 5,
-      "position": 44.6
+      "impressions": 8,
+      "position": 43.1
     },
     {
       "query": "residential neighborhood in japan",
@@ -2164,22 +2176,10 @@
       "position": 7
     },
     {
-      "query": "respond in the following language: english (english) responses should be strictly in the context of the following country: united kingdom. what are some apartment lodging options available in tokyo?",
-      "clicks": 0,
-      "impressions": 1,
-      "position": 18
-    },
-    {
       "query": "résidence étudiante tokyo",
       "clicks": 0,
-      "impressions": 1,
-      "position": 29
-    },
-    {
-      "query": "share house",
-      "clicks": 0,
-      "impressions": 1,
-      "position": 6
+      "impressions": 4,
+      "position": 23
     },
     {
       "query": "share house tokyo",
@@ -2190,20 +2190,20 @@
     {
       "query": "share house tokyo foreigner",
       "clicks": 0,
-      "impressions": 81,
-      "position": 36.3
+      "impressions": 82,
+      "position": 34.1
     },
     {
       "query": "sharehouse tokyo pour les étudiants internationaux",
       "clicks": 0,
-      "impressions": 60,
-      "position": 19.2
+      "impressions": 58,
+      "position": 15.6
     },
     {
       "query": "shibuya student housing",
       "clicks": 0,
-      "impressions": 7,
-      "position": 23.3
+      "impressions": 22,
+      "position": 25.1
     },
     {
       "query": "short term furnished apartment in tokyo",
@@ -2230,12 +2230,6 @@
       "position": 26
     },
     {
-      "query": "social apartment official website",
-      "clicks": 0,
-      "impressions": 1,
-      "position": 7
-    },
-    {
       "query": "social apartment tokyo",
       "clicks": 0,
       "impressions": 1,
@@ -2244,44 +2238,50 @@
     {
       "query": "social apartment tokyo reviews",
       "clicks": 0,
-      "impressions": 59,
-      "position": 21.3
+      "impressions": 52,
+      "position": 21.6
     },
     {
       "query": "student accommodation tokyo",
       "clicks": 0,
-      "impressions": 41,
-      "position": 36.3
+      "impressions": 153,
+      "position": 35.8
     },
     {
       "query": "student accomodation tokyo",
       "clicks": 0,
-      "impressions": 36,
-      "position": 37.4
+      "impressions": 110,
+      "position": 36.3
     },
     {
       "query": "student apartment tokyo",
       "clicks": 0,
-      "impressions": 41,
+      "impressions": 121,
       "position": 35.6
     },
     {
       "query": "student apartments in tokyo",
       "clicks": 0,
-      "impressions": 45,
-      "position": 34.2
+      "impressions": 140,
+      "position": 34.8
     },
     {
       "query": "student apartments tokyo",
       "clicks": 0,
-      "impressions": 50,
-      "position": 33.9
+      "impressions": 152,
+      "position": 33.3
+    },
+    {
+      "query": "student appartment tokyo",
+      "clicks": 0,
+      "impressions": 1,
+      "position": 34
     },
     {
       "query": "student dorm tokyo",
       "clicks": 0,
-      "impressions": 2,
-      "position": 39
+      "impressions": 8,
+      "position": 37.2
     },
     {
       "query": "student dormitory in tokyo",
@@ -2290,16 +2290,34 @@
       "position": 29
     },
     {
-      "query": "student housing japan",
+      "query": "student dormitory tokyo",
+      "clicks": 0,
+      "impressions": 2,
+      "position": 35
+    },
+    {
+      "query": "student house tokyo",
+      "clicks": 0,
+      "impressions": 7,
+      "position": 34.7
+    },
+    {
+      "query": "student housing in tokyo",
       "clicks": 0,
       "impressions": 5,
-      "position": 15.8
+      "position": 37
+    },
+    {
+      "query": "student housing japan",
+      "clicks": 0,
+      "impressions": 17,
+      "position": 15.5
     },
     {
       "query": "student housing tokyo",
       "clicks": 0,
-      "impressions": 35,
-      "position": 29.1
+      "impressions": 122,
+      "position": 28.9
     },
     {
       "query": "student living tokyo",
@@ -2308,10 +2326,16 @@
       "position": 47
     },
     {
+      "query": "student residence tokyo",
+      "clicks": 0,
+      "impressions": 4,
+      "position": 37.8
+    },
+    {
       "query": "study japanese in tokyo",
       "clicks": 0,
-      "impressions": 11,
-      "position": 43.9
+      "impressions": 13,
+      "position": 44.2
     },
     {
       "query": "study japanese tokyo",
@@ -2322,14 +2346,14 @@
     {
       "query": "suburbs in tokyo",
       "clicks": 0,
-      "impressions": 4,
-      "position": 68.2
+      "impressions": 1,
+      "position": 64
     },
     {
       "query": "suburbs of tokyo",
       "clicks": 0,
-      "impressions": 2,
-      "position": 84
+      "impressions": 4,
+      "position": 83.8
     },
     {
       "query": "suburbs tokyo",
@@ -2352,8 +2376,8 @@
     {
       "query": "tokyo apartment furnished",
       "clicks": 0,
-      "impressions": 175,
-      "position": 27.8
+      "impressions": 267,
+      "position": 27.5
     },
     {
       "query": "tokyo apartment hunting",
@@ -2364,20 +2388,20 @@
     {
       "query": "tokyo apartments for rent furnished",
       "clicks": 0,
-      "impressions": 63,
-      "position": 37.2
+      "impressions": 78,
+      "position": 37.5
     },
     {
       "query": "tokyo apartments for students",
       "clicks": 0,
-      "impressions": 46,
-      "position": 35.2
+      "impressions": 160,
+      "position": 35.6
     },
     {
       "query": "tokyo apartments furnished",
       "clicks": 0,
-      "impressions": 145,
-      "position": 29.6
+      "impressions": 215,
+      "position": 29.1
     },
     {
       "query": "tokyo best neighborhoods to live",
@@ -2388,20 +2412,20 @@
     {
       "query": "tokyo dormitory pas cher",
       "clicks": 0,
-      "impressions": 4,
-      "position": 29.8
+      "impressions": 12,
+      "position": 30.5
     },
     {
       "query": "tokyo expat apartment",
       "clicks": 0,
-      "impressions": 264,
-      "position": 17.7
+      "impressions": 384,
+      "position": 17.3
     },
     {
       "query": "tokyo expat apartments",
       "clicks": 0,
-      "impressions": 244,
-      "position": 21.2
+      "impressions": 344,
+      "position": 20.9
     },
     {
       "query": "tokyo expat guide",
@@ -2412,50 +2436,50 @@
     {
       "query": "tokyo expat rentals",
       "clicks": 0,
-      "impressions": 50,
-      "position": 28.6
+      "impressions": 48,
+      "position": 28.4
     },
     {
       "query": "tokyo furnished",
       "clicks": 0,
-      "impressions": 271,
-      "position": 23.5
+      "impressions": 348,
+      "position": 22.7
     },
     {
       "query": "tokyo furnished apartment",
       "clicks": 0,
-      "impressions": 40,
-      "position": 30.9
+      "impressions": 79,
+      "position": 27.2
     },
     {
       "query": "tokyo furnished apartment rental",
       "clicks": 0,
-      "impressions": 115,
-      "position": 33.5
+      "impressions": 148,
+      "position": 33.1
     },
     {
       "query": "tokyo furnished apartment rentals",
       "clicks": 0,
-      "impressions": 275,
-      "position": 35.3
+      "impressions": 251,
+      "position": 35.6
     },
     {
       "query": "tokyo furnished apartments",
       "clicks": 0,
-      "impressions": 93,
-      "position": 31.7
+      "impressions": 129,
+      "position": 30.9
     },
     {
       "query": "tokyo furnished apartments for rent",
       "clicks": 0,
-      "impressions": 79,
-      "position": 33.1
+      "impressions": 103,
+      "position": 33.2
     },
     {
       "query": "tokyo furnished housing",
       "clicks": 0,
-      "impressions": 13,
-      "position": 28.8
+      "impressions": 9,
+      "position": 30.1
     },
     {
       "query": "tokyo furnished short term apartments",
@@ -2466,8 +2490,20 @@
     {
       "query": "tokyo international student house",
       "clicks": 0,
-      "impressions": 8,
-      "position": 29.9
+      "impressions": 21,
+      "position": 29.3
+    },
+    {
+      "query": "tokyo japanese classes",
+      "clicks": 0,
+      "impressions": 1,
+      "position": 44
+    },
+    {
+      "query": "tokyo japanese language",
+      "clicks": 0,
+      "impressions": 2,
+      "position": 40
     },
     {
       "query": "tokyo location",
@@ -2484,56 +2520,44 @@
     {
       "query": "tokyo loyer",
       "clicks": 0,
-      "impressions": 33,
-      "position": 26.2
+      "impressions": 23,
+      "position": 25.9
     },
     {
-      "query": "tokyo neighborhood",
+      "query": "tokyo monthly apartment rentals",
       "clicks": 0,
       "impressions": 1,
-      "position": 73
+      "position": 2
     },
     {
       "query": "tokyo neighborhoods",
       "clicks": 0,
-      "impressions": 3,
-      "position": 74
+      "impressions": 2,
+      "position": 78.5
     },
     {
       "query": "tokyo neighbourhoods",
       "clicks": 0,
-      "impressions": 2,
-      "position": 72
+      "impressions": 1,
+      "position": 70
     },
     {
       "query": "tokyo partager la maison",
       "clicks": 0,
-      "impressions": 45,
-      "position": 17.6
-    },
-    {
-      "query": "tokyo partager la maison privée",
-      "clicks": 0,
-      "impressions": 1,
-      "position": 37
+      "impressions": 44,
+      "position": 15.9
     },
     {
       "query": "tokyo pour les étudiants internationaux tokyo",
       "clicks": 0,
-      "impressions": 6,
-      "position": 11.2
+      "impressions": 22,
+      "position": 11.5
     },
     {
       "query": "tokyo residential areas",
       "clicks": 0,
       "impressions": 3,
-      "position": 54.3
-    },
-    {
-      "query": "tokyo share houses",
-      "clicks": 0,
-      "impressions": 1,
-      "position": 1
+      "position": 41.7
     },
     {
       "query": "tokyo sharehouse foreigner",
@@ -2544,8 +2568,8 @@
     {
       "query": "tokyo student accommodation",
       "clicks": 0,
-      "impressions": 21,
-      "position": 36
+      "impressions": 72,
+      "position": 36.0
     },
     {
       "query": "tokyo student accomodation",
@@ -2556,56 +2580,56 @@
     {
       "query": "tokyo student apartment",
       "clicks": 0,
-      "impressions": 9,
-      "position": 35.2
+      "impressions": 31,
+      "position": 34
     },
     {
       "query": "tokyo student apartments",
       "clicks": 0,
-      "impressions": 23,
-      "position": 33.2
+      "impressions": 90,
+      "position": 33.7
+    },
+    {
+      "query": "tokyo student dorm",
+      "clicks": 0,
+      "impressions": 5,
+      "position": 33.6
     },
     {
       "query": "tokyo student house",
       "clicks": 0,
-      "impressions": 24,
-      "position": 35
+      "impressions": 79,
+      "position": 34.0
     },
     {
       "query": "tokyo student housing",
       "clicks": 0,
-      "impressions": 1,
-      "position": 46
+      "impressions": 2,
+      "position": 46.5
+    },
+    {
+      "query": "tokyo student residence",
+      "clicks": 0,
+      "impressions": 2,
+      "position": 34.5
     },
     {
       "query": "tokyo studio loyer",
       "clicks": 0,
       "impressions": 45,
-      "position": 27.6
+      "position": 25.1
     },
     {
       "query": "tokyo studio à court terme",
       "clicks": 0,
-      "impressions": 29,
-      "position": 36.9
-    },
-    {
-      "query": "tokyo suburban areas",
-      "clicks": 0,
-      "impressions": 1,
-      "position": 67
+      "impressions": 38,
+      "position": 35.4
     },
     {
       "query": "tokyo suburbs",
       "clicks": 0,
       "impressions": 8,
-      "position": 77.4
-    },
-    {
-      "query": "tokyo where to live",
-      "clicks": 0,
-      "impressions": 2,
-      "position": 75
+      "position": 77.5
     },
     {
       "query": "top 10 japanese language school in tokyo",
@@ -2638,12 +2662,6 @@
       "position": 67
     },
     {
-      "query": "unfurnished apartment tokyo",
-      "clicks": 0,
-      "impressions": 8,
-      "position": 9.8
-    },
-    {
       "query": "university of tokyo accommodation",
       "clicks": 0,
       "impressions": 1,
@@ -2658,8 +2676,8 @@
     {
       "query": "what are good accommodation options for families moving to tokyo?",
       "clicks": 0,
-      "impressions": 14,
-      "position": 15.3
+      "impressions": 26,
+      "position": 20.5
     },
     {
       "query": "what are the best neighborhoods in tokyo for families with children?",
@@ -2668,28 +2686,40 @@
       "position": 15.3
     },
     {
+      "query": "what are the options for apartment lodging in tokyo?",
+      "clicks": 0,
+      "impressions": 1,
+      "position": 18
+    },
+    {
       "query": "what are the options for residences in tokyo, tokyo prefecture, japan?",
       "clicks": 0,
-      "impressions": 2,
-      "position": 21.5
+      "impressions": 4,
+      "position": 12.8
     },
     {
       "query": "what are the top mobile plan deals for long-term foreign residents in japan?",
       "clicks": 0,
-      "impressions": 6,
-      "position": 9.2
+      "impressions": 5,
+      "position": 9.6
     },
     {
       "query": "what is jiko bukken",
       "clicks": 0,
-      "impressions": 4,
-      "position": 9.5
+      "impressions": 6,
+      "position": 9.8
     },
     {
       "query": "what is the minimum rental period for a furnished apartment in tokyo?",
       "clicks": 0,
-      "impressions": 76,
-      "position": 7.4
+      "impressions": 84,
+      "position": 7.3
+    },
+    {
+      "query": "what kinds of lodging work well for long-term stays or expats in tokyo?",
+      "clicks": 0,
+      "impressions": 12,
+      "position": 3.1
     },
     {
       "query": "where should i move?",
@@ -2704,18 +2734,6 @@
       "position": 61
     },
     {
-      "query": "where to live",
-      "clicks": 0,
-      "impressions": 1,
-      "position": 32
-    },
-    {
-      "query": "where to live in tokyo",
-      "clicks": 0,
-      "impressions": 1,
-      "position": 78
-    },
-    {
       "query": "where to live in tokyo as a tourist",
       "clicks": 0,
       "impressions": 1,
@@ -2728,10 +2746,16 @@
       "position": 24
     },
     {
+      "query": "which mobile carrier in japan offers the best prepaid sim packages?",
+      "clicks": 0,
+      "impressions": 1,
+      "position": 7
+    },
+    {
       "query": "which parts of tokyo are more family-oriented?",
       "clicks": 0,
-      "impressions": 3,
-      "position": 12.7
+      "impressions": 9,
+      "position": 8.8
     },
     {
       "query": "which parts of tokyo are popular with young professionals?",
@@ -2742,8 +2766,14 @@
     {
       "query": "which providers support contract-free or prepaid mobile services?",
       "clicks": 0,
-      "impressions": 3,
-      "position": 9.3
+      "impressions": 2,
+      "position": 9
+    },
+    {
+      "query": "which sim is good",
+      "clicks": 0,
+      "impressions": 1,
+      "position": 7
     },
     {
       "query": "work abroad japan",
@@ -2773,7 +2803,7 @@
       "query": "yes",
       "clicks": 0,
       "impressions": 1,
-      "position": 7
+      "position": 4
     },
     {
       "query": "yes.\"",
@@ -2788,28 +2818,22 @@
       "position": 91
     },
     {
-      "query": "zaryuu card",
-      "clicks": 0,
-      "impressions": 1,
-      "position": 73
-    },
-    {
       "query": "à tokyo pour les étudiants internationaux",
       "clicks": 0,
-      "impressions": 7,
-      "position": 10.3
+      "impressions": 26,
+      "position": 10.2
     },
     {
       "query": "étudier à l'étranger partager la maison au japon",
       "clicks": 0,
-      "impressions": 17,
-      "position": 11.2
+      "impressions": 30,
+      "position": 14.4
     },
     {
       "query": "étudier à l'étranger partager la maison à tokyo",
       "clicks": 0,
-      "impressions": 62,
-      "position": 20.9
+      "impressions": 58,
+      "position": 20.4
     },
     {
       "query": "ايوة",
@@ -2830,6 +2854,18 @@
       "position": 2
     },
     {
+      "query": "アハモ",
+      "clicks": 0,
+      "impressions": 1,
+      "position": 1
+    },
+    {
+      "query": "东京家庭租",
+      "clicks": 0,
+      "impressions": 1,
+      "position": 1
+    },
+    {
       "query": "事故物件",
       "clicks": 0,
       "impressions": 1,
@@ -2838,8 +2874,8 @@
     {
       "query": "在东京为国际学生",
       "clicks": 0,
-      "impressions": 2,
-      "position": 36
+      "impressions": 6,
+      "position": 38.7
     },
     {
       "query": "大手がいい",
@@ -2858,249 +2894,233 @@
       "clicks": 0,
       "impressions": 1,
       "position": 4
-    },
-    {
-      "query": "都会度",
-      "clicks": 0,
-      "impressions": 1,
-      "position": 5
     }
   ],
   "top_pages": [
     {
       "page": "https://www.tokyo-expat.com/en/blog/jiko-bukken-cheap-apartments-tokyo",
-      "clicks": 20,
-      "impressions": 1047
+      "clicks": 28,
+      "impressions": 1429
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/share-house-tokyo-comparison-2026",
-      "clicks": 9,
-      "impressions": 236
-    },
-    {
-      "page": "https://www.tokyo-expat.com/",
-      "clicks": 5,
-      "impressions": 26
+      "clicks": 7,
+      "impressions": 216
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/best-neighbourhoods-families-tokyo-guide",
       "clicks": 5,
-      "impressions": 400
+      "impressions": 547
+    },
+    {
+      "page": "https://www.tokyo-expat.com/en/blog/gaijin-house-tokyo-guide",
+      "clicks": 4,
+      "impressions": 2584
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/japan-sim-card-foreigners-2026",
       "clicks": 4,
-      "impressions": 341
+      "impressions": 270
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/oak-house-alternative",
       "clicks": 4,
-      "impressions": 915
+      "impressions": 749
     },
     {
-      "page": "https://www.tokyo-expat.com/fr/blog/permis-conduire-etranger-japon-conversion",
-      "clicks": 4,
-      "impressions": 11
+      "page": "https://www.tokyo-expat.com/",
+      "clicks": 3,
+      "impressions": 27
+    },
+    {
+      "page": "https://www.tokyo-expat.com/blog/appartement-meuble-tokyo-expats-top-5",
+      "clicks": 3,
+      "impressions": 64
+    },
+    {
+      "page": "https://www.tokyo-expat.com/en/checklist",
+      "clicks": 3,
+      "impressions": 43
     },
     {
       "page": "https://www.tokyo-expat.com/blog/garantie-loyer-etranger-japon",
       "clicks": 2,
-      "impressions": 12
+      "impressions": 10
     },
     {
-      "page": "https://www.tokyo-expat.com/blog/quartiers-tokyo-expatries-guide",
+      "page": "https://www.tokyo-expat.com/en/blog/expat-apartments-tokyo",
       "clicks": 2,
-      "impressions": 19
-    },
-    {
-      "page": "https://www.tokyo-expat.com/en/blog/furnished-apartment-tokyo-top-5-expats",
-      "clicks": 2,
-      "impressions": 6348
-    },
-    {
-      "page": "https://www.tokyo-expat.com/en/blog/gaijin-house-tokyo-guide",
-      "clicks": 2,
-      "impressions": 2720
+      "impressions": 204
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/renters-insurance-japan-guide",
       "clicks": 2,
-      "impressions": 140
+      "impressions": 128
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/share-house-tokyo-guide-2026",
       "clicks": 2,
-      "impressions": 148
-    },
-    {
-      "page": "https://www.tokyo-expat.com/en/blog/student-housing-tokyo-guide",
-      "clicks": 2,
-      "impressions": 721
+      "impressions": 157
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/ur-housing-tokyo-foreigners",
       "clicks": 2,
-      "impressions": 34
+      "impressions": 32
     },
     {
       "page": "https://www.tokyo-expat.com/fr/blog/appartement-familial-tokyo-etranger",
       "clicks": 2,
-      "impressions": 60
+      "impressions": 59
     },
     {
       "page": "https://www.tokyo-expat.com/fr/blog/trouver-emploi-japon-etranger",
       "clicks": 2,
-      "impressions": 13
-    },
-    {
-      "page": "https://www.tokyo-expat.com/blog/appartement-meuble-tokyo-expats-top-5",
-      "clicks": 1,
-      "impressions": 76
+      "impressions": 14
     },
     {
       "page": "https://www.tokyo-expat.com/blog/assurance-habitation-japon-locataire",
       "clicks": 1,
-      "impressions": 15
-    },
-    {
-      "page": "https://www.tokyo-expat.com/blog/impots-revenus-japon-expatrie-2026",
-      "clicks": 1,
-      "impressions": 10
+      "impressions": 20
     },
     {
       "page": "https://www.tokyo-expat.com/blog/loyers-tokyo-par-quartier-2026",
       "clicks": 1,
-      "impressions": 3
+      "impressions": 6
     },
     {
       "page": "https://www.tokyo-expat.com/blog/ouvrir-compte-bancaire-japon-etranger",
       "clicks": 1,
-      "impressions": 19
+      "impressions": 18
+    },
+    {
+      "page": "https://www.tokyo-expat.com/blog/quartiers-tokyo-expatries-guide",
+      "clicks": 1,
+      "impressions": 20
     },
     {
       "page": "https://www.tokyo-expat.com/en",
       "clicks": 1,
-      "impressions": 58
+      "impressions": 55
     },
     {
-      "page": "https://www.tokyo-expat.com/en/blog/cheapest-stations-tokyo-rent",
+      "page": "https://www.tokyo-expat.com/en/blog/cheapest-neighbourhoods-tokyo-ranked-by-rent",
       "clicks": 1,
-      "impressions": 24
-    },
-    {
-      "page": "https://www.tokyo-expat.com/en/blog/ebisu-daikanyama-nakameguro-expat-guide",
-      "clicks": 1,
-      "impressions": 56
-    },
-    {
-      "page": "https://www.tokyo-expat.com/en/blog/expat-apartments-tokyo",
-      "clicks": 1,
-      "impressions": 230
+      "impressions": 33
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/family-expat-tokyo-international-schools",
       "clicks": 1,
-      "impressions": 10
+      "impressions": 15
+    },
+    {
+      "page": "https://www.tokyo-expat.com/en/blog/furnished-apartment-tokyo-top-5-expats",
+      "clicks": 1,
+      "impressions": 8603
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/how-to-find-job-japan-foreigner",
       "clicks": 1,
-      "impressions": 292
+      "impressions": 288
+    },
+    {
+      "page": "https://www.tokyo-expat.com/en/blog/international-moving-company-japan-guide",
+      "clicks": 1,
+      "impressions": 70
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/living-kichijoji-housing-guide",
       "clicks": 1,
-      "impressions": 9
-    },
-    {
-      "page": "https://www.tokyo-expat.com/en/blog/negotiating-rent-tokyo-tips",
-      "clicks": 1,
-      "impressions": 22
+      "impressions": 7
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/social-apartments-tokyo-guide",
       "clicks": 1,
-      "impressions": 100
+      "impressions": 107
+    },
+    {
+      "page": "https://www.tokyo-expat.com/en/blog/student-housing-tokyo-guide",
+      "clicks": 1,
+      "impressions": 2339
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/tokyo-condo-price-trends",
       "clicks": 1,
-      "impressions": 18
+      "impressions": 19
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/tokyo-rent-vs-world-cities",
       "clicks": 1,
-      "impressions": 122
+      "impressions": 140
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/tokyo-rental-contract-checklist",
       "clicks": 1,
-      "impressions": 14
+      "impressions": 12
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/tokyo-rental-traps-foreigners",
       "clicks": 1,
-      "impressions": 9
+      "impressions": 12
     },
     {
-      "page": "https://www.tokyo-expat.com/fr/blog/assurance-habitation-japon-locataire",
+      "page": "https://www.tokyo-expat.com/fr/blog",
       "clicks": 1,
-      "impressions": 10
+      "impressions": 695
     },
     {
       "page": "https://www.tokyo-expat.com/fr/blog/avis-sakura-house-tokyo",
       "clicks": 1,
-      "impressions": 12
-    },
-    {
-      "page": "https://www.tokyo-expat.com/fr/blog/carte-residence-japon-zairyu-card",
-      "clicks": 1,
-      "impressions": 15
+      "impressions": 16
     },
     {
       "page": "https://www.tokyo-expat.com/fr/blog/cout-avoir-animal-tokyo",
       "clicks": 1,
-      "impressions": 12
-    },
-    {
-      "page": "https://www.tokyo-expat.com/fr/blog/demenager-japon-checklist-complete",
-      "clicks": 1,
-      "impressions": 24
+      "impressions": 13
     },
     {
       "page": "https://www.tokyo-expat.com/fr/blog/gaijin-house-tokyo-guide-complet",
       "clicks": 1,
-      "impressions": 4
-    },
-    {
-      "page": "https://www.tokyo-expat.com/fr/blog/internet-utilitaires-tokyo-appartement",
-      "clicks": 1,
-      "impressions": 7
+      "impressions": 2
     },
     {
       "page": "https://www.tokyo-expat.com/fr/blog/louer-appartement-animaux-acceptes-tokyo",
       "clicks": 1,
-      "impressions": 16
+      "impressions": 14
     },
     {
-      "page": "https://www.tokyo-expat.com/fr/blog/se-loger-kichijoji-quartier-guide",
+      "page": "https://www.tokyo-expat.com/fr/blog/permis-conduire-etranger-japon-conversion",
       "clicks": 1,
-      "impressions": 4
+      "impressions": 8
     },
     {
       "page": "https://www.tokyo-expat.com/fr/blog/tokyo-osaka-kyoto-ou-s-installer",
       "clicks": 1,
-      "impressions": 10
+      "impressions": 6
+    },
+    {
+      "page": "https://www.tokyo-expat.com/fr/blog/tokyo-osaka-ou-vivre-expatrie-comparatif",
+      "clicks": 1,
+      "impressions": 6
+    },
+    {
+      "page": "https://www.tokyo-expat.com/fr/data",
+      "clicks": 1,
+      "impressions": 242
     },
     {
       "page": "https://www.tokyo-expat.com/fr/resources",
       "clicks": 1,
-      "impressions": 4
+      "impressions": 6
+    },
+    {
+      "page": "https://tokyo-expat.com/en/blog/japan-sim-card-foreigners-2026",
+      "clicks": 0,
+      "impressions": 1
     },
     {
       "page": "https://www.tokyo-expat.com/blog/appartement-meuble-tokyo-expats",
       "clicks": 0,
-      "impressions": 11
+      "impressions": 7
     },
     {
       "page": "https://www.tokyo-expat.com/blog/appartement-meuble-vs-non-meuble-tokyo-cout",
@@ -3115,12 +3135,12 @@
     {
       "page": "https://www.tokyo-expat.com/blog/assurance-maladie-japon-expatrie",
       "clicks": 0,
-      "impressions": 12
+      "impressions": 23
     },
     {
       "page": "https://www.tokyo-expat.com/blog/checklist-bail-tokyo",
       "clicks": 0,
-      "impressions": 1
+      "impressions": 2
     },
     {
       "page": "https://www.tokyo-expat.com/blog/chercher-appartement-tokyo-depuis-etranger",
@@ -3130,7 +3150,12 @@
     {
       "page": "https://www.tokyo-expat.com/blog/frais-caches-location-tokyo",
       "clicks": 0,
-      "impressions": 4
+      "impressions": 1
+    },
+    {
+      "page": "https://www.tokyo-expat.com/blog/impots-revenus-japon-expatrie-2026",
+      "clicks": 0,
+      "impressions": 3
     },
     {
       "page": "https://www.tokyo-expat.com/blog/negocier-loyer-tokyo-conseils",
@@ -3140,7 +3165,7 @@
     {
       "page": "https://www.tokyo-expat.com/blog/pieges-location-tokyo-etranger",
       "clicks": 0,
-      "impressions": 1
+      "impressions": 3
     },
     {
       "page": "https://www.tokyo-expat.com/blog/quartiers-tokyo-familles-expatriees-guide",
@@ -3148,14 +3173,19 @@
       "impressions": 4
     },
     {
+      "page": "https://www.tokyo-expat.com/blog/service-chasseur-immobilier-tokyo-comment-ca-marche",
+      "clicks": 0,
+      "impressions": 2
+    },
+    {
       "page": "https://www.tokyo-expat.com/blog/trouver-appartement-tokyo-etranger",
       "clicks": 0,
-      "impressions": 67
+      "impressions": 92
     },
     {
       "page": "https://www.tokyo-expat.com/blog/visa-nomade-digital-japon-2026",
       "clicks": 0,
-      "impressions": 6
+      "impressions": 10
     },
     {
       "page": "https://www.tokyo-expat.com/en/about",
@@ -3165,7 +3195,7 @@
     {
       "page": "https://www.tokyo-expat.com/en/blog/bank-transfer-japan-furikomi-guide",
       "clicks": 0,
-      "impressions": 9
+      "impressions": 8
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/best-tokyo-wards-couples-1ldk",
@@ -3173,14 +3203,14 @@
       "impressions": 26
     },
     {
-      "page": "https://www.tokyo-expat.com/en/blog/cheapest-neighbourhoods-tokyo-ranked-by-rent",
+      "page": "https://www.tokyo-expat.com/en/blog/cheapest-stations-tokyo-rent",
       "clicks": 0,
-      "impressions": 71
+      "impressions": 22
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/cheapest-train-line-tokyo-rent",
       "clicks": 0,
-      "impressions": 13
+      "impressions": 11
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/convert-foreign-driving-licence-japan",
@@ -3190,82 +3220,87 @@
     {
       "page": "https://www.tokyo-expat.com/en/blog/corporate-relocation-tokyo-hr-housing-guide",
       "clicks": 0,
-      "impressions": 5
+      "impressions": 10
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/cost-of-owning-pet-tokyo",
       "clicks": 0,
-      "impressions": 47
+      "impressions": 42
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/do-foreigners-pay-more-rent-tokyo",
       "clicks": 0,
-      "impressions": 5
+      "impressions": 4
+    },
+    {
+      "page": "https://www.tokyo-expat.com/en/blog/ebisu-daikanyama-nakameguro-expat-guide",
+      "clicks": 0,
+      "impressions": 43
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/family-apartment-tokyo-foreigner",
       "clicks": 0,
-      "impressions": 31
+      "impressions": 36
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/find-apartment-tokyo-foreigner",
       "clicks": 0,
-      "impressions": 25
+      "impressions": 23
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/find-apartment-tokyo-september",
       "clicks": 0,
-      "impressions": 18
+      "impressions": 5
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/find-housing-tokyo-two-weeks-relocation",
       "clicks": 0,
-      "impressions": 3
+      "impressions": 4
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/furnished-apartment-tokyo-expats",
       "clicks": 0,
-      "impressions": 107
+      "impressions": 90
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/furnished-apartment-tokyo-no-guarantor",
       "clicks": 0,
-      "impressions": 423
+      "impressions": 545
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/furnished-apartments-tokyo-guide",
       "clicks": 0,
-      "impressions": 235
+      "impressions": 171
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/furnished-vs-unfurnished-apartment-tokyo-cost",
       "clicks": 0,
-      "impressions": 22
+      "impressions": 11
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/gaijin-house-vs-share-house-tokyo",
       "clicks": 0,
-      "impressions": 258
+      "impressions": 250
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/gaijinpot-housing-alternative",
       "clicks": 0,
-      "impressions": 14
+      "impressions": 12
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/guarantor-japan-rental-foreigner",
       "clicks": 0,
-      "impressions": 31
+      "impressions": 33
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/health-insurance-visa-japan-2027",
       "clicks": 0,
-      "impressions": 6
+      "impressions": 7
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/hiroo-minami-azabu-expat-neighborhood-guide",
       "clicks": 0,
-      "impressions": 21
+      "impressions": 17
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/how-real-estate-hunter-works-tokyo",
@@ -3273,24 +3308,24 @@
       "impressions": 1
     },
     {
-      "page": "https://www.tokyo-expat.com/en/blog/international-moving-company-japan-guide",
+      "page": "https://www.tokyo-expat.com/en/blog/ikebukuro-housing-guide",
       "clicks": 0,
-      "impressions": 76
+      "impressions": 1
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/japan-digital-nomad-visa-2026",
       "clicks": 0,
-      "impressions": 27
+      "impressions": 18
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/japan-health-insurance-expat-guide",
       "clicks": 0,
-      "impressions": 8
+      "impressions": 11
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/japan-income-tax-foreigners-guide",
       "clicks": 0,
-      "impressions": 9
+      "impressions": 8
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/japan-work-visa-foreigners-guide",
@@ -3300,37 +3335,37 @@
     {
       "page": "https://www.tokyo-expat.com/en/blog/japan-working-holiday-visa-guide-2026",
       "clicks": 0,
-      "impressions": 71
+      "impressions": 76
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/japanese-apartment-layouts-explained",
       "clicks": 0,
-      "impressions": 59
+      "impressions": 61
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/japanese-language-schools-tokyo-guide",
       "clicks": 0,
-      "impressions": 259
+      "impressions": 285
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/living-asagaya-housing-guide",
       "clicks": 0,
-      "impressions": 9
+      "impressions": 7
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/living-ikebukuro-housing-guide",
       "clicks": 0,
-      "impressions": 5
+      "impressions": 8
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/living-koenji-housing-guide",
       "clicks": 0,
-      "impressions": 17
+      "impressions": 16
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/living-nakano-housing-guide",
       "clicks": 0,
-      "impressions": 9
+      "impressions": 13
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/living-sangenjaya-housing-guide",
@@ -3340,12 +3375,12 @@
     {
       "page": "https://www.tokyo-expat.com/en/blog/living-shibuya-housing-guide",
       "clicks": 0,
-      "impressions": 73
+      "impressions": 72
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/moving-to-tokyo-checklist-2026",
       "clicks": 0,
-      "impressions": 15
+      "impressions": 10
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/moving-to-tokyo-summer-july-august",
@@ -3353,9 +3388,19 @@
       "impressions": 11
     },
     {
+      "page": "https://www.tokyo-expat.com/en/blog/negotiating-rent-tokyo-tips",
+      "clicks": 0,
+      "impressions": 16
+    },
+    {
       "page": "https://www.tokyo-expat.com/en/blog/open-bank-account-japan-foreigner",
       "clicks": 0,
       "impressions": 4
+    },
+    {
+      "page": "https://www.tokyo-expat.com/en/blog/real-estate-hunter-tokyo-cost-worth-it",
+      "clicks": 0,
+      "impressions": 1
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/real-estate-hunter-vs-agency-tokyo",
@@ -3375,72 +3420,72 @@
     {
       "page": "https://www.tokyo-expat.com/en/blog/renting-pet-friendly-apartment-tokyo",
       "clicks": 0,
-      "impressions": 2
+      "impressions": 3
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/renting-tokyo-entrepreneur-startup-guide",
       "clicks": 0,
-      "impressions": 10
+      "impressions": 9
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/residence-card-japan-zairyu-card-guide",
       "clicks": 0,
-      "impressions": 34
+      "impressions": 27
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/send-money-to-japan-from-abroad",
       "clicks": 0,
-      "impressions": 18
+      "impressions": 20
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/setting-up-utilities-tokyo-apartment",
       "clicks": 0,
-      "impressions": 18
+      "impressions": 19
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/student-housing-tokyo-guide-2026",
       "clicks": 0,
-      "impressions": 14
+      "impressions": 10
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/student-housing-tokyo-october",
       "clicks": 0,
-      "impressions": 3
+      "impressions": 4
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/tokyo-apartment-hunting-from-abroad",
       "clicks": 0,
-      "impressions": 7
+      "impressions": 19
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/tokyo-apartment-move-in-costs",
       "clicks": 0,
-      "impressions": 15
+      "impressions": 14
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/tokyo-expat-cost-of-living-2026",
       "clicks": 0,
-      "impressions": 6
+      "impressions": 9
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/tokyo-most-exclusive-neighbourhoods",
       "clicks": 0,
-      "impressions": 11
+      "impressions": 13
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/tokyo-neighbourhoods-expats-guide",
       "clicks": 0,
-      "impressions": 210
+      "impressions": 158
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/tokyo-osaka-kyoto-which-city-to-live",
       "clicks": 0,
-      "impressions": 65
+      "impressions": 77
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/tokyo-public-transport-expat-guide",
       "clicks": 0,
-      "impressions": 19
+      "impressions": 20
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/tokyo-rent-building-age",
@@ -3450,72 +3495,57 @@
     {
       "page": "https://www.tokyo-expat.com/en/blog/tokyo-rent-by-neighborhood-2026",
       "clicks": 0,
-      "impressions": 80
+      "impressions": 71
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/tokyo-rent-report-2026",
       "clicks": 0,
-      "impressions": 88
+      "impressions": 79
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/tokyo-vs-osaka-expat-living-comparison",
       "clicks": 0,
-      "impressions": 75
+      "impressions": 51
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/typhoon-season-tokyo-choosing-housing",
       "clicks": 0,
-      "impressions": 15
+      "impressions": 17
     },
     {
       "page": "https://www.tokyo-expat.com/en/blog/why-japanese-landlords-reject-foreigners",
       "clicks": 0,
-      "impressions": 6
-    },
-    {
-      "page": "https://www.tokyo-expat.com/en/checklist",
-      "clicks": 0,
-      "impressions": 39
+      "impressions": 9
     },
     {
       "page": "https://www.tokyo-expat.com/en/contact",
       "clicks": 0,
-      "impressions": 3
+      "impressions": 5
     },
     {
       "page": "https://www.tokyo-expat.com/en/listings",
       "clicks": 0,
-      "impressions": 5
+      "impressions": 2
     },
     {
-      "page": "https://www.tokyo-expat.com/fr/about",
-      "clicks": 0,
-      "impressions": 3
-    },
-    {
-      "page": "https://www.tokyo-expat.com/fr/blog",
-      "clicks": 0,
-      "impressions": 749
-    },
-    {
-      "page": "https://www.tokyo-expat.com/fr/blog/alternative-oak-house-tokyo",
-      "clicks": 0,
-      "impressions": 1
-    },
-    {
-      "page": "https://www.tokyo-expat.com/fr/blog/alternative-remoters-chasseur-tokyo",
+      "page": "https://www.tokyo-expat.com/en/resources",
       "clicks": 0,
       "impressions": 2
     },
     {
-      "page": "https://www.tokyo-expat.com/fr/blog/appartement-meuble-tokyo-expats",
+      "page": "https://www.tokyo-expat.com/fr/about",
       "clicks": 0,
       "impressions": 4
     },
     {
+      "page": "https://www.tokyo-expat.com/fr/blog/appartement-meuble-tokyo-expats",
+      "clicks": 0,
+      "impressions": 2
+    },
+    {
       "page": "https://www.tokyo-expat.com/fr/blog/appartement-meuble-tokyo-expats-top-5",
       "clicks": 0,
-      "impressions": 5
+      "impressions": 6
     },
     {
       "page": "https://www.tokyo-expat.com/fr/blog/appartement-meuble-tokyo-sans-garant",
@@ -3525,17 +3555,32 @@
     {
       "page": "https://www.tokyo-expat.com/fr/blog/appartement-meuble-vs-non-meuble-tokyo-cout",
       "clicks": 0,
-      "impressions": 28
+      "impressions": 19
     },
     {
       "page": "https://www.tokyo-expat.com/fr/blog/appartements-expatries-tokyo",
       "clicks": 0,
-      "impressions": 90
+      "impressions": 85
+    },
+    {
+      "page": "https://www.tokyo-expat.com/fr/blog/assurance-habitation-japon-locataire",
+      "clicks": 0,
+      "impressions": 2
+    },
+    {
+      "page": "https://www.tokyo-expat.com/fr/blog/carte-residence-japon-zairyu-card",
+      "clicks": 0,
+      "impressions": 12
+    },
+    {
+      "page": "https://www.tokyo-expat.com/fr/blog/carte-sim-japon-etranger-2026",
+      "clicks": 0,
+      "impressions": 2
     },
     {
       "page": "https://www.tokyo-expat.com/fr/blog/checklist-bail-tokyo",
       "clicks": 0,
-      "impressions": 6
+      "impressions": 2
     },
     {
       "page": "https://www.tokyo-expat.com/fr/blog/chercher-appartement-tokyo-depuis-etranger",
@@ -3545,22 +3590,27 @@
     {
       "page": "https://www.tokyo-expat.com/fr/blog/cours-japonais-tokyo-expatries-guide",
       "clicks": 0,
-      "impressions": 2
+      "impressions": 1
     },
     {
       "page": "https://www.tokyo-expat.com/fr/blog/cout-vie-tokyo-expatrie-2026",
       "clicks": 0,
-      "impressions": 7
+      "impressions": 5
+    },
+    {
+      "page": "https://www.tokyo-expat.com/fr/blog/demenager-japon-checklist-complete",
+      "clicks": 0,
+      "impressions": 20
     },
     {
       "page": "https://www.tokyo-expat.com/fr/blog/demenageur-international-japon-guide",
       "clicks": 0,
-      "impressions": 16
+      "impressions": 5
     },
     {
       "page": "https://www.tokyo-expat.com/fr/blog/ebisu-daikanyama-nakameguro-guide-expatries",
       "clicks": 0,
-      "impressions": 8
+      "impressions": 4
     },
     {
       "page": "https://www.tokyo-expat.com/fr/blog/etrangers-paient-plus-cher-loyer-tokyo",
@@ -3570,22 +3620,22 @@
     {
       "page": "https://www.tokyo-expat.com/fr/blog/evolution-prix-immobilier-tokyo",
       "clicks": 0,
-      "impressions": 26
+      "impressions": 17
     },
     {
       "page": "https://www.tokyo-expat.com/fr/blog/famille-expatriee-tokyo-ecoles-internationales",
       "clicks": 0,
-      "impressions": 4
+      "impressions": 3
     },
     {
       "page": "https://www.tokyo-expat.com/fr/blog/garantie-loyer-etranger-japon",
       "clicks": 0,
-      "impressions": 2
+      "impressions": 1
     },
     {
       "page": "https://www.tokyo-expat.com/fr/blog/guide-appartements-meubles-tokyo",
       "clicks": 0,
-      "impressions": 78
+      "impressions": 80
     },
     {
       "page": "https://www.tokyo-expat.com/fr/blog/hiroo-minami-azabu-guide-expatries-tokyo",
@@ -3595,7 +3645,12 @@
     {
       "page": "https://www.tokyo-expat.com/fr/blog/importer-animal-compagnie-japon-guide",
       "clicks": 0,
-      "impressions": 8
+      "impressions": 6
+    },
+    {
+      "page": "https://www.tokyo-expat.com/fr/blog/internet-utilitaires-tokyo-appartement",
+      "clicks": 0,
+      "impressions": 6
     },
     {
       "page": "https://www.tokyo-expat.com/fr/blog/jiko-bukken-appartements-pas-chers-tokyo",
@@ -3605,17 +3660,17 @@
     {
       "page": "https://www.tokyo-expat.com/fr/blog/logement-etudiant-tokyo-2026",
       "clicks": 0,
-      "impressions": 63
+      "impressions": 70
     },
     {
       "page": "https://www.tokyo-expat.com/fr/blog/logement-etudiant-tokyo-guide",
       "clicks": 0,
-      "impressions": 629
+      "impressions": 748
     },
     {
       "page": "https://www.tokyo-expat.com/fr/blog/logement-etudiant-tokyo-octobre",
       "clicks": 0,
-      "impressions": 117
+      "impressions": 107
     },
     {
       "page": "https://www.tokyo-expat.com/fr/blog/logement-ur-tokyo-etrangers",
@@ -3623,19 +3678,14 @@
       "impressions": 1
     },
     {
-      "page": "https://www.tokyo-expat.com/fr/blog/loyers-tokyo-par-quartier-2026",
-      "clicks": 0,
-      "impressions": 3
-    },
-    {
       "page": "https://www.tokyo-expat.com/fr/blog/meilleurs-quartiers-tokyo-couple-1ldk",
       "clicks": 0,
-      "impressions": 2
+      "impressions": 1
     },
     {
       "page": "https://www.tokyo-expat.com/fr/blog/negocier-loyer-tokyo-conseils",
       "clicks": 0,
-      "impressions": 1
+      "impressions": 2
     },
     {
       "page": "https://www.tokyo-expat.com/fr/blog/pieges-location-tokyo-etranger",
@@ -3645,17 +3695,17 @@
     {
       "page": "https://www.tokyo-expat.com/fr/blog/pourquoi-proprietaires-japonais-refusent-etrangers",
       "clicks": 0,
-      "impressions": 4
+      "impressions": 3
     },
     {
       "page": "https://www.tokyo-expat.com/fr/blog/pvt-japon-visa-vacances-travail-2026",
       "clicks": 0,
-      "impressions": 34
+      "impressions": 40
     },
     {
       "page": "https://www.tokyo-expat.com/fr/blog/quartiers-huppes-tokyo",
       "clicks": 0,
-      "impressions": 5
+      "impressions": 6
     },
     {
       "page": "https://www.tokyo-expat.com/fr/blog/quartiers-tokyo-expatries-guide",
@@ -3665,17 +3715,17 @@
     {
       "page": "https://www.tokyo-expat.com/fr/blog/quartiers-tokyo-familles-expatriees-guide",
       "clicks": 0,
-      "impressions": 3
+      "impressions": 2
     },
     {
       "page": "https://www.tokyo-expat.com/fr/blog/quartiers-tokyo-moins-chers-classement-loyers",
       "clicks": 0,
-      "impressions": 10
+      "impressions": 5
     },
     {
       "page": "https://www.tokyo-expat.com/fr/blog/rapport-loyers-tokyo-2026",
       "clicks": 0,
-      "impressions": 17
+      "impressions": 19
     },
     {
       "page": "https://www.tokyo-expat.com/fr/blog/saison-typhons-tokyo-choisir-logement",
@@ -3683,44 +3733,49 @@
       "impressions": 1
     },
     {
+      "page": "https://www.tokyo-expat.com/fr/blog/se-loger-ikebukuro-quartier-guide",
+      "clicks": 0,
+      "impressions": 1
+    },
+    {
+      "page": "https://www.tokyo-expat.com/fr/blog/se-loger-kichijoji-quartier-guide",
+      "clicks": 0,
+      "impressions": 3
+    },
+    {
       "page": "https://www.tokyo-expat.com/fr/blog/se-loger-koenji-quartier-guide",
       "clicks": 0,
-      "impressions": 2
+      "impressions": 3
     },
     {
       "page": "https://www.tokyo-expat.com/fr/blog/se-loger-nakano-quartier-guide",
       "clicks": 0,
-      "impressions": 3
+      "impressions": 2
     },
     {
       "page": "https://www.tokyo-expat.com/fr/blog/se-loger-shibuya-quartier-guide",
       "clicks": 0,
-      "impressions": 2
+      "impressions": 1
     },
     {
       "page": "https://www.tokyo-expat.com/fr/blog/share-house-tokyo-guide-complet",
       "clicks": 0,
-      "impressions": 92
+      "impressions": 65
     },
     {
       "page": "https://www.tokyo-expat.com/fr/blog/social-apartment-tokyo-guide",
       "clicks": 0,
-      "impressions": 116
+      "impressions": 120
     },
     {
       "page": "https://www.tokyo-expat.com/fr/blog/stations-tokyo-loyer-moins-cher",
       "clicks": 0,
-      "impressions": 8
-    },
-    {
-      "page": "https://www.tokyo-expat.com/fr/blog/tokyo-osaka-ou-vivre-expatrie-comparatif",
-      "clicks": 0,
-      "impressions": 4
+      "impressions": 6
     },
     {
       "page": "https://www.tokyo-expat.com/fr/blog/transport-tokyo-expatrie-guide",
       "clicks": 0,
-      "impressions": 3
+      "impressions": 4
     },
     {
       "page": "https://www.tokyo-expat.com/fr/blog/travailler-tokyo-expatrie-guide-2026",
@@ -3730,47 +3785,42 @@
     {
       "page": "https://www.tokyo-expat.com/fr/blog/trouver-appartement-tokyo-etranger",
       "clicks": 0,
-      "impressions": 16
+      "impressions": 2
     },
     {
       "page": "https://www.tokyo-expat.com/fr/blog/virement-bancaire-japon-furikomi-guide",
       "clicks": 0,
-      "impressions": 2
+      "impressions": 4
     },
     {
       "page": "https://www.tokyo-expat.com/fr/blog/virement-international-japon-wise-revolut",
       "clicks": 0,
-      "impressions": 39
+      "impressions": 30
     },
     {
       "page": "https://www.tokyo-expat.com/fr/blog/visa-nomade-digital-japon-2026",
       "clicks": 0,
-      "impressions": 3
+      "impressions": 2
     },
     {
       "page": "https://www.tokyo-expat.com/fr/blog/visa-travail-japon-francophone-2026",
       "clicks": 0,
-      "impressions": 6
+      "impressions": 5
     },
     {
       "page": "https://www.tokyo-expat.com/fr/checklist",
       "clicks": 0,
-      "impressions": 2
-    },
-    {
-      "page": "https://www.tokyo-expat.com/fr/data",
-      "clicks": 0,
-      "impressions": 196
+      "impressions": 4
     },
     {
       "page": "https://www.tokyo-expat.com/fr/listings",
       "clicks": 0,
-      "impressions": 5
+      "impressions": 9
     },
     {
       "page": "https://www.tokyo-expat.com/fr/services",
       "clicks": 0,
-      "impressions": 4
+      "impressions": 7
     }
   ]
 }

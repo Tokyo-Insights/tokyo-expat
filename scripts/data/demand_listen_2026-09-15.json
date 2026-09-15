@@ -1,0 +1,273 @@
+{
+  "generated": "2026-09-15T22:41:48.403121+00:00",
+  "subs": [
+    "japanlife",
+    "movingtojapan",
+    "japanresidents"
+  ],
+  "posts_analysed": 97,
+  "themes": {
+    "budget / cherte": 18,
+    "refus / discrimination": 17,
+    "animaux": 4,
+    "chercher a distance": 8,
+    "etat des lieux/sortie": 8,
+    "langue / paperasse": 16,
+    "visa / statut": 30,
+    "meuble / court terme": 11,
+    "garant / hosho": 4,
+    "renouvellement": 6,
+    "share house": 8,
+    "argent-cle / reikin": 1,
+    "depot / shikikin": 1
+  },
+  "stages": {
+    "deja installe": 22,
+    "juste arrive": 2,
+    "avant l'arrivee": 10
+  },
+  "painful_pct": 34.0,
+  "top_bigrams": [
+    {
+      "phrase": "working holiday",
+      "n": 19
+    },
+    {
+      "phrase": "language school",
+      "n": 19
+    },
+    {
+      "phrase": "real estate",
+      "n": 14
+    },
+    {
+      "phrase": "management company",
+      "n": 14
+    },
+    {
+      "phrase": "long term",
+      "n": 13
+    },
+    {
+      "phrase": "holiday visa",
+      "n": 13
+    },
+    {
+      "phrase": "estate agent",
+      "n": 10
+    },
+    {
+      "phrase": "month yen",
+      "n": 9
+    },
+    {
+      "phrase": "english speaking",
+      "n": 8
+    },
+    {
+      "phrase": "right now",
+      "n": 8
+    },
+    {
+      "phrase": "share house",
+      "n": 8
+    },
+    {
+      "phrase": "japanese language",
+      "n": 8
+    },
+    {
+      "phrase": "yen month",
+      "n": 8
+    },
+    {
+      "phrase": "moving japan",
+      "n": 8
+    },
+    {
+      "phrase": "student visa",
+      "n": 8
+    },
+    {
+      "phrase": "i'm sure",
+      "n": 7
+    },
+    {
+      "phrase": "second hand",
+      "n": 7
+    },
+    {
+      "phrase": "living japan",
+      "n": 7
+    },
+    {
+      "phrase": "full time",
+      "n": 7
+    },
+    {
+      "phrase": "japan working",
+      "n": 7
+    },
+    {
+      "phrase": "jpy million",
+      "n": 7
+    },
+    {
+      "phrase": "cleaning fee",
+      "n": 7
+    },
+    {
+      "phrase": "years old",
+      "n": 6
+    },
+    {
+      "phrase": "even though",
+      "n": 6
+    },
+    {
+      "phrase": "next year",
+      "n": 6
+    },
+    {
+      "phrase": "ward office",
+      "n": 6
+    },
+    {
+      "phrase": "back home",
+      "n": 6
+    },
+    {
+      "phrase": "part time",
+      "n": 6
+    },
+    {
+      "phrase": "moved apartment",
+      "n": 5
+    },
+    {
+      "phrase": "anyone experience",
+      "n": 5
+    },
+    {
+      "phrase": "right away",
+      "n": 5
+    },
+    {
+      "phrase": "few days",
+      "n": 5
+    },
+    {
+      "phrase": "moved tokyo",
+      "n": 5
+    },
+    {
+      "phrase": "bank account",
+      "n": 5
+    },
+    {
+      "phrase": "health insurance",
+      "n": 5
+    },
+    {
+      "phrase": "first time",
+      "n": 5
+    },
+    {
+      "phrase": "residence card",
+      "n": 5
+    },
+    {
+      "phrase": "new apartment",
+      "n": 5
+    },
+    {
+      "phrase": "love hear",
+      "n": 5
+    },
+    {
+      "phrase": "year old",
+      "n": 5
+    },
+    {
+      "phrase": "time job",
+      "n": 5
+    },
+    {
+      "phrase": "work japan",
+      "n": 5
+    },
+    {
+      "phrase": "registering address",
+      "n": 5
+    },
+    {
+      "phrase": "first weeks",
+      "n": 5
+    },
+    {
+      "phrase": "apartment move",
+      "n": 5
+    },
+    {
+      "phrase": "good deal",
+      "n": 5
+    },
+    {
+      "phrase": "saitama university",
+      "n": 5
+    },
+    {
+      "phrase": "already cleaned",
+      "n": 5
+    },
+    {
+      "phrase": "washing machine",
+      "n": 4
+    },
+    {
+      "phrase": "apartment building",
+      "n": 4
+    },
+    {
+      "phrase": "until monday",
+      "n": 4
+    },
+    {
+      "phrase": "japan i'm",
+      "n": 4
+    },
+    {
+      "phrase": "anyone similar",
+      "n": 4
+    },
+    {
+      "phrase": "permanent residency",
+      "n": 4
+    },
+    {
+      "phrase": "few months",
+      "n": 4
+    },
+    {
+      "phrase": "parking space",
+      "n": 4
+    },
+    {
+      "phrase": "apartment already",
+      "n": 4
+    },
+    {
+      "phrase": "new address",
+      "n": 4
+    },
+    {
+      "phrase": "mama tiger",
+      "n": 4
+    },
+    {
+      "phrase": "share houses",
+      "n": 4
+    }
+  ],
+  "amounts_median": 55000
+}
