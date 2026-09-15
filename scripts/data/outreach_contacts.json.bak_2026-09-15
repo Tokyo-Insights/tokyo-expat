@@ -376,8 +376,7 @@
     "link_obtained": false,
     "added": "2026-06-21",
     "emailed_date": "2026-09-09",
-    "followup_prepared": "2026-09-15",
-    "lang": "fr"
+    "followup_prepared": "2026-09-15"
   },
   {
     "domain": "ccifj.or.jp",
@@ -1419,14 +1418,12 @@
     "priority": "high",
     "pitch": "Section originale de 350-450 mots sur le logement autour des poles d'ecoles internationales, avec loyers medians reels par zone et arbitrages de trajet, creditee Tokyo Expat",
     "notes": "ENTRANT: il a ecrit le 23/08 via le formulaire du site apres avoir lu le guide 'Best Tokyo Neighbourhoods for Expat Families'. Echange reciproque: son annuaire est dans notre guide (EDITORIAL_DOFOLLOW), notre section de 421 mots est sur sa page Tokyo depuis le 06/09. Offre en cours au 08/09: le meme traitement pour une autre ville.",
-    "status": "link_lost",
-    "last_contact": "2026-09-14",
-    "response": "publie le 06/09 puis ECRASE: leurs pages se regenerent. Perte confirmee le 14/09 (HTML servi + de visu). Signalement envoye, aucune relance.",
-    "link_obtained": false,
+    "status": "linked",
+    "last_contact": "2026-09-08",
+    "response": "publie le 06/09 ('integrates seamlessly'), lien suivi obtenu",
+    "link_obtained": true,
     "added": "2026-09-09",
-    "emailed_date": "2026-08-25",
-    "no_followup": true,
-    "no_followup_reason": "Signalement deja envoye le 14/09. Le moniteur de backlinks verra seul si le lien revient."
+    "emailed_date": "2026-08-25"
   },
   {
     "domain": "japan-dev.com",
@@ -1447,9 +1444,7 @@
     "link_obtained": false,
     "added": "2026-09-14",
     "note_audit": "Ajoute le 14/09/2026 par relecture des messages ENVOYES en IMAP. Il manquait au registre alors que l'email etait parti.",
-    "followup_prepared": "2026-09-15",
-    "no_followup": true,
-    "no_followup_reason": "Deja pitche le 13/08 avec le MEME angle donnee. Ne pas re-pitcher."
+    "followup_prepared": "2026-09-15"
   },
   {
     "domain": "japaninsidersecrets.com",
@@ -1475,7 +1470,7 @@
   {
     "domain": "journaldujapon.com",
     "name": "Journal du Japon (Paul Ozouf)",
-    "type": "media_dead",
+    "type": "backlink_t1",
     "email": "contact@journaldujapon.com",
     "approach": "guest_post",
     "da_est": null,
@@ -1491,10 +1486,7 @@
     "link_obtained": false,
     "added": "2026-09-14",
     "note_audit": "Ajoute le 14/09/2026 par relecture des messages ENVOYES en IMAP. Il manquait au registre alors que l'email etait parti.",
-    "followup_prepared": "2026-09-15",
-    "no_followup": true,
-    "no_followup_reason": "Media FR au mur payant. Fil mort apres 4 echanges, ne pas retenter.",
-    "lang": "fr"
+    "followup_prepared": "2026-09-15"
   },
   {
     "domain": "projetjapon.fr",
@@ -1515,8 +1507,7 @@
     "link_obtained": false,
     "added": "2026-09-14",
     "note_audit": "Ajoute le 14/09/2026 par relecture des messages ENVOYES en IMAP. Il manquait au registre alors que l'email etait parti.",
-    "followup_prepared": "2026-09-15",
-    "lang": "fr"
+    "followup_prepared": "2026-09-15"
   },
   {
     "domain": "mamzeldree.fr",
@@ -1537,13 +1528,12 @@
     "link_obtained": false,
     "added": "2026-09-14",
     "note_audit": "Ajoute le 14/09/2026 par relecture des messages ENVOYES en IMAP. Il manquait au registre alors que l'email etait parti.",
-    "followup_prepared": "2026-09-15",
-    "lang": "fr"
+    "followup_prepared": "2026-09-15"
   },
   {
     "domain": "x-house.jp",
     "name": "X-House",
-    "type": "housing_supplier",
+    "type": "backlink_t1",
     "email": "info_xh@x-house.jp",
     "approach": "partenariat_operateur",
     "da_est": null,
@@ -1559,14 +1549,12 @@
     "link_obtained": false,
     "added": "2026-09-14",
     "note_audit": "Ajoute le 14/09/2026 par relecture des messages ENVOYES en IMAP. Il manquait au registre alors que l'email etait parti.",
-    "followup_prepared": "2026-09-15",
-    "no_followup": true,
-    "no_followup_reason": "Operateur de logement, partenaire de sourcing. Ne pas traiter comme une cible de backlink."
+    "followup_prepared": "2026-09-15"
   },
   {
     "domain": "mobal.com",
     "name": "Mobal",
-    "type": "vendor_partner",
+    "type": "backlink_t1",
     "email": "support@mobal.com",
     "approach": "partenariat",
     "da_est": null,
@@ -1582,14 +1570,12 @@
     "link_obtained": false,
     "added": "2026-09-14",
     "note_audit": "Ajoute le 14/09/2026 par relecture des messages ENVOYES en IMAP. Il manquait au registre alors que l'email etait parti.",
-    "followup_prepared": "2026-09-15",
-    "no_followup": true,
-    "no_followup_reason": "SIM/telecom. Fournisseur/partenaire, pas un prescripteur editorial."
+    "followup_prepared": "2026-09-15"
   },
   {
     "domain": "unilife.co.jp",
     "name": "UniLife (Shin)",
-    "type": "housing_supplier",
+    "type": "backlink_t1",
     "email": "ulg@unilife.co.jp",
     "approach": "sourcing",
     "da_est": null,
@@ -1605,8 +1591,6 @@
     "link_obtained": false,
     "added": "2026-09-14",
     "note_audit": "Ajoute le 14/09/2026 par relecture des messages ENVOYES en IMAP. Il manquait au registre alors que l'email etait parti.",
-    "followup_prepared": "2026-09-15",
-    "no_followup": true,
-    "no_followup_reason": "SOURCE DE LOGEMENT, pas un prescripteur. Silence promis: le prochain contact doit etre un etudiant reel."
+    "followup_prepared": "2026-09-15"
   }
 ]

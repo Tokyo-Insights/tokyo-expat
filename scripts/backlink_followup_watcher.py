@@ -50,15 +50,48 @@ DROP_AFTER_DAYS = 14       # apres la relance, lacher si tjs rien apres ~2 semai
 FR_HINTS = ('.fr', 'ccifj', 'ambafrance', 'airfrance', 'totalenergies', 'bnpparibas',
             'renault', 'edf', 'thales', 'francais', 'france', 'journaldujapon', 'projetjapon')
 
+# Mots francais frequents dans NOS propres objets de pitch. Le fil prime sur le domaine :
+# JETRO est un .jp mais le fil d'origine est en francais (relance EN sur objet FR, 15/09).
+FR_SUBJECT_TOKENS = ('bonjour', 'ressource', 'logement', 'loyers', 'donnees', 'proposition',
+                     'votre', 'vos ', 'pour les', 'guide ', 'annuaire')
 
-def is_fr(contact: dict) -> bool:
+# Seuls des PRESCRIPTEURS recoivent la relance "ressource utile a votre audience".
+# Un fournisseur de logement ou un vendeur n'a pas d'audience a qui nous recommander.
+NON_PRESCRIBER_TYPES = ('housing_supplier', 'vendor_partner', 'media_dead', 'b2b_corporate')
+NON_PRESCRIBER_APPROACHES = ('sourcing', 'partenariat_operateur')
+
+
+def is_fr(contact: dict, original_subject: str = '') -> bool:
+    """Langue de la relance. Ordre: champ explicite > langue du fil d'origine > domaine."""
+    lang = (contact.get('lang') or '').lower()
+    if lang:
+        return lang.startswith('fr')
+    subj = (original_subject or '').lower()
+    if subj and any(t in subj for t in FR_SUBJECT_TOKENS):
+        return True
     blob = (contact.get('domain', '') + contact.get('name', '') + contact.get('email', '')).lower()
     return any(h in blob for h in FR_HINTS)
 
 
-def followup_bodies(contact: dict):
+def followup_blocked(contact: dict):
+    """Retourne la raison de NE PAS relancer, ou None. Lu par la machine, pas dans `notes`.
+
+    Le 15/09/2026, 9 relances sont parties dont 4 interdites: la consigne existait mot pour mot
+    dans le champ texte `notes` ('SILENCE PROMIS', 'ne pas retenter'), qu'aucun script ne lit.
+    Toute consigne de ce genre doit desormais vivre dans `no_followup`.
+    """
+    if contact.get('no_followup'):
+        return contact.get('no_followup_reason') or 'no_followup'
+    if (contact.get('type') or '') in NON_PRESCRIBER_TYPES:
+        return f"type={contact.get('type')} (pas un prescripteur)"
+    if (contact.get('approach') or '') in NON_PRESCRIBER_APPROACHES:
+        return f"approach={contact.get('approach')} (partenaire de sourcing)"
+    return None
+
+
+def followup_bodies(contact: dict, original_subject: str = ''):
     """Relance courte et polie. Accents complets en plain ET html (regle d'ecriture)."""
-    if is_fr(contact):
+    if is_fr(contact, original_subject):
         plain = (
             "Bonjour,\n\n"
             "Je me permets de revenir vers vous au sujet de mon message ci-dessous : une ressource "
@@ -206,6 +239,12 @@ def main():
                 changed = True
             continue
 
+        # 1bis) Consigne explicite de ne pas relancer ? -> on s'arrete la (la reponse reste detectee).
+        blocked = followup_blocked(c)
+        if blocked:
+            print(f"  [BLOQUE] {c['name']}: {blocked}")
+            continue
+
         # 2) Deja relance ? -> attendre, ou lacher apres long silence
         fp = c.get('followup_prepared')
         if fp:
@@ -230,7 +269,7 @@ def main():
                 print(f"  [SKIP] {c['name']}: aucun email reellement envoye trouve (statut 'emailed' a verifier).")
                 continue
             subject = subj if subj.lower().startswith('re:') else (('Re: ' + subj) if subj else 'Re: Tokyo Expat')
-            plain, html = followup_bodies(c)
+            plain, html = followup_bodies(c, subj)
             alerts.append(f"🔁 <b>{c['name']}</b> : relance due (emailé il y a {days}j, sans réponse). Draft prêt dans Gmail.")
             if not dry:
                 msg = MIMEMultipart('alternative')
