@@ -233,6 +233,17 @@ def reply_to_topic(driver, topic_url: str, reply_text: str) -> bool:
 
 
 def main(dry_run: bool = False):
+    # 🛑 GARDE-FOU AJOUTE LE 17/09/2026, en meme temps que la coupure du canal.
+    # Ce script sait se connecter a expat.com avec les identifiants d'Alessandro et
+    # poster tout seul, sous son nom, chez un tiers. Un seul lancement sans
+    # --dry-run suffit. Le 15/09, neuf relances interdites sont parties parce qu'un
+    # envoi restait POSSIBLE: ce qui peut partir finit par partir.
+    # Le mode publication exige desormais un drapeau explicite, en toutes lettres.
+    if not dry_run and "--je-confirme-poster" not in sys.argv:
+        print("Mode publication REFUSE. Ce script poste sous le nom d'Alessandro chez un\n"
+              "tiers: il exige --je-confirme-poster, en plus de l'absence de --dry-run.\n"
+              "Canal coupe de la chaine hebdo le 17/09/2026 (qualite des brouillons).")
+        return
     if not EXPATCOM_EMAIL or not EXPATCOM_PASSWORD:
         print("Credentials manquants dans scripts/.env")
         return
@@ -310,10 +321,21 @@ def main(dry_run: bool = False):
             # 16/09/2026: etait `load_state()`, fonction inexistante -> NameError a CHAQUE
             # run en dry-run, juste apres l'envoi Telegram. L'alerte partait, l'avertissement
             # sur le rendement nul ne s'affichait jamais et le script sortait en erreur.
+            # 🚨 CORRIGE LE 17/09/2026. Cet avertissement affirmait "prepare des reponses
+            # depuis le <last_run> et AUCUNE n'a jamais ete postee (total_replies = 0)".
+            # C'etait une phrase fausse batie sur un compteur qui ne peut pas bouger:
+            # `total_replies` et `last_run` ne sont ecrits QUE dans la branche publication
+            # (plus bas), jamais en dry-run, et la chaine hebdo n'appelle QUE le dry-run.
+            # Donc "0 depuis le 22/06" signifie seulement "le script n'a plus tourne en
+            # mode publication depuis le 22/06" -- il ne mesure NI les brouillons produits,
+            # NI ce qu'Alessandro a pu poster a la main. Un chiffre faux sorti d'un outil
+            # porte l'autorite de l'outil: case vide plutot que chiffre faux.
             state = load_replies_state()
-            if state.get("total_replies", 0) == 0 and state.get("last_run"):
-                print(f"⚠️  Ce script prepare des reponses depuis le {state['last_run']} "
-                      f"et AUCUNE n'a jamais ete postee (total_replies = 0).")
+            print(f"[i] Brouillons ecrits. Publications automatiques a ce jour: "
+                  f"{state.get('total_replies', 0)} (dernier run en mode publication: "
+                  f"{state.get('last_run') or 'jamais'}). Ce compteur ne compte QUE les "
+                  f"envois automatiques, qui sont volontairement desactives: il ne dit "
+                  f"rien du rendement du canal.")
             return
 
         for t in targets:

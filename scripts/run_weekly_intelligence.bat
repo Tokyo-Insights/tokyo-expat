@@ -105,9 +105,12 @@ python scripts\proactive_analysis.py >> "%LOG_FILE%" 2>&1
 echo [%TIME%] [12/19] Expat.com autoposter... >> "%LOG_FILE%"
 python scripts\expatcom_autoposter.py --draft >> "%LOG_FILE%" 2>&1
 
-:: 13. Expat.com reponses (DRAFT UNIQUEMENT -- soumettre manuellement apres relecture)
-echo [%TIME%] [13/19] Expat.com replier (draft)... >> "%LOG_FILE%"
-python scripts\expatcom_replier.py --dry-run >> "%LOG_FILE%" 2>&1
+:: 13. Expat.com reponses -- CANAL COUPE le 17/09/2026 (decision d'Alessandro).
+::      Motif: qualite des brouillons, pas rendement. Les 2 brouillons du 16/09 etaient
+::      inutilisables (une reponse logement sur un fil SCOLARITE, un fil mort de 10 mois).
+::      pick_reply() ne lit que le TITRE et retombe sur un texte generique sinon.
+::      Reactivation: enlever le REM ci-dessous. Le script et les identifiants sont intacts.
+:: python scripts\expatcom_replier.py --dry-run >> "%LOG_FILE%" 2>&1
 
 :: 14. Expat.com link checker
 echo [%TIME%] [14/19] Expat.com link checker... >> "%LOG_FILE%"
