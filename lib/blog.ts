@@ -10684,6 +10684,8 @@ One station from Shinjuku but far more affordable, Nakano is one of Tokyo's best
 
 Nakano appeals to those who want to live like a local: covered markets, izakayas and a real neighbourhood feel, while being 5 minutes from Tokyo's biggest hub. The further from the station, the quieter and cheaper.
 
+![Lanterns over Showa Shindo shopping street in Nakano, Tokyo, at dusk](/nakano-showa-shindo-shotengai.jpg "Showa Shindo shotengai, a few minutes from Nakano station: izakayas, a post office and almost no cars")
+
 ## Living in Nakano smartly
 
 - Share house: no guarantor, quick move-in (see our [gaijin house guide](/blog/gaijin-house-tokyo-guide)).
@@ -10771,6 +10773,8 @@ Koenji is Tokyo's bohemian hideout: live music, vintage shops, izakayas, and som
 ## The neighbourhood profile
 
 Koenji draws artists, students and young professionals after authenticity. The vibe is relaxed and creative, far from Shibuya's gloss. The lanes are full of tiny bars and vintage shops. One of Tokyo's most endearing districts.
+
+![The red arch at the entrance of Koenji Junjo shopping street, Suginami, Tokyo](/koenji-junjo-shotengai-entrance.jpg "Koenji Junjo shotengai, straight out of the north exit: independent shops, a drugstore and a bank on the same block")
 
 ## Living in Koenji smartly
 
@@ -10903,6 +10907,10 @@ One station from Shibuya yet far more affordable and full of character, Sangenja
 ## The neighbourhood profile
 
 Sangenjaya offers Shibuya's energy four minutes away, but with a neighbourhood soul the big hub has lost. You will find a lively food scene, tiny bars and a community of young professionals. The ideal compromise between centrality and quality of life.
+
+![A narrow alley of small bars in Sangenjaya with Carrot Tower rising behind it, Setagaya, Tokyo](/sangenjaya-alley-carrot-tower.jpg "Sangenjaya in one frame: low-rise alleys of tiny bars at the foot of Carrot Tower")
+
+*Photo: [Doricono](https://commons.wikimedia.org/wiki/File:Carrot_Tower_and_an_alley_in_Sangenjaya,_Setagaya,_Tokyo.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)*
 
 ## Living in Sangenjaya smartly
 

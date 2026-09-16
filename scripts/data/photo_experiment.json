@@ -37,6 +37,33 @@
         "alt": "Vertical bicycle racks in the parking area of a residential building in Shibuya-ku, Tokyo",
         "ajoutee_le": "2026-09-16"
       }
+    ],
+    "/en/blog/living-nakano-housing-guide": [
+      {
+        "source": "Wikimedia Commons",
+        "licence": "CC0",
+        "url_origine": "https://commons.wikimedia.org/wiki/File:Nakano_street.jpg",
+        "alt": "Lanterns over Showa Shindo shopping street in Nakano, Tokyo, at dusk",
+        "ajoutee_le": "2026-09-16"
+      }
+    ],
+    "/en/blog/living-koenji-housing-guide": [
+      {
+        "source": "Wikimedia Commons",
+        "licence": "Public domain",
+        "url_origine": "https://commons.wikimedia.org/wiki/File:20140415_kouenji_junjou-shouten-gai.jpg",
+        "alt": "The red arch at the entrance of Koenji Junjo shopping street, Suginami, Tokyo",
+        "ajoutee_le": "2026-09-16"
+      }
+    ],
+    "/en/blog/living-sangenjaya-housing-guide": [
+      {
+        "source": "Wikimedia Commons",
+        "licence": "CC BY-SA 4.0 (attribution posee dans l article)",
+        "url_origine": "https://commons.wikimedia.org/wiki/File:Carrot_Tower_and_an_alley_in_Sangenjaya,_Setagaya,_Tokyo.jpg",
+        "alt": "A narrow alley of small bars in Sangenjaya with Carrot Tower rising behind it, Setagaya, Tokyo",
+        "ajoutee_le": "2026-09-16"
+      }
     ]
   },
   "_a_relire_le": "2026-10-16 (J+30). Lancer: python scripts/photo_experiment.py --report",
