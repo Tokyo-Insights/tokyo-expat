@@ -658,11 +658,19 @@ def main():
     logged_domains = {e["domain"] for e in log}
 
     PRIORITY = {"high": 0, "medium": 1, "low": 2}
+    # Champs machine-lisibles honores ici (15-16/09/2026): une consigne ecrite en
+    # prose dans `notes` n'est PAS une consigne, cf backlink_followup_watcher.
+    #  - manual_required: le contact n'accepte QUE son formulaire web (form_url),
+    #    un email part dans le vide ou dans une boite generique. Deja honore par
+    #    backlink_draft_stocker.py, il ne l'etait pas ici.
+    #  - no_followup: interdiction explicite d'ecrire a ce contact.
     eligible = [
         c for c in contacts
         if c.get("status", "to_contact") == "to_contact"
         and c.get("domain", "") not in logged_domains
         and c.get("email", "")
+        and not c.get("manual_required")
+        and not c.get("no_followup")
         and (target_domain is None or target_domain in c.get("domain", "").lower())
     ]
     eligible.sort(key=lambda x: (PRIORITY.get(x.get("priority", "low"), 2), -x.get("da_est", 0)))

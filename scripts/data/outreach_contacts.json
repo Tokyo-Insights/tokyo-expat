@@ -489,11 +489,13 @@
     "priority": "medium",
     "pitch": "Lien ressource logement dans guide 'Relocation to Japan'",
     "notes": "Recrutement cadres expats, guide relocation souvent incomplet",
-    "status": "to_contact",
+    "status": "skip",
     "last_contact": null,
     "response": null,
     "link_obtained": false,
-    "added": "2026-06-21"
+    "added": "2026-06-21",
+    "no_followup": true,
+    "no_followup_reason": "Pitch corporate a froid: 0 conversion sur 12 tentatives mesurees. Format elimine par les preuves (reference_outreach_conversion_evidence)."
   },
   {
     "domain": "robertwalters.co.jp",
@@ -918,12 +920,14 @@
     "notes": "NHK World = section EN de NHK gouvernemental. DA80+. Difficile mais worth trying. Angle: guide pratique logement Tokyo foreigners.",
     "manual_required": true,
     "form_url": "https://www3.nhk.or.jp/nhkworld/en/about/contactus/",
-    "status": "to_contact",
+    "status": "skip",
     "emailed_date": null,
     "last_contact": null,
     "response": null,
     "link_obtained": false,
-    "added": "2026-06-25"
+    "added": "2026-06-25",
+    "no_followup": true,
+    "no_followup_reason": "Diffuseur national, accepte UNIQUEMENT son formulaire web (cf form_url). manual_required etait deja pose le 25/06 mais email_sender.py ne le lisait pas. Le champ name est faux: aucune emission 'NHK World Housing Japan' verifiee."
   },
   {
     "domain": "tokyoweekender.com",
