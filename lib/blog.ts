@@ -10608,6 +10608,7 @@ Sangenjaya, c'est Shibuya à portée de marche, avec le charme d'un quartier viv
     title: 'Living in Shibuya: Rent, Neighbourhood Profile and Tips (2026)',
     description: 'How much housing costs in Shibuya, what the neighbourhood is like, and how to move in without blowing your budget in 2026.',
     date: '2026-06-28',
+    updated: '2026-09-16',
     readingTime: '5 min',
     content: `
 Shibuya is one of Tokyo's most sought-after neighbourhoods, and one of the most expensive. Here is what to expect on housing in 2026, and how to live there without blowing your budget.
@@ -10658,6 +10659,7 @@ Shibuya costs more, but it is one of the best bases for living Tokyo to the full
     title: 'Living in Nakano: Great Value One Stop from Shinjuku (2026)',
     description: 'Rent, neighbourhood profile and tips for living in Nakano in 2026: Shinjuku-level access without the central price tag.',
     date: '2026-06-28',
+    updated: '2026-09-16',
     readingTime: '5 min',
     content: `
 One station from Shinjuku but far more affordable, Nakano is one of Tokyo's best value picks for an expat. Here is the neighbourhood profile and rents in 2026.
@@ -10748,6 +10750,7 @@ Ikebukuro offers the power of a major hub at a gentler price: ideal for living a
     title: 'Living in Koenji: Tokyo\'s Bohemian, Affordable District (2026)',
     description: 'Rent, neighbourhood profile and tips for living in Koenji in 2026: Tokyo\'s creative hideout at a small price.',
     date: '2026-06-28',
+    updated: '2026-09-16',
     readingTime: '5 min',
     content: `
 Koenji is Tokyo's bohemian hideout: live music, vintage shops, izakayas, and some of the gentlest rents on the Chuo line. Here is the 2026 housing guide.
@@ -10882,6 +10885,7 @@ Kichijoji is about quality of life first: a park, shops and a gentle atmosphere,
     title: 'Living in Sangenjaya: Shibuya Within Reach, For Less (2026)',
     description: 'Rent, neighbourhood profile and tips for living in Sangenjaya in 2026: four minutes from Shibuya, full of character and more affordable.',
     date: '2026-06-28',
+    updated: '2026-09-16',
     readingTime: '5 min',
     content: `
 One station from Shibuya yet far more affordable and full of character, Sangenjaya is a favourite of young professionals. Here is the 2026 housing guide.
