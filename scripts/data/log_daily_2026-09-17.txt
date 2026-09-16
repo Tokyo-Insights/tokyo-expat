@@ -189,3 +189,32 @@ Rien a signaler (silence = sain).
 [ 7:10:13.76] [11/12] Reddit munition reminder (if due)... 
 Rien a faire (due=False, awaiting=None, reminded_today=False).
 [ 7:10:14.15] [11b] Reddit comment harvester... 
+0 nouveau(x) commentaire(s) capture(s). Total log: 132.
+[ 7:12:29.39] [11c] Subscriber feedback harvester... 
+0 nouvelle(s) reponse(s) recoltee(s). Total: 0. -> Claude en tire des sujets d'articles.
+[ 7:12:31.82] [11d] Reddit cadence reminder (if Wed/Sat)... 
+[ 7:12:32.07] [12/13] GA4 daily report... 
+📊 GA4 - hier
+Sessions: 53 (+10% vs base 7j) 📈
+Utilisateurs: 51 | Vues: 72
+
+Top pays: United States (12), Singapore (8), Japan (7), China (5), France (4), Australia (2)
+Top sources: Direct (25), Organic Search (18), Unassigned (14), AI Assistant (4)
+🤖 IA (GEO): 4 session(s) via chatgpt.com
+
+Top pages:
+  /en/data (6)
+  /en (4)
+  /en/blog/share-house-tokyo-guide-2026 (3)
+  /en/contact (3)
+  /fr/data (3)
+
+[Telegram envoye]
+[ 7:12:42.06] [12b] Backlink monitor (if due)... 
+Dernier controle il y a 3 j (< 7). Skip.
+[ 7:12:42.64] [7/7] Thursday briefing... 
+<b>JEUDI CHECK</b> -- 17 Sep 2026
+
+🟢 <b>Buffer queue</b> : 66 posts FB, 66 posts LI restants
+Aucune action HARO/Reddit en attente.
+[ 7:12:43.96] Daily watch complete. 
