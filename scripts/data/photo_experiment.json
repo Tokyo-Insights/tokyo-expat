@@ -66,6 +66,7 @@
       }
     ]
   },
+  "_attention_lecture_du_16_09": "⚠️ Le 16/09, en declarant les images au sitemap, on a rendu decouvrables NON SEULEMENT les 5 photos neuves mais aussi les ~87 graphiques deja presents, qui n'avaient jamais ete declares. La mesure SITE ENTIER dans Google Images melange donc desormais deux changements: les photos ET les graphiques. Elle reste utile comme signal global, mais l'attribution propre aux photos se lit dans les champs img_impressions PAR PAGE, ou le groupe CONTROLE sert de temoin.",
   "_a_relire_le": "2026-10-16 (J+30). Lancer: python scripts/photo_experiment.py --report",
   "baseline": {
     "/en/blog/living-shibuya-housing-guide": {
