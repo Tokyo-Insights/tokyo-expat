@@ -10636,10 +10636,14 @@ On a standard lease, add key money (1-2 months), deposit (1-2 months) and agency
 
 Shibuya is young, dense and lively. Ideal if you love the buzz and being at the centre of everything, less so if you want quiet or space. The streets behind the station (Tomigaya, Kamiyama) offer a good compromise.
 
+![A quiet residential street in Shoto, Shibuya, Tokyo](/shibuya-shoto-residential-street.jpg "Shoto, a few minutes' walk from Shibuya station: walled houses, low-rise blocks and almost no traffic")
+
 ## Living in Shibuya affordably
 
 - Target a share house: no guarantor, no key money, move in within days (see our [gaijin house guide](/blog/gaijin-house-tokyo-guide)).
 - Widen by one station: Yoyogi-Uehara, Sasazuka or Ikejiri-Ohashi give comparable access for 20-30% less.
+
+![Vertical bicycle racks in the parking area of a residential building in Shibuya-ku, Tokyo](/tokyo-apartment-bicycle-storage.jpg "Most Shibuya buildings have a shared bicycle park with vertical racks, usually a small monthly fee and a registration sticker")
 
 Shibuya costs more, but it is one of the best bases for living Tokyo to the full. With a share house or one station out, you can reach it without overspending.
 

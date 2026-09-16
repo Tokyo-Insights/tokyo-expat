@@ -21,7 +21,24 @@
     "/en/blog/living-ikebukuro-housing-guide",
     "/en/blog/living-asagaya-housing-guide"
   ],
-  "photos": {},
+  "photos": {
+    "/en/blog/living-shibuya-housing-guide": [
+      {
+        "source": "Wikimedia Commons",
+        "licence": "Public domain",
+        "url_origine": "https://commons.wikimedia.org/wiki/File:Residential_area_in_Sh%C5%8Dt%C5%8D,_Shibuya.jpg",
+        "alt": "A quiet residential street in Shoto, Shibuya, Tokyo",
+        "ajoutee_le": "2026-09-16"
+      },
+      {
+        "source": "Wikimedia Commons",
+        "licence": "CC0",
+        "url_origine": "https://commons.wikimedia.org/wiki/File:Vertical_bicycle_storage_outside_a_residential_building_in_Shibuya-ku.jpg",
+        "alt": "Vertical bicycle racks in the parking area of a residential building in Shibuya-ku, Tokyo",
+        "ajoutee_le": "2026-09-16"
+      }
+    ]
+  },
   "_a_relire_le": "2026-10-16 (J+30). Lancer: python scripts/photo_experiment.py --report",
   "baseline": {
     "/en/blog/living-shibuya-housing-guide": {
