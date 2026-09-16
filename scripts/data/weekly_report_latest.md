@@ -1,4 +1,4 @@
-# 📊 RAPPORT HEBDO — tokyo-expat — 2026-09-16
+# 📊 RAPPORT HEBDO — tokyo-expat — 2026-09-17
 
 ## 🎯 KPIs
 - **Trafic (7j)** : 339 sessions (+5%), 299 users (-3%)
@@ -62,10 +62,10 @@ _⚠️ L'evenement GA4 `generate_lead` se declenche uniquement quand quelqu'un 
 
 ## 🔀 CONVERSION PAR PAGE
 **Fort trafic SANS lead (ajouter/renforcer un CTA) :**
-  - 317 sessions · 0 lead | /en/data
-  - 89 sessions · 0 lead | /fr
-  - 78 sessions · 0 lead | /en/blog/tokyo-rent-report-2026
-  - 77 sessions · 0 lead | (not set)
+  - 324 sessions · 0 lead | /en/data
+  - 90 sessions · 0 lead | /fr
+  - 80 sessions · 0 lead | /en/blog/tokyo-rent-report-2026
+  - 79 sessions · 0 lead | (not set)
   - 72 sessions · 0 lead | /en/blog/jiko-bukken-cheap-apartments-tokyo
   - 68 sessions · 0 lead | /en/blog/tokyo-expat-cost-of-living-2026
   - 67 sessions · 0 lead | /en/blog/tokyo-rent-by-neighborhood-2026
@@ -73,32 +73,32 @@ _⚠️ L'evenement GA4 `generate_lead` se declenche uniquement quand quelqu'un 
 **Convertissent (y amener plus de trafic) :**
   - 6 lead / 0 sess (n/d) | /en/checklist
   - 2 lead / 66 sess (3.0%) | /en/blog/gaijin-house-tokyo-guide
-  - 1 lead / 165 sess (0.6%) | /en
+  - 1 lead / 168 sess (0.6%) | /en
   - 1 lead / 142 sess (0.7%) | /en/blog/japan-sim-card-foreigners-2026
-  - 1 lead / 70 sess (1.4%) | /en/blog/japan-income-tax-foreigners-guide
+  - 1 lead / 71 sess (1.4%) | /en/blog/japan-income-tax-foreigners-guide
 
 ## 📈 TENDANCES (vs snapshot precedent)
-- Sessions -2 · Impressions +3870 · Clics +2 · Leads +6 (depuis 2026-09-11)
-**Vagues montantes (requetes) :**
-  - _jiko bukken_ : impr +63, pos 9.0 (monte)
-  - _about me: corporate relocator corporate relocator question: which parts of tokyo are more family-oriented?_ : impr +6, pos 11.9 (monte)
+- Sessions +0 · Impressions +0 · Clics +0 · Leads +0 (depuis 2026-09-16)
 
 ## 📉 PAGES EN BAISSE (decomposees par canal — le total ne dit pas la cause)
-  - **-16** sessions (42 -> 26, 28j vs 28j prec.) | /en/blog/tokyo-expat-cost-of-living-2026
-      Direct -14 · Organic Social -2
+  - **-20** sessions (44 -> 24, 28j vs 28j prec.) | /en/blog/tokyo-expat-cost-of-living-2026
+      Direct -16 · Organic Social -4
       ✅ **Pas un declin de contenu** : la perte vient de canaux sans valeur (Direct/Social).
-  - **-10** sessions (24 -> 14, 28j vs 28j prec.) | /en/blog/japan-health-insurance-expat-guide
+  - **-10** sessions (33 -> 23, 28j vs 28j prec.) | /en/blog/japan-income-tax-foreigners-guide
+      Direct -13 · Organic Search +3
+      ✅ **Pas un declin de contenu** : la perte vient de canaux sans valeur (Direct/Social). Le trafic qualifie MONTE (+3).
+  - **-10** sessions (25 -> 15, 28j vs 28j prec.) | /en/blog/japan-health-insurance-expat-guide
       Direct -10 · Organic Search -2 · Unassigned +2
       ✅ **Pas un declin de contenu** : la perte vient de canaux sans valeur (Direct/Social).
 
 ## 🧲 ENGAGEMENT PAR PAGE
 **Fort trafic, FAIBLE engagement (contenu a ameliorer) :**
-  - 111 sess · engagement 21% · 33s | /en/data
-  - 76 sess · engagement 42% · 78s | /en/blog/japan-sim-card-foreigners-2026
-  - 65 sess · engagement 34% · 79s | /en
-  - 42 sess · engagement 10% · 20s | /en/blog/tokyo-rent-report-2026
-  - 40 sess · engagement 30% · 59s | /en/blog/gaijin-house-tokyo-guide
-  - 39 sess · engagement 36% · 65s | /en/blog/jiko-bukken-cheap-apartments-tokyo
+  - 115 sess · engagement 20% · 31s | /en/data
+  - 74 sess · engagement 45% · 80s | /en/blog/japan-sim-card-foreigners-2026
+  - 63 sess · engagement 37% · 85s | /en
+  - 50 sess · engagement 44% · 153s | /en/blog/share-house-tokyo-guide-2026
+  - 43 sess · engagement 12% · 19s | /en/blog/tokyo-rent-report-2026
+  - 38 sess · engagement 37% · 66s | /en/blog/jiko-bukken-cheap-apartments-tokyo
 
 ## 🔻 ENTONNOIR DE NAVIGATION (90j) — que des clics, pas des ventes
   - Clic dans un champ **26** → Email donne **17** (65%) → Clic vers /contact **6** (35%) → Clic sur Calendly **7** (117%)
@@ -114,12 +114,12 @@ _⚠️ L'evenement GA4 `generate_lead` se declenche uniquement quand quelqu'un 
   - 102 impr · pos 8.7 · CTR 0.0% (attendu ~3%) · _gaijin house_
 
 ## 🤖 GEO / IA (canal prioritaire)
-**➡️ 103 sessions IA sur 28j** (vs 100 les 28j precedents, +3%)
+**📈 108 sessions IA sur 28j** (vs 102 les 28j precedents, +6%)
 **Pages qui captent l'IA (90j) :**
-  - 54 sess IA | /en/data
+  - 57 sess IA | /en/data
   - 22 sess IA | /en/blog/tokyo-rent-by-neighborhood-2026
-  - 18 sess IA | /en/blog/tokyo-rent-report-2026
-  - 15 sess IA | /en/blog/share-house-tokyo-guide-2026
+  - 19 sess IA | /en/blog/tokyo-rent-report-2026
+  - 16 sess IA | /en/blog/share-house-tokyo-guide-2026
   - 12 sess IA | (not set)
   - 10 sess IA | /en/blog/japanese-language-schools-tokyo-guide
 _⚠️ Bing a un onglet 'AI Performance' plus precis, mais il n'est PAS expose par son API (404 verifie le 09/09) : ce chiffre-ci vient du regroupement GA4._
@@ -130,31 +130,44 @@ _⚠️ Bing a un onglet 'AI Performance' plus precis, mais il n'est PAS expose 
   - 14 sess | fr.search.yahoo.com
   - 14 sess | studyinjapan.org
   - 13 sess | facebook.com
-  - 11 sess | cn.bing.com
+  - 12 sess | cn.bing.com
   - 11 sess | linkedin.com
-  - 9 sess | m.facebook.com
+  - 11 sess | m.facebook.com
   - 6 sess | reddit.com
 _⚠️ Ceci mesure le TRAFIC envoye, pas les liens. Un backlink d'autorite n'envoie quasiment personne et n'apparaitra jamais ici. **Le compte des domaines referents n'est automatise nulle part**, il se tient a la main._
 
 ## 🎯 TOP OPPORTUNITES (priorisees)
 **Striking distance (page 1-2, a pousser en top-3) :**
-  - 709 impr · pos 8.7 · 1 clics · _tokyo gaijin house_
   - 240 impr · pos 9.0 · 2 clics · _jiko bukken_
-  - 239 impr · pos 10.6 · 0 clics · _gaijin houses_
   - 176 impr · pos 8.9 · 0 clics · _jikobukken map_
-  - 109 impr · pos 5.4 · 1 clics · _gaijin house tokyo_
-  - 102 impr · pos 8.7 · 0 clics · _gaijin house_
+  - 84 impr · pos 7.3 · 0 clics · _what is the minimum rental period for a furnished apartment in tokyo?_
+  - 81 impr · pos 10.8 · 0 clics · _jikobukken_
+  - 66 impr · pos 11.0 · 0 clics · _appartement social tokyo_
+  - 63 impr · pos 11.0 · 0 clics · _jiko bukken tokyo_
+
+**⛔ En zone de frappe mais a NE PAS pousser** (carte page 1 du 09-11/09, cf `cluster_verdicts.py`) :
+  - 709 impr · pos 8.7 · 1 clics · _tokyo gaijin house_ — 🤖 APERCU IA au-dessus
+  - 239 impr · pos 10.6 · 0 clics · _gaijin houses_ — 🤖 APERCU IA au-dessus
+  - 109 impr · pos 5.4 · 1 clics · _gaijin house tokyo_ — 🤖 APERCU IA au-dessus
+  - 102 impr · pos 8.7 · 0 clics · _gaijin house_ — 🤖 APERCU IA au-dessus
+  - 84 impr · pos 6.6 · 0 clics · _gaijin houses tokyo_ — 🤖 APERCU IA au-dessus
+
+**🤖 Bien classe, du volume, ZERO clic** _(la reponse est prise au-dessus de nous ; c'est ici que se lit le test de titre du 05/10)_ :
+  - **704 impr · pos 4.6 · 0 clic** · _cheap gaijin house in tokyo_ — 🤖 APERCU IA au-dessus
+  - **239 impr · pos 10.6 · 0 clic** · _gaijin houses_ — 🤖 APERCU IA au-dessus
+  - **176 impr · pos 8.9 · 0 clic** · _jikobukken map_ — ❔ page 1 jamais regardee
 
 ## 💎 GISEMENTS SEO (clusters, 90j)
-_Requetes regroupees par theme, position ponderee par les impressions. 🎯 = page 2-3, donc gagnable._
-  🎯 **2848 impr** · pos 9.8 · 4 variantes · OPTIMISER — _tokyo gaijin house_
-  🎯 **2373 impr** · pos 8.9 · 1 variantes · OPTIMISER — _cheap gaijin house in tokyo_
-  🎯 **1630 impr** · pos 25.7 · 2 variantes · OPTIMISER — _furnished apartment tokyo_
-  🎯 **1400 impr** · pos 19.9 · 2 variantes · ECRIRE — _expat apartments tokyo_
-  🎯 **1062 impr** · pos 26.6 · 1 variantes · OPTIMISER — _fully furnished apartments tokyo_
-  🎯 **615 impr** · pos 12.5 · 2 variantes · OPTIMISER — _jiko bukken_
-     **964 impr** · pos 38.2 · 2 variantes · OPTIMISER — _apartments for rent in tokyo furnished_
-  🎯 **364 impr** · pos 19.5 · 2 variantes · OPTIMISER — _social apartments japan_
+_Requetes regroupees par theme, position ponderee par les impressions._
+_🎯 = page 2-3 **et** page 1 accessible a un article. CORRIGE le 17/09/2026: la position seule qualifiait des clusters tenus par des pages de stock ou couverts par un apercu IA._
+     **2857 impr** · pos 9.8 · 4 variantes · OPTIMISER — _tokyo gaijin house_ — 🤖 APERCU IA au-dessus
+     **2373 impr** · pos 8.9 · 1 variantes · OPTIMISER — _cheap gaijin house in tokyo_ — 🤖 APERCU IA au-dessus
+     **1630 impr** · pos 25.7 · 2 variantes · OPTIMISER — _furnished apartment tokyo_ — ⛔ FERME (page de stock)
+     **1400 impr** · pos 19.9 · 2 variantes · ECRIRE — _expat apartments tokyo_ — ⛔ FERME (page de stock)
+     **1062 impr** · pos 26.6 · 1 variantes · OPTIMISER — _fully furnished apartments tokyo_ — ⛔ FERME (page de stock)
+  🎯 **619 impr** · pos 12.4 · 2 variantes · OPTIMISER — _jiko bukken_ — ✅ OUVERT aux articles
+     **964 impr** · pos 38.2 · 2 variantes · OPTIMISER — _apartments for rent in tokyo furnished_ — ⛔ FERME (page de stock)
+  🎯 **364 impr** · pos 19.5 · 2 variantes · OPTIMISER — _social apartments japan_ — ⚠️ marque d'un concurrent (gagnable, faible valeur)
 
 ## 🔥 VULNERABILITES CONCURRENTS (places a prendre)
 _Chutes vues par le tracker DuckDuckGo, croisees avec NOS positions Google (GSC)._
@@ -179,7 +192,7 @@ _Chutes vues par le tracker DuckDuckGo, croisees avec NOS positions Google (GSC)
   - #1 · [en] find apartment tokyo foreigner  _absent des requetes GSC (28 j) : pas de volume mesurable_
 
 ## 🅱️ BING (l'index que ChatGPT interroge)
-_Donnees a jour (3 j de decalage, fin 2026-09-13)._
+_Donnees a jour (4 j de decalage, fin 2026-09-13)._
 **10377 impressions · 233 clics · CTR 2.25%** sur 2026-06-28 → 2026-09-13 (963 requetes, 103 pages)
 **Pages fortes sur Bing (souvent PAS les memes que sur Google) :**
   - 1071 impr · 19 clics · pos 5.9 | /en/blog/japan-income-tax-foreigners-guide

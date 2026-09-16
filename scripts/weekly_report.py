@@ -14,6 +14,8 @@ import sys, io, json, sqlite3, glob, datetime as dt
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import requests, urllib3
+# CARTE PAGE 1 (17/09/2026): une position gagnable ne suffit pas a faire une opportunite.
+import cluster_verdicts as carte
 urllib3.disable_warnings()
 if sys.stdout.encoding and sys.stdout.encoding.lower() not in ("utf-8", "utf8"):
     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
@@ -150,12 +152,57 @@ def real_demand(days=90):
 
 # ---------- GSC: striking distance (pos 5-15, forte impression) ----------
 def striking(gsc):
-    out = []
+    """Requetes a pousser en top-3, APRES passage par la carte page 1.
+
+    CORRIGE 17/09/2026. Cette liste etait dominee par le cluster `gaijin house`
+    (6 lignes sur 12), ou un apercu IA repond au-dessus de nous: monter en top-3 n'y
+    produit aucun clic. Les clusters fermes gardent leur ligne, mais dans un bloc
+    separe et nommes pour ce qu'ils sont.
+    """
+    pousser, bloques = [], []
     for r in (gsc or {}).get("top_queries", []):
         kw = r.get("query") or (r.get("keys", [""]) or [""])[0]
         pos, impr, clk = r.get("position", 0), r.get("impressions", 0), r.get("clicks", 0)
         if 5 <= pos <= 15 and impr >= 40:
-            out.append((impr, pos, clk, kw))
+            statut, _, _ = carte.verdict(kw)
+            if statut in (carte.STOCK, carte.APERCU_IA):
+                bloques.append((impr, pos, clk, kw, carte.etiquette(statut)))
+            else:
+                pousser.append((impr, pos, clk, kw))
+    return sorted(pousser, reverse=True)[:6], sorted(bloques, reverse=True)[:5]
+
+
+def _est_actionnable(c):
+    """Un cluster du radar merite-t-il une recommandation ?
+
+    UN SEUL lecteur pour les trois endroits qui recommandent (section gisements,
+    bandeau HTML, digest Telegram). Le defaut du 17/09/2026 venait justement de trois
+    lectures independantes du meme champ fautif `winnable`.
+    Un JSON produit avant cette date n'a pas `actionable`: on retombe sur la carte.
+    """
+    if not isinstance(c, dict):
+        return False
+    a = c.get("actionable")
+    if a is not None:
+        return bool(a)
+    return carte.actionnable(c.get("theme") or c.get("example", ""), c.get("position"))
+
+
+def positions_sans_clic(gsc):
+    """Bien classe, du volume, ZERO clic: quelqu'un repond au-dessus de nous.
+
+    AJOUTE 17/09/2026. La fenetre striking distance commence en position 5, donc elle
+    CACHAIT le cas le plus parlant du site: "cheap gaijin house in tokyo", 704
+    impressions en position 4,6 et zero clic. Trop bien classe pour etre vu. C'est
+    pourtant CETTE ligne qu'il faut lire le 05/10 pour juger le test de titre, pas le
+    CTR global.
+    """
+    out = []
+    for r in (gsc or {}).get("top_queries", []):
+        kw = r.get("query") or (r.get("keys", [""]) or [""])[0]
+        pos, impr, clk = r.get("position", 0), r.get("impressions", 0), r.get("clicks", 0)
+        if carte.sans_clic(impr, clk, pos):
+            out.append((impr, pos, kw, carte.etiquette(carte.verdict(kw)[0])))
     return sorted(out, reverse=True)[:6]
 
 
@@ -472,8 +519,12 @@ def render_html(d):
            f'<div class="meta">sessions · {K["sess_delta"]} · {K["users"]} users</div></div>'
            f'<div class="kpi"><div class="lab">Visibilite (28j)</div><div class="val">{K["impr"]:,}</div>'
            f'<div class="meta">impr · {K["clicks"]} clics · CTR {K["ctr"]:.2f}%</div></div>'
+           # CORRIGE 17/09/2026: ce KPI affichait "page 2-3 · levier autorite", un cadrage
+           # FALSIFIE le 08/09 (autorite 1->6 domaines, trafic en hausse, demandes inchangees)
+           # et precise le 11/09 (le tunnel est sain, c'est le MAUVAIS trafic). Le rapport
+           # portait donc chaque mercredi une conclusion perimee depuis neuf jours.
            f'<div class="kpi"><div class="lab">Position moy.</div><div class="val">{K["pos"]:.1f}</div>'
-           f'<div class="meta">page 2-3 · levier autorite</div></div>'
+           f'<div class="meta">moyenne sur {K["n_queries"]} requetes · ne dit rien de la demande</div></div>'
            f'<div class="kpi"><div class="lab">Captures email (90j)</div><div class="val">{K["leads"]}</div>'
            f'<div class="meta">PDF + newsletter · pas des prospects</div></div>').replace(",", " ")
 
@@ -872,11 +923,28 @@ def build():
 
     # C. TOP OPPORTUNITES (priorisees)
     L.append("## 🎯 TOP OPPORTUNITES (priorisees)")
-    sd = striking(gsc)
+    sd, sd_bloques = striking(gsc)
     if sd:
         L.append("**Striking distance (page 1-2, a pousser en top-3) :**")
         for impr, pos, clk, kw in sd:
             L.append(f"  - {impr} impr · pos {pos:.1f} · {clk} clics · _{kw}_")
+    else:
+        L.append("**Striking distance : aucune requete a pousser.** Toutes celles qui "
+                 "seraient en zone de frappe sont sur des clusters fermes (ci-dessous).")
+    if sd_bloques:
+        L.append("")
+        L.append("**⛔ En zone de frappe mais a NE PAS pousser** "
+                 "(carte page 1 du 09-11/09, cf `cluster_verdicts.py`) :")
+        for impr, pos, clk, kw, etq in sd_bloques:
+            L.append(f"  - {impr} impr · pos {pos:.1f} · {clk} clics · _{kw}_ — {etq}")
+    # AJOUTE 17/09/2026: le bloc que la fenetre 5-15 rendait invisible.
+    psc = positions_sans_clic(gsc)
+    if psc:
+        L.append("")
+        L.append("**🤖 Bien classe, du volume, ZERO clic** _(la reponse est prise "
+                 "au-dessus de nous ; c'est ici que se lit le test de titre du 05/10)_ :")
+        for impr, pos, kw, etq in psc:
+            L.append(f"  - **{impr} impr · pos {pos:.1f} · 0 clic** · _{kw}_ — {etq}")
     if gaps:
         items = gaps if isinstance(gaps, list) else gaps.get("gaps", gaps.get("items", []))
         def gkw(g): return str(g.get("keyword") or g.get("topic") or g.get("title", "")).lower()
@@ -908,12 +976,31 @@ def build():
     opp = load("gsc_opportunities.json")
     if opp and opp.get("clusters"):
         L.append(f"## 💎 GISEMENTS SEO (clusters, {opp.get('days', 90)}j)")
-        L.append("_Requetes regroupees par theme, position ponderee par les impressions. "
-                 "🎯 = page 2-3, donc gagnable._")
+        L.append("_Requetes regroupees par theme, position ponderee par les impressions._")
+        L.append("_🎯 = page 2-3 **et** page 1 accessible a un article. CORRIGE le "
+                 "17/09/2026: la position seule qualifiait des clusters tenus par des pages "
+                 "de stock ou couverts par un apercu IA._")
         for c in opp["clusters"][:8]:
-            cible = "🎯" if c.get("winnable") else "  "
+            # Un JSON produit avant le 17/09 n'a pas le champ `actionable`: on retombe sur
+            # la carte plutot que sur `winnable`, qui est precisement le champ fautif.
+            act = c.get("actionable")
+            if act is None:
+                act = carte.actionnable(c.get("theme") or c.get("example", ""), c.get("position"))
+            cible = "🎯" if act else "  "
+            statut = c.get("verdict") or carte.verdict(c.get("theme") or c.get("example", ""))[0]
+            # On montre le verdict meme quand le cluster reste actionnable: "gagnable mais
+            # c'est la marque d'un concurrent" est une information, pas un detail.
+            note = "" if statut == carte.INCONNU else f" — {carte.etiquette(statut)}"
             L.append(f"  {cible} **{c['impressions']} impr** · pos {c['position']} · "
-                     f"{c['variants']} variantes · {c['action']} — _{c['example']}_")
+                     f"{c['variants']} variantes · {c['action']} — _{c['example']}_{note}")
+        if not any((c.get("actionable") if c.get("actionable") is not None
+                    else carte.actionnable(c.get("theme") or c.get("example", ""), c.get("position")))
+                   for c in opp["clusters"][:8]):
+            L.append("")
+            L.append("  ⚠️ **Aucun gisement actionnable cette semaine.** Les plus gros "
+                     "volumes du site sont structurellement hors d'atteinte d'un article. "
+                     "Ecrire mieux n'y changera rien: c'est une page qui MONTRE des biens, "
+                     "ou rien.")
         L.append("")
 
     # D. VULNERABILITES CONCURRENTS (places a prendre)
@@ -1094,12 +1181,22 @@ def build():
         # rien, a optimiser en priorite" — conclusion fausse pour /en/data, dont le
         # trafic Direct etait du tourisme Reddit et dont le trafic IA MONTE. Le vrai
         # levier n1 est le gisement SEO, pas une page a "optimiser" au hasard.
+        # CORRIGE 17/09/2026: ce bandeau lisait `winnable` (= position seule). Les quatre
+        # premiers clusters du radar sont un cluster a apercu IA (deux fois) puis deux
+        # clusters tenus par des pages de stock: le "plus gros gisement actionnable de la
+        # semaine" designait donc, chaque mercredi, un mur.
         _opp = load("gsc_opportunities.json") or {}
-        _top = next((c for c in _opp.get("clusters", []) if c.get("winnable")), None)
+        _top = next((c for c in _opp.get("clusters", []) if _est_actionnable(c)), None)
         if _top:
             callout = (f"{_top['impressions']} impressions en position {_top['position']} sur "
                        f"\"{_top['example']}\" — {_top['action']}. C'est le plus gros gisement "
                        f"actionnable de la semaine.")
+        elif _opp.get("clusters"):
+            _m = _opp["clusters"][0]
+            callout = (f"Aucun gisement actionnable cette semaine. Le plus gros volume "
+                       f"({_m['impressions']} impr, \"{_m['example']}\") est "
+                       f"{carte.etiquette(_m.get('verdict') or carte.verdict(_m.get('theme') or _m.get('example',''))[0])}. "
+                       f"Le levier n'est pas un article de plus.")
         elif cboost:
             callout = (f"{cboost[0][1]} = {cboost[0][0]} sessions sans capture d'email. "
                        f"Verifier la decomposition par canal avant d'en conclure quoi que ce soit.")
@@ -1112,6 +1209,7 @@ def build():
             "users": (ga4 or {}).get("this_week", {}).get("users", "?"),
             "impr": impr, "clicks": clk, "ctr": (clk / impr * 100) if impr else 0,
             "pos": t.get("position", 0) or 0,
+            "n_queries": len((gsc or {}).get("top_queries", [])),
             "leads": leads.get("total", "?") if isinstance(leads, dict) else "?",
             "leads_channel": leads.get("by_channel", []) if isinstance(leads, dict) else [],
             "leads_country": leads.get("by_country", []) if isinstance(leads, dict) else [],
@@ -1131,13 +1229,21 @@ def build():
             # reste est explicitement etiquete pour ce qu'il est.
             nb_form = len(demand["forms"]) if not demand.get("error") else "?"
             nb_resa = len(demand["bookings"]) if not demand.get("error") else "?"
+            # CORRIGE 17/09/2026, meme defaut que le bandeau HTML: le message que lit
+            # Alessandro pointait un cluster ferme. Corriger le document sans corriger
+            # le MESSAGE laisse le defaut entier (deja vu le 09/09).
             opp = load("gsc_opportunities.json") or {}
             gisement = ""
             for c in opp.get("clusters", []):
-                if c.get("winnable"):
+                if _est_actionnable(c):
                     gisement = (f"\n💎 <b>Gisement n1 :</b> {c['impressions']} impr en position "
                                 f"{c['position']} — <i>{c['example']}</i> ({c['action']})")
                     break
+            if not gisement and opp.get("clusters"):
+                _m = opp["clusters"][0]
+                gisement = ("\n💎 <b>Aucun gisement actionnable.</b> Le plus gros volume "
+                            f"({_m['impressions']} impr, <i>{_m['example']}</i>) est "
+                            f"{carte.etiquette(_m.get('verdict') or carte.verdict(_m.get('theme') or _m.get('example',''))[0])}.")
             dg = (f"📊 <b>RAPPORT HEBDO</b> — tokyo-expat — {dt.date.today().isoformat()}\n\n"
                   f"🔴 <b>DEMANDES REELLES (90j) : {nb_form} formulaire(s) · "
                   f"{nb_resa} reservation(s)</b>\n"

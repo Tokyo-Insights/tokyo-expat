@@ -23,6 +23,10 @@ if sys.stdout.encoding and sys.stdout.encoding.lower() not in ("utf-8", "utf8"):
     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
 
 from config import TELEGRAM_TOKEN, TELEGRAM_CHAT_ID
+# CARTE PAGE 1 (17/09/2026): la position ne suffit pas a declarer un cluster gagnable.
+# Deux clusters sur trois en tete de ce radar sont soit tenus par des pages de stock,
+# soit couverts par un apercu IA. Cf cluster_verdicts.py pour le detail et les sources.
+from cluster_verdicts import verdict, actionnable, etiquette, STOCK, APERCU_IA
 
 CREDS = Path(__file__).parent / "ga4-credentials.json"
 SITE = "sc-domain:tokyo-expat.com"
@@ -131,13 +135,20 @@ def main():
     print(f"BOUCLE RECHERCHE->ARTICLE | {len(ranked)} CLUSTERS d'opportunites ({DAYS}j)")
     lines = []
     for score, s, impr, clicks, pos, queries in ranked[:12]:
-        zone = "🎯" if STRIKE_LOW <= pos <= STRIKE_HIGH else "  "
+        label = " ".join(sorted(s))
+        statut, pourquoi, _date = verdict(label)
+        # 🎯 = gagnable ET page 1 accessible. Un cluster ferme garde sa ligne (le volume
+        # est reel) mais perd la cible: le recommander etait le defaut du 17/09/2026.
+        zone = "🎯" if actionnable(label, pos, STRIKE_LOW, STRIKE_HIGH) else "  "
         action = "OPTIMISER (article existe)" if covered(s, art_sets) else "ECRIRE (nouveau)"
+        if statut in (STOCK, APERCU_IA):
+            action = f"NE PAS INVESTIR — {etiquette(statut)}"
         top_q = max(queries, key=lambda x: x[1])[0]
         variants = len(queries)
-        label = " ".join(sorted(s))
         print(f"{zone} {impr:>4} impr | pos {pos:>4.1f} | {variants:>2} variantes | {action}")
         print(f"       theme: {label[:60]}  (ex: \"{top_q}\")")
+        if statut in (STOCK, APERCU_IA):
+            print(f"       {pourquoi}")
         lines.append(f"{zone} {impr} impr, pos {pos:.0f}, {variants} variantes -> {action}\n   \"{top_q}\"")
 
     # SORTIE JSON (ajoutee 09/09/2026) -- INDISPENSABLE.
@@ -155,7 +166,15 @@ def main():
             {"impressions": impr, "clicks": clicks, "position": round(pos, 1),
              "variants": len(queries),
              "action": "OPTIMISER" if covered(s, art_sets) else "ECRIRE",
+             # `winnable` = position seule. CONSERVE tel quel pour ne pas casser un
+             # lecteur existant, mais ce n'est PAS le champ a lire pour decider.
              "winnable": bool(STRIKE_LOW <= pos <= STRIKE_HIGH),
+             # `actionable` = position ET page 1 accessible. C'est CE champ qui doit
+             # piloter toute recommandation (ajoute le 17/09/2026).
+             "actionable": actionnable(" ".join(sorted(s)), pos, STRIKE_LOW, STRIKE_HIGH),
+             "verdict": verdict(" ".join(sorted(s)))[0],
+             "verdict_why": verdict(" ".join(sorted(s)))[1],
+             "verdict_date": verdict(" ".join(sorted(s)))[2],
              "example": max(queries, key=lambda x: x[1])[0],
              "theme": " ".join(sorted(s))}
             for score, s, impr, clicks, pos, queries in ranked[:12]
@@ -167,10 +186,15 @@ def main():
 
     if not do_print and ranked:
         top = "\n".join(lines[:8])
+        cibles = sum(1 for l in lines[:8] if l.startswith("🎯"))
+        pied = ("-> Demande a Claude d'ECRIRE/OPTIMISER pour les 🎯."
+                if cibles else
+                "-> AUCUNE cible cette semaine: les plus gros volumes sont tenus par des "
+                "pages de stock ou par un apercu IA. Ecrire mieux n'y changera rien.")
         send_telegram(
             f"\U0001F50D <b>SEO - clusters d'opportunites</b> ({DAYS}j)\n"
-            f"Themes haute intention ou tu rankes mal (🎯 = gagnable, page 2-3):\n\n{top}\n\n"
-            f"-> Demande a Claude d'ECRIRE/OPTIMISER pour les 🎯.")
+            f"Themes haute intention ou tu rankes mal "
+            f"(🎯 = gagnable ET page 1 accessible):\n\n{top}\n\n{pied}")
         print("\n[Telegram envoye]")
 
 
