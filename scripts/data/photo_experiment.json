@@ -1,0 +1,144 @@
+{
+  "_lisez_moi": "TEST PHOTO ouvert le 16/09/2026. Question: ajouter de vraies photos de lieux change-t-il quelque chose ? Le site n'avait AUCUNE photographie au depart (toutes les images de public/ etaient des cartes et des graphiques; seule exception alessandro.jpg sur /about).",
+  "_mesure_principale": "Google Images, site entier. Mesure du 16/09/2026: 4 impressions sur 90 jours, position 59.8, contre 71360 impressions en recherche web. Le plancher est quasi nul, donc tout mouvement franc est un SIGNAL. C'est la seule mesure lisible a cette echelle de trafic.",
+  "_pourquoi_pas_l_engagement": "Les 7 guides de quartier totalisent 26 sessions sur 28 jours. Sur une page a 9 sessions, un seul visiteur de plus deplace l'engagement de 10 points. L'engagement est donc consigne mais ne pourra PAS trancher. Ne pas lui faire dire ce qu'il ne peut pas dire.",
+  "_regles_photo": [
+    "INTERDIT: photo trouvee sur Google, meme retouchee par IA. Une oeuvre derivee reste une contrefacon.",
+    "AUTORISE: Wikimedia Commons (attribution requise), Unsplash, Pexels. Usage commercial verifie au cas par cas.",
+    "Si une photo illustre un lieu NOMME, elle doit etre ce lieu. Sinon c'est de la fabrication.",
+    "INTERDIT: toute image montrant une visite guidee ou un agent faisant visiter. Alessandro n'a pas le 宅建 et fait du support/conseil, pas de l'intermediation.",
+    "INTERDIT: photo d'un bien ou d'une agence partenaire.",
+    "Chaque photo doit porter un texte alternatif descriptif: c'est ce qui la rend trouvable dans Google Images."
+  ],
+  "test": [
+    "/en/blog/living-shibuya-housing-guide",
+    "/en/blog/living-nakano-housing-guide",
+    "/en/blog/living-koenji-housing-guide",
+    "/en/blog/living-sangenjaya-housing-guide"
+  ],
+  "control": [
+    "/en/blog/living-kichijoji-housing-guide",
+    "/en/blog/living-ikebukuro-housing-guide",
+    "/en/blog/living-asagaya-housing-guide"
+  ],
+  "photos": {},
+  "_a_relire_le": "2026-10-16 (J+30). Lancer: python scripts/photo_experiment.py --report",
+  "baseline": {
+    "/en/blog/living-shibuya-housing-guide": {
+      "sessions": 3,
+      "engagement_rate": 66.7,
+      "avg_duration_s": 84.3,
+      "impressions": 79,
+      "clics": 0,
+      "ctr": 0,
+      "position": 6.1,
+      "img_impressions": 0,
+      "img_clics": 0,
+      "vu_par_ga4": true,
+      "vu_par_gsc": true
+    },
+    "/en/blog/living-nakano-housing-guide": {
+      "sessions": 9,
+      "engagement_rate": 44.4,
+      "avg_duration_s": 53.8,
+      "impressions": 13,
+      "clics": 0,
+      "ctr": 0,
+      "position": 5,
+      "img_impressions": 0,
+      "img_clics": 0,
+      "vu_par_ga4": true,
+      "vu_par_gsc": true
+    },
+    "/en/blog/living-koenji-housing-guide": {
+      "sessions": 7,
+      "engagement_rate": 71.4,
+      "avg_duration_s": 98.5,
+      "impressions": 17,
+      "clics": 0,
+      "ctr": 0,
+      "position": 6.1,
+      "img_impressions": 0,
+      "img_clics": 0,
+      "vu_par_ga4": true,
+      "vu_par_gsc": true
+    },
+    "/en/blog/living-sangenjaya-housing-guide": {
+      "sessions": 2,
+      "engagement_rate": 50.0,
+      "avg_duration_s": 61.9,
+      "impressions": 8,
+      "clics": 0,
+      "ctr": 0,
+      "position": 3.5,
+      "img_impressions": 0,
+      "img_clics": 0,
+      "vu_par_ga4": true,
+      "vu_par_gsc": true
+    },
+    "/en/blog/living-kichijoji-housing-guide": {
+      "sessions": 3,
+      "engagement_rate": 0.0,
+      "avg_duration_s": 1.7,
+      "impressions": 8,
+      "clics": 1,
+      "ctr": 12.5,
+      "position": 6.9,
+      "img_impressions": 0,
+      "img_clics": 0,
+      "vu_par_ga4": true,
+      "vu_par_gsc": true
+    },
+    "/en/blog/living-ikebukuro-housing-guide": {
+      "sessions": 2,
+      "engagement_rate": 0.0,
+      "avg_duration_s": 4.4,
+      "impressions": 8,
+      "clics": 0,
+      "ctr": 0,
+      "position": 5.9,
+      "img_impressions": 0,
+      "img_clics": 0,
+      "vu_par_ga4": true,
+      "vu_par_gsc": true
+    },
+    "/en/blog/living-asagaya-housing-guide": {
+      "sessions": 0,
+      "engagement_rate": 0.0,
+      "avg_duration_s": 0.0,
+      "impressions": 7,
+      "clics": 0,
+      "ctr": 0,
+      "position": 7.4,
+      "img_impressions": 0,
+      "img_clics": 0,
+      "vu_par_ga4": false,
+      "vu_par_gsc": true
+    }
+  },
+  "baseline_date": "2026-09-16",
+  "baseline_window": {
+    "start": "2026-08-17",
+    "end": "2026-09-13",
+    "days": 28
+  },
+  "baseline_sitewide": {
+    "fenetre": {
+      "start": "2026-06-16",
+      "end": "2026-09-13",
+      "days": 90
+    },
+    "web": {
+      "impressions": 71360,
+      "clics": 278,
+      "ctr": 0.39,
+      "position": 21.5
+    },
+    "image": {
+      "impressions": 4,
+      "clics": 0,
+      "ctr": 0,
+      "position": 59.8
+    }
+  }
+}
