@@ -40,7 +40,12 @@ export async function POST(request: NextRequest) {
       // Le magnet 'rent-index' delivre deja le PDF en telechargement instantane sur /data,
       // donc on n'envoie PAS le mail checklist (evite promesse != contenu). Les autres
       // sources (checklist, newsletter) recoivent le welcome checklist comme avant.
-      if (source !== 'lead-magnet-rent-index') {
+      // 16/09/2026: test elargi a TOUTE source rent-index. La pop-up exit-intent envoie
+      // desormais 'lead-magnet-exit-popup-rent-index' sur /data; avec l'egalite stricte
+      // d'avant, cet inscrit aurait recu le welcome CHECKLIST apres qu'on lui a promis
+      // l'indice des loyers. Promesse != contenu, le defaut exact que ce bloc evitait.
+      const isRentIndexMagnet = typeof source === 'string' && source.includes('rent-index')
+      if (!isRentIndexMagnet) {
         const welcomeTemplateId = locale === 'en' ? 4 : 1
         try {
           const mailRes = await fetch('https://api.brevo.com/v3/smtp/email', {

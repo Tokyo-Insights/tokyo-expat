@@ -7,16 +7,53 @@ import type { ReactNode } from 'react'
  * Pop-up exit-intent (capture email) -- amplifie l'aimant qui convertit (checklist).
  * Regles: DESKTOP-only (evite la penalite Google interstitiel mobile + le tactile),
  * ne s'arme qu'apres 8s, se declenche quand la souris quitte par le HAUT (intent
- * de fermer/changer d'onglet), 1x par visiteur (localStorage), skip sur /checklist.
+ * de fermer/changer d'onglet), skip sur /checklist.
+ *
+ * Revu le 16/09/2026 sur preuve Brevo: cette pop-up est la 2e source de captures du
+ * site (4 sur 16 vrais contacts) et celle qui ramene les MEILLEURS noms (une adresse
+ * corporate, une adresse francaise). Trois defauts corriges:
+ *
+ *  1. `te_exit_shown` etait pose a l'OUVERTURE et n'expirait JAMAIS, pour tout le site.
+ *     Un visiteur qui l'avait vue une fois sans s'inscrire ne la revoyait plus jamais,
+ *     nulle part. Or sur une page de donnees les visiteurs RECURRENTS sont justement
+ *     les plus proches d'une decision. Desormais: reactivation apres COOLDOWN_DAYS.
+ *  2. Aucune trace de la conversion: quelqu'un qui S'ETAIT inscrit pouvait la revoir.
+ *     Desormais `te_exit_done` coupe definitivement pour un inscrit.
+ *  3. Elle proposait la checklist relocation meme sur /data, ou le lecteur vient de
+ *     passer du temps sur l'indice des loyers. L'aimant suit maintenant la PAGE.
  */
+const COOLDOWN_DAYS = 14
+const SEEN = 'te_exit_shown'   // horodatage du dernier affichage
+const DONE = 'te_exit_done'    // '1' = deja inscrit, ne plus jamais afficher
+
+function shouldSkip(): boolean {
+  try {
+    if (localStorage.getItem(DONE) === '1') return true
+    const last = localStorage.getItem(SEEN)
+    if (!last) return false
+    // '1' = ancien format pose avant le 16/09/2026: on le traite comme expire.
+    if (last === '1') return false
+    const ts = Number(last)
+    if (!Number.isFinite(ts)) return false
+    return Date.now() - ts < COOLDOWN_DAYS * 86400000
+  } catch {
+    return false // localStorage indisponible (navigation privee): ne pas bloquer
+  }
+}
+
 export default function ExitIntentPopup({ locale }: { locale: string }): ReactNode {
   const isFr = locale === 'fr'
   const [open, setOpen] = useState(false)
   const [email, setEmail] = useState('')
   const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle')
+  // Sur /data le lecteur vient de consulter l'indice: lui proposer une checklist
+  // relocation est un coq-a-l'ane. L'aimant suit l'intention de la page.
+  const [isIndex, setIsIndex] = useState(false)
 
-  const pdfUrl = isFr ? '/checklist-relocation-japon.pdf' : '/japan-relocation-checklist.pdf'
-  const SEEN = 'te_exit_shown'
+  const pdfUrl = isIndex
+    ? (isFr ? '/tokyo-rent-index-fr.pdf' : '/tokyo-rent-index-en.pdf')
+    : (isFr ? '/checklist-relocation-japon.pdf' : '/japan-relocation-checklist.pdf')
+  const source = isIndex ? 'lead-magnet-exit-popup-rent-index' : 'lead-magnet-exit-popup'
 
   useEffect(() => {
     if (typeof window === 'undefined') return
@@ -24,16 +61,18 @@ export default function ExitIntentPopup({ locale }: { locale: string }): ReactNo
     const isDesktop = window.matchMedia('(min-width: 1024px) and (hover: hover) and (pointer: fine)').matches
     if (!isDesktop) return
     if (window.location.pathname.includes('/checklist')) return
-    if (localStorage.getItem(SEEN) === '1') return
+    if (shouldSkip()) return
+
+    setIsIndex(/\/data(\/|$)/.test(window.location.pathname))
 
     let armed = false
     const armTimer = window.setTimeout(() => { armed = true }, 8000)
 
     const onLeave = (e: MouseEvent) => {
       // relatedTarget null + clientY <= 0 = la souris est sortie par le haut de la fenetre
-      if (armed && e.clientY <= 0 && !e.relatedTarget && localStorage.getItem(SEEN) !== '1') {
+      if (armed && e.clientY <= 0 && !e.relatedTarget && !shouldSkip()) {
         setOpen(true)
-        localStorage.setItem(SEEN, '1')
+        try { localStorage.setItem(SEEN, String(Date.now())) } catch { /* ignore */ }
         document.removeEventListener('mouseout', onLeave)
       }
     }
@@ -51,10 +90,14 @@ export default function ExitIntentPopup({ locale }: { locale: string }): ReactNo
       const res = await fetch('/api/subscribe', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ email, locale, source: 'lead-magnet-exit-popup' }),
+        body: JSON.stringify({ email, locale, source }),
       })
+      if (res.ok) {
+        // Inscrit: ne plus jamais lui reproposer la pop-up, cooldown ou pas.
+        try { localStorage.setItem(DONE, '1') } catch { /* ignore */ }
+      }
       if (res.ok && typeof window !== 'undefined' && typeof (window as unknown as { gtag?: (...a: unknown[]) => void }).gtag === 'function') {
-        (window as unknown as { gtag: (...a: unknown[]) => void }).gtag('event', 'generate_lead', { source: 'lead-magnet-exit-popup', locale })
+        (window as unknown as { gtag: (...a: unknown[]) => void }).gtag('event', 'generate_lead', { source, locale })
       }
       setStatus(res.ok ? 'success' : 'error')
     } catch {
@@ -87,16 +130,22 @@ export default function ExitIntentPopup({ locale }: { locale: string }): ReactNo
           <div>
             <p className="text-xl font-bold text-[#0f2744] mb-2">{isFr ? "C'est prêt !" : 'It is ready!'}</p>
             <p className="text-sm text-gray-600 mb-4">
-              {isFr
-                ? 'Votre checklist arrive dans votre boîte. Vous pouvez aussi la télécharger tout de suite :'
-                : 'Your checklist is on its way to your inbox. You can also download it right now:'}
+              {isIndex
+                ? (isFr
+                  ? 'Votre indice complet arrive dans votre boîte. Vous pouvez aussi le télécharger tout de suite :'
+                  : 'Your full index is on its way to your inbox. You can also download it right now:')
+                : (isFr
+                  ? 'Votre checklist arrive dans votre boîte. Vous pouvez aussi la télécharger tout de suite :'
+                  : 'Your checklist is on its way to your inbox. You can also download it right now:')}
             </p>
             <a
               href={pdfUrl}
               download
               className="inline-block bg-[#e84141] hover:bg-[#c73333] text-white px-6 py-3 rounded-xl font-semibold transition-colors"
             >
-              {isFr ? 'Télécharger la checklist (PDF)' : 'Download the checklist (PDF)'}
+              {isIndex
+                ? (isFr ? 'Télécharger l\'indice (PDF)' : 'Download the index (PDF)')
+                : (isFr ? 'Télécharger la checklist (PDF)' : 'Download the checklist (PDF)')}
             </a>
           </div>
         ) : (
@@ -105,12 +154,18 @@ export default function ExitIntentPopup({ locale }: { locale: string }): ReactNo
               {isFr ? 'PDF gratuit' : 'Free PDF'}
             </span>
             <p className="text-xl font-bold text-[#0f2744] mb-1">
-              {isFr ? 'Un instant avant de partir' : 'One thing before you go'}
+              {isIndex
+                ? (isFr ? 'Emportez les chiffres avec vous' : 'Take the numbers with you')
+                : (isFr ? 'Un instant avant de partir' : 'One thing before you go')}
             </p>
             <p className="text-sm text-gray-500 mb-4 leading-relaxed">
-              {isFr
-                ? "Récupérez la checklist relocation Japon : 90+ actions concrètes, du visa au compte en banque. Tout ce que j'aurais aimé savoir avant d'arriver."
-                : 'Grab the Japan relocation checklist: 90+ concrete steps, from visa prep to opening a bank account. Everything I wish I had known before arriving.'}
+              {isIndex
+                ? (isFr
+                  ? "Cette page est un instantané. Recevez l'indice complet (23 arrondissements, 27 lignes, 50 stations) en PDF, plus les chiffres actualisés à chaque mise à jour trimestrielle."
+                  : 'This page is a snapshot. Get the full index (23 wards, 27 lines, 50 stations) as a PDF, plus the refreshed figures at every quarterly update.')
+                : (isFr
+                  ? "Récupérez la checklist relocation Japon : 90+ actions concrètes, du visa au compte en banque. Tout ce que j'aurais aimé savoir avant d'arriver."
+                  : 'Grab the Japan relocation checklist: 90+ concrete steps, from visa prep to opening a bank account. Everything I wish I had known before arriving.')}
             </p>
             <form onSubmit={submit} className="flex flex-col gap-2">
               <input
@@ -129,7 +184,9 @@ export default function ExitIntentPopup({ locale }: { locale: string }): ReactNo
               >
                 {status === 'loading'
                   ? (isFr ? 'Envoi...' : 'Sending...')
-                  : (isFr ? 'Recevoir la checklist' : 'Get the checklist')}
+                  : isIndex
+                    ? (isFr ? 'Recevoir le PDF + les MAJ' : 'Email me the PDF + updates')
+                    : (isFr ? 'Recevoir la checklist' : 'Get the checklist')}
               </button>
             </form>
             {status === 'error' && (
