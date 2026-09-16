@@ -161,11 +161,13 @@
     "priority": "medium",
     "pitch": "Lien ressource logement/expat dans leur guide",
     "notes": "Guide expat mid-size, audience tres pertinente",
-    "status": "to_contact",
+    "status": "skip",
     "last_contact": null,
     "response": null,
     "link_obtained": false,
-    "added": "2026-06-21"
+    "added": "2026-06-21",
+    "no_followup": true,
+    "no_followup_reason": "File de prospection a froid coupee le 16/09/2026 sur decision d'Alessandro. Motif mesure: gabarit corporate 0 reponse sur 12, gabarit 'guest post' 0 sur 35, ecoles internationales 0 sur 2. Les 2 seules relations qui ont converti etaient CHAUDES ou ENTRANTES. Motif de securite: le 15/09, 9 brouillons de relance ont ete envoyes d'un bloc dont 4 interdits; un brouillon qui reste dans la file finit par partir. Reactivable: repasser status a 'to_contact' et retirer no_followup."
   },
   {
     "domain": "realestate.co.jp",
@@ -233,11 +235,13 @@
     "priority": "medium",
     "pitch": "Ressource logement pour apprenants corporate relocalisés",
     "notes": "Focus corporate, audience B2B premium",
-    "status": "to_contact",
+    "status": "skip",
     "last_contact": null,
     "response": null,
     "link_obtained": false,
-    "added": "2026-06-21"
+    "added": "2026-06-21",
+    "no_followup": true,
+    "no_followup_reason": "File de prospection a froid coupee le 16/09/2026 sur decision d'Alessandro. Motif mesure: gabarit corporate 0 reponse sur 12, gabarit 'guest post' 0 sur 35, ecoles internationales 0 sur 2. Les 2 seules relations qui ont converti etaient CHAUDES ou ENTRANTES. Motif de securite: le 15/09, 9 brouillons de relance ont ete envoyes d'un bloc dont 4 interdits; un brouillon qui reste dans la file finit par partir. Reactivable: repasser status a 'to_contact' et retirer no_followup."
   },
   {
     "domain": "akamonkai.ac.jp",
@@ -249,11 +253,13 @@
     "priority": "medium",
     "pitch": "Partenariat logement pour etudiants internationaux",
     "notes": "Ecole langues populaire Tokyo, etudiants occidentaux + asiatiques",
-    "status": "to_contact",
+    "status": "skip",
     "last_contact": null,
     "response": null,
     "link_obtained": false,
-    "added": "2026-06-21"
+    "added": "2026-06-21",
+    "no_followup": true,
+    "no_followup_reason": "File de prospection a froid coupee le 16/09/2026 sur decision d'Alessandro. Motif mesure: gabarit corporate 0 reponse sur 12, gabarit 'guest post' 0 sur 35, ecoles internationales 0 sur 2. Les 2 seules relations qui ont converti etaient CHAUDES ou ENTRANTES. Motif de securite: le 15/09, 9 brouillons de relance ont ete envoyes d'un bloc dont 4 interdits; un brouillon qui reste dans la file finit par partir. Reactivable: repasser status a 'to_contact' et retirer no_followup."
   },
   {
     "domain": "japanswitch.com",
@@ -265,11 +271,13 @@
     "priority": "medium",
     "pitch": "Lien dans guide logement de leur section 'Japan Life'",
     "notes": "Plateforme cours japonais en ligne, section ressources bien fournie",
-    "status": "to_contact",
+    "status": "skip",
     "last_contact": null,
     "response": null,
     "link_obtained": false,
-    "added": "2026-06-21"
+    "added": "2026-06-21",
+    "no_followup": true,
+    "no_followup_reason": "File de prospection a froid coupee le 16/09/2026 sur decision d'Alessandro. Motif mesure: gabarit corporate 0 reponse sur 12, gabarit 'guest post' 0 sur 35, ecoles internationales 0 sur 2. Les 2 seules relations qui ont converti etaient CHAUDES ou ENTRANTES. Motif de securite: le 15/09, 9 brouillons de relance ont ete envoyes d'un bloc dont 4 interdits; un brouillon qui reste dans la file finit par partir. Reactivable: repasser status a 'to_contact' et retirer no_followup."
   },
   {
     "domain": "nihongocenter.co.jp",
@@ -281,11 +289,13 @@
     "priority": "low",
     "pitch": "Partenariat logement etudiants pour leur expansion Tokyo",
     "notes": "Base Kyoto, extension Tokyo en cours",
-    "status": "to_contact",
+    "status": "skip",
     "last_contact": null,
     "response": null,
     "link_obtained": false,
-    "added": "2026-06-21"
+    "added": "2026-06-21",
+    "no_followup": true,
+    "no_followup_reason": "File de prospection a froid coupee le 16/09/2026 sur decision d'Alessandro. Motif mesure: gabarit corporate 0 reponse sur 12, gabarit 'guest post' 0 sur 35, ecoles internationales 0 sur 2. Les 2 seules relations qui ont converti etaient CHAUDES ou ENTRANTES. Motif de securite: le 15/09, 9 brouillons de relance ont ete envoyes d'un bloc dont 4 interdits; un brouillon qui reste dans la file finit par partir. Reactivable: repasser status a 'to_contact' et retirer no_followup."
   },
   {
     "domain": "crownrelo.com",
@@ -332,11 +342,13 @@
     "priority": "medium",
     "pitch": "Lien ressource logement dans leur section 'Moving to Japan'",
     "notes": "Grand operateur, guide relocation peu mis a jour",
-    "status": "to_contact",
+    "status": "skip",
     "last_contact": null,
     "response": null,
     "link_obtained": false,
-    "added": "2026-06-21"
+    "added": "2026-06-21",
+    "no_followup": true,
+    "no_followup_reason": "File de prospection a froid coupee le 16/09/2026 sur decision d'Alessandro. Motif mesure: gabarit corporate 0 reponse sur 12, gabarit 'guest post' 0 sur 35, ecoles internationales 0 sur 2. Les 2 seules relations qui ont converti etaient CHAUDES ou ENTRANTES. Motif de securite: le 15/09, 9 brouillons de relance ont ete envoyes d'un bloc dont 4 interdits; un brouillon qui reste dans la file finit par partir. Reactivable: repasser status a 'to_contact' et retirer no_followup."
   },
   {
     "domain": "fr.ambafrance-jp.org",
@@ -441,11 +453,13 @@
     "priority": "medium",
     "pitch": "Guide logement pour nouvelles familles dans section 'Moving to Tokyo'",
     "notes": "Familles expatriees cherchent logement lors de l'inscription",
-    "status": "to_contact",
+    "status": "skip",
     "last_contact": null,
     "response": null,
     "link_obtained": false,
-    "added": "2026-06-21"
+    "added": "2026-06-21",
+    "no_followup": true,
+    "no_followup_reason": "File de prospection a froid coupee le 16/09/2026 sur decision d'Alessandro. Motif mesure: gabarit corporate 0 reponse sur 12, gabarit 'guest post' 0 sur 35, ecoles internationales 0 sur 2. Les 2 seules relations qui ont converti etaient CHAUDES ou ENTRANTES. Motif de securite: le 15/09, 9 brouillons de relance ont ete envoyes d'un bloc dont 4 interdits; un brouillon qui reste dans la file finit par partir. Reactivable: repasser status a 'to_contact' et retirer no_followup."
   },
   {
     "domain": "britishschoolintokyo.ac.jp",
@@ -457,11 +471,13 @@
     "priority": "medium",
     "pitch": "Lien guide logement pour parents dans section 'New Families'",
     "notes": "BST, nombreuses familles UK relocalisees chaque annee",
-    "status": "to_contact",
+    "status": "skip",
     "last_contact": null,
     "response": null,
     "link_obtained": false,
-    "added": "2026-06-21"
+    "added": "2026-06-21",
+    "no_followup": true,
+    "no_followup_reason": "File de prospection a froid coupee le 16/09/2026 sur decision d'Alessandro. Motif mesure: gabarit corporate 0 reponse sur 12, gabarit 'guest post' 0 sur 35, ecoles internationales 0 sur 2. Les 2 seules relations qui ont converti etaient CHAUDES ou ENTRANTES. Motif de securite: le 15/09, 9 brouillons de relance ont ete envoyes d'un bloc dont 4 interdits; un brouillon qui reste dans la file finit par partir. Reactivable: repasser status a 'to_contact' et retirer no_followup."
   },
   {
     "domain": "seisen.com",
@@ -473,11 +489,13 @@
     "priority": "low",
     "pitch": "Guide logement pour familles expatriees",
     "notes": "Ecole internationale Tokyo Sud, bonne reputation",
-    "status": "to_contact",
+    "status": "skip",
     "last_contact": null,
     "response": null,
     "link_obtained": false,
-    "added": "2026-06-21"
+    "added": "2026-06-21",
+    "no_followup": true,
+    "no_followup_reason": "File de prospection a froid coupee le 16/09/2026 sur decision d'Alessandro. Motif mesure: gabarit corporate 0 reponse sur 12, gabarit 'guest post' 0 sur 35, ecoles internationales 0 sur 2. Les 2 seules relations qui ont converti etaient CHAUDES ou ENTRANTES. Motif de securite: le 15/09, 9 brouillons de relance ont ete envoyes d'un bloc dont 4 interdits; un brouillon qui reste dans la file finit par partir. Reactivable: repasser status a 'to_contact' et retirer no_followup."
   },
   {
     "domain": "michaelpage.co.jp",
@@ -507,11 +525,13 @@
     "priority": "medium",
     "pitch": "Guide logement pour candidats internationaux relocalisés",
     "notes": "Recrutement executifs, audience expats premium",
-    "status": "to_contact",
+    "status": "skip",
     "last_contact": null,
     "response": null,
     "link_obtained": false,
-    "added": "2026-06-21"
+    "added": "2026-06-21",
+    "no_followup": true,
+    "no_followup_reason": "File de prospection a froid coupee le 16/09/2026 sur decision d'Alessandro. Motif mesure: gabarit corporate 0 reponse sur 12, gabarit 'guest post' 0 sur 35, ecoles internationales 0 sur 2. Les 2 seules relations qui ont converti etaient CHAUDES ou ENTRANTES. Motif de securite: le 15/09, 9 brouillons de relance ont ete envoyes d'un bloc dont 4 interdits; un brouillon qui reste dans la file finit par partir. Reactivable: repasser status a 'to_contact' et retirer no_followup."
   },
   {
     "domain": "rgf-professional.jp",
@@ -523,11 +543,13 @@
     "priority": "low",
     "pitch": "Ressource logement Tokyo pour profils internationaux",
     "notes": "Cabinet recrutement specialise JP, profils tech et finance",
-    "status": "to_contact",
+    "status": "skip",
     "last_contact": null,
     "response": null,
     "link_obtained": false,
-    "added": "2026-06-21"
+    "added": "2026-06-21",
+    "no_followup": true,
+    "no_followup_reason": "File de prospection a froid coupee le 16/09/2026 sur decision d'Alessandro. Motif mesure: gabarit corporate 0 reponse sur 12, gabarit 'guest post' 0 sur 35, ecoles internationales 0 sur 2. Les 2 seules relations qui ont converti etaient CHAUDES ou ENTRANTES. Motif de securite: le 15/09, 9 brouillons de relance ont ete envoyes d'un bloc dont 4 interdits; un brouillon qui reste dans la file finit par partir. Reactivable: repasser status a 'to_contact' et retirer no_followup."
   },
   {
     "domain": "airfrancejapan.com",
@@ -728,11 +750,13 @@
     "priority": "medium",
     "pitch": "Cross-referral: assurance habitation pour nos clients, guide logement pour les leurs",
     "notes": "AXA presente JP, produits expat insurance",
-    "status": "to_contact",
+    "status": "skip",
     "last_contact": null,
     "response": null,
     "link_obtained": false,
-    "added": "2026-06-21"
+    "added": "2026-06-21",
+    "no_followup": true,
+    "no_followup_reason": "File de prospection a froid coupee le 16/09/2026 sur decision d'Alessandro. Motif mesure: gabarit corporate 0 reponse sur 12, gabarit 'guest post' 0 sur 35, ecoles internationales 0 sur 2. Les 2 seules relations qui ont converti etaient CHAUDES ou ENTRANTES. Motif de securite: le 15/09, 9 brouillons de relance ont ete envoyes d'un bloc dont 4 interdits; un brouillon qui reste dans la file finit par partir. Reactivable: repasser status a 'to_contact' et retirer no_followup."
   },
   {
     "domain": "cigna.co.jp",
@@ -744,11 +768,13 @@
     "priority": "medium",
     "pitch": "Partenariat sante expat <-> guide logement, audiences communes",
     "notes": "Specialise sante expat international",
-    "status": "to_contact",
+    "status": "skip",
     "last_contact": null,
     "response": null,
     "link_obtained": false,
-    "added": "2026-06-21"
+    "added": "2026-06-21",
+    "no_followup": true,
+    "no_followup_reason": "File de prospection a froid coupee le 16/09/2026 sur decision d'Alessandro. Motif mesure: gabarit corporate 0 reponse sur 12, gabarit 'guest post' 0 sur 35, ecoles internationales 0 sur 2. Les 2 seules relations qui ont converti etaient CHAUDES ou ENTRANTES. Motif de securite: le 15/09, 9 brouillons de relance ont ete envoyes d'un bloc dont 4 interdits; un brouillon qui reste dans la file finit par partir. Reactivable: repasser status a 'to_contact' et retirer no_followup."
   },
   {
     "domain": "expatforum.com",
@@ -760,11 +786,13 @@
     "priority": "medium",
     "pitch": "Lien ressource logement Tokyo dans section Japan",
     "notes": "Forum expat global, section JP bien frequentee",
-    "status": "to_contact",
+    "status": "skip",
     "last_contact": null,
     "response": null,
     "link_obtained": false,
-    "added": "2026-06-21"
+    "added": "2026-06-21",
+    "no_followup": true,
+    "no_followup_reason": "File de prospection a froid coupee le 16/09/2026 sur decision d'Alessandro. Motif mesure: gabarit corporate 0 reponse sur 12, gabarit 'guest post' 0 sur 35, ecoles internationales 0 sur 2. Les 2 seules relations qui ont converti etaient CHAUDES ou ENTRANTES. Motif de securite: le 15/09, 9 brouillons de relance ont ete envoyes d'un bloc dont 4 interdits; un brouillon qui reste dans la file finit par partir. Reactivable: repasser status a 'to_contact' et retirer no_followup."
   },
   {
     "domain": "internations.org",
@@ -838,12 +866,14 @@
     "notes": "Acceptent articles invites sur sujets expat. Section Japan: expatnetwork.com/countries/japan/",
     "manual_required": false,
     "form_url": "",
-    "status": "to_contact",
+    "status": "skip",
     "emailed_date": null,
     "last_contact": null,
     "response": null,
     "link_obtained": false,
-    "added": "2026-06-25"
+    "added": "2026-06-25",
+    "no_followup": true,
+    "no_followup_reason": "File de prospection a froid coupee le 16/09/2026 sur decision d'Alessandro. Motif mesure: gabarit corporate 0 reponse sur 12, gabarit 'guest post' 0 sur 35, ecoles internationales 0 sur 2. Les 2 seules relations qui ont converti etaient CHAUDES ou ENTRANTES. Motif de securite: le 15/09, 9 brouillons de relance ont ete envoyes d'un bloc dont 4 interdits; un brouillon qui reste dans la file finit par partir. Reactivable: repasser status a 'to_contact' et retirer no_followup."
   },
   {
     "domain": "expatarrivals.com",
