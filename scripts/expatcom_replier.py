@@ -307,7 +307,10 @@ def main(dry_run: bool = False):
             print(f"[DRY-RUN] {len(drafts)} drafts ecrits dans {DRAFTS_FILE.name} "
                   f"(+ Telegram). Aucune soumission.")
             # Dire la verite sur le rendement du canal plutot que de la taire.
-            state = load_state()
+            # 16/09/2026: etait `load_state()`, fonction inexistante -> NameError a CHAQUE
+            # run en dry-run, juste apres l'envoi Telegram. L'alerte partait, l'avertissement
+            # sur le rendement nul ne s'affichait jamais et le script sortait en erreur.
+            state = load_replies_state()
             if state.get("total_replies", 0) == 0 and state.get("last_run"):
                 print(f"⚠️  Ce script prepare des reponses depuis le {state['last_run']} "
                       f"et AUCUNE n'a jamais ete postee (total_replies = 0).")
