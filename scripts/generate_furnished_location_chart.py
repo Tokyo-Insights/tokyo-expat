@@ -213,8 +213,16 @@ def chart(kept, dropped, slope, intercept):
                  ha="center", linespacing=1.3)
     ax.set_title(
         "Median monthly rent for a 1K studio, by ward (2026). Each dot is one Tokyo ward.\n"
+        # ARRONDI A LA CENTAINE, 17/09/2026: le sous-titre affichait "only about
+        # ¥5,571", soit "environ" suivi de quatre chiffres significatifs, pour une
+        # pente de regression sur 18 points. Une precision qu'on ne peut pas tenir
+        # abime la credibilite d'un chart devant r/dataisbeautiful, et le commentaire
+        # OC disait deja "about ¥5,600". ⚠️ Le PNG du 18/09 n'a PAS ete regenere pour
+        # cela: ce script relit les parquet du pipeline, rafraichis chaque matin, donc
+        # regenerer change TOUS les chiffres et oblige a refaire la verification
+        # complete. Cet arrondi vaut pour la prochaine generation.
         f"Move to a ward where the standard rent is ¥10,000 higher and the furnished "
-        f"rent rises only about ¥{slope*10_000:,.0f}.",
+        f"rent rises only about ¥{round(slope * 10_000, -2):,.0f}.",
         fontsize=12.5, color=INK_SOFT, pad=10, linespacing=1.55)
 
     fig.text(0.5, 0.055, "Rent includes monthly management fees. "

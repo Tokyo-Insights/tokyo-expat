@@ -49,6 +49,15 @@ POSTS_PER_WEEK = 1
 # =============================================================
 
 INTERVAL = dt.timedelta(days=7.0 / POSTS_PER_WEEK)
+# 🚨 TOLERANCE AJOUTEE LE 17/09/2026 -- SANS ELLE, LA CADENCE DERIVE D'UN JOUR PAR SEMAINE.
+# `due` comparait un ecart de 168 h EXACTES a l'heure du post precedent. Or ce script ne
+# tourne qu'au demarrage du PC (run_daily_watch, ~07:10 JST). Le post du 11/09 a ete publie
+# a 07:44:37 JST, donc l'echeance tombait le 18/09 a 07:44:37: le run de 07:10 serait passe
+# 34 minutes TROP TOT, le rappel ne serait parti que le SAMEDI, et le creneau du vendredi
+# aurait glisse -- puis glisse encore la semaine suivante, chaque post repoussant l'heure.
+# La cadence voulue est "une fois par semaine", pas "toutes les 168 h a la minute pres".
+# Les garde-fous anti-doublon restent entiers: `awaiting_id` et `last_reminded_date`.
+DUE_GRACE = dt.timedelta(hours=6)
 REDDIT_USER = "Salty-Technician4002"
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
 # Au bout de ce delai sans post visible, on ALERTE (on ne suppose plus rien: la munition
@@ -244,7 +253,7 @@ def main():
 
     # -------- 2. RAPPEL: faut-il pousser la prochaine munition ? --------
     last_posted = parse(st.get("last_posted_utc")) or (n - INTERVAL * 2)
-    due = (n - last_posted) >= INTERVAL
+    due = (n - last_posted) >= (INTERVAL - DUE_GRACE)
     today = n.date().isoformat()
     already_reminded_today = st.get("last_reminded_date") == today
 

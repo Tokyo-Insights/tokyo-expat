@@ -90,7 +90,7 @@
       "views": null,
       "upvotes": null,
       "notes": "Genere par scripts/generate_furnished_location_chart.py (08/09/2026). Silhouette NEUVE: nuage de points + diagonale de reference, on n'avait fait que barres/cartes/animation. Seuil MIN_FURN=50 annonces meublees par ward: 5 wards exclus, dit sur le chart. CSV citable: outreach/tokyo-furnished-by-location.csv. Remplace la munition furnished-premium (meme data, chart en barres, sans garde-fou d'echantillon).",
-      "post_description": "Data: about 160,000 standard rental listings and 2,400 furnished ones across 18 of Tokyo's 23 wards, September 2026, deduplicated. Furnished stock is small by nature, so I dropped the 5 wards with fewer than 50 furnished listings rather than publish a median a single listing could move. Medians, not averages, so a few luxury units don't skew it.\n\nFull breakdown by ward, train line and station: tokyo-expat.com/en/data"
+      "post_description": "Data: about 160,000 standard 1K studio listings and 2,400 furnished ones across 18 of Tokyo's 23 wards, September 2026, deduplicated. Rent includes monthly management fees. Furnished stock is small by nature, so I dropped the 5 wards with fewer than 50 furnished listings rather than publish a median a single listing could move. Medians, not averages, so a few luxury units don't skew it.\n\nFull breakdown by ward, train line and station: tokyo-expat.com/en/data"
     },
     {
       "id": "rent-by-line",
