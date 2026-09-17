@@ -2,9 +2,9 @@
   "_comment": "File de munitions Reddit. status: todo (pas d'asset) / ready (pret a poster) / posted. Le reminder pioche la prochaine 'ready', rappelle via Telegram, detecte auto le post (email AutoMod OC) et avance. Cadence = POSTS_PER_WEEK dans reddit_munition_reminder.py. | 11/09/2026: DEUX textes par munition (convention AutoMod 05/07). post_description = sous l'image, PORTE le lien /en/data. oc_comment = 1er commentaire, Source + Tool, ZERO lien (self-promo = retrait).",
   "state": {
     "last_posted_utc": "2026-09-10T22:44:37Z",
-    "awaiting_id": null,
-    "awaiting_reminded_utc": null,
-    "last_reminded_date": "2026-09-10",
+    "awaiting_id": "furnished-by-location",
+    "awaiting_reminded_utc": "2026-09-17T21:59:27Z",
+    "last_reminded_date": "2026-09-17",
     "low_stock_alerted_utc": "2026-09-04T22:13:31Z",
     "stale_alerted_utc": null
   },
