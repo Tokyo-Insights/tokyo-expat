@@ -190,6 +190,37 @@ def main():
     def by_id(mid):
         return next((x for x in munitions if x["id"] == mid), None)
 
+    # -------- 0bis. SEMAINE SAUTEE (champ `skip_until_utc`, pose le 18/09/2026) --------
+    # Alessandro peut decider de ne pas poster une semaine. Sans ce champ, la seule facon
+    # de faire taire le script serait d'antidater `last_posted_utc` -- c'est-a-dire
+    # d'ecrire qu'un post est parti alors qu'aucun n'est parti. C'est exactement ce que
+    # l'incident du 08/09/2026 interdit, et ca corromprait aussi l'historique de cadence.
+    # Donc on dit la verite dans un champ dedie: la munition N'EST PAS postee, on se tait
+    # jusqu'a telle date. 🔑 Une consigne que la machine ne lit pas n'existe pas: ce n'est
+    # pas une note en prose, c'est le champ que ce script consulte.
+    # ⚠️ La DETECTION reste active pendant le saut: si le post part quand meme, il est
+    # confirme normalement et la file avance. Seules les RELANCES sont suspendues.
+    skip_until = parse(st.get("skip_until_utc"))
+    skipping = bool(skip_until and n < skip_until and not force)
+    if skipping:
+        print(f"Semaine sautee jusqu'au {st['skip_until_utc']} "
+              f"({st.get('skip_reason', 'sans raison notee')}). Relances suspendues, "
+              f"detection toujours active.")
+    elif skip_until and n >= skip_until:
+        # La periode est finie: on nettoie, sinon le champ resterait la a mentir.
+        st["skip_until_utc"] = None
+        st["skip_reason"] = None
+        # 🚨 Sinon, au 1er run apres la pause, l'alerte "toujours pas postee depuis 7j"
+        # part EN MEME TEMPS que le rappel: elle compterait comme un retard subi une
+        # semaine qui a ete sautee EXPRES. On redemarre donc la pendule du stale a
+        # l'instant de la reprise, en reutilisant le champ de cooldown prevu pour ca.
+        # La pendule de DETECTION (`awaiting_reminded_utc`) n'est PAS touchee: un post
+        # parti pendant la pause doit rester detectable.
+        st["stale_alerted_utc"] = iso(n)
+        changed = True
+        save(q)
+        print("Fin de la semaine sautee: les relances reprennent (pendule stale remise a zero).")
+
     # -------- 0. ALERTE STOCK BAS (proactif) : rappeler de CREER des munitions avant la penurie --------
     ready_ids = [m["id"] for m in munitions if m["status"] == "ready"]
     if len(ready_ids) <= LOW_STOCK:
@@ -239,7 +270,9 @@ def main():
             return
 
         # Toujours rien de visible: on ALERTE, on ne suppose pas (incident du 08/09/2026).
-        if (n - reminded) >= STALE_AFTER:
+        # ...sauf si la semaine a ete sautee volontairement: alerter sur un retard qu'on a
+        # soi-meme decide, c'est du bruit.
+        if (n - reminded) >= STALE_AFTER and not skipping:
             last_stale = parse(st.get("stale_alerted_utc"))
             if last_stale is None or (n - last_stale) >= STALE_COOLDOWN:
                 st["stale_alerted_utc"] = iso(n)
@@ -256,6 +289,10 @@ def main():
     due = (n - last_posted) >= (INTERVAL - DUE_GRACE)
     today = n.date().isoformat()
     already_reminded_today = st.get("last_reminded_date") == today
+
+    if skipping:
+        print("Rien a faire: semaine sautee.")
+        return
 
     # munition en attente pas encore confirmee -> re-rappel gentil (1x/jour)
     if st.get("awaiting_id") and not already_reminded_today:
