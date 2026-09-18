@@ -6,6 +6,7 @@ Run: python scripts/competitor_watch.py
 
 import requests
 import xml.etree.ElementTree as ET
+import gzip
 import json
 import datetime
 import re
@@ -33,6 +34,13 @@ CACHE_FILE = DATA_DIR / "competitor_cache.json"
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120.0.0.0"
 }
+
+# Plafond par source. 18/09/2026: en reparant deux URLs de sitemap on a fait entrer
+# 1,47 million d'URLs Wise (codes IBAN generes) et le cache est passe de 1,3 a 90 Mo.
+# Aucun concurrent du logement a Tokyo ne publie 50 000 pages: au-dela, c'est qu'on
+# vise le sitemap GLOBAL d'un groupe et pas sa section japonaise. Le plafond ne corrige
+# pas la config, il empeche juste une erreur de config de saturer le disque en silence.
+MAX_URLS_PER_SOURCE = 50000
 
 # ── COMPETITORS à surveiller ───────────────────────────────────────────────────
 COMPETITORS = {
@@ -123,7 +131,10 @@ COMPETITORS = {
         "content_publisher": True,
     },
     "Time Out Tokyo": {
-        "sitemap": "https://www.timeout.com/sitemap.xml",
+        # 18/09/2026: /sitemap.xml rendait 404 depuis toujours. Le sitemap racine
+        # declare dans robots.txt existe mais couvre les 714 villes du groupe: pointer
+        # dessus faisait entrer 16 418 URLs de Londres et Madrid. On vise Tokyo.
+        "sitemap": "https://www.timeout.com/tokyo/sitemap.xml.gz",
         "domain": "timeout.com",
         "note": "magazine lifestyle Tokyo — backlinks DR80",
         "content_publisher": True,
@@ -156,7 +167,11 @@ COMPETITORS = {
     },
     # ── Finance expat ─────────────────────────────────────────────────────────
     "Wise Blog JP": {
-        "sitemap": "https://wise.com/sitemap.xml",
+        # 18/09/2026: /sitemap.xml rendait 404. robots.txt declare /sitemap, mais ce
+        # sitemap racine couvre TOUT Wise (IBAN, codes SWIFT, convertisseurs generes):
+        # 1 468 686 URLs, 90 Mo de cache, zero rapport avec le logement au Japon.
+        # La source utile est le blog japonais, et lui seul.
+        "sitemap": "https://wise.com/blog-assets/jp-sitemap.xml",
         "domain": "wise.com",
         "note": "fintech — blog Japan forte audience expat",
         "content_publisher": True,
@@ -189,6 +204,41 @@ COMPETITORS = {
     },
 }
 
+# ── SOURCES HORS SERVICE (audit du 18/09/2026) ────────────────────────────────
+# 🚨 Pourquoi ce dictionnaire existe: le matin du 18/09 le radar a annonce
+# "1 nouvel article detecte" alors que 17 de ses 24 sources rendaient ZERO URL.
+# Le message etait donc vrai et trompeur en meme temps: il decrivait un septieme
+# du marche en pretendant le decrire tout entier. Un radar doit dire ce qu'il n'a
+# PAS pu voir, sinon son silence se lit comme "rien ne bouge".
+# Une source listee ici n'est plus interrogee (ca ne sert a rien et ca coute 15 s
+# de timeout chacune) mais elle est COMPTEE et affichee dans le bilan de couverture.
+# ⚠️ Pour reactiver une source: retirer sa ligne d'ici, rien d'autre. Sa config
+# dans COMPETITORS est restee intacte exprès.
+UNREACHABLE = {
+    # Domaine qui ne resout plus du tout (verifie par socket.gethostbyname le 18/09)
+    "GaijinPot Housing":    "domaine mort (DNS) — le portail a disparu, verifier si GaijinPot a fusionne ses sections",
+    "Fontaine Relocation":  "domaine mort (DNS)",
+    "Modern Living Tokyo":  "domaine mort (DNS)",
+    "Tokyo Furnished":      "domaine mort (DNS)",
+    "Japon Online":         "domaine mort (DNS)",
+    # Domaine resolu mais le site n'existe plus
+    "Gaijin House":         "domaine EN VENTE sur HugeDomains — concurrent disparu",
+    # Resolu, mais refuse la connexion (pare-feu / geo-blocage)
+    "Asian Tigers Japan":   "connexion refusee (timeout 443) malgre DNS OK",
+    # 403 meme avec un user-agent navigateur: protection anti-bot type Cloudflare
+    "GaijinPot Blog":       "403 anti-bot",
+    "Savvy Tokyo":          "403 anti-bot",
+    "Japan Today":          "403 anti-bot",
+    "Crown Relocations JP": "403 anti-bot",
+    # Le site n'expose aucun sitemap: ni /sitemap.xml, ni robots.txt, ni les 7
+    # chemins classiques testes, ni flux RSS. Rien a reparer cote URL.
+    "Japan Guide":          "aucun sitemap publie",
+    "Japan Property Central": "aucun sitemap publie",
+    # Serveur "attrape-tout": /sitemap.xml, /robots.txt et n'importe quelle URL rendent
+    # la page d'accueil en HTML avec un code 200. Rien a corriger cote URL.
+    "Tokyo Share House":    "aucun sitemap publie (toute URL rend la page d'accueil en 200)",
+}
+
 # Keywords qui indiquent un contenu intéressant à contre-attaquer
 INTERESTING_KEYWORDS = [
     "appartement", "apartment", "share house", "sharehouse", "meuble", "furnished",
@@ -207,29 +257,72 @@ NOISE_TOKENS = [
 
 # ── FUNCTIONS ─────────────────────────────────────────────────────────────────
 
-def fetch_sitemap(url: str, depth: int = 0) -> list[str]:
-    """Télécharge et parse un sitemap (gère les sitemap index)."""
+def fetch_sitemap(url: str, depth: int = 0) -> tuple[list[str], bool]:
+    """Télécharge et parse un sitemap (gère les sitemap index et les .gz).
+
+    Retourne (urls, ok). ⚠️ 18/09/2026: le second membre est le coeur de la correction.
+    Avant, un echec rendait [] exactement comme un sitemap vide, et l'appelant ECRASAIT
+    la baseline du cache avec cette liste vide. Deux consequences silencieuses:
+      - la source suivante repartait de zero et rendait TOUTES ses URLs "nouvelles"
+        au scan d'apres (fausse rafale d'alertes);
+      - content_velocity_tracker.py, qui compte les URLs du cache dans le temps,
+        lisait une chute a 0 comme un effondrement editorial du concurrent.
+    Un echec doit donc etre distingue d'un vide, et ne rien ecrire du tout.
+    """
     if depth > 2:
-        return []
+        return [], False
     try:
         r = requests.get(url, timeout=15, headers=HEADERS, verify=VERIFY_SSL)
         r.raise_for_status()
-        root = ET.fromstring(r.content)
+        raw = r.content
+        # Sitemaps servis compresses (.gz): requests ne les decompresse pas quand le
+        # gzip est le CONTENU et non l'encodage de transport (cas de timeout.com).
+        if raw[:2] == b"\x1f\x8b":
+            raw = gzip.decompress(raw)
+        root = ET.fromstring(raw)
         ns = {"sm": "http://www.sitemaps.org/schemas/sitemap/0.9"}
 
         # Sitemap index
         sub_sitemaps = root.findall("sm:sitemap/sm:loc", ns)
         if sub_sitemaps:
-            urls = []
+            urls, any_ok = [], False
             for sm in sub_sitemaps[:10]:
-                urls.extend(fetch_sitemap(sm.text.strip(), depth + 1))
-            return urls
+                sub_urls, sub_ok = fetch_sitemap(sm.text.strip(), depth + 1)
+                urls.extend(sub_urls)
+                any_ok = any_ok or sub_ok
+            return urls, any_ok
 
         # Regular sitemap
-        return [loc.text.strip() for loc in root.findall("sm:url/sm:loc", ns) if loc.text]
+        locs = [loc.text.strip() for loc in root.findall("sm:url/sm:loc", ns) if loc.text]
+        if locs:
+            return locs, True
+
+        # 🚨 18/09/2026 — le ZERO SILENCIEUX. city-cost.com sert un sitemap de 140 ko
+        # parfaitement rempli, mais declare le namespace comme un ELEMENT enfant
+        # (<xmlns>http://...</xmlns>) au lieu d'un attribut sur <urlset>. Resultat:
+        # <urlset> n'a aucun namespace par defaut, la requete "sm:url/sm:loc" ne matche
+        # rien, et la source rendait 0 URL en se declarant SAINE depuis toujours.
+        # Un zero qui se presente comme un succes est pire qu'une panne: il ne s'affiche
+        # dans aucun compteur de pannes. On retente donc sans namespace avant de conclure.
+        locs = [loc.text.strip() for loc in root.findall("url/loc") if loc.text]
+        if locs:
+            print(f"  [namespace absent, relu sans: {len(locs)} URLs recuperees]")
+            return locs, True
+        sub = [s.text.strip() for s in root.findall("sitemap/loc") if s.text]
+        if sub:
+            urls, any_ok = [], False
+            for s in sub[:10]:
+                u, o = fetch_sitemap(s, depth + 1)
+                urls.extend(u)
+                any_ok = any_ok or o
+            return urls, any_ok
+
+        # Vraiment vide: c'est une anomalie, pas un succes.
+        print(f"  [VIDE] sitemap lisible mais sans aucune URL")
+        return [], False
     except Exception as e:
         print(f"  [WARN] {url}: {e}")
-        return []
+        return [], False
 
 
 def load_cache() -> dict:
@@ -281,7 +374,13 @@ def slug_to_topic(url: str) -> str:
     return slug.strip() or url
 
 
+QUIET = "--quiet" in sys.argv   # 18/09/2026: permet de re-tester sans sonner le telephone
+
+
 def send_telegram(msg: str) -> None:
+    if QUIET:
+        print("  [Telegram SAUTE: --quiet]")
+        return
     try:
         r = requests.post(
             f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage",
@@ -303,17 +402,40 @@ def main():
     cache = load_cache()
     alerts = []
     counter_attack_suggestions = []
+    seen, failed = [], []          # couverture reelle du scan (cf UNREACHABLE)
 
     for name, info in COMPETITORS.items():
+        if name in UNREACHABLE:
+            print(f"Skip {name} — {UNREACHABLE[name]}")
+            continue
+
         is_content = info.get("content_publisher", True)
         print(f"Scanning {name} ({'editorial' if is_content else 'listings'})...")
-        urls = fetch_sitemap(info["sitemap"])
+        urls, ok = fetch_sitemap(info["sitemap"])
         print(f"  {len(urls)} URLs found")
+
+        if not ok:
+            # ⚠️ NE RIEN ECRIRE. Ecraser la baseline avec une liste vide ferait passer
+            # la source pour vidée, puis rendrait toutes ses URLs "nouvelles" au scan
+            # suivant. On garde la baseline precedente et on signale la panne.
+            print(f"  [ECHEC] source injoignable, baseline precedente conservee")
+            failed.append(name)
+            continue
+        if len(urls) > MAX_URLS_PER_SOURCE:
+            print(f"  [PLAFOND] {len(urls)} URLs > {MAX_URLS_PER_SOURCE}: sitemap trop large, "
+                  f"viser la section japonaise du site. Source ignoree ce tour.")
+            failed.append(f"{name} (sitemap trop large: {len(urls)} URLs)")
+            continue
+        seen.append(name)
 
         current_set = set(urls)
         prev_key = f"urls_{name}"
 
-        if prev_key in cache:
+        # ⚠️ `cache[prev_key]` peut exister mais etre VIDE: c'est la cicatrice de l'ancien
+        # bug, qui ecrasait la baseline a chaque echec. Diffier contre une liste vide
+        # ferait passer tout le catalogue du concurrent pour du neuf. Une baseline vide
+        # n'est pas une baseline: on la traite comme un premier scan.
+        if cache.get(prev_key):
             old_set = set(cache[prev_key])
             new_urls = current_set - old_set
             if new_urls:
@@ -341,13 +463,28 @@ def main():
         cache[prev_key] = list(current_set)
         cache[f"last_scan_{name}"] = datetime.datetime.now().isoformat()
 
+    cache["coverage"] = {
+        "date": datetime.date.today().isoformat(),
+        "scanned": sorted(seen),
+        "failed": sorted(failed),
+        "unreachable": sorted(UNREACHABLE),
+        "total_sources": len(COMPETITORS),
+    }
     save_cache(cache)
+
+    # Bilan de couverture: dire ce qu'on a pu regarder AVANT de dire ce qu'on a vu.
+    cov = f"{len(seen)}/{len(COMPETITORS)} sources lues"
+    print(f"\n{'='*60}")
+    print(f"COUVERTURE: {cov} | {len(failed)} en panne | {len(UNREACHABLE)} hors service")
+    if failed:
+        print(f"  En panne ce matin: {', '.join(failed)}")
 
     # Envoyer alerte Telegram
     if alerts:
         msg_parts = [
             f"Competitor Watch - {datetime.date.today()}\n",
-            f"<i>{len(alerts)} nouveaux articles détectés</i>\n",
+            f"<i>{len(alerts)} nouveaux articles détectés</i>",
+            f"<i>Couverture: {cov}</i>\n",
         ]
         msg_parts.extend(alerts[:15])  # max 15 URLs par message
         if counter_attack_suggestions:
@@ -359,8 +496,19 @@ def main():
     else:
         print("\n✅ No new content detected — all quiet")
 
+    # Une source qui tombe en panne APRES l'audit merite un mot: c'est peut-etre un
+    # concurrent qui ferme (comme gaijinhouse.com), pas un incident reseau.
+    if failed:
+        send_telegram(
+            f"⚠️ <b>Radar concurrents</b>: {len(failed)} source(s) injoignable(s)\n"
+            f"{', '.join(failed)}\n\n"
+            f"<i>Couverture: {cov}. Baselines conservees, aucune fausse alerte.</i>\n"
+            f"Si ca persiste 3 jours, la passer dans UNREACHABLE ou corriger son URL."
+        )
+
     # Rapport final
-    total = sum(len(v) for k, v in cache.items() if k.startswith("urls_"))
+    total = sum(len(v) for k, v in cache.items()
+                if k.startswith("urls_") and isinstance(v, list))
     print(f"\nTotal indexed: {total} competitor URLs in cache")
 
 

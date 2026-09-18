@@ -12,6 +12,13 @@ from pathlib import Path
 
 STRIKE_POS_MIN, STRIKE_POS_MAX = 3, 12   # visible sur Bing mais pas en tete
 STRIKE_MIN_IMPR = 8                      # sous ce volume, le zero clic n'est pas un signal
+# ⚠️ ELARGI le 18/09/2026: on ne stockait que 25 requetes sur 963 et 20 pages sur 93.
+# Consequence constatee le 17/09: impossible de repondre a "ou est-on premier sur Bing"
+# sans relancer l'API, alors que la reponse etait dans la moitie jetee du fichier.
+# Le cout est du disque (quelques centaines de ko), pas des appels API: la reponse
+# complete etait DEJA telechargee et agregee, on la tronquait juste a l'ecriture.
+STORE_QUERIES = 1000                     # 0 = tout garder
+STORE_PAGES = 500
 QUIET = "--quiet" in sys.argv            # --quiet = pas d'alerte Telegram (re-runs, tests)
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 if sys.stdout.encoding and sys.stdout.encoding.lower() not in ('utf-8','utf8'):
@@ -129,13 +136,13 @@ def main():
         "site": SITE,
         "totals": {"impressions": total_impr, "clicks": total_clk},
         "points": len(data),
-        "top_queries": queries[:25],
+        "top_queries": queries[:STORE_QUERIES] if STORE_QUERIES else queries,
         # --- ajouts 02/09/2026 (additif: les cles ci-dessus ne changent pas) ---
         "period": period,
         "ctr_pct": round(100 * total_clk / total_impr, 2) if total_impr else 0,
         "queries_total": len(queries),
         "pages_total": len(pages),
-        "top_pages": pages[:20],
+        "top_pages": pages[:STORE_PAGES] if STORE_PAGES else pages,
         "striking_distance": striking,
         "daily": [{"date": iso_date(p.get("Date")),
                    "impressions": p.get("Impressions", 0),
