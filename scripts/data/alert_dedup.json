@@ -49,7 +49,7 @@
   "vuln:gaijinpot.com:find apartment tokyo foreigner": "2026-09-09",
   "proactive:('louer tokyo sans garant etranger', 1),('logement tokyo expatrie', 1)|pet cost cat tokyo|sakura-house.com:logement tokyo expatrie": "2026-07-27",
   "seasonal:appartement_meuble_tokyo_:_les_5_meilleures_options_pour_exp": {
-    "date": "2026-09-18",
+    "date": "2026-09-19",
     "dismissed": true
   },
   "proactive:('trouver appartement tokyo etranger', 1),('appartement meuble tokyo expatrie', 1)|pet cost cat tokyo|sakura-house.com:logement tokyo expatrie": "2026-08-03",
@@ -78,5 +78,6 @@
   "proactive:('appartement meuble tokyo expatrie', 1),('logement tokyo expatrie', 1)|the top 10 cheapo neighborhoods in tokyo part 1 10 through 6|remoters.io:logement tokyo expatrie": "2026-09-16",
   "proactive:('trouver appartement tokyo etranger', 1),('chasseur immobilier tokyo', 1)|the top 10 cheapo neighborhoods in tokyo part 1 10 through 6|remoters.io:logement tokyo expatrie": "2026-09-09",
   "vuln:oakhouse.jp:rent tokyo expat 2026": "2026-09-16",
-  "proactive:('appartement meuble tokyo expatrie', 1),('logement tokyo expatrie', 1)|the top 10 cheapo neighborhoods in tokyo part 1 10 through 6|remoters.io:property hunter tokyo": "2026-09-16"
+  "proactive:('appartement meuble tokyo expatrie', 1),('logement tokyo expatrie', 1)|the top 10 cheapo neighborhoods in tokyo part 1 10 through 6|remoters.io:property hunter tokyo": "2026-09-16",
+  "proactive:('tokyo gaijin house', 2),('gaijin house tokyo', 2)|the top 10 cheapo neighborhoods in tokyo part 1 10 through 6|remoters.io:property hunter tokyo": "2026-09-19"
 }

@@ -742,7 +742,7 @@
       "author": "/u/santiboob",
       "body": "I just moved into my apartment and i’m planning on starting to cook soon. after messing around with my kitchen, i noticed that the stove burners will click when one is turned on or the fish griller is turned on. i haven’t been able to find much online regarding the topic and wanted to know if this is normal or something i should be concerned about. i’m mainly worried about gas fumes in my apartmen",
       "sub": "japanlife",
-      "status": "new",
+      "status": "expired",
       "first_seen": "2026-09-05T22:43:38.495550+00:00",
       "last_seen": "2026-09-05T22:43:38.495550+00:00"
     },
@@ -752,7 +752,7 @@
       "author": "/u/nirvbm",
       "body": "Hello, Am ordering from Rakuten for the first time and I understand that i have to fill out my name and address in katakana. Does anyone have any guidance for how to convert my name and address? Also, my name appears on my apartment building only in english, should i include the my name in english somewhere on my order? submitted by /u/nirvbm [link] [comments]",
       "sub": "japanlife",
-      "status": "new",
+      "status": "expired",
       "first_seen": "2026-09-05T22:43:38.495550+00:00",
       "last_seen": "2026-09-05T22:43:38.495550+00:00"
     },
@@ -762,7 +762,7 @@
       "author": "/u/GenericUsername7991",
       "body": "Hello. I‘m about to move out from my apartment in a few days and as I was cleaning I found some black spots on the carpet floor. It was under a box I couldn’t bother throwing out until today so I don’t really have any idea how long has it been there for. I can really do without an additional fee as I move out so any help on how to remove it is much appreciated. I can’t upload pictures for some rea",
       "sub": "japanlife",
-      "status": "new",
+      "status": "expired",
       "first_seen": "2026-09-05T22:43:38.495550+00:00",
       "last_seen": "2026-09-05T22:43:38.495550+00:00"
     },
@@ -772,7 +772,7 @@
       "author": "/u/ee_1x3",
       "body": "Are there any good ways to source cheap second-hand furniture? I moved into an unfurnished apartment and want to curate a more vintage or retro vibe apartment. So for the past week, I have been going to DOZENS of second-hand shops (Off House, Treasure Factory, lots of independent second-hand warehouses in the countryside, etc.) BUT EVERYTHING is insanely priced. An IKEA dresser from 2010 with a 10",
       "sub": "japanlife",
-      "status": "new",
+      "status": "expired",
       "first_seen": "2026-09-05T22:43:38.495550+00:00",
       "last_seen": "2026-09-05T22:43:38.495550+00:00"
     },
@@ -782,7 +782,7 @@
       "author": "/u/TheSimpBee",
       "body": "Hey yall, another dilemma from me haha. So I finally moved into my apartment and remembered I’m supposed to do ward office stuff. Problem is, when I initially did my ward office paperwork in Kyoto I didn’t have a new address. I can’t remember if they even gave me that Tenshutsu paper because of this or not. Would it be worth it to go to my new ward office with all my other stuff (Residence card, p",
       "sub": "japanlife",
-      "status": "new",
+      "status": "expired",
       "first_seen": "2026-09-05T22:43:38.495550+00:00",
       "last_seen": "2026-09-05T22:43:38.495550+00:00"
     },
@@ -886,11 +886,22 @@
       "published": "2026-09-12T11:07:26+00:00",
       "first_seen": "2026-09-15T23:46:10.718401+00:00",
       "last_seen": "2026-09-15T23:46:10.718401+00:00"
+    },
+    "1wjp9fv": {
+      "title": "Resignation before the end of a short term contract",
+      "link": "https://www.reddit.com/r/japanlife/comments/1wjp9fv/resignation_before_the_end_of_a_short_term/",
+      "author": "/u/Material_Cap_5381",
+      "body": "hello guys, I want to quit my current job as we are understaffed and the situation is degrading days by days and I already found a new one but I currently have a short term contract (it is a one year contract and I worked 7months already). In my contract and in Japanese law I know that I need to give my resignation two weeks before my resignation and it needs to be for an undeniable reason which i",
+      "sub": "japanlife",
+      "status": "new",
+      "published": "2026-09-18T12:47:51+00:00",
+      "first_seen": "2026-09-18T22:47:19.076082+00:00",
+      "last_seen": "2026-09-18T22:47:19.076082+00:00"
     }
   },
   "meta": {
-    "query_cursor": 9,
-    "last_run": "2026-09-15T23:47:11.637294+00:00",
+    "query_cursor": 0,
+    "last_run": "2026-09-18T22:47:19.076082+00:00",
     "last_run_ok_calls": 3,
     "last_run_planned_calls": 3
   }
