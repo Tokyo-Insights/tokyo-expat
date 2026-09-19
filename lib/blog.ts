@@ -4230,20 +4230,23 @@ For health coverage whatever your housing option, [SafetyWing Nomad Insurance](h
     title: 'Jiko bukken à Tokyo : appartements pas chers et légaux (2026)',
     description: "Les jiko bukken sont des logements où un incident grave a eu lieu. Légaux, jusqu'à 30% moins chers, souvent en centre-ville : comment en trouver à Tokyo.",
     date: '2026-06-20',
+    updated: '2026-09-19',
     readingTime: '7 min',
     content: `
 Il existe une catégorie de logements à Tokyo que la grande majorité des expatriés ne connaît pas, et qui offre certaines des meilleures opportunités de loyer en zone centrale. Ce sont les **jiko bukken** (事故物件), littéralement "propriétés à incident". Légaux, bien situés, et jusqu'à 30% moins chers que le marché : voici ce qu'il faut savoir.
 
-**Réponse rapide :** Les jiko bukken (事故物件) sont des logements où un incident est survenu (souvent un décès), légaux à louer et jusqu'à 30% moins chers en zone centrale. Le propriétaire doit déclarer l'incident au premier locataire. Si le tabou ne vous dérange pas, c'est une vraie opportunité de loyer ; des sites spécialisés et agences peuvent vous en trouver.
+**Réponse rapide :** Les jiko bukken (事故物件) sont des logements où un incident est survenu (souvent un décès), légaux à louer et jusqu'à 30% moins chers en zone centrale. Pour une location d'habitation, les directives nationales retiennent une obligation de déclaration d'environ 3 ans après l'événement. Si le tabou ne vous dérange pas, c'est une vraie opportunité de loyer ; des sites spécialisés et agences peuvent vous en trouver.
 
 ## Qu'est-ce qu'un jiko bukken ?
 
 Un jiko bukken est un bien immobilier dans lequel un "incident particulier" a eu lieu. En japonais, le terme est large : il peut s'agir d'un suicide, d'un homicide, d'un décès isolé découvert après plusieurs jours, ou d'un grave accident domestique.
 
-Ce n'est pas une catégorie illégale ni honteuse dans le droit japonais : c'est simplement une obligation de transparence imposée par la loi.
+Ce n'est pas une catégorie illégale ni honteuse dans le droit japonais : c'est simplement une obligation de transparence.
 
-**Ce que la loi japonaise impose :**
-En vertu des directives du Ministère du Territoire, de l'Infrastructure, du Transport et du Tourisme (MLIT), un propriétaire ou une agence est légalement tenu de déclarer tout incident significatif survenu dans un logement **pendant les 3 premières années suivant l'événement**. Après ces 3 ans, l'obligation de divulgation disparaît.
+**Ce que le droit japonais impose :**
+En octobre 2021, le Ministère du Territoire, de l'Infrastructure, du Transport et du Tourisme (MLIT) a publié des directives sur la déclaration des décès survenus dans un bien. Pour une location d'habitation, elles retiennent une obligation de déclaration couvrant **environ les 3 premières années suivant l'événement**. Les décès considérés comme naturels, ou les accidents de la vie courante comme une chute, n'ont en principe pas à être déclarés.
+
+Une nuance qui compte : ces directives ne sont pas une loi. Elles précisent la façon dont s'interprète l'obligation qui pèse déjà sur les professionnels au titre de la loi sur les transactions immobilières, et les agences les suivent de près en pratique, mais un cas particulier peut toujours se discuter. Si un logement vous intéresse vraiment, exigez la déclaration par écrit plutôt que de vous fier à une règle générale.
 
 ## Pourquoi c'est une opportunité pour les étrangers
 
@@ -4253,7 +4256,7 @@ Ce sentiment culturel a un effet concret sur le marché : les propriétaires pei
 
 **Réductions constatées :**
 - Suicide ou homicide (moins d'1 an) : 30 à 50% sous le prix du marché
-- Décès naturel isolé (1 à 3 ans) : 10 à 25% sous le marché
+- Décès isolé découvert tardivement (1 à 3 ans) : 10 à 25% sous le marché
 - Après 3 ans (sans obligation légale) : 5 à 15% sous le marché selon la sensibilité du propriétaire
 
 Pour un appartement en zone centrale à 120 000 JPY/mois, une réduction de 25% représente 30 000 JPY d'économie mensuelle, soit 360 000 JPY par an.
@@ -4276,7 +4279,7 @@ Les biens peuvent parfois apparaître sur Suumo ou Homes avec la mention 心理�
 
 Un jiko bukken n'est pas un bien à éviter par principe, mais il demande une vérification rigoureuse.
 
-**1. La nature exacte de l'incident.** Un décès naturel de vieillesse est différent d'un homicide. Demandez le document de divulgation officiel (kikakusho) et faites-le traduire si nécessaire.
+**1. La nature exacte de l'incident.** Un décès naturel de vieillesse est différent d'un homicide. Demandez le document de déclaration écrit (告知書, kokuchisho) et faites-le traduire si nécessaire.
 
 **2. L'état de l'appartement.** Demandez si un nettoyage spécialisé (特殊清掃) a été effectué. C'est presque toujours le cas pour les propriétés remises en location, mais il faut le confirmer.
 
