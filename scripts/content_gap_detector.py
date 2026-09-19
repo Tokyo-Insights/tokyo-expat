@@ -5,6 +5,16 @@ articles (lib/blog.ts) pour sortir les SUJETS qu'ils couvrent et pas nous.
 100% gratuit (donnees deja en cache). Niche: logement/relocation/expat Japon.
 
 Usage: python scripts/content_gap_detector.py
+
+⚠️ SCRIPT DORMANT (verifie le 2026-09-20): aucun runner ne l'appelle, il n'ecrit pas
+content_gaps.json et n'envoie aucune alerte. C'est content_gap.py qui alimente le
+fichier lu par proactive_analysis / monday_briefing / weekly_report.
+⚠️ IL PORTE LE MEME DEFAUT, NON CORRIGE: sa liste NICHE contient bank / banking /
+insurance / tax / account, sans aucune exigence d'ancrage Japon. Le 2026-09-20, c'est
+exactement ce qui a rempli content_gaps.json de 96 entrees Wise ("tax-free-australia",
+"money-and-banks-in-colombia"). La correction a ete faite dans content_gap.py
+(a_un_ancrage_japon + classer_sources + est_hors_cible). Si ce script est un jour
+reactive, y porter la meme correction AVANT de lire sa sortie.
 """
 import json, re, io, sys
 from pathlib import Path

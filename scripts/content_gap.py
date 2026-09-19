@@ -192,6 +192,57 @@ def a_un_ancrage_japon(url: str) -> bool:
     return any(m in ANCRAGE_JAPON or m.startswith(ANCRAGE_PREFIXE) for m in mots)
 
 
+# ⚠️ AJOUT 2026-09-20, SECOND DEFAUT, decouvert en corrigeant le premier. Une fois le
+# bruit geographique retire (100 -> 17 gaps), 13 des 17 restants etaient des sujets
+# bancaires ANCRES au Japon mais etrangers a notre metier: "is wise a bank jp",
+# "wise business account requirements jp", "jp morgan securities account",
+# "open business account with bank of yokohama". Deux familles distinctes:
+#   (a) AUTO-PROMOTION: le slug nomme la marque de la source elle-meme. Ce n'est pas un
+#       sujet que quelqu'un cherche, c'est la source qui parle d'elle.
+#   (b) BANQUE D'ENTREPRISE: compte pro, titres, societe unipersonnelle. Notre lecteur
+#       est un particulier qui cherche un logement, pas un dirigeant qui ouvre un compte
+#       professionnel.
+# ⚠️ Ne PAS retirer Wise Blog JP en bloc: certains de ses sujets sont de vraies questions
+# d'expatrie ("ouvrir un compte en banque au Japon", "droits de succession japonais"), et
+# le rapport du 17/08 montre que les pages argent/impots/visa APPORTENT des leads au meme
+# titre que le logement. C'est le sujet qu'on filtre, pas la source.
+HORS_CIBLE_B2B = {
+    "business", "businesses", "corporate", "securities", "payroll", "invoice",
+    "invoicing", "invoices", "proprietor", "freelance", "freelancer", "merchant",
+    "payouts", "b2b",
+}
+# Mots trop generiques ou geographiques pour valoir marque, meme s'ils sont dans le nom
+# de domaine. Sans ce garde-fou, un domaine comme "japan-guide.com" ferait de "japan" une
+# marque et rejetterait tout le corpus: le filtre se retournerait contre l'ancrage.
+PAS_UNE_MARQUE = ANCRAGE_JAPON | {
+    "blog", "com", "net", "org", "www", "guide", "guides", "house", "housing", "home",
+    "rent", "rental", "share", "sharehouse", "living", "life", "expat", "expats",
+    "online", "info", "news", "times", "today", "post", "central", "property",
+}
+
+
+def mots_de_marque(url: str) -> set:
+    """Les mots distinctifs du nom de domaine (= la marque de la source)."""
+    m = re.match(r"https?://([^/]+)/?", url)
+    if not m:
+        return set()
+    hote = re.sub(r"^www\.", "", m.group(1).lower())
+    hote = re.sub(r"\.(com|net|org|jp|io|co\.jp|co\.uk|fr)$", "", hote)
+    return {w for w in re.split(r"[.\-_]+", hote) if w and w not in PAS_UNE_MARQUE}
+
+
+def est_hors_cible(url: str) -> tuple[bool, str]:
+    """Auto-promotion de la source, ou banque d'entreprise ? Rend (verdict, raison)."""
+    mots = {m for m in re.split(r"[-_]+", url_to_slug(url)) if m}
+    marques = mots_de_marque(url) & mots
+    if marques:
+        return True, f"auto-promotion: le slug nomme la source ({', '.join(sorted(marques))})"
+    b2b = mots & HORS_CIBLE_B2B
+    if b2b:
+        return True, f"banque/service d'entreprise ({', '.join(sorted(b2b))}), pas notre lecteur"
+    return False, ""
+
+
 def classer_sources(cache: dict) -> dict:
     """Rend {source: (part_ancree, est_internationale)} d'apres le corpus lui-meme.
 
@@ -417,6 +468,11 @@ def main():
                 rejetes.append((slug, raison))
                 continue
 
+            hors_cible, motif = est_hors_cible(url)
+            if hors_cible:
+                rejetes.append((slug, motif))
+                continue
+
             if slug not in gap_topics:
                 gap_topics[slug] = {
                     "slug": slug,
@@ -486,6 +542,10 @@ def main():
             f"\nAngle: {angle[:80]}"
         )
     lines.append(f"\nFichier complet: scripts/data/content_gaps.json")
+    # --print: verifier le tri sans envoyer. Meme convention que ga4_daily_report.py.
+    if "--print" in sys.argv:
+        print("\n[--print] Telegram NON envoye.")
+        return
     send_telegram("\n".join(lines))
     print("\nTelegram alert sent.")
 
