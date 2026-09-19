@@ -107,14 +107,44 @@ def main():
     # La MEDIANE ignore par construction un jour aberrant sur sept. On garde le jour
     # aberrant VISIBLE au lieu de le taire: un pic de bots est une information.
     p = report(token, [prior], ["sessions"], ["date"], None, 30)
-    jours = sorted(int(r["metricValues"][0]["value"]) for r in p.get("rows", []))
+    par_jour = {r["dimensionValues"][0]["value"]: int(r["metricValues"][0]["value"])
+                for r in p.get("rows", [])}
+    jours = sorted(par_jour.values())
     base = statistics.median(jours) if jours else 0
     delta = ((y_sess - base) / base * 100) if base else 0
     aberrants = [v for v in jours if base and v >= 3 * base]
 
     pages = report(token, [yest], ["screenPageViews"], ["pagePath"], "screenPageViews", 5)
     countries = report(token, [yest], ["activeUsers"], ["country"], "activeUsers", 6)
-    sources = report(token, [yest], ["sessions"], ["sessionDefaultChannelGroup"], "sessions", 4)
+    # limite portee de 4 a 20: l'affichage n'en montre toujours que 4, mais le calcul
+    # de l'organique ci-dessous a besoin de TOUTES les lignes, pas des 4 premieres.
+    sources = report(token, [yest], ["sessions"], ["sessionDefaultChannelGroup"], "sessions", 20)
+
+    # --- SESSIONS ORGANIQUES, A COTE DU TOTAL (ajoute 2026-09-20) ---
+    # Le total est falsifiable: le 17/09/2026, 385 des 416 sessions venaient d'une ferme
+    # de datacenter a Singapour, en Direct / (none), ~4,7 s d'engagement par session,
+    # aucune page au-dela de 6 vues. Le trafic organique, lui, est valide par Google en
+    # amont: une ferme de datacenter ne fabrique pas une session Organic Search.
+    # ⛔ On ne filtre PAS par pays. Singapour est un vrai pays avec de vrais visiteurs,
+    # et une liste de pays a exclure se perimerait en silence, exactement comme la liste
+    # HORS_JAPON de content_gap.py. On affiche les DEUX chiffres: c'est l'ECART entre eux
+    # qui signale la contamination, sans avoir a nommer qui que ce soit.
+    ORGANIQUE = "Organic Search"
+    y_org = sum(int(r["metricValues"][0]["value"]) for r in sources.get("rows", [])
+                if r["dimensionValues"][0]["value"] == ORGANIQUE)
+    p_can = report(token, [prior], ["sessions"],
+                   ["date", "sessionDefaultChannelGroup"], None, 500)
+    # ⚠️ Un jour SANS session organique ne rend aucune ligne. Partir des lignes seules
+    # calculerait la mediane sur un denominateur ampute, donc trop haut. On part des
+    # jours vus au total et on y pose zero par defaut.
+    org_par_jour = {d: 0 for d in par_jour}
+    for r in p_can.get("rows", []):
+        if r["dimensionValues"][1]["value"] == ORGANIQUE:
+            org_par_jour[r["dimensionValues"][0]["value"]] = int(r["metricValues"][0]["value"])
+    org_jours = sorted(org_par_jour.values())
+    base_org = statistics.median(org_jours) if org_jours else 0
+    delta_org = ((y_org - base_org) / base_org * 100) if base_org else 0
+    part_org = (y_org / y_sess * 100) if y_sess else 0
     # Loop 2 (GEO): detecter les visites venues des IA = mesure de la citation par les IA
     ai_r = report(token, [yest], ["sessions"], ["sessionSource"], "sessions", 30)
     AI_PAT = ("chatgpt", "openai", "perplexity", "gemini", "bard", "copilot", "claude",
@@ -129,6 +159,8 @@ def main():
     L = [
         "\U0001F4CA <b>GA4 - hier</b>",
         f"Sessions: <b>{y_sess}</b> ({'+' if delta>=0 else ''}{delta:.0f}% vs mediane 7j = {base:.0f}) {arrow}",
+        f"↳ dont <b>organique: {y_org}</b> ({'+' if delta_org>=0 else ''}{delta_org:.0f}% "
+        f"vs mediane 7j = {base_org:.0f}) = {part_org:.0f}% du total",
         f"Utilisateurs: {y_users} | Vues: {y_views}",
         "",
         "<b>Top pays</b>: " + ", ".join(f"{c} ({v})" for c, v in rows(countries)),
