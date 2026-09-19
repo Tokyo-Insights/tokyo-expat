@@ -14,6 +14,12 @@ import datetime
 import sys
 import io
 import requests
+
+# La carte page 1, lue par la machine. Import tolerant (le radar doit tourner sans).
+try:
+    import cluster_verdicts as _cv
+except Exception:
+    _cv = None
 import urllib3
 from pathlib import Path
 
@@ -158,10 +164,17 @@ def generate_moat_actions(domain: str, keywords: list[str]) -> list[str]:
     # Action 2 : backlinks a capturer en premier
     actions.append(f"PRIORITE OUTREACH : contacte Savvy Tokyo + Tokyo Cheapo CETTE SEMAINE avant que {domain} les approche")
 
-    # Action 3 : content gap
+    # Action 3 : content gap, si la page 1 du cluster est encore atteignable.
+    # Branche le 19/09/2026 (cf cluster_verdicts): 4e lecteur qui recommandait d'ecrire
+    # sans jamais regarder qui tient la page 1.
     for kw in keywords[:2]:
-        if kw not in KEYWORD_TO_OUR_ARTICLE:
-            actions.append(f"Publie article sur '{kw}' — pas encore couvert, {domain} attaque ce keyword")
+        if kw in KEYWORD_TO_OUR_ARTICLE:
+            continue
+        statut, pourquoi_carte, _ = (_cv.verdict(kw) if _cv else (None, "", ""))
+        if _cv is not None and statut in (_cv.STOCK, _cv.APERCU_IA):
+            actions.append(f"NE PAS ecrire sur '{kw}' : {_cv.etiquette(statut)}. {pourquoi_carte[:110]}")
+        else:
+            actions.append(f"Publie article sur '{kw}', pas encore couvert, {domain} attaque ce keyword")
 
     # Action 4 : surveillance
     actions.append(f"Surveille {domain} : ajoute a competitor_watch.py si persistant")
@@ -215,13 +228,13 @@ def main():
 
     # Telegram
     if not new_competitors:
-        msg = f"<b>COMPETITOR RADAR</b> — {today}\nAucun nouveau concurrent detecte cette semaine."
+        msg = f"<b>COMPETITOR RADAR</b> · {today}\nAucun nouveau concurrent detecte cette semaine."
         print("Aucun nouveau concurrent.")
         send_telegram(msg)
         return
 
     lines = [
-        f"<b>ART DE LA GUERRE</b> — {today}",
+        f"<b>ART DE LA GUERRE</b> · {today}",
         f"{len(new_competitors)} NOUVEAU(X) CONCURRENT(S) DETECTE(S)\n",
     ]
 

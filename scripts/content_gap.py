@@ -89,6 +89,36 @@ def slug_to_topic(slug: str) -> str:
     topic = re.sub(r"\.(html|php|aspx)$", "", topic)
     return topic.strip()
 
+
+# Un slug de concurrent n'est pas toujours un SUJET. Garde-fou pose le 19/09/2026:
+# les deux gaps les mieux notes du fichier etaient
+#   "the top 10 cheapo neighborhoods in tokyo part 1 10 through 6"
+#   "the top 10 cheapo neighborhoods to live in tokyo part ii 5 through 1"
+# c'est-a-dire UN article de Tokyo Cheapo decoupe en deux pages. Personne ne tape ca.
+# Comme ils avaient le score le plus haut, ils occupaient la recommandation n1 de
+# `proactive_analysis` a CHAQUE envoi, donc en permanence.
+_PAGINE = re.compile(
+    r"(^|-)(part|partie|page|pt)-(\d+|i{1,3}|iv|v)(-|$)"   # part-1, part-ii, page-2
+    r"|-through-\d+"                                        # 10-through-6
+    r"|(^|-)\d+-through(-|$)",
+    re.I,
+)
+MAX_MOTS_TOPIC = 9
+
+
+def topic_utilisable(slug: str) -> tuple[bool, str]:
+    """Ce slug peut-il servir de sujet d'article ? Rend (verdict, raison).
+
+    Rejeter n'est pas ignorer: la raison est affichee, pour qu'un filtre muet ne
+    finisse pas par cacher un vrai sujet sans que personne ne s'en apercoive.
+    """
+    if _PAGINE.search(slug):
+        return False, "morceau pagine d'un article concurrent, pas un sujet"
+    n = len([w for w in re.split(r"[-_]+", slug) if w])
+    if n > MAX_MOTS_TOPIC:
+        return False, f"slug de {n} mots: c'est un titre recopie, pas une requete"
+    return True, ""
+
 def detect_topic_category(slug: str) -> str:
     """Detecte la categorie de topic d'un slug."""
     slug_lower = slug.lower()
@@ -154,11 +184,41 @@ def is_relevant_url(url: str) -> bool:
     # qu'il contient "tokyo", et se retrouvait en priorite n2 du rapport. La rubrique
     # "living" de Tokyo Cheapo est entierement tokyoite et majoritairement hors sujet.
     # Nouvelle regle: la geographie ne suffit JAMAIS, il faut un mot de SUJET.
-    SUJET = ["apartment", "housing", "logement", "appartement", "rent", "loyer",
-             "share", "lease", "tenant", "landlord", "deposit", "guarantor", "garant",
-             "moving", "relocat", "expat", "foreigner", "gaijin", "visa", "residence",
-             "student", "dorm", "bank", "insurance", "tax", "utilities", "furnished",
-             "meuble", "neighbourhood", "neighborhood", "quartier", "ward", "station"]
+    # ⚠️ CORRIGE 19/09/2026. La regle testait `w in slug`, donc une SOUS-CHAINE. Trois
+    # exemples reels, tous notes 25/100 et donc en tete du fichier:
+    #   "a-banksy-exhibition-is-coming-to-tokyo-in-2020"  -> passe par bank ⊂ BANKsy
+    #   "all-of-tokyos-taxis-just-increased-their-prices" -> passe par tax  ⊂ TAXis
+    #   "recapping-the-2017-love-tokyo-awards"            -> passe par ward ⊂ aWARDs
+    # Meme famille que le `lstrip("www.")` du 14/09 et que "tokyo" ⊂ savvytokyo.com du
+    # 30/06: une appartenance de chaine lue comme une appartenance de MOT.
+    # Le slug est deja decoupe par tirets: on compare donc des MOTS, pas des morceaux.
+    SUJET_EXACT = {
+        "apartment", "apartments", "housing", "logement", "logements", "appartement",
+        "appartements", "rent", "rents", "rental", "rentals", "renting", "loyer",
+        "loyers", "share", "sharehouse", "lease", "leases", "tenant", "tenants",
+        "landlord", "landlords", "deposit", "deposits", "guarantor", "guarantors",
+        "garant", "garants", "moving", "move", "expat", "expats", "foreigner",
+        "foreigners", "gaijin", "visa", "visas", "residence", "student", "students",
+        "dorm", "dorms", "bank", "banks", "banking", "account", "accounts",
+        "insurance", "tax", "taxes",
+        "utilities", "furnished", "unfurnished", "meuble", "meubles", "neighbourhood",
+        "neighbourhoods", "neighborhood", "neighborhoods", "quartier", "quartiers",
+        "ward", "wards", "station", "stations", "mansion", "danchi", "bukken",
+        "jikobukken", "shikikin", "reikin", "hoshonin",
+    }
+    # Racines assumees, comparees en DEBUT DE MOT seulement (jamais au milieu).
+    # "colocat" a ete essaye le 19/09 puis RETIRE le jour meme: ses seules occurrences
+    # reelles etaient "colocation rotterdam / cork / marseille" (Remoters couvre toute
+    # l'Europe), donc 100 % de bruit geographique.
+    # ⚠️ LIMITE CONNUE, NON RESOLUE: HORS_JAPON est une liste de villes ecrite a la main.
+    # Elle est incomplete par construction et se perimera en silence. Le jour ou ce bruit
+    # redevient genant, la bonne correction n'est pas d'y ajouter des villes une par une,
+    # c'est d'exiger un ancrage Japon quand la source est un site international.
+    # "hebergement" et "immobili" ont ete essayes le meme jour et retires pour la meme
+    # raison que "colocat": leurs seules occurrences reelles etaient "acheter un bien
+    # immobilier en europe" et "maison en algarve". On garde donc la seule racine qui
+    # existait avant, pour n'introduire aucune regression.
+    SUJET_PREFIXE = ("relocat",)
     # Sujets tokyoites mais etrangers a notre metier (vus dans le cache le 09/09).
     HORS_METIER = ["mole-removal", "married", "wedding", "dentist", "haircut", "gym",
                    "restaurant", "cafe", "nightlife", "festival", "museum", "onsen",
@@ -173,7 +233,9 @@ def is_relevant_url(url: str) -> bool:
                   "beijing", "pekin", "bali", "melbourne", "vancouver", "montreal"]
     if any(w in slug for w in HORS_METIER) or any(w in slug for w in HORS_JAPON):
         return False
-    return any(w in slug for w in SUJET)
+
+    mots_du_slug = [m for m in re.split(r"[-_]+", slug) if m]
+    return any(m in SUJET_EXACT or m.startswith(SUJET_PREFIXE) for m in mots_du_slug)
 
 def score_gap(slug: str, competitor: str) -> int:
     """Score de priorite du gap (100 = ultra prioritaire)."""
@@ -234,6 +296,7 @@ def main():
 
     # Aggreger tous les URLs concurrents pertinents
     gap_topics: dict[str, dict] = {}  # slug -> {score, competitors, url, category}
+    rejetes: list[tuple[str, str]] = []  # slugs ecartes comme non-sujets, avec la raison
 
     for key, urls in cache.items():
         if not key.startswith("urls_"):
@@ -261,6 +324,11 @@ def main():
             if already_covered:
                 continue
 
+            utilisable, raison = topic_utilisable(slug)
+            if not utilisable:
+                rejetes.append((slug, raison))
+                continue
+
             if slug not in gap_topics:
                 gap_topics[slug] = {
                     "slug": slug,
@@ -283,6 +351,20 @@ def main():
     # Trier par score
     gaps = sorted(gap_topics.values(), key=lambda x: x["score"], reverse=True)
     print(f"\nTotal gaps identifies: {len(gaps)}")
+
+    # Dire ce qui a ete ECARTE, et sur quel denominateur.
+    if rejetes:
+        print(f"\n{len(rejetes)} slug(s) ecarte(s) comme non-sujets "
+              f"(sur {len(rejetes) + len(gaps)} candidats):")
+        vus = set()
+        for slug, raison in rejetes:
+            if raison in vus and len(vus) > 1:
+                continue
+            vus.add(raison)
+            print(f"  - {slug[:64]}")
+            print(f"      {raison}")
+        if len(rejetes) > len(vus):
+            print(f"  ... et {len(rejetes) - len(vus)} autre(s), memes motifs")
 
     # Sauvegarder
     DATA_DIR.mkdir(exist_ok=True)

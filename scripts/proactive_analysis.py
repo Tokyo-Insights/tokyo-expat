@@ -21,6 +21,10 @@ VERIFY_SSL = False
 
 from config import TE_TOKEN, TE_CHAT_ID
 from blog_helpers import article_already_published
+# La carte page 1, lue par la machine. Branchee ici le 19/09/2026: ce script
+# recommandait encore librement des clusters dont la page 1 est hors d'atteinte
+# (le rapport HEBDO avait ete corrige le 17/09, pas les alertes QUOTIDIENNES).
+import cluster_verdicts as cv
 
 SCRIPT_DIR = Path(__file__).parent
 DATA_DIR = SCRIPT_DIR / "data"
@@ -125,7 +129,18 @@ def analyze_keywords() -> dict:
             top5_dominated += 1
 
     # Nos keywords les plus prometteurs (position 11-20 = page 2, faciles a faire monter)
-    page2 = [(kw, pos) for kw, pos in our_ranked if 11 <= pos <= 20]
+    # ⚠️ La position ne suffit PAS. Avant le 19/09/2026 elle etait le seul critere, et ce
+    # script proposait donc de "faire passer en page 1" des clusters dont la page 1 est
+    # tenue par des pages de stock, ou ou un apercu IA repond au-dessus. On ecarte ces
+    # clusters ici, et on garde a part ce qui a ete ecarte pour pouvoir le DIRE.
+    page2_brut = [(kw, pos) for kw, pos in our_ranked if 11 <= pos <= 20]
+    page2, page2_ecartes = [], []
+    for kw, pos in page2_brut:
+        statut, pourquoi, _ = cv.verdict(kw)
+        if statut in (cv.STOCK, cv.APERCU_IA):
+            page2_ecartes.append((kw, pos, cv.etiquette(statut)))
+        else:
+            page2.append((kw, pos, cv.etiquette(statut)))
 
     conn.close()
     return {
@@ -134,6 +149,7 @@ def analyze_keywords() -> dict:
         "total_ranked": len(our_ranked),
         "best": our_ranked[:5],
         "page2_opportunities": page2[:5],
+        "page2_ecartes": page2_ecartes,
         "top5_dominated_count": top5_dominated,
     }
 
@@ -265,15 +281,25 @@ def main():
     ]
 
     if keywords.get("available"):
-        msg1_lines.append(f"<b>Nos rankings :</b> {keywords['total_ranked']} keywords rankés ({keywords['latest_date']})")
+        # ⚠️ Ces positions viennent de keyword_tracker, donc de DUCKDUCKGO, pas de Google.
+        # Le rapport hebdo le dit depuis le 18/09; cette alerte quotidienne ne le disait
+        # pas, et un "#2" y avait donc l'autorite d'un classement Google.
+        msg1_lines.append(f"<b>Nos rankings (DuckDuckGo) :</b> {keywords['total_ranked']} keywords rankés ({keywords['latest_date']})")
         if keywords.get("best"):
-            msg1_lines.append("Meilleures positions :")
+            msg1_lines.append("Meilleures positions DDG (une position sans impressions Google n'est pas une victoire) :")
             for kw, pos in keywords["best"][:3]:
-                msg1_lines.append(f"  #{pos} - {kw[:45]}")
+                statut, _, _ = cv.verdict(kw)
+                msg1_lines.append(f"  #{pos} - {kw[:45]} {cv.etiquette(statut)}")
         if keywords.get("page2_opportunities"):
-            msg1_lines.append("\nOPPORTUNITES page 2 -> page 1 (boost interne !) :")
-            for kw, pos in keywords["page2_opportunities"][:3]:
-                msg1_lines.append(f"  #{pos} - {kw[:45]}")
+            msg1_lines.append("\nOPPORTUNITES page 2 -> page 1 (clusters NON fermes) :")
+            for kw, pos, etiq in keywords["page2_opportunities"][:3]:
+                msg1_lines.append(f"  #{pos} - {kw[:45]} {etiq}")
+        ecartes = keywords.get("page2_ecartes") or []
+        if ecartes:
+            # Un filtre muet est un filtre qu'on oubliera: il doit dire ce qu'il retire.
+            msg1_lines.append(f"\n<i>{len(ecartes)} keyword(s) en page 2 ecarte(s), page 1 hors d'atteinte :</i>")
+            for kw, pos, etiq in ecartes[:3]:
+                msg1_lines.append(f"  <i>#{pos} - {kw[:40]} {etiq}</i>")
     else:
         msg1_lines.append("Rankings: premiere semaine de tracking en cours.")
 
@@ -302,31 +328,37 @@ def main():
             "keywords": ["mutation tokyo logement", "find apartment tokyo april", "appartement tokyo expatrie"],
         })
 
-    # 2) Meilleur content gap
+    # 2) Meilleur content gap, SI sa page 1 est atteignable.
+    # Un concurrent qui "couvre un topic" que nous ne couvrons pas n'est une occasion que
+    # si un article peut encore s'y placer. Le 19/09/2026 ce bloc recommandait "the top 10
+    # cheapo neighborhoods in tokyo" sans jamais regarder la page 1.
     if gaps.get("available") and gaps.get("top3"):
-        g = gaps["top3"][0]
-        article_queue.append({
-            "priority": 2 if not article_queue else len(article_queue) + 1,
-            "title": f"Article sur : {g['topic'].replace('-', ' ')}",
-            "why": f"Score gap {g['score']}/100 - {', '.join(g['competitors'][:2])} couvrent ce topic, pas nous",
-            "keywords": [g["topic"].replace("-", " ")],
-        })
+        for g in gaps["top3"]:
+            sujet = g["topic"].replace("-", " ")
+            statut, pourquoi, _ = cv.verdict(sujet)
+            if statut in (cv.STOCK, cv.APERCU_IA):
+                continue
+            article_queue.append({
+                "priority": 2 if not article_queue else len(article_queue) + 1,
+                "title": f"Article sur : {sujet}",
+                "why": f"Score gap {g['score']}/100 - {', '.join(g['competitors'][:2])} couvrent ce topic, pas nous",
+                "keywords": [sujet],
+            })
+            break
 
-    # 3) Jiko bukken (gap specifique detecte - toujours valide)
-    article_queue.append({
-        "priority": len(article_queue) + 1,
-        "title": "Jiko bukken : louer moins cher a Tokyo (appartements \"a incident\")",
-        "why": "Keyword longtail FR inexistant, fort potentiel SEO, angle unique",
-        "keywords": ["jiko bukken tokyo", "appartement pas cher tokyo astuce", "cheap apartment tokyo secret"],
-    })
+    # 3) (supprime le 19/09/2026) Un article "Jiko bukken" etait code EN DUR ici avec le
+    # commentaire "toujours valide". Il ne l'etait plus: la paire FR/EN existe depuis le
+    # 20/06/2026 et /en/blog/jiko-bukken-cheap-apartments-tokyo est devenue la 1re page du
+    # site en clics. Seul `article_already_published` empechait de le reproposer chaque
+    # semaine, c'est-a-dire un filtre en aval rattrapant une donnee fausse en amont.
 
-    # 4) Page 2 keyword le plus prometteur
+    # 4) Page 2 keyword le plus prometteur, deja filtre des clusters fermes en amont.
     if keywords.get("available") and keywords.get("page2_opportunities"):
-        kw, pos = keywords["page2_opportunities"][0]
+        kw, pos, etiq = keywords["page2_opportunities"][0]
         article_queue.append({
             "priority": len(article_queue) + 1,
             "title": f"Boost SEO : article optimise pour '{kw}'",
-            "why": f"On est #{pos} sur ce keyword - un bon article interne peut le faire passer en page 1",
+            "why": f"#{pos} sur DuckDuckGo ({etiq}) - a croiser avec les impressions Google avant d'ecrire",
             "keywords": [kw],
         })
 
@@ -379,9 +411,18 @@ def main():
     msg3_lines.append("  Verifier les demandes REELLES : formulaires + Calendly")
 
     if vulns.get("available") and vulns.get("total", 0) > 0:
-        msg3_lines.append(f"\n<b>Opportunites vulnerabilites ({vulns['total']}) :</b>")
-        for v in vulns["top3"][:2]:
-            msg3_lines.append(f"  {v['domain'].split('.')[0]} chute sur '{v['keyword'][:35]}' -> attaquer ce keyword")
+        # "Un concurrent chute, attaquons" n'a de sens que si la page 1 nous est ouverte.
+        # Sinon on herite d'une place que le concurrent perd... au profit d'une page de
+        # stock ou d'un apercu IA.
+        vulns_ouvertes = [v for v in vulns["top3"]
+                          if cv.verdict(v["keyword"])[0] not in (cv.STOCK, cv.APERCU_IA)]
+        if vulns_ouvertes:
+            msg3_lines.append(f"\n<b>Opportunites vulnerabilites ({len(vulns_ouvertes)} retenue(s) sur {vulns['total']}) :</b>")
+            for v in vulns_ouvertes[:2]:
+                statut, _, _ = cv.verdict(v["keyword"])
+                msg3_lines.append(f"  {v['domain'].split('.')[0]} chute sur '{v['keyword'][:35]}' {cv.etiquette(statut)}")
+        else:
+            msg3_lines.append(f"\n<i>{vulns['total']} vulnerabilite(s) concurrent detectee(s), aucune sur un cluster atteignable.</i>")
 
     msg3_lines.append("\n<b>Objectif 30j :</b> 3 nouveaux articles + 10 backlinks naturels")
 

@@ -105,9 +105,22 @@ _ETIQUETTES = {
 
 
 def mots(texte):
-    """Mots distinctifs d'un theme ou d'une requete, singularises comme dans le miner."""
-    return {w[:-1] if w.endswith("s") and len(w) > 4 else w
-            for w in re.findall(r"[a-z]+", str(texte).lower()) if len(w) > 2}
+    """Mots distinctifs d'un theme ou d'une requete, singularises comme dans le miner.
+
+    Les gens ecrivent `jikobukken` en UN mot au moins aussi souvent qu'en deux, et le
+    module rendait alors INCONNU sur notre seul cluster ouvert qui convertit. Mesure du
+    19/09/2026 (croisement page x requete de la GSC, 19/08 -> 15/09): les graphies
+    agglutinees pesent `jikobukken map` 226 impr, `jikobukken` 89, `jikobukken map japan`
+    38, `jikobukken oshimaland` 22, plus la coquille `jikkobukken` 16, TOUTES servies par
+    /en/blog/jiko-bukken-cheap-apartments-tokyo. Les traiter en INCONNU revenait a rendre
+    invisible ~40 % du cluster. On rattache donc toute graphie contenant `bukken` (et la
+    coquille frequente `bukken` mal redoublee) au mot `bukken`.
+    """
+    bruts = {w[:-1] if w.endswith("s") and len(w) > 4 else w
+             for w in re.findall(r"[a-z]+", str(texte).lower()) if len(w) > 2}
+    if any("bukken" in w or "buken" in w for w in bruts):
+        bruts.add("bukken")
+    return bruts
 
 
 # Une QUESTION n'est pas une recherche d'appartement (garde-fou ajoute le 17/09/2026,
@@ -184,7 +197,13 @@ if __name__ == "__main__":
         ("expat apartments tokyo", STOCK),
         ("apartments for foreigners in tokyo", STOCK),
         ("jiko bukken", OUVERT),
-        ("jikobukken map", INCONNU),          # colle: 'jikobukken' en un mot n'est PAS 'bukken'
+        # Graphies agglutinees: elles pesaient ~40 % du cluster et rendaient INCONNU
+        # avant le 19/09/2026. Verifie dans la GSC, elles sont servies par notre page.
+        ("jikobukken map", OUVERT),
+        ("jikobukken", OUVERT),
+        ("jikkobukken", OUVERT),              # coquille frequente, meme intention
+        ("jiko buken", OUVERT),               # coquille frequente, meme intention
+        ("gaijin house map", APERCU_IA),      # colle: un cluster ferme le reste avec 'map'
         ("social apartments japan", MARQUE),   # gagnable, mais on cherche un concurrent
         ("moving to japan checklist", INCONNU),
         # Faux positif observe dans le rapport du 17/09: une QUESTION contenant les mots

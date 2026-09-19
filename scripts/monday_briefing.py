@@ -22,6 +22,13 @@ VERIFY_SSL = False
 
 from config import TELEGRAM_TOKEN, TELEGRAM_CHAT_ID
 
+# La carte page 1, lue par la machine. Import tolerant: ce briefing doit continuer a
+# tourner meme si le module manque, il filtre alors simplement moins.
+try:
+    import cluster_verdicts as _cv
+except Exception:
+    _cv = None
+
 SCRIPT_DIR = Path(__file__).parent
 DATA_DIR = SCRIPT_DIR / "data"
 STATE_FILE = DATA_DIR / "briefing_state.json"
@@ -140,6 +147,11 @@ def get_content_gaps(gaps_data, state: dict, n: int = 2) -> list[dict]:
             continue
         topic = item.get("topic") or item.get("title") or str(item)
         if topic in dismissed:
+            continue
+        # Branche le 19/09/2026 (cf cluster_verdicts): un gap n'est une occasion que si
+        # la page 1 du cluster est encore atteignable. Ce lecteur-ci recommandait encore
+        # librement, alors que le rapport hebdo filtrait depuis le 17/09.
+        if _cv is not None and _cv.verdict(topic)[0] in (_cv.STOCK, _cv.APERCU_IA):
             continue
         gaps.append({
             "topic": topic,
@@ -310,7 +322,7 @@ def main():
     # passee au MERCREDI le 09/09, et le mode --thursday tourne le jeudi. Un titre
     # qui annonce le mauvais jour fait douter de la fraicheur de tout le reste.
     lines = [
-        f"<b>BRIEFING {_JOURS_FR[today.weekday()]}</b> — {today.strftime('%d %b %Y')}",
+        f"<b>BRIEFING {_JOURS_FR[today.weekday()]}</b> · {today.strftime('%d %b %Y')}",
         f"Tes priorites de la semaine :\n",
     ]
 
@@ -350,7 +362,7 @@ def main():
     if outreach:
         names = ", ".join(c.get("name", c.get("domain", "?")) for c in outreach)
         lines.append(
-            f"📧 <b>{action_num}. OUTREACH — 2-3 emails cette semaine</b>\n"
+            f"📧 <b>{action_num}. OUTREACH · 2-3 emails cette semaine</b>\n"
             f"   Cibles : {names}\n"
             f"   <i>python scripts/outreach_tracker.py --email DOMAIN</i>"
         )
@@ -359,7 +371,7 @@ def main():
     # 3. Backlinks Ahrefs manuels
     if broken_count > 0:
         lines.append(
-            f"🔴 <b>{action_num}. BROKEN LINKS — {broken_count} pages mortes repertoriees</b>\n"
+            f"🔴 <b>{action_num}. BROKEN LINKS · {broken_count} pages mortes repertoriees</b>\n"
             f"   Ouvre Ahrefs (gratuit) pour chaque URL dans scripts/data/dead_pages_manual_check_*.csv\n"
             f"   Identifie qui linke les pages mortes et envoie le pitch de remplacement."
         )
@@ -371,7 +383,7 @@ def main():
     # DuckDuckGo, c'est engager une journee d'ecriture sur le mauvais moteur.
     for v in vulns:
         lines.append(
-            f"⚡ <b>{action_num}. VULN CONCURRENT</b> — {v['competitor']}\n"
+            f"⚡ <b>{action_num}. VULN CONCURRENT</b> · {v['competitor']}\n"
             f"   Drop #{v['from_pos']} -> #{v['to_pos']} sur <i>{v['keyword']}</i>\n"
             f"   <i>(mesure DuckDuckGo, pas Google)</i>\n"
             f"   Action : verifier ce mot-cle dans GSC avant d'ecrire quoi que ce soit."

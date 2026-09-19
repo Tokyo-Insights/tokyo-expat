@@ -1,30 +1,50 @@
 [
   {
-    "slug": "the-top-10-cheapo-neighborhoods-in-tokyo-part-1-10-through-6",
-    "topic": "the top 10 cheapo neighborhoods in tokyo part 1 10 through 6",
-    "url": "https://tokyocheapo.com/living/the-top-10-cheapo-neighborhoods-in-tokyo-part-1-10-through-6/",
+    "slug": "jp-bank-japanpost-card-guide",
+    "topic": "jp bank japanpost card guide",
+    "url": "https://wise.com/jp/blog/jp-bank-japanpost-card-guide",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 20,
+    "category": "banque"
+  },
+  {
+    "slug": "sony-bank-wallet-guide",
+    "topic": "sony bank wallet guide",
+    "url": "https://wise.com/jp/blog/sony-bank-wallet-guide",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 20,
+    "category": "banque"
+  },
+  {
+    "slug": "resona-bank-debit-card-guide",
+    "topic": "resona bank debit card guide",
+    "url": "https://wise.com/jp/blog/resona-bank-debit-card-guide",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 20,
+    "category": "banque"
+  },
+  {
+    "slug": "renew-visa-online-japan",
+    "topic": "renew visa online japan",
+    "url": "https://tokyocheapo.com/living/renew-visa-online-japan/",
     "competitors": [
       "Tokyo Cheapo"
     ],
-    "score": 25,
-    "category": "tokyo"
+    "score": 10,
+    "category": "visa"
   },
   {
-    "slug": "the-top-10-cheapo-neighborhoods-to-live-in-tokyo-part-ii-5-through-1",
-    "topic": "the top 10 cheapo neighborhoods to live in tokyo part ii 5 through 1",
-    "url": "https://tokyocheapo.com/living/the-top-10-cheapo-neighborhoods-to-live-in-tokyo-part-ii-5-through-1/",
+    "slug": "furusato-nozei-tax-payments-donations",
+    "topic": "furusato nozei tax payments donations",
+    "url": "https://tokyocheapo.com/living/furusato-nozei-tax-payments-donations/",
     "competitors": [
       "Tokyo Cheapo"
-    ],
-    "score": 25,
-    "category": "tokyo"
-  },
-  {
-    "slug": "les-differents-modes-dhebergement",
-    "topic": "les differents modes dhebergement",
-    "url": "https://www.remoters.io/blog/les-differents-modes-dhebergement",
-    "competitors": [
-      "Remoters"
     ],
     "score": 10,
     "category": "default"
@@ -40,26 +60,6 @@
     "category": "logement"
   },
   {
-    "slug": "renew-visa-online-japan",
-    "topic": "renew visa online japan",
-    "url": "https://tokyocheapo.com/living/renew-visa-online-japan/",
-    "competitors": [
-      "Tokyo Cheapo"
-    ],
-    "score": 10,
-    "category": "visa"
-  },
-  {
-    "slug": "how-to-get-a-part-time-job-for-students-in-japan",
-    "topic": "how to get a part time job for students in japan",
-    "url": "https://tokyocheapo.com/living/how-to-get-a-part-time-job-for-students-in-japan/",
-    "competitors": [
-      "Tokyo Cheapo"
-    ],
-    "score": 10,
-    "category": "etudiant"
-  },
-  {
     "slug": "pocket-translator-rental-japan",
     "topic": "pocket translator rental japan",
     "url": "https://tokyocheapo.com/living/pocket-translator-rental-japan/",
@@ -70,13 +70,933 @@
     "category": "default"
   },
   {
-    "slug": "furusato-nozei-tax-payments-donations",
-    "topic": "furusato nozei tax payments donations",
-    "url": "https://tokyocheapo.com/living/furusato-nozei-tax-payments-donations/",
+    "slug": "open-business-account-with-jibunbank",
+    "topic": "open business account with jibunbank",
+    "url": "https://wise.com/jp/blog/open-business-account-with-jibunbank",
     "competitors": [
-      "Tokyo Cheapo"
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "banque"
+  },
+  {
+    "slug": "open-account-with-fab",
+    "topic": "open account with fab",
+    "url": "https://wise.com/jp/blog/open-account-with-fab",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "banque"
+  },
+  {
+    "slug": "sole-proprietor-trade-name-bank-account",
+    "topic": "sole proprietor trade name bank account",
+    "url": "https://wise.com/jp/blog/sole-proprietor-trade-name-bank-account",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "banque"
+  },
+  {
+    "slug": "business-account-rejection-reasons-and-reapplication-tips",
+    "topic": "business account rejection reasons and reapplication tips",
+    "url": "https://wise.com/jp/blog/business-account-rejection-reasons-and-reapplication-tips",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "banque"
+  },
+  {
+    "slug": "money-and-banks-in-colombia",
+    "topic": "money and banks in colombia",
+    "url": "https://wise.com/jp/blog/money-and-banks-in-colombia",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "banque"
+  },
+  {
+    "slug": "open-account-with-ocbc",
+    "topic": "open account with ocbc",
+    "url": "https://wise.com/jp/blog/open-account-with-ocbc",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "banque"
+  },
+  {
+    "slug": "opening-multiple-business-accounts",
+    "topic": "opening multiple business accounts",
+    "url": "https://wise.com/jp/blog/opening-multiple-business-accounts",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "banque"
+  },
+  {
+    "slug": "how-to-open-wise-account-usa",
+    "topic": "how to open wise account usa",
+    "url": "https://wise.com/jp/blog/how-to-open-wise-account-usa",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "banque"
+  },
+  {
+    "slug": "open-business-account-with-paypay-bank",
+    "topic": "open business account with paypay bank",
+    "url": "https://wise.com/jp/blog/open-business-account-with-paypay-bank",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "banque"
+  },
+  {
+    "slug": "tax-free-australia",
+    "topic": "tax free australia",
+    "url": "https://wise.com/jp/blog/tax-free-australia",
+    "competitors": [
+      "Wise Blog JP"
     ],
     "score": 10,
     "category": "default"
+  },
+  {
+    "slug": "open-account-with-anz",
+    "topic": "open account with anz",
+    "url": "https://wise.com/jp/blog/open-account-with-anz",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "banque"
+  },
+  {
+    "slug": "paypal-cannot-add-bank-accounts",
+    "topic": "paypal cannot add bank accounts",
+    "url": "https://wise.com/jp/blog/paypal-cannot-add-bank-accounts",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "banque"
+  },
+  {
+    "slug": "best-bank-digital-nomads",
+    "topic": "best bank digital nomads",
+    "url": "https://wise.com/jp/blog/best-bank-digital-nomads",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "banque"
+  },
+  {
+    "slug": "moving-abroad-ideco",
+    "topic": "moving abroad ideco",
+    "url": "https://wise.com/jp/blog/moving-abroad-ideco",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "demenagement"
+  },
+  {
+    "slug": "how-to-open-wise-account-uk",
+    "topic": "how to open wise account uk",
+    "url": "https://wise.com/jp/blog/how-to-open-wise-account-uk",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "banque"
+  },
+  {
+    "slug": "opening-a-bank-account-in-sweden",
+    "topic": "opening a bank account in sweden",
+    "url": "https://wise.com/jp/blog/opening-a-bank-account-in-sweden",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "banque"
+  },
+  {
+    "slug": "sending-money-to-japan-banks",
+    "topic": "sending money to japan banks",
+    "url": "https://wise.com/jp/blog/sending-money-to-japan-banks",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "banque"
+  },
+  {
+    "slug": "receiving-transfer-sony-bank",
+    "topic": "receiving transfer sony bank",
+    "url": "https://wise.com/jp/blog/receiving-transfer-sony-bank",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "banque"
+  },
+  {
+    "slug": "thailand-digital-nomad-visa",
+    "topic": "thailand digital nomad visa",
+    "url": "https://wise.com/jp/blog/thailand-digital-nomad-visa",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "visa"
+  },
+  {
+    "slug": "how-to-use-wise-multicurrency-account",
+    "topic": "how to use wise multicurrency account",
+    "url": "https://wise.com/jp/blog/how-to-use-wise-multicurrency-account",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "banque"
+  },
+  {
+    "slug": "multi-currency-account",
+    "topic": "multi currency account",
+    "url": "https://wise.com/jp/blog/multi-currency-account",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "banque"
+  },
+  {
+    "slug": "open-account-with-maybank",
+    "topic": "open account with maybank",
+    "url": "https://wise.com/jp/blog/open-account-with-maybank",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "banque"
+  },
+  {
+    "slug": "sole-proprietor-bank-account-tips",
+    "topic": "sole proprietor bank account tips",
+    "url": "https://wise.com/jp/blog/sole-proprietor-bank-account-tips",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "banque"
+  },
+  {
+    "slug": "business-account-shinseibank",
+    "topic": "business account shinseibank",
+    "url": "https://wise.com/jp/blog/business-account-shinseibank",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "banque"
+  },
+  {
+    "slug": "never-allow-access-to-your-account",
+    "topic": "never allow access to your account",
+    "url": "https://wise.com/jp/blog/never-allow-access-to-your-account",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "banque"
+  },
+  {
+    "slug": "business-bank-account-in-canada",
+    "topic": "business bank account in canada",
+    "url": "https://wise.com/jp/blog/business-bank-account-in-canada",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "banque"
+  },
+  {
+    "slug": "south-korea-travel-insurance",
+    "topic": "south korea travel insurance",
+    "url": "https://wise.com/jp/blog/south-korea-travel-insurance",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "assurance"
+  },
+  {
+    "slug": "open-account-with-bnp",
+    "topic": "open account with bnp",
+    "url": "https://wise.com/jp/blog/open-account-with-bnp",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "banque"
+  },
+  {
+    "slug": "open-business-account-with-mufg",
+    "topic": "open business account with mufg",
+    "url": "https://wise.com/jp/blog/open-business-account-with-mufg",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "banque"
+  },
+  {
+    "slug": "moving-abroad-nisa",
+    "topic": "moving abroad nisa",
+    "url": "https://wise.com/jp/blog/moving-abroad-nisa",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "demenagement"
+  },
+  {
+    "slug": "tax-return-in-australia",
+    "topic": "tax return in australia",
+    "url": "https://wise.com/jp/blog/tax-return-in-australia",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "default"
+  },
+  {
+    "slug": "woori-bank-currency-exchange",
+    "topic": "woori bank currency exchange",
+    "url": "https://wise.com/jp/blog/woori-bank-currency-exchange",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "banque"
+  },
+  {
+    "slug": "paypal-how-to-deposit",
+    "topic": "paypal how to deposit",
+    "url": "https://wise.com/jp/blog/paypal-how-to-deposit",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "default"
+  },
+  {
+    "slug": "study-abroad-sending-money-bank",
+    "topic": "study abroad sending money bank",
+    "url": "https://wise.com/jp/blog/study-abroad-sending-money-bank",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "banque"
+  },
+  {
+    "slug": "overseas-assets-tax",
+    "topic": "overseas assets tax",
+    "url": "https://wise.com/jp/blog/overseas-assets-tax",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "default"
+  },
+  {
+    "slug": "business-account-smbc",
+    "topic": "business account smbc",
+    "url": "https://wise.com/jp/blog/business-account-smbc",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "banque"
+  },
+  {
+    "slug": "business-account-approval-tips",
+    "topic": "business account approval tips",
+    "url": "https://wise.com/jp/blog/business-account-approval-tips",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "banque"
+  },
+  {
+    "slug": "tax-free-south-korea",
+    "topic": "tax free south korea",
+    "url": "https://wise.com/jp/blog/tax-free-south-korea",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "default"
+  },
+  {
+    "slug": "tax-free-switzerland",
+    "topic": "tax free switzerland",
+    "url": "https://wise.com/jp/blog/tax-free-switzerland",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "default"
+  },
+  {
+    "slug": "currency-deposit-best-timing",
+    "topic": "currency deposit best timing",
+    "url": "https://wise.com/jp/blog/currency-deposit-best-timing",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "default"
+  },
+  {
+    "slug": "business-bank-account-rejection",
+    "topic": "business bank account rejection",
+    "url": "https://wise.com/jp/blog/business-bank-account-rejection",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "banque"
+  },
+  {
+    "slug": "temporary-return-rental-wifi",
+    "topic": "temporary return rental wifi",
+    "url": "https://wise.com/jp/blog/temporary-return-rental-wifi",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "default"
+  },
+  {
+    "slug": "tax-free-taiwan",
+    "topic": "tax free taiwan",
+    "url": "https://wise.com/jp/blog/tax-free-taiwan",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "default"
+  },
+  {
+    "slug": "correspondent-bank",
+    "topic": "correspondent bank",
+    "url": "https://wise.com/jp/blog/correspondent-bank",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "banque"
+  },
+  {
+    "slug": "open-account-with-commbank",
+    "topic": "open account with commbank",
+    "url": "https://wise.com/jp/blog/open-account-with-commbank",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "banque"
+  },
+  {
+    "slug": "starting-business-in-japan-foreigners",
+    "topic": "starting business in japan foreigners",
+    "url": "https://wise.com/jp/blog/starting-business-in-japan-foreigners",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "default"
+  },
+  {
+    "slug": "opening-a-bank-account-in-brazil",
+    "topic": "opening a bank account in brazil",
+    "url": "https://wise.com/jp/blog/opening-a-bank-account-in-brazil",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "banque"
+  },
+  {
+    "slug": "malta-digital-nomad-visa",
+    "topic": "malta digital nomad visa",
+    "url": "https://wise.com/jp/blog/malta-digital-nomad-visa",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "visa"
+  },
+  {
+    "slug": "open-account-with-acleda-bank",
+    "topic": "open account with acleda bank",
+    "url": "https://wise.com/jp/blog/open-account-with-acleda-bank",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "banque"
+  },
+  {
+    "slug": "open-account-with-dib",
+    "topic": "open account with dib",
+    "url": "https://wise.com/jp/blog/open-account-with-dib",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "banque"
+  },
+  {
+    "slug": "study-abroad-visa-australia",
+    "topic": "study abroad visa australia",
+    "url": "https://wise.com/jp/blog/study-abroad-visa-australia",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "visa"
+  },
+  {
+    "slug": "moving-overseas-pension",
+    "topic": "moving overseas pension",
+    "url": "https://wise.com/jp/blog/moving-overseas-pension",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "demenagement"
+  },
+  {
+    "slug": "tax-free-germany",
+    "topic": "tax free germany",
+    "url": "https://wise.com/jp/blog/tax-free-germany",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "default"
+  },
+  {
+    "slug": "moving-overseas-tax",
+    "topic": "moving overseas tax",
+    "url": "https://wise.com/jp/blog/moving-overseas-tax",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "demenagement"
+  },
+  {
+    "slug": "open-account-with-dbs",
+    "topic": "open account with dbs",
+    "url": "https://wise.com/jp/blog/open-account-with-dbs",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "banque"
+  },
+  {
+    "slug": "spain-digital-nomad-visa",
+    "topic": "spain digital nomad visa",
+    "url": "https://wise.com/jp/blog/spain-digital-nomad-visa",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "visa"
+  },
+  {
+    "slug": "open-hsbc-account-how",
+    "topic": "open hsbc account how",
+    "url": "https://wise.com/jp/blog/open-hsbc-account-how",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "banque"
+  },
+  {
+    "slug": "moving-abroad-home-mortgage",
+    "topic": "moving abroad home mortgage",
+    "url": "https://wise.com/jp/blog/moving-abroad-home-mortgage",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "demenagement"
+  },
+  {
+    "slug": "what-does-swiss-bank-mean",
+    "topic": "what does swiss bank mean",
+    "url": "https://wise.com/jp/blog/what-does-swiss-bank-mean",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "banque"
+  },
+  {
+    "slug": "receiving-salary-from-overseas-tax",
+    "topic": "receiving salary from overseas tax",
+    "url": "https://wise.com/jp/blog/receiving-salary-from-overseas-tax",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "default"
+  },
+  {
+    "slug": "year-end-adjustment-foreigners-for-a-company",
+    "topic": "year end adjustment foreigners for a company",
+    "url": "https://wise.com/jp/blog/year-end-adjustment-foreigners-for-a-company",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "default"
+  },
+  {
+    "slug": "firstrade-open-an-account",
+    "topic": "firstrade open an account",
+    "url": "https://wise.com/jp/blog/firstrade-open-an-account",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "banque"
+  },
+  {
+    "slug": "taiwan-travel-insurance",
+    "topic": "taiwan travel insurance",
+    "url": "https://wise.com/jp/blog/taiwan-travel-insurance",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "assurance"
+  },
+  {
+    "slug": "new-zealand-travel-insurance",
+    "topic": "new zealand travel insurance",
+    "url": "https://wise.com/jp/blog/new-zealand-travel-insurance",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "assurance"
+  },
+  {
+    "slug": "italy-digital-nomad-visa",
+    "topic": "italy digital nomad visa",
+    "url": "https://wise.com/jp/blog/italy-digital-nomad-visa",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "visa"
+  },
+  {
+    "slug": "business-account-japanpostbank",
+    "topic": "business account japanpostbank",
+    "url": "https://wise.com/jp/blog/business-account-japanpostbank",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "banque"
+  },
+  {
+    "slug": "tax-free-spain",
+    "topic": "tax free spain",
+    "url": "https://wise.com/jp/blog/tax-free-spain",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "default"
+  },
+  {
+    "slug": "open-account-with-mufg",
+    "topic": "open account with mufg",
+    "url": "https://wise.com/jp/blog/open-account-with-mufg",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "banque"
+  },
+  {
+    "slug": "overseas-remittance-consumption-tax",
+    "topic": "overseas remittance consumption tax",
+    "url": "https://wise.com/jp/blog/overseas-remittance-consumption-tax",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "default"
+  },
+  {
+    "slug": "moving-overseas-preparation",
+    "topic": "moving overseas preparation",
+    "url": "https://wise.com/jp/blog/moving-overseas-preparation",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "demenagement"
+  },
+  {
+    "slug": "good-news-on-multicurrency-account-fees",
+    "topic": "good news on multicurrency account fees",
+    "url": "https://wise.com/jp/blog/good-news-on-multicurrency-account-fees",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "banque"
+  },
+  {
+    "slug": "open-account-with-nab",
+    "topic": "open account with nab",
+    "url": "https://wise.com/jp/blog/open-account-with-nab",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "banque"
+  },
+  {
+    "slug": "overseas-remittance-sihd-bank",
+    "topic": "overseas remittance sihd bank",
+    "url": "https://wise.com/jp/blog/overseas-remittance-sihd-bank",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "banque"
+  },
+  {
+    "slug": "online-banking-business-account-benefits",
+    "topic": "online banking business account benefits",
+    "url": "https://wise.com/jp/blog/online-banking-business-account-benefits",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "banque"
+  },
+  {
+    "slug": "notification-of-moving-abroad",
+    "topic": "notification of moving abroad",
+    "url": "https://wise.com/jp/blog/notification-of-moving-abroad",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "demenagement"
+  },
+  {
+    "slug": "tax-free-finland",
+    "topic": "tax free finland",
+    "url": "https://wise.com/jp/blog/tax-free-finland",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "default"
+  },
+  {
+    "slug": "europe-travel-insurance",
+    "topic": "europe travel insurance",
+    "url": "https://wise.com/jp/blog/europe-travel-insurance",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "assurance"
+  },
+  {
+    "slug": "business-account-jnb",
+    "topic": "business account jnb",
+    "url": "https://wise.com/jp/blog/business-account-jnb",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "banque"
+  },
+  {
+    "slug": "rsu-tax-return",
+    "topic": "rsu tax return",
+    "url": "https://wise.com/jp/blog/rsu-tax-return",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "default"
+  },
+  {
+    "slug": "business-account-resonabank",
+    "topic": "business account resonabank",
+    "url": "https://wise.com/jp/blog/business-account-resonabank",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "banque"
+  },
+  {
+    "slug": "tax-free-thailand",
+    "topic": "tax free thailand",
+    "url": "https://wise.com/jp/blog/tax-free-thailand",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "default"
+  },
+  {
+    "slug": "open-business-account-with-bank-of-yokohama",
+    "topic": "open business account with bank of yokohama",
+    "url": "https://wise.com/jp/blog/open-business-account-with-bank-of-yokohama",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "banque"
+  },
+  {
+    "slug": "tax-free-italy",
+    "topic": "tax free italy",
+    "url": "https://wise.com/jp/blog/tax-free-italy",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "default"
+  },
+  {
+    "slug": "business-account-netbk",
+    "topic": "business account netbk",
+    "url": "https://wise.com/jp/blog/business-account-netbk",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "banque"
+  },
+  {
+    "slug": "opening-a-business-account",
+    "topic": "opening a business account",
+    "url": "https://wise.com/jp/blog/opening-a-business-account",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "banque"
+  },
+  {
+    "slug": "inheritance-tax-japan",
+    "topic": "inheritance tax japan",
+    "url": "https://wise.com/jp/blog/inheritance-tax-japan",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "default"
+  },
+  {
+    "slug": "moving-abroad-child-allowance",
+    "topic": "moving abroad child allowance",
+    "url": "https://wise.com/jp/blog/moving-abroad-child-allowance",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "demenagement"
+  },
+  {
+    "slug": "currency-deposit-best-countries",
+    "topic": "currency deposit best countries",
+    "url": "https://wise.com/jp/blog/currency-deposit-best-countries",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "default"
+  },
+  {
+    "slug": "open-account-with-adcb",
+    "topic": "open account with adcb",
+    "url": "https://wise.com/jp/blog/open-account-with-adcb",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "banque"
+  },
+  {
+    "slug": "malta-golden-visa",
+    "topic": "malta golden visa",
+    "url": "https://wise.com/jp/blog/malta-golden-visa",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "visa"
+  },
+  {
+    "slug": "open-account-with-japan-post-bank",
+    "topic": "open account with japan post bank",
+    "url": "https://wise.com/jp/blog/open-account-with-japan-post-bank",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "banque"
+  },
+  {
+    "slug": "open-revolut-business-account",
+    "topic": "open revolut business account",
+    "url": "https://wise.com/jp/blog/open-revolut-business-account",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "banque"
+  },
+  {
+    "slug": "opening-bank-account-study-abroad",
+    "topic": "opening bank account study abroad",
+    "url": "https://wise.com/jp/blog/opening-bank-account-study-abroad",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "banque"
   }
 ]
