@@ -148,6 +148,71 @@ AMENITY_SLUGS = {
     "index", "home", "top", "main", "list", "search", "filter", "map",
 }
 
+# --------------------------------------------------------------- ancrage Japon
+# ⚠️ CORRIGE 2026-09-20. Le 19/09, reparer competitor_watch a fait passer ce fichier de
+# 8 a 100 entrees, et le rapport quotidien recommandait depuis chaque matin d'ecrire
+# "jp bank japanpost card guide". Mesure du 20/09 sur les 100 entrees:
+#   - 96 venaient d'UNE SEULE source, Wise Blog JP (4 de Tokyo Cheapo, 0 des 22 autres);
+#   - 87 etaient laissees passer par cinq mots de finance presents dans SUJET_EXACT:
+#     account (43), bank (22), tax (17), insurance (4), banking (1).
+# Ces mots sont legitimes -- "ouvrir un compte en banque japonais quand on est etranger"
+# est un vrai sujet expat -- mais ils existent dans TOUS les pays. Passaient donc:
+#   money-and-banks-in-colombia · tax-free-australia · open-account-with-anz
+#   open-account-with-ocbc · how-to-open-wise-account-usa · best-bank-digital-nomads
+# Ce n'est pas la famille du 19/09 (bank ⊂ BANKsy): ici le mot est bien un MOT. Le mot
+# de sujet est juste insuffisant a lui seul quand la source publie pour le monde entier.
+#
+# Le commentaire du 19/09 plus bas avait deja ecrit la correction: "la bonne correction
+# n'est pas d'y ajouter des villes une par une, c'est d'exiger un ancrage Japon quand la
+# source est un site international." C'est ce qui est fait ici.
+#
+# La liste des sources internationales n'est PAS ecrite a la main -- elle se perimerait
+# en silence, exactement comme HORS_JAPON. Elle est DEDUITE du corpus: part des URLs
+# retenues qui portent un ancrage Japon, mesuree le 2026-09-20:
+#     Remoters         1 %  |  Wise Blog JP    5 %   -> internationales
+#     Time Out Tokyo  70 %  |  Tokyo Cheapo   83 %   -> ancrees Japon
+# Le partage est franc: rien entre 5 % et 70 %, donc le seuil peut se poser n'importe ou
+# entre les deux. 30 % laisse de la marge des deux cotes. Si une source venait a basculer,
+# le classement est AFFICHE a chaque run (voir main) pour qu'il ne change jamais en silence.
+ANCRAGE_JAPON = {
+    "japan", "japon", "japonais", "japonaise", "nippon", "nihon", "jp",
+    "tokyo", "osaka", "kyoto", "fukuoka", "nagoya", "yokohama", "sapporo",
+    "kobe", "hokkaido", "okinawa", "kansai", "kanto", "shibuya", "shinjuku",
+    "yen", "jpy",
+}
+# Prefixes assumes, compares en DEBUT DE MOT seulement (jamais au milieu), pour couvrir
+# "japanese"/"japans" sans rouvrir la famille de bugs de sous-chaine.
+ANCRAGE_PREFIXE = ("japan", "japon", "tokyo")
+SEUIL_SOURCE_INTERNATIONALE = 0.30
+
+
+def a_un_ancrage_japon(url: str) -> bool:
+    """Le slug nomme-t-il le Japon ? Comparaison par MOT, jamais par sous-chaine."""
+    mots = [m for m in re.split(r"[-_]+", url_to_slug(url)) if m]
+    return any(m in ANCRAGE_JAPON or m.startswith(ANCRAGE_PREFIXE) for m in mots)
+
+
+def classer_sources(cache: dict) -> dict:
+    """Rend {source: (part_ancree, est_internationale)} d'apres le corpus lui-meme.
+
+    Une source sans aucune URL retenue est laissee NON internationale: on ne deduit
+    rien d'un denominateur vide, et la traiter en internationale reviendrait a poser
+    un filtre severe sur une source qu'on n'a simplement pas encore su lire.
+    """
+    verdicts = {}
+    for key, urls in cache.items():
+        if not key.startswith("urls_") or not isinstance(urls, list):
+            continue
+        source = key.replace("urls_", "")
+        retenues = [u for u in urls if is_relevant_url(u)]
+        if not retenues:
+            verdicts[source] = (None, False)
+            continue
+        part = sum(1 for u in retenues if a_un_ancrage_japon(u)) / len(retenues)
+        verdicts[source] = (part, part < SEUIL_SOURCE_INTERNATIONALE)
+    return verdicts
+
+
 def is_relevant_url(url: str) -> bool:
     """Filtre les URLs pertinentes pour notre niche (articles/guides uniquement)."""
     url_lower = url.lower()
@@ -294,6 +359,18 @@ def main():
     our_slugs = {url_to_slug(u) for u in our_urls if url_to_slug(u)}
     print(f"Our content: {len(our_urls)} URLs, {len(our_slugs)} unique slugs\n")
 
+    # Classement des sources, AFFICHE pour qu'il ne bascule jamais en silence.
+    verdicts = classer_sources(cache)
+    internationales = {s for s, (_, inter) in verdicts.items() if inter}
+    print("Ancrage Japon par source (part des URLs retenues qui nomment le Japon):")
+    for source, (part, inter) in sorted(verdicts.items(),
+                                        key=lambda kv: (kv[1][0] is None, kv[1][0] or 0)):
+        if part is None:
+            continue
+        marque = "INTERNATIONALE -> ancrage Japon EXIGE" if inter else "ancree Japon"
+        print(f"  {source:<24} {part*100:>5.0f}%   {marque}")
+    print()
+
     # Aggreger tous les URLs concurrents pertinents
     gap_topics: dict[str, dict] = {}  # slug -> {score, competitors, url, category}
     rejetes: list[tuple[str, str]] = []  # slugs ecartes comme non-sujets, avec la raison
@@ -306,6 +383,17 @@ def main():
             continue
 
         relevant = [u for u in urls if is_relevant_url(u)]
+        if competitor in internationales:
+            avant = len(relevant)
+            relevant = [u for u in relevant if a_un_ancrage_japon(u)]
+            ecartes = avant - len(relevant)
+            if ecartes:
+                # Ecarter n'est pas ignorer: on dit combien et pourquoi.
+                rejetes.extend([(url_to_slug(u), "source internationale, slug sans ancrage Japon")
+                                for u in urls
+                                if is_relevant_url(u) and not a_un_ancrage_japon(u)][:5])
+                print(f"{competitor}: source internationale -> {ecartes} URL(s) ecartee(s) "
+                      f"faute d'ancrage Japon")
         print(f"{competitor}: {len(relevant)} content URLs (from {len(urls)} total)")
 
         for url in relevant:

@@ -12,7 +12,7 @@ Se desactive proprement si la cle est absente.
   python scripts/ga4_daily_report.py            # rapport d'hier -> Telegram
   python scripts/ga4_daily_report.py --print     # affiche sans envoyer
 """
-import sys, io, datetime
+import sys, io, datetime, statistics
 from pathlib import Path
 import requests, urllib3
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
@@ -92,13 +92,25 @@ def main():
     # inversaient "hier" et "base 7j" -> faux "151 sessions hier (+4705%)".
     # Solution: 2 rapports SEPARES, sans ambiguite d'ordre.
     y = report(token, [yest], ["sessions", "activeUsers", "screenPageViews"])
-    p = report(token, [prior], ["sessions"])
     y_sess = total(y, 0)
     y_users = total(y, 1)
     y_views = total(y, 2)
-    p_sess = total(p, 0)
-    base = p_sess / 7 if p_sess else 0
+
+    # CORRIGE 2026-09-20. La base etait une MOYENNE sur 7 jours (p_sess / 7), donc UN
+    # seul jour aberrant la deplacait pendant une semaine entiere.
+    # Cas reel: le 17/09/2026, 416 sessions (dont 385 depuis Singapour, 394 en Direct
+    # sans referent, ~4,7 s d'engagement par session, aucune page au-dela de 6 vues:
+    # une ferme de bots en datacenter) ont porte la base a ~102 sessions/jour. Le 19/09,
+    # 53 sessions -- un samedi parfaitement ordinaire, les deux precedents faisaient 54
+    # et 57 -- ont donc ete annoncees "-48 % 📉". Une fausse alerte fabriquee de bout en
+    # bout par l'instrument, pas par le trafic.
+    # La MEDIANE ignore par construction un jour aberrant sur sept. On garde le jour
+    # aberrant VISIBLE au lieu de le taire: un pic de bots est une information.
+    p = report(token, [prior], ["sessions"], ["date"], None, 30)
+    jours = sorted(int(r["metricValues"][0]["value"]) for r in p.get("rows", []))
+    base = statistics.median(jours) if jours else 0
     delta = ((y_sess - base) / base * 100) if base else 0
+    aberrants = [v for v in jours if base and v >= 3 * base]
 
     pages = report(token, [yest], ["screenPageViews"], ["pagePath"], "screenPageViews", 5)
     countries = report(token, [yest], ["activeUsers"], ["country"], "activeUsers", 6)
@@ -116,12 +128,16 @@ def main():
     arrow = "\U0001F4C8" if delta >= 0 else "\U0001F4C9"
     L = [
         "\U0001F4CA <b>GA4 - hier</b>",
-        f"Sessions: <b>{y_sess}</b> ({'+' if delta>=0 else ''}{delta:.0f}% vs base 7j) {arrow}",
+        f"Sessions: <b>{y_sess}</b> ({'+' if delta>=0 else ''}{delta:.0f}% vs mediane 7j = {base:.0f}) {arrow}",
         f"Utilisateurs: {y_users} | Vues: {y_views}",
         "",
         "<b>Top pays</b>: " + ", ".join(f"{c} ({v})" for c, v in rows(countries)),
         "<b>Top sources</b>: " + ", ".join(f"{s} ({v})" for s, v in rows(sources, 4)),
     ]
+    if aberrants:
+        L.append(f"⚠️ <b>{len(aberrants)} jour(s) aberrant(s)</b> dans les 7 derniers "
+                 f"({', '.join(str(v) for v in aberrants)} sessions, mediane {base:.0f}) "
+                 f"-- verifier le pays et la source avant d'y lire une tendance.")
     if ai_total:
         L.append(f"\U0001F916 <b>IA (GEO)</b>: {ai_total} session(s) via " + ", ".join(f"{s}" for s, _ in ai_rows[:4]))
     L += ["", "<b>Top pages</b>:"]
