@@ -4324,11 +4324,12 @@ Pour votre couverture sante pendant la recherche et les demarches, [SafetyWing N
     title: 'Jiko Bukken: Tokyo\'s Cheapest Legal Apartments Explained (2026)',
     description: "Jiko bukken are stigmatised properties in Japan where a serious incident occurred. Legal to rent, up to 30% below market rate: how to find them in Tokyo.",
     date: '2026-06-20',
-    readingTime: '7 min',
+    updated: '2026-09-19',
+    readingTime: '9 min',
     content: `
 There is a category of apartments in Tokyo that most expats have never heard of, yet it offers some of the best value rents in central areas. They are called **jiko bukken** (事故物件), literally "incident properties." Legal, often centrally located, and up to 30% cheaper than comparable units: here is what you need to know.
 
-**Quick answer:** Jiko bukken (事故物件) are "incident properties" where a death or serious event occurred. They are fully legal to rent and priced up to 30% below market, often in central Tokyo. Landlords must disclose the incident to the first tenant who moves in afterwards. If you are not superstitious, they are one of the cheapest legal ways to live centrally, and sites like Oshimaland map them across the city.
+**Quick answer:** Jiko bukken (事故物件) are "incident properties" where a death or serious event occurred. They are fully legal to rent and priced up to 30% below market, often in central Tokyo. For residential rentals, national guidelines point to a disclosure duty lasting roughly 3 years after the event. The Oshimaland map (大島てる) plots reported incidents across Japan, but its entries are user submitted and never expire, so it is a starting point for questions rather than a verified record.
 
 ## What is a jiko bukken?
 
@@ -4337,7 +4338,9 @@ A jiko bukken is a property where a "particular incident" has occurred. In Japan
 This is not an illegal or shameful category in Japanese law. It is simply a transparency obligation imposed by regulation.
 
 **What Japanese law requires:**
-Under guidelines from the Ministry of Land, Infrastructure, Transport and Tourism (MLIT), landlords and agencies are legally required to disclose any significant incident that occurred in a property **for the first 3 years following the event.** After 3 years, the disclosure obligation expires.
+In October 2021 the Ministry of Land, Infrastructure, Transport and Tourism (MLIT) published guidelines on disclosing deaths that occurred in a property. For residential rentals, they point to a disclosure duty covering **roughly the first 3 years following the event.** Deaths considered natural, or everyday accidents such as a fall, do not in principle have to be disclosed at all.
+
+One nuance that matters: these guidelines are not a statute. They set out how the existing obligation under the Real Estate Brokerage Act is generally interpreted, and agencies follow them closely in practice, but a specific case can always be argued. If a property matters to you, get the disclosure in writing rather than relying on a rule of thumb.
 
 ## Why this is an opportunity for foreigners
 
@@ -4366,11 +4369,29 @@ Some agencies specialise exclusively in these properties. Asking a general agenc
 **Standard portals:**
 Properties occasionally appear on Suumo or Homes with the notation 心理的瑕疵あり (psychological defect), which means jiko bukken without using the term directly.
 
+## Reading the Oshimaland map, and what it does not tell you
+
+Oshimaland (大島てる) is where almost everyone ends up when they start looking into jiko bukken. It is a collaborative layer built on Google Maps, covering the whole of Japan, where reported incidents appear as small flame icons. Click one and you generally get an address, a date, and a short description of what happened, sometimes with the building name.
+
+It is genuinely useful. It is also widely misread. Four things are worth knowing before you let it decide anything for you.
+
+**1. A flame is a report, not a verified fact.** Entries are submitted by the public. The site does not certify them, and there is no official cross-check against police or municipal records. Some entries are precise, some are hearsay, and some are simply wrong.
+
+**2. Flames never expire, but the disclosure duty does.** A report posted in 2009 is still on the map in 2026. The MLIT guidelines point to roughly three years for residential rentals. An old flame therefore tells you something about a building's past, but it gives you no claim to a discount and creates no obligation for the agency to raise it.
+
+**3. The absence of a flame proves nothing.** The map contains only what somebody chose to report. A street with no flames is not a street where nothing happened, it is a street nobody has posted about. This is the most common mistake by far: reading an empty map as a clean record.
+
+**4. It points at buildings, not at units.** A flame on a 40-unit block does not tell you which apartment, which floor, or whether the unit you are viewing is the one concerned. In a four-unit building the odds are obviously different.
+
+**How to actually use it.** Treat a flame as a question to ask, never as a verdict. If you find one on a building you are considering, ask the agency directly what it refers to and request the written disclosure (告知書, kokuchisho). An agency that answers plainly is a good sign. One that turns evasive about a report you can see on a public map has told you something useful too.
+
+The reverse check is worth as much. If an agency does disclose an incident, the rent should reflect it. When the price sits at the normal market rate for the area, you are carrying the stigma without being paid for it. Our [ranking of the cheapest Tokyo wards and stations](/blog/cheapest-neighbourhoods-tokyo-ranked-by-rent) gives you the local baseline to check that against, and the [Tokyo Rent Report](/blog/tokyo-rent-report-2026) gives the median by ward and layout.
+
 ## What to check before signing
 
 A jiko bukken is not a property to avoid on principle, but it requires careful verification.
 
-**1. The exact nature of the incident.** A natural death from old age is very different from a homicide. Request the official disclosure document (kikakusho) and have it translated if necessary.
+**1. The exact nature of the incident.** A natural death from old age is very different from a homicide. Request the written disclosure document (告知書, kokuchisho) and have it translated if necessary.
 
 **2. The condition of the apartment.** Ask whether a specialist cleaning (特殊清掃) has been carried out. This is almost always done before properties are re-let, but confirm it explicitly.
 
