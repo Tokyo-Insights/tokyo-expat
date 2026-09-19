@@ -126,6 +126,71 @@ def check_data_freshness(failures, oks):
             failures.append(f"❌ Data '{label}' illisible ({fname}): {str(e)[:60]}")
 
 
+def check_locale_links(failures, oks):
+    """Aucun lien interne ne doit s'ecrire /blog/<slug> sans prefixe de locale.
+
+    POURQUOI CE CHECK EXISTE (19/09/2026)
+    -------------------------------------
+    `middleware.ts` route /blog/X vers /fr/ ou /en/ selon **Accept-Language**, et AUCUN
+    slug n'existe dans les deux locales (les slugs sont traduits). Un lien sans prefixe
+    rend donc **404 pour la moitie des visiteurs**. 455 liens dans 116 articles etaient
+    dans ce cas, et le defaut a vecu invisible: **Googlebot n'envoie pas d'Accept-Language**,
+    retombe sur la locale par defaut, et voit une page 200. Ni la GSC, ni les rapports SEO,
+    ni ce canari ne pouvaient le voir. Le SOP l'interdit desormais par ecrit; ce check est
+    la partie que la MACHINE lit.
+
+    On regarde les deux bouts: la SOURCE (blog.ts, attrape la regression avant deploiement)
+    et la forme LIVREE (le HTML servi).
+    """
+    import re
+
+    # --- 1) La source
+    blog_ts = LIB / "blog.ts"
+    try:
+        src = blog_ts.read_text(encoding="utf-8")
+    except Exception as e:
+        failures.append(f"❌ Liens locale: lib/blog.ts illisible ({str(e)[:60]})")
+        return
+
+    sans = re.findall(r"\]\((/blog/[^)#?]+)\)", src)
+    avec = re.findall(r"\]\((/(?:fr|en)/blog/[^)#?]+)\)", src)
+
+    # Controle positif: si on ne voit AUCUN lien, c'est le parseur qui est casse,
+    # pas le fichier qui est parfait. Un zero doit prouver qu'il a regarde.
+    if not avec and not sans:
+        failures.append("❌ Liens locale: 0 lien interne detecte dans blog.ts. "
+                        "Le check ne regarde plus rien (format change ?), il ne dit PAS que tout va bien.")
+        return
+
+    if sans:
+        apercu = ", ".join(sorted({s for s in sans})[:3])
+        failures.append(f"❌ Liens locale: {len(sans)} lien(s) /blog/ SANS prefixe dans blog.ts "
+                        f"-> 404 pour la moitie des visiteurs. Ex: {apercu}")
+    else:
+        oks.append(f"Liens locale OK dans blog.ts ({len(avec)} liens prefixes, 0 sans prefixe)")
+
+    # --- 2) La forme livree
+    for path in ("/fr/blog/logement-etudiant-tokyo-guide", "/en/blog/find-apartment-tokyo-foreigner"):
+        try:
+            r = requests.get(BASE + path, verify=False, timeout=TIMEOUT,
+                             headers={"User-Agent": "TokyoExpat-HealthCanary/1.0"})
+            if r.status_code != 200:
+                failures.append(f"❌ Liens locale: {path} -> HTTP {r.status_code}")
+                continue
+            nus = re.findall(r'href="(/blog/[^"]+)"', r.text)
+            prefixes = re.findall(r'href="(/(?:fr|en)/blog/[^"]+)"', r.text)
+            if not nus and not prefixes:
+                failures.append(f"❌ Liens locale: aucun lien blog trouve dans le HTML de {path} "
+                                f"(le check ne regarde plus rien)")
+            elif nus:
+                failures.append(f"❌ Liens locale: {len(nus)} lien(s) sans prefixe SERVIS sur {path}. "
+                                f"Ex: {nus[0][:60]}")
+            else:
+                oks.append(f"Liens locale OK en live sur {path} ({len(prefixes)} prefixes)")
+        except Exception as e:
+            failures.append(f"❌ Liens locale: {path} -> {type(e).__name__}: {str(e)[:60]}")
+
+
 def send_telegram(msg: str):
     try:
         requests.post(
@@ -188,6 +253,9 @@ def main():
     # 4) Fraicheur des donnees locales (Indice loyers + Prix)
     check_data_freshness(failures, oks)
 
+    # 5) Maillage interne: aucun lien /blog/ sans prefixe de locale (ajoute 19/09/2026)
+    check_locale_links(failures, oks)
+
     # Rapport
     if verbose:
         print("=== CHECKS VERTS ===")
@@ -197,7 +265,7 @@ def main():
         print("=== ECHECS ===")
         for f in failures:
             print(" ", f)
-        body = "🚨 <b>SITE HEALTH CANARY</b> — tokyo-expat.com\n\n" + "\n".join(failures)
+        body = "🚨 <b>SITE HEALTH CANARY</b> · tokyo-expat.com\n\n" + "\n".join(failures)
         body += f"\n\n({len(oks)} checks OK)"
         send_telegram(body)
         print(f"\n{len(failures)} panne(s) detectee(s) -> alerte Telegram envoyee.")
