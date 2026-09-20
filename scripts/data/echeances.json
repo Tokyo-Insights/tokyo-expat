@@ -136,6 +136,16 @@
       "fiche": "project_plan_haute_saison_2027.md",
       "actif": true,
       "fait": false
+    },
+    {
+      "id": "organique-point-decisif",
+      "date": "2026-09-22",
+      "titre": "Lire le point ORGANIQUE du lundi 21/09 (le point decisif de la serie)",
+      "quoi": "Serie organique 18-20/09: 11 / 7 / 4, le 4 est le plus bas des 35 jours mesures. Le week-end n'explique pas: mediane lun-ven = 15, sam-dim = 11. L'IA est PLATE (mediane 5 sur 35 j, 5 sur les 14 premiers comme sur les 14 derniers), donc 'IA 6 > organique 4' est une CHUTE de l'organique, pas une bascule. La GSC ne peut pas confirmer avant le 24/09 (son jour le plus frais est le 16/09). 2 choses a lire: (1) l'organique du lundi 21/09, a comparer a la mediane LUNDI = 15, pas a la mediane 7j du rapport; (2) si GA4 a revise le 20/09 apres coup -- la valeur lue le 21/09 etait 4, conservee dans telegram_log.jsonl. Si l'organique reste sous 10 un jour de SEMAINE, c'est le sujet de la semaine. Sinon, les 3 points bas etaient un creux de week-end et le dossier se ferme.",
+      "commande": "python scripts/notify.py --digest",
+      "fiche": "session_log_2026_09_21.md",
+      "actif": true,
+      "fait": false
     }
   ]
 }

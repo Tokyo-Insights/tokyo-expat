@@ -15,8 +15,8 @@
       "note": "1er canal ENTRANT. Deux ancres sur la page: une en texte, une en bouton.",
       "etat": "vivant",
       "premier_vu": "2026-09-14",
-      "dernier_vu": "2026-09-14",
-      "dernier_check": "2026-09-14",
+      "dernier_vu": "2026-09-21",
+      "dernier_check": "2026-09-21",
       "echecs_consecutifs": 0,
       "historique": []
     },
@@ -33,8 +33,8 @@
       "note": "MEME boite que cotoacademy.com: un seul domaine, un seul evenement. La page porte aussi notre tokyo-rent-map.png en hotlink, DANS un lien vers /en/data. Ne jamais renommer cet asset.",
       "etat": "vivant",
       "premier_vu": "2026-09-14",
-      "dernier_vu": "2026-09-14",
-      "dernier_check": "2026-09-14",
+      "dernier_vu": "2026-09-21",
+      "dernier_check": "2026-09-21",
       "echecs_consecutifs": 0,
       "historique": []
     },
@@ -52,7 +52,7 @@
       "etat": "illisible",
       "premier_vu": null,
       "dernier_vu": null,
-      "dernier_check": "2026-09-14",
+      "dernier_check": "2026-09-21",
       "echecs_consecutifs": 0,
       "historique": []
     },
@@ -70,7 +70,7 @@
       "etat": "PERDU",
       "premier_vu": "2026-09-04",
       "dernier_vu": "2026-09-13",
-      "dernier_check": "2026-09-14",
+      "dernier_check": "2026-09-21",
       "echecs_consecutifs": 2,
       "historique": [
         {
@@ -104,7 +104,7 @@
       "etat": "attendu",
       "premier_vu": null,
       "dernier_vu": null,
-      "dernier_check": "2026-09-14",
+      "dernier_check": "2026-09-21",
       "echecs_consecutifs": 0,
       "historique": [
         {
