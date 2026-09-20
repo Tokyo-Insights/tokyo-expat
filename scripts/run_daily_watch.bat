@@ -136,4 +136,13 @@ if "%DOW_DAILY%"=="Thursday" (
     python scripts\monday_briefing.py --thursday >> "%LOG_FILE%" 2>&1
 )
 
+:: 14. ECHEANCES DATEES. Ajoute le 20/09/2026. Le 20/09, sur sept echeances en cours,
+::      UNE SEULE existait dans le code (le post OC, via skip_until_utc). Les six autres
+::      vivaient en prose dans une fiche memoire, relue uniquement au briefing du matin:
+::      deux semaines sans dire BONJOUR TOKYO EXPAT les effacaient toutes en silence.
+::      Rappelle des que la date est ATTEINTE OU DEPASSEE (si le PC reste eteint le jour J,
+::      ca ressort au rallumage), se tait apres 3 relances sans suite, n ecrit a PERSONNE.
+echo [%TIME%] [14] Echeances datees... >> "%LOG_FILE%"
+python scripts\echeances_reminder.py >> "%LOG_FILE%" 2>&1
+
 echo [%TIME%] Daily watch complete. >> "%LOG_FILE%"

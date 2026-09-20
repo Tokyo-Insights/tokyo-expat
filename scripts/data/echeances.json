@@ -1,0 +1,141 @@
+{
+  "_comment": [
+    "SOURCE UNIQUE des echeances datees de tokyo-expat. Cree le 2026-09-20.",
+    "",
+    "POURQUOI CE FICHIER EXISTE: le 20/09/2026, sur sept echeances en cours, UNE SEULE",
+    "existait dans le code (le post OC du 25/09, via skip_until_utc). Les six autres",
+    "vivaient en prose dans une fiche memoire, relue uniquement par Claude au briefing du",
+    "matin. Autrement dit: une consigne que la machine ne lit pas n'existe pas, et deux",
+    "semaines sans dire BONJOUR TOKYO EXPAT les faisaient toutes disparaitre en silence.",
+    "Le cas le plus net etait le test Calendly, programme 'au 1er BONJOUR d'octobre':",
+    "son declencheur etait le rituel lui-meme, donc il s'annulait tout seul.",
+    "",
+    "REGLES DU FICHIER:",
+    "  - 'actif': false = l'echeance est REELLE mais quelqu'un d'autre la porte deja.",
+    "    Elle reste ecrite ici pour que le calendrier soit COMPLET et auditable, mais",
+    "    echeances_reminder ne la notifie pas: deux rappels pour une meme chose, c'est",
+    "    du bruit, et une meme consigne dans deux endroits finit par diverger.",
+    "  - 'fait': true = traitee. Le rappel ne la ressort plus JAMAIS.",
+    "  - 'commande': ce qu'il y a a lancer, mot pour mot. Si l'echeance n'est pas une",
+    "    commande, laisser vide et tout dire dans 'quoi'.",
+    "  - 'fiche': ou est le raisonnement. Le rappel ne le recopie pas, il y renvoie.",
+    "  - Une echeance qui passe SANS etre marquee faite continue d'etre rappelee. Un",
+    "    rappel qui se tait parce que la date est passee serait le pire des deux mondes.",
+    "",
+    "AJOUTER UNE ECHEANCE: une ligne ici, rien d'autre. Ne JAMAIS la laisser en prose."
+  ],
+  "echeances": [
+    {
+      "id": "backfill-confirmation",
+      "date": "2026-09-24",
+      "titre": "Confirmer que les points 15-16/09 de la GSC ne bougent pas non plus",
+      "quoi": "Le 20/09, 16 jours communs n'avaient PAS bouge, donc la chute est reelle. Mais les points 15-16/09 n'avaient pas encore ete mesures deux fois: c'etait une DEDUCTION, pas une verification. Ce releve la transforme en fait.",
+      "commande": "python scripts/gsc_daily_backfill_check.py --compare",
+      "fiche": "session_log_2026_09_20.md",
+      "actif": true,
+      "fait": false
+    },
+    {
+      "id": "post-oc-furnished",
+      "date": "2026-09-25",
+      "titre": "Post OC r/dataisbeautiful: munition furnished-by-location",
+      "quoi": "Reportee du 18/09 a la demande d'Alessandro. NE PAS regenerer le PNG, il est verifie.",
+      "commande": "",
+      "fiche": "session_log_2026_09_18.md",
+      "actif": false,
+      "porte_par": "reddit_munition_reminder.py (skip_until_utc = 2026-09-24T19:00:00Z, verifie le 20/09)",
+      "fait": false
+    },
+    {
+      "id": "bascule-relances-declined",
+      "date": "2026-09-29",
+      "titre": "Les 4 relances du 15/09 basculent en declined",
+      "quoi": "JETRO, Japan Insider Secrets, Projet Japon, Miettes de vie. AUCUN email n'est envoye: c'est un classement. Verifie le 20/09 en rejouant 15 jours avec une fausse horloge.",
+      "commande": "",
+      "fiche": "project_relances_envoyees_2026_09_15.md",
+      "actif": false,
+      "porte_par": "backlink_followup_watcher.py (automatique, notification Telegram seule)",
+      "fait": false
+    },
+    {
+      "id": "test-clics-page-dispos",
+      "date": "2026-09-30",
+      "titre": "Test des clics: la page disponibilites se debloque-t-elle ?",
+      "quoi": "La page dispos est REPORTEE. UNE seule des trois conditions suffit a la relancer: des clics a ce test, ou ~10 demandes/trimestre, ou la meme question plusieurs fois par mois. Lire la condition AVANT de conclure.",
+      "commande": "",
+      "fiche": "project_page_disponibilites_design.md",
+      "actif": true,
+      "fait": false
+    },
+    {
+      "id": "test-calendly-octobre",
+      "date": "2026-10-01",
+      "titre": "Test mensuel de reservation Calendly",
+      "quoi": "Le tier gratuit peut couper l'event = fuite de leads SILENCIEUSE. Septembre a ete saute a la demande d'Alessandro le 02/09. 3 etapes: (1) il ouvre https://calendly.com/contact-tokyo-expat/30min et fait une resa test, (2) Claude verifie la notif Gmail (FROM notifications@calendly.com, SUBJ 'New Event'), (3) il annule. Claude ne peut PAS tester seul.",
+      "commande": "",
+      "fiche": "feedback_daily_protocols.md",
+      "actif": true,
+      "fait": false
+    },
+    {
+      "id": "temoin-cheap-gaijin-house",
+      "date": "2026-10-05",
+      "titre": "Relire le temoin 'cheap gaijin house' (pos 4,6 / 704 impr / 0 clic)",
+      "quoi": "Le titre est ELIMINE comme cause: a position 4,6 avec zero clic, c'est un apercu IA qui repond au-dessus. La question n'est pas le classement, c'est comment etre CITE par cet apercu. NE PAS investir sur ce cluster avant cette lecture.",
+      "commande": "python scripts/gsc_analytics.py",
+      "fiche": "project_test_titre_gaijin_house_2026_09_09.md",
+      "actif": true,
+      "fait": false
+    },
+    {
+      "id": "lecture-fusion-1409",
+      "date": "2026-10-14",
+      "titre": "Lire la fusion du 14/09 (-2026 vers -guide), 4 semaines apres",
+      "quoi": "Au 20/09 elle n'avait que 4 jours de donnees, tous dans l'effondrement d'impressions: ILLISIBLE. C'est cette lecture qui decide de la fusion de -octobre. Si la fusion n1 n'a rien donne sur un cluster propre, la n2 est inutile et la question se ferme.",
+      "commande": "python scripts/gsc_analytics.py",
+      "fiche": "project_gisement_francais_2026_09_10.md",
+      "actif": true,
+      "fait": false
+    },
+    {
+      "id": "test-photo",
+      "date": "2026-10-16",
+      "titre": "Lire le test photo (4 pages avec photos vs 3 temoins)",
+      "quoi": "Temoins INTOUCHES: kichijoji, ikebukuro, asagaya. Aucune photo dessus avant cette date. ATTENTION: la mesure site entier melange 2 changements (photos + ~87 graphiques exposes par le sitemap), lire img_impressions PAR PAGE.",
+      "commande": "python scripts/photo_experiment.py --report",
+      "fiche": "reference_lead_capture_sources.md",
+      "actif": true,
+      "fait": false
+    },
+    {
+      "id": "baseline-jiko-bukken",
+      "date": "2026-10-20",
+      "titre": "Lire la baseline jiko bukken (fenetre 20/09 - 17/10)",
+      "quoi": "NE PAS lire avant cette date. L'article a ete ENRICHI le 19/09 plutot que double, apres le croisement page x requete qui montrait 412 impressions sur la sous-intention CARTE.",
+      "commande": "python scripts/gsc_analytics.py",
+      "fiche": "project_cannibalisation_page_query_2026_09_19.md",
+      "actif": true,
+      "fait": false
+    },
+    {
+      "id": "fenetre-etudiante-avril-2027",
+      "date": "2026-10-31",
+      "titre": "Fin de la fenetre commerciale etudiante pour avril 2027",
+      "quoi": "Pour une entree en avril, les chambres se liberent des septembre-octobre et fin janvier tout est pris. ATTENTION: c'est un fait de MARCHE, pas une intention de RECHERCHE (mesure du 20/09: zero requete sur avril/rentree/quand parmi 920). Ne pas rebatir d'article dessus sans mesurer.",
+      "commande": "",
+      "fiche": "reference_student_housing_calendar_japan.md",
+      "actif": true,
+      "fait": false
+    },
+    {
+      "id": "decision-mouvement-2-haute-saison",
+      "date": "2026-10-31",
+      "titre": "DATE LIMITE: decider le mouvement 2 du plan haute saison 2027",
+      "quoi": "Le plan est PROPOSE, PAS VALIDE: materiau de decision, pas file de travail. Il faut 2-3 mois pour se positionner avant la fenetre de decision de nov-dec. Si rien n'est lance, il n'y aura RIEN A FALSIFIER en fevrier 2027.",
+      "commande": "",
+      "fiche": "project_plan_haute_saison_2027.md",
+      "actif": true,
+      "fait": false
+    }
+  ]
+}
