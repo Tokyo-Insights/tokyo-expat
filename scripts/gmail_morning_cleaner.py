@@ -37,6 +37,14 @@ NOISE = [
     ('hello@safetywing.com', ''),                # webinaires SW (PAS info@ = contrats)
     ('noreply@medium.com', ''),
     ('info@meetup.com', ''),
+    ('follow-suggestions@mail.instagram.com', ''),  # ajoute le 20/09: 2 fois en 2 jours,
+    # "Decouvrez X, Y et d'autres comptes". Suggestions de comptes a suivre: aucun signal
+    # possible. ⚠️ Adresse ETROITE a dessein: les autres expediteurs Instagram (securite,
+    # connexion) ne sont PAS vises.
+    # ⛔ VOLONTAIREMENT PAS AJOUTE: notifications-noreply@linkedin.com. Vu le meme jour et
+    # tout aussi ennuyeux, mais c'est le canal par lequel arriverait aussi un message d'un
+    # prospect ou d'un prescripteur. newsletters-noreply@ (ci-dessus) est du publipostage,
+    # notifications-noreply@ ne l'est pas: la difference d'un mot separe le bruit du lead.
 ]
 
 def dec(s):
