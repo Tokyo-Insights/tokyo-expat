@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-17",
+  "generated_at": "2026-09-23",
   "days": 90,
   "clusters": [
     {
-      "impressions": 2857,
+      "impressions": 2824,
       "clicks": 7,
-      "position": 9.8,
+      "position": 9.6,
       "variants": 4,
       "action": "OPTIMISER",
       "winnable": true,
@@ -17,37 +17,9 @@
       "theme": "gaijin house"
     },
     {
-      "impressions": 2373,
+      "impressions": 1385,
       "clicks": 0,
-      "position": 8.9,
-      "variants": 1,
-      "action": "OPTIMISER",
-      "winnable": true,
-      "actionable": false,
-      "verdict": "apercu_ia",
-      "verdict_why": "Apercu IA au-dessus (Japan Guide +2, pas nous): c'est lui qui repond, pas le titre. 4 731 impr pour ~0 clic. Test de titre en cours, lire le resultat le 05/10/2026.",
-      "verdict_date": "2026-09-11, vu dans le navigateur",
-      "example": "cheap gaijin house in tokyo",
-      "theme": "cheap gaijin house"
-    },
-    {
-      "impressions": 1630,
-      "clicks": 3,
-      "position": 25.7,
-      "variants": 2,
-      "action": "OPTIMISER",
-      "winnable": true,
-      "actionable": false,
-      "verdict": "stock",
-      "verdict_why": "8 resultats sur 8 sont des pages de stock (Hmlet, Plaza Homes, Blueground, Anyplace, MetroResidences). 18 539 impr / 4 clics sur 90 j. Se capte avec une page qui MONTRE des biens, pas avec un guide.",
-      "verdict_date": "2026-09-11, vu dans le navigateur",
-      "example": "furnished apartment tokyo",
-      "theme": "apartment furnished"
-    },
-    {
-      "impressions": 1400,
-      "clicks": 0,
-      "position": 19.9,
+      "position": 19.5,
       "variants": 2,
       "action": "ECRIRE",
       "winnable": true,
@@ -59,9 +31,9 @@
       "theme": "apartment expat"
     },
     {
-      "impressions": 1062,
+      "impressions": 1064,
       "clicks": 0,
-      "position": 26.6,
+      "position": 27.0,
       "variants": 1,
       "action": "OPTIMISER",
       "winnable": true,
@@ -73,9 +45,23 @@
       "theme": "apartment fully furnished"
     },
     {
-      "impressions": 619,
+      "impressions": 978,
+      "clicks": 3,
+      "position": 24.0,
+      "variants": 1,
+      "action": "OPTIMISER",
+      "winnable": true,
+      "actionable": false,
+      "verdict": "stock",
+      "verdict_why": "8 resultats sur 8 sont des pages de stock (Hmlet, Plaza Homes, Blueground, Anyplace, MetroResidences). 18 539 impr / 4 clics sur 90 j. Se capte avec une page qui MONTRE des biens, pas avec un guide.",
+      "verdict_date": "2026-09-11, vu dans le navigateur",
+      "example": "furnished apartment tokyo",
+      "theme": "apartment furnished"
+    },
+    {
+      "impressions": 662,
       "clicks": 6,
-      "position": 12.4,
+      "position": 12.0,
       "variants": 2,
       "action": "OPTIMISER",
       "winnable": true,
@@ -87,9 +73,37 @@
       "theme": "bukken jiko"
     },
     {
-      "impressions": 964,
+      "impressions": 2294,
       "clicks": 0,
-      "position": 38.2,
+      "position": 7.9,
+      "variants": 1,
+      "action": "OPTIMISER",
+      "winnable": false,
+      "actionable": false,
+      "verdict": "apercu_ia",
+      "verdict_why": "Apercu IA au-dessus (Japan Guide +2, pas nous): c'est lui qui repond, pas le titre. 4 731 impr pour ~0 clic. Test de titre en cours, lire le resultat le 05/10/2026.",
+      "verdict_date": "2026-09-11, vu dans le navigateur",
+      "example": "cheap gaijin house in tokyo",
+      "theme": "cheap gaijin house"
+    },
+    {
+      "impressions": 458,
+      "clicks": 0,
+      "position": 29.5,
+      "variants": 4,
+      "action": "ECRIRE",
+      "winnable": true,
+      "actionable": false,
+      "verdict": "stock",
+      "verdict_why": "Ken Corp, Plaza Homes, YOLO HOME, Apartment Japan. 435 impr / 0 clic.",
+      "verdict_date": "2026-09-09, par la donnee",
+      "example": "expat tokyo housing",
+      "theme": "expat housing"
+    },
+    {
+      "impressions": 973,
+      "clicks": 0,
+      "position": 38.4,
       "variants": 2,
       "action": "OPTIMISER",
       "winnable": false,
@@ -115,9 +129,9 @@
       "theme": "apartment social"
     },
     {
-      "impressions": 298,
+      "impressions": 288,
       "clicks": 0,
-      "position": 22.5,
+      "position": 22.1,
       "variants": 1,
       "action": "OPTIMISER",
       "winnable": true,
@@ -129,37 +143,9 @@
       "theme": "appartement les pour tranger"
     },
     {
-      "impressions": 658,
+      "impressions": 220,
       "clicks": 0,
-      "position": 36.3,
-      "variants": 9,
-      "action": "OPTIMISER",
-      "winnable": false,
-      "actionable": false,
-      "verdict": "stock",
-      "verdict_why": "Oakhouse, Sakura House, wagaya, Borderless, YourHomeInJapan. 658 impr / 0 clic.",
-      "verdict_date": "2026-09-09, par la donnee",
-      "example": "apartments for foreigners in tokyo",
-      "theme": "apartment foreigner"
-    },
-    {
-      "impressions": 215,
-      "clicks": 0,
-      "position": 20.1,
-      "variants": 1,
-      "action": "OPTIMISER",
-      "winnable": true,
-      "actionable": true,
-      "verdict": "ouvert",
-      "verdict_why": "Cluster FRANCAIS: FrancoTokyo, articles Sakura, et nous sur 2 des 6 resultats. Le francais est le seul segment ou des humains cliquent.",
-      "verdict_date": "2026-09-09, par la donnee",
-      "example": "appartements meublés tokyo",
-      "theme": "appartement meubl"
-    },
-    {
-      "impressions": 212,
-      "clicks": 0,
-      "position": 14.1,
+      "position": 14.5,
       "variants": 1,
       "action": "ECRIRE",
       "winnable": true,
@@ -169,6 +155,20 @@
       "verdict_date": "2026-09-09, par la donnee",
       "example": "appartement social tokyo",
       "theme": "appartement social"
+    },
+    {
+      "impressions": 218,
+      "clicks": 0,
+      "position": 20.5,
+      "variants": 1,
+      "action": "OPTIMISER",
+      "winnable": true,
+      "actionable": true,
+      "verdict": "ouvert",
+      "verdict_why": "Cluster FRANCAIS: FrancoTokyo, articles Sakura, et nous sur 2 des 6 resultats. Le francais est le seul segment ou des humains cliquent.",
+      "verdict_date": "2026-09-09, par la donnee",
+      "example": "appartements meublés tokyo",
+      "theme": "appartement meubl"
     }
   ]
 }

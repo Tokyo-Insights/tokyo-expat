@@ -1,65 +1,189 @@
 [
   {
     "domain": "remoters.io",
-    "keyword": "property hunter tokyo",
-    "prev_pos": 3,
+    "keyword": "trouver appartement tokyo etranger",
+    "prev_pos": 12,
     "curr_pos": "hors top 20",
     "drop": 20,
-    "date_detected": "2026-09-16",
-    "opportunity": "Publie un article sur 'property hunter tokyo' MAINTENANT — remoters.io perd du terrain"
+    "date_detected": "2026-09-23",
+    "cluster": "ouvert",
+    "atteignable": true,
+    "opportunity": "Publie un article sur 'trouver appartement tokyo etranger', remoters.io perd du terrain"
   },
   {
-    "domain": "gaijinpot.com",
-    "keyword": "rent tokyo expat 2026",
-    "prev_pos": 5,
+    "domain": "remoters.io",
+    "keyword": "chasseur immobilier tokyo",
+    "prev_pos": 1,
     "curr_pos": "hors top 20",
     "drop": 20,
-    "date_detected": "2026-09-16",
-    "opportunity": "Publie un article sur 'rent tokyo expat 2026' MAINTENANT — gaijinpot.com perd du terrain"
+    "date_detected": "2026-09-23",
+    "cluster": "inconnu",
+    "atteignable": true,
+    "opportunity": "Publie un article sur 'chasseur immobilier tokyo', remoters.io perd du terrain"
   },
   {
-    "domain": "gaijinpot.com",
-    "keyword": "tokyo rental contract checklist",
+    "domain": "remoters.io",
+    "keyword": "logement tokyo expatrie",
     "prev_pos": 6,
     "curr_pos": "hors top 20",
     "drop": 20,
-    "date_detected": "2026-09-16",
-    "opportunity": "Publie un article sur 'tokyo rental contract checklist' MAINTENANT — gaijinpot.com perd du terrain"
+    "date_detected": "2026-09-23",
+    "cluster": "inconnu",
+    "atteignable": true,
+    "opportunity": "Publie un article sur 'logement tokyo expatrie', remoters.io perd du terrain"
   },
   {
-    "domain": "oakhouse.jp",
-    "keyword": "louer tokyo sans garant etranger",
-    "prev_pos": 10,
+    "domain": "remoters.io",
+    "keyword": "logement etudiant tokyo",
+    "prev_pos": 3,
     "curr_pos": "hors top 20",
     "drop": 20,
-    "date_detected": "2026-09-16",
-    "opportunity": "Publie un article sur 'louer tokyo sans garant etranger' MAINTENANT — oakhouse.jp perd du terrain"
+    "date_detected": "2026-09-23",
+    "cluster": "inconnu",
+    "atteignable": true,
+    "opportunity": "Publie un article sur 'logement etudiant tokyo', remoters.io perd du terrain"
   },
   {
-    "domain": "oakhouse.jp",
-    "keyword": "rent tokyo expat 2026",
-    "prev_pos": 13,
+    "domain": "sakura-house.com",
+    "keyword": "trouver appartement tokyo etranger",
+    "prev_pos": 7,
     "curr_pos": "hors top 20",
     "drop": 20,
-    "date_detected": "2026-09-16",
-    "opportunity": "Publie un article sur 'rent tokyo expat 2026' MAINTENANT — oakhouse.jp perd du terrain"
+    "date_detected": "2026-09-23",
+    "cluster": "ouvert",
+    "atteignable": true,
+    "opportunity": "Publie un article sur 'trouver appartement tokyo etranger', sakura-house.com perd du terrain"
   },
   {
-    "domain": "oakhouse.jp",
-    "keyword": "tokyo apartment hunting abroad",
+    "domain": "sakura-house.com",
+    "keyword": "share house tokyo guide",
+    "prev_pos": 8,
+    "curr_pos": "hors top 20",
+    "drop": 20,
+    "date_detected": "2026-09-23",
+    "cluster": "inconnu",
+    "atteignable": true,
+    "opportunity": "Publie un article sur 'share house tokyo guide', sakura-house.com perd du terrain"
+  },
+  {
+    "domain": "sakura-house.com",
+    "keyword": "appartement meuble tokyo expatrie",
+    "prev_pos": 3,
+    "curr_pos": "hors top 20",
+    "drop": 20,
+    "date_detected": "2026-09-23",
+    "cluster": "ouvert",
+    "atteignable": true,
+    "opportunity": "Publie un article sur 'appartement meuble tokyo expatrie', sakura-house.com perd du terrain"
+  },
+  {
+    "domain": "sakura-house.com",
+    "keyword": "logement tokyo expatrie",
+    "prev_pos": 8,
+    "curr_pos": "hors top 20",
+    "drop": 20,
+    "date_detected": "2026-09-23",
+    "cluster": "inconnu",
+    "atteignable": true,
+    "opportunity": "Publie un article sur 'logement tokyo expatrie', sakura-house.com perd du terrain"
+  },
+  {
+    "domain": "sakura-house.com",
+    "keyword": "share house tokyo guide 2026",
+    "prev_pos": 3,
+    "curr_pos": "hors top 20",
+    "drop": 20,
+    "date_detected": "2026-09-23",
+    "cluster": "inconnu",
+    "atteignable": true,
+    "opportunity": "Publie un article sur 'share house tokyo guide 2026', sakura-house.com perd du terrain"
+  },
+  {
+    "domain": "sakura-house.com",
+    "keyword": "furnished apartment tokyo no guarantor",
     "prev_pos": 4,
     "curr_pos": "hors top 20",
     "drop": 20,
-    "date_detected": "2026-09-16",
-    "opportunity": "Publie un article sur 'tokyo apartment hunting abroad' MAINTENANT — oakhouse.jp perd du terrain"
+    "date_detected": "2026-09-23",
+    "cluster": "stock",
+    "atteignable": false,
+    "opportunity": "NE PAS attaquer 'furnished apartment tokyo no guarantor': ⛔ FERME (page de stock). 8 resultats sur 8 sont des pages de stock (Hmlet, Plaza Homes, Blueground, Anyplace, MetroResidences). 18 539 impr / 4 c"
+  },
+  {
+    "domain": "tokyocheapo.com",
+    "keyword": "furnished apartment tokyo no guarantor",
+    "prev_pos": 5,
+    "curr_pos": "hors top 20",
+    "drop": 20,
+    "date_detected": "2026-09-23",
+    "cluster": "stock",
+    "atteignable": false,
+    "opportunity": "NE PAS attaquer 'furnished apartment tokyo no guarantor': ⛔ FERME (page de stock). 8 resultats sur 8 sont des pages de stock (Hmlet, Plaza Homes, Blueground, Anyplace, MetroResidences). 18 539 impr / 4 c"
+  },
+  {
+    "domain": "gaijinpot.com",
+    "keyword": "property hunter tokyo",
+    "prev_pos": 10,
+    "curr_pos": "hors top 20",
+    "drop": 20,
+    "date_detected": "2026-09-23",
+    "cluster": "inconnu",
+    "atteignable": true,
+    "opportunity": "Publie un article sur 'property hunter tokyo', gaijinpot.com perd du terrain"
   },
   {
     "domain": "oakhouse.jp",
     "keyword": "trouver appartement tokyo etranger",
-    "prev_pos": 2,
-    "curr_pos": 10,
-    "drop": 8,
-    "date_detected": "2026-09-16",
-    "opportunity": "Publie un article sur 'trouver appartement tokyo etranger' MAINTENANT — oakhouse.jp perd du terrain"
+    "prev_pos": 10,
+    "curr_pos": "hors top 20",
+    "drop": 20,
+    "date_detected": "2026-09-23",
+    "cluster": "ouvert",
+    "atteignable": true,
+    "opportunity": "Publie un article sur 'trouver appartement tokyo etranger', oakhouse.jp perd du terrain"
+  },
+  {
+    "domain": "oakhouse.jp",
+    "keyword": "share house tokyo guide",
+    "prev_pos": 9,
+    "curr_pos": "hors top 20",
+    "drop": 20,
+    "date_detected": "2026-09-23",
+    "cluster": "inconnu",
+    "atteignable": true,
+    "opportunity": "Publie un article sur 'share house tokyo guide', oakhouse.jp perd du terrain"
+  },
+  {
+    "domain": "oakhouse.jp",
+    "keyword": "appartement meuble tokyo expatrie",
+    "prev_pos": 13,
+    "curr_pos": "hors top 20",
+    "drop": 20,
+    "date_detected": "2026-09-23",
+    "cluster": "ouvert",
+    "atteignable": true,
+    "opportunity": "Publie un article sur 'appartement meuble tokyo expatrie', oakhouse.jp perd du terrain"
+  },
+  {
+    "domain": "oakhouse.jp",
+    "keyword": "student housing tokyo guide",
+    "prev_pos": 11,
+    "curr_pos": "hors top 20",
+    "drop": 20,
+    "date_detected": "2026-09-23",
+    "cluster": "inconnu",
+    "atteignable": true,
+    "opportunity": "Publie un article sur 'student housing tokyo guide', oakhouse.jp perd du terrain"
+  },
+  {
+    "domain": "sakura-house.com",
+    "keyword": "gaijin house tokyo",
+    "prev_pos": 6,
+    "curr_pos": 15,
+    "drop": 9,
+    "date_detected": "2026-09-23",
+    "cluster": "apercu_ia",
+    "atteignable": false,
+    "opportunity": "NE PAS attaquer 'gaijin house tokyo': 🤖 APERCU IA au-dessus. Apercu IA au-dessus (Japan Guide +2, pas nous): c'est lui qui repond, pas le titre. 4 731 impr pour ~0 clic. Test de tit"
   }
 ]

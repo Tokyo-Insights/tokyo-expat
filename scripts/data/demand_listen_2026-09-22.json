@@ -1,0 +1,273 @@
+{
+  "generated": "2026-09-22T22:36:01.154677+00:00",
+  "subs": [
+    "japanlife",
+    "movingtojapan",
+    "japanresidents"
+  ],
+  "posts_analysed": 126,
+  "themes": {
+    "visa / statut": 28,
+    "budget / cherte": 28,
+    "refus / discrimination": 31,
+    "meuble / court terme": 10,
+    "animaux": 6,
+    "chercher a distance": 8,
+    "etat des lieux/sortie": 10,
+    "langue / paperasse": 17,
+    "share house": 5,
+    "renouvellement": 7,
+    "garant / hosho": 2,
+    "argent-cle / reikin": 1,
+    "depot / shikikin": 1
+  },
+  "stages": {
+    "deja installe": 25,
+    "juste arrive": 2,
+    "avant l'arrivee": 10
+  },
+  "painful_pct": 38.9,
+  "top_bigrams": [
+    {
+      "phrase": "real estate",
+      "n": 23
+    },
+    {
+      "phrase": "management company",
+      "n": 22
+    },
+    {
+      "phrase": "working holiday",
+      "n": 13
+    },
+    {
+      "phrase": "part time",
+      "n": 12
+    },
+    {
+      "phrase": "right now",
+      "n": 11
+    },
+    {
+      "phrase": "language school",
+      "n": 11
+    },
+    {
+      "phrase": "estate agent",
+      "n": 10
+    },
+    {
+      "phrase": "apartment building",
+      "n": 9
+    },
+    {
+      "phrase": "long term",
+      "n": 9
+    },
+    {
+      "phrase": "permanent residency",
+      "n": 9
+    },
+    {
+      "phrase": "living japan",
+      "n": 9
+    },
+    {
+      "phrase": "city hall",
+      "n": 8
+    },
+    {
+      "phrase": "few months",
+      "n": 8
+    },
+    {
+      "phrase": "holiday visa",
+      "n": 8
+    },
+    {
+      "phrase": "recently moved",
+      "n": 7
+    },
+    {
+      "phrase": "right away",
+      "n": 7
+    },
+    {
+      "phrase": "credit card",
+      "n": 7
+    },
+    {
+      "phrase": "bank account",
+      "n": 7
+    },
+    {
+      "phrase": "first time",
+      "n": 7
+    },
+    {
+      "phrase": "second hand",
+      "n": 7
+    },
+    {
+      "phrase": "ward office",
+      "n": 7
+    },
+    {
+      "phrase": "please let",
+      "n": 7
+    },
+    {
+      "phrase": "after waiting",
+      "n": 7
+    },
+    {
+      "phrase": "student visa",
+      "n": 7
+    },
+    {
+      "phrase": "cleaning fee",
+      "n": 7
+    },
+    {
+      "phrase": "delete account",
+      "n": 7
+    },
+    {
+      "phrase": "new apartment",
+      "n": 6
+    },
+    {
+      "phrase": "anyone experience",
+      "n": 6
+    },
+    {
+      "phrase": "washing machine",
+      "n": 6
+    },
+    {
+      "phrase": "months ago",
+      "n": 6
+    },
+    {
+      "phrase": "few days",
+      "n": 6
+    },
+    {
+      "phrase": "years ago",
+      "n": 6
+    },
+    {
+      "phrase": "failed notify",
+      "n": 6
+    },
+    {
+      "phrase": "notify immigration",
+      "n": 6
+    },
+    {
+      "phrase": "i've seen",
+      "n": 6
+    },
+    {
+      "phrase": "resident tax",
+      "n": 6
+    },
+    {
+      "phrase": "through process",
+      "n": 5
+    },
+    {
+      "phrase": "residence card",
+      "n": 5
+    },
+    {
+      "phrase": "back home",
+      "n": 5
+    },
+    {
+      "phrase": "new job",
+      "n": 5
+    },
+    {
+      "phrase": "moved apartment",
+      "n": 5
+    },
+    {
+      "phrase": "long time",
+      "n": 5
+    },
+    {
+      "phrase": "best way",
+      "n": 5
+    },
+    {
+      "phrase": "i'm sure",
+      "n": 5
+    },
+    {
+      "phrase": "hoping someone",
+      "n": 5
+    },
+    {
+      "phrase": "advice appreciated",
+      "n": 5
+    },
+    {
+      "phrase": "time job",
+      "n": 5
+    },
+    {
+      "phrase": "year old",
+      "n": 5
+    },
+    {
+      "phrase": "came home",
+      "n": 5
+    },
+    {
+      "phrase": "love hear",
+      "n": 5
+    },
+    {
+      "phrase": "share house",
+      "n": 5
+    },
+    {
+      "phrase": "seeking advice",
+      "n": 5
+    },
+    {
+      "phrase": "i'm currently",
+      "n": 5
+    },
+    {
+      "phrase": "moving japan",
+      "n": 5
+    },
+    {
+      "phrase": "first weeks",
+      "n": 5
+    },
+    {
+      "phrase": "private lessons",
+      "n": 5
+    },
+    {
+      "phrase": "million yen",
+      "n": 5
+    },
+    {
+      "phrase": "apartment move",
+      "n": 5
+    },
+    {
+      "phrase": "back country",
+      "n": 5
+    },
+    {
+      "phrase": "already cleaned",
+      "n": 5
+    }
+  ],
+  "amounts_median": 55000
+}
