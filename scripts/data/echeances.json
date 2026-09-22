@@ -145,9 +145,10 @@
       "commande": "python scripts/notify.py --digest",
       "fiche": "session_log_2026_09_21.md",
       "actif": true,
-      "fait": false,
+      "fait": true,
       "notifie_le": "2026-09-22",
-      "rappels": 1
+      "rappels": 1,
+      "fait_le": "2026-09-22"
     }
   ]
 }

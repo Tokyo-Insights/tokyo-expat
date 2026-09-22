@@ -12,7 +12,7 @@ Se desactive proprement si la cle est absente.
   python scripts/ga4_daily_report.py            # rapport d'hier -> Telegram
   python scripts/ga4_daily_report.py --print     # affiche sans envoyer
 """
-import sys, io, datetime, statistics
+import sys, io, os, json, datetime, statistics
 from pathlib import Path
 import requests, urllib3
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
@@ -145,6 +145,72 @@ def main():
     base_org = statistics.median(org_jours) if org_jours else 0
     delta_org = ((y_org - base_org) / base_org * 100) if base_org else 0
     part_org = (y_org / y_sess * 100) if y_sess else 0
+
+    # ================================================================================
+    # AJOUTE 2026-09-22 -- L'ORGANIQUE D'HIER N'EST PAS UN FAIT ETABLI.
+    # ================================================================================
+    # GA4 revise l'organique A LA HAUSSE pendant ~3 jours. Mesure du 22/09/2026, en
+    # comparant ce que ce script a ENVOYE (telegram_log.jsonl) a la valeur relue plus
+    # tard pour le meme jour:
+    #     19/09 annonce 6  -> vaut 7   (+1)
+    #     20/09 annonce 4  -> vaut 7   (+3, soit +75 %)
+    #     18/09 annonce <=4 (hors top-4 des sources) -> vaut 11
+    # Ce biais a failli couter un dossier: le 21/09 a ete lu "9" et compare a un seuil
+    # de sortie de 10 ecrit pour une valeur FINALE. Le "4 du 20/09, plus bas des 35
+    # jours", qui portait tout le raisonnement, n'a simplement jamais existe.
+    # ⚠️ C'est l'INVERSE de la GSC, dont on a prouve le 20/09 qu'elle ne se remplit PAS
+    # apres coup. Les deux instruments ont des comportements opposes: ne pas transposer.
+    # Le script mesure donc sa propre revision au lieu de la supposer, et annonce
+    # desormais DEUX chiffres: hier (provisoire) et J-3 (stable).
+    FENETRE = [{"startDate": "40daysAgo", "endDate": "yesterday"}]
+    h_tot = report(token, FENETRE, ["sessions"], ["date"], None, 100)
+    h_can = report(token, FENETRE, ["sessions"], ["date", "sessionDefaultChannelGroup"], None, 1000)
+    org_hist = {r["dimensionValues"][0]["value"]: 0 for r in h_tot.get("rows", [])}
+    for r in h_can.get("rows", []):
+        if r["dimensionValues"][1]["value"] == ORGANIQUE:
+            org_hist[r["dimensionValues"][0]["value"]] = int(r["metricValues"][0]["value"])
+
+    def as_date(s):
+        return datetime.date(int(s[:4]), int(s[4:6]), int(s[6:]))
+
+    # Journal des lectures: on garde la PREMIERE valeur vue (et a quel age) pour pouvoir
+    # chiffrer la revision plus tard. Ecriture atomique: un plantage d'encodage ne doit
+    # pas laisser un fichier vide derriere lui.
+    HIST = SCRIPT_DIR / "data" / "ga4_organic_history.json"
+    try:
+        seen = json.loads(HIST.read_text(encoding="utf-8"))
+    except Exception:
+        seen = {}
+    auj = datetime.date.today()
+    for d, v in org_hist.items():
+        rec = seen.setdefault(d, {})
+        if "first" not in rec:
+            rec["first"] = v
+            rec["first_age"] = (auj - as_date(d)).days
+        rec["last"] = v
+        rec["last_at"] = today
+    HIST.parent.mkdir(exist_ok=True)
+    tmp = HIST.with_suffix(".tmp")
+    tmp.write_text(json.dumps(seen, ensure_ascii=False, indent=1, sort_keys=True), encoding="utf-8")
+    os.replace(tmp, HIST)
+
+    # Revision observee: uniquement les jours lus pour la premiere fois a J+1 et
+    # aujourd'hui assez murs (>= J+3) pour que la valeur soit stabilisee.
+    revisions = [rec["last"] - rec["first"] for d, rec in seen.items()
+                 if rec.get("first_age") == 1 and (auj - as_date(d)).days >= 3]
+    rev_med = statistics.median(revisions) if revisions else None
+
+    # Le point STABLE (J-3), compare au MEME JOUR DE SEMAINE.
+    # Une mediane 7j melange ouvrable et week-end: comparer un dimanche a une base
+    # majoritairement ouvrable exagere la chute (lecon du 21/09/2026, organique median
+    # lun-ven = 15 contre sam-dim = 10).
+    JOURS = ["lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi", "dimanche"]
+    d_stable = auj - datetime.timedelta(days=3)
+    k_stable = d_stable.strftime("%Y%m%d")
+    org_stable = org_hist.get(k_stable)
+    dow = d_stable.weekday()
+    memes_jours = [v for k, v in org_hist.items() if as_date(k).weekday() == dow and k != k_stable]
+    base_dow = statistics.median(memes_jours) if len(memes_jours) >= 3 else None
     # Loop 2 (GEO): detecter les visites venues des IA = mesure de la citation par les IA
     ai_r = report(token, [yest], ["sessions"], ["sessionSource"], "sessions", 30)
     AI_PAT = ("chatgpt", "openai", "perplexity", "gemini", "bard", "copilot", "claude",
@@ -159,8 +225,21 @@ def main():
     L = [
         "\U0001F4CA <b>GA4 - hier</b>",
         f"Sessions: <b>{y_sess}</b> ({'+' if delta>=0 else ''}{delta:.0f}% vs mediane 7j = {base:.0f}) {arrow}",
-        f"↳ dont <b>organique: {y_org}</b> ({'+' if delta_org>=0 else ''}{delta_org:.0f}% "
+        f"↳ dont <b>organique: {y_org}</b> ⏳ <i>PROVISOIRE</i> ({'+' if delta_org>=0 else ''}{delta_org:.0f}% "
         f"vs mediane 7j = {base_org:.0f}) = {part_org:.0f}% du total",
+    ]
+    if rev_med is not None:
+        L.append(f"   ⚠️ GA4 revise a la HAUSSE: <b>{'+' if rev_med>=0 else ''}{rev_med:.0f}</b> en median "
+                 f"entre J+1 et J+3 ({len(revisions)} jours mesures). <b>Ne rien conclure sur ce chiffre.</b>")
+    else:
+        L.append("   ⚠️ Valeur non stabilisee (GA4 revise a la hausse pendant ~3 j). "
+                 "Pas encore assez de jours mesures pour chiffrer la revision.")
+    if org_stable is not None and base_dow:
+        d_st = (org_stable - base_dow) / base_dow * 100
+        L.append(f"   ✅ <b>Point STABLE</b> ({JOURS[dow]} {d_stable.strftime('%d/%m')}): <b>{org_stable}</b> "
+                 f"vs mediane des {JOURS[dow]}s = {base_dow:.0f} "
+                 f"({'+' if d_st>=0 else ''}{d_st:.0f}%) -- <i>c'est CE chiffre qui se lit</i>")
+    L += [
         f"Utilisateurs: {y_users} | Vues: {y_views}",
         "",
         "<b>Top pays</b>: " + ", ".join(f"{c} ({v})" for c, v in rows(countries)),
