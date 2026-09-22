@@ -54,6 +54,13 @@ ETAT = Path(__file__).resolve().parent / "data" / "warm_threads_state.json"
 # emails        = plusieurs adresses possibles: certains ecrivent depuis un domaine
 #                 different de celui auquel on leur ecrit (cas Camilla / Coto).
 CONTACTS = [
+    {"nom": "X-House / Cross House (Takahashi Ai)",
+     "emails": ["a.takahashi@x-house.jp", "info_xh@x-house.jp"],
+     "silence_du": 7, "reponse_agit": True,
+     "note": "Operateur ~3000 meubles et share houses. A REPONDU le 22/09 en demandant le "
+             "partenariat (elle, pas nous). Details renvoyes le 22/09: dispos, conditions "
+             "etrangers, politique animaux, contact operationnel. Seuil court (7j): c'est le "
+             "seul fil entrant chaud. ⚠️ Repondre depuis l'alias contact@tokyo-expat.com."},
     {"nom": "GaijinBlog (Fernando/Damith)", "emails": ["info@gaijinblog.com"],
      "silence_du": 10, "reponse_agit": True,
      "note": "1er canal entrant. Commande move-in costs envoyee le 08/09."},
