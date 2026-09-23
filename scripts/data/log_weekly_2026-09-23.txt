@@ -891,3 +891,304 @@ _Genere par weekly_report.py (lecture seule), le MERCREDI en fin de chaine. Cons
 
 [Ecrit: C:\Users\alegu\Desktop\tokyo-expat\scripts\data\weekly_report_latest.md]
 [ 7:37:24.23] Weekly intelligence complete. 
+[2026-09-23 14:55:21.16] Starting weekly intelligence (mercredi)... 
+[14:55:21.17] [1/19] Keyword tracking... 
+Already tracked today (2026-09-23). Use --force to override.
+
+✅ Weekly report sent to Telegram
+[14:55:21.64] [1b] GSC opportunity miner... 
+BOUCLE RECHERCHE->ARTICLE | 47 CLUSTERS d'opportunites (90j)
+   2824 impr | pos  9.6 |  4 variantes | NE PAS INVESTIR — 🤖 APERCU IA au-dessus
+       theme: gaijin house  (ex: "tokyo gaijin house")
+       Apercu IA au-dessus (Japan Guide +2, pas nous): c'est lui qui repond, pas le titre. 4 731 impr pour ~0 clic. Test de titre en cours, lire le resultat le 05/10/2026.
+   1385 impr | pos 19.5 |  2 variantes | NE PAS INVESTIR — ⛔ FERME (page de stock)
+       theme: apartment expat  (ex: "expat apartments tokyo")
+       Ken Corporation, RISE Corp, Plaza Homes, HouseRep, Expedia. Un seul article sur la page 1 (blog Wise). 1 280 impr / 2 clics.
+   1064 impr | pos 27.0 |  1 variantes | NE PAS INVESTIR — ⛔ FERME (page de stock)
+       theme: apartment fully furnished  (ex: "fully furnished apartments tokyo")
+       8 resultats sur 8 sont des pages de stock (Hmlet, Plaza Homes, Blueground, Anyplace, MetroResidences). 18 539 impr / 4 clics sur 90 j. Se capte avec une page qui MONTRE des biens, pas avec un guide.
+    978 impr | pos 24.0 |  1 variantes | NE PAS INVESTIR — ⛔ FERME (page de stock)
+       theme: apartment furnished  (ex: "furnished apartment tokyo")
+       8 resultats sur 8 sont des pages de stock (Hmlet, Plaza Homes, Blueground, Anyplace, MetroResidences). 18 539 impr / 4 clics sur 90 j. Se capte avec une page qui MONTRE des biens, pas avec un guide.
+🎯  662 impr | pos 12.0 |  2 variantes | OPTIMISER (article existe)
+       theme: bukken jiko  (ex: "jiko bukken")
+   2294 impr | pos  7.9 |  1 variantes | NE PAS INVESTIR — 🤖 APERCU IA au-dessus
+       theme: cheap gaijin house  (ex: "cheap gaijin house in tokyo")
+       Apercu IA au-dessus (Japan Guide +2, pas nous): c'est lui qui repond, pas le titre. 4 731 impr pour ~0 clic. Test de titre en cours, lire le resultat le 05/10/2026.
+    458 impr | pos 29.5 |  4 variantes | NE PAS INVESTIR — ⛔ FERME (page de stock)
+       theme: expat housing  (ex: "expat tokyo housing")
+       Ken Corp, Plaza Homes, YOLO HOME, Apartment Japan. 435 impr / 0 clic.
+    973 impr | pos 38.4 |  2 variantes | NE PAS INVESTIR — ⛔ FERME (page de stock)
+       theme: apartment furnished rent  (ex: "apartments for rent in tokyo furnished")
+       8 resultats sur 8 sont des pages de stock (Hmlet, Plaza Homes, Blueground, Anyplace, MetroResidences). 18 539 impr / 4 clics sur 90 j. Se capte avec une page qui MONTRE des biens, pas avec un guide.
+🎯  364 impr | pos 19.5 |  2 variantes | OPTIMISER (article existe)
+       theme: apartment social  (ex: "social apartments japan")
+🎯  288 impr | pos 22.1 |  1 variantes | OPTIMISER (article existe)
+       theme: appartement les pour tranger  (ex: "appartements à tokyo pour les étrangers")
+🎯  220 impr | pos 14.5 |  1 variantes | ECRIRE (nouveau)
+       theme: appartement social  (ex: "appartement social tokyo")
+🎯  218 impr | pos 20.5 |  1 variantes | OPTIMISER (article existe)
+       theme: appartement meubl  (ex: "appartements meublés tokyo")
+
+[Ecrit: data/gsc_opportunities.json — 12 clusters]
+
+[Telegram envoye]
+[14:55:24.65] [2/19] Content gap analysis... 
+
+============================================================
+CONTENT GAP DETECTOR - 2026-09-23
+============================================================
+
+Our content: 188 URLs, 179 unique slugs
+
+Ancrage Japon par source (part des URLs retenues qui nomment le Japon):
+  Remoters                     1%   INTERNATIONALE -> ancrage Japon EXIGE
+  Wise Blog JP                 7%   INTERNATIONALE -> ancrage Japon EXIGE
+  Time Out Tokyo              75%   ancree Japon
+  Tokyo Cheapo                83%   ancree Japon
+
+Remoters: source internationale -> 264 URL(s) ecartee(s) faute d'ancrage Japon
+Remoters: 3 content URLs (from 5259 total)
+GaijinPot Housing: 0 content URLs (from 0 total)
+GaijinPot Blog: 0 content URLs (from 0 total)
+Sakura House: 0 content URLs (from 970 total)
+Oak House: 0 content URLs (from 5168 total)
+Tokyo Cheapo: 18 content URLs (from 6824 total)
+Japan Guide: 0 content URLs (from 0 total)
+Fontaine Relocation: 0 content URLs (from 0 total)
+Savvy Tokyo: 0 content URLs (from 0 total)
+Japan Property Central: 0 content URLs (from 0 total)
+Japan Today: 0 content URLs (from 0 total)
+City Cost: 0 content URLs (from 714 total)
+Japan Insiders: 0 content URLs (from 17 total)
+Tofugu: 0 content URLs (from 1910 total)
+Time Out Tokyo: 95 content URLs (from 9955 total)
+Gaijin House: 0 content URLs (from 0 total)
+Tokyo Share House: 0 content URLs (from 0 total)
+Crown Relocations JP: 0 content URLs (from 0 total)
+Asian Tigers Japan: 0 content URLs (from 0 total)
+Wise Blog JP: source internationale -> 291 URL(s) ecartee(s) faute d'ancrage Japon
+Wise Blog JP: 21 content URLs (from 1416 total)
+Vivre Au Japon: 0 content URLs (from 197 total)
+Japon Online: 0 content URLs (from 0 total)
+Modern Living Tokyo: 0 content URLs (from 0 total)
+Tokyo Furnished: 0 content URLs (from 0 total)
+
+Total gaps identifies: 11
+
+91 slug(s) ecarte(s) comme non-sujets (sur 102 candidats):
+  - location-logement-los-angeles
+      source internationale, slug sans ancrage Japon
+  - location-logement-genes
+      source internationale, slug sans ancrage Japon
+  - trouver-un-studio-meuble-a-proximite-de-l-universite-lumiere-2--
+      source internationale, slug sans ancrage Japon
+  - design-academy-dae-logement-a-pres-de-eindhoven
+      source internationale, slug sans ancrage Japon
+  - location-appartement-geneve
+      source internationale, slug sans ancrage Japon
+  - how-to-get-a-part-time-job-for-students-in-japan
+      slug de 11 mots: c'est un titre recopie, pas une requete
+  - the-top-10-cheapo-neighborhoods-to-live-in-tokyo-part-ii-5-throu
+      morceau pagine d'un article concurrent, pas un sujet
+  - shinjuku-ward-will-hand-out-100-000-to-residents-infected-with-c
+      slug de 13 mots: c'est un titre recopie, pas une requete
+  - japan-will-require-foreign-tourists-to-wear-masks-and-purchase-i
+      slug de 12 mots: c'est un titre recopie, pas une requete
+  - tokyo-banana-will-sell-banana-curry-doughnuts-at-its-new-flagshi
+      slug de 16 mots: c'est un titre recopie, pas une requete
+  - heres-what-youll-find-at-the-new-oimachi-tracks-complex-near-oim
+      slug de 14 mots: c'est un titre recopie, pas une requete
+  - this-neighbourhood-street-near-shinjuku-is-one-of-the-worlds-coo
+      slug de 15 mots: c'est un titre recopie, pas une requete
+  - these-new-renderings-show-what-the-area-west-of-shinjuku-station
+      slug de 19 mots: c'est un titre recopie, pas une requete
+  - tokyos-shinjuku-ward-will-prioritise-vaccinating-adults-under-40
+      slug de 10 mots: c'est un titre recopie, pas une requete
+  - stalking-victims-and-domestic-abuse-survivors-in-tokyos-shinagaw
+      slug de 17 mots: c'est un titre recopie, pas une requete
+  - wise-business-account-requirements-jp
+      auto-promotion: le slug nomme la source (wise)
+  - jp-morgan-securities-account
+      banque/service d'entreprise (securities), pas notre lecteur
+  - open-business-account-with-bank-of-yokohama
+      banque/service d'entreprise (business), pas notre lecteur
+  ... et 77 autre(s), memes motifs
+Top 100 saved to C:\Users\alegu\Desktop\tokyo-expat\scripts\data\content_gaps.json
+
+============================================================
+TOP 20 CONTENT GAPS (topics a couvrir en priorite):
+============================================================
+
+ 1. [ 20] jp bank japanpost card guide
+     Via: Wise Blog JP
+     Angle: Guide etape par etape avec screenshots + comparatif banques expat-friendly
+
+ 2. [ 10] renew visa online japan
+     Via: Tokyo Cheapo
+     Angle: Focus angle francophone specifique + scenarios concrets + erreurs a eviter
+
+ 3. [ 10] pocket translator rental japan
+     Via: Tokyo Cheapo
+     Angle: Creer contenu plus specifique, avec donnees proprietaires et angle francophone u
+
+ 4. [ 10] furusato nozei tax payments donations
+     Via: Tokyo Cheapo
+     Angle: Creer contenu plus specifique, avec donnees proprietaires et angle francophone u
+
+ 5. [ 10] instant room rental english
+     Via: Tokyo Cheapo
+     Angle: Ajouter des donnees prix reels + comparatif quartiers + notre reseau sans-garant
+
+ 6. [ 10] open account with japan post bank
+     Via: Wise Blog JP
+     Angle: Guide etape par etape avec screenshots + comparatif banques expat-friendly
+
+ 7. [ 10] opening foreign bank account from japan
+     Via: Wise Blog JP
+     Angle: Guide etape par etape avec screenshots + comparatif banques expat-friendly
+
+ 8. [ 10] currency deposit weak yen vs strong yen
+     Via: Wise Blog JP
+     Angle: Creer contenu plus specifique, avec donnees proprietaires et angle francophone u
+
+ 9. [ 10] inheritance tax japan
+     Via: Wise Blog JP
+     Angle: Creer contenu plus specifique, avec donnees proprietaires et angle francophone u
+
+10. [ 10] opening american bank account from japan
+     Via: Wise Blog JP
+     Angle: Guide etape par etape avec screenshots + comparatif banques expat-friendly
+
+11. [ 10] sending money to japan banks
+     Via: Wise Blog JP
+     Angle: Guide etape par etape avec screenshots + comparatif banques expat-friendly
+
+Telegram alert sent.
+[14:55:26.30] [3/19] Pricing monitor... 
+
+============================================================
+PRICING MONITOR - 2026-09-23
+============================================================
+
+Checking Remoters Tokyo...
+  Aucun changement
+Checking Remoters Homepage...
+  Aucun changement
+Checking Sakura House Pricing EN...
+  Aucun changement
+Checking Sakura House Homepage...
+  [WARN] https://www.sakura-house.com/en/: 520 Server Error: <none> for url: http://www.sakura-house.com/
+  [SKIP] Could not fetch
+Checking Oak House Rent Guide...
+  Aucun changement
+Checking Oak House About...
+  Aucun changement
+Checking Crown Relo Tokyo...
+  Aucun changement
+Checking Tokyo Cheapo Rent...
+  Aucun changement
+Checking Savvy Tokyo Advertise...
+  Aucun changement
+Checking GaijinPot Advertise...
+  Aucun changement
+Checking Tokyo Expat Services...
+  Aucun changement
+
+Couverture : 10/11 pages lues.
+Pages INJOIGNABLES (a corriger ou a retirer de la liste) :
+  - Sakura House Homepage : https://www.sakura-house.com/en/
+
+Aucun changement de prix detecte
+[14:56:08.57] [6/19] Outreach tracker digest... 
+
+============================================================
+OUTREACH TRACKER — 2026-09-23
+============================================================
+Total: 85 | A contacter: 2 | Emails: 16 | Réponses: 0 | Liens: 4
+
+Cibles cette semaine:
+  -> wikivoyage.org (wiki_link, DA:72) — Ajouter tokyo-expat.com dans section External Links de la page Tokyo s...
+  -> numbeo.com (data_source, DA:70) — Contribuer donnees loyers Tokyo dans Numbeo + link-back vers tokyo-exp...
+
+Email template: python scripts/outreach_tracker.py --email DOMAIN
+Mise à jour: python scripts/outreach_tracker.py --update DOMAIN emailed
+[14:56:09.00] [7/19] Vulnerability detector... 
+
+============================================================
+VULNERABILITY DETECTOR - 2026-09-23
+============================================================
+
+Comparaison : 2026-09-16 -> 2026-09-23 (7j d'ecart)
+
+VULNERABILITY: remoters.io | 'trouver appartement tokyo etranger' | #12 -> #OUT (chute 20)
+VULNERABILITY: remoters.io | 'chasseur immobilier tokyo' | #1 -> #OUT (chute 20)
+VULNERABILITY: remoters.io | 'logement tokyo expatrie' | #6 -> #OUT (chute 20)
+VULNERABILITY: remoters.io | 'logement etudiant tokyo' | #3 -> #OUT (chute 20)
+VULNERABILITY: sakura-house.com | 'trouver appartement tokyo etranger' | #7 -> #OUT (chute 20)
+VULNERABILITY: sakura-house.com | 'share house tokyo guide' | #8 -> #OUT (chute 20)
+VULNERABILITY: sakura-house.com | 'appartement meuble tokyo expatrie' | #3 -> #OUT (chute 20)
+VULNERABILITY: sakura-house.com | 'logement tokyo expatrie' | #8 -> #OUT (chute 20)
+VULNERABILITY: sakura-house.com | 'share house tokyo guide 2026' | #3 -> #OUT (chute 20)
+VULNERABILITY: sakura-house.com | 'furnished apartment tokyo no guarantor' | #4 -> #OUT (chute 20)
+VULNERABILITY: sakura-house.com | 'gaijin house tokyo' | #6 -> #15 (chute 9)
+VULNERABILITY: tokyocheapo.com | 'furnished apartment tokyo no guarantor' | #5 -> #OUT (chute 20)
+VULNERABILITY: gaijinpot.com | 'property hunter tokyo' | #10 -> #OUT (chute 20)
+VULNERABILITY: oakhouse.jp | 'trouver appartement tokyo etranger' | #10 -> #OUT (chute 20)
+VULNERABILITY: oakhouse.jp | 'share house tokyo guide' | #9 -> #OUT (chute 20)
+VULNERABILITY: oakhouse.jp | 'appartement meuble tokyo expatrie' | #13 -> #OUT (chute 20)
+VULNERABILITY: oakhouse.jp | 'student housing tokyo guide' | #11 -> #OUT (chute 20)
+
+17 vulnerabilites sauvegardees -> C:\Users\alegu\Desktop\tokyo-expat\scripts\data\vulnerabilities.json
+[DEDUP] 17 vulnerabilite(s) deja alertee(s) cette semaine — skip.
+Aucune nouvelle vulnerabilite a signaler (tout deja envoye).
+[14:56:09.42] [10/19] Seasonal calendar... 
+
+============================================================
+SEASONAL CALENDAR - 2026-09-23
+============================================================
+
+Regle : publier 7 semaines AVANT le pic
+
+2026-10-01 | Pic Q4 expats                  | Publier avant: 2026-08-13 [PUBLIER MAINTENANT - 8j restants avant pic]
+   Article : Appartement meuble Tokyo : les 5 meilleures options pour expatries arr
+
+2026-12-15 | Planification Noel/Nouvel An   | Publier avant: 2026-10-27 [dans 83j]
+   Article : Mon guide complet pour s'expatrier a Tokyo : tout ce que j'aurais voul
+
+2027-02-01 | Annonces affectations pro      | Publier avant: 2026-12-14 [dans 131j]
+   Article : Guide complet : trouver un logement a Tokyo en 2 semaines (pour une mu
+
+2027-03-15 | Pic demenagement Mars          | Publier avant: 2027-01-25 [dans 173j]
+   Article : Checklist demenagement Tokyo : J-30 a J+7 (tout ce qu'il faut preparer
+
+2027-04-01 | Debut annee fiscale            | Publier avant: 2027-02-11 [dans 190j]
+   Article : S'installer a Tokyo en avril : guide pratique semaine par semaine
+
+2027-07-15 | Pre-rentree universitaire      | Publier avant: 2027-05-27 [dans 295j]
+   Article : Logement etudiant a Tokyo pour octobre : share house vs dortoir univer
+
+2027-09-01 | Rentree universitaire          | Publier avant: 2027-07-14 [dans 343j]
+   Article : Trouver un appartement a Tokyo en septembre : ce qui change vs le prin
+
+[SKIP] Article deja publie : Appartement meuble Tokyo : les 5 meilleures options pour exp
+Aucun article saisonnier a ecrire (tout couvert ou hors fenetre). PAS d'alerte Telegram.
+[14:56:09.92] [11/19] Proactive analysis... 
+
+============================================================
+ANALYSE PROACTIVE COMPLETE - 2026-09-23
+============================================================
+
+Donnees chargees:
+  Gaps        : OK
+  Keywords    : OK
+  Pricing     : OK
+  Competitors : OK
+  Vulns       : OK
+  Saison      : OK
+
+[DEDUP] Rapport identique envoye il y a moins de 7j. Skip Telegram.
+[14:56:10.40] [12/19] Expat.com autoposter... 
+Aucun article à poster sur Expat.com.
+[14:56:10.84] [14/19] Expat.com link checker... 
+^C

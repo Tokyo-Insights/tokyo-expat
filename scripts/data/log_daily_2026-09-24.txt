@@ -1,0 +1,153 @@
+[2026-09-24  7:06:58.98] Starting daily watch... 
+[ 7:06:58.98] [0] Gmail morning cleaner... 
+C:\Users\alegu\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'api.telegram.org'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+1 email(s) de bruit mis a la corbeille:
+  🗑️ "Toshihiko Yamamoto, CCIM, MBA via | THE TOKYO REALIST — ISSUE NO. 2
+
+The Easy-Mo
+[ 7:07:39.47] [1/4] Competitor watch (silencieux)... 
+
+============================================================
+COMPETITOR WATCH - 2026-09-24
+============================================================
+
+Scanning Remoters (editorial)...
+  5280 URLs found
+  60 new URLs!
+Skip GaijinPot Housing — domaine mort (DNS) — le portail a disparu, verifier si GaijinPot a fusionne ses sections
+Skip GaijinPot Blog — 403 anti-bot
+Scanning Sakura House (listings)...
+  970 URLs found
+Scanning Oak House (listings)...
+  5157 URLs found
+Skip Fontaine Relocation — domaine mort (DNS)
+Scanning Tokyo Cheapo (editorial)...
+  6863 URLs found
+Skip Savvy Tokyo — 403 anti-bot
+Skip Japan Guide — aucun sitemap publie
+Skip Japan Property Central — aucun sitemap publie
+Skip Japan Today — 403 anti-bot
+Scanning City Cost (editorial)...
+  [namespace absent, relu sans: 716 URLs recuperees]
+  716 URLs found
+  5 new URLs!
+Scanning Japan Insiders (editorial)...
+  17 URLs found
+Scanning Tofugu (editorial)...
+  1911 URLs found
+Scanning Time Out Tokyo (editorial)...
+  10000 URLs found
+  53 new URLs!
+Skip Gaijin House — domaine EN VENTE sur HugeDomains — concurrent disparu
+Skip Tokyo Share House — aucun sitemap publie (toute URL rend la page d'accueil en 200)
+Skip Crown Relocations JP — 403 anti-bot
+Skip Asian Tigers Japan — connexion refusee (timeout 443) malgre DNS OK
+Scanning Wise Blog JP (editorial)...
+  1422 URLs found
+  6 new URLs!
+Skip Modern Living Tokyo — domaine mort (DNS)
+Skip Tokyo Furnished — domaine mort (DNS)
+Scanning Vivre Au Japon (editorial)...
+  197 URLs found
+Skip Japon Online — domaine mort (DNS)
+
+============================================================
+COUVERTURE: 10/24 sources lues | 0 en panne | 14 hors service
+
+✅ Telegram alert sent (3 items)
+
+Total indexed: 32479 competitor URLs in cache
+[ 7:08:00.04] [3/4] Seasonal calendar... 
+
+============================================================
+SEASONAL CALENDAR - 2026-09-24
+============================================================
+
+Regle : publier 7 semaines AVANT le pic
+
+2026-10-01 | Pic Q4 expats                  | Publier avant: 2026-08-13 [PUBLIER MAINTENANT - 7j restants avant pic]
+   Article : Appartement meuble Tokyo : les 5 meilleures options pour expatries arr
+
+2026-12-15 | Planification Noel/Nouvel An   | Publier avant: 2026-10-27 [dans 82j]
+   Article : Mon guide complet pour s'expatrier a Tokyo : tout ce que j'aurais voul
+
+2027-02-01 | Annonces affectations pro      | Publier avant: 2026-12-14 [dans 130j]
+   Article : Guide complet : trouver un logement a Tokyo en 2 semaines (pour une mu
+
+2027-03-15 | Pic demenagement Mars          | Publier avant: 2027-01-25 [dans 172j]
+   Article : Checklist demenagement Tokyo : J-30 a J+7 (tout ce qu'il faut preparer
+
+2027-04-01 | Debut annee fiscale            | Publier avant: 2027-02-11 [dans 189j]
+   Article : S'installer a Tokyo en avril : guide pratique semaine par semaine
+
+2027-07-15 | Pre-rentree universitaire      | Publier avant: 2027-05-27 [dans 294j]
+   Article : Logement etudiant a Tokyo pour octobre : share house vs dortoir univer
+
+2027-09-01 | Rentree universitaire          | Publier avant: 2027-07-14 [dans 342j]
+   Article : Trouver un appartement a Tokyo en septembre : ce qui change vs le prin
+
+[SKIP] Article deja publie : Appartement meuble Tokyo : les 5 meilleures options pour exp
+Aucun article saisonnier a ecrire (tout couvert ou hors fenetre). PAS d'alerte Telegram.
+[ 7:08:00.35] [4/5] Proactive analysis... 
+
+============================================================
+ANALYSE PROACTIVE COMPLETE - 2026-09-24
+============================================================
+
+Donnees chargees:
+  Gaps        : OK
+  Keywords    : OK
+  Pricing     : OK
+  Competitors : OK
+  Vulns       : OK
+  Saison      : OK
+
+[DEDUP] Rapport identique envoye il y a moins de 7j. Skip Telegram.
+[ 7:08:00.67] [5/7] Reddit intercept... 
+
+============================================================
+REDDIT INTERCEPT -- 2026-09-24
+============================================================
+
+  Searching: site:reddit.com/r/movingtojapan apartment housing rent tokyo...
+  [WARN] RequestError: RequestError('error sending request for url (https://search.yahoo.com/search;_ylt=UbNkO735Z_SIDzfUsNZJSPAu;_ylu=QXV11FkeKghTDw3P-QahgNN9L82M3dNK43U9SrBY4No5ECQ?p=site%3Areddit.com%2Fr%2Fmovingtojapan+apartment+housing+rent+tokyo&btf=w) > client error (SendRequest) > connection error > peer closed connection without sending TLS close_notify: https://docs.rs/rustls/latest/rustls/manual/_03_howto/index.html#unexpected-eof')
+  Searching: site:reddit.com/r/JapanLife housing apartment rent foreigner toky...
+  Searching: site:reddit.com/r/japanfinance apartment rent tokyo foreigner...
+  Searching: site:reddit.com/r/Tokyo find apartment housing rent expat...
+  [WARN] RequestError: RequestError('error sending request for url (https://search.yahoo.com/search;_ylt=2OI6wre28s9y8nTmMb_KKRgz;_ylu=aso7RRjgCOEswlmaCjoJknkgCIuhTvZi_OewuVPmqKPTdxs?p=site%3Areddit.com%2Fr%2FTokyo+find+apartment+housing+rent+expat&btf=w) > client error (SendRequest) > connection error > peer closed connection without sending TLS close_notify: https://docs.rs/rustls/latest/rustls/manual/_03_howto/index.html#unexpected-eof')
+  Searching: site:reddit.com/r/japan housing apartment foreigner share house...
+  Searching: site:reddit.com/r/teachinginjapan apartment housing tokyo rent...
+  [WARN] RequestError: RequestError('error sending request for url (https://search.yahoo.com/search;_ylt=EH2OOemfCFznf4nvtN3WshDH;_ylu=nGA00WviBSnXibldcKIikVk77n4Y5CKJxH7fFv4ILn5l2T4?p=site%3Areddit.com%2Fr%2Fteachinginjapan+apartment+housing+tokyo+rent&btf=w) > client error (SendRequest) > connection error > peer closed connection without sending TLS close_notify: https://docs.rs/rustls/latest/rustls/manual/_03_howto/index.html#unexpected-eof')
+  Searching: site:reddit.com/r/expats housing apartment tokyo japan...
+  Searching: site:reddit.com/r/digitalnomad apartment housing tokyo japan...
+  [WARN] RequestError: RequestError('error sending request for url (https://search.yahoo.com/search;_ylt=pdRxLokiW8uaJZHTbZIHOk6A;_ylu=bURAASNQ8pqBIUfLxIrsmsWGtD5MOptiAT9WRm8NoE-P4Dk?p=site%3Areddit.com%2Fr%2Fdigitalnomad+apartment+housing+tokyo+japan&btf=w) > client error (SendRequest) > connection error > peer closed connection without sending TLS close_notify: https://docs.rs/rustls/latest/rustls/manual/_03_howto/index.html#unexpected-eof')
+
+0 posts pertinents trouves
+
+Aucun match. Pas d'alerte envoyee.
+[ 7:09:15.64] [6/8] Brevo welcome drip... 
+Liste 3: 19 contacts
+  (0 ancien(s) contact(s) ignore(s), inscrits avant 2026-06-27)
+
+0 email(s) envoyes.
+[ 7:09:17.18] [6b] Rent index quarterly update (if new version)... 
+Version de l'indice: 2026-07-02
+Liste 3: 19 contacts, dont 1 segment 'lead-magnet-rent-index'.
+
+0 email(s) envoyes pour la version 2026-07-02.
+  (1 nouveau(x) inscrit(s) ignore(s) - deja a jour, 0 deja notifie(s)).
+[ 7:09:18.31] [7/9] Backlink follow-up watcher... 
+  [BLOQUE] Japan Dev: Deja pitche le 13/08 avec le MEME angle donnee. Ne pas re-pitcher.
+  [BLOQUE] Journal du Japon (Paul Ozouf): Media FR au mur payant. Fil mort apres 4 echanges, ne pas retenter.
+  [BLOQUE] Mobal: SIM/telecom. Fournisseur/partenaire, pas un prescripteur editorial.
+  [BLOQUE] UniLife (Shin): SOURCE DE LOGEMENT, pas un prescripteur. Silence promis: le prochain contact doit etre un etudiant reel.
+[2026-09-24] Aucune relance due.
+[ 7:09:39.55] [8/9] Backlink draft stocker... 
+Aucune cible eligible a stocker (aucune cible email_verified=True en attente).
+[ 7:09:39.95] [9/10] Social Buffer poster (if due)... 
+[FB] Post trop recent (2026-09-20). Skip.
+[LI] Post trop recent (2026-09-20). Skip.
+[ 7:09:40.32] [10/11] Site health canary... 
+Tout vert (24 checks OK). Pas d'alerte (silence = sain).
+[ 7:10:14.36] [10b] Fils partenaires chauds... 
