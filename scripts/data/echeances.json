@@ -33,7 +33,9 @@
       "commande": "python scripts/gsc_daily_backfill_check.py --compare",
       "fiche": "session_log_2026_09_20.md",
       "actif": true,
-      "fait": false
+      "fait": false,
+      "notifie_le": "2026-09-24",
+      "rappels": 1
     },
     {
       "id": "post-oc-furnished",

@@ -151,3 +151,65 @@ Aucune cible eligible a stocker (aucune cible email_verified=True en attente).
 [ 7:09:40.32] [10/11] Site health canary... 
 Tout vert (24 checks OK). Pas d'alerte (silence = sain).
 [ 7:10:14.36] [10b] Fils partenaires chauds... 
+=== FILS PARTENAIRES CHAUDS — 2026-09-24 ===
+  X-House / Cross House (Takahashi Ai) recu il y a 1j · envoye il y a 0j · nous avons ecrit en dernier
+  GaijinBlog (Fernando/Damith)       recu il y a 20j · envoye il y a 15j · nous avons ecrit en dernier
+  Expat Arrivals (Daniel)            recu il y a 33j · envoye il y a 15j · nous avons ecrit en dernier
+  InternationalSchools (Engin)       recu il y a 11j · envoye il y a 9j · nous avons ecrit en dernier
+  UniLife (Shin)                     recu il y a 18j · envoye il y a 15j · nous avons ecrit en dernier
+  Dormy (Kyoritsu)                   recu il y a 20j · envoye il y a 19j · nous avons ecrit en dernier
+  PetAir                             recu il y a -j · envoye il y a 15j · nous avons ecrit en dernier
+  Naganuma                           recu il y a -j · envoye il y a 21j · nous avons ecrit en dernier
+  SNG                                recu il y a -j · envoye il y a 21j · nous avons ecrit en dernier
+  Coto / studyinjapan (Camilla)      recu il y a 20j · envoye il y a 20j · nous avons ecrit en dernier
+
+Alerte envoyee.
+[ 7:10:44.63] [11/12] Reddit munition reminder (if due)... 
+C:\Users\alegu\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.reddit.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+Semaine sautee jusqu'au 2026-09-24T19:00:00Z (Semaine du 18/09 sautee a la demande d'Alessandro le 18/09/2026. La munition furnished-by-location N'A PAS ete postee: elle reste 'ready' et sera re-proposee le vendredi 25/09.). Relances suspendues, detection toujours active.
+Rien a faire: semaine sautee.
+[ 7:10:45.50] [11b] Reddit comment harvester... 
+0 nouveau(x) commentaire(s) capture(s). Total log: 134.
+[ 7:11:03.71] [11c] Subscriber feedback harvester... 
+0 nouvelle(s) reponse(s) recoltee(s). Total: 0. -> Claude en tire des sujets d'articles.
+[ 7:11:05.55] [11d] Reddit cadence reminder (if Wed/Sat)... 
+[ 7:11:05.83] [12/13] GA4 daily report... 
+📊 GA4 - hier
+Sessions: 30 (-54% vs mediane 7j = 65) 📉
+↳ dont organique: 4 ⏳ <i>PROVISOIRE</i> (-71% vs mediane 7j = 14) = 13% du total
+   ⚠️ GA4 revise a la HAUSSE: +3 en median entre J+1 et J+3 (3 jours mesures). Ne rien conclure sur ce chiffre.
+   ✅ Point STABLE (lundi 21/09): 14 vs mediane des lundis = 15 (-7%) -- <i>c'est CE chiffre qui se lit</i>
+Utilisateurs: 28 | Vues: 32
+
+Top pays: United States (10), Singapore (7), Japan (4), Belgium (1), China (1), France (1)
+Top sources: Direct (14), Cross-network (10), Organic Search (4), Unassigned (3)
+⚠️ 1 jour(s) aberrant(s) dans les 7 derniers (416 sessions, mediane 65) -- verifier le pays et la source avant d'y lire une tendance.
+
+Top pages:
+  /en/blog/furnished-apartment-tokyo-no- (3)
+  /en/blog/japan-sim-card-foreigners-202 (3)
+  /en/blog/jiko-bukken-cheap-apartments- (3)
+  /en/blog/gaijin-house-tokyo-guide (2)
+  /en/blog/how-to-find-job-japan-foreign (2)
+
+[Telegram envoye]
+[ 7:11:13.78] [12b] Backlink monitor (if due)... 
+Dernier controle il y a 3 j (< 7). Skip.
+[ 7:11:14.37] [7/7] Thursday briefing... 
+<b>JEUDI CHECK</b> -- 24 Sep 2026
+
+🟢 <b>Buffer queue</b> : 65 posts FB, 65 posts LI restants
+Aucune action HARO/Reddit en attente.
+[ 7:11:15.61] [14] Echeances datees... 
+📅 ECHEANCES TOKYO-EXPAT — 2026-09-24
+
+⏰ AUJOURD'HUI — Confirmer que les points 15-16/09 de la GSC ne bougent pas non plus
+   Le 20/09, 16 jours communs n'avaient PAS bouge, donc la chute est reelle. Mais les points 15-16/09 n'avaient pas encore ete mesures deux fois: c'etait une DEDUCTION, pas une verification. Ce releve la transforme en fait.
+   python scripts/gsc_daily_backfill_check.py --compare
+   Fiche: session_log_2026_09_20.md
+
+Traitee ? python scripts/echeances_reminder.py --fait backfill-confirmation
+
+[Telegram envoye, 1 echeance(s) rappelee(s)]
+[ 7:11:16.93] Daily watch complete. 
