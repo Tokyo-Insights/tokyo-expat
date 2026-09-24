@@ -83,6 +83,24 @@ REGLES = [
      "Gagnable, faible valeur. A ne pas confondre avec une demande generique.",
      "2026-09-09, par la donnee"),
 
+    # ⚠️ Motif a UN SEUL mot: il capture tout ce qui contient 'guarantor'. Il est donc
+    # place APRES les regles a deux mots, sinon il ecrase leurs observations plus
+    # precises. Cas reel du 24/09: place en tete, il faisait passer
+    # 'furnished apartment tokyo no guarantor' de STOCK (8/8 pages de stock, vu le
+    # 11/09) a apercu_ia, sur la foi d'une SERP d'une AUTRE requete.
+    (("guarantor",), APERCU_IA,
+     "Apercu IA DEVELOPPE au-dessus (cite wagaya Japan, Fontana Tokyo, SUMII, Dash Living, "
+     "Aonissin -- pas nous), qui donne deja les chiffres (frais initial 30 a 100 % d'un mois "
+     "de loyer) et propose de poursuivre la conversation. PLUS 5 annonces payantes (Hmlet, "
+     "E-Housing, Blueground, Sumyca, Sakura House) au-dessus et au-dessous. L'organique "
+     "restant est tenu par des portails (wagaya x3, Best-Estate, YOLO HOME). "
+     "912 impr / 0 clic / pos 21,1 sur 'no guarantor apartments tokyo'. "
+     "⛔ Meme profil que 'gaijin house', en pire: la position n'y produira pas de clic, et "
+     "le peu qui reste est achete par des annonceurs. Ne PAS y investir en SEO. "
+     "⚠️ Piege de mesure: une SERP PERSONNALISEE y montrait tokyo-expat en page 1; "
+     "depersonnalisee (pws=0), nous n'apparaissons NULLE PART. Toujours verifier en prive.",
+     "2026-09-24, vu dans le navigateur (avec et sans personnalisation)"),
+
     (("bukken",), OUVERT,
      "Page 1 entierement composee d'ARTICLES (Tokyo Cheapo, Uchi, Savvy Tokyo, Nippon "
      "Tradings, Tokyo Portfolio), zero page de stock. Notre meilleur terrain: "
@@ -188,6 +206,9 @@ def sans_clic(impressions, clics, position, seuil_impr=150, seuil_pos=12):
 if __name__ == "__main__":
     # Calibrage: des cas dont on connait la reponse, DONT des cas qui doivent rendre INCONNU.
     cas = [
+        ("no guarantor apartments tokyo", APERCU_IA),
+        ("furnished apartment tokyo no guarantor", STOCK),
+        ("guarantor japan rental foreigner", APERCU_IA),
         ("tokyo gaijin house", APERCU_IA),
         ("cheap gaijin house in tokyo", APERCU_IA),
         ("gaijin houses", APERCU_IA),
