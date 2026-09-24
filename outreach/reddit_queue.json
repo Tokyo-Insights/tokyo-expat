@@ -4,11 +4,11 @@
     "last_posted_utc": "2026-09-10T22:44:37Z",
     "awaiting_id": "furnished-by-location",
     "awaiting_reminded_utc": "2026-09-17T21:59:27Z",
-    "last_reminded_date": "2026-09-17",
+    "last_reminded_date": "2026-09-24",
     "low_stock_alerted_utc": "2026-09-04T22:13:31Z",
-    "stale_alerted_utc": null,
-    "skip_until_utc": "2026-09-24T19:00:00Z",
-    "skip_reason": "Semaine du 18/09 sautee a la demande d'Alessandro le 18/09/2026. La munition furnished-by-location N'A PAS ete postee: elle reste 'ready' et sera re-proposee le vendredi 25/09."
+    "stale_alerted_utc": "2026-09-24T22:09:46Z",
+    "skip_until_utc": null,
+    "skip_reason": null
   },
   "munitions": [
     {
