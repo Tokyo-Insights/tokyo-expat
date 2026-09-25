@@ -1,25 +1,30 @@
 {
-  "date": "2026-09-25",
-  "a_traiter": [],
+  "date": "2026-09-26",
+  "a_traiter": [
+    [
+      "X-House / Cross House (Takahashi Ai)",
+      0
+    ]
+  ],
   "silencieux": [
     [
       "GaijinBlog (Fernando/Damith)",
-      16,
+      17,
       10
     ],
     [
       "Expat Arrivals (Daniel)",
-      16,
+      17,
       10
     ],
     [
       "PetAir",
-      16,
+      17,
       14
     ],
     [
       "Coto / studyinjapan (Camilla)",
-      21,
+      22,
       21
     ]
   ]
