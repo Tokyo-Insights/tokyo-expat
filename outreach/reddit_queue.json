@@ -7,8 +7,8 @@
     "last_reminded_date": "2026-09-24",
     "low_stock_alerted_utc": "2026-09-04T22:13:31Z",
     "stale_alerted_utc": "2026-09-24T22:09:46Z",
-    "skip_until_utc": null,
-    "skip_reason": null
+    "skip_until_utc": "2026-12-14T22:00:00Z",
+    "skip_reason": "PAUSE du projet jusqu'au 15/12/2026 (decision d'Alessandro 25/09). Munition furnished-by-location reste ready."
   },
   "munitions": [
     {

@@ -25,11 +25,48 @@ reste complet, donc `notify.py --digest` et `weekly_report.py` voient tout.
 import datetime as _dt
 import json as _json
 import os as _os
+import sys as _sys
 from pathlib import Path as _Path
 
 import requests as _rq
 
 _TG_LOG = _Path(__file__).parent / "data" / "telegram_log.jsonl"
+_PAUSE = _Path(__file__).parent / "data" / "pause_mode.json"
+
+
+def pause_active():
+    """Date de fin (str) si la pause est en cours, sinon None. Pour les scripts qui
+    doivent SUSPENDRE leur etat, pas seulement se taire (echeances_reminder)."""
+    try:
+        cfg = _json.loads(_PAUSE.read_text(encoding="utf-8"))
+        return cfg["until"] if _dt.date.today() < _dt.date.fromisoformat(cfg["until"]) else None
+    except Exception:
+        return None
+
+
+def _pause_bloque(msg):
+    """MODE PAUSE (25/09/2026): Alessandro fait une pause jusqu'a la date `until`.
+
+    Pendant la pause, seuls passent les messages qui exigent une action humaine:
+    un script de `allow` (site casse) ou un message contenant un motif de
+    `allow_if_contains` (un partenaire a repondu). Tout le reste est JOURNALISE
+    mais pas envoye, comme en mode silencieux: rien n'est perdu, le journal reste
+    complet pour la reprise. Les leads du formulaire ne passent PAS par ici (ils
+    partent du serveur Vercel), ils sonnent donc toujours.
+    Fichier absent, illisible ou date depassee -> aucun effet.
+    """
+    try:
+        cfg = _json.loads(_PAUSE.read_text(encoding="utf-8"))
+        if _dt.date.today() >= _dt.date.fromisoformat(cfg["until"]):
+            return False
+        script = _Path(_sys.argv[0]).name if _sys.argv and _sys.argv[0] else ""
+        if script in cfg.get("allow", []):
+            return False
+        if any(m in msg for m in cfg.get("allow_if_contains", [])):
+            return False
+        return True
+    except Exception:
+        return False
 
 
 class SilencedResponse:
@@ -70,21 +107,24 @@ def installer():
     def _logged_post(url, *args, **kwargs):
         is_tg = "api.telegram.org" in str(url) and "sendMessage" in str(url)
         silent = _os.environ.get("TE_TELEGRAM_SILENT", "") == "1"
+        paused = False
         try:
             if is_tg:
                 payload = kwargs.get("json") or {}
                 msg = payload.get("text", "")
+                if not silent and msg and _pause_bloque(msg):
+                    paused = True
                 if msg:
                     _TG_LOG.parent.mkdir(exist_ok=True)
                     with open(_TG_LOG, "a", encoding="utf-8") as _f:
                         _f.write(_json.dumps({
                             "at": _dt.datetime.now().isoformat(timespec="seconds"),
-                            "source": "silenced" if silent else "auto",
+                            "source": "silenced" if silent else ("paused" if paused else "auto"),
                             "msg": msg,
                         }, ensure_ascii=False) + "\n")
         except Exception:
             pass
-        if is_tg and silent:
+        if is_tg and (silent or paused):
             return SilencedResponse()
         return _orig_post(url, *args, **kwargs)
 

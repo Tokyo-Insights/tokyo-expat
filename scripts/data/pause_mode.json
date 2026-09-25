@@ -1,0 +1,12 @@
+{
+  "_comment": "MODE PAUSE lu par telegram_shim.py. Tant que today < until, seules passent les alertes des scripts `allow` et celles qui contiennent un motif de `allow_if_contains`. Tout le reste est journalise (source=paused) mais pas envoye. Pour reprendre plus tot: supprimer ce fichier ou avancer `until`.",
+  "until": "2026-12-15",
+  "decide_le": "2026-09-25",
+  "raison": "Pause d'Alessandro apres 3 mois sans client payant; tous les canaux mesures, aucun ne produit de demande (bilan du 24/09).",
+  "allow": [
+    "site_health_canary.py"
+  ],
+  "allow_if_contains": [
+    "Ils ont repondu"
+  ]
+}

@@ -148,6 +148,20 @@ def main():
     data = charge()
     aujourdhui = dt.date.today()
 
+    # MODE PAUSE (25/09/2026). Se taire ne suffit pas ici: chaque rappel bloque par
+    # telegram_shim compterait comme une relance, et les echeances passeraient EN SOMMEIL
+    # pendant la pause sans qu'Alessandro ait rien decide. On suspend donc tout, etat
+    # compris; elles ressortent normalement a la fin de la pause. --audit reste possible.
+    try:
+        from telegram_shim import pause_active
+        fin = pause_active()
+    except Exception:
+        fin = None
+    if fin and len(sys.argv) == 1:      # les commandes manuelles (--audit, --fait...) restent possibles
+        print(f"[PAUSE] jusqu'au {fin}: aucun rappel, aucun etat modifie. "
+              f"(--audit pour voir le calendrier)")
+        return
+
     # --fait / --abandon / --reveiller: changer l'etat d'UNE echeance.
     ETATS = {
         "--fait": ("fait", "marquee FAITE", True),

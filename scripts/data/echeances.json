@@ -151,6 +151,16 @@
       "notifie_le": "2026-09-22",
       "rappels": 1,
       "fait_le": "2026-09-22"
+    },
+    {
+      "id": "fin-de-pause",
+      "date": "2026-12-15",
+      "titre": "FIN DE LA PAUSE tokyo-expat: faire le point avant la haute saison",
+      "quoi": "Pause decidee le 25/09. A la reprise: (1) lire les mesures restees en attente (page dispos, cheap gaijin house, fusion -2026, test photo, jiko bukken), (2) decider ce qu'on fait de la haute saison janv-mars (le mouvement 2 n'a pas ete decide avant le 31/10, c'est la consequence assumee de la pause), (3) articles titres 2026 a rafraichir avant janvier, (4) supprimer scripts/data/pause_mode.json s'il ne s'est pas eteint seul.",
+      "commande": "",
+      "fiche": "project_pause_2026_09_25.md",
+      "actif": true,
+      "fait": false
     }
   ]
 }
