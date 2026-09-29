@@ -1,0 +1,273 @@
+{
+  "generated": "2026-09-29T22:33:45.388873+00:00",
+  "subs": [
+    "japanlife",
+    "movingtojapan",
+    "japanresidents"
+  ],
+  "posts_analysed": 86,
+  "themes": {
+    "budget / cherte": 13,
+    "visa / statut": 21,
+    "langue / paperasse": 10,
+    "etat des lieux/sortie": 7,
+    "renouvellement": 3,
+    "refus / discrimination": 10,
+    "meuble / court terme": 7,
+    "animaux": 2,
+    "chercher a distance": 8,
+    "garant / hosho": 2,
+    "share house": 6,
+    "depot / shikikin": 5,
+    "argent-cle / reikin": 1
+  },
+  "stages": {
+    "deja installe": 24,
+    "avant l'arrivee": 8,
+    "juste arrive": 1
+  },
+  "painful_pct": 39.5,
+  "top_bigrams": [
+    {
+      "phrase": "bank account",
+      "n": 12
+    },
+    {
+      "phrase": "language school",
+      "n": 12
+    },
+    {
+      "phrase": "yen month",
+      "n": 10
+    },
+    {
+      "phrase": "working holiday",
+      "n": 9
+    },
+    {
+      "phrase": "management company",
+      "n": 9
+    },
+    {
+      "phrase": "long term",
+      "n": 9
+    },
+    {
+      "phrase": "moved tokyo",
+      "n": 9
+    },
+    {
+      "phrase": "real estate",
+      "n": 9
+    },
+    {
+      "phrase": "month yen",
+      "n": 9
+    },
+    {
+      "phrase": "part time",
+      "n": 8
+    },
+    {
+      "phrase": "student visa",
+      "n": 8
+    },
+    {
+      "phrase": "back home",
+      "n": 7
+    },
+    {
+      "phrase": "right now",
+      "n": 7
+    },
+    {
+      "phrase": "washing machine",
+      "n": 7
+    },
+    {
+      "phrase": "english speaking",
+      "n": 7
+    },
+    {
+      "phrase": "moved japan",
+      "n": 6
+    },
+    {
+      "phrase": "recently moved",
+      "n": 6
+    },
+    {
+      "phrase": "residence card",
+      "n": 6
+    },
+    {
+      "phrase": "anyone experience",
+      "n": 6
+    },
+    {
+      "phrase": "right away",
+      "n": 6
+    },
+    {
+      "phrase": "best way",
+      "n": 6
+    },
+    {
+      "phrase": "i'm sure",
+      "n": 6
+    },
+    {
+      "phrase": "estate agent",
+      "n": 6
+    },
+    {
+      "phrase": "japanese language",
+      "n": 6
+    },
+    {
+      "phrase": "holiday visa",
+      "n": 6
+    },
+    {
+      "phrase": "time job",
+      "n": 5
+    },
+    {
+      "phrase": "work visa",
+      "n": 5
+    },
+    {
+      "phrase": "first time",
+      "n": 5
+    },
+    {
+      "phrase": "few weeks",
+      "n": 5
+    },
+    {
+      "phrase": "apartment building",
+      "n": 5
+    },
+    {
+      "phrase": "living japan",
+      "n": 5
+    },
+    {
+      "phrase": "share house",
+      "n": 5
+    },
+    {
+      "phrase": "health insurance",
+      "n": 5
+    },
+    {
+      "phrase": "moving japan",
+      "n": 5
+    },
+    {
+      "phrase": "japanese bank",
+      "n": 5
+    },
+    {
+      "phrase": "registering address",
+      "n": 5
+    },
+    {
+      "phrase": "first weeks",
+      "n": 5
+    },
+    {
+      "phrase": "i've gotten",
+      "n": 4
+    },
+    {
+      "phrase": "rakuten hikari",
+      "n": 4
+    },
+    {
+      "phrase": "buy car",
+      "n": 4
+    },
+    {
+      "phrase": "years old",
+      "n": 4
+    },
+    {
+      "phrase": "city hall",
+      "n": 4
+    },
+    {
+      "phrase": "anyone similar",
+      "n": 4
+    },
+    {
+      "phrase": "new apartment",
+      "n": 4
+    },
+    {
+      "phrase": "freestyle libre",
+      "n": 4
+    },
+    {
+      "phrase": "short term",
+      "n": 4
+    },
+    {
+      "phrase": "property management",
+      "n": 4
+    },
+    {
+      "phrase": "after moving",
+      "n": 4
+    },
+    {
+      "phrase": "something similar",
+      "n": 4
+    },
+    {
+      "phrase": "long time",
+      "n": 4
+    },
+    {
+      "phrase": "credit card",
+      "n": 4
+    },
+    {
+      "phrase": "japan i'm",
+      "n": 4
+    },
+    {
+      "phrase": "car lease",
+      "n": 4
+    },
+    {
+      "phrase": "live tokyo",
+      "n": 4
+    },
+    {
+      "phrase": "job hunting",
+      "n": 4
+    },
+    {
+      "phrase": "thank advance",
+      "n": 4
+    },
+    {
+      "phrase": "once week",
+      "n": 4
+    },
+    {
+      "phrase": "year old",
+      "n": 4
+    },
+    {
+      "phrase": "next year",
+      "n": 4
+    },
+    {
+      "phrase": "signed contract",
+      "n": 4
+    }
+  ],
+  "amounts_median": 200000
+}

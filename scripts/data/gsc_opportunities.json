@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-23",
+  "generated_at": "2026-09-30",
   "days": 90,
   "clusters": [
     {
-      "impressions": 2824,
-      "clicks": 7,
-      "position": 9.6,
+      "impressions": 2737,
+      "clicks": 6,
+      "position": 9.1,
       "variants": 4,
       "action": "OPTIMISER",
       "winnable": true,
@@ -17,9 +17,23 @@
       "theme": "gaijin house"
     },
     {
-      "impressions": 1385,
+      "impressions": 1242,
+      "clicks": 2,
+      "position": 25.9,
+      "variants": 3,
+      "action": "OPTIMISER",
+      "winnable": true,
+      "actionable": false,
+      "verdict": "stock",
+      "verdict_why": "8 resultats sur 8 sont des pages de stock (Hmlet, Plaza Homes, Blueground, Anyplace, MetroResidences). 18 539 impr / 4 clics sur 90 j. Se capte avec une page qui MONTRE des biens, pas avec un guide.",
+      "verdict_date": "2026-09-11, vu dans le navigateur",
+      "example": "furnished apartment tokyo",
+      "theme": "apartment furnished"
+    },
+    {
+      "impressions": 1182,
       "clicks": 0,
-      "position": 19.5,
+      "position": 19.4,
       "variants": 2,
       "action": "ECRIRE",
       "winnable": true,
@@ -31,9 +45,9 @@
       "theme": "apartment expat"
     },
     {
-      "impressions": 1064,
+      "impressions": 919,
       "clicks": 0,
-      "position": 27.0,
+      "position": 28.3,
       "variants": 1,
       "action": "OPTIMISER",
       "winnable": true,
@@ -45,23 +59,9 @@
       "theme": "apartment fully furnished"
     },
     {
-      "impressions": 978,
-      "clicks": 3,
-      "position": 24.0,
-      "variants": 1,
-      "action": "OPTIMISER",
-      "winnable": true,
-      "actionable": false,
-      "verdict": "stock",
-      "verdict_why": "8 resultats sur 8 sont des pages de stock (Hmlet, Plaza Homes, Blueground, Anyplace, MetroResidences). 18 539 impr / 4 clics sur 90 j. Se capte avec une page qui MONTRE des biens, pas avec un guide.",
-      "verdict_date": "2026-09-11, vu dans le navigateur",
-      "example": "furnished apartment tokyo",
-      "theme": "apartment furnished"
-    },
-    {
-      "impressions": 662,
+      "impressions": 644,
       "clicks": 6,
-      "position": 12.0,
+      "position": 11.5,
       "variants": 2,
       "action": "OPTIMISER",
       "winnable": true,
@@ -73,9 +73,37 @@
       "theme": "bukken jiko"
     },
     {
-      "impressions": 2294,
+      "impressions": 1371,
       "clicks": 0,
-      "position": 7.9,
+      "position": 36.5,
+      "variants": 4,
+      "action": "OPTIMISER",
+      "winnable": false,
+      "actionable": false,
+      "verdict": "stock",
+      "verdict_why": "8 resultats sur 8 sont des pages de stock (Hmlet, Plaza Homes, Blueground, Anyplace, MetroResidences). 18 539 impr / 4 clics sur 90 j. Se capte avec une page qui MONTRE des biens, pas avec un guide.",
+      "verdict_date": "2026-09-11, vu dans le navigateur",
+      "example": "apartments for rent in tokyo furnished",
+      "theme": "apartment furnished rent"
+    },
+    {
+      "impressions": 416,
+      "clicks": 2,
+      "position": 8.8,
+      "variants": 2,
+      "action": "ECRIRE",
+      "winnable": true,
+      "actionable": true,
+      "verdict": "ouvert",
+      "verdict_why": "Page 1 entierement composee d'ARTICLES (Tokyo Cheapo, Uchi, Savvy Tokyo, Nippon Tradings, Tokyo Portfolio), zero page de stock. Notre meilleur terrain: /en/blog/jiko-bukken-cheap-apartments-tokyo est deja la page n1 du site en clics.",
+      "verdict_date": "2026-09-09, par la donnee",
+      "example": "jikobukken map",
+      "theme": "jikobukken map"
+    },
+    {
+      "impressions": 2075,
+      "clicks": 0,
+      "position": 6.8,
       "variants": 1,
       "action": "OPTIMISER",
       "winnable": false,
@@ -87,9 +115,9 @@
       "theme": "cheap gaijin house"
     },
     {
-      "impressions": 458,
+      "impressions": 397,
       "clicks": 0,
-      "position": 29.5,
+      "position": 28.1,
       "variants": 4,
       "action": "ECRIRE",
       "winnable": true,
@@ -101,37 +129,9 @@
       "theme": "expat housing"
     },
     {
-      "impressions": 973,
+      "impressions": 267,
       "clicks": 0,
-      "position": 38.4,
-      "variants": 2,
-      "action": "OPTIMISER",
-      "winnable": false,
-      "actionable": false,
-      "verdict": "stock",
-      "verdict_why": "8 resultats sur 8 sont des pages de stock (Hmlet, Plaza Homes, Blueground, Anyplace, MetroResidences). 18 539 impr / 4 clics sur 90 j. Se capte avec une page qui MONTRE des biens, pas avec un guide.",
-      "verdict_date": "2026-09-11, vu dans le navigateur",
-      "example": "apartments for rent in tokyo furnished",
-      "theme": "apartment furnished rent"
-    },
-    {
-      "impressions": 364,
-      "clicks": 2,
-      "position": 19.5,
-      "variants": 2,
-      "action": "OPTIMISER",
-      "winnable": true,
-      "actionable": true,
-      "verdict": "marque_concurrent",
-      "verdict_why": "Page 1 ouverte (Kanpai, Medium, GaijinPot, Quora) MAIS c'est la marque d'un concurrent (Social Apartment) qui est cherchee: le visiteur veut CE produit. Gagnable, faible valeur. A ne pas confondre avec une demande generique.",
-      "verdict_date": "2026-09-09, par la donnee",
-      "example": "social apartments japan",
-      "theme": "apartment social"
-    },
-    {
-      "impressions": 288,
-      "clicks": 0,
-      "position": 22.1,
+      "position": 21.1,
       "variants": 1,
       "action": "OPTIMISER",
       "winnable": true,
@@ -143,9 +143,23 @@
       "theme": "appartement les pour tranger"
     },
     {
-      "impressions": 220,
+      "impressions": 261,
+      "clicks": 2,
+      "position": 19.9,
+      "variants": 2,
+      "action": "OPTIMISER",
+      "winnable": true,
+      "actionable": true,
+      "verdict": "marque_concurrent",
+      "verdict_why": "Page 1 ouverte (Kanpai, Medium, GaijinPot, Quora) MAIS c'est la marque d'un concurrent (Social Apartment) qui est cherchee: le visiteur veut CE produit. Gagnable, faible valeur. A ne pas confondre avec une demande generique.",
+      "verdict_date": "2026-09-09, par la donnee",
+      "example": "social apartments japan",
+      "theme": "apartment social"
+    },
+    {
+      "impressions": 224,
       "clicks": 0,
-      "position": 14.5,
+      "position": 14.7,
       "variants": 1,
       "action": "ECRIRE",
       "winnable": true,
@@ -155,20 +169,6 @@
       "verdict_date": "2026-09-09, par la donnee",
       "example": "appartement social tokyo",
       "theme": "appartement social"
-    },
-    {
-      "impressions": 218,
-      "clicks": 0,
-      "position": 20.5,
-      "variants": 1,
-      "action": "OPTIMISER",
-      "winnable": true,
-      "actionable": true,
-      "verdict": "ouvert",
-      "verdict_why": "Cluster FRANCAIS: FrancoTokyo, articles Sakura, et nous sur 2 des 6 resultats. Le francais est le seul segment ou des humains cliquent.",
-      "verdict_date": "2026-09-09, par la donnee",
-      "example": "appartements meublés tokyo",
-      "theme": "appartement meubl"
     }
   ]
 }

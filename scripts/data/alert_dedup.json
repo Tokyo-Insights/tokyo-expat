@@ -18,7 +18,7 @@
   "vuln:sakura-house.com:bail tokyo checklist": "2026-07-13",
   "vuln:sakura-house.com:find apartment tokyo foreigner": "2026-07-13",
   "vuln:sakura-house.com:tokyo expat housing": "2026-07-13",
-  "vuln:sakura-house.com:gaijin house tokyo": "2026-09-23",
+  "vuln:sakura-house.com:gaijin house tokyo": "2026-09-30",
   "vuln:tokyocheapo.com:find apartment tokyo foreigner": "2026-08-24",
   "vuln:tokyocheapo.com:moving to tokyo guide 2026": "2026-08-24",
   "vuln:tokyocheapo.com:open bank account japan foreigner": "2026-07-13",
@@ -49,7 +49,7 @@
   "vuln:gaijinpot.com:find apartment tokyo foreigner": "2026-09-09",
   "proactive:('louer tokyo sans garant etranger', 1),('logement tokyo expatrie', 1)|pet cost cat tokyo|sakura-house.com:logement tokyo expatrie": "2026-07-27",
   "seasonal:appartement_meuble_tokyo_:_les_5_meilleures_options_pour_exp": {
-    "date": "2026-09-29",
+    "date": "2026-09-30",
     "dismissed": true
   },
   "proactive:('trouver appartement tokyo etranger', 1),('appartement meuble tokyo expatrie', 1)|pet cost cat tokyo|sakura-house.com:logement tokyo expatrie": "2026-08-03",
@@ -83,5 +83,13 @@
   "proactive:('tokyo gaijin house', 2),('gaijin house tokyo', 2)|jp bank japanpost card guide|remoters.io:property hunter tokyo": "2026-09-20",
   "proactive:('jiko bukken tokyo', 2),('jiko bukken japan', 5)|jp bank japanpost card guide|remoters.io:property hunter tokyo": "2026-09-23",
   "vuln:remoters.io:chasseur immobilier tokyo": "2026-09-23",
-  "proactive:('cheap gaijin house in tokyo', 1),('hébergement étudiant tokyo', 1)|jp bank japanpost card guide|remoters.io:trouver appartement tokyo etranger": "2026-09-23"
+  "proactive:('cheap gaijin house in tokyo', 1),('hébergement étudiant tokyo', 1)|jp bank japanpost card guide|remoters.io:trouver appartement tokyo etranger": "2026-09-23",
+  "vuln:gaijinpot.com:jiko bukken": "2026-09-30",
+  "vuln:oakhouse.jp:student accommodation tokyo": "2026-09-30",
+  "vuln:gaijinpot.com:no guarantor apartments tokyo": "2026-09-30",
+  "vuln:oakhouse.jp:tokyo furnished": "2026-09-30",
+  "vuln:oakhouse.jp:prix location appartement tokyo": "2026-09-30",
+  "vuln:remoters.io:logement étudiant tokyo": "2026-09-30",
+  "vuln:tokyocheapo.com:jiko bukken map google maps": "2026-09-30",
+  "proactive:('cheap gaijin house in tokyo', 1),('expat apartments tokyo', 1)|jp bank japanpost card guide|sakura-house.com:gaijin house tokyo": "2026-09-30"
 }
