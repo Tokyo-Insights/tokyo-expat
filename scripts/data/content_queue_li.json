@@ -1,8 +1,8 @@
 {
   "generated_at": "2026-06-25",
   "total": 80,
-  "posted_count": 16,
-  "remaining": 64,
+  "posted_count": 17,
+  "remaining": 63,
   "queue": [
     {
       "slug": "trouver-appartement-tokyo-etranger",
@@ -137,8 +137,8 @@
       "locale": "fr",
       "title": "Carte de résidence au Japon (Zairyu Card) : tout ce qu'il faut savoir",
       "text": "Carte de résidence au Japon (Zairyu Card) : tout ce qu'il faut savoir\n\nComment obtenir votre carte de résidence japonaise, ce qu'elle vous permet de faire, et les démarches obligatoires dans les 14 jours suivant votre arrivée.\n\nhttps://www.tokyo-expat.com/fr/blog/carte-residence-japon-zairyu-card",
-      "posted": false,
-      "posted_date": null
+      "posted": true,
+      "posted_date": "2026-10-02"
     },
     {
       "slug": "famille-expatriee-tokyo-ecoles-internationales",
