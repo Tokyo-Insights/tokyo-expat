@@ -147,3 +147,51 @@ Aucune cible eligible a stocker (aucune cible email_verified=True en attente).
 [ 7:14:56.66] [10/11] Site health canary... 
 Tout vert (24 checks OK). Pas d'alerte (silence = sain).
 [ 7:15:08.67] [10b] Fils partenaires chauds... 
+=== FILS PARTENAIRES CHAUDS — 2026-10-06 ===
+  X-House / Cross House (Takahashi Ai) recu il y a 10j · envoye il y a 10j · EUX ont ecrit en dernier
+  GaijinBlog (Fernando/Damith)       recu il y a 32j · envoye il y a 27j · nous avons ecrit en dernier
+  Expat Arrivals (Daniel)            recu il y a 45j · envoye il y a 27j · nous avons ecrit en dernier
+  InternationalSchools (Engin)       recu il y a 23j · envoye il y a 21j · nous avons ecrit en dernier
+  UniLife (Shin)                     recu il y a 30j · envoye il y a 27j · nous avons ecrit en dernier
+  Dormy (Kyoritsu)                   recu il y a 32j · envoye il y a 31j · nous avons ecrit en dernier
+  PetAir                             recu il y a -j · envoye il y a 27j · nous avons ecrit en dernier
+  Naganuma                           recu il y a -j · envoye il y a 33j · nous avons ecrit en dernier
+  SNG                                recu il y a -j · envoye il y a 33j · nous avons ecrit en dernier
+  Coto / studyinjapan (Camilla)      recu il y a 32j · envoye il y a 32j · nous avons ecrit en dernier
+
+Alerte envoyee.
+[ 7:17:43.97] [11/12] Reddit munition reminder (if due)... 
+C:\Users\alegu\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.reddit.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+Semaine sautee jusqu'au 2026-12-14T22:00:00Z (PAUSE du projet jusqu'au 15/12/2026 (decision d'Alessandro 25/09). Munition furnished-by-location reste ready.). Relances suspendues, detection toujours active.
+Rien a faire: semaine sautee.
+[ 7:17:46.55] [11b] Reddit comment harvester... 
+0 nouveau(x) commentaire(s) capture(s). Total log: 134.
+[ 7:18:09.76] [11c] Subscriber feedback harvester... 
+0 nouvelle(s) reponse(s) recoltee(s). Total: 0. -> Claude en tire des sujets d'articles.
+[ 7:18:12.29] [11d] Reddit cadence reminder (if Wed/Sat)... 
+[ 7:18:13.05] [12/13] GA4 daily report... 
+📊 GA4 - hier
+Sessions: 66 (+14% vs mediane 7j = 58) 📈
+↳ dont organique: 12 ⏳ <i>PROVISOIRE</i> (-20% vs mediane 7j = 15) = 18% du total
+   ⚠️ GA4 revise a la HAUSSE: +8 en median entre J+1 et J+3 (15 jours mesures). Ne rien conclure sur ce chiffre.
+   ✅ Point STABLE (samedi 03/10): 12 vs mediane des samedis = 10 (+20%) -- <i>c'est CE chiffre qui se lit</i>
+Utilisateurs: 60 | Vues: 65
+
+Top pays: Singapore (31), United States (10), Japan (7), China (4), France (3), Canada (1)
+Top sources: Direct (40), Unassigned (14), Cross-network (12), Organic Search (12)
+🤖 IA (GEO): 1 session(s) via chatgpt.com
+
+Top pages:
+  /en/blog/japan-sim-card-foreigners-202 (6)
+  /en/data (4)
+  /en/blog/cheapest-neighbourhoods-tokyo (3)
+  /en/blog/japan-health-insurance-expat- (3)
+  /en/blog/japanese-apartment-layouts-ex (3)
+
+[Telegram envoye]
+[ 7:18:27.69] [12b] Backlink monitor (if due)... 
+Dernier controle il y a 1 j (< 7). Skip.
+[ 7:18:29.58] [14] Echeances datees... 
+[PAUSE] jusqu'au 2026-12-15: aucun rappel, aucun etat modifie. (--audit pour voir le calendrier)
+[ 7:18:30.28] Daily watch complete. 
