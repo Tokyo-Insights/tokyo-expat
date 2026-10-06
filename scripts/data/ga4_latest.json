@@ -1,68 +1,70 @@
 {
-  "generated_at": "2026-09-30",
-  "period": "2026-09-23 to 2026-09-30",
+  "generated_at": "2026-10-07",
+  "period": "2026-09-30 to 2026-10-07",
   "this_week": {
-    "sessions": 298,
-    "users": 271,
-    "pageviews": 319,
-    "bounce_rate": 0.7953020134228188
+    "sessions": 569,
+    "users": 537,
+    "pageviews": 608,
+    "bounce_rate": 0.875219683655536
   },
   "prev_week": {
-    "sessions": 764,
-    "users": 743,
-    "pageviews": 814,
-    "bounce_rate": 0.7853403141361257
+    "sessions": 284,
+    "users": 257,
+    "pageviews": 307,
+    "bounce_rate": 0.7429577464788732
   },
   "changes": {
-    "sessions": "-61%",
-    "users": "-64%",
-    "pageviews": "-61%"
+    "sessions": "+100%",
+    "users": "+109%",
+    "pageviews": "+98%"
   },
   "top_pages": [
     [
       "/en/blog/japan-sim-card-foreigners-2026",
-      "23"
+      "40"
     ],
     [
-      "/en",
-      "16"
+      "/en/blog/japanese-language-schools-tokyo-guide",
+      "19"
     ],
     [
       "/en/data",
-      "16"
+      "18"
     ],
     [
-      "/en/blog/share-house-tokyo-guide-2026",
-      "11"
+      "/en/blog/tokyo-expat-cost-of-living-2026",
+      "14"
     ],
     [
-      "/en/blog/residence-card-japan-zairyu-card-guide",
-      "10"
+      "/en/blog/tokyo-rent-report-2026",
+      "14"
     ]
   ],
   "top_sources": [
     [
       "Direct",
-      "164"
+      "410"
     ],
     [
       "Organic Search",
-      "89"
+      "103"
     ],
     [
       "Cross-network",
-      "16"
+      "24"
     ]
   ],
   "form_submits_week": 2,
   "events": {
-    "page_view": 319,
-    "session_start": 294,
-    "first_visit": 264,
-    "user_engagement": 92,
-    "scroll": 21,
-    "form_start": 2,
+    "page_view": 608,
+    "session_start": 567,
+    "first_visit": 533,
+    "user_engagement": 147,
+    "scroll": 32,
+    "click": 2,
     "generate_lead": 2,
+    "file_download": 1,
+    "form_start": 1,
     "select_consultation": 1
   }
 }

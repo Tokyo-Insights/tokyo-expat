@@ -1,35 +1,35 @@
 {
-  "last_run": "2026-09-30",
+  "last_run": "2026-10-07",
   "opportunities": [
     {
-      "keyword": "find apartment tokyo foreigner",
+      "keyword": "tokyo apartment foreigner documents",
       "competitor": "tokyocheapo.com",
       "competitor_url": "https://tokyocheapo.com/lifestyle/rent-an-apartment-in-tokyo/",
       "competitor_title": "How to Find and Rent an Apartment in Tokyo as a Foreigner",
       "rank": 2,
-      "format": "answer_box",
-      "action": "Intro article: reponse directe 50 mots. 'Finding an apartment in Tokyo as a foreigner is possible in 3 steps...'",
-      "format_guide": "Ajouter en intro de l'article une reponse directe de 40-60 mots apres un H2 qui repete le keyword exact. Google extrait les premiers paragraphes apres un header."
-    },
-    {
-      "keyword": "gaijin house tokyo guide",
-      "competitor": "oakhouse.jp",
-      "competitor_url": "https://www.oakhouse.jp/eng/sharehouse",
-      "competitor_title": "What is a share house?",
-      "rank": 3,
-      "format": "answer_box",
-      "action": "H2 'What is a gaijin house?' + definition 50 mots + differences vs share house",
-      "format_guide": "Ajouter en intro de l'article une reponse directe de 40-60 mots apres un H2 qui repete le keyword exact. Google extrait les premiers paragraphes apres un header."
+      "format": "list",
+      "action": "Liste documents avec pastilles: requis toujours / requis parfois / utile",
+      "format_guide": "Reformater la section cle comme liste numerotee ou a puces sous un H2 qui commence par 'How to', 'Best' ou un nombre. Google prefere les listes de 5-8 items."
     },
     {
       "keyword": "trouver appartement tokyo etranger",
-      "competitor": "sakura-house.com",
-      "competitor_url": "https://www.sakura-house.com/news/15-recommended-tokyo-apartments-2021",
-      "competitor_title": "15 Recommended Foreigner-friendly Tokyo Apartments for Rent 2021 - News - SAKURA HOUSE® for your tri",
-      "rank": 1,
+      "competitor": "oakhouse.jp",
+      "competitor_url": "https://www.oakhouse.jp/fra/area/tokyo/apartment",
+      "competitor_title": "Appartements à louer à Tokyo | Oakhouse",
+      "rank": 3,
       "format": "answer_box",
       "action": "Version FR: intro directe 'Trouver un appartement a Tokyo en tant qu'etranger est possible en...'",
       "format_guide": "Ajouter en intro de l'article une reponse directe de 40-60 mots apres un H2 qui repete le keyword exact. Google extrait les premiers paragraphes apres un header."
+    },
+    {
+      "keyword": "short term apartment tokyo",
+      "competitor": "gaijinpot.com",
+      "competitor_url": "https://apartments.gaijinpot.com/en/rent/view/1240453?order=index_ranking-desc&page=1&index=2",
+      "competitor_title": "1K Short-Term Apartment For Rent in Nishishinjuku, Shinjuku-ku...",
+      "rank": 3,
+      "format": "table",
+      "action": "Tableau: type / duree min / prix / garant / plateformes. Couvrir 1 semaine a 6 mois",
+      "format_guide": "Ajouter un tableau HTML avec headers clairs. Google extrait les tableaux pour les requetes comparatives et de prix."
     }
   ]
 }

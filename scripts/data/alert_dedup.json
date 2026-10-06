@@ -91,5 +91,22 @@
   "vuln:oakhouse.jp:prix location appartement tokyo": "2026-09-30",
   "vuln:remoters.io:logement étudiant tokyo": "2026-09-30",
   "vuln:tokyocheapo.com:jiko bukken map google maps": "2026-09-30",
-  "proactive:('cheap gaijin house in tokyo', 1),('expat apartments tokyo', 1)|jp bank japanpost card guide|sakura-house.com:gaijin house tokyo": "2026-09-30"
+  "proactive:('cheap gaijin house in tokyo', 1),('expat apartments tokyo', 1)|jp bank japanpost card guide|sakura-house.com:gaijin house tokyo": "2026-09-30",
+  "proactive:('jiko bukken tokyo', 2),('jiko bukken map google maps', 4)|jp bank japanpost card guide|sakura-house.com:gaijin house tokyo": "2026-10-07",
+  "vuln:sakura-house.com:tokyo gaijin house": "2026-10-07",
+  "vuln:sakura-house.com:furnished apartments tokyo": "2026-10-07",
+  "vuln:sakura-house.com:appartement social tokyo": "2026-10-07",
+  "vuln:sakura-house.com:dortoir pour les étudiants internationaux tokyo": "2026-10-07",
+  "vuln:sakura-house.com:logement étudiant tokyo": "2026-10-07",
+  "vuln:oakhouse.jp:appartements à tokyo pour les étrangers": "2026-10-07",
+  "vuln:oakhouse.jp:appartements meublés tokyo": "2026-10-07",
+  "vuln:oakhouse.jp:dortoir pour les étudiants internationaux tokyo": "2026-10-07",
+  "vuln:oakhouse.jp:logement étudiant tokyo": "2026-10-07",
+  "vuln:remoters.io:hébergement étudiant tokyo": "2026-10-07",
+  "vuln:sakura-house.com:tokyo furnished": "2026-10-07",
+  "vuln:sakura-house.com:sharehouse tokyo pour les étudiants internationaux": "2026-10-07",
+  "vuln:sakura-house.com:appartements à tokyo pour les étrangers": "2026-10-07",
+  "vuln:oakhouse.jp:appartement social tokyo": "2026-10-07",
+  "vuln:tokyocheapo.com:jiko bukken japan": "2026-10-07",
+  "proactive:('expat apartments tokyo', 1),('jiko bukken tokyo', 2)|jp bank japanpost card guide|sakura-house.com:tokyo gaijin house": "2026-10-07"
 }

@@ -1,90 +1,167 @@
 [
   {
     "domain": "sakura-house.com",
-    "keyword": "gaijin house tokyo",
-    "prev_pos": 15,
+    "keyword": "tokyo gaijin house",
+    "prev_pos": 11,
     "curr_pos": "hors top 20",
     "drop": 20,
-    "date_detected": "2026-09-30",
+    "date_detected": "2026-10-07",
     "cluster": "apercu_ia",
     "atteignable": false,
-    "opportunity": "NE PAS attaquer 'gaijin house tokyo': 🤖 APERCU IA au-dessus. Apercu IA au-dessus (Japan Guide +2, pas nous): c'est lui qui repond, pas le titre. 4 731 impr pour ~0 clic. Test de tit"
+    "opportunity": "NE PAS attaquer 'tokyo gaijin house': 🤖 APERCU IA au-dessus. Apercu IA au-dessus (Japan Guide +2, pas nous): c'est lui qui repond, pas le titre. 4 731 impr pour ~0 clic. Test de tit"
   },
   {
-    "domain": "gaijinpot.com",
-    "keyword": "jiko bukken",
+    "domain": "sakura-house.com",
+    "keyword": "furnished apartments tokyo",
     "prev_pos": 12,
     "curr_pos": "hors top 20",
     "drop": 20,
-    "date_detected": "2026-09-30",
-    "cluster": "ouvert",
-    "atteignable": true,
-    "opportunity": "Publie un article sur 'jiko bukken', gaijinpot.com perd du terrain"
+    "date_detected": "2026-10-07",
+    "cluster": "stock",
+    "atteignable": false,
+    "opportunity": "NE PAS attaquer 'furnished apartments tokyo': ⛔ FERME (page de stock). 8 resultats sur 8 sont des pages de stock (Hmlet, Plaza Homes, Blueground, Anyplace, MetroResidences). 18 539 impr / 4 c"
   },
   {
-    "domain": "oakhouse.jp",
-    "keyword": "student accommodation tokyo",
-    "prev_pos": 13,
+    "domain": "sakura-house.com",
+    "keyword": "appartement social tokyo",
+    "prev_pos": 11,
     "curr_pos": "hors top 20",
     "drop": 20,
-    "date_detected": "2026-09-30",
-    "cluster": "inconnu",
-    "atteignable": true,
-    "opportunity": "Publie un article sur 'student accommodation tokyo', oakhouse.jp perd du terrain"
-  },
-  {
-    "domain": "gaijinpot.com",
-    "keyword": "no guarantor apartments tokyo",
-    "prev_pos": 6,
-    "curr_pos": 19,
-    "drop": 13,
-    "date_detected": "2026-09-30",
-    "cluster": "apercu_ia",
-    "atteignable": false,
-    "opportunity": "NE PAS attaquer 'no guarantor apartments tokyo': 🤖 APERCU IA au-dessus. Apercu IA DEVELOPPE au-dessus (cite wagaya Japan, Fontana Tokyo, SUMII, Dash Living, Aonissin -- pas nous), qui donne de"
-  },
-  {
-    "domain": "oakhouse.jp",
-    "keyword": "tokyo furnished",
-    "prev_pos": 5,
-    "curr_pos": 14,
-    "drop": 9,
-    "date_detected": "2026-09-30",
-    "cluster": "inconnu",
-    "atteignable": true,
-    "opportunity": "Publie un article sur 'tokyo furnished', oakhouse.jp perd du terrain"
-  },
-  {
-    "domain": "oakhouse.jp",
-    "keyword": "prix location appartement tokyo",
-    "prev_pos": 2,
-    "curr_pos": 9,
-    "drop": 7,
-    "date_detected": "2026-09-30",
+    "date_detected": "2026-10-07",
     "cluster": "ouvert",
     "atteignable": true,
-    "opportunity": "Publie un article sur 'prix location appartement tokyo', oakhouse.jp perd du terrain"
+    "opportunity": "Publie un article sur 'appartement social tokyo', sakura-house.com perd du terrain"
+  },
+  {
+    "domain": "sakura-house.com",
+    "keyword": "dortoir pour les étudiants internationaux tokyo",
+    "prev_pos": 2,
+    "curr_pos": "hors top 20",
+    "drop": 20,
+    "date_detected": "2026-10-07",
+    "cluster": "inconnu",
+    "atteignable": true,
+    "opportunity": "Publie un article sur 'dortoir pour les étudiants internationaux tokyo', sakura-house.com perd du terrain"
+  },
+  {
+    "domain": "sakura-house.com",
+    "keyword": "logement étudiant tokyo",
+    "prev_pos": 2,
+    "curr_pos": "hors top 20",
+    "drop": 20,
+    "date_detected": "2026-10-07",
+    "cluster": "inconnu",
+    "atteignable": true,
+    "opportunity": "Publie un article sur 'logement étudiant tokyo', sakura-house.com perd du terrain"
+  },
+  {
+    "domain": "oakhouse.jp",
+    "keyword": "appartements à tokyo pour les étrangers",
+    "prev_pos": 3,
+    "curr_pos": "hors top 20",
+    "drop": 20,
+    "date_detected": "2026-10-07",
+    "cluster": "ouvert",
+    "atteignable": true,
+    "opportunity": "Publie un article sur 'appartements à tokyo pour les étrangers', oakhouse.jp perd du terrain"
+  },
+  {
+    "domain": "oakhouse.jp",
+    "keyword": "appartements meublés tokyo",
+    "prev_pos": 5,
+    "curr_pos": "hors top 20",
+    "drop": 20,
+    "date_detected": "2026-10-07",
+    "cluster": "ouvert",
+    "atteignable": true,
+    "opportunity": "Publie un article sur 'appartements meublés tokyo', oakhouse.jp perd du terrain"
+  },
+  {
+    "domain": "oakhouse.jp",
+    "keyword": "dortoir pour les étudiants internationaux tokyo",
+    "prev_pos": 5,
+    "curr_pos": "hors top 20",
+    "drop": 20,
+    "date_detected": "2026-10-07",
+    "cluster": "inconnu",
+    "atteignable": true,
+    "opportunity": "Publie un article sur 'dortoir pour les étudiants internationaux tokyo', oakhouse.jp perd du terrain"
+  },
+  {
+    "domain": "oakhouse.jp",
+    "keyword": "logement étudiant tokyo",
+    "prev_pos": 1,
+    "curr_pos": 16,
+    "drop": 15,
+    "date_detected": "2026-10-07",
+    "cluster": "inconnu",
+    "atteignable": true,
+    "opportunity": "Publie un article sur 'logement étudiant tokyo', oakhouse.jp perd du terrain"
   },
   {
     "domain": "remoters.io",
-    "keyword": "logement étudiant tokyo",
-    "prev_pos": 4,
-    "curr_pos": 9,
-    "drop": 5,
-    "date_detected": "2026-09-30",
+    "keyword": "hébergement étudiant tokyo",
+    "prev_pos": 1,
+    "curr_pos": 13,
+    "drop": 12,
+    "date_detected": "2026-10-07",
     "cluster": "inconnu",
     "atteignable": true,
-    "opportunity": "Publie un article sur 'logement étudiant tokyo', remoters.io perd du terrain"
+    "opportunity": "Publie un article sur 'hébergement étudiant tokyo', remoters.io perd du terrain"
+  },
+  {
+    "domain": "sakura-house.com",
+    "keyword": "tokyo furnished",
+    "prev_pos": 2,
+    "curr_pos": 13,
+    "drop": 11,
+    "date_detected": "2026-10-07",
+    "cluster": "inconnu",
+    "atteignable": true,
+    "opportunity": "Publie un article sur 'tokyo furnished', sakura-house.com perd du terrain"
+  },
+  {
+    "domain": "sakura-house.com",
+    "keyword": "sharehouse tokyo pour les étudiants internationaux",
+    "prev_pos": 5,
+    "curr_pos": 14,
+    "drop": 9,
+    "date_detected": "2026-10-07",
+    "cluster": "inconnu",
+    "atteignable": true,
+    "opportunity": "Publie un article sur 'sharehouse tokyo pour les étudiants internationaux', sakura-house.com perd du terrain"
+  },
+  {
+    "domain": "sakura-house.com",
+    "keyword": "appartements à tokyo pour les étrangers",
+    "prev_pos": 1,
+    "curr_pos": 7,
+    "drop": 6,
+    "date_detected": "2026-10-07",
+    "cluster": "ouvert",
+    "atteignable": true,
+    "opportunity": "Publie un article sur 'appartements à tokyo pour les étrangers', sakura-house.com perd du terrain"
+  },
+  {
+    "domain": "oakhouse.jp",
+    "keyword": "appartement social tokyo",
+    "prev_pos": 1,
+    "curr_pos": 7,
+    "drop": 6,
+    "date_detected": "2026-10-07",
+    "cluster": "ouvert",
+    "atteignable": true,
+    "opportunity": "Publie un article sur 'appartement social tokyo', oakhouse.jp perd du terrain"
   },
   {
     "domain": "tokyocheapo.com",
-    "keyword": "jiko bukken map google maps",
+    "keyword": "jiko bukken japan",
     "prev_pos": 1,
     "curr_pos": 6,
     "drop": 5,
-    "date_detected": "2026-09-30",
+    "date_detected": "2026-10-07",
     "cluster": "ouvert",
     "atteignable": true,
-    "opportunity": "Publie un article sur 'jiko bukken map google maps', tokyocheapo.com perd du terrain"
+    "opportunity": "Publie un article sur 'jiko bukken japan', tokyocheapo.com perd du terrain"
   }
 ]

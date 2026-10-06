@@ -1,26 +1,26 @@
 {
   "prev_week_counts": {
-    "Remoters": 5282,
+    "Remoters": 5379,
     "GaijinPot Housing": 0,
     "GaijinPot Blog": 0,
     "Sakura House": 970,
-    "Oak House": 5217,
+    "Oak House": 5296,
     "Tokyo Cheapo": 6824,
     "Japan Guide": 0,
     "Fontaine Relocation": 0,
     "Savvy Tokyo": 0,
     "Japan Property Central": 0,
     "Japan Today": 0,
-    "City Cost": 714,
+    "City Cost": 715,
     "Japan Insiders": 17,
     "Tofugu": 1910,
-    "Time Out Tokyo": 9964,
+    "Time Out Tokyo": 9999,
     "Gaijin House": 0,
     "Tokyo Share House": 0,
     "Crown Relocations JP": 0,
     "Asian Tigers Japan": 0,
-    "Wise Blog JP": 1446,
-    "Vivre Au Japon": 194,
+    "Wise Blog JP": 1480,
+    "Vivre Au Japon": 195,
     "Japon Online": 0,
     "Modern Living Tokyo": 0,
     "Tokyo Furnished": 0
@@ -50,9 +50,9 @@
       0,
       0,
       0,
-      0,
       714,
-      0
+      0,
+      1
     ],
     "Crown Relocations JP": [
       0,
@@ -97,13 +97,13 @@
       0
     ],
     "GaijinPot Blog": [
-      4,
       3,
       0,
       0,
       3,
       3,
       4,
+      0,
       0,
       0,
       0,
@@ -209,7 +209,6 @@
       0
     ],
     "Oak House": [
-      1,
       14,
       23,
       0,
@@ -220,10 +219,10 @@
       45,
       58,
       0,
-      49
+      49,
+      79
     ],
     "Remoters": [
-      10,
       2,
       3,
       0,
@@ -234,7 +233,8 @@
       0,
       0,
       0,
-      23
+      23,
+      97
     ],
     "Sakura House": [
       0,
@@ -252,11 +252,11 @@
     ],
     "Savvy Tokyo": [
       0,
-      0,
       2,
       0,
       0,
       1,
+      0,
       0,
       0,
       0,
@@ -274,9 +274,9 @@
       0,
       0,
       0,
-      0,
       9955,
-      9
+      9,
+      35
     ],
     "Tofugu": [
       0,
@@ -294,8 +294,8 @@
     ],
     "Tokyo Cheapo": [
       0,
-      0,
       56,
+      0,
       0,
       0,
       0,
@@ -335,7 +335,6 @@
       0
     ],
     "Vivre Au Japon": [
-      0,
       3,
       6,
       0,
@@ -346,7 +345,8 @@
       0,
       0,
       0,
-      0
+      0,
+      1
     ],
     "Wise Blog JP": [
       0,
@@ -358,10 +358,10 @@
       0,
       0,
       0,
-      0,
       1416,
-      30
+      30,
+      34
     ]
   },
-  "last_run": "2026-09-30"
+  "last_run": "2026-10-07"
 }
