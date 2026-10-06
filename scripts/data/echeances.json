@@ -161,6 +161,16 @@
       "fiche": "project_pause_2026_09_25.md",
       "actif": true,
       "fait": false
+    },
+    {
+      "id": "trading-grille-tiingo-novembre",
+      "date": "2026-11-01",
+      "titre": "TRADING: quota Tiingo de novembre = cours des disparus de la GRILLE AlphaZen",
+      "quoi": "Ouvrir /trading et lire Trading_TKL/backtest/grille/JOURNAL.md (Prochaine action). (1) Telecharger chez Tiingo les titres 'absent_yahoo' de backtest/donnees_grille/inventaire.csv, S&P 500 d'abord, avec controle du NOM (piege DOC = Healthpeak). (2) Ensuite seulement: Enable-ScheduledTask -TaskName TKL-Backtest-Large (desactivee le 06/10 pour laisser le quota a la grille).",
+      "commande": "",
+      "fiche": "project_trading_etat_courant.md",
+      "actif": true,
+      "fait": false
     }
   ]
 }
