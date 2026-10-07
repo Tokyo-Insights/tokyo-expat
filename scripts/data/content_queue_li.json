@@ -1,8 +1,8 @@
 {
   "generated_at": "2026-06-25",
   "total": 80,
-  "posted_count": 17,
-  "remaining": 63,
+  "posted_count": 18,
+  "remaining": 62,
   "queue": [
     {
       "slug": "trouver-appartement-tokyo-etranger",
@@ -145,8 +145,8 @@
       "locale": "fr",
       "title": "Famille expatriée à Tokyo : écoles internationales, quartiers et logement",
       "text": "Famille expatriée à Tokyo : écoles internationales, quartiers et logement\n\nLycée franco-japonais, écoles anglophones, quartiers familiaux : guide complet pour les familles qui s'installent à Tokyo avec des enfants.\n\nhttps://www.tokyo-expat.com/fr/blog/famille-expatriee-tokyo-ecoles-internationales",
-      "posted": false,
-      "posted_date": null
+      "posted": true,
+      "posted_date": "2026-10-08"
     },
     {
       "slug": "negocier-loyer-tokyo-conseils",
