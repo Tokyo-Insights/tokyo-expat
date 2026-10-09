@@ -4,7 +4,8 @@
   "decide_le": "2026-09-25",
   "raison": "Pause d'Alessandro apres 3 mois sans client payant; tous les canaux mesures, aucun ne produit de demande (bilan du 24/09).",
   "allow": [
-    "site_health_canary.py"
+    "site_health_canary.py",
+    "alerte_rapport_v37.py"
   ],
   "allow_if_contains": [
     "Ils ont repondu"
