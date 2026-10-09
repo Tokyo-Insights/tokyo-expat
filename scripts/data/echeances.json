@@ -191,6 +191,16 @@
       "fiche": "project_trading_etat_courant.md",
       "actif": true,
       "fait": false
+    },
+    {
+      "id": "trading-v37-hors-echantillon",
+      "date": "2026-12-01",
+      "titre": "TRADING: quota Tiingo de decembre = fin des disparus 2007+ puis disparus S&P 1998-2006 (test hors echantillon de V37)",
+      "quoi": "Ouvrir /trading. (1) Finir les 'absent_yahoo' de donnees_grille/inventaire.csv (quota de novembre insuffisant : 576 titres). (2) Puis telecharger les S&P 500 sortis de l'indice entre 1998 et 2006, cours depuis 1996, nom controle. (3) Mesurer la couverture : PORTE >= 90 % sur 1998-2006 et >= 85 % sur 2000-2002 (PROTOCOLE.md, 'TEST HORS ECHANTILLON'). Sous la porte : ARRET, aucun chiffre. Au-dessus : lancer le test, juge fixe contre le SPY.",
+      "commande": "",
+      "fiche": "project_trading_etat_courant.md",
+      "actif": true,
+      "fait": false
     }
   ]
 }
