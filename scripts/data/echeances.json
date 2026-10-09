@@ -171,6 +171,26 @@
       "fiche": "project_trading_etat_courant.md",
       "actif": true,
       "fait": false
+    },
+    {
+      "id": "trading-v37-bilan-etape1",
+      "date": "2027-01-08",
+      "titre": "TRADING: bilan de l'etape 1 de V37 (paper trading automatique, 3 mois)",
+      "quoi": "Ouvrir /trading. Lire le bloc 'Etape 1' en tete de Trading_TKL/backtest/grille/suivi/SUIVI.md (criteres : backtest/grille/suivi/ETAPES.json). Cocher a la main 'recoupement' et 'routine' s'ils sont faits. Si tout est vert : decider ENSEMBLE du passage a l'etape 2 (compte papier IBKR). Sinon : prolonger (6 mois max).",
+      "commande": "",
+      "fiche": "project_trading_etat_courant.md",
+      "actif": true,
+      "fait": false
+    },
+    {
+      "id": "trading-alphazen-formules-fin-novembre",
+      "date": "2026-11-30",
+      "titre": "TRADING: Thami a annonce les formules d'AlphaZen (programme automatise) pour fin novembre",
+      "quoi": "Ouvrir /trading. Verifier si les formules sont publiees (Telegram, YouTube). Si oui : les comparer regle par regle a V37 (Trading_TKL/PLAN_DE_TRADING_V37.html), V37 RESTE FIGEE ; toute idee = copie declaree avant calcul (PROTOCOLE.md).",
+      "commande": "",
+      "fiche": "project_trading_etat_courant.md",
+      "actif": true,
+      "fait": false
     }
   ]
 }
