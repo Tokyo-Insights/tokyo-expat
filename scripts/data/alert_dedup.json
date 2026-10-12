@@ -108,5 +108,9 @@
   "vuln:sakura-house.com:appartements à tokyo pour les étrangers": "2026-10-07",
   "vuln:oakhouse.jp:appartement social tokyo": "2026-10-07",
   "vuln:tokyocheapo.com:jiko bukken japan": "2026-10-07",
-  "proactive:('expat apartments tokyo', 1),('jiko bukken tokyo', 2)|jp bank japanpost card guide|sakura-house.com:tokyo gaijin house": "2026-10-07"
+  "proactive:('expat apartments tokyo', 1),('jiko bukken tokyo', 2)|jp bank japanpost card guide|sakura-house.com:tokyo gaijin house": "2026-10-07",
+  "seasonal:mon_guide_complet_pour_s'expatrier_a_tokyo_:_tout_ce_que_j'a": {
+    "date": "2026-10-13",
+    "dismissed": true
+  }
 }
