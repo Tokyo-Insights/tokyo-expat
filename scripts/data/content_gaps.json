@@ -10,16 +10,6 @@
     "category": "banque"
   },
   {
-    "slug": "instant-room-rental-english",
-    "topic": "instant room rental english",
-    "url": "https://tokyocheapo.com/living/instant-room-rental-english/",
-    "competitors": [
-      "Tokyo Cheapo"
-    ],
-    "score": 10,
-    "category": "logement"
-  },
-  {
     "slug": "renew-visa-online-japan",
     "topic": "renew visa online japan",
     "url": "https://tokyocheapo.com/living/renew-visa-online-japan/",
@@ -38,6 +28,16 @@
     ],
     "score": 10,
     "category": "default"
+  },
+  {
+    "slug": "instant-room-rental-english",
+    "topic": "instant room rental english",
+    "url": "https://tokyocheapo.com/living/instant-room-rental-english/",
+    "competitors": [
+      "Tokyo Cheapo"
+    ],
+    "score": 10,
+    "category": "logement"
   },
   {
     "slug": "pocket-translator-rental-japan",
@@ -60,16 +60,6 @@
     "category": "banque"
   },
   {
-    "slug": "sending-money-to-japan-banks",
-    "topic": "sending money to japan banks",
-    "url": "https://wise.com/jp/blog/sending-money-to-japan-banks",
-    "competitors": [
-      "Wise Blog JP"
-    ],
-    "score": 10,
-    "category": "banque"
-  },
-  {
     "slug": "opening-foreign-bank-account-from-japan",
     "topic": "opening foreign bank account from japan",
     "url": "https://wise.com/jp/blog/opening-foreign-bank-account-from-japan",
@@ -80,9 +70,9 @@
     "category": "banque"
   },
   {
-    "slug": "currency-deposit-weak-yen-vs-strong-yen",
-    "topic": "currency deposit weak yen vs strong yen",
-    "url": "https://wise.com/jp/blog/currency-deposit-weak-yen-vs-strong-yen",
+    "slug": "inheritance-tax-japan",
+    "topic": "inheritance tax japan",
+    "url": "https://wise.com/jp/blog/inheritance-tax-japan",
     "competitors": [
       "Wise Blog JP"
     ],
@@ -90,9 +80,19 @@
     "category": "default"
   },
   {
-    "slug": "inheritance-tax-japan",
-    "topic": "inheritance tax japan",
-    "url": "https://wise.com/jp/blog/inheritance-tax-japan",
+    "slug": "sending-money-to-japan-banks",
+    "topic": "sending money to japan banks",
+    "url": "https://wise.com/jp/blog/sending-money-to-japan-banks",
+    "competitors": [
+      "Wise Blog JP"
+    ],
+    "score": 10,
+    "category": "banque"
+  },
+  {
+    "slug": "currency-deposit-weak-yen-vs-strong-yen",
+    "topic": "currency deposit weak yen vs strong yen",
+    "url": "https://wise.com/jp/blog/currency-deposit-weak-yen-vs-strong-yen",
     "competitors": [
       "Wise Blog JP"
     ],

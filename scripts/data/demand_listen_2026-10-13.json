@@ -1,0 +1,273 @@
+{
+  "generated": "2026-10-13T22:29:44.702945+00:00",
+  "subs": [
+    "japanlife",
+    "movingtojapan",
+    "japanresidents"
+  ],
+  "posts_analysed": 95,
+  "themes": {
+    "etat des lieux/sortie": 13,
+    "renouvellement": 3,
+    "langue / paperasse": 9,
+    "visa / statut": 28,
+    "garant / hosho": 5,
+    "depot / shikikin": 11,
+    "share house": 5,
+    "meuble / court terme": 6,
+    "budget / cherte": 17,
+    "chercher a distance": 10,
+    "refus / discrimination": 8,
+    "animaux": 6,
+    "argent-cle / reikin": 1
+  },
+  "stages": {
+    "deja installe": 25,
+    "avant l'arrivee": 9,
+    "juste arrive": 1
+  },
+  "painful_pct": 36.8,
+  "top_bigrams": [
+    {
+      "phrase": "language school",
+      "n": 14
+    },
+    {
+      "phrase": "management company",
+      "n": 13
+    },
+    {
+      "phrase": "working holiday",
+      "n": 12
+    },
+    {
+      "phrase": "long term",
+      "n": 12
+    },
+    {
+      "phrase": "bank account",
+      "n": 11
+    },
+    {
+      "phrase": "part time",
+      "n": 11
+    },
+    {
+      "phrase": "back home",
+      "n": 10
+    },
+    {
+      "phrase": "real estate",
+      "n": 9
+    },
+    {
+      "phrase": "work visa",
+      "n": 9
+    },
+    {
+      "phrase": "time job",
+      "n": 9
+    },
+    {
+      "phrase": "full time",
+      "n": 9
+    },
+    {
+      "phrase": "holiday visa",
+      "n": 8
+    },
+    {
+      "phrase": "home country",
+      "n": 8
+    },
+    {
+      "phrase": "student visa",
+      "n": 8
+    },
+    {
+      "phrase": "anyone experience",
+      "n": 7
+    },
+    {
+      "phrase": "living japan",
+      "n": 7
+    },
+    {
+      "phrase": "i'm sure",
+      "n": 7
+    },
+    {
+      "phrase": "first time",
+      "n": 7
+    },
+    {
+      "phrase": "anyone else",
+      "n": 7
+    },
+    {
+      "phrase": "moved japan",
+      "n": 7
+    },
+    {
+      "phrase": "recently moved",
+      "n": 6
+    },
+    {
+      "phrase": "credit card",
+      "n": 6
+    },
+    {
+      "phrase": "apartment building",
+      "n": 6
+    },
+    {
+      "phrase": "city hall",
+      "n": 6
+    },
+    {
+      "phrase": "residence card",
+      "n": 6
+    },
+    {
+      "phrase": "something similar",
+      "n": 6
+    },
+    {
+      "phrase": "japanese language",
+      "n": 6
+    },
+    {
+      "phrase": "new place",
+      "n": 5
+    },
+    {
+      "phrase": "housing agency",
+      "n": 5
+    },
+    {
+      "phrase": "move costs",
+      "n": 5
+    },
+    {
+      "phrase": "building management",
+      "n": 5
+    },
+    {
+      "phrase": "moved tokyo",
+      "n": 5
+    },
+    {
+      "phrase": "first weeks",
+      "n": 5
+    },
+    {
+      "phrase": "few days",
+      "n": 4
+    },
+    {
+      "phrase": "lease early",
+      "n": 4
+    },
+    {
+      "phrase": "wanted ask",
+      "n": 4
+    },
+    {
+      "phrase": "come back",
+      "n": 4
+    },
+    {
+      "phrase": "years now",
+      "n": 4
+    },
+    {
+      "phrase": "multiple times",
+      "n": 4
+    },
+    {
+      "phrase": "family members",
+      "n": 4
+    },
+    {
+      "phrase": "came japan",
+      "n": 4
+    },
+    {
+      "phrase": "without paying",
+      "n": 4
+    },
+    {
+      "phrase": "japan post",
+      "n": 4
+    },
+    {
+      "phrase": "post bank",
+      "n": 4
+    },
+    {
+      "phrase": "estate agency",
+      "n": 4
+    },
+    {
+      "phrase": "looking advice",
+      "n": 4
+    },
+    {
+      "phrase": "appreciated thank",
+      "n": 4
+    },
+    {
+      "phrase": "phone number",
+      "n": 4
+    },
+    {
+      "phrase": "now don't",
+      "n": 4
+    },
+    {
+      "phrase": "hikari cross",
+      "n": 4
+    },
+    {
+      "phrase": "hey everyone",
+      "n": 4
+    },
+    {
+      "phrase": "days upload",
+      "n": 4
+    },
+    {
+      "phrase": "link archer",
+      "n": 4
+    },
+    {
+      "phrase": "while download",
+      "n": 4
+    },
+    {
+      "phrase": "between ntt",
+      "n": 4
+    },
+    {
+      "phrase": "hikari ntt",
+      "n": 4
+    },
+    {
+      "phrase": "property management",
+      "n": 4
+    },
+    {
+      "phrase": "line pull",
+      "n": 4
+    },
+    {
+      "phrase": "i've gotten",
+      "n": 4
+    },
+    {
+      "phrase": "buy car",
+      "n": 4
+    }
+  ],
+  "amounts_median": 200000
+}

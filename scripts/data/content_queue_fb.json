@@ -1,8 +1,8 @@
 {
   "generated_at": "2026-06-25",
   "total": 80,
-  "posted_count": 18,
-  "remaining": 62,
+  "posted_count": 19,
+  "remaining": 61,
   "queue": [
     {
       "slug": "trouver-appartement-tokyo-etranger",
@@ -153,8 +153,8 @@
       "locale": "fr",
       "title": "Négocier son loyer à Tokyo : est-ce possible et comment s'y prendre ?",
       "text": "Négocier son loyer à Tokyo : est-ce possible et comment s'y prendre ?\n\nLe marché locatif tokyoïte est réputé rigide, mais la négociation est possible dans certains cas. Voici quand et comment négocier votre loyer ou vos frais d'entrée.\n\nFull guide: https://www.tokyo-expat.com/fr/blog/negocier-loyer-tokyo-conseils\n\n#TokyoExpat #JaponExpatrie #VivreAuJapon",
-      "posted": false,
-      "posted_date": null
+      "posted": true,
+      "posted_date": "2026-10-14"
     },
     {
       "slug": "demenager-japon-checklist-complete",

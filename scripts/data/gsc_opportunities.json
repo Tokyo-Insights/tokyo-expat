@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-07",
+  "generated_at": "2026-10-14",
   "days": 90,
   "clusters": [
     {
-      "impressions": 2710,
+      "impressions": 2804,
       "clicks": 6,
-      "position": 8.8,
+      "position": 8.5,
       "variants": 4,
       "action": "OPTIMISER",
       "winnable": true,
@@ -17,9 +17,9 @@
       "theme": "gaijin house"
     },
     {
-      "impressions": 952,
+      "impressions": 869,
       "clicks": 0,
-      "position": 20.1,
+      "position": 20.4,
       "variants": 2,
       "action": "ECRIRE",
       "winnable": true,
@@ -31,9 +31,9 @@
       "theme": "apartment expat"
     },
     {
-      "impressions": 694,
-      "clicks": 7,
-      "position": 11.0,
+      "impressions": 692,
+      "clicks": 5,
+      "position": 10.8,
       "variants": 2,
       "action": "OPTIMISER",
       "winnable": true,
@@ -45,9 +45,9 @@
       "theme": "bukken jiko"
     },
     {
-      "impressions": 605,
+      "impressions": 532,
       "clicks": 2,
-      "position": 25.9,
+      "position": 25.5,
       "variants": 1,
       "action": "OPTIMISER",
       "winnable": true,
@@ -59,9 +59,9 @@
       "theme": "apartment furnished"
     },
     {
-      "impressions": 473,
+      "impressions": 513,
       "clicks": 2,
-      "position": 8.7,
+      "position": 8.8,
       "variants": 2,
       "action": "ECRIRE",
       "winnable": true,
@@ -73,7 +73,21 @@
       "theme": "jikobukken map"
     },
     {
-      "impressions": 882,
+      "impressions": 1957,
+      "clicks": 0,
+      "position": 6.2,
+      "variants": 1,
+      "action": "OPTIMISER",
+      "winnable": false,
+      "actionable": false,
+      "verdict": "apercu_ia",
+      "verdict_why": "Apercu IA au-dessus (Japan Guide +2, pas nous): c'est lui qui repond, pas le titre. 4 731 impr pour ~0 clic. Test de titre en cours, lire le resultat le 05/10/2026.",
+      "verdict_date": "2026-09-11, vu dans le navigateur",
+      "example": "cheap gaijin house in tokyo",
+      "theme": "cheap gaijin house"
+    },
+    {
+      "impressions": 811,
       "clicks": 0,
       "position": 38.4,
       "variants": 2,
@@ -87,23 +101,9 @@
       "theme": "apartment furnished rent"
     },
     {
-      "impressions": 1963,
+      "impressions": 314,
       "clicks": 0,
-      "position": 6.5,
-      "variants": 1,
-      "action": "OPTIMISER",
-      "winnable": false,
-      "actionable": false,
-      "verdict": "apercu_ia",
-      "verdict_why": "Apercu IA au-dessus (Japan Guide +2, pas nous): c'est lui qui repond, pas le titre. 4 731 impr pour ~0 clic. Test de titre en cours, lire le resultat le 05/10/2026.",
-      "verdict_date": "2026-09-11, vu dans le navigateur",
-      "example": "cheap gaijin house in tokyo",
-      "theme": "cheap gaijin house"
-    },
-    {
-      "impressions": 329,
-      "clicks": 0,
-      "position": 27.8,
+      "position": 27.4,
       "variants": 4,
       "action": "ECRIRE",
       "winnable": true,
@@ -115,23 +115,23 @@
       "theme": "expat housing"
     },
     {
-      "impressions": 233,
+      "impressions": 248,
       "clicks": 0,
-      "position": 20.3,
-      "variants": 1,
+      "position": 29.7,
+      "variants": 3,
       "action": "OPTIMISER",
       "winnable": true,
-      "actionable": true,
-      "verdict": "ouvert",
-      "verdict_why": "Cluster FRANCAIS: FrancoTokyo, articles Sakura, et nous sur 2 des 6 resultats. Le francais est le seul segment ou des humains cliquent.",
-      "verdict_date": "2026-09-09, par la donnee",
-      "example": "appartements à tokyo pour les étrangers",
-      "theme": "appartement les pour tranger"
+      "actionable": false,
+      "verdict": "stock",
+      "verdict_why": "8 resultats sur 8 sont des pages de stock (Hmlet, Plaza Homes, Blueground, Anyplace, MetroResidences). 18 539 impr / 4 clics sur 90 j. Se capte avec une page qui MONTRE des biens, pas avec un guide.",
+      "verdict_date": "2026-09-11, vu dans le navigateur",
+      "example": "cheap furnished apartments tokyo",
+      "theme": "apartment cheap furnished"
     },
     {
-      "impressions": 205,
+      "impressions": 197,
       "clicks": 0,
-      "position": 15.0,
+      "position": 14.6,
       "variants": 1,
       "action": "ECRIRE",
       "winnable": true,
@@ -143,9 +143,9 @@
       "theme": "appartement social"
     },
     {
-      "impressions": 171,
+      "impressions": 193,
       "clicks": 0,
-      "position": 20.9,
+      "position": 19.1,
       "variants": 1,
       "action": "OPTIMISER",
       "winnable": true,
@@ -153,13 +153,13 @@
       "verdict": "ouvert",
       "verdict_why": "Cluster FRANCAIS: FrancoTokyo, articles Sakura, et nous sur 2 des 6 resultats. Le francais est le seul segment ou des humains cliquent.",
       "verdict_date": "2026-09-09, par la donnee",
-      "example": "appartements meublés tokyo",
-      "theme": "appartement meubl"
+      "example": "appartements à tokyo pour les étrangers",
+      "theme": "appartement les pour tranger"
     },
     {
-      "impressions": 159,
+      "impressions": 149,
       "clicks": 0,
-      "position": 29.4,
+      "position": 30.0,
       "variants": 1,
       "action": "ECRIRE",
       "winnable": true,
