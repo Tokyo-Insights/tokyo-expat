@@ -5,11 +5,21 @@
       "keyword": "find apartment tokyo foreigner",
       "competitor": "tokyocheapo.com",
       "competitor_url": "https://tokyocheapo.com/lifestyle/rent-an-apartment-in-tokyo/",
-      "competitor_title": "How to Find and Rent an Apartment in Tokyo as a Foreigner",
-      "rank": 1,
+      "competitor_title": "How to Find and Rent an Apartment in Tokyo as a Foreigner ...Foreigner-Friendly Tokyo Apartments for",
+      "rank": 3,
       "format": "answer_box",
       "action": "Intro article: reponse directe 50 mots. 'Finding an apartment in Tokyo as a foreigner is possible in 3 steps...'",
       "format_guide": "Ajouter en intro de l'article une reponse directe de 40-60 mots apres un H2 qui repete le keyword exact. Google extrait les premiers paragraphes apres un header."
+    },
+    {
+      "keyword": "tokyo apartment foreigner documents",
+      "competitor": "tokyocheapo.com",
+      "competitor_url": "https://tokyocheapo.com/lifestyle/rent-an-apartment-in-tokyo/",
+      "competitor_title": "How to Find and Rent an Apartment in Tokyo as a Foreigner",
+      "rank": 2,
+      "format": "list",
+      "action": "Liste documents avec pastilles: requis toujours / requis parfois / utile",
+      "format_guide": "Reformater la section cle comme liste numerotee ou a puces sous un H2 qui commence par 'How to', 'Best' ou un nombre. Google prefere les listes de 5-8 items."
     }
   ]
 }

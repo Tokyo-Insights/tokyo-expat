@@ -1,35 +1,36 @@
 # 📊 RAPPORT HEBDO — tokyo-expat — 2026-10-14
 
 ## 🎯 KPIs
-- **Trafic (7j)** : 428 sessions (-23%), 403 users (-24%)
+- **Trafic (7j)** : 441 sessions (-21%), 415 users (-21%)
 - **Visibilite (28j)** : 10511 impressions | 102 clics | CTR 0.97% | pos moy 11.8
 - **🔴 DEMANDES REELLES (90j)** : 5 formulaires de contact · 3 reservations Calendly
 - Captures d'email (90j) : 21
 
 ## 👂 ECOUTE DE LA DEMANDE — ce que les gens disent, pas ce qu'on publie
-**Reddit** : 95 fils analyses (2026-10-13), passe precedente 88 fils
+**Reddit** : 123 fils analyses (2026-10-14), passe precedente 95 fils
 
 | Ce qui bloque | Fils | vs passe precedente |
 |---|---:|---|
-| visa / statut | 28 | -1.6 pts |
-| budget / cherte | 17 | +0.8 pts |
-| etat des lieux/sortie | 13 | +1.9 pts |
-| depot / shikikin | 11 | +2.0 pts |
-| chercher a distance | 10 | -1.5 pts |
-| langue / paperasse | 9 | -4.0 pts |
+| visa / statut | 35 | -2.7 pts |
+| refus / discrimination | 33 | +12.5 pts |
+| budget / cherte | 22 | -1.2 pts |
+| etat des lieux/sortie | 17 | -0.8 pts |
+| langue / paperasse | 17 | +2.4 pts |
+| meuble / court terme | 11 | +1.4 pts |
 
-- **Avant l'arrivee (= la cible qui achete)** : 9 fils sur 35 (25%). Les autres sont deja loges.
+- **Avant l'arrivee (= la cible qui achete)** : 8 fils sur 39 (20%). Les autres sont deja loges.
 - **Montant median cite** : 200,000 JPY. Rappel: le forfait meuble (400 EUR ~ 62 000 JPY) vaut 31% de ce qu'ils s'attendent deja a depenser. **Argument de vente chiffre, dans leurs mots.**
-- **Leurs expressions** : language school · management company · working holiday · long term · bank account · part time · back home · real estate · work visa · time job
+- **Leurs expressions** : part time · real estate · home country · residence card · back home · health insurance · job hunting · management company · living japan · work visa
 
 **Autocompletion Google** (couverture 100.0%) — ce que les gens TAPENT, la ou la Search Console est aveugle.
-- **EN** : 162 suggestions, **0 sans article chez nous**
+- **EN** : 161 suggestions, **0 sans article chez nous**
 - **FR** : 48 suggestions, **1 sans article chez nous**
     - garanti japonya
 
 ### ⚔️ PLAN D'ATTAQUE issu de l'ecoute
-1. Reprendre CES expressions dans les titres et les emails, pas le vocabulaire SEO.
-2. 36.8% des fils emploient un mot de detresse: l'urgence est reelle, un message direct passera mieux qu'un article.
+1. Le sub surveille parle surtout de gens **deja loges**: ils ne sont pas acheteurs. Envisager un autre etang.
+2. Reprendre CES expressions dans les titres et les emails, pas le vocabulaire SEO.
+3. 31.7% des fils emploient un mot de detresse: l'urgence est reelle, un message direct passera mieux qu'un article.
 
 _Une suggestion n'est pas un volume, et une passe isolee ne dit pas si un sujet monte. Lire les colonnes de variation, pas les valeurs._
 
@@ -65,22 +66,22 @@ _⚠️ L'evenement GA4 `generate_lead` se declenche uniquement quand quelqu'un 
 
 ## 🔀 CONVERSION PAR PAGE
 **Fort trafic SANS lead (ajouter/renforcer un CTA) :**
-  - 328 sessions · 0 lead | /en/data
+  - 329 sessions · 0 lead | /en/data
   - 110 sessions · 0 lead | /en/blog/tokyo-rent-report-2026
-  - 100 sessions · 0 lead | (not set)
+  - 101 sessions · 0 lead | (not set)
   - 99 sessions · 0 lead | /en/blog/tokyo-expat-cost-of-living-2026
   - 93 sessions · 0 lead | /en/blog/jiko-bukken-cheap-apartments-tokyo
+  - 87 sessions · 0 lead | /en/blog/share-house-tokyo-guide-2026
   - 86 sessions · 0 lead | /en/blog/japanese-apartment-layouts-explained
-  - 86 sessions · 0 lead | /en/blog/share-house-tokyo-guide-2026
 **Convertissent (y amener plus de trafic) :**
   - 6 lead / 0 sess (n/d) | /en/checklist
   - 2 lead / 83 sess (2.4%) | /en/blog/japanese-language-schools-tokyo-guide
-  - 2 lead / 82 sess (2.4%) | /en/blog/gaijin-house-tokyo-guide
-  - 1 lead / 225 sess (0.4%) | /en/blog/japan-sim-card-foreigners-2026
+  - 2 lead / 83 sess (2.4%) | /en/blog/gaijin-house-tokyo-guide
+  - 1 lead / 226 sess (0.4%) | /en/blog/japan-sim-card-foreigners-2026
   - 1 lead / 187 sess (0.5%) | /en
 
 ## 📈 TENDANCES (vs snapshot precedent)
-- Sessions -141 · Impressions -3396 · Clics +3 · Leads +0 (depuis 2026-10-07)
+- Sessions -128 · Impressions -3396 · Clics +3 · Leads +0 (depuis 2026-10-07)
 **Vagues montantes (requetes) :**
   - _about me: corporate relocator corporate relocator question: what are good accommodation options for families moving to tokyo?_ : impr +2, pos 14.3 (monte)
   - _about me: corporate relocator corporate relocator question: what are the differences between living in the tokyo suburbs vs downtown?_ : impr +1, pos 23.3 (monte)
@@ -91,21 +92,21 @@ _⚠️ L'evenement GA4 `generate_lead` se declenche uniquement quand quelqu'un 
   - **-20** sessions (20 -> 0, 28j vs 28j prec.) | /en/blog/expat-apartments-tokyo
       Direct -11 · Organic Search -3
       ⚠️ Baisse sur du trafic qualifie : la, oui, regarder le contenu.
-  - **-19** sessions (40 -> 21, 28j vs 28j prec.) | /en/blog/gaijin-house-tokyo-guide
-      Organic Search -15 · Direct -2 · AI Assistant -2
+  - **-18** sessions (40 -> 22, 28j vs 28j prec.) | /en/blog/gaijin-house-tokyo-guide
+      Organic Search -14 · AI Assistant -2 · Direct -2
       ⚠️ Baisse sur du trafic qualifie : la, oui, regarder le contenu.
   - **-13** sessions (37 -> 24, 28j vs 28j prec.) | /en/blog/tokyo-rent-by-neighborhood-2026
-      Direct -8 · Organic Search -2 · AI Assistant -2 · Unassigned -1
+      Direct -8 · AI Assistant -2 · Organic Search -2 · Unassigned -1
       ⚠️ Baisse sur du trafic qualifie : la, oui, regarder le contenu.
 
 ## 🧲 ENGAGEMENT PAR PAGE
 **Fort trafic, FAIBLE engagement (contenu a ameliorer) :**
-  - 80 sess · engagement 22% · 67s | /en/data
+  - 81 sess · engagement 22% · 66s | /en/data
   - 48 sess · engagement 42% · 50s | /en
   - 45 sess · engagement 44% · 164s | /en/blog/japanese-language-schools-tokyo-guide
   - 39 sess · engagement 10% · 24s | /en/blog/tokyo-rent-report-2026
   - 38 sess · engagement 24% · 15s | /en/blog/jiko-bukken-cheap-apartments-tokyo
-  - 36 sess · engagement 19% · 54s | /en/blog/share-house-tokyo-guide-2026
+  - 37 sess · engagement 22% · 70s | /en/blog/share-house-tokyo-guide-2026
 
 ## 🔻 ENTONNOIR DE NAVIGATION (90j) — que des clics, pas des ventes
   - Clic dans un champ **23** → Email donne **21** (91%) → Clic vers /contact **8** (38%) → Clic sur Calendly **8** (100%)
@@ -197,7 +198,7 @@ _Chutes vues par le tracker DuckDuckGo, croisees avec NOS positions Google (GSC)
 
 ## 🅱️ BING (l'index que ChatGPT interroge)
 _Donnees a jour (3 j de decalage, fin 2026-10-11)._
-**16980 impressions · 382 clics · CTR 2.25%** sur 2026-06-28 → 2026-10-11 (1310 requetes, 116 pages)
+**16980 impressions · 382 clics · CTR 2.25%** sur 2026-06-28 → 2026-10-11 (1303 requetes, 116 pages)
 **Pages fortes sur Bing (souvent PAS les memes que sur Google) :**
   - 1668 impr · 28 clics · pos 5.9 | /en/blog/japan-income-tax-foreigners-guide
   - 1493 impr · 62 clics · pos 4.2 | /en/blog/japan-sim-card-foreigners-2026
@@ -214,11 +215,12 @@ _Donnees a jour (3 j de decalage, fin 2026-10-11)._
   - 29 impr · pos 5.3 · _cost of 20 days mobile sim card with mobal (japan)_
 
 ## 📦 FEATURED SNIPPETS (a voler aux concurrents)
-  - _find apartment tokyo foreigner_ (answer_box) — tokyocheapo.com pos 1
+  - _find apartment tokyo foreigner_ (answer_box) — tokyocheapo.com pos 3
+  - _tokyo apartment foreigner documents_ (list) — tokyocheapo.com pos 2
 
 ## ⚡ VEILLE CONCURRENTS
 **Masse de contenu (top) :** Time Out Tokyo 10000 · Tokyo Cheapo 6822 · Remoters 5536 · Oak House 5299 · Tofugu 1910
-⚠️ **15 scrapers MUETS** (0 publication detectee sur 10 semaines d'affilee = sitemap probablement illisible, PAS un concurrent inactif) : Asian Tigers Japan, Crown Relocations JP, Fontaine Relocation, Gaijin House, GaijinPot Housing, Japan Guide, Japan Insiders, Japan Property Central...
+⚠️ **16 scrapers MUETS** (0 publication detectee sur 10 semaines d'affilee = sitemap probablement illisible, PAS un concurrent inactif) : Asian Tigers Japan, Crown Relocations JP, Fontaine Relocation, Gaijin House, GaijinPot Housing, Japan Guide, Japan Insiders, Japan Property Central...
 **Ce qu'on reproche aux concurrents (matiere a contenu) :**
   - **Remoters** : 2 plainte(s) sur 29 resultats · scam ×3, sale ×2, small ×1
   - **Sakura House** : 4 plainte(s) sur 28 resultats · noisy ×4, overcrowded ×4, problem ×2
