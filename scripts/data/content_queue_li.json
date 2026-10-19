@@ -1,8 +1,8 @@
 {
   "generated_at": "2026-06-25",
   "total": 80,
-  "posted_count": 19,
-  "remaining": 61,
+  "posted_count": 20,
+  "remaining": 60,
   "queue": [
     {
       "slug": "trouver-appartement-tokyo-etranger",
@@ -161,8 +161,8 @@
       "locale": "fr",
       "title": "Déménager au Japon : checklist complète pour bien s'installer (2026)",
       "text": "Déménager au Japon : checklist complète pour bien s'installer (2026)\n\nVisa, logement, mairie, compte bancaire, assurance, SIM card : toutes les étapes dans le bon ordre pour réussir votre installation au Japon.\n\nhttps://www.tokyo-expat.com/fr/blog/demenager-japon-checklist-complete",
-      "posted": false,
-      "posted_date": null
+      "posted": true,
+      "posted_date": "2026-10-20"
     },
     {
       "slug": "tokyo-osaka-kyoto-ou-s-installer",
