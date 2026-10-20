@@ -163,7 +163,9 @@
       "commande": "",
       "fiche": "project_plan_haute_saison_2027.md",
       "actif": true,
-      "fait": false
+      "fait": true,
+      "fait_le": "2026-10-21",
+      "fait_comment": "21/10: NON, decide consciemment par Alessandro (« non c'est bon ») apres mesure: 12 pages detresse = 2,5 % des impr, 1 clic / 90 j, 8 sessions organiques, rien a renforcer. La detresse passe par les chantiers C et D."
     },
     {
       "id": "organique-point-decisif",
