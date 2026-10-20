@@ -1736,5 +1736,27 @@
     "no_followup": true,
     "no_followup_reason": "Appel d'ecoute chantier D (20/10/2026) : relances A LA MAIN au chantier E, jamais par le watcher (gabarit media).",
     "lang": "fr"
+  },
+  {
+    "domain": "businessfrance.fr",
+    "name": "Business France Japon (V.I.E)",
+    "type": "listening_call",
+    "email": "tokyo@businessfrance.fr",
+    "approach": "ecoute",
+    "da_est": null,
+    "priority": null,
+    "pitch": null,
+    "notes": "Appel d'ecoute : comment se logent les VIE a leur arrivee (245 VIE au Japon). Envoye le 21/10/2026 08:41 JST depuis contact@tokyo-expat.com. Fiche: strategie/chantier_D_liste_2026_10.md",
+    "manual_required": false,
+    "form_url": null,
+    "status": "emailed",
+    "emailed_date": "2026-10-21",
+    "last_contact": "2026-10-21",
+    "response": null,
+    "link_obtained": null,
+    "added": "2026-10-21",
+    "no_followup": true,
+    "no_followup_reason": "Appel d'ecoute chantier D (21/10/2026) : relances A LA MAIN au chantier E, jamais par le watcher (gabarit media).",
+    "lang": "fr"
   }
 ]
