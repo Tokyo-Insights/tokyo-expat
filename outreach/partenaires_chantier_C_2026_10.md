@@ -27,9 +27,9 @@ nouveaux noms n'y figure ; Crown et Asian Tigers y sont (juin, comme clients), v
 | 3 | H&R Consultants / Relo Japan (Japan Home Search) | relocation et logement d'entreprise, siège Nagoya, bureau Ebisu | `contact@hrcjapan.com` (décodé sur hrcjapan.com), tél. +81 3 5449 6061 | jamais contacté |
 | 4 | Sirva Relocation Japan (Allied Japan) | relocation ; recrute un « Destination Services Coordinator » (Tsukiji) | ⚠️ pas d'adresse publique trouvée : LinkedIn (responsable destination services) | jamais contacté |
 | 5 | Santa Fe Relocation, Tokyo | relocation (affilié FIDI, Akasaka) | ⚠️ adresse non confirmée : LinkedIn | jamais contacté |
-| 6 | PLAZA HOMES | agence agréée pour expatriés (familles, entreprises) | ⚠️ formulaire de realestate-tokyo.com, non relu | jamais contacté |
-| 7 | TokyoDev (Paul McMahon, fondateur) | job board de développeurs étrangers qui s'installent au Japon | ⚠️ formulaire de tokyodev.com/hire ou LinkedIn | jamais contacté |
-| 8 | AFJ (Association des Français et francophones du Japon) | accueil des nouveaux arrivants (Grand Café Accueil) | ⚠️ via guide.afj-japon.org, non relu | jamais contacté |
+| 6 | PLAZA HOMES | agence agréée pour expatriés (familles, entreprises) | `info@plazahomes.co.jp` (lien « Contact Us » de leur page, vérifié 20/10), tél. 03-3583-6941 | jamais contacté |
+| 7 | TokyoDev (Paul McMahon, fondateur) | job board de développeurs étrangers qui s'installent au Japon | ⚠️ aucun email public (page /hire en 403 aux robots) : LinkedIn `paulwimcmahon` | jamais contacté |
+| 8 | AFJ (Association des Français et francophones du Japon) | accueil des nouveaux arrivants (Grand Café Accueil) | `guide@afj-japon.org` (page « Contactez-nous » du guide, vérifié 20/10) | jamais contacté |
 | 9 | HIVEN (Damien, Justin) | opérateur de meublés, Kinshicho | déjà en cours | appel 17/10, dîner à reprogrammer (26/10 proposé) |
 | 10 | GaijinBlog (Fernando, Damith) | prescripteur, seul canal entrant qui a déjà converti | déjà en relation | partenariat referral existant |
 
@@ -123,6 +123,9 @@ manquent, et qui vous les envoie aujourd'hui ? »
 
 ### 10 · GaijinBlog : pas de nouveau message
 Relation existante. À reprendre seulement avec quelque chose de neuf à leur apporter.
+
+## ✅ Brouillons Gmail créés et relus le 20/10
+Crown, H&R, PLAZA HOMES, AFJ : 4 brouillons, partis du gmail brut -> **basculer l'expéditeur sur `contact@tokyo-expat.com` avant d'envoyer**. À l'envoi, inscrire chaque contact dans `outreach_contacts.json` avec `no_followup: true` (les relances se font à la main au chantier E, jamais par le watcher, dont le gabarit traite tout contact en média).
 
 ## Ordre d'envoi proposé
 1, 3 (emails vérifiés) cette semaine ; 2, 6, 7, 8 après confirmation du contact ; 4, 5 via
