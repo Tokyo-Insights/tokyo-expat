@@ -1,5 +1,15 @@
 # Plan d'attaque tokyo-expat (décidé le 20/10/2026)
 
+## ▶️ État (à mettre à jour à chaque fin de séance)
+| Chantier | État | Dernier geste | Prochain geste |
+|---|---|---|---|
+| A · Offre en une phrase | à faire | (aucun) | réécrire l'offre B2B et la page d'accueil (test je/vous) |
+| B · LinkedIn | à faire | (aucun) | après A |
+| C · Partenaires | à faire | HIVEN : appel du 17/10 (issue à vérifier dans Gmail) | après A |
+| D · Appels d'écoute | à faire | (aucun) | après A |
+| E · Relances | à faire | (aucun) | en continu dès le premier envoi |
+| F · Particuliers | à faire | (aucun) | après D |
+
 Décisions d'Alessandro (20/10/2026) : « on lève la pause », « on attaque fort », « si il faut mettre ma photo de
 profil sur LinkedIn alors allons-y aussi ». Pause levée le jour même (commit `bb4191b`).
 
