@@ -6,7 +6,7 @@
 | A · Offre en une phrase | ✅ FINI le 20/10 | offre validée (`outreach/offre_b2b_2026_10.md` : phrase A « dossier prêt en 48 h », 15k / 60k / 120k / 400k¥ par an, garantie sur le dossier) ; « opérateur » retiré de l'accueil FR+EN (`af23b85`), déployé et vérifié dans le HTML servi | prix à réviser après 3 conversations d'entreprise ; « chasseur immobilier » NON touché (titre d'accueil, à mesurer en GSC avant toute décision) |
 | B · LinkedIn | à faire | (aucun) | après A |
 | C · Partenaires | en cours | 20/10 : liste et messages validés ; 4 brouillons Gmail prêts (Crown, H&R, PLAZA HOMES, AFJ) ; HIVEN : 26/10 proposé, en attente | il envoie les 4 (depuis l'alias) ; TokyoDev, Sirva, Santa Fe via LinkedIn après B ; inscrire les envoyés au registre avec `no_followup` |
-| D · Appels d'écoute | à faire | (aucun) | après A |
+| D · Appels d'écoute | en cours (avancé avant B à sa demande du 20/10) | cible = entreprises qui envoient du personnel au Japon, option C (Occident + Asie anglophone) ; mesure par pays `segment_mutations_formation_2026_10_20.md` ; liste `chantier_D_liste_2026_10.md` : 8 prouvés côté B, 2 côté A | il colle la liste des VIE Japon (site Business France, depuis son navigateur) -> je complète A ; Business France Japon à ajouter en C ; puis trouver la personne par entreprise |
 | E · Relances | à faire | (aucun) | en continu dès le premier envoi |
 | F · Particuliers | à faire | (aucun) | après D |
 
