@@ -3,9 +3,9 @@
 ## ▶️ État (à mettre à jour à chaque fin de séance)
 | Chantier | État | Dernier geste | Prochain geste |
 |---|---|---|---|
-| A · Offre en une phrase | à faire | (aucun) | réécrire l'offre B2B et la page d'accueil (test je/vous) |
+| A · Offre en une phrase | en cours | 20/10 : `outreach/offre_b2b_2026_10.md` rédigée (3 phrases au choix, 3 formules + diagnostic, garantie sur le dossier ; je/vous 6/32 contre 8/7 avant ; phrase « nous gérons des meublés » retirée car elle expose l'employeur) | il choisit la phrase, valide prix et garantie ; puis page d'accueil |
 | B · LinkedIn | à faire | (aucun) | après A |
-| C · Partenaires | à faire | HIVEN : appel du 17/10 (issue à vérifier dans Gmail) | après A |
+| C · Partenaires | à faire | HIVEN (vérifié Gmail 20/10) : appel du 17/10 tenu, dîner fixé au jeu. 22/10, puis Justin demande le 19/10 de le REPORTER à la semaine prochaine ; message non lu, sans réponse | répondre à Justin (nouvelles dates), hors séquence car c'est un lead chaud |
 | D · Appels d'écoute | à faire | (aucun) | après A |
 | E · Relances | à faire | (aucun) | en continu dès le premier envoi |
 | F · Particuliers | à faire | (aucun) | après D |
