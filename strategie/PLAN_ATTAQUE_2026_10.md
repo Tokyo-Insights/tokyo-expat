@@ -77,6 +77,10 @@ Mesure : 10 conversations avant de conclure quoi que ce soit [092].
 - Webinaire, YouTube : demandent une audience existante.
 - Message de masse automatisé : 1,3 à 1,6 % de réponses avec un message vague [364 @ 02:32].
 
+## Outils transverses
+- **Kit d'appel** (20/10) : `strategie/kit_appel_2026_10.md` (fiches 102, 103, 050, 112, 052) : consultation
+  particulier, appel d'écoute entreprise, dîner HIVEN. À relire avant CHAQUE appel.
+
 ## Ordre
 Ses mots (20/10) : « un chantier à la fois », ordre laissé à Claude. **Ordre retenu : finir A (formulations du site) -> C -> B -> D -> E -> F.** C avant B : c'est le plus court vers un premier revenu et le dîner HIVEN arrive.
 
