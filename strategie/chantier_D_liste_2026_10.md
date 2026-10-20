@@ -29,12 +29,14 @@ techniques et 特定技能, logés par l'organisme, pas notre cible).
 ⚠️ B3, B4, B7 sont de grandes entreprises (le plan visait 10 à 100 salariés) : à garder seulement
 si on y trouve la personne qui gère les arrivées, pas l'adresse générale.
 
-## Côté A · Occidentaux (2 prouvés, le reste à débloquer)
+## Côté A · Occidentaux (3 prouvés au 20/10, le reste à débloquer)
 
 | # | Entreprise | Preuve (source) |
 |---|---|---|
 | A1 | Airbus Helicopters Japan | recrute en 2026 un VIE « HR Business Partner & **Global Mobility** Specialist » à Tokyo (flexa.careers). ⚠️ « Airbus Japan » a reçu un email en juin sur l'adresse COMMUNICATION, sans réponse : cette fois viser la fonction mobilité. |
-| A2 | Sumitomo (SHI) Material Solutions | offre VIE « Ingénieur support technique » au Japon citant Sumitomo (SHI) Material Solutions Europe (iagora) : un groupe japonais qui fait venir un ingénieur européen |
+| A2 | Capgemini Technology Services | **5 offres VIE à Tokyo en même temps** (PLM Teamcenter tech lead et développeur, PLM 3DEXPERIENCE et Teamcenter solution architects, MES Apriso), 12 mois chacune (site Business France, capture d'Alessandro du 20/10) : un flux régulier, viser la personne qui gère les VIE / la mobilité |
+| A3 | Jolt Capital | 1 VIE « Data Quality & Japan Deployment Engineer » à Tokyo, 18 mois (même source) ; fonds français, outil Jolt.Ninja |
+| ~~A~~ | ~~Sumitomo (SHI) Material Solutions~~ | ❌ SORTI le 20/10 : l'offre est à **Higashihiroshima**, pas à Tokyo (capture Business France) |
 
 **Le levier qui manque : les VIE.** Selon l'ambassade de France, **245 VIE travaillent au Japon
 pour 104 entreprises françaises**. Chacun arrive seul, pour 12 à 24 mois, et doit se loger. Les
