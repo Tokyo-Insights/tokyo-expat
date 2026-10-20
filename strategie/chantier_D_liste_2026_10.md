@@ -60,7 +60,8 @@ noms des entreprises sont publics sur le site officiel, mais il bloque les requ�
   tant que B est en pause.
 - ✉️ **Business France Japon** (`tokyo@businessfrance.fr`, adresse publiée par diplomatie.gouv.fr ; jamais contacté :
   0 occurrence dans les 2 registres et dans Gmail) : brouillon Gmail créé le 21/10, objet « Comment les VIE trouvent-ils
-  leur logement à Tokyo ? ». Il l'envoie depuis l'alias.
+  leur logement à Tokyo ? ». ✅ ENVOYÉ le 21/10 à 8h41 depuis l'alias (vérifié dans Envoyés), inscrit au registre
+  avec `no_followup` ; 1re relance à la main au chantier E (vers le 28/10).
 - Pistes repérées, non prouvées « 10 à 100 salariés qui font venir des étrangers » : Indo-Sakura Software Japan
   (Koto, place des ingénieurs indiens chez des clients japonais : plutôt un PARTENAIRE C ; formulaire seulement),
   Cyient K.K. (Nihonbashi, 11 à 50 salariés ; téléphone seulement). Non écrites.
