@@ -49,7 +49,7 @@ noms des entreprises sont publics sur le site officiel, mais il bloque les requ�
   contact V.I.E publié par l'ambassade), qui gère ces 245 arrivées.
 
 ## État des contacts au 20/10
-- Brouillons Gmail : Zenitus, Jolt Capital (expéditeur à basculer sur l'alias). Formulaire : Metatechno.
+- ✅ ENVOYÉS le 20/10 à 13h57 depuis l'alias : Zenitus, Jolt Capital (registre : `no_followup`). Formulaire à remplir : Metatechno.
 - Grandes entreprises (Wipro, Infosys, TCS, Terumo, Airbus Helicopters, Capgemini) : seuls des formulaires
   généraux publics ; sans LinkedIn (⏸️), faible chance d'atteindre la bonne personne. En attente.
 - Registre croisé en texte intégral : zenitus, jolt, metatechno = 0 occurrence (jamais contactés).
