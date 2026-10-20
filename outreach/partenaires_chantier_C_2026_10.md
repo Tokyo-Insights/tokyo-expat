@@ -127,7 +127,7 @@ manquent, et qui vous les envoie aujourd'hui ? »
 Relation existante. À reprendre seulement avec quelque chose de neuf à leur apporter.
 
 ## 📬 Réponses
-- **PLAZA HOMES, 20/10, en 1 h 07** (Noriko Oseko, `n.oseko@plazahomes.co.jp`) : présente ses services et propose qu'on lui RÉFÈRE des clients ; ne répond pas à l'offre en français. Lecture : une **agence agréée nommée** pour signer les baux longue durée de nos clients (notre positionnement l'exige). ⚠️ Aucune commission par client référé (宅建) ; leur offre court terme / serviced apartments touche au marché de l'employeur : référer seulement en location LONGUE. Brouillon de réponse (oui + 1 question : nous renvoyer les familles francophones) créé dans le fil.
+- **PLAZA HOMES, 20/10, en 1 h 07** (Noriko Oseko, `n.oseko@plazahomes.co.jp`) : présente ses services et propose qu'on lui RÉFÈRE des clients ; ne répond pas à l'offre en français. Lecture : une **agence agréée nommée** pour signer les baux longue durée de nos clients (notre positionnement l'exige). ⚠️ Aucune commission par client référé (宅建) ; leur offre court terme / serviced apartments touche au marché de l'employeur : référer seulement en location LONGUE. Brouillon de réponse = un simple oui pour leur référer nos locations longues (question « renvoyez-nous les familles francophones » RETIRÉE à sa demande : travail sans rémunération claire).
 
 ## ✅ Brouillons Gmail créés et relus le 20/10
 Crown, H&R, PLAZA HOMES, AFJ : 4 brouillons, partis du gmail brut -> **basculer l'expéditeur sur `contact@tokyo-expat.com` avant d'envoyer**. À l'envoi, inscrire chaque contact dans `outreach_contacts.json` avec `no_followup: true` (les relances se font à la main au chantier E, jamais par le watcher, dont le gabarit traite tout contact en média).
