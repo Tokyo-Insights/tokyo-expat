@@ -35,7 +35,7 @@ const dictionaries = {
     },
     services: {
       title: 'Nos offres',
-      subtitle: 'Des formules adaptées à chaque profil, par un opérateur qui travaille dans le marché locatif de Tokyo au quotidien, pas un call center. Consultation initiale gratuite.',
+      subtitle: 'Des formules adaptées à chaque profil, par quelqu\'un qui travaille dans le marché locatif de Tokyo au quotidien, pas un call center. Consultation initiale gratuite.',
       included: 'Ce qui est inclus',
       price_from: 'À partir de',
       book_cta: 'Réserver cette offre',
@@ -192,7 +192,7 @@ const dictionaries = {
     },
     services: {
       title: 'Our Services',
-      subtitle: 'Packages tailored to every profile, from an operator who works inside Tokyo\'s rental market every day, not a call center. Free initial consultation.',
+      subtitle: 'Packages tailored to every profile, from someone who works inside Tokyo\'s rental market every day, not a call center. Free initial consultation.',
       included: "What's included",
       price_from: 'From',
       book_cta: 'Book this service',

@@ -245,9 +245,9 @@ export default async function HomePage({
           </p>
           <h2 className="text-2xl md:text-3xl font-extrabold text-center max-w-3xl mx-auto mt-3 mb-2 leading-snug">
             {locale === 'fr' ? (
-              <>Vous ne parlez pas à un call center. Vous parlez à un <span className="text-[#c9a678]">opérateur du marché de Tokyo</span>, données réelles à l&apos;appui.</>
+              <>Vous ne parlez pas à un call center. Vous parlez à <span className="text-[#c9a678]">quelqu&apos;un qui connaît le marché de Tokyo de l&apos;intérieur</span>, données réelles à l&apos;appui.</>
             ) : (
-              <>You are not dealing with a call center. You deal with an <span className="text-[#c9a678]">operator inside Tokyo&apos;s rental market</span>, backed by real data.</>
+              <>You are not dealing with a call center. You deal with <span className="text-[#c9a678]">someone who knows Tokyo&apos;s rental market from the inside</span>, backed by real data.</>
             )}
           </h2>
           <p className="text-center text-[#9fb2c9] max-w-xl mx-auto mb-8 leading-relaxed">
@@ -265,7 +265,7 @@ export default async function HomePage({
             <div className="bg-[#12233d] border border-[#1e3352] rounded-2xl p-6 text-center">
               <div className="text-2xl font-black">Direct</div>
               <div className="text-[#9fb2c9] text-sm mt-1.5">
-                {locale === 'fr' ? 'opérateur du marché : vous parlez à quelqu\'un de l\'intérieur, pas à un call center' : 'market operator: you deal with someone on the inside, not a call center'}
+                {locale === 'fr' ? 'ligne directe : vous parlez à quelqu\'un de l\'intérieur, pas à un call center' : 'direct line: you deal with someone on the inside, not a call center'}
               </div>
             </div>
             <div className="bg-[#12233d] border border-[#1e3352] rounded-2xl p-6 text-center">
