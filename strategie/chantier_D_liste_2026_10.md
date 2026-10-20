@@ -54,6 +54,19 @@ noms des entreprises sont publics sur le site officiel, mais il bloque les requ�
   généraux publics ; sans LinkedIn (⏸️), faible chance d'atteindre la bonne personne. En attente.
 - Registre croisé en texte intégral : zenitus, jolt, metatechno = 0 occurrence (jamais contactés).
 
+## État au 21/10
+- Recherche de contacts nominatifs pour les grands groupes (Airbus Helicopters, Capgemini, Wipro, Infosys, TCS) :
+  **aucun contact mobilité / RH public** hors LinkedIn (seulement adresses presse ou formulaires généraux). Voie close
+  tant que B est en pause.
+- ✉️ **Business France Japon** (`tokyo@businessfrance.fr`, adresse publiée par diplomatie.gouv.fr ; jamais contacté :
+  0 occurrence dans les 2 registres et dans Gmail) : brouillon Gmail créé le 21/10, objet « Comment les VIE trouvent-ils
+  leur logement à Tokyo ? ». Il l'envoie depuis l'alias.
+- Pistes repérées, non prouvées « 10 à 100 salariés qui font venir des étrangers » : Indo-Sakura Software Japan
+  (Koto, place des ingénieurs indiens chez des clients japonais : plutôt un PARTENAIRE C ; formulaire seulement),
+  Cyient K.K. (Nihonbashi, 11 à 50 salariés ; téléphone seulement). Non écrites.
+- VIE (définition pour mémoire) : Volontariat International en Entreprise, programme public géré par Business France ;
+  une entreprise française envoie un jeune diplômé à l'étranger 6 à 24 mois. Chaque VIE arrive seul et se loge.
+
 ## Les messages (à adapter par nom une fois la personne trouvée)
 
 **Anglais (B2 à B5, B8, A1)**

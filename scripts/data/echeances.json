@@ -33,9 +33,11 @@
       "commande": "python scripts/gsc_daily_backfill_check.py --compare",
       "fiche": "session_log_2026_09_20.md",
       "actif": true,
-      "fait": false,
+      "fait": true,
       "notifie_le": "2026-10-21",
-      "rappels": 2
+      "rappels": 2,
+      "fait_le": "2026-10-21",
+      "fait_comment": "21/10: --compare = 0 jour change depuis les releves du 17/09, 20/09 ET 24/09. La GSC ne se remplit pas apres coup: FAIT, plus de deduction."
     },
     {
       "id": "post-oc-furnished",
@@ -67,9 +69,11 @@
       "commande": "",
       "fiche": "project_page_disponibilites_design.md",
       "actif": true,
-      "fait": false,
+      "fait": true,
       "notifie_le": "2026-10-21",
-      "rappels": 1
+      "rappels": 1,
+      "fait_le": "2026-10-21",
+      "fait_comment": "21/10: aucune des 3 conditions. (1) cluster gaijin house = 4 clics / 1 380 impr sur 28 j (0,3 %), 'cheap gaijin house in tokyo' 290 impr 0 clic; (2) 0 demande; (3) aucune question de dispo repetee. Page dispos RESTE reportee."
     },
     {
       "id": "test-calendly-octobre",
@@ -79,9 +83,11 @@
       "commande": "",
       "fiche": "feedback_daily_protocols.md",
       "actif": true,
-      "fait": false,
+      "fait": true,
       "notifie_le": "2026-10-21",
-      "rappels": 1
+      "rappels": 1,
+      "fait_le": "2026-10-21",
+      "fait_comment": "Valide par une VRAIE reservation: Damien (HIVEN), notif Calendly 'New Event' recue le 15/10 (UID 1773). Decision d'Alessandro le 21/10: une resa reelle dans le mois vaut test."
     },
     {
       "id": "temoin-cheap-gaijin-house",
@@ -91,9 +97,11 @@
       "commande": "python scripts/gsc_analytics.py",
       "fiche": "project_test_titre_gaijin_house_2026_09_09.md",
       "actif": true,
-      "fait": false,
+      "fait": true,
       "notifie_le": "2026-10-21",
-      "rappels": 1
+      "rappels": 1,
+      "fait_le": "2026-10-21",
+      "fait_comment": "21/10: 712 impr 0 clic pos 4,6 (19/08-15/09) -> 290 impr 0 clic pos 4,8 (20/09-17/10). Zero clic dans les deux fenetres: l'apercu IA tient. Cluster NE PAS investir."
     },
     {
       "id": "lecture-fusion-1409",
@@ -103,9 +111,11 @@
       "commande": "python scripts/gsc_analytics.py",
       "fiche": "project_gisement_francais_2026_09_10.md",
       "actif": true,
-      "fait": false,
+      "fait": true,
       "notifie_le": "2026-10-21",
-      "rappels": 1
+      "rappels": 1,
+      "fait_le": "2026-10-21",
+      "fait_comment": "21/10 (memes fenetres 28 j sans chevauchement): -guide 757 impr / 0 clic / pos 18,9 -> 227 impr / 4 clics / pos 10,7. Premiers clics du cluster; la position est en partie MECANIQUE (impressions en baisse, couplage connu). -octobre ne fait plus que 5 impr (pos 30,8): la fusion n2 ne coute ni ne rapporte presque rien. Decision a Alessandro."
     },
     {
       "id": "test-photo",
@@ -115,9 +125,11 @@
       "commande": "python scripts/photo_experiment.py --report",
       "fiche": "reference_lead_capture_sources.md",
       "actif": true,
-      "fait": false,
+      "fait": true,
       "notifie_le": "2026-10-21",
-      "rappels": 1
+      "rappels": 1,
+      "fait_le": "2026-10-21",
+      "fait_comment": "21/10 (J+35): par page, AUCUN effet (engagement TEST -45,9 pts vs CONTROLE +16,7; clics TEST +0 vs CONTROLE +2). Google Images site entier 4 -> 195 impr, 3 clics, mais melange avec les ~87 graphiques du sitemap. Test CLOS: pas de photos a generaliser; les 3 temoins sont liberes."
     },
     {
       "id": "baseline-jiko-bukken",
@@ -127,9 +139,11 @@
       "commande": "python scripts/gsc_analytics.py",
       "fiche": "project_cannibalisation_page_query_2026_09_19.md",
       "actif": true,
-      "fait": false,
+      "fait": true,
       "notifie_le": "2026-10-21",
-      "rappels": 1
+      "rappels": 1,
+      "fait_le": "2026-10-21",
+      "fait_comment": "21/10, meme methode query x page sur les deux fenetres (la baseline figee 1 016/28 venait d'une autre methode): page EN 1 021 impr / 11 clics -> 633 / 10; sous-intention CARTE 390 / 5 (1,3 %) -> 300 / 5 (1,7 %); 'jikobukken map' 0 -> 1 clic, 'jiko bukken map' 0 -> 1. Ecart minuscule a 5 clics: PAS un signal. Enrichissement neutre, rien a defaire."
     },
     {
       "id": "fenetre-etudiante-avril-2027",
