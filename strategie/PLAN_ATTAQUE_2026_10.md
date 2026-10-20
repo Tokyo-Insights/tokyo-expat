@@ -5,7 +5,7 @@
 |---|---|---|---|
 | A · Offre en une phrase | ✅ offre VALIDÉE le 20/10 (phrase A « dossier prêt en 48 h », prix 15k / 60k / 120k / 400k¥ par an, garantie sur le dossier) | `outreach/offre_b2b_2026_10.md` ; je/vous 6/32 contre 8/7 avant ; « nous gérons des meublés » retiré (expose l'employeur) | reste : site (« opérateur », « chasseur immobilier » ; les prix en € du code ne s'affichent que dans les devis privés, vérifié), à proposer avant tout déploiement ; prix à réviser après 3 conversations d'entreprise |
 | B · LinkedIn | à faire | (aucun) | après A |
-| C · Partenaires | à faire | HIVEN (vérifié Gmail 20/10) : appel du 17/10 tenu, dîner fixé au jeu. 22/10, puis Justin demande le 19/10 de le REPORTER à la semaine prochaine ; message non lu, sans réponse | répondre à Justin (nouvelles dates), hors séquence car c'est un lead chaud |
+| C · Partenaires | à faire | HIVEN : appel du 17/10 tenu ; dîner du 22/10 reporté à leur demande ; le 20/10 il a proposé le lun. 26/10 ou leurs soirs (envoyé, depuis le gmail brut et non l'alias) | attendre la réponse de Justin ; liste de 10 partenaires après A |
 | D · Appels d'écoute | à faire | (aucun) | après A |
 | E · Relances | à faire | (aucun) | en continu dès le premier envoi |
 | F · Particuliers | à faire | (aucun) | après D |
@@ -78,4 +78,6 @@ Mesure : 10 conversations avant de conclure quoi que ce soit [092].
 - Message de masse automatisé : 1,3 à 1,6 % de réponses avec un message vague [364 @ 02:32].
 
 ## Ordre
-A (offre) -> B (LinkedIn) et C (partenaires) -> D (appels d'écoute) -> E (relances, en continu) -> F.
+Ses mots (20/10) : « un chantier à la fois », ordre laissé à Claude. **Ordre retenu : finir A (formulations du site) -> C -> B -> D -> E -> F.** C avant B : c'est le plus court vers un premier revenu et le dîner HIVEN arrive.
+
+Ordre d'origine : A (offre) -> B (LinkedIn) et C (partenaires) -> D (appels d'écoute) -> E (relances, en continu) -> F.
