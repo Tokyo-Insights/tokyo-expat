@@ -1472,24 +1472,6 @@ export const faqData: Record<string, FaqItem[]> = {
   // ============================================================
   // EN: Student housing October
   // ============================================================
-  'student-housing-tokyo-october': [
-    {
-      question: 'When should international students arriving in October start looking for housing in Tokyo?',
-      answer: 'Start your search in June-July for October enrollment. University dormitory applications often close in May-June. Share houses with availability in October fill up from August onwards as students finalize enrollment. Waiting until September significantly limits your options for October move-in.',
-    },
-    {
-      question: 'Is October a competitive time for student housing in Tokyo?',
-      answer: 'Yes, moderately. October is the second enrollment peak (after April). Universities with October intake (Waseda, Sophia, several graduate programs) generate significant housing demand. Share houses within walking distance of these campuses fill up quickly. Book 2-3 months in advance for the best selection.',
-    },
-    {
-      question: 'Can I find student housing in Tokyo with a short lease for October?',
-      answer: 'Yes. Short-term options for October enrollment include: furnished apartments with 3-6 month contracts, share houses with month-to-month agreements (most operators), and university accommodation if available. These allow you to settle in and search for a longer-term apartment after arriving and understanding the city.',
-    },
-    {
-      question: 'What neighborhood should I live in as a student starting in October in Tokyo?',
-      answer: 'Choose based on your university: Waseda students should look in Takadanobaba or Waseda. Sophia students in Yotsuya or Shinjuku. Keio students in Mita or Shibuya. The extra cost of proximity to campus is usually worth it in the first semester while you are building your Tokyo network and daily routine.',
-    },
-  ],
 
   // ============================================================
   // EN: Furnished apartment top 5
@@ -2224,24 +2206,6 @@ export const faqData: Record<string, FaqItem[]> = {
   // ============================================================
   // FR: Logement etudiant Tokyo octobre
   // ============================================================
-  'logement-etudiant-tokyo-octobre': [
-    {
-      question: 'Quand les etudiants etrangers arrivant en octobre doivent-ils commencer a chercher un logement a Tokyo?',
-      answer: 'Commencez votre recherche en juin-juillet pour une inscription en octobre. Les dossiers de residence universitaire ferment souvent en mai-juin. Les share houses avec disponibilite en octobre se remplissent a partir d\'aout, car les etudiants finalisent leurs inscriptions. Attendre septembre limite considerablement vos options pour un emmenagement en octobre.',
-    },
-    {
-      question: 'Octobre est-il une periode competitive pour le logement etudiant a Tokyo?',
-      answer: 'Oui, moderement. Octobre est le deuxieme pic d\'inscription (apres avril). Les universites avec entree en octobre (Waseda, Sophia, plusieurs programmes de master) generent une demande importante de logement. Les share houses a proximite de ces campus se remplissent rapidement. Reservez 2 a 3 mois a l\'avance pour le meilleur choix.',
-    },
-    {
-      question: 'Peut-on trouver un logement etudiant a Tokyo avec un bail court pour octobre?',
-      answer: 'Oui. Les options courte duree pour l\'entree d\'octobre incluent: appartements meubles avec contrats de 3 a 6 mois, share houses avec accords mois par mois (la plupart des operateurs), et logement universitaire si disponible. Cela vous permet de vous installer et de chercher un appartement plus long terme apres etre arrive et avoir explore la ville.',
-    },
-    {
-      question: 'Dans quel quartier habiter en tant qu\'etudiant commencant en octobre a Tokyo?',
-      answer: 'Choisissez en fonction de votre universite: les etudiants de Waseda a Takadanobaba ou Waseda, de Sophia a Yotsuya ou Shinjuku, de Keio a Mita ou Shibuya. Le cout supplementaire de la proximite du campus vaut generalement la peine pour le premier semestre pendant lequel vous construisez votre reseau tokyoite.',
-    },
-  ],
 
   // ============================================================
   // FR: Appartements meubles Tokyo top 5

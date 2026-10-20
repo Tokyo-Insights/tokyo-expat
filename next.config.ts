@@ -57,6 +57,10 @@ const nextConfig: NextConfig = {
       // dans le guide AVANT la suppression. Titre du guide non touche: il est protege.
       { source: '/fr/blog/logement-etudiant-tokyo-2026', destination: '/fr/blog/logement-etudiant-tokyo-guide', permanent: true },
       { source: '/en/blog/student-housing-tokyo-guide-2026', destination: '/en/blog/student-housing-tokyo-guide', permanent: true },
+      // Fusion n2 (21/10/2026, decision d'Alessandro: zero cannibalisation). -octobre ne pesait plus que 5 impr / 28 j.
+      // Son calendrier des reservations (avril / automne, declencheur = lettre d'admission) a ete porte dans les deux guides AVANT.
+      { source: '/fr/blog/logement-etudiant-tokyo-octobre', destination: '/fr/blog/logement-etudiant-tokyo-guide', permanent: true },
+      { source: '/en/blog/student-housing-tokyo-october', destination: '/en/blog/student-housing-tokyo-guide', permanent: true },
     ]
   },
 }
