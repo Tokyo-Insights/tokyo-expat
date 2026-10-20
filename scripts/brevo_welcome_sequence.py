@@ -117,35 +117,35 @@ templates = [
 <p>Thanks for downloading the Japan Relocation Checklist. In case you have not opened it yet, here it is again:</p>
 <p>{btn("Download the checklist (PDF)", "https://www.tokyo-expat.com/japan-relocation-checklist.pdf")}</p>
 <p>I'm Alessandro. I live in Tokyo and I help foreigners settle in Japan. This checklist gathers everything I wish I had known before arriving: visa, residence card, housing without a guarantor, banking, health insurance.</p>
-<p>Any question about your move? Just reply to this email, I read everything personally.</p>
+<p>Over the next three weeks, I will send you five short emails about housing in Tokyo. They are useful even if you do everything yourself. One of them will also present my paid support: you will know what it is for, and you will never have to take it.</p>
+<p><strong>One question, if you have thirty seconds</strong>: what is blocking you most in your move right now? Reply in one sentence. I read everything myself.</p>
 <p>Talk soon,<br>Alessandro</p>
-"""),
+""", "en"),
     },
     {
         "name": "[EN] Welcome 2 - The housing mistake",
-        "subject": "The mistake 90% of expats make with Tokyo housing",
+        "subject": "No Japanese guarantor? You can still rent in Tokyo",
         "html": wrap(f"""
 <p>Hi,</p>
-<p>The most common mistake when looking for housing in Tokyo: assuming you can sign a standard lease without a Japanese guarantor. The result is weeks lost and repeated rejections.</p>
-<p>The reality: there are options accessible from day one (share houses, monthly mansions, furnished apartments) that require no guarantor and no hidden agency fees. That's exactly what I cover here:</p>
-<p>{btn("Read the housing guide", "https://www.tokyo-expat.com/en/blog")}</p>
-<p>If you are preparing your arrival and want a view on your specific situation, reply with your timing and budget. I'll point you in the right direction.</p>
+<p>This is the belief that wastes the most time: thinking you need a Japanese guarantor to rent in Tokyo. People wait, look for a guarantor they will never have, and the rejections pile up.</p>
+<p>In reality, almost every lease now goes through a guarantor company, and there are homes you can access as soon as you arrive (share houses, monthly furnished apartments) with no guarantor and no hidden agency fees. It is all explained here:</p>
+<p>{btn("Renting in Tokyo without a guarantor", "https://www.tokyo-expat.com/en/blog/guarantor-japan-rental-foreigner")}</p>
+<p>If you would like a view on your situation, reply with your dates and your budget.</p>
 <p>Alessandro</p>
-"""),
+""", "en"),
     },
     {
         "name": "[EN] Welcome 3 - Need a hand",
-        "subject": "Need a hand with your move to Japan?",
+        "subject": "What happens when you start your Tokyo housing search too late",
         "html": wrap(f"""
 <p>Hi,</p>
-<p>Preparing a move to Japan from abroad is doable but time-consuming: finding the right neighbourhood, avoiding contract traps, sequencing the admin in the right order.</p>
-<p>If you would rather delegate or simply de-risk your choices, I offer personalised support, from a single consultation to a full housing search.</p>
-<p>{btn("See how I can help", "https://www.tokyo-expat.com/en/services")}</p>
-<p>Often the fastest route is simply to talk it through: 30 minutes, free, no obligation. You leave with a clear read on your situation, even if you then handle everything yourself.</p>
-<p>{btn("Book a free call", "https://www.tokyo-expat.com/en/contact")}</p>
-<p>And if you just have a question, reply to this email. Always happy to help.</p>
-<p>Alessandro<br>Tokyo Expat</p>
-"""),
+<p>Many people moving to Tokyo start looking for housing a few weeks before they leave. That is often too late.</p>
+<p>Homes that accept foreigners go within days, each rejected application costs a week, and between January and March, when all of Japan moves, competition is at its peak. People end up in overpriced temporary housing, or far from work, telling themselves they will move again later.</p>
+<p>What changes everything is having a complete application before viewing anything, and a list of homes you already know will accept your profile. That is exactly what I do for my clients: rental file ready in 48 hours, options confirmed before they are sent, lease explained in English.</p>
+<p>{btn("I want Alessandro to look at my situation", "https://www.tokyo-expat.com/en/contact")}</p>
+<p>One click is enough: I will offer you a free 30-minute call, and you will leave with a clear view even if you then do everything yourself.</p>
+<p>Alessandro</p>
+""", "en"),
     },
     # ---------------- FR (rallonge sequence, J+9/J+14/J+21) ----------------
     {
@@ -194,14 +194,14 @@ templates = [
         "subject": "The 3 documents that get your Tokyo rental approved",
         "html": wrap(f"""
 <p>Hi,</p>
-<p>When a Japanese landlord hesitates, it is almost never personal: it is about perceived risk. And three documents are often enough to remove that doubt:</p>
-<p><strong>1.</strong> A guarantor company (in place of a Japanese guarantor).<br>
-<strong>2.</strong> Clean proof of income (payslip, tax document or bank statement).<br>
-<strong>3.</strong> Residence card and passport, a complete application presented in Japanese.</p>
-<p>With those three prepared well, most rejections disappear.</p>
+<p>When a Japanese landlord hesitates, it is almost never personal: it is about perceived risk. Three documents are often enough to remove that doubt:</p>
+<p><strong>1.</strong> Approval from a guarantor company (in place of a Japanese guarantor).<br>
+<strong>2.</strong> Proof of income (payslip, tax document or bank statement).<br>
+<strong>3.</strong> Residence card and passport, with a complete application presented in Japanese.</p>
+<p>With those three prepared well, many rejections disappear.</p>
 <p>{btn("Read the full guide", "https://www.tokyo-expat.com/en/blog/why-japanese-landlords-reject-foreigners")}</p>
 <p>Alessandro</p>
-"""),
+""", "en"),
     },
     {
         "name": "[EN] Welcome 5 - From the landlord side",
@@ -212,19 +212,22 @@ templates = [
 <p>Another surprise: the same profile can be rejected on one property and approved on another the same week. What changes is rarely the tenant. It is how the application is presented.</p>
 <p>{btn("Read the full article", "https://www.tokyo-expat.com/en/blog/why-japanese-landlords-reject-foreigners")}</p>
 <p>Alessandro</p>
-"""),
+""", "en"),
     },
     {
         "name": "[EN] Welcome 6 - When to get help",
-        "subject": "When it's worth getting help (and when it's not)",
+        "subject": "\"I can do it myself\", and 3 other reasons to hesitate",
         "html": wrap(f"""
 <p>Hi,</p>
-<p>Let's be honest: if you have time, a tight budget and some patience, you can find housing in Tokyo yourself. Plenty of people do.</p>
-<p>Getting help is worth it when: you are short on time, you do not speak Japanese, you risk application rejections, or you simply want to avoid costly mistakes. In that case, I handle the search, viewings, negotiation and the contract, in English.</p>
-<p>If that sounds like your situation, let's talk: a 30-minute call, free and with no obligation.</p>
+<p>I promised to present my support. Here are the reasons people give me for not taking it, and my honest answer to each.</p>
+<p><strong>"I can do it myself."</strong> Often, yes. If you have time, a flexible budget and some Japanese, go for it: the guides in these emails are enough. Support is worth it when time is short or the rejections pile up.</p>
+<p><strong>"It's not the right time, I don't have my dates yet."</strong> That is exactly the best time to prepare your application: the file is what saves you weeks, not the viewing.</p>
+<p><strong>"Why not just use an agency?"</strong> An agency is paid when a lease is signed. I am paid by you alone, whatever home you choose: my only interest is that you are well housed. The lease is signed with a licensed agency; my role is advice and support, in English.</p>
+<p><strong>"What if it leads nowhere?"</strong> If I send you no housing option during the mission, you get a full refund.</p>
+<p>If that sounds like your situation, let's talk: 30 minutes, free, no obligation.</p>
 <p>{btn("Book a free call", "https://www.tokyo-expat.com/en/contact")}</p>
-<p>Alessandro<br>Tokyo Expat</p>
-"""),
+<p>Alessandro</p>
+""", "en"),
     },
 ]
 
