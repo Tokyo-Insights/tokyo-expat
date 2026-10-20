@@ -1,0 +1,68 @@
+{
+ "1": {
+  "name": "[FR] Bienvenue 1 - Checklist + qui je suis",
+  "subject": "Votre checklist relocation Japon est ici",
+  "htmlContent": "<!DOCTYPE html><html><body style=\"margin:0;padding:0;background:#f4f4f4;font-family:Arial,Helvetica,sans-serif;\">\n<table width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" style=\"background:#f4f4f4;padding:24px 0;\">\n<tr><td align=\"center\">\n<table width=\"600\" cellpadding=\"0\" cellspacing=\"0\" style=\"background:#ffffff;border-radius:12px;overflow:hidden;max-width:600px;\">\n<tr><td style=\"background:#0f2744;padding:20px 32px;\">\n<span style=\"color:#ffffff;font-size:18px;font-weight:bold;\">Tokyo Expat</span>\n</td></tr>\n<tr><td style=\"padding:32px;color:#1a1a1a;font-size:15px;line-height:1.6;\">\n\n<p>Bonjour,</p>\n<p>Merci d'avoir téléchargé la Checklist Relocation Japon. Si vous ne l'avez pas encore ouverte, la voici à nouveau :</p>\n<p><a href=\"https://www.tokyo-expat.com/checklist-relocation-japon.pdf\" style=\"display:inline-block;background:#e84141;color:#fff;text-decoration:none;padding:12px 24px;border-radius:8px;font-weight:bold;\">Télécharger la checklist (PDF)</a></p>\n<p>Je suis Alessandro. Je vis à Tokyo et j'accompagne les francophones qui s'installent au Japon. Cette checklist rassemble tout ce que j'aurais aimé savoir avant d'arriver : visa, carte de séjour, logement sans garant, banque, assurance santé.</p>\n\n<table width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" style=\"margin:24px 0;\">\n<tr><td style=\"background:#f7f9fc;border-left:4px solid #e84141;padding:16px 20px;border-radius:0 8px 8px 0;\">\n<p style=\"margin:0 0 8px 0;font-weight:bold;color:#0f2744;\">Une question, si vous avez trente secondes</p>\n<p style=\"margin:0;\">Qu'est-ce qui vous bloque le plus en ce moment dans votre projet ? Répondez-moi en une phrase, même très brève. Je lis tout moi-même, et ce sont ces réponses qui me disent quoi creuser ensuite.</p>\n</td></tr>\n</table>\n\n<p>À bientôt,<br>Alessandro</p>\n\n</td></tr>\n<tr><td style=\"padding:20px 32px;background:#f4f4f4;color:#888;font-size:12px;\">\nTokyo Expat &middot; <a href=\"https://www.tokyo-expat.com\" style=\"color:#0f2744;\">tokyo-expat.com</a><br>\nVous recevez cet email car vous avez téléchargé un guide gratuit. {{ unsubscribe }}\n</td></tr>\n</table></td></tr></table></body></html>",
+  "sender": {
+   "name": "Alessandro - Tokyo Expat",
+   "email": "contact@tokyo-expat.com",
+   "id": 2
+  },
+  "isActive": true
+ },
+ "2": {
+  "name": "[FR] Bienvenue 2 - L'erreur logement",
+  "subject": "L'erreur que font 90% des expats sur le logement a Tokyo",
+  "htmlContent": "<!DOCTYPE html><html><body style=\"margin:0;padding:0;background:#f4f4f4;font-family:Arial,Helvetica,sans-serif;\">\n<table width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" style=\"background:#f4f4f4;padding:24px 0;\">\n<tr><td align=\"center\">\n<table width=\"600\" cellpadding=\"0\" cellspacing=\"0\" style=\"background:#ffffff;border-radius:12px;overflow:hidden;max-width:600px;\">\n<tr><td style=\"background:#0f2744;padding:20px 32px;\">\n<span style=\"color:#ffffff;font-size:18px;font-weight:bold;\">Tokyo Expat</span>\n</td></tr>\n<tr><td style=\"padding:32px;color:#1a1a1a;font-size:15px;line-height:1.6;\">\n\n<p>Bonjour,</p>\n<p>L'erreur la plus frequente quand on cherche un logement a Tokyo : croire qu'on peut signer un bail classique sans garant japonais. Resultat, des semaines perdues et des refus en chaine.</p>\n<p>La realite : il existe des solutions accessibles des le depart (share houses, monthly mansions, appartements meubles) qui ne demandent ni garant ni frais d'agence caches. C'est exactement ce que je couvre ici :</p>\n<p><a href=\"https://www.tokyo-expat.com/fr/blog\" style=\"display:inline-block;background:#e84141;color:#fff;text-decoration:none;padding:12px 24px;border-radius:8px;font-weight:bold;\">Lire le guide logement</a></p>\n<p>Si vous preparez votre arrivee et que vous voulez un avis sur votre situation precise, repondez a cet email avec votre timing et votre budget. Je vous oriente.</p>\n<p>Alessandro</p>\n\n</td></tr>\n<tr><td style=\"padding:20px 32px;background:#f4f4f4;color:#888;font-size:12px;\">\nTokyo Expat &middot; <a href=\"https://www.tokyo-expat.com\" style=\"color:#0f2744;\">tokyo-expat.com</a><br>\nVous recevez cet email car vous avez telecharge un guide gratuit. {{ unsubscribe }}\n</td></tr>\n</table></td></tr></table></body></html>",
+  "sender": {
+   "name": "Alessandro - Tokyo Expat",
+   "email": "contact@tokyo-expat.com",
+   "id": 2
+  },
+  "isActive": true
+ },
+ "3": {
+  "name": "[FR] Bienvenue 3 - Besoin d'aide",
+  "subject": "Besoin d'un coup de main pour votre installation ?",
+  "htmlContent": "<!DOCTYPE html><html><body style=\"margin:0;padding:0;background:#f4f4f4;font-family:Arial,Helvetica,sans-serif;\">\n<table width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" style=\"background:#f4f4f4;padding:24px 0;\">\n<tr><td align=\"center\">\n<table width=\"600\" cellpadding=\"0\" cellspacing=\"0\" style=\"background:#ffffff;border-radius:12px;overflow:hidden;max-width:600px;\">\n<tr><td style=\"background:#0f2744;padding:20px 32px;\">\n<span style=\"color:#ffffff;font-size:18px;font-weight:bold;\">Tokyo Expat</span>\n</td></tr>\n<tr><td style=\"padding:32px;color:#1a1a1a;font-size:15px;line-height:1.6;\">\n\n<p>Bonjour,</p>\n<p>Preparer une installation au Japon a distance, c'est gerable mais chronophage : trouver le bon quartier, eviter les pieges de contrat, caler les demarches dans le bon ordre.</p>\n<p>Si vous preferez deleguer ou simplement securiser vos choix, je propose un accompagnement personnalise, de la simple consultation a la recherche de logement complete.</p>\n<p><a href=\"https://www.tokyo-expat.com/fr/services\" style=\"display:inline-block;background:#e84141;color:#fff;text-decoration:none;padding:12px 24px;border-radius:8px;font-weight:bold;\">Voir comment je peux aider</a></p>\n<p>Le plus simple reste souvent d'en parler de vive voix : 30 minutes, gratuit, sans engagement. Vous repartez avec un avis clair sur votre situation, meme si vous faites tout vous-meme ensuite.</p>\n<p><a href=\"https://www.tokyo-expat.com/fr/contact\" style=\"display:inline-block;background:#e84141;color:#fff;text-decoration:none;padding:12px 24px;border-radius:8px;font-weight:bold;\">Reserver un appel gratuit</a></p>\n<p>Et si vous avez juste une question, repondez a cet email. Toujours ravi d'aider.</p>\n<p>Alessandro<br>Tokyo Expat</p>\n\n</td></tr>\n<tr><td style=\"padding:20px 32px;background:#f4f4f4;color:#888;font-size:12px;\">\nTokyo Expat &middot; <a href=\"https://www.tokyo-expat.com\" style=\"color:#0f2744;\">tokyo-expat.com</a><br>\nVous recevez cet email car vous avez telecharge un guide gratuit. {{ unsubscribe }}\n</td></tr>\n</table></td></tr></table></body></html>",
+  "sender": {
+   "name": "Alessandro - Tokyo Expat",
+   "email": "contact@tokyo-expat.com",
+   "id": 2
+  },
+  "isActive": true
+ },
+ "7": {
+  "name": "[FR] Bienvenue 4 - Les documents",
+  "subject": "Les 3 documents qui font accepter votre dossier a Tokyo",
+  "htmlContent": "<!DOCTYPE html><html><body style=\"margin:0;padding:0;background:#f4f4f4;font-family:Arial,Helvetica,sans-serif;\">\n<table width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" style=\"background:#f4f4f4;padding:24px 0;\">\n<tr><td align=\"center\">\n<table width=\"600\" cellpadding=\"0\" cellspacing=\"0\" style=\"background:#ffffff;border-radius:12px;overflow:hidden;max-width:600px;\">\n<tr><td style=\"background:#0f2744;padding:20px 32px;\">\n<span style=\"color:#ffffff;font-size:18px;font-weight:bold;\">Tokyo Expat</span>\n</td></tr>\n<tr><td style=\"padding:32px;color:#1a1a1a;font-size:15px;line-height:1.6;\">\n\n<p>Bonjour,</p>\n<p>Quand un proprietaire japonais hesite, ce n'est presque jamais personnel : c'est une question de risque percu. Et trois documents suffisent souvent a lever ce doute :</p>\n<p><strong>1.</strong> Une societe de garantie (a la place d'un garant japonais).<br>\n<strong>2.</strong> Une preuve de revenus propre (fiche de paie, avis d'imposition ou releve bancaire).<br>\n<strong>3.</strong> Carte de sejour et passeport, dossier complet et presente en japonais.</p>\n<p>Avec ces trois elements bien prepares, la plupart des refus disparaissent.</p>\n<p><a href=\"https://www.tokyo-expat.com/fr/blog/pourquoi-proprietaires-japonais-refusent-etrangers\" style=\"display:inline-block;background:#e84141;color:#fff;text-decoration:none;padding:12px 24px;border-radius:8px;font-weight:bold;\">Voir le guide complet</a></p>\n<p>Alessandro</p>\n\n</td></tr>\n<tr><td style=\"padding:20px 32px;background:#f4f4f4;color:#888;font-size:12px;\">\nTokyo Expat &middot; <a href=\"https://www.tokyo-expat.com\" style=\"color:#0f2744;\">tokyo-expat.com</a><br>\nVous recevez cet email car vous avez telecharge un guide gratuit. {{ unsubscribe }}\n</td></tr>\n</table></td></tr></table></body></html>",
+  "sender": {
+   "name": "Alessandro - Tokyo Expat",
+   "email": "contact@tokyo-expat.com",
+   "id": 2
+  },
+  "isActive": true
+ },
+ "8": {
+  "name": "[FR] Bienvenue 5 - Vu du cote proprietaire",
+  "subject": "Pourquoi les proprietaires disent non (vu de l'interieur)",
+  "htmlContent": "<!DOCTYPE html><html><body style=\"margin:0;padding:0;background:#f4f4f4;font-family:Arial,Helvetica,sans-serif;\">\n<table width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" style=\"background:#f4f4f4;padding:24px 0;\">\n<tr><td align=\"center\">\n<table width=\"600\" cellpadding=\"0\" cellspacing=\"0\" style=\"background:#ffffff;border-radius:12px;overflow:hidden;max-width:600px;\">\n<tr><td style=\"background:#0f2744;padding:20px 32px;\">\n<span style=\"color:#ffffff;font-size:18px;font-weight:bold;\">Tokyo Expat</span>\n</td></tr>\n<tr><td style=\"padding:32px;color:#1a1a1a;font-size:15px;line-height:1.6;\">\n\n<p>Bonjour,</p>\n<p>Je travaille dans le marche locatif de Tokyo au quotidien, et je vois passer les dossiers du cote proprietaire. La verite surprend souvent : ce n'est pas le proprietaire seul qui decide. La societe de gestion et la societe de garantie evaluent aussi, et n'importe laquelle peut refuser, sans donner de raison.</p>\n<p>Autre surprise : le meme profil peut etre refuse sur un bien et accepte sur un autre la meme semaine. Ce qui change, c'est rarement le locataire. C'est la facon dont le dossier est presente.</p>\n<p><a href=\"https://www.tokyo-expat.com/fr/blog/pourquoi-proprietaires-japonais-refusent-etrangers\" style=\"display:inline-block;background:#e84141;color:#fff;text-decoration:none;padding:12px 24px;border-radius:8px;font-weight:bold;\">Lire l'article complet</a></p>\n<p>Alessandro</p>\n\n</td></tr>\n<tr><td style=\"padding:20px 32px;background:#f4f4f4;color:#888;font-size:12px;\">\nTokyo Expat &middot; <a href=\"https://www.tokyo-expat.com\" style=\"color:#0f2744;\">tokyo-expat.com</a><br>\nVous recevez cet email car vous avez telecharge un guide gratuit. {{ unsubscribe }}\n</td></tr>\n</table></td></tr></table></body></html>",
+  "sender": {
+   "name": "Alessandro - Tokyo Expat",
+   "email": "contact@tokyo-expat.com",
+   "id": 2
+  },
+  "isActive": true
+ },
+ "9": {
+  "name": "[FR] Bienvenue 6 - Quand se faire aider",
+  "subject": "Quand ca vaut le coup de se faire aider (et quand non)",
+  "htmlContent": "<!DOCTYPE html><html><body style=\"margin:0;padding:0;background:#f4f4f4;font-family:Arial,Helvetica,sans-serif;\">\n<table width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" style=\"background:#f4f4f4;padding:24px 0;\">\n<tr><td align=\"center\">\n<table width=\"600\" cellpadding=\"0\" cellspacing=\"0\" style=\"background:#ffffff;border-radius:12px;overflow:hidden;max-width:600px;\">\n<tr><td style=\"background:#0f2744;padding:20px 32px;\">\n<span style=\"color:#ffffff;font-size:18px;font-weight:bold;\">Tokyo Expat</span>\n</td></tr>\n<tr><td style=\"padding:32px;color:#1a1a1a;font-size:15px;line-height:1.6;\">\n\n<p>Bonjour,</p>\n<p>Soyons honnetes : si vous avez du temps, un budget serre et un peu de patience, vous pouvez trouver un logement a Tokyo par vous-meme. Beaucoup y arrivent.</p>\n<p>Se faire aider vaut le coup quand : vous manquez de temps, vous ne parlez pas japonais, vous risquez des refus de dossier, ou vous voulez simplement eviter les erreurs couteuses. Dans ce cas, je gere la recherche, les visites, la negociation et le contrat, en francais.</p>\n<p>Si votre situation entre dans ce cadre, parlons-en : un appel de 30 minutes, gratuit et sans engagement.</p>\n<p><a href=\"https://www.tokyo-expat.com/fr/contact\" style=\"display:inline-block;background:#e84141;color:#fff;text-decoration:none;padding:12px 24px;border-radius:8px;font-weight:bold;\">Reserver un appel gratuit</a></p>\n<p>Alessandro<br>Tokyo Expat</p>\n\n</td></tr>\n<tr><td style=\"padding:20px 32px;background:#f4f4f4;color:#888;font-size:12px;\">\nTokyo Expat &middot; <a href=\"https://www.tokyo-expat.com\" style=\"color:#0f2744;\">tokyo-expat.com</a><br>\nVous recevez cet email car vous avez telecharge un guide gratuit. {{ unsubscribe }}\n</td></tr>\n</table></td></tr></table></body></html>",
+  "sender": {
+   "name": "Alessandro - Tokyo Expat",
+   "email": "contact@tokyo-expat.com",
+   "id": 2
+  },
+  "isActive": true
+ }
+}

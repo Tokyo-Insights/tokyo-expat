@@ -39,7 +39,13 @@ NAVY = "#0f2744"
 RED = "#e84141"
 
 
-def wrap(body_html: str) -> str:
+FOOTER = {
+    "fr": "Vous recevez cet email car vous avez téléchargé un guide gratuit.",
+    "en": "You are receiving this email because you downloaded a free guide.",
+}
+
+
+def wrap(body_html: str, lang: str = "fr") -> str:
     return f"""<!DOCTYPE html><html><body style="margin:0;padding:0;background:#f4f4f4;font-family:Arial,Helvetica,sans-serif;">
 <table width="100%" cellpadding="0" cellspacing="0" style="background:#f4f4f4;padding:24px 0;">
 <tr><td align="center">
@@ -52,7 +58,7 @@ def wrap(body_html: str) -> str:
 </td></tr>
 <tr><td style="padding:20px 32px;background:#f4f4f4;color:#888;font-size:12px;">
 Tokyo Expat &middot; <a href="https://www.tokyo-expat.com" style="color:{NAVY};">tokyo-expat.com</a><br>
-Vous recevez cet email car vous avez telecharge un guide gratuit. {{{{ unsubscribe }}}}
+{FOOTER[lang]} {{{{ unsubscribe }}}}
 </td></tr>
 </table></td></tr></table></body></html>"""
 
@@ -69,37 +75,37 @@ templates = [
         "subject": "Votre checklist relocation Japon est ici",
         "html": wrap(f"""
 <p>Bonjour,</p>
-<p>Merci d'avoir telecharge la Checklist Relocation Japon. Si vous ne l'avez pas encore ouverte, la voici a nouveau :</p>
-<p>{btn("Telecharger la checklist (PDF)", "https://www.tokyo-expat.com/checklist-relocation-japon.pdf")}</p>
-<p>Je suis Alessandro. Je vis a Tokyo et j'accompagne les francophones qui s'installent au Japon. Cette checklist rassemble tout ce que j'aurais aime savoir avant d'arriver : visa, carte de sejour, logement sans garant, banque, assurance sante.</p>
-<p>Une question sur votre projet ? Repondez simplement a cet email, je lis tout personnellement.</p>
-<p>A bientot,<br>Alessandro</p>
+<p>Merci d'avoir téléchargé la Checklist Relocation Japon. Si vous ne l'avez pas encore ouverte, la voici à nouveau :</p>
+<p>{btn("Télécharger la checklist (PDF)", "https://www.tokyo-expat.com/checklist-relocation-japon.pdf")}</p>
+<p>Je suis Alessandro. Je vis à Tokyo et j'accompagne les francophones qui s'installent au Japon. Cette checklist rassemble tout ce que j'aurais aimé savoir avant d'arriver : visa, carte de séjour, logement sans garant, banque, assurance santé.</p>
+<p>Dans les trois semaines qui viennent, je vous envoie cinq emails courts sur le logement à Tokyo. Ils sont utiles même si vous faites tout vous-même. L'un d'eux présentera aussi mon accompagnement payant : vous saurez à quoi il sert, et vous n'aurez jamais à le prendre.</p>
+<p><strong>Une question, si vous avez trente secondes</strong> : qu'est-ce qui vous bloque le plus en ce moment dans votre projet ? Répondez-moi en une phrase. Je lis tout moi-même.</p>
+<p>À bientôt,<br>Alessandro</p>
 """),
     },
     {
         "name": "[FR] Bienvenue 2 - L'erreur logement",
-        "subject": "L'erreur que font 90% des expats sur le logement a Tokyo",
+        "subject": "Sans garant japonais, vous pouvez quand même louer à Tokyo",
         "html": wrap(f"""
 <p>Bonjour,</p>
-<p>L'erreur la plus frequente quand on cherche un logement a Tokyo : croire qu'on peut signer un bail classique sans garant japonais. Resultat, des semaines perdues et des refus en chaine.</p>
-<p>La realite : il existe des solutions accessibles des le depart (share houses, monthly mansions, appartements meubles) qui ne demandent ni garant ni frais d'agence caches. C'est exactement ce que je couvre ici :</p>
-<p>{btn("Lire le guide logement", "https://www.tokyo-expat.com/fr/blog")}</p>
-<p>Si vous preparez votre arrivee et que vous voulez un avis sur votre situation precise, repondez a cet email avec votre timing et votre budget. Je vous oriente.</p>
+<p>C'est l'idée reçue qui fait perdre le plus de temps : croire qu'il faut un garant japonais pour louer à Tokyo. On attend, on cherche un garant qu'on n'aura jamais, et les refus s'enchaînent.</p>
+<p>En réalité, presque tous les baux passent aujourd'hui par une société de garantie, et il existe des logements accessibles dès votre arrivée (share houses, meublés au mois) sans garant ni frais d'agence cachés. Tout est expliqué ici :</p>
+<p>{btn("Louer à Tokyo sans garant : le guide", "https://www.tokyo-expat.com/fr/blog/garantie-loyer-etranger-japon")}</p>
+<p>Si vous voulez un avis sur votre situation, répondez avec vos dates et votre budget.</p>
 <p>Alessandro</p>
 """),
     },
     {
         "name": "[FR] Bienvenue 3 - Besoin d'aide",
-        "subject": "Besoin d'un coup de main pour votre installation ?",
+        "subject": "Ce qui arrive quand on cherche un logement trop tard",
         "html": wrap(f"""
 <p>Bonjour,</p>
-<p>Preparer une installation au Japon a distance, c'est gerable mais chronophage : trouver le bon quartier, eviter les pieges de contrat, caler les demarches dans le bon ordre.</p>
-<p>Si vous preferez deleguer ou simplement securiser vos choix, je propose un accompagnement personnalise, de la simple consultation a la recherche de logement complete.</p>
-<p>{btn("Voir comment je peux aider", "https://www.tokyo-expat.com/fr/services")}</p>
-<p>Le plus simple reste souvent d'en parler de vive voix : 30 minutes, gratuit, sans engagement. Vous repartez avec un avis clair sur votre situation, meme si vous faites tout vous-meme ensuite.</p>
-<p>{btn("Reserver un appel gratuit", "https://www.tokyo-expat.com/fr/contact")}</p>
-<p>Et si vous avez juste une question, repondez a cet email. Toujours ravi d'aider.</p>
-<p>Alessandro<br>Tokyo Expat</p>
+<p>Beaucoup de personnes qui arrivent à Tokyo commencent à chercher un logement quelques semaines avant le départ. C'est souvent trop tard.</p>
+<p>Les biens qui acceptent les étrangers partent en quelques jours, chaque dossier refusé fait perdre une semaine, et entre janvier et mars, quand tout le Japon déménage, la concurrence est à son maximum. On finit dans un logement temporaire hors de prix, ou loin de son travail, en se disant qu'on déménagera plus tard.</p>
+<p>Ce qui change tout, c'est d'avoir un dossier complet avant de visiter, et une liste de biens dont on sait déjà qu'ils acceptent votre profil. C'est exactement ce que je fais pour mes clients : dossier prêt en 48 heures, propositions confirmées avant envoi, bail expliqué en français.</p>
+<p>{btn("Je veux qu'Alessandro regarde ma situation", "https://www.tokyo-expat.com/fr/contact")}</p>
+<p>Un clic suffit : je vous propose un appel de 30 minutes, gratuit, et vous repartez avec un avis clair même si vous faites tout seul ensuite.</p>
+<p>Alessandro</p>
 """),
     },
     # ---------------- EN ----------------
@@ -144,39 +150,42 @@ templates = [
     # ---------------- FR (rallonge sequence, J+9/J+14/J+21) ----------------
     {
         "name": "[FR] Bienvenue 4 - Les documents",
-        "subject": "Les 3 documents qui font accepter votre dossier a Tokyo",
+        "subject": "Les 3 documents qui font accepter votre dossier à Tokyo",
         "html": wrap(f"""
 <p>Bonjour,</p>
-<p>Quand un proprietaire japonais hesite, ce n'est presque jamais personnel : c'est une question de risque percu. Et trois documents suffisent souvent a lever ce doute :</p>
-<p><strong>1.</strong> Une societe de garantie (a la place d'un garant japonais).<br>
-<strong>2.</strong> Une preuve de revenus propre (fiche de paie, avis d'imposition ou releve bancaire).<br>
-<strong>3.</strong> Carte de sejour et passeport, dossier complet et presente en japonais.</p>
-<p>Avec ces trois elements bien prepares, la plupart des refus disparaissent.</p>
+<p>Quand un propriétaire japonais hésite, ce n'est presque jamais personnel : c'est une question de risque perçu. Trois documents suffisent souvent à lever ce doute :</p>
+<p><strong>1.</strong> L'accord d'une société de garantie (à la place d'un garant japonais).<br>
+<strong>2.</strong> Une preuve de revenus (fiche de paie, avis d'imposition ou relevé bancaire).<br>
+<strong>3.</strong> Carte de séjour et passeport, avec un dossier complet présenté en japonais.</p>
+<p>Avec ces trois éléments bien préparés, beaucoup de refus disparaissent.</p>
 <p>{btn("Voir le guide complet", "https://www.tokyo-expat.com/fr/blog/pourquoi-proprietaires-japonais-refusent-etrangers")}</p>
 <p>Alessandro</p>
 """),
     },
     {
         "name": "[FR] Bienvenue 5 - Vu du cote proprietaire",
-        "subject": "Pourquoi les proprietaires disent non (vu de l'interieur)",
+        "subject": "Pourquoi les propriétaires disent non (vu de l'intérieur)",
         "html": wrap(f"""
 <p>Bonjour,</p>
-<p>Je travaille dans le marche locatif de Tokyo au quotidien, et je vois passer les dossiers du cote proprietaire. La verite surprend souvent : ce n'est pas le proprietaire seul qui decide. La societe de gestion et la societe de garantie evaluent aussi, et n'importe laquelle peut refuser, sans donner de raison.</p>
-<p>Autre surprise : le meme profil peut etre refuse sur un bien et accepte sur un autre la meme semaine. Ce qui change, c'est rarement le locataire. C'est la facon dont le dossier est presente.</p>
+<p>Je travaille dans le marché locatif de Tokyo au quotidien, et je vois passer les dossiers du côté des bailleurs. La vérité surprend souvent : le propriétaire ne décide pas seul. La société de gestion et la société de garantie évaluent aussi, et n'importe laquelle peut refuser, sans donner de raison.</p>
+<p>Autre surprise : le même profil peut être refusé sur un bien et accepté sur un autre la même semaine. Ce qui change, c'est rarement le locataire. C'est la façon dont le dossier est présenté.</p>
 <p>{btn("Lire l'article complet", "https://www.tokyo-expat.com/fr/blog/pourquoi-proprietaires-japonais-refusent-etrangers")}</p>
 <p>Alessandro</p>
 """),
     },
     {
         "name": "[FR] Bienvenue 6 - Quand se faire aider",
-        "subject": "Quand ca vaut le coup de se faire aider (et quand non)",
+        "subject": "« Je peux le faire seul », et les 3 autres raisons d'hésiter",
         "html": wrap(f"""
 <p>Bonjour,</p>
-<p>Soyons honnetes : si vous avez du temps, un budget serre et un peu de patience, vous pouvez trouver un logement a Tokyo par vous-meme. Beaucoup y arrivent.</p>
-<p>Se faire aider vaut le coup quand : vous manquez de temps, vous ne parlez pas japonais, vous risquez des refus de dossier, ou vous voulez simplement eviter les erreurs couteuses. Dans ce cas, je gere la recherche, les visites, la negociation et le contrat, en francais.</p>
-<p>Si votre situation entre dans ce cadre, parlons-en : un appel de 30 minutes, gratuit et sans engagement.</p>
-<p>{btn("Reserver un appel gratuit", "https://www.tokyo-expat.com/fr/contact")}</p>
-<p>Alessandro<br>Tokyo Expat</p>
+<p>Je vous ai promis de vous présenter mon accompagnement. Voici les raisons qu'on me donne pour ne pas le prendre, et ce que j'y réponds honnêtement.</p>
+<p><strong>« Je peux le faire seul. »</strong> Souvent, oui. Si vous avez du temps, un budget souple et un peu de japonais, faites-le : les guides de ces emails suffisent. L'accompagnement sert quand le temps manque ou que les refus s'accumulent.</p>
+<p><strong>« Ce n'est pas encore le moment, je n'ai pas mes dates. »</strong> C'est justement le meilleur moment pour préparer le dossier : c'est lui qui fait gagner les semaines, pas la visite.</p>
+<p><strong>« Pourquoi pas une agence ? »</strong> Une agence est rémunérée quand une location est signée. Moi, je suis payé par vous seul, quel que soit le bien choisi : mon seul intérêt est que vous soyez bien logé. La location est signée avec une agence agréée ; mon rôle est le conseil et l'accompagnement, en français.</p>
+<p><strong>« Et si ça ne donne rien ? »</strong> Si je ne vous transmets aucune proposition de logement pendant la mission, vous êtes remboursé intégralement.</p>
+<p>Si votre situation entre dans ce cadre, parlons-en : 30 minutes, gratuit, sans engagement.</p>
+<p>{btn("Réserver un appel gratuit", "https://www.tokyo-expat.com/fr/contact")}</p>
+<p>Alessandro</p>
 """),
     },
     # ---------------- EN (sequence extension, J+9/J+14/J+21) ----------------
