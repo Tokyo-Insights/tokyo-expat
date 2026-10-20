@@ -3,7 +3,7 @@
 ## ▶️ État (à mettre à jour à chaque fin de séance)
 | Chantier | État | Dernier geste | Prochain geste |
 |---|---|---|---|
-| A · Offre en une phrase | ✅ offre VALIDÉE le 20/10 (phrase A « dossier prêt en 48 h », prix 15k / 60k / 120k / 400k¥ par an, garantie sur le dossier) | `outreach/offre_b2b_2026_10.md` ; je/vous 6/32 contre 8/7 avant ; « nous gérons des meublés » retiré (expose l'employeur) | reste : site (« opérateur », « chasseur immobilier », prix en € dans le code des offres), à proposer avant tout déploiement ; prix à réviser après 3 conversations d'entreprise |
+| A · Offre en une phrase | ✅ offre VALIDÉE le 20/10 (phrase A « dossier prêt en 48 h », prix 15k / 60k / 120k / 400k¥ par an, garantie sur le dossier) | `outreach/offre_b2b_2026_10.md` ; je/vous 6/32 contre 8/7 avant ; « nous gérons des meublés » retiré (expose l'employeur) | reste : site (« opérateur », « chasseur immobilier » ; les prix en € du code ne s'affichent que dans les devis privés, vérifié), à proposer avant tout déploiement ; prix à réviser après 3 conversations d'entreprise |
 | B · LinkedIn | à faire | (aucun) | après A |
 | C · Partenaires | à faire | HIVEN (vérifié Gmail 20/10) : appel du 17/10 tenu, dîner fixé au jeu. 22/10, puis Justin demande le 19/10 de le REPORTER à la semaine prochaine ; message non lu, sans réponse | répondre à Justin (nouvelles dates), hors séquence car c'est un lead chaud |
 | D · Appels d'écoute | à faire | (aucun) | après A |
