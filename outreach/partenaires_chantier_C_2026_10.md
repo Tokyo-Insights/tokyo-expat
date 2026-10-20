@@ -15,8 +15,10 @@ Règles de forme [084] [366] [072] [088] : message court, aucune vente dans le p
 UNE demande oui / non, jamais de lien de calendrier avant le oui. Payé par le partenaire ou
 l'entreprise, **jamais de commission par locataire placé** (宅建).
 
-Registres croisés le 20/10 (`outreach_contacts.json` + `warm_threads_watch.py`) : aucun des
-nouveaux noms n'y figure ; Crown et Asian Tigers y sont (juin, comme clients), voir la colonne.
+Registres croisés le 20/10 (`outreach_contacts.json` + `warm_threads_watch.py`). ❌ **ERREUR : l'AFJ y était
+(contactée le 23/07, même offre de rubrique logement, pas de réponse après relance)** ; mon premier
+croisement filtrait par mots-clés et l'a manquée, le message du 20/10 est donc son 3e contact.
+Re-croisé en TEXTE INTÉGRAL le 20/10 : seuls Crown, Asian Tigers et Airbus y figurent.
 
 ## Les 10
 
@@ -29,7 +31,7 @@ nouveaux noms n'y figure ; Crown et Asian Tigers y sont (juin, comme clients), v
 | 5 | Santa Fe Relocation, Tokyo | relocation (affilié FIDI, Akasaka) | ⚠️ adresse non confirmée : LinkedIn | jamais contacté |
 | 6 | PLAZA HOMES | agence agréée pour expatriés (familles, entreprises) | `info@plazahomes.co.jp` (lien « Contact Us » de leur page, vérifié 20/10), tél. 03-3583-6941 | jamais contacté |
 | 7 | TokyoDev (Paul McMahon, fondateur) | job board de développeurs étrangers qui s'installent au Japon | ⚠️ aucun email public (page /hire en 403 aux robots) : LinkedIn `paulwimcmahon` | jamais contacté |
-| 8 | AFJ (Association des Français et francophones du Japon) | accueil des nouveaux arrivants (Grand Café Accueil) | `guide@afj-japon.org` (page « Contactez-nous » du guide, vérifié 20/10) | jamais contacté |
+| 8 | AFJ (Association des Français et francophones du Japon) | accueil des nouveaux arrivants (Grand Café Accueil) | `guide@afj-japon.org` (page « Contactez-nous » du guide, vérifié 20/10) | ⚠️ déjà contactée le 23/07 (`secretariat@`), sans réponse après relance |
 | 9 | HIVEN (Damien, Justin) | opérateur de meublés, Kinshicho | déjà en cours | appel 17/10, dîner à reprogrammer (26/10 proposé) |
 | 10 | GaijinBlog (Fernando, Damith) | prescripteur, seul canal entrant qui a déjà converti | déjà en relation | partenariat referral existant |
 
