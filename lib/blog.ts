@@ -11807,7 +11807,7 @@ This report is a snapshot. The complete, ward-by-ward, layout-by-layout breakdow
     date: '2026-07-02',
     readingTime: '6 min',
     content: `
-If you are a foreigner hunting for an apartment in Tokyo, you will probably hear "no" before you hear "yes", and often you will not be told why. I operate rentals here myself, so I deal with guarantor companies and see tenant screening from the landlord's side, and the reasons behind those rejections are rarely what newcomers assume. Here is the honest picture from the inside, and what actually turns a "no" into a "yes".
+If you are a foreigner hunting for an apartment in Tokyo, you will probably hear "no" before you hear "yes", and often you will not be told why. I work inside Tokyo's rental market every day, so I deal with guarantor companies and see tenant screening from the landlord's side, and the reasons behind those rejections are rarely what newcomers assume. Here is the honest picture from the inside, and what actually turns a "no" into a "yes".
 
 **Quick answer:** Japanese landlords reject foreign tenants mostly out of perceived risk, not prejudice: no guarantor, communication worries, income that looks unstable, or unfamiliar paperwork. The fixes are concrete: use a guarantor company, present clean proof of income, target foreigner-friendly listings, and have your application presented properly in Japanese. Do that and most rejections disappear.
 
@@ -11857,7 +11857,7 @@ The Japanese rental market is not hostile, but it is opaque, and the decisions h
     date: '2026-07-02',
     readingTime: '6 min',
     content: `
-Si vous cherchez un appartement à Tokyo en tant qu'étranger, vous entendrez probablement "non" avant "oui", et souvent sans qu'on vous dise pourquoi. J'opère mes propres logements ici, donc je traite avec les sociétés de garantie et je vois la sélection des locataires du côté du bailleur, et les raisons de ces refus sont rarement celles que les nouveaux arrivants imaginent. Voici le tableau honnête, vu de l'intérieur, et ce qui transforme vraiment un "non" en "oui".
+Si vous cherchez un appartement à Tokyo en tant qu'étranger, vous entendrez probablement "non" avant "oui", et souvent sans qu'on vous dise pourquoi. Je travaille au quotidien dans le marché locatif de Tokyo, donc je traite avec les sociétés de garantie et je vois la sélection des locataires du côté du bailleur, et les raisons de ces refus sont rarement celles que les nouveaux arrivants imaginent. Voici le tableau honnête, vu de l'intérieur, et ce qui transforme vraiment un "non" en "oui".
 
 **Réponse rapide :** Les propriétaires japonais refusent les étrangers surtout par risque perçu, pas par préjugé : absence de garant, crainte de communication, revenus jugés instables, documents inconnus. Les solutions sont concrètes : passer par une société de garantie, présenter des preuves de revenus propres, cibler les biens ouverts aux étrangers, et faire présenter votre dossier correctement en japonais. Faites cela et la plupart des refus disparaissent.
 
@@ -12648,7 +12648,7 @@ Trouver un appartement pour expatrié à Tokyo, c'est surtout savoir quelle port
     date: '2026-07-18',
     readingTime: '7 min',
     content: `
-Anyone moving to Tokyo eventually asks the same thing: do foreigners get charged more rent than locals? I operate rentals in Tokyo myself, so I see this from both sides of the table. The honest answer is more nuanced than a simple yes or no.
+Anyone moving to Tokyo eventually asks the same thing: do foreigners get charged more rent than locals? I work inside Tokyo's rental market every day, so I see this from both sides of the table. The honest answer is more nuanced than a simple yes or no.
 
 **Quick answer:** No, the monthly rent on a specific apartment is set by the property, not your nationality. A foreigner and a Japanese tenant pay the same rent for the same unit. But foreigners often pay more in practice, through mandatory guarantor company fees, higher upfront costs, and being pushed toward pricier "foreigner friendly" stock because the cheapest listings quietly refuse them.
 
@@ -12684,7 +12684,7 @@ Foreigners do not pay a higher rent for the same Tokyo apartment. They pay more 
     date: '2026-07-18',
     readingTime: '7 min',
     content: `
-Toute personne qui s'installe à Tokyo finit par poser la même question : les étrangers paient-ils un loyer plus élevé que les locaux ? J'opère moi-même des logements à Tokyo, donc je vois la situation des deux côtés de la table. La réponse honnête est plus nuancée qu'un simple oui ou non.
+Toute personne qui s'installe à Tokyo finit par poser la même question : les étrangers paient-ils un loyer plus élevé que les locaux ? Je travaille au quotidien dans le marché locatif de Tokyo, donc je vois la situation des deux côtés de la table. La réponse honnête est plus nuancée qu'un simple oui ou non.
 
 **Réponse rapide :** Non, le loyer mensuel d'un appartement donné est fixé par le bien, pas par votre nationalité. Un étranger et un locataire japonais paient le même loyer pour le même logement. Mais dans les faits, les étrangers paient souvent plus cher, à cause des frais de société de garantie, de coûts d'entrée plus élevés, et parce qu'ils sont poussés vers un parc plus cher "adapté aux étrangers", les annonces les moins chères les refusant discrètement.
 
@@ -13054,7 +13054,7 @@ Vous pouvez comparer les zones UR aux loyers du marché dans notre [Indice des l
     date: '2026-07-22',
     readingTime: '8 min',
     content: `
-Finding an apartment in Tokyo is already hard for foreigners. Add a cat or a dog and the search gets much narrower. Most Japanese rentals are simply not pet-friendly, and the ones that are come with extra rules and extra money. I operate rentals in Tokyo myself, so here is the honest picture of renting with a pet, and how to actually pull it off.
+Finding an apartment in Tokyo is already hard for foreigners. Add a cat or a dog and the search gets much narrower. Most Japanese rentals are simply not pet-friendly, and the ones that are come with extra rules and extra money. I work inside Tokyo's rental market every day, so here is the honest picture of renting with a pet, and how to actually pull it off.
 
 **Quick answer:** Pet-friendly apartments in Tokyo are marked "pet-ka" (ペット可) or "pet-sodan" (ペット相談, negotiable), and they are a small minority of listings, usually 10 to 20 percent depending on the area. Expect to pay more: a higher deposit (often one extra month of rent), sometimes higher monthly rent, and a cleaning or deodorising fee when you leave. Small dogs and cats are far easier than large dogs. Start early, be ready to prove you can pay, and target newer buildings and share houses that openly welcome pets.
 
@@ -13098,7 +13098,7 @@ A pet makes the Tokyo search narrower and a bit pricier, but it is entirely doab
     date: '2026-07-22',
     readingTime: '8 min',
     content: `
-Trouver un appartement à Tokyo est déjà difficile pour un étranger. Ajoutez un chat ou un chien et la recherche se rétrécit beaucoup. La plupart des locations japonaises n'acceptent tout simplement pas les animaux, et celles qui les acceptent viennent avec des règles et des frais en plus. J'opère moi-même des logements à Tokyo, alors voici l'image honnête de la location avec un animal, et comment y arriver.
+Trouver un appartement à Tokyo est déjà difficile pour un étranger. Ajoutez un chat ou un chien et la recherche se rétrécit beaucoup. La plupart des locations japonaises n'acceptent tout simplement pas les animaux, et celles qui les acceptent viennent avec des règles et des frais en plus. Je travaille au quotidien dans le marché locatif de Tokyo, alors voici l'image honnête de la location avec un animal, et comment y arriver.
 
 **Réponse rapide :** Les logements qui acceptent les animaux à Tokyo sont marqués "pet-ka" (ペット可) ou "pet-sodan" (ペット相談, négociable), et ils sont une petite minorité des annonces, souvent 10 à 20 pour cent selon le quartier. Prévoyez de payer plus : un dépôt plus élevé (souvent un mois de loyer en plus), parfois un loyer plus élevé, et des frais de nettoyage ou de désodorisation à la sortie. Les petits chiens et les chats sont bien plus faciles que les grands chiens. Commencez tôt, soyez prêt à prouver que vous pouvez payer, et visez les immeubles récents et les share houses qui accueillent ouvertement les animaux.
 
