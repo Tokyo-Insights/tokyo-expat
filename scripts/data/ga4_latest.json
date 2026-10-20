@@ -1,67 +1,71 @@
 {
-  "generated_at": "2026-10-14",
-  "period": "2026-10-07 to 2026-10-14",
+  "generated_at": "2026-10-21",
+  "period": "2026-10-14 to 2026-10-21",
   "this_week": {
-    "sessions": 441,
-    "users": 415,
-    "pageviews": 480,
-    "bounce_rate": 0.8231292517006803
+    "sessions": 404,
+    "users": 381,
+    "pageviews": 456,
+    "bounce_rate": 0.844059405940594
   },
   "prev_week": {
-    "sessions": 556,
-    "users": 527,
-    "pageviews": 597,
-    "bounce_rate": 0.8327338129496403
+    "sessions": 428,
+    "users": 403,
+    "pageviews": 456,
+    "bounce_rate": 0.8364485981308412
   },
   "changes": {
-    "sessions": "-21%",
-    "users": "-21%",
-    "pageviews": "-20%"
+    "sessions": "-6%",
+    "users": "-5%",
+    "pageviews": "+0%"
   },
   "top_pages": [
     [
-      "/en/data",
-      "27"
+      "/en/blog/japan-sim-card-foreigners-2026",
+      "21"
     ],
     [
-      "/en/blog/japan-sim-card-foreigners-2026",
-      "23"
+      "/en",
+      "20"
     ],
     [
       "/en/blog/japan-income-tax-foreigners-guide",
-      "14"
+      "20"
     ],
     [
-      "/en/blog/international-moving-company-japan-guide",
-      "13"
+      "/en/data",
+      "20"
     ],
     [
-      "/en/blog/japan-working-holiday-visa-guide-2026",
+      "/en/blog/japanese-apartment-layouts-explained",
       "13"
     ]
   ],
   "top_sources": [
     [
       "Direct",
-      "321"
+      "299"
     ],
     [
       "Organic Search",
-      "100"
+      "82"
     ],
     [
       "AI Assistant",
-      "11"
+      "12"
     ]
   ],
-  "form_submits_week": 0,
+  "form_submits_week": 4,
   "events": {
-    "page_view": 480,
-    "session_start": 442,
-    "first_visit": 414,
-    "user_engagement": 122,
-    "scroll": 44,
-    "click": 4,
-    "form_start": 2
+    "page_view": 456,
+    "session_start": 403,
+    "first_visit": 377,
+    "user_engagement": 109,
+    "scroll": 32,
+    "click": 5,
+    "generate_lead": 4,
+    "file_download": 3,
+    "form_start": 3,
+    "book_call_click": 1,
+    "select_consultation": 1
   }
 }

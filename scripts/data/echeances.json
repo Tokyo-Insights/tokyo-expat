@@ -34,8 +34,8 @@
       "fiche": "session_log_2026_09_20.md",
       "actif": true,
       "fait": false,
-      "notifie_le": "2026-09-24",
-      "rappels": 1
+      "notifie_le": "2026-10-21",
+      "rappels": 2
     },
     {
       "id": "post-oc-furnished",
@@ -67,7 +67,9 @@
       "commande": "",
       "fiche": "project_page_disponibilites_design.md",
       "actif": true,
-      "fait": false
+      "fait": false,
+      "notifie_le": "2026-10-21",
+      "rappels": 1
     },
     {
       "id": "test-calendly-octobre",
@@ -77,7 +79,9 @@
       "commande": "",
       "fiche": "feedback_daily_protocols.md",
       "actif": true,
-      "fait": false
+      "fait": false,
+      "notifie_le": "2026-10-21",
+      "rappels": 1
     },
     {
       "id": "temoin-cheap-gaijin-house",
@@ -87,7 +91,9 @@
       "commande": "python scripts/gsc_analytics.py",
       "fiche": "project_test_titre_gaijin_house_2026_09_09.md",
       "actif": true,
-      "fait": false
+      "fait": false,
+      "notifie_le": "2026-10-21",
+      "rappels": 1
     },
     {
       "id": "lecture-fusion-1409",
@@ -97,7 +103,9 @@
       "commande": "python scripts/gsc_analytics.py",
       "fiche": "project_gisement_francais_2026_09_10.md",
       "actif": true,
-      "fait": false
+      "fait": false,
+      "notifie_le": "2026-10-21",
+      "rappels": 1
     },
     {
       "id": "test-photo",
@@ -107,7 +115,9 @@
       "commande": "python scripts/photo_experiment.py --report",
       "fiche": "reference_lead_capture_sources.md",
       "actif": true,
-      "fait": false
+      "fait": false,
+      "notifie_le": "2026-10-21",
+      "rappels": 1
     },
     {
       "id": "baseline-jiko-bukken",
@@ -117,7 +127,9 @@
       "commande": "python scripts/gsc_analytics.py",
       "fiche": "project_cannibalisation_page_query_2026_09_19.md",
       "actif": true,
-      "fait": false
+      "fait": false,
+      "notifie_le": "2026-10-21",
+      "rappels": 1
     },
     {
       "id": "fenetre-etudiante-avril-2027",

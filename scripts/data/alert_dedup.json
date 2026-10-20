@@ -99,7 +99,7 @@
   "vuln:sakura-house.com:dortoir pour les étudiants internationaux tokyo": "2026-10-07",
   "vuln:sakura-house.com:logement étudiant tokyo": "2026-10-07",
   "vuln:oakhouse.jp:appartements à tokyo pour les étrangers": "2026-10-07",
-  "vuln:oakhouse.jp:appartements meublés tokyo": "2026-10-07",
+  "vuln:oakhouse.jp:appartements meublés tokyo": "2026-10-21",
   "vuln:oakhouse.jp:dortoir pour les étudiants internationaux tokyo": "2026-10-07",
   "vuln:oakhouse.jp:logement étudiant tokyo": "2026-10-07",
   "vuln:remoters.io:hébergement étudiant tokyo": "2026-10-14",
@@ -110,7 +110,7 @@
   "vuln:tokyocheapo.com:jiko bukken japan": "2026-10-07",
   "proactive:('expat apartments tokyo', 1),('jiko bukken tokyo', 2)|jp bank japanpost card guide|sakura-house.com:tokyo gaijin house": "2026-10-07",
   "seasonal:mon_guide_complet_pour_s'expatrier_a_tokyo_:_tout_ce_que_j'a": {
-    "date": "2026-10-20",
+    "date": "2026-10-21",
     "dismissed": true
   },
   "proactive:('jikobukken map', 7),('jiko bukken', 10)|jp bank japanpost card guide|sakura-house.com:tokyo gaijin house": "2026-10-14",
@@ -119,7 +119,13 @@
   "vuln:tokyocheapo.com:student accommodation tokyo": "2026-10-14",
   "vuln:gaijinpot.com:expat apartments tokyo": "2026-10-14",
   "vuln:sakura-house.com:loyer appartement tokyo": "2026-10-14",
-  "vuln:oakhouse.jp:cheap gaijin house in tokyo": "2026-10-14",
+  "vuln:oakhouse.jp:cheap gaijin house in tokyo": "2026-10-21",
   "vuln:oakhouse.jp:hébergement étudiant tokyo": "2026-10-14",
-  "proactive:('expat apartments tokyo', 1),('appartements meublés tokyo', 1)|jp bank japanpost card guide|remoters.io:appartements à tokyo pour les étrangers": "2026-10-14"
+  "proactive:('expat apartments tokyo', 1),('appartements meublés tokyo', 1)|jp bank japanpost card guide|remoters.io:appartements à tokyo pour les étrangers": "2026-10-14",
+  "proactive:('jiko bukken', 6),('jikobukken map', 9)|jp bank japanpost card guide|remoters.io:appartements à tokyo pour les étrangers": "2026-10-21",
+  "vuln:oakhouse.jp:student housing tokyo": "2026-10-21",
+  "vuln:oakhouse.jp:oak house tokyo": "2026-10-21",
+  "vuln:sakura-house.com:appartements meublés tokyo": "2026-10-21",
+  "vuln:gaijinpot.com:tokyo gaijin house": "2026-10-21",
+  "proactive:('tokyo gaijin house', 1),('expat apartments tokyo', 1)|jp bank japanpost card guide|oakhouse.jp:student housing tokyo": "2026-10-21"
 }

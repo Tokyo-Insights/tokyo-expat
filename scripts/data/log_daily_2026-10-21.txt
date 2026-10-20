@@ -1,0 +1,252 @@
+[2026-10-21  7:03:29.65] Starting daily watch... 
+[ 7:03:29.65] [0] Gmail morning cleaner... 
+C:\Users\alegu\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'api.telegram.org'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+1 email(s) de bruit mis a la corbeille:
+  🗑️ Substack <on+stories@substack.com> | The tribe has spoken: How Drop Your Buffs ma
+[ 7:03:57.95] [1/4] Competitor watch (silencieux)... 
+
+============================================================
+COMPETITOR WATCH - 2026-10-21
+============================================================
+
+Scanning Remoters (editorial)...
+  5541 URLs found
+  5 new URLs!
+Skip GaijinPot Housing — domaine mort (DNS) — le portail a disparu, verifier si GaijinPot a fusionne ses sections
+Skip GaijinPot Blog — 403 anti-bot
+Scanning Sakura House (listings)...
+  970 URLs found
+Scanning Oak House (listings)...
+  5488 URLs found
+  2 new URLs!
+Skip Fontaine Relocation — domaine mort (DNS)
+Scanning Tokyo Cheapo (editorial)...
+  6861 URLs found
+Skip Savvy Tokyo — 403 anti-bot
+Skip Japan Guide — aucun sitemap publie
+Skip Japan Property Central — aucun sitemap publie
+Skip Japan Today — 403 anti-bot
+Scanning City Cost (editorial)...
+  [namespace absent, relu sans: 719 URLs recuperees]
+  719 URLs found
+Scanning Japan Insiders (editorial)...
+  17 URLs found
+Scanning Tofugu (editorial)...
+  1911 URLs found
+Scanning Time Out Tokyo (editorial)...
+  10000 URLs found
+  1 new URLs!
+Skip Gaijin House — domaine EN VENTE sur HugeDomains — concurrent disparu
+Skip Tokyo Share House — aucun sitemap publie (toute URL rend la page d'accueil en 200)
+Skip Crown Relocations JP — 403 anti-bot
+Skip Asian Tigers Japan — connexion refusee (timeout 443) malgre DNS OK
+Scanning Wise Blog JP (editorial)...
+  1531 URLs found
+Skip Modern Living Tokyo — domaine mort (DNS)
+Skip Tokyo Furnished — domaine mort (DNS)
+Scanning Vivre Au Japon (editorial)...
+  220 URLs found
+  2 new URLs!
+Skip Japon Online — domaine mort (DNS)
+
+============================================================
+COUVERTURE: 10/24 sources lues | 0 en panne | 14 hors service
+
+✅ Telegram alert sent (1 items)
+
+Total indexed: 33216 competitor URLs in cache
+[ 7:04:28.61] [3/4] Seasonal calendar... 
+
+============================================================
+SEASONAL CALENDAR - 2026-10-21
+============================================================
+
+Regle : publier 7 semaines AVANT le pic
+
+2026-12-15 | Planification Noel/Nouvel An   | Publier avant: 2026-10-27 [URGENT - deadline dans 6j]
+   Article : Mon guide complet pour s'expatrier a Tokyo : tout ce que j'aurais voul
+
+2027-02-01 | Annonces affectations pro      | Publier avant: 2026-12-14 [dans 103j]
+   Article : Guide complet : trouver un logement a Tokyo en 2 semaines (pour une mu
+
+2027-03-15 | Pic demenagement Mars          | Publier avant: 2027-01-25 [dans 145j]
+   Article : Checklist demenagement Tokyo : J-30 a J+7 (tout ce qu'il faut preparer
+
+2027-04-01 | Debut annee fiscale            | Publier avant: 2027-02-11 [dans 162j]
+   Article : S'installer a Tokyo en avril : guide pratique semaine par semaine
+
+2027-07-15 | Pre-rentree universitaire      | Publier avant: 2027-05-27 [dans 267j]
+   Article : Logement etudiant a Tokyo pour octobre : share house vs dortoir univer
+
+2027-09-01 | Rentree universitaire          | Publier avant: 2027-07-14 [dans 315j]
+   Article : Trouver un appartement a Tokyo en septembre : ce qui change vs le prin
+
+2027-10-01 | Pic Q4 expats                  | Publier avant: 2027-08-13 [dans 345j]
+   Article : Appartement meuble Tokyo : les 5 meilleures options pour expatries arr
+
+[SKIP] Article deja publie : Mon guide complet pour s'expatrier a Tokyo : tout ce que j'a
+Aucun article saisonnier a ecrire (tout couvert ou hors fenetre). PAS d'alerte Telegram.
+[ 7:04:28.95] [4/5] Proactive analysis... 
+
+============================================================
+ANALYSE PROACTIVE COMPLETE - 2026-10-21
+============================================================
+
+Donnees chargees:
+  Gaps        : OK
+  Keywords    : OK
+  Pricing     : OK
+  Competitors : OK
+  Vulns       : OK
+  Saison      : OK
+
+Envoi rapport Telegram (3 messages)...
+Rapport proactif envoye.
+[ 7:04:32.15] [5/7] Reddit intercept... 
+
+============================================================
+REDDIT INTERCEPT -- 2026-10-21
+============================================================
+
+  Searching: site:reddit.com/r/movingtojapan apartment housing rent tokyo...
+  [WARN] No results found.
+  Searching: site:reddit.com/r/JapanLife housing apartment rent foreigner toky...
+  Searching: site:reddit.com/r/japanfinance apartment rent tokyo foreigner...
+  Searching: site:reddit.com/r/Tokyo find apartment housing rent expat...
+  [WARN] No results found.
+  Searching: site:reddit.com/r/japan housing apartment foreigner share house...
+  Searching: site:reddit.com/r/teachinginjapan apartment housing tokyo rent...
+  [WARN] No results found.
+  Searching: site:reddit.com/r/expats housing apartment tokyo japan...
+  Searching: site:reddit.com/r/digitalnomad apartment housing tokyo japan...
+
+0 posts pertinents trouves
+
+Aucun match. Pas d'alerte envoyee.
+[ 7:05:39.59] [6/8] Brevo welcome drip... 
+Liste 3: 26 contacts
+  SENT mdelente91@gmail.com | fr | step5 -> template 3
+  SENT rtsurum@gmail.com | en | step21 -> template 12
+  (0 ancien(s) contact(s) ignore(s), inscrits avant 2026-06-27)
+
+2 email(s) envoyes.
+[ 7:05:42.51] [6b] Rent index quarterly update (if new version)... 
+Version de l'indice: 2026-07-02
+Liste 3: 26 contacts, dont 1 segment 'lead-magnet-rent-index'.
+
+0 email(s) envoyes pour la version 2026-07-02.
+  (1 nouveau(x) inscrit(s) ignore(s) - deja a jour, 0 deja notifie(s)).
+[ 7:05:43.68] [7/9] Backlink follow-up watcher... 
+  [BLOQUE] Crown Relocations Japan: Partenaire chantier C (20/10/2026) : relances A LA MAIN au chantier E, jamais par le watcher (gabarit media).
+  [BLOQUE] AFJ-Japon (guide pratique): Partenaire chantier C (20/10/2026) : relances A LA MAIN au chantier E, jamais par le watcher (gabarit media).
+  [BLOQUE] Japan Dev: Deja pitche le 13/08 avec le MEME angle donnee. Ne pas re-pitcher.
+  [BLOQUE] Journal du Japon (Paul Ozouf): Media FR au mur payant. Fil mort apres 4 echanges, ne pas retenter.
+  [BLOQUE] Mobal: SIM/telecom. Fournisseur/partenaire, pas un prescripteur editorial.
+  [BLOQUE] UniLife (Shin): SOURCE DE LOGEMENT, pas un prescripteur. Silence promis: le prochain contact doit etre un etudiant reel.
+  [BLOQUE] H&R Consultants / Relo Japan: Partenaire chantier C (20/10/2026) : relances A LA MAIN au chantier E, jamais par le watcher (gabarit media).
+  [BLOQUE] Zenitus Technologies K.K.: Appel d'ecoute chantier D (20/10/2026) : relances A LA MAIN au chantier E, jamais par le watcher (gabarit media).
+  [BLOQUE] Jolt Capital (bureau de Tokyo): Appel d'ecoute chantier D (20/10/2026) : relances A LA MAIN au chantier E, jamais par le watcher (gabarit media).
+[2026-10-21] Aucune relance due.
+[ 7:05:53.12] [8/9] Backlink draft stocker... 
+Aucune cible eligible a stocker (aucune cible email_verified=True en attente).
+[ 7:05:53.46] [9/10] Social Buffer poster (if due)... 
+[FB] Post trop recent (2026-10-20). Skip.
+[LI] Post trop recent (2026-10-20). Skip.
+[ 7:05:53.77] [10/11] Site health canary... 
+=== ECHECS ===
+  ❌ Data 'Indice loyers' PERIMEE: 111j (genere 2026-07-02). Rafraichir: relancer les scrapers loyers puis python refresh_rent_index.py (tokyo_insights)
+  ❌ Data 'Prix historiques' PERIMEE: 110j (genere 2026-07-03). Rafraichir: python refresh_price_trends.py (tokyo_insights) apres nouveaux CSV
+
+2 panne(s) detectee(s) -> alerte Telegram envoyee.
+[ 7:06:05.25] [10b] Fils partenaires chauds... 
+=== FILS PARTENAIRES CHAUDS — 2026-10-21 ===
+  X-House / Cross House (Takahashi Ai) recu il y a 25j · envoye il y a 25j · EUX ont ecrit en dernier
+  GaijinBlog (Fernando/Damith)       recu il y a 47j · envoye il y a 42j · nous avons ecrit en dernier
+  Expat Arrivals (Daniel)            recu il y a 60j · envoye il y a 42j · nous avons ecrit en dernier
+  InternationalSchools (Engin)       recu il y a 38j · envoye il y a 36j · nous avons ecrit en dernier
+  UniLife (Shin)                     recu il y a 45j · envoye il y a 42j · nous avons ecrit en dernier
+  Dormy (Kyoritsu)                   recu il y a 47j · envoye il y a 46j · nous avons ecrit en dernier
+  PetAir                             recu il y a -j · envoye il y a 42j · nous avons ecrit en dernier
+  Naganuma                           recu il y a -j · envoye il y a 48j · nous avons ecrit en dernier
+  SNG                                recu il y a -j · envoye il y a 48j · nous avons ecrit en dernier
+  Coto / studyinjapan (Camilla)      recu il y a 47j · envoye il y a 47j · nous avons ecrit en dernier
+
+Alerte envoyee.
+[ 7:07:17.32] [11/12] Reddit munition reminder (if due)... 
+C:\Users\alegu\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.reddit.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\alegu\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'api.telegram.org'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\alegu\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'api.telegram.org'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+Alerte stale: furnished-by-location (33j)
+Re-rappel: furnished-by-location
+[ 7:07:20.07] [11b] Reddit comment harvester... 
+0 nouveau(x) commentaire(s) capture(s). Total log: 134.
+[ 7:07:52.14] [11c] Subscriber feedback harvester... 
+0 nouvelle(s) reponse(s) recoltee(s). Total: 1. -> Claude en tire des sujets d'articles.
+[ 7:07:53.73] [11d] Reddit cadence reminder (if Wed/Sat)... 
+Rappel Reddit envoye (mercredi, 9 en attente).
+[ 7:07:55.00] [12/13] GA4 daily report... 
+📊 GA4 - hier
+Sessions: 34 (-46% vs mediane 7j = 63) 📉
+↳ dont organique: 4 ⏳ <i>PROVISOIRE</i> (-64% vs mediane 7j = 11) = 12% du total
+   ⚠️ GA4 revise a la HAUSSE: +6 en median entre J+1 et J+3 (30 jours mesures). Ne rien conclure sur ce chiffre.
+   ✅ Point STABLE (dimanche 18/10): 7 vs mediane des dimanches = 10 (-30%) -- <i>c'est CE chiffre qui se lit</i>
+Utilisateurs: 31 | Vues: 38
+
+Top pays: Singapore (19), China (5), France (2), Japan (2), Belgium (1), United Arab Emirates (1)
+Top sources: Direct (25), Organic Search (4), Referral (4), AI Assistant (1)
+🤖 IA (GEO): 1 session(s) via chatgpt.com
+
+Top pages:
+  /en (8)
+  /en/blog/renting-pet-friendly-apartmen (3)
+  /en/blog/best-tokyo-wards-couples-1ldk (2)
+  /en/blog/international-moving-company- (2)
+  /en/blog/japan-income-tax-foreigners-g (2)
+
+[Telegram envoye]
+[ 7:08:02.66] [12b] Backlink monitor (if due)... 
+Dernier controle il y a 2 j (< 7). Skip.
+[ 7:08:03.18] [14] Echeances datees... 
+📅 ECHEANCES TOKYO-EXPAT — 2026-10-21
+
+🔴 EN RETARD DE 27 j — Confirmer que les points 15-16/09 de la GSC ne bougent pas non plus
+   Le 20/09, 16 jours communs n'avaient PAS bouge, donc la chute est reelle. Mais les points 15-16/09 n'avaient pas encore ete mesures deux fois: c'etait une DEDUCTION, pas une verification. Ce releve la transforme en fait.
+   python scripts/gsc_daily_backfill_check.py --compare
+   Fiche: session_log_2026_09_20.md
+
+🔴 EN RETARD DE 21 j — Test des clics: la page disponibilites se debloque-t-elle ?
+   La page dispos est REPORTEE. UNE seule des trois conditions suffit a la relancer: des clics a ce test, ou ~10 demandes/trimestre, ou la meme question plusieurs fois par mois. Lire la condition AVANT de conclure.
+   Fiche: project_page_disponibilites_design.md
+
+🔴 EN RETARD DE 20 j — Test mensuel de reservation Calendly
+   Le tier gratuit peut couper l'event = fuite de leads SILENCIEUSE. Septembre a ete saute a la demande d'Alessandro le 02/09. 3 etapes: (1) il ouvre https://calendly.com/contact-tokyo-expat/30min et fait une resa test, (2) Claude verifie la notif Gmail (FROM notifications@calendly.com, SUBJ 'New Event'), (3) il annule. Claude ne peut PAS tester seul.
+   Fiche: feedback_daily_protocols.md
+
+🔴 EN RETARD DE 16 j — Relire le temoin 'cheap gaijin house' (pos 4,6 / 704 impr / 0 clic)
+   Le titre est ELIMINE comme cause: a position 4,6 avec zero clic, c'est un apercu IA qui repond au-dessus. La question n'est pas le classement, c'est comment etre CITE par cet apercu. NE PAS investir sur ce cluster avant cette lecture.
+   python scripts/gsc_analytics.py
+   Fiche: project_test_titre_gaijin_house_2026_09_09.md
+
+🔴 EN RETARD DE 7 j — Lire la fusion du 14/09 (-2026 vers -guide), 4 semaines apres
+   Au 20/09 elle n'avait que 4 jours de donnees, tous dans l'effondrement d'impressions: ILLISIBLE. C'est cette lecture qui decide de la fusion de -octobre. Si la fusion n1 n'a rien donne sur un cluster propre, la n2 est inutile et la question se ferme.
+   python scripts/gsc_analytics.py
+   Fiche: project_gisement_francais_2026_09_10.md
+
+🔴 EN RETARD DE 5 j — Lire le test photo (4 pages avec photos vs 3 temoins)
+   Temoins INTOUCHES: kichijoji, ikebukuro, asagaya. Aucune photo dessus avant cette date. ATTENTION: la mesure site entier melange 2 changements (photos + ~87 graphiques exposes par le sitemap), lire img_impressions PAR PAGE.
+   python scripts/photo_experiment.py --report
+   Fiche: reference_lead_capture_sources.md
+
+🔴 EN RETARD DE 1 j — Lire la baseline jiko bukken (fenetre 20/09 - 17/10)
+   NE PAS lire avant cette date. L'article a ete ENRICHI le 19/09 plutot que double, apres le croisement page x requete qui montrait 412 impressions sur la sous-intention CARTE.
+   python scripts/gsc_analytics.py
+   Fiche: project_cannibalisation_page_query_2026_09_19.md
+
+Traitee ? python scripts/echeances_reminder.py --fait backfill-confirmation
+
+[Telegram envoye, 7 echeance(s) rappelee(s)]
+[ 7:08:04.41] Daily watch complete. 
