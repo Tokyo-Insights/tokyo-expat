@@ -1,0 +1,273 @@
+{
+  "generated": "2026-10-20T22:29:10.940268+00:00",
+  "subs": [
+    "japanlife",
+    "movingtojapan",
+    "japanresidents"
+  ],
+  "posts_analysed": 132,
+  "themes": {
+    "etat des lieux/sortie": 19,
+    "renouvellement": 9,
+    "langue / paperasse": 12,
+    "visa / statut": 37,
+    "garant / hosho": 4,
+    "depot / shikikin": 4,
+    "share house": 7,
+    "meuble / court terme": 6,
+    "budget / cherte": 19,
+    "chercher a distance": 10,
+    "refus / discrimination": 34,
+    "animaux": 5,
+    "argent-cle / reikin": 1
+  },
+  "stages": {
+    "deja installe": 31,
+    "avant l'arrivee": 15,
+    "juste arrive": 2
+  },
+  "painful_pct": 34.8,
+  "top_bigrams": [
+    {
+      "phrase": "home country",
+      "n": 16
+    },
+    {
+      "phrase": "back home",
+      "n": 15
+    },
+    {
+      "phrase": "long term",
+      "n": 13
+    },
+    {
+      "phrase": "real estate",
+      "n": 12
+    },
+    {
+      "phrase": "health insurance",
+      "n": 12
+    },
+    {
+      "phrase": "part time",
+      "n": 12
+    },
+    {
+      "phrase": "japanese people",
+      "n": 11
+    },
+    {
+      "phrase": "residence card",
+      "n": 11
+    },
+    {
+      "phrase": "thanks advance",
+      "n": 10
+    },
+    {
+      "phrase": "living japan",
+      "n": 10
+    },
+    {
+      "phrase": "years ago",
+      "n": 10
+    },
+    {
+      "phrase": "job hunting",
+      "n": 10
+    },
+    {
+      "phrase": "language school",
+      "n": 10
+    },
+    {
+      "phrase": "first time",
+      "n": 9
+    },
+    {
+      "phrase": "working holiday",
+      "n": 9
+    },
+    {
+      "phrase": "right now",
+      "n": 9
+    },
+    {
+      "phrase": "anyone else",
+      "n": 9
+    },
+    {
+      "phrase": "moving japan",
+      "n": 9
+    },
+    {
+      "phrase": "holiday visa",
+      "n": 8
+    },
+    {
+      "phrase": "next year",
+      "n": 8
+    },
+    {
+      "phrase": "full time",
+      "n": 8
+    },
+    {
+      "phrase": "high school",
+      "n": 8
+    },
+    {
+      "phrase": "japan post",
+      "n": 7
+    },
+    {
+      "phrase": "work visa",
+      "n": 7
+    },
+    {
+      "phrase": "bank account",
+      "n": 7
+    },
+    {
+      "phrase": "speak japanese",
+      "n": 7
+    },
+    {
+      "phrase": "permanent residency",
+      "n": 7
+    },
+    {
+      "phrase": "pension office",
+      "n": 7
+    },
+    {
+      "phrase": "min transfer",
+      "n": 6
+    },
+    {
+      "phrase": "new apartment",
+      "n": 6
+    },
+    {
+      "phrase": "few days",
+      "n": 6
+    },
+    {
+      "phrase": "new place",
+      "n": 6
+    },
+    {
+      "phrase": "estate agent",
+      "n": 6
+    },
+    {
+      "phrase": "leave japan",
+      "n": 6
+    },
+    {
+      "phrase": "move japan",
+      "n": 6
+    },
+    {
+      "phrase": "share house",
+      "n": 6
+    },
+    {
+      "phrase": "sofa status",
+      "n": 6
+    },
+    {
+      "phrase": "dependent visa",
+      "n": 6
+    },
+    {
+      "phrase": "red ticket",
+      "n": 6
+    },
+    {
+      "phrase": "amazon japan",
+      "n": 5
+    },
+    {
+      "phrase": "after years",
+      "n": 5
+    },
+    {
+      "phrase": "even though",
+      "n": 5
+    },
+    {
+      "phrase": "anyone experience",
+      "n": 5
+    },
+    {
+      "phrase": "japan years",
+      "n": 5
+    },
+    {
+      "phrase": "multiple times",
+      "n": 5
+    },
+    {
+      "phrase": "came japan",
+      "n": 5
+    },
+    {
+      "phrase": "leaving japan",
+      "n": 5
+    },
+    {
+      "phrase": "permanent residence",
+      "n": 5
+    },
+    {
+      "phrase": "greatly appreciated",
+      "n": 5
+    },
+    {
+      "phrase": "moved japan",
+      "n": 5
+    },
+    {
+      "phrase": "japanese government",
+      "n": 5
+    },
+    {
+      "phrase": "japan japanese",
+      "n": 5
+    },
+    {
+      "phrase": "weeks before",
+      "n": 5
+    },
+    {
+      "phrase": "end date",
+      "n": 5
+    },
+    {
+      "phrase": "per year",
+      "n": 5
+    },
+    {
+      "phrase": "anything else",
+      "n": 5
+    },
+    {
+      "phrase": "after months",
+      "n": 5
+    },
+    {
+      "phrase": "fixed term",
+      "n": 5
+    },
+    {
+      "phrase": "live japan",
+      "n": 5
+    },
+    {
+      "phrase": "company housing",
+      "n": 5
+    }
+  ],
+  "amounts_median": 200000
+}
