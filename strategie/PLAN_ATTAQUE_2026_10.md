@@ -8,7 +8,7 @@
 | C · Partenaires | en cours | 20/10 : liste et messages validés ; 4 brouillons Gmail prêts (Crown, H&R, PLAZA HOMES, AFJ) ; HIVEN : 26/10 proposé, en attente | il envoie les 4 (depuis l'alias) ; TokyoDev, Sirva, Santa Fe via LinkedIn après B ; inscrire les envoyés au registre avec `no_followup` |
 | D · Appels d'écoute | en cours (avancé avant B à sa demande du 20/10) | cible = entreprises qui envoient du personnel au Japon, option C (Occident + Asie anglophone) ; mesure par pays `segment_mutations_formation_2026_10_20.md` ; liste `chantier_D_liste_2026_10.md` : 8 prouvés côté B, 2 côté A | il colle la liste des VIE Japon (site Business France, depuis son navigateur) -> je complète A ; Business France Japon à ajouter en C ; puis trouver la personne par entreprise |
 | E · Relances | à faire | (aucun) | en continu dès le premier envoi |
-| F · Particuliers | à faire | (aucun) | après D |
+| F · Particuliers | en cours | 20/10 : la séquence existe déjà (6 emails J0-J21, FR+EN, tourne chaque matin, 25 inscrits suivis) ; audit + v2 FR rédigée `outreach/sequence_bienvenue_v2_2026_10.md` (accents absents, « 90 % » sans source, « négociation et contrat » = courtage, pas d'annonce d'offre ni d'email objections) | il valide la v2 FR -> mise à jour des templates Brevo 1, 2, 3, 7, 8, 9 -> v2 EN |
 
 Décisions d'Alessandro (20/10/2026) : « on lève la pause », « on attaque fort », « si il faut mettre ma photo de
 profil sur LinkedIn alors allons-y aussi ». Pause levée le jour même (commit `bb4191b`).
