@@ -315,7 +315,8 @@
     "emailed_date": "2026-10-20",
     "no_followup": true,
     "no_followup_reason": "Partenaire chantier C (20/10/2026) : relances A LA MAIN au chantier E, jamais par le watcher (gabarit media).",
-    "lang": "en"
+    "lang": "en",
+    "pilotage": "C"
   },
   {
     "domain": "asiantigers-japan.com",
@@ -1309,7 +1310,8 @@
     "followup_prepared": "2026-07-29",
     "no_followup": true,
     "no_followup_reason": "Partenaire chantier C (20/10/2026) : relances A LA MAIN au chantier E, jamais par le watcher (gabarit media).",
-    "lang": "fr"
+    "lang": "fr",
+    "pilotage": "C"
   },
   {
     "domain": "lepetitjournal.com",
@@ -1669,7 +1671,8 @@
     "added": "2026-10-20",
     "no_followup": true,
     "no_followup_reason": "Partenaire chantier C (20/10/2026) : relances A LA MAIN au chantier E, jamais par le watcher (gabarit media).",
-    "lang": "en"
+    "lang": "en",
+    "pilotage": "C"
   },
   {
     "domain": "plazahomes.co.jp",
@@ -1691,7 +1694,8 @@
     "added": "2026-10-20",
     "no_followup": true,
     "no_followup_reason": "Partenaire chantier C (20/10/2026) : relances A LA MAIN au chantier E, jamais par le watcher (gabarit media).",
-    "lang": "en"
+    "lang": "en",
+    "pilotage": "C"
   },
   {
     "domain": "zenitus.com",
@@ -1713,7 +1717,8 @@
     "added": "2026-10-20",
     "no_followup": true,
     "no_followup_reason": "Appel d'ecoute chantier D (20/10/2026) : relances A LA MAIN au chantier E, jamais par le watcher (gabarit media).",
-    "lang": "en"
+    "lang": "en",
+    "pilotage": "D"
   },
   {
     "domain": "jolt-capital.com",
@@ -1735,7 +1740,8 @@
     "added": "2026-10-20",
     "no_followup": true,
     "no_followup_reason": "Appel d'ecoute chantier D (20/10/2026) : relances A LA MAIN au chantier E, jamais par le watcher (gabarit media).",
-    "lang": "fr"
+    "lang": "fr",
+    "pilotage": "D"
   },
   {
     "domain": "businessfrance.fr",
@@ -1757,6 +1763,37 @@
     "added": "2026-10-21",
     "no_followup": true,
     "no_followup_reason": "Appel d'ecoute chantier D (21/10/2026) : relances A LA MAIN au chantier E, jamais par le watcher (gabarit media).",
-    "lang": "fr"
+    "lang": "fr",
+    "pilotage": "D"
+  },
+  {
+    "domain": "hivenstay.com",
+    "name": "HIVEN (Damien, Justin)",
+    "type": "relocation_partner",
+    "email": "damien@hivenstay.com",
+    "approach": "partenariat",
+    "da_est": null,
+    "priority": "high",
+    "pitch": null,
+    "notes": "ENTRANT : resa Calendly du 15/10/2026, operateur meuble a Kinshicho, veut un partenariat. Appel tenu le 17/10 15h (Damien + Justin). Diner du 22/10 reporte par eux, 26/10 propose le 20/10. Fiche memoire project_lead_hiven_damien_2026_10_15.md",
+    "status": "replied",
+    "emailed_date": "2026-10-15",
+    "last_contact": "2026-10-20",
+    "response": "entrant (Calendly 15/10), appel tenu 17/10",
+    "link_obtained": null,
+    "added": "2026-10-22",
+    "no_followup": true,
+    "no_followup_reason": "Partenaire en discussion, suivi a la main.",
+    "pilotage": "C",
+    "domaines_emails": [
+      "hivenstay.com"
+    ],
+    "rdv": [
+      {
+        "date": "2026-10-17",
+        "tenu": true,
+        "objet": "appel decouverte"
+      }
+    ]
   }
 ]

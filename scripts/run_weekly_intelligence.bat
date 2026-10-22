@@ -75,6 +75,10 @@ python scripts\pricing_monitor.py >> "%LOG_FILE%" 2>&1
 echo [%TIME%] [6/19] Outreach tracker digest... >> "%LOG_FILE%"
 python scripts\outreach_tracker.py >> "%LOG_FILE%" 2>&1
 
+:: 6b. Pilotage du plan d'attaque, chantier J du 22/10/2026 (~20s, IMAP, aucun envoi)
+echo [%TIME%] [6b/19] Pilotage plan d'attaque... >> "%LOG_FILE%"
+python scripts\pilotage_hebdo.py >> "%LOG_FILE%" 2>&1
+
 :: 7. Vulnerability detector (~30s)
 echo [%TIME%] [7/19] Vulnerability detector... >> "%LOG_FILE%"
 python scripts\vulnerability_detector.py >> "%LOG_FILE%" 2>&1
