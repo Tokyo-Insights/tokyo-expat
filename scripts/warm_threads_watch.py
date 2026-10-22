@@ -53,15 +53,18 @@ ETAT = Path(__file__).resolve().parent / "data" / "warm_threads_state.json"
 #                 une action CONCRETE.
 # emails        = plusieurs adresses possibles: certains ecrivent depuis un domaine
 #                 different de celui auquel on leur ecrit (cas Camilla / Coto).
+# reponse_lue_le = date ISO: leur dernier message, recu ce jour-la ou avant, a ete LU et
+#                 n'appelle rien (ex: « everything is clear »). Il ne declenche plus l'alerte;
+#                 un message recu APRES cette date alerte de nouveau. Ajoute le 22/10/2026.
 CONTACTS = [
     {"nom": "X-House / Cross House (Takahashi Ai)",
      "emails": ["a.takahashi@x-house.jp", "info_xh@x-house.jp"],
-     "silence_du": None, "reponse_agit": True,
+     "silence_du": None, "reponse_agit": True, "reponse_lue_le": "2026-09-25",
      "note": "PARTENAIRE ACTIF depuis le 24/09. Accord conclu: visibilite editoriale contre "
-             "orientation de locataires, sans contrat ni commission. ⛔ Plus de seuil de "
-             "silence: la balle est dans NOTRE camp, ce n'est plus a elle de repondre. Une "
-             "reponse de sa part compte toujours. ⚠️ Repondre depuis l'alias "
-             "contact@tokyo-expat.com."},
+             "orientation de locataires, sans contrat ni commission. Son message du 25/09 "
+             "(« Everything is clear on our side ») clot l'echange: rien a repondre (regle du "
+             "21/10, pas de « merci / ok »). Pas de seuil de silence. Une NOUVELLE reponse de "
+             "sa part compte toujours. ⚠️ Repondre depuis l'alias contact@tokyo-expat.com."},
     {"nom": "GaijinBlog (Fernando/Damith)", "emails": ["info@gaijinblog.com"],
      "silence_du": 10, "reponse_agit": True,
      "note": "1er canal entrant. Commande move-in costs envoyee le 08/09."},
@@ -147,7 +150,10 @@ def main():
         # De quel cote est la balle ?
         if recu and (not envoye or recu > envoye):
             cote = "EUX ont ecrit en dernier"
-            if c.get("reponse_agit", True):
+            lue = c.get("reponse_lue_le")
+            if lue and recu.date() <= dt.date.fromisoformat(lue):
+                cote += f" (reponse lue le {lue}, rien a faire)"
+            elif c.get("reponse_agit", True):
                 a_traiter.append((c["nom"], j_recu))
             else:
                 cote += " (transactionnel, pas d'action)"

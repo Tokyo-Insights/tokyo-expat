@@ -18,7 +18,7 @@ Convention AutoMod: **deux textes**. La DESCRIPTION porte le lien, le PREMIER CO
 ```
 Data: about 160,000 standard 1K studio listings and 2,400 furnished ones across 18 of Tokyo's 23 wards, September 2026, deduplicated. Rent includes monthly management fees. Furnished stock is small by nature, so I dropped the 5 wards with fewer than 50 furnished listings rather than publish a median a single listing could move. Medians, not averages, so a few luxury units don't skew it.
 
-Full breakdown by ward, train line and station: tokyo-expat.com/en/data
+More Tokyo rent data (standard rents by ward, train line and station): tokyo-expat.com/en/data
 ```
 
 ## 3) Premier commentaire (Source + Tool, ZERO lien)
