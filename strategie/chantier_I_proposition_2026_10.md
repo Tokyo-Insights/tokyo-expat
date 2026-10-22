@@ -118,7 +118,8 @@ tokyo-expat.com/data. ⛔ Jamais l'employeur, jamais « j'opère », jamais « e
 - Je suis payé par vous seul, jamais par une agence ou un propriétaire. La location est signée entre
   votre collaborateur, une agence agréée et le propriétaire ; mon rôle est le conseil et
   l'accompagnement.
-- Paiement à la commande ; pour la formule partenaire, par trimestre.
+- Paiement à la commande ; pour la formule partenaire, par trimestre. Si votre entreprise règle
+  sur facture à 30 jours, un acompte à la commande, le solde sur facture.
 
 **8. Preuves.** Exemple chiffré de la méthode : ⟦étude de cas H⟧. ⟦Dès le 1er client : son
 témoignage écrit, à la place de l'exemple.⟧ Tarif fondateur pour les trois premières entreprises :
@@ -170,7 +171,8 @@ across the 23 wards, published at tokyo-expat.com/data.
 - Reply within 24 hours.
 - I am paid by you only, never by an agency or a landlord. The lease is signed between your
   employee, a licensed agency and the landlord; my role is advice and support.
-- Payment on order; quarterly for the partner option.
+- Payment on order; quarterly for the partner option. If your company pays on 30-day invoice,
+  a deposit on order and the balance on invoice.
 
 **8. Proof.** A worked example of the method: ⟦case study H⟧. ⟦From the first client: their written
 testimonial instead.⟧ Founding rate for the first three companies: 20% off in exchange for a
@@ -188,6 +190,8 @@ book the brief with ⟦first name⟧ within 48 hours.
 - « Paiement à la commande » : règle paiement d'abord déjà en place pour les particuliers (Poppy
   s'était évaporée au virement). ⚠️ Pour une entreprise japonaise, une facture à 30 jours peut être
   demandée : ne pas refuser, mais demander l'acompte de la formule.
+  ✅ Confirmé par Alessandro le 22/10 (« ok ») : paiement à la commande, ou facture à 30 jours avec acompte
+  à la commande. Montant de l'acompte non fixé : le lui demander au premier cas réel.
 
 ## État
 - 22/10 : dossier RH (6 pages FR + EN, emails FR + EN) et proposition en 9 sections (FR + EN)
