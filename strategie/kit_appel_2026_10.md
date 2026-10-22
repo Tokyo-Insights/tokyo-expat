@@ -13,7 +13,11 @@ Sources : [102] processus de vente · [103] premier échange · [050] les 5 peur
 4. **Reformuler** avec SES mots et SES priorités avant de proposer quoi que ce soit [050].
 5. **Ne jamais finir sans la prochaine étape datée** (« je vous envoie X jeudi », « on se rappelle
    mardi 18 h ») [102] [103]. Et livrer AVANT la date promise [050].
-6. Garde-fous : employeur jamais mentionné ; aucune commission par locataire ; on conseille et on
+6. **Avant de raccrocher, demander une recommandation** (ajouté le 22/10, carte domaine 4) [076] [068] :
+   « Qui d'autre, autour de vous, s'occupe de l'arrivée de personnes étrangères à Tokyo ? » /
+   « Who else do you know who deals with people relocating to Tokyo? ». Noter le nom dans le registre
+   (champ `pilotage` si on lui écrit). Remercier, jamais de commission [076].
+7. Garde-fous : employeur jamais mentionné ; aucune commission par locataire ; on conseille et on
    accompagne, le bail se signe avec une agence agréée.
 
 ## Se présenter en une phrase [052]
