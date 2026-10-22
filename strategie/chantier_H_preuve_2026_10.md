@@ -20,13 +20,14 @@ contre témoignage.
 
 ## 1. La méthode, en 5 étapes
 
-### Le nom (à choisir par Alessandro)
+### Le nom : ✅ « La méthode Dossier 48 h » (choisi par Alessandro le 22/10)
+EN : « The 48-Hour Application method ». Les options écartées restent ci-dessous pour mémoire.
 - **A. « La méthode Dossier 48 h »** (recommandée) : reprend la promesse de l'offre validée le 20/10,
   que tu tiens déjà (trouver un bien prend 10 min à 1 h, la promesse 48 h est livrée).
 - B. « Les 5 étapes de l'arrivée »
 - C. « De la mutation aux clés »
 
-### Les étapes (FR)
+### Les étapes (FR) · La méthode Dossier 48 h
 1. **Cadrage (30 min).** Budget, adresse du bureau, date d'arrivée, statut (visa, contrat,
    durée), contraintes (famille, animal, école). Un seul formulaire, une seule fois.
 2. **Budget par quartier, sur transactions réelles.** Trois quartiers à moins de 30 minutes du
@@ -40,7 +41,7 @@ contre témoignage.
 5. **Signature et première semaine.** Le bail expliqué ligne par ligne avant la signature, qui se
    fait avec une agence agréée ; puis électricité, gaz, internet, téléphone, banque et mairie.
 
-### The steps (EN)
+### The steps (EN) · The 48-Hour Application method
 1. **Brief (30 min).** Budget, office address, arrival date, status (visa, contract, length),
    constraints (family, pet, school). One form, filled once.
 2. **Budget by neighbourhood, from real transactions.** Three areas within 30 minutes of the
@@ -141,6 +142,6 @@ qui a été fait, un chiffre (délai, économie), par écrit, demandé à une da
 - Site : rien pour l'instant (le trafic n'est pas le goulot) ; à revoir après le 1er témoignage.
 
 ## État
-- 22/10 : méthode (FR + EN) et étude de cas type (FR + EN) rédigées. ⏳ **Alessandro choisit le nom
-  (A, B ou C) et valide les deux textes.** Premier dossier contre témoignage : attend une réponse
+- 22/10 : méthode (FR + EN) et étude de cas type (FR + EN) rédigées ; nom A choisi par lui le 22/10.
+  ✅ H FINI côté rédaction. Premier dossier contre témoignage : attend une réponse
   du C ou du D.

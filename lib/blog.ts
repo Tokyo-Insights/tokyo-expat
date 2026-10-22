@@ -8514,7 +8514,7 @@ The lowest monthly rent for a given size, but the highest entry cost (3-5 months
 
 **Furnished monthly mansion (manshu)**
 
-20-30% higher monthly rent than unfurnished, but minimal entry cost (1-2 months), no furniture expense, and flexible lease terms from 1 month. Best for probationary periods, short assignments, or when the final assignment duration is uncertain.
+A higher monthly rent than unfurnished (in our rent index, a furnished 1K studio costs about 20% more in central wards and up to double in the cheapest ones), but minimal entry cost (1-2 months), no furniture expense, and flexible lease terms from 1 month. Best for probationary periods, short assignments, or when the final assignment duration is uncertain.
 
 **Serviced apartment / corporate apartment**
 
@@ -8615,7 +8615,7 @@ Le loyer mensuel le plus bas pour une surface donnée, mais le coût d'entrée l
 
 **Monthly mansion meublé**
 
-Loyer mensuel 20 à 30% plus élevé qu'un non meublé, mais coût d'entrée minimal (1 à 2 mois), pas de mobilier à acheter, et conditions de bail flexibles à partir de 1 mois. Idéal pour les périodes probatoires, les missions courtes, ou quand la durée finale est incertaine.
+Loyer mensuel plus élevé qu'un non meublé (dans notre indice, un studio 1K meublé coûte environ 20 % de plus dans les arrondissements centraux, et jusqu'au double dans les moins chers), mais coût d'entrée minimal (1 à 2 mois), pas de mobilier à acheter, et conditions de bail flexibles à partir de 1 mois. Idéal pour les périodes probatoires, les missions courtes, ou quand la durée finale est incertaine.
 
 **Appartement en résidence de services**
 
