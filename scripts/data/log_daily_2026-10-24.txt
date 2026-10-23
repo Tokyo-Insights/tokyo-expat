@@ -156,3 +156,56 @@ Aucune cible eligible a stocker (aucune cible email_verified=True en attente).
 
 2 panne(s) detectee(s) -> alerte Telegram envoyee.
 [ 7:08:37.28] [10b] Fils partenaires chauds... 
+=== FILS PARTENAIRES CHAUDS — 2026-10-24 ===
+  X-House / Cross House (Takahashi Ai) recu il y a 28j · envoye il y a 0j · nous avons ecrit en dernier
+  GaijinBlog (Fernando/Damith)       recu il y a 50j · envoye il y a 45j · nous avons ecrit en dernier
+  Expat Arrivals (Daniel)            recu il y a 63j · envoye il y a 45j · nous avons ecrit en dernier
+  InternationalSchools (Engin)       recu il y a 41j · envoye il y a 39j · nous avons ecrit en dernier
+  UniLife (Shin)                     recu il y a 48j · envoye il y a 45j · nous avons ecrit en dernier
+  Dormy (Kyoritsu)                   recu il y a 50j · envoye il y a 49j · nous avons ecrit en dernier
+  PetAir                             recu il y a -j · envoye il y a 45j · nous avons ecrit en dernier
+  Naganuma                           recu il y a -j · envoye il y a 51j · nous avons ecrit en dernier
+  SNG                                recu il y a -j · envoye il y a 51j · nous avons ecrit en dernier
+  Coto / studyinjapan (Camilla)      recu il y a 50j · envoye il y a 50j · nous avons ecrit en dernier
+
+Alerte envoyee.
+[ 7:09:35.05] [11/12] Reddit munition reminder (if due)... 
+C:\Users\alegu\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.reddit.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\alegu\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'api.telegram.org'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\alegu\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'api.telegram.org'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+Alerte stale: furnished-by-location (36j)
+Re-rappel: furnished-by-location
+[ 7:09:39.73] [11b] Reddit comment harvester... 
+0 nouveau(x) commentaire(s) capture(s). Total log: 134.
+[ 7:10:12.19] [11c] Subscriber feedback harvester... 
+0 nouvelle(s) reponse(s) recoltee(s). Total: 1. -> Claude en tire des sujets d'articles.
+[ 7:10:14.74] [11d] Reddit cadence reminder (if Wed/Sat)... 
+Rappel Reddit envoye (samedi, 0 en attente).
+[ 7:10:16.52] [12/13] GA4 daily report... 
+📊 GA4 - hier
+Sessions: 61 (-3% vs mediane 7j = 63) 📉
+↳ dont organique: 15 ⏳ <i>PROVISOIRE</i> (+15% vs mediane 7j = 13) = 25% du total
+   ⚠️ GA4 revise a la HAUSSE: +6 en median entre J+1 et J+3 (33 jours mesures). Ne rien conclure sur ce chiffre.
+   ✅ Point STABLE (mercredi 21/10): 17 vs mediane des mercredis = 20 (-15%) -- <i>c'est CE chiffre qui se lit</i>
+Utilisateurs: 60 | Vues: 73
+
+Top pays: Singapore (34), China (6), United States (6), Japan (5), France (4), Germany (1)
+Top sources: Direct (45), Organic Search (15), AI Assistant (1), Unassigned (1)
+🤖 IA (GEO): 1 session(s) via chatgpt.com
+
+Top pages:
+  /en/data (5)
+  /en/blog/japan-income-tax-foreigners-g (4)
+  /en (3)
+  /en/blog/japan-sim-card-foreigners-202 (3)
+  /en/blog/japan-work-visa-foreigners-gu (3)
+
+[Telegram envoye]
+[ 7:10:31.96] [12b] Backlink monitor (if due)... 
+Dernier controle il y a 5 j (< 7). Skip.
+[ 7:10:33.05] [14] Echeances datees... 
+[2026-10-24] Aucune echeance due. (5 surveillee(s), la plus proche le 2026-10-31)
+[ 7:10:33.48] Daily watch complete. 
