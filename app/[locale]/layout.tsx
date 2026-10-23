@@ -4,10 +4,19 @@ import { getDictionary, type Locale } from '@/lib/i18n'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import ExitIntentPopup from '@/components/ExitIntentPopup'
+import RootHtml, { rootMetadata, rootViewport } from '@/components/RootHtml'
 
 export const metadata: Metadata = {
+  ...rootMetadata,
   title: 'Tokyo Expat — Chasseur Immobilier à Tokyo',
   description: 'Trouvez votre logement à Tokyo avec un chasseur immobilier dédié. Share house, appartement, maison. FR / EN. Consultation gratuite.',
+}
+
+export const viewport = rootViewport
+
+// Layout racine du site public : la langue vient du segment d'URL, plus de headers().
+export function generateStaticParams() {
+  return [{ locale: 'fr' }, { locale: 'en' }]
 }
 
 export default async function LocaleLayout({
@@ -21,11 +30,11 @@ export default async function LocaleLayout({
   const dict = getDictionary(locale)
 
   return (
-    <>
+    <RootHtml lang={locale}>
       <Header locale={locale} nav={dict.nav} />
       <main className="bg-white text-gray-900">{children}</main>
       <Footer locale={locale} nav={dict.nav} footer={dict.footer} />
       <ExitIntentPopup locale={locale} />
-    </>
+    </RootHtml>
   )
 }

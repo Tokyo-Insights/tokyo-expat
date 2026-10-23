@@ -14,16 +14,13 @@ import CtaConsultation from '@/components/CtaConsultation'
 // un lien suivi vers /en/data le 04/09/2026, on rend l'equivalent. Echange unique et editorial.
 const EDITORIAL_DOFOLLOW = ['cotoacademy.com', 'internationalschools.net']
 
-export async function generateStaticParams() {
-  const locales: Locale[] = ['fr', 'en']
-  const params: { locale: string; slug: string }[] = []
-  for (const locale of locales) {
-    const posts = getBlogPosts(locale)
-    for (const post of posts) {
-      params.push({ locale, slug: post.slug })
-    }
-  }
-  return params
+// La langue est fournie par le generateStaticParams du layout [locale] (24/10/2026).
+export async function generateStaticParams({
+  params,
+}: {
+  params: { locale: string }
+}) {
+  return getBlogPosts(params.locale as Locale).map((post) => ({ slug: post.slug }))
 }
 
 export async function generateMetadata({

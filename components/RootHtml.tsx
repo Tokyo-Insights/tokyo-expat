@@ -1,11 +1,16 @@
 import type { Metadata, Viewport } from 'next'
 import type { ReactNode } from 'react'
-import { headers } from 'next/headers'
 import GoogleAnalytics from '@/components/GoogleAnalytics'
 import MicrosoftClarity from '@/components/MicrosoftClarity'
-import './globals.css'
+import '@/app/globals.css'
 
-export const metadata: Metadata = {
+// Squelette <html> commun aux 3 layouts racines (app/[locale], app/admin, app/devis).
+// Avant le 24/10/2026, un seul app/layout.tsx lisait la langue via headers() (en-tete
+// x-locale du middleware) : cet appel rendait TOUT le site dynamique, chaque visite
+// (bots compris) passait par une fonction, d'ou l'alerte Vercel "75 % du Fluid Active
+// CPU". La langue vient desormais du segment d'URL, et les pages redeviennent statiques.
+
+export const rootMetadata: Metadata = {
   metadataBase: new URL('https://www.tokyo-expat.com'),
   // Validation Bing Webmaster (ajoutee 08/09/2026). Le compte ne suivait que l'apex
   // tokyo-expat.com, alors que le site sert sur www et que tous les backlinks pointent
@@ -30,20 +35,19 @@ export const metadata: Metadata = {
   },
 }
 
-export const viewport: Viewport = {
+export const rootViewport: Viewport = {
   themeColor: '#0f2744',
 }
 
-export default async function RootLayout({
+export default function RootHtml({
+  lang,
   children,
 }: {
+  lang: string
   children: ReactNode
 }) {
-  const headersList = await headers()
-  const locale = headersList.get('x-locale') || 'fr'
-
   return (
-    <html lang={locale}>
+    <html lang={lang}>
       <head>
         <link rel="preconnect" href="https://calendly.com" />
         <link rel="dns-prefetch" href="https://calendly.com" />
