@@ -63,8 +63,8 @@ CONTACTS = [
              "l'email 2 (prix) : outreach/lead_elodie_2026_10.md. Par email seulement, pas d'appel."},
     {"nom": "X-House / Cross House (Takahashi Ai)",
      "emails": ["a.takahashi@x-house.jp", "info_xh@x-house.jp", "xrosshouse.com"],
-     "silence_du": None, "reponse_agit": True, "reponse_lue_le": "2026-09-25",
-     "note": "PARTENAIRE ACTIF depuis le 24/09. Accord conclu: visibilite editoriale contre "
+     "silence_du": None, "reponse_agit": True, "reponse_lue_le": "2026-10-24",
+     "note": "24/10 : customer@xrosshouse.com a repondu aux 3 questions Elodie (lu, rien a repondre). PARTENAIRE ACTIF depuis le 24/09. Accord conclu: visibilite editoriale contre "
              "orientation de locataires, sans contrat ni commission. Son message du 25/09 "
              "(« Everything is clear on our side ») clot l'echange: rien a repondre (regle du "
              "21/10, pas de « merci / ok »). Pas de seuil de silence. Une NOUVELLE reponse de "
