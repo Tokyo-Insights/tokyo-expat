@@ -62,10 +62,11 @@ agence agréée (conseil et accompagnement, pas de courtage), aucun partenaire n
 ## 2. Étude de cas type (exemple construit sur des chiffres réels, PAS un client)
 
 ⚠️ À présenter toujours comme un **exemple**, jamais comme un client servi. Chiffres : indice
-des loyers du site (`lib/tokyoRentIndex.json`, généré le 02/07/2026, ~529 000 annonces) et frais
+des loyers du site (`lib/tokyoRentIndex.json`, généré le 24/10/2026, 608 072 annonces) et frais
 d'entrée par arrondissement (`outreach/tokyo-entry-cost-by-ward.csv`, septembre 2026).
-🚨 L'indice a 112 jours au 22/10 : **refaire les chiffres avant tout envoi** si l'indice a été
-rafraîchi entre-temps (le rafraîchissement se fait côté tokyo_insights).
+✅ Chiffres refaits le 24/10/2026 sur l'indice rafraîchi le même jour (avant : Chuo 130k, Kinshicho 110k,
+Oshiage 105k). À refaire au prochain rafraîchissement trimestriel. La part sans key money vient encore du
+CSV de septembre.
 
 ### FR · « Un VIE arrive à Nihonbashi dans cinq semaines »
 **La situation.** Une entreprise française envoie un VIE à Tokyo pour 18 mois, dans ses bureaux
@@ -73,11 +74,11 @@ de Nihonbashi. Il arrive seul dans cinq semaines, ne parle pas japonais, et n'a 
 Japon. L'entreprise fixe un budget logement de 120 000 ¥ par mois, charges comprises.
 
 **Le réflexe qui coûte cher.** Chercher à côté du bureau. Dans l'arrondissement de Chuo, le loyer
-médian d'un studio (1K) est de **130 000 ¥** : déjà au-dessus du budget.
+médian d'un studio (1K) est de **129 000 ¥** : déjà au-dessus du budget, avant même les charges.
 
 **Étape 2, le budget par quartier.** À quatre arrêts de Mitsukoshimae sur la ligne Hanzomon,
-Kinshicho affiche un loyer médian de **110 000 ¥** pour le même studio, et Oshiage, sur la même
-ligne, **105 000 ¥**. Soit **20 000 à 25 000 ¥ de moins par mois**, **360 000 à 450 000 ¥ sur
+Kinshicho affiche un loyer médian de **115 000 ¥** pour le même studio, et Oshiage, sur la même
+ligne, **110 000 ¥**. Soit **14 000 à 19 000 ¥ de moins par mois**, **252 000 à 342 000 ¥ sur
 18 mois**, pour un trajet de quelques stations. Côté frais d'entrée, **41 % des annonces de
 Sumida ne demandent pas de key money**, contre 33 % dans Chuo.
 
@@ -98,11 +99,11 @@ trainee arrives alone in five weeks, speaks no Japanese and has no guarantor in 
 is ¥120,000 a month, fees included.
 
 **The costly reflex.** Searching next to the office. In Chuo ward the median rent for a studio
-(1K) is **¥130,000**, already over budget.
+(1K) is **¥129,000**, already over budget before any fees.
 
 **Step 2, budget by neighbourhood.** Four stops from Mitsukoshimae on the Hanzomon line,
-Kinshicho has a median of **¥110,000** for the same studio, and Oshiage, on the same line,
-**¥105,000**. That is **¥20,000 to ¥25,000 less per month**, **¥360,000 to ¥450,000 over 18
+Kinshicho has a median of **¥115,000** for the same studio, and Oshiage, on the same line,
+**¥110,000**. That is **¥14,000 to ¥19,000 less per month**, **¥252,000 to ¥342,000 over 18
 months**, for a few extra stations. On move-in costs, **41% of listings in Sumida ask no key
 money**, against 33% in Chuo.
 
