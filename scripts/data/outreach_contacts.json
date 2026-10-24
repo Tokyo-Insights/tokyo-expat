@@ -1695,7 +1695,8 @@
     "no_followup": true,
     "no_followup_reason": "Partenaire chantier C (20/10/2026) : relances A LA MAIN au chantier E, jamais par le watcher (gabarit media).",
     "lang": "en",
-    "pilotage": "C"
+    "pilotage": "C",
+    "reponse_lue_le": "2026-10-20"
   },
   {
     "domain": "zenitus.com",

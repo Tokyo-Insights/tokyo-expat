@@ -272,7 +272,10 @@ def main():
         # Toujours rien de visible: on ALERTE, on ne suppose pas (incident du 08/09/2026).
         # ...sauf si la semaine a ete sautee volontairement: alerter sur un retard qu'on a
         # soi-meme decide, c'est du bruit.
-        if (n - reminded) >= STALE_AFTER and not skipping:
+        # ⛔ COUPEE le 24/10/2026 (sa decision) : elle doublait le re-rappel ci-dessous, deux
+        # messages par jour pour la meme munition. Le re-rappel du vendredi dit desormais
+        # depuis combien de jours elle attend. `stale_alerted_utc` reste tenu a jour.
+        if False and (n - reminded) >= STALE_AFTER and not skipping:
             last_stale = parse(st.get("stale_alerted_utc"))
             if last_stale is None or (n - last_stale) >= STALE_COOLDOWN:
                 st["stale_alerted_utc"] = iso(n)
@@ -294,13 +297,21 @@ def main():
         print("Rien a faire: semaine sautee.")
         return
 
-    # munition en attente pas encore confirmee -> re-rappel gentil (1x/jour)
+    # munition en attente pas encore confirmee -> re-rappel LE VENDREDI seulement (jour du
+    # post OC, ~9h JST). Il sonnait chaque jour : 1x/jour pendant 36 j sur une munition que
+    # personne ne pouvait poster un mardi (24/10/2026). --force passe outre.
+    vendredi_jst = (n + dt.timedelta(hours=9)).weekday() == 4
+    if st.get("awaiting_id") and not already_reminded_today and not (vendredi_jst or force):
+        print(f"Munition {st['awaiting_id']} en attente : re-rappel vendredi seulement.")
+        return
     if st.get("awaiting_id") and not already_reminded_today:
         awaiting = by_id(st["awaiting_id"])
+        attente = (n - parse(st.get("awaiting_reminded_utc") or iso(n))).days
         st["last_reminded_date"] = today
         save(q)
         send_telegram(
-            f"⏰ <b>Rappel: pas encore poste</b>\nTa munition <code>{awaiting['id']}</code> attend toujours.\n\n"
+            f"⏰ <b>Rappel: pas encore poste</b> (vendredi, jour du post OC)\nTa munition "
+            f"<code>{awaiting['id']}</code> attend depuis {attente} j.\n\n"
             f"\U0001F4CA {awaiting['title']}\n\U0001F5BC️ {awaiting['png']}\n\U0001F3AF r/{awaiting['sub']}\n\n"
             + (f"\U0001F4DD 1) Description du post (PORTE le lien):\n{awaiting['post_description']}\n\n"
                if awaiting.get("post_description") else "")

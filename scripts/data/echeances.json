@@ -230,6 +230,26 @@
       "fiche": "project_trading_etat_courant.md",
       "actif": true,
       "fait": false
+    },
+    {
+      "id": "relance-E1-crown-hr-afj-zenitus-jolt",
+      "date": "2026-10-27",
+      "titre": "RELANCE n°1 (chantier E) : Crown, H&R, AFJ, Zenitus, Jolt (écrits le 20/10, sans réponse)",
+      "quoi": "Dire BONJOUR TOKYO EXPAT : Claude vérifie d'abord dans Gmail qu'ils n'ont pas répondu, puis rédige 5 brouillons (angle DIFFÉRENT du 1er message, une phrase, une question oui/non, sans lien de calendrier). Tu les relis et les envoies. Ensuite : poser la relance dans le champ pilotage de chaque fiche (scripts/data/outreach_contacts.json). Relance n°2 une semaine après, 3 au total.",
+      "commande": "",
+      "fiche": "strategie/PLAN_ATTAQUE_2026_10.md (chantier E)",
+      "actif": true,
+      "fait": false
+    },
+    {
+      "id": "relance-E1-business-france",
+      "date": "2026-10-28",
+      "titre": "RELANCE n°1 (chantier E) : Business France Japon (écrit le 21/10, sans réponse)",
+      "quoi": "Dire BONJOUR TOKYO EXPAT : Claude vérifie dans Gmail (tokyo@businessfrance.fr) qu'ils n'ont pas répondu, puis rédige 1 brouillon de relance (angle différent : le cas d'un V.I.E qui arrive en janvier, haute saison). Tu l'envoies. Relance n°2 une semaine après, 3 au total.",
+      "commande": "",
+      "fiche": "strategie/PLAN_ATTAQUE_2026_10.md (chantier E)",
+      "actif": true,
+      "fait": false
     }
   ]
 }

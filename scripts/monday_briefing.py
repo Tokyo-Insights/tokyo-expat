@@ -596,7 +596,16 @@ if __name__ == "__main__":
         else:
             lines.append("Aucune action HARO/Reddit en attente.")
         msg = "\n".join(lines)
-        send_telegram(msg)
+        # N'envoie que s'il y a quelque chose a FAIRE (24/10/2026) : file Buffer basse
+        # (jaune/rouge) ou action en attente. « 60 posts restants, rien en attente » sonnait
+        # chaque jeudi pour rien (regle des radars : alerte = action concrete).
+        a_faire = (not queue_status
+                   or queue_status.get("fb", {}).get("remaining", 0) <= 10
+                   or any(p.get("type") in ("haro", "reddit") for p in (pending or [])))
+        if a_faire:
+            send_telegram(msg)
+        else:
+            print("[JEUDI CHECK] rien a faire, pas d'envoi.")
         print(msg)
     elif "--dismiss-quora" in args:
         idx = args.index("--dismiss-quora")

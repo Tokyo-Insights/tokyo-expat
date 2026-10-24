@@ -47,8 +47,14 @@ echo [%TIME%] [3/4] Seasonal calendar... >> "%LOG_FILE%"
 python scripts\seasonal_calendar.py >> "%LOG_FILE%" 2>&1
 
 :: 4. Analyse proactive (seulement si donnees disponibles)
-echo [%TIME%] [4/5] Proactive analysis... >> "%LOG_FILE%"
+::    SILENCIEUX depuis le 24/10/2026 (sa decision) : le mercredi il envoyait ANALYSE
+::    INTELLIGENCE, TOP 3 ARTICLES et PLAN D'ACTION 30 JOURS, qui poussaient a ecrire des
+::    articles et a demarcher Wikivoyage/Numbeo, l'inverse du plan d'attaque A-J. Il
+::    continue d'ecrire ses fichiers.
+set TE_TELEGRAM_SILENT=1
+echo [%TIME%] [4/5] Proactive analysis (silencieux)... >> "%LOG_FILE%"
 python scripts\proactive_analysis.py >> "%LOG_FILE%" 2>&1
+set TE_TELEGRAM_SILENT=
 
 :: 5. Reddit intercept (posts Tokyo housing des dernieres 24h -- alerte Telegram si match)
 echo [%TIME%] [5/7] Reddit intercept... >> "%LOG_FILE%"
@@ -115,8 +121,13 @@ echo [%TIME%] [11d] Reddit cadence reminder (if Wed/Sat)... >> "%LOG_FILE%"
 python scripts\reddit_cadence_reminder.py >> "%LOG_FILE%" 2>&1
 
 :: 12. Rapport GA4 (INACTIF tant que la cle compte de service n'est pas posee -> aucune erreur)
-echo [%TIME%] [12/13] GA4 daily report... >> "%LOG_FILE%"
+::     SILENCIEUX depuis le 24/10/2026 (sa decision) : chiffre d'hier PROVISOIRE (GA4 revise
+::     ~3 j) et gonfle par les bots de Singapour, rien a decider dessus. Il continue
+::     d'alimenter ga4_organic_history.json ; le rapport du mercredi et le BONJOUR le lisent.
+set TE_TELEGRAM_SILENT=1
+echo [%TIME%] [12/13] GA4 daily report (silencieux)... >> "%LOG_FILE%"
 python scripts\ga4_daily_report.py >> "%LOG_FILE%" 2>&1
+set TE_TELEGRAM_SILENT=
 
 :: 12b. Backlinks ACQUIS : relit chaque page qui nous lie et signale celles qui nous ont
 ::      perdus. Ajoute le 14/09/2026, apres la disparition des 2 liens internationalschools.net

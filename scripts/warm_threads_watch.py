@@ -57,8 +57,12 @@ ETAT = Path(__file__).resolve().parent / "data" / "warm_threads_state.json"
 #                 n'appelle rien (ex: « everything is clear »). Il ne declenche plus l'alerte;
 #                 un message recu APRES cette date alerte de nouveau. Ajoute le 22/10/2026.
 CONTACTS = [
+    {"nom": "Elodie (cliente WHV, bail fini le 31/12)", "emails": ["elogood@hotmail.fr"],
+     "silence_du": None, "reponse_agit": True,
+     "note": "Lead entrant du 23/10. Email 1 envoye le 23/10 (3 questions). Sa reponse declenche "
+             "l'email 2 (prix) : outreach/lead_elodie_2026_10.md. Par email seulement, pas d'appel."},
     {"nom": "X-House / Cross House (Takahashi Ai)",
-     "emails": ["a.takahashi@x-house.jp", "info_xh@x-house.jp"],
+     "emails": ["a.takahashi@x-house.jp", "info_xh@x-house.jp", "xrosshouse.com"],
      "silence_du": None, "reponse_agit": True, "reponse_lue_le": "2026-09-25",
      "note": "PARTENAIRE ACTIF depuis le 24/09. Accord conclu: visibilite editoriale contre "
              "orientation de locataires, sans contrat ni commission. Son message du 25/09 "
@@ -95,6 +99,33 @@ CONTACTS = [
      "silence_du": 21, "reponse_agit": True,
      "note": "Ecrit depuis funjapanese.net, on lui ecrit sur cotoacademy.com. 2 liens dofollow."},
 ]
+
+
+REGISTRE = Path(__file__).resolve().parent / "data" / "outreach_contacts.json"
+
+
+def contacts_du_plan():
+    """Prospects du plan d'attaque (24/10/2026) : les fiches du registre qui portent le
+    champ `pilotage`. Jusque-la ce radar ne suivait que les partenaires de septembre et
+    ignorait tous les fils vivants (HIVEN, Business France...). Lus dans le registre, pas
+    recopies ici : un nouveau prospect avec `pilotage` est suivi sans toucher ce fichier.
+    On cherche par DOMAINE (une equipe repond souvent depuis une autre adresse : HIVEN).
+    Pas de seuil de silence : les relances vivent dans echeances.json (chantier E).
+    `reponse_lue_le` sur la fiche = leur reponse a ete lue et n'appelle rien (PLAZA)."""
+    try:
+        fiches = json.loads(REGISTRE.read_text(encoding="utf-8"))
+    except Exception as e:
+        print(f"[WARN] registre illisible, prospects du plan non suivis: {e}")
+        return []
+    out = []
+    for f in fiches:
+        if not f.get("pilotage") or "@" not in (f.get("email") or ""):
+            continue
+        out.append({"nom": f"{f.get('name')} [{f['pilotage']}]",
+                    "emails": [f["email"].split("@", 1)[1]],
+                    "silence_du": None, "reponse_agit": True,
+                    "reponse_lue_le": f.get("reponse_lue_le")})
+    return out
 
 
 def _dossier(m, flag, defaut):
@@ -134,7 +165,7 @@ def main():
     maintenant = dt.datetime.now(dt.timezone.utc)
     a_traiter, silencieux, lignes = [], [], []
 
-    for c in CONTACTS:
+    for c in CONTACTS + contacts_du_plan():
         # Plusieurs adresses possibles: on garde la date la plus RECENTE de chaque cote.
         recus = [d for a in c["emails"] if (d := _dernier(m, boite, "FROM", a))]
         envois = [d for a in c["emails"] if (d := _dernier(m, envoyes, "TO", a))]
@@ -173,10 +204,23 @@ def main():
     for l in lignes:
         print(l)
 
+    # UN SILENCE SE SIGNALE UNE FOIS (24/10/2026) : le meme constat (« GaijinBlog : 45j »)
+    # sonnait chaque matin depuis des semaines sans rien demander. On ne signale plus que
+    # les silences NOUVEAUX ; un fil qui revit (reponse ou envoi) sort de la liste et
+    # pourra etre signale a nouveau. Le rapport console garde tout.
+    try:
+        deja = set(json.loads(ETAT.read_text(encoding="utf-8")).get("silence_signale", []))
+    except Exception:
+        deja = set()
+    noms_silencieux = [n for n, _, _ in silencieux]
+    nouveaux_silences = [s for s in silencieux if s[0] not in deja]
+
     ETAT.parent.mkdir(exist_ok=True)
     ETAT.write_text(json.dumps({"date": dt.date.today().isoformat(),
-                                "a_traiter": a_traiter, "silencieux": silencieux},
+                                "a_traiter": a_traiter, "silencieux": silencieux,
+                                "silence_signale": noms_silencieux},
                                ensure_ascii=False, indent=2), encoding="utf-8")
+    silencieux = nouveaux_silences
 
     # ALERTE UNIQUEMENT s'il y a une action concrete (regle des radars).
     if quiet or (not a_traiter and not silencieux):

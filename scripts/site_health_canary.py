@@ -42,6 +42,12 @@ TIMEOUT = 25
 # (sinon le contenu "auto-frais" se fige en silence car les scrapers sont desactives).
 LIB = Path(__file__).parent.parent / "lib"
 STALE_DAYS = 100
+# Donnees perimees = 1 rappel par SEMAINE, pas par jour (24/10/2026). La meme ligne
+# « Indice loyers PERIMEE » a sonne 19 fois en 14 jours : une panne du site exige une
+# action le jour meme, une donnee trimestrielle en retard non. Les pannes, elles,
+# continuent de sonner chaque jour.
+STALE_REMIND_DAYS = 7
+STALE_STATE = Path(__file__).parent / "data" / "canary_stale_state.json"
 DATA_FILES = [
     ("tokyoRentIndex.json", "Indice loyers",
      "relancer les scrapers loyers puis python refresh_rent_index.py (tokyo_insights)"),
@@ -250,8 +256,9 @@ def main():
     # 3) Parcours de paiement: devis + reservation Calendly (ajoute 09/09/2026)
     check_payment_path(failures, oks)
 
-    # 4) Fraicheur des donnees locales (Indice loyers + Prix)
-    check_data_freshness(failures, oks)
+    # 4) Fraicheur des donnees locales (Indice loyers + Prix) : liste a part, cadence hebdo
+    stale = []
+    check_data_freshness(stale, oks)
 
     # 5) Maillage interne: aucun lien /blog/ sans prefixe de locale (ajoute 19/09/2026)
     check_locale_links(failures, oks)
@@ -261,6 +268,24 @@ def main():
         print("=== CHECKS VERTS ===")
         for o in oks:
             print("  ✅", o)
+    try:
+        dernier = json.loads(STALE_STATE.read_text(encoding="utf-8")).get("stale_alerted")
+    except Exception:
+        dernier = None
+    today = datetime.date.today()
+    stale_du = bool(stale) and (dernier is None or
+                                (today - datetime.date.fromisoformat(dernier)).days >= STALE_REMIND_DAYS)
+    if stale and not stale_du:
+        print("=== DONNEES PERIMEES (deja signalees le "
+              f"{dernier}, prochain rappel a J+{STALE_REMIND_DAYS}) ===")
+        for f in stale:
+            print(" ", f)
+    if stale_du:
+        failures += stale
+    if stale_du or not stale:
+        STALE_STATE.write_text(json.dumps({"stale_alerted": today.isoformat() if stale_du else None}),
+                               encoding="utf-8")
+
     if failures:
         print("=== ECHECS ===")
         for f in failures:
