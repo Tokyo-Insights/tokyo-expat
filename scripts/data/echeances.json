@@ -300,6 +300,16 @@
       "fiche": "C:\\Users\\alegu\\Marketing_Formations\\CHANTIERS.md (section OKR du 4e trimestre 2026)",
       "actif": true,
       "fait": false
+    },
+    {
+      "id": "okr-mkt-marque-axiom-jplatpat",
+      "date": "2026-12-16",
+      "titre": "MARKETING : vérifier que la marque AXIOM est libre au Japon (J-PlatPat) AVANT de vendre le manuel",
+      "quoi": "Dire /marketing. Seulement si le test du 15/12 a réussi. Ouvrir https://www.j-platpat.inpit.go.jp/ , onglet 商標, chercher アクシオム puis AXIOM, envoyer les captures à Claude (classes 9, 16, 41 à regarder). Si le test a échoué : marquer cette échéance abandonnée.",
+      "commande": "",
+      "fiche": "C:\\Users\\alegu\\.claude\\projects\\c--Users-alegu-Desktop-tokyo-insights\\memory\\project_mame_scraper.md (nom de plume)",
+      "actif": true,
+      "fait": false
     }
   ]
 }
