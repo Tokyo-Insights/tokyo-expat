@@ -250,6 +250,56 @@
       "fiche": "strategie/PLAN_ATTAQUE_2026_10.md (chantier E)",
       "actif": true,
       "fait": false
+    },
+    {
+      "id": "okr-mkt-prealable-visa-fukugyo",
+      "date": "2026-11-07",
+      "titre": "OKR MARKETING, préalable : statut de résidence et règlement de l'employeur sur le 副業",
+      "quoi": "Dire /marketing. Avant toute vente sur Tips : vérifier (1) que ton statut de résidence permet un revenu d'activité indépendante (sinon : autorisation 資格外活動 ?), (2) ce que dit le règlement intérieur de ton employeur sur les activités annexes. Claude cherche les règles officielles en vigueur ; toi seul connais ton visa et ton contrat.",
+      "commande": "",
+      "fiche": "C:\\Users\\alegu\\Marketing_Formations\\CHANTIERS.md (section OKR du 4e trimestre 2026)",
+      "actif": true,
+      "fait": false
+    },
+    {
+      "id": "okr-mkt-kr1-10-pages",
+      "date": "2026-11-30",
+      "titre": "OKR MARKETING KR1 : 10 pages de vente de vendeurs Tips réécrites gratuitement",
+      "quoi": "Dire /marketing. Compter les pages réécrites (cible 10). Chaque message à un vendeur part en BROUILLON que tu valides.",
+      "commande": "",
+      "fiche": "C:\\Users\\alegu\\Marketing_Formations\\CHANTIERS.md (section OKR du 4e trimestre 2026)",
+      "actif": true,
+      "fait": false
+    },
+    {
+      "id": "okr-mkt-kr2-3-vendeurs",
+      "date": "2026-12-15",
+      "titre": "OKR MARKETING KR2 + CRITÈRE D'ARRÊT : 3 vendeurs dont les ventes augmentent",
+      "quoi": "Dire /marketing. Mesurer avant/après sur les pages réécrites. Si moins de 3 sur 10 vendent mieux : ARRÊT, bascule sur le 2e candidat (mode homme 40-55 ans), sans avoir écrit le manuel complet.",
+      "commande": "",
+      "fiche": "C:\\Users\\alegu\\Marketing_Formations\\CHANTIERS.md (section OKR du 4e trimestre 2026)",
+      "actif": true,
+      "fait": false
+    },
+    {
+      "id": "okr-mkt-kr3-30-ventes",
+      "date": "2026-12-31",
+      "titre": "OKR MARKETING KR3 : 30 ventes de la version moniteur sur Tips",
+      "quoi": "Dire /marketing. Compter les ventes réelles sur Tips (la page du vendeur, pas une estimation).",
+      "commande": "",
+      "fiche": "C:\\Users\\alegu\\Marketing_Formations\\CHANTIERS.md (section OKR du 4e trimestre 2026)",
+      "actif": true,
+      "fait": false
+    },
+    {
+      "id": "okr-mkt-kr4-5-affilies",
+      "date": "2026-12-31",
+      "titre": "OKR MARKETING KR4 : 5 affiliés actifs parmi les acheteurs",
+      "quoi": "Dire /marketing. Compter les affiliés qui ont apporté au moins une vente (tableau de bord Tips).",
+      "commande": "",
+      "fiche": "C:\\Users\\alegu\\Marketing_Formations\\CHANTIERS.md (section OKR du 4e trimestre 2026)",
+      "actif": true,
+      "fait": false
     }
   ]
 }
