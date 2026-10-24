@@ -36,6 +36,9 @@ laggards = list(reversed(wards[-6:]))                # du moins hausse vers un p
 
 def yen(n): return f"{int(n):,}".replace(",", " ")
 def sign(p): return f"+{p}" if p >= 0 else f"{p}"
+# Volume arrondi pour les legendes d'images (ajoutees a la main en juillet, perdues a
+# chaque regeneration jusqu'au 24/10/2026 : desormais produites ici).
+approx = int(round(total, -4))
 
 # exemple concret 60 m2 sur le ward le plus haussier
 top = risers[0]
@@ -57,6 +60,8 @@ Everyone feels that Tokyo has gotten more expensive. But by how much, and where 
 
 **Quick answer:** The median price of a used condo in Tokyo rose from {yen(m_first)} to {yen(m_last)} JPY per square metre between {yf} and {yt}, a {sign(pct)}% increase. The rise was far from even: central wards like {risers[0]['ward_en']} ({sign(risers[0]['pct'])}%) and {risers[1]['ward_en']} ({sign(risers[1]['pct'])}%) climbed the most, while outer wards like {laggards[0]['ward_en']} ({sign(laggards[0]['pct'])}%) rose the least. The gap between the centre and the rest widened.
 
+
+![How Tokyo condo prices per m2 changed, {yf} to {yt}, by ward](/tokyo-price-trends.png "Median second-hand condo price per m2, from ~{approx:,} recorded sale transactions")
 ## Tokyo condo prices, {yf} to {yt}
 Median transaction price per square metre, used condominiums, across all 23 wards:
 
@@ -100,6 +105,8 @@ Tout le monde sent que Tokyo est devenue plus chere. Mais de combien, et ou exac
 
 **Reponse rapide :** Le prix median d'une copropriete d'occasion a Tokyo est passe de {yen(m_first)} a {yen(m_last)} JPY le metre carre entre {yf} et {yt}, soit {sign(pct)}%. La hausse a ete tres inegale : les arrondissements centraux comme {risers[0]['ward_en']} ({sign(risers[0]['pct'])}%) et {risers[1]['ward_en']} ({sign(risers[1]['pct'])}%) ont le plus grimpe, tandis que la peripherie comme {laggards[0]['ward_en']} ({sign(laggards[0]['pct'])}%) a le moins bouge. L'ecart entre le centre et le reste s'est creuse.
 
+
+![Évolution du prix des copropriétés à Tokyo au m2, {yf} à {yt}, par arrondissement](/tokyo-price-map.png "Prix médian au m2 des copropriétés d'occasion, sur ~{yen(approx)} transactions réelles enregistrées")
 ## Les prix des coproprietes a Tokyo, {yf} a {yt}
 Prix median de transaction au metre carre, coproprietes d'occasion, sur les 23 arrondissements :
 

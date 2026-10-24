@@ -37,6 +37,18 @@ cheap_wards = wards[:10]
 exp_wards = list(reversed(wards[-8:]))
 cheap_st = stations[:8]
 
+# Sections ajoutees a la main en juillet (carte, flip par foyer, tableau par type) et
+# perdues a chaque regeneration jusqu'au 24/10/2026 : desormais produites ici.
+def cheapest_by(layout, n=3):
+    r = [w for w in d["wards"] if w.get("rents", {}).get(layout)]
+    r.sort(key=lambda w: w["rents"][layout]["median"])
+    return r[:n]
+
+c1k, c1ldk, c2ldk = cheapest_by("1K", 1)[0], cheapest_by("1LDK"), cheapest_by("2LDK", 1)[0]
+def cell(w, L): return yen(w["rents"][L]["median"]) if w["rents"].get(L) else "-"
+TABLE_ROWS = "\n".join(f"| {w['ward_en']} | {cell(w, '1K')} | {cell(w, '1LDK')} | {cell(w, '2LDK')} |" for w in cheap_wards)
+total_fr = yen(total)
+
 # ---------- EN ----------
 def ol_wards(lst):
     return "\n".join(f"{i+1}. **{w['ward_en']}** - {yen(w['rents']['1K']['median'])} JPY" for i, w in enumerate(lst))
@@ -52,6 +64,8 @@ Everyone asks the same question when moving to Tokyo: where can I actually affor
 
 **Quick answer:** The cheapest Tokyo wards for a 1K studio are {cw[0]['ward_en']} ({yen(cw[0]['rents']['1K']['median'])} JPY), {cw[1]['ward_en']} ({yen(cw[1]['rents']['1K']['median'])} JPY) and {cw[2]['ward_en']} ({yen(cw[2]['rents']['1K']['median'])} JPY), all eastern or outer wards. The most expensive is {ew[0]['ward_en']} ({yen(ew[0]['rents']['1K']['median'])} JPY), followed by {ew[1]['ward_en']} and {ew[2]['ward_en']}. From one ward to another, the same studio can cost nearly double.
 
+
+![Median 1K studio rent by Tokyo ward, mapped (2026)](/tokyo-rent-map.png "Median 1K rent across the 23 wards, from {total:,} real active listings")
 ## The 10 cheapest wards to live in Tokyo
 Ranked by median monthly rent for a 1K studio, from {total:,} active listings:
 
@@ -59,12 +73,23 @@ Ranked by median monthly rent for a 1K studio, from {total:,} active listings:
 
 These are mostly eastern and outer wards. They sit 20 to 40 minutes from the centre but stay fully on the train network, and your money buys a real apartment instead of a shoebox.
 
+
+![The cheapest Tokyo ward depends on your household: single, couple or family](/tokyo-household-flip-en.png "Single: {c1k['ward_en']}, couple: {c1ldk[0]['ward_en']}, family: {c2ldk['ward_en']}. Not the same ward.")
 ## The most expensive wards to live in Tokyo
 The other end of the scale, same 1K studio:
 
 {ol_wards(ew)}
 
 You pay for location, convenience and a certain lifestyle. For many relocating executives and families it is worth it, but go in knowing the premium is real.
+
+## Rent by ward and layout (1K, 1LDK, 2LDK)
+The ranking shifts with the layout you need. For a couple on a 1LDK, {c1ldk[0]['ward_en']} ({yen(c1ldk[0]['rents']['1LDK']['median'])} JPY) is the single cheapest ward, ahead of {c1ldk[1]['ward_en']} and {c1ldk[2]['ward_en']}. Median monthly rent by ward, according to the Tokyo Expat rent index:
+
+| Ward | 1K | 1LDK | 2LDK |
+|---|---|---|---|
+{TABLE_ROWS}
+
+All figures are median monthly rent in JPY, from real recorded transactions. For the full 23 wards plus 27 train lines and 50 stations, see the [Tokyo Rent Index](/en/data).
 
 ## Cheapest stations, if you want to go granular
 Ward averages hide a lot. Here are the most affordable of 50 major stations for a 1K, so you can trade a few minutes of commute for real savings:
@@ -92,6 +117,8 @@ Tout le monde se pose la meme question en s'installant a Tokyo : ou puis-je vrai
 
 **Reponse rapide :** Les arrondissements les moins chers pour un studio 1K sont {cw[0]['ward_en']} ({yen(cw[0]['rents']['1K']['median'])} JPY), {cw[1]['ward_en']} ({yen(cw[1]['rents']['1K']['median'])} JPY) et {cw[2]['ward_en']} ({yen(cw[2]['rents']['1K']['median'])} JPY), tous a l'est ou en peripherie. Le plus cher est {ew[0]['ward_en']} ({yen(ew[0]['rents']['1K']['median'])} JPY), suivi de {ew[1]['ward_en']} et {ew[2]['ward_en']}. D'un arrondissement a l'autre, le meme studio peut couter pres du double.
 
+
+![Loyer médian d'un studio 1K par arrondissement de Tokyo, en carte (2026)](/tokyo-rent-map.png "Loyer médian 1K dans les 23 arrondissements, sur {total_fr} annonces réelles actives")
 ## Les 10 arrondissements les moins chers de Tokyo
 Classes par loyer median d'un studio 1K, sur {total:,} annonces actives :
 
@@ -99,12 +126,23 @@ Classes par loyer median d'un studio 1K, sur {total:,} annonces actives :
 
 Ce sont surtout des arrondissements de l'est et de la peripherie. Ils sont a 20-40 minutes du centre mais restent bien desservis, et votre budget achete un vrai appartement plutot qu'une boite a chaussures.
 
+
+![Le quartier de Tokyo le moins cher dépend de votre foyer : célibataire, couple ou famille](/tokyo-household-flip-fr.png "Célibataire : {c1k['ward_en']}, couple : {c1ldk[0]['ward_en']}, famille : {c2ldk['ward_en']}. Pas le même quartier.")
 ## Les arrondissements les plus chers de Tokyo
 L'autre extreme, pour le meme studio 1K :
 
 {ol_wards_fr(ew)}
 
 Vous payez l'emplacement, la commodite et un certain art de vivre. Pour beaucoup de cadres et de familles relocalises, ca vaut le coup, mais sachez que la prime est reelle.
+
+## Loyer par arrondissement et type (1K, 1LDK, 2LDK)
+Le classement change selon le type recherche. Pour un couple en 1LDK, {c1ldk[0]['ward_en']} ({yen(c1ldk[0]['rents']['1LDK']['median'])} JPY) est l'arrondissement le moins cher, devant {c1ldk[1]['ward_en']} et {c1ldk[2]['ward_en']}. Loyer mensuel median par arrondissement, selon l'indice des loyers Tokyo Expat :
+
+| Arrondissement | 1K | 1LDK | 2LDK |
+|---|---|---|---|
+{TABLE_ROWS}
+
+Tous les chiffres sont des loyers mensuels medians en JPY, a partir de transactions reelles enregistrees. Pour les 23 arrondissements complets plus 27 lignes et 50 stations, voyez l'[Indice des loyers de Tokyo](/fr/data).
 
 ## Les stations les moins cheres, pour affiner
 La moyenne par arrondissement cache beaucoup. Voici les stations les plus abordables parmi 50 grandes stations, pour un 1K :

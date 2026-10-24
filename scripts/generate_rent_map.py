@@ -72,7 +72,7 @@ fig.suptitle(f"Tokyo 1K studio rent, mapped by ward ({yt})",
 fig.text(0.5, 0.925,
          "Median monthly rent for a 1K studio (one room + separate kitchen), by Tokyo ward.",
          ha="center", fontsize=12, color="#6b7280")
-fig.text(0.98, 0.02, "Source: tokyo-expat.com/data  ·  ~500,000 active listings  ·  median, not average",
+fig.text(0.98, 0.02, f"Source: tokyo-expat.com/data  ·  ~{round(d['total_listings'], -5):,} active listings  ·  median, not average",
          ha="right", fontsize=9, color="#9ca3af")
 
 fig.savefig(OUT, dpi=150, facecolor="white")

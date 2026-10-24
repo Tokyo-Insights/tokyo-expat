@@ -6289,7 +6289,7 @@ Pour votre couverture sante pendant la periode d'installation au Japon, [SafetyW
     readingTime: '9 min',
     content: `
 
-![Du studio à l'appartement familial : le saut de loyer par arrondissement à Tokyo](/tokyo-layout-gap.png "Un 2LDK familial coûte environ 2 à 2,8x un studio, sur 528 660 annonces réelles actives")
+![Du studio à l'appartement familial : le saut de loyer par arrondissement à Tokyo](/tokyo-layout-gap.png "Un 2LDK familial coûte environ 2 à 3x un studio, sur 608 072 annonces réelles actives")
 ## Choisir son quartier à Tokyo quand on a des enfants
 
 **Réponse rapide :** Les meilleurs quartiers de Tokyo pour familles expatriées combinent proximité des écoles internationales, espaces verts et logements plus grands : Minato (Hiroo, Azabu), Setagaya, Meguro et Shibuya en tête. Ils sont plus chers mais offrent l'infrastructure familiale. Choisissez d'abord selon l'école de vos enfants, puis le trajet.
@@ -6297,7 +6297,7 @@ Pour votre couverture sante pendant la periode d'installation au Japon, [SafetyW
 Pour une famille expatriée, le choix du quartier est plus contraignant qu'pour un célibataire. Trois facteurs dominent la décision : la proximité de l'école internationale des enfants, la surface disponible pour le loyer payé, et l'accès aux équipements familiaux (parcs, supermarchés, hôpitaux). Ce guide passe en revue les zones les plus plébiscitées par les familles étrangères résidant à Tokyo.
 
 
-![Loyer médian d'un appartement familial (2LDK) par arrondissement de Tokyo](/tokyo-family-rent-ward-fr.png "De Adachi 161k à Minato 390k pour un 2LDK, sur des annonces réelles actives")
+![Loyer médian d'un appartement familial (2LDK) par arrondissement de Tokyo](/tokyo-family-rent-ward-fr.png "De Adachi 162k à Minato 429k pour un 2LDK, sur des annonces réelles actives")
 ## Setagaya-ku : le quartier famille par excellence
 
 Setagaya est l'arrondissement préféré des familles expatriées depuis des décennies. Ses avantages :
@@ -6968,7 +6968,7 @@ For health coverage during your relocation to Japan, [SafetyWing Nomad Insurance
     readingTime: '9 min',
     content: `
 
-![From a studio to a family flat: the Tokyo rent jump by ward](/tokyo-layout-gap.png "A 2LDK family flat costs about 2 to 2.8x a studio, from 528,660 real active listings")
+![From a studio to a family flat: the Tokyo rent jump by ward](/tokyo-layout-gap.png "A 2LDK family flat costs about 2 to 3x a studio, from 608,072 real active listings")
 ## Choosing a Tokyo Neighbourhood as an Expat Family
 
 **Quick answer:** The best Tokyo neighbourhoods for expat families combine proximity to international schools, green space and larger homes: Minato (Hiroo, Azabu), Setagaya, Meguro and Shibuya lead the list. They cost more but offer the family infrastructure. Choose by your children's school first, then the commute.
@@ -6976,7 +6976,7 @@ For health coverage during your relocation to Japan, [SafetyWing Nomad Insurance
 For a family relocating to Tokyo, neighbourhood choice involves more constraints than for a single professional. Three factors typically drive the decision: proximity to your children's international school, the amount of space you can get for your housing budget, and access to family infrastructure such as parks, supermarkets and English-speaking medical services. This guide covers the most popular areas among expat families.
 
 
-![Family flat (2LDK) median rent by Tokyo ward, cheapest to priciest](/tokyo-family-rent-ward-en.png "From Adachi 161k to Minato 390k for a 2LDK, from real active listings")
+![Family flat (2LDK) median rent by Tokyo ward, cheapest to priciest](/tokyo-family-rent-ward-en.png "From Adachi 162k to Minato 429k for a 2LDK, from real active listings")
 ## Setagaya Ward: The Classic Family Choice
 
 Setagaya is the ward most consistently chosen by expat families. It combines residential calm, green space, larger apartment sizes and strong access to international schools.
@@ -8685,7 +8685,7 @@ Ebisu, Daikanyama and Nakameguro form one of the most attractive residential clu
 This guide covers rents, atmosphere, commute, and practical life across all three.
 
 
-![Median monthly rent for a 1K studio near 50 Tokyo stations (2026)](/tokyo-rent-by-station.png "Where this station sits: median 1K rent across 50 Tokyo stations, from 528,660 real active listings")
+![Median monthly rent for a 1K studio near 50 Tokyo stations (2026)](/tokyo-rent-by-station.png "Where this station sits: median 1K rent across 50 Tokyo stations, from 608,072 real active listings")
 ## Ebisu: The Accessible Starting Point
 
 Ebisu is the most connected of the three neighborhoods. It sits on both the JR Yamanote Line and the Tokyo Metro Hibiya Line, giving it direct access to Shinjuku (8 minutes), Shibuya (3 minutes), Roppongi (5 minutes), and Ginza (15 minutes). For professionals with business requirements spread across multiple districts, Ebisu is often the most efficient base.
@@ -8772,7 +8772,7 @@ Ebisu, Daikanyama et Nakameguro forment l'un des clusters résidentiels les plus
 Ce guide couvre les loyers, l'ambiance, les transports et la vie pratique dans les trois quartiers.
 
 
-![Loyer mensuel médian d'un studio 1K près de 50 stations de Tokyo (2026)](/tokyo-rent-by-station.png "Où se situe cette station : loyer médian 1K sur 50 stations de Tokyo, sur 528 660 annonces réelles actives")
+![Loyer mensuel médian d'un studio 1K près de 50 stations de Tokyo (2026)](/tokyo-rent-by-station.png "Où se situe cette station : loyer médian 1K sur 50 stations de Tokyo, sur 608 072 annonces réelles actives")
 ## Ebisu: le point d'entrée le mieux connecté
 
 Ebisu est le quartier le plus connecté des trois. Il est desservi à la fois par la ligne JR Yamanote et la ligne Tokyo Metro Hibiya, avec accès direct à Shinjuku (8 minutes), Shibuya (3 minutes), Roppongi (5 minutes) et Ginza (15 minutes). Pour les professionnels qui ont des rendez-vous répartis sur plusieurs pôles d'affaires, Ebisu est souvent la base la plus efficace.
@@ -9545,7 +9545,7 @@ Hiroo et Minami-Azabu forment le coeur historique de la communauté expatriée d
 Ce guide vous donne une vision complète et honnête de ces deux quartiers: ce qui en fait une valeur sûre, ce que l'on ne vous dit pas toujours, et ce à quoi s'attendre en termes de loyers et de disponibilité.
 
 
-![Loyer médian d'un studio 1K par arrondissement de Tokyo, en carte (2026)](/tokyo-rent-map.png "Où se situe ce quartier : loyer médian 1K dans les 23 arrondissements, sur 528 660 annonces réelles actives")
+![Loyer médian d'un studio 1K par arrondissement de Tokyo, en carte (2026)](/tokyo-rent-map.png "Où se situe ce quartier : loyer médian 1K dans les 23 arrondissements, sur 608 072 annonces réelles actives")
 ## Hiroo: le quartier expatrié par excellence
 
 Hiroo est probablement le quartier le plus international de Tokyo. On y trouve une densité d'ambassades étrangères (Danemark, Nouvelle-Zélande, Italie, entre autres), plusieurs grandes résidences diplomatiques, et une offre commerciale clairement orientée vers les résidents étrangers.
@@ -9636,7 +9636,7 @@ Hiroo and Minami-Azabu form the historic heart of Tokyo's expat community. Embas
 This guide gives you a complete and honest picture of both neighborhoods: what makes them a reliable choice, what is often left unsaid, and what to expect in terms of rents and availability.
 
 
-![Median 1K studio rent by Tokyo ward, mapped (2026)](/tokyo-rent-map.png "Where this area sits: median 1K rent across the 23 wards, from 528,660 real active listings")
+![Median 1K studio rent by Tokyo ward, mapped (2026)](/tokyo-rent-map.png "Where this area sits: median 1K rent across the 23 wards, from 608,072 real active listings")
 ## Hiroo: Tokyo's Most International Neighborhood
 
 Hiroo is probably the most international neighborhood in Tokyo. It hosts a high density of foreign embassies (Denmark, New Zealand, Italy, among others), several large diplomatic residences, and a commercial offering clearly oriented toward foreign residents.
@@ -9715,7 +9715,7 @@ To discover the food scene of these upscale residential neighbourhoods, [Arigato
   {
     slug: 'gaijin-house-tokyo-guide',
     locale: 'en',
-    // TEST DE TITRE — 09/09/2026. Exception assumee a la regle "ne jamais reecrire un
+    // TEST DE TITRE, 09/09/2026. Exception assumee a la regle "ne jamais reecrire un
     // title qui ranke", et voici pourquoi elle ne s'applique pas ici.
     // Mesure GSC sur 90 j pour "cheap gaijin house in tokyo" et son cluster:
     //   2 174 impressions, 5 pays (UK 260, CAN 224, AUS 219, IDN 198, IND 100),
@@ -9726,7 +9726,7 @@ To discover the food scene of these upscale residential neighbourhoods, [Arigato
     // Diagnostic: decalage d'INTENTION. Qui cherche "cheap" veut un prix et une
     // chambre, pas un "Complete Guide".
     //
-    // 🚨 MISE A JOUR 12/09/2026 — LE TEST EST CONFONDU DEUX FOIS, NE PAS LE LIRE LE 30/09.
+    // 🚨 MISE A JOUR 12/09/2026 : LE TEST EST CONFONDU DEUX FOIS, NE PAS LE LIRE LE 30/09.
     // (1) SERP regardee le 12/09: un APERCU IA occupe l'espace au-dessus et annonce
     //     "start around ¥20,000 to ¥45,000", en citant GG House et Xross House a ¥20,000.
     //     Notre ligne affichait ¥40,000 juste en dessous, sur une requete contenant "cheap".
@@ -9762,7 +9762,7 @@ A gaijin house is often the first home a foreigner has in Tokyo. It is cheap, fl
 
 > **From the field.** A gaijin house lives or dies on who runs it, not the price. The cheap ones with an absent operator empty out as fast as they fill. Before you book, notice how fast the operator answers your first email, that tells you more than the photos.
 
-![Median 1K studio rent by Tokyo ward, mapped (2026)](/tokyo-rent-map.png "Median 1K rent across the 23 wards, from 528,660 real active listings")
+![Median 1K studio rent by Tokyo ward, mapped (2026)](/tokyo-rent-map.png "Median 1K rent across the 23 wards, from 608,072 real active listings")
 ## What is a gaijin house?
 
 "Gaijin house" (外人ハウス) literally means "foreigner house." The term dates back to the 1990s, when a few operators began renting shared rooms to foreigners locked out of the standard rental market. Today the line between a gaijin house and a modern share house has blurred: both offer furnished private rooms with shared common areas, managed by a professional operator.
@@ -9843,7 +9843,7 @@ Shibuya est l'un des quartiers les plus convoités de Tokyo, et l'un des plus ch
 **Réponse rapide :** Se loger à Shibuya coûte cher : comptez 100 000 à 150 000 JPY/mois pour un petit 1K, davantage pour un 1LDK. Le quartier offre un accès inégalé (de nombreuses lignes), une vie nocturne et culturelle intense, mais peu d'espace pour le prix. Pour y vivre sans se ruiner, visez une share house (50 000 à 90 000 JPY) ou un quartier limitrophe mieux valorisé.
 
 
-![Loyer mensuel médian d'un studio 1K près de 50 stations de Tokyo (2026)](/tokyo-rent-by-station.png "Où se situe cette station : loyer médian 1K sur 50 stations de Tokyo, sur 528 660 annonces réelles actives")
+![Loyer mensuel médian d'un studio 1K près de 50 stations de Tokyo (2026)](/tokyo-rent-by-station.png "Où se situe cette station : loyer médian 1K sur 50 stations de Tokyo, sur 608 072 annonces réelles actives")
 ## Pourquoi choisir Shibuya ?
 
 - Hub de transport majeur : JR Yamanote, Ginza, Hanzomon, Fukutoshin, Den-en-toshi. Vous allez partout, vite.
@@ -9939,7 +9939,7 @@ Connaître ces frais à l'avance, c'est éviter le choc de la première facture 
 **Réponse rapide :** Se loger à Nakano coûte 70 000 à 95 000 JPY/mois pour un studio 1K, soit 20 à 30 % de moins qu'à Shinjuku, à seulement 5 minutes en train. Le quartier est résidentiel mais vivant, célèbre pour Nakano Broadway et sa culture pop. Idéal pour qui veut la centralité sans le prix du centre.
 
 
-![Loyer mensuel médian d'un studio 1K près de 50 stations de Tokyo (2026)](/tokyo-rent-by-station.png "Où se situe cette station : loyer médian 1K sur 50 stations de Tokyo, sur 528 660 annonces réelles actives")
+![Loyer mensuel médian d'un studio 1K près de 50 stations de Tokyo (2026)](/tokyo-rent-by-station.png "Où se situe cette station : loyer médian 1K sur 50 stations de Tokyo, sur 608 072 annonces réelles actives")
 ## Pourquoi choisir Nakano ?
 
 - 5 minutes de Shinjuku (ligne Chuo/Sobu), accès direct à tout Tokyo.
@@ -9984,7 +9984,7 @@ Ikebukuro est l'un des plus grands hubs de Tokyo, et l'un des plus abordables pa
 **Réponse rapide :** Se loger à Ikebukuro coûte 75 000 à 105 000 JPY/mois pour un studio 1K, plus abordable que Shibuya ou Shinjuku pour une centralité comparable. Énorme gare, shopping, Sunshine City : tout est sur place. Bon choix pour qui veut un grand hub sans le budget du sud-ouest de Tokyo.
 
 
-![Loyer mensuel médian d'un studio 1K près de 50 stations de Tokyo (2026)](/tokyo-rent-by-station.png "Où se situe cette station : loyer médian 1K sur 50 stations de Tokyo, sur 528 660 annonces réelles actives")
+![Loyer mensuel médian d'un studio 1K près de 50 stations de Tokyo (2026)](/tokyo-rent-by-station.png "Où se situe cette station : loyer médian 1K sur 50 stations de Tokyo, sur 608 072 annonces réelles actives")
 ## Pourquoi choisir Ikebukuro ?
 
 - Hub majeur : Yamanote, Marunouchi, Fukutoshin, lignes privées vers Saitama.
@@ -10029,7 +10029,7 @@ Koenji est le repaire bohème de Tokyo : musique live, friperies, izakayas, et d
 **Réponse rapide :** Se loger à Koenji coûte 65 000 à 88 000 JPY/mois pour un studio 1K, un excellent rapport qualité-prix à 10 minutes de Shinjuku. Quartier jeune, créatif et convivial, célèbre pour ses friperies, sa scène musicale et ses petits restaurants. Idéal pour un budget serré sans sacrifier l'ambiance.
 
 
-![Loyer médian d'un studio 1K par arrondissement de Tokyo, en carte (2026)](/tokyo-rent-map.png "Où se situe ce quartier : loyer médian 1K dans les 23 arrondissements, sur 528 660 annonces réelles actives")
+![Loyer médian d'un studio 1K par arrondissement de Tokyo, en carte (2026)](/tokyo-rent-map.png "Où se situe ce quartier : loyer médian 1K dans les 23 arrondissements, sur 608 072 annonces réelles actives")
 ## Pourquoi choisir Koenji ?
 
 - 10 minutes de Shinjuku (ligne Chuo/Sobu).
@@ -10248,7 +10248,7 @@ Anticiper cette règle, c'est protéger à la fois votre santé et votre droit d
 **Réponse rapide :** Se loger à Asagaya coûte 68 000 à 88 000 JPY/mois pour un studio 1K, à 12 minutes de Shinjuku. Quartier résidentiel paisible, connu pour sa scène jazz, sa rue commerçante couverte (Pearl Center) et son festival d'Awa Odori. Idéal pour qui veut le calme sans s'éloigner du centre.
 
 
-![Loyer médian d'un studio 1K par arrondissement de Tokyo, en carte (2026)](/tokyo-rent-map.png "Où se situe ce quartier : loyer médian 1K dans les 23 arrondissements, sur 528 660 annonces réelles actives")
+![Loyer médian d'un studio 1K par arrondissement de Tokyo, en carte (2026)](/tokyo-rent-map.png "Où se situe ce quartier : loyer médian 1K dans les 23 arrondissements, sur 608 072 annonces réelles actives")
 ## Pourquoi choisir Asagaya ?
 
 - 12 minutes de Shinjuku (ligne Chuo/Sobu).
@@ -10293,7 +10293,7 @@ Régulièrement élu quartier le plus agréable où vivre à Tokyo, Kichijoji co
 **Réponse rapide :** Se loger à Kichijoji coûte 75 000 à 100 000 JPY/mois pour un studio 1K, à 15 minutes de Shinjuku. Adossé au parc d'Inokashira, le quartier offre verdure, boutiques, restaurants et une atmosphère très prisée des familles comme des jeunes actifs. Un peu plus cher que Koenji, mais un cadre de vie exceptionnel.
 
 
-![Loyer médian d'un studio 1K par arrondissement de Tokyo, en carte (2026)](/tokyo-rent-map.png "Où se situe ce quartier : loyer médian 1K dans les 23 arrondissements, sur 528 660 annonces réelles actives")
+![Loyer médian d'un studio 1K par arrondissement de Tokyo, en carte (2026)](/tokyo-rent-map.png "Où se situe ce quartier : loyer médian 1K dans les 23 arrondissements, sur 608 072 annonces réelles actives")
 ## Pourquoi choisir Kichijoji ?
 
 - 15 minutes de Shinjuku (ligne Chuo/Sobu) + ligne Keio Inokashira vers Shibuya.
@@ -10338,7 +10338,7 @@ Kichijoji, c'est la qualité de vie avant tout : un parc, des commerces, une amb
 **Réponse rapide :** Se loger à Sangenjaya coûte 80 000 à 105 000 JPY/mois pour un studio 1K, à seulement 4 minutes de Shibuya (ligne Den-en-toshi). Le quartier est animé, rempli d'izakayas et de ruelles (Sankaku Chitai), tout en gardant une vraie vie de quartier. Excellent rapport proximité/prix pour qui veut être près de Shibuya sans en payer le prix.
 
 
-![Loyer mensuel médian d'un studio 1K près de 50 stations de Tokyo (2026)](/tokyo-rent-by-station.png "Où se situe cette station : loyer médian 1K sur 50 stations de Tokyo, sur 528 660 annonces réelles actives")
+![Loyer mensuel médian d'un studio 1K près de 50 stations de Tokyo (2026)](/tokyo-rent-by-station.png "Où se situe cette station : loyer médian 1K sur 50 stations de Tokyo, sur 608 072 annonces réelles actives")
 ## Pourquoi choisir Sangenjaya ?
 
 - 4 minutes de Shibuya (ligne Den-en-toshi).
@@ -10384,7 +10384,7 @@ Shibuya is one of Tokyo's most sought-after neighbourhoods, and one of the most 
 **Quick answer:** Living in Shibuya costs around 100,000 to 150,000 JPY/month for a small 1K, more for a 1LDK. The area offers unmatched transport access, intense nightlife and culture, but little space for the price. To live there affordably, target a share house (50,000-90,000 JPY) or a neighbouring district with better value.
 
 
-![Median monthly rent for a 1K studio near 50 Tokyo stations (2026)](/tokyo-rent-by-station.png "Where this station sits: median 1K rent across 50 Tokyo stations, from 528,660 real active listings")
+![Median monthly rent for a 1K studio near 50 Tokyo stations (2026)](/tokyo-rent-by-station.png "Where this station sits: median 1K rent across 50 Tokyo stations, from 608,072 real active listings")
 ## Why choose Shibuya?
 
 - A major transport hub: JR Yamanote, Ginza, Hanzomon, Fukutoshin, Den-en-toshi.
@@ -10435,7 +10435,7 @@ One station from Shinjuku but far more affordable, Nakano is one of Tokyo's best
 **Quick answer:** Living in Nakano costs 70,000 to 95,000 JPY/month for a 1K studio, around 20-30% less than Shinjuku, just 5 minutes away by train. It is residential yet lively, famous for Nakano Broadway and its pop culture. Ideal for central access without central prices.
 
 
-![Median monthly rent for a 1K studio near 50 Tokyo stations (2026)](/tokyo-rent-by-station.png "Where this station sits: median 1K rent across 50 Tokyo stations, from 528,660 real active listings")
+![Median monthly rent for a 1K studio near 50 Tokyo stations (2026)](/tokyo-rent-by-station.png "Where this station sits: median 1K rent across 50 Tokyo stations, from 608,072 real active listings")
 ## Why choose Nakano?
 
 - 5 minutes from Shinjuku (Chuo/Sobu line), direct access across Tokyo.
@@ -10481,7 +10481,7 @@ Ikebukuro is one of Tokyo's largest hubs, and one of the most affordable among t
 **Quick answer:** Living in Ikebukuro costs 75,000 to 105,000 JPY/month for a 1K studio, more affordable than Shibuya or Shinjuku for comparable centrality. A huge station, shopping and Sunshine City put everything on your doorstep. A solid pick for a major hub without the south-west Tokyo budget.
 
 
-![Median monthly rent for a 1K studio near 50 Tokyo stations (2026)](/tokyo-rent-by-station.png "Where this station sits: median 1K rent across 50 Tokyo stations, from 528,660 real active listings")
+![Median monthly rent for a 1K studio near 50 Tokyo stations (2026)](/tokyo-rent-by-station.png "Where this station sits: median 1K rent across 50 Tokyo stations, from 608,072 real active listings")
 ## Why choose Ikebukuro?
 
 - A major hub: Yamanote, Marunouchi, Fukutoshin, private lines to Saitama.
@@ -10526,7 +10526,7 @@ Koenji is Tokyo's bohemian hideout: live music, vintage shops, izakayas, and som
 **Quick answer:** Living in Koenji costs 65,000 to 88,000 JPY/month for a 1K studio, excellent value 10 minutes from Shinjuku. A young, creative and friendly district famous for its vintage shops, music scene and small restaurants. Ideal for a tight budget without giving up atmosphere.
 
 
-![Median 1K studio rent by Tokyo ward, mapped (2026)](/tokyo-rent-map.png "Where this area sits: median 1K rent across the 23 wards, from 528,660 real active listings")
+![Median 1K studio rent by Tokyo ward, mapped (2026)](/tokyo-rent-map.png "Where this area sits: median 1K rent across the 23 wards, from 608,072 real active listings")
 ## Why choose Koenji?
 
 - 10 minutes from Shinjuku (Chuo/Sobu line).
@@ -10572,7 +10572,7 @@ One station from Koenji on the Chuo line, Asagaya offers residential calm that i
 **Quick answer:** Living in Asagaya costs 68,000 to 88,000 JPY/month for a 1K studio, 12 minutes from Shinjuku. A peaceful residential district known for its jazz scene, its covered shopping street (Pearl Center) and its Awa Odori festival. Ideal for calm without leaving the centre behind.
 
 
-![Median 1K studio rent by Tokyo ward, mapped (2026)](/tokyo-rent-map.png "Where this area sits: median 1K rent across the 23 wards, from 528,660 real active listings")
+![Median 1K studio rent by Tokyo ward, mapped (2026)](/tokyo-rent-map.png "Where this area sits: median 1K rent across the 23 wards, from 608,072 real active listings")
 ## Why choose Asagaya?
 
 - 12 minutes from Shinjuku (Chuo/Sobu line).
@@ -10616,7 +10616,7 @@ Regularly voted the most pleasant place to live in Tokyo, Kichijoji combines a p
 **Quick answer:** Living in Kichijoji costs 75,000 to 100,000 JPY/month for a 1K studio, 15 minutes from Shinjuku. Backing onto Inokashira Park, it offers greenery, shops, restaurants and an atmosphere prized by families and young professionals alike. A little pricier than Koenji, but an exceptional setting.
 
 
-![Median 1K studio rent by Tokyo ward, mapped (2026)](/tokyo-rent-map.png "Where this area sits: median 1K rent across the 23 wards, from 528,660 real active listings")
+![Median 1K studio rent by Tokyo ward, mapped (2026)](/tokyo-rent-map.png "Where this area sits: median 1K rent across the 23 wards, from 608,072 real active listings")
 ## Why choose Kichijoji?
 
 - 15 minutes from Shinjuku (Chuo/Sobu) plus the Keio Inokashira line to Shibuya.
@@ -10661,7 +10661,7 @@ One station from Shibuya yet far more affordable and full of character, Sangenja
 **Quick answer:** Living in Sangenjaya costs 80,000 to 105,000 JPY/month for a 1K studio, just 4 minutes from Shibuya (Den-en-toshi line). The area is lively, full of izakayas and lanes (Sankaku Chitai), yet keeps a real neighbourhood feel. Excellent value for being so close to Shibuya without paying its price.
 
 
-![Median monthly rent for a 1K studio near 50 Tokyo stations (2026)](/tokyo-rent-by-station.png "Where this station sits: median 1K rent across 50 Tokyo stations, from 528,660 real active listings")
+![Median monthly rent for a 1K studio near 50 Tokyo stations (2026)](/tokyo-rent-by-station.png "Where this station sits: median 1K rent across 50 Tokyo stations, from 608,072 real active listings")
 ## Why choose Sangenjaya?
 
 - 4 minutes from Shibuya (Den-en-toshi line).
@@ -10886,7 +10886,7 @@ La gaijin house est souvent le premier logement d'un étranger à Tokyo. Économ
 
 > **Vu du terrain.** Une gaijin house vaut ce que vaut son opérateur, pas son prix. Les moins chères, mal gérées, se vident aussi vite qu'elles se remplissent. Avant de réserver, regardez la vitesse à laquelle l'opérateur répond à votre premier email : ça en dit plus que les photos.
 
-![Loyer médian d'un studio 1K par arrondissement de Tokyo, en carte (2026)](/tokyo-rent-map.png "Loyer médian 1K dans les 23 arrondissements, sur 528 660 annonces réelles actives")
+![Loyer médian d'un studio 1K par arrondissement de Tokyo, en carte (2026)](/tokyo-rent-map.png "Loyer médian 1K dans les 23 arrondissements, sur 608 072 annonces réelles actives")
 ## Qu'est-ce qu'une gaijin house ?
 
 "Gaijin house" (外人ハウス) signifie littéralement "maison d'étrangers". Le terme remonte aux années 1990, quand quelques opérateurs ont commencé à louer des chambres partagées aux étrangers exclus du marché classique. Aujourd'hui, la frontière avec la share house moderne s'est estompée : les deux offrent des chambres privées meublées avec espaces communs, gérées par un opérateur professionnel.
@@ -11643,296 +11643,6 @@ Le marché locatif japonais n'est pas hostile, mais il est opaque, et les décis
   },
 
   {
-    slug: 'cheapest-neighbourhoods-tokyo-ranked-by-rent',
-    locale: 'en',
-    title: 'Cheapest and Priciest Tokyo Neighbourhoods (2026 Rent Data)',
-    description: 'A data-backed ranking of the cheapest and most expensive Tokyo wards and stations to rent in 2026, from 528,660 real active listings.',
-    date: '2026-07-03',
-    readingTime: '6 min',
-    content: `
-Everyone asks the same question when moving to Tokyo: where can I actually afford to live? Most guides answer with opinions. This one answers with data, from 528,660 real rental listings across Tokyo's 23 wards, updated every quarter.
-
-**Quick answer:** The cheapest Tokyo wards for a 1K studio are Edogawa (74 000 JPY), Adachi (76 000 JPY) and Katsushika (81 000 JPY), all eastern or outer wards. The most expensive is Minato (140 000 JPY), followed by Chiyoda and Chuo. From one ward to another, the same studio can cost nearly double.
-
-
-![Median 1K studio rent by Tokyo ward, mapped (2026)](/tokyo-rent-map.png "Median 1K rent across the 23 wards, from 528,660 real active listings")
-## The 10 cheapest wards to live in Tokyo
-Ranked by median monthly rent for a 1K studio, from 528,660 active listings:
-
-1. **Edogawa** - 74 000 JPY
-2. **Adachi** - 76 000 JPY
-3. **Katsushika** - 81 000 JPY
-4. **Nerima** - 82 000 JPY
-5. **Suginami** - 84 000 JPY
-6. **Setagaya** - 87 000 JPY
-7. **Itabashi** - 88 000 JPY
-8. **Nakano** - 88 000 JPY
-9. **Kita** - 90 000 JPY
-10. **Arakawa** - 91 000 JPY
-
-These are mostly eastern and outer wards. They sit 20 to 40 minutes from the centre but stay fully on the train network, and your money buys a real apartment instead of a shoebox.
-
-
-![The cheapest Tokyo ward depends on your household: single, couple or family](/tokyo-household-flip-en.png "Single: Edogawa, couple: Katsushika, family: Adachi. Not the same ward.")
-## The most expensive wards to live in Tokyo
-The other end of the scale, same 1K studio:
-
-1. **Minato** - 140 000 JPY
-2. **Chiyoda** - 137 000 JPY
-3. **Chuo** - 130 000 JPY
-4. **Shibuya** - 127 000 JPY
-5. **Shinjuku** - 120 000 JPY
-6. **Taito** - 115 000 JPY
-7. **Shinagawa** - 112 000 JPY
-8. **Koto** - 112 000 JPY
-
-You pay for location, convenience and a certain lifestyle. For many relocating executives and families it is worth it, but go in knowing the premium is real.
-
-## Rent by ward and layout (1K, 1LDK, 2LDK)
-The ranking shifts with the layout you need. For a couple on a 1LDK, Katsushika (118 000 JPY) is the single cheapest ward, ahead of Adachi and Edogawa. Median monthly rent by ward, according to the Tokyo Expat rent index:
-
-| Ward | 1K | 1LDK | 2LDK |
-|---|---|---|---|
-| Edogawa | 74 000 | 125 000 | 162 000 |
-| Adachi | 76 000 | 125 000 | 161 000 |
-| Katsushika | 81 000 | 118 000 | 162 000 |
-| Nerima | 82 000 | 135 000 | 176 000 |
-| Suginami | 84 000 | 159 000 | 210 000 |
-| Setagaya | 87 000 | 169 000 | 235 000 |
-| Itabashi | 88 000 | 143 000 | 195 000 |
-| Nakano | 88 000 | 174 000 | 225 000 |
-| Kita | 90 000 | 152 000 | 218 000 |
-| Arakawa | 91 000 | 150 000 | 219 000 |
-
-All figures are median monthly rent in JPY, from real recorded transactions. For the full 23 wards plus 27 train lines and 50 stations, see the [Tokyo Rent Index](/en/data).
-
-## Cheapest stations, if you want to go granular
-Ward averages hide a lot. Here are the most affordable of 50 major stations for a 1K, so you can trade a few minutes of commute for real savings:
-
-1. **Kasai** - 76 000 JPY
-2. **Shin-Koiwa** - 78 000 JPY
-3. **Ayase** - 85 000 JPY
-4. **Ogikubo** - 85 000 JPY
-5. **Nerima** - 86 000 JPY
-6. **Kita-Senju** - 86 000 JPY
-7. **Akabane** - 86 000 JPY
-8. **Setagaya** - 88 000 JPY
-
-## How to actually use this ranking
-- **Choose your train line and commute first, then the station.** Ten extra minutes on the right line can save you 30,000 to 50,000 JPY a month for the same apartment.
-- **The cheapest wards are not "worse", just further out.** They are residential, safe and well connected.
-- **Budget for the upfront bill**, not just the rent: a standard lease can ask for four to six months of rent all at once. See our [guide to renting in Tokyo as a foreigner](/en/blog/find-apartment-tokyo-foreigner).
-- **Explore every ward, line and station** in our interactive [Tokyo Rent Index](/en/data).
-
-If you would rather have someone who works inside the Tokyo market turn these numbers into an actual apartment, see [how our property hunter works](/en/blog/how-real-estate-hunter-works-tokyo) or [book a free call](/en/contact).
-
-*Data: 528,660 active listings, Tokyo 23 wards, 2026. Median 1K rent in JPY. Updated quarterly.*
-    `.trim(),
-  },
-  {
-    slug: 'quartiers-tokyo-moins-chers-classement-loyers',
-    locale: 'fr',
-    title: 'Les quartiers de Tokyo les moins chers (donnees 2026)',
-    description: 'Un classement chiffre des arrondissements et stations de Tokyo les moins et plus chers a louer en 2026, a partir de 528,660 annonces reelles.',
-    date: '2026-07-03',
-    readingTime: '6 min',
-    content: `
-Tout le monde se pose la meme question en s'installant a Tokyo : ou puis-je vraiment me permettre d'habiter ? La plupart des guides repondent a l'opinion. Celui-ci repond avec des donnees, a partir de 528,660 annonces locatives reelles dans les 23 arrondissements de Tokyo, mises a jour chaque trimestre.
-
-**Reponse rapide :** Les arrondissements les moins chers pour un studio 1K sont Edogawa (74 000 JPY), Adachi (76 000 JPY) et Katsushika (81 000 JPY), tous a l'est ou en peripherie. Le plus cher est Minato (140 000 JPY), suivi de Chiyoda et Chuo. D'un arrondissement a l'autre, le meme studio peut couter pres du double.
-
-
-![Loyer médian d'un studio 1K par arrondissement de Tokyo, en carte (2026)](/tokyo-rent-map.png "Loyer médian 1K dans les 23 arrondissements, sur 528 660 annonces réelles actives")
-## Les 10 arrondissements les moins chers de Tokyo
-Classes par loyer median d'un studio 1K, sur 528,660 annonces actives :
-
-1. **Edogawa** - 74 000 JPY
-2. **Adachi** - 76 000 JPY
-3. **Katsushika** - 81 000 JPY
-4. **Nerima** - 82 000 JPY
-5. **Suginami** - 84 000 JPY
-6. **Setagaya** - 87 000 JPY
-7. **Itabashi** - 88 000 JPY
-8. **Nakano** - 88 000 JPY
-9. **Kita** - 90 000 JPY
-10. **Arakawa** - 91 000 JPY
-
-Ce sont surtout des arrondissements de l'est et de la peripherie. Ils sont a 20-40 minutes du centre mais restent bien desservis, et votre budget achete un vrai appartement plutot qu'une boite a chaussures.
-
-
-![Le quartier de Tokyo le moins cher dépend de votre foyer : célibataire, couple ou famille](/tokyo-household-flip-fr.png "Célibataire : Edogawa, couple : Katsushika, famille : Adachi. Pas le même quartier.")
-## Les arrondissements les plus chers de Tokyo
-L'autre extreme, pour le meme studio 1K :
-
-1. **Minato** - 140 000 JPY
-2. **Chiyoda** - 137 000 JPY
-3. **Chuo** - 130 000 JPY
-4. **Shibuya** - 127 000 JPY
-5. **Shinjuku** - 120 000 JPY
-6. **Taito** - 115 000 JPY
-7. **Shinagawa** - 112 000 JPY
-8. **Koto** - 112 000 JPY
-
-Vous payez l'emplacement, la commodite et un certain art de vivre. Pour beaucoup de cadres et de familles relocalises, ca vaut le coup, mais sachez que la prime est reelle.
-
-## Loyer par arrondissement et type (1K, 1LDK, 2LDK)
-Le classement change selon le type recherche. Pour un couple en 1LDK, Katsushika (118 000 JPY) est l'arrondissement le moins cher, devant Adachi et Edogawa. Loyer mensuel median par arrondissement, selon l'indice des loyers Tokyo Expat :
-
-| Arrondissement | 1K | 1LDK | 2LDK |
-|---|---|---|---|
-| Edogawa | 74 000 | 125 000 | 162 000 |
-| Adachi | 76 000 | 125 000 | 161 000 |
-| Katsushika | 81 000 | 118 000 | 162 000 |
-| Nerima | 82 000 | 135 000 | 176 000 |
-| Suginami | 84 000 | 159 000 | 210 000 |
-| Setagaya | 87 000 | 169 000 | 235 000 |
-| Itabashi | 88 000 | 143 000 | 195 000 |
-| Nakano | 88 000 | 174 000 | 225 000 |
-| Kita | 90 000 | 152 000 | 218 000 |
-| Arakawa | 91 000 | 150 000 | 219 000 |
-
-Tous les chiffres sont des loyers mensuels medians en JPY, a partir de transactions reelles enregistrees. Pour les 23 arrondissements complets plus 27 lignes et 50 stations, voyez l'[Indice des loyers de Tokyo](/fr/data).
-
-## Les stations les moins cheres, pour affiner
-La moyenne par arrondissement cache beaucoup. Voici les stations les plus abordables parmi 50 grandes stations, pour un 1K :
-
-1. **Kasai** - 76 000 JPY
-2. **Shin-Koiwa** - 78 000 JPY
-3. **Ayase** - 85 000 JPY
-4. **Ogikubo** - 85 000 JPY
-5. **Nerima** - 86 000 JPY
-6. **Kita-Senju** - 86 000 JPY
-7. **Akabane** - 86 000 JPY
-8. **Setagaya** - 88 000 JPY
-
-## Comment utiliser ce classement
-- **Choisissez d'abord votre ligne et votre trajet, puis la station.** Dix minutes de plus sur la bonne ligne peuvent economiser 30 000 a 50 000 JPY/mois pour le meme appartement.
-- **Les quartiers les moins chers ne sont pas "moins bien", juste plus loin.** Ils sont residentiels, surs et bien connectes.
-- **Prevoyez la facture d'entree**, pas seulement le loyer : un bail classique peut demander 4 a 6 mois de loyer d'un coup. Voyez notre [guide pour louer a Tokyo](/fr/blog/trouver-appartement-tokyo-etranger).
-- **Explorez chaque arrondissement, ligne et station** dans notre [Indice des loyers de Tokyo](/fr/data).
-
-Si vous preferez confier ces chiffres a quelqu'un qui travaille dans le marche tokyoite, voyez [comment fonctionne le chasseur immobilier](/fr/blog/service-chasseur-immobilier-tokyo-comment-ca-marche) ou [reservez un appel gratuit](/fr/contact).
-
-*Donnees : 528,660 annonces actives, 23 arrondissements de Tokyo, 2026. Loyer median 1K en JPY. Mis a jour chaque trimestre.*
-    `.trim(),
-  },
-  {
-    slug: 'tokyo-condo-price-trends',
-    locale: 'en',
-    title: 'How Tokyo Condo Prices Changed, 2021 to 2025 (Real Transaction Data)',
-    description: 'Tokyo used-condo prices rose +29.6% per square metre from 2021 to 2025, from 103,933 real recorded sale transactions. Ward-by-ward, which areas rose most.',
-    date: '2026-07-03',
-    readingTime: '6 min',
-    content: `
-Everyone feels that Tokyo has gotten more expensive. But by how much, and where exactly? This is not an opinion piece. It is built on 103,933 actual recorded condominium sale transactions across Tokyo, from 2021 to 2025, so you see the real trend instead of a headline. These are settled sale prices, not the asking prices you find on listing sites.
-
-**Quick answer:** The median price of a used condo in Tokyo rose from 720 000 to 933 333 JPY per square metre between 2021 and 2025, a +29.6% increase. The rise was far from even: central wards like Chuo (+60.3%) and Minato (+51.9%) climbed the most, while outer wards like Edogawa (+16.4%) rose the least. The gap between the centre and the rest widened.
-
-
-![How Tokyo condo prices per m2 changed, 2021 to 2025, by ward](/tokyo-price-trends.png "Median second-hand condo price per m2, from ~100,000 recorded sale transactions")
-## Tokyo condo prices, 2021 to 2025
-Median transaction price per square metre, used condominiums, across all 23 wards:
-
-- 2021: 720 000 JPY/m2
-- 2025: 933 333 JPY/m2
-- Change: +29.6% over 4 years
-
-The curve is remarkably steady quarter after quarter. This is not a speculative spike, it is a sustained repricing of Tokyo real estate, driven by a weak yen, foreign demand, low interest rates and limited central supply.
-
-## The wards that rose the most
-Where the increase concentrated (median JPY per m2, 2021 vs 2025):
-
-- **Chuo** +60.3% (1 081 176 -> 1 733 333 JPY/m2)
-- **Minato** +51.9% (1 228 571 -> 1 866 666 JPY/m2)
-- **Shibuya** +41.8% (1 108 391 -> 1 571 428 JPY/m2)
-- **Chiyoda** +34.8% (1 236 363 -> 1 666 666 JPY/m2)
-- **Koto** +33.3% (800 000 -> 1 066 666 JPY/m2)
-- **Sumida** +29.8% (714 285 -> 927 272 JPY/m2)
-
-Central and bayfront wards led. A 60 m2 apartment in Chuo went from roughly 64 870 560 to 103 999 980 JPY on these medians, a gap of tens of millions of yen in four years.
-
-## The wards that rose the least
-Prices went up almost everywhere, but the outer wards stayed far more accessible:
-
-- **Edogawa** +16.4% (528 571 -> 615 384 JPY/m2)
-- **Arakawa** +19.3% (670 588 -> 800 000 JPY/m2)
-- **Bunkyo** +19.4% (1 038 181 -> 1 240 000 JPY/m2)
-- **Adachi** +20.0% (461 538 -> 553 846 JPY/m2)
-- **Ota** +21.6% (672 727 -> 818 181 JPY/m2)
-- **Nerima** +21.6% (600 000 -> 729 411 JPY/m2)
-
-If your budget is fixed, this is where it stretches furthest, and where the entry point into Tokyo ownership is still realistic.
-
-## What this means if you are buying
-- **The centre is pricing many buyers out.** If you want central Tokyo, the window to buy cheaply has largely closed; you are buying into a proven, liquid market at a premium.
-- **The outer wards are the value play.** Lower price per m2, milder appreciation, but real rental demand and full train access.
-- **Rent, then buy, is a valid strategy.** See where you can afford to rent first in our [cheapest Tokyo neighbourhoods ranking](/en/blog/cheapest-neighbourhoods-tokyo-ranked-by-rent), and explore live rents in the [Tokyo Rent Index](/en/data).
-- **Median hides the mix.** These figures track the median transaction each quarter, so a shift in what sells can move the number; treat them as a market direction, not a valuation of your specific unit.
-
-If you want someone inside the Tokyo market to turn these trends into an actual purchase or rental, see [how we work](/en/contact).
-
-*Data: 103,933 real recorded used-condo sale transactions, Tokyo 23 wards, 2021Q1 to 2025Q3. Median settled price per m2 in JPY, not asking prices. Updated quarterly.*
-    `.trim(),
-  },
-  {
-    slug: 'evolution-prix-immobilier-tokyo',
-    locale: 'fr',
-    title: 'Evolution des prix immobiliers a Tokyo, 2021 a 2025 (donnees reelles)',
-    description: 'Le prix des coproprietes d\'occasion a Tokyo a augmente de +29.6% au m2 de 2021 a 2025, sur 103,933 transactions reelles enregistrees. Arrondissement par arrondissement.',
-    date: '2026-07-03',
-    readingTime: '6 min',
-    content: `
-Tout le monde sent que Tokyo est devenue plus chere. Mais de combien, et ou exactement ? Ceci n'est pas un billet d'opinion. C'est bati sur 103,933 ventes reelles de coproprietes enregistrees a Tokyo, de 2021 a 2025, pour voir la vraie tendance plutot qu'un titre de presse. Ce sont des prix de vente conclus, pas les prix affiches des sites d'annonces.
-
-**Reponse rapide :** Le prix median d'une copropriete d'occasion a Tokyo est passe de 720 000 a 933 333 JPY le metre carre entre 2021 et 2025, soit +29.6%. La hausse a ete tres inegale : les arrondissements centraux comme Chuo (+60.3%) et Minato (+51.9%) ont le plus grimpe, tandis que la peripherie comme Edogawa (+16.4%) a le moins bouge. L'ecart entre le centre et le reste s'est creuse.
-
-
-![Évolution du prix des copropriétés à Tokyo au m2, 2021 à 2025, par arrondissement](/tokyo-price-map.png "Prix médian au m2 des copropriétés d'occasion, sur ~100 000 transactions réelles enregistrées")
-## Les prix des coproprietes a Tokyo, 2021 a 2025
-Prix median de transaction au metre carre, coproprietes d'occasion, sur les 23 arrondissements :
-
-- 2021 : 720 000 JPY/m2
-- 2025 : 933 333 JPY/m2
-- Variation : +29.6% sur 4 ans
-
-La courbe est remarquablement reguliere, trimestre apres trimestre. Ce n'est pas un pic speculatif, c'est une revalorisation durable de l'immobilier tokyoite, portee par un yen faible, la demande etrangere, des taux bas et une offre centrale limitee.
-
-## Les arrondissements qui ont le plus augmente
-La ou la hausse s'est concentree (JPY median par m2, 2021 vs 2025) :
-
-- **Chuo** +60.3% (1 081 176 -> 1 733 333 JPY/m2)
-- **Minato** +51.9% (1 228 571 -> 1 866 666 JPY/m2)
-- **Shibuya** +41.8% (1 108 391 -> 1 571 428 JPY/m2)
-- **Chiyoda** +34.8% (1 236 363 -> 1 666 666 JPY/m2)
-- **Koto** +33.3% (800 000 -> 1 066 666 JPY/m2)
-- **Sumida** +29.8% (714 285 -> 927 272 JPY/m2)
-
-Les arrondissements centraux et de la baie sont en tete. Un appartement de 60 m2 a Chuo est passe d'environ 64 870 560 a 103 999 980 JPY sur ces medianes, un ecart de dizaines de millions de yens en quatre ans.
-
-## Les arrondissements qui ont le moins augmente
-Les prix ont monte presque partout, mais la peripherie reste bien plus accessible :
-
-- **Edogawa** +16.4% (528 571 -> 615 384 JPY/m2)
-- **Arakawa** +19.3% (670 588 -> 800 000 JPY/m2)
-- **Bunkyo** +19.4% (1 038 181 -> 1 240 000 JPY/m2)
-- **Adachi** +20.0% (461 538 -> 553 846 JPY/m2)
-- **Ota** +21.6% (672 727 -> 818 181 JPY/m2)
-- **Nerima** +21.6% (600 000 -> 729 411 JPY/m2)
-
-Si votre budget est fixe, c'est la qu'il va le plus loin, et ou le ticket d'entree dans la propriete tokyoite reste realiste.
-
-## Ce que cela veut dire si vous achetez
-- **Le centre exclut beaucoup d'acheteurs.** Si vous visez le centre de Tokyo, la fenetre pour acheter bon marche est largement fermee ; vous entrez dans un marche liquide et eprouve, mais au prix fort.
-- **La peripherie est le bon calcul.** Prix au m2 plus bas, appreciation plus douce, mais vraie demande locative et acces complet au reseau ferroviaire.
-- **Louer d'abord, acheter ensuite reste une strategie valable.** Voyez ou vous pouvez vous permettre de louer dans notre [classement des quartiers les moins chers](/fr/blog/quartiers-tokyo-moins-chers-classement-loyers), et explorez les loyers en direct dans l'[Indice des loyers de Tokyo](/fr/data).
-- **La mediane cache le melange.** Ces chiffres suivent la transaction mediane de chaque trimestre : un changement dans ce qui se vend peut deplacer le chiffre ; voyez-y une direction de marche, pas la valeur de votre bien precis.
-
-Si vous voulez que quelqu'un du marche tokyoite transforme ces tendances en achat ou location reel, voyez [comment nous travaillons](/fr/contact).
-
-*Donnees : 103,933 transactions reelles enregistrees de coproprietes d'occasion, 23 arrondissements de Tokyo, 2021Q1 a 2025Q3. Prix de vente median au m2 en JPY, pas des prix affiches. Mis a jour chaque trimestre.*
-    `.trim(),
-  },
-  {
     slug: 'tokyo-rent-vs-world-cities',
     locale: 'en',
     title: 'Tokyo Rent vs Other World Cities (2026): Why It\'s So Cheap',
@@ -12033,7 +11743,7 @@ If you have ever looked at a Tokyo listing and wondered what "1K" or "1LDK" mean
 **Quick answer:** The number is the count of rooms, and the letters describe the other spaces: R = room, K = kitchen, D = dining, L = living. So a 1K is one room plus a separate small kitchen (a studio), a 1LDK is one bedroom plus a combined living, dining and kitchen area (good for a couple), and a 2LDK adds a second bedroom (good for a family). The bathroom and toilet are always there but never appear in the code.
 
 
-![What Japanese apartment layouts mean: 1K, 1DK, 1LDK and 2LDK compared](/tokyo-layouts-en.png "Median Tokyo rent by layout, from 528,660 real active listings")
+![What Japanese apartment layouts mean: 1K, 1DK, 1LDK and 2LDK compared](/tokyo-layouts-en.png "Median Tokyo rent by layout, from 608,072 real active listings")
 ## The layout codes, decoded
 - **1R** (one room): a single room where the kitchen sits inside the main space, with no partition. The most compact option, often 13 to 20 square metres.
 - **1K:** one room plus a separate small kitchen, divided by a door or partition. The classic single-person studio, usually 20 to 25 square metres. The "K" is often just a sink and one burner in the hallway, not a full kitchen.
@@ -12095,7 +11805,7 @@ Si vous avez déjà regardé une annonce à Tokyo en vous demandant ce que veut 
 **Réponse rapide :** Le chiffre est le nombre de pièces, et les lettres décrivent les autres espaces : R = pièce, K = cuisine, D = coin repas, L = salon. Donc un 1K, c'est une pièce plus une petite cuisine séparée (un studio), un 1LDK, c'est une chambre plus un espace salon-repas-cuisine (idéal pour un couple), et un 2LDK ajoute une deuxième chambre (idéal pour une famille). La salle de bain et les toilettes sont toujours là mais n'apparaissent jamais dans le code.
 
 
-![Ce que signifient les plans japonais : 1K, 1DK, 1LDK et 2LDK comparés](/tokyo-layouts-fr.png "Loyer médian à Tokyo par type, sur 528 660 annonces réelles actives")
+![Ce que signifient les plans japonais : 1K, 1DK, 1LDK et 2LDK comparés](/tokyo-layouts-fr.png "Loyer médian à Tokyo par type, sur 608 072 annonces réelles actives")
 ## Les codes de configuration, décodés
 - **1R** (one room) : une pièce unique où la cuisine est dans l'espace principal, sans cloison. L'option la plus compacte, souvent 13 à 20 m2.
 - **1K :** une pièce plus une petite cuisine séparée par une porte ou une cloison. Le studio classique pour une personne, en général 20 à 25 m2. Le "K" est souvent juste un évier et une plaque dans le couloir, pas une vraie cuisine.
@@ -12469,7 +12179,7 @@ If you want the cheapest rent in Tokyo, the ward matters, but the train line mat
 **Quick answer:** The cheapest Tokyo train lines to rent a 1K studio on are the Seibu Ikebukuro (around 80,000 JPY, about US$500) and Seibu Shinjuku (around 82,000 JPY), followed by the Tobu Skytree and Tokyu Toyoko. The priciest are the Tokyo Metro Ginza (around 131,000 JPY, about US$820) and the JR Yamanote (around 120,000 JPY). Living one line over from a prime route is one of the easiest ways to cut your rent.
 
 
-![Median monthly rent for a 1K studio by Tokyo train line (2026)](/tokyo-rent-by-line.png "Median 1K rent by line, from 528,660 real active listings")
+![Median monthly rent for a 1K studio by Tokyo train line (2026)](/tokyo-rent-by-line.png "Median 1K rent by line, from 608,072 real active listings")
 ## The cheapest lines to rent on
 For a 1K studio, median monthly rent (USD at roughly 160 JPY to the dollar):
 - **Seibu Ikebukuro:** 80,000 JPY (about US$500)
@@ -12518,7 +12228,7 @@ Si vous cherchez le loyer le moins cher à Tokyo, l'arrondissement compte, mais 
 **Réponse rapide :** Les lignes de train les moins chères pour louer un studio 1K à Tokyo sont la Seibu Ikebukuro (environ 80 000 JPY, soit près de 500 USD) et la Seibu Shinjuku (environ 82 000 JPY), suivies de la Tobu Skytree et de la Tokyu Toyoko. Les plus chères sont la Tokyo Metro Ginza (environ 131 000 JPY, près de 820 USD) et la JR Yamanote (environ 120 000 JPY). Habiter une ligne à côté d'un axe prime est l'un des moyens les plus simples de réduire son loyer.
 
 
-![Loyer mensuel médian d'un studio 1K par ligne de train de Tokyo (2026)](/tokyo-rent-by-line.png "Loyer médian 1K par ligne, sur 528 660 annonces réelles actives")
+![Loyer mensuel médian d'un studio 1K par ligne de train de Tokyo (2026)](/tokyo-rent-by-line.png "Loyer médian 1K par ligne, sur 608 072 annonces réelles actives")
 ## Les lignes les moins chères
 Pour un studio 1K, loyer mensuel médian (USD à environ 160 JPY pour un dollar) :
 - **Seibu Ikebukuro :** 80 000 JPY (environ 500 USD)
@@ -12567,7 +12277,7 @@ Most people do not rent by ward, they rent by station: the walk to the platform 
 **Quick answer:** The cheapest Tokyo stations to rent a 1K studio near are Kasai (around 76,000 JPY, about US$475) and Shin-Koiwa (around 78,000 JPY), both in the eastern wards. The most expensive are Jimbocho and Ebisu (around 150,000 JPY, about US$940), in the central districts. The gap between the cheapest and priciest station is nearly double for the same size studio.
 
 
-![Median monthly rent for a 1K studio near 50 Tokyo stations (2026)](/tokyo-rent-by-station.png "Median 1K rent by station, from 528,660 real active listings")
+![Median monthly rent for a 1K studio near 50 Tokyo stations (2026)](/tokyo-rent-by-station.png "Median 1K rent by station, from 608,072 real active listings")
 ## The cheapest stations to rent near
 Median monthly rent for a 1K studio (USD at roughly 160 JPY to the dollar):
 - **Kasai:** 76,000 JPY (about US$475)
@@ -12617,7 +12327,7 @@ La plupart des gens ne louent pas par arrondissement, ils louent par station : c
 **Réponse rapide :** Les stations de Tokyo les moins chères pour louer un studio 1K sont Kasai (environ 76 000 JPY, près de 475 USD) et Shin-Koiwa (environ 78 000 JPY), toutes deux dans les arrondissements de l'est. Les plus chères sont Jimbocho et Ebisu (environ 150 000 JPY, près de 940 USD), dans les quartiers centraux. L'écart entre la station la moins chère et la plus chère est presque du simple au double pour un studio de même taille.
 
 
-![Loyer mensuel médian d'un studio 1K près de 50 stations de Tokyo (2026)](/tokyo-rent-by-station.png "Loyer médian 1K par station, sur 528 660 annonces réelles actives")
+![Loyer mensuel médian d'un studio 1K près de 50 stations de Tokyo (2026)](/tokyo-rent-by-station.png "Loyer médian 1K par station, sur 608 072 annonces réelles actives")
 ## Les stations les moins chères
 Loyer mensuel médian pour un studio 1K (USD à environ 160 JPY pour un dollar) :
 - **Kasai :** 76 000 JPY (environ 475 USD)
@@ -12961,104 +12671,6 @@ Pour un couple, Tokyo est plus abordable que ne le laissent croire les gros titr
     `.trim(),
   },
   {
-    slug: 'furnished-vs-unfurnished-apartment-tokyo-cost',
-    locale: 'en',
-    title: 'Furnished vs Unfurnished Apartments in Tokyo: The Real Cost',
-    description: 'A data-backed look at how much more furnished apartments cost than unfurnished ones in Tokyo, by ward, and when the furnished route is worth the premium.',
-    date: '2026-08-08',
-    readingTime: '6 min',
-    content: `
-Moving to Tokyo, one of the first real decisions is furnished or unfurnished. It sounds small, but it changes your monthly rent, your move-in bill and how fast you can settle in. Here is the honest, data-backed answer, from real rental listings across Tokyo's 23 wards, updated every quarter.
-
-**Quick answer:** A furnished or monthly 1K studio in Tokyo costs roughly 20% to 98% more per month than a standard unfurnished one, and the premium is biggest in the cheaper outer wards. Furnished makes sense for a short or uncertain stay, or a fast arrival with no guarantor. Unfurnished wins for a long, committed stay where the lower monthly rent pays off.
-
-## How much more does furnished cost in Tokyo?
-Comparing the median rent of a furnished 1K studio to a standard one in the same ward, the gap runs from about +20% in the most central wards to +98% in the cheapest. The smallest premiums:
-
-- **Minato**: 144 000 JPY unfurnished, 173 400 JPY furnished (+20%)
-- **Chiyoda**: 143 000 JPY unfurnished, 173 400 JPY furnished (+21%)
-- **Shibuya**: 130 000 JPY unfurnished, 167 400 JPY furnished (+29%)
-- **Shinjuku**: 123 500 JPY unfurnished, 161 400 JPY furnished (+31%)
-- **Koto**: 123 000 JPY unfurnished, 165 000 JPY furnished (+34%)
-
-And the biggest premiums, all in cheaper outer wards:
-
-- **Katsushika**: 83 000 JPY unfurnished, 164 400 JPY furnished (+98%)
-- **Edogawa**: 78 000 JPY unfurnished, 146 400 JPY furnished (+88%)
-- **Adachi**: 81 000 JPY unfurnished, 136 500 JPY furnished (+69%)
-- **Suginami**: 85 000 JPY unfurnished, 141 600 JPY furnished (+67%)
-- **Chuo**: 104 500 JPY unfurnished, 169 800 JPY furnished (+62%)
-
-Two things drive this gap. A furnished or monthly place bundles convenience: furniture, appliances, often no key money, no guarantor and a flexible term. And it lets you move in within days instead of weeks. You are not only paying for a sofa, you are paying to skip the hardest parts of the Japanese rental system.
-
-## Why the premium is biggest in the cheapest wards
-This is the counter-intuitive part. In an expensive central ward like Minato, a furnished studio is only about +20%, because the standard rent is already high. In a cheaper outer ward like Katsushika, the same furnished convenience can nearly double the rent, because the standard base is so low. In short, the cheaper the neighbourhood, the more the furnished route costs you in relative terms. If your budget is tight and you were counting on a cheap outer ward, going furnished can quietly erase that saving.
-
-## When furnished is worth it, and when it is not
-Choose furnished or monthly if you are arriving soon and need a home within days, if you do not have a Japanese guarantor or a local income record yet, if your stay is short or uncertain, or if you want to avoid the four-to-five-months-of-rent upfront bill of a standard lease.
-
-Choose unfurnished if you are staying two years or more and want the lowest monthly rent, if you can cover the upfront move-in costs and a guarantor company, or if you want more space for the money, especially in the cheaper wards where the furnished premium is steepest.
-
-For many newcomers the smartest play is to start furnished for the arrival, then move to an unfurnished lease once they have a residence card, a bank account and a feel for the city. Just remember the move-in costs are paid again on the second move, so this two-step only pays off on longer stays.
-
-## How to decide with real numbers
-- Check the furnished premium for your target ward in our [Tokyo Rent Index](/en/data), then weigh it against the standard rent.
-- Budget the full upfront bill, not just the rent. Our [guide to renting in Tokyo as a foreigner](/en/blog/find-apartment-tokyo-foreigner) breaks down deposit, key money, agency and guarantor fees.
-- If you want someone inside the market to run the search and handle the furnished-or-unfurnished trade-off for you, see [how our property hunter works](/en/blog/how-real-estate-hunter-works-tokyo) or [book a free call](/en/contact).
-
-*Data: median furnished or monthly rent versus median standard rent for a 1K studio, Tokyo 23 wards, 2026. Updated quarterly. The two cheapest wards have smaller furnished samples, so read those as indicative.*
-    `.trim(),
-  },
-  {
-    slug: 'appartement-meuble-vs-non-meuble-tokyo-cout',
-    locale: 'fr',
-    title: 'Appartement meuble ou non a Tokyo : le vrai surcout',
-    description: 'Combien un appartement meuble coute de plus par rapport au non meuble a Tokyo, par arrondissement, et quand la voie meublee en vaut vraiment la peine.',
-    date: '2026-08-08',
-    readingTime: '6 min',
-    content: `
-En s'installant a Tokyo, l'une des premieres vraies decisions est : meuble ou non meuble ? Ca parait anodin, mais ca change votre loyer mensuel, votre facture d'entree et la vitesse a laquelle vous vous installez. Voici la reponse honnete et chiffree, a partir d'annonces locatives reelles dans les 23 arrondissements de Tokyo, mise a jour chaque trimestre.
-
-**Reponse rapide :** Un studio 1K meuble ou monthly coute environ 20% a 98% de plus par mois qu'un studio standard non meuble, et le surcout est le plus eleve dans les arrondissements les moins chers. Le meuble a du sens pour un sejour court ou incertain, ou une arrivee rapide sans garant. Le non meuble l'emporte pour un long sejour ou le loyer mensuel plus bas finit par payer.
-
-## Combien coute le meuble en plus a Tokyo ?
-En comparant le loyer median d'un studio 1K meuble a celui d'un standard dans le meme arrondissement, l'ecart va d'environ +20% dans les arrondissements les plus centraux a +98% dans les moins chers. Les plus petits surcouts :
-
-- **Minato** : 144 000 JPY non meuble, 173 400 JPY meuble (+20%)
-- **Chiyoda** : 143 000 JPY non meuble, 173 400 JPY meuble (+21%)
-- **Shibuya** : 130 000 JPY non meuble, 167 400 JPY meuble (+29%)
-- **Shinjuku** : 123 500 JPY non meuble, 161 400 JPY meuble (+31%)
-- **Koto** : 123 000 JPY non meuble, 165 000 JPY meuble (+34%)
-
-Et les plus gros surcouts, tous dans des arrondissements peripheriques moins chers :
-
-- **Katsushika** : 83 000 JPY non meuble, 164 400 JPY meuble (+98%)
-- **Edogawa** : 78 000 JPY non meuble, 146 400 JPY meuble (+88%)
-- **Adachi** : 81 000 JPY non meuble, 136 500 JPY meuble (+69%)
-- **Suginami** : 85 000 JPY non meuble, 141 600 JPY meuble (+67%)
-- **Chuo** : 104 500 JPY non meuble, 169 800 JPY meuble (+62%)
-
-Deux choses expliquent cet ecart. Un logement meuble ou monthly regroupe le confort : meubles, electromenager, souvent pas de key money, pas de garant et une duree flexible. Et il permet d'emmenager en quelques jours au lieu de plusieurs semaines. Vous ne payez pas seulement un canape, vous payez pour eviter les parties les plus dures du systeme locatif japonais.
-
-## Pourquoi le surcout est le plus eleve dans les quartiers les moins chers
-C'est le point contre-intuitif. Dans un arrondissement central et cher comme Minato, un studio meuble n'est que d'environ +20%, parce que le loyer standard est deja eleve. Dans un arrondissement peripherique moins cher comme Katsushika, le meme confort meuble peut presque doubler le loyer, parce que la base standard est tres basse. Autrement dit, plus le quartier est bon marche, plus la voie meublee vous coute en proportion. Si votre budget est serre et que vous comptiez sur un quartier peripherique pas cher, passer au meuble peut effacer discretement cette economie.
-
-## Quand le meuble en vaut la peine, et quand non
-Choisissez le meuble ou monthly si vous arrivez bientot et avez besoin d'un logement en quelques jours, si vous n'avez pas encore de garant japonais ou de revenus locaux, si votre sejour est court ou incertain, ou si vous voulez eviter la facture d'entree de quatre a cinq mois de loyer d'un bail classique.
-
-Choisissez le non meuble si vous restez deux ans ou plus et voulez le loyer mensuel le plus bas, si vous pouvez couvrir les frais d'entree et une societe de garant, ou si vous voulez plus d'espace pour votre argent, surtout dans les quartiers moins chers ou le surcout du meuble est le plus fort.
-
-Pour beaucoup de nouveaux arrivants, le plus malin est de commencer meuble pour l'arrivee, puis de passer a un bail non meuble une fois la carte de resident, le compte bancaire et la connaissance de la ville acquis. Rappelez-vous simplement que les frais d'entree se paient de nouveau au second demenagement, donc ce plan en deux temps ne paie que sur les longs sejours.
-
-## Comment decider avec de vrais chiffres
-- Verifiez le surcout du meuble pour votre arrondissement cible dans notre [Indice des loyers de Tokyo](/fr/data), puis pesez-le face au loyer standard.
-- Budgetez toute la facture d'entree, pas seulement le loyer. Notre [guide pour louer a Tokyo](/fr/blog/trouver-appartement-tokyo-etranger) detaille depot, key money, frais d'agence et de garant.
-- Si vous preferez confier la recherche et l'arbitrage meuble ou non a quelqu'un qui travaille dans le marche, voyez [comment fonctionne le chasseur immobilier](/fr/blog/service-chasseur-immobilier-tokyo-comment-ca-marche) ou [reservez un appel gratuit](/fr/contact).
-
-*Donnees : loyer median meuble ou monthly contre loyer median standard pour un studio 1K, 23 arrondissements de Tokyo, 2026. Mis a jour chaque trimestre. Les deux arrondissements les moins chers ont de plus petits echantillons meubles, a lire comme indicatif.*
-    `.trim(),
-  },
-  {
     slug: 'furnished-apartments-tokyo-guide',
     locale: 'en',
     title: 'Furnished Apartments in Tokyo: The Complete Guide for Foreigners (2026)',
@@ -13387,6 +12999,394 @@ Les familles pèsent écoles, parcs, espace et trajet autrement qu'un célibatai
 Déménager toute une famille demande beaucoup de coordination, et le logement est la pièce dont tout le reste dépend. Si vous voulez de l'aide pour trouver un appartement familial adapté à votre budget, votre école et votre calendrier, [dites-nous ce qu'il vous faut](/fr/contact) et on gère la recherche avec vous.
 
 *Voir aussi : [Meilleurs quartiers de Tokyo pour familles expatriées](/fr/blog/quartiers-tokyo-familles-expatriees-guide), [Types d'appartements japonais expliqués](/fr/blog/types-appartements-japonais-expliques), [Trouver un appartement à Tokyo en tant qu'étranger](/fr/blog/trouver-appartement-tokyo-etranger).*`.trim(),
+  },
+  {
+    slug: 'furnished-vs-unfurnished-apartment-tokyo-cost',
+    locale: 'en',
+    title: 'Furnished vs Unfurnished Apartments in Tokyo: The Real Cost',
+    description: 'A data-backed look at how much more furnished apartments cost than unfurnished ones in Tokyo, by ward, and when the furnished route is worth the premium.',
+    date: '2026-10-24',
+    readingTime: '6 min',
+    content: `
+Moving to Tokyo, one of the first real decisions is furnished or unfurnished. It sounds small, but it changes your monthly rent, your move-in bill and how fast you can settle in. Here is the honest, data-backed answer, from real rental listings across Tokyo's 23 wards, updated every quarter.
+
+**Quick answer:** A furnished or monthly 1K studio in Tokyo costs roughly 18% to 90% more per month than a standard unfurnished one, and the premium is biggest in the cheaper outer wards. Furnished makes sense for a short or uncertain stay, or a fast arrival with no guarantor. Unfurnished wins for a long, committed stay where the lower monthly rent pays off.
+
+## How much more does furnished cost in Tokyo?
+Comparing the median rent of a furnished 1K studio to a standard one in the same ward, the gap runs from about +18% in the most central wards to +90% in the cheapest. The smallest premiums:
+
+- **Chiyoda**: 145 000 JPY unfurnished, 170 400 JPY furnished (+18%)
+- **Minato**: 144 000 JPY unfurnished, 174 000 JPY furnished (+21%)
+- **Meguro**: 110 000 JPY unfurnished, 140 400 JPY furnished (+28%)
+- **Shinagawa**: 118 000 JPY unfurnished, 152 400 JPY furnished (+29%)
+- **Shibuya**: 131 000 JPY unfurnished, 170 400 JPY furnished (+30%)
+
+And the biggest premiums, all in cheaper outer wards:
+
+- **Edogawa**: 77 000 JPY unfurnished, 146 400 JPY furnished (+90%)
+- **Chuo**: 93 000 JPY unfurnished, 166 950 JPY furnished (+80%)
+- **Katsushika**: 85 000 JPY unfurnished, 152 400 JPY furnished (+79%)
+- **Nakano**: 92 000 JPY unfurnished, 151 200 JPY furnished (+64%)
+- **Adachi**: 83 000 JPY unfurnished, 134 700 JPY furnished (+62%)
+
+Two things drive this gap. A furnished or monthly place bundles convenience: furniture, appliances, often no key money, no guarantor and a flexible term. And it lets you move in within days instead of weeks. You are not only paying for a sofa, you are paying to skip the hardest parts of the Japanese rental system.
+
+## Why the premium is biggest in the cheapest wards
+This is the counter-intuitive part. In an expensive central ward like Chiyoda, a furnished studio is only about +18%, because the standard rent is already high. In a cheaper outer ward like Edogawa, the same furnished convenience can nearly double the rent, because the standard base is so low. In short, the cheaper the neighbourhood, the more the furnished route costs you in relative terms. If your budget is tight and you were counting on a cheap outer ward, going furnished can quietly erase that saving.
+
+## When furnished is worth it, and when it is not
+Choose furnished or monthly if you are arriving soon and need a home within days, if you do not have a Japanese guarantor or a local income record yet, if your stay is short or uncertain, or if you want to avoid the four-to-five-months-of-rent upfront bill of a standard lease.
+
+Choose unfurnished if you are staying two years or more and want the lowest monthly rent, if you can cover the upfront move-in costs and a guarantor company, or if you want more space for the money, especially in the cheaper wards where the furnished premium is steepest.
+
+For many newcomers the smartest play is to start furnished for the arrival, then move to an unfurnished lease once they have a residence card, a bank account and a feel for the city. Just remember the move-in costs are paid again on the second move, so this two-step only pays off on longer stays.
+
+## How to decide with real numbers
+- Check the furnished premium for your target ward in our [Tokyo Rent Index](/en/data), then weigh it against the standard rent.
+- Budget the full upfront bill, not just the rent. Our [guide to renting in Tokyo as a foreigner](/en/blog/find-apartment-tokyo-foreigner) breaks down deposit, key money, agency and guarantor fees.
+- If you want someone inside the market to run the search and handle the furnished-or-unfurnished trade-off for you, see [how our property hunter works](/en/blog/how-real-estate-hunter-works-tokyo) or [book a free call](/en/contact).
+
+*Data: median furnished or monthly rent versus median standard rent for a 1K studio, Tokyo 23 wards, 2026. Updated quarterly. The two cheapest wards have smaller furnished samples, so read those as indicative.*
+    `.trim(),
+  },
+  {
+    slug: 'appartement-meuble-vs-non-meuble-tokyo-cout',
+    locale: 'fr',
+    title: 'Appartement meuble ou non a Tokyo : le vrai surcout',
+    description: 'Combien un appartement meuble coute de plus par rapport au non meuble a Tokyo, par arrondissement, et quand la voie meublee en vaut vraiment la peine.',
+    date: '2026-10-24',
+    readingTime: '6 min',
+    content: `
+En s'installant a Tokyo, l'une des premieres vraies decisions est : meuble ou non meuble ? Ca parait anodin, mais ca change votre loyer mensuel, votre facture d'entree et la vitesse a laquelle vous vous installez. Voici la reponse honnete et chiffree, a partir d'annonces locatives reelles dans les 23 arrondissements de Tokyo, mise a jour chaque trimestre.
+
+**Reponse rapide :** Un studio 1K meuble ou monthly coute environ 18% a 90% de plus par mois qu'un studio standard non meuble, et le surcout est le plus eleve dans les arrondissements les moins chers. Le meuble a du sens pour un sejour court ou incertain, ou une arrivee rapide sans garant. Le non meuble l'emporte pour un long sejour ou le loyer mensuel plus bas finit par payer.
+
+## Combien coute le meuble en plus a Tokyo ?
+En comparant le loyer median d'un studio 1K meuble a celui d'un standard dans le meme arrondissement, l'ecart va d'environ +18% dans les arrondissements les plus centraux a +90% dans les moins chers. Les plus petits surcouts :
+
+- **Chiyoda** : 145 000 JPY non meuble, 170 400 JPY meuble (+18%)
+- **Minato** : 144 000 JPY non meuble, 174 000 JPY meuble (+21%)
+- **Meguro** : 110 000 JPY non meuble, 140 400 JPY meuble (+28%)
+- **Shinagawa** : 118 000 JPY non meuble, 152 400 JPY meuble (+29%)
+- **Shibuya** : 131 000 JPY non meuble, 170 400 JPY meuble (+30%)
+
+Et les plus gros surcouts, tous dans des arrondissements peripheriques moins chers :
+
+- **Edogawa** : 77 000 JPY non meuble, 146 400 JPY meuble (+90%)
+- **Chuo** : 93 000 JPY non meuble, 166 950 JPY meuble (+80%)
+- **Katsushika** : 85 000 JPY non meuble, 152 400 JPY meuble (+79%)
+- **Nakano** : 92 000 JPY non meuble, 151 200 JPY meuble (+64%)
+- **Adachi** : 83 000 JPY non meuble, 134 700 JPY meuble (+62%)
+
+Deux choses expliquent cet ecart. Un logement meuble ou monthly regroupe le confort : meubles, electromenager, souvent pas de key money, pas de garant et une duree flexible. Et il permet d'emmenager en quelques jours au lieu de plusieurs semaines. Vous ne payez pas seulement un canape, vous payez pour eviter les parties les plus dures du systeme locatif japonais.
+
+## Pourquoi le surcout est le plus eleve dans les quartiers les moins chers
+C'est le point contre-intuitif. Dans un arrondissement central et cher comme Chiyoda, un studio meuble n'est que d'environ +18%, parce que le loyer standard est deja eleve. Dans un arrondissement peripherique moins cher comme Edogawa, le meme confort meuble peut presque doubler le loyer, parce que la base standard est tres basse. Autrement dit, plus le quartier est bon marche, plus la voie meublee vous coute en proportion. Si votre budget est serre et que vous comptiez sur un quartier peripherique pas cher, passer au meuble peut effacer discretement cette economie.
+
+## Quand le meuble en vaut la peine, et quand non
+Choisissez le meuble ou monthly si vous arrivez bientot et avez besoin d'un logement en quelques jours, si vous n'avez pas encore de garant japonais ou de revenus locaux, si votre sejour est court ou incertain, ou si vous voulez eviter la facture d'entree de quatre a cinq mois de loyer d'un bail classique.
+
+Choisissez le non meuble si vous restez deux ans ou plus et voulez le loyer mensuel le plus bas, si vous pouvez couvrir les frais d'entree et une societe de garant, ou si vous voulez plus d'espace pour votre argent, surtout dans les quartiers moins chers ou le surcout du meuble est le plus fort.
+
+Pour beaucoup de nouveaux arrivants, le plus malin est de commencer meuble pour l'arrivee, puis de passer a un bail non meuble une fois la carte de resident, le compte bancaire et la connaissance de la ville acquis. Rappelez-vous simplement que les frais d'entree se paient de nouveau au second demenagement, donc ce plan en deux temps ne paie que sur les longs sejours.
+
+## Comment decider avec de vrais chiffres
+- Verifiez le surcout du meuble pour votre arrondissement cible dans notre [Indice des loyers de Tokyo](/fr/data), puis pesez-le face au loyer standard.
+- Budgetez toute la facture d'entree, pas seulement le loyer. Notre [guide pour louer a Tokyo](/fr/blog/trouver-appartement-tokyo-etranger) detaille depot, key money, frais d'agence et de garant.
+- Si vous preferez confier la recherche et l'arbitrage meuble ou non a quelqu'un qui travaille dans le marche, voyez [comment fonctionne le chasseur immobilier](/fr/blog/service-chasseur-immobilier-tokyo-comment-ca-marche) ou [reservez un appel gratuit](/fr/contact).
+
+*Donnees : loyer median meuble ou monthly contre loyer median standard pour un studio 1K, 23 arrondissements de Tokyo, 2026. Mis a jour chaque trimestre. Les deux arrondissements les moins chers ont de plus petits echantillons meubles, a lire comme indicatif.*
+    `.trim(),
+  },
+  {
+    slug: 'cheapest-neighbourhoods-tokyo-ranked-by-rent',
+    locale: 'en',
+    title: 'Cheapest and Priciest Tokyo Neighbourhoods (2026 Rent Data)',
+    description: 'A data-backed ranking of the cheapest and most expensive Tokyo wards and stations to rent in 2026, from 608,072 real active listings.',
+    date: '2026-10-24',
+    readingTime: '6 min',
+    content: `
+Everyone asks the same question when moving to Tokyo: where can I actually afford to live? Most guides answer with opinions. This one answers with data, from 608,072 real rental listings across Tokyo's 23 wards, updated every quarter.
+
+**Quick answer:** The cheapest Tokyo wards for a 1K studio are Edogawa (75 000 JPY), Adachi (81 000 JPY) and Katsushika (85 000 JPY), all eastern or outer wards. The most expensive is Minato (142 000 JPY), followed by Chiyoda and Chuo. From one ward to another, the same studio can cost nearly double.
+
+
+![Median 1K studio rent by Tokyo ward, mapped (2026)](/tokyo-rent-map.png "Median 1K rent across the 23 wards, from 608,072 real active listings")
+## The 10 cheapest wards to live in Tokyo
+Ranked by median monthly rent for a 1K studio, from 608,072 active listings:
+
+1. **Edogawa** - 75 000 JPY
+2. **Adachi** - 81 000 JPY
+3. **Katsushika** - 85 000 JPY
+4. **Nerima** - 86 000 JPY
+5. **Suginami** - 87 000 JPY
+6. **Itabashi** - 90 000 JPY
+7. **Setagaya** - 90 000 JPY
+8. **Kita** - 92 000 JPY
+9. **Nakano** - 93 000 JPY
+10. **Arakawa** - 96 000 JPY
+
+These are mostly eastern and outer wards. They sit 20 to 40 minutes from the centre but stay fully on the train network, and your money buys a real apartment instead of a shoebox.
+
+
+![The cheapest Tokyo ward depends on your household: single, couple or family](/tokyo-household-flip-en.png "Single: Edogawa, couple: Katsushika, family: Adachi. Not the same ward.")
+## The most expensive wards to live in Tokyo
+The other end of the scale, same 1K studio:
+
+1. **Minato** - 142 000 JPY
+2. **Chiyoda** - 138 000 JPY
+3. **Chuo** - 129 000 JPY
+4. **Shibuya** - 126 000 JPY
+5. **Shinjuku** - 125 000 JPY
+6. **Taito** - 122 000 JPY
+7. **Koto** - 118 000 JPY
+8. **Shinagawa** - 115 000 JPY
+
+You pay for location, convenience and a certain lifestyle. For many relocating executives and families it is worth it, but go in knowing the premium is real.
+
+## Rent by ward and layout (1K, 1LDK, 2LDK)
+The ranking shifts with the layout you need. For a couple on a 1LDK, Katsushika (120 000 JPY) is the single cheapest ward, ahead of Adachi and Edogawa. Median monthly rent by ward, according to the Tokyo Expat rent index:
+
+| Ward | 1K | 1LDK | 2LDK |
+|---|---|---|---|
+| Edogawa | 75 000 | 126 000 | 165 000 |
+| Adachi | 81 000 | 123 000 | 162 000 |
+| Katsushika | 85 000 | 120 000 | 162 000 |
+| Nerima | 86 000 | 135 000 | 176 000 |
+| Suginami | 87 000 | 157 000 | 209 000 |
+| Itabashi | 90 000 | 139 000 | 191 000 |
+| Setagaya | 90 000 | 170 000 | 232 000 |
+| Kita | 92 000 | 152 000 | 225 000 |
+| Nakano | 93 000 | 170 500 | 227 000 |
+| Arakawa | 96 000 | 150 000 | 220 000 |
+
+All figures are median monthly rent in JPY, from real recorded transactions. For the full 23 wards plus 27 train lines and 50 stations, see the [Tokyo Rent Index](/en/data).
+
+## Cheapest stations, if you want to go granular
+Ward averages hide a lot. Here are the most affordable of 50 major stations for a 1K, so you can trade a few minutes of commute for real savings:
+
+1. **Kasai** - 79 000 JPY
+2. **Shin-Koiwa** - 84 000 JPY
+3. **Kameari** - 85 000 JPY
+4. **Nerima** - 87 000 JPY
+5. **Kita-Senju** - 88 000 JPY
+6. **Ogikubo** - 90 000 JPY
+7. **Akabane** - 91 000 JPY
+8. **Ayase** - 92 000 JPY
+
+## How to actually use this ranking
+- **Choose your train line and commute first, then the station.** Ten extra minutes on the right line can save you 30,000 to 50,000 JPY a month for the same apartment.
+- **The cheapest wards are not "worse", just further out.** They are residential, safe and well connected.
+- **Budget for the upfront bill**, not just the rent: a standard lease can ask for four to six months of rent all at once. See our [guide to renting in Tokyo as a foreigner](/en/blog/find-apartment-tokyo-foreigner).
+- **Explore every ward, line and station** in our interactive [Tokyo Rent Index](/en/data).
+
+If you would rather have someone who works inside the Tokyo market turn these numbers into an actual apartment, see [how our property hunter works](/en/blog/how-real-estate-hunter-works-tokyo) or [book a free call](/en/contact).
+
+*Data: 608,072 active listings, Tokyo 23 wards, 2026. Median 1K rent in JPY. Updated quarterly.*
+    `.trim(),
+  },
+  {
+    slug: 'quartiers-tokyo-moins-chers-classement-loyers',
+    locale: 'fr',
+    title: 'Les quartiers de Tokyo les moins chers (donnees 2026)',
+    description: 'Un classement chiffre des arrondissements et stations de Tokyo les moins et plus chers a louer en 2026, a partir de 608,072 annonces reelles.',
+    date: '2026-10-24',
+    readingTime: '6 min',
+    content: `
+Tout le monde se pose la meme question en s'installant a Tokyo : ou puis-je vraiment me permettre d'habiter ? La plupart des guides repondent a l'opinion. Celui-ci repond avec des donnees, a partir de 608,072 annonces locatives reelles dans les 23 arrondissements de Tokyo, mises a jour chaque trimestre.
+
+**Reponse rapide :** Les arrondissements les moins chers pour un studio 1K sont Edogawa (75 000 JPY), Adachi (81 000 JPY) et Katsushika (85 000 JPY), tous a l'est ou en peripherie. Le plus cher est Minato (142 000 JPY), suivi de Chiyoda et Chuo. D'un arrondissement a l'autre, le meme studio peut couter pres du double.
+
+
+![Loyer médian d'un studio 1K par arrondissement de Tokyo, en carte (2026)](/tokyo-rent-map.png "Loyer médian 1K dans les 23 arrondissements, sur 608 072 annonces réelles actives")
+## Les 10 arrondissements les moins chers de Tokyo
+Classes par loyer median d'un studio 1K, sur 608,072 annonces actives :
+
+1. **Edogawa** - 75 000 JPY
+2. **Adachi** - 81 000 JPY
+3. **Katsushika** - 85 000 JPY
+4. **Nerima** - 86 000 JPY
+5. **Suginami** - 87 000 JPY
+6. **Itabashi** - 90 000 JPY
+7. **Setagaya** - 90 000 JPY
+8. **Kita** - 92 000 JPY
+9. **Nakano** - 93 000 JPY
+10. **Arakawa** - 96 000 JPY
+
+Ce sont surtout des arrondissements de l'est et de la peripherie. Ils sont a 20-40 minutes du centre mais restent bien desservis, et votre budget achete un vrai appartement plutot qu'une boite a chaussures.
+
+
+![Le quartier de Tokyo le moins cher dépend de votre foyer : célibataire, couple ou famille](/tokyo-household-flip-fr.png "Célibataire : Edogawa, couple : Katsushika, famille : Adachi. Pas le même quartier.")
+## Les arrondissements les plus chers de Tokyo
+L'autre extreme, pour le meme studio 1K :
+
+1. **Minato** - 142 000 JPY
+2. **Chiyoda** - 138 000 JPY
+3. **Chuo** - 129 000 JPY
+4. **Shibuya** - 126 000 JPY
+5. **Shinjuku** - 125 000 JPY
+6. **Taito** - 122 000 JPY
+7. **Koto** - 118 000 JPY
+8. **Shinagawa** - 115 000 JPY
+
+Vous payez l'emplacement, la commodite et un certain art de vivre. Pour beaucoup de cadres et de familles relocalises, ca vaut le coup, mais sachez que la prime est reelle.
+
+## Loyer par arrondissement et type (1K, 1LDK, 2LDK)
+Le classement change selon le type recherche. Pour un couple en 1LDK, Katsushika (120 000 JPY) est l'arrondissement le moins cher, devant Adachi et Edogawa. Loyer mensuel median par arrondissement, selon l'indice des loyers Tokyo Expat :
+
+| Arrondissement | 1K | 1LDK | 2LDK |
+|---|---|---|---|
+| Edogawa | 75 000 | 126 000 | 165 000 |
+| Adachi | 81 000 | 123 000 | 162 000 |
+| Katsushika | 85 000 | 120 000 | 162 000 |
+| Nerima | 86 000 | 135 000 | 176 000 |
+| Suginami | 87 000 | 157 000 | 209 000 |
+| Itabashi | 90 000 | 139 000 | 191 000 |
+| Setagaya | 90 000 | 170 000 | 232 000 |
+| Kita | 92 000 | 152 000 | 225 000 |
+| Nakano | 93 000 | 170 500 | 227 000 |
+| Arakawa | 96 000 | 150 000 | 220 000 |
+
+Tous les chiffres sont des loyers mensuels medians en JPY, a partir de transactions reelles enregistrees. Pour les 23 arrondissements complets plus 27 lignes et 50 stations, voyez l'[Indice des loyers de Tokyo](/fr/data).
+
+## Les stations les moins cheres, pour affiner
+La moyenne par arrondissement cache beaucoup. Voici les stations les plus abordables parmi 50 grandes stations, pour un 1K :
+
+1. **Kasai** - 79 000 JPY
+2. **Shin-Koiwa** - 84 000 JPY
+3. **Kameari** - 85 000 JPY
+4. **Nerima** - 87 000 JPY
+5. **Kita-Senju** - 88 000 JPY
+6. **Ogikubo** - 90 000 JPY
+7. **Akabane** - 91 000 JPY
+8. **Ayase** - 92 000 JPY
+
+## Comment utiliser ce classement
+- **Choisissez d'abord votre ligne et votre trajet, puis la station.** Dix minutes de plus sur la bonne ligne peuvent economiser 30 000 a 50 000 JPY/mois pour le meme appartement.
+- **Les quartiers les moins chers ne sont pas "moins bien", juste plus loin.** Ils sont residentiels, surs et bien connectes.
+- **Prevoyez la facture d'entree**, pas seulement le loyer : un bail classique peut demander 4 a 6 mois de loyer d'un coup. Voyez notre [guide pour louer a Tokyo](/fr/blog/trouver-appartement-tokyo-etranger).
+- **Explorez chaque arrondissement, ligne et station** dans notre [Indice des loyers de Tokyo](/fr/data).
+
+Si vous preferez confier ces chiffres a quelqu'un qui travaille dans le marche tokyoite, voyez [comment fonctionne le chasseur immobilier](/fr/blog/service-chasseur-immobilier-tokyo-comment-ca-marche) ou [reservez un appel gratuit](/fr/contact).
+
+*Donnees : 608,072 annonces actives, 23 arrondissements de Tokyo, 2026. Loyer median 1K en JPY. Mis a jour chaque trimestre.*
+    `.trim(),
+  },
+  {
+    slug: 'tokyo-condo-price-trends',
+    locale: 'en',
+    title: 'How Tokyo Condo Prices Changed, 2021 to 2026 (Real Transaction Data)',
+    description: 'Tokyo used-condo prices rose +38.9% per square metre from 2021 to 2026, from 121,401 real recorded sale transactions. Ward-by-ward, which areas rose most.',
+    date: '2026-10-24',
+    readingTime: '6 min',
+    content: `
+Everyone feels that Tokyo has gotten more expensive. But by how much, and where exactly? This is not an opinion piece. It is built on 121,401 actual recorded condominium sale transactions across Tokyo, from 2021 to 2026, so you see the real trend instead of a headline. These are settled sale prices, not the asking prices you find on listing sites.
+
+**Quick answer:** The median price of a used condo in Tokyo rose from 720 000 to 1 000 000 JPY per square metre between 2021 and 2026, a +38.9% increase. The rise was far from even: central wards like Chuo (+70.9%) and Minato (+62.8%) climbed the most, while outer wards like Ota (+26.4%) rose the least. The gap between the centre and the rest widened.
+
+
+![How Tokyo condo prices per m2 changed, 2021 to 2026, by ward](/tokyo-price-trends.png "Median second-hand condo price per m2, from ~120,000 recorded sale transactions")
+## Tokyo condo prices, 2021 to 2026
+Median transaction price per square metre, used condominiums, across all 23 wards:
+
+- 2021: 720 000 JPY/m2
+- 2026: 1 000 000 JPY/m2
+- Change: +38.9% over 5 years
+
+The curve is remarkably steady quarter after quarter. This is not a speculative spike, it is a sustained repricing of Tokyo real estate, driven by a weak yen, foreign demand, low interest rates and limited central supply.
+
+## The wards that rose the most
+Where the increase concentrated (median JPY per m2, 2021 vs 2026):
+
+- **Chuo** +70.9% (1 081 176 -> 1 848 076 JPY/m2)
+- **Minato** +62.8% (1 228 571 -> 2 000 000 JPY/m2)
+- **Chiyoda** +57.0% (1 236 363 -> 1 941 666 JPY/m2)
+- **Toshima** +47.5% (842 857 -> 1 243 076 JPY/m2)
+- **Sumida** +47.0% (714 285 -> 1 050 000 JPY/m2)
+- **Kita** +45.7% (676 923 -> 986 190 JPY/m2)
+
+Central and bayfront wards led. A 60 m2 apartment in Chuo went from roughly 64 870 560 to 110 884 560 JPY on these medians, a gap of tens of millions of yen in four years.
+
+## The wards that rose the least
+Prices went up almost everywhere, but the outer wards stayed far more accessible:
+
+- **Ota** +26.4% (672 727 -> 850 000 JPY/m2)
+- **Meguro** +27.3% (1 047 058 -> 1 333 333 JPY/m2)
+- **Nerima** +29.7% (600 000 -> 778 333 JPY/m2)
+- **Adachi** +30.0% (461 538 -> 600 000 JPY/m2)
+- **Edogawa** +30.8% (528 571 -> 691 608 JPY/m2)
+- **Shinjuku** +32.2% (1 000 000 -> 1 321 538 JPY/m2)
+
+If your budget is fixed, this is where it stretches furthest, and where the entry point into Tokyo ownership is still realistic.
+
+## What this means if you are buying
+- **The centre is pricing many buyers out.** If you want central Tokyo, the window to buy cheaply has largely closed; you are buying into a proven, liquid market at a premium.
+- **The outer wards are the value play.** Lower price per m2, milder appreciation, but real rental demand and full train access.
+- **Rent, then buy, is a valid strategy.** See where you can afford to rent first in our [cheapest Tokyo neighbourhoods ranking](/en/blog/cheapest-neighbourhoods-tokyo-ranked-by-rent), and explore live rents in the [Tokyo Rent Index](/en/data).
+- **Median hides the mix.** These figures track the median transaction each quarter, so a shift in what sells can move the number; treat them as a market direction, not a valuation of your specific unit.
+
+If you want someone inside the Tokyo market to turn these trends into an actual purchase or rental, see [how we work](/en/contact).
+
+*Data: 121,401 real recorded used-condo sale transactions, Tokyo 23 wards, 2021Q1 to 2026Q1. Median settled price per m2 in JPY, not asking prices. Updated quarterly.*
+    `.trim(),
+  },
+  {
+    slug: 'evolution-prix-immobilier-tokyo',
+    locale: 'fr',
+    title: 'Evolution des prix immobiliers a Tokyo, 2021 a 2026 (donnees reelles)',
+    description: 'Le prix des coproprietes d\'occasion a Tokyo a augmente de +38.9% au m2 de 2021 a 2026, sur 121,401 transactions reelles enregistrees. Arrondissement par arrondissement.',
+    date: '2026-10-24',
+    readingTime: '6 min',
+    content: `
+Tout le monde sent que Tokyo est devenue plus chere. Mais de combien, et ou exactement ? Ceci n'est pas un billet d'opinion. C'est bati sur 121,401 ventes reelles de coproprietes enregistrees a Tokyo, de 2021 a 2026, pour voir la vraie tendance plutot qu'un titre de presse. Ce sont des prix de vente conclus, pas les prix affiches des sites d'annonces.
+
+**Reponse rapide :** Le prix median d'une copropriete d'occasion a Tokyo est passe de 720 000 a 1 000 000 JPY le metre carre entre 2021 et 2026, soit +38.9%. La hausse a ete tres inegale : les arrondissements centraux comme Chuo (+70.9%) et Minato (+62.8%) ont le plus grimpe, tandis que la peripherie comme Ota (+26.4%) a le moins bouge. L'ecart entre le centre et le reste s'est creuse.
+
+
+![Évolution du prix des copropriétés à Tokyo au m2, 2021 à 2026, par arrondissement](/tokyo-price-map.png "Prix médian au m2 des copropriétés d'occasion, sur ~120 000 transactions réelles enregistrées")
+## Les prix des coproprietes a Tokyo, 2021 a 2026
+Prix median de transaction au metre carre, coproprietes d'occasion, sur les 23 arrondissements :
+
+- 2021 : 720 000 JPY/m2
+- 2026 : 1 000 000 JPY/m2
+- Variation : +38.9% sur 5 ans
+
+La courbe est remarquablement reguliere, trimestre apres trimestre. Ce n'est pas un pic speculatif, c'est une revalorisation durable de l'immobilier tokyoite, portee par un yen faible, la demande etrangere, des taux bas et une offre centrale limitee.
+
+## Les arrondissements qui ont le plus augmente
+La ou la hausse s'est concentree (JPY median par m2, 2021 vs 2026) :
+
+- **Chuo** +70.9% (1 081 176 -> 1 848 076 JPY/m2)
+- **Minato** +62.8% (1 228 571 -> 2 000 000 JPY/m2)
+- **Chiyoda** +57.0% (1 236 363 -> 1 941 666 JPY/m2)
+- **Toshima** +47.5% (842 857 -> 1 243 076 JPY/m2)
+- **Sumida** +47.0% (714 285 -> 1 050 000 JPY/m2)
+- **Kita** +45.7% (676 923 -> 986 190 JPY/m2)
+
+Les arrondissements centraux et de la baie sont en tete. Un appartement de 60 m2 a Chuo est passe d'environ 64 870 560 a 110 884 560 JPY sur ces medianes, un ecart de dizaines de millions de yens en quatre ans.
+
+## Les arrondissements qui ont le moins augmente
+Les prix ont monte presque partout, mais la peripherie reste bien plus accessible :
+
+- **Ota** +26.4% (672 727 -> 850 000 JPY/m2)
+- **Meguro** +27.3% (1 047 058 -> 1 333 333 JPY/m2)
+- **Nerima** +29.7% (600 000 -> 778 333 JPY/m2)
+- **Adachi** +30.0% (461 538 -> 600 000 JPY/m2)
+- **Edogawa** +30.8% (528 571 -> 691 608 JPY/m2)
+- **Shinjuku** +32.2% (1 000 000 -> 1 321 538 JPY/m2)
+
+Si votre budget est fixe, c'est la qu'il va le plus loin, et ou le ticket d'entree dans la propriete tokyoite reste realiste.
+
+## Ce que cela veut dire si vous achetez
+- **Le centre exclut beaucoup d'acheteurs.** Si vous visez le centre de Tokyo, la fenetre pour acheter bon marche est largement fermee ; vous entrez dans un marche liquide et eprouve, mais au prix fort.
+- **La peripherie est le bon calcul.** Prix au m2 plus bas, appreciation plus douce, mais vraie demande locative et acces complet au reseau ferroviaire.
+- **Louer d'abord, acheter ensuite reste une strategie valable.** Voyez ou vous pouvez vous permettre de louer dans notre [classement des quartiers les moins chers](/fr/blog/quartiers-tokyo-moins-chers-classement-loyers), et explorez les loyers en direct dans l'[Indice des loyers de Tokyo](/fr/data).
+- **La mediane cache le melange.** Ces chiffres suivent la transaction mediane de chaque trimestre : un changement dans ce qui se vend peut deplacer le chiffre ; voyez-y une direction de marche, pas la valeur de votre bien precis.
+
+Si vous voulez que quelqu'un du marche tokyoite transforme ces tendances en achat ou location reel, voyez [comment nous travaillons](/fr/contact).
+
+*Donnees : 121,401 transactions reelles enregistrees de coproprietes d'occasion, 23 arrondissements de Tokyo, 2021Q1 a 2026Q1. Prix de vente median au m2 en JPY, pas des prix affiches. Mis a jour chaque trimestre.*
+    `.trim(),
   },
 ]
 

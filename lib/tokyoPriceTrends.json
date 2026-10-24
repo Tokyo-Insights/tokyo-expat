@@ -1,13 +1,13 @@
 {
-  "generated": "2026-07-03",
+  "generated": "2026-10-24",
   "source": "Actual recorded used-condominium sale transactions, Tokyo 23 wards (settled prices, not asking prices)",
   "metric": "median transaction price per m2 (JPY)",
   "period_from": "2021Q1",
-  "period_to": "2025Q3",
-  "change_pct_citywide": 29.6,
+  "period_to": "2026Q1",
+  "change_pct_citywide": 38.9,
   "median_first": 720000,
-  "median_last": 933333,
-  "total_transactions": 103933,
+  "median_last": 1000000,
+  "total_transactions": 121401,
   "quarters": [
     "2021Q1",
     "2021Q2",
@@ -27,7 +27,9 @@
     "2024Q4",
     "2025Q1",
     "2025Q2",
-    "2025Q3"
+    "2025Q3",
+    "2025Q4",
+    "2026Q1"
   ],
   "citywide": [
     {
@@ -124,6 +126,16 @@
       "q": "2025Q3",
       "median": 933333,
       "n": 6287
+    },
+    {
+      "q": "2025Q4",
+      "median": 1000000,
+      "n": 9737
+    },
+    {
+      "q": "2026Q1",
+      "median": 1000000,
+      "n": 7731
     }
   ],
   "wards": [
@@ -131,231 +143,231 @@
       "ward_en": "Chuo",
       "ward_jp": "中央区",
       "first_year": "2021",
-      "last_year": "2025",
+      "last_year": "2026",
       "median_first": 1081176,
-      "median_last": 1733333,
-      "pct": 60.3,
-      "sample": 5539
+      "median_last": 1848076,
+      "pct": 70.9,
+      "sample": 6301
     },
     {
       "ward_en": "Minato",
       "ward_jp": "港区",
       "first_year": "2021",
-      "last_year": "2025",
+      "last_year": "2026",
       "median_first": 1228571,
-      "median_last": 1866666,
-      "pct": 51.9,
-      "sample": 6282
-    },
-    {
-      "ward_en": "Shibuya",
-      "ward_jp": "渋谷区",
-      "first_year": "2021",
-      "last_year": "2025",
-      "median_first": 1108391,
-      "median_last": 1571428,
-      "pct": 41.8,
-      "sample": 3666
+      "median_last": 2000000,
+      "pct": 62.8,
+      "sample": 7192
     },
     {
       "ward_en": "Chiyoda",
       "ward_jp": "千代田区",
       "first_year": "2021",
-      "last_year": "2025",
+      "last_year": "2026",
       "median_first": 1236363,
-      "median_last": 1666666,
-      "pct": 34.8,
-      "sample": 1512
-    },
-    {
-      "ward_en": "Koto",
-      "ward_jp": "江東区",
-      "first_year": "2021",
-      "last_year": "2025",
-      "median_first": 800000,
-      "median_last": 1066666,
-      "pct": 33.3,
-      "sample": 7928
-    },
-    {
-      "ward_en": "Sumida",
-      "ward_jp": "墨田区",
-      "first_year": "2021",
-      "last_year": "2025",
-      "median_first": 714285,
-      "median_last": 927272,
-      "pct": 29.8,
-      "sample": 2772
-    },
-    {
-      "ward_en": "Taito",
-      "ward_jp": "台東区",
-      "first_year": "2021",
-      "last_year": "2025",
-      "median_first": 833333,
-      "median_last": 1080000,
-      "pct": 29.6,
-      "sample": 2876
-    },
-    {
-      "ward_en": "Nakano",
-      "ward_jp": "中野区",
-      "first_year": "2021",
-      "last_year": "2025",
-      "median_first": 783974,
-      "median_last": 1000000,
-      "pct": 27.6,
-      "sample": 2419
+      "median_last": 1941666,
+      "pct": 57.0,
+      "sample": 1740
     },
     {
       "ward_en": "Toshima",
       "ward_jp": "豊島区",
       "first_year": "2021",
-      "last_year": "2025",
+      "last_year": "2026",
       "median_first": 842857,
+      "median_last": 1243076,
+      "pct": 47.5,
+      "sample": 3242
+    },
+    {
+      "ward_en": "Sumida",
+      "ward_jp": "墨田区",
+      "first_year": "2021",
+      "last_year": "2026",
+      "median_first": 714285,
       "median_last": 1050000,
-      "pct": 24.6,
-      "sample": 2774
-    },
-    {
-      "ward_en": "Shinjuku",
-      "ward_jp": "新宿区",
-      "first_year": "2021",
-      "last_year": "2025",
-      "median_first": 1000000,
-      "median_last": 1240000,
-      "pct": 24.0,
-      "sample": 5062
-    },
-    {
-      "ward_en": "Katsushika",
-      "ward_jp": "葛飾区",
-      "first_year": "2021",
-      "last_year": "2025",
-      "median_first": 471428,
-      "median_last": 583974,
-      "pct": 23.9,
-      "sample": 2414
-    },
-    {
-      "ward_en": "Meguro",
-      "ward_jp": "目黒区",
-      "first_year": "2021",
-      "last_year": "2025",
-      "median_first": 1047058,
-      "median_last": 1294117,
-      "pct": 23.6,
-      "sample": 2919
-    },
-    {
-      "ward_en": "Shinagawa",
-      "ward_jp": "品川区",
-      "first_year": "2021",
-      "last_year": "2025",
-      "median_first": 983974,
-      "median_last": 1212916,
-      "pct": 23.3,
-      "sample": 5050
+      "pct": 47.0,
+      "sample": 3332
     },
     {
       "ward_en": "Kita",
       "ward_jp": "北区",
       "first_year": "2021",
-      "last_year": "2025",
+      "last_year": "2026",
       "median_first": 676923,
-      "median_last": 833333,
-      "pct": 23.1,
-      "sample": 2273
+      "median_last": 986190,
+      "pct": 45.7,
+      "sample": 2711
     },
     {
-      "ward_en": "Setagaya",
-      "ward_jp": "世田谷区",
+      "ward_en": "Shibuya",
+      "ward_jp": "渋谷区",
       "first_year": "2021",
-      "last_year": "2025",
-      "median_first": 800000,
-      "median_last": 984615,
-      "pct": 23.1,
-      "sample": 7044
+      "last_year": "2026",
+      "median_first": 1108391,
+      "median_last": 1612500,
+      "pct": 45.5,
+      "sample": 4258
     },
     {
-      "ward_en": "Suginami",
-      "ward_jp": "杉並区",
+      "ward_en": "Nakano",
+      "ward_jp": "中野区",
       "first_year": "2021",
-      "last_year": "2025",
-      "median_first": 733333,
-      "median_last": 900000,
-      "pct": 22.7,
-      "sample": 3421
+      "last_year": "2026",
+      "median_first": 783974,
+      "median_last": 1129411,
+      "pct": 44.1,
+      "sample": 2907
     },
     {
       "ward_en": "Itabashi",
       "ward_jp": "板橋区",
       "first_year": "2021",
-      "last_year": "2025",
+      "last_year": "2026",
       "median_first": 583216,
-      "median_last": 709090,
-      "pct": 21.6,
-      "sample": 3902
+      "median_last": 832051,
+      "pct": 42.7,
+      "sample": 4723
     },
     {
-      "ward_en": "Nerima",
-      "ward_jp": "練馬区",
+      "ward_en": "Koto",
+      "ward_jp": "江東区",
       "first_year": "2021",
-      "last_year": "2025",
-      "median_first": 600000,
-      "median_last": 729411,
-      "pct": 21.6,
-      "sample": 3652
-    },
-    {
-      "ward_en": "Ota",
-      "ward_jp": "大田区",
-      "first_year": "2021",
-      "last_year": "2025",
-      "median_first": 672727,
-      "median_last": 818181,
-      "pct": 21.6,
-      "sample": 4714
-    },
-    {
-      "ward_en": "Adachi",
-      "ward_jp": "足立区",
-      "first_year": "2021",
-      "last_year": "2025",
-      "median_first": 461538,
-      "median_last": 553846,
-      "pct": 20.0,
-      "sample": 3267
-    },
-    {
-      "ward_en": "Bunkyo",
-      "ward_jp": "文京区",
-      "first_year": "2021",
-      "last_year": "2025",
-      "median_first": 1038181,
-      "median_last": 1240000,
-      "pct": 19.4,
-      "sample": 3307
+      "last_year": "2026",
+      "median_first": 800000,
+      "median_last": 1129166,
+      "pct": 41.1,
+      "sample": 9166
     },
     {
       "ward_en": "Arakawa",
       "ward_jp": "荒川区",
       "first_year": "2021",
-      "last_year": "2025",
+      "last_year": "2026",
       "median_first": 670588,
-      "median_last": 800000,
-      "pct": 19.3,
-      "sample": 1843
+      "median_last": 945454,
+      "pct": 41.0,
+      "sample": 2183
+    },
+    {
+      "ward_en": "Taito",
+      "ward_jp": "台東区",
+      "first_year": "2021",
+      "last_year": "2026",
+      "median_first": 833333,
+      "median_last": 1165151,
+      "pct": 39.8,
+      "sample": 3426
+    },
+    {
+      "ward_en": "Bunkyo",
+      "ward_jp": "文京区",
+      "first_year": "2021",
+      "last_year": "2026",
+      "median_first": 1038181,
+      "median_last": 1428571,
+      "pct": 37.6,
+      "sample": 3841
+    },
+    {
+      "ward_en": "Setagaya",
+      "ward_jp": "世田谷区",
+      "first_year": "2021",
+      "last_year": "2026",
+      "median_first": 800000,
+      "median_last": 1095454,
+      "pct": 36.9,
+      "sample": 8048
+    },
+    {
+      "ward_en": "Shinagawa",
+      "ward_jp": "品川区",
+      "first_year": "2021",
+      "last_year": "2026",
+      "median_first": 983974,
+      "median_last": 1342857,
+      "pct": 36.5,
+      "sample": 5838
+    },
+    {
+      "ward_en": "Katsushika",
+      "ward_jp": "葛飾区",
+      "first_year": "2021",
+      "last_year": "2026",
+      "median_first": 471428,
+      "median_last": 636363,
+      "pct": 35.0,
+      "sample": 2827
+    },
+    {
+      "ward_en": "Suginami",
+      "ward_jp": "杉並区",
+      "first_year": "2021",
+      "last_year": "2026",
+      "median_first": 733333,
+      "median_last": 971428,
+      "pct": 32.5,
+      "sample": 4061
+    },
+    {
+      "ward_en": "Shinjuku",
+      "ward_jp": "新宿区",
+      "first_year": "2021",
+      "last_year": "2026",
+      "median_first": 1000000,
+      "median_last": 1321538,
+      "pct": 32.2,
+      "sample": 5964
     },
     {
       "ward_en": "Edogawa",
       "ward_jp": "江戸川区",
       "first_year": "2021",
-      "last_year": "2025",
+      "last_year": "2026",
       "median_first": 528571,
-      "median_last": 615384,
-      "pct": 16.4,
-      "sample": 2731
+      "median_last": 691608,
+      "pct": 30.8,
+      "sample": 3197
+    },
+    {
+      "ward_en": "Adachi",
+      "ward_jp": "足立区",
+      "first_year": "2021",
+      "last_year": "2026",
+      "median_first": 461538,
+      "median_last": 600000,
+      "pct": 30.0,
+      "sample": 3944
+    },
+    {
+      "ward_en": "Nerima",
+      "ward_jp": "練馬区",
+      "first_year": "2021",
+      "last_year": "2026",
+      "median_first": 600000,
+      "median_last": 778333,
+      "pct": 29.7,
+      "sample": 4325
+    },
+    {
+      "ward_en": "Meguro",
+      "ward_jp": "目黒区",
+      "first_year": "2021",
+      "last_year": "2026",
+      "median_first": 1047058,
+      "median_last": 1333333,
+      "pct": 27.3,
+      "sample": 3343
+    },
+    {
+      "ward_en": "Ota",
+      "ward_jp": "大田区",
+      "first_year": "2021",
+      "last_year": "2026",
+      "median_first": 672727,
+      "median_last": 850000,
+      "pct": 26.4,
+      "sample": 5622
     }
   ]
 }

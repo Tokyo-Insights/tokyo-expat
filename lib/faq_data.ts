@@ -7,6 +7,144 @@ export interface FaqItem {
 // Used by blog/[slug]/page.tsx to inject FAQPage JSON-LD + render visual accordion
 export const faqData: Record<string, FaqItem[]> = {
 
+  'tokyo-condo-price-trends': [
+    {
+      question: 'How much have Tokyo condo prices risen?',
+      answer:
+        'The median used-condo price in Tokyo rose +38.9% per square metre, from 720 000 to 1 000 000 JPY/m2, between 2021 and 2026, based on 121,401 real recorded sale transactions.',
+    },
+    {
+      question: 'Which Tokyo ward\'s prices rose the most?',
+      answer:
+        'Chuo led with +70.9%, followed by Minato (+62.8%) and Chiyoda (+57.0%). Central and bayfront wards rose fastest.',
+    },
+    {
+      question: 'Where are Tokyo condos still most affordable?',
+      answer:
+        'The outer wards rose least and stay most accessible, led by Ota (+26.4%) and Meguro (+27.3%), with real rental demand and full train access.',
+    },
+    {
+      question: 'Is this price data reliable?',
+      answer:
+        'It uses 121,401 actual recorded sale transactions, not asking prices, which makes it far more reliable than listing-site figures. We track the quarterly median, which reflects the mix of what sold, so read it as market direction rather than a valuation of a specific unit.',
+    },
+  ],
+
+  'evolution-prix-immobilier-tokyo': [
+    {
+      question: 'De combien les prix des coproprietes a Tokyo ont-ils augmente ?',
+      answer:
+        'Le prix median d\'une copropriete d\'occasion a Tokyo a augmente de +38.9% au m2, de 720 000 a 1 000 000 JPY/m2, entre 2021 et 2026, sur 121,401 transactions reelles enregistrees.',
+    },
+    {
+      question: 'Quel arrondissement de Tokyo a le plus augmente ?',
+      answer:
+        'Chuo en tete avec +70.9%, suivi de Minato (+62.8%) et Chiyoda (+57.0%). Les arrondissements centraux et de la baie ont le plus grimpe.',
+    },
+    {
+      question: 'Ou les coproprietes de Tokyo restent-elles les plus abordables ?',
+      answer:
+        'La peripherie a le moins augmente et reste la plus accessible, menee par Ota (+26.4%) et Meguro (+27.3%), avec une vraie demande locative et un acces ferroviaire complet.',
+    },
+    {
+      question: 'Ces donnees de prix sont-elles fiables ?',
+      answer:
+        'Elles utilisent 121,401 transactions reelles enregistrees, pas des prix affiches, ce qui est bien plus fiable que les chiffres des sites d\'annonces. Nous suivons la mediane trimestrielle, qui reflete le melange de ce qui s\'est vendu : a lire comme une direction de marche, pas la valeur d\'un bien precis.',
+    },
+  ],
+
+  'cheapest-neighbourhoods-tokyo-ranked-by-rent': [
+    {
+      question: 'What is the cheapest ward to live in Tokyo?',
+      answer:
+        'For a 1K studio, the cheapest wards are Edogawa (75 000 JPY median), Adachi and Katsushika, all eastern or outer wards but fully on the train network.',
+    },
+    {
+      question: 'What is the most expensive ward in Tokyo?',
+      answer:
+        'Minato is the most expensive for a 1K studio (142 000 JPY median), followed by Chiyoda and Chuo.',
+    },
+    {
+      question: 'Which Tokyo stations have the cheapest rent?',
+      answer:
+        'Among 50 major stations, the cheapest for a 1K are Kasai (79 000 JPY), Shin-Koiwa and Kameari.',
+    },
+    {
+      question: 'Is this ranking based on real data?',
+      answer:
+        'Yes. It uses the median 1K rent from 608,072 active rental listings across Tokyo, updated quarterly. Median, not average, so a few luxury units do not skew it.',
+    },
+  ],
+
+  'quartiers-tokyo-moins-chers-classement-loyers': [
+    {
+      question: 'Quel est l\'arrondissement le moins cher de Tokyo ?',
+      answer:
+        'Pour un studio 1K, les moins chers sont Edogawa (75 000 JPY median), Adachi et Katsushika, a l\'est ou en peripherie mais bien desservis.',
+    },
+    {
+      question: 'Quel est l\'arrondissement le plus cher de Tokyo ?',
+      answer:
+        'Minato est le plus cher pour un studio 1K (142 000 JPY median), suivi de Chiyoda et Chuo.',
+    },
+    {
+      question: 'Quelles stations de Tokyo ont les loyers les moins chers ?',
+      answer:
+        'Parmi 50 grandes stations, les moins cheres pour un 1K sont Kasai (79 000 JPY), Shin-Koiwa et Kameari.',
+    },
+    {
+      question: 'Ce classement est-il base sur des donnees reelles ?',
+      answer:
+        'Oui. Il utilise le loyer median 1K de 608,072 annonces actives a Tokyo, mis a jour chaque trimestre. Mediane et non moyenne, pour ne pas etre fausse par quelques biens de luxe.',
+    },
+  ],
+
+  'furnished-vs-unfurnished-apartment-tokyo-cost': [
+    {
+      question: 'How much more does a furnished apartment cost in Tokyo?',
+      answer:
+        'A furnished or monthly 1K studio costs about 18% to 90% more per month than a standard unfurnished one, based on real listings across the 23 wards. The premium is smallest in central wards like Chiyoda (+18%) and biggest in cheaper wards like Edogawa (+90%).',
+    },
+    {
+      question: 'Is it cheaper to rent furnished or unfurnished in Tokyo?',
+      answer:
+        'Unfurnished is cheaper per month, but furnished skips the guarantor, most of the key money and weeks of setup. For a stay under a year or a fast arrival, furnished usually works out better overall; for a long committed stay, unfurnished wins.',
+    },
+    {
+      question: 'Why is the furnished premium higher in cheaper Tokyo wards?',
+      answer:
+        'Because the standard rent is already low there, so the fixed cost of furniture and convenience is a bigger share of it. In a cheap ward the furnished route can nearly double the rent, while in an expensive central ward it adds only around 18%.',
+    },
+    {
+      question: 'Is this based on real data?',
+      answer:
+        'Yes. It compares the median furnished or monthly rent to the median standard rent for a 1K studio in each Tokyo ward, 2026, updated quarterly.',
+    },
+  ],
+
+  'appartement-meuble-vs-non-meuble-tokyo-cout': [
+    {
+      question: 'Combien coute un appartement meuble en plus a Tokyo ?',
+      answer:
+        'Un studio 1K meuble ou monthly coute environ 18% a 90% de plus par mois qu\'un standard non meuble, sur des annonces reelles dans les 23 arrondissements. Le surcout est le plus faible dans les arrondissements centraux comme Chiyoda (+18%) et le plus fort dans les moins chers comme Edogawa (+90%).',
+    },
+    {
+      question: 'Est-ce moins cher de louer meuble ou non meuble a Tokyo ?',
+      answer:
+        'Le non meuble est moins cher au mois, mais le meuble evite le garant, l\'essentiel du key money et des semaines de demarches. Pour un sejour de moins d\'un an ou une arrivee rapide, le meuble est souvent plus avantageux au total ; pour un long sejour engage, le non meuble l\'emporte.',
+    },
+    {
+      question: 'Pourquoi le surcout du meuble est-il plus eleve dans les quartiers moins chers ?',
+      answer:
+        'Parce que le loyer standard y est deja bas, donc le cout fixe des meubles et du confort en represente une part plus grande. Dans un quartier bon marche, la voie meublee peut presque doubler le loyer, alors que dans un arrondissement central cher elle n\'ajoute qu\'environ 18%.',
+    },
+    {
+      question: 'Est-ce base sur des donnees reelles ?',
+      answer:
+        'Oui. On compare le loyer median meuble ou monthly au loyer median standard pour un studio 1K dans chaque arrondissement de Tokyo, 2026, mis a jour chaque trimestre.',
+    },
+  ],
+
   'furnished-apartments-tokyo-guide': [
     {
       question: 'How much is a furnished apartment in Tokyo?',
@@ -50,52 +188,6 @@ export const faqData: Record<string, FaqItem[]> = {
       question: 'Un meuble est-il moins cher qu\'un vide a Tokyo ?',
       answer:
         'Le loyer mensuel est plus eleve, mais le meuble evite les 4 a 6 mois de frais d\'entree et l\'achat de meubles d\'un bail classique : pour un sejour de moins de deux ans, c\'est en general moins cher au total.',
-    },
-  ],
-
-  'furnished-vs-unfurnished-apartment-tokyo-cost': [
-    {
-      question: 'How much more does a furnished apartment cost in Tokyo?',
-      answer:
-        'A furnished or monthly 1K studio costs about 20% to 98% more per month than a standard unfurnished one, based on real listings across the 23 wards. The premium is smallest in central wards like Minato (+20%) and biggest in cheaper wards like Katsushika (+98%).',
-    },
-    {
-      question: 'Is it cheaper to rent furnished or unfurnished in Tokyo?',
-      answer:
-        'Unfurnished is cheaper per month, but furnished skips the guarantor, most of the key money and weeks of setup. For a stay under a year or a fast arrival, furnished usually works out better overall; for a long committed stay, unfurnished wins.',
-    },
-    {
-      question: 'Why is the furnished premium higher in cheaper Tokyo wards?',
-      answer:
-        'Because the standard rent is already low there, so the fixed cost of furniture and convenience is a bigger share of it. In a cheap ward the furnished route can nearly double the rent, while in an expensive central ward it adds only around 20%.',
-    },
-    {
-      question: 'Is this based on real data?',
-      answer:
-        'Yes. It compares the median furnished or monthly rent to the median standard rent for a 1K studio in each Tokyo ward, 2026, updated quarterly.',
-    },
-  ],
-
-  'appartement-meuble-vs-non-meuble-tokyo-cout': [
-    {
-      question: 'Combien coute un appartement meuble en plus a Tokyo ?',
-      answer:
-        'Un studio 1K meuble ou monthly coute environ 20% a 98% de plus par mois qu\'un standard non meuble, sur des annonces reelles dans les 23 arrondissements. Le surcout est le plus faible dans les arrondissements centraux comme Minato (+20%) et le plus fort dans les moins chers comme Katsushika (+98%).',
-    },
-    {
-      question: 'Est-ce moins cher de louer meuble ou non meuble a Tokyo ?',
-      answer:
-        'Le non meuble est moins cher au mois, mais le meuble evite le garant, l\'essentiel du key money et des semaines de demarches. Pour un sejour de moins d\'un an ou une arrivee rapide, le meuble est souvent plus avantageux au total ; pour un long sejour engage, le non meuble l\'emporte.',
-    },
-    {
-      question: 'Pourquoi le surcout du meuble est-il plus eleve dans les quartiers moins chers ?',
-      answer:
-        'Parce que le loyer standard y est deja bas, donc le cout fixe des meubles et du confort en represente une part plus grande. Dans un quartier bon marche, la voie meublee peut presque doubler le loyer, alors que dans un arrondissement central cher elle n\'ajoute qu\'environ 20%.',
-    },
-    {
-      question: 'Est-ce base sur des donnees reelles ?',
-      answer:
-        'Oui. On compare le loyer median meuble ou monthly au loyer median standard pour un studio 1K dans chaque arrondissement de Tokyo, 2026, mis a jour chaque trimestre.',
     },
   ],
 
@@ -240,98 +332,6 @@ export const faqData: Record<string, FaqItem[]> = {
       question: 'Pourquoi les quartiers riches manquent dans les classements ?',
       answer:
         'Les zones prime sont a faible volume et tournent lentement : elles manquent souvent d\'assez d\'annonces pour un median fiable. Les classements montrent des loyers typiques pres des grandes stations, pas le sommet.',
-    },
-  ],
-
-  'tokyo-condo-price-trends': [
-    {
-      question: 'How much have Tokyo condo prices risen?',
-      answer:
-        'The median used-condo price in Tokyo rose +29.6% per square metre, from 720 000 to 933 333 JPY/m2, between 2021 and 2025, based on 103,933 real recorded sale transactions.',
-    },
-    {
-      question: 'Which Tokyo ward\'s prices rose the most?',
-      answer:
-        'Chuo led with +60.3%, followed by Minato (+51.9%) and Shibuya (+41.8%). Central and bayfront wards rose fastest.',
-    },
-    {
-      question: 'Where are Tokyo condos still most affordable?',
-      answer:
-        'The outer wards rose least and stay most accessible, led by Edogawa (+16.4%) and Arakawa (+19.3%), with real rental demand and full train access.',
-    },
-    {
-      question: 'Is this price data reliable?',
-      answer:
-        'It uses 103,933 actual recorded sale transactions, not asking prices, which makes it far more reliable than listing-site figures. We track the quarterly median, which reflects the mix of what sold, so read it as market direction rather than a valuation of a specific unit.',
-    },
-  ],
-
-  'evolution-prix-immobilier-tokyo': [
-    {
-      question: 'De combien les prix des coproprietes a Tokyo ont-ils augmente ?',
-      answer:
-        'Le prix median d\'une copropriete d\'occasion a Tokyo a augmente de +29.6% au m2, de 720 000 a 933 333 JPY/m2, entre 2021 et 2025, sur 103,933 transactions reelles enregistrees.',
-    },
-    {
-      question: 'Quel arrondissement de Tokyo a le plus augmente ?',
-      answer:
-        'Chuo en tete avec +60.3%, suivi de Minato (+51.9%) et Shibuya (+41.8%). Les arrondissements centraux et de la baie ont le plus grimpe.',
-    },
-    {
-      question: 'Ou les coproprietes de Tokyo restent-elles les plus abordables ?',
-      answer:
-        'La peripherie a le moins augmente et reste la plus accessible, menee par Edogawa (+16.4%) et Arakawa (+19.3%), avec une vraie demande locative et un acces ferroviaire complet.',
-    },
-    {
-      question: 'Ces donnees de prix sont-elles fiables ?',
-      answer:
-        'Elles utilisent 103,933 transactions reelles enregistrees, pas des prix affiches, ce qui est bien plus fiable que les chiffres des sites d\'annonces. Nous suivons la mediane trimestrielle, qui reflete le melange de ce qui s\'est vendu : a lire comme une direction de marche, pas la valeur d\'un bien precis.',
-    },
-  ],
-
-  'cheapest-neighbourhoods-tokyo-ranked-by-rent': [
-    {
-      question: 'What is the cheapest ward to live in Tokyo?',
-      answer:
-        'For a 1K studio, the cheapest wards are Edogawa (74 000 JPY median), Adachi and Katsushika, all eastern or outer wards but fully on the train network.',
-    },
-    {
-      question: 'What is the most expensive ward in Tokyo?',
-      answer:
-        'Minato is the most expensive for a 1K studio (140 000 JPY median), followed by Chiyoda and Chuo.',
-    },
-    {
-      question: 'Which Tokyo stations have the cheapest rent?',
-      answer:
-        'Among 50 major stations, the cheapest for a 1K are Kasai (76 000 JPY), Shin-Koiwa and Ayase.',
-    },
-    {
-      question: 'Is this ranking based on real data?',
-      answer:
-        'Yes. It uses the median 1K rent from 528,660 active rental listings across Tokyo, updated quarterly. Median, not average, so a few luxury units do not skew it.',
-    },
-  ],
-
-  'quartiers-tokyo-moins-chers-classement-loyers': [
-    {
-      question: 'Quel est l\'arrondissement le moins cher de Tokyo ?',
-      answer:
-        'Pour un studio 1K, les moins chers sont Edogawa (74 000 JPY median), Adachi et Katsushika, a l\'est ou en peripherie mais bien desservis.',
-    },
-    {
-      question: 'Quel est l\'arrondissement le plus cher de Tokyo ?',
-      answer:
-        'Minato est le plus cher pour un studio 1K (140 000 JPY median), suivi de Chiyoda et Chuo.',
-    },
-    {
-      question: 'Quelles stations de Tokyo ont les loyers les moins chers ?',
-      answer:
-        'Parmi 50 grandes stations, les moins cheres pour un 1K sont Kasai (76 000 JPY), Shin-Koiwa et Ayase.',
-    },
-    {
-      question: 'Ce classement est-il base sur des donnees reelles ?',
-      answer:
-        'Oui. Il utilise le loyer median 1K de 528,660 annonces actives a Tokyo, mis a jour chaque trimestre. Mediane et non moyenne, pour ne pas etre fausse par quelques biens de luxe.',
     },
   ],
 

@@ -35,7 +35,7 @@ WARDS = {
 }
 NAVY = "#12263f"
 
-# prix/m2 2025 par ward EN
+# prix/m2 de la derniere annee (period_to) par ward EN
 d = json.loads(DATA.read_text(encoding="utf-8"))
 price = {w["ward_en"]: w["median_last"] for w in d["wards"]}
 yt = d["period_to"][:4]
@@ -65,7 +65,7 @@ for _, r in g.iterrows():
 
 ax.axis("off")
 plt.subplots_adjust(top=0.90, bottom=0.04, left=0.02, right=0.98)
-fig.suptitle("Tokyo condo prices per m², mapped by ward (2025)",
+fig.suptitle(f"Tokyo condo prices per m², mapped by ward ({yt})",
              fontsize=21, fontweight="bold", color=NAVY, x=0.5, y=0.965)
 fig.text(0.5, 0.925,
          "Median recorded sale price per square metre, used condominiums, by Tokyo ward.",

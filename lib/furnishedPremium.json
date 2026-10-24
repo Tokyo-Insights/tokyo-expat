@@ -2,165 +2,165 @@
   "layout": "1K",
   "wards": [
     {
-      "ward": "Minato",
-      "std": 144000.0,
-      "furn": 173400.0,
-      "premium": 0.2041666666666666,
-      "n_furn": 176
+      "ward": "Chiyoda",
+      "std": 145000.0,
+      "furn": 170400.0,
+      "premium": 0.17517241379310344,
+      "n_furn": 59
     },
     {
-      "ward": "Chiyoda",
-      "std": 143000.0,
-      "furn": 173400.0,
-      "premium": 0.21258741258741254,
-      "n_furn": 77
+      "ward": "Minato",
+      "std": 144000.0,
+      "furn": 174000.0,
+      "premium": 0.20833333333333326,
+      "n_furn": 170
+    },
+    {
+      "ward": "Meguro",
+      "std": 110000.0,
+      "furn": 140400.0,
+      "premium": 0.27636363636363637,
+      "n_furn": 73
+    },
+    {
+      "ward": "Shinagawa",
+      "std": 118000.0,
+      "furn": 152400.0,
+      "premium": 0.2915254237288136,
+      "n_furn": 244
     },
     {
       "ward": "Shibuya",
-      "std": 130000.0,
-      "furn": 167400.0,
-      "premium": 0.2876923076923077,
-      "n_furn": 91
+      "std": 131000.0,
+      "furn": 170400.0,
+      "premium": 0.30076335877862603,
+      "n_furn": 115
     },
     {
       "ward": "Shinjuku",
-      "std": 123500.0,
-      "furn": 161400.0,
-      "premium": 0.30688259109311744,
-      "n_furn": 199
+      "std": 125000.0,
+      "furn": 164400.0,
+      "premium": 0.3151999999999999,
+      "n_furn": 192
     },
     {
       "ward": "Koto",
       "std": 123000.0,
       "furn": 165000.0,
       "premium": 0.3414634146341464,
-      "n_furn": 106
+      "n_furn": 108
+    },
+    {
+      "ward": "Sumida",
+      "std": 117500.0,
+      "furn": 162000.0,
+      "premium": 0.37872340425531914,
+      "n_furn": 71
     },
     {
       "ward": "Bunkyo",
       "std": 115000.0,
-      "furn": 155400.0,
-      "premium": 0.3513043478260869,
-      "n_furn": 92
-    },
-    {
-      "ward": "Sumida",
-      "std": 116000.0,
-      "furn": 159600.0,
-      "premium": 0.3758620689655172,
-      "n_furn": 88
-    },
-    {
-      "ward": "Shinagawa",
-      "std": 115000.0,
-      "furn": 167400.0,
-      "premium": 0.45565217391304347,
-      "n_furn": 278
+      "furn": 161400.0,
+      "premium": 0.4034782608695653,
+      "n_furn": 73
     },
     {
       "ward": "Toshima",
-      "std": 102000.0,
-      "furn": 149100.0,
-      "premium": 0.46176470588235285,
-      "n_furn": 144
+      "std": 100500.0,
+      "furn": 142200.0,
+      "premium": 0.4149253731343283,
+      "n_furn": 123
     },
     {
       "ward": "Nerima",
       "std": 87000.0,
-      "furn": 127200.0,
-      "premium": 0.4620689655172414,
-      "n_furn": 64
-    },
-    {
-      "ward": "Meguro",
-      "std": 110000.0,
-      "furn": 161400.0,
-      "premium": 0.4672727272727273,
-      "n_furn": 65
-    },
-    {
-      "ward": "Taito",
-      "std": 128750.0,
-      "furn": 192000.0,
-      "premium": 0.49126213592233015,
-      "n_furn": 83
-    },
-    {
-      "ward": "Kita",
-      "std": 95000.0,
-      "furn": 143550.0,
-      "premium": 0.5110526315789474,
-      "n_furn": 34
+      "furn": 124200.0,
+      "premium": 0.4275862068965517,
+      "n_furn": 55
     },
     {
       "ward": "Itabashi",
-      "std": 93500.0,
-      "furn": 143700.0,
-      "premium": 0.5368983957219251,
-      "n_furn": 77
+      "std": 94000.0,
+      "furn": 135600.0,
+      "premium": 0.4425531914893617,
+      "n_furn": 60
     },
     {
-      "ward": "Ota",
-      "std": 98000.0,
-      "furn": 152100.0,
-      "premium": 0.5520408163265307,
-      "n_furn": 270
+      "ward": "Suginami",
+      "std": 86000.0,
+      "furn": 124200.0,
+      "premium": 0.44418604651162785,
+      "n_furn": 76
+    },
+    {
+      "ward": "Taito",
+      "std": 129000.0,
+      "furn": 194400.0,
+      "premium": 0.5069767441860464,
+      "n_furn": 102
     },
     {
       "ward": "Setagaya",
       "std": 90000.0,
-      "furn": 143400.0,
-      "premium": 0.5933333333333333,
-      "n_furn": 78
+      "furn": 136800.0,
+      "premium": 0.52,
+      "n_furn": 72
     },
     {
-      "ward": "Nakano",
-      "std": 91250.0,
-      "furn": 146400.0,
-      "premium": 0.6043835616438356,
-      "n_furn": 34
+      "ward": "Ota",
+      "std": 98000.0,
+      "furn": 149100.0,
+      "premium": 0.5214285714285714,
+      "n_furn": 239
     },
     {
       "ward": "Arakawa",
-      "std": 97000.0,
-      "furn": 155700.0,
-      "premium": 0.6051546391752578,
-      "n_furn": 17
+      "std": 95000.0,
+      "furn": 145500.0,
+      "premium": 0.5315789473684212,
+      "n_furn": 21
     },
     {
-      "ward": "Chuo",
-      "std": 104500.0,
-      "furn": 169800.0,
-      "premium": 0.6248803827751197,
-      "n_furn": 188
-    },
-    {
-      "ward": "Suginami",
-      "std": 85000.0,
-      "furn": 141600.0,
-      "premium": 0.6658823529411764,
-      "n_furn": 66
+      "ward": "Kita",
+      "std": 95000.0,
+      "furn": 146400.0,
+      "premium": 0.5410526315789475,
+      "n_furn": 35
     },
     {
       "ward": "Adachi",
-      "std": 81000.0,
-      "furn": 136500.0,
-      "premium": 0.6851851851851851,
-      "n_furn": 31
+      "std": 83000.0,
+      "furn": 134700.0,
+      "premium": 0.6228915662650603,
+      "n_furn": 37
     },
     {
-      "ward": "Edogawa",
-      "std": 78000.0,
-      "furn": 146400.0,
-      "premium": 0.8769230769230769,
-      "n_furn": 19
+      "ward": "Nakano",
+      "std": 92000.0,
+      "furn": 151200.0,
+      "premium": 0.6434782608695653,
+      "n_furn": 38
     },
     {
       "ward": "Katsushika",
-      "std": 83000.0,
-      "furn": 164400.0,
-      "premium": 0.9807228915662651,
-      "n_furn": 53
+      "std": 85000.0,
+      "furn": 152400.0,
+      "premium": 0.7929411764705883,
+      "n_furn": 71
+    },
+    {
+      "ward": "Chuo",
+      "std": 93000.0,
+      "furn": 166950.0,
+      "premium": 0.7951612903225806,
+      "n_furn": 190
+    },
+    {
+      "ward": "Edogawa",
+      "std": 77000.0,
+      "furn": 146400.0,
+      "premium": 0.9012987012987013,
+      "n_furn": 23
     }
   ]
 }

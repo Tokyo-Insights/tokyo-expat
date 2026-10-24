@@ -11,6 +11,31 @@ import LazyVideo from '@/components/LazyVideo'
 import RentMap from '@/components/RentMap'
 import CtaConsultation from '@/components/CtaConsultation'
 
+// Chiffres de l'indice lus dans le JSON (24/10/2026) : le texte disait "528,660" et
+// "Q2 2026" en dur, et se perimait a chaque refresh_rent_index.py.
+type RiItem = { ward_en?: string; station_en?: string; rents: Record<string, { median: number } | undefined> }
+const riN = rentIndex.total_listings as number
+const nEn = (n: number) => n.toLocaleString('en-US')
+const nFr = (n: number) => String(n).replace(/\B(?=(\d{3})+(?!\d))/g, ' ')
+const riGen = rentIndex.generated as string
+// Trimestre DES DONNEES (annonces des ~2 mois avant le refresh) : generation - 45 j,
+// soit Q2 pour le refresh du 02/07 et Q3 pour celui du 24/10.
+const riDataDay = new Date(new Date(riGen).getTime() - 45 * 86400000)
+const riQ = Math.floor(riDataDay.getUTCMonth() / 3) + 1
+const riQEn = `Q${riQ} ${riDataDay.getUTCFullYear()}`
+const riQFr = `T${riQ} ${riDataDay.getUTCFullYear()}`
+const riSort = (rows: RiItem[], L: string) =>
+  rows.filter((r) => r.rents[L]).sort((a, b) => (a.rents[L]?.median ?? 0) - (b.rents[L]?.median ?? 0))
+const ri1k = riSort(rentIndex.wards as unknown as RiItem[], '1K')
+const ri1ldk = riSort(rentIndex.wards as unknown as RiItem[], '1LDK')
+const riSt = riSort(rentIndex.stations as unknown as RiItem[], '1K')
+const md = (r: RiItem, L = '1K') => r.rents[L]?.median ?? 0
+const w1k = (i: number) => ri1k[i]
+const wTop = ri1k[ri1k.length - 1]
+const stTop = riSt.slice(-3).reverse()
+const nextPricey = (and: string) =>
+  ri1k.slice(-5, -1).reverse().map((w) => w.ward_en).join(', ').replace(/, ([^,]*)$/, ` ${and} $1`)
+
 export async function generateMetadata({
   params,
 }: {
@@ -22,8 +47,8 @@ export async function generateMetadata({
     ? 'Tokyo Rental Market Data 2026 | Tokyo Expat'
     : 'Donnees marche locatif Tokyo 2026 | Tokyo Expat'
   const description = locale === 'en'
-    ? 'Exclusive Tokyo rental market data: median rent by ward, share house pricing, time to find, seasonality. Updated Q2 2026 from 528,660 active listings.'
-    : 'Données exclusives marché locatif Tokyo : loyer médian par arrondissement, share house, délais de recherche, saisonnalité. Mis à jour T2 2026.'
+    ? `Exclusive Tokyo rental market data: median rent by ward, share house pricing, time to find, seasonality. Updated ${riQEn} from ${nEn(riN)} active listings.`
+    : `Données exclusives marché locatif Tokyo : loyer médian par arrondissement, share house, délais de recherche, saisonnalité. Mis à jour ${riQFr}.`
   return {
     title,
     description,
@@ -52,9 +77,9 @@ export async function generateMetadata({
 const t = {
   en: {
     hero_title: 'Tokyo Rent Index',
-    hero_subtitle: 'Median rent by ward and layout, computed from 528,660 real active listings across Tokyo\'s 23 wards. Updated Q2 2026.',
-    last_updated: 'Last updated: Q2 2026',
-    source_note: 'Methodology: median monthly rent (JPY) from 528,660 deduplicated active listings from major Japanese rental portals, Tokyo 23 special wards, by layout. Median is more robust than average against outliers.',
+    hero_subtitle: `Median rent by ward and layout, computed from ${nEn(riN)} real active listings across Tokyo's 23 wards. Updated ${riQEn}.`,
+    last_updated: `Last updated: ${riQEn}`,
+    source_note: `Methodology: median monthly rent (JPY) from ${nEn(riN)} deduplicated active listings from major Japanese rental portals, Tokyo 23 special wards, by layout. Median is more robust than average against outliers.`,
     context_note: '1K = a Japanese studio: one room plus a small separate kitchen, usually 20-25 m2 (215-270 sq ft). All amounts are monthly rent in JPY. At roughly ¥160 to US$1 (2026), ¥100,000 is about US$625, so a 1K studio here typically runs US$460 to US$875.',
     section_rent: 'Median Rent by Ward and Layout (JPY/month)',
     section_types: 'Housing Types: Cost Comparison',
@@ -82,9 +107,9 @@ const t = {
   },
   fr: {
     hero_title: 'Indice des loyers de Tokyo',
-    hero_subtitle: 'Loyer médian par arrondissement et par layout, calculé sur 528 660 annonces actives réelles dans les 23 arrondissements de Tokyo. Mis à jour T2 2026.',
-    last_updated: 'Dernière mise à jour : T2 2026',
-    source_note: 'Méthodologie : loyer mensuel médian (JPY) sur 528 660 annonces actives dédupliquées issues des grands portails locatifs japonais, 23 arrondissements de Tokyo, par layout. La médiane résiste mieux aux valeurs extrêmes que la moyenne.',
+    hero_subtitle: `Loyer médian par arrondissement et par layout, calculé sur ${nFr(riN)} annonces actives réelles dans les 23 arrondissements de Tokyo. Mis à jour ${riQFr}.`,
+    last_updated: `Dernière mise à jour : ${riQFr}`,
+    source_note: `Méthodologie : loyer mensuel médian (JPY) sur ${nFr(riN)} annonces actives dédupliquées issues des grands portails locatifs japonais, 23 arrondissements de Tokyo, par layout. La médiane résiste mieux aux valeurs extrêmes que la moyenne.`,
     context_note: '1K = un studio japonais : une pièce plus une petite cuisine séparée, en général 20-25 m2 (215-270 sq ft). Tous les montants sont des loyers mensuels en JPY. À environ 160 JPY pour 1 US$ (2026), 100 000 JPY font environ 625 US$, donc un studio 1K se loue ici entre 460 et 875 US$.',
     section_rent: 'Loyer median par arrondissement et layout (JPY/mois)',
     section_types: 'Types de logement : comparatif des coûts',
@@ -130,7 +155,7 @@ function tierFor1K(median?: number): string {
   return 'affordable'
 }
 
-// Lignes reelles construites depuis l'indice (528k+ annonces), triees par loyer 1K croissant.
+// Lignes reelles construites depuis l'indice (total_listings annonces), triees par loyer 1K croissant.
 const wardData = (rentIndex.wards as unknown as WardRent[])
   .filter((w) => w.rents['1K'])
   .sort((a, b) => (a.rents['1K']?.median ?? 0) - (b.rents['1K']?.median ?? 0))
@@ -245,11 +270,11 @@ export default async function DataPage({
     '@type': 'Dataset',
     name: l === 'en' ? 'Tokyo Rent Index 2026 (median rent by ward and layout)' : 'Indice des loyers de Tokyo 2026 (loyer médian par arrondissement et layout)',
     description: l === 'en'
-      ? 'Median monthly rent (JPY) by Tokyo ward and apartment layout (1K, 1LDK, 2LDK), computed from 528,660 deduplicated active rental listings from major Japanese rental portals, Tokyo 23 special wards, Q2 2026.'
-      : 'Loyer mensuel médian (JPY) par arrondissement de Tokyo et par layout (1K, 1LDK, 2LDK), calculé sur 528 660 annonces locatives actives dédupliquées issues des grands portails locatifs japonais, 23 arrondissements de Tokyo, T2 2026.',
+      ? `Median monthly rent (JPY) by Tokyo ward and apartment layout (1K, 1LDK, 2LDK), computed from ${nEn(riN)} deduplicated active rental listings from major Japanese rental portals, Tokyo 23 special wards, ${riQEn}.`
+      : `Loyer mensuel médian (JPY) par arrondissement de Tokyo et par layout (1K, 1LDK, 2LDK), calculé sur ${nFr(riN)} annonces locatives actives dédupliquées issues des grands portails locatifs japonais, 23 arrondissements de Tokyo, ${riQFr}.`,
     url: `https://www.tokyo-expat.com/${l}/data`,
     creator: { '@type': 'Organization', name: 'Tokyo Expat', url: 'https://www.tokyo-expat.com' },
-    dateModified: '2026-06-30',
+    dateModified: riGen,
     inLanguage: l === 'fr' ? 'fr-FR' : 'en-US',
     spatialCoverage: { '@type': 'Place', name: 'Tokyo, Japan' },
     temporalCoverage: `${ptFromYr}/2026`,
@@ -271,19 +296,19 @@ export default async function DataPage({
   }
 
   const faqs = l === 'en' ? [
-    { q: 'What is the average rent in Tokyo in 2026?', a: 'Median rent for a 1K studio ranges from ¥74,000 (Edogawa) to ¥140,000 (Minato). A 1LDK for a couple ranges from ¥118,000 to ¥260,000. These medians come from 528,660 active listings across Tokyo\'s 23 wards.' },
-    { q: 'What is the cheapest ward in Tokyo to rent?', a: 'For a 1K studio, the cheapest wards are Edogawa (¥74,000 median), Adachi (¥76,000), Katsushika (¥81,000), Nerima (¥82,000) and Suginami (¥84,000), all eastern or outer wards.' },
-    { q: 'What is the most expensive ward in Tokyo?', a: 'Minato is the most expensive (¥140,000 median for a 1K, ¥260,000 for a 1LDK), followed by Chiyoda, Chuo, Shibuya and Shinjuku.' },
-    { q: 'Which Tokyo stations have the cheapest and most expensive rent?', a: 'Across 50 major Tokyo stations, a 1K studio is cheapest near Kasai (¥76,000 median), Shin-Koiwa (¥78,000) and Ayase (¥85,000), and most expensive near Jimbocho (¥150,000), Ebisu (¥149,000) and Azabu-Juban (¥148,000). That is nearly double from one station to another.' },
+    { q: 'What is the average rent in Tokyo in 2026?', a: `Median rent for a 1K studio ranges from ¥${nEn(md(w1k(0)))} (${w1k(0).ward_en}) to ¥${nEn(md(wTop))} (${wTop.ward_en}). A 1LDK for a couple ranges from ¥${nEn(md(ri1ldk[0], '1LDK'))} to ¥${nEn(md(ri1ldk[ri1ldk.length - 1], '1LDK'))}. These medians come from ${nEn(riN)} active listings across Tokyo's 23 wards.` },
+    { q: 'What is the cheapest ward in Tokyo to rent?', a: `For a 1K studio, the cheapest wards are ${w1k(0).ward_en} (¥${nEn(md(w1k(0)))} median), ${w1k(1).ward_en} (¥${nEn(md(w1k(1)))}), ${w1k(2).ward_en} (¥${nEn(md(w1k(2)))}), ${w1k(3).ward_en} (¥${nEn(md(w1k(3)))}) and ${w1k(4).ward_en} (¥${nEn(md(w1k(4)))}), all eastern or outer wards.` },
+    { q: 'What is the most expensive ward in Tokyo?', a: `${wTop.ward_en} is the most expensive (¥${nEn(md(wTop))} median for a 1K, ¥${nEn(md(wTop, '1LDK'))} for a 1LDK), followed by ${nextPricey('and')}.` },
+    { q: 'Which Tokyo stations have the cheapest and most expensive rent?', a: `Across ${riSt.length} major Tokyo stations, a 1K studio is cheapest near ${riSt[0].station_en} (¥${nEn(md(riSt[0]))} median), ${riSt[1].station_en} (¥${nEn(md(riSt[1]))}) and ${riSt[2].station_en} (¥${nEn(md(riSt[2]))}), and most expensive near ${stTop[0].station_en} (¥${nEn(md(stTop[0]))}), ${stTop[1].station_en} (¥${nEn(md(stTop[1]))}) and ${stTop[2].station_en} (¥${nEn(md(stTop[2]))}). That is nearly double from one station to another.` },
     { q: 'Why does this index use median rent instead of the average?', a: 'The median resists outliers: a few luxury listings do not distort it, unlike the average. It better reflects what a normal tenant actually pays.' },
-    { q: 'How often is the Tokyo Rent Index updated?', a: 'Quarterly, from fresh active listings. This edition reflects Q2 2026 data.' },
+    { q: 'How often is the Tokyo Rent Index updated?', a: `Quarterly, from fresh active listings. This edition reflects ${riQEn} data.` },
   ] : [
-    { q: 'Quel est le loyer moyen à Tokyo en 2026 ?', a: 'Le loyer médian d\'un studio 1K va de 74 000 JPY (Edogawa) à 140 000 JPY (Minato). Un 1LDK pour un couple va de 118 000 à 260 000 JPY. Ces médianes proviennent de 528 660 annonces actives dans les 23 arrondissements de Tokyo.' },
-    { q: 'Quel est l\'arrondissement le moins cher de Tokyo ?', a: 'Pour un studio 1K, les moins chers sont Edogawa (74 000 JPY médian), Adachi (76 000 JPY), Katsushika (81 000 JPY), Nerima (82 000 JPY) et Suginami (84 000 JPY), tous à l\'est ou en périphérie.' },
-    { q: 'Quel est l\'arrondissement le plus cher de Tokyo ?', a: 'Minato est le plus cher (140 000 JPY médian pour un 1K, 260 000 JPY pour un 1LDK), suivi de Chiyoda, Chuo, Shibuya et Shinjuku.' },
-    { q: 'Quelles stations de Tokyo ont les loyers les moins chers et les plus chers ?', a: 'Sur 50 stations majeures de Tokyo, un studio 1K est le moins cher près de Kasai (76 000 JPY médian), Shin-Koiwa (78 000 JPY) et Ayase (85 000 JPY), et le plus cher près de Jimbocho (150 000 JPY), Ebisu (149 000 JPY) et Azabu-Juban (148 000 JPY). Soit près du double d\'une station à l\'autre.' },
+    { q: 'Quel est le loyer moyen à Tokyo en 2026 ?', a: `Le loyer médian d'un studio 1K va de ${nFr(md(w1k(0)))} JPY (${w1k(0).ward_en}) à ${nFr(md(wTop))} JPY (${wTop.ward_en}). Un 1LDK pour un couple va de ${nFr(md(ri1ldk[0], '1LDK'))} à ${nFr(md(ri1ldk[ri1ldk.length - 1], '1LDK'))} JPY. Ces médianes proviennent de ${nFr(riN)} annonces actives dans les 23 arrondissements de Tokyo.` },
+    { q: 'Quel est l\'arrondissement le moins cher de Tokyo ?', a: `Pour un studio 1K, les moins chers sont ${w1k(0).ward_en} (${nFr(md(w1k(0)))} JPY médian), ${w1k(1).ward_en} (${nFr(md(w1k(1)))} JPY), ${w1k(2).ward_en} (${nFr(md(w1k(2)))} JPY), ${w1k(3).ward_en} (${nFr(md(w1k(3)))} JPY) et ${w1k(4).ward_en} (${nFr(md(w1k(4)))} JPY), tous à l'est ou en périphérie.` },
+    { q: 'Quel est l\'arrondissement le plus cher de Tokyo ?', a: `${wTop.ward_en} est le plus cher (${nFr(md(wTop))} JPY médian pour un 1K, ${nFr(md(wTop, '1LDK'))} JPY pour un 1LDK), suivi de ${nextPricey('et')}.` },
+    { q: 'Quelles stations de Tokyo ont les loyers les moins chers et les plus chers ?', a: `Sur ${riSt.length} stations majeures de Tokyo, un studio 1K est le moins cher près de ${riSt[0].station_en} (${nFr(md(riSt[0]))} JPY médian), ${riSt[1].station_en} (${nFr(md(riSt[1]))} JPY) et ${riSt[2].station_en} (${nFr(md(riSt[2]))} JPY), et le plus cher près de ${stTop[0].station_en} (${nFr(md(stTop[0]))} JPY), ${stTop[1].station_en} (${nFr(md(stTop[1]))} JPY) et ${stTop[2].station_en} (${nFr(md(stTop[2]))} JPY). Soit près du double d'une station à l'autre.` },
     { q: 'Pourquoi cet indice utilise-t-il le loyer médian plutôt que la moyenne ?', a: 'La médiane résiste aux valeurs extrêmes : quelques biens de luxe ne la faussent pas, contrairement à la moyenne. Elle reflète mieux ce qu\'un locataire normal paie.' },
-    { q: 'À quelle fréquence l\'indice est-il mis à jour ?', a: 'Chaque trimestre, à partir d\'annonces actives fraîches. Cette édition reflète les données du T2 2026.' },
+    { q: 'À quelle fréquence l\'indice est-il mis à jour ?', a: `Chaque trimestre, à partir d'annonces actives fraîches. Cette édition reflète les données du ${riQFr}.` },
   ]
 
   const faqLd = {
