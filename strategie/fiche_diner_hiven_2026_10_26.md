@@ -1,7 +1,7 @@
 # Dîner HIVEN, lundi 26/10/2026 (Damien et Justin)
 
 À relire dimanche soir ou lundi avant de partir (5 minutes). Cadre général : `kit_appel_2026_10.md`, section C.
-⏳ Heure et lieu : on attend LEUR proposition (ta décision du 24/10). Si rien lundi à midi, me le dire.
+✅ Heure : **19 h** (proposée par Damien le 24/10 à 14 h 35, acceptée à 15 h 13). ⏳ Lieu : il envoie l'adresse « asap ». Si rien lundi à midi, me le dire.
 
 ## L'objectif, en une phrase
 Repartir avec **une prochaine étape datée** et la réponse à une question : **que font-ils des demandes qu'ils
