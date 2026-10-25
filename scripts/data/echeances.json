@@ -320,6 +320,16 @@
       "fiche": "C:\\Users\\alegu\\Marketing_Formations\\idees\\recherche\\kr1_suivi.tsv",
       "actif": true,
       "fait": false
+    },
+    {
+      "id": "axiom-acces-imap-2fa",
+      "date": "2026-10-29",
+      "titre": "MARKETING : réessayer la validation en deux étapes du compte AXIOM, puis le mot de passe d'application",
+      "quoi": "Dire /marketing. Le 25/10, Google bloquait (compte trop récent), même après ajout du téléphone. Réessayer https://myaccount.google.com/signinoptions/twosv (compte contact.axiom.jp@gmail.com) ; si OK : https://myaccount.google.com/apppasswords, nom « AXIOM Claude », coller le code dans le fichier local que Claude ouvrira (jamais dans la conversation). Si encore bloqué : réessayer dans une semaine.",
+      "commande": "",
+      "fiche": "C:\\Users\\alegu\\.claude\\projects\\c--Users-alegu-Desktop-tokyo-insights\\memory\\project_mame_scraper.md (accès IMAP AXIOM)",
+      "actif": true,
+      "fait": false
     }
   ]
 }
