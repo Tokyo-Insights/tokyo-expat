@@ -310,6 +310,16 @@
       "fiche": "C:\\Users\\alegu\\.claude\\projects\\c--Users-alegu-Desktop-tokyo-insights\\memory\\project_mame_scraper.md (nom de plume)",
       "actif": true,
       "fait": false
+    },
+    {
+      "id": "kr1-relance1-v06",
+      "date": "2026-10-29",
+      "titre": "MARKETING KR1 : relance n°1 de V06 (Toaru塾, envoyé le 25/10) SI pas de réponse",
+      "quoi": "Dire /marketing. D'abord regarder la boîte contact.axiom.jp@gmail.com : s'il a répondu, pas de relance. Sinon, relance n°1 (angle : une idée concrète tirée de sa page, puis la même question oui/non), texte dans Marketing_Formations/idees/kr1_message_brouillon.md (section Relances). Noter dans idees/recherche/kr1_suivi.tsv.",
+      "commande": "",
+      "fiche": "C:\\Users\\alegu\\Marketing_Formations\\idees\\recherche\\kr1_suivi.tsv",
+      "actif": true,
+      "fait": false
     }
   ]
 }
