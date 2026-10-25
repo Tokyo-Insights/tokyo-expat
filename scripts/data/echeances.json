@@ -330,6 +330,26 @@
       "fiche": "C:\\Users\\alegu\\.claude\\projects\\c--Users-alegu-Desktop-tokyo-insights\\memory\\project_mame_scraper.md (accès IMAP AXIOM)",
       "actif": true,
       "fait": false
+    },
+    {
+      "id": "kr1-envois-26-10",
+      "date": "2026-10-26",
+      "titre": "MARKETING KR1 : envoyer V09 sur note (limite d'un message par jour) + V03 si pas de réponse",
+      "quoi": "Dire /marketing. (1) V09 : note bloquait le 25/10 (« 1日にご利用いただける回数の上限 ») ; Claude remet le message dans le presse-papiers, page https://note.com/transientsns/message ; coller AVANT toute capture d'écran. (2) V03 : si 月瀬ことり n'a pas répondu (accusé auto du 25/10 11:58), renvoyer le message à mail@cotorix.com (sa consigne), brouillon Gmail AXIOM prérempli. Noter dans Marketing_Formations/idees/recherche/kr1_suivi.tsv.",
+      "commande": "",
+      "fiche": "C:\\Users\\alegu\\Marketing_Formations\\idees\\recherche\\kr1_suivi.tsv",
+      "actif": true,
+      "fait": false
+    },
+    {
+      "id": "kr1-envoi-27-10-v14",
+      "date": "2026-10-27",
+      "titre": "MARKETING KR1 : envoyer V14 sur note (dernier vendeur du vivier)",
+      "quoi": "Dire /marketing. Message prêt dans l'outil (python outils/remplir_formulaire.py V14 --email contact.axiom.jp@gmail.com), page https://note.com/sosou_nino/message. Noter dans kr1_suivi.tsv.",
+      "commande": "",
+      "fiche": "C:\\Users\\alegu\\Marketing_Formations\\idees\\recherche\\kr1_suivi.tsv",
+      "actif": true,
+      "fait": false
     }
   ]
 }
