@@ -61,6 +61,11 @@ CONTACTS = [
      "silence_du": None, "reponse_agit": True,
      "note": "Lead entrant du 23/10. Email 1 envoye le 23/10 (3 questions). Sa reponse declenche "
              "l'email 2 (prix) : outreach/lead_elodie_2026_10.md. Par email seulement, pas d'appel."},
+    {"nom": "Lollyta (mere, fille etudiante TIU Ikebukuro)", "emails": ["lollyta81@yahoo.com"],
+     "silence_du": None, "reponse_agit": True,
+     "note": "Lead entrant du 25/10. Email 1 envoye le 25/10 15h41 (5 questions : date + duree, age, visa / "
+             "nom du bail, budget loyer ou total, priorite). Sa reponse declenche l'email 2 (prix) : "
+             "outreach/lead_lollyta_2026_10.md. Revérifier les dispos (UniLife d'abord) avant l'email 2."},
     {"nom": "X-House / Cross House (Takahashi Ai)",
      "emails": ["a.takahashi@x-house.jp", "info_xh@x-house.jp", "xrosshouse.com"],
      "silence_du": None, "reponse_agit": True, "reponse_lue_le": "2026-10-24",
