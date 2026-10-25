@@ -1,8 +1,8 @@
 {
   "generated_at": "2026-06-25",
   "total": 80,
-  "posted_count": 20,
-  "remaining": 60,
+  "posted_count": 21,
+  "remaining": 59,
   "queue": [
     {
       "slug": "trouver-appartement-tokyo-etranger",
@@ -169,8 +169,8 @@
       "locale": "fr",
       "title": "Tokyo, Osaka ou Kyoto : quelle ville choisir pour s'installer au Japon ?",
       "text": "Tokyo, Osaka ou Kyoto : quelle ville choisir pour s'installer au Japon ?\n\nLoyers, emploi, qualité de vie, communauté francophone : comparatif complet des trois principales villes pour les expatriés qui veulent s'installer au Japon.\n\nFull guide: https://www.tokyo-expat.com/fr/blog/tokyo-osaka-kyoto-ou-s-installer\n\n#TokyoExpat #JaponExpatrie #VivreAuJapon",
-      "posted": false,
-      "posted_date": null
+      "posted": true,
+      "posted_date": "2026-10-26"
     },
     {
       "slug": "residence-card-japan-zairyu-card-guide",

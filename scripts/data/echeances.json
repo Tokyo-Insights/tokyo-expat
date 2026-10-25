@@ -339,7 +339,9 @@
       "commande": "",
       "fiche": "C:\\Users\\alegu\\Marketing_Formations\\idees\\recherche\\kr1_suivi.tsv",
       "actif": true,
-      "fait": false
+      "fait": false,
+      "notifie_le": "2026-10-26",
+      "rappels": 1
     },
     {
       "id": "kr1-envoi-27-10-v14",
