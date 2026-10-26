@@ -1,30 +1,35 @@
 {
-  "date": "2026-10-26",
-  "a_traiter": [],
+  "date": "2026-10-27",
+  "a_traiter": [
+    [
+      "Zenitus Technologies K.K. [D]",
+      0
+    ]
+  ],
   "silencieux": [
     [
       "GaijinBlog (Fernando/Damith)",
-      47,
+      48,
       10
     ],
     [
       "Expat Arrivals (Daniel)",
-      47,
+      48,
       10
     ],
     [
       "InternationalSchools (Engin)",
-      41,
+      42,
       14
     ],
     [
       "PetAir",
-      47,
+      48,
       14
     ],
     [
       "Coto / studyinjapan (Camilla)",
-      52,
+      53,
       21
     ]
   ],
