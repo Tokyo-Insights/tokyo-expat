@@ -357,6 +357,26 @@
       "fait": false
     },
     {
+      "id": "kr1-formulaires-27-10",
+      "date": "2026-10-27",
+      "titre": "MARKETING KR1 : 3 formulaires Brain (V17, V18, V19)",
+      "quoi": "Dire /marketing. Messages validés le 26/10 : python outils/remplir_formulaire.py V17|V18|V19 --email contact.axiom.jp@gmail.com (presse-papiers, un à la fois, son Chrome). Noter chaque envoi dans kr1_suivi.tsv.",
+      "commande": "",
+      "fiche": "C:\\Users\\alegu\\Marketing_Formations\\idees\\recherche\\kr1_suivi.tsv",
+      "actif": true,
+      "fait": false
+    },
+    {
+      "id": "kr1-note-28-31-10",
+      "date": "2026-10-28",
+      "titre": "MARKETING KR1 : un message note par jour (V15, V22, V23, V21), 24 h après le précédent",
+      "quoi": "Dire /marketing. note limite le compte axiom_jp à environ 1 message par 24 h (V09 bloqué le 26/10 à 8h30 après V07 du 25/10 14h10). Paragraphes à écrire par Claude, page relue le jour même, validés par Alessandro. Relance des Brain du 26/10 (V16, V20, V24) vers le 30/10.",
+      "commande": "",
+      "fiche": "C:\\Users\\alegu\\Marketing_Formations\\idees\\recherche\\kr1_suivi.tsv",
+      "actif": true,
+      "fait": false
+    },
+    {
       "id": "relance-elodie-30-10",
       "date": "2026-10-30",
       "titre": "TOKYO-EXPAT : relance Elodie (lead Komagome, email 1 du 23/10 sans réponse)",
