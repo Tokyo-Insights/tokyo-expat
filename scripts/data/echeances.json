@@ -259,8 +259,10 @@
       "quoi": "Dire /marketing. Avant toute vente sur Tips : vérifier (1) que ton statut de résidence permet un revenu d'activité indépendante (sinon : autorisation 資格外活動 ?), (2) ce que dit le règlement intérieur de ton employeur sur les activités annexes. Claude cherche les règles officielles en vigueur ; toi seul connais ton visa et ton contrat.",
       "commande": "",
       "fiche": "C:\\Users\\alegu\\Marketing_Formations\\CHANTIERS.md (section OKR du 4e trimestre 2026)",
-      "actif": true,
-      "fait": false
+      "actif": false,
+      "fait": true,
+      "fait_le": "2026-10-26",
+      "resultat": "Statut de résidence OK (24/10) ; employeur : activité annexe autorisée (sa réponse du 26/10 : « OUI »)."
     },
     {
       "id": "okr-mkt-kr1-10-pages",
