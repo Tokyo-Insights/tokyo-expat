@@ -3,7 +3,7 @@
 > $100M Offers ch. 14 : ajouter plutôt que baisser ; $100M Leads, « Unlockable Referral Bonuses » : bonus débloqué
 > par un témoignage ou une recommandation). Cadres : `~/.claude/projects/c--Users-alegu-Desktop-tokyo-insights/memory/reference_hormozi_100m_offers.md`.
 > Seule exception : un lead à qui le -20 % a DÉJÀ été écrit (Ellie, relance du 21/10) garde ce qui lui a été promis
-> s'il revient (ma recommandation, parole tenue). Le reste de ce fichier = historique.
+> si elle revient (CONFIRMÉ par lui le 26/10 : « je suis d'accord pour tenir parole pour Ellie »). Le reste de ce fichier = historique.
 
 # Offre "Client Fondateur" — playbook (prêt à dégainer)
 *Objectif : décrocher le 1er client + obtenir LE témoignage/cas client qui débloque le pilier preuve sociale. Décidé 2026-07-14 : -20% contre témoignage + cas client anonymisé.*
