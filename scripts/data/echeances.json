@@ -239,7 +239,8 @@
       "commande": "",
       "fiche": "strategie/PLAN_ATTAQUE_2026_10.md (chantier E)",
       "actif": true,
-      "fait": false
+      "fait": true,
+      "fait_le": "2026-10-26"
     },
     {
       "id": "relance-E1-business-france",
@@ -360,6 +361,16 @@
       "quoi": "Seulement si toujours aucune réponse (vérifier from:elogood@hotmail.fr). Angle = CORRECTION : l'email 1 disait 68-70k « juste sous votre budget » ; réponse X-House du 24/10 = Wi-Fi 4 000 ¥ en sus, bail 1 an, sortie 55 000 ¥ TTC -> aucun bien de l'Est sous 90k avec Wi-Fi ; piste share house dès ~25k. Envoyer depuis contact@ (email 1 parti du gmail brut, possible spam Hotmail). Brouillon, il envoie. Décision du 26/10 : la traiter vendredi, pas avant.",
       "commande": "",
       "fiche": "C:\\Users\\alegu\\Desktop\\tokyo-expat\\outreach\\lead_elodie_2026_10.md",
+      "actif": true,
+      "fait": false
+    },
+    {
+      "id": "relance-E2-crown-hr-afj-zenitus-jolt",
+      "date": "2026-11-02",
+      "titre": "RELANCE n°2 (chantier E) : Crown, H&R, AFJ, Zenitus, Jolt (relance n°1 envoyée le 26/10)",
+      "quoi": "Dire BONJOUR TOKYO EXPAT : Claude vérifie dans Gmail qui a répondu (pilotage_hebdo.py le mesure), puis rédige un brouillon par contact SANS réponse, dans le fil, avec un angle encore différent des deux premiers (n°1 : Crown haute saison, H&R bonne personne, AFJ sommaire de la fiche, Zenitus/Jolt une seule question). Tu les envoies. Relance n°3 une semaine après, puis on s'arrête.",
+      "commande": "python scripts/pilotage_hebdo.py",
+      "fiche": "strategie/PLAN_ATTAQUE_2026_10.md (chantier E)",
       "actif": true,
       "fait": false
     }
