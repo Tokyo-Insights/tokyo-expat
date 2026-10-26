@@ -89,6 +89,12 @@ Mesure : 10 conversations avant de conclure quoi que ce soit [092].
   particulier, appel d'écoute entreprise, dîner HIVEN. À relire avant CHAQUE appel.
 
 ## Ordre
-Ses mots (20/10) : « un chantier à la fois », ordre laissé à Claude. **Ordre retenu : finir A (formulations du site) -> C -> B -> D -> E -> F.** C avant B : c'est le plus court vers un premier revenu et le dîner HIVEN arrive.
+🚨 **RÉÉQUILIBRAGE VALIDÉ PAR LUI LE 26/10** (onglet mentorat, ses mots : « ok pour le rééquilibrage des particuliers en premier »). Remplace l'ordre ci-dessous. **3 piliers seulement, dans cet ordre :**
+1. **Convertir les PARTICULIERS (chantier F, en premier)** : réponse sous 24 h ; email court (moins de gratuit avant la proposition) ; prix + lien `/devis/...` au 2e échange ; relances datées J+3 et J+7 (écrites dans `scripts/data/echeances.json`) ; compteur OBJECTIF N° 1 (10 demandes de paiement). À tester (hypothèses) : acompte plus petit pour démarrer, tarif fondateur -20 % contre témoignage, garantie montrée au moment de payer. Premier cas : Lollyta.
+2. **Partenaires (C + relances E déjà parties)** : HIVEN (dîner 26/10), PLAZA HOMES, Crown, H&R, AFJ ; échange de demandes, jamais de commission.
+3. **Première preuve RÉELLE (H)** : 1er client au tarif fondateur contre un témoignage publié.
+En FOND : SEO. En VEILLE jusqu'au 1er client payant : D (appels d'écoute entreprises, sauf réponse reçue), B (LinkedIn), G bis (soirées, seulement s'il le veut). Les réponses entrantes d'entreprises restent traitées, on n'en lance pas de nouvelles.
+
+Ordre précédent, ses mots (20/10) : « un chantier à la fois », ordre laissé à Claude. **Ordre retenu : finir A (formulations du site) -> C -> B -> D -> E -> F.** C avant B : c'est le plus court vers un premier revenu et le dîner HIVEN arrive.
 
 Ordre d'origine : A (offre) -> B (LinkedIn) et C (partenaires) -> D (appels d'écoute) -> E (relances, en continu) -> F.
