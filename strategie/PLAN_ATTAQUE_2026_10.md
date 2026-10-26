@@ -25,6 +25,7 @@ fiche qui la justifie : `[075]` = fiche 075 ; relire la source avec
 
 ## Ce dont on part (mesuré, pas supposé)
 - 3 clients en 3 mois, tous ENTRANTS (Meg via ChatGPT, GaijinBlog, X-House).
+  ⚠️ 26/10, ses mots : « aucune personne ne m'a encore payé ». Ces 3 sont donc des contacts entrants, PAS des clients payants. CA à ce jour : 0.
 - Prospection à froid : 0/35 (guest posts), 0/12 (RH en direct). Pitch qui apportait une DONNÉE : 1/6.
 - Les contacts d'entreprise qui arrivent (Dassault, Equinix, Sofitel) viennent des guides gratuits.
 - Stan a vécu exactement la même chose : « pas une seule réponse » sur 50 à 100 démarchages à froid [075 @ 08:13],
