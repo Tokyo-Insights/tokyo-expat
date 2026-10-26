@@ -87,6 +87,8 @@ Objet : Votre recherche : comment je m'y prendrais, et le prix
 > Concrètement, à la mi-décembre, vous savez où vous habitez en janvier, votre ancien bail est résilié dans les
 > temps, et vous payez autour de [total] ¥ par mois au lieu de 125 000 ¥.
 >
+> ⛔ 26/10 : -20 % ANNULÉ (sa décision, Hormozi ; jamais envoyé à Elodie, l'email 2 n'est pas parti). À réécrire :
+> 400 € plein + bonus débloqué par un témoignage. Ancien texte ci-dessous, NE PAS ENVOYER tel quel.
 > Le prix : [400 €] pour la recherche complète. Comme vous êtes parmi mes premières clientes, je vous propose
 > [320 €] (-20 %) en échange d'un court témoignage une fois installée, si vous êtes satisfaite. Frais d'entrée
 > et de sortie compris, vous payez environ [15 000] ¥ de moins par mois qu'aujourd'hui : sur six mois, le service

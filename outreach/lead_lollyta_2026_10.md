@@ -27,6 +27,7 @@ Autre piste : UniLife (résidences étudiantes, recherche PAR ÉCOLE publique su
 Valeur (dispos réelles, sans nommer de bien) + 3 pièges (total ≠ loyer, calendrier janv.-mars, qui signe) +
 annonce honnête de la partie payante + 3 questions (date, budget loyer ou total, au Japon / au nom de qui).
 Fiches : 001, 195, 008, 007. Prix (400 €, -20 % fondateur = 320 €) seulement dans l'email 2, après ses réponses.
+⛔ 26/10 : -20 % ANNULÉ (sa décision, Hormozi). Email 2 = **400 € plein + bonus** (débloqué par un témoignage), garantie, raison d'agir maintenant (sa date). Cf `outreach/offre-client-fondateur.md`.
 ⚠️ Le brouillon part de info.tokyoinsights@gmail.com (create_draft) : passer l'expéditeur sur l'alias
 contact@tokyo-expat.com s'il le souhaite.
 
@@ -64,4 +65,4 @@ sans nommer de source.
 - 25/10 15h41 JST : email 1 (v4) ENVOYÉ par lui depuis contact@tokyo-expat.com (vérifié dans les Envoyés,
   fil 1a171c89adc33f97). Suivi par `warm_threads_watch.py` (sa réponse sonne sur Telegram).
   Prochain geste : sa réponse -> revérifier les dispos sur SA date (UniLife d'abord, frais en sus à lire)
-  -> email 2 (méthode Dossier 48 h, prix 400 € / fondateur 320 €, garantie, boule de cristal [027]).
+  -> email 2 (méthode Dossier 48 h, prix 400 € + bonus (⛔ plus de 320 € depuis le 26/10), garantie, boule de cristal [027]).

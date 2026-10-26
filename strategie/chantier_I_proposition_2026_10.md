@@ -16,7 +16,8 @@ Deux livrables : (1) le **dossier RH**, sans prix, à envoyer après un premier 
 4. Questions de déblocage en fin de présentation : « Qu'est-ce qui vous empêcherait d'avancer ? »
    [112].
 5. Négociation : on retire du périmètre, on ne baisse pas le prix ; seule exception déjà décidée,
-   le tarif fondateur -20 % contre témoignage [097] [201].
+   le tarif fondateur -20 % contre témoignage [097] [201]. ⛔ 26/10 : ANNULÉ (sa décision, Hormozi) : AUCUNE
+   remise ; le témoignage s'obtient par un bonus ajouté.
 
 ---
 
@@ -122,8 +123,8 @@ tokyo-expat.com/data. ⛔ Jamais l'employeur, jamais « j'opère », jamais « e
   sur facture à 30 jours, un acompte à la commande, le solde sur facture.
 
 **8. Preuves.** Exemple chiffré de la méthode : ⟦étude de cas H⟧. ⟦Dès le 1er client : son
-témoignage écrit, à la place de l'exemple.⟧ Tarif fondateur pour les trois premières entreprises :
--20 % contre un témoignage écrit à la fin de la mission.
+témoignage écrit, à la place de l'exemple.⟧ ⟦⛔ 26/10 : plus de -20 %. Remplacer par : pour les trois
+premières entreprises, un bonus (à définir) offert contre un témoignage écrit à la fin de la mission.⟧
 
 **9. Prochaine étape.** Si cela vous convient, répondez « d'accord pour la formule ⟦…⟧ » : je vous
 envoie le lien de paiement et je fixe le cadrage avec ⟦prénom⟧ dans les 48 heures.

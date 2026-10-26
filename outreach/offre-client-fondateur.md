@@ -1,3 +1,10 @@
+> ⛔ **ANNULÉ LE 26/10/2026, sa décision** : « je ne veux pas faire de -20 % comme on avait décidé, suivons ce que
+> Hormozi dit ». **Plus aucune remise.** Le prix reste plein ; le témoignage s'obtient par un BONUS ajouté (Hormozi,
+> $100M Offers ch. 14 : ajouter plutôt que baisser ; $100M Leads, « Unlockable Referral Bonuses » : bonus débloqué
+> par un témoignage ou une recommandation). Cadres : `~/.claude/projects/c--Users-alegu-Desktop-tokyo-insights/memory/reference_hormozi_100m_offers.md`.
+> Seule exception : un lead à qui le -20 % a DÉJÀ été écrit (Ellie, relance du 21/10) garde ce qui lui a été promis
+> s'il revient (ma recommandation, parole tenue). Le reste de ce fichier = historique.
+
 # Offre "Client Fondateur" — playbook (prêt à dégainer)
 *Objectif : décrocher le 1er client + obtenir LE témoignage/cas client qui débloque le pilier preuve sociale. Décidé 2026-07-14 : -20% contre témoignage + cas client anonymisé.*
 

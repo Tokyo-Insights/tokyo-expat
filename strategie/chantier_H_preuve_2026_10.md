@@ -121,7 +121,8 @@ chase agencies in Japanese, or handle a rejected application two weeks before he
 
 ## 3. Le premier dossier contre témoignage
 
-Règle déjà décidée (14/07, `outreach/offre-client-fondateur.md`) : **-20 % contre témoignage**. Ne
+⛔ **26/10 : -20 % ANNULÉ (sa décision, Hormozi)** : prix plein + BONUS débloqué par le témoignage ; « tarif
+fondateur » ci-dessous = ce bonus, plus une remise. Ancienne règle (14/07) : -20 % contre témoignage. Ne
 pas inventer un autre rabais, ne pas faire gratuit (Stan : jamais pour un client sans budget [070]).
 
 Qui, par ordre de valeur comme preuve (Stan : « quelqu'un de bien placé » [367], le « gros
