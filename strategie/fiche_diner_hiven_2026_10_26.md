@@ -1,7 +1,7 @@
 # Dîner HIVEN, lundi 26/10/2026 (Damien et Justin)
 
 À relire dimanche soir ou lundi avant de partir (5 minutes). Cadre général : `kit_appel_2026_10.md`, section C.
-✅ Heure : **19 h** (proposée par Damien le 24/10 à 14 h 35, acceptée à 15 h 13). ⏳ Lieu : il envoie l'adresse « asap ». Si rien lundi à midi, me le dire.
+✅ Heure : **19 h** (proposée par Damien le 24/10 à 14 h 35, acceptée à 15 h 13). ✅ Lieu (envoyé par Damien le 26/10 à 9 h 13, lien Tabelog lu le 26/10) : **ベルサイユの豚 錦糸町** (Versailles no Buta, italien et izakaya autour du porc), 東京都墨田区江東橋3-13-6 日拓錦糸町南口駅前ビル 5F, à environ 100 m de la sortie sud de la gare JR de Kinshicho. Lien : https://tabelog.com/tokyo/A1312/A131201/13023924/party/275777636/ . Le lien pointe vers une formule de groupe : 8 plats et 2 h de boissons à volonté, 4 500 ¥ TTC par personne, limitée à 2 h aux heures d'affluence. Qui paie n'a pas été dit. Aucune réponse à leur faire (règle du 21/10 : pas d'email juste pour dire « ok »).
 
 ## L'objectif, en une phrase
 Repartir avec **une prochaine étape datée** et la réponse à une question : **que font-ils des demandes qu'ils
