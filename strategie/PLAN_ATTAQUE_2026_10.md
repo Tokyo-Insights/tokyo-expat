@@ -89,6 +89,12 @@ Mesure : 10 conversations avant de conclure quoi que ce soit [092].
   particulier, appel d'écoute entreprise, dîner HIVEN. À relire avant CHAQUE appel.
 
 ## Ordre
+🚨 **27/10 (onglet mentorat), PROPOSÉ, ⏳ SA RÉPONSE** : « tout ce que tu dis ne me semble pas efficace ». Constat : 3 mois de plans et de documents, 0 paiement. 3 gestes JAMAIS faits, à faire avant tout autre chantier du pilier 1 :
+1. Demander aux leads perdus (Jill, Poppy, Ellie, Ricky) POURQUOI ils n'ont pas payé : message court, sans vente, en brouillon (il relit et envoie). Hypothèse à tester : ils ne voient pas pourquoi payer 400 € en plus des frais d'agence.
+2. Paiement par CARTE en 1 clic (Poppy devait créer un compte Wise pour payer : friction au moment exact où elle a disparu).
+3. Encaisser PENDANT l'appel (lien envoyé au oui, il reste en ligne), plus de facture après.
+Aucun nouveau livre, méthode ou chantier d'ici là (gel proposé). Réseaux sociaux : non.
+
 🚨 **RÉÉQUILIBRAGE VALIDÉ PAR LUI LE 26/10** (onglet mentorat, ses mots : « ok pour le rééquilibrage des particuliers en premier »). Remplace l'ordre ci-dessous. **3 piliers seulement, dans cet ordre :**
 1. **Convertir les PARTICULIERS (chantier F, en premier)** : réponse sous 24 h ; l'email 1 GARDE sa valeur (Hormozi, $100M Leads : « give away the secrets, sell the implementation », le gratuit doit révéler le problème suivant que l'offre payante résout) MAIS finit par un appel à l'action clair + une raison d'agir maintenant (sa date, ma capacité réelle) ; prix + lien `/devis/...` au 2e échange ; relances datées J+3 et J+7 (écrites dans `scripts/data/echeances.json`) ; compteur OBJECTIF N° 1 (10 demandes de paiement). ⛔ **Aucune remise (26/10, sa décision : « suivons Hormozi »)** : prix plein + bonus après le oui, bonus débloqué par un témoignage. À tester (hypothèses) : garantie de service, paiement en deux temps, garantie montrée au moment de payer. Premier cas : Lollyta. Cadres : `reference_hormozi_100m_offers.md` (mémoire).
 2. **Partenaires (C + relances E déjà parties)** : HIVEN (dîner 26/10), PLAZA HOMES, Crown, H&R, AFJ ; échange de demandes, jamais de commission.
