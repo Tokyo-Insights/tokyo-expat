@@ -405,6 +405,16 @@
       "fiche": "strategie/PLAN_ATTAQUE_2026_10.md (chantier E)",
       "actif": true,
       "fait": false
+    },
+    {
+      "id": "constat-pourquoi-leads-perdus",
+      "date": "2026-11-03",
+      "titre": "TOKYO-EXPAT : constat des réponses au « pourquoi » (Ellie, Poppy, Ricky ; Jill a répondu le 27/10)",
+      "quoi": "Dire BONJOUR TOKYO EXPAT. Lire les 3 fils (get_thread) : réponse ou silence. AUCUNE relance de la question. Puis reposer à Alessandro la question laissée ouverte le 28/10 (sa décision : attendre plus de retours) : qu'est-ce qu'il fait qu'une agence gratuite ne fait pas ? Jill : « d'autres agences cherchaient sans me faire payer ».",
+      "commande": "",
+      "fiche": "user_demande_mentorat_2026_10_26.md",
+      "actif": true,
+      "fait": false
     }
   ]
 }
