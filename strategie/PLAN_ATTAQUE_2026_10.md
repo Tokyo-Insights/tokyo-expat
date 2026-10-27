@@ -18,6 +18,8 @@
 
 🎯 **OBJECTIF DE VOLUME (28/10, ses mots)** : « au moins 100 personnes qui font des demandes chaque mois et 10 qui passent à l'action ». Point de départ mesuré (log du 24/10) : ~8 demandes en 90 j (4 formulaires + 4 Calendly, doublons possibles) = ~3/mois ; ~80 clics Google / 28 j ; 0 paiement. Écart : x35 sur les demandes, 0 -> 10 sur le passage à l'action.
 
+🔎 **ENTONNOIR RÉEL, lu dans Gmail le 28/10** (fils ouverts un par un) : 7 particuliers avec un vrai besoin depuis juin (Meg 06, Jill 08, Poppy 08, Ricky 09, Ellie 10, Elodie 10, Lollyta 10) + HIVEN (B2B). Appel tenu : 1 sûr (Poppy 29/08) ; Meg prévu 27/06, issue non visible dans Gmail ; Ricky absent. Prix annoncé : 3 (Jill, Poppy, Ellie, 400 €). Lien de paiement envoyé : 2 (Jill, Poppy, Wise via page devis, APRÈS coup, par email). Ellie : « répondez et je vous envoie le lien ». Elodie, Lollyta : prix promis « au prochain email », pas de réponse. Payé : 0. 🗣️ POURQUOI (Jill, 27/10, ses mots) : « other realtor companies were locating apartments without charging me ». Poppy, Ellie, Ricky : question posée le 27/10, sans réponse au 28/10 07h.
+
 Décisions d'Alessandro (20/10/2026) : « on lève la pause », « on attaque fort », « si il faut mettre ma photo de
 profil sur LinkedIn alors allons-y aussi ». Pause levée le jour même (commit `bb4191b`).
 
