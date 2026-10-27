@@ -250,7 +250,9 @@
       "commande": "",
       "fiche": "strategie/PLAN_ATTAQUE_2026_10.md (chantier E)",
       "actif": true,
-      "fait": false
+      "fait": false,
+      "notifie_le": "2026-10-28",
+      "rappels": 1
     },
     {
       "id": "okr-mkt-prealable-visa-fukugyo",
@@ -378,7 +380,9 @@
       "commande": "",
       "fiche": "C:\\Users\\alegu\\Marketing_Formations\\idees\\recherche\\kr1_suivi.tsv",
       "actif": true,
-      "fait": false
+      "fait": false,
+      "notifie_le": "2026-10-28",
+      "rappels": 1
     },
     {
       "id": "relance-elodie-30-10",
