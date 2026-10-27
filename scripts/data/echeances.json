@@ -328,7 +328,7 @@
       "id": "axiom-acces-imap-2fa",
       "date": "2026-10-29",
       "titre": "MARKETING : réessayer la validation en deux étapes du compte AXIOM, puis le mot de passe d'application",
-      "quoi": "Dire /marketing. Le 25/10, Google bloquait (compte trop récent), même après ajout du téléphone. Réessayer https://myaccount.google.com/signinoptions/twosv (compte contact.axiom.jp@gmail.com) ; si OK : https://myaccount.google.com/apppasswords, nom « AXIOM Claude », coller le code dans le fichier local que Claude ouvrira (jamais dans la conversation). Si encore bloqué : réessayer dans une semaine.",
+      "quoi": "Dire /marketing. Bloqué le 25/10 PUIS le 27/10 (« Impossible de valider votre identité », compte trop récent, Je déduis). PLAN A : transfert Gmail AXIOM -> info.tokyoinsights@gmail.com (Paramètres > Transfert et POP/IMAP, « transférer une copie et conserver ») ; le connecteur Gmail de Claude lit cette boîte principale (vérifié le 27/10), lecture par get_thread. PLAN B si le transfert est bloqué aussi : réessayer https://myaccount.google.com/signinoptions/twosv puis apppasswords (code collé dans config_axiom.local.json, jamais dans la conversation) ; si encore bloqué : une semaine plus tard. En attendant : capture de la boîte AXIOM avant chaque relance.",
       "commande": "",
       "fiche": "C:\\Users\\alegu\\.claude\\projects\\c--Users-alegu-Desktop-tokyo-insights\\memory\\project_mame_scraper.md (accès IMAP AXIOM)",
       "actif": true,
