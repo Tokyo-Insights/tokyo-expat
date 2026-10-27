@@ -250,9 +250,11 @@
       "commande": "",
       "fiche": "strategie/PLAN_ATTAQUE_2026_10.md (chantier E)",
       "actif": true,
-      "fait": false,
+      "fait": true,
       "notifie_le": "2026-10-28",
-      "rappels": 1
+      "rappels": 1,
+      "fait_le": "2026-10-28",
+      "fait_comment": "28/10 7 h 59 JST : envoyée par lui depuis contact@ dans le fil d'origine (vérifié get_thread, 2 messages). Relance n°2 vers le 04/11."
     },
     {
       "id": "okr-mkt-prealable-visa-fukugyo",
