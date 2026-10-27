@@ -71,3 +71,22 @@ ils se comparent à un bail qui coûte 4 à 6 mois de loyer d'un coup à l'entr�
 Une étape **datée**, par exemple : « Vous m'envoyez vos disponibilités de décembre à mars d'ici vendredi 30/10,
 je vous envoie le brouillon du guide Kinshicho jeudi 5/11. » Je rédige l'email de confirmation **mardi matin**
 (un seul email, la date, rien d'autre).
+
+## 📝 Compte rendu (son récit du 27/10 au matin, dîner tenu le 26/10 à 19 h)
+Ses mots : « ça s'est bien passé, on a parlé d'un peu de tout et rien », « au final plus partenaire ».
+- **Ils lui ont demandé** : comment il pense leur trouver des clients ; comment augmenter leur visibilité.
+- **Demande concrète** : qu'il fasse le **doublage de voix** d'une de leurs vidéos Instagram.
+- **Leur conseil** : écrire des articles de blog sur le mot-clé **« travelers »** (il ne sait pas pourquoi ; je
+  déduis : leur offre « Stay » dès 1 nuit vise les voyageurs, c'est LEUR public, pas le nôtre).
+- **Visite** de leur immeuble HIVEN Kinshicho.
+- **Invitation** : assister avec eux à une **réunion organisée par des ambassades** (date, lieu, ambassades : non dits).
+- ❌ **Non obtenu** : une étape datée ; la réponse à « que faites-vous des demandes que vous ne servez pas ? ».
+- ⚠️ Lecture (je déduis) : toutes leurs demandes vont dans le même sens, **lui travaille pour leur visibilité**,
+  rien ne circule encore vers lui. Le seul élément qui sert NOTRE demande = la réunion des ambassades
+  (réseau en personne, G bis). Doublage = voix publique sur le compte d'un exploitant de meublés, le métier de
+  son employeur : risque de reconnaissance, à trancher par lui.
+
+## ✅ Décisions du 27/10 (ses mots)
+- « Je ne compte pas les relancer moi-même, je veux que ce soit eux qui reviennent vers moi. » -> aucun email
+  de confirmation, aucune relance HIVEN. Ne pas le reproposer.
+- Doublage : OUI, en italien (« je ne pense pas qu'on me reconnaîtra »). Le risque employeur est jugé par lui.
