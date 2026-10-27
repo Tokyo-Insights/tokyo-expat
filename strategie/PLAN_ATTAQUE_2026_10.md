@@ -16,6 +16,8 @@
 | I · Proposition commerciale (22/10, fiches 101 à 112 / 408 / 078) | ✅ rédigé le 22/10 | `strategie/chantier_I_proposition_2026_10.md` : dossier RH (6 pages existantes FR + EN, emails d'accompagnement), proposition en 9 sections FR + EN ; les 2 guides RH disaient « meublé 20 à 30 % plus cher », contraire à notre indice : corrigés, déployés, vérifiés servis (`895a6c3`) | test réel = le premier oui ; paiement à la commande, ou facture à 30 jours avec acompte (confirmé par lui le 22/10) |
 | J · Tableau de pilotage (22/10, fiches 378 / 311 / 092) | ✅ en place le 22/10 | `scripts/pilotage_hebdo.py` : périmètre = fiches du registre avec `pilotage` (8), réponses et relances MESURÉES en IMAP, RDV déclarés (champ `rdv`) ; calibré sur réponses connues (PLAZA 20/10, HIVEN, 0 ailleurs) ; branché au run hebdo du mercredi (étape 6b) ; 1er relevé : 8 contactés, 2 réponses, 1 RDV tenu, 1 / 10 conversations | lu chaque mercredi dans le briefing |
 
+🎯 **OBJECTIF DE VOLUME (28/10, ses mots)** : « au moins 100 personnes qui font des demandes chaque mois et 10 qui passent à l'action ». Point de départ mesuré (log du 24/10) : ~8 demandes en 90 j (4 formulaires + 4 Calendly, doublons possibles) = ~3/mois ; ~80 clics Google / 28 j ; 0 paiement. Écart : x35 sur les demandes, 0 -> 10 sur le passage à l'action.
+
 Décisions d'Alessandro (20/10/2026) : « on lève la pause », « on attaque fort », « si il faut mettre ma photo de
 profil sur LinkedIn alors allons-y aussi ». Pause levée le jour même (commit `bb4191b`).
 
