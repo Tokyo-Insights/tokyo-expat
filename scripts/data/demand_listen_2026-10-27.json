@@ -1,0 +1,274 @@
+{
+  "generated": "2026-10-27T22:40:47.318909+00:00",
+  "subs": [
+    "japanlife",
+    "movingtojapan",
+    "japanresidents"
+  ],
+  "posts_analysed": 98,
+  "themes": {
+    "budget / cherte": 18,
+    "etat des lieux/sortie": 19,
+    "visa / statut": 30,
+    "renouvellement": 7,
+    "langue / paperasse": 11,
+    "garant / hosho": 6,
+    "depot / shikikin": 9,
+    "share house": 6,
+    "meuble / court terme": 9,
+    "chercher a distance": 7,
+    "refus / discrimination": 8,
+    "animaux": 6,
+    "argent-cle / reikin": 4,
+    "frais d'agence": 1
+  },
+  "stages": {
+    "deja installe": 29,
+    "avant l'arrivee": 16,
+    "juste arrive": 1
+  },
+  "painful_pct": 34.7,
+  "top_bigrams": [
+    {
+      "phrase": "fixed term",
+      "n": 21
+    },
+    {
+      "phrase": "language school",
+      "n": 20
+    },
+    {
+      "phrase": "term lease",
+      "n": 16
+    },
+    {
+      "phrase": "working holiday",
+      "n": 15
+    },
+    {
+      "phrase": "long term",
+      "n": 14
+    },
+    {
+      "phrase": "management company",
+      "n": 12
+    },
+    {
+      "phrase": "holiday visa",
+      "n": 12
+    },
+    {
+      "phrase": "home country",
+      "n": 12
+    },
+    {
+      "phrase": "back home",
+      "n": 11
+    },
+    {
+      "phrase": "new fixed",
+      "n": 10
+    },
+    {
+      "phrase": "lease agreement",
+      "n": 10
+    },
+    {
+      "phrase": "real estate",
+      "n": 9
+    },
+    {
+      "phrase": "full time",
+      "n": 9
+    },
+    {
+      "phrase": "time job",
+      "n": 9
+    },
+    {
+      "phrase": "work visa",
+      "n": 8
+    },
+    {
+      "phrase": "part time",
+      "n": 8
+    },
+    {
+      "phrase": "first time",
+      "n": 7
+    },
+    {
+      "phrase": "bank account",
+      "n": 7
+    },
+    {
+      "phrase": "moving tokyo",
+      "n": 7
+    },
+    {
+      "phrase": "moved japan",
+      "n": 6
+    },
+    {
+      "phrase": "credit card",
+      "n": 6
+    },
+    {
+      "phrase": "moved tokyo",
+      "n": 6
+    },
+    {
+      "phrase": "min transfer",
+      "n": 6
+    },
+    {
+      "phrase": "few days",
+      "n": 6
+    },
+    {
+      "phrase": "living japan",
+      "n": 6
+    },
+    {
+      "phrase": "months ago",
+      "n": 6
+    },
+    {
+      "phrase": "move japan",
+      "n": 6
+    },
+    {
+      "phrase": "adoption process",
+      "n": 6
+    },
+    {
+      "phrase": "living arrangements",
+      "n": 6
+    },
+    {
+      "phrase": "property owner",
+      "n": 6
+    },
+    {
+      "phrase": "court proceedings",
+      "n": 6
+    },
+    {
+      "phrase": "share house",
+      "n": 6
+    },
+    {
+      "phrase": "per month",
+      "n": 6
+    },
+    {
+      "phrase": "japanese language",
+      "n": 6
+    },
+    {
+      "phrase": "wondering anyone",
+      "n": 5
+    },
+    {
+      "phrase": "appreciate hearing",
+      "n": 5
+    },
+    {
+      "phrase": "something similar",
+      "n": 5
+    },
+    {
+      "phrase": "next month",
+      "n": 5
+    },
+    {
+      "phrase": "anyone experience",
+      "n": 5
+    },
+    {
+      "phrase": "i'm sure",
+      "n": 5
+    },
+    {
+      "phrase": "looking advice",
+      "n": 5
+    },
+    {
+      "phrase": "yen per",
+      "n": 5
+    },
+    {
+      "phrase": "year fixed",
+      "n": 5
+    },
+    {
+      "phrase": "move because",
+      "n": 5
+    },
+    {
+      "phrase": "speak japanese",
+      "n": 5
+    },
+    {
+      "phrase": "health insurance",
+      "n": 5
+    },
+    {
+      "phrase": "years ago",
+      "n": 5
+    },
+    {
+      "phrase": "moving japan",
+      "n": 5
+    },
+    {
+      "phrase": "i'm looking",
+      "n": 5
+    },
+    {
+      "phrase": "anyone experienced",
+      "n": 4
+    },
+    {
+      "phrase": "bureau office",
+      "n": 4
+    },
+    {
+      "phrase": "few weeks",
+      "n": 4
+    },
+    {
+      "phrase": "please let",
+      "n": 4
+    },
+    {
+      "phrase": "japan post",
+      "n": 4
+    },
+    {
+      "phrase": "ask questions",
+      "n": 4
+    },
+    {
+      "phrase": "thanks advance",
+      "n": 4
+    },
+    {
+      "phrase": "new place",
+      "n": 4
+    },
+    {
+      "phrase": "lease early",
+      "n": 4
+    },
+    {
+      "phrase": "ask anyone",
+      "n": 4
+    },
+    {
+      "phrase": "i'd appreciate",
+      "n": 4
+    }
+  ],
+  "amounts_median": 130000
+}

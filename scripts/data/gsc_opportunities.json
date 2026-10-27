@@ -1,25 +1,11 @@
 {
-  "generated_at": "2026-10-21",
+  "generated_at": "2026-10-28",
   "days": 90,
   "clusters": [
     {
-      "impressions": 2915,
-      "clicks": 7,
-      "position": 8.2,
-      "variants": 4,
-      "action": "OPTIMISER",
-      "winnable": true,
-      "actionable": false,
-      "verdict": "apercu_ia",
-      "verdict_why": "Apercu IA au-dessus (Japan Guide +2, pas nous): c'est lui qui repond, pas le titre. 4 731 impr pour ~0 clic. Test de titre en cours, lire le resultat le 05/10/2026.",
-      "verdict_date": "2026-09-11, vu dans le navigateur",
-      "example": "tokyo gaijin house",
-      "theme": "gaijin house"
-    },
-    {
-      "impressions": 809,
+      "impressions": 771,
       "clicks": 0,
-      "position": 20.6,
+      "position": 20.4,
       "variants": 2,
       "action": "ECRIRE",
       "winnable": true,
@@ -31,9 +17,23 @@
       "theme": "apartment expat"
     },
     {
-      "impressions": 684,
-      "clicks": 5,
-      "position": 10.7,
+      "impressions": 705,
+      "clicks": 2,
+      "position": 25.5,
+      "variants": 2,
+      "action": "OPTIMISER",
+      "winnable": true,
+      "actionable": false,
+      "verdict": "stock",
+      "verdict_why": "8 resultats sur 8 sont des pages de stock (Hmlet, Plaza Homes, Blueground, Anyplace, MetroResidences). 18 539 impr / 4 clics sur 90 j. Se capte avec une page qui MONTRE des biens, pas avec un guide.",
+      "verdict_date": "2026-09-11, vu dans le navigateur",
+      "example": "furnished apartment tokyo",
+      "theme": "apartment furnished"
+    },
+    {
+      "impressions": 689,
+      "clicks": 6,
+      "position": 10.4,
       "variants": 2,
       "action": "OPTIMISER",
       "winnable": true,
@@ -43,6 +43,20 @@
       "verdict_date": "2026-09-09, par la donnee",
       "example": "jiko bukken",
       "theme": "bukken jiko"
+    },
+    {
+      "impressions": 2624,
+      "clicks": 5,
+      "position": 7.8,
+      "variants": 3,
+      "action": "OPTIMISER",
+      "winnable": false,
+      "actionable": false,
+      "verdict": "apercu_ia",
+      "verdict_why": "Apercu IA au-dessus (Japan Guide +2, pas nous): c'est lui qui repond, pas le titre. 4 731 impr pour ~0 clic. Test de titre en cours, lire le resultat le 05/10/2026.",
+      "verdict_date": "2026-09-11, vu dans le navigateur",
+      "example": "tokyo gaijin house",
+      "theme": "gaijin house"
     },
     {
       "impressions": 518,
@@ -59,23 +73,9 @@
       "theme": "jikobukken map"
     },
     {
-      "impressions": 467,
-      "clicks": 1,
-      "position": 25.2,
-      "variants": 1,
-      "action": "OPTIMISER",
-      "winnable": true,
-      "actionable": false,
-      "verdict": "stock",
-      "verdict_why": "8 resultats sur 8 sont des pages de stock (Hmlet, Plaza Homes, Blueground, Anyplace, MetroResidences). 18 539 impr / 4 clics sur 90 j. Se capte avec une page qui MONTRE des biens, pas avec un guide.",
-      "verdict_date": "2026-09-11, vu dans le navigateur",
-      "example": "furnished apartment tokyo",
-      "theme": "apartment furnished"
-    },
-    {
-      "impressions": 1874,
+      "impressions": 1833,
       "clicks": 0,
-      "position": 5.8,
+      "position": 5.1,
       "variants": 1,
       "action": "OPTIMISER",
       "winnable": false,
@@ -87,9 +87,9 @@
       "theme": "cheap gaijin house"
     },
     {
-      "impressions": 759,
+      "impressions": 722,
       "clicks": 0,
-      "position": 38.5,
+      "position": 36.9,
       "variants": 2,
       "action": "OPTIMISER",
       "winnable": false,
@@ -101,23 +101,9 @@
       "theme": "apartment furnished rent"
     },
     {
-      "impressions": 310,
+      "impressions": 312,
       "clicks": 0,
-      "position": 27.1,
-      "variants": 4,
-      "action": "ECRIRE",
-      "winnable": true,
-      "actionable": false,
-      "verdict": "stock",
-      "verdict_why": "Ken Corp, Plaza Homes, YOLO HOME, Apartment Japan. 435 impr / 0 clic.",
-      "verdict_date": "2026-09-09, par la donnee",
-      "example": "expat tokyo housing",
-      "theme": "expat housing"
-    },
-    {
-      "impressions": 252,
-      "clicks": 0,
-      "position": 29.5,
+      "position": 25.6,
       "variants": 3,
       "action": "OPTIMISER",
       "winnable": true,
@@ -129,9 +115,23 @@
       "theme": "apartment cheap furnished"
     },
     {
-      "impressions": 189,
+      "impressions": 303,
       "clicks": 0,
-      "position": 14.3,
+      "position": 26.0,
+      "variants": 4,
+      "action": "ECRIRE",
+      "winnable": true,
+      "actionable": false,
+      "verdict": "stock",
+      "verdict_why": "Ken Corp, Plaza Homes, YOLO HOME, Apartment Japan. 435 impr / 0 clic.",
+      "verdict_date": "2026-09-09, par la donnee",
+      "example": "expat tokyo housing",
+      "theme": "expat housing"
+    },
+    {
+      "impressions": 187,
+      "clicks": 0,
+      "position": 13.8,
       "variants": 1,
       "action": "ECRIRE",
       "winnable": true,
@@ -143,7 +143,7 @@
       "theme": "appartement social"
     },
     {
-      "impressions": 172,
+      "impressions": 177,
       "clicks": 0,
       "position": 17.9,
       "variants": 1,
@@ -157,9 +157,9 @@
       "theme": "appartement les pour tranger"
     },
     {
-      "impressions": 145,
+      "impressions": 177,
       "clicks": 0,
-      "position": 29.7,
+      "position": 28.0,
       "variants": 1,
       "action": "OPTIMISER",
       "winnable": true,

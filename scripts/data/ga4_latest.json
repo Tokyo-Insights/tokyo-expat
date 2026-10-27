@@ -1,71 +1,70 @@
 {
-  "generated_at": "2026-10-21",
-  "period": "2026-10-14 to 2026-10-21",
+  "generated_at": "2026-10-28",
+  "period": "2026-10-21 to 2026-10-28",
   "this_week": {
     "sessions": 404,
-    "users": 381,
-    "pageviews": 456,
-    "bounce_rate": 0.844059405940594
+    "users": 379,
+    "pageviews": 449,
+    "bounce_rate": 0.7995049504950495
   },
   "prev_week": {
-    "sessions": 428,
-    "users": 403,
-    "pageviews": 456,
-    "bounce_rate": 0.8364485981308412
+    "sessions": 450,
+    "users": 425,
+    "pageviews": 504,
+    "bounce_rate": 0.8422222222222222
   },
   "changes": {
-    "sessions": "-6%",
-    "users": "-5%",
-    "pageviews": "+0%"
+    "sessions": "-10%",
+    "users": "-11%",
+    "pageviews": "-11%"
   },
   "top_pages": [
     [
-      "/en/blog/japan-sim-card-foreigners-2026",
-      "21"
+      "/en/data",
+      "31"
+    ],
+    [
+      "/en/blog/japanese-language-schools-tokyo-guide",
+      "17"
     ],
     [
       "/en",
-      "20"
+      "14"
+    ],
+    [
+      "/en/blog/japan-sim-card-foreigners-2026",
+      "13"
     ],
     [
       "/en/blog/japan-income-tax-foreigners-guide",
-      "20"
-    ],
-    [
-      "/en/data",
-      "20"
-    ],
-    [
-      "/en/blog/japanese-apartment-layouts-explained",
-      "13"
+      "12"
     ]
   ],
   "top_sources": [
     [
       "Direct",
-      "299"
+      "285"
     ],
     [
       "Organic Search",
-      "82"
+      "88"
     ],
     [
       "AI Assistant",
-      "12"
+      "15"
     ]
   ],
-  "form_submits_week": 4,
+  "form_submits_week": 1,
   "events": {
-    "page_view": 456,
-    "session_start": 403,
-    "first_visit": 377,
+    "page_view": 449,
+    "session_start": 402,
+    "first_visit": 375,
     "user_engagement": 109,
-    "scroll": 32,
-    "click": 5,
-    "generate_lead": 4,
-    "file_download": 3,
+    "scroll": 43,
+    "click": 3,
     "form_start": 3,
-    "book_call_click": 1,
+    "book_call_click": 2,
+    "generate_lead": 1,
     "select_consultation": 1
   }
 }
