@@ -378,7 +378,7 @@
       "id": "kr1-note-28-31-10",
       "date": "2026-10-28",
       "titre": "MARKETING KR1 : un message note par jour (V15, V22, V23, V21), 24 h après le précédent",
-      "quoi": "Dire /marketing. note limite le compte axiom_jp à environ 1 message par 24 h (V09 bloqué le 26/10 à 8h30 après V07 du 25/10 14h10). Paragraphes à écrire par Claude, page relue le jour même, validés par Alessandro. Relance des Brain du 26/10 (V16, V20, V24) vers le 30/10.",
+      "quoi": "Dire /marketing. note limite le compte axiom_jp à environ 1 message par 24 h (V09 bloqué le 26/10 à 8h30 après V07 du 25/10 14h10). Paragraphes à écrire par Claude, page relue le jour même, validés par Alessandro. Relance des Brain du 26/10 (V16, V20, V24) vers le 30/10. V15 envoyé le 28/10. note REFUSE plus de 500 caractères (507 refusé le 28/10) : écrire le message complet sous 470 (vérifier len() avant le presse-papiers). Page Brain lue sans navigateur : outils/lire_brain.py.",
       "commande": "",
       "fiche": "C:\\Users\\alegu\\Marketing_Formations\\idees\\recherche\\kr1_suivi.tsv",
       "actif": true,
