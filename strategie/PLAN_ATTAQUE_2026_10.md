@@ -20,6 +20,8 @@
 
 🔎 **ENTONNOIR RÉEL, lu dans Gmail le 28/10** (fils ouverts un par un) : 7 particuliers avec un vrai besoin depuis juin (Meg 06, Jill 08, Poppy 08, Ricky 09, Ellie 10, Elodie 10, Lollyta 10) + HIVEN (B2B). Appel tenu : 1 sûr (Poppy 29/08) ; Meg prévu 27/06, issue non visible dans Gmail ; Ricky absent. Prix annoncé : 3 (Jill, Poppy, Ellie, 400 €). Lien de paiement envoyé : 2 (Jill, Poppy, Wise via page devis, APRÈS coup, par email). Ellie : « répondez et je vous envoie le lien ». Elodie, Lollyta : prix promis « au prochain email », pas de réponse. Payé : 0. 🗣️ POURQUOI (Jill, 27/10, ses mots) : « other realtor companies were locating apartments without charging me ». Poppy, Ellie, Ricky : question posée le 27/10, sans réponse au 28/10 07h.
 
+✅ **DÉCISIONS DU 28/10 (ses mots), offre particuliers v3** : pistes 1 (cible = ceux que l'agence refuse : WHV, étudiants, sans emploi ni garant, séjour < 1 an), 2 (vendre ce que l'agence ne fait jamais) et 4 (1er achat petit : diagnostic 15 000 ¥) VALIDÉES, « ok lance ». ⛔ « je ne veux pas générer des litiges » : AUCUN volet caution / restitution / négociation. 📧 « diminuer les appels téléphoniques, rester le plus possible en email » : le diagnostic est ÉCRIT, sans appel ; le prix ET le lien de paiement sont DANS l'email (plus jamais « répondez et je vous envoie le lien »). Ordre : 1 offre en une phrase + brouillons Elodie et Lollyta · 2 lien Wise 15 000 ¥ + page devis · 3 modèles de réponse email · 4 formulaire 3 champs · 5 volume (pages Google de la cible).
+
 Décisions d'Alessandro (20/10/2026) : « on lève la pause », « on attaque fort », « si il faut mettre ma photo de
 profil sur LinkedIn alors allons-y aussi ». Pause levée le jour même (commit `bb4191b`).
 
