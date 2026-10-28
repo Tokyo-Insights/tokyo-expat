@@ -322,7 +322,7 @@
       "id": "kr1-relance1-v06",
       "date": "2026-10-29",
       "titre": "MARKETING KR1 : relances n°1 des messages du 25/10 (V06, V11, V10...) SANS réponse",
-      "quoi": "Dire /marketing. D'abord lire la boîte contact.axiom.jp@gmail.com. Pour chaque vendeur envoyé le 25/10 (liste exacte : Marketing_Formations/idees/recherche/kr1_suivi.tsv, colonne envoi) qui n'a PAS répondu : relance n°1 (une idée concrète tirée de sa page, puis la même question oui/non ; section Relances de idees/kr1_message_brouillon.md). Noter chaque relance dans kr1_suivi.tsv.",
+      "quoi": "Dire /marketing. ✅ Les 10 relances n°1 sont ÉCRITES et VALIDÉES par lui le 28/10 (idée tirée de chaque page). 1) python outils/lire_axiom.py (lit la boîte AXIOM seul ; code 2 = aveugle, alors --autoriser) + lui demander la messagerie note pour V07 ; retirer quiconque a répondu. 2) python outils/remplir_formulaire.py <V>-r1 --email contact.axiom.jp@gmail.com pour V06 V11 V10 V01 V03 V02 V12 V13 V05 V07, un à la fois, il clique Envoyer. 3) Noter chaque envoi dans kr1_suivi.tsv (colonne relance1). 4) Note du jour V22 (< 470 caractères).",
       "commande": "",
       "fiche": "C:\\Users\\alegu\\Marketing_Formations\\idees\\recherche\\kr1_suivi.tsv",
       "actif": true,
