@@ -330,11 +330,11 @@
     },
     {
       "id": "axiom-acces-imap-2fa",
-      "date": "2026-10-29",
-      "titre": "MARKETING : réessayer la validation en deux étapes du compte AXIOM, puis le mot de passe d'application",
-      "quoi": "Dire /marketing. Bloqué le 25/10 PUIS le 27/10 (« Impossible de valider votre identité », compte trop récent, Je déduis). PLAN A : transfert Gmail AXIOM -> info.tokyoinsights@gmail.com (Paramètres > Transfert et POP/IMAP, « transférer une copie et conserver ») ; le connecteur Gmail de Claude lit cette boîte principale (vérifié le 27/10), lecture par get_thread. PLAN B si le transfert est bloqué aussi : réessayer https://myaccount.google.com/signinoptions/twosv puis apppasswords (code collé dans config_axiom.local.json, jamais dans la conversation) ; si encore bloqué : une semaine plus tard. En attendant : capture de la boîte AXIOM avant chaque relance.",
+      "date": "2026-11-04",
+      "titre": "MARKETING : jeton OAuth de la boîte AXIOM (expire à 7 jours si l'app reste en mode test)",
+      "quoi": "Dire /marketing. ✅ RÉSOLU le 28/10 par OAuth (2FA refusée 3 fois) : `python outils/lire_axiom.py` lit la boîte AXIOM. Reste : si l'app « AXIOM lecteur » (projet Google Cloud axiom-lecteur-513002, compte AXIOM) est encore en mode TEST, le jeton expire au bout de 7 jours : soit la publier (Google Auth Platform > Audience > Publier l'application), soit relancer `python outils/lire_axiom.py --autoriser` (il clique Autoriser). Test : le lecteur sort à 0.",
       "commande": "",
-      "fiche": "C:\\Users\\alegu\\.claude\\projects\\c--Users-alegu-Desktop-tokyo-insights\\memory\\project_mame_scraper.md (accès IMAP AXIOM)",
+      "fiche": "C:\\Users\\alegu\\Marketing_Formations\\outils\\lire_axiom.py",
       "actif": true,
       "fait": false
     },
