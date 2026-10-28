@@ -22,6 +22,8 @@
 
 ✅ **DÉCISIONS DU 28/10 (ses mots), offre particuliers v3** : pistes 1 (cible = ceux que l'agence refuse : WHV, étudiants, sans emploi ni garant, séjour < 1 an), 2 (vendre ce que l'agence ne fait jamais) et 4 (1er achat petit : diagnostic 15 000 ¥) VALIDÉES, « ok lance ». ⛔ « je ne veux pas générer des litiges » : AUCUN volet caution / restitution / négociation. 📧 « diminuer les appels téléphoniques, rester le plus possible en email » : le diagnostic est ÉCRIT, sans appel ; le prix ET le lien de paiement sont DANS l'email (plus jamais « répondez et je vous envoie le lien »). Ordre : 1 offre en une phrase + brouillons Elodie et Lollyta · 2 lien Wise 15 000 ¥ + page devis · 3 modèles de réponse email · 4 formulaire 3 champs · 5 volume (pages Google de la cible).
 
+▶️ **REPRISE (28/10 matin)** : étape 1 FAITE (`strategie/offre_particuliers_v3_2026_10.md` : offre en une phrase + brouillons Elodie FR et Lollyta EN, commit `b32c9ad`). ⏸️ BLOQUÉ sur LUI : créer dans Wise une demande de paiement 15 000 JPY (si le yen n'est pas proposé : montant en euros) et me coller le lien. Ensuite : ligne « diagnostic » en YENS dans la page devis (`app/devis/[offer]/page.tsx`, prix aujourd'hui en euros), vérifiée en ligne, puis 2 brouillons Gmail dans les fils d'origine depuis contact@ (jamais sans le vrai lien). Il a dit le 28/10 : « je ne me sens pas la motivation de travailler sur ça maintenant » => pause, ne pas relancer en boucle.
+
 Décisions d'Alessandro (20/10/2026) : « on lève la pause », « on attaque fort », « si il faut mettre ma photo de
 profil sur LinkedIn alors allons-y aussi ». Pause levée le jour même (commit `bb4191b`).
 
