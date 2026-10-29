@@ -18,6 +18,12 @@ Ceux que l'agence gratuite sert mal : working holiday, étudiants, nouveaux arri
 séjour de moins d'un an, contrat signé depuis l'étranger. Hors cible (bail classique, situation simple) :
 conseil gratuit + orientation vers PLAZA HOMES (baux longs).
 
+## Réponse à « l'agence le fait gratuitement » (VALIDÉE par lui le 29/10, « d'accord »)
+Source et calcul : `founder/competitor-matrix.md` (frais de courtage plafonnés à 1,1 mois au total, MLIT en vigueur au 01/04/2026).
+- FR : « L'agence n'est gratuite qu'en apparence : elle est payée à la signature, en général un mois de loyer, et seulement si vous signez chez elle. Mon Diagnostic coûte 15 000 ¥, il est payé par vous seul, et il compare aussi les logements où il n'y a aucun frais d'agence. »
+- EN : "The agency only looks free: it is paid when you sign, usually one month's rent, and only if you sign through it. My Housing Check costs 15,000 yen, you are the only one paying for it, and it also compares homes with no agency fee at all."
+- Intégrée aux brouillons Elodie et Lollyta ci-dessous. À réutiliser dans toute réponse à un particulier qui compare au gratuit.
+
 ## L'offre en une phrase
 - FR : « En 48 heures et par écrit, je vous dis quels logements de Tokyo acceptent vraiment votre situation
   (visa, durée, sans garant) et ce que chacun vous coûtera au total sur tout votre séjour, avant que vous signiez quoi que ce soit. »
@@ -42,7 +48,9 @@ Bonjour Elodie,
 
 Comme promis, voici le détail et le prix, pour que vous puissiez décider tranquillement, sans appel.
 
-Votre situation a un piège précis : un visa d'environ six mois, face à des baux qui se signent souvent pour un an. Un logement moins cher au mois peut vous coûter plus cher au total si vous partez avant la fin. C'est justement le calcul qu'une agence ne fait pas pour vous : elle est payée à la signature.
+Votre situation a un piège précis : un visa d'environ six mois, face à des baux qui se signent souvent pour un an. Un logement moins cher au mois peut vous coûter plus cher au total si vous partez avant la fin. C'est justement le calcul qu'une agence ne fait pas pour vous.
+
+L'agence n'est gratuite qu'en apparence : elle est payée à la signature, en général un mois de loyer, et seulement si vous signez chez elle. Mon Diagnostic coûte 15 000 ¥, il est payé par vous seule, et il compare aussi les logements où il n'y a aucun frais d'agence.
 
 Ce que je vous propose, c'est le Diagnostic logement, entièrement par écrit. Sous 48 heures, vous recevez :
 1. les types de logement qui acceptent vraiment votre visa et votre durée, et ceux qui vous seront fermés ;
@@ -68,7 +76,9 @@ Hello Lollyta,
 
 As promised, here are the details and the price, so you can decide calmly, with no call needed.
 
-Choosing from abroad has one specific trap: the apartments that accept a student, with a contract signed from overseas, are not the same as the ones you see listed. And the rent is not the total: for the furnished studios I saw, about 20,000 to 25,000 yen a month is added on top. An agency will not sort this out for you, because it is paid when the lease is signed.
+Choosing from abroad has one specific trap: the apartments that accept a student, with a contract signed from overseas, are not the same as the ones you see listed. And the rent is not the total: for the furnished studios I saw, about 20,000 to 25,000 yen a month is added on top. An agency will not sort this out for you.
+
+The agency only looks free: it is paid when you sign, usually one month's rent, and only if you sign through it. My Housing Check costs 15,000 yen, you are the only one paying for it, and it also compares homes with no agency fee at all.
 
 What I offer is the Housing Check, done entirely in writing. Within 48 hours, you receive:
 1. which types of home will actually accept your daughter's situation (student visa, contract in her name or yours), and which will not;
