@@ -417,6 +417,16 @@
       "fiche": "user_demande_mentorat_2026_10_26.md",
       "actif": true,
       "fait": false
+    },
+    {
+      "id": "produits-verdict-tilu",
+      "date": "2026-11-14",
+      "titre": "PRODUITS : verdict Tilu (questionnaire, critère d'arrêt sur 15 réponses)",
+      "quoi": "Ouvrir un onglet /produits et dire « TILU réponses ». Claude applique le critère écrit d'avance (finalistes/p07_questionnaire.md) : >= 15 réponses -> phase 5 (vrai produit) ; < 15 -> intérêt faible. Puis suite écrite dans idees_alessandro/analyse_2026_10_29.md (science en extension si Tilu marche ; sinon 9, 2, 3 et piste 1 aux portes).",
+      "commande": "",
+      "fiche": "C:/Users/alegu/Produits_Numeriques/ETAT.md (REPRISE)",
+      "actif": true,
+      "fait": false
     }
   ]
 }
