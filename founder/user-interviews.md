@@ -68,7 +68,7 @@ Réponse courte possible, sans se justifier. Distingue H3 (réglé ailleurs) de 
 | Lead | Source | Étape atteinte | Raison donnée (ses mots) | H1 | H2 | H3 |
 |---|---|---|---|---|---|---|
 | Meg (06) | ChatGPT | appel prévu 27/06, issue invisible dans Gmail | inconnue | ? | ? | ? |
-| Jill (08) | entrant | prix 400 € + lien Wise | « other realtor companies were locating apartments without charging me » ; question A2 ENVOYÉE le 29/10 (montant payé à la signature), sans relance | ✅ | | |
+| Jill (08) | entrant | prix 400 € + lien Wise | « other realtor companies were locating apartments without charging me » ; A2 le 29/10 : « I don't remember. We paid a lot of people for diff stuff in this process and it's a blur. » (pas de montant ; plusieurs payés, total flou) | ✅ | | |
 | Poppy (08) | entrant | oui au prix, appel tenu, lien envoyé | aucune (question du 27/10 sans réponse) | ? | piste | ? |
 | Ricky (09) | entrant | RDV manqué | aucune (question du 27/10) | ? | | ? |
 | Ellie (10) | entrant | prix 400 €, « répondez et je vous envoie le lien » | aucune (question du 27/10) | ? | ? | ? |

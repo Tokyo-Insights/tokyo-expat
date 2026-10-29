@@ -60,3 +60,7 @@
 | H3 réglé ailleurs | Le conseil gratuit de Reddit suffit à trouver la formule | Le Diagnostic vend les logements réels à SES dates et SON coût total, pas la formule |
 
 **Ma recommandation** : rien à retoucher avant le 03/11. Les brouillons v3 suivent déjà l'ordre que Reddit valide : Elodie s'ouvre sur « moins cher au mois, plus cher au total », Lollyta sur « the rent is not the total », et la phrase sur l'agence vient après. Ce fichier sert au 03/11 : lire chaque réponse de lead avec les thèmes 1 à 4, et si H2 apparaît, passer l'exemple de rapport et la carte en tête.
+
+## Ajout du 29/10 au soir : la réponse de Jill croise le thème 1
+À la question « qu'avez-vous payé au total à la signature ? », Jill : « Honestly I don't remember. We paid a lot of people for diff stuff in this process and it's a blur. »
+Pas de montant, donc rien sur le mois de frais d'agence. Mais un fait de plus : la recherche « gratuite » s'est terminée en paiements à plusieurs intervenants, et le total est flou pour celle-là même qui a payé. C'est le thème 1 (le coût total qu'on ne voit pas), vécu par une vraie lead. Confiance : faible (n = 1), à recouper au 03/11.
