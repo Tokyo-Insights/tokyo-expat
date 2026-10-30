@@ -153,7 +153,9 @@
       "commande": "",
       "fiche": "reference_student_housing_calendar_japan.md",
       "actif": true,
-      "fait": false
+      "fait": false,
+      "notifie_le": "2026-10-31",
+      "rappels": 1
     },
     {
       "id": "decision-mouvement-2-haute-saison",
@@ -385,8 +387,8 @@
       "fiche": "C:\\Users\\alegu\\Marketing_Formations\\idees\\recherche\\kr1_suivi.tsv",
       "actif": true,
       "fait": false,
-      "notifie_le": "2026-10-28",
-      "rappels": 1
+      "notifie_le": "2026-10-31",
+      "rappels": 2
     },
     {
       "id": "relance-elodie-30-10",
