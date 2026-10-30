@@ -431,6 +431,16 @@
       "fiche": "C:/Users/alegu/Produits_Numeriques/ETAT.md (REPRISE)",
       "actif": true,
       "fait": false
+    },
+    {
+      "id": "relance-E3-crown-hr-afj-jolt",
+      "date": "2026-11-06",
+      "titre": "RELANCE n°3 (DERNIÈRE) chantier E : Crown, H&R, AFJ, Jolt (n°2 envoyée le 30/10)",
+      "quoi": "Dire BONJOUR TOKYO EXPAT : Claude vérifie les 4 fils (get_thread, pas search), puis un brouillon par contact SANS réponse, angle n°3 = clôture polie (« je ne vous écrirai plus, voici où me trouver »). Tu les envoies. Ensuite STOP (3 relances faites).",
+      "commande": "python scripts/pilotage_hebdo.py",
+      "fiche": "strategie/PLAN_ATTAQUE_2026_10.md (chantier E)",
+      "actif": true,
+      "fait": false
     }
   ]
 }
