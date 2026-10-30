@@ -441,6 +441,16 @@
       "fiche": "strategie/PLAN_ATTAQUE_2026_10.md (chantier E)",
       "actif": true,
       "fait": false
+    },
+    {
+      "id": "pm-diagnostic-ellie-ricky-03-11",
+      "date": "2026-11-03",
+      "titre": "PRÉ-MORTEM du 30/10 : envoyer le Diagnostic (prix + lien) à Ellie et Ricky",
+      "quoi": "Après le constat des « pourquoi » du même jour : si Ellie et/ou Ricky n'ont pas répondu (vérifier par get_thread), Claude crée un brouillon Diagnostic par personne dans son fil (modele_brouillon_imap + garde_brouillon), lien /devis/diagnostic?name=<Prénom>(&locale=en). Il les envoie. Compteur +1 chacun. Ellie : seule exception -20 % historique, à lui de trancher si on la mentionne.",
+      "commande": "",
+      "fiche": ".premortem/log.jsonl + strategie/offre_particuliers_v3_2026_10.md",
+      "actif": true,
+      "fait": false
     }
   ]
 }
