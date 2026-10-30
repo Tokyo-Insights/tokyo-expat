@@ -4,6 +4,8 @@ import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'Votre devis · Your quote · Tokyo Expat',
+  // Sinon la description par defaut du site (« chasseur immobilier ») s'affiche dans les apercus de lien.
+  description: 'Votre devis Tokyo Expat : conseil logement à Tokyo, par écrit. Your Tokyo Expat quote: written housing advice in Tokyo.',
   robots: { index: false, follow: false },
 }
 
