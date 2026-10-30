@@ -104,8 +104,10 @@ python scripts\warm_threads_watch.py >> "%LOG_FILE%" 2>&1
 
 :: 11. Reddit munition reminder (AUTO-REPARANT) : rappelle la prochaine munition data a poster
 ::      si >=7j depuis le dernier post (1/sem), detecte auto le post via email AutoMod OC, puis se tait.
-echo [%TIME%] [11/12] Reddit munition reminder (if due)... >> "%LOG_FILE%"
-python scripts\reddit_munition_reminder.py >> "%LOG_FILE%" 2>&1
+:: COUPE le 30/10/2026 (decision d'Alessandro : 'reddit on oublie'). Script et file intacts ;
+:: pour reprendre, retirer les :: des 2 lignes ci-dessous.
+:: echo [%TIME%] [11/12] Reddit munition reminder (if due)... >> "%LOG_FILE%"
+:: python scripts\reddit_munition_reminder.py >> "%LOG_FILE%" 2>&1
 
 :: 11b. Reddit comment harvester : capture les commentaires (l'OR) dans un log analysable
 echo [%TIME%] [11b] Reddit comment harvester... >> "%LOG_FILE%"
