@@ -396,9 +396,10 @@
       "commande": "",
       "fiche": "C:\\Users\\alegu\\Desktop\\tokyo-expat\\outreach\\lead_elodie_2026_10.md",
       "actif": true,
-      "fait": false,
+      "fait": true,
       "notifie_le": "2026-10-30",
-      "rappels": 1
+      "rappels": 1,
+      "fait_le": "2026-10-30"
     },
     {
       "id": "relance-E2-crown-hr-afj-zenitus-jolt",
