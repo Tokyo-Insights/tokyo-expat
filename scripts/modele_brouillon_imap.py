@@ -7,6 +7,7 @@ from datetime import datetime as dt, timezone
 sys.stdout.reconfigure(encoding='utf-8')
 sys.path.insert(0, r'C:\Users\alegu\Desktop\tokyo-expat\scripts')
 from config import GMAIL_ADDRESS, GMAIL_APP_PASSWORD
+from garde_brouillon import verifier  # bloque employeur / dementi / formules retirees (defaut n°13)
 
 TO = 'jhilly14@aol.com'
 SUBJ = 'Re: [Tokyo Expat] New message from jill hill'
@@ -39,6 +40,7 @@ msg['In-Reply-To'] = mid
 msg['References'] = ' '.join(((hdr['References'] or '') + ' ' + mid).split())
 msg['Date'] = email.utils.formatdate(localtime=True)
 plain = '\n\n'.join(p.replace('<br>', '\n') for p in BODY)
+verifier(SUBJ + '\n' + plain)  # AVANT l'APPEND : rien n'arrive dans Gmail si un terme interdit est present
 html = ''.join(f'<p>{p}</p>' for p in BODY)
 msg.attach(MIMEText(plain, 'plain', 'utf-8'))
 msg.attach(MIMEText(html, 'html', 'utf-8'))
