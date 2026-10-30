@@ -12,10 +12,14 @@ export default function ContactForm({ locale }: { locale: Locale }) {
   const [message, setMessage] = useState('')
   const [sent, setSent] = useState(false)
   const [error, setError] = useState(false)
+  // Bloque le double clic pendant l'envoi (doublons de demandes sur mobile lent).
+  const [sending, setSending] = useState(false)
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault()
+    if (sending) return
     setError(false)
+    setSending(true)
     try {
       const res = await fetch('/api/contact', {
         method: 'POST',
@@ -29,6 +33,8 @@ export default function ContactForm({ locale }: { locale: Locale }) {
       }
     } catch {
       setError(true)
+    } finally {
+      setSending(false)
     }
   }
 
@@ -69,14 +75,17 @@ export default function ContactForm({ locale }: { locale: Locale }) {
       <div className="bg-gray-50 border border-gray-200 rounded-2xl p-8">
         <h2 className="font-bold text-[#0f2744] text-xl mb-6">{c.form_title}</h2>
         {sent ? (
-          <div className="bg-green-50 border border-green-200 rounded-xl p-6 text-green-800 text-center font-medium">
+          <div role="status" aria-live="polite" className="bg-green-50 border border-green-200 rounded-xl p-6 text-green-800 text-center font-medium">
             {c.sent}
           </div>
         ) : (
           <form onSubmit={handleSubmit} className="flex flex-col gap-5">
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-1">{c.name_label}</label>
+              <label htmlFor="contact-name" className="block text-sm font-medium text-gray-700 mb-1">{c.name_label}</label>
               <input
+                id="contact-name"
+                name="name"
+                autoComplete="name"
                 type="text"
                 required
                 value={name}
@@ -85,8 +94,12 @@ export default function ContactForm({ locale }: { locale: Locale }) {
               />
             </div>
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-1">{c.email_label}</label>
+              <label htmlFor="contact-email" className="block text-sm font-medium text-gray-700 mb-1">{c.email_label}</label>
               <input
+                id="contact-email"
+                name="email"
+                autoComplete="email"
+                spellCheck={false}
                 type="email"
                 required
                 value={email}
@@ -95,8 +108,10 @@ export default function ContactForm({ locale }: { locale: Locale }) {
               />
             </div>
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-1">{c.message_label}</label>
+              <label htmlFor="contact-message" className="block text-sm font-medium text-gray-700 mb-1">{c.message_label}</label>
               <textarea
+                id="contact-message"
+                name="message"
                 required
                 rows={5}
                 value={message}
@@ -105,7 +120,7 @@ export default function ContactForm({ locale }: { locale: Locale }) {
               />
             </div>
             {error && (
-              <p className="text-red-600 text-sm">
+              <p role="alert" className="text-red-600 text-sm">
                 {locale === 'fr'
                   ? "Erreur d'envoi. Réessayez ou écrivez directement à contact@tokyo-expat.com"
                   : 'Send error. Please retry or email contact@tokyo-expat.com directly.'}
@@ -113,9 +128,11 @@ export default function ContactForm({ locale }: { locale: Locale }) {
             )}
             <button
               type="submit"
-              className="bg-[#e84141] hover:bg-[#ff6b6b] text-white px-8 py-3 rounded-xl font-bold transition-colors self-start"
+              disabled={sending}
+              aria-busy={sending}
+              className="bg-[#e84141] hover:bg-[#ff6b6b] disabled:opacity-60 disabled:cursor-wait text-white px-8 py-3 rounded-xl font-bold transition-colors self-start"
             >
-              {c.send}
+              {sending ? (locale === 'fr' ? 'Envoi…' : 'Sending…') : c.send}
             </button>
           </form>
         )}

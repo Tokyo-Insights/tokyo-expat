@@ -3,7 +3,7 @@ import { notFound } from 'next/navigation'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Votre devis — Tokyo Expat',
+  title: 'Votre devis · Your quote · Tokyo Expat',
   robots: { index: false, follow: false },
 }
 
@@ -374,6 +374,23 @@ export default async function DevisPage({
   }
 
   const t = labels[lang]
+  const priceText = formatPrice(offerData.price, offerData.currency ?? 'EUR', lang)
+  // Un seul bouton, rendu deux fois : sous le titre sur mobile (sinon il tombe apres toute la FAQ),
+  // dans la colonne de droite sur ordinateur.
+  const payButton = payUrl ? (
+    <a
+      href={payUrl}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="block w-full text-center bg-[#e84141] hover:bg-[#ff6b6b] text-white px-6 py-3 rounded-xl font-bold transition-colors mb-2"
+    >
+      {t.pay_btn} →
+    </a>
+  ) : (
+    <div className="block w-full text-center bg-gray-200 text-gray-400 px-6 py-3 rounded-xl font-bold mb-2 cursor-not-allowed">
+      {t.pay_btn} →
+    </div>
+  )
   const badges = offerData.badges?.[lang] ?? [t.google, t.bilingual, t.no_extra]
   // Le Diagnostic ne lance pas une recherche mais un rapport ecrit.
   const starts = isDiagnostic
@@ -435,13 +452,21 @@ export default async function DevisPage({
             <p className="text-gray-500 text-sm">{offerData.description[lang]}</p>
           </div>
 
+          {/* Prix + paiement, mobile seulement */}
+          <div className="lg:hidden bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
+            <p className="text-xs text-gray-400 uppercase tracking-widest mb-1">{t.price_label}</p>
+            <p className="text-3xl font-extrabold text-[#0f2744] mb-4">{priceText}</p>
+            {payButton}
+            <p className="text-xs text-center text-gray-400">{starts}</p>
+          </div>
+
           {/* Included */}
           <div className="bg-white rounded-2xl p-8 border border-gray-100 shadow-sm">
             <h2 className="font-bold text-[#0f2744] text-lg mb-5">{t.included}</h2>
             <ul className="flex flex-col gap-3">
               {offerData.included[lang].map((item, i) => (
                 <li key={i} className="flex items-start gap-3">
-                  <span className="w-5 h-5 rounded-full bg-green-100 text-green-600 flex items-center justify-center text-xs font-bold flex-shrink-0 mt-0.5">✓</span>
+                  <span aria-hidden="true" className="w-5 h-5 rounded-full bg-green-100 text-green-600 flex items-center justify-center text-xs font-bold flex-shrink-0 mt-0.5">✓</span>
                   <span className="text-gray-700 text-sm">{item}</span>
                 </li>
               ))}
@@ -468,30 +493,17 @@ export default async function DevisPage({
           {/* Price card */}
           <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
             <p className="text-xs text-gray-400 uppercase tracking-widest mb-1">{t.price_label}</p>
-            <p className="text-4xl font-extrabold text-[#0f2744] mb-1">{formatPrice(offerData.price, offerData.currency ?? 'EUR', lang)}</p>
+            <p className="text-4xl font-extrabold text-[#0f2744] mb-1">{priceText}</p>
             <p className="text-xs text-gray-400 mb-6">{starts}</p>
 
-            {payUrl ? (
-              <a
-                href={payUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="block w-full text-center bg-[#e84141] hover:bg-[#ff6b6b] text-white px-6 py-3 rounded-xl font-bold transition-colors mb-2"
-              >
-                {t.pay_btn} →
-              </a>
-            ) : (
-              <div className="block w-full text-center bg-gray-200 text-gray-400 px-6 py-3 rounded-xl font-bold mb-2 cursor-not-allowed">
-                {t.pay_btn} →
-              </div>
-            )}
+            {payButton}
             <p className="text-xs text-center text-gray-400">{t.pay_sub}</p>
 
             {/* Trust badges */}
             <div className="mt-6 flex flex-col gap-2 border-t border-gray-100 pt-5">
               {badges.map((badge, i) => (
                 <div key={i} className="flex items-center gap-2 text-xs text-gray-500">
-                  <span className="text-green-500">✓</span>
+                  <span className="text-green-500" aria-hidden="true">✓</span>
                   {badge}
                 </div>
               ))}
