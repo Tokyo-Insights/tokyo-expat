@@ -101,6 +101,7 @@ Tokyo Expat
 - Lien Wise RÉUTILISABLE créé par lui : https://wise.com/pay/r/ui8YPn2qRR_yN-U (15 000 JPY, « Diagnostic logement Tokyo », pas limité à 1 paiement ; vérifié : la page affiche 15000 JPY). Carte : non confirmée (« Virement bancaire et 1 supplémentaire »).
 - Page devis : `/devis/diagnostic?name=<Prénom>` (FR) ou `&locale=en` (EN), bouton de paiement branché sur ce lien par défaut (`825dd38`). ✅ DÉPLOYÉE le 30/10 et vérifiée servie (FR Elodie, EN Lollyta, bouton -> lien Wise, noindex ; l'offre 400 € intacte).
 - Brouillon Elodie CRÉÉ le 30/10 (IMAP, From contact@, dans le fil du 23/10, vérifié) : brouillon 1 ci-dessous RÉÉCRIT avec la correction du coût (meublés 68-70k = un peu au-dessus de 90k avec internet ; + piste share house dès ~25k) et le lien vers la page devis. Le « sous 90 000 ¥ tout compris » du brouillon 1 a été RETIRÉ (faux depuis la réponse X-House du 24/10).
+- ✅ Séquence Brevo (30/10, validée par lui « ok pour tout ») : emails 3 et 6 FR + EN présentent le Diagnostic (15 000 ¥, garantie v3, bouton -> page devis -> Wise), l'appel gratuit de 30 min est RETIRÉ ; email 1 FR + EN : « deux d'entre eux présenteront ». 6 modèles poussés (ids 1, 3, 4, 6, 9, 12) et relus dans Brevo ; sauvegarde avant : `scripts/data/brevo_templates_1-3-4-6-9-12_backup_2026-10-30.json`.
 - Brouillon Lollyta : PAS créé (elle n'a pas répondu à l'email 1 ; l'email 2 attend sa réponse).
 
 ## Ce qui reste avant de créer les brouillons Gmail

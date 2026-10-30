@@ -35,6 +35,10 @@ SENDER = {"name": "Alessandro - Tokyo Expat", "email": "contact@tokyo-expat.com"
 HEADERS = {"api-key": API_KEY, "Content-Type": "application/json", "accept": "application/json"}
 TEMPLATES_URL = "https://api.brevo.com/v3/smtp/templates"
 
+# Offre v3 (strategie/offre_particuliers_v3_2026_10.md) : page devis du Diagnostic, bouton -> lien Wise 15 000 JPY.
+DIAG_FR = "https://www.tokyo-expat.com/devis/diagnostic"
+DIAG_EN = "https://www.tokyo-expat.com/devis/diagnostic?locale=en"
+
 NAVY = "#0f2744"
 RED = "#e84141"
 
@@ -78,7 +82,7 @@ templates = [
 <p>Merci d'avoir téléchargé la Checklist Relocation Japon. Si vous ne l'avez pas encore ouverte, la voici à nouveau :</p>
 <p>{btn("Télécharger la checklist (PDF)", "https://www.tokyo-expat.com/checklist-relocation-japon.pdf")}</p>
 <p>Je suis Alessandro. Je vis à Tokyo et j'accompagne les francophones qui s'installent au Japon. Cette checklist rassemble tout ce que j'aurais aimé savoir avant d'arriver : visa, carte de séjour, logement sans garant, banque, assurance santé.</p>
-<p>Dans les trois semaines qui viennent, je vous envoie cinq emails courts sur le logement à Tokyo. Ils sont utiles même si vous faites tout vous-même. L'un d'eux présentera aussi mon accompagnement payant : vous saurez à quoi il sert, et vous n'aurez jamais à le prendre.</p>
+<p>Dans les trois semaines qui viennent, je vous envoie cinq emails courts sur le logement à Tokyo. Ils sont utiles même si vous faites tout vous-même. Deux d'entre eux présenteront aussi mon accompagnement payant : vous saurez à quoi il sert, et vous n'aurez jamais à le prendre.</p>
 <p><strong>Une question, si vous avez trente secondes</strong> : qu'est-ce qui vous bloque le plus en ce moment dans votre projet ? Répondez-moi en une phrase. Je lis tout moi-même.</p>
 <p>À bientôt,<br>Alessandro</p>
 """),
@@ -102,9 +106,10 @@ templates = [
 <p>Bonjour,</p>
 <p>Beaucoup de personnes qui arrivent à Tokyo commencent à chercher un logement quelques semaines avant le départ. C'est souvent trop tard.</p>
 <p>Les biens qui acceptent les étrangers partent en quelques jours, chaque dossier refusé fait perdre une semaine, et entre janvier et mars, quand tout le Japon déménage, la concurrence est à son maximum. On finit dans un logement temporaire hors de prix, ou loin de son travail, en se disant qu'on déménagera plus tard.</p>
-<p>Ce qui change tout, c'est d'avoir un dossier complet avant de visiter, et une liste de biens dont on sait déjà qu'ils acceptent votre profil. C'est exactement ce que je fais pour mes clients : dossier prêt en 48 heures, propositions confirmées avant envoi, bail expliqué en français.</p>
-<p>{btn("Je veux qu'Alessandro regarde ma situation", "https://www.tokyo-expat.com/fr/contact")}</p>
-<p>Un clic suffit : je vous propose un appel de 30 minutes, gratuit, et vous repartez avec un avis clair même si vous faites tout seul ensuite.</p>
+<p>Ce qui change tout, c'est de savoir avant de visiter quels logements acceptent vraiment votre situation, et ce que chacun vous coûtera au total. Le loyer affiché n'est presque jamais le total : charges, internet, société de garantie et frais de sortie s'y ajoutent.</p>
+<p>C'est ce que contient mon Diagnostic logement, livré par écrit sous 48 heures : ce qui vous est ouvert et fermé, 3 à 5 logements réels libres à vos dates avec leur coût total sur votre séjour, les clauses à vérifier avant de signer, et votre calendrier. Il coûte 15 000 ¥, remboursé si le rapport arrive en retard ou si aucun logement n'accepte votre situation dans votre budget.</p>
+<p>{btn("Voir le Diagnostic logement", DIAG_FR)}</p>
+<p>Pas encore prêt ? Répondez à cet email avec vos dates et votre budget, je vous dis ce qui est réaliste.</p>
 <p>Alessandro</p>
 """),
     },
@@ -117,7 +122,7 @@ templates = [
 <p>Thanks for downloading the Japan Relocation Checklist. In case you have not opened it yet, here it is again:</p>
 <p>{btn("Download the checklist (PDF)", "https://www.tokyo-expat.com/japan-relocation-checklist.pdf")}</p>
 <p>I'm Alessandro. I live in Tokyo and I help foreigners settle in Japan. This checklist gathers everything I wish I had known before arriving: visa, residence card, housing without a guarantor, banking, health insurance.</p>
-<p>Over the next three weeks, I will send you five short emails about housing in Tokyo. They are useful even if you do everything yourself. One of them will also present my paid support: you will know what it is for, and you will never have to take it.</p>
+<p>Over the next three weeks, I will send you five short emails about housing in Tokyo. They are useful even if you do everything yourself. Two of them will also present my paid support: you will know what it is for, and you will never have to take it.</p>
 <p><strong>One question, if you have thirty seconds</strong>: what is blocking you most in your move right now? Reply in one sentence. I read everything myself.</p>
 <p>Talk soon,<br>Alessandro</p>
 """, "en"),
@@ -141,9 +146,10 @@ templates = [
 <p>Hi,</p>
 <p>Many people moving to Tokyo start looking for housing a few weeks before they leave. That is often too late.</p>
 <p>Homes that accept foreigners go within days, each rejected application costs a week, and between January and March, when all of Japan moves, competition is at its peak. People end up in overpriced temporary housing, or far from work, telling themselves they will move again later.</p>
-<p>What changes everything is having a complete application before viewing anything, and a list of homes you already know will accept your profile. That is exactly what I do for my clients: rental file ready in 48 hours, options confirmed before they are sent, lease explained in English.</p>
-<p>{btn("I want Alessandro to look at my situation", "https://www.tokyo-expat.com/en/contact")}</p>
-<p>One click is enough: I will offer you a free 30-minute call, and you will leave with a clear view even if you then do everything yourself.</p>
+<p>What changes everything is knowing, before you view anything, which homes will actually accept your situation and what each one will cost you in total. The advertised rent is almost never the total: fees, internet, the guarantor company and exit costs come on top.</p>
+<p>That is what my Housing Check gives you, in writing within 48 hours: what is open and closed to you, 3 to 5 real homes available on your dates with their total cost over your stay, the contract points to check before signing, and your timeline. It costs 15,000 yen, refunded if the report is late or if no home accepts your situation within your budget.</p>
+<p>{btn("See the Housing Check", DIAG_EN)}</p>
+<p>Not ready yet? Reply to this email with your dates and budget, and I will tell you what is realistic.</p>
 <p>Alessandro</p>
 """, "en"),
     },
@@ -181,10 +187,10 @@ templates = [
 <p>Je vous ai promis de vous présenter mon accompagnement. Voici les raisons qu'on me donne pour ne pas le prendre, et ce que j'y réponds honnêtement.</p>
 <p><strong>« Je peux le faire seul. »</strong> Souvent, oui. Si vous avez du temps, un budget souple et un peu de japonais, faites-le : les guides de ces emails suffisent. L'accompagnement sert quand le temps manque ou que les refus s'accumulent.</p>
 <p><strong>« Ce n'est pas encore le moment, je n'ai pas mes dates. »</strong> C'est justement le meilleur moment pour préparer le dossier : c'est lui qui fait gagner les semaines, pas la visite.</p>
-<p><strong>« Pourquoi pas une agence ? »</strong> Une agence est rémunérée quand une location est signée. Moi, je suis payé par vous seul, quel que soit le bien choisi : mon seul intérêt est que vous soyez bien logé. La location est signée avec une agence agréée ; mon rôle est le conseil et l'accompagnement, en français.</p>
-<p><strong>« Et si ça ne donne rien ? »</strong> Si je ne vous transmets aucune proposition de logement pendant la mission, vous êtes remboursé intégralement.</p>
-<p>Si votre situation entre dans ce cadre, parlons-en : 30 minutes, gratuit, sans engagement.</p>
-<p>{btn("Réserver un appel gratuit", "https://www.tokyo-expat.com/fr/contact")}</p>
+<p><strong>« L'agence, c'est gratuit. »</strong> Elle ne l'est qu'en apparence : elle est payée à la signature, en général un mois de loyer, et seulement si vous signez chez elle. Mon Diagnostic est payé par vous seul, et il compare aussi les logements où il n'y a aucun frais d'agence. La location reste signée avec une agence agréée ; mon rôle est le conseil, en français.</p>
+<p><strong>« Et si ça ne donne rien ? »</strong> Si le rapport n'arrive pas sous 48 heures, ou si aucun logement n'accepte votre situation dans votre budget, vous êtes remboursé intégralement.</p>
+<p>Concrètement : le Diagnostic logement coûte 15 000 ¥, tout se fait par écrit, sans appel. Si vous me confiez ensuite la suite jusqu'à la remise des clés, ces 15 000 ¥ sont déduits du forfait.</p>
+<p>{btn("Lancer mon Diagnostic logement", DIAG_FR)}</p>
 <p>Alessandro</p>
 """),
     },
@@ -222,10 +228,10 @@ templates = [
 <p>I promised to present my support. Here are the reasons people give me for not taking it, and my honest answer to each.</p>
 <p><strong>"I can do it myself."</strong> Often, yes. If you have time, a flexible budget and some Japanese, go for it: the guides in these emails are enough. Support is worth it when time is short or the rejections pile up.</p>
 <p><strong>"It's not the right time, I don't have my dates yet."</strong> That is exactly the best time to prepare your application: the file is what saves you weeks, not the viewing.</p>
-<p><strong>"Why not just use an agency?"</strong> An agency is paid when a lease is signed. I am paid by you alone, whatever home you choose: my only interest is that you are well housed. The lease is signed with a licensed agency; my role is advice and support, in English.</p>
-<p><strong>"What if it leads nowhere?"</strong> If I send you no housing option during the mission, you get a full refund.</p>
-<p>If that sounds like your situation, let's talk: 30 minutes, free, no obligation.</p>
-<p>{btn("Book a free call", "https://www.tokyo-expat.com/en/contact")}</p>
+<p><strong>"The agency is free."</strong> It only looks free: it is paid when you sign, usually one month's rent, and only if you sign through it. My Housing Check is paid by you alone, and it also compares homes with no agency fee at all. The lease is still signed with a licensed agency; my role is advice, in English.</p>
+<p><strong>"What if it leads nowhere?"</strong> If the report does not reach you within 48 hours, or if no home accepts your situation within your budget, you get a full refund.</p>
+<p>In practice: the Housing Check costs 15,000 yen, done entirely in writing, no call needed. If you then ask me to handle everything up to the keys, the 15,000 yen is deducted from that fee.</p>
+<p>{btn("Start my Housing Check", DIAG_EN)}</p>
 <p>Alessandro</p>
 """, "en"),
     },
