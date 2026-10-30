@@ -15,8 +15,8 @@
       "note": "1er canal ENTRANT. Deux ancres sur la page: une en texte, une en bouton.",
       "etat": "vivant",
       "premier_vu": "2026-09-14",
-      "dernier_vu": "2026-10-26",
-      "dernier_check": "2026-10-26",
+      "dernier_vu": "2026-10-30",
+      "dernier_check": "2026-10-30",
       "echecs_consecutifs": 0,
       "historique": []
     },
@@ -33,15 +33,15 @@
       "note": "MEME boite que cotoacademy.com: un seul domaine, un seul evenement. La page porte aussi notre tokyo-rent-map.png en hotlink, DANS un lien vers /en/data. Ne jamais renommer cet asset.",
       "etat": "vivant",
       "premier_vu": "2026-09-14",
-      "dernier_vu": "2026-10-26",
-      "dernier_check": "2026-10-26",
+      "dernier_vu": "2026-10-30",
+      "dernier_check": "2026-10-30",
       "echecs_consecutifs": 0,
       "historique": []
     },
     {
       "id": "expatarrivals-ward-guide",
       "domaine": "expatarrivals.com",
-      "page": "https://www.expatarrivals.com/asia-pacific/japan/tokyo/renting-tokyo-foreigner-ward-ward-guide-costs-and-neighbourhoods",
+      "page": "https://www.expatarrivals.com/article/renting-tokyo-foreigner-ward-ward-guide-costs-and-neighbourhoods",
       "cible": "tokyo-expat.com/en/data",
       "ancre_attendue": "",
       "type": "citation_editoriale",
@@ -49,12 +49,17 @@
       "contact_nom": "Daniel (Expat Arrivals)",
       "contact_email": "daniel@expatarrivals.com",
       "note": "Article contribue, lien dans la note de contributeur. Le 14/09 la page rendait HTTP 522 (Cloudflare): jamais relu par nous, etat inconnu, PAS une perte.",
-      "etat": "illisible",
-      "premier_vu": null,
-      "dernier_vu": null,
-      "dernier_check": "2026-10-26",
+      "etat": "vivant",
+      "premier_vu": "2026-10-30",
+      "dernier_vu": "2026-10-30",
+      "dernier_check": "2026-10-30",
       "echecs_consecutifs": 0,
-      "historique": []
+      "historique": [
+        {
+          "date": "2026-10-30",
+          "evenement": "URL changee par le site : https://www.expatarrivals.com/asia-pacific/japan/tokyo/renting-tokyo-foreigner-ward-ward-guide-costs-and-neighbourhoods -> nouvelle adresse (lien verifie dofollow vers /en/data)"
+        }
+      ]
     },
     {
       "id": "internationalschools-tokyo",
@@ -70,7 +75,7 @@
       "etat": "PERDU",
       "premier_vu": "2026-09-04",
       "dernier_vu": "2026-09-13",
-      "dernier_check": "2026-10-26",
+      "dernier_check": "2026-10-30",
       "echecs_consecutifs": 2,
       "historique": [
         {
@@ -104,7 +109,7 @@
       "etat": "attendu",
       "premier_vu": null,
       "dernier_vu": null,
-      "dernier_check": "2026-10-26",
+      "dernier_check": "2026-10-30",
       "echecs_consecutifs": 0,
       "historique": [
         {
@@ -113,12 +118,103 @@
           "detail": "Signalement envoye a Engin (perte de la section Tokyo + section renvoyee en PJ). Aucune relance prevue."
         }
       ]
+    },
+    {
+      "type": "citation_editoriale",
+      "acquis_le": "decouvert le 2026-10-30 (Ahrefs)",
+      "contact_nom": "",
+      "contact_email": "",
+      "etat": "vivant",
+      "premier_vu": "2026-10-30",
+      "dernier_vu": "2026-10-30",
+      "dernier_check": "2026-10-30",
+      "echecs_consecutifs": 0,
+      "historique": [],
+      "id": "mobal-minimum-wage",
+      "domaine": "mobal.com",
+      "page": "https://www.mobal.com/blog/travel-talk/minimum-wage-in-japan/",
+      "cible": "tokyo-expat.com/en/data",
+      "ancre_attendue": "",
+      "note": "DR 60 selon Ahrefs, dofollow, cite nos medianes de loyer (74 000 vs 140 000 Minato). Venu seul, aucun contact."
+    },
+    {
+      "type": "citation_editoriale",
+      "acquis_le": "decouvert le 2026-10-30 (Ahrefs)",
+      "contact_nom": "",
+      "contact_email": "",
+      "etat": "vivant",
+      "premier_vu": "2026-10-30",
+      "dernier_vu": "2026-10-30",
+      "dernier_check": "2026-10-30",
+      "echecs_consecutifs": 0,
+      "historique": [],
+      "id": "creativedrive-aio",
+      "domaine": "creative-drive.jp",
+      "page": "https://creative-drive.jp/column/1838/",
+      "cible": "tokyo-expat.com/en/blog/japan-health-insurance-expat-guide",
+      "ancre_attendue": "",
+      "note": "DR 34, site JP sur l'AIO/LLMO : cite notre guide assurance sante comme exemple. 5 liens, dofollow."
+    },
+    {
+      "type": "citation_editoriale",
+      "acquis_le": "decouvert le 2026-10-30 (Ahrefs)",
+      "contact_nom": "",
+      "contact_email": "",
+      "etat": "vivant",
+      "premier_vu": "2026-10-30",
+      "dernier_vu": "2026-10-30",
+      "dernier_check": "2026-10-30",
+      "echecs_consecutifs": 0,
+      "historique": [],
+      "id": "whytokyo-cheapest",
+      "domaine": "whytokyo.com",
+      "page": "https://whytokyo.com/tokyo_pages/cheapest_areas_tokyo.php",
+      "cible": "tokyo-expat.com/en/data",
+      "ancre_attendue": "",
+      "note": "DR 35, dofollow : « Tokyo Expat's station and ward rental data »."
+    },
+    {
+      "type": "citation_editoriale",
+      "acquis_le": "decouvert le 2026-10-30 (Ahrefs)",
+      "contact_nom": "",
+      "contact_email": "",
+      "etat": "vivant",
+      "premier_vu": "2026-10-30",
+      "dernier_vu": "2026-10-30",
+      "dernier_check": "2026-10-30",
+      "echecs_consecutifs": 0,
+      "historique": [],
+      "id": "japanheya-ur",
+      "domaine": "japanheya.com",
+      "page": "https://www.japanheya.com/blog/what-is-ur-housing-government-housing-in-japan-foreigners-can-rent",
+      "cible": "tokyo-expat.com/en/blog/ur-housing-tokyo-foreigners",
+      "ancre_attendue": "",
+      "note": "DR faible, dofollow, 3 liens vers notre guide UR."
+    },
+    {
+      "type": "citation_editoriale",
+      "acquis_le": "decouvert le 2026-10-30 (Ahrefs)",
+      "contact_nom": "",
+      "contact_email": "",
+      "etat": "vivant",
+      "premier_vu": "2026-10-30",
+      "dernier_vu": "2026-10-30",
+      "dernier_check": "2026-10-30",
+      "echecs_consecutifs": 0,
+      "historique": [],
+      "id": "livinginjyonan-nhi",
+      "domaine": "livinginjyonan.com",
+      "page": "https://livinginjyonan.com/japan-national-health-insurance-for-renters-what-expats-need/",
+      "cible": "tokyo-expat.com/en/blog/japan-health-insurance-expat-guide",
+      "ancre_attendue": "",
+      "note": "DR faible, dofollow, 5 liens."
     }
   ],
   "_sans_url_connue": {
     "_comment": "Vus par Bing Webmaster mais sans page identifiee, donc non surveillables. Ne pas les compter comme des citations gagnees.",
     "expat.com": "2 liens, annuaire rempli une fois en juin/juillet. Puits sec.",
     "bento.travel": "1 lien, agregateur qui liste sans qu'on demande. Vaut ~0.",
-    "dailytokyo.news": "ELUCIDE le 14/09: ferme de contenu IA (mention 'written by AI from the linked sources' en bas d'article), reseau dailynetwork.news. Home + article logement + article expat verifies: AUCUN lien vers nous, et leur article logement cite un CONCURRENT (theblueground.com). Ne pas compter comme domaine referent. 4 pages verifiees sur 138."
+    "dailytokyo.news": "MAJ 30/10 : ferme de contenu IA ; l'article du 03/07 lie MAINTENANT /en/data et le rent report, mais en NOFOLLOW. Ne pas compter comme citation gagnee. (Avant : aucun lien vu le 14/09.)",
+    "_bruit_30_10": "Vus par Ahrefs le 30/10, NON suivis : 7 pages bhs-links-rXXX.xyz (spam black hat, liens vers gaijin-house guide, non ouvertes volontairement) ; sitelike.org, gaijin.ink, ideachecker.net (agregateurs ou nofollow) ; bento.travel (dofollow mais agregateur, ~0)."
   }
 }
