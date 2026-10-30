@@ -409,7 +409,8 @@
       "commande": "python scripts/pilotage_hebdo.py",
       "fiche": "strategie/PLAN_ATTAQUE_2026_10.md (chantier E)",
       "actif": true,
-      "fait": false
+      "fait": true,
+      "fait_le": "2026-10-30"
     },
     {
       "id": "constat-pourquoi-leads-perdus",
