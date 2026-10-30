@@ -41,34 +41,34 @@ export default function ContactForm({ locale }: { locale: Locale }) {
   return (
     <>
       <div className="bg-[#0f2744] rounded-2xl p-8 mb-8 text-center">
+        {/* 30/10/2026 : l'appel gratuit de 30 min (Calendly) est remplace par le Diagnostic logement
+            (offre v3, sa decision : « remplace par diagnostic »). Le prix vit sur la page devis, pas ici. */}
         <p className="text-white/70 text-sm uppercase tracking-widest mb-2">
-          {locale === 'fr' ? 'Consultation gratuite' : 'Free consultation'}
+          {locale === 'fr' ? 'Diagnostic logement' : 'Housing Check'}
         </p>
         <h2 className="text-white text-2xl font-bold mb-3">
-          {locale === 'fr' ? 'Réservez votre appel de 30 min' : 'Book your 30-min call'}
+          {locale === 'fr' ? 'Sachez en 48 heures ce qui vous est vraiment ouvert' : 'Know within 48 hours what is really open to you'}
         </h2>
         <p className="text-white/70 text-sm mb-6">
           {locale === 'fr'
-            ? 'Je cadre votre projet avec vous : quartiers, budget, démarches. Gratuit, sans engagement.'
-            : 'I map out your project with you: wards, budget, next steps. Free, no obligation.'}
+            ? 'Par écrit, sans appel : les logements qui acceptent votre situation (visa, durée, sans garant) et ce que chacun vous coûtera au total sur tout votre séjour, avant de signer quoi que ce soit.'
+            : 'In writing, no call needed: the homes that accept your situation (visa, length of stay, no guarantor) and what each one will cost you in total over your stay, before you sign anything.'}
         </p>
         <a
-          href="https://calendly.com/contact-tokyo-expat/30min"
-          target="_blank"
-          rel="noopener noreferrer"
+          href={locale === 'fr' ? '/devis/diagnostic' : '/devis/diagnostic?locale=en'}
           onClick={() => {
             if (typeof window !== 'undefined' && typeof window.gtag === 'function') {
-              window.gtag('event', 'book_call_click', { source: 'contact_page', locale })
+              window.gtag('event', 'diagnostic_click', { source: 'contact_page', locale })
             }
           }}
           className="inline-block bg-[#e84141] hover:bg-[#ff6b6b] text-white px-8 py-3 rounded-xl font-bold transition-colors"
         >
-          {locale === 'fr' ? 'Réserver maintenant' : 'Book now'} &rarr;
+          {locale === 'fr' ? 'Voir le Diagnostic' : 'See the Housing Check'} &rarr;
         </a>
         <p className="text-white/50 text-xs mt-4">
           {locale === 'fr'
-            ? 'En français, anglais ou japonais · réponse personnelle sous 24h'
-            : 'In English, French or Japanese · personal reply within 24h'}
+            ? 'En français, anglais ou japonais · remboursé si le rapport arrive en retard'
+            : 'In English, French or Japanese · refunded if the report is late'}
         </p>
       </div>
 

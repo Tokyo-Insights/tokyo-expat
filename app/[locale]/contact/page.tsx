@@ -11,8 +11,8 @@ export async function generateMetadata({
   const altLocale = locale === 'fr' ? 'en' : 'fr'
   const title = locale === 'en' ? 'Contact — Tokyo Expat' : 'Contact — Tokyo Expat'
   const description = locale === 'en'
-    ? 'Contact Tokyo Expat for a free 30-minute consultation on finding housing in Tokyo. Share house, furnished apartment, family home.'
-    : 'Contactez Tokyo Expat pour une consultation gratuite de 30 minutes sur la recherche de logement à Tokyo.'
+    ? 'Contact Tokyo Expat about housing in Tokyo, or order a Housing Check: in writing within 48 hours, the homes that accept your situation and their total cost.'
+    : 'Contactez Tokyo Expat pour votre logement à Tokyo, ou commandez un Diagnostic logement : par écrit sous 48 heures, les logements qui acceptent votre situation et leur coût total.'
   return {
     title,
     description,
@@ -60,8 +60,8 @@ export default async function ContactPage({
     name: 'Contact - Tokyo Expat',
     url: `https://www.tokyo-expat.com/${locale}/contact`,
     description: locale === 'fr'
-      ? 'Contactez Tokyo Expat pour une consultation gratuite sur la recherche de logement à Tokyo.'
-      : 'Contact Tokyo Expat for a free consultation on finding housing in Tokyo.',
+      ? 'Contactez Tokyo Expat pour votre recherche de logement à Tokyo.'
+      : 'Contact Tokyo Expat about finding housing in Tokyo.',
     mainEntity: {
       '@type': 'Organization',
       name: 'Tokyo Expat',
@@ -72,15 +72,15 @@ export default async function ContactPage({
         contactType: 'customer service',
         email: 'contact@tokyo-expat.com',
         availableLanguage: ['French', 'English', 'Japanese'],
-        url: 'https://calendly.com/contact-tokyo-expat/30min',
+        url: `https://www.tokyo-expat.com/${locale}/contact`,
       },
     },
   }
 
   const titleText = locale === 'fr' ? 'Contact' : 'Contact'
   const subtitleText = locale === 'fr'
-    ? 'Une question sur votre projet à Tokyo ? Écrivez-moi ou réservez un appel gratuit.'
-    : 'A question about your Tokyo project? Write to us or book a free call.'
+    ? 'Une question sur votre projet à Tokyo ? Écrivez-moi, je réponds personnellement sous 24 heures.'
+    : 'A question about your Tokyo project? Write to me, I reply personally within 24 hours.'
 
   return (
     <div className="max-w-2xl mx-auto px-4 py-16">
