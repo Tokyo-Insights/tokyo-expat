@@ -62,8 +62,8 @@ const OFFERS: Record<string, OfferData> = {
       ],
     },
     steps: {
-      fr: ['Premier contact', 'Validation', 'Paiement', 'Rapport sous 48 h'],
-      en: ['First contact', 'Validation', 'Payment', 'Report within 48 h'],
+      fr: ['Votre demande', 'Votre offre', 'Paiement', 'Rapport sous 48 h'],
+      en: ['Your request', 'Your offer', 'Payment', 'Report within 48 h'],
     },
     faq: {
       fr: [
@@ -340,10 +340,10 @@ export default async function DevisPage({
       proposed: 'Proposition pour',
       valid: 'Valable 30 jours',
       included: 'Ce qui est inclus',
-      price_label: 'Total TTC',
+      price_label: 'Total',
       pay_btn: 'Payer en ligne',
       pay_sub: 'Paiement sécurisé',
-      contact_title: 'Votre chasseur immobilier',
+      contact_title: 'Votre conseiller logement',
       contact_sub: 'Disponible pour toute question',
       faq_title: 'Questions fréquentes',
       starts: 'La recherche commence dès réception du paiement.',
@@ -363,7 +363,7 @@ export default async function DevisPage({
       price_label: 'Total',
       pay_btn: 'Pay securely',
       pay_sub: 'Secure payment',
-      contact_title: 'Your property hunter',
+      contact_title: 'Your housing advisor',
       contact_sub: 'Available for any questions',
       faq_title: 'Frequently asked questions',
       starts: 'The search begins as soon as payment is received.',
