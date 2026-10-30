@@ -7,14 +7,107 @@ export const metadata: Metadata = {
   robots: { index: false, follow: false },
 }
 
+type Bilingual<T> = { fr: T; en: T }
+
 type OfferData = {
-  title: { fr: string; en: string }
+  title: Bilingual<string>
   price: number
-  description: { fr: string; en: string }
-  included: { fr: string[]; en: string[] }
+  // Par defaut EUR. Le Diagnostic (offre v3 du 28/10/2026) est le seul en yen.
+  currency?: 'EUR' | 'JPY'
+  // Lien de paiement permanent de l'offre ; un ?stripe= passe dans l'URL reste prioritaire.
+  payUrl?: string
+  description: Bilingual<string>
+  included: Bilingual<string[]>
+  steps?: Bilingual<string[]>
+  faq?: Bilingual<{ q: string; a: string }[]>
+  badges?: Bilingual<string[]>
+}
+
+function formatPrice(price: number, currency: 'EUR' | 'JPY', lang: 'fr' | 'en') {
+  if (currency === 'JPY') {
+    return lang === 'fr'
+      ? `${price.toLocaleString('fr-FR').replace(/\s/g, ' ')} ¥`
+      : `¥${price.toLocaleString('en-US')}`
+  }
+  return `${price}€`
 }
 
 const OFFERS: Record<string, OfferData> = {
+  // Offre v3 (strategie/offre_particuliers_v3_2026_10.md) : livrable ecrit, sans appel,
+  // aucun volet qui peut creer un litige (caution, restitution, negociation).
+  diagnostic: {
+    title: { fr: 'Diagnostic logement', en: 'Housing Check' },
+    price: 15000,
+    currency: 'JPY',
+    // Lien Wise reutilisable cree par Alessandro le 30/10/2026 (15 000 JPY, « Diagnostic logement Tokyo »).
+    payUrl: 'https://wise.com/pay/r/ui8YPn2qRR_yN-U',
+    description: {
+      fr: "En 48 heures et par écrit, je vous dis quels logements de Tokyo acceptent vraiment votre situation (visa, durée, sans garant) et ce que chacun vous coûtera au total sur tout votre séjour, avant que vous signiez quoi que ce soit.",
+      en: "Within 48 hours, in writing: which Tokyo homes will actually accept your situation (visa, length of stay, no guarantor), and what each one will really cost you over your whole stay, before you sign anything.",
+    },
+    included: {
+      fr: [
+        "Ce qui vous est ouvert et ce qui vous est fermé (share house, meublé au mois, bail classique avec société de garantie), et pourquoi",
+        "3 à 5 logements réels disponibles à vos dates, avec pour chacun le coût total sur la durée du séjour (entrée, mois, sortie anticipée)",
+        "Pour chacun, les clauses du contrat à vérifier avant de signer",
+        "Votre calendrier : préavis du logement actuel, période où partent les bons logements",
+        "Entièrement par écrit, sous 48 heures, sans appel nécessaire",
+      ],
+      en: [
+        "What is open to you and what is closed (share house, monthly furnished, standard lease with a guarantor company), and why",
+        "3 to 5 real homes available on your dates, each with its total cost over your stay (move-in, monthly, early exit)",
+        "For each one, the contract points to check before signing",
+        "Your timeline: notice on your current home, and when the good homes go",
+        "Entirely in writing, within 48 hours, no call needed",
+      ],
+    },
+    steps: {
+      fr: ['Premier contact', 'Validation', 'Paiement', 'Rapport sous 48 h'],
+      en: ['First contact', 'Validation', 'Payment', 'Report within 48 h'],
+    },
+    faq: {
+      fr: [
+        {
+          q: "Y aura-t-il des frais supplémentaires ?",
+          a: "Non : 15 000 ¥ est le seul montant. Si vous me confiez ensuite l'accompagnement jusqu'à la remise des clés, ces 15 000 ¥ sont déduits du forfait. Les frais du logement lui-même (dépôt, premier loyer, frais d'agence, société de garantie) se règlent au propriétaire ou à l'agence et ne passent jamais par moi ; le rapport les chiffre pour chaque logement.",
+        },
+        {
+          q: "Que se passe-t-il après le paiement ?",
+          a: "Répondez simplement à mon email avec votre gare de travail ou d'études et vos dates. Le rapport écrit vous parvient sous 48 heures.",
+        },
+        {
+          q: "Est-ce remboursable ?",
+          a: "Oui, intégralement, si le rapport n'arrive pas sous 48 heures, ou si aucun logement n'accepte votre situation dans votre budget.",
+        },
+        {
+          q: "Pourquoi payer alors que l'agence est gratuite ?",
+          a: "L'agence n'est gratuite qu'en apparence : elle est payée à la signature, en général un mois de loyer, et seulement si vous signez chez elle. Le Diagnostic est payé par vous seul, et il compare aussi les logements où il n'y a aucun frais d'agence.",
+        },
+      ],
+      en: [
+        {
+          q: "Will there be any additional fees?",
+          a: "No: 15,000 yen is the only amount. If you then ask me to handle everything up to the keys, the 15,000 yen is deducted from that fee. The property's own costs (deposit, first rent, agency fee, guarantor company) are paid to the landlord or the agency and never pass through me; the report prices them for each home.",
+        },
+        {
+          q: "What happens after payment?",
+          a: "Just reply to my email with your work or study station and your dates. The written report reaches you within 48 hours.",
+        },
+        {
+          q: "Is it refundable?",
+          a: "Yes, in full, if the report does not reach you within 48 hours, or if no home accepts your situation within your budget.",
+        },
+        {
+          q: "Why pay when the agency is free?",
+          a: "The agency only looks free: it is paid when you sign, usually one month's rent, and only if you sign through it. The Housing Check is paid by you alone, and it also compares homes with no agency fee at all.",
+        },
+      ],
+    },
+    badges: {
+      fr: ['Remboursé si le rapport arrive en retard', 'Service FR / EN / JP', 'Déduit du forfait si vous continuez'],
+      en: ['Refunded if the report is late', 'FR / EN / JP service', 'Deducted if you continue with me'],
+    },
+  },
   'share-house-1p': {
     title: { fr: 'Share House — 1 Personne', en: 'Share House — 1 Person' },
     price: 250,
@@ -236,8 +329,10 @@ export default async function DevisPage({
 
   const lang = (locale === 'en' ? 'en' : 'fr') as 'fr' | 'en'
   const clientName = name ?? (lang === 'fr' ? 'vous' : 'you')
-  const steps = STEPS[lang]
-  const faq = FAQ[lang]
+  const steps = (offerData.steps ?? STEPS)[lang]
+  const faq = (offerData.faq ?? FAQ)[lang]
+  const payUrl = stripe ?? offerData.payUrl
+  const isDiagnostic = offer === 'diagnostic'
 
   const labels = {
     fr: {
@@ -279,6 +374,11 @@ export default async function DevisPage({
   }
 
   const t = labels[lang]
+  const badges = offerData.badges?.[lang] ?? [t.google, t.bilingual, t.no_extra]
+  // Le Diagnostic ne lance pas une recherche mais un rapport ecrit.
+  const starts = isDiagnostic
+    ? (lang === 'fr' ? 'Le rapport écrit vous parvient sous 48 heures après le paiement.' : 'The written report reaches you within 48 hours of payment.')
+    : t.starts
 
   return (
     <div className="min-h-screen bg-gray-50" style={{ fontFamily: 'system-ui, sans-serif' }}>
@@ -368,12 +468,12 @@ export default async function DevisPage({
           {/* Price card */}
           <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
             <p className="text-xs text-gray-400 uppercase tracking-widest mb-1">{t.price_label}</p>
-            <p className="text-4xl font-extrabold text-[#0f2744] mb-1">{offerData.price}€</p>
-            <p className="text-xs text-gray-400 mb-6">{t.starts}</p>
+            <p className="text-4xl font-extrabold text-[#0f2744] mb-1">{formatPrice(offerData.price, offerData.currency ?? 'EUR', lang)}</p>
+            <p className="text-xs text-gray-400 mb-6">{starts}</p>
 
-            {stripe ? (
+            {payUrl ? (
               <a
-                href={stripe}
+                href={payUrl}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block w-full text-center bg-[#e84141] hover:bg-[#ff6b6b] text-white px-6 py-3 rounded-xl font-bold transition-colors mb-2"
@@ -389,7 +489,7 @@ export default async function DevisPage({
 
             {/* Trust badges */}
             <div className="mt-6 flex flex-col gap-2 border-t border-gray-100 pt-5">
-              {[t.google, t.bilingual, t.no_extra].map((badge, i) => (
+              {badges.map((badge, i) => (
                 <div key={i} className="flex items-center gap-2 text-xs text-gray-500">
                   <span className="text-green-500">✓</span>
                   {badge}
